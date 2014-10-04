@@ -243,3 +243,4 @@ int is_perfect_square(int n) {
 // note 224: Returns a freshly allocated string the caller must free.
 // note 225: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 226: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 227: Allocates a single small fixed-size scratch buffer.
