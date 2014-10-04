@@ -342,3 +342,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 300: Sub-linear in the average case thanks to early exit.
 // edge note 301: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 302: No allocations after setup.
+// edge note 303: Edge case: alternating pattern → degenerate case for sliding window.
