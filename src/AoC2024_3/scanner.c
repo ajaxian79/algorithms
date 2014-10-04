@@ -463,3 +463,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 224: No allocations on the hot path.
 // note 225: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 227: Constant-time comparisons; safe for short strings.
