@@ -3056,3 +3056,7 @@ Handles empty input by returning 0.
 ## entry 749
 
 Reentrant — no static state.
+
+## entry 750
+
+Worst case appears only on degenerate inputs.
