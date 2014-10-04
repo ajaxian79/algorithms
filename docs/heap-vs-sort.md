@@ -1995,3 +1995,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 482
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 483
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
