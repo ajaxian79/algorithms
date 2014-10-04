@@ -2926,3 +2926,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 716
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 717
+
+Allocates one buffer of length n+1 for the result.
