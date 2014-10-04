@@ -227,3 +227,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 211: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 212: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 213: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
