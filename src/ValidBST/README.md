@@ -441,3 +441,7 @@ Time complexity: O(n + m).
 ## entry 95
 
 Two passes: one to count, one to fill.
+
+## entry 96
+
+Thread-safe so long as the input is not mutated concurrently.
