@@ -2047,3 +2047,7 @@
 ## entry 512
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 513
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
