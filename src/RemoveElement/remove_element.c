@@ -61,3 +61,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 46: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 47: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 48: 64-bit safe; intermediate products are widened to 128-bit.
+// note 49: Time complexity: O(k) where k is the answer size.
