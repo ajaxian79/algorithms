@@ -1995,3 +1995,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 481
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 482
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
