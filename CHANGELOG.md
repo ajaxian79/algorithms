@@ -112035,3 +112035,7 @@
 ## entry 28009
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 28010
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
