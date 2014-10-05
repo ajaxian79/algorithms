@@ -3052,3 +3052,7 @@ Stable when the input is already sorted.
 ## entry 748
 
 Handles empty input by returning 0.
+
+## entry 749
+
+Reentrant — no static state.
