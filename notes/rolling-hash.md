@@ -2143,3 +2143,7 @@
 ## entry 518
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 519
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
