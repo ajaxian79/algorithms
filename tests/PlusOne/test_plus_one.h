@@ -309,3 +309,4 @@ MunitTest plus_one_tests[] = {
 // edge note 244: Space complexity: O(log n) for the recursion stack.
 // edge note 245: Space complexity: O(log n) for the recursion stack.
 // edge note 246: 32-bit safe; overflow is checked at each step.
+// edge note 247: Linear in n; the constant factor is small.
