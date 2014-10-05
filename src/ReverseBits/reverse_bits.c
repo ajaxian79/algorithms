@@ -269,3 +269,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 256: Treats the input as immutable.
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 258: Treats the input as immutable.
