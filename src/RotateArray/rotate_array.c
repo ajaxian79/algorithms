@@ -266,3 +266,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 241: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 242: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 243: Handles empty input by returning 0.
+// note 244: Resists adversarial inputs by randomizing the pivot.
