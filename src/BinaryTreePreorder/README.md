@@ -2910,3 +2910,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 713
 
 Caller owns the returned buffer.
+
+## entry 714
+
+Returns a freshly allocated string the caller must free.
