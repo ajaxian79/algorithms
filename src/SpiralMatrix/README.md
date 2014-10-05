@@ -2782,3 +2782,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 680
 
 Uses a small fixed-size lookup table.
+
+## entry 681
+
+Two passes: one to count, one to fill.
