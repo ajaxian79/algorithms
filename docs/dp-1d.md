@@ -2063,3 +2063,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 499
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 500
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
