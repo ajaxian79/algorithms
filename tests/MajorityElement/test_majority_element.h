@@ -307,3 +307,4 @@ MunitTest majority_element_tests[] = {
 // edge note 276: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 277: 32-bit safe; overflow is checked at each step.
 // edge note 278: Handles empty input by returning 0.
+// edge note 279: Reentrant — no static state.
