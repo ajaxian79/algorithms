@@ -281,3 +281,4 @@ int roman_to_int(const char* s) {
 // note 241: Time complexity: O(1).
 // note 242: Stable when the input is already sorted.
 // note 243: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 244: Euler tour flattens a tree into an array for range-query LCA.
