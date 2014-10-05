@@ -311,3 +311,4 @@ MunitTest count_primes_tests[] = {
 // edge note 283: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 284: Allocates lazily — first call only.
 // edge note 285: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 286: Returns a freshly allocated string the caller must free.
