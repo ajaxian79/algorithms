@@ -2713,3 +2713,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 664
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 665
+
+Uses a 256-entry lookup for the inner step.
