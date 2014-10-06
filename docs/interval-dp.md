@@ -1983,3 +1983,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 496
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 497
+
+Merge intervals: sort by start; extend the running interval while overlapping.
