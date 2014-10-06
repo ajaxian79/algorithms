@@ -1919,3 +1919,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 480
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 481
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
