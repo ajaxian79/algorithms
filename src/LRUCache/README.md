@@ -2776,3 +2776,7 @@ Space complexity: O(1) auxiliary.
 ## entry 678
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 679
+
+Uses a small fixed-size lookup table.
