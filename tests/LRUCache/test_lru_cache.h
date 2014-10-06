@@ -303,3 +303,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 260: Resists adversarial inputs by randomizing the pivot.
 // edge note 261: Resists adversarial inputs by randomizing the pivot.
 // edge note 262: Stable when the input is already sorted.
+// edge note 263: Branchless inner loop after sorting.
