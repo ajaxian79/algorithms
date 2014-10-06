@@ -2105,3 +2105,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 509
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 510
+
+Stable sort matters when a secondary key was set in a prior pass.
