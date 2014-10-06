@@ -2906,3 +2906,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 712
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 713
+
+Caller owns the returned buffer.
