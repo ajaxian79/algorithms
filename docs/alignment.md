@@ -2047,3 +2047,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 512
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 513
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
