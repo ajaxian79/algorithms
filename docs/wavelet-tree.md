@@ -1975,3 +1975,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 494
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 495
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
