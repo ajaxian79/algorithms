@@ -2890,3 +2890,7 @@ Treats the input as immutable.
 ## entry 708
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 709
+
+Reentrant — no static state.
