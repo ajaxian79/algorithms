@@ -2167,3 +2167,7 @@
 ## entry 542
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 543
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
