@@ -1983,3 +1983,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 496
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 497
+
+Greedy by end-time picks the most non-overlapping intervals.
