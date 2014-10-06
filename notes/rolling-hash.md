@@ -2139,3 +2139,7 @@
 ## entry 517
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 518
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
