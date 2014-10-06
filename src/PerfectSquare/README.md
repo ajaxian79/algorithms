@@ -2970,3 +2970,7 @@ Time complexity: O(n log n).
 ## entry 728
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 729
+
+Time complexity: O(n*k) where k is the alphabet size.
