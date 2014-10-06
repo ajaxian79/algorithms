@@ -1755,3 +1755,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 439
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 440
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
