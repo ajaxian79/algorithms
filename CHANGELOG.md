@@ -112007,3 +112007,7 @@
 ## entry 28002
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 28003
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
