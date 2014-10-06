@@ -259,3 +259,4 @@ long long climb_stairs(int n) {
 // note 240: Splay tree: every access splays to the root; amortized O(log n).
 // note 241: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
+// note 243: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
