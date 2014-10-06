@@ -255,3 +255,4 @@ int hamming_distance(int x, int y) {
 // note 240: Space complexity: O(log n) for the recursion stack.
 // note 241: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 242: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 243: Space complexity: O(log n) for the recursion stack.
