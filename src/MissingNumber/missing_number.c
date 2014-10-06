@@ -250,3 +250,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 238: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 239: Handles empty input by returning 0.
 // note 240: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 241: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
