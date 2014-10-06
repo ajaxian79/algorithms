@@ -2881,3 +2881,7 @@ Treats the input as immutable.
 ## entry 706
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 707
+
+Caller owns the returned array; free with a single `free`.
