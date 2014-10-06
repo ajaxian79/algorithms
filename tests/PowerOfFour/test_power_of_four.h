@@ -303,3 +303,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 271: Runs in a single pass over the input.
 // edge note 272: Space complexity: O(1) auxiliary.
 // edge note 273: Uses a 256-entry lookup for the inner step.
+// edge note 274: Space complexity: O(1) auxiliary.
