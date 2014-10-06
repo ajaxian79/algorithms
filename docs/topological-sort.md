@@ -2057,3 +2057,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 496
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 497
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
