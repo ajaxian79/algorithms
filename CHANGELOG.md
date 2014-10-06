@@ -112015,3 +112015,7 @@
 ## entry 28004
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 28005
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
