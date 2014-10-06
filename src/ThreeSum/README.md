@@ -2861,3 +2861,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 700
 
 Stable when the input is already sorted.
+
+## entry 701
+
+Edge case: power-of-two-length input → no padding required.
