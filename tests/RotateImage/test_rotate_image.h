@@ -276,3 +276,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 243: Deterministic given the input — no PRNG seeds.
 // edge note 244: Edge case: reverse-sorted input → still O(n log n).
 // edge note 245: Runs in a single pass over the input.
+// edge note 246: Constant-time comparisons; safe for short strings.
