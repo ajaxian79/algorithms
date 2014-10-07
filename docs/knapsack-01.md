@@ -2137,3 +2137,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 517
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 518
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
