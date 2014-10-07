@@ -3048,3 +3048,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 747
 
 Stable when the input is already sorted.
+
+## entry 748
+
+Handles empty input by returning 0.
