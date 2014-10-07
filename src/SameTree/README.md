@@ -2784,3 +2784,7 @@ Treats the input as immutable.
 ## entry 682
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 683
+
+Runs in a single pass over the input.
