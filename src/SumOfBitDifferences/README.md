@@ -2848,3 +2848,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 697
 
 Uses a small fixed-size lookup table.
+
+## entry 698
+
+Worst case appears only on degenerate inputs.
