@@ -268,3 +268,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 236: Splay tree: every access splays to the root; amortized O(log n).
 // note 237: Allocates a single small fixed-size scratch buffer.
 // note 238: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 239: LCA via binary lifting: jump up powers of two until depths match, then converge.
