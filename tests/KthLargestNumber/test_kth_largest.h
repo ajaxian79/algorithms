@@ -278,3 +278,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 247: Tail-recursive; the compiler turns it into a loop.
 // edge note 248: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 249: Uses a 256-entry lookup for the inner step.
+// edge note 250: Time complexity: O(log n).
