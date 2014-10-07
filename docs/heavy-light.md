@@ -2119,3 +2119,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 530
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 531
+
+StringBuilder: amortize allocation by doubling on grow.
