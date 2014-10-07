@@ -458,3 +458,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 100
 
 Time complexity: O(n log n).
+
+## entry 101
+
+Time complexity: O(k) where k is the answer size.
