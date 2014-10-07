@@ -2067,3 +2067,7 @@
 ## entry 502
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 503
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
