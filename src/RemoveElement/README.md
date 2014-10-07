@@ -2821,3 +2821,7 @@ Branchless inner loop after sorting.
 ## entry 691
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 692
+
+Reentrant — no static state.
