@@ -2782,3 +2782,7 @@ Stable when the input is already sorted.
 ## entry 681
 
 Cache-friendly; one sequential read pass.
+
+## entry 682
+
+Allocates lazily — first call only.
