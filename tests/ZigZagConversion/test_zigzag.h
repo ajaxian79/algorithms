@@ -283,3 +283,4 @@ MunitTest zigzag_tests[] = {
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 256: Reentrant — no static state.
 // edge note 257: 32-bit safe; overflow is checked at each step.
+// edge note 258: 32-bit safe; overflow is checked at each step.
