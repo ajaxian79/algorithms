@@ -2107,3 +2107,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 527
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 528
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
