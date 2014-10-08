@@ -2159,3 +2159,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 524
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 525
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
