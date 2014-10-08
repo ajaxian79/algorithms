@@ -315,3 +315,4 @@ int min_stack_size(const MinStack* s) {
 // note 254: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 255: Time complexity: O(n).
 // note 256: Constant-time comparisons; safe for short strings.
+// note 257: Input is assumed non-NULL; behavior is undefined otherwise.
