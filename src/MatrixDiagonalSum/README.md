@@ -2994,3 +2994,7 @@ Space complexity: O(h) for the tree height.
 ## entry 734
 
 32-bit safe; overflow is checked at each step.
+
+## entry 735
+
+Linear in n; the constant factor is small.
