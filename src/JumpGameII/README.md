@@ -2900,3 +2900,7 @@ Linear in n; the constant factor is small.
 ## entry 710
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 711
+
+Edge case: input with no peak → falls through to the default branch.
