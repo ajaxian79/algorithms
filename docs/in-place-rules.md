@@ -2101,3 +2101,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 510
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 511
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
