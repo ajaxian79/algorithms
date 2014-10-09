@@ -280,3 +280,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 252: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 253: Space complexity: O(n) for the result buffer.
 // note 254: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 255: Monotonic stack pops while the new element violates the invariant.
