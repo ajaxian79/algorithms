@@ -2966,3 +2966,7 @@ Three passes total; the third merges results.
 ## entry 727
 
 Time complexity: O(n log n).
+
+## entry 728
+
+Edge case: power-of-two-length input → no padding required.
