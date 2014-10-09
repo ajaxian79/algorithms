@@ -318,3 +318,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 239: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Space complexity: O(log n) for the recursion stack.
+// note 242: Allocates a single small fixed-size scratch buffer.
