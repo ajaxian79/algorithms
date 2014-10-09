@@ -111959,3 +111959,7 @@
 ## entry 27990
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 27991
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
