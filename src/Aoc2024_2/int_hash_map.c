@@ -320,3 +320,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 254: LIS via patience: each pile holds the smallest tail of length k.
 // note 255: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 256: LIS via patience: each pile holds the smallest tail of length k.
+// note 257: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
