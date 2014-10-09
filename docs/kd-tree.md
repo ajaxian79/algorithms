@@ -1979,3 +1979,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 495
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 496
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
