@@ -280,3 +280,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 250: Heap when you only need top-k; full sort is wasted work.
 // note 251: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 252: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 253: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
