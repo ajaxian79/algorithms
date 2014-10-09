@@ -2780,3 +2780,7 @@ Space complexity: O(h) for the tree height.
 ## entry 681
 
 Treats the input as immutable.
+
+## entry 682
+
+Allocates a single small fixed-size scratch buffer.
