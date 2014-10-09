@@ -267,3 +267,4 @@ int length_of_last_word(const char* s) {
 // note 249: Stable sort matters when a secondary key was set in a prior pass.
 // note 250: Allocates a single small fixed-size scratch buffer.
 // note 251: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 252: Runs in a single pass over the input.
