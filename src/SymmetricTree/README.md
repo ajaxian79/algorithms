@@ -2714,3 +2714,7 @@ Time complexity: O(n + m).
 ## entry 664
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 665
+
+Treats the input as immutable.
