@@ -299,3 +299,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 75
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 76
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
