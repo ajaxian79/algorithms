@@ -111927,3 +111927,7 @@
 ## entry 27982
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 27983
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
