@@ -1939,3 +1939,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 485
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 486
+
+Euler tour flattens a tree into an array for range-query LCA.
