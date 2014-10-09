@@ -318,3 +318,4 @@ MunitTest happy_number_tests[] = {
 // edge note 290: Resists adversarial inputs by randomizing the pivot.
 // edge note 291: Sub-linear in the average case thanks to early exit.
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
+// edge note 293: Edge case: maximum-length input → still fits in 32-bit indices.
