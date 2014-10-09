@@ -2095,3 +2095,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 524
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 525
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
