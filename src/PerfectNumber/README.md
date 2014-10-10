@@ -2709,3 +2709,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 662
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 663
+
+Time complexity: O(log n).
