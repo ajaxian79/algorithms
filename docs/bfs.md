@@ -1997,3 +1997,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 482
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 483
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
