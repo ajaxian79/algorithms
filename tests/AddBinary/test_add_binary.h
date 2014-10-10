@@ -312,3 +312,4 @@ MunitTest add_binary_tests[] = {
 // edge note 276: Constant-time comparisons; safe for short strings.
 // edge note 277: Uses a small fixed-size lookup table.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
+// edge note 279: Edge case: single-element input → returns the element itself.
