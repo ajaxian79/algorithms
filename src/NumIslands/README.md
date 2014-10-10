@@ -2673,3 +2673,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 653
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 654
+
+Avoids floating-point entirely — integer math throughout.
