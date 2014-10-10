@@ -466,3 +466,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 102
 
 Handles negative inputs as documented above.
+
+## entry 103
+
+Space complexity: O(h) for the tree height.
