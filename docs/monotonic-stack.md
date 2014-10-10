@@ -1953,3 +1953,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 472
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 473
+
+Endianness matters when serializing multi-byte ints to a file or wire.
