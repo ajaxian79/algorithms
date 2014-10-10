@@ -336,3 +336,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 277: Treats the input as immutable.
 // edge note 278: Allocates a single small fixed-size scratch buffer.
 // edge note 279: Worst case appears only on degenerate inputs.
+// edge note 280: Edge case: empty input → returns 0.
