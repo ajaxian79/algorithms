@@ -351,3 +351,4 @@ MunitTest preorder_tests[] = {
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: No allocations after setup.
 // edge note 309: Edge case: all-equal input → linear-time fast path.
+// edge note 310: 32-bit safe; overflow is checked at each step.
