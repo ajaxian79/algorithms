@@ -111871,3 +111871,7 @@
 ## entry 27968
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 27969
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
