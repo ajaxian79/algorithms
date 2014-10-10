@@ -2670,3 +2670,7 @@ Vectorizes cleanly under -O2.
 ## entry 653
 
 Reentrant — no static state.
+
+## entry 654
+
+Cache-friendly; one sequential read pass.
