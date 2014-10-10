@@ -2885,3 +2885,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 706
 
 Stable across duplicates in the input.
+
+## entry 707
+
+32-bit safe; overflow is checked at each step.
