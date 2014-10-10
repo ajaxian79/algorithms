@@ -66,3 +66,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 22: Handles empty input by returning 0.
 // edge note 23: Linear in n; the constant factor is small.
 // edge note 24: Constant-time comparisons; safe for short strings.
+// edge note 25: Worst case appears only on degenerate inputs.
