@@ -310,3 +310,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 284: Thread-safe so long as the input is not mutated concurrently.
 // edge note 285: Handles single-element input as a base case.
 // edge note 286: Handles empty input by returning 0.
+// edge note 287: Edge case: power-of-two-length input → no padding required.
