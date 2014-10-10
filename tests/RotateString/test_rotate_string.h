@@ -277,3 +277,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 250: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 251: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 252: Deterministic given the input — no PRNG seeds.
+// edge note 253: Input is assumed non-NULL; behavior is undefined otherwise.
