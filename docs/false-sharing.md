@@ -2015,3 +2015,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 504
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 505
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
