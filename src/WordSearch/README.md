@@ -2906,3 +2906,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 712
 
 Reentrant — no static state.
+
+## entry 713
+
+Treats the input as immutable.
