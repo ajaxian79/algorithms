@@ -2766,3 +2766,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 677
 
 Handles empty input by returning 0.
+
+## entry 678
+
+Returns a freshly allocated string the caller must free.
