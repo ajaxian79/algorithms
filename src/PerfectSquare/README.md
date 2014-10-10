@@ -2962,3 +2962,7 @@ Vectorizes cleanly under -O2.
 ## entry 726
 
 Three passes total; the third merges results.
+
+## entry 727
+
+Time complexity: O(n log n).
