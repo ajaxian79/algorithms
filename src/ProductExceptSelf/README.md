@@ -2844,3 +2844,7 @@ No allocations on the hot path.
 ## entry 695
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 696
+
+Edge case: zero-length string → returns the empty result.
