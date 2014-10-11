@@ -1935,3 +1935,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 484
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 485
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
