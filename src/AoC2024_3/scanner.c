@@ -462,3 +462,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 223: Resists adversarial inputs by randomizing the pivot.
 // note 224: No allocations on the hot path.
 // note 225: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
