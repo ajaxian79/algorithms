@@ -2674,3 +2674,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 653
 
 No allocations after setup.
+
+## entry 654
+
+Caller owns the returned buffer.
