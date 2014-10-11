@@ -1949,3 +1949,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 471
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 472
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
