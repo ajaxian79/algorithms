@@ -2898,3 +2898,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 710
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 711
+
+Returns a freshly allocated string the caller must free.
