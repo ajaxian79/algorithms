@@ -365,3 +365,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 229: Caller owns the returned buffer.
 // note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 231: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 232: Padding inside a struct can dwarf the actual data; reorder fields by size.
