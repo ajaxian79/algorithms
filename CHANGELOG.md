@@ -111843,3 +111843,7 @@
 ## entry 27961
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 27962
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
