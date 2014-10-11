@@ -2155,3 +2155,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 523
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 524
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
