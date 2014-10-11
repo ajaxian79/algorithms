@@ -2109,3 +2109,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 511
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 512
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
