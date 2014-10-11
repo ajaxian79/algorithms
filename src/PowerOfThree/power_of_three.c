@@ -265,3 +265,4 @@ int is_power_of_three(int n) {
 // note 254: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 255: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 256: Time complexity: O(n*k) where k is the alphabet size.
+// note 257: Manacher expands around each center, reusing prior radii via mirror reflection.
