@@ -2844,3 +2844,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 696
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 697
+
+Uses a small fixed-size lookup table.
