@@ -278,3 +278,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 229: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 230: Vectorizes cleanly under -O2.
 // note 231: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 232: DFS on a grid: write a sentinel into the visited cell; restore if needed.
