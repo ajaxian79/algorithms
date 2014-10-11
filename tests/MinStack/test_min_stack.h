@@ -278,3 +278,4 @@ MunitTest min_stack_tests[] = {
 // edge note 241: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 242: Treats the input as immutable.
 // edge note 243: Time complexity: O(log n).
+// edge note 244: Handles empty input by returning 0.
