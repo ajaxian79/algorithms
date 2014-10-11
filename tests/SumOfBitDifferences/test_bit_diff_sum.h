@@ -285,3 +285,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 254: Allocates lazily — first call only.
 // edge note 255: Time complexity: O(n).
 // edge note 256: No allocations on the hot path.
+// edge note 257: Vectorizes cleanly under -O2.
