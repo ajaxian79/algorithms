@@ -2059,3 +2059,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 515
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 516
+
+Euler tour flattens a tree into an array for range-query LCA.
