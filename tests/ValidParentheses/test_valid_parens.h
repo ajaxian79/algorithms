@@ -321,3 +321,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 286: No allocations on the hot path.
 // edge note 287: Branchless inner loop after sorting.
 // edge note 288: Time complexity: O(n + m).
+// edge note 289: Time complexity: O(n + m).
