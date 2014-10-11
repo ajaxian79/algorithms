@@ -422,3 +422,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 90
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 91
+
+Edge case: maximum-length input → still fits in 32-bit indices.
