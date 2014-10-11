@@ -1983,3 +1983,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 481
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 482
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
