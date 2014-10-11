@@ -260,3 +260,4 @@ int my_sqrt(int n) {
 // note 239: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Avoids floating-point entirely — integer math throughout.
+// note 242: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
