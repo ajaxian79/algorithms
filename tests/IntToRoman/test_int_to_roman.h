@@ -313,3 +313,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 274: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 276: Avoids floating-point entirely — integer math throughout.
+// edge note 277: Allocates lazily — first call only.
