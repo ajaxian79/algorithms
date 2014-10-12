@@ -111807,3 +111807,7 @@
 ## entry 27952
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 27953
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
