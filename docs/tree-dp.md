@@ -295,3 +295,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 74
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 75
+
+Greedy by end-time picks the most non-overlapping intervals.
