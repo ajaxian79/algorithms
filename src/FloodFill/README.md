@@ -2877,3 +2877,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 705
 
 Treats the input as immutable.
+
+## entry 706
+
+Edge case: alternating pattern → degenerate case for sliding window.
