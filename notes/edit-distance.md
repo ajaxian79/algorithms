@@ -2021,3 +2021,7 @@
 ## entry 487
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 488
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
