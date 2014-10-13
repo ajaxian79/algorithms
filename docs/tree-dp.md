@@ -2123,3 +2123,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 531
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 532
+
+Euler tour flattens a tree into an array for range-query LCA.
