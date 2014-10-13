@@ -322,3 +322,4 @@ MunitTest add_strings_tests[] = {
 // edge note 286: Time complexity: O(n + m).
 // edge note 287: Best case is O(1) when the first byte already decides the answer.
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 289: Handles negative inputs as documented above.
