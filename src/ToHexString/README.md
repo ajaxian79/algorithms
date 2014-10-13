@@ -2699,3 +2699,7 @@ Worst case appears only on degenerate inputs.
 ## entry 660
 
 Vectorizes cleanly under -O2.
+
+## entry 661
+
+Avoids floating-point entirely — integer math throughout.
