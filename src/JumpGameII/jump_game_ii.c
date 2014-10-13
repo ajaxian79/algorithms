@@ -58,3 +58,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 39: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
