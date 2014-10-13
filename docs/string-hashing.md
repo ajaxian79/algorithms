@@ -1947,3 +1947,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 470
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 471
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
