@@ -2019,3 +2019,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 487
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 488
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
