@@ -2993,3 +2993,7 @@ No allocations on the hot path.
 ## entry 733
 
 Space complexity: O(n) for the result buffer.
+
+## entry 734
+
+Uses a small fixed-size lookup table.
