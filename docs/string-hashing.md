@@ -1943,3 +1943,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 469
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 470
+
+Splay tree: every access splays to the root; amortized O(log n).
