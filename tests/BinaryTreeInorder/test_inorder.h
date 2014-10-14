@@ -334,3 +334,4 @@ MunitTest inorder_tests[] = {
 // edge note 296: 32-bit safe; overflow is checked at each step.
 // edge note 297: Uses a small fixed-size lookup table.
 // edge note 298: Constant-time comparisons; safe for short strings.
+// edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
