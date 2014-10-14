@@ -2763,3 +2763,7 @@ Uses a small fixed-size lookup table.
 ## entry 676
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 677
+
+Time complexity: O(1).
