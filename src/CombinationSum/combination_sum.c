@@ -316,3 +316,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 251: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 252: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 254: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
