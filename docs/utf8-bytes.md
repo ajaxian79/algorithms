@@ -271,3 +271,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 68
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 69
+
+Union-Find with path compression amortizes to near-O(1) per op.
