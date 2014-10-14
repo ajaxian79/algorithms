@@ -2111,3 +2111,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 528
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 529
+
+State compression: bitmask + integer encodes a small subset cheaply.
