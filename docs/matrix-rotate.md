@@ -289,3 +289,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 56
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 57
+
+StringBuilder: amortize allocation by doubling on grow.
