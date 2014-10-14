@@ -2930,3 +2930,7 @@ Time complexity: O(n log n).
 ## entry 718
 
 Constant-time comparisons; safe for short strings.
+
+## entry 719
+
+Stable when the input is already sorted.
