@@ -2705,3 +2705,7 @@ Three passes total; the third merges results.
 ## entry 662
 
 Handles negative inputs as documented above.
+
+## entry 663
+
+Returns a freshly allocated string the caller must free.
