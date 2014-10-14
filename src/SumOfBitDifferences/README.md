@@ -2840,3 +2840,7 @@ Space complexity: O(1) auxiliary.
 ## entry 695
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 696
+
+Mutates the input in place; the original ordering is lost.
