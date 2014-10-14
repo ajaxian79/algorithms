@@ -2852,3 +2852,7 @@ Treats the input as immutable.
 ## entry 698
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 699
+
+Time complexity: O(n + m).
