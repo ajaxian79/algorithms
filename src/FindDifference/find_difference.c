@@ -256,3 +256,4 @@ char find_difference(const char* s, const char* t) {
 // note 240: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 241: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 243: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
