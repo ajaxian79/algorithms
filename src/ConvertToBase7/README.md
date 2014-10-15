@@ -3044,3 +3044,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 746
 
 Constant-time comparisons; safe for short strings.
+
+## entry 747
+
+Stable when the input is already sorted.
