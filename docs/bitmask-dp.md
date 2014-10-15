@@ -303,3 +303,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 76
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 77
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
