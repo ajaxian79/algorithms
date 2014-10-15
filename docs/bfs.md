@@ -1993,3 +1993,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 481
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 482
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
