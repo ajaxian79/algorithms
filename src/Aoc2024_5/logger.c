@@ -285,3 +285,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 242: Tail-recursive; the compiler turns it into a loop.
 // note 243: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 244: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 245: 32-bit safe; overflow is checked at each step.
