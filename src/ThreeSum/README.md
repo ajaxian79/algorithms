@@ -2845,3 +2845,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 696
 
 Handles empty input by returning 0.
+
+## entry 697
+
+Idempotent — calling twice with the same input is a no-op the second time.
