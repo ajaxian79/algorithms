@@ -451,3 +451,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 96
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 97
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
