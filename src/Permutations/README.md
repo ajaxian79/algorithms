@@ -3024,3 +3024,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 741
 
 Constant-time comparisons; safe for short strings.
+
+## entry 742
+
+Edge case: input with one duplicate → handled without an extra pass.
