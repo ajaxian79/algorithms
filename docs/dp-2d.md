@@ -2087,3 +2087,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 506
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 507
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
