@@ -65,3 +65,4 @@ int is_palindrome_number(int x) {
 // note 41: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 42: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 43: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 44: Returns a freshly allocated string the caller must free.
