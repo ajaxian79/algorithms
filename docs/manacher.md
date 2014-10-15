@@ -2167,3 +2167,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 525
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 526
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
