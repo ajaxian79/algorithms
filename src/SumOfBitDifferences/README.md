@@ -2836,3 +2836,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 694
 
 Space complexity: O(1) auxiliary.
+
+## entry 695
+
+Edge case: all-equal input → linear-time fast path.
