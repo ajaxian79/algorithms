@@ -1951,3 +1951,7 @@
 ## entry 488
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 489
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
