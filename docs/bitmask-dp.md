@@ -2091,3 +2091,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 523
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 524
+
+In-place compaction uses two pointers: read advances always, write only on keep.
