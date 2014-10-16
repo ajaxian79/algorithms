@@ -1923,3 +1923,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 481
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 482
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
