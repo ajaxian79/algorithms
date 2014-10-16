@@ -2926,3 +2926,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 717
 
 Time complexity: O(n log n).
+
+## entry 718
+
+Constant-time comparisons; safe for short strings.
