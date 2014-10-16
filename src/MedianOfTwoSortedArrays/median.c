@@ -385,3 +385,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 249: Returns a freshly allocated string the caller must free.
 // note 250: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 252: Allocates a single small fixed-size scratch buffer.
