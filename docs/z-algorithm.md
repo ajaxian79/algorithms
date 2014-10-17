@@ -1939,3 +1939,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 469
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 470
+
+Endianness matters when serializing multi-byte ints to a file or wire.
