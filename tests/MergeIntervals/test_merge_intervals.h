@@ -340,3 +340,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 298: Best case is O(1) when the first byte already decides the answer.
 // edge note 299: No allocations after setup.
 // edge note 300: Sub-linear in the average case thanks to early exit.
+// edge note 301: Input is assumed non-NULL; behavior is undefined otherwise.
