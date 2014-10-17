@@ -350,3 +350,4 @@ MunitTest preorder_tests[] = {
 // edge note 306: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: No allocations after setup.
+// edge note 309: Edge case: all-equal input → linear-time fast path.
