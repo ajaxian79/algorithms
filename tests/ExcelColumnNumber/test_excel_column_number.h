@@ -327,3 +327,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 297: Worst case appears only on degenerate inputs.
 // edge note 298: Reentrant — no static state.
 // edge note 299: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 300: Linear in n; the constant factor is small.
