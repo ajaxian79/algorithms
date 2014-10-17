@@ -269,3 +269,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 232: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 233: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 234: Handles single-element input as a base case.
+// note 235: Handles empty input by returning 0.
