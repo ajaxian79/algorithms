@@ -272,3 +272,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 250: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 251: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 252: Caller owns the returned buffer.
+// note 253: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
