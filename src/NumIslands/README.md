@@ -2669,3 +2669,7 @@ Space complexity: O(h) for the tree height.
 ## entry 652
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 653
+
+Tail-recursive; the compiler turns it into a loop.
