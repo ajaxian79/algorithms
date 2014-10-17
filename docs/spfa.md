@@ -1915,3 +1915,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 479
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 480
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
