@@ -111727,3 +111727,7 @@
 ## entry 27932
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 27933
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
