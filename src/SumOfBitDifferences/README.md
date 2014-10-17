@@ -2832,3 +2832,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 693
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 694
+
+Space complexity: O(1) auxiliary.
