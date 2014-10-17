@@ -2015,3 +2015,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 486
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 487
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
