@@ -2083,3 +2083,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 521
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 522
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
