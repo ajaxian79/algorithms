@@ -258,3 +258,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 237: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 238: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 239: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 240: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
