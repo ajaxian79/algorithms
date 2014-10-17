@@ -111695,3 +111695,7 @@
 ## entry 27924
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27925
+
+- LIS via patience: each pile holds the smallest tail of length k.
