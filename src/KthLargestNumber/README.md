@@ -2880,3 +2880,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 704
 
 Reentrant — no static state.
+
+## entry 705
+
+Space complexity: O(n) for the result buffer.
