@@ -2087,3 +2087,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 522
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 523
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
