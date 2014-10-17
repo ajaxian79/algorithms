@@ -2869,3 +2869,7 @@ Reentrant — no static state.
 ## entry 703
 
 Handles empty input by returning 0.
+
+## entry 704
+
+Constant-time comparisons; safe for short strings.
