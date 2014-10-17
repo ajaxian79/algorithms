@@ -111719,3 +111719,7 @@
 ## entry 27930
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 27931
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
