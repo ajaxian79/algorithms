@@ -1843,3 +1843,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 461
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 462
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
