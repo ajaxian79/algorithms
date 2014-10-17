@@ -2794,3 +2794,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 684
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 685
+
+Time complexity: O(1).
