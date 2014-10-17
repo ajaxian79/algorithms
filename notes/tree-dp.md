@@ -1879,3 +1879,7 @@
 ## entry 470
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 471
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
