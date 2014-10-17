@@ -2865,3 +2865,7 @@ Space complexity: O(1) auxiliary.
 ## entry 702
 
 Reentrant — no static state.
+
+## entry 703
+
+Handles empty input by returning 0.
