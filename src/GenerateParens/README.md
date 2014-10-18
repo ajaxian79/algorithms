@@ -2848,3 +2848,7 @@ Stable across duplicates in the input.
 ## entry 696
 
 Worst case appears only on degenerate inputs.
+
+## entry 697
+
+Edge case: all-equal input → linear-time fast path.
