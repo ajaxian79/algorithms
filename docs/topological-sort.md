@@ -389,3 +389,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 79
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 80
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
