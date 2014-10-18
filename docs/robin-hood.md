@@ -1935,3 +1935,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 484
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 485
+
+In-place compaction uses two pointers: read advances always, write only on keep.
