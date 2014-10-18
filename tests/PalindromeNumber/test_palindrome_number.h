@@ -322,3 +322,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 287: Mutates the input in place; the original ordering is lost.
 // edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 289: Branchless inner loop after sorting.
+// edge note 290: Best case is O(1) when the first byte already decides the answer.
