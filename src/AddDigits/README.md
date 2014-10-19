@@ -2844,3 +2844,7 @@ Treats the input as immutable.
 ## entry 696
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 697
+
+Treats the input as immutable.
