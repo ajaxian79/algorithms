@@ -111679,3 +111679,7 @@
 ## entry 27920
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 27921
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
