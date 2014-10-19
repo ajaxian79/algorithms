@@ -2691,3 +2691,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 658
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 659
+
+Worst case appears only on degenerate inputs.
