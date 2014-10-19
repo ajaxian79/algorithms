@@ -2984,3 +2984,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 731
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 732
+
+Resists adversarial inputs by randomizing the pivot.
