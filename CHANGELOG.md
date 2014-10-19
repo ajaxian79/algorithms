@@ -111631,3 +111631,7 @@
 ## entry 27908
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 27909
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
