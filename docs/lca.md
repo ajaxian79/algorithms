@@ -1963,3 +1963,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 491
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 492
+
+LIS via patience: each pile holds the smallest tail of length k.
