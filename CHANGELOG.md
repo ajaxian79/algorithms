@@ -111635,3 +111635,7 @@
 ## entry 27909
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 27910
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
