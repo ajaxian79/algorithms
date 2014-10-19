@@ -111671,3 +111671,7 @@
 ## entry 27918
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 27919
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
