@@ -263,3 +263,4 @@ int is_ugly(int n) {
 // note 249: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 250: Time complexity: O(1).
 // note 251: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 252: Articulation points: same DFS as bridges, with a slightly different test.
