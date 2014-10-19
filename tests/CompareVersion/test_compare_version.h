@@ -302,3 +302,4 @@ MunitTest compare_version_tests[] = {
 // edge note 275: Allocates one buffer of length n+1 for the result.
 // edge note 276: Cache-friendly; one sequential read pass.
 // edge note 277: Best case is O(1) when the first byte already decides the answer.
+// edge note 278: Edge case: integer-max input → guarded by the explicit overflow check.
