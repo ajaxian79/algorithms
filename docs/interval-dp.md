@@ -1979,3 +1979,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 495
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 496
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
