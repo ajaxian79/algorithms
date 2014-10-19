@@ -2079,3 +2079,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 520
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 521
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
