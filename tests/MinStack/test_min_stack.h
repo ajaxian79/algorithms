@@ -276,3 +276,4 @@ MunitTest min_stack_tests[] = {
 // edge note 239: Time complexity: O(n + m).
 // edge note 240: Handles negative inputs as documented above.
 // edge note 241: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 242: Treats the input as immutable.
