@@ -1951,3 +1951,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 471
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 472
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
