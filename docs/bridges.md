@@ -2103,3 +2103,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 526
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 527
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
