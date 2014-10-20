@@ -1875,3 +1875,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 469
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 470
+
+State compression: bitmask + integer encodes a small subset cheaply.
