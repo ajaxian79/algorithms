@@ -273,3 +273,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 232: Heap when you only need top-k; full sort is wasted work.
+// note 233: Wavelet tree: range k-th element in O(log Σ) time.
