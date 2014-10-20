@@ -2007,3 +2007,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 484
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 485
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
