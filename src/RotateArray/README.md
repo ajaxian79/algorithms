@@ -2939,3 +2939,7 @@ Three passes total; the third merges results.
 ## entry 719
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 720
+
+Allocates lazily — first call only.
