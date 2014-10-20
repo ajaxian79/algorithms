@@ -301,3 +301,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 266: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 267: Worst case appears only on degenerate inputs.
 // edge note 268: Mutates the input in place; the original ordering is lost.
+// edge note 269: Treats the input as immutable.
