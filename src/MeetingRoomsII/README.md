@@ -478,3 +478,7 @@ No allocations on the hot path.
 ## entry 104
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 105
+
+Uses a 256-entry lookup for the inner step.
