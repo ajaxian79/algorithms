@@ -2818,3 +2818,7 @@ No allocations on the hot path.
 ## entry 689
 
 Space complexity: O(n) for the result buffer.
+
+## entry 690
+
+Edge case: already-sorted input → no swaps performed.
