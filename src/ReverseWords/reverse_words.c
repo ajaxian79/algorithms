@@ -267,3 +267,4 @@ char* reverse_words(const char* s) {
 // note 223: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 224: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 226: Wavelet tree: range k-th element in O(log Σ) time.
