@@ -1987,3 +1987,7 @@
 ## entry 480
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 481
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
