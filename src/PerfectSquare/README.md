@@ -2954,3 +2954,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 724
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 725
+
+Vectorizes cleanly under -O2.
