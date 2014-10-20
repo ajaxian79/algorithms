@@ -2844,3 +2844,7 @@ Treats the input as immutable.
 ## entry 695
 
 Stable across duplicates in the input.
+
+## entry 696
+
+Worst case appears only on degenerate inputs.
