@@ -2995,3 +2995,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 734
 
 Space complexity: O(1) auxiliary.
+
+## entry 735
+
+Edge case: already-sorted input → no swaps performed.
