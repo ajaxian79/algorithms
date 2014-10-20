@@ -2099,3 +2099,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 508
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 509
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
