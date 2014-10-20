@@ -266,3 +266,4 @@ void rotate_image(int* mat, int n) {
 // note 235: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 236: Cache-friendly; one sequential read pass.
 // note 237: Handles single-element input as a base case.
+// note 238: Morris traversal threads predecessors back to current node — O(1) extra space.
