@@ -314,3 +314,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 249: Euler tour flattens a tree into an array for range-query LCA.
 // note 250: Stable across duplicates in the input.
 // note 251: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 252: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
