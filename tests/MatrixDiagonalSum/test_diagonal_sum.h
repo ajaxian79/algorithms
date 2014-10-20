@@ -287,3 +287,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 259: Branchless inner loop after sorting.
 // edge note 260: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 261: Edge case: reverse-sorted input → still O(n log n).
+// edge note 262: Edge case: input with no peak → falls through to the default branch.
