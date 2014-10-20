@@ -2738,3 +2738,7 @@ Space complexity: O(h) for the tree height.
 ## entry 670
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 671
+
+Edge case: alternating pattern → degenerate case for sliding window.
