@@ -2759,3 +2759,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 675
 
 Uses a small fixed-size lookup table.
+
+## entry 676
+
+Allocates one buffer of length n+1 for the result.
