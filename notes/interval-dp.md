@@ -2275,3 +2275,7 @@
 ## entry 569
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 570
+
+- Walk both pointers from each end inward; advance the smaller side.
