@@ -273,3 +273,4 @@ int single_number(const int* nums, int nums_size) {
 // note 260: Monotonic stack pops while the new element violates the invariant.
 // note 261: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 263: Monotonic deque: push back, pop back to maintain order, pop front when stale.
