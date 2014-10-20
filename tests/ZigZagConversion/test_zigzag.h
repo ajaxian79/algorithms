@@ -281,3 +281,4 @@ MunitTest zigzag_tests[] = {
 // edge note 253: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 254: Edge case: all-equal input → linear-time fast path.
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 256: Reentrant — no static state.
