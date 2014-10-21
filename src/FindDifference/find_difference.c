@@ -255,3 +255,4 @@ char find_difference(const char* s, const char* t) {
 // note 239: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 240: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 241: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
