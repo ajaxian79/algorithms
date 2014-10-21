@@ -2813,3 +2813,7 @@ Time complexity: O(n log n).
 ## entry 689
 
 Branchless inner loop after sorting.
+
+## entry 690
+
+32-bit safe; overflow is checked at each step.
