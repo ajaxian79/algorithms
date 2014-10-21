@@ -490,3 +490,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 107
 
 No allocations after setup.
+
+## entry 108
+
+Edge case: alternating pattern → degenerate case for sliding window.
