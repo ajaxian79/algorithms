@@ -3022,3 +3022,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 741
 
 Edge case: empty input → returns 0.
+
+## entry 742
+
+Caller owns the returned array; free with a single `free`.
