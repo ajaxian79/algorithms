@@ -2768,3 +2768,7 @@ No allocations after setup.
 ## entry 678
 
 Returns a freshly allocated string the caller must free.
+
+## entry 679
+
+No allocations after setup.
