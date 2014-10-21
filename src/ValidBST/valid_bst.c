@@ -257,3 +257,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 239: Stable sort matters when a secondary key was set in a prior pass.
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 242: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
