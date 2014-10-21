@@ -2015,3 +2015,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 486
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 487
+
+Endianness matters when serializing multi-byte ints to a file or wire.
