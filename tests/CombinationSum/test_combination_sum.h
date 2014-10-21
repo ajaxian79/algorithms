@@ -308,3 +308,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 264: Stable across duplicates in the input.
 // edge note 265: Time complexity: O(n + m).
 // edge note 266: Time complexity: O(k) where k is the answer size.
+// edge note 267: Time complexity: O(log n).
