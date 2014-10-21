@@ -2928,3 +2928,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 717
 
 Handles empty input by returning 0.
+
+## entry 718
+
+Vectorizes cleanly under -O2.
