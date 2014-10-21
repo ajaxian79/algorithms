@@ -2881,3 +2881,7 @@ Treats the input as immutable.
 ## entry 705
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 706
+
+Stable across duplicates in the input.
