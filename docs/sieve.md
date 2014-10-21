@@ -2095,3 +2095,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 507
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 508
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
