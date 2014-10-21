@@ -2782,3 +2782,7 @@ Worst case appears only on degenerate inputs.
 ## entry 680
 
 Handles single-element input as a base case.
+
+## entry 681
+
+Stable across duplicates in the input.
