@@ -2768,3 +2768,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 676
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 677
+
+Space complexity: O(1) auxiliary.
