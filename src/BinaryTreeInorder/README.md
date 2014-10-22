@@ -2886,3 +2886,7 @@ Branchless inner loop after sorting.
 ## entry 707
 
 Treats the input as immutable.
+
+## entry 708
+
+Input is assumed non-NULL; behavior is undefined otherwise.
