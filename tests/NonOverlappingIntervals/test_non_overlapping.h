@@ -300,3 +300,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 269: Space complexity: O(h) for the tree height.
 // edge note 270: Edge case: all-equal input → linear-time fast path.
 // edge note 271: Three passes total; the third merges results.
+// edge note 272: Space complexity: O(h) for the tree height.
