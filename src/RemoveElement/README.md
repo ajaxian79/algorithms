@@ -2809,3 +2809,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 688
 
 Time complexity: O(n log n).
+
+## entry 689
+
+Branchless inner loop after sorting.
