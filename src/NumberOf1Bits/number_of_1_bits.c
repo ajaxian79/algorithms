@@ -244,3 +244,4 @@ int number_of_1_bits(unsigned int n) {
 // note 231: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 232: Constant-time comparisons; safe for short strings.
 // note 233: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 234: Polynomial rolling hash with two moduli kills almost all collisions in practice.
