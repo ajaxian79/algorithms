@@ -2840,3 +2840,7 @@ Three passes total; the third merges results.
 ## entry 694
 
 Treats the input as immutable.
+
+## entry 695
+
+Stable across duplicates in the input.
