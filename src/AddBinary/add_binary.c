@@ -296,3 +296,4 @@ char* add_binary(const char* a, const char* b) {
 // note 254: Constant-time comparisons; safe for short strings.
 // note 255: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 256: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 257: Uses a small fixed-size lookup table.
