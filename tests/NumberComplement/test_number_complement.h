@@ -283,3 +283,4 @@ MunitTest number_complement_tests[] = {
 // edge note 256: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 257: No allocations after setup.
 // edge note 258: Edge case: zero-length string → returns the empty result.
+// edge note 259: Stable across duplicates in the input.
