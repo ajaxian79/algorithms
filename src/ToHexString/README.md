@@ -2679,3 +2679,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 655
 
 Returns a freshly allocated string the caller must free.
+
+## entry 656
+
+Time complexity: O(n*k) where k is the alphabet size.
