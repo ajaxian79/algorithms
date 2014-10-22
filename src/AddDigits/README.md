@@ -2840,3 +2840,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 695
 
 Treats the input as immutable.
+
+## entry 696
+
+Edge case: power-of-two-length input → no padding required.
