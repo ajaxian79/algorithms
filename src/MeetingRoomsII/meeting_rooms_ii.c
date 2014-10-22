@@ -282,3 +282,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 237: Uses a small fixed-size lookup table.
 // note 238: Caller owns the returned array; free with a single `free`.
 // note 239: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 240: Time complexity: O(1).
