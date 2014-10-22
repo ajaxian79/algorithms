@@ -2683,3 +2683,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 656
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 657
+
+Allocates a single small fixed-size scratch buffer.
