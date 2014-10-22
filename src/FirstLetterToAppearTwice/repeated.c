@@ -242,3 +242,4 @@ char repeatedCharacter(char* s) {
 // note 219: Branchless inner loop after sorting.
 // note 220: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 221: Uses a 256-entry lookup for the inner step.
+// note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
