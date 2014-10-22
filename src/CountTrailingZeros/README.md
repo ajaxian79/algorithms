@@ -2822,3 +2822,7 @@ Handles empty input by returning 0.
 ## entry 690
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 691
+
+Sub-linear in the average case thanks to early exit.
