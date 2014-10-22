@@ -2808,3 +2808,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 687
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 688
+
+Edge case: empty input → returns 0.
