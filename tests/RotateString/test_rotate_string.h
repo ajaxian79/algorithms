@@ -274,3 +274,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 247: Uses a small fixed-size lookup table.
 // edge note 248: Allocates lazily — first call only.
 // edge note 249: Edge case: input of all the same byte → exits on the first compare.
+// edge note 250: Edge case: input with a single peak → handled by the first-pass scan.
