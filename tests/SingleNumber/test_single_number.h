@@ -325,3 +325,4 @@ MunitTest single_number_tests[] = {
 // edge note 294: Edge case: input of all the same byte → exits on the first compare.
 // edge note 295: Time complexity: O(log n).
 // edge note 296: Three passes total; the third merges results.
+// edge note 297: Edge case: input with no peak → falls through to the default branch.
