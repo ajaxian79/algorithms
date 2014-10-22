@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 504
+
+- Splay tree: every access splays to the root; amortized O(log n).
