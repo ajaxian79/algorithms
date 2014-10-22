@@ -447,3 +447,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 96
 
 Vectorizes cleanly under -O2.
+
+## entry 97
+
+Sub-linear in the average case thanks to early exit.
