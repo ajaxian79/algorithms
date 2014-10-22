@@ -2898,3 +2898,7 @@ Uses a small fixed-size lookup table.
 ## entry 710
 
 Vectorizes cleanly under -O2.
+
+## entry 711
+
+Time complexity: O(k) where k is the answer size.
