@@ -2017,3 +2017,7 @@
 ## entry 486
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 487
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
