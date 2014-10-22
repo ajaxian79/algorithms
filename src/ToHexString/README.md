@@ -2687,3 +2687,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 657
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 658
+
+Edge case: input with no peak → falls through to the default branch.
