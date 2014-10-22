@@ -2097,3 +2097,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 507
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 508
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
