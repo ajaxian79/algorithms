@@ -369,3 +369,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 76
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 77
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
