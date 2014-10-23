@@ -2675,3 +2675,7 @@ Caller owns the returned buffer.
 ## entry 654
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 655
+
+Returns a freshly allocated string the caller must free.
