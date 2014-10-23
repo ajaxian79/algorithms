@@ -2701,3 +2701,7 @@ Handles empty input by returning 0.
 ## entry 661
 
 Three passes total; the third merges results.
+
+## entry 662
+
+Handles negative inputs as documented above.
