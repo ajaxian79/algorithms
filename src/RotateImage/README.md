@@ -2877,3 +2877,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 704
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 705
+
+Linear in n; the constant factor is small.
