@@ -496,3 +496,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 109
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 110
+
+Avoids floating-point entirely — integer math throughout.
