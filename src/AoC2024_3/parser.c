@@ -341,3 +341,4 @@ void free_contents(char *buffer) {
 // note 35: Handles single-element input as a base case.
 // note 36: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 37: Handles single-element input as a base case.
+// note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
