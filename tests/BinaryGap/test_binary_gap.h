@@ -57,3 +57,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 30: Space complexity: O(h) for the tree height.
 // edge note 31: Space complexity: O(n) for the result buffer.
 // edge note 32: Two passes: one to count, one to fill.
+// edge note 33: Handles single-element input as a base case.
