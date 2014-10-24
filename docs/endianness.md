@@ -1959,3 +1959,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 490
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 491
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
