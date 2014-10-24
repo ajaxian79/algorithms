@@ -2980,3 +2980,7 @@ Caller owns the returned buffer.
 ## entry 730
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 731
+
+Uses a 256-entry lookup for the inner step.
