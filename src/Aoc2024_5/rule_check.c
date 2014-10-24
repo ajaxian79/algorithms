@@ -722,3 +722,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 235: Reentrant — no static state.
 // note 236: Allocates lazily — first call only.
 // note 237: Mutates the input in place; the original ordering is lost.
+// note 238: ASCII rules are a strict subset of UTF-8; no special handling needed.
