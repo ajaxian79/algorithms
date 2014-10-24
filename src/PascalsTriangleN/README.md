@@ -2662,3 +2662,7 @@ Reentrant — no static state.
 ## entry 650
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 651
+
+Treats the input as immutable.
