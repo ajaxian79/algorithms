@@ -2698,3 +2698,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 660
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 661
+
+Edge case: NULL input is rejected by the caller, not by us.
