@@ -293,3 +293,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 264: Three passes total; the third merges results.
 // edge note 265: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 266: Time complexity: O(n).
+// edge note 267: Time complexity: O(1).
