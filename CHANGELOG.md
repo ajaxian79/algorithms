@@ -111523,3 +111523,7 @@
 ## entry 27881
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 27882
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
