@@ -60,3 +60,4 @@ MunitTest find_difference_tests[] = {
 // edge note 35: Edge case: all-equal input → linear-time fast path.
 // edge note 36: Edge case: all-equal input → linear-time fast path.
 // edge note 37: Reentrant — no static state.
+// edge note 38: Avoids floating-point entirely — integer math throughout.
