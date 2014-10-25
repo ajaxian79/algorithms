@@ -2155,3 +2155,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 522
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 523
+
+State compression: bitmask + integer encodes a small subset cheaply.
