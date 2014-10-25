@@ -277,3 +277,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 228: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 229: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 230: Vectorizes cleanly under -O2.
+// note 231: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
