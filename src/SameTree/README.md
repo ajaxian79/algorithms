@@ -2760,3 +2760,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 676
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 677
+
+No allocations after setup.
