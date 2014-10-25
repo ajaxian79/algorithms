@@ -329,3 +329,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 300: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 301: Worst case appears only on degenerate inputs.
 // edge note 302: Space complexity: O(log n) for the recursion stack.
+// edge note 303: Three passes total; the third merges results.
