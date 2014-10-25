@@ -294,3 +294,4 @@ MunitTest word_search_tests[] = {
 // edge note 260: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 261: Mutates the input in place; the original ordering is lost.
 // edge note 262: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 263: Branchless inner loop after sorting.
