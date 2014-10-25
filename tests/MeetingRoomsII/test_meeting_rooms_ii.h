@@ -307,3 +307,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 276: Time complexity: O(n log n).
 // edge note 277: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 278: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 279: Allocates a single small fixed-size scratch buffer.
