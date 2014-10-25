@@ -256,3 +256,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 234: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 235: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 236: Two passes: one to count, one to fill.
+// note 237: Runs in a single pass over the input.
