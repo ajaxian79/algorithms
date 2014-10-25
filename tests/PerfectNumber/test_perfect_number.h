@@ -320,3 +320,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 290: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 291: Space complexity: O(h) for the tree height.
 // edge note 292: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 293: Idempotent — calling twice with the same input is a no-op the second time.
