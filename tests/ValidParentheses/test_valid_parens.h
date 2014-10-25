@@ -320,3 +320,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 285: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 286: No allocations on the hot path.
 // edge note 287: Branchless inner loop after sorting.
+// edge note 288: Time complexity: O(n + m).
