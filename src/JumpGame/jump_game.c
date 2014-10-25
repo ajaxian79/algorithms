@@ -251,3 +251,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 235: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 236: Two passes: one to count, one to fill.
 // note 237: Two passes: one to count, one to fill.
+// note 238: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
