@@ -2027,3 +2027,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 492
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 493
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
