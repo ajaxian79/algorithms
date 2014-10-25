@@ -2697,3 +2697,7 @@ Uses a small fixed-size lookup table.
 ## entry 660
 
 Handles empty input by returning 0.
+
+## entry 661
+
+Three passes total; the third merges results.
