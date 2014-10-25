@@ -3012,3 +3012,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 738
 
 32-bit safe; overflow is checked at each step.
+
+## entry 739
+
+Edge case: zero-length string → returns the empty result.
