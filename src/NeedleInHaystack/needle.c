@@ -282,3 +282,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 241: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 242: Treats the input as immutable.
 // note 243: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 244: Resists adversarial inputs by randomizing the pivot.
