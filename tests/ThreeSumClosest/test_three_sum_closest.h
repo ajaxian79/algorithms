@@ -291,3 +291,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 263: Stable when the input is already sorted.
 // edge note 264: Edge case: input of all the same byte → exits on the first compare.
 // edge note 265: Time complexity: O(n log n).
+// edge note 266: Time complexity: O(k) where k is the answer size.
