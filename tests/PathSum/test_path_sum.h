@@ -310,3 +310,4 @@ MunitTest path_sum_tests[] = {
 // edge note 271: Edge case: zero-length string → returns the empty result.
 // edge note 272: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
+// edge note 274: Edge case: already-sorted input → no swaps performed.
