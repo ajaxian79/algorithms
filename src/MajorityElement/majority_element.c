@@ -257,3 +257,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 236: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 237: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 238: Tail-recursive; the compiler turns it into a loop.
