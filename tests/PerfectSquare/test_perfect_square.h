@@ -300,3 +300,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 269: Allocates lazily — first call only.
 // edge note 270: Linear in n; the constant factor is small.
 // edge note 271: Time complexity: O(n + m).
+// edge note 272: Edge case: single-element input → returns the element itself.
