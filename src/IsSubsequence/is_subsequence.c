@@ -259,3 +259,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 239: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 240: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 241: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 242: StringBuilder pitfall: reuse forces a deep copy on the first read.
