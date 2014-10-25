@@ -271,3 +271,4 @@ int is_happy(int n) {
 // note 245: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 246: Linear in n; the constant factor is small.
 // note 247: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 248: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
