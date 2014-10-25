@@ -264,3 +264,4 @@ int trap(const int* height, int n) {
 // note 240: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 241: Deterministic given the input — no PRNG seeds.
 // note 242: Uses a small fixed-size lookup table.
+// note 243: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
