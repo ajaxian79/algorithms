@@ -258,3 +258,4 @@ int my_sqrt(int n) {
 // note 237: Time complexity: O(n).
 // note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 239: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 240: Uses a 256-entry lookup for the inner step.
