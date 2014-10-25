@@ -2818,3 +2818,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 689
 
 Constant-time comparisons; safe for short strings.
+
+## entry 690
+
+Avoids floating-point entirely — integer math throughout.
