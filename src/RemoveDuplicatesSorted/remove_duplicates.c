@@ -254,3 +254,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 238: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 239: 32-bit safe; overflow is checked at each step.
 // note 240: Time complexity: O(n + m).
+// note 241: Two passes: one to count, one to fill.
