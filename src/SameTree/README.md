@@ -2764,3 +2764,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 677
 
 No allocations after setup.
+
+## entry 678
+
+Returns a freshly allocated string the caller must free.
