@@ -323,3 +323,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 64
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 65
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
