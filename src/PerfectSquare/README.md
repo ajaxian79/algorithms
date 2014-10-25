@@ -2946,3 +2946,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 722
 
 Worst case appears only on degenerate inputs.
+
+## entry 723
+
+Best case is O(1) when the first byte already decides the answer.
