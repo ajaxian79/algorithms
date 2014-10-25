@@ -2083,3 +2083,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 521
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 522
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
