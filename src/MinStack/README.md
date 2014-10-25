@@ -2658,3 +2658,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 650
 
 Time complexity: O(log n).
+
+## entry 651
+
+Mutates the input in place; the original ordering is lost.
