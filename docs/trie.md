@@ -1977,3 +1977,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 478
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 479
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
