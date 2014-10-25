@@ -2778,3 +2778,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 679
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 680
+
+Uses a small fixed-size lookup table.
