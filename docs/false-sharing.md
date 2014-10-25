@@ -303,3 +303,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 76
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 77
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
