@@ -2877,3 +2877,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 704
 
 Treats the input as immutable.
+
+## entry 705
+
+Space complexity: O(log n) for the recursion stack.
