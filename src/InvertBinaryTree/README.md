@@ -3016,3 +3016,7 @@ Handles single-element input as a base case.
 ## entry 739
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 740
+
+Linear in n; the constant factor is small.
