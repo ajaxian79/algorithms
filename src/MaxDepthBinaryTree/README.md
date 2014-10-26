@@ -2693,3 +2693,7 @@ Allocates lazily — first call only.
 ## entry 659
 
 Uses a small fixed-size lookup table.
+
+## entry 660
+
+Handles empty input by returning 0.
