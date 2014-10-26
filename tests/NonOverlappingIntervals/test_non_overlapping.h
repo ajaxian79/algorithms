@@ -298,3 +298,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 267: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 268: Uses a small fixed-size lookup table.
 // edge note 269: Space complexity: O(h) for the tree height.
+// edge note 270: Edge case: all-equal input → linear-time fast path.
