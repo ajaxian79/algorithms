@@ -278,3 +278,4 @@ int binary_gap(unsigned int n) {
 // note 258: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 259: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 260: Time complexity: O(n*k) where k is the alphabet size.
+// note 261: Time complexity: O(k) where k is the answer size.
