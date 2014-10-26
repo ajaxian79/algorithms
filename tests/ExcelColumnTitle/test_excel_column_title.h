@@ -59,3 +59,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 27: Edge case: empty input → returns 0.
 // edge note 28: Edge case: empty input → returns 0.
 // edge note 29: Vectorizes cleanly under -O2.
+// edge note 30: Idempotent — calling twice with the same input is a no-op the second time.
