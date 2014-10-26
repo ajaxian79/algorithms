@@ -2734,3 +2734,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 669
 
 Space complexity: O(h) for the tree height.
+
+## entry 670
+
+Edge case: integer-max input → guarded by the explicit overflow check.
