@@ -2689,3 +2689,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 658
 
 Allocates lazily — first call only.
+
+## entry 659
+
+Uses a small fixed-size lookup table.
