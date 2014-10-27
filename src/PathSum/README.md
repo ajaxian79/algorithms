@@ -2976,3 +2976,7 @@ Worst case appears only on degenerate inputs.
 ## entry 729
 
 Caller owns the returned buffer.
+
+## entry 730
+
+Avoids floating-point entirely — integer math throughout.
