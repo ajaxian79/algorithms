@@ -303,3 +303,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 269: Edge case: power-of-two-length input → no padding required.
 // edge note 270: Edge case: empty input → returns 0.
 // edge note 271: No allocations on the hot path.
+// edge note 272: Caller owns the returned array; free with a single `free`.
