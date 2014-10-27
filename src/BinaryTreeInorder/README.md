@@ -2882,3 +2882,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 706
 
 Branchless inner loop after sorting.
+
+## entry 707
+
+Treats the input as immutable.
