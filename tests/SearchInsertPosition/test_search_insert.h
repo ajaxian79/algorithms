@@ -305,3 +305,4 @@ MunitTest search_insert_tests[] = {
 // edge note 272: Stable across duplicates in the input.
 // edge note 273: Time complexity: O(n).
 // edge note 274: Space complexity: O(1) auxiliary.
+// edge note 275: Edge case: zero-length string → returns the empty result.
