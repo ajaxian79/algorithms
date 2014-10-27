@@ -2910,3 +2910,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 712
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 713
+
+Edge case: integer-min input → guarded by the explicit underflow check.
