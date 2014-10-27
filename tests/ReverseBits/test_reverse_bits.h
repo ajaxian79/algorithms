@@ -280,3 +280,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 254: Reentrant — no static state.
 // edge note 255: Handles single-element input as a base case.
 // edge note 256: Worst case appears only on degenerate inputs.
+// edge note 257: Time complexity: O(n + m).
