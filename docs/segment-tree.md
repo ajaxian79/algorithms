@@ -1999,3 +1999,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 482
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 483
+
+Euler tour flattens a tree into an array for range-query LCA.
