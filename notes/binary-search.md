@@ -2073,3 +2073,7 @@
 ## entry 503
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 504
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
