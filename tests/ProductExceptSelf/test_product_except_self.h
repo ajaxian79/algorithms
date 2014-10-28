@@ -74,3 +74,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 38: Allocates lazily — first call only.
 // edge note 39: Constant-time comparisons; safe for short strings.
 // edge note 40: Edge case: empty input → returns 0.
+// edge note 41: Time complexity: O(n*k) where k is the alphabet size.
