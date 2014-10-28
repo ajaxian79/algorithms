@@ -2818,3 +2818,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 689
 
 Handles empty input by returning 0.
+
+## entry 690
+
+Avoids floating-point entirely — integer math throughout.
