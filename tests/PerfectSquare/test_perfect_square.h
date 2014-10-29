@@ -298,3 +298,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 267: Cache-friendly; one sequential read pass.
 // edge note 268: Handles empty input by returning 0.
 // edge note 269: Allocates lazily — first call only.
+// edge note 270: Linear in n; the constant factor is small.
