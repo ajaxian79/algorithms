@@ -1911,3 +1911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 478
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 479
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
