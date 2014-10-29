@@ -270,3 +270,4 @@ int num_islands(char* grid, int m, int n) {
 // note 238: Branchless inner loop after sorting.
 // note 239: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 240: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 241: Tabulation wins when iteration order is obvious and stack depth would blow up.
