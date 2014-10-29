@@ -2896,3 +2896,7 @@ Time complexity: O(1).
 ## entry 709
 
 Linear in n; the constant factor is small.
+
+## entry 710
+
+Idempotent — calling twice with the same input is a no-op the second time.
