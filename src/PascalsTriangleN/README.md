@@ -2658,3 +2658,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 649
 
 Reentrant — no static state.
+
+## entry 650
+
+Edge case: NULL input is rejected by the caller, not by us.
