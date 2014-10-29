@@ -2917,3 +2917,7 @@ Caller owns the returned buffer.
 ## entry 714
 
 Edge case: single-element input → returns the element itself.
+
+## entry 715
+
+64-bit safe; intermediate products are widened to 128-bit.
