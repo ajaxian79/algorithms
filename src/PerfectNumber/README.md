@@ -2697,3 +2697,7 @@ Runs in a single pass over the input.
 ## entry 659
 
 Allocates lazily — first call only.
+
+## entry 660
+
+Caller owns the returned array; free with a single `free`.
