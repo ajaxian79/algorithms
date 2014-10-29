@@ -2774,3 +2774,7 @@ Edge case: empty input → returns 0.
 ## entry 679
 
 32-bit safe; overflow is checked at each step.
+
+## entry 680
+
+Stable when the input is already sorted.
