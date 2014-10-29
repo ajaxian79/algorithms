@@ -369,3 +369,4 @@ int get_next_result(Program* program) {
 // note 255: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 256: Allocates a single small fixed-size scratch buffer.
 // note 257: Time complexity: O(n*k) where k is the alphabet size.
+// note 258: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
