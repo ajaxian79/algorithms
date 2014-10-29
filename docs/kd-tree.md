@@ -1975,3 +1975,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 494
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 495
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
