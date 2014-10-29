@@ -319,3 +319,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 289: Uses a 256-entry lookup for the inner step.
 // edge note 290: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 291: Space complexity: O(h) for the tree height.
+// edge note 292: Edge case: alternating pattern → degenerate case for sliding window.
