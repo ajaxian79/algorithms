@@ -510,3 +510,7 @@ Two passes: one to count, one to fill.
 ## entry 113
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 114
+
+Time complexity: O(n).
