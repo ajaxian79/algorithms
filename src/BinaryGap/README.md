@@ -2906,3 +2906,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 711
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 712
+
+Caller owns the returned array; free with a single `free`.
