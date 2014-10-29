@@ -111435,3 +111435,7 @@
 ## entry 27859
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 27860
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
