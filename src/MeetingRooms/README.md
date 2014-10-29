@@ -2778,3 +2778,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 680
 
 Time complexity: O(log n).
+
+## entry 681
+
+Edge case: input of all the same byte → exits on the first compare.
