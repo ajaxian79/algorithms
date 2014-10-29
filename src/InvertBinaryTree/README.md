@@ -3012,3 +3012,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 738
 
 Handles single-element input as a base case.
+
+## entry 739
+
+Edge case: power-of-two-length input → no padding required.
