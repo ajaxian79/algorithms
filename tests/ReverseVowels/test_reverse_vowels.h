@@ -313,3 +313,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 274: Edge case: already-sorted input → no swaps performed.
 // edge note 275: Space complexity: O(n) for the result buffer.
 // edge note 276: Edge case: power-of-two-length input → no padding required.
+// edge note 277: Allocates lazily — first call only.
