@@ -2770,3 +2770,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 678
 
 Edge case: empty input → returns 0.
+
+## entry 679
+
+32-bit safe; overflow is checked at each step.
