@@ -2774,3 +2774,7 @@ No allocations after setup.
 ## entry 679
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 680
+
+Time complexity: O(log n).
