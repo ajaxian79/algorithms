@@ -2095,3 +2095,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 524
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 525
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
