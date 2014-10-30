@@ -2139,3 +2139,7 @@
 ## entry 518
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 519
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
