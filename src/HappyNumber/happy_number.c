@@ -270,3 +270,4 @@ int is_happy(int n) {
 // note 244: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 245: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 246: Linear in n; the constant factor is small.
+// note 247: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
