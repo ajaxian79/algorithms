@@ -308,3 +308,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 282: Edge case: zero-length string → returns the empty result.
 // edge note 283: Treats the input as immutable.
 // edge note 284: Thread-safe so long as the input is not mutated concurrently.
+// edge note 285: Handles single-element input as a base case.
