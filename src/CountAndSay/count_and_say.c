@@ -315,3 +315,4 @@ char* count_and_say(int n) {
 // note 266: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 267: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 268: Handles empty input by returning 0.
+// note 269: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
