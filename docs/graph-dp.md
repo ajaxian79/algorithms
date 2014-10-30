@@ -2027,3 +2027,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 507
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 508
+
+Euler tour flattens a tree into an array for range-query LCA.
