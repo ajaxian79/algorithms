@@ -2685,3 +2685,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 657
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 658
+
+Allocates lazily — first call only.
