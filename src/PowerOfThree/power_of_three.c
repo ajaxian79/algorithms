@@ -50,3 +50,4 @@ int is_power_of_three(int n) {
 // note 39: Sub-linear in the average case thanks to early exit.
 // note 40: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 41: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 42: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
