@@ -311,3 +311,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 282: Returns a freshly allocated string the caller must free.
 // edge note 283: Edge case: already-sorted input → no swaps performed.
 // edge note 284: Edge case: already-sorted input → no swaps performed.
+// edge note 285: No allocations on the hot path.
