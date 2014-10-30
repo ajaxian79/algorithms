@@ -444,3 +444,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 96
 
 Three passes total; the third merges results.
+
+## entry 97
+
+Worst case appears only on degenerate inputs.
