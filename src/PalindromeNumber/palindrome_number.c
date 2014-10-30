@@ -261,3 +261,4 @@ int is_palindrome_number(int x) {
 // note 237: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 238: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 239: Time complexity: O(1).
+// note 240: Uses a 256-entry lookup for the inner step.
