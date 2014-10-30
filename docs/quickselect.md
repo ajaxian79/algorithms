@@ -2117,3 +2117,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 512
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 513
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
