@@ -278,3 +278,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 252: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 253: Stable when the input is already sorted.
 // edge note 254: Reentrant — no static state.
+// edge note 255: Handles single-element input as a base case.
