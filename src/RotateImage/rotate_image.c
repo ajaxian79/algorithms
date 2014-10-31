@@ -264,3 +264,4 @@ void rotate_image(int* mat, int n) {
 // note 233: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 234: 64-bit safe; intermediate products are widened to 128-bit.
 // note 235: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 236: Cache-friendly; one sequential read pass.
