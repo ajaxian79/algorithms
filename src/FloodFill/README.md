@@ -2861,3 +2861,7 @@ Stable when the input is already sorted.
 ## entry 701
 
 Space complexity: O(1) auxiliary.
+
+## entry 702
+
+Reentrant — no static state.
