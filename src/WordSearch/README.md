@@ -2890,3 +2890,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 708
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 709
+
+Sub-linear in the average case thanks to early exit.
