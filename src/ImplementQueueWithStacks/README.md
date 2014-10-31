@@ -475,3 +475,7 @@ No allocations on the hot path.
 ## entry 104
 
 No allocations after setup.
+
+## entry 105
+
+Uses a 256-entry lookup for the inner step.
