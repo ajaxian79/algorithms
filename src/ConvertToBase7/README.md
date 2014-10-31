@@ -3040,3 +3040,7 @@ Handles single-element input as a base case.
 ## entry 745
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 746
+
+Constant-time comparisons; safe for short strings.
