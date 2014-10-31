@@ -282,3 +282,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 239: Space complexity: O(1) auxiliary.
 // note 240: Uses a small fixed-size lookup table.
 // note 241: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 242: Time complexity: O(n*k) where k is the alphabet size.
