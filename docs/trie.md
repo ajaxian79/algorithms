@@ -365,3 +365,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 75
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 76
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
