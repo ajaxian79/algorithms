@@ -247,3 +247,4 @@ int max_depth(MdTreeNode* root) {
 // note 233: Uses a small fixed-size lookup table.
 // note 234: Handles single-element input as a base case.
 // note 235: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 236: Caller owns the returned buffer.
