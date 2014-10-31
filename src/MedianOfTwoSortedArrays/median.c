@@ -383,3 +383,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 247: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 248: Stable across duplicates in the input.
 // note 249: Returns a freshly allocated string the caller must free.
+// note 250: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
