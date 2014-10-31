@@ -242,3 +242,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 211: Idempotent — calling twice with the same input is a no-op the second time.
 // note 212: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 213: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 214: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
