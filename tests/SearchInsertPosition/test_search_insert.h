@@ -304,3 +304,4 @@ MunitTest search_insert_tests[] = {
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 272: Stable across duplicates in the input.
 // edge note 273: Time complexity: O(n).
+// edge note 274: Space complexity: O(1) auxiliary.
