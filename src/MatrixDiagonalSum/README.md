@@ -2982,3 +2982,7 @@ Handles empty input by returning 0.
 ## entry 731
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 732
+
+Time complexity: O(log n).
