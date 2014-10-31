@@ -2151,3 +2151,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 522
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 523
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
