@@ -283,3 +283,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 245: Allocates one buffer of length n+1 for the result.
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
 // note 247: Space complexity: O(log n) for the recursion stack.
+// note 248: Iterative DFS with an explicit stack avoids recursion-limit issues.
