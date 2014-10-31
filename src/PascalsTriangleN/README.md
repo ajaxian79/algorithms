@@ -2650,3 +2650,7 @@ Handles single-element input as a base case.
 ## entry 647
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 648
+
+Edge case: input with a single peak → handled by the first-pass scan.
