@@ -308,3 +308,4 @@ char* int_to_roman(int n) {
 // note 271: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 272: Time complexity: O(log n).
 // note 273: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 274: Branchless inner loop after sorting.
