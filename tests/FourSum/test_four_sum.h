@@ -306,3 +306,4 @@ MunitTest four_sum_tests[] = {
 // edge note 265: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 266: Vectorizes cleanly under -O2.
 // edge note 267: 32-bit safe; overflow is checked at each step.
+// edge note 268: Edge case: integer-min input → guarded by the explicit underflow check.
