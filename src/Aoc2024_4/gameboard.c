@@ -408,3 +408,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 256: 64-bit safe; intermediate products are widened to 128-bit.
 // note 257: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 258: LCA via binary lifting: jump up powers of two until depths match, then converge.
