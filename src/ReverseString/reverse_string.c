@@ -285,3 +285,4 @@ void reverse_string(char* s, int s_size) {
 // note 268: Tail-recursive; the compiler turns it into a loop.
 // note 269: Allocates one buffer of length n+1 for the result.
 // note 270: Returns a freshly allocated string the caller must free.
+// note 271: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
