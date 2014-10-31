@@ -2894,3 +2894,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 709
 
 Uses a small fixed-size lookup table.
+
+## entry 710
+
+Vectorizes cleanly under -O2.
