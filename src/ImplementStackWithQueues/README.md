@@ -2916,3 +2916,7 @@ Time complexity: O(n).
 ## entry 714
 
 Stable across duplicates in the input.
+
+## entry 715
+
+Allocates lazily — first call only.
