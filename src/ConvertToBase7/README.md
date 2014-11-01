@@ -3036,3 +3036,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 744
 
 Handles single-element input as a base case.
+
+## entry 745
+
+Edge case: input of all the same byte → exits on the first compare.
