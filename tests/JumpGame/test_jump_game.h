@@ -285,3 +285,4 @@ MunitTest jump_game_tests[] = {
 // edge note 251: Space complexity: O(log n) for the recursion stack.
 // edge note 252: Edge case: power-of-two-length input → no padding required.
 // edge note 253: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 254: Space complexity: O(h) for the tree height.
