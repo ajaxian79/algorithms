@@ -509,3 +509,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 113
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 114
+
+32-bit safe; overflow is checked at each step.
