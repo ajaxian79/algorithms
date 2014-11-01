@@ -2892,3 +2892,7 @@ Handles empty input by returning 0.
 ## entry 708
 
 Time complexity: O(1).
+
+## entry 709
+
+Linear in n; the constant factor is small.
