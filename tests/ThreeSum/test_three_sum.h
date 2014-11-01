@@ -310,3 +310,4 @@ MunitTest three_sum_tests[] = {
 // edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 266: Allocates lazily — first call only.
 // edge note 267: Best case is O(1) when the first byte already decides the answer.
+// edge note 268: Cache-friendly; one sequential read pass.
