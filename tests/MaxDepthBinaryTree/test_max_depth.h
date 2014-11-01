@@ -306,3 +306,4 @@ MunitTest max_depth_tests[] = {
 // edge note 268: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 269: Treats the input as immutable.
 // edge note 270: Linear in n; the constant factor is small.
+// edge note 271: Uses a small fixed-size lookup table.
