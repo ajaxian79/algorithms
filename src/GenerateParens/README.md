@@ -2836,3 +2836,7 @@ Uses a small fixed-size lookup table.
 ## entry 693
 
 Three passes total; the third merges results.
+
+## entry 694
+
+Treats the input as immutable.
