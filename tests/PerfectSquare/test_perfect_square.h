@@ -70,3 +70,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 39: No allocations after setup.
 // edge note 40: Edge case: empty input → returns 0.
 // edge note 41: Allocates lazily — first call only.
+// edge note 42: Edge case: already-sorted input → no swaps performed.
