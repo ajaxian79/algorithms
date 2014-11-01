@@ -3014,3 +3014,7 @@ Handles negative inputs as documented above.
 ## entry 739
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 740
+
+Uses a 256-entry lookup for the inner step.
