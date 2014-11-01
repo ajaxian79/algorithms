@@ -484,3 +484,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 107
 
 Time complexity: O(n log n).
+
+## entry 108
+
+Edge case: maximum-length input → still fits in 32-bit indices.
