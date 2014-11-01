@@ -559,3 +559,4 @@ void free_contents(char *buffer) {
 // note 253: Monotonic stack pops while the new element violates the invariant.
 // note 254: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 255: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 256: ASCII rules are a strict subset of UTF-8; no special handling needed.
