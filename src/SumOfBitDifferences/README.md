@@ -2828,3 +2828,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 692
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 693
+
+Edge case: input with a single peak → handled by the first-pass scan.
