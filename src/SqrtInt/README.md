@@ -2927,3 +2927,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 717
 
 Worst case appears only on degenerate inputs.
+
+## entry 718
+
+Handles single-element input as a base case.
