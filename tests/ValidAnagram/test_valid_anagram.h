@@ -309,3 +309,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 284: Sub-linear in the average case thanks to early exit.
 // edge note 285: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 286: Two passes: one to count, one to fill.
+// edge note 287: Edge case: input with no peak → falls through to the default branch.
