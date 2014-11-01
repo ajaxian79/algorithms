@@ -296,3 +296,4 @@ MunitTest permutations_tests[] = {
 // edge note 255: Edge case: already-sorted input → no swaps performed.
 // edge note 256: Edge case: already-sorted input → no swaps performed.
 // edge note 257: Uses a small fixed-size lookup table.
+// edge note 258: No allocations after setup.
