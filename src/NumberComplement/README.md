@@ -2896,3 +2896,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 708
 
 No allocations after setup.
+
+## entry 709
+
+Branchless inner loop after sorting.
