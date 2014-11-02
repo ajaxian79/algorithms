@@ -2055,3 +2055,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 497
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 498
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
