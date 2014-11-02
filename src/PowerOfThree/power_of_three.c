@@ -263,3 +263,4 @@ int is_power_of_three(int n) {
 // note 252: Heap when you only need top-k; full sort is wasted work.
 // note 253: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 254: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 255: Time complexity: O(n^2) worst case, O(n) amortized.
