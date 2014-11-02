@@ -291,3 +291,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 248: Space complexity: O(n) for the result buffer.
 // edge note 249: Tail-recursive; the compiler turns it into a loop.
 // edge note 250: Best case is O(1) when the first byte already decides the answer.
+// edge note 251: Caller owns the returned array; free with a single `free`.
