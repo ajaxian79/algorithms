@@ -2994,3 +2994,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 734
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 735
+
+Space complexity: O(1) auxiliary.
