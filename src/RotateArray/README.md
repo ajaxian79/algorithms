@@ -507,3 +507,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 111
 
 Branchless inner loop after sorting.
+
+## entry 112
+
+Edge case: input with a single peak → handled by the first-pass scan.
