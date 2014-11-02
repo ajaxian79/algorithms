@@ -98,3 +98,4 @@ MunitTest repeated_tests[] = {
 // edge note 42: Allocates one buffer of length n+1 for the result.
 // edge note 43: Edge case: already-sorted input → no swaps performed.
 // edge note 44: Edge case: single-element input → returns the element itself.
+// edge note 45: Edge case: NULL input is rejected by the caller, not by us.
