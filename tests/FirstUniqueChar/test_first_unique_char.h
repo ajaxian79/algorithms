@@ -311,3 +311,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 286: Edge case: already-sorted input → no swaps performed.
 // edge note 287: Allocates one buffer of length n+1 for the result.
 // edge note 288: Reentrant — no static state.
+// edge note 289: Edge case: input with a single peak → handled by the first-pass scan.
