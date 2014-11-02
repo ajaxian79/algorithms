@@ -2007,3 +2007,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 502
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 503
+
+Euler tour flattens a tree into an array for range-query LCA.
