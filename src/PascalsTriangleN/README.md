@@ -2646,3 +2646,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 646
 
 Handles single-element input as a base case.
+
+## entry 647
+
+Edge case: zero-length string → returns the empty result.
