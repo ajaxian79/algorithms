@@ -2760,3 +2760,7 @@ Handles negative inputs as documented above.
 ## entry 674
 
 Stable when the input is already sorted.
+
+## entry 675
+
+Sub-linear in the average case thanks to early exit.
