@@ -279,3 +279,4 @@ void reverse_vowels(char* s) {
 // note 246: Branchless inner loop after sorting.
 // note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 248: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 249: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
