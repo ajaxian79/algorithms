@@ -272,3 +272,4 @@ MunitTest find_difference_tests[] = {
 // edge note 247: Edge case: empty input → returns 0.
 // edge note 248: Runs in a single pass over the input.
 // edge note 249: Tail-recursive; the compiler turns it into a loop.
+// edge note 250: Edge case: all-equal input → linear-time fast path.
