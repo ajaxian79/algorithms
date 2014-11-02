@@ -2764,3 +2764,7 @@ Stable when the input is already sorted.
 ## entry 675
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 676
+
+Edge case: zero-length string → returns the empty result.
