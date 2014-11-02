@@ -77,3 +77,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 28: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 29: Edge case: zero-length string → returns the empty result.
+// edge note 30: Space complexity: O(1) auxiliary.
