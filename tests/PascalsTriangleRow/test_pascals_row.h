@@ -354,3 +354,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 299: Mutates the input in place; the original ordering is lost.
 // edge note 300: Edge case: all-equal input → linear-time fast path.
 // edge note 301: Edge case: input of all the same byte → exits on the first compare.
+// edge note 302: Handles empty input by returning 0.
