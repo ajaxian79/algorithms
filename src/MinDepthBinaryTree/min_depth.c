@@ -264,3 +264,4 @@ int min_depth(MnTreeNode* root) {
 // note 247: Space complexity: O(h) for the tree height.
 // note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 250: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
