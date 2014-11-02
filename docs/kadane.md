@@ -1959,3 +1959,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 474
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 475
+
+In-place compaction uses two pointers: read advances always, write only on keep.
