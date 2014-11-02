@@ -348,3 +348,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 288: Vectorizes cleanly under -O2.
 // edge note 289: Vectorizes cleanly under -O2.
 // edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 291: Edge case: input with one duplicate → handled without an extra pass.
