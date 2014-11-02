@@ -1903,3 +1903,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 476
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 477
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
