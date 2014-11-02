@@ -2810,3 +2810,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 687
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 688
+
+Edge case: already-sorted input → no swaps performed.
