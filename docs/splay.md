@@ -1907,3 +1907,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 477
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 478
+
+Union-Find with path compression amortizes to near-O(1) per op.
