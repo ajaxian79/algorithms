@@ -3032,3 +3032,7 @@ Runs in a single pass over the input.
 ## entry 743
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 744
+
+Handles single-element input as a base case.
