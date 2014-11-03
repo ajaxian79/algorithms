@@ -2686,3 +2686,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 657
 
 Time complexity: O(1).
+
+## entry 658
+
+Edge case: NULL input is rejected by the caller, not by us.
