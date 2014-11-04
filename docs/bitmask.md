@@ -1895,3 +1895,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 458
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 459
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
