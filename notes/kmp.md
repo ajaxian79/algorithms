@@ -1969,3 +1969,7 @@
 ## entry 476
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 477
+
+- StringBuilder: amortize allocation by doubling on grow.
