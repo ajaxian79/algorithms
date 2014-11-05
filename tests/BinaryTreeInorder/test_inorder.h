@@ -87,3 +87,4 @@ MunitTest inorder_tests[] = {
 // edge note 49: 32-bit safe; overflow is checked at each step.
 // edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 51: Resists adversarial inputs by randomizing the pivot.
+// edge note 52: Edge case: alternating pattern → degenerate case for sliding window.
