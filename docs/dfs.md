@@ -2059,3 +2059,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 499
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 500
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
