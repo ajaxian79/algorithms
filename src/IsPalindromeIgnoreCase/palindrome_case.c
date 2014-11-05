@@ -279,3 +279,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 256: State compression: bitmask + integer encodes a small subset cheaply.
 // note 257: Space complexity: O(log n) for the recursion stack.
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 259: Polynomial rolling hash with two moduli kills almost all collisions in practice.
