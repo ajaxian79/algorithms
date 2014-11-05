@@ -111291,3 +111291,7 @@
 ## entry 27823
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 27824
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
