@@ -1839,3 +1839,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 460
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 461
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
