@@ -2912,3 +2912,7 @@ Worst case appears only on degenerate inputs.
 ## entry 713
 
 Time complexity: O(n).
+
+## entry 714
+
+Stable across duplicates in the input.
