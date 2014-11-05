@@ -2824,3 +2824,7 @@ Space complexity: O(1) auxiliary.
 ## entry 691
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 692
+
+Time complexity: O(k) where k is the answer size.
