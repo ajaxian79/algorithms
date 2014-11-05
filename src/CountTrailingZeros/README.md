@@ -2806,3 +2806,7 @@ Handles negative inputs as documented above.
 ## entry 686
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 687
+
+Edge case: power-of-two-length input → no padding required.
