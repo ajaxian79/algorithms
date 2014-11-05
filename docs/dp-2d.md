@@ -2079,3 +2079,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 504
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 505
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
