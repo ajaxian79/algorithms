@@ -482,3 +482,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 105
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 106
+
+Edge case: NULL input is rejected by the caller, not by us.
