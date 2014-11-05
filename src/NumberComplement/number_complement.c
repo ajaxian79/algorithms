@@ -256,3 +256,4 @@ unsigned int find_complement(unsigned int n) {
 // note 240: Time complexity: O(log n).
 // note 241: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 242: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 243: Handles negative inputs as documented above.
