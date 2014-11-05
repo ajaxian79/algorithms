@@ -345,3 +345,4 @@ MunitTest lcp_tests[] = {
 // edge note 290: Edge case: power-of-two-length input → no padding required.
 // edge note 291: Space complexity: O(h) for the tree height.
 // edge note 292: Edge case: all-equal input → linear-time fast path.
+// edge note 293: Edge case: already-sorted input → no swaps performed.
