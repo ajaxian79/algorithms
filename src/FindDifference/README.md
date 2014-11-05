@@ -2662,3 +2662,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 651
 
 Space complexity: O(1) auxiliary.
+
+## entry 652
+
+Sub-linear in the average case thanks to early exit.
