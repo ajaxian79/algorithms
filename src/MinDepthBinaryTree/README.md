@@ -2758,3 +2758,7 @@ Handles negative inputs as documented above.
 ## entry 675
 
 Uses a small fixed-size lookup table.
+
+## entry 676
+
+Sub-linear in the average case thanks to early exit.
