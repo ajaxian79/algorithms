@@ -2977,3 +2977,7 @@ Uses a small fixed-size lookup table.
 ## entry 729
 
 Time complexity: O(n log n).
+
+## entry 730
+
+Edge case: integer-min input → guarded by the explicit underflow check.
