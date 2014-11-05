@@ -2079,3 +2079,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 520
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 521
+
+Walk both pointers from each end inward; advance the smaller side.
