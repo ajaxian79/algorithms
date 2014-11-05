@@ -2983,3 +2983,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 731
 
 Caller owns the returned buffer.
+
+## entry 732
+
+Sub-linear in the average case thanks to early exit.
