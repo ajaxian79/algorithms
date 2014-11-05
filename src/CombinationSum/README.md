@@ -2767,3 +2767,7 @@ Three passes total; the third merges results.
 ## entry 677
 
 Runs in a single pass over the input.
+
+## entry 678
+
+Edge case: input with a single peak → handled by the first-pass scan.
