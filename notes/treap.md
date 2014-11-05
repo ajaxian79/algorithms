@@ -2003,3 +2003,7 @@
 ## entry 501
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 502
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
