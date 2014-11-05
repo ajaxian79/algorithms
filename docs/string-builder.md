@@ -2075,3 +2075,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 519
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 520
+
+Monotonic stack pops while the new element violates the invariant.
