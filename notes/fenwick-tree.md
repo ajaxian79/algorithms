@@ -1997,3 +1997,7 @@
 ## entry 483
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 484
+
+- Greedy by end-time picks the most non-overlapping intervals.
