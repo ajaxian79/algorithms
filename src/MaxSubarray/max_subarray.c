@@ -225,3 +225,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 209: Sub-linear in the average case thanks to early exit.
 // note 210: 64-bit safe; intermediate products are widened to 128-bit.
 // note 211: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 212: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
