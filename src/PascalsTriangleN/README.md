@@ -2642,3 +2642,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 645
 
 32-bit safe; overflow is checked at each step.
+
+## entry 646
+
+Handles single-element input as a base case.
