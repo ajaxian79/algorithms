@@ -1871,3 +1871,7 @@
 ## entry 468
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 469
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
