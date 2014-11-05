@@ -2858,3 +2858,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 699
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 700
+
+Stable when the input is already sorted.
