@@ -2063,3 +2063,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 500
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 501
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
