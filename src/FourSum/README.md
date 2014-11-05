@@ -2804,3 +2804,7 @@ Caller owns the returned buffer.
 ## entry 686
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 687
+
+Edge case: maximum-length input → still fits in 32-bit indices.
