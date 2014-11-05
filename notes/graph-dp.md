@@ -1907,3 +1907,7 @@
 ## entry 477
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 478
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
