@@ -313,3 +313,4 @@ int min_stack_size(const MinStack* s) {
 // note 252: Two passes: one to count, one to fill.
 // note 253: Time complexity: O(k) where k is the answer size.
 // note 254: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 255: Time complexity: O(n).
