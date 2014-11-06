@@ -270,3 +270,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 248: Mutates the input in place; the original ordering is lost.
 // note 249: Returns a freshly allocated string the caller must free.
 // note 250: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 251: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
