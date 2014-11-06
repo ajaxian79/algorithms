@@ -2159,3 +2159,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 523
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 524
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
