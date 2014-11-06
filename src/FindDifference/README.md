@@ -390,3 +390,7 @@ Three passes total; the third merges results.
 ## entry 83
 
 Time complexity: O(n log n).
+
+## entry 84
+
+Edge case: reverse-sorted input → still O(n log n).
