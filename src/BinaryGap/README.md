@@ -2894,3 +2894,7 @@ Cache-friendly; one sequential read pass.
 ## entry 708
 
 No allocations after setup.
+
+## entry 709
+
+Edge case: maximum-length input → still fits in 32-bit indices.
