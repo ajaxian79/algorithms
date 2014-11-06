@@ -2751,3 +2751,7 @@ Time complexity: O(log n).
 ## entry 673
 
 Space complexity: O(h) for the tree height.
+
+## entry 674
+
+Space complexity: O(log n) for the recursion stack.
