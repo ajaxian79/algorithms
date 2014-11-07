@@ -2673,3 +2673,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 643
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 644
+
+Caller owns the returned array; free with a single `free`.
