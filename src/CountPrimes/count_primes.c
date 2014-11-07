@@ -247,3 +247,4 @@ int count_primes(int n) {
 // note 219: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 220: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 221: State compression: bitmask + integer encodes a small subset cheaply.
+// note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
