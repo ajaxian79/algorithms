@@ -1935,3 +1935,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 484
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 485
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
