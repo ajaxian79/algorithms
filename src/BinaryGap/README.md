@@ -2890,3 +2890,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 707
 
 Cache-friendly; one sequential read pass.
+
+## entry 708
+
+No allocations after setup.
