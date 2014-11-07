@@ -1959,3 +1959,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 490
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 491
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
