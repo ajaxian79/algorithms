@@ -2754,3 +2754,7 @@ Uses a small fixed-size lookup table.
 ## entry 674
 
 Handles negative inputs as documented above.
+
+## entry 675
+
+Uses a small fixed-size lookup table.
