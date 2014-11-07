@@ -3004,3 +3004,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 736
 
 Edge case: single-element input → returns the element itself.
+
+## entry 737
+
+32-bit safe; overflow is checked at each step.
