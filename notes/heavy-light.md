@@ -2115,3 +2115,7 @@
 ## entry 529
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 530
+
+- Euler tour flattens a tree into an array for range-query LCA.
