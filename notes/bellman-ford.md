@@ -1999,3 +1999,7 @@
 ## entry 500
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 501
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
