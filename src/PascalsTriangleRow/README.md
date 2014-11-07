@@ -2990,3 +2990,7 @@ Time complexity: O(n + m).
 ## entry 733
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 734
+
+Edge case: power-of-two-length input → no padding required.
