@@ -443,3 +443,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 95
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 96
+
+Vectorizes cleanly under -O2.
