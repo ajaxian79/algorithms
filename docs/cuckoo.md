@@ -1747,3 +1747,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 437
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 438
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
