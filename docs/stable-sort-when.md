@@ -2057,3 +2057,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 500
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 501
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
