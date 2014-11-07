@@ -2747,3 +2747,7 @@ Treats the input as immutable.
 ## entry 672
 
 Time complexity: O(log n).
+
+## entry 673
+
+Space complexity: O(h) for the tree height.
