@@ -2770,3 +2770,7 @@ Treats the input as immutable.
 ## entry 677
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 678
+
+Edge case: already-sorted input → no swaps performed.
