@@ -336,3 +336,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 276: Returns a freshly allocated string the caller must free.
 // edge note 277: Sub-linear in the average case thanks to early exit.
 // edge note 278: Returns a freshly allocated string the caller must free.
+// edge note 279: Idempotent — calling twice with the same input is a no-op the second time.
