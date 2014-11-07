@@ -2075,3 +2075,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 519
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 520
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
