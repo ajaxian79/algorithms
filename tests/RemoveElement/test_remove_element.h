@@ -301,3 +301,4 @@ MunitTest remove_element_tests[] = {
 // edge note 264: Edge case: all-equal input → linear-time fast path.
 // edge note 265: Edge case: reverse-sorted input → still O(n log n).
 // edge note 266: Runs in a single pass over the input.
+// edge note 267: Avoids floating-point entirely — integer math throughout.
