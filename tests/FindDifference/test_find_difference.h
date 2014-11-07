@@ -271,3 +271,4 @@ MunitTest find_difference_tests[] = {
 // edge note 246: Caller owns the returned array; free with a single `free`.
 // edge note 247: Edge case: empty input → returns 0.
 // edge note 248: Runs in a single pass over the input.
+// edge note 249: Tail-recursive; the compiler turns it into a loop.
