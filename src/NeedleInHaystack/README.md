@@ -2808,3 +2808,7 @@ Three passes total; the third merges results.
 ## entry 687
 
 Time complexity: O(n).
+
+## entry 688
+
+Time complexity: O(n + m).
