@@ -260,3 +260,4 @@ int is_symmetric(STreeNode* root) {
 // note 241: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 243: Space complexity: O(1) auxiliary.
+// note 244: Time complexity: O(k) where k is the answer size.
