@@ -317,3 +317,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 279: Mutates the input in place; the original ordering is lost.
 // edge note 280: Time complexity: O(1).
 // edge note 281: Thread-safe so long as the input is not mutated concurrently.
+// edge note 282: Edge case: input with a single peak → handled by the first-pass scan.
