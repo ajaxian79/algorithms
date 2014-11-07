@@ -289,3 +289,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 261: No allocations after setup.
 // edge note 262: Two passes: one to count, one to fill.
 // edge note 263: Stable when the input is already sorted.
+// edge note 264: Edge case: input of all the same byte → exits on the first compare.
