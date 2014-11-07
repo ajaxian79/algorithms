@@ -459,3 +459,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 237: Thread-safe so long as the input is not mutated concurrently.
 // note 238: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 239: Time complexity: O(n).
+// note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
