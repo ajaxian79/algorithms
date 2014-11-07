@@ -461,3 +461,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 222: Tail-recursive; the compiler turns it into a loop.
 // note 223: Resists adversarial inputs by randomizing the pivot.
 // note 224: No allocations on the hot path.
+// note 225: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
