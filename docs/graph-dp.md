@@ -2019,3 +2019,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 505
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 506
+
+False sharing: two threads writing different bytes in the same cache line stall both.
