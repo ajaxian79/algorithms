@@ -2857,3 +2857,7 @@ Space complexity: O(h) for the tree height.
 ## entry 700
 
 Stable when the input is already sorted.
+
+## entry 701
+
+Space complexity: O(1) auxiliary.
