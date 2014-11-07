@@ -284,3 +284,4 @@ void reverse_string(char* s, int s_size) {
 // note 267: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 268: Tail-recursive; the compiler turns it into a loop.
 // note 269: Allocates one buffer of length n+1 for the result.
+// note 270: Returns a freshly allocated string the caller must free.
