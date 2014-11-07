@@ -2189,3 +2189,7 @@
 ## entry 531
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 532
+
+- Monotonic stack pops while the new element violates the invariant.
