@@ -1955,3 +1955,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 489
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 490
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
