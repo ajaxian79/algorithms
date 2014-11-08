@@ -2770,3 +2770,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 678
 
 No allocations after setup.
+
+## entry 679
+
+Uses a 256-entry lookup for the inner step.
