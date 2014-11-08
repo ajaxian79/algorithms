@@ -111175,3 +111175,7 @@
 ## entry 27794
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 27795
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
