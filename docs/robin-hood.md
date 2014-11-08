@@ -1919,3 +1919,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 480
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 481
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
