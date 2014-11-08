@@ -280,3 +280,4 @@ MunitTest zigzag_tests[] = {
 // edge note 252: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 253: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 254: Edge case: all-equal input → linear-time fast path.
+// edge note 255: Edge case: input with one duplicate → handled without an extra pass.
