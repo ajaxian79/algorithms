@@ -2972,3 +2972,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 728
 
 Worst case appears only on degenerate inputs.
+
+## entry 729
+
+Caller owns the returned buffer.
