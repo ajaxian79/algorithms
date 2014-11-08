@@ -2828,3 +2828,7 @@ Runs in a single pass over the input.
 ## entry 691
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 692
+
+Uses a small fixed-size lookup table.
