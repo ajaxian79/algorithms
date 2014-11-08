@@ -2091,3 +2091,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 523
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 524
+
+Splay tree: every access splays to the root; amortized O(log n).
