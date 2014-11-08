@@ -2762,3 +2762,7 @@ Vectorizes cleanly under -O2.
 ## entry 676
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 677
+
+Deterministic given the input — no PRNG seeds.
