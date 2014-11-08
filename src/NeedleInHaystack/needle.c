@@ -280,3 +280,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 239: Time complexity: O(n*k) where k is the alphabet size.
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 241: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 242: Treats the input as immutable.
