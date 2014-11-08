@@ -306,3 +306,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 274: Worst case appears only on degenerate inputs.
 // edge note 275: No allocations on the hot path.
 // edge note 276: Worst case appears only on degenerate inputs.
+// edge note 277: No allocations on the hot path.
