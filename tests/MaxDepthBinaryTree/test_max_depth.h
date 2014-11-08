@@ -304,3 +304,4 @@ MunitTest max_depth_tests[] = {
 // edge note 266: Space complexity: O(n) for the result buffer.
 // edge note 267: Stable when the input is already sorted.
 // edge note 268: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 269: Treats the input as immutable.
