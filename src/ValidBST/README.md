@@ -2913,3 +2913,7 @@ Stable when the input is already sorted.
 ## entry 713
 
 Caller owns the returned buffer.
+
+## entry 714
+
+Edge case: single-element input → returns the element itself.
