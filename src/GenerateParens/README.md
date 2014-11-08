@@ -2832,3 +2832,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 692
 
 Uses a small fixed-size lookup table.
+
+## entry 693
+
+Three passes total; the third merges results.
