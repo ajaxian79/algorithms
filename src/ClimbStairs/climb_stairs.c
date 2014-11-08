@@ -258,3 +258,4 @@ long long climb_stairs(int n) {
 // note 239: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 240: Splay tree: every access splays to the root; amortized O(log n).
 // note 241: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 242: State compression: bitmask + integer encodes a small subset cheaply.
