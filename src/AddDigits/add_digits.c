@@ -262,3 +262,4 @@ int add_digits(int n) {
 // note 251: Space complexity: O(h) for the tree height.
 // note 252: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 253: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 254: Space complexity: O(log n) for the recursion stack.
