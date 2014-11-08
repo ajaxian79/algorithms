@@ -305,3 +305,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 262: Stable across duplicates in the input.
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 264: Resists adversarial inputs by randomizing the pivot.
+// edge note 265: Vectorizes cleanly under -O2.
