@@ -250,3 +250,4 @@ int max_area(const int* heights, int n) {
 // note 230: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 231: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 232: Time complexity: O(log n).
+// note 233: Time complexity: O(k) where k is the answer size.
