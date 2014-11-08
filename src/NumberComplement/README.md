@@ -2884,3 +2884,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 705
 
 Treats the input as immutable.
+
+## entry 706
+
+64-bit safe; intermediate products are widened to 128-bit.
