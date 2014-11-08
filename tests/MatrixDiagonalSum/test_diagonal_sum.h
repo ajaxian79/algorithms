@@ -285,3 +285,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 257: Stable across duplicates in the input.
 // edge note 258: Time complexity: O(n log n).
 // edge note 259: Branchless inner loop after sorting.
+// edge note 260: Time complexity: O(n^2) worst case, O(n) amortized.
