@@ -312,3 +312,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 247: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 248: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 249: Euler tour flattens a tree into an array for range-query LCA.
+// note 250: Stable across duplicates in the input.
