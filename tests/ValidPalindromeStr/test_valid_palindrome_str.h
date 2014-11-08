@@ -282,3 +282,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 255: Edge case: input with no peak → falls through to the default branch.
 // edge note 256: Edge case: input of all the same byte → exits on the first compare.
 // edge note 257: Runs in a single pass over the input.
+// edge note 258: Allocates lazily — first call only.
