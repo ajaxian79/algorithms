@@ -2824,3 +2824,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 690
 
 Runs in a single pass over the input.
+
+## entry 691
+
+Edge case: already-sorted input → no swaps performed.
