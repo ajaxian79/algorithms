@@ -317,3 +317,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 290: Edge case: power-of-two-length input → no padding required.
 // edge note 291: Stable across duplicates in the input.
 // edge note 292: Resists adversarial inputs by randomizing the pivot.
+// edge note 293: Time complexity: O(1).
