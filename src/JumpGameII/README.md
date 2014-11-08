@@ -2888,3 +2888,7 @@ Time complexity: O(n).
 ## entry 707
 
 Handles empty input by returning 0.
+
+## entry 708
+
+Time complexity: O(1).
