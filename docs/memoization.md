@@ -1995,3 +1995,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 499
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 500
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
