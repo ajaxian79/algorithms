@@ -2986,3 +2986,7 @@ Edge case: empty input → returns 0.
 ## entry 732
 
 Time complexity: O(n + m).
+
+## entry 733
+
+Edge case: zero-length string → returns the empty result.
