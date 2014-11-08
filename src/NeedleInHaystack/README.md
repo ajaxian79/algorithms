@@ -2800,3 +2800,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 685
 
 Three passes total; the third merges results.
+
+## entry 686
+
+64-bit safe; intermediate products are widened to 128-bit.
