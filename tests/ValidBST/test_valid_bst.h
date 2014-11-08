@@ -319,3 +319,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Space complexity: O(log n) for the recursion stack.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
+// edge note 279: Time complexity: O(k) where k is the answer size.
