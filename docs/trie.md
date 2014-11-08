@@ -1969,3 +1969,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 476
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 477
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
