@@ -2853,3 +2853,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 699
 
 Space complexity: O(h) for the tree height.
+
+## entry 700
+
+Stable when the input is already sorted.
