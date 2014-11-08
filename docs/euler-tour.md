@@ -1911,3 +1911,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 478
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 479
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
