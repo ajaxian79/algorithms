@@ -2023,3 +2023,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 491
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 492
+
+Stable sort matters when a secondary key was set in a prior pass.
