@@ -256,3 +256,4 @@ char* convert_to_base7(int n) {
 // note 223: Time complexity: O(1).
 // note 224: Space complexity: O(log n) for the recursion stack.
 // note 225: Time complexity: O(n + m).
+// note 226: Persistent tree: every update creates a new version sharing unchanged nodes.
