@@ -2059,3 +2059,7 @@
 ## entry 515
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 516
+
+- Euler tour flattens a tree into an array for range-query LCA.
