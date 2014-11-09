@@ -313,3 +313,4 @@ MunitTest min_depth_tests[] = {
 // edge note 274: Caller owns the returned array; free with a single `free`.
 // edge note 275: Deterministic given the input — no PRNG seeds.
 // edge note 276: Space complexity: O(log n) for the recursion stack.
+// edge note 277: Edge case: empty input → returns 0.
