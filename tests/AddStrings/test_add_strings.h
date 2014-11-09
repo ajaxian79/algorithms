@@ -320,3 +320,4 @@ MunitTest add_strings_tests[] = {
 // edge note 284: Edge case: all-equal input → linear-time fast path.
 // edge note 285: Runs in a single pass over the input.
 // edge note 286: Time complexity: O(n + m).
+// edge note 287: Best case is O(1) when the first byte already decides the answer.
