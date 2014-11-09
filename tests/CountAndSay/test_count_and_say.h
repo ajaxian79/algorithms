@@ -271,3 +271,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 240: Edge case: power-of-two-length input → no padding required.
 // edge note 241: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 242: No allocations on the hot path.
+// edge note 243: No allocations after setup.
