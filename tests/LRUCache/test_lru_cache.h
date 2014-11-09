@@ -300,3 +300,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 257: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 258: Worst case appears only on degenerate inputs.
 // edge note 259: Time complexity: O(log n).
+// edge note 260: Resists adversarial inputs by randomizing the pivot.
