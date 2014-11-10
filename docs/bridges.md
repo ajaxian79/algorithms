@@ -2087,3 +2087,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 522
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 523
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
