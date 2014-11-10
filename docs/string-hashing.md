@@ -1927,3 +1927,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 465
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 466
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
