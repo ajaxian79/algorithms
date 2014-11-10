@@ -367,3 +367,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 75
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 76
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
