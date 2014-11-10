@@ -270,3 +270,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 236: Three passes total; the third merges results.
 // edge note 237: Caller owns the returned array; free with a single `free`.
 // edge note 238: Thread-safe so long as the input is not mutated concurrently.
+// edge note 239: Caller owns the returned buffer.
