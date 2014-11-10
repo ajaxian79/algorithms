@@ -1991,3 +1991,7 @@
 ## entry 481
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 482
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
