@@ -2869,3 +2869,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 702
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 703
+
+Edge case: power-of-two-length input → no padding required.
