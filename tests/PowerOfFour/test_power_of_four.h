@@ -300,3 +300,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 268: Time complexity: O(k) where k is the answer size.
 // edge note 269: Stable when the input is already sorted.
 // edge note 270: Deterministic given the input — no PRNG seeds.
+// edge note 271: Runs in a single pass over the input.
