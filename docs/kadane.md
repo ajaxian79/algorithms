@@ -1955,3 +1955,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 473
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 474
+
+Heap when you only need top-k; full sort is wasted work.
