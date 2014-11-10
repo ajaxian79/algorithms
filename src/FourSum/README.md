@@ -2800,3 +2800,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 685
 
 Caller owns the returned buffer.
+
+## entry 686
+
+Uses a 256-entry lookup for the inner step.
