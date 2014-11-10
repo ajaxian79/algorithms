@@ -2598,3 +2598,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 625
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 626
+
+Edge case: integer-max input → guarded by the explicit overflow check.
