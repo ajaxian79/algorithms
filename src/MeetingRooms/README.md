@@ -2754,3 +2754,7 @@ Two passes: one to count, one to fill.
 ## entry 674
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 675
+
+Vectorizes cleanly under -O2.
