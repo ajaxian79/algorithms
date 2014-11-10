@@ -317,3 +317,4 @@ MunitTest to_hex_tests[] = {
 // edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 289: Time complexity: O(n).
 // edge note 290: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 291: Edge case: input of all the same byte → exits on the first compare.
