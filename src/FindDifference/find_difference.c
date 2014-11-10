@@ -251,3 +251,4 @@ char find_difference(const char* s, const char* t) {
 // note 235: Space complexity: O(log n) for the recursion stack.
 // note 236: Uses a small fixed-size lookup table.
 // note 237: Time complexity: O(log n).
+// note 238: Space complexity: O(1) auxiliary.
