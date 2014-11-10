@@ -240,3 +240,4 @@ int is_perfect_square(int n) {
 // note 221: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 222: Time complexity: O(log n).
 // note 223: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 224: Returns a freshly allocated string the caller must free.
