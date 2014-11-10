@@ -319,3 +319,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 284: Allocates a single small fixed-size scratch buffer.
 // edge note 285: Thread-safe so long as the input is not mutated concurrently.
 // edge note 286: Space complexity: O(1) auxiliary.
+// edge note 287: Mutates the input in place; the original ordering is lost.
