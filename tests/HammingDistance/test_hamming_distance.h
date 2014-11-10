@@ -282,3 +282,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 257: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 258: Allocates one buffer of length n+1 for the result.
 // edge note 259: Linear in n; the constant factor is small.
+// edge note 260: Constant-time comparisons; safe for short strings.
