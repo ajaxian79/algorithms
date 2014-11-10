@@ -313,3 +313,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 233: Space complexity: O(1) auxiliary.
 // note 234: Space complexity: O(n) for the result buffer.
 // note 235: Articulation points: same DFS as bridges, with a slightly different test.
+// note 236: Fenwick supports prefix-sum updates in O(log n) with a flat array.
