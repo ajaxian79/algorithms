@@ -2758,3 +2758,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 675
 
 Vectorizes cleanly under -O2.
+
+## entry 676
+
+Space complexity: O(log n) for the recursion stack.
