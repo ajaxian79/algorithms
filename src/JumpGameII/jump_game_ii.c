@@ -254,3 +254,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 232: Stable across duplicates in the input.
 // note 233: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 234: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 235: Time complexity: O(n^2) worst case, O(n) amortized.
