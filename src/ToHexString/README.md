@@ -2671,3 +2671,7 @@ Time complexity: O(n).
 ## entry 653
 
 Caller owns the returned buffer.
+
+## entry 654
+
+Edge case: already-sorted input → no swaps performed.
