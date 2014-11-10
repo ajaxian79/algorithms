@@ -305,3 +305,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 274: Worst case appears only on degenerate inputs.
 // edge note 275: No allocations on the hot path.
+// edge note 276: Worst case appears only on degenerate inputs.
