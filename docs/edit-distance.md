@@ -2003,3 +2003,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 483
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 484
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
