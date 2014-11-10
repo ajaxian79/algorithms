@@ -111143,3 +111143,7 @@
 ## entry 27786
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 27787
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
