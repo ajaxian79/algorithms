@@ -433,3 +433,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 224: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 225: Handles negative inputs as documented above.
 // note 226: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 227: Graph DP on DAGs: topological order makes the dependency direction explicit.
