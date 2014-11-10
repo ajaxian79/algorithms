@@ -2853,3 +2853,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 698
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 699
+
+Allocates one buffer of length n+1 for the result.
