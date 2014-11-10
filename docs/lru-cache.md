@@ -1919,3 +1919,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 480
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 481
+
+StringBuilder: amortize allocation by doubling on grow.
