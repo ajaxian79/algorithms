@@ -2824,3 +2824,7 @@ Caller owns the returned buffer.
 ## entry 691
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 692
+
+Edge case: zero-length string → returns the empty result.
