@@ -2820,3 +2820,7 @@ Allocates lazily — first call only.
 ## entry 689
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 690
+
+Runs in a single pass over the input.
