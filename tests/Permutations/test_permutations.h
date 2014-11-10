@@ -295,3 +295,4 @@ MunitTest permutations_tests[] = {
 // edge note 254: Space complexity: O(h) for the tree height.
 // edge note 255: Edge case: already-sorted input → no swaps performed.
 // edge note 256: Edge case: already-sorted input → no swaps performed.
+// edge note 257: Uses a small fixed-size lookup table.
