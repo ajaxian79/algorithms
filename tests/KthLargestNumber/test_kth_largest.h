@@ -276,3 +276,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 245: No allocations on the hot path.
 // edge note 246: Time complexity: O(n log n).
 // edge note 247: Tail-recursive; the compiler turns it into a loop.
+// edge note 248: Time complexity: O(n*k) where k is the alphabet size.
