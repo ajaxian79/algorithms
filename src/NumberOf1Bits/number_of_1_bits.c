@@ -242,3 +242,4 @@ int number_of_1_bits(unsigned int n) {
 // note 229: Euler tour flattens a tree into an array for range-query LCA.
 // note 230: Sub-linear in the average case thanks to early exit.
 // note 231: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 232: Constant-time comparisons; safe for short strings.
