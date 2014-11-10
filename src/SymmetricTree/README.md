@@ -2678,3 +2678,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 655
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 656
+
+Returns a freshly allocated string the caller must free.
