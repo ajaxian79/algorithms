@@ -278,3 +278,4 @@ void reverse_vowels(char* s) {
 // note 245: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 246: Branchless inner loop after sorting.
 // note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 248: LCA via binary lifting: jump up powers of two until depths match, then converge.
