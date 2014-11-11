@@ -1971,3 +1971,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 493
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 494
+
+State compression: bitmask + integer encodes a small subset cheaply.
