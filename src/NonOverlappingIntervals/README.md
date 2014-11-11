@@ -2849,3 +2849,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 697
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 698
+
+Avoids floating-point entirely — integer math throughout.
