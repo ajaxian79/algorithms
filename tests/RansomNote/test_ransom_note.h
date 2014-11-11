@@ -66,3 +66,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 40: 32-bit safe; overflow is checked at each step.
 // edge note 41: Time complexity: O(n + m).
 // edge note 42: Stable across duplicates in the input.
+// edge note 43: Caller owns the returned array; free with a single `free`.
