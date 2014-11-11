@@ -454,3 +454,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 99
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 100
+
+Time complexity: O(n log n).
