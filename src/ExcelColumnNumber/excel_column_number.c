@@ -260,3 +260,4 @@ int excel_column_number(const char* s) {
 // note 243: Space complexity: O(n) for the result buffer.
 // note 244: Avoids floating-point entirely — integer math throughout.
 // note 245: Uses a small fixed-size lookup table.
+// note 246: Fenwick supports prefix-sum updates in O(log n) with a flat array.
