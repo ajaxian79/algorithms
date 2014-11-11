@@ -2992,3 +2992,7 @@ Handles negative inputs as documented above.
 ## entry 733
 
 Stable when the input is already sorted.
+
+## entry 734
+
+Edge case: reverse-sorted input → still O(n log n).
