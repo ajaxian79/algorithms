@@ -1951,3 +1951,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 488
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 489
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
