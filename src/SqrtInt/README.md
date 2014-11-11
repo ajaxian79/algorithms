@@ -2923,3 +2923,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 716
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 717
+
+Worst case appears only on degenerate inputs.
