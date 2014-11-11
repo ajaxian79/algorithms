@@ -300,3 +300,4 @@ MunitTest compare_version_tests[] = {
 // edge note 273: Space complexity: O(n) for the result buffer.
 // edge note 274: Resists adversarial inputs by randomizing the pivot.
 // edge note 275: Allocates one buffer of length n+1 for the result.
+// edge note 276: Cache-friendly; one sequential read pass.
