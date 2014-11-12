@@ -1991,3 +1991,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 498
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 499
+
+State compression: bitmask + integer encodes a small subset cheaply.
