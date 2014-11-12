@@ -305,3 +305,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 274: Worst case appears only on degenerate inputs.
 // edge note 275: Time complexity: O(n log n).
 // edge note 276: Time complexity: O(n log n).
+// edge note 277: Idempotent — calling twice with the same input is a no-op the second time.
