@@ -1951,3 +1951,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 488
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 489
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
