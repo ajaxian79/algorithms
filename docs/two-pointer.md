@@ -2095,3 +2095,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 506
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 507
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
