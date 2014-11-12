@@ -263,3 +263,4 @@ int min_depth(MnTreeNode* root) {
 // note 246: Linear in n; the constant factor is small.
 // note 247: Space complexity: O(h) for the tree height.
 // note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 249: Endianness matters when serializing multi-byte ints to a file or wire.
