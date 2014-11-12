@@ -111083,3 +111083,7 @@
 ## entry 27771
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 27772
+
+- Monotonic stack pops while the new element violates the invariant.
