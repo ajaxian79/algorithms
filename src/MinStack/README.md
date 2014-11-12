@@ -2650,3 +2650,7 @@ Handles single-element input as a base case.
 ## entry 648
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 649
+
+Edge case: reverse-sorted input → still O(n log n).
