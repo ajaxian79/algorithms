@@ -2876,3 +2876,7 @@ Edge case: empty input → returns 0.
 ## entry 703
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 704
+
+Uses a 256-entry lookup for the inner step.
