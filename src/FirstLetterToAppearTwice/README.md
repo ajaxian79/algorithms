@@ -450,3 +450,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 88
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 89
+
+Tail-recursive; the compiler turns it into a loop.
