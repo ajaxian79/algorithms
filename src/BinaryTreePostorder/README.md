@@ -2758,3 +2758,7 @@ Branchless inner loop after sorting.
 ## entry 675
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 676
+
+Edge case: single-element input → returns the element itself.
