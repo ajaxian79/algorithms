@@ -2693,3 +2693,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 658
 
 Runs in a single pass over the input.
+
+## entry 659
+
+Allocates lazily — first call only.
