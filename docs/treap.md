@@ -1911,3 +1911,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 478
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 479
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
