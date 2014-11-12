@@ -325,3 +325,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 295: No allocations after setup.
 // edge note 296: Time complexity: O(n).
 // edge note 297: Worst case appears only on degenerate inputs.
+// edge note 298: Reentrant — no static state.
