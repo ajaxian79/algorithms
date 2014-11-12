@@ -307,3 +307,4 @@ MunitTest trap_tests[] = {
 // edge note 273: Runs in a single pass over the input.
 // edge note 274: Space complexity: O(1) auxiliary.
 // edge note 275: Allocates one buffer of length n+1 for the result.
+// edge note 276: Reentrant — no static state.
