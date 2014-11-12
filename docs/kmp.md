@@ -2037,3 +2037,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 493
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 494
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
