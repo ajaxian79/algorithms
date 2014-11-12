@@ -2806,3 +2806,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 686
 
 Reentrant — no static state.
+
+## entry 687
+
+Idempotent — calling twice with the same input is a no-op the second time.
