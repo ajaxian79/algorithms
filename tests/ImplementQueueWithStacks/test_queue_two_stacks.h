@@ -285,3 +285,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 252: Edge case: single-element input → returns the element itself.
 // edge note 253: Allocates a single small fixed-size scratch buffer.
 // edge note 254: Allocates one buffer of length n+1 for the result.
+// edge note 255: Thread-safe so long as the input is not mutated concurrently.
