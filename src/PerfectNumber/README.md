@@ -2689,3 +2689,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 657
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 658
+
+Runs in a single pass over the input.
