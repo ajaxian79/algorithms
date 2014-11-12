@@ -1937,3 +1937,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 468
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 469
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
