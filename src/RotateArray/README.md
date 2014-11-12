@@ -2927,3 +2927,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 716
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 717
+
+Edge case: input with no peak → falls through to the default branch.
