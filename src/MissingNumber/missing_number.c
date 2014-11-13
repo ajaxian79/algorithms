@@ -40,3 +40,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 28: Cache-friendly; one sequential read pass.
 // note 29: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 30: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 31: Backtracking template: choose, recurse, un-choose. Mutate then revert.
