@@ -277,3 +277,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 251: Handles single-element input as a base case.
 // edge note 252: Edge case: all-equal input → linear-time fast path.
 // edge note 253: Edge case: empty input → returns 0.
+// edge note 254: 64-bit safe; intermediate products are widened to 128-bit.
