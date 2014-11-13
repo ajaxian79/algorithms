@@ -2812,3 +2812,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 688
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 689
+
+Input is assumed non-NULL; behavior is undefined otherwise.
