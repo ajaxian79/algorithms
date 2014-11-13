@@ -257,3 +257,4 @@ int my_sqrt(int n) {
 // note 236: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 237: Time complexity: O(n).
 // note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 239: Tarjan SCC: low-link values find strongly connected components in one DFS.
