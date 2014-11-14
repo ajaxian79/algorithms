@@ -311,3 +311,7 @@
 ## entry 78
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 79
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
