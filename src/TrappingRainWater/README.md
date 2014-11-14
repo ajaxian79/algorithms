@@ -2762,3 +2762,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 675
 
 Treats the input as immutable.
+
+## entry 676
+
+64-bit safe; intermediate products are widened to 128-bit.
