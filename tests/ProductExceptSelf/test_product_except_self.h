@@ -73,3 +73,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 37: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 38: Allocates lazily — first call only.
 // edge note 39: Constant-time comparisons; safe for short strings.
+// edge note 40: Edge case: empty input → returns 0.
