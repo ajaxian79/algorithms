@@ -1831,3 +1831,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 458
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 459
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
