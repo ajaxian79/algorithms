@@ -283,3 +283,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 255: Best case is O(1) when the first byte already decides the answer.
 // edge note 256: Allocates lazily — first call only.
 // edge note 257: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 258: Tail-recursive; the compiler turns it into a loop.
