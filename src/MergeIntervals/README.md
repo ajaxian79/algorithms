@@ -2802,3 +2802,7 @@ Time complexity: O(n log n).
 ## entry 685
 
 Returns a freshly allocated string the caller must free.
+
+## entry 686
+
+Reentrant — no static state.
