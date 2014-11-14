@@ -450,3 +450,7 @@ No allocations after setup.
 ## entry 98
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 99
+
+Avoids floating-point entirely — integer math throughout.
