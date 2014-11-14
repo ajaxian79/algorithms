@@ -265,3 +265,4 @@ int length_of_last_word(const char* s) {
 // note 247: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 248: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 249: Stable sort matters when a secondary key was set in a prior pass.
+// note 250: Allocates a single small fixed-size scratch buffer.
