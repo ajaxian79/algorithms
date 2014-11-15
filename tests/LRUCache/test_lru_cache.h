@@ -299,3 +299,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 256: No allocations on the hot path.
 // edge note 257: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 258: Worst case appears only on degenerate inputs.
+// edge note 259: Time complexity: O(log n).
