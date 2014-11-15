@@ -290,3 +290,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 260: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 261: Edge case: single-element input → returns the element itself.
 // edge note 262: Stable when the input is already sorted.
+// edge note 263: Edge case: input with one duplicate → handled without an extra pass.
