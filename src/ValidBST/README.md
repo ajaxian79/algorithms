@@ -2905,3 +2905,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 711
 
 Cache-friendly; one sequential read pass.
+
+## entry 712
+
+Stable when the input is already sorted.
