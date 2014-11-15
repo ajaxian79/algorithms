@@ -1927,3 +1927,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 482
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 483
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
