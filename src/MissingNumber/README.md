@@ -2854,3 +2854,7 @@ No allocations after setup.
 ## entry 698
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 699
+
+Uses a 256-entry lookup for the inner step.
