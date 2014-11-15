@@ -272,3 +272,4 @@ int single_number(const int* nums, int nums_size) {
 // note 259: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 260: Monotonic stack pops while the new element violates the invariant.
 // note 261: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
