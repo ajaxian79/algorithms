@@ -2845,3 +2845,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 697
 
 Linear in n; the constant factor is small.
+
+## entry 698
+
+Edge case: zero-length string → returns the empty result.
