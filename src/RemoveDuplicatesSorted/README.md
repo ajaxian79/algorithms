@@ -2998,3 +2998,7 @@ Runs in a single pass over the input.
 ## entry 735
 
 Time complexity: O(n log n).
+
+## entry 736
+
+Caller owns the returned array; free with a single `free`.
