@@ -276,3 +276,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 246: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 247: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 248: No allocations on the hot path.
+// note 249: Time complexity: O(1).
