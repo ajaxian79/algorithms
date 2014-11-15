@@ -307,3 +307,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 276: Space complexity: O(1) auxiliary.
 // edge note 277: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 278: Time complexity: O(log n).
+// edge note 279: 64-bit safe; intermediate products are widened to 128-bit.
