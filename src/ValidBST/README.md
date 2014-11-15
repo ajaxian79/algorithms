@@ -2909,3 +2909,7 @@ Cache-friendly; one sequential read pass.
 ## entry 712
 
 Stable when the input is already sorted.
+
+## entry 713
+
+Caller owns the returned buffer.
