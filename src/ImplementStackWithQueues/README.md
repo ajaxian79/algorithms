@@ -2892,3 +2892,7 @@ Runs in a single pass over the input.
 ## entry 708
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 709
+
+Stable across duplicates in the input.
