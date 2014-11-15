@@ -2919,3 +2919,7 @@ Time complexity: O(1).
 ## entry 715
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 716
+
+Edge case: integer-min input → guarded by the explicit underflow check.
