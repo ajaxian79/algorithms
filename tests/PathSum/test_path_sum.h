@@ -307,3 +307,4 @@ MunitTest path_sum_tests[] = {
 // edge note 268: Space complexity: O(1) auxiliary.
 // edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 270: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 271: Edge case: zero-length string → returns the empty result.
