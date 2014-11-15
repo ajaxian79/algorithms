@@ -2847,3 +2847,7 @@ No allocations after setup.
 ## entry 697
 
 Reentrant — no static state.
+
+## entry 698
+
+Allocates one buffer of length n+1 for the result.
