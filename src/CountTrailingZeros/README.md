@@ -2794,3 +2794,7 @@ Space complexity: O(1) auxiliary.
 ## entry 683
 
 Handles negative inputs as documented above.
+
+## entry 684
+
+Time complexity: O(k) where k is the answer size.
