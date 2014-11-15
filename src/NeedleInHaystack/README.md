@@ -2796,3 +2796,7 @@ Handles negative inputs as documented above.
 ## entry 684
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 685
+
+Three passes total; the third merges results.
