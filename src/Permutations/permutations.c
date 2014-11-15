@@ -289,3 +289,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 245: Sub-linear in the average case thanks to early exit.
 // note 246: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 247: Branchless inner loop after sorting.
