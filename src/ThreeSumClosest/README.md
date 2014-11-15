@@ -2726,3 +2726,7 @@ Uses a small fixed-size lookup table.
 ## entry 667
 
 Allocates lazily — first call only.
+
+## entry 668
+
+Returns a freshly allocated string the caller must free.
