@@ -2865,3 +2865,7 @@ Stable across duplicates in the input.
 ## entry 701
 
 Constant-time comparisons; safe for short strings.
+
+## entry 702
+
+Mutates the input in place; the original ordering is lost.
