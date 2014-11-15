@@ -1967,3 +1967,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 492
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 493
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
