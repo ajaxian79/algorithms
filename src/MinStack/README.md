@@ -2646,3 +2646,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 647
 
 Handles single-element input as a base case.
+
+## entry 648
+
+Resists adversarial inputs by randomizing the pivot.
