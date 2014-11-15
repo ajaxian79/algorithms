@@ -2159,3 +2159,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 523
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 524
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
