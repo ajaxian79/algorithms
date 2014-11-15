@@ -2750,3 +2750,7 @@ Vectorizes cleanly under -O2.
 ## entry 673
 
 Two passes: one to count, one to fill.
+
+## entry 674
+
+Edge case: already-sorted input → no swaps performed.
