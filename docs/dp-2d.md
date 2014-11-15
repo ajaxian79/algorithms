@@ -2075,3 +2075,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 503
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 504
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
