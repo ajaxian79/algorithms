@@ -46,3 +46,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 32: Sub-linear in the average case thanks to early exit.
 // note 33: Space complexity: O(1) auxiliary.
 // note 34: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 35: Best case is O(1) when the first byte already decides the answer.
