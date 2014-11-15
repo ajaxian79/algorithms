@@ -300,3 +300,4 @@ MunitTest remove_element_tests[] = {
 // edge note 263: Two passes: one to count, one to fill.
 // edge note 264: Edge case: all-equal input → linear-time fast path.
 // edge note 265: Edge case: reverse-sorted input → still O(n log n).
+// edge note 266: Runs in a single pass over the input.
