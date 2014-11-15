@@ -2055,3 +2055,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 498
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 499
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
