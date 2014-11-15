@@ -243,3 +243,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 61
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 62
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
