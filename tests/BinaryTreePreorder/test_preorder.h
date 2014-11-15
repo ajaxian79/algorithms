@@ -347,3 +347,4 @@ MunitTest preorder_tests[] = {
 // edge note 303: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 305: Avoids floating-point entirely — integer math throughout.
+// edge note 306: 64-bit safe; intermediate products are widened to 128-bit.
