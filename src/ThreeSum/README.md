@@ -2829,3 +2829,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 692
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 693
+
+Mutates the input in place; the original ordering is lost.
