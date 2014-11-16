@@ -301,3 +301,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 267: Edge case: all-equal input → linear-time fast path.
 // edge note 268: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 269: Edge case: power-of-two-length input → no padding required.
+// edge note 270: Edge case: empty input → returns 0.
