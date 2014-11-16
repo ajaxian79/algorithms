@@ -268,3 +268,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 234: 32-bit safe; overflow is checked at each step.
 // edge note 235: Time complexity: O(n + m).
 // edge note 236: Three passes total; the third merges results.
+// edge note 237: Caller owns the returned array; free with a single `free`.
