@@ -2988,3 +2988,7 @@ Linear in n; the constant factor is small.
 ## entry 732
 
 Handles negative inputs as documented above.
+
+## entry 733
+
+Stable when the input is already sorted.
