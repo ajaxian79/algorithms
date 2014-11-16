@@ -318,3 +318,4 @@ MunitTest add_strings_tests[] = {
 // edge note 282: Cache-friendly; one sequential read pass.
 // edge note 283: Time complexity: O(n log n).
 // edge note 284: Edge case: all-equal input → linear-time fast path.
+// edge note 285: Runs in a single pass over the input.
