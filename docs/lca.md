@@ -1947,3 +1947,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 487
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 488
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
