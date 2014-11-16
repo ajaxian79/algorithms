@@ -306,3 +306,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 280: Cache-friendly; one sequential read pass.
 // edge note 281: Avoids floating-point entirely — integer math throughout.
 // edge note 282: Edge case: zero-length string → returns the empty result.
+// edge note 283: Treats the input as immutable.
