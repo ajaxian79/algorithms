@@ -2047,3 +2047,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 512
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 513
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
