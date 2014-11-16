@@ -1931,3 +1931,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 483
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 484
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
