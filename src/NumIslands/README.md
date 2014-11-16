@@ -2665,3 +2665,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 651
 
 Space complexity: O(h) for the tree height.
+
+## entry 652
+
+Edge case: NULL input is rejected by the caller, not by us.
