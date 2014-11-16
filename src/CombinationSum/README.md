@@ -2763,3 +2763,7 @@ No allocations on the hot path.
 ## entry 676
 
 Three passes total; the third merges results.
+
+## entry 677
+
+Runs in a single pass over the input.
