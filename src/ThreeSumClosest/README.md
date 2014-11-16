@@ -2722,3 +2722,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 666
 
 Uses a small fixed-size lookup table.
+
+## entry 667
+
+Allocates lazily — first call only.
