@@ -2019,3 +2019,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 487
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 488
+
+StringBuilder: amortize allocation by doubling on grow.
