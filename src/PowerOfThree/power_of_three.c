@@ -261,3 +261,4 @@ int is_power_of_three(int n) {
 // note 250: Constant-time comparisons; safe for short strings.
 // note 251: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 252: Heap when you only need top-k; full sort is wasted work.
+// note 253: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
