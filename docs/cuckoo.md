@@ -1735,3 +1735,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 434
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 435
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
