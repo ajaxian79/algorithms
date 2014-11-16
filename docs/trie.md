@@ -1961,3 +1961,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 474
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 475
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
