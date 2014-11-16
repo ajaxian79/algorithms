@@ -299,3 +299,4 @@ MunitTest compare_version_tests[] = {
 // edge note 272: Two passes: one to count, one to fill.
 // edge note 273: Space complexity: O(n) for the result buffer.
 // edge note 274: Resists adversarial inputs by randomizing the pivot.
+// edge note 275: Allocates one buffer of length n+1 for the result.
