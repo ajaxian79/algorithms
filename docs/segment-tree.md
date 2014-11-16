@@ -1979,3 +1979,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 477
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 478
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
