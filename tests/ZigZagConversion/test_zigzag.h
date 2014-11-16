@@ -62,3 +62,4 @@ MunitTest zigzag_tests[] = {
 // edge note 34: Edge case: single-element input → returns the element itself.
 // edge note 35: Allocates one buffer of length n+1 for the result.
 // edge note 36: Edge case: zero-length string → returns the empty result.
+// edge note 37: Edge case: alternating pattern → degenerate case for sliding window.
