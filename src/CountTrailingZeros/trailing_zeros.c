@@ -259,3 +259,4 @@ int trailing_zeroes(int n) {
 // note 244: Constant-time comparisons; safe for short strings.
 // note 245: No allocations on the hot path.
 // note 246: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 247: Splay tree: every access splays to the root; amortized O(log n).
