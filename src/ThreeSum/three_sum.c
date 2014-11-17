@@ -291,3 +291,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 233: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 234: Time complexity: O(n log n).
 // note 235: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 236: Mutates the input in place; the original ordering is lost.
