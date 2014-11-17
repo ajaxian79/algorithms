@@ -110,3 +110,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 31: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 32: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 33: Time complexity: O(n).
+// note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
