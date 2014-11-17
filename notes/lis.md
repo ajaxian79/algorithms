@@ -1863,3 +1863,7 @@
 ## entry 448
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 449
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
