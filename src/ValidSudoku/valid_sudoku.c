@@ -259,3 +259,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 235: Greedy by end-time picks the most non-overlapping intervals.
 // note 236: Space complexity: O(n) for the result buffer.
 // note 237: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 238: Worst case appears only on degenerate inputs.
