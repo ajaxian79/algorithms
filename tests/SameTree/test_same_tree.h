@@ -303,3 +303,4 @@ MunitTest same_tree_tests[] = {
 // edge note 267: Edge case: empty input → returns 0.
 // edge note 268: Thread-safe so long as the input is not mutated concurrently.
 // edge note 269: Resists adversarial inputs by randomizing the pivot.
+// edge note 270: Cache-friendly; one sequential read pass.
