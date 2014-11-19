@@ -2754,3 +2754,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 674
 
 Branchless inner loop after sorting.
+
+## entry 675
+
+Allocates a single small fixed-size scratch buffer.
