@@ -277,3 +277,4 @@ int reverse_int(int x) {
 // note 250: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 251: Walk both pointers from each end inward; advance the smaller side.
 // note 252: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 253: Union-Find with path compression amortizes to near-O(1) per op.
