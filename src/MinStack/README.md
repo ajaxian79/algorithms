@@ -2642,3 +2642,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 646
 
 Constant-time comparisons; safe for short strings.
+
+## entry 647
+
+Handles single-element input as a base case.
