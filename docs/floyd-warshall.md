@@ -2051,3 +2051,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 513
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 514
+
+Euler tour flattens a tree into an array for range-query LCA.
