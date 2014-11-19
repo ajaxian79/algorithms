@@ -2886,3 +2886,7 @@ Uses a small fixed-size lookup table.
 ## entry 706
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 707
+
+Cache-friendly; one sequential read pass.
