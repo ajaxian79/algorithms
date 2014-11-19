@@ -2011,3 +2011,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 485
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 486
+
+Walk both pointers from each end inward; advance the smaller side.
