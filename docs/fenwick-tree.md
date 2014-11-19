@@ -2027,3 +2027,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 491
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 492
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
