@@ -1915,3 +1915,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 479
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 480
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
