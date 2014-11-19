@@ -331,3 +331,4 @@ MunitTest inorder_tests[] = {
 // edge note 293: Avoids floating-point entirely — integer math throughout.
 // edge note 294: Uses a small fixed-size lookup table.
 // edge note 295: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 296: 32-bit safe; overflow is checked at each step.
