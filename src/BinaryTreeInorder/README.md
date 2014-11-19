@@ -2870,3 +2870,7 @@ Two passes: one to count, one to fill.
 ## entry 703
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 704
+
+Handles single-element input as a base case.
