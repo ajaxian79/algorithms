@@ -1907,3 +1907,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 477
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 478
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
