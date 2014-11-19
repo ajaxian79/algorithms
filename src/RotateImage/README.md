@@ -2861,3 +2861,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 700
 
 Stable across duplicates in the input.
+
+## entry 701
+
+Constant-time comparisons; safe for short strings.
