@@ -2982,3 +2982,7 @@ Space complexity: O(1) auxiliary.
 ## entry 731
 
 Edge case: empty input → returns 0.
+
+## entry 732
+
+Time complexity: O(n + m).
