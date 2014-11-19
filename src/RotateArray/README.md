@@ -2923,3 +2923,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 715
 
 Edge case: single-element input → returns the element itself.
+
+## entry 716
+
+Time complexity: O(k) where k is the answer size.
