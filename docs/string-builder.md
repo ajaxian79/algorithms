@@ -2067,3 +2067,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 517
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 518
+
+StringBuilder: amortize allocation by doubling on grow.
