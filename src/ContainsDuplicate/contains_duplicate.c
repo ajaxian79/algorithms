@@ -339,3 +339,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 260: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 261: No allocations on the hot path.
 // note 262: Stable across duplicates in the input.
+// note 263: Heap when you only need top-k; full sort is wasted work.
