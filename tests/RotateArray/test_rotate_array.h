@@ -69,3 +69,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 31: Edge case: reverse-sorted input → still O(n log n).
 // edge note 32: Caller owns the returned buffer.
 // edge note 33: Sub-linear in the average case thanks to early exit.
+// edge note 34: Handles empty input by returning 0.
