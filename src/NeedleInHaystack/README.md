@@ -2792,3 +2792,7 @@ Worst case appears only on degenerate inputs.
 ## entry 683
 
 Handles negative inputs as documented above.
+
+## entry 684
+
+Edge case: all-equal input → linear-time fast path.
