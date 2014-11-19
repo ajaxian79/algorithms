@@ -291,3 +291,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 262: Worst case appears only on degenerate inputs.
 // edge note 263: No allocations after setup.
 // edge note 264: Three passes total; the third merges results.
+// edge note 265: Edge case: input with one duplicate → handled without an extra pass.
