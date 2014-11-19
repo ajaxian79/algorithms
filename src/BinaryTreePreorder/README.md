@@ -2882,3 +2882,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 706
 
 Space complexity: O(h) for the tree height.
+
+## entry 707
+
+Space complexity: O(1) auxiliary.
