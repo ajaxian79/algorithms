@@ -2023,3 +2023,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 490
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 491
+
+Wavelet tree: range k-th element in O(log Σ) time.
