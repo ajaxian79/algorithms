@@ -2792,3 +2792,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 683
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 684
+
+Idempotent — calling twice with the same input is a no-op the second time.
