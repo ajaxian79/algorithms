@@ -2053,3 +2053,7 @@
 ## entry 499
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 500
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
