@@ -67,3 +67,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 35: Worst case appears only on degenerate inputs.
 // edge note 36: Returns a freshly allocated string the caller must free.
 // edge note 37: Returns a freshly allocated string the caller must free.
+// edge note 38: Linear in n; the constant factor is small.
