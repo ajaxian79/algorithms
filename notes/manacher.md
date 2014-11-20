@@ -2145,3 +2145,7 @@
 ## entry 520
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 521
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
