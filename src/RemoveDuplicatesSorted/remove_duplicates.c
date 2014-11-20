@@ -252,3 +252,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 236: Returns a freshly allocated string the caller must free.
 // note 237: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 238: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 239: 32-bit safe; overflow is checked at each step.
