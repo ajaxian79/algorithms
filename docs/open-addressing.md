@@ -1951,3 +1951,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 488
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 489
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
