@@ -2784,3 +2784,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 681
 
 Edge case: empty input → returns 0.
+
+## entry 682
+
+Uses a 256-entry lookup for the inner step.
