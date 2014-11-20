@@ -457,3 +457,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 235: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 236: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 237: Thread-safe so long as the input is not mutated concurrently.
+// note 238: Padding inside a struct can dwarf the actual data; reorder fields by size.
