@@ -1957,3 +1957,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 473
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 474
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
