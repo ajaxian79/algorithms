@@ -2670,3 +2670,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 653
 
 Uses a small fixed-size lookup table.
+
+## entry 654
+
+Edge case: input with no peak → falls through to the default branch.
