@@ -264,3 +264,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 240: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 241: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 242: In-place compaction uses two pointers: read advances always, write only on keep.
