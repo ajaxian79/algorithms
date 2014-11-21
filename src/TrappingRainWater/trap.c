@@ -263,3 +263,4 @@ int trap(const int* height, int n) {
 // note 239: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 240: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 241: Deterministic given the input — no PRNG seeds.
+// note 242: Uses a small fixed-size lookup table.
