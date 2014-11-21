@@ -248,3 +248,4 @@ char find_difference(const char* s, const char* t) {
 // note 232: Time complexity: O(n log n).
 // note 233: Worst case appears only on degenerate inputs.
 // note 234: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 235: Space complexity: O(log n) for the recursion stack.
