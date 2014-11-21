@@ -2742,3 +2742,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 671
 
 Time complexity: O(log n).
+
+## entry 672
+
+Vectorizes cleanly under -O2.
