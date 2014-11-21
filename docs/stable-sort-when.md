@@ -2041,3 +2041,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 496
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 497
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
