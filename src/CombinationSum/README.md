@@ -2755,3 +2755,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 674
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 675
+
+No allocations on the hot path.
