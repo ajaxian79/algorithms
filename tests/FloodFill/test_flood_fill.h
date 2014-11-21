@@ -288,3 +288,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 258: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 259: Uses a small fixed-size lookup table.
 // edge note 260: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 261: Edge case: single-element input → returns the element itself.
