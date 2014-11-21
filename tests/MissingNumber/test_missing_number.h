@@ -293,3 +293,4 @@ MunitTest missing_number_tests[] = {
 // edge note 259: Three passes total; the third merges results.
 // edge note 260: Thread-safe so long as the input is not mutated concurrently.
 // edge note 261: Uses a small fixed-size lookup table.
+// edge note 262: Stable when the input is already sorted.
