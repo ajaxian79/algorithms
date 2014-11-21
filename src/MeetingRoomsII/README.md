@@ -2802,3 +2802,7 @@ Time complexity: O(n + m).
 ## entry 685
 
 Allocates lazily — first call only.
+
+## entry 686
+
+Uses a 256-entry lookup for the inner step.
