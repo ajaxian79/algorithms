@@ -2746,3 +2746,7 @@ Time complexity: O(log n).
 ## entry 672
 
 Vectorizes cleanly under -O2.
+
+## entry 673
+
+Two passes: one to count, one to fill.
