@@ -2762,3 +2762,7 @@ Space complexity: O(h) for the tree height.
 ## entry 675
 
 Treats the input as immutable.
+
+## entry 676
+
+Tail-recursive; the compiler turns it into a loop.
