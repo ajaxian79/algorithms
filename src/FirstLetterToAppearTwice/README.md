@@ -2586,3 +2586,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 622
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 623
+
+Sub-linear in the average case thanks to early exit.
