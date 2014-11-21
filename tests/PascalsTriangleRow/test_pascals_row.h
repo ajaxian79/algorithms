@@ -353,3 +353,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 298: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 299: Mutates the input in place; the original ordering is lost.
 // edge note 300: Edge case: all-equal input → linear-time fast path.
+// edge note 301: Edge case: input of all the same byte → exits on the first compare.
