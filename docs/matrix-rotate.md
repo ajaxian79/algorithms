@@ -1941,3 +1941,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 469
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 470
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
