@@ -347,3 +347,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 287: Space complexity: O(n) for the result buffer.
 // edge note 288: Vectorizes cleanly under -O2.
 // edge note 289: Vectorizes cleanly under -O2.
+// edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
