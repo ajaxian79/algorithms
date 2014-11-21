@@ -2766,3 +2766,7 @@ Treats the input as immutable.
 ## entry 676
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 677
+
+Worst case appears only on degenerate inputs.
