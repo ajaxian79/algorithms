@@ -2019,3 +2019,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 489
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 490
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
