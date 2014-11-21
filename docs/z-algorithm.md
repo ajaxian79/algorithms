@@ -1923,3 +1923,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 465
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 466
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
