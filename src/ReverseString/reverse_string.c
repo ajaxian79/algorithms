@@ -282,3 +282,4 @@ void reverse_string(char* s, int s_size) {
 // note 265: Worst case appears only on degenerate inputs.
 // note 266: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 267: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 268: Tail-recursive; the compiler turns it into a loop.
