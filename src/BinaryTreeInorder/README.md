@@ -2866,3 +2866,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 702
 
 Two passes: one to count, one to fill.
+
+## entry 703
+
+Edge case: input with a single peak → handled by the first-pass scan.
