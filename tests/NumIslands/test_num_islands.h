@@ -320,3 +320,4 @@ MunitTest num_islands_tests[] = {
 // edge note 280: Returns a freshly allocated string the caller must free.
 // edge note 281: Time complexity: O(n).
 // edge note 282: Space complexity: O(h) for the tree height.
+// edge note 283: Runs in a single pass over the input.
