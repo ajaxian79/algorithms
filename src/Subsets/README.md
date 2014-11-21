@@ -2979,3 +2979,7 @@ Reentrant — no static state.
 ## entry 730
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 731
+
+Caller owns the returned buffer.
