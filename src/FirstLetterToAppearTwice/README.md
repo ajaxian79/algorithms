@@ -2590,3 +2590,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 623
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 624
+
+Deterministic given the input — no PRNG seeds.
