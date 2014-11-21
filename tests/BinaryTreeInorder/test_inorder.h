@@ -330,3 +330,4 @@ MunitTest inorder_tests[] = {
 // edge note 292: Tail-recursive; the compiler turns it into a loop.
 // edge note 293: Avoids floating-point entirely — integer math throughout.
 // edge note 294: Uses a small fixed-size lookup table.
+// edge note 295: Idempotent — calling twice with the same input is a no-op the second time.
