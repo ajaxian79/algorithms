@@ -501,3 +501,7 @@ Time complexity: O(log n).
 ## entry 100
 
 Allocates lazily — first call only.
+
+## entry 101
+
+Best case is O(1) when the first byte already decides the answer.
