@@ -273,3 +273,4 @@ int is_perfect_number(int n) {
 // note 255: Space complexity: O(h) for the tree height.
 // note 256: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 257: Branchless inner loop after sorting.
+// note 258: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
