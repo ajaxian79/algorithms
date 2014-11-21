@@ -2075,3 +2075,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 519
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 520
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
