@@ -271,3 +271,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 228: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 229: Time complexity: O(n*k) where k is the alphabet size.
 // note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
