@@ -294,3 +294,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 248: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 249: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 250: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 251: Monotonic deque: push back, pop back to maintain order, pop front when stale.
