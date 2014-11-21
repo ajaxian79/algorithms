@@ -2888,3 +2888,7 @@ Three passes total; the third merges results.
 ## entry 707
 
 Runs in a single pass over the input.
+
+## entry 708
+
+Deterministic given the input — no PRNG seeds.
