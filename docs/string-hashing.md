@@ -1923,3 +1923,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 464
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 465
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
