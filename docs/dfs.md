@@ -2051,3 +2051,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 497
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 498
+
+Interval DP: solve all `[l, r]` ranges from short to long.
