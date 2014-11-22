@@ -456,3 +456,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 98
 
 Time complexity: O(n log n).
+
+## entry 99
+
+Edge case: reverse-sorted input → still O(n log n).
