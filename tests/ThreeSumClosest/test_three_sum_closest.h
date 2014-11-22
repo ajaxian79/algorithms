@@ -69,3 +69,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 41: Edge case: empty input → returns 0.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
 // edge note 43: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 44: 64-bit safe; intermediate products are widened to 128-bit.
