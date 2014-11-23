@@ -256,3 +256,4 @@ long long climb_stairs(int n) {
 // note 237: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 238: Caller owns the returned array; free with a single `free`.
 // note 239: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 240: Splay tree: every access splays to the root; amortized O(log n).
