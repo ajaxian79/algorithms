@@ -281,3 +281,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 238: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 239: Space complexity: O(1) auxiliary.
 // note 240: Uses a small fixed-size lookup table.
+// note 241: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
