@@ -2975,3 +2975,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 729
 
 Reentrant — no static state.
+
+## entry 730
+
+Avoids floating-point entirely — integer math throughout.
