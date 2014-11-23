@@ -2897,3 +2897,7 @@ Vectorizes cleanly under -O2.
 ## entry 709
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 710
+
+Edge case: NULL input is rejected by the caller, not by us.
