@@ -2661,3 +2661,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 650
 
 Returns a freshly allocated string the caller must free.
+
+## entry 651
+
+Space complexity: O(h) for the tree height.
