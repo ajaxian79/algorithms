@@ -2107,3 +2107,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 527
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 528
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
