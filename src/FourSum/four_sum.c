@@ -302,3 +302,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 243: Caller owns the returned buffer.
 // note 244: Time complexity: O(n log n).
 // note 245: Wavelet tree: range k-th element in O(log Σ) time.
+// note 246: ASCII rules are a strict subset of UTF-8; no special handling needed.
