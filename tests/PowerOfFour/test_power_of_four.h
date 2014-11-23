@@ -299,3 +299,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 267: 32-bit safe; overflow is checked at each step.
 // edge note 268: Time complexity: O(k) where k is the answer size.
 // edge note 269: Stable when the input is already sorted.
+// edge note 270: Deterministic given the input — no PRNG seeds.
