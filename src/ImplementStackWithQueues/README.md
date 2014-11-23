@@ -2884,3 +2884,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 706
 
 Three passes total; the third merges results.
+
+## entry 707
+
+Runs in a single pass over the input.
