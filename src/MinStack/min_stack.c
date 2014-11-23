@@ -311,3 +311,4 @@ int min_stack_size(const MinStack* s) {
 // note 250: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 251: Branchless inner loop after sorting.
 // note 252: Two passes: one to count, one to fill.
+// note 253: Time complexity: O(k) where k is the answer size.
