@@ -1975,3 +1975,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 476
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 477
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
