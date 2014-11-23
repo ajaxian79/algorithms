@@ -277,3 +277,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 254: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 255: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 256: State compression: bitmask + integer encodes a small subset cheaply.
+// note 257: Space complexity: O(log n) for the recursion stack.
