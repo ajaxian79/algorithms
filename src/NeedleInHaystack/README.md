@@ -2788,3 +2788,7 @@ Three passes total; the third merges results.
 ## entry 682
 
 Worst case appears only on degenerate inputs.
+
+## entry 683
+
+Handles negative inputs as documented above.
