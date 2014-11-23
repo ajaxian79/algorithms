@@ -1875,3 +1875,7 @@
 ## entry 469
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 470
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
