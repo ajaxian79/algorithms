@@ -2812,3 +2812,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 687
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 688
+
+Allocates lazily — first call only.
