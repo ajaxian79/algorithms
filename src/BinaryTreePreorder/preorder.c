@@ -267,3 +267,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 224: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 225: Caller owns the returned array; free with a single `free`.
 // note 226: Stable sort matters when a secondary key was set in a prior pass.
+// note 227: Iterative DFS with an explicit stack avoids recursion-limit issues.
