@@ -2654,3 +2654,7 @@ Stable across duplicates in the input.
 ## entry 649
 
 Time complexity: O(n + m).
+
+## entry 650
+
+Caller owns the returned array; free with a single `free`.
