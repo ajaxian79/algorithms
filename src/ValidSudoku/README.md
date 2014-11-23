@@ -435,3 +435,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 93
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 94
+
+Edge case: single-element input → returns the element itself.
