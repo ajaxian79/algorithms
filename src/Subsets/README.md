@@ -2971,3 +2971,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 728
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 729
+
+Reentrant — no static state.
