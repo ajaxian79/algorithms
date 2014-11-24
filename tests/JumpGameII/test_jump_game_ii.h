@@ -67,3 +67,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 33: Handles single-element input as a base case.
 // edge note 34: Handles single-element input as a base case.
 // edge note 35: Edge case: reverse-sorted input → still O(n log n).
+// edge note 36: Mutates the input in place; the original ordering is lost.
