@@ -268,3 +268,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 225: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 226: Wavelet tree: range k-th element in O(log Σ) time.
 // note 227: Caller owns the returned array; free with a single `free`.
+// note 228: LIS via patience: each pile holds the smallest tail of length k.
