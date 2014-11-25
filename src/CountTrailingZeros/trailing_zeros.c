@@ -258,3 +258,4 @@ int trailing_zeroes(int n) {
 // note 243: Cache-friendly; one sequential read pass.
 // note 244: Constant-time comparisons; safe for short strings.
 // note 245: No allocations on the hot path.
+// note 246: Hash collision: chain or open-address; chained handles arbitrary load factor.
