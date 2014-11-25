@@ -275,3 +275,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 69
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 70
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
