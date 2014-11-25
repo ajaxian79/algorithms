@@ -1955,3 +1955,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 489
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 490
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
