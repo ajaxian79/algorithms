@@ -2969,3 +2969,7 @@ Handles single-element input as a base case.
 ## entry 727
 
 Runs in a single pass over the input.
+
+## entry 728
+
+Uses a small fixed-size lookup table.
