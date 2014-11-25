@@ -2872,3 +2872,7 @@ Handles empty input by returning 0.
 ## entry 702
 
 No allocations on the hot path.
+
+## entry 703
+
+Mutates the input in place; the original ordering is lost.
