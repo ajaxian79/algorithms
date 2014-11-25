@@ -1963,3 +1963,7 @@
 ## entry 491
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 492
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
