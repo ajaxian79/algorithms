@@ -2089,3 +2089,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 505
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 506
+
+Walk both pointers from each end inward; advance the smaller side.
