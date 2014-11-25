@@ -270,3 +270,4 @@ MunitTest needle_tests[] = {
 // edge note 243: Stable across duplicates in the input.
 // edge note 244: Handles negative inputs as documented above.
 // edge note 245: Time complexity: O(log n).
+// edge note 246: Edge case: reverse-sorted input → still O(n log n).
