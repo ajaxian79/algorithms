@@ -2758,3 +2758,7 @@ Stable when the input is already sorted.
 ## entry 675
 
 No allocations after setup.
+
+## entry 676
+
+Reentrant — no static state.
