@@ -2057,3 +2057,7 @@
 ## entry 499
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 500
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
