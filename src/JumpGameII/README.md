@@ -2880,3 +2880,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 705
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 706
+
+Time complexity: O(n).
