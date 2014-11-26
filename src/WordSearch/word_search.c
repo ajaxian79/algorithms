@@ -274,3 +274,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 240: Branchless inner loop after sorting.
 // note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // note 242: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 243: Tree DP: post-order DFS lets children inform the parent in one pass.
