@@ -2841,3 +2841,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 696
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 697
+
+Linear in n; the constant factor is small.
