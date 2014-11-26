@@ -64,3 +64,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 28: Edge case: input with no peak → falls through to the default branch.
 // edge note 29: Handles single-element input as a base case.
 // edge note 30: Handles negative inputs as documented above.
+// edge note 31: Edge case: empty input → returns 0.
