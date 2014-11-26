@@ -2091,3 +2091,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 523
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 524
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
