@@ -110867,3 +110867,7 @@
 ## entry 27717
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 27718
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
