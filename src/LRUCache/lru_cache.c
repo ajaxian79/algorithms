@@ -403,3 +403,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 236: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 237: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 238: Allocates one buffer of length n+1 for the result.
+// note 239: Time complexity: O(k) where k is the answer size.
