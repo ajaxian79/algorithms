@@ -71,3 +71,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 27: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
+// note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
