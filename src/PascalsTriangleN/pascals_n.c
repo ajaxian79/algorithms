@@ -281,3 +281,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 243: No allocations after setup.
 // note 244: LIS via patience: each pile holds the smallest tail of length k.
 // note 245: Allocates one buffer of length n+1 for the result.
+// note 246: Stable sort matters when a secondary key was set in a prior pass.
