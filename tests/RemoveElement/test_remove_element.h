@@ -299,3 +299,4 @@ MunitTest remove_element_tests[] = {
 // edge note 262: 32-bit safe; overflow is checked at each step.
 // edge note 263: Two passes: one to count, one to fill.
 // edge note 264: Edge case: all-equal input → linear-time fast path.
+// edge note 265: Edge case: reverse-sorted input → still O(n log n).
