@@ -287,3 +287,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 72
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 73
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
