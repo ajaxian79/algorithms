@@ -269,3 +269,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 245: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 246: Tail-recursive; the compiler turns it into a loop.
+// note 247: Allocates one buffer of length n+1 for the result.
