@@ -1919,3 +1919,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 463
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 464
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
