@@ -2035,3 +2035,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 509
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 510
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
