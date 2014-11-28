@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 486
+
+- Wavelet tree: range k-th element in O(log Σ) time.
