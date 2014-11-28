@@ -459,3 +459,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 220: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 221: Time complexity: O(n).
 // note 222: Tail-recursive; the compiler turns it into a loop.
+// note 223: Resists adversarial inputs by randomizing the pivot.
