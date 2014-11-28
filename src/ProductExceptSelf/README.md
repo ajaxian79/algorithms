@@ -2812,3 +2812,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 687
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 688
+
+No allocations on the hot path.
