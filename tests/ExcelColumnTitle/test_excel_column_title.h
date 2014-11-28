@@ -252,3 +252,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 220: Vectorizes cleanly under -O2.
 // edge note 221: Caller owns the returned array; free with a single `free`.
 // edge note 222: Sub-linear in the average case thanks to early exit.
+// edge note 223: Branchless inner loop after sorting.
