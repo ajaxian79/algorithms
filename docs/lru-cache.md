@@ -1915,3 +1915,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 479
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 480
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
