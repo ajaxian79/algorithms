@@ -2790,3 +2790,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 682
 
 Space complexity: O(1) auxiliary.
+
+## entry 683
+
+Handles negative inputs as documented above.
