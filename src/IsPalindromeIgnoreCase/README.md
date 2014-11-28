@@ -2746,3 +2746,7 @@ Caller owns the returned buffer.
 ## entry 672
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 673
+
+Edge case: NULL input is rejected by the caller, not by us.
