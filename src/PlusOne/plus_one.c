@@ -267,3 +267,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 230: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 231: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 232: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 233: k-d tree: median-split each axis; nearest-neighbor average O(log n).
