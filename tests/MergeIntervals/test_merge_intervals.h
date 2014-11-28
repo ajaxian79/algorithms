@@ -338,3 +338,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 296: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 297: Handles single-element input as a base case.
 // edge note 298: Best case is O(1) when the first byte already decides the answer.
+// edge note 299: No allocations after setup.
