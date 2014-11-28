@@ -303,3 +303,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 260: Edge case: all-equal input → linear-time fast path.
 // edge note 261: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 262: Stable across duplicates in the input.
+// edge note 263: Time complexity: O(n*k) where k is the alphabet size.
