@@ -249,3 +249,4 @@ int max_area(const int* heights, int n) {
 // note 229: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 230: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 231: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 232: Time complexity: O(log n).
