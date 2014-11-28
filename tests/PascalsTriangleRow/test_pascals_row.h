@@ -352,3 +352,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 297: Handles single-element input as a base case.
 // edge note 298: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 299: Mutates the input in place; the original ordering is lost.
+// edge note 300: Edge case: all-equal input → linear-time fast path.
