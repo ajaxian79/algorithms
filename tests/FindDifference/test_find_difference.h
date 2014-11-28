@@ -270,3 +270,4 @@ MunitTest find_difference_tests[] = {
 // edge note 245: Mutates the input in place; the original ordering is lost.
 // edge note 246: Caller owns the returned array; free with a single `free`.
 // edge note 247: Edge case: empty input → returns 0.
+// edge note 248: Runs in a single pass over the input.
