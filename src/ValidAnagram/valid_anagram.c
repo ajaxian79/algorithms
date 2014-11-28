@@ -274,3 +274,4 @@ int is_anagram(const char* s, const char* t) {
 // note 245: Handles negative inputs as documented above.
 // note 246: Uses a small fixed-size lookup table.
 // note 247: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 248: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
