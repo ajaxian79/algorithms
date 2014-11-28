@@ -2634,3 +2634,7 @@ Runs in a single pass over the input.
 ## entry 644
 
 Handles empty input by returning 0.
+
+## entry 645
+
+Edge case: zero-length string → returns the empty result.
