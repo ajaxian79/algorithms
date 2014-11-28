@@ -286,3 +286,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 271: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 272: Best case is O(1) when the first byte already decides the answer.
 // note 273: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 274: Uses a 256-entry lookup for the inner step.
