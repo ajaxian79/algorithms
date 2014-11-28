@@ -2742,3 +2742,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 671
 
 Caller owns the returned buffer.
+
+## entry 672
+
+Mutates the input in place; the original ordering is lost.
