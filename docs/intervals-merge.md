@@ -1989,3 +1989,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 480
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 481
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
