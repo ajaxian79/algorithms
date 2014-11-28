@@ -2780,3 +2780,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 680
 
 Time complexity: O(n log n).
+
+## entry 681
+
+Three passes total; the third merges results.
