@@ -315,3 +315,4 @@ MunitTest to_hex_tests[] = {
 // edge note 286: Avoids floating-point entirely — integer math throughout.
 // edge note 287: Constant-time comparisons; safe for short strings.
 // edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 289: Time complexity: O(n).
