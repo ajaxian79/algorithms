@@ -2677,3 +2677,7 @@ Edge case: empty input → returns 0.
 ## entry 655
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 656
+
+Edge case: power-of-two-length input → no padding required.
