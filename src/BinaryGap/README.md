@@ -2878,3 +2878,7 @@ Time complexity: O(1).
 ## entry 704
 
 Handles single-element input as a base case.
+
+## entry 705
+
+Uses a small fixed-size lookup table.
