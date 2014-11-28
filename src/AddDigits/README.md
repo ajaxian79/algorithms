@@ -2808,3 +2808,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 687
 
 32-bit safe; overflow is checked at each step.
+
+## entry 688
+
+Edge case: already-sorted input → no swaps performed.
