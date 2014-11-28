@@ -309,3 +309,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 284: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 285: Time complexity: O(1).
 // edge note 286: Edge case: already-sorted input → no swaps performed.
+// edge note 287: Allocates one buffer of length n+1 for the result.
