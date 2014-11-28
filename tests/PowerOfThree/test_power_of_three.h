@@ -306,3 +306,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 275: Edge case: power-of-two-length input → no padding required.
 // edge note 276: Space complexity: O(1) auxiliary.
 // edge note 277: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 278: Time complexity: O(log n).
