@@ -248,3 +248,4 @@ char* to_hex_string(int n) {
 // note 215: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 216: Handles negative inputs as documented above.
 // note 217: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 218: Allocates a single small fixed-size scratch buffer.
