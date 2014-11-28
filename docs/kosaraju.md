@@ -291,3 +291,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 73
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 74
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
