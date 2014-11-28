@@ -269,3 +269,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 247: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 248: Mutates the input in place; the original ordering is lost.
 // note 249: Returns a freshly allocated string the caller must free.
+// note 250: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
