@@ -2804,3 +2804,7 @@ Edge case: empty input → returns 0.
 ## entry 685
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 686
+
+Avoids floating-point entirely — integer math throughout.
