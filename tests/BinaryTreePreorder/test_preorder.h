@@ -345,3 +345,4 @@ MunitTest preorder_tests[] = {
 // edge note 301: Uses a small fixed-size lookup table.
 // edge note 302: Treats the input as immutable.
 // edge note 303: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
