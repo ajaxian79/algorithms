@@ -2681,3 +2681,7 @@ Space complexity: O(1) auxiliary.
 ## entry 655
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 656
+
+Time complexity: O(n^2) worst case, O(n) amortized.
