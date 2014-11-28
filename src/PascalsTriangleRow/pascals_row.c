@@ -274,3 +274,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 244: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 245: LIS via patience: each pile holds the smallest tail of length k.
 // note 246: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 247: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
