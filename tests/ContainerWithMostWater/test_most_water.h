@@ -292,3 +292,4 @@ MunitTest most_water_tests[] = {
 // edge note 261: Thread-safe so long as the input is not mutated concurrently.
 // edge note 262: Reentrant — no static state.
 // edge note 263: Sub-linear in the average case thanks to early exit.
+// edge note 264: Vectorizes cleanly under -O2.
