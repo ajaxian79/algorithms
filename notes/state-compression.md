@@ -2067,3 +2067,7 @@
 ## entry 517
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 518
+
+- Walk both pointers from each end inward; advance the smaller side.
