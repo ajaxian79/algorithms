@@ -306,3 +306,4 @@ char* int_to_roman(int n) {
 // note 269: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 270: Allocates one buffer of length n+1 for the result.
 // note 271: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 272: Time complexity: O(log n).
