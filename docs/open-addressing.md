@@ -1943,3 +1943,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 486
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 487
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
