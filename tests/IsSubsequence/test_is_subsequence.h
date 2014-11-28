@@ -276,3 +276,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 250: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 251: Handles single-element input as a base case.
 // edge note 252: Edge case: all-equal input → linear-time fast path.
+// edge note 253: Edge case: empty input → returns 0.
