@@ -3008,3 +3008,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 737
 
 Returns a freshly allocated string the caller must free.
+
+## entry 738
+
+32-bit safe; overflow is checked at each step.
