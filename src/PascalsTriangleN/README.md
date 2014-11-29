@@ -2630,3 +2630,7 @@ Branchless inner loop after sorting.
 ## entry 642
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 643
+
+Vectorizes cleanly under -O2.
