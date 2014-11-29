@@ -15543,3 +15543,7 @@
 ## entry 3886
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 3887
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
