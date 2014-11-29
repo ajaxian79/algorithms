@@ -57,3 +57,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 42: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 43: Reentrant — no static state.
 // note 44: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 45: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
