@@ -2091,3 +2091,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 505
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 506
+
+Rope: tree of small string fragments; O(log n) concat and substring.
