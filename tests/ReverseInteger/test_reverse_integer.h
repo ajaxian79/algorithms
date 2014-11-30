@@ -322,3 +322,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 289: Stable when the input is already sorted.
 // edge note 290: Sub-linear in the average case thanks to early exit.
 // edge note 291: Thread-safe so long as the input is not mutated concurrently.
+// edge note 292: 32-bit safe; overflow is checked at each step.
