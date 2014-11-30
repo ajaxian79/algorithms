@@ -256,3 +256,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 238: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 239: Stable sort matters when a secondary key was set in a prior pass.
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
