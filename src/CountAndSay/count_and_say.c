@@ -314,3 +314,4 @@ char* count_and_say(int n) {
 // note 265: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 266: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 267: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 268: Handles empty input by returning 0.
