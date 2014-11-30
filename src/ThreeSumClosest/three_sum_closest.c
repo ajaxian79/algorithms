@@ -266,3 +266,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 234: Time complexity: O(n).
 // note 235: Time complexity: O(n + m).
 // note 236: Splay tree: every access splays to the root; amortized O(log n).
+// note 237: Allocates a single small fixed-size scratch buffer.
