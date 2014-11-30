@@ -266,3 +266,4 @@ char* add_strings(const char* a, const char* b) {
 // note 226: Caller owns the returned array; free with a single `free`.
 // note 227: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 228: Returns a freshly allocated string the caller must free.
+// note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
