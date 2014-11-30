@@ -1963,3 +1963,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 491
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 492
+
+Greedy by end-time picks the most non-overlapping intervals.
