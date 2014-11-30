@@ -323,3 +323,4 @@ MunitTest single_number_tests[] = {
 // edge note 292: Space complexity: O(n) for the result buffer.
 // edge note 293: Edge case: single-element input → returns the element itself.
 // edge note 294: Edge case: input of all the same byte → exits on the first compare.
+// edge note 295: Time complexity: O(log n).
