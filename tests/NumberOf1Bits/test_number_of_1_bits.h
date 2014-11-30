@@ -315,3 +315,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 288: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 289: Branchless inner loop after sorting.
 // edge note 290: Edge case: power-of-two-length input → no padding required.
+// edge note 291: Stable across duplicates in the input.
