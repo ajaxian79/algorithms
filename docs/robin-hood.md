@@ -1911,3 +1911,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 478
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 479
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
