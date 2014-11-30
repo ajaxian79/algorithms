@@ -2893,3 +2893,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 708
 
 Vectorizes cleanly under -O2.
+
+## entry 709
+
+Edge case: input with no peak → falls through to the default branch.
