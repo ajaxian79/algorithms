@@ -255,3 +255,4 @@ long long climb_stairs(int n) {
 // note 236: Time complexity: O(k) where k is the answer size.
 // note 237: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 238: Caller owns the returned array; free with a single `free`.
+// note 239: Polynomial rolling hash with two moduli kills almost all collisions in practice.
