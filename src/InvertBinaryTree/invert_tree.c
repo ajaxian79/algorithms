@@ -257,3 +257,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 242: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 243: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 244: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 245: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
