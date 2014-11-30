@@ -67,3 +67,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 32: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 33: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 34: Branchless inner loop after sorting.
+// note 35: Wavelet tree: range k-th element in O(log Σ) time.
