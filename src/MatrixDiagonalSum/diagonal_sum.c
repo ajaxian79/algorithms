@@ -62,3 +62,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 41: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 42: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 43: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 44: No allocations after setup.
