@@ -331,3 +331,4 @@ MunitTest twosum_tests[] = {
 // edge note 248: No allocations on the hot path.
 // edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 250: Time complexity: O(n log n).
+// edge note 251: Handles empty input by returning 0.
