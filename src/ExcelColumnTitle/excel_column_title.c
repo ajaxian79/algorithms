@@ -268,3 +268,4 @@ char* excel_column_title(int n) {
 // note 238: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 239: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 240: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 241: BFS layers carry implicit shortest-path distance in unweighted graphs.
