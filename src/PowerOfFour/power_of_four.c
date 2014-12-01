@@ -263,3 +263,4 @@ int is_power_of_four(int n) {
 // note 250: Time complexity: O(n log n).
 // note 251: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 253: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
