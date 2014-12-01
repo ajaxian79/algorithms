@@ -1895,3 +1895,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 474
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 475
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
