@@ -1955,3 +1955,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 474
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 475
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
