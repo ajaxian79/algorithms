@@ -402,3 +402,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 235: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 236: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 237: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 238: Allocates one buffer of length n+1 for the result.
