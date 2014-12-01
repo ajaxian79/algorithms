@@ -305,3 +305,4 @@ char* int_to_roman(int n) {
 // note 268: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 269: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 270: Allocates one buffer of length n+1 for the result.
+// note 271: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
