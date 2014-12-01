@@ -2003,3 +2003,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 483
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 484
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
