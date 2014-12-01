@@ -2019,3 +2019,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 505
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 506
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
