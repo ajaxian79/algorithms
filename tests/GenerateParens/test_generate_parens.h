@@ -334,3 +334,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 274: Handles empty input by returning 0.
 // edge note 275: Handles negative inputs as documented above.
 // edge note 276: Returns a freshly allocated string the caller must free.
+// edge note 277: Sub-linear in the average case thanks to early exit.
