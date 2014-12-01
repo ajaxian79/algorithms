@@ -2085,3 +2085,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 505
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 506
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
