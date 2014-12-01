@@ -2067,3 +2067,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 501
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 502
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
