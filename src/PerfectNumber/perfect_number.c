@@ -272,3 +272,4 @@ int is_perfect_number(int n) {
 // note 254: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 255: Space complexity: O(h) for the tree height.
 // note 256: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 257: Branchless inner loop after sorting.
