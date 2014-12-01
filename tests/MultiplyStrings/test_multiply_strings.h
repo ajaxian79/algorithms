@@ -308,3 +308,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 279: Constant-time comparisons; safe for short strings.
 // edge note 280: Sub-linear in the average case thanks to early exit.
 // edge note 281: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 282: Returns a freshly allocated string the caller must free.
