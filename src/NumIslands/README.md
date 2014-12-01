@@ -2657,3 +2657,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 649
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 650
+
+Returns a freshly allocated string the caller must free.
