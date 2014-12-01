@@ -2798,3 +2798,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 684
 
 Time complexity: O(n log n).
+
+## entry 685
+
+Returns a freshly allocated string the caller must free.
