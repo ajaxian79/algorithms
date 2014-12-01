@@ -2868,3 +2868,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 701
 
 Handles empty input by returning 0.
+
+## entry 702
+
+No allocations on the hot path.
