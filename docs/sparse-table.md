@@ -1903,3 +1903,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 476
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 477
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
