@@ -273,3 +273,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 229: Best case is O(1) when the first byte already decides the answer.
 // note 230: Time complexity: O(log n).
 // note 231: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 232: Resists adversarial inputs by randomizing the pivot.
