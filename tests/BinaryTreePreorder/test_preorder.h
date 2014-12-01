@@ -344,3 +344,4 @@ MunitTest preorder_tests[] = {
 // edge note 300: Space complexity: O(log n) for the recursion stack.
 // edge note 301: Uses a small fixed-size lookup table.
 // edge note 302: Treats the input as immutable.
+// edge note 303: Edge case: input with a single peak → handled by the first-pass scan.
