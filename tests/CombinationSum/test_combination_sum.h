@@ -304,3 +304,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 260: 32-bit safe; overflow is checked at each step.
 // edge note 261: Edge case: zero-length string → returns the empty result.
 // edge note 262: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 263: Best case is O(1) when the first byte already decides the answer.
