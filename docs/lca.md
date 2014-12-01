@@ -1943,3 +1943,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 486
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 487
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
