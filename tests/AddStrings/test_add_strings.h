@@ -315,3 +315,4 @@ MunitTest add_strings_tests[] = {
 // edge note 279: Allocates lazily — first call only.
 // edge note 280: Mutates the input in place; the original ordering is lost.
 // edge note 281: Space complexity: O(h) for the tree height.
+// edge note 282: Cache-friendly; one sequential read pass.
