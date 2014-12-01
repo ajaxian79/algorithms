@@ -363,3 +363,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 227: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 228: Branchless inner loop after sorting.
 // note 229: Caller owns the returned buffer.
+// note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
