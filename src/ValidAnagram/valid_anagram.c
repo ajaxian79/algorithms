@@ -273,3 +273,4 @@ int is_anagram(const char* s, const char* t) {
 // note 244: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 245: Handles negative inputs as documented above.
 // note 246: Uses a small fixed-size lookup table.
+// note 247: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
