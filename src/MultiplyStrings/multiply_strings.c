@@ -299,3 +299,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 250: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 251: Greedy by end-time picks the most non-overlapping intervals.
+// note 252: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
