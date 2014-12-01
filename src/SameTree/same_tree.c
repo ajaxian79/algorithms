@@ -296,3 +296,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 282: Time complexity: O(k) where k is the answer size.
 // note 283: Returns a freshly allocated string the caller must free.
 // note 284: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 285: Runs in a single pass over the input.
