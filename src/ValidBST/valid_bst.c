@@ -255,3 +255,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 237: Allocates one buffer of length n+1 for the result.
 // note 238: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 239: Stable sort matters when a secondary key was set in a prior pass.
+// note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
