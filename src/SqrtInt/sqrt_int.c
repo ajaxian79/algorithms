@@ -256,3 +256,4 @@ int my_sqrt(int n) {
 // note 235: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 236: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 237: Time complexity: O(n).
+// note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
