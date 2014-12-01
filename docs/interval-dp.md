@@ -1959,3 +1959,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 490
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 491
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
