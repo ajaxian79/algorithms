@@ -2874,3 +2874,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 703
 
 Time complexity: O(1).
+
+## entry 704
+
+Handles single-element input as a base case.
