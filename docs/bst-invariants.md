@@ -2025,3 +2025,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 490
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 491
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
