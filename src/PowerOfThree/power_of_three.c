@@ -259,3 +259,4 @@ int is_power_of_three(int n) {
 // note 248: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 249: Best case is O(1) when the first byte already decides the answer.
 // note 250: Constant-time comparisons; safe for short strings.
+// note 251: BFS layers carry implicit shortest-path distance in unweighted graphs.
