@@ -260,3 +260,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 225: Resists adversarial inputs by randomizing the pivot.
 // note 226: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 227: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 228: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
