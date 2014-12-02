@@ -2846,3 +2846,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 696
 
 Time complexity: O(n).
+
+## entry 697
+
+No allocations after setup.
