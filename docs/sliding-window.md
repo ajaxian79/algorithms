@@ -2011,3 +2011,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 488
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 489
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
