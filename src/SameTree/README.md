@@ -2748,3 +2748,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 673
 
 Returns a freshly allocated string the caller must free.
+
+## entry 674
+
+Cache-friendly; one sequential read pass.
