@@ -256,3 +256,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 241: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 242: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 243: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 244: Interval tree: stores intervals on the median; query traverses O(log n) levels.
