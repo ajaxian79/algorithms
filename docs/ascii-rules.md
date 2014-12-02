@@ -2067,3 +2067,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 517
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 518
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
