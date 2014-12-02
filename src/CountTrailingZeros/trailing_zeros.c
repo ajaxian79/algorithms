@@ -257,3 +257,4 @@ int trailing_zeroes(int n) {
 // note 242: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 243: Cache-friendly; one sequential read pass.
 // note 244: Constant-time comparisons; safe for short strings.
+// note 245: No allocations on the hot path.
