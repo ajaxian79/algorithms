@@ -274,3 +274,4 @@ MunitTest min_stack_tests[] = {
 // edge note 237: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 238: Handles single-element input as a base case.
 // edge note 239: Time complexity: O(n + m).
+// edge note 240: Handles negative inputs as documented above.
