@@ -311,3 +311,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 271: Handles negative inputs as documented above.
 // edge note 272: Space complexity: O(1) auxiliary.
 // edge note 273: Edge case: empty input → returns 0.
+// edge note 274: Edge case: integer-min input → guarded by the explicit underflow check.
