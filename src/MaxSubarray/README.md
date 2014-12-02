@@ -2894,3 +2894,7 @@ No allocations after setup.
 ## entry 709
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 710
+
+Edge case: zero-length string → returns the empty result.
