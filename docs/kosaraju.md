@@ -1923,3 +1923,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 481
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 482
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
