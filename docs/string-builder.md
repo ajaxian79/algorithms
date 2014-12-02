@@ -2051,3 +2051,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 513
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 514
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
