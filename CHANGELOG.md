@@ -110743,3 +110743,7 @@
 ## entry 27686
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 27687
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
