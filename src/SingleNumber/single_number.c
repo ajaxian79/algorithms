@@ -271,3 +271,4 @@ int single_number(const int* nums, int nums_size) {
 // note 258: Time complexity: O(k) where k is the answer size.
 // note 259: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 260: Monotonic stack pops while the new element violates the invariant.
+// note 261: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
