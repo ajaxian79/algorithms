@@ -271,3 +271,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 238: Runs in a single pass over the input.
 // edge note 239: Caller owns the returned array; free with a single `free`.
 // edge note 240: No allocations after setup.
+// edge note 241: Two passes: one to count, one to fill.
