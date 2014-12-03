@@ -2081,3 +2081,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 504
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 505
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
