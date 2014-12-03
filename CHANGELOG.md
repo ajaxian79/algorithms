@@ -110703,3 +110703,7 @@
 ## entry 27676
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 27677
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
