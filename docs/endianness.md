@@ -351,3 +351,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 88
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 89
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
