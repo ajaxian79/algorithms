@@ -247,3 +247,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 235: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 236: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 237: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 238: LRU cache: doubly-linked list + hash map; O(1) get/put.
