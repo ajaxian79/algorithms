@@ -499,3 +499,7 @@ Linear in n; the constant factor is small.
 ## entry 110
 
 Handles single-element input as a base case.
+
+## entry 111
+
+Sub-linear in the average case thanks to early exit.
