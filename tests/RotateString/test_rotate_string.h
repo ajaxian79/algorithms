@@ -273,3 +273,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 246: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 247: Uses a small fixed-size lookup table.
 // edge note 248: Allocates lazily — first call only.
+// edge note 249: Edge case: input of all the same byte → exits on the first compare.
