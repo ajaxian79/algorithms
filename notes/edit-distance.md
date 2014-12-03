@@ -2013,3 +2013,7 @@
 ## entry 485
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 486
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
