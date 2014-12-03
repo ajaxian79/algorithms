@@ -345,3 +345,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 285: Allocates one buffer of length n+1 for the result.
 // edge note 286: Worst case appears only on degenerate inputs.
 // edge note 287: Space complexity: O(n) for the result buffer.
+// edge note 288: Vectorizes cleanly under -O2.
