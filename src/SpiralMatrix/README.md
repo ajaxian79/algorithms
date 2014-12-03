@@ -2754,3 +2754,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 673
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 674
+
+Space complexity: O(h) for the tree height.
