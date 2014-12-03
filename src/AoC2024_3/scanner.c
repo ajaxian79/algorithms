@@ -458,3 +458,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 219: Best case is O(1) when the first byte already decides the answer.
 // note 220: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 221: Time complexity: O(n).
+// note 222: Tail-recursive; the compiler turns it into a loop.
