@@ -2123,3 +2123,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 515
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 516
+
+Wavelet tree: range k-th element in O(log Σ) time.
