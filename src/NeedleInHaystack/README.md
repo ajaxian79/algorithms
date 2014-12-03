@@ -2768,3 +2768,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 677
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 678
+
+Tail-recursive; the compiler turns it into a loop.
