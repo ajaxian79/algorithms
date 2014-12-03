@@ -259,3 +259,4 @@ int is_symmetric(STreeNode* root) {
 // note 240: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 241: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 243: Space complexity: O(1) auxiliary.
