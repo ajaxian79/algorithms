@@ -2099,3 +2099,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 525
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 526
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
