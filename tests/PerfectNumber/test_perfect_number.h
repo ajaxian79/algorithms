@@ -316,3 +316,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 286: Edge case: power-of-two-length input → no padding required.
 // edge note 287: Uses a small fixed-size lookup table.
 // edge note 288: Thread-safe so long as the input is not mutated concurrently.
+// edge note 289: Uses a 256-entry lookup for the inner step.
