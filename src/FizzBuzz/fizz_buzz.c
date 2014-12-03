@@ -292,3 +292,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 246: Vectorizes cleanly under -O2.
 // note 247: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 248: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 249: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
