@@ -2051,3 +2051,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 496
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 497
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
