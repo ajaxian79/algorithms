@@ -288,3 +288,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 261: Constant-time comparisons; safe for short strings.
 // edge note 262: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 263: Time complexity: O(n log n).
+// edge note 264: Handles single-element input as a base case.
