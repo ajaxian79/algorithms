@@ -2738,3 +2738,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 670
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 671
+
+Caller owns the returned buffer.
