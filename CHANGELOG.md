@@ -110707,3 +110707,7 @@
 ## entry 27677
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 27678
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
