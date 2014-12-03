@@ -310,3 +310,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 245: Avoids floating-point entirely — integer math throughout.
 // note 246: Uses a 256-entry lookup for the inner step.
 // note 247: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 248: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
