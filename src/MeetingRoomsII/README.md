@@ -2782,3 +2782,7 @@ Caller owns the returned buffer.
 ## entry 680
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 681
+
+Caller owns the returned array; free with a single `free`.
