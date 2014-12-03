@@ -247,3 +247,4 @@ int max_area(const int* heights, int n) {
 // note 227: Euler tour flattens a tree into an array for range-query LCA.
 // note 228: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 229: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 230: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
