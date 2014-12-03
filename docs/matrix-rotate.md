@@ -1937,3 +1937,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 468
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 469
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
