@@ -2744,3 +2744,7 @@ Handles negative inputs as documented above.
 ## entry 672
 
 Constant-time comparisons; safe for short strings.
+
+## entry 673
+
+Returns a freshly allocated string the caller must free.
