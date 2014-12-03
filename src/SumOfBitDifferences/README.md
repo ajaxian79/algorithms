@@ -444,3 +444,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 96
 
 Time complexity: O(n).
+
+## entry 97
+
+Edge case: zero-length string → returns the empty result.
