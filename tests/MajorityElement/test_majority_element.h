@@ -306,3 +306,4 @@ MunitTest majority_element_tests[] = {
 // edge note 275: Edge case: reverse-sorted input → still O(n log n).
 // edge note 276: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 277: 32-bit safe; overflow is checked at each step.
+// edge note 278: Handles empty input by returning 0.
