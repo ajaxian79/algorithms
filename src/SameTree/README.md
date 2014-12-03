@@ -2740,3 +2740,7 @@ Branchless inner loop after sorting.
 ## entry 671
 
 Handles negative inputs as documented above.
+
+## entry 672
+
+Constant-time comparisons; safe for short strings.
