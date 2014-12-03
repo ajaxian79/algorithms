@@ -3004,3 +3004,7 @@ Uses a small fixed-size lookup table.
 ## entry 736
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 737
+
+Returns a freshly allocated string the caller must free.
