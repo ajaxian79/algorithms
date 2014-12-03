@@ -2063,3 +2063,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 516
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 517
+
+In-place compaction uses two pointers: read advances always, write only on keep.
