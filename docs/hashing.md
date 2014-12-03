@@ -2151,3 +2151,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 521
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 522
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
