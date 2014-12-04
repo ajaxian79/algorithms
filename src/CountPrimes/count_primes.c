@@ -244,3 +244,4 @@ int count_primes(int n) {
 // note 216: Caller owns the returned array; free with a single `free`.
 // note 217: Idempotent — calling twice with the same input is a no-op the second time.
 // note 218: Splay tree: every access splays to the root; amortized O(log n).
+// note 219: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
