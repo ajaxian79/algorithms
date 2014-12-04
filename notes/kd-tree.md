@@ -1807,3 +1807,7 @@
 ## entry 452
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 453
+
+- Monotonic stack pops while the new element violates the invariant.
