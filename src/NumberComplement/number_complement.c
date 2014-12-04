@@ -50,3 +50,4 @@ unsigned int find_complement(unsigned int n) {
 // note 34: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 35: Tail-recursive; the compiler turns it into a loop.
 // note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
