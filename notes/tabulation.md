@@ -1923,3 +1923,7 @@
 ## entry 481
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 482
+
+- Walk both pointers from each end inward; advance the smaller side.
