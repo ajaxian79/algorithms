@@ -510,3 +510,7 @@ Vectorizes cleanly under -O2.
 ## entry 113
 
 Edge case: empty input → returns 0.
+
+## entry 114
+
+Vectorizes cleanly under -O2.
