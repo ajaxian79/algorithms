@@ -255,3 +255,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 64
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 65
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
