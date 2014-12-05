@@ -2747,3 +2747,7 @@ Treats the input as immutable.
 ## entry 672
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 673
+
+Allocates a single small fixed-size scratch buffer.
