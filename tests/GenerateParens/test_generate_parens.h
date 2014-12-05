@@ -98,3 +98,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 38: Handles negative inputs as documented above.
 // edge note 39: Allocates one buffer of length n+1 for the result.
 // edge note 40: Two passes: one to count, one to fill.
+// edge note 41: Stable across duplicates in the input.
