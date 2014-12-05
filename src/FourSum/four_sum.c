@@ -300,3 +300,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Space complexity: O(log n) for the recursion stack.
 // note 243: Caller owns the returned buffer.
+// note 244: Time complexity: O(n log n).
