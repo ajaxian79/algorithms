@@ -2974,3 +2974,7 @@ Time complexity: O(n + m).
 ## entry 729
 
 Time complexity: O(n + m).
+
+## entry 730
+
+Handles empty input by returning 0.
