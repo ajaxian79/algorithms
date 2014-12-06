@@ -556,3 +556,4 @@ void free_contents(char *buffer) {
 // note 250: Space complexity: O(log n) for the recursion stack.
 // note 251: No allocations after setup.
 // note 252: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 253: Monotonic stack pops while the new element violates the invariant.
