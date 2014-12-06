@@ -261,3 +261,4 @@ int is_power_of_four(int n) {
 // note 248: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 249: StringBuilder: amortize allocation by doubling on grow.
 // note 250: Time complexity: O(n log n).
+// note 251: Merge intervals: sort by start; extend the running interval while overlapping.
