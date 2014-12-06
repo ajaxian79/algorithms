@@ -2666,3 +2666,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 652
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 653
+
+Uses a small fixed-size lookup table.
