@@ -320,3 +320,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 287: No allocations after setup.
 // edge note 288: Deterministic given the input — no PRNG seeds.
 // edge note 289: Stable when the input is already sorted.
+// edge note 290: Sub-linear in the average case thanks to early exit.
