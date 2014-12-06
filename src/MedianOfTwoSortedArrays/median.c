@@ -381,3 +381,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 245: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 246: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 247: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 248: Stable across duplicates in the input.
