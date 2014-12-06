@@ -1911,3 +1911,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 478
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 479
+
+Greedy by end-time picks the most non-overlapping intervals.
