@@ -2876,3 +2876,7 @@ Space complexity: O(h) for the tree height.
 ## entry 704
 
 32-bit safe; overflow is checked at each step.
+
+## entry 705
+
+Idempotent — calling twice with the same input is a no-op the second time.
