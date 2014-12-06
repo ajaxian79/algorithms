@@ -110683,3 +110683,7 @@
 ## entry 27671
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 27672
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
