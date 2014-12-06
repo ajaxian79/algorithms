@@ -2727,3 +2727,7 @@ Handles negative inputs as documented above.
 ## entry 667
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 668
+
+Uses a small fixed-size lookup table.
