@@ -2047,3 +2047,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 496
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 497
+
+Union-Find with path compression amortizes to near-O(1) per op.
