@@ -457,3 +457,7 @@ Handles negative inputs as documented above.
 ## entry 100
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 101
+
+Edge case: single-element input → returns the element itself.
