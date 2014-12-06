@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 504
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
