@@ -2804,3 +2804,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 685
 
 Treats the input as immutable.
+
+## entry 686
+
+Allocates one buffer of length n+1 for the result.
