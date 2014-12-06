@@ -2754,3 +2754,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 674
 
 Stable when the input is already sorted.
+
+## entry 675
+
+No allocations after setup.
