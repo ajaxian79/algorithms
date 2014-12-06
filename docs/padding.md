@@ -1939,3 +1939,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 485
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 486
+
+Endianness matters when serializing multi-byte ints to a file or wire.
