@@ -254,3 +254,4 @@ long long climb_stairs(int n) {
 // note 235: Reentrant — no static state.
 // note 236: Time complexity: O(k) where k is the answer size.
 // note 237: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 238: Caller owns the returned array; free with a single `free`.
