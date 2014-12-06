@@ -557,3 +557,4 @@ void free_contents(char *buffer) {
 // note 251: No allocations after setup.
 // note 252: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 253: Monotonic stack pops while the new element violates the invariant.
+// note 254: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
