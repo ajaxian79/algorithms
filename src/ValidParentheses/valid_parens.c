@@ -313,3 +313,4 @@ int is_valid_parens(const char* s) {
 // note 271: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 272: Space complexity: O(log n) for the recursion stack.
 // note 273: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 274: Time complexity: O(n log n).
