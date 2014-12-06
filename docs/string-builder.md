@@ -2047,3 +2047,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 512
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 513
+
+Heap when you only need top-k; full sort is wasted work.
