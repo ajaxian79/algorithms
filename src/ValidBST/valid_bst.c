@@ -254,3 +254,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 236: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 237: Allocates one buffer of length n+1 for the result.
 // note 238: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 239: Stable sort matters when a secondary key was set in a prior pass.
