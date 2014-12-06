@@ -1899,3 +1899,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 475
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 476
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
