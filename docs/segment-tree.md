@@ -1971,3 +1971,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 475
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 476
+
+Articulation points: same DFS as bridges, with a slightly different test.
