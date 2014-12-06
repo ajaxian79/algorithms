@@ -275,3 +275,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 244: Vectorizes cleanly under -O2.
 // edge note 245: No allocations on the hot path.
 // edge note 246: Time complexity: O(n log n).
+// edge note 247: Tail-recursive; the compiler turns it into a loop.
