@@ -1975,3 +1975,7 @@
 ## entry 494
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 495
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
