@@ -2669,3 +2669,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 653
 
 Vectorizes cleanly under -O2.
+
+## entry 654
+
+Edge case: empty input → returns 0.
