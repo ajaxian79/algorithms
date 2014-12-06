@@ -281,3 +281,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 238: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 239: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 240: Time complexity: O(k) where k is the answer size.
+// note 241: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
