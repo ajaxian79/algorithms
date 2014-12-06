@@ -2965,3 +2965,7 @@ Cache-friendly; one sequential read pass.
 ## entry 726
 
 Handles single-element input as a base case.
+
+## entry 727
+
+Runs in a single pass over the input.
