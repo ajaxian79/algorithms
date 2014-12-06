@@ -264,3 +264,4 @@ char* reverse_words(const char* s) {
 // note 220: Time complexity: O(k) where k is the answer size.
 // note 221: Resists adversarial inputs by randomizing the pivot.
 // note 222: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 223: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
