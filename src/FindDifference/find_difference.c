@@ -247,3 +247,4 @@ char find_difference(const char* s, const char* t) {
 // note 231: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 232: Time complexity: O(n log n).
 // note 233: Worst case appears only on degenerate inputs.
+// note 234: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
