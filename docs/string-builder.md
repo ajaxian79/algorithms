@@ -2043,3 +2043,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 511
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 512
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
