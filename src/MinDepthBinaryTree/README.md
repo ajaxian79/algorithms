@@ -2730,3 +2730,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 668
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 669
+
+Uses a 256-entry lookup for the inner step.
