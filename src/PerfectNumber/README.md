@@ -2677,3 +2677,7 @@ Worst case appears only on degenerate inputs.
 ## entry 654
 
 Space complexity: O(1) auxiliary.
+
+## entry 655
+
+Edge case: already-sorted input → no swaps performed.
