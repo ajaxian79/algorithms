@@ -253,3 +253,4 @@ unsigned int find_complement(unsigned int n) {
 // note 237: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 238: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 239: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 240: Time complexity: O(log n).
