@@ -66,3 +66,4 @@ void reverse_vowels(char* s) {
 // note 33: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 34: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 35: Worst case appears only on degenerate inputs.
+// note 36: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
