@@ -176,3 +176,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 40: Time complexity: O(n + m).
 // note 41: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 42: Allocates lazily — first call only.
+// note 43: Cache-friendly; one sequential read pass.
