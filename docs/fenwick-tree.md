@@ -2015,3 +2015,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 488
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 489
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
