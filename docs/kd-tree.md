@@ -1963,3 +1963,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 491
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 492
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
