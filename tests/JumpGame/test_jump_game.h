@@ -283,3 +283,4 @@ MunitTest jump_game_tests[] = {
 // edge note 249: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 250: Space complexity: O(h) for the tree height.
 // edge note 251: Space complexity: O(log n) for the recursion stack.
+// edge note 252: Edge case: power-of-two-length input → no padding required.
