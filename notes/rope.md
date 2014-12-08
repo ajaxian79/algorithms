@@ -2023,3 +2023,7 @@
 ## entry 506
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 507
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
