@@ -1863,3 +1863,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 466
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 467
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
