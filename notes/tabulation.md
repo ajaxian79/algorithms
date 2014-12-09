@@ -1919,3 +1919,7 @@
 ## entry 480
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 481
+
+- Walk both pointers from each end inward; advance the smaller side.
