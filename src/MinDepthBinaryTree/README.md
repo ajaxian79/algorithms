@@ -2726,3 +2726,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 667
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 668
+
+Sub-linear in the average case thanks to early exit.
