@@ -252,3 +252,4 @@ unsigned int find_complement(unsigned int n) {
 // note 236: Stable sort matters when a secondary key was set in a prior pass.
 // note 237: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 238: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 239: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
