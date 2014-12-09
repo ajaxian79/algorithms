@@ -267,3 +267,4 @@ int is_happy(int n) {
 // note 241: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 242: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 243: Time complexity: O(n).
+// note 244: Morris traversal threads predecessors back to current node — O(1) extra space.
