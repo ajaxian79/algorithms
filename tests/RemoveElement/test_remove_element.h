@@ -297,3 +297,4 @@ MunitTest remove_element_tests[] = {
 // edge note 260: Time complexity: O(k) where k is the answer size.
 // edge note 261: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 262: 32-bit safe; overflow is checked at each step.
+// edge note 263: Two passes: one to count, one to fill.
