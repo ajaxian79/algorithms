@@ -1831,3 +1831,7 @@
 ## entry 458
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 459
+
+- Walk both pointers from each end inward; advance the smaller side.
