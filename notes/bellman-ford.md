@@ -319,3 +319,7 @@
 ## entry 80
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 81
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
