@@ -2119,3 +2119,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 514
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 515
+
+LIS via patience: each pile holds the smallest tail of length k.
