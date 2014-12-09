@@ -2800,3 +2800,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 685
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 686
+
+64-bit safe; intermediate products are widened to 128-bit.
