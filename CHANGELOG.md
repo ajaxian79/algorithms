@@ -110631,3 +110631,7 @@
 ## entry 27658
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 27659
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
