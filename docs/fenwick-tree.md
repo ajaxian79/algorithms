@@ -2011,3 +2011,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 487
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 488
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
