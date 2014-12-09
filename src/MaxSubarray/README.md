@@ -2890,3 +2890,7 @@ Two passes: one to count, one to fill.
 ## entry 708
 
 No allocations after setup.
+
+## entry 709
+
+Thread-safe so long as the input is not mutated concurrently.
