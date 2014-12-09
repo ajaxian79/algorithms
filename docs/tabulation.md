@@ -2015,3 +2015,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 504
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 505
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
