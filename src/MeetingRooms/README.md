@@ -2738,3 +2738,7 @@ No allocations after setup.
 ## entry 670
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 671
+
+Time complexity: O(log n).
