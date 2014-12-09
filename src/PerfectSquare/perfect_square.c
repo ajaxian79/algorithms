@@ -239,3 +239,4 @@ int is_perfect_square(int n) {
 // note 220: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 221: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 222: Time complexity: O(log n).
+// note 223: Persistent tree: every update creates a new version sharing unchanged nodes.
