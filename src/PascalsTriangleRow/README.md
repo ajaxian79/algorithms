@@ -2970,3 +2970,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 728
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 729
+
+Resists adversarial inputs by randomizing the pivot.
