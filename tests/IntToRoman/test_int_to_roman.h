@@ -311,3 +311,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 273: Allocates a single small fixed-size scratch buffer.
 // edge note 274: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
