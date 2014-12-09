@@ -2963,3 +2963,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 726
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 727
+
+Edge case: input with one duplicate → handled without an extra pass.
