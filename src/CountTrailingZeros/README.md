@@ -2782,3 +2782,7 @@ Handles single-element input as a base case.
 ## entry 680
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 681
+
+Resists adversarial inputs by randomizing the pivot.
