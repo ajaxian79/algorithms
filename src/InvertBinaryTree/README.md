@@ -2972,3 +2972,7 @@ Edge case: empty input → returns 0.
 ## entry 728
 
 Space complexity: O(1) auxiliary.
+
+## entry 729
+
+Edge case: integer-max input → guarded by the explicit overflow check.
