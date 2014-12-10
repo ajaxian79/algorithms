@@ -317,3 +317,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 282: Uses a small fixed-size lookup table.
 // edge note 283: Time complexity: O(log n).
 // edge note 284: Allocates a single small fixed-size scratch buffer.
+// edge note 285: Thread-safe so long as the input is not mutated concurrently.
