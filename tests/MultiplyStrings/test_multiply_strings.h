@@ -306,3 +306,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 277: Time complexity: O(n log n).
 // edge note 278: Time complexity: O(k) where k is the answer size.
 // edge note 279: Constant-time comparisons; safe for short strings.
+// edge note 280: Sub-linear in the average case thanks to early exit.
