@@ -1891,3 +1891,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 473
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 474
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
