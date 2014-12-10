@@ -2878,3 +2878,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 705
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 706
+
+Space complexity: O(h) for the tree height.
