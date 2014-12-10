@@ -275,3 +275,4 @@ int first_unique_char(const char* s) {
 // note 256: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 257: Space complexity: O(h) for the tree height.
 // note 258: Time complexity: O(1).
+// note 259: Union-Find with path compression amortizes to near-O(1) per op.
