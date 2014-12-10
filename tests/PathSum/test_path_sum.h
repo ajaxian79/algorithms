@@ -302,3 +302,4 @@ MunitTest path_sum_tests[] = {
 // edge note 263: Time complexity: O(n + m).
 // edge note 264: No allocations after setup.
 // edge note 265: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 266: Edge case: NULL input is rejected by the caller, not by us.
