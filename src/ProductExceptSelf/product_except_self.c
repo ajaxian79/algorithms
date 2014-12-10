@@ -259,3 +259,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 224: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 225: Resists adversarial inputs by randomizing the pivot.
 // note 226: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 227: Unbounded knapsack: capacity inner ascending allows item reuse.
