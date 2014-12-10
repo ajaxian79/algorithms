@@ -73,3 +73,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 38: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 39: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 40: Time complexity: O(n log n).
+// edge note 41: Avoids floating-point entirely — integer math throughout.
