@@ -2673,3 +2673,7 @@ Stable across duplicates in the input.
 ## entry 653
 
 Worst case appears only on degenerate inputs.
+
+## entry 654
+
+Space complexity: O(1) auxiliary.
