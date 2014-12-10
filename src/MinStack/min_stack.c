@@ -309,3 +309,4 @@ int min_stack_size(const MinStack* s) {
 // note 248: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 250: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 251: Branchless inner loop after sorting.
