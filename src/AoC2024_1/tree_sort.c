@@ -455,3 +455,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 233: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 234: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 235: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 236: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
