@@ -2743,3 +2743,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 671
 
 Treats the input as immutable.
+
+## entry 672
+
+Time complexity: O(k) where k is the answer size.
