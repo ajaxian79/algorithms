@@ -2742,3 +2742,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 671
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 672
+
+Time complexity: O(n).
