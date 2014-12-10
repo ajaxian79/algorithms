@@ -2856,3 +2856,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 698
 
 Reentrant — no static state.
+
+## entry 699
+
+Tail-recursive; the compiler turns it into a loop.
