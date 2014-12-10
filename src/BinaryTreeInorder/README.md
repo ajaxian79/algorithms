@@ -2862,3 +2862,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 701
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 702
+
+Two passes: one to count, one to fill.
