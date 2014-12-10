@@ -110607,3 +110607,7 @@
 ## entry 27652
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 27653
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
