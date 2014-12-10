@@ -266,3 +266,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 252: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 253: Two passes: one to count, one to fill.
 // note 254: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
