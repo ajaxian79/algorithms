@@ -2845,3 +2845,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 696
 
 32-bit safe; overflow is checked at each step.
+
+## entry 697
+
+Sub-linear in the average case thanks to early exit.
