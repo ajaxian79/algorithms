@@ -1911,3 +1911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 478
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 479
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
