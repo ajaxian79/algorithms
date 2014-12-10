@@ -262,3 +262,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 237: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 240: Polynomial rolling hash with two moduli kills almost all collisions in practice.
