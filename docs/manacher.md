@@ -2155,3 +2155,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 522
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 523
+
+Monotonic stack pops while the new element violates the invariant.
