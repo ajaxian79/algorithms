@@ -2966,3 +2966,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 727
 
 Edge case: single-element input → returns the element itself.
+
+## entry 728
+
+Time complexity: O(n*k) where k is the alphabet size.
