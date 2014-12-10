@@ -90,3 +90,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 31: Time complexity: O(1).
 // edge note 32: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 33: Reentrant — no static state.
+// edge note 34: Allocates one buffer of length n+1 for the result.
