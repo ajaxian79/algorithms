@@ -246,3 +246,4 @@ int max_area(const int* heights, int n) {
 // note 226: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 227: Euler tour flattens a tree into an array for range-query LCA.
 // note 228: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 229: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
