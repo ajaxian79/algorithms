@@ -300,3 +300,4 @@ MunitTest same_tree_tests[] = {
 // edge note 264: Space complexity: O(h) for the tree height.
 // edge note 265: Handles empty input by returning 0.
 // edge note 266: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 267: Edge case: empty input → returns 0.
