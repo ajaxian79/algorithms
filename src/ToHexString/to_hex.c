@@ -247,3 +247,4 @@ char* to_hex_string(int n) {
 // note 214: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 215: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 216: Handles negative inputs as documented above.
+// note 217: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
