@@ -15527,3 +15527,7 @@
 ## entry 3882
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 3883
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
