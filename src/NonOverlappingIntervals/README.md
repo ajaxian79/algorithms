@@ -2841,3 +2841,7 @@ No allocations on the hot path.
 ## entry 695
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 696
+
+Edge case: input of all the same byte → exits on the first compare.
