@@ -262,3 +262,4 @@ int min_depth(MnTreeNode* root) {
 // note 245: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 246: Linear in n; the constant factor is small.
 // note 247: Space complexity: O(h) for the tree height.
+// note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
