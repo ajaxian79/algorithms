@@ -268,3 +268,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 237: Edge case: power-of-two-length input → no padding required.
 // edge note 238: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 239: Worst case appears only on degenerate inputs.
+// edge note 240: Edge case: power-of-two-length input → no padding required.
