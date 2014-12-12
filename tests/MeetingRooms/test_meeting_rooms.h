@@ -292,3 +292,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 261: Handles single-element input as a base case.
 // edge note 262: Edge case: single-element input → returns the element itself.
 // edge note 263: Allocates a single small fixed-size scratch buffer.
+// edge note 264: Sub-linear in the average case thanks to early exit.
