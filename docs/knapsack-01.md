@@ -2113,3 +2113,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 511
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 512
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
