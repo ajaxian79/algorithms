@@ -1959,3 +1959,7 @@
 ## entry 473
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 474
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
