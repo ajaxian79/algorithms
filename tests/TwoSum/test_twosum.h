@@ -329,3 +329,4 @@ MunitTest twosum_tests[] = {
 // edge note 246: Caller owns the returned array; free with a single `free`.
 // edge note 247: Vectorizes cleanly under -O2.
 // edge note 248: No allocations on the hot path.
+// edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
