@@ -2085,3 +2085,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 504
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 505
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
