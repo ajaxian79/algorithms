@@ -2772,3 +2772,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 678
 
 Constant-time comparisons; safe for short strings.
+
+## entry 679
+
+Uses a small fixed-size lookup table.
