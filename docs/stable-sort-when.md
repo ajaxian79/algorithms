@@ -2029,3 +2029,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 493
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 494
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
