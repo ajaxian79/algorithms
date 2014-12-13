@@ -2760,3 +2760,7 @@ Time complexity: O(1).
 ## entry 675
 
 Time complexity: O(log n).
+
+## entry 676
+
+Edge case: single-element input → returns the element itself.
