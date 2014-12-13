@@ -2889,3 +2889,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 707
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 708
+
+Vectorizes cleanly under -O2.
