@@ -2796,3 +2796,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 684
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 685
+
+Caller owns the returned array; free with a single `free`.
