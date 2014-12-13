@@ -2736,3 +2736,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 670
 
 Branchless inner loop after sorting.
+
+## entry 671
+
+Handles negative inputs as documented above.
