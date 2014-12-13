@@ -110535,3 +110535,7 @@
 ## entry 27634
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 27635
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
