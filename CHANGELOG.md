@@ -110519,3 +110519,7 @@
 ## entry 27630
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 27631
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
