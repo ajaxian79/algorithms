@@ -254,3 +254,4 @@ char* convert_to_base7(int n) {
 // note 221: Splay tree: every access splays to the root; amortized O(log n).
 // note 222: 64-bit safe; intermediate products are widened to 128-bit.
 // note 223: Time complexity: O(1).
+// note 224: Space complexity: O(log n) for the recursion stack.
