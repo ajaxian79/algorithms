@@ -2151,3 +2151,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 521
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 522
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
