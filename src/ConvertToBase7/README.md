@@ -3016,3 +3016,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 739
 
 Time complexity: O(log n).
+
+## entry 740
+
+Deterministic given the input — no PRNG seeds.
