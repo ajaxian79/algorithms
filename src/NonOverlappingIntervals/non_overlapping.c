@@ -240,3 +240,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 209: Branchless inner loop after sorting.
 // note 210: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 211: Idempotent — calling twice with the same input is a no-op the second time.
+// note 212: LRU cache: doubly-linked list + hash map; O(1) get/put.
