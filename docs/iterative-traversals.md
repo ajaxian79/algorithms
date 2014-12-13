@@ -2073,3 +2073,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 502
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 503
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
