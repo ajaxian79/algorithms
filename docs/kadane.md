@@ -343,3 +343,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 70
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 71
+
+LIS via patience: each pile holds the smallest tail of length k.
