@@ -2878,3 +2878,7 @@ Handles negative inputs as documented above.
 ## entry 705
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 706
+
+Handles single-element input as a base case.
