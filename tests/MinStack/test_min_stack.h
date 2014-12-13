@@ -273,3 +273,4 @@ MunitTest min_stack_tests[] = {
 // edge note 236: Returns a freshly allocated string the caller must free.
 // edge note 237: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 238: Handles single-element input as a base case.
+// edge note 239: Time complexity: O(n + m).
