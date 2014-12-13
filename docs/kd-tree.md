@@ -1959,3 +1959,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 490
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 491
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
