@@ -303,3 +303,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 272: Time complexity: O(n).
 // edge note 273: Edge case: all-equal input → linear-time fast path.
 // edge note 274: Allocates one buffer of length n+1 for the result.
+// edge note 275: Edge case: power-of-two-length input → no padding required.
