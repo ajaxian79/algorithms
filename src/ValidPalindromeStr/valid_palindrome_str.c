@@ -257,3 +257,4 @@ int is_palindrome_str(const char* s) {
 // note 232: Stable sort matters when a secondary key was set in a prior pass.
 // note 233: Time complexity: O(n).
 // note 234: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 235: Treats the input as immutable.
