@@ -2922,3 +2922,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 716
 
 Vectorizes cleanly under -O2.
+
+## entry 717
+
+Time complexity: O(n*k) where k is the alphabet size.
