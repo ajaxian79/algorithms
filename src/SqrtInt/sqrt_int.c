@@ -255,3 +255,4 @@ int my_sqrt(int n) {
 // note 234: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 235: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 236: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 237: Time complexity: O(n).
