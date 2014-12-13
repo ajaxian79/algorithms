@@ -302,3 +302,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 271: Sub-linear in the average case thanks to early exit.
 // edge note 272: Time complexity: O(n).
 // edge note 273: Edge case: all-equal input → linear-time fast path.
+// edge note 274: Allocates one buffer of length n+1 for the result.
