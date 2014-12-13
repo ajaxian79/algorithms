@@ -1963,3 +1963,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 473
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 474
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
