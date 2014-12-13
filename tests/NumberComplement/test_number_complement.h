@@ -282,3 +282,4 @@ MunitTest number_complement_tests[] = {
 // edge note 255: Deterministic given the input — no PRNG seeds.
 // edge note 256: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 257: No allocations after setup.
+// edge note 258: Edge case: zero-length string → returns the empty result.
