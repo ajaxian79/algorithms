@@ -2752,3 +2752,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 672
 
 Caller owns the returned buffer.
+
+## entry 673
+
+Handles negative inputs as documented above.
