@@ -2838,3 +2838,7 @@ Branchless inner loop after sorting.
 ## entry 694
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 695
+
+Constant-time comparisons; safe for short strings.
