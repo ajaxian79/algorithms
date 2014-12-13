@@ -1935,3 +1935,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 484
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 485
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
