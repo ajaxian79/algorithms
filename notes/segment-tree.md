@@ -363,3 +363,7 @@
 ## entry 74
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 75
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
