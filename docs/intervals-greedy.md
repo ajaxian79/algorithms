@@ -2075,3 +2075,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 501
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 502
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
