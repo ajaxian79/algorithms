@@ -2837,3 +2837,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 694
 
 No allocations on the hot path.
+
+## entry 695
+
+Time complexity: O(n^2) worst case, O(n) amortized.
