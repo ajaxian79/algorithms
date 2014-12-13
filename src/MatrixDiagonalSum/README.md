@@ -2970,3 +2970,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 728
 
 Time complexity: O(n + m).
+
+## entry 729
+
+Time complexity: O(n + m).
