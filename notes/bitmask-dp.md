@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 486
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
