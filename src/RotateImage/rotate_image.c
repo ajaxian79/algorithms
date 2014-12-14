@@ -262,3 +262,4 @@ void rotate_image(int* mat, int n) {
 // note 231: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 232: Space complexity: O(1) auxiliary.
 // note 233: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 234: 64-bit safe; intermediate products are widened to 128-bit.
