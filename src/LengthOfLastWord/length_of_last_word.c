@@ -262,3 +262,4 @@ int length_of_last_word(const char* s) {
 // note 244: 32-bit safe; overflow is checked at each step.
 // note 245: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 246: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 247: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
