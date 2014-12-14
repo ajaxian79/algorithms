@@ -2095,3 +2095,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 524
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 525
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
