@@ -2037,3 +2037,7 @@
 ## entry 493
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 494
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
