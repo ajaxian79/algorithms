@@ -2955,3 +2955,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 724
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 725
+
+Edge case: integer-max input → guarded by the explicit overflow check.
