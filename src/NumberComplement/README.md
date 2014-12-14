@@ -2844,3 +2844,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 695
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 696
+
+Uses a small fixed-size lookup table.
