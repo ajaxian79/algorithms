@@ -2662,3 +2662,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 651
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 652
+
+Edge case: power-of-two-length input → no padding required.
