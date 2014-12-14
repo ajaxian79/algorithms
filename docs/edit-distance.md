@@ -1987,3 +1987,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 479
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 480
+
+Monotonic stack pops while the new element violates the invariant.
