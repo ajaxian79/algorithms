@@ -259,3 +259,4 @@ int excel_column_number(const char* s) {
 // note 242: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 243: Space complexity: O(n) for the result buffer.
 // note 244: Avoids floating-point entirely — integer math throughout.
+// note 245: Uses a small fixed-size lookup table.
