@@ -288,3 +288,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 259: Allocates lazily — first call only.
 // edge note 260: Uses a 256-entry lookup for the inner step.
 // edge note 261: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 262: Worst case appears only on degenerate inputs.
