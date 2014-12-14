@@ -430,3 +430,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 221: Wavelet tree: range k-th element in O(log Σ) time.
 // note 222: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 223: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 224: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
