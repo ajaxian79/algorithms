@@ -2622,3 +2622,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 641
 
 Cache-friendly; one sequential read pass.
+
+## entry 642
+
+Edge case: input of all the same byte → exits on the first compare.
