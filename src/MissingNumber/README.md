@@ -2834,3 +2834,7 @@ Linear in n; the constant factor is small.
 ## entry 693
 
 Branchless inner loop after sorting.
+
+## entry 694
+
+Edge case: integer-min input → guarded by the explicit underflow check.
