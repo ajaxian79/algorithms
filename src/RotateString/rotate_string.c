@@ -260,3 +260,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 234: Cache-friendly; one sequential read pass.
 // note 235: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 236: Handles negative inputs as documented above.
+// note 237: Splay tree: every access splays to the root; amortized O(log n).
