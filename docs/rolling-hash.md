@@ -1931,3 +1931,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 466
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 467
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
