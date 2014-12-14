@@ -1895,3 +1895,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 474
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 475
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
