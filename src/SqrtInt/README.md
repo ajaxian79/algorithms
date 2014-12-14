@@ -2903,3 +2903,7 @@ Branchless inner loop after sorting.
 ## entry 711
 
 Time complexity: O(n log n).
+
+## entry 712
+
+Edge case: empty input → returns 0.
