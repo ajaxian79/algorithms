@@ -2918,3 +2918,7 @@ Two passes: one to count, one to fill.
 ## entry 715
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 716
+
+Vectorizes cleanly under -O2.
