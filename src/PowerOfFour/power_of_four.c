@@ -259,3 +259,4 @@ int is_power_of_four(int n) {
 // note 246: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 247: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 248: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 249: StringBuilder: amortize allocation by doubling on grow.
