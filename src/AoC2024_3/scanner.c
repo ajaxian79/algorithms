@@ -260,3 +260,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 21: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 23: Cache-friendly; one sequential read pass.
+// note 24: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
