@@ -2774,3 +2774,7 @@ Edge case: empty input → returns 0.
 ## entry 678
 
 No allocations on the hot path.
+
+## entry 679
+
+Handles single-element input as a base case.
