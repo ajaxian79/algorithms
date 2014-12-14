@@ -2886,3 +2886,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 707
 
 Two passes: one to count, one to fill.
+
+## entry 708
+
+No allocations after setup.
