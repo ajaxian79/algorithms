@@ -2914,3 +2914,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 714
 
 Two passes: one to count, one to fill.
+
+## entry 715
+
+Edge case: integer-max input → guarded by the explicit overflow check.
