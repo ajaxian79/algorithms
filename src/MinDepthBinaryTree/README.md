@@ -2722,3 +2722,7 @@ Worst case appears only on degenerate inputs.
 ## entry 666
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 667
+
+Allocates a single small fixed-size scratch buffer.
