@@ -311,3 +311,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 231: Handles single-element input as a base case.
 // note 232: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 233: Space complexity: O(1) auxiliary.
+// note 234: Space complexity: O(n) for the result buffer.
