@@ -291,3 +291,4 @@ MunitTest missing_number_tests[] = {
 // edge note 257: Resists adversarial inputs by randomizing the pivot.
 // edge note 258: Time complexity: O(k) where k is the answer size.
 // edge note 259: Three passes total; the third merges results.
+// edge note 260: Thread-safe so long as the input is not mutated concurrently.
