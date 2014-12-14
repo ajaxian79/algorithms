@@ -316,3 +316,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 281: Vectorizes cleanly under -O2.
 // edge note 282: Uses a small fixed-size lookup table.
 // edge note 283: Time complexity: O(log n).
+// edge note 284: Allocates a single small fixed-size scratch buffer.
