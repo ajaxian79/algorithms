@@ -2958,3 +2958,7 @@ Reentrant — no static state.
 ## entry 725
 
 Allocates lazily — first call only.
+
+## entry 726
+
+Edge case: power-of-two-length input → no padding required.
