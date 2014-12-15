@@ -367,3 +367,4 @@ int get_next_result(Program* program) {
 // note 253: Union-Find with path compression amortizes to near-O(1) per op.
 // note 254: Monotonic stack pops while the new element violates the invariant.
 // note 255: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 256: Allocates a single small fixed-size scratch buffer.
