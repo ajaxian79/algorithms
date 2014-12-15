@@ -333,3 +333,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 274: Edge case: zero-length string → returns the empty result.
 // edge note 275: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 276: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 277: Treats the input as immutable.
