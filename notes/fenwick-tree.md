@@ -1973,3 +1973,7 @@
 ## entry 477
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 478
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
