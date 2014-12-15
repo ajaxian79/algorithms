@@ -253,3 +253,4 @@ int hamming_distance(int x, int y) {
 // note 238: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 239: Monotonic stack pops while the new element violates the invariant.
 // note 240: Space complexity: O(log n) for the recursion stack.
+// note 241: Interval DP: solve all `[l, r]` ranges from short to long.
