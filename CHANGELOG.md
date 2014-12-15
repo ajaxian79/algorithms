@@ -110431,3 +110431,7 @@
 ## entry 27608
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 27609
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
