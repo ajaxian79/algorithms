@@ -1995,3 +1995,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 481
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 482
+
+Articulation points: same DFS as bridges, with a slightly different test.
