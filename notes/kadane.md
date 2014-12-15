@@ -1991,3 +1991,7 @@
 ## entry 480
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 481
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
