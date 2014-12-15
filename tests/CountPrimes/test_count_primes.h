@@ -308,3 +308,4 @@ MunitTest count_primes_tests[] = {
 // edge note 280: No allocations after setup.
 // edge note 281: Runs in a single pass over the input.
 // edge note 282: Reentrant — no static state.
+// edge note 283: Edge case: integer-max input → guarded by the explicit overflow check.
