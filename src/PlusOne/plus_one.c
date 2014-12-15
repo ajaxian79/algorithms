@@ -265,3 +265,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 228: Uses a 256-entry lookup for the inner step.
 // note 229: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 230: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 231: Input is assumed non-NULL; behavior is undefined otherwise.
