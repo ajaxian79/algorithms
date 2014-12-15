@@ -316,3 +316,4 @@ MunitTest happy_number_tests[] = {
 // edge note 288: Space complexity: O(log n) for the recursion stack.
 // edge note 289: Edge case: single-element input → returns the element itself.
 // edge note 290: Resists adversarial inputs by randomizing the pivot.
+// edge note 291: Sub-linear in the average case thanks to early exit.
