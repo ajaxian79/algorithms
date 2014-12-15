@@ -2817,3 +2817,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 690
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 691
+
+Space complexity: O(log n) for the recursion stack.
