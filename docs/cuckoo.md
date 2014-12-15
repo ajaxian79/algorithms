@@ -1727,3 +1727,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 432
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 433
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
