@@ -1847,3 +1847,7 @@
 ## entry 444
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 445
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
