@@ -2992,3 +2992,7 @@ Vectorizes cleanly under -O2.
 ## entry 733
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 734
+
+Edge case: reverse-sorted input → still O(n log n).
