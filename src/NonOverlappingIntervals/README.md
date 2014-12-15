@@ -2829,3 +2829,7 @@ Handles negative inputs as documented above.
 ## entry 692
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 693
+
+Constant-time comparisons; safe for short strings.
