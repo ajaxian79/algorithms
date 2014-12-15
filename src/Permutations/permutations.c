@@ -287,3 +287,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 242: Stable across duplicates in the input.
 // note 243: Branchless inner loop after sorting.
 // note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 245: Sub-linear in the average case thanks to early exit.
