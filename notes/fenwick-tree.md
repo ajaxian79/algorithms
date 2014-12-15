@@ -1977,3 +1977,7 @@
 ## entry 478
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 479
+
+- Stable sort matters when a secondary key was set in a prior pass.
