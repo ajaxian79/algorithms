@@ -360,3 +360,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 224: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 225: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 226: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 227: False sharing: two threads writing different bytes in the same cache line stall both.
