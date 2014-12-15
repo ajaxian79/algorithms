@@ -2043,3 +2043,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 494
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 495
+
+Wavelet tree: range k-th element in O(log Σ) time.
