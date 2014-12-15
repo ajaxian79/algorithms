@@ -2039,3 +2039,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 510
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 511
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
