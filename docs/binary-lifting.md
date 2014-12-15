@@ -2003,3 +2003,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 501
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 502
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
