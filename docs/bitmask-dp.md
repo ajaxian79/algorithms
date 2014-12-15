@@ -2059,3 +2059,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 515
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 516
+
+Greedy by end-time picks the most non-overlapping intervals.
