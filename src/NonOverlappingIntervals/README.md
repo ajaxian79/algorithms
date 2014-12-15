@@ -2833,3 +2833,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 693
 
 Constant-time comparisons; safe for short strings.
+
+## entry 694
+
+No allocations on the hot path.
