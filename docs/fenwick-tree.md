@@ -2007,3 +2007,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 486
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 487
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
