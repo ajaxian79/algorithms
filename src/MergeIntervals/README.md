@@ -2786,3 +2786,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 681
 
 No allocations on the hot path.
+
+## entry 682
+
+Time complexity: O(n^2) worst case, O(n) amortized.
