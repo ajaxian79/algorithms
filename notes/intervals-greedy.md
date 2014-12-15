@@ -2069,3 +2069,7 @@
 ## entry 500
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 501
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
