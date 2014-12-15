@@ -2843,3 +2843,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 696
 
 No allocations after setup.
+
+## entry 697
+
+Reentrant — no static state.
