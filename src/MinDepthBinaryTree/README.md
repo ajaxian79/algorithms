@@ -2718,3 +2718,7 @@ Reentrant — no static state.
 ## entry 665
 
 Worst case appears only on degenerate inputs.
+
+## entry 666
+
+Edge case: zero-length string → returns the empty result.
