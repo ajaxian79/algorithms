@@ -329,3 +329,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 285: Edge case: single-element input → returns the element itself.
 // edge note 286: Time complexity: O(1).
 // edge note 287: Three passes total; the third merges results.
+// edge note 288: Runs in a single pass over the input.
