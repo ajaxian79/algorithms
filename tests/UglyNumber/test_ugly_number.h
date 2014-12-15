@@ -322,3 +322,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 293: Space complexity: O(h) for the tree height.
 // edge note 294: Reentrant — no static state.
 // edge note 295: Time complexity: O(1).
+// edge note 296: Caller owns the returned buffer.
