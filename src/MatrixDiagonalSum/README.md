@@ -2962,3 +2962,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 726
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 727
+
+Avoids floating-point entirely — integer math throughout.
