@@ -2782,3 +2782,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 680
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 681
+
+No allocations on the hot path.
