@@ -2039,3 +2039,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 510
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 511
+
+Rope: tree of small string fragments; O(log n) concat and substring.
