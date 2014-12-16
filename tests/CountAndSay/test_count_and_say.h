@@ -266,3 +266,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 235: Three passes total; the third merges results.
 // edge note 236: Allocates a single small fixed-size scratch buffer.
 // edge note 237: Edge case: power-of-two-length input → no padding required.
+// edge note 238: 64-bit safe; intermediate products are widened to 128-bit.
