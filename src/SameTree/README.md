@@ -2728,3 +2728,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 668
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 669
+
+Edge case: integer-max input → guarded by the explicit overflow check.
