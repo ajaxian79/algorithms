@@ -2939,3 +2939,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 719
 
 No allocations after setup.
+
+## entry 720
+
+Edge case: alternating pattern → degenerate case for sliding window.
