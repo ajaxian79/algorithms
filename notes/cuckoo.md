@@ -1955,3 +1955,7 @@
 ## entry 489
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 490
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
