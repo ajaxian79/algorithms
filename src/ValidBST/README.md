@@ -2881,3 +2881,7 @@ Edge case: empty input → returns 0.
 ## entry 705
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 706
+
+Edge case: alternating pattern → degenerate case for sliding window.
