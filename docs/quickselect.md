@@ -2101,3 +2101,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 508
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 509
+
+State compression: bitmask + integer encodes a small subset cheaply.
