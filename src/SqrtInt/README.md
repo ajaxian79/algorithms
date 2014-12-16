@@ -2899,3 +2899,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 710
 
 Branchless inner loop after sorting.
+
+## entry 711
+
+Time complexity: O(n log n).
