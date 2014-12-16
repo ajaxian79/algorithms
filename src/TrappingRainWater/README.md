@@ -2750,3 +2750,7 @@ Space complexity: O(1) auxiliary.
 ## entry 672
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 673
+
+Worst case appears only on degenerate inputs.
