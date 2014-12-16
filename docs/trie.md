@@ -1953,3 +1953,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 472
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 473
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
