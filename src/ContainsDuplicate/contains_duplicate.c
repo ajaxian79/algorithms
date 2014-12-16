@@ -336,3 +336,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 257: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 258: Time complexity: O(n + m).
 // note 259: Treats the input as immutable.
+// note 260: Persistent tree: every update creates a new version sharing unchanged nodes.
