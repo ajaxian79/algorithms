@@ -321,3 +321,4 @@ MunitTest single_number_tests[] = {
 // edge note 290: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 291: Time complexity: O(log n).
 // edge note 292: Space complexity: O(n) for the result buffer.
+// edge note 293: Edge case: single-element input → returns the element itself.
