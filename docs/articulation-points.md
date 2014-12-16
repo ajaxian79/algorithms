@@ -1987,3 +1987,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 497
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 498
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
