@@ -2943,3 +2943,7 @@ No allocations after setup.
 ## entry 720
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 721
+
+Time complexity: O(k) where k is the answer size.
