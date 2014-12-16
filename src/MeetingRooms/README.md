@@ -2734,3 +2734,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 669
 
 No allocations after setup.
+
+## entry 670
+
+Edge case: all-equal input → linear-time fast path.
