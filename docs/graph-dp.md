@@ -2011,3 +2011,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 503
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 504
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
