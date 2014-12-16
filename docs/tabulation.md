@@ -2003,3 +2003,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 501
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 502
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
