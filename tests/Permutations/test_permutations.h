@@ -293,3 +293,4 @@ MunitTest permutations_tests[] = {
 // edge note 252: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 253: Branchless inner loop after sorting.
 // edge note 254: Space complexity: O(h) for the tree height.
+// edge note 255: Edge case: already-sorted input → no swaps performed.
