@@ -1959,3 +1959,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 490
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 491
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
