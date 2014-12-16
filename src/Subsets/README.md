@@ -2951,3 +2951,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 723
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 724
+
+Resists adversarial inputs by randomizing the pivot.
