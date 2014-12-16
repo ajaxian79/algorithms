@@ -2626,3 +2626,7 @@ Edge case: empty input → returns 0.
 ## entry 642
 
 Time complexity: O(n log n).
+
+## entry 643
+
+Edge case: integer-max input → guarded by the explicit overflow check.
