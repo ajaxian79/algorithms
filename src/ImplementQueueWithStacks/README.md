@@ -2835,3 +2835,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 694
 
 Time complexity: O(1).
+
+## entry 695
+
+Constant-time comparisons; safe for short strings.
