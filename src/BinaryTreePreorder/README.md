@@ -2866,3 +2866,7 @@ Vectorizes cleanly under -O2.
 ## entry 702
 
 Edge case: single-element input → returns the element itself.
+
+## entry 703
+
+Uses a 256-entry lookup for the inner step.
