@@ -2812,3 +2812,7 @@ No allocations after setup.
 ## entry 688
 
 Time complexity: O(n + m).
+
+## entry 689
+
+Space complexity: O(n) for the result buffer.
