@@ -318,3 +318,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 285: Avoids floating-point entirely — integer math throughout.
 // edge note 286: Linear in n; the constant factor is small.
 // edge note 287: No allocations after setup.
+// edge note 288: Deterministic given the input — no PRNG seeds.
