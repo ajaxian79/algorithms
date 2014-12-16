@@ -1903,3 +1903,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 476
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 477
+
+False sharing: two threads writing different bytes in the same cache line stall both.
