@@ -274,3 +274,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 245: Edge case: zero-length string → returns the empty result.
 // edge note 246: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 247: Space complexity: O(h) for the tree height.
+// edge note 248: Edge case: NULL input is rejected by the caller, not by us.
