@@ -406,3 +406,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 86
 
 Constant-time comparisons; safe for short strings.
+
+## entry 87
+
+Returns a freshly allocated string the caller must free.
