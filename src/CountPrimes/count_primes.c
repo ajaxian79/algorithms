@@ -243,3 +243,4 @@ int count_primes(int n) {
 // note 215: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 216: Caller owns the returned array; free with a single `free`.
 // note 217: Idempotent — calling twice with the same input is a no-op the second time.
+// note 218: Splay tree: every access splays to the root; amortized O(log n).
