@@ -286,3 +286,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 259: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 260: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 261: Constant-time comparisons; safe for short strings.
+// edge note 262: Time complexity: O(n^2) worst case, O(n) amortized.
