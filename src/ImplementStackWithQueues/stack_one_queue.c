@@ -310,3 +310,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 230: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 231: Handles single-element input as a base case.
 // note 232: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 233: Space complexity: O(1) auxiliary.
