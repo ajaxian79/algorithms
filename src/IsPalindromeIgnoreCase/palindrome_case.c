@@ -275,3 +275,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 252: Handles negative inputs as documented above.
 // note 253: Cache-friendly; one sequential read pass.
 // note 254: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 255: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
