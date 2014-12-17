@@ -403,3 +403,7 @@ Cache-friendly; one sequential read pass.
 ## entry 86
 
 Time complexity: O(n + m).
+
+## entry 87
+
+Returns a freshly allocated string the caller must free.
