@@ -2035,3 +2035,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 509
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 510
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
