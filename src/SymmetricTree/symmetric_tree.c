@@ -255,3 +255,4 @@ int is_symmetric(STreeNode* root) {
 // note 236: Idempotent — calling twice with the same input is a no-op the second time.
 // note 237: Sub-linear in the average case thanks to early exit.
 // note 238: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 239: Wavelet tree: range k-th element in O(log Σ) time.
