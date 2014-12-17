@@ -2792,3 +2792,7 @@ Vectorizes cleanly under -O2.
 ## entry 683
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 684
+
+Sub-linear in the average case thanks to early exit.
