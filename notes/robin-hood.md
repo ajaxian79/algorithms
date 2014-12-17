@@ -2135,3 +2135,7 @@
 ## entry 534
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 535
+
+- State compression: bitmask + integer encodes a small subset cheaply.
