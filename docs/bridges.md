@@ -2067,3 +2067,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 517
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 518
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
