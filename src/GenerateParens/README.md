@@ -2792,3 +2792,7 @@ Cache-friendly; one sequential read pass.
 ## entry 682
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 683
+
+Mutates the input in place; the original ordering is lost.
