@@ -2878,3 +2878,7 @@ Caller owns the returned buffer.
 ## entry 705
 
 Vectorizes cleanly under -O2.
+
+## entry 706
+
+Edge case: single-element input → returns the element itself.
