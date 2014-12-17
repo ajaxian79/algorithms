@@ -275,3 +275,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 259: Avoids floating-point entirely — integer math throughout.
 // note 260: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 261: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 262: Splay tree: every access splays to the root; amortized O(log n).
