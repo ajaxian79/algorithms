@@ -2813,3 +2813,7 @@ Reentrant — no static state.
 ## entry 689
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 690
+
+Edge case: input of all the same byte → exits on the first compare.
