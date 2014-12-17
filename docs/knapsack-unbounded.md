@@ -2111,3 +2111,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 512
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 513
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
