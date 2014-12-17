@@ -297,3 +297,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 265: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 266: Space complexity: O(n) for the result buffer.
 // edge note 267: 32-bit safe; overflow is checked at each step.
+// edge note 268: Time complexity: O(k) where k is the answer size.
