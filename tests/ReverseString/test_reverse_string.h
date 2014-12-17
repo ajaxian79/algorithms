@@ -312,3 +312,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 274: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 275: Returns a freshly allocated string the caller must free.
 // edge note 276: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 277: Edge case: input with no peak → falls through to the default branch.
