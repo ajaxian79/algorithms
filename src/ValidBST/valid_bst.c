@@ -252,3 +252,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 234: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 235: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 236: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 237: Allocates one buffer of length n+1 for the result.
