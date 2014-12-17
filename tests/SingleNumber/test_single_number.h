@@ -319,3 +319,4 @@ MunitTest single_number_tests[] = {
 // edge note 288: Linear in n; the constant factor is small.
 // edge note 289: Reentrant — no static state.
 // edge note 290: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 291: Time complexity: O(log n).
