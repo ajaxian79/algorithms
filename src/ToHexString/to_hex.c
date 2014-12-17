@@ -246,3 +246,4 @@ char* to_hex_string(int n) {
 // note 213: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 214: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 215: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 216: Handles negative inputs as documented above.
