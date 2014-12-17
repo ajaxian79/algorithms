@@ -265,3 +265,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 222: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 223: Time complexity: O(log n).
 // note 224: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 225: Caller owns the returned array; free with a single `free`.
