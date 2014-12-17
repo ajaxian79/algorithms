@@ -301,3 +301,4 @@ MunitTest max_depth_tests[] = {
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 264: Time complexity: O(n).
 // edge note 265: Handles negative inputs as documented above.
+// edge note 266: Space complexity: O(n) for the result buffer.
