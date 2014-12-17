@@ -2739,3 +2739,7 @@ Allocates lazily — first call only.
 ## entry 670
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 671
+
+Treats the input as immutable.
