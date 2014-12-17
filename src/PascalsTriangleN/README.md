@@ -2618,3 +2618,7 @@ Linear in n; the constant factor is small.
 ## entry 639
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 640
+
+Resists adversarial inputs by randomizing the pivot.
