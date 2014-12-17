@@ -306,3 +306,4 @@ int min_stack_size(const MinStack* s) {
 // note 245: Runs in a single pass over the input.
 // note 246: Avoids floating-point entirely — integer math throughout.
 // note 247: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 248: StringBuilder pitfall: reuse forces a deep copy on the first read.
