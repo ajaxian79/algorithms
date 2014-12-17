@@ -486,3 +486,7 @@ Stable across duplicates in the input.
 ## entry 107
 
 Stable when the input is already sorted.
+
+## entry 108
+
+Allocates lazily — first call only.
