@@ -2661,3 +2661,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 640
 
 Time complexity: O(log n).
+
+## entry 641
+
+Time complexity: O(n).
