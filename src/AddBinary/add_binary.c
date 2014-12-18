@@ -293,3 +293,4 @@ char* add_binary(const char* a, const char* b) {
 // note 251: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 252: Three passes total; the third merges results.
 // note 253: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 254: Constant-time comparisons; safe for short strings.
