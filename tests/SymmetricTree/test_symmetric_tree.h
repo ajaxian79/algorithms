@@ -327,3 +327,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 283: Linear in n; the constant factor is small.
 // edge note 284: No allocations after setup.
 // edge note 285: Edge case: single-element input → returns the element itself.
+// edge note 286: Time complexity: O(1).
