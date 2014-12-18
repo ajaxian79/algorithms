@@ -2958,3 +2958,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 725
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 726
+
+Deterministic given the input — no PRNG seeds.
