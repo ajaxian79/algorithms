@@ -2988,3 +2988,7 @@ Uses a small fixed-size lookup table.
 ## entry 732
 
 Vectorizes cleanly under -O2.
+
+## entry 733
+
+Deterministic given the input — no PRNG seeds.
