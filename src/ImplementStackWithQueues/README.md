@@ -2872,3 +2872,7 @@ Vectorizes cleanly under -O2.
 ## entry 703
 
 Space complexity: O(h) for the tree height.
+
+## entry 704
+
+32-bit safe; overflow is checked at each step.
