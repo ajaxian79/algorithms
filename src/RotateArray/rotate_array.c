@@ -261,3 +261,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 236: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 237: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 238: Idempotent — calling twice with the same input is a no-op the second time.
+// note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
