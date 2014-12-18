@@ -1951,3 +1951,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 488
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 489
+
+Rope: tree of small string fragments; O(log n) concat and substring.
