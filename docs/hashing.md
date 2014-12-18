@@ -2143,3 +2143,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 519
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 520
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
