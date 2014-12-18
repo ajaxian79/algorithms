@@ -278,3 +278,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 237: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 238: Worst case appears only on degenerate inputs.
 // note 239: Time complexity: O(n*k) where k is the alphabet size.
+// note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
