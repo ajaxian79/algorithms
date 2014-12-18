@@ -2868,3 +2868,7 @@ Stable across duplicates in the input.
 ## entry 702
 
 Vectorizes cleanly under -O2.
+
+## entry 703
+
+Space complexity: O(h) for the tree height.
