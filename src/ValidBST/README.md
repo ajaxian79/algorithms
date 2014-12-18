@@ -2877,3 +2877,7 @@ Three passes total; the third merges results.
 ## entry 704
 
 Edge case: empty input → returns 0.
+
+## entry 705
+
+Allocates one buffer of length n+1 for the result.
