@@ -2809,3 +2809,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 688
 
 Reentrant — no static state.
+
+## entry 689
+
+Edge case: zero-length string → returns the empty result.
