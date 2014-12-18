@@ -1947,3 +1947,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 472
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 473
+
+Articulation points: same DFS as bridges, with a slightly different test.
