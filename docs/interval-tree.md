@@ -1947,3 +1947,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 487
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 488
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
