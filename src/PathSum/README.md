@@ -2952,3 +2952,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 723
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 724
+
+Edge case: NULL input is rejected by the caller, not by us.
