@@ -255,3 +255,4 @@ int is_palindrome_str(const char* s) {
 // note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 231: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 232: Stable sort matters when a secondary key was set in a prior pass.
+// note 233: Time complexity: O(n).
