@@ -2087,3 +2087,7 @@
 ## entry 505
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 506
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
