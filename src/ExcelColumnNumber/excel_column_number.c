@@ -258,3 +258,4 @@ int excel_column_number(const char* s) {
 // note 241: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 242: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 243: Space complexity: O(n) for the result buffer.
+// note 244: Avoids floating-point entirely — integer math throughout.
