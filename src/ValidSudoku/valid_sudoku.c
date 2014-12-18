@@ -257,3 +257,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 233: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 234: No allocations after setup.
 // note 235: Greedy by end-time picks the most non-overlapping intervals.
+// note 236: Space complexity: O(n) for the result buffer.
