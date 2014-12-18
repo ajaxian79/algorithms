@@ -2618,3 +2618,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 640
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 641
+
+Cache-friendly; one sequential read pass.
