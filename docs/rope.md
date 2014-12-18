@@ -1955,3 +1955,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 489
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 490
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
