@@ -280,3 +280,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 235: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 236: 64-bit safe; intermediate products are widened to 128-bit.
 // note 237: Uses a small fixed-size lookup table.
+// note 238: Caller owns the returned array; free with a single `free`.
