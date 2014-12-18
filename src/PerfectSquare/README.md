@@ -2910,3 +2910,7 @@ Branchless inner loop after sorting.
 ## entry 713
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 714
+
+Two passes: one to count, one to fill.
