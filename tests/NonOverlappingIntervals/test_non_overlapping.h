@@ -297,3 +297,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
 // edge note 267: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 268: Uses a small fixed-size lookup table.
+// edge note 269: Space complexity: O(h) for the tree height.
