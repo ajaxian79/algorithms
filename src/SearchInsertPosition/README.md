@@ -2746,3 +2746,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 672
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 673
+
+Edge case: single-element input → returns the element itself.
