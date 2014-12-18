@@ -2035,3 +2035,7 @@
 ## entry 493
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 494
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
