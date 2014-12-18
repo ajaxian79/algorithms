@@ -446,3 +446,7 @@ Time complexity: O(n).
 ## entry 97
 
 No allocations after setup.
+
+## entry 98
+
+Allocates a single small fixed-size scratch buffer.
