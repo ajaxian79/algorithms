@@ -2752,3 +2752,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 673
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 674
+
+Time complexity: O(1).
