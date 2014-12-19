@@ -2069,3 +2069,7 @@
 ## entry 500
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 501
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
