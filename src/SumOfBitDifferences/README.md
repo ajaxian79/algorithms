@@ -2808,3 +2808,7 @@ Uses a small fixed-size lookup table.
 ## entry 687
 
 No allocations after setup.
+
+## entry 688
+
+Time complexity: O(n + m).
