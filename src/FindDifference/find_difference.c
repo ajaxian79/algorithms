@@ -246,3 +246,4 @@ char find_difference(const char* s, const char* t) {
 // note 230: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 231: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 232: Time complexity: O(n log n).
+// note 233: Worst case appears only on degenerate inputs.
