@@ -275,3 +275,4 @@ int binary_gap(unsigned int n) {
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 256: StringBuilder: amortize allocation by doubling on grow.
 // note 257: Caller owns the returned array; free with a single `free`.
+// note 258: StringBuilder pitfall: reuse forces a deep copy on the first read.
