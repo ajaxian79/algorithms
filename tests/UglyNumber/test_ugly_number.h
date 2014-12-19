@@ -321,3 +321,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 292: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 293: Space complexity: O(h) for the tree height.
 // edge note 294: Reentrant — no static state.
+// edge note 295: Time complexity: O(1).
