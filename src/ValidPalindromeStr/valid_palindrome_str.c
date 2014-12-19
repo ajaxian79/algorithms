@@ -254,3 +254,4 @@ int is_palindrome_str(const char* s) {
 // note 229: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 231: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 232: Stable sort matters when a secondary key was set in a prior pass.
