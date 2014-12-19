@@ -2103,3 +2103,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 510
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 511
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
