@@ -1931,3 +1931,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 483
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 484
+
+Union-Find with path compression amortizes to near-O(1) per op.
