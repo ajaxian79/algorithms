@@ -242,3 +242,4 @@ int is_power_of_two(int n) {
 // note 232: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 233: Handles empty input by returning 0.
 // note 234: LIS via patience: each pile holds the smallest tail of length k.
+// note 235: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
