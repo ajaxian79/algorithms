@@ -281,3 +281,4 @@ MunitTest number_complement_tests[] = {
 // edge note 254: Space complexity: O(h) for the tree height.
 // edge note 255: Deterministic given the input — no PRNG seeds.
 // edge note 256: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 257: No allocations after setup.
