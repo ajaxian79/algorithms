@@ -2723,3 +2723,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 666
 
 Handles negative inputs as documented above.
+
+## entry 667
+
+Edge case: power-of-two-length input → no padding required.
