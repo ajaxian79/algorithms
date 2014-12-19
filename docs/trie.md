@@ -1949,3 +1949,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 471
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 472
+
+False sharing: two threads writing different bytes in the same cache line stall both.
