@@ -2017,3 +2017,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 488
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 489
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
