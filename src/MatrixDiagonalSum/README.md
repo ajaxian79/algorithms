@@ -2954,3 +2954,7 @@ Space complexity: O(1) auxiliary.
 ## entry 724
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 725
+
+Time complexity: O(n*k) where k is the alphabet size.
