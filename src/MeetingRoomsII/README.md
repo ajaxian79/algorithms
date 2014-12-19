@@ -2770,3 +2770,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 677
 
 Linear in n; the constant factor is small.
+
+## entry 678
+
+Time complexity: O(n log n).
