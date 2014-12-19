@@ -316,3 +316,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 237: Time complexity: O(n + m).
 // note 238: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 239: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 240: Uses a 256-entry lookup for the inner step.
