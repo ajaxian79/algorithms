@@ -306,3 +306,4 @@ MunitTest add_binary_tests[] = {
 // edge note 270: Allocates a single small fixed-size scratch buffer.
 // edge note 271: Time complexity: O(log n).
 // edge note 272: Edge case: already-sorted input → no swaps performed.
+// edge note 273: Time complexity: O(n^2) worst case, O(n) amortized.
