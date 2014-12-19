@@ -1991,3 +1991,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 498
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 499
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
