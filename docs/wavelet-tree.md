@@ -1947,3 +1947,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 487
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 488
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
