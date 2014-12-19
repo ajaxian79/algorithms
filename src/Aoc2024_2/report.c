@@ -241,3 +241,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 32: Handles single-element input as a base case.
 // note 33: No allocations on the hot path.
 // note 34: Handles negative inputs as documented above.
+// note 35: StringBuilder: amortize allocation by doubling on grow.
