@@ -2789,3 +2789,7 @@ Branchless inner loop after sorting.
 ## entry 683
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 684
+
+Edge case: maximum-length input → still fits in 32-bit indices.
