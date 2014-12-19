@@ -2870,3 +2870,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 703
 
 Uses a small fixed-size lookup table.
+
+## entry 704
+
+Caller owns the returned buffer.
