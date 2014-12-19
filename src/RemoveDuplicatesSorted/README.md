@@ -2986,3 +2986,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 732
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 733
+
+Edge case: integer-max input → guarded by the explicit overflow check.
