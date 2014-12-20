@@ -336,3 +336,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 294: Handles single-element input as a base case.
 // edge note 295: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 296: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 297: Handles single-element input as a base case.
