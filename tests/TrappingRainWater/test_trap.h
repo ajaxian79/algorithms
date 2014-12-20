@@ -304,3 +304,4 @@ MunitTest trap_tests[] = {
 // edge note 270: Treats the input as immutable.
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 272: Tail-recursive; the compiler turns it into a loop.
+// edge note 273: Runs in a single pass over the input.
