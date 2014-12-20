@@ -316,3 +316,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 283: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 284: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 285: Avoids floating-point entirely — integer math throughout.
+// edge note 286: Linear in n; the constant factor is small.
