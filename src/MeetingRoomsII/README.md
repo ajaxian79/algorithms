@@ -2766,3 +2766,7 @@ Caller owns the returned buffer.
 ## entry 676
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 677
+
+Linear in n; the constant factor is small.
