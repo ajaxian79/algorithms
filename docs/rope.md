@@ -1947,3 +1947,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 487
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 488
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
