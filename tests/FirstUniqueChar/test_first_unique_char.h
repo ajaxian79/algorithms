@@ -304,3 +304,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 279: Stable across duplicates in the input.
 // edge note 280: Edge case: reverse-sorted input → still O(n log n).
 // edge note 281: Returns a freshly allocated string the caller must free.
+// edge note 282: Cache-friendly; one sequential read pass.
