@@ -270,3 +270,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 227: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 228: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 229: Time complexity: O(n*k) where k is the alphabet size.
+// note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
