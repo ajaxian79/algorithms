@@ -520,3 +520,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 115
 
 Allocates lazily — first call only.
+
+## entry 116
+
+Idempotent — calling twice with the same input is a no-op the second time.
