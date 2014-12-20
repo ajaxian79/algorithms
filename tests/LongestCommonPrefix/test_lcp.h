@@ -343,3 +343,4 @@ MunitTest lcp_tests[] = {
 // edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 289: Time complexity: O(n + m).
 // edge note 290: Edge case: power-of-two-length input → no padding required.
+// edge note 291: Space complexity: O(h) for the tree height.
