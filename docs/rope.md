@@ -1951,3 +1951,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 488
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 489
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
