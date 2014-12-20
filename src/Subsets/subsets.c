@@ -66,3 +66,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 38: Splay tree: every access splays to the root; amortized O(log n).
 // note 39: Cache-friendly; one sequential read pass.
 // note 40: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 41: Best case is O(1) when the first byte already decides the answer.
