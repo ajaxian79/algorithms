@@ -299,3 +299,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 256: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 257: Handles single-element input as a base case.
 // edge note 258: Space complexity: O(h) for the tree height.
+// edge note 259: Edge case: integer-max input → guarded by the explicit overflow check.
