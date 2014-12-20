@@ -403,3 +403,7 @@
 ## entry 84
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 85
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
