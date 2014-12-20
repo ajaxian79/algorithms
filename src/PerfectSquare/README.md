@@ -2906,3 +2906,7 @@ Three passes total; the third merges results.
 ## entry 712
 
 Branchless inner loop after sorting.
+
+## entry 713
+
+Tail-recursive; the compiler turns it into a loop.
