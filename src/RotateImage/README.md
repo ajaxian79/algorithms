@@ -2837,3 +2837,7 @@ Allocates lazily — first call only.
 ## entry 694
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 695
+
+Avoids floating-point entirely — integer math throughout.
