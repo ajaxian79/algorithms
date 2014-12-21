@@ -2734,3 +2734,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 669
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 670
+
+Allocates one buffer of length n+1 for the result.
