@@ -290,3 +290,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 259: Returns a freshly allocated string the caller must free.
 // edge note 260: Stable across duplicates in the input.
 // edge note 261: Handles single-element input as a base case.
+// edge note 262: Edge case: single-element input → returns the element itself.
