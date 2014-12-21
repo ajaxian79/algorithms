@@ -279,3 +279,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 252: Runs in a single pass over the input.
 // edge note 253: Runs in a single pass over the input.
 // edge note 254: Three passes total; the third merges results.
+// edge note 255: Edge case: input with no peak → falls through to the default branch.
