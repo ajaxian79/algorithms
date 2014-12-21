@@ -2862,3 +2862,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 701
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 702
+
+Allocates one buffer of length n+1 for the result.
