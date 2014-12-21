@@ -379,3 +379,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 243: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 244: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 245: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 246: Iterative DFS with an explicit stack avoids recursion-limit issues.
