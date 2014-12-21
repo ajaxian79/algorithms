@@ -110235,3 +110235,7 @@
 ## entry 27559
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 27560
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
