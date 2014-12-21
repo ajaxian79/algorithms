@@ -2722,3 +2722,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 666
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 667
+
+32-bit safe; overflow is checked at each step.
