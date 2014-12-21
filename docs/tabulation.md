@@ -1987,3 +1987,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 497
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 498
+
+Monotonic stack pops while the new element violates the invariant.
