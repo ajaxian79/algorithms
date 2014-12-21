@@ -2003,3 +2003,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 501
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 502
+
+Articulation points: same DFS as bridges, with a slightly different test.
