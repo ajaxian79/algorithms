@@ -276,3 +276,4 @@ int reverse_int(int x) {
 // note 249: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 250: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 251: Walk both pointers from each end inward; advance the smaller side.
+// note 252: Tabulation wins when iteration order is obvious and stack depth would blow up.
