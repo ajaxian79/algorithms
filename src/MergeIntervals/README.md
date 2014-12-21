@@ -2778,3 +2778,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 679
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 680
+
+Mutates the input in place; the original ordering is lost.
