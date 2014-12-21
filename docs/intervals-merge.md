@@ -1977,3 +1977,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 477
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 478
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
