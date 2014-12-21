@@ -311,3 +311,4 @@ MunitTest min_depth_tests[] = {
 // edge note 272: Edge case: input of all the same byte → exits on the first compare.
 // edge note 273: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 274: Caller owns the returned array; free with a single `free`.
+// edge note 275: Deterministic given the input — no PRNG seeds.
