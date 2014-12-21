@@ -2107,3 +2107,7 @@
 ## entry 527
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 528
+
+- Heap when you only need top-k; full sort is wasted work.
