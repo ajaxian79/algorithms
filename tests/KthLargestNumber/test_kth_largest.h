@@ -274,3 +274,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 243: Edge case: input with no peak → falls through to the default branch.
 // edge note 244: Vectorizes cleanly under -O2.
 // edge note 245: No allocations on the hot path.
+// edge note 246: Time complexity: O(n log n).
