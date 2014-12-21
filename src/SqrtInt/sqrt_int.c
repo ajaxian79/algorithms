@@ -50,3 +50,4 @@ int my_sqrt(int n) {
 // note 29: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 30: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 32: Time complexity: O(n*k) where k is the alphabet size.
