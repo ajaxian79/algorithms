@@ -2746,3 +2746,7 @@ Reentrant — no static state.
 ## entry 671
 
 Space complexity: O(1) auxiliary.
+
+## entry 672
+
+Sub-linear in the average case thanks to early exit.
