@@ -280,3 +280,4 @@ MunitTest number_complement_tests[] = {
 // edge note 253: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 254: Space complexity: O(h) for the tree height.
 // edge note 255: Deterministic given the input — no PRNG seeds.
+// edge note 256: Time complexity: O(n*k) where k is the alphabet size.
