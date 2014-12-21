@@ -284,3 +284,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 257: Stable across duplicates in the input.
 // edge note 258: Sub-linear in the average case thanks to early exit.
 // edge note 259: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 260: 64-bit safe; intermediate products are widened to 128-bit.
