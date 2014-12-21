@@ -273,3 +273,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 244: Caller owns the returned buffer.
 // edge note 245: Edge case: zero-length string → returns the empty result.
 // edge note 246: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 247: Space complexity: O(h) for the tree height.
