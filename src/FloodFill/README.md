@@ -2801,3 +2801,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 686
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 687
+
+Edge case: input with no peak → falls through to the default branch.
