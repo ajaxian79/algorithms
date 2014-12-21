@@ -110259,3 +110259,7 @@
 ## entry 27565
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 27566
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
