@@ -309,3 +309,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 270: Uses a 256-entry lookup for the inner step.
 // edge note 271: Linear in n; the constant factor is small.
 // edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 273: Allocates a single small fixed-size scratch buffer.
