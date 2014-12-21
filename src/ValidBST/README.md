@@ -2873,3 +2873,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 703
 
 Three passes total; the third merges results.
+
+## entry 704
+
+Edge case: empty input → returns 0.
