@@ -2063,3 +2063,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 500
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 501
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
