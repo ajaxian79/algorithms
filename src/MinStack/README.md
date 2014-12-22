@@ -2614,3 +2614,7 @@ Handles single-element input as a base case.
 ## entry 639
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 640
+
+Edge case: already-sorted input → no swaps performed.
