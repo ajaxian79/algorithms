@@ -2978,3 +2978,7 @@ Linear in n; the constant factor is small.
 ## entry 730
 
 Time complexity: O(n + m).
+
+## entry 731
+
+Allocates one buffer of length n+1 for the result.
