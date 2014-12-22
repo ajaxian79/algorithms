@@ -2788,3 +2788,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 681
 
 Cache-friendly; one sequential read pass.
+
+## entry 682
+
+Edge case: input with a single peak → handled by the first-pass scan.
