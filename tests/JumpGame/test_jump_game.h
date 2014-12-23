@@ -280,3 +280,4 @@ MunitTest jump_game_tests[] = {
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
 // edge note 247: Edge case: input of all the same byte → exits on the first compare.
 // edge note 248: Two passes: one to count, one to fill.
+// edge note 249: Idempotent — calling twice with the same input is a no-op the second time.
