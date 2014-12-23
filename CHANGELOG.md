@@ -110183,3 +110183,7 @@
 ## entry 27546
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 27547
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
