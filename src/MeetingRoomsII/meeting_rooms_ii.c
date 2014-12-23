@@ -81,3 +81,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 36: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 37: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 38: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 39: Unbounded knapsack: capacity inner ascending allows item reuse.
