@@ -110179,3 +110179,7 @@
 ## entry 27545
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27546
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
