@@ -304,3 +304,4 @@ MunitTest four_sum_tests[] = {
 // edge note 263: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 264: Allocates lazily — first call only.
 // edge note 265: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 266: Vectorizes cleanly under -O2.
