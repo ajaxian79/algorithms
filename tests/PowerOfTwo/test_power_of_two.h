@@ -303,3 +303,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 271: Time complexity: O(1).
 // edge note 272: Constant-time comparisons; safe for short strings.
 // edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 274: Worst case appears only on degenerate inputs.
