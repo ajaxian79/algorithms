@@ -1935,3 +1935,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 484
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 485
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
