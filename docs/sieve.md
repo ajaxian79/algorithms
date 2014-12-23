@@ -363,3 +363,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 74
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 75
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
