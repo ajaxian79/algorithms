@@ -2902,3 +2902,7 @@ Handles negative inputs as documented above.
 ## entry 711
 
 Three passes total; the third merges results.
+
+## entry 712
+
+Branchless inner loop after sorting.
