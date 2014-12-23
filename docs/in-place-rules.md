@@ -2081,3 +2081,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 505
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 506
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
