@@ -2655,3 +2655,7 @@ Time complexity: O(n + m).
 ## entry 649
 
 Uses a small fixed-size lookup table.
+
+## entry 650
+
+Two passes: one to count, one to fill.
