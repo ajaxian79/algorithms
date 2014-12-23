@@ -324,3 +324,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 274: Allocates a single small fixed-size scratch buffer.
 // edge note 275: Space complexity: O(n) for the result buffer.
 // edge note 276: Returns a freshly allocated string the caller must free.
+// edge note 277: Edge case: already-sorted input → no swaps performed.
