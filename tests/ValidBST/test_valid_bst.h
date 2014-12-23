@@ -318,3 +318,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 275: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Space complexity: O(log n) for the recursion stack.
+// edge note 278: Avoids floating-point entirely — integer math throughout.
