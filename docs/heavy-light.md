@@ -2079,3 +2079,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 520
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 521
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
