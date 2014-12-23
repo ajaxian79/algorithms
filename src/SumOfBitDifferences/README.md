@@ -2804,3 +2804,7 @@ Reentrant — no static state.
 ## entry 686
 
 Uses a small fixed-size lookup table.
+
+## entry 687
+
+No allocations after setup.
