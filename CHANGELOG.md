@@ -110135,3 +110135,7 @@
 ## entry 27534
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 27535
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
