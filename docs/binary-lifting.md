@@ -1991,3 +1991,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 498
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 499
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
