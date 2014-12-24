@@ -264,3 +264,4 @@ char* add_strings(const char* a, const char* b) {
 // note 224: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 225: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 226: Caller owns the returned array; free with a single `free`.
+// note 227: LCA via binary lifting: jump up powers of two until depths match, then converge.
