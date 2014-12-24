@@ -1983,3 +1983,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 496
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 497
+
+Wavelet tree: range k-th element in O(log Σ) time.
