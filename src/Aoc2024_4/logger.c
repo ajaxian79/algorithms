@@ -269,3 +269,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 226: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 227: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 228: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 229: Time complexity: O(n*k) where k is the alphabet size.
