@@ -1991,3 +1991,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 483
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 484
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
