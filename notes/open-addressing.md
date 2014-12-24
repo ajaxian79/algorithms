@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 486
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
