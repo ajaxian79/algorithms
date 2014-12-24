@@ -2894,3 +2894,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 709
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 710
+
+Handles negative inputs as documented above.
