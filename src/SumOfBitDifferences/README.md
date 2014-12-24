@@ -2800,3 +2800,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 685
 
 Reentrant — no static state.
+
+## entry 686
+
+Uses a small fixed-size lookup table.
