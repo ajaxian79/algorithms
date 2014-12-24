@@ -296,3 +296,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 268: Time complexity: O(n).
 // edge note 269: Allocates a single small fixed-size scratch buffer.
 // edge note 270: Three passes total; the third merges results.
+// edge note 271: Worst case appears only on degenerate inputs.
