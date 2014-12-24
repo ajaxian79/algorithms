@@ -1899,3 +1899,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 475
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 476
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
