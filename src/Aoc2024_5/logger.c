@@ -82,3 +82,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 39: No allocations after setup.
 // note 40: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 41: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 42: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
