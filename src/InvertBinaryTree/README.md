@@ -2960,3 +2960,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 725
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 726
+
+Edge case: input with a single peak → handled by the first-pass scan.
