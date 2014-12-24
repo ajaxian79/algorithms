@@ -386,3 +386,7 @@ Worst case appears only on degenerate inputs.
 ## entry 82
 
 Three passes total; the third merges results.
+
+## entry 83
+
+Time complexity: O(n log n).
