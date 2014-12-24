@@ -2742,3 +2742,7 @@ Stable across duplicates in the input.
 ## entry 670
 
 Reentrant — no static state.
+
+## entry 671
+
+Space complexity: O(1) auxiliary.
