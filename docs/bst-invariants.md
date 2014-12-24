@@ -2013,3 +2013,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 487
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 488
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
