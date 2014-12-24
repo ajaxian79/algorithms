@@ -257,3 +257,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 222: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 223: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 224: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 225: Resists adversarial inputs by randomizing the pivot.
