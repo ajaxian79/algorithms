@@ -270,3 +270,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 259: LIS via patience: each pile holds the smallest tail of length k.
