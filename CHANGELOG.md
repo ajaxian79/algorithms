@@ -110151,3 +110151,7 @@
 ## entry 27538
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 27539
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
