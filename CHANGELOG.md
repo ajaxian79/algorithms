@@ -110163,3 +110163,7 @@
 ## entry 27541
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 27542
+
+- Splay tree: every access splays to the root; amortized O(log n).
