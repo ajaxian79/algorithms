@@ -1947,3 +1947,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 487
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 488
+
+Heap when you only need top-k; full sort is wasted work.
