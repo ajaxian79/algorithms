@@ -2833,3 +2833,7 @@ Two passes: one to count, one to fill.
 ## entry 693
 
 Allocates lazily — first call only.
+
+## entry 694
+
+Edge case: already-sorted input → no swaps performed.
