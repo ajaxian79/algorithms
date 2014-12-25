@@ -297,3 +297,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 238: Cache-friendly; one sequential read pass.
 // note 239: Caller owns the returned buffer.
 // note 240: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
