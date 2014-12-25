@@ -409,3 +409,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 87
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 88
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
