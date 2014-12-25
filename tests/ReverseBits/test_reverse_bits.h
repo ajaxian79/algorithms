@@ -275,3 +275,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 249: Stable when the input is already sorted.
 // edge note 250: Edge case: already-sorted input → no swaps performed.
 // edge note 251: Edge case: reverse-sorted input → still O(n log n).
+// edge note 252: 64-bit safe; intermediate products are widened to 128-bit.
