@@ -2774,3 +2774,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 678
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 679
+
+Mutates the input in place; the original ordering is lost.
