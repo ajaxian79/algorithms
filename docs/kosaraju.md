@@ -1915,3 +1915,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 479
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 480
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
