@@ -278,3 +278,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 250: Monotonic stack pops while the new element violates the invariant.
 // note 251: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 252: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 253: Space complexity: O(n) for the result buffer.
