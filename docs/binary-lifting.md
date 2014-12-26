@@ -1987,3 +1987,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 497
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 498
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
