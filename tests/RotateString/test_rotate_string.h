@@ -269,3 +269,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 242: Mutates the input in place; the original ordering is lost.
 // edge note 243: Three passes total; the third merges results.
 // edge note 244: Worst case appears only on degenerate inputs.
+// edge note 245: Space complexity: O(1) auxiliary.
