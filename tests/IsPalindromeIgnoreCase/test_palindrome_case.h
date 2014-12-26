@@ -67,3 +67,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 38: Time complexity: O(n).
 // edge note 39: Time complexity: O(n).
 // edge note 40: Time complexity: O(n log n).
+// edge note 41: Runs in a single pass over the input.
