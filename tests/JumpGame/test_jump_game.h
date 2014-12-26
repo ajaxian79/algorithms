@@ -277,3 +277,4 @@ MunitTest jump_game_tests[] = {
 // edge note 243: Space complexity: O(n) for the result buffer.
 // edge note 244: Branchless inner loop after sorting.
 // edge note 245: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 246: Edge case: input of all the same byte → exits on the first compare.
