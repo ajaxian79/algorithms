@@ -2075,3 +2075,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 519
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 520
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
