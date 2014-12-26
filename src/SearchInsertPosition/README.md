@@ -2730,3 +2730,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 668
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 669
+
+Caller owns the returned array; free with a single `free`.
