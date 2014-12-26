@@ -382,3 +382,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 81
 
 Worst case appears only on degenerate inputs.
+
+## entry 82
+
+Three passes total; the third merges results.
