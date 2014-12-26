@@ -298,3 +298,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 248: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 250: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 251: Greedy by end-time picks the most non-overlapping intervals.
