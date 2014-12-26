@@ -2740,3 +2740,7 @@ Cache-friendly; one sequential read pass.
 ## entry 669
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 670
+
+Edge case: zero-length string → returns the empty result.
