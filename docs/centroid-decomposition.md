@@ -1899,3 +1899,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 475
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 476
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
