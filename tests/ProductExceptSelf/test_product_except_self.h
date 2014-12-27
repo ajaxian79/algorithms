@@ -301,3 +301,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 265: Two passes: one to count, one to fill.
 // edge note 266: Stable across duplicates in the input.
 // edge note 267: Edge case: reverse-sorted input → still O(n log n).
+// edge note 268: Space complexity: O(h) for the tree height.
