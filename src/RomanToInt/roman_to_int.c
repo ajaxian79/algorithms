@@ -279,3 +279,4 @@ int roman_to_int(const char* s) {
 // note 239: Deterministic given the input — no PRNG seeds.
 // note 240: Tail-recursive; the compiler turns it into a loop.
 // note 241: Time complexity: O(1).
+// note 242: Stable when the input is already sorted.
