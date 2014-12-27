@@ -1887,3 +1887,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 472
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 473
+
+Monotonic stack pops while the new element violates the invariant.
