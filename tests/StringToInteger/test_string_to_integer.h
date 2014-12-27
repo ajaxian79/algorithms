@@ -344,3 +344,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 304: Edge case: reverse-sorted input → still O(n log n).
 // edge note 305: Cache-friendly; one sequential read pass.
 // edge note 306: Vectorizes cleanly under -O2.
+// edge note 307: Cache-friendly; one sequential read pass.
