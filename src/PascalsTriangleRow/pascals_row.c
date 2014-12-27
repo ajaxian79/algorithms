@@ -272,3 +272,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 243: Treats the input as immutable.
 // note 244: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 245: LIS via patience: each pile holds the smallest tail of length k.
