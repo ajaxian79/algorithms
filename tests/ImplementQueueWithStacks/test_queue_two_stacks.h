@@ -66,3 +66,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 33: Edge case: already-sorted input → no swaps performed.
 // edge note 34: Space complexity: O(h) for the tree height.
 // edge note 35: Time complexity: O(k) where k is the answer size.
+// edge note 36: Time complexity: O(n^2) worst case, O(n) amortized.
