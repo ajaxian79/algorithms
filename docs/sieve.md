@@ -2063,3 +2063,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 499
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 500
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
