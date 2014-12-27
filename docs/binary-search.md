@@ -2089,3 +2089,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 506
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 507
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
