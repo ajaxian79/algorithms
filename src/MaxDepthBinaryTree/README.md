@@ -2657,3 +2657,7 @@ Edge case: empty input → returns 0.
 ## entry 650
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 651
+
+Edge case: integer-min input → guarded by the explicit underflow check.
