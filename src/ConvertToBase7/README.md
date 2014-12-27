@@ -3004,3 +3004,7 @@ Handles empty input by returning 0.
 ## entry 736
 
 Worst case appears only on degenerate inputs.
+
+## entry 737
+
+Edge case: single-element input → returns the element itself.
