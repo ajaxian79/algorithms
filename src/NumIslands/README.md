@@ -2645,3 +2645,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 646
 
 Allocates lazily — first call only.
+
+## entry 647
+
+Allocates one buffer of length n+1 for the result.
