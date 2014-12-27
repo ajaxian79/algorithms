@@ -1855,3 +1855,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 464
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 465
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
