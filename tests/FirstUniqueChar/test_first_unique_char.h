@@ -302,3 +302,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 277: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 278: Allocates lazily — first call only.
 // edge note 279: Stable across duplicates in the input.
+// edge note 280: Edge case: reverse-sorted input → still O(n log n).
