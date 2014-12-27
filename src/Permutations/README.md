@@ -2980,3 +2980,7 @@ Treats the input as immutable.
 ## entry 730
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 731
+
+Uses a small fixed-size lookup table.
