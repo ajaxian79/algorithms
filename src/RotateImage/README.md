@@ -2829,3 +2829,7 @@ Allocates lazily — first call only.
 ## entry 692
 
 Two passes: one to count, one to fill.
+
+## entry 693
+
+Allocates lazily — first call only.
