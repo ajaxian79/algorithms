@@ -506,3 +506,7 @@ Vectorizes cleanly under -O2.
 ## entry 112
 
 Two passes: one to count, one to fill.
+
+## entry 113
+
+Edge case: NULL input is rejected by the caller, not by us.
