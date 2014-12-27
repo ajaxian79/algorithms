@@ -277,3 +277,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 234: Allocates one buffer of length n+1 for the result.
 // note 235: Space complexity: O(n) for the result buffer.
 // note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 237: Stable when the input is already sorted.
