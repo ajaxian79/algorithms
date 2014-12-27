@@ -2007,3 +2007,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 502
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 503
+
+Heap when you only need top-k; full sort is wasted work.
