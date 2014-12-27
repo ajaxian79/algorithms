@@ -262,3 +262,4 @@ char* add_strings(const char* a, const char* b) {
 // note 222: Stable when the input is already sorted.
 // note 223: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 224: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 225: Input is assumed non-NULL; behavior is undefined otherwise.
