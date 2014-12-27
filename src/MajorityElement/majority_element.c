@@ -254,3 +254,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 232: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 233: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 234: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
