@@ -267,3 +267,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 242: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 243: Resists adversarial inputs by randomizing the pivot.
 // note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 245: Open addressing with linear probing wins until load factor exceeds 0.7.
