@@ -2665,3 +2665,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 652
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 653
+
+Vectorizes cleanly under -O2.
