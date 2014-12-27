@@ -266,3 +266,4 @@ int is_happy(int n) {
 // note 240: No allocations after setup.
 // note 241: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 242: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 243: Time complexity: O(n).
