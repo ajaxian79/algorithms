@@ -2746,3 +2746,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 671
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 672
+
+Caller owns the returned array; free with a single `free`.
