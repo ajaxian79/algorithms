@@ -1923,3 +1923,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 481
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 482
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
