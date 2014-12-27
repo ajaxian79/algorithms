@@ -265,3 +265,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 252: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 253: Two passes: one to count, one to fill.
+// note 254: Interval DP: solve all `[l, r]` ranges from short to long.
