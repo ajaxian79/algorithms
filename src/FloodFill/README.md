@@ -2797,3 +2797,7 @@ Space complexity: O(h) for the tree height.
 ## entry 685
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 686
+
+Edge case: reverse-sorted input → still O(n log n).
