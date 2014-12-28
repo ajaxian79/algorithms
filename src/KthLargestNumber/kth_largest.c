@@ -70,3 +70,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 26: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 27: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 29: LIS via patience: each pile holds the smallest tail of length k.
