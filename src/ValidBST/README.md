@@ -2869,3 +2869,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 702
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 703
+
+Three passes total; the third merges results.
