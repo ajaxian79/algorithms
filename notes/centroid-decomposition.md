@@ -1867,3 +1867,7 @@
 ## entry 467
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 468
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
