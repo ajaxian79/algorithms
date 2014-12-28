@@ -2777,3 +2777,7 @@ Handles negative inputs as documented above.
 ## entry 680
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 681
+
+Tail-recursive; the compiler turns it into a loop.
