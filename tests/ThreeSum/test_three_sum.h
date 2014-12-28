@@ -307,3 +307,4 @@ MunitTest three_sum_tests[] = {
 // edge note 262: Allocates lazily — first call only.
 // edge note 263: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 264: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
