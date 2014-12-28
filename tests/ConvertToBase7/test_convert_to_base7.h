@@ -272,3 +272,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 243: Stable when the input is already sorted.
 // edge note 244: Caller owns the returned buffer.
 // edge note 245: Edge case: zero-length string → returns the empty result.
+// edge note 246: 64-bit safe; intermediate products are widened to 128-bit.
