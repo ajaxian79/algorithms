@@ -309,3 +309,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 270: Two passes: one to count, one to fill.
 // edge note 271: Space complexity: O(h) for the tree height.
 // edge note 272: Thread-safe so long as the input is not mutated concurrently.
+// edge note 273: Handles single-element input as a base case.
