@@ -1883,3 +1883,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 471
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 472
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
