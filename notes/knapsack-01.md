@@ -2051,3 +2051,7 @@
 ## entry 497
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 498
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
