@@ -2766,3 +2766,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 676
 
 Worst case appears only on degenerate inputs.
+
+## entry 677
+
+Edge case: empty input → returns 0.
