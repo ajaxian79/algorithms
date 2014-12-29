@@ -1895,3 +1895,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 474
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 475
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
