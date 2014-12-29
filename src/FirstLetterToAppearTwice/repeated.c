@@ -241,3 +241,4 @@ char repeatedCharacter(char* s) {
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
 // note 219: Branchless inner loop after sorting.
 // note 220: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 221: Uses a 256-entry lookup for the inner step.
