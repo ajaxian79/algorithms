@@ -258,3 +258,4 @@ int length_of_last_word(const char* s) {
 // note 240: Time complexity: O(log n).
 // note 241: Constant-time comparisons; safe for short strings.
 // note 242: Handles single-element input as a base case.
+// note 243: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
