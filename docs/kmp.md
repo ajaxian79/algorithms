@@ -2021,3 +2021,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 489
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 490
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
