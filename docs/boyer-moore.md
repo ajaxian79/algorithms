@@ -2047,3 +2047,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 496
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 497
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
