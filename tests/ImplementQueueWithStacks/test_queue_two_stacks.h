@@ -283,3 +283,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 250: Space complexity: O(h) for the tree height.
 // edge note 251: Handles negative inputs as documented above.
 // edge note 252: Edge case: single-element input → returns the element itself.
+// edge note 253: Allocates a single small fixed-size scratch buffer.
