@@ -250,3 +250,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 232: Reentrant — no static state.
 // note 233: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 234: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 235: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
