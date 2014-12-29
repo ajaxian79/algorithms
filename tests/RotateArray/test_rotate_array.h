@@ -295,3 +295,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 257: Linear in n; the constant factor is small.
 // edge note 258: Edge case: input with no peak → falls through to the default branch.
 // edge note 259: Best case is O(1) when the first byte already decides the answer.
+// edge note 260: Uses a 256-entry lookup for the inner step.
