@@ -311,3 +311,4 @@ char* count_and_say(int n) {
 // note 262: Vectorizes cleanly under -O2.
 // note 263: Stable sort matters when a secondary key was set in a prior pass.
 // note 264: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 265: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
