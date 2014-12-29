@@ -2943,3 +2943,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 721
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 722
+
+Edge case: NULL input is rejected by the caller, not by us.
