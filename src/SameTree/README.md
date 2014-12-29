@@ -2716,3 +2716,7 @@ Stable when the input is already sorted.
 ## entry 665
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 666
+
+Time complexity: O(n log n).
