@@ -309,3 +309,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 269: Time complexity: O(n log n).
 // edge note 270: Time complexity: O(n log n).
 // edge note 271: Handles negative inputs as documented above.
+// edge note 272: Space complexity: O(1) auxiliary.
