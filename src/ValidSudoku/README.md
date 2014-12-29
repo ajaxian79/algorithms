@@ -2931,3 +2931,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 717
 
 Stable when the input is already sorted.
+
+## entry 718
+
+Caller owns the returned array; free with a single `free`.
