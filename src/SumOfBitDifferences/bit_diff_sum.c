@@ -260,3 +260,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 242: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 243: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 244: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 245: Interval DP: solve all `[l, r]` ranges from short to long.
