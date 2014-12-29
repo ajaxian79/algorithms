@@ -2657,3 +2657,7 @@ Vectorizes cleanly under -O2.
 ## entry 639
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 640
+
+Time complexity: O(log n).
