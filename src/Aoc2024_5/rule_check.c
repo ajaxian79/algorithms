@@ -721,3 +721,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 234: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 235: Reentrant — no static state.
 // note 236: Allocates lazily — first call only.
+// note 237: Mutates the input in place; the original ordering is lost.
