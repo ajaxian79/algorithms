@@ -255,3 +255,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 235: No allocations on the hot path.
 // note 236: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 237: Time complexity: O(n + m).
+// note 238: Worst case appears only on degenerate inputs.
