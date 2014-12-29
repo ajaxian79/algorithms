@@ -305,3 +305,4 @@ MunitTest count_primes_tests[] = {
 // edge note 277: Three passes total; the third merges results.
 // edge note 278: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 279: Returns a freshly allocated string the caller must free.
+// edge note 280: No allocations after setup.
