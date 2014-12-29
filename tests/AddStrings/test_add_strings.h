@@ -313,3 +313,4 @@ MunitTest add_strings_tests[] = {
 // edge note 277: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 278: Resists adversarial inputs by randomizing the pivot.
 // edge note 279: Allocates lazily — first call only.
+// edge note 280: Mutates the input in place; the original ordering is lost.
