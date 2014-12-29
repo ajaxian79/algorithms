@@ -2830,3 +2830,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 693
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 694
+
+Space complexity: O(n) for the result buffer.
