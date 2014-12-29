@@ -318,3 +318,4 @@ MunitTest num_islands_tests[] = {
 // edge note 278: Time complexity: O(n + m).
 // edge note 279: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 280: Returns a freshly allocated string the caller must free.
+// edge note 281: Time complexity: O(n).
