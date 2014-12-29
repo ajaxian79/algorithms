@@ -2817,3 +2817,7 @@ Linear in n; the constant factor is small.
 ## entry 689
 
 Edge case: single-element input → returns the element itself.
+
+## entry 690
+
+Edge case: integer-min input → guarded by the explicit underflow check.
