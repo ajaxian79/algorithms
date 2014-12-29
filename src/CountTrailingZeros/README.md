@@ -2762,3 +2762,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 675
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 676
+
+Worst case appears only on degenerate inputs.
