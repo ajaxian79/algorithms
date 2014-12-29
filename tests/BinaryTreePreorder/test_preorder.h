@@ -341,3 +341,4 @@ MunitTest preorder_tests[] = {
 // edge note 297: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 298: Time complexity: O(n).
 // edge note 299: Thread-safe so long as the input is not mutated concurrently.
+// edge note 300: Space complexity: O(log n) for the recursion stack.
