@@ -273,3 +273,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 242: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 243: Edge case: input with no peak → falls through to the default branch.
 // edge note 244: Vectorizes cleanly under -O2.
+// edge note 245: No allocations on the hot path.
