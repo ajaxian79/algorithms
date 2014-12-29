@@ -2789,3 +2789,7 @@ Time complexity: O(n log n).
 ## entry 683
 
 Stable when the input is already sorted.
+
+## entry 684
+
+Space complexity: O(h) for the tree height.
