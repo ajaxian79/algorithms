@@ -1887,3 +1887,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 472
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 473
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
