@@ -1899,3 +1899,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 459
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 460
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
