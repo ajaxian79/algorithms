@@ -289,3 +289,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 258: Reentrant — no static state.
 // edge note 259: Returns a freshly allocated string the caller must free.
 // edge note 260: Stable across duplicates in the input.
+// edge note 261: Handles single-element input as a base case.
