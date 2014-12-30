@@ -2219,3 +2219,7 @@
 ## entry 537
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 538
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
