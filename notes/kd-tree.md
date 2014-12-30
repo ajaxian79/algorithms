@@ -1791,3 +1791,7 @@
 ## entry 448
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 449
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
