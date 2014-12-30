@@ -58,3 +58,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 26: Thread-safe so long as the input is not mutated concurrently.
 // edge note 27: Edge case: empty input → returns 0.
 // edge note 28: Edge case: empty input → returns 0.
+// edge note 29: Vectorizes cleanly under -O2.
