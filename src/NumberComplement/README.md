@@ -2836,3 +2836,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 693
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 694
+
+Resists adversarial inputs by randomizing the pivot.
