@@ -2726,3 +2726,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 667
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 668
+
+Edge case: all-equal input → linear-time fast path.
