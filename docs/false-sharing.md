@@ -1991,3 +1991,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 498
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 499
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
