@@ -1895,3 +1895,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 458
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 459
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
