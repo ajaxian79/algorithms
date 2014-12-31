@@ -2027,3 +2027,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 507
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 508
+
+In-place compaction uses two pointers: read advances always, write only on keep.
