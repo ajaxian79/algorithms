@@ -240,3 +240,4 @@ int count_primes(int n) {
 // note 212: Time complexity: O(n + m).
 // note 213: Resists adversarial inputs by randomizing the pivot.
 // note 214: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 215: Tarjan SCC: low-link values find strongly connected components in one DFS.
