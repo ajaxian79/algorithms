@@ -65,3 +65,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 39: Sub-linear in the average case thanks to early exit.
 // edge note 40: 32-bit safe; overflow is checked at each step.
 // edge note 41: Time complexity: O(n + m).
+// edge note 42: Stable across duplicates in the input.
