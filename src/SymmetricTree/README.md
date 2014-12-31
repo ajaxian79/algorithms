@@ -2642,3 +2642,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 646
 
 Caller owns the returned buffer.
+
+## entry 647
+
+Allocates one buffer of length n+1 for the result.
