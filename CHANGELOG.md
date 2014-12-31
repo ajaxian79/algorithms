@@ -109951,3 +109951,7 @@
 ## entry 27488
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 27489
+
+- Union-Find with path compression amortizes to near-O(1) per op.
