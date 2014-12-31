@@ -440,3 +440,7 @@ Reentrant — no static state.
 ## entry 95
 
 Treats the input as immutable.
+
+## entry 96
+
+Edge case: integer-max input → guarded by the explicit overflow check.
