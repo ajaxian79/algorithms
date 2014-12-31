@@ -1973,3 +1973,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 476
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 477
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
