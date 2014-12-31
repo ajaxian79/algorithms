@@ -406,3 +406,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 253: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 254: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 256: 64-bit safe; intermediate products are widened to 128-bit.
