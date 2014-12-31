@@ -427,3 +427,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 218: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 219: Branchless inner loop after sorting.
 // note 220: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 221: Wavelet tree: range k-th element in O(log Σ) time.
