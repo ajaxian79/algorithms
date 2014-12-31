@@ -2860,3 +2860,7 @@ Time complexity: O(log n).
 ## entry 700
 
 Stable when the input is already sorted.
+
+## entry 701
+
+Stable across duplicates in the input.
