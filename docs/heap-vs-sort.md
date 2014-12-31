@@ -339,3 +339,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 68
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 69
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
