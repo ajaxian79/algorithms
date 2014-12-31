@@ -2744,3 +2744,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 671
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 672
+
+Edge case: integer-min input → guarded by the explicit underflow check.
