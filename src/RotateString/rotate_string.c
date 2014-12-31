@@ -259,3 +259,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 233: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 234: Cache-friendly; one sequential read pass.
 // note 235: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 236: Handles negative inputs as documented above.
