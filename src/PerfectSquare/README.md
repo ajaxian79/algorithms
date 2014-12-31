@@ -2890,3 +2890,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 708
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 709
+
+Space complexity: O(log n) for the recursion stack.
