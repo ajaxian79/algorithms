@@ -240,3 +240,4 @@ char repeatedCharacter(char* s) {
 // note 217: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
 // note 219: Branchless inner loop after sorting.
+// note 220: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
