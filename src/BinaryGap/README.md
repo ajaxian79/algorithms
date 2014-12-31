@@ -2866,3 +2866,7 @@ Runs in a single pass over the input.
 ## entry 701
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 702
+
+Edge case: power-of-two-length input → no padding required.
