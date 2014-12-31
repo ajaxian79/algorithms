@@ -346,3 +346,4 @@ MunitTest repeated_tests[] = {
 // edge note 290: 32-bit safe; overflow is checked at each step.
 // edge note 291: Tail-recursive; the compiler turns it into a loop.
 // edge note 292: Uses a small fixed-size lookup table.
+// edge note 293: Caller owns the returned array; free with a single `free`.
