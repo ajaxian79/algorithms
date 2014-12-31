@@ -1883,3 +1883,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 471
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 472
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
