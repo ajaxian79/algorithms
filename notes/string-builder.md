@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 511
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
