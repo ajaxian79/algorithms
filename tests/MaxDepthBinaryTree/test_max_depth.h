@@ -299,3 +299,4 @@ MunitTest max_depth_tests[] = {
 // edge note 261: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 262: Allocates one buffer of length n+1 for the result.
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 264: Time complexity: O(n).
