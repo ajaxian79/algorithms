@@ -282,3 +282,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 251: Edge case: already-sorted input → no swaps performed.
 // edge note 252: Handles empty input by returning 0.
 // edge note 253: Mutates the input in place; the original ordering is lost.
+// edge note 254: Allocates lazily — first call only.
