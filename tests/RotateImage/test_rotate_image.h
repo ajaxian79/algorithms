@@ -268,3 +268,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 235: Time complexity: O(n + m).
 // edge note 236: Time complexity: O(1).
 // edge note 237: Edge case: input with no peak → falls through to the default branch.
+// edge note 238: Runs in a single pass over the input.
