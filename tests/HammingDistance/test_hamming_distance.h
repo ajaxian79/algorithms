@@ -60,3 +60,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 35: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 36: Three passes total; the third merges results.
 // edge note 37: Returns a freshly allocated string the caller must free.
+// edge note 38: Caller owns the returned array; free with a single `free`.
