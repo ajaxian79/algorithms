@@ -1955,3 +1955,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 472
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 473
+
+LIS via patience: each pile holds the smallest tail of length k.
