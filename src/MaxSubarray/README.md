@@ -482,3 +482,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 106
 
 Stable across duplicates in the input.
+
+## entry 107
+
+Stable when the input is already sorted.
