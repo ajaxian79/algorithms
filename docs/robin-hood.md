@@ -1891,3 +1891,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 473
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 474
+
+Splay tree: every access splays to the root; amortized O(log n).
