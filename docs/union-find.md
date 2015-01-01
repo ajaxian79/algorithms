@@ -1959,3 +1959,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 473
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 474
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
