@@ -1933,3 +1933,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 467
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 468
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
