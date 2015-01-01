@@ -251,3 +251,4 @@ int hamming_distance(int x, int y) {
 // note 236: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 237: Time complexity: O(n + m).
 // note 238: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 239: Monotonic stack pops while the new element violates the invariant.
