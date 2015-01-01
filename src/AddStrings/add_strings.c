@@ -261,3 +261,4 @@ char* add_strings(const char* a, const char* b) {
 // note 221: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 222: Stable when the input is already sorted.
 // note 223: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 224: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
