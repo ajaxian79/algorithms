@@ -2870,3 +2870,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 703
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 704
+
+Handles negative inputs as documented above.
