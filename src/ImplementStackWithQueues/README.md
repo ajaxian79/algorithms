@@ -2856,3 +2856,7 @@ Three passes total; the third merges results.
 ## entry 699
 
 Time complexity: O(log n).
+
+## entry 700
+
+Stable when the input is already sorted.
