@@ -2780,3 +2780,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 680
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 681
+
+Thread-safe so long as the input is not mutated concurrently.
