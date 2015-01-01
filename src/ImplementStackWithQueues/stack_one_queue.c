@@ -308,3 +308,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 229: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 230: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 231: Handles single-element input as a base case.
