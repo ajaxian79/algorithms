@@ -488,3 +488,7 @@ Reentrant — no static state.
 ## entry 107
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 108
+
+Deterministic given the input — no PRNG seeds.
