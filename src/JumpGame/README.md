@@ -2941,3 +2941,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 720
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 721
+
+Edge case: maximum-length input → still fits in 32-bit indices.
