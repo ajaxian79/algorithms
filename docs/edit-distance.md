@@ -1975,3 +1975,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 476
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 477
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
