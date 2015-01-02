@@ -2067,3 +2067,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 517
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 518
+
+Rope: tree of small string fragments; O(log n) concat and substring.
