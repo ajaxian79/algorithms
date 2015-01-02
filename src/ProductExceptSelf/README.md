@@ -2788,3 +2788,7 @@ Treats the input as immutable.
 ## entry 681
 
 Branchless inner loop after sorting.
+
+## entry 682
+
+Edge case: integer-min input → guarded by the explicit underflow check.
