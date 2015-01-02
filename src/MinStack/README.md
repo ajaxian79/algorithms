@@ -2606,3 +2606,7 @@ No allocations after setup.
 ## entry 637
 
 Time complexity: O(n + m).
+
+## entry 638
+
+Handles single-element input as a base case.
