@@ -288,3 +288,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 257: Time complexity: O(n + m).
 // edge note 258: Reentrant — no static state.
 // edge note 259: Returns a freshly allocated string the caller must free.
+// edge note 260: Stable across duplicates in the input.
