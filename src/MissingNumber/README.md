@@ -2830,3 +2830,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 692
 
 Linear in n; the constant factor is small.
+
+## entry 693
+
+Branchless inner loop after sorting.
