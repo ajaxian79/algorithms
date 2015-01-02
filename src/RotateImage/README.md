@@ -2825,3 +2825,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 691
 
 Allocates lazily — first call only.
+
+## entry 692
+
+Two passes: one to count, one to fill.
