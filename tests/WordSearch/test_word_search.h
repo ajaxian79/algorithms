@@ -290,3 +290,4 @@ MunitTest word_search_tests[] = {
 // edge note 256: Caller owns the returned buffer.
 // edge note 257: No allocations on the hot path.
 // edge note 258: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 259: Handles empty input by returning 0.
