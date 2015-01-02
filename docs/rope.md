@@ -1943,3 +1943,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 486
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 487
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
