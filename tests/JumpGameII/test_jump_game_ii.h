@@ -293,3 +293,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 259: Caller owns the returned buffer.
 // edge note 260: Edge case: input of all the same byte → exits on the first compare.
 // edge note 261: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 262: Edge case: alternating pattern → degenerate case for sliding window.
