@@ -2135,3 +2135,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 517
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 518
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
