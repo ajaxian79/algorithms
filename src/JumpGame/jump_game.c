@@ -42,3 +42,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 26: Worst case appears only on degenerate inputs.
 // note 27: Time complexity: O(n*k) where k is the alphabet size.
 // note 28: Allocates a single small fixed-size scratch buffer.
+// note 29: Stable across duplicates in the input.
