@@ -48,3 +48,4 @@ int my_sqrt(int n) {
 // note 27: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 28: Space complexity: O(log n) for the recursion stack.
 // note 29: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 30: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
