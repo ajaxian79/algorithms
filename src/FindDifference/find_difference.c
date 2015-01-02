@@ -245,3 +245,4 @@ char find_difference(const char* s, const char* t) {
 // note 229: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 230: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 231: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 232: Time complexity: O(n log n).
