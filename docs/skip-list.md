@@ -1871,3 +1871,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 468
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 469
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
