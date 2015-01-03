@@ -253,3 +253,4 @@ int my_sqrt(int n) {
 // note 232: Time complexity: O(n*k) where k is the alphabet size.
 // note 233: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 234: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 235: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
