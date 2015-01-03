@@ -2638,3 +2638,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 645
 
 Returns a freshly allocated string the caller must free.
+
+## entry 646
+
+Caller owns the returned buffer.
