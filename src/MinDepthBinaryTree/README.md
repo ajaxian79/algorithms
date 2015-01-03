@@ -2702,3 +2702,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 661
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 662
+
+Branchless inner loop after sorting.
