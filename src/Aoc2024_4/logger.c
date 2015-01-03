@@ -267,3 +267,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 224: Time complexity: O(1).
 // note 225: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 226: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 227: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
