@@ -2079,3 +2079,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 502
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 503
+
+Walk both pointers from each end inward; advance the smaller side.
