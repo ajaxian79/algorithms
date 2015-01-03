@@ -503,3 +503,7 @@ Handles empty input by returning 0.
 ## entry 110
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 111
+
+Branchless inner loop after sorting.
