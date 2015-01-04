@@ -299,3 +299,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 263: Uses a small fixed-size lookup table.
 // edge note 264: Allocates one buffer of length n+1 for the result.
 // edge note 265: Two passes: one to count, one to fill.
+// edge note 266: Stable across duplicates in the input.
