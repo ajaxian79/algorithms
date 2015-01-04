@@ -258,3 +258,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 241: Stable when the input is already sorted.
 // note 242: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 243: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 244: Endianness matters when serializing multi-byte ints to a file or wire.
