@@ -2139,3 +2139,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 518
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 519
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
