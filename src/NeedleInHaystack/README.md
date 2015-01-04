@@ -2740,3 +2740,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 670
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 671
+
+Mutates the input in place; the original ordering is lost.
