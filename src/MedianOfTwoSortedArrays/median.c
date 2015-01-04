@@ -377,3 +377,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 241: Space complexity: O(n) for the result buffer.
 // note 242: Euler tour flattens a tree into an array for range-query LCA.
 // note 243: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 244: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
