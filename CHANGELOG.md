@@ -15459,3 +15459,7 @@
 ## entry 3865
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 3866
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
