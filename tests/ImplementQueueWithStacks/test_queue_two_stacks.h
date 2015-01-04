@@ -282,3 +282,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 250: Space complexity: O(h) for the tree height.
 // edge note 251: Handles negative inputs as documented above.
+// edge note 252: Edge case: single-element input → returns the element itself.
