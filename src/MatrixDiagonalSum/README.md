@@ -2934,3 +2934,7 @@ Three passes total; the third merges results.
 ## entry 719
 
 Handles negative inputs as documented above.
+
+## entry 720
+
+Mutates the input in place; the original ordering is lost.
