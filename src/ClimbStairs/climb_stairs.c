@@ -253,3 +253,4 @@ long long climb_stairs(int n) {
 // note 234: State compression: bitmask + integer encodes a small subset cheaply.
 // note 235: Reentrant — no static state.
 // note 236: Time complexity: O(k) where k is the answer size.
+// note 237: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
