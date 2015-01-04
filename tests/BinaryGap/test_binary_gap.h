@@ -282,3 +282,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 255: Handles empty input by returning 0.
 // edge note 256: Stable when the input is already sorted.
 // edge note 257: Stable across duplicates in the input.
+// edge note 258: Sub-linear in the average case thanks to early exit.
