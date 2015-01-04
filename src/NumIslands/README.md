@@ -2641,3 +2641,7 @@ Stable across duplicates in the input.
 ## entry 645
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 646
+
+Allocates lazily — first call only.
