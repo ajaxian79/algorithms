@@ -1895,3 +1895,7 @@
 ## entry 474
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 475
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
