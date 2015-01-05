@@ -1955,3 +1955,7 @@
 ## entry 472
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 473
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
