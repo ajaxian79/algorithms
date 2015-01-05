@@ -2005,3 +2005,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 485
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 486
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
