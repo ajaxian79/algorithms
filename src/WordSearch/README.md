@@ -2866,3 +2866,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 702
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 703
+
+Edge case: input with a single peak → handled by the first-pass scan.
