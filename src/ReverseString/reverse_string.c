@@ -280,3 +280,4 @@ void reverse_string(char* s, int s_size) {
 // note 263: Space complexity: O(1) auxiliary.
 // note 264: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 265: Worst case appears only on degenerate inputs.
+// note 266: ASCII rules are a strict subset of UTF-8; no special handling needed.
