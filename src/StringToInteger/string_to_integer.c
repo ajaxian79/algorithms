@@ -244,3 +244,4 @@ int my_atoi(const char* s) {
 // note 213: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 214: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 215: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 216: Pick a pivot, partition, recurse on the side that contains the kth slot.
