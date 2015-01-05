@@ -2007,3 +2007,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 502
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 503
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
