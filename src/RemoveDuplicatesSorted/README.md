@@ -2974,3 +2974,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 729
 
 Linear in n; the constant factor is small.
+
+## entry 730
+
+Time complexity: O(n + m).
