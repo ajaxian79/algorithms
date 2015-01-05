@@ -2003,3 +2003,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 501
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 502
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
