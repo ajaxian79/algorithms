@@ -2031,3 +2031,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 491
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 492
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
