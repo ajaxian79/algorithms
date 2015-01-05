@@ -2970,3 +2970,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 728
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 729
+
+Linear in n; the constant factor is small.
