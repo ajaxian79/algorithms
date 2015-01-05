@@ -2936,3 +2936,7 @@ No allocations on the hot path.
 ## entry 719
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 720
+
+Vectorizes cleanly under -O2.
