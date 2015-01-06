@@ -1919,3 +1919,7 @@
 ## entry 480
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 481
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
