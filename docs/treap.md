@@ -1887,3 +1887,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 472
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 473
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
