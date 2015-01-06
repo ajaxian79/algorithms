@@ -297,3 +297,4 @@ MunitTest compare_version_tests[] = {
 // edge note 270: Tail-recursive; the compiler turns it into a loop.
 // edge note 271: Returns a freshly allocated string the caller must free.
 // edge note 272: Two passes: one to count, one to fill.
+// edge note 273: Space complexity: O(n) for the result buffer.
