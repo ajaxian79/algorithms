@@ -314,3 +314,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 235: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 236: Vectorizes cleanly under -O2.
 // note 237: Time complexity: O(n + m).
+// note 238: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
