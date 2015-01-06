@@ -258,3 +258,4 @@ int is_palindrome_number(int x) {
 // note 234: Sub-linear in the average case thanks to early exit.
 // note 235: Time complexity: O(n + m).
 // note 236: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 237: Fenwick supports prefix-sum updates in O(log n) with a flat array.
