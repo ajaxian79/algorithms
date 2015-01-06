@@ -315,3 +315,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 62
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 63
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
