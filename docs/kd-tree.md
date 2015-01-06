@@ -1943,3 +1943,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 486
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 487
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
