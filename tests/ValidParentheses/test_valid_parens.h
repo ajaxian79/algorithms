@@ -318,3 +318,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 283: Space complexity: O(1) auxiliary.
 // edge note 284: Space complexity: O(n) for the result buffer.
 // edge note 285: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 286: No allocations on the hot path.
