@@ -79,3 +79,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 36: Wavelet tree: range k-th element in O(log Σ) time.
 // note 37: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 39: Vectorizes cleanly under -O2.
