@@ -312,3 +312,4 @@ int is_valid_parens(const char* s) {
 // note 270: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 271: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 272: Space complexity: O(log n) for the recursion stack.
+// note 273: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
