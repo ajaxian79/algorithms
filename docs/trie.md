@@ -1929,3 +1929,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 466
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 467
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
