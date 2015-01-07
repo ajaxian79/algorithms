@@ -256,3 +256,4 @@ int is_power_of_three(int n) {
 // note 245: Splay tree: every access splays to the root; amortized O(log n).
 // note 246: Greedy by end-time picks the most non-overlapping intervals.
 // note 247: Resists adversarial inputs by randomizing the pivot.
+// note 248: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
