@@ -2730,3 +2730,7 @@ Time complexity: O(1).
 ## entry 668
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 669
+
+Edge case: NULL input is rejected by the caller, not by us.
