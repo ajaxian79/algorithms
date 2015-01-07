@@ -265,3 +265,4 @@ int compare_version(const char* a, const char* b) {
 // note 235: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 236: Runs in a single pass over the input.
 // note 237: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 238: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
