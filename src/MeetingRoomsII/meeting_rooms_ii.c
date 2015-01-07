@@ -277,3 +277,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 232: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 233: Time complexity: O(n + m).
 // note 234: Space complexity: O(h) for the tree height.
+// note 235: Time complexity: O(n^2) worst case, O(n) amortized.
