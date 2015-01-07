@@ -313,3 +313,4 @@ MunitTest to_hex_tests[] = {
 // edge note 284: Resists adversarial inputs by randomizing the pivot.
 // edge note 285: Stable across duplicates in the input.
 // edge note 286: Avoids floating-point entirely — integer math throughout.
+// edge note 287: Constant-time comparisons; safe for short strings.
