@@ -2792,3 +2792,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 683
 
 Time complexity: O(n + m).
+
+## entry 684
+
+Edge case: integer-max input → guarded by the explicit overflow check.
