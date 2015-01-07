@@ -1923,3 +1923,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 481
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 482
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
