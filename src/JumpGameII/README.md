@@ -2860,3 +2860,7 @@ No allocations on the hot path.
 ## entry 700
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 701
+
+Time complexity: O(n^2) worst case, O(n) amortized.
