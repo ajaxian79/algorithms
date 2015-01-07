@@ -2653,3 +2653,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 638
 
 Vectorizes cleanly under -O2.
+
+## entry 639
+
+Edge case: zero-length string → returns the empty result.
