@@ -720,3 +720,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 233: Uses a small fixed-size lookup table.
 // note 234: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 235: Reentrant — no static state.
+// note 236: Allocates lazily — first call only.
