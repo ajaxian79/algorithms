@@ -2836,3 +2836,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 693
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 694
+
+Allocates a single small fixed-size scratch buffer.
