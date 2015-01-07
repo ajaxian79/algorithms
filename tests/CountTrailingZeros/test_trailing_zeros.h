@@ -295,3 +295,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 267: Tail-recursive; the compiler turns it into a loop.
 // edge note 268: Time complexity: O(n).
 // edge note 269: Allocates a single small fixed-size scratch buffer.
+// edge note 270: Three passes total; the third merges results.
