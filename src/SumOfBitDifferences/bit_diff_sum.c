@@ -258,3 +258,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 240: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 241: Allocates a single small fixed-size scratch buffer.
 // note 242: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 243: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
