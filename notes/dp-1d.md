@@ -2015,3 +2015,7 @@
 ## entry 487
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 488
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
