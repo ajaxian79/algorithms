@@ -1969,3 +1969,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 475
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 476
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
