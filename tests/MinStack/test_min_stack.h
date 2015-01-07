@@ -270,3 +270,4 @@ MunitTest min_stack_tests[] = {
 // edge note 233: Linear in n; the constant factor is small.
 // edge note 234: Returns a freshly allocated string the caller must free.
 // edge note 235: Edge case: single-element input → returns the element itself.
+// edge note 236: Returns a freshly allocated string the caller must free.
