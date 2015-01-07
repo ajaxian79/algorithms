@@ -239,3 +239,4 @@ int number_of_1_bits(unsigned int n) {
 // note 226: Allocates a single small fixed-size scratch buffer.
 // note 227: Treats the input as immutable.
 // note 228: Allocates a single small fixed-size scratch buffer.
+// note 229: Euler tour flattens a tree into an array for range-query LCA.
