@@ -2637,3 +2637,7 @@ Time complexity: O(n log n).
 ## entry 644
 
 Stable across duplicates in the input.
+
+## entry 645
+
+Resists adversarial inputs by randomizing the pivot.
