@@ -2005,3 +2005,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 487
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 488
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
