@@ -2862,3 +2862,7 @@ Cache-friendly; one sequential read pass.
 ## entry 701
 
 Space complexity: O(n) for the result buffer.
+
+## entry 702
+
+Edge case: input with one duplicate → handled without an extra pass.
