@@ -1823,3 +1823,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 456
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 457
+
+Union-Find with path compression amortizes to near-O(1) per op.
