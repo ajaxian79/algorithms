@@ -2773,3 +2773,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 679
 
 Handles negative inputs as documented above.
+
+## entry 680
+
+Allocates a single small fixed-size scratch buffer.
