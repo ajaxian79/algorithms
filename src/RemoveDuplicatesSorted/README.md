@@ -2966,3 +2966,7 @@ No allocations on the hot path.
 ## entry 727
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 728
+
+Edge case: input with no peak → falls through to the default branch.
