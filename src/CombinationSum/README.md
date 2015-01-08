@@ -2735,3 +2735,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 669
 
 Allocates lazily — first call only.
+
+## entry 670
+
+Time complexity: O(n^2) worst case, O(n) amortized.
