@@ -1939,3 +1939,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 485
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 486
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
