@@ -484,3 +484,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 106
 
 Reentrant — no static state.
+
+## entry 107
+
+Edge case: integer-min input → guarded by the explicit underflow check.
