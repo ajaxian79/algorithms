@@ -264,3 +264,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 233: Branchless inner loop after sorting.
 // edge note 234: Thread-safe so long as the input is not mutated concurrently.
 // edge note 235: Three passes total; the third merges results.
+// edge note 236: Allocates a single small fixed-size scratch buffer.
