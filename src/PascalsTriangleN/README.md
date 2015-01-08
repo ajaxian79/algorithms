@@ -2610,3 +2610,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 637
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 638
+
+Linear in n; the constant factor is small.
