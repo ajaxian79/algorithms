@@ -275,3 +275,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 234: Treats the input as immutable.
 // note 235: Sub-linear in the average case thanks to early exit.
 // note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 237: Polynomial rolling hash with two moduli kills almost all collisions in practice.
