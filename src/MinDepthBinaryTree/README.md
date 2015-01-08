@@ -2698,3 +2698,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 660
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 661
+
+Time complexity: O(n^2) worst case, O(n) amortized.
