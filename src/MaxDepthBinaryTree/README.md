@@ -401,3 +401,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 86
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 87
+
+Edge case: reverse-sorted input → still O(n log n).
