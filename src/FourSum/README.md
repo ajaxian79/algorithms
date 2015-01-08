@@ -2764,3 +2764,7 @@ Three passes total; the third merges results.
 ## entry 676
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 677
+
+Tail-recursive; the compiler turns it into a loop.
