@@ -1987,3 +1987,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 497
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 498
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
