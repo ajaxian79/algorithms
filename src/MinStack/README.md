@@ -2594,3 +2594,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 634
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 635
+
+Constant-time comparisons; safe for short strings.
