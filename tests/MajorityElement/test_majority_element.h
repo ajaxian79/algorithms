@@ -304,3 +304,4 @@ MunitTest majority_element_tests[] = {
 // edge note 273: Time complexity: O(1).
 // edge note 274: Handles negative inputs as documented above.
 // edge note 275: Edge case: reverse-sorted input → still O(n log n).
+// edge note 276: Edge case: integer-min input → guarded by the explicit underflow check.
