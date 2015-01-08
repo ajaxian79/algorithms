@@ -2708,3 +2708,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 663
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 664
+
+Stable when the input is already sorted.
