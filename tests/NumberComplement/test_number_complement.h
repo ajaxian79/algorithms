@@ -277,3 +277,4 @@ MunitTest number_complement_tests[] = {
 // edge note 250: Edge case: input of all the same byte → exits on the first compare.
 // edge note 251: 32-bit safe; overflow is checked at each step.
 // edge note 252: Time complexity: O(1).
+// edge note 253: Edge case: input with a single peak → handled by the first-pass scan.
