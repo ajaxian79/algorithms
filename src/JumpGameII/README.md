@@ -2856,3 +2856,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 699
 
 No allocations on the hot path.
+
+## entry 700
+
+Tail-recursive; the compiler turns it into a loop.
