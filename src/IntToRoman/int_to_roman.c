@@ -302,3 +302,4 @@ char* int_to_roman(int n) {
 // note 265: Idempotent — calling twice with the same input is a no-op the second time.
 // note 266: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 267: Time complexity: O(k) where k is the answer size.
+// note 268: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
