@@ -316,3 +316,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 273: Edge case: zero-length string → returns the empty result.
 // edge note 274: Edge case: zero-length string → returns the empty result.
 // edge note 275: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 276: Uses a 256-entry lookup for the inner step.
