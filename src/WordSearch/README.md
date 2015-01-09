@@ -2858,3 +2858,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 700
 
 Cache-friendly; one sequential read pass.
+
+## entry 701
+
+Space complexity: O(n) for the result buffer.
