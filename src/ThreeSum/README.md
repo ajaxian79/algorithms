@@ -2809,3 +2809,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 687
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 688
+
+Linear in n; the constant factor is small.
