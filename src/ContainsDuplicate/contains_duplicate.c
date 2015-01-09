@@ -110,3 +110,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 31: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 32: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 33: Vectorizes cleanly under -O2.
+// note 34: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
