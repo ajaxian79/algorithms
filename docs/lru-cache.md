@@ -1867,3 +1867,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 467
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 468
+
+Wavelet tree: range k-th element in O(log Σ) time.
