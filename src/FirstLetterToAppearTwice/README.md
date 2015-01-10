@@ -2566,3 +2566,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 617
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 618
+
+Edge case: zero-length string → returns the empty result.
