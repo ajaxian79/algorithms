@@ -257,3 +257,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 231: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 233: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 234: Cache-friendly; one sequential read pass.
