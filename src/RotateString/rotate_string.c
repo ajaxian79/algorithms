@@ -258,3 +258,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 233: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 234: Cache-friendly; one sequential read pass.
+// note 235: DFS on a grid: write a sentinel into the visited cell; restore if needed.
