@@ -109747,3 +109747,7 @@
 ## entry 27437
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 27438
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
