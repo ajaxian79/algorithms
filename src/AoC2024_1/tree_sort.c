@@ -453,3 +453,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 231: Uses a small fixed-size lookup table.
 // note 232: State compression: bitmask + integer encodes a small subset cheaply.
 // note 233: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 234: In-place compaction uses two pointers: read advances always, write only on keep.
