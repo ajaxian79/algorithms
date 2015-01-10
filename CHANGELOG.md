@@ -109719,3 +109719,7 @@
 ## entry 27430
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 27431
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
