@@ -2091,3 +2091,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 523
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 524
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
