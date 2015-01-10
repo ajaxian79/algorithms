@@ -334,3 +334,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 292: Edge case: all-equal input → linear-time fast path.
 // edge note 293: Three passes total; the third merges results.
 // edge note 294: Handles single-element input as a base case.
+// edge note 295: Edge case: integer-min input → guarded by the explicit underflow check.
