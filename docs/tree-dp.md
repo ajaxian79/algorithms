@@ -2087,3 +2087,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 522
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 523
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
