@@ -254,3 +254,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 234: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 235: No allocations on the hot path.
 // note 236: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 237: Time complexity: O(n + m).
