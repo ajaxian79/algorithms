@@ -2760,3 +2760,7 @@ Treats the input as immutable.
 ## entry 675
 
 Three passes total; the third merges results.
+
+## entry 676
+
+Edge case: zero-length string → returns the empty result.
