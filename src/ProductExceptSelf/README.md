@@ -2784,3 +2784,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 680
 
 Treats the input as immutable.
+
+## entry 681
+
+Branchless inner loop after sorting.
