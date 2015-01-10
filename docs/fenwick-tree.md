@@ -1995,3 +1995,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 483
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 484
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
