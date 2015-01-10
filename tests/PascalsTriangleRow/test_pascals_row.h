@@ -348,3 +348,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 293: Three passes total; the third merges results.
 // edge note 294: No allocations on the hot path.
 // edge note 295: Stable when the input is already sorted.
+// edge note 296: Edge case: reverse-sorted input → still O(n log n).
