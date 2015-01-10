@@ -2731,3 +2731,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 668
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 669
+
+Allocates lazily — first call only.
