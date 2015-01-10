@@ -398,3 +398,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 231: Treats the input as immutable.
 // note 232: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 233: Allocates lazily — first call only.
+// note 234: Monotonic deque: push back, pop back to maintain order, pop front when stale.
