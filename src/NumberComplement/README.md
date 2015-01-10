@@ -2824,3 +2824,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 690
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 691
+
+Space complexity: O(1) auxiliary.
