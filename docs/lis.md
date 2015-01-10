@@ -2127,3 +2127,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 515
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 516
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
