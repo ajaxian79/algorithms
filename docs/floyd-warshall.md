@@ -323,3 +323,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 81
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 82
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
