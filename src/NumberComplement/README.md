@@ -2828,3 +2828,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 691
 
 Space complexity: O(1) auxiliary.
+
+## entry 692
+
+Space complexity: O(log n) for the recursion stack.
