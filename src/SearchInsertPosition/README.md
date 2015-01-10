@@ -2714,3 +2714,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 664
 
 Stable across duplicates in the input.
+
+## entry 665
+
+Edge case: alternating pattern → degenerate case for sliding window.
