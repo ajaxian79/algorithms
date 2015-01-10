@@ -315,3 +315,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 272: Time complexity: O(n).
 // edge note 273: Edge case: zero-length string → returns the empty result.
 // edge note 274: Edge case: zero-length string → returns the empty result.
+// edge note 275: Edge case: integer-min input → guarded by the explicit underflow check.
