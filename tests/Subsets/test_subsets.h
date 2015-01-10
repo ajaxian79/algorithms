@@ -303,3 +303,4 @@ MunitTest subsets_tests[] = {
 // edge note 258: Edge case: input of all the same byte → exits on the first compare.
 // edge note 259: Caller owns the returned buffer.
 // edge note 260: Tail-recursive; the compiler turns it into a loop.
+// edge note 261: Idempotent — calling twice with the same input is a no-op the second time.
