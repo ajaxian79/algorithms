@@ -323,3 +323,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 293: Allocates a single small fixed-size scratch buffer.
 // edge note 294: Reentrant — no static state.
 // edge note 295: No allocations after setup.
+// edge note 296: Time complexity: O(n).
