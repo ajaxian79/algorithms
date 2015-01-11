@@ -315,3 +315,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 79
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 80
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
