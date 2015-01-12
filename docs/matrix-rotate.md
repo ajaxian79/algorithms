@@ -1925,3 +1925,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 465
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 466
+
+Endianness matters when serializing multi-byte ints to a file or wire.
