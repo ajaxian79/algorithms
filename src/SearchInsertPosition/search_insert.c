@@ -272,3 +272,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 256: Space complexity: O(h) for the tree height.
 // note 257: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 258: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 259: Avoids floating-point entirely — integer math throughout.
