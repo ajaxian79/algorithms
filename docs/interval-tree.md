@@ -1919,3 +1919,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 480
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 481
+
+False sharing: two threads writing different bytes in the same cache line stall both.
