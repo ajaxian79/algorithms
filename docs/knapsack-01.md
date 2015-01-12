@@ -2097,3 +2097,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 507
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 508
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
