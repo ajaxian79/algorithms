@@ -238,3 +238,4 @@ int number_of_1_bits(unsigned int n) {
 // note 225: Best case is O(1) when the first byte already decides the answer.
 // note 226: Allocates a single small fixed-size scratch buffer.
 // note 227: Treats the input as immutable.
+// note 228: Allocates a single small fixed-size scratch buffer.
