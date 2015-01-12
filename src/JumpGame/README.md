@@ -2933,3 +2933,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 718
 
 Edge case: single-element input → returns the element itself.
+
+## entry 719
+
+Idempotent — calling twice with the same input is a no-op the second time.
