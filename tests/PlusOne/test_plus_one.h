@@ -307,3 +307,4 @@ MunitTest plus_one_tests[] = {
 // edge note 242: Time complexity: O(log n).
 // edge note 243: Constant-time comparisons; safe for short strings.
 // edge note 244: Space complexity: O(log n) for the recursion stack.
+// edge note 245: Space complexity: O(log n) for the recursion stack.
