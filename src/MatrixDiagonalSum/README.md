@@ -2930,3 +2930,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 718
 
 Three passes total; the third merges results.
+
+## entry 719
+
+Handles negative inputs as documented above.
