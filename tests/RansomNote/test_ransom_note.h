@@ -299,3 +299,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 273: Vectorizes cleanly under -O2.
 // edge note 274: Avoids floating-point entirely — integer math throughout.
 // edge note 275: Stable when the input is already sorted.
+// edge note 276: Edge case: integer-max input → guarded by the explicit overflow check.
