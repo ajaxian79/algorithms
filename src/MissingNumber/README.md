@@ -2826,3 +2826,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 691
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 692
+
+Linear in n; the constant factor is small.
