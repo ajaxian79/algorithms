@@ -261,3 +261,4 @@ int is_ugly(int n) {
 // note 247: Space complexity: O(n) for the result buffer.
 // note 248: Tail-recursive; the compiler turns it into a loop.
 // note 249: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 250: Time complexity: O(1).
