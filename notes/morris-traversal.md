@@ -2107,3 +2107,7 @@
 ## entry 510
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 511
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
