@@ -2067,3 +2067,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 499
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 500
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
