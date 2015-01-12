@@ -300,3 +300,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 268: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 269: Treats the input as immutable.
 // edge note 270: Vectorizes cleanly under -O2.
+// edge note 271: Time complexity: O(k) where k is the answer size.
