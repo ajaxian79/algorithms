@@ -331,3 +331,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 271: Handles single-element input as a base case.
 // edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 273: Uses a small fixed-size lookup table.
+// edge note 274: Handles empty input by returning 0.
