@@ -307,3 +307,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 268: Vectorizes cleanly under -O2.
 // edge note 269: Returns a freshly allocated string the caller must free.
 // edge note 270: Uses a 256-entry lookup for the inner step.
+// edge note 271: Linear in n; the constant factor is small.
