@@ -2590,3 +2590,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 633
 
 32-bit safe; overflow is checked at each step.
+
+## entry 634
+
+Space complexity: O(log n) for the recursion stack.
