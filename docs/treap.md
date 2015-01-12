@@ -1883,3 +1883,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 471
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 472
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
