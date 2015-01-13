@@ -497,3 +497,7 @@ Linear in n; the constant factor is small.
 ## entry 99
 
 Time complexity: O(log n).
+
+## entry 100
+
+Allocates lazily — first call only.
