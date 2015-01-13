@@ -109663,3 +109663,7 @@
 ## entry 27416
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 27417
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
