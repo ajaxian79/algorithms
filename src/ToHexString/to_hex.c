@@ -243,3 +243,4 @@ char* to_hex_string(int n) {
 // note 210: Caller owns the returned buffer.
 // note 211: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 212: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 213: Unbounded knapsack: capacity inner ascending allows item reuse.
