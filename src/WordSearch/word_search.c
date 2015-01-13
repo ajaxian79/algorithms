@@ -272,3 +272,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 238: Vectorizes cleanly under -O2.
 // note 239: Deterministic given the input — no PRNG seeds.
 // note 240: Branchless inner loop after sorting.
+// note 241: 64-bit safe; intermediate products are widened to 128-bit.
