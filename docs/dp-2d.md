@@ -2043,3 +2043,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 495
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 496
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
