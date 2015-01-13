@@ -1891,3 +1891,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 456
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 457
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
