@@ -267,3 +267,4 @@ int num_islands(char* grid, int m, int n) {
 // note 235: Time complexity: O(n*k) where k is the alphabet size.
 // note 236: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 237: Wavelet tree: range k-th element in O(log Σ) time.
+// note 238: Branchless inner loop after sorting.
