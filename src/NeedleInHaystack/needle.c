@@ -274,3 +274,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 234: Treats the input as immutable.
 // note 235: Sub-linear in the average case thanks to early exit.
+// note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
