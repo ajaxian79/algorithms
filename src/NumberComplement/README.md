@@ -2820,3 +2820,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 689
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 690
+
+Avoids floating-point entirely — integer math throughout.
