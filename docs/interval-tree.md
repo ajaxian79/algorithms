@@ -231,3 +231,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 58
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 59
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
