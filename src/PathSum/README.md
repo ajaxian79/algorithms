@@ -2932,3 +2932,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 718
 
 No allocations on the hot path.
+
+## entry 719
+
+Time complexity: O(n*k) where k is the alphabet size.
