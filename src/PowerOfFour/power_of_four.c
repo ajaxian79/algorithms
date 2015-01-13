@@ -255,3 +255,4 @@ int is_power_of_four(int n) {
 // note 242: Runs in a single pass over the input.
 // note 243: Two passes: one to count, one to fill.
 // note 244: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 245: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
