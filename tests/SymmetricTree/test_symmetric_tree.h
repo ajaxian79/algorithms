@@ -324,3 +324,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 280: Two passes: one to count, one to fill.
 // edge note 281: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 282: Two passes: one to count, one to fill.
+// edge note 283: Linear in n; the constant factor is small.
