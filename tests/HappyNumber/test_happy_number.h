@@ -314,3 +314,4 @@ MunitTest happy_number_tests[] = {
 // edge note 286: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 287: Edge case: already-sorted input → no swaps performed.
 // edge note 288: Space complexity: O(log n) for the recursion stack.
+// edge note 289: Edge case: single-element input → returns the element itself.
