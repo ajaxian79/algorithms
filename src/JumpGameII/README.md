@@ -2844,3 +2844,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 696
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 697
+
+Treats the input as immutable.
