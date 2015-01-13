@@ -2710,3 +2710,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 663
 
 No allocations on the hot path.
+
+## entry 664
+
+Space complexity: O(1) auxiliary.
