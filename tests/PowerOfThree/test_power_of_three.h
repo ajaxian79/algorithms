@@ -299,3 +299,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 268: Allocates a single small fixed-size scratch buffer.
 // edge note 269: Avoids floating-point entirely — integer math throughout.
 // edge note 270: Tail-recursive; the compiler turns it into a loop.
+// edge note 271: Sub-linear in the average case thanks to early exit.
