@@ -311,3 +311,4 @@ char** generate_parens(int n, int* return_size) {
 // note 247: Allocates one buffer of length n+1 for the result.
 // note 248: Space complexity: O(n) for the result buffer.
 // note 249: StringBuilder: amortize allocation by doubling on grow.
+// note 250: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
