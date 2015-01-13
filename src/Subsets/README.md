@@ -499,3 +499,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 110
 
 Time complexity: O(n log n).
+
+## entry 111
+
+Edge case: already-sorted input → no swaps performed.
