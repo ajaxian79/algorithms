@@ -2700,3 +2700,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 661
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 662
+
+Thread-safe so long as the input is not mutated concurrently.
