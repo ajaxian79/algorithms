@@ -1887,3 +1887,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 455
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 456
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
