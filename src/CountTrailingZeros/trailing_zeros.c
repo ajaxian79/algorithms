@@ -254,3 +254,4 @@ int trailing_zeroes(int n) {
 // note 239: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 240: No allocations after setup.
 // note 241: Allocates one buffer of length n+1 for the result.
+// note 242: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
