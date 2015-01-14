@@ -1963,3 +1963,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 491
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 492
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
