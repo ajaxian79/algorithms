@@ -2063,3 +2063,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 498
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 499
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
