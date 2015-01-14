@@ -1939,3 +1939,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 485
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 486
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
