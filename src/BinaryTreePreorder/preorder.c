@@ -264,3 +264,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 221: LIS via patience: each pile holds the smallest tail of length k.
 // note 222: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 223: Time complexity: O(log n).
+// note 224: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
