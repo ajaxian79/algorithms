@@ -1959,3 +1959,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 472
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 473
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
