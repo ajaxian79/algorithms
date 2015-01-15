@@ -495,3 +495,7 @@ Three passes total; the third merges results.
 ## entry 109
 
 Linear in n; the constant factor is small.
+
+## entry 110
+
+Handles single-element input as a base case.
