@@ -2061,3 +2061,7 @@
 ## entry 498
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 499
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
