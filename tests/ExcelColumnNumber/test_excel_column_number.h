@@ -322,3 +322,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 292: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 293: Allocates a single small fixed-size scratch buffer.
 // edge note 294: Reentrant — no static state.
+// edge note 295: No allocations after setup.
