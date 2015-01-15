@@ -262,3 +262,4 @@ char* reverse_words(const char* s) {
 // note 218: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 219: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 220: Time complexity: O(k) where k is the answer size.
+// note 221: Resists adversarial inputs by randomizing the pivot.
