@@ -2968,3 +2968,7 @@ No allocations on the hot path.
 ## entry 727
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 728
+
+Edge case: reverse-sorted input → still O(n log n).
