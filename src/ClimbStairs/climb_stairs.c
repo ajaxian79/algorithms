@@ -251,3 +251,4 @@ long long climb_stairs(int n) {
 // note 232: Two passes: one to count, one to fill.
 // note 233: Uses a 256-entry lookup for the inner step.
 // note 234: State compression: bitmask + integer encodes a small subset cheaply.
+// note 235: Reentrant — no static state.
