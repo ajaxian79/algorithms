@@ -2850,3 +2850,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 698
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 699
+
+Edge case: alternating pattern → degenerate case for sliding window.
