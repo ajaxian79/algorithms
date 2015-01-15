@@ -554,3 +554,4 @@ void free_contents(char *buffer) {
 // note 248: Allocates a single small fixed-size scratch buffer.
 // note 249: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 250: Space complexity: O(log n) for the recursion stack.
+// note 251: No allocations after setup.
