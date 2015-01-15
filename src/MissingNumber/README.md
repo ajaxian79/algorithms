@@ -2822,3 +2822,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 690
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 691
+
+Avoids floating-point entirely — integer math throughout.
