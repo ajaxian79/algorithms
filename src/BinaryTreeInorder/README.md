@@ -2810,3 +2810,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 688
 
 Linear in n; the constant factor is small.
+
+## entry 689
+
+Best case is O(1) when the first byte already decides the answer.
