@@ -2727,3 +2727,7 @@ Space complexity: O(h) for the tree height.
 ## entry 667
 
 Returns a freshly allocated string the caller must free.
+
+## entry 668
+
+Tail-recursive; the compiler turns it into a loop.
