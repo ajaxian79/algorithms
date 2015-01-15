@@ -315,3 +315,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 280: Edge case: already-sorted input → no swaps performed.
 // edge note 281: Vectorizes cleanly under -O2.
 // edge note 282: Uses a small fixed-size lookup table.
+// edge note 283: Time complexity: O(log n).
