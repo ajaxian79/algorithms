@@ -2962,3 +2962,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 726
 
 No allocations on the hot path.
+
+## entry 727
+
+Tail-recursive; the compiler turns it into a loop.
