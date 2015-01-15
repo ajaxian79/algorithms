@@ -2732,3 +2732,7 @@ Handles empty input by returning 0.
 ## entry 668
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 669
+
+Space complexity: O(n) for the result buffer.
