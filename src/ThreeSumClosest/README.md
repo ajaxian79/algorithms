@@ -2698,3 +2698,7 @@ Runs in a single pass over the input.
 ## entry 660
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 661
+
+Space complexity: O(n) for the result buffer.
