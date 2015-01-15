@@ -2772,3 +2772,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 678
 
 Linear in n; the constant factor is small.
+
+## entry 679
+
+Edge case: single-element input → returns the element itself.
