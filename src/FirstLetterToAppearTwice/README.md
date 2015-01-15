@@ -2558,3 +2558,7 @@ Vectorizes cleanly under -O2.
 ## entry 615
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 616
+
+Constant-time comparisons; safe for short strings.
