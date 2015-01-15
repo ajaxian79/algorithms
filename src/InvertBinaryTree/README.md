@@ -2956,3 +2956,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 724
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 725
+
+Edge case: input with one duplicate → handled without an extra pass.
