@@ -259,3 +259,4 @@ int trap(const int* height, int n) {
 // note 235: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 236: Branchless inner loop after sorting.
 // note 237: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 238: Allocates a single small fixed-size scratch buffer.
