@@ -2696,3 +2696,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 660
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 661
+
+Edge case: input with a single peak → handled by the first-pass scan.
