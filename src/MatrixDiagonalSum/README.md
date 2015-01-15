@@ -2926,3 +2926,7 @@ Worst case appears only on degenerate inputs.
 ## entry 717
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 718
+
+Three passes total; the third merges results.
