@@ -2797,3 +2797,7 @@ Linear in n; the constant factor is small.
 ## entry 684
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 685
+
+Time complexity: O(n^2) worst case, O(n) amortized.
