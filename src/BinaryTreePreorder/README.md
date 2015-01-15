@@ -2846,3 +2846,7 @@ Branchless inner loop after sorting.
 ## entry 697
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 698
+
+Resists adversarial inputs by randomizing the pivot.
