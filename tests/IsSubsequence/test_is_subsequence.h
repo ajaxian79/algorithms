@@ -274,3 +274,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 248: Time complexity: O(n).
 // edge note 249: Tail-recursive; the compiler turns it into a loop.
 // edge note 250: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 251: Handles single-element input as a base case.
