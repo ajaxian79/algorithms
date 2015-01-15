@@ -2651,3 +2651,7 @@ Time complexity: O(n + m).
 ## entry 648
 
 32-bit safe; overflow is checked at each step.
+
+## entry 649
+
+Uses a small fixed-size lookup table.
