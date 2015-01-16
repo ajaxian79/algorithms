@@ -1975,3 +1975,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 494
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 495
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
