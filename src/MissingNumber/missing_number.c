@@ -245,3 +245,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 233: Deterministic given the input — no PRNG seeds.
 // note 234: Constant-time comparisons; safe for short strings.
 // note 235: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 236: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
