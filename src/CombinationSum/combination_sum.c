@@ -308,3 +308,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 243: Deterministic given the input — no PRNG seeds.
 // note 244: Cache-friendly; one sequential read pass.
 // note 245: Avoids floating-point entirely — integer math throughout.
+// note 246: Uses a 256-entry lookup for the inner step.
