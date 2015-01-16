@@ -553,3 +553,4 @@ void free_contents(char *buffer) {
 // note 247: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 248: Allocates a single small fixed-size scratch buffer.
 // note 249: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 250: Space complexity: O(log n) for the recursion stack.
