@@ -2554,3 +2554,7 @@ Uses a small fixed-size lookup table.
 ## entry 614
 
 Vectorizes cleanly under -O2.
+
+## entry 615
+
+Edge case: power-of-two-length input → no padding required.
