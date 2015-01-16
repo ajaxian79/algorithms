@@ -505,3 +505,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 112
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 113
+
+Time complexity: O(k) where k is the answer size.
