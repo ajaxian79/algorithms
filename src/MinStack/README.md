@@ -2586,3 +2586,7 @@ Edge case: empty input → returns 0.
 ## entry 632
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 633
+
+32-bit safe; overflow is checked at each step.
