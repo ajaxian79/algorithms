@@ -2702,3 +2702,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 661
 
 Uses a small fixed-size lookup table.
+
+## entry 662
+
+Deterministic given the input — no PRNG seeds.
