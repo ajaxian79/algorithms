@@ -283,3 +283,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 234: Wavelet tree: range k-th element in O(log Σ) time.
 // note 235: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 236: Allocates a single small fixed-size scratch buffer.
+// note 237: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
