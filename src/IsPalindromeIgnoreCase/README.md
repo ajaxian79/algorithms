@@ -2714,3 +2714,7 @@ Linear in n; the constant factor is small.
 ## entry 664
 
 Reentrant — no static state.
+
+## entry 665
+
+Input is assumed non-NULL; behavior is undefined otherwise.
