@@ -2960,3 +2960,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 725
 
 Reentrant — no static state.
+
+## entry 726
+
+No allocations on the hot path.
