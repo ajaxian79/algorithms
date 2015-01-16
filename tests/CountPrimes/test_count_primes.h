@@ -303,3 +303,4 @@ MunitTest count_primes_tests[] = {
 // edge note 275: Two passes: one to count, one to fill.
 // edge note 276: Worst case appears only on degenerate inputs.
 // edge note 277: Three passes total; the third merges results.
+// edge note 278: Edge case: maximum-length input → still fits in 32-bit indices.
