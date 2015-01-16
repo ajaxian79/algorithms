@@ -297,3 +297,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 254: Worst case appears only on degenerate inputs.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
 // edge note 256: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 257: Handles single-element input as a base case.
