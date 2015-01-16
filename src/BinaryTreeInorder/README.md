@@ -2806,3 +2806,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 687
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 688
+
+Linear in n; the constant factor is small.
