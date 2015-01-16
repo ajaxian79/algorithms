@@ -297,3 +297,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 266: Caller owns the returned buffer.
 // edge note 267: Time complexity: O(1).
 // edge note 268: Allocates a single small fixed-size scratch buffer.
+// edge note 269: Avoids floating-point entirely — integer math throughout.
