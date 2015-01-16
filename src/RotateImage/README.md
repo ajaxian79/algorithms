@@ -437,3 +437,7 @@ Stable across duplicates in the input.
 ## entry 94
 
 Edge case: empty input → returns 0.
+
+## entry 95
+
+Tail-recursive; the compiler turns it into a loop.
