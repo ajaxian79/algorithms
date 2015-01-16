@@ -1959,3 +1959,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 490
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 491
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
