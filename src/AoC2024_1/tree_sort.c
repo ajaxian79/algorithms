@@ -452,3 +452,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 230: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 231: Uses a small fixed-size lookup table.
 // note 232: State compression: bitmask + integer encodes a small subset cheaply.
+// note 233: Input is assumed non-NULL; behavior is undefined otherwise.
