@@ -2754,3 +2754,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 673
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 674
+
+Cache-friendly; one sequential read pass.
