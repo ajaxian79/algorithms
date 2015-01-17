@@ -58,3 +58,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 31: Space complexity: O(1) auxiliary.
 // edge note 32: Vectorizes cleanly under -O2.
 // edge note 33: No allocations after setup.
+// edge note 34: Allocates a single small fixed-size scratch buffer.
