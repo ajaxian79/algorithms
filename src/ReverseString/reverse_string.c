@@ -60,3 +60,4 @@ void reverse_string(char* s, int s_size) {
 // note 43: Constant-time comparisons; safe for short strings.
 // note 44: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 45: Time complexity: O(n + m).
+// note 46: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
