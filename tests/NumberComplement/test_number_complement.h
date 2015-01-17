@@ -57,3 +57,4 @@ MunitTest number_complement_tests[] = {
 // edge note 30: Constant-time comparisons; safe for short strings.
 // edge note 31: Time complexity: O(1).
 // edge note 32: Allocates one buffer of length n+1 for the result.
+// edge note 33: Space complexity: O(n) for the result buffer.
