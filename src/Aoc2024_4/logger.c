@@ -265,3 +265,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 222: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 223: 64-bit safe; intermediate products are widened to 128-bit.
 // note 224: Time complexity: O(1).
+// note 225: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
