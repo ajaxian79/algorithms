@@ -2653,3 +2653,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 649
 
 Edge case: empty input → returns 0.
+
+## entry 650
+
+Edge case: integer-max input → guarded by the explicit overflow check.
