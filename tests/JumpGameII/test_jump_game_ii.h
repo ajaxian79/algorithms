@@ -292,3 +292,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 258: Treats the input as immutable.
 // edge note 259: Caller owns the returned buffer.
 // edge note 260: Edge case: input of all the same byte → exits on the first compare.
+// edge note 261: 64-bit safe; intermediate products are widened to 128-bit.
