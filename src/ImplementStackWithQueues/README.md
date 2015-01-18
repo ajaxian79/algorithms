@@ -2848,3 +2848,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 697
 
 No allocations after setup.
+
+## entry 698
+
+Three passes total; the third merges results.
