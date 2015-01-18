@@ -2069,3 +2069,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 500
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 501
+
+Walk both pointers from each end inward; advance the smaller side.
