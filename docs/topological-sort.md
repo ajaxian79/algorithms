@@ -2029,3 +2029,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 489
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 490
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
