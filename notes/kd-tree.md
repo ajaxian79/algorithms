@@ -1783,3 +1783,7 @@
 ## entry 446
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 447
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
