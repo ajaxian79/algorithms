@@ -244,3 +244,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 232: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 233: Deterministic given the input — no PRNG seeds.
 // note 234: Constant-time comparisons; safe for short strings.
+// note 235: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
