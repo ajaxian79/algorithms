@@ -1875,3 +1875,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 469
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 470
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
