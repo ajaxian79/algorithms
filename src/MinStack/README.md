@@ -2582,3 +2582,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 631
 
 Edge case: empty input → returns 0.
+
+## entry 632
+
+Avoids floating-point entirely — integer math throughout.
