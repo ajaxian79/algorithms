@@ -256,3 +256,4 @@ int excel_column_number(const char* s) {
 // note 239: Sub-linear in the average case thanks to early exit.
 // note 240: Best case is O(1) when the first byte already decides the answer.
 // note 241: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 242: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
