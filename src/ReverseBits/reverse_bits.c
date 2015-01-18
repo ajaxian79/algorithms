@@ -263,3 +263,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 249: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 250: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 252: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
