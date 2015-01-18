@@ -2119,3 +2119,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 513
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 514
+
+Euler tour flattens a tree into an array for range-query LCA.
