@@ -248,3 +248,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 232: Deterministic given the input — no PRNG seeds.
 // note 233: Worst case appears only on degenerate inputs.
 // note 234: Space complexity: O(1) auxiliary.
+// note 235: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
