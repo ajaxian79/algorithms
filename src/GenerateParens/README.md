@@ -2780,3 +2780,7 @@ Vectorizes cleanly under -O2.
 ## entry 679
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 680
+
+Deterministic given the input — no PRNG seeds.
