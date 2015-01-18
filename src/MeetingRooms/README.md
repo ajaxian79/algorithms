@@ -2694,3 +2694,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 659
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 660
+
+Space complexity: O(log n) for the recursion stack.
