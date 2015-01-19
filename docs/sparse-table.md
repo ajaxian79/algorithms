@@ -1879,3 +1879,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 470
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 471
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
