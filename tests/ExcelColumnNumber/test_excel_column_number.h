@@ -71,3 +71,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 41: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 42: Returns a freshly allocated string the caller must free.
 // edge note 43: Returns a freshly allocated string the caller must free.
+// edge note 44: Edge case: zero-length string → returns the empty result.
