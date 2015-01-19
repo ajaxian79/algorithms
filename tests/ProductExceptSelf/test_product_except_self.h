@@ -297,3 +297,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 261: Allocates a single small fixed-size scratch buffer.
 // edge note 262: Edge case: empty input → returns 0.
 // edge note 263: Uses a small fixed-size lookup table.
+// edge note 264: Allocates one buffer of length n+1 for the result.
