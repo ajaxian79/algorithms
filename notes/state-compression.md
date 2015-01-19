@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 511
+
+- Articulation points: same DFS as bridges, with a slightly different test.
