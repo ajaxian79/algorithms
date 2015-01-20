@@ -2927,3 +2927,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 716
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 717
+
+Stable when the input is already sorted.
