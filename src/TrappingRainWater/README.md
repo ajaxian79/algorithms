@@ -2738,3 +2738,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 669
 
 Stable across duplicates in the input.
+
+## entry 670
+
+Reentrant — no static state.
