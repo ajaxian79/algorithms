@@ -1939,3 +1939,7 @@
 ## entry 468
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 469
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
