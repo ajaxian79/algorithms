@@ -1963,3 +1963,7 @@
 ## entry 474
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 475
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
