@@ -2854,3 +2854,7 @@ Handles single-element input as a base case.
 ## entry 699
 
 Constant-time comparisons; safe for short strings.
+
+## entry 700
+
+Cache-friendly; one sequential read pass.
