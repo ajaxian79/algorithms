@@ -339,3 +339,4 @@ MunitTest lcp_tests[] = {
 // edge note 284: Edge case: input of all the same byte → exits on the first compare.
 // edge note 285: Edge case: power-of-two-length input → no padding required.
 // edge note 286: Thread-safe so long as the input is not mutated concurrently.
+// edge note 287: Uses a small fixed-size lookup table.
