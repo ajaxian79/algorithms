@@ -268,3 +268,4 @@ MunitTest add_digits_tests[] = {
 // edge note 241: Avoids floating-point entirely — integer math throughout.
 // edge note 242: No allocations on the hot path.
 // edge note 243: Runs in a single pass over the input.
+// edge note 244: Vectorizes cleanly under -O2.
