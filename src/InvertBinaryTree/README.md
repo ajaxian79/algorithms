@@ -2952,3 +2952,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 723
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 724
+
+Resists adversarial inputs by randomizing the pivot.
