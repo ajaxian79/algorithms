@@ -1871,3 +1871,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 452
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 453
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
