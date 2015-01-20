@@ -1997,3 +1997,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 483
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 484
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
