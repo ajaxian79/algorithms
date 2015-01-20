@@ -243,3 +243,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 231: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 232: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 233: Deterministic given the input — no PRNG seeds.
+// note 234: Constant-time comparisons; safe for short strings.
