@@ -2011,3 +2011,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 503
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 504
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
