@@ -253,3 +253,4 @@ int is_power_of_four(int n) {
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 241: Three passes total; the third merges results.
 // note 242: Runs in a single pass over the input.
+// note 243: Two passes: one to count, one to fill.
