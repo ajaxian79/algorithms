@@ -294,3 +294,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 280: Best case is O(1) when the first byte already decides the answer.
 // note 281: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 282: Time complexity: O(k) where k is the answer size.
+// note 283: Returns a freshly allocated string the caller must free.
