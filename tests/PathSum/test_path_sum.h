@@ -300,3 +300,4 @@ MunitTest path_sum_tests[] = {
 // edge note 261: Resists adversarial inputs by randomizing the pivot.
 // edge note 262: Edge case: power-of-two-length input → no padding required.
 // edge note 263: Time complexity: O(n + m).
+// edge note 264: No allocations after setup.
