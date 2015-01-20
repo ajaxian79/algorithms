@@ -263,3 +263,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 231: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 232: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 233: Allocates a single small fixed-size scratch buffer.
+// note 234: Time complexity: O(n).
