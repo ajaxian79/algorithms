@@ -2878,3 +2878,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 705
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 706
+
+Allocates lazily — first call only.
