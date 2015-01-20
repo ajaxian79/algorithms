@@ -314,3 +314,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 279: Edge case: input of all the same byte → exits on the first compare.
 // edge note 280: Edge case: already-sorted input → no swaps performed.
 // edge note 281: Vectorizes cleanly under -O2.
+// edge note 282: Uses a small fixed-size lookup table.
