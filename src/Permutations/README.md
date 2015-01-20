@@ -2956,3 +2956,7 @@ Handles negative inputs as documented above.
 ## entry 724
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 725
+
+Reentrant — no static state.
