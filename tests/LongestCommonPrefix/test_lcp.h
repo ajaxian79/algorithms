@@ -340,3 +340,4 @@ MunitTest lcp_tests[] = {
 // edge note 285: Edge case: power-of-two-length input → no padding required.
 // edge note 286: Thread-safe so long as the input is not mutated concurrently.
 // edge note 287: Uses a small fixed-size lookup table.
+// edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
