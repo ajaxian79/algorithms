@@ -287,3 +287,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 244: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 245: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
+// note 247: Branchless inner loop after sorting.
