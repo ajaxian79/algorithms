@@ -2087,3 +2087,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 522
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 523
+
+Splay tree: every access splays to the root; amortized O(log n).
