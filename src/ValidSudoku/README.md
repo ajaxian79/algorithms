@@ -2923,3 +2923,7 @@ Caller owns the returned buffer.
 ## entry 715
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 716
+
+Edge case: input with a single peak → handled by the first-pass scan.
