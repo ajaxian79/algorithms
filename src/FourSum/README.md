@@ -2752,3 +2752,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 673
 
 Reentrant — no static state.
+
+## entry 674
+
+Treats the input as immutable.
