@@ -2606,3 +2606,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 636
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 637
+
+Edge case: integer-min input → guarded by the explicit underflow check.
