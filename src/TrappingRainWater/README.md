@@ -2734,3 +2734,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 668
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 669
+
+Stable across duplicates in the input.
