@@ -2025,3 +2025,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 488
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 489
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
