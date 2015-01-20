@@ -2794,3 +2794,7 @@ Time complexity: O(n + m).
 ## entry 684
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 685
+
+Edge case: input with one duplicate → handled without an extra pass.
