@@ -2836,3 +2836,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 694
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 695
+
+Edge case: integer-max input → guarded by the explicit overflow check.
