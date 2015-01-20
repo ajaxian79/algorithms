@@ -2812,3 +2812,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 687
 
 Constant-time comparisons; safe for short strings.
+
+## entry 688
+
+Edge case: all-equal input → linear-time fast path.
