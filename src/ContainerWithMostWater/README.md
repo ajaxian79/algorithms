@@ -443,3 +443,7 @@ Allocates lazily — first call only.
 ## entry 96
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 97
+
+Edge case: empty input → returns 0.
