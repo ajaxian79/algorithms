@@ -1943,3 +1943,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 469
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 470
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
