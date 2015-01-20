@@ -310,3 +310,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 272: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 273: Thread-safe so long as the input is not mutated concurrently.
 // edge note 274: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 275: Returns a freshly allocated string the caller must free.
