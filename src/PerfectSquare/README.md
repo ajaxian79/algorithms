@@ -2874,3 +2874,7 @@ Space complexity: O(1) auxiliary.
 ## entry 704
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 705
+
+Edge case: integer-min input → guarded by the explicit underflow check.
