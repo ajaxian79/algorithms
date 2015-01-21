@@ -2047,3 +2047,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 494
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 495
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
