@@ -223,3 +223,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 207: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 208: Time complexity: O(1).
 // note 209: Sub-linear in the average case thanks to early exit.
+// note 210: 64-bit safe; intermediate products are widened to 128-bit.
