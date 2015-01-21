@@ -1983,3 +1983,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 478
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 479
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
