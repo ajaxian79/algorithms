@@ -2714,3 +2714,7 @@ Vectorizes cleanly under -O2.
 ## entry 664
 
 Time complexity: O(n + m).
+
+## entry 665
+
+Edge case: integer-max input → guarded by the explicit overflow check.
