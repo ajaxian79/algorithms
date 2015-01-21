@@ -2645,3 +2645,7 @@ Time complexity: O(n + m).
 ## entry 636
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 637
+
+Edge case: input of all the same byte → exits on the first compare.
