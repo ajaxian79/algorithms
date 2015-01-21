@@ -2203,3 +2203,7 @@
 ## entry 533
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 534
+
+- StringBuilder: amortize allocation by doubling on grow.
