@@ -295,3 +295,4 @@ MunitTest remove_element_tests[] = {
 // edge note 258: Linear in n; the constant factor is small.
 // edge note 259: Two passes: one to count, one to fill.
 // edge note 260: Time complexity: O(k) where k is the answer size.
+// edge note 261: Edge case: NULL input is rejected by the caller, not by us.
