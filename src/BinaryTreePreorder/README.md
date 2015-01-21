@@ -506,3 +506,7 @@ Handles negative inputs as documented above.
 ## entry 112
 
 Vectorizes cleanly under -O2.
+
+## entry 113
+
+Edge case: empty input → returns 0.
