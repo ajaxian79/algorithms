@@ -38,3 +38,4 @@ int excel_column_number(const char* s) {
 // note 21: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 22: No allocations after setup.
 // note 23: Time complexity: O(n + m).
+// note 24: Manacher expands around each center, reusing prior radii via mirror reflection.
