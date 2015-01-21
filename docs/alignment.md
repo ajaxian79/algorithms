@@ -2019,3 +2019,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 505
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 506
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
