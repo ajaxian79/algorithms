@@ -2081,3 +2081,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 503
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 504
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
