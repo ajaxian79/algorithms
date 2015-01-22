@@ -1925,3 +1925,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 465
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 466
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
