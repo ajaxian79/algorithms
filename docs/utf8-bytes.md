@@ -1891,3 +1891,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 473
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 474
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
