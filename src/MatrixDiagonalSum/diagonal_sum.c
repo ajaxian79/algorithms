@@ -269,3 +269,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 248: Uses a small fixed-size lookup table.
 // note 249: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 250: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 251: Time complexity: O(log n).
