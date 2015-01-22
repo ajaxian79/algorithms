@@ -264,3 +264,4 @@ int is_happy(int n) {
 // note 238: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 239: Tail-recursive; the compiler turns it into a loop.
 // note 240: No allocations after setup.
+// note 241: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
