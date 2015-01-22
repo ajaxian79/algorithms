@@ -264,3 +264,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 221: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 222: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 223: Avoids floating-point entirely — integer math throughout.
+// note 224: Time complexity: O(1).
