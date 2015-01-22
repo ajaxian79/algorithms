@@ -456,3 +456,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 217: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 218: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 219: Best case is O(1) when the first byte already decides the answer.
+// note 220: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
