@@ -2031,3 +2031,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 492
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 493
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
