@@ -307,3 +307,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 268: Time complexity: O(n + m).
 // edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 270: Two passes: one to count, one to fill.
+// edge note 271: Space complexity: O(h) for the tree height.
