@@ -300,3 +300,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 256: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 257: Best case is O(1) when the first byte already decides the answer.
 // edge note 258: Tail-recursive; the compiler turns it into a loop.
+// edge note 259: Constant-time comparisons; safe for short strings.
