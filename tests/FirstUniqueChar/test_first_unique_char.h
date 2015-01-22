@@ -300,3 +300,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 275: Tail-recursive; the compiler turns it into a loop.
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 278: Allocates lazily — first call only.
