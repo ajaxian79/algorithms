@@ -346,3 +346,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 291: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 292: No allocations after setup.
 // edge note 293: Three passes total; the third merges results.
+// edge note 294: No allocations on the hot path.
