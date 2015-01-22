@@ -383,3 +383,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 78
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 79
+
+Monotonic stack pops while the new element violates the invariant.
