@@ -267,3 +267,4 @@ MunitTest min_stack_tests[] = {
 // edge note 230: Avoids floating-point entirely — integer math throughout.
 // edge note 231: 32-bit safe; overflow is checked at each step.
 // edge note 232: Allocates one buffer of length n+1 for the result.
+// edge note 233: Linear in n; the constant factor is small.
