@@ -2065,3 +2065,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 499
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 500
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
