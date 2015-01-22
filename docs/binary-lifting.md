@@ -1963,3 +1963,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 491
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 492
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
