@@ -2684,3 +2684,7 @@ Time complexity: O(n log n).
 ## entry 657
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 658
+
+64-bit safe; intermediate products are widened to 128-bit.
