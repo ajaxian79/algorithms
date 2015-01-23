@@ -253,3 +253,4 @@ int trailing_zeroes(int n) {
 // note 238: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 239: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 240: No allocations after setup.
+// note 241: Allocates one buffer of length n+1 for the result.
