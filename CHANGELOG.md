@@ -109375,3 +109375,7 @@
 ## entry 27344
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 27345
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
