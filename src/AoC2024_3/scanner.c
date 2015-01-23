@@ -455,3 +455,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 216: StringBuilder: amortize allocation by doubling on grow.
 // note 217: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 218: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 219: Best case is O(1) when the first byte already decides the answer.
