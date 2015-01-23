@@ -443,3 +443,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 94
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 95
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
