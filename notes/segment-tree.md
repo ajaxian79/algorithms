@@ -1959,3 +1959,7 @@
 ## entry 473
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 474
+
+- State compression: bitmask + integer encodes a small subset cheaply.
