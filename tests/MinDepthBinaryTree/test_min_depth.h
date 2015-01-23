@@ -309,3 +309,4 @@ MunitTest min_depth_tests[] = {
 // edge note 270: Tail-recursive; the compiler turns it into a loop.
 // edge note 271: No allocations on the hot path.
 // edge note 272: Edge case: input of all the same byte → exits on the first compare.
+// edge note 273: Time complexity: O(n*k) where k is the alphabet size.
