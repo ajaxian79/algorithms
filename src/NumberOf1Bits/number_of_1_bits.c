@@ -236,3 +236,4 @@ int number_of_1_bits(unsigned int n) {
 // note 223: Vectorizes cleanly under -O2.
 // note 224: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 225: Best case is O(1) when the first byte already decides the answer.
+// note 226: Allocates a single small fixed-size scratch buffer.
