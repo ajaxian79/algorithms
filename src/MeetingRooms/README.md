@@ -2686,3 +2686,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 657
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 658
+
+Returns a freshly allocated string the caller must free.
