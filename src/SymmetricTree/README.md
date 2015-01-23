@@ -2622,3 +2622,7 @@ Allocates lazily — first call only.
 ## entry 641
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 642
+
+Edge case: single-element input → returns the element itself.
