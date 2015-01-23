@@ -457,3 +457,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 99
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 100
+
+Time complexity: O(n*k) where k is the alphabet size.
