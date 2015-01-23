@@ -2952,3 +2952,7 @@ Handles empty input by returning 0.
 ## entry 723
 
 Handles negative inputs as documented above.
+
+## entry 724
+
+Edge case: zero-length string → returns the empty result.
