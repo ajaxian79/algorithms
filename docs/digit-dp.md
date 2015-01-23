@@ -267,3 +267,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 67
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 68
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
