@@ -311,3 +311,4 @@ MunitTest postorder_tests[] = {
 // edge note 267: Runs in a single pass over the input.
 // edge note 268: Treats the input as immutable.
 // edge note 269: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 270: Edge case: empty input → returns 0.
