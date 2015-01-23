@@ -271,3 +271,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 241: Splay tree: every access splays to the root; amortized O(log n).
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 243: Treats the input as immutable.
+// note 244: k-d tree: median-split each axis; nearest-neighbor average O(log n).
