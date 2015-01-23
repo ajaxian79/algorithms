@@ -2051,3 +2051,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 513
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 514
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
