@@ -2948,3 +2948,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 722
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 723
+
+Edge case: zero-length string → returns the empty result.
