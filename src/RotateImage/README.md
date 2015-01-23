@@ -2813,3 +2813,7 @@ Time complexity: O(1).
 ## entry 688
 
 Handles negative inputs as documented above.
+
+## entry 689
+
+Space complexity: O(log n) for the recursion stack.
