@@ -2061,3 +2061,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 498
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 499
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
