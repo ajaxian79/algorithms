@@ -284,3 +284,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 254: Handles single-element input as a base case.
 // edge note 255: Thread-safe so long as the input is not mutated concurrently.
 // edge note 256: Space complexity: O(log n) for the recursion stack.
+// edge note 257: Edge case: single-element input → returns the element itself.
