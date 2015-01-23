@@ -319,3 +319,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 283: Time complexity: O(n).
 // edge note 284: Space complexity: O(log n) for the recursion stack.
 // edge note 285: Stable across duplicates in the input.
+// edge note 286: Edge case: NULL input is rejected by the caller, not by us.
