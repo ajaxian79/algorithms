@@ -2870,3 +2870,7 @@ Runs in a single pass over the input.
 ## entry 703
 
 Space complexity: O(1) auxiliary.
+
+## entry 704
+
+Deterministic given the input — no PRNG seeds.
