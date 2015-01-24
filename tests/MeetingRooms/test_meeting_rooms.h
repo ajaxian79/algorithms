@@ -287,3 +287,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 256: Linear in n; the constant factor is small.
 // edge note 257: Time complexity: O(n + m).
 // edge note 258: Reentrant — no static state.
+// edge note 259: Returns a freshly allocated string the caller must free.
