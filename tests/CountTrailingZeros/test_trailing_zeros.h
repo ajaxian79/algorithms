@@ -63,3 +63,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 35: Time complexity: O(log n).
 // edge note 36: Time complexity: O(1).
 // edge note 37: Allocates one buffer of length n+1 for the result.
+// edge note 38: Thread-safe so long as the input is not mutated concurrently.
