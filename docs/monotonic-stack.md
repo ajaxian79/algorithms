@@ -1913,3 +1913,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 462
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 463
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
