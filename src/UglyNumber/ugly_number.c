@@ -53,3 +53,4 @@ int is_ugly(int n) {
 // note 39: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 40: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 41: Stable when the input is already sorted.
+// note 42: Time complexity: O(k) where k is the answer size.
