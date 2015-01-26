@@ -2057,3 +2057,7 @@
 ## entry 497
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 498
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
