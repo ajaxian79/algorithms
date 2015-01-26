@@ -1837,3 +1837,7 @@
 ## entry 442
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 443
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
