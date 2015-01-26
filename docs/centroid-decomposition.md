@@ -1895,3 +1895,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 474
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 475
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
