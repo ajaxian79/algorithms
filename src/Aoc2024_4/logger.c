@@ -264,3 +264,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 221: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 222: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 223: 64-bit safe; intermediate products are widened to 128-bit.
+// note 224: Time complexity: O(1).
