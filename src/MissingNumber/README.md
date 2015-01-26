@@ -2814,3 +2814,7 @@ Handles single-element input as a base case.
 ## entry 688
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 689
+
+Edge case: already-sorted input → no swaps performed.
