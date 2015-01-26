@@ -2948,3 +2948,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 722
 
 Handles empty input by returning 0.
+
+## entry 723
+
+Handles negative inputs as documented above.
