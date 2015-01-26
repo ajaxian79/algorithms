@@ -1993,3 +1993,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 482
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 483
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
