@@ -2711,3 +2711,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 663
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 664
+
+Edge case: NULL input is rejected by the caller, not by us.
