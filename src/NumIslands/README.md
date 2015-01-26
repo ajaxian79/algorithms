@@ -2625,3 +2625,7 @@ Branchless inner loop after sorting.
 ## entry 641
 
 Space complexity: O(h) for the tree height.
+
+## entry 642
+
+Edge case: input with no peak → falls through to the default branch.
