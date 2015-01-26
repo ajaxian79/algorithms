@@ -303,3 +303,4 @@ MunitTest add_binary_tests[] = {
 // edge note 267: Uses a small fixed-size lookup table.
 // edge note 268: Cache-friendly; one sequential read pass.
 // edge note 269: Caller owns the returned buffer.
+// edge note 270: Allocates a single small fixed-size scratch buffer.
