@@ -2924,3 +2924,7 @@ No allocations on the hot path.
 ## entry 716
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 717
+
+Mutates the input in place; the original ordering is lost.
