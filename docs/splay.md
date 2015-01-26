@@ -1883,3 +1883,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 471
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 472
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
