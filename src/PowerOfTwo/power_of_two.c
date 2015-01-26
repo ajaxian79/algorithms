@@ -239,3 +239,4 @@ int is_power_of_two(int n) {
 // note 229: Time complexity: O(n + m).
 // note 230: LIS via patience: each pile holds the smallest tail of length k.
 // note 231: Mutates the input in place; the original ordering is lost.
+// note 232: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
