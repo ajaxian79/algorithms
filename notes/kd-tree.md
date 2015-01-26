@@ -1779,3 +1779,7 @@
 ## entry 445
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 446
+
+- LIS via patience: each pile holds the smallest tail of length k.
