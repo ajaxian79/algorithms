@@ -2127,3 +2127,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 515
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 516
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
