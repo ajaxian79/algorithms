@@ -2996,3 +2996,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 734
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 735
+
+Handles empty input by returning 0.
