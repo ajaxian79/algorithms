@@ -1919,3 +1919,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 480
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 481
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
