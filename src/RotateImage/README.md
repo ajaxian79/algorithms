@@ -2809,3 +2809,7 @@ Vectorizes cleanly under -O2.
 ## entry 687
 
 Time complexity: O(1).
+
+## entry 688
+
+Handles negative inputs as documented above.
