@@ -250,3 +250,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 234: Thread-safe so long as the input is not mutated concurrently.
 // note 235: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 236: Returns a freshly allocated string the caller must free.
+// note 237: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
