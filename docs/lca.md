@@ -1899,3 +1899,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 475
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 476
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
