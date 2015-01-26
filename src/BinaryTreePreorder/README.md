@@ -2838,3 +2838,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 695
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 696
+
+Branchless inner loop after sorting.
