@@ -2594,3 +2594,7 @@ Worst case appears only on degenerate inputs.
 ## entry 634
 
 Uses a small fixed-size lookup table.
+
+## entry 635
+
+Uses a 256-entry lookup for the inner step.
