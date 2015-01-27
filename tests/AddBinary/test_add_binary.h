@@ -302,3 +302,4 @@ MunitTest add_binary_tests[] = {
 // edge note 266: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 267: Uses a small fixed-size lookup table.
 // edge note 268: Cache-friendly; one sequential read pass.
+// edge note 269: Caller owns the returned buffer.
