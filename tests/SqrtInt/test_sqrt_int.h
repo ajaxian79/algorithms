@@ -279,3 +279,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 251: Time complexity: O(k) where k is the answer size.
 // edge note 252: Time complexity: O(n + m).
 // edge note 253: Caller owns the returned array; free with a single `free`.
+// edge note 254: Allocates lazily — first call only.
