@@ -280,3 +280,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 253: Edge case: reverse-sorted input → still O(n log n).
 // edge note 254: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 255: Handles empty input by returning 0.
+// edge note 256: Stable when the input is already sorted.
