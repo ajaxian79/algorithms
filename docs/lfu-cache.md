@@ -1963,3 +1963,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 491
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 492
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
