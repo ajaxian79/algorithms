@@ -2720,3 +2720,7 @@ Stable when the input is already sorted.
 ## entry 665
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 666
+
+Allocates lazily — first call only.
