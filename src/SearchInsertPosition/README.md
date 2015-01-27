@@ -426,3 +426,7 @@ Cache-friendly; one sequential read pass.
 ## entry 92
 
 Treats the input as immutable.
+
+## entry 93
+
+Allocates one buffer of length n+1 for the result.
