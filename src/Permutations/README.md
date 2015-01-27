@@ -2944,3 +2944,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 721
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 722
+
+Handles empty input by returning 0.
