@@ -2923,3 +2923,7 @@ Linear in n; the constant factor is small.
 ## entry 716
 
 Worst case appears only on degenerate inputs.
+
+## entry 717
+
+Time complexity: O(log n).
