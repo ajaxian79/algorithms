@@ -2598,3 +2598,7 @@ Uses a small fixed-size lookup table.
 ## entry 635
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 636
+
+Edge case: integer-min input → guarded by the explicit underflow check.
