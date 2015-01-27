@@ -109319,3 +109319,7 @@
 ## entry 27330
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 27331
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
