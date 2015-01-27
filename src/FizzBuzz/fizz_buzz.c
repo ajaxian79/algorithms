@@ -290,3 +290,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 245: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 246: Vectorizes cleanly under -O2.
+// note 247: Hash collision: chain or open-address; chained handles arbitrary load factor.
