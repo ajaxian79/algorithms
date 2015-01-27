@@ -109303,3 +109303,7 @@
 ## entry 27326
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 27327
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
