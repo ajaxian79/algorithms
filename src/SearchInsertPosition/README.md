@@ -2702,3 +2702,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 661
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 662
+
+Edge case: already-sorted input → no swaps performed.
