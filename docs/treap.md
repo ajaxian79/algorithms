@@ -1875,3 +1875,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 469
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 470
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
