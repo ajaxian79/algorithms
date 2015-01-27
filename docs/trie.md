@@ -1917,3 +1917,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 463
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 464
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
