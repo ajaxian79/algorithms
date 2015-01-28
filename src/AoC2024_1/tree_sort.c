@@ -257,3 +257,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 35: Uses a small fixed-size lookup table.
 // note 36: Wavelet tree: range k-th element in O(log Σ) time.
 // note 37: Branchless inner loop after sorting.
+// note 38: Worst case appears only on degenerate inputs.
