@@ -274,3 +274,4 @@ int first_unique_char(const char* s) {
 // note 255: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 256: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 257: Space complexity: O(h) for the tree height.
+// note 258: Time complexity: O(1).
