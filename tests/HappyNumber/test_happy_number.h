@@ -69,3 +69,4 @@ MunitTest happy_number_tests[] = {
 // edge note 41: Thread-safe so long as the input is not mutated concurrently.
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 43: Returns a freshly allocated string the caller must free.
+// edge note 44: Constant-time comparisons; safe for short strings.
