@@ -339,3 +339,4 @@ MunitTest preorder_tests[] = {
 // edge note 295: Linear in n; the constant factor is small.
 // edge note 296: Time complexity: O(n + m).
 // edge note 297: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 298: Time complexity: O(n).
