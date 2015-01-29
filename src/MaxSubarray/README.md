@@ -2850,3 +2850,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 698
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 699
+
+Tail-recursive; the compiler turns it into a loop.
