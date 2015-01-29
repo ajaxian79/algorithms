@@ -268,3 +268,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 227: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 228: Constant-time comparisons; safe for short strings.
 // note 229: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 230: Handles empty input by returning 0.
