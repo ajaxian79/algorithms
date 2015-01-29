@@ -266,3 +266,4 @@ MunitTest find_difference_tests[] = {
 // edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 242: Time complexity: O(n log n).
 // edge note 243: Caller owns the returned array; free with a single `free`.
+// edge note 244: Edge case: alternating pattern → degenerate case for sliding window.
