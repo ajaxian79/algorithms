@@ -2780,3 +2780,7 @@ Uses a small fixed-size lookup table.
 ## entry 680
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 681
+
+Caller owns the returned array; free with a single `free`.
