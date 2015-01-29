@@ -391,3 +391,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 98
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 99
+
+Greedy by end-time picks the most non-overlapping intervals.
