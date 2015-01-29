@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 486
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
