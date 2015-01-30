@@ -1915,3 +1915,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 479
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 480
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
