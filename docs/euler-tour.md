@@ -1883,3 +1883,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 471
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 472
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
