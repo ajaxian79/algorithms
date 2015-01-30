@@ -298,3 +298,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 272: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 273: Vectorizes cleanly under -O2.
 // edge note 274: Avoids floating-point entirely — integer math throughout.
+// edge note 275: Stable when the input is already sorted.
