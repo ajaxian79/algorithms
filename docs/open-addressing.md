@@ -1911,3 +1911,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 478
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 479
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
