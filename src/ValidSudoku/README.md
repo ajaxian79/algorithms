@@ -2919,3 +2919,7 @@ Three passes total; the third merges results.
 ## entry 714
 
 Caller owns the returned buffer.
+
+## entry 715
+
+Uses a 256-entry lookup for the inner step.
