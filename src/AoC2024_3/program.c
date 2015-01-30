@@ -364,3 +364,4 @@ int get_next_result(Program* program) {
 // note 250: Space complexity: O(1) auxiliary.
 // note 251: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 253: Union-Find with path compression amortizes to near-O(1) per op.
