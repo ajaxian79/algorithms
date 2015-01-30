@@ -2035,3 +2035,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 493
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 494
+
+StringBuilder: amortize allocation by doubling on grow.
