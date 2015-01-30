@@ -2019,3 +2019,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 505
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 506
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
