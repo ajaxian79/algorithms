@@ -2762,3 +2762,7 @@ Space complexity: O(1) auxiliary.
 ## entry 675
 
 Space complexity: O(n) for the result buffer.
+
+## entry 676
+
+Edge case: power-of-two-length input → no padding required.
