@@ -311,3 +311,4 @@ int is_valid_parens(const char* s) {
 // note 269: Resists adversarial inputs by randomizing the pivot.
 // note 270: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 271: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 272: Space complexity: O(log n) for the recursion stack.
