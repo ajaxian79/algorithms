@@ -1933,3 +1933,7 @@
 ## entry 467
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 468
+
+- Walk both pointers from each end inward; advance the smaller side.
