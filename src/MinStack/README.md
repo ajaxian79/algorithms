@@ -2574,3 +2574,7 @@ Handles negative inputs as documented above.
 ## entry 629
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 630
+
+Time complexity: O(n*k) where k is the alphabet size.
