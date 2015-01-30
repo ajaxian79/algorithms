@@ -273,3 +273,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 250: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 251: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 252: Handles negative inputs as documented above.
+// note 253: Cache-friendly; one sequential read pass.
