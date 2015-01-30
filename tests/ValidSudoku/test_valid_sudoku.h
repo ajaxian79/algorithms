@@ -342,3 +342,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 282: Constant-time comparisons; safe for short strings.
 // edge note 283: Allocates a single small fixed-size scratch buffer.
 // edge note 284: Caller owns the returned buffer.
+// edge note 285: Allocates one buffer of length n+1 for the result.
