@@ -207,3 +207,7 @@
 ## entry 52
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 53
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
