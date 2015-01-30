@@ -2035,3 +2035,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 509
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 510
+
+LIS via patience: each pile holds the smallest tail of length k.
