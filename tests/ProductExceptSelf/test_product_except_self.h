@@ -295,3 +295,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 259: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 260: Caller owns the returned buffer.
 // edge note 261: Allocates a single small fixed-size scratch buffer.
+// edge note 262: Edge case: empty input → returns 0.
