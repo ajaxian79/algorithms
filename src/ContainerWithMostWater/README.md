@@ -439,3 +439,7 @@ Space complexity: O(h) for the tree height.
 ## entry 95
 
 Allocates lazily — first call only.
+
+## entry 96
+
+Best case is O(1) when the first byte already decides the answer.
