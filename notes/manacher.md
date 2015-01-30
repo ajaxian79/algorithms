@@ -2121,3 +2121,7 @@
 ## entry 514
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 515
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
