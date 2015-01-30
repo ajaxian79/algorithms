@@ -1989,3 +1989,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 481
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 482
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
