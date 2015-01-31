@@ -427,3 +427,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 91
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 92
+
+32-bit safe; overflow is checked at each step.
