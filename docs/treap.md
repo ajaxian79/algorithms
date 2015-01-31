@@ -263,3 +263,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 66
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 67
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
