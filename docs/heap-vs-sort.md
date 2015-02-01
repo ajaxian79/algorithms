@@ -1939,3 +1939,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 468
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 469
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
