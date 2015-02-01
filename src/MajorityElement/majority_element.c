@@ -252,3 +252,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 230: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 231: Monotonic stack pops while the new element violates the invariant.
 // note 232: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 233: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
