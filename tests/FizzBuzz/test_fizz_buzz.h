@@ -321,3 +321,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 271: Mutates the input in place; the original ordering is lost.
 // edge note 272: Space complexity: O(h) for the tree height.
 // edge note 273: Edge case: single-element input → returns the element itself.
+// edge note 274: Allocates a single small fixed-size scratch buffer.
