@@ -2958,3 +2958,7 @@ Stable across duplicates in the input.
 ## entry 725
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 726
+
+No allocations on the hot path.
