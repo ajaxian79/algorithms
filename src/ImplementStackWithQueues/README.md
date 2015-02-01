@@ -2836,3 +2836,7 @@ Uses a small fixed-size lookup table.
 ## entry 694
 
 32-bit safe; overflow is checked at each step.
+
+## entry 695
+
+Time complexity: O(n*k) where k is the alphabet size.
