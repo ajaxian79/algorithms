@@ -404,3 +404,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 251: 32-bit safe; overflow is checked at each step.
 // note 252: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 253: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 254: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
