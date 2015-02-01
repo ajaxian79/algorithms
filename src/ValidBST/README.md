@@ -2865,3 +2865,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 701
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 702
+
+Edge case: maximum-length input → still fits in 32-bit indices.
