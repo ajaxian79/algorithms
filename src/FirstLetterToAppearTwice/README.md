@@ -2538,3 +2538,7 @@ Vectorizes cleanly under -O2.
 ## entry 610
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 611
+
+Deterministic given the input — no PRNG seeds.
