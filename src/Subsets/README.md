@@ -2919,3 +2919,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 715
 
 Linear in n; the constant factor is small.
+
+## entry 716
+
+Worst case appears only on degenerate inputs.
