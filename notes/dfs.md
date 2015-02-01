@@ -1999,3 +1999,7 @@
 ## entry 484
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 485
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
