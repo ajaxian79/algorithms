@@ -1803,3 +1803,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 451
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 452
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
