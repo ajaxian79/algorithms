@@ -395,3 +395,7 @@ Caller owns the returned buffer.
 ## entry 84
 
 Space complexity: O(1) auxiliary.
+
+## entry 85
+
+Cache-friendly; one sequential read pass.
