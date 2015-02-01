@@ -2866,3 +2866,7 @@ Runs in a single pass over the input.
 ## entry 702
 
 Runs in a single pass over the input.
+
+## entry 703
+
+Space complexity: O(1) auxiliary.
