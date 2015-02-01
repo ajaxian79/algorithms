@@ -397,3 +397,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 230: Wavelet tree: range k-th element in O(log Σ) time.
 // note 231: Treats the input as immutable.
 // note 232: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 233: Allocates lazily — first call only.
