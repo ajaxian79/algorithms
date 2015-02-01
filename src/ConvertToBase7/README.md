@@ -2988,3 +2988,7 @@ Handles single-element input as a base case.
 ## entry 732
 
 Handles negative inputs as documented above.
+
+## entry 733
+
+Edge case: power-of-two-length input → no padding required.
