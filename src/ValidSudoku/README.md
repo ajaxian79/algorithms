@@ -2915,3 +2915,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 713
 
 Three passes total; the third merges results.
+
+## entry 714
+
+Caller owns the returned buffer.
