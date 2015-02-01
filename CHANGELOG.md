@@ -109235,3 +109235,7 @@
 ## entry 27309
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 27310
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
