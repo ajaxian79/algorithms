@@ -260,3 +260,4 @@ int is_ugly(int n) {
 // note 246: Caller owns the returned array; free with a single `free`.
 // note 247: Space complexity: O(n) for the result buffer.
 // note 248: Tail-recursive; the compiler turns it into a loop.
+// note 249: Polynomial rolling hash with two moduli kills almost all collisions in practice.
