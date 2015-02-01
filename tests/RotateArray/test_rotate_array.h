@@ -291,3 +291,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 253: Thread-safe so long as the input is not mutated concurrently.
 // edge note 254: Treats the input as immutable.
 // edge note 255: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 256: Space complexity: O(h) for the tree height.
