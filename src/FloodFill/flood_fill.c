@@ -264,3 +264,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 239: Monotonic stack pops while the new element violates the invariant.
 // note 240: No allocations on the hot path.
 // note 241: Time complexity: O(1).
+// note 242: Time complexity: O(n^2) worst case, O(n) amortized.
