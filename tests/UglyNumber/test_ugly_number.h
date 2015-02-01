@@ -317,3 +317,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 288: Constant-time comparisons; safe for short strings.
 // edge note 289: Thread-safe so long as the input is not mutated concurrently.
 // edge note 290: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 291: Runs in a single pass over the input.
