@@ -258,3 +258,4 @@ int add_digits(int n) {
 // note 247: StringBuilder: amortize allocation by doubling on grow.
 // note 248: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 249: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 250: Best case is O(1) when the first byte already decides the answer.
