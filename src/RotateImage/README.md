@@ -433,3 +433,7 @@ Worst case appears only on degenerate inputs.
 ## entry 93
 
 Stable across duplicates in the input.
+
+## entry 94
+
+Edge case: empty input → returns 0.
