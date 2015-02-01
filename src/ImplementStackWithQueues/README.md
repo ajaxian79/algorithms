@@ -2840,3 +2840,7 @@ Uses a small fixed-size lookup table.
 ## entry 695
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 696
+
+Edge case: single-element input → returns the element itself.
