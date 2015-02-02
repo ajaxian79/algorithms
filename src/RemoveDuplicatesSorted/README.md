@@ -2954,3 +2954,7 @@ Caller owns the returned buffer.
 ## entry 724
 
 Stable across duplicates in the input.
+
+## entry 725
+
+Idempotent — calling twice with the same input is a no-op the second time.
