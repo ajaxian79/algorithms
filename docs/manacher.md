@@ -2143,3 +2143,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 519
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 520
+
+In-place compaction uses two pointers: read advances always, write only on keep.
