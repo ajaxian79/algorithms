@@ -2722,3 +2722,7 @@ Edge case: empty input → returns 0.
 ## entry 665
 
 Three passes total; the third merges results.
+
+## entry 666
+
+Input is assumed non-NULL; behavior is undefined otherwise.
