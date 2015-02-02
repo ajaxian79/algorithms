@@ -2055,3 +2055,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 514
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 515
+
+LIS via patience: each pile holds the smallest tail of length k.
