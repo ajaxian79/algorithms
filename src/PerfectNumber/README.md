@@ -2665,3 +2665,7 @@ Cache-friendly; one sequential read pass.
 ## entry 651
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 652
+
+Stable across duplicates in the input.
