@@ -2789,3 +2789,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 682
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 683
+
+Linear in n; the constant factor is small.
