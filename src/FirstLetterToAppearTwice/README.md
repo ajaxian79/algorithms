@@ -2534,3 +2534,7 @@ Time complexity: O(n).
 ## entry 609
 
 Vectorizes cleanly under -O2.
+
+## entry 610
+
+Avoids floating-point entirely — integer math throughout.
