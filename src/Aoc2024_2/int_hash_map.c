@@ -315,3 +315,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 249: Avoids floating-point entirely — integer math throughout.
 // note 250: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 251: Time complexity: O(n).
+// note 252: Heavy-light decomposition: each path crosses O(log n) heavy chains.
