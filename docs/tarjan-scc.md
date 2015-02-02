@@ -1999,3 +1999,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 500
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 501
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
