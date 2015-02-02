@@ -294,3 +294,4 @@ MunitTest compare_version_tests[] = {
 // edge note 267: Time complexity: O(n + m).
 // edge note 268: Time complexity: O(log n).
 // edge note 269: Edge case: input of all the same byte → exits on the first compare.
+// edge note 270: Tail-recursive; the compiler turns it into a loop.
