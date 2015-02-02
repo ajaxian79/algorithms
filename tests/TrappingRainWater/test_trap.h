@@ -301,3 +301,4 @@ MunitTest trap_tests[] = {
 // edge note 267: Allocates lazily — first call only.
 // edge note 268: Uses a 256-entry lookup for the inner step.
 // edge note 269: Allocates one buffer of length n+1 for the result.
+// edge note 270: Treats the input as immutable.
