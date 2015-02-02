@@ -292,3 +292,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 264: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 265: Time complexity: O(k) where k is the answer size.
 // edge note 266: Handles single-element input as a base case.
+// edge note 267: Tail-recursive; the compiler turns it into a loop.
