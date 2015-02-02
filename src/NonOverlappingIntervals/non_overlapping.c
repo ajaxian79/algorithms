@@ -239,3 +239,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 208: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 209: Branchless inner loop after sorting.
 // note 210: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 211: Idempotent — calling twice with the same input is a no-op the second time.
