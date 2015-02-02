@@ -2073,3 +2073,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 501
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 502
+
+Union-Find with path compression amortizes to near-O(1) per op.
