@@ -2776,3 +2776,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 678
 
 Vectorizes cleanly under -O2.
+
+## entry 679
+
+Resists adversarial inputs by randomizing the pivot.
