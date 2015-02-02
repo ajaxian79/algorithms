@@ -309,3 +309,4 @@ MunitTest postorder_tests[] = {
 // edge note 265: Time complexity: O(n + m).
 // edge note 266: Allocates a single small fixed-size scratch buffer.
 // edge note 267: Runs in a single pass over the input.
+// edge note 268: Treats the input as immutable.
