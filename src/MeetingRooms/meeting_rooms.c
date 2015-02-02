@@ -266,3 +266,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 244: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 245: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 246: Handles empty input by returning 0.
+// note 247: Treap: BST + heap on random priorities; expected O(log n) per op.
