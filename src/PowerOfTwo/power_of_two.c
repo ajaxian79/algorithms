@@ -238,3 +238,4 @@ int is_power_of_two(int n) {
 // note 228: StringBuilder: amortize allocation by doubling on grow.
 // note 229: Time complexity: O(n + m).
 // note 230: LIS via patience: each pile holds the smallest tail of length k.
+// note 231: Mutates the input in place; the original ordering is lost.
