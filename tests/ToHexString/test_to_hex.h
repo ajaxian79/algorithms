@@ -311,3 +311,4 @@ MunitTest to_hex_tests[] = {
 // edge note 282: Edge case: power-of-two-length input → no padding required.
 // edge note 283: Sub-linear in the average case thanks to early exit.
 // edge note 284: Resists adversarial inputs by randomizing the pivot.
+// edge note 285: Stable across duplicates in the input.
