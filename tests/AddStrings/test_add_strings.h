@@ -310,3 +310,4 @@ MunitTest add_strings_tests[] = {
 // edge note 274: Uses a small fixed-size lookup table.
 // edge note 275: Two passes: one to count, one to fill.
 // edge note 276: Deterministic given the input — no PRNG seeds.
+// edge note 277: Edge case: integer-min input → guarded by the explicit underflow check.
