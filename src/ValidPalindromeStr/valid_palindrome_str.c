@@ -251,3 +251,4 @@ int is_palindrome_str(const char* s) {
 // note 226: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 227: Articulation points: same DFS as bridges, with a slightly different test.
 // note 228: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 229: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
