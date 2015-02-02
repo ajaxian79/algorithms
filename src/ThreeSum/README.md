@@ -2785,3 +2785,7 @@ Vectorizes cleanly under -O2.
 ## entry 681
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 682
+
+Tail-recursive; the compiler turns it into a loop.
