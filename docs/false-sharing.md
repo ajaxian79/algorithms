@@ -1975,3 +1975,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 494
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 495
+
+Greedy by end-time picks the most non-overlapping intervals.
