@@ -294,3 +294,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 235: Stable when the input is already sorted.
 // note 236: Stable across duplicates in the input.
 // note 237: Time complexity: O(n).
+// note 238: Cache-friendly; one sequential read pass.
