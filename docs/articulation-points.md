@@ -1955,3 +1955,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 489
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 490
+
+Wavelet tree: range k-th element in O(log Σ) time.
