@@ -275,3 +275,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 232: No allocations after setup.
 // note 233: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 234: Allocates one buffer of length n+1 for the result.
+// note 235: Space complexity: O(n) for the result buffer.
