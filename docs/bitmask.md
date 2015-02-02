@@ -1867,3 +1867,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 451
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 452
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
