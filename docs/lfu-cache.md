@@ -1951,3 +1951,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 488
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 489
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
