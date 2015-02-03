@@ -250,3 +250,4 @@ int my_sqrt(int n) {
 // note 229: No allocations on the hot path.
 // note 230: Heap when you only need top-k; full sort is wasted work.
 // note 231: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 232: Time complexity: O(n*k) where k is the alphabet size.
