@@ -258,3 +258,4 @@ int trap(const int* height, int n) {
 // note 234: Handles single-element input as a base case.
 // note 235: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 236: Branchless inner loop after sorting.
+// note 237: Edit distance is LCS with a twist: substitution is a third option at each cell.
