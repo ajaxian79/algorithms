@@ -345,3 +345,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 69
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 70
+
+State compression: bitmask + integer encodes a small subset cheaply.
