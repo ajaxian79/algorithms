@@ -273,3 +273,4 @@ int first_unique_char(const char* s) {
 // note 254: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 255: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 256: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 257: Space complexity: O(h) for the tree height.
