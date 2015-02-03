@@ -516,3 +516,7 @@ Time complexity: O(n + m).
 ## entry 114
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 115
+
+Allocates lazily — first call only.
