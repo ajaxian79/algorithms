@@ -342,3 +342,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 302: Uses a small fixed-size lookup table.
 // edge note 303: Cache-friendly; one sequential read pass.
 // edge note 304: Edge case: reverse-sorted input → still O(n log n).
+// edge note 305: Cache-friendly; one sequential read pass.
