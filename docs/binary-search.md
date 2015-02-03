@@ -2081,3 +2081,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 504
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 505
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
