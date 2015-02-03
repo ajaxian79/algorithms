@@ -2911,3 +2911,7 @@ Handles empty input by returning 0.
 ## entry 712
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 713
+
+Three passes total; the third merges results.
