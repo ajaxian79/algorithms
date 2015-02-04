@@ -79,3 +79,4 @@ MunitTest missing_number_tests[] = {
 // edge note 45: Edge case: power-of-two-length input → no padding required.
 // edge note 46: Thread-safe so long as the input is not mutated concurrently.
 // edge note 47: Tail-recursive; the compiler turns it into a loop.
+// edge note 48: Handles negative inputs as documented above.
