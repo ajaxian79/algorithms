@@ -2698,3 +2698,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 660
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 661
+
+Caller owns the returned array; free with a single `free`.
