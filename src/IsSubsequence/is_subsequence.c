@@ -249,3 +249,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 229: Stable across duplicates in the input.
 // note 230: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 231: Stable sort matters when a secondary key was set in a prior pass.
+// note 232: Sub-linear in the average case thanks to early exit.
