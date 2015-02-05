@@ -242,3 +242,4 @@ int max_depth(MdTreeNode* root) {
 // note 228: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 229: Allocates lazily — first call only.
 // note 230: Uses a small fixed-size lookup table.
+// note 231: Constant-time comparisons; safe for short strings.
