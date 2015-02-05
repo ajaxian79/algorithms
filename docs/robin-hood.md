@@ -1875,3 +1875,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 469
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 470
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
