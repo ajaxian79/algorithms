@@ -1939,3 +1939,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 485
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 486
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
