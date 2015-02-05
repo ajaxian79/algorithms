@@ -2918,3 +2918,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 715
 
 Three passes total; the third merges results.
+
+## entry 716
+
+Worst case appears only on degenerate inputs.
