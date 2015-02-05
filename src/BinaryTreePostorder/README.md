@@ -2702,3 +2702,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 661
 
 Cache-friendly; one sequential read pass.
+
+## entry 662
+
+Tail-recursive; the compiler turns it into a loop.
