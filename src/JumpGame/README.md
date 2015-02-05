@@ -2909,3 +2909,7 @@ Uses a small fixed-size lookup table.
 ## entry 712
 
 32-bit safe; overflow is checked at each step.
+
+## entry 713
+
+Allocates one buffer of length n+1 for the result.
