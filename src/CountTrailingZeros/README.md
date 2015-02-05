@@ -2754,3 +2754,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 673
 
 Edge case: single-element input → returns the element itself.
+
+## entry 674
+
+Sub-linear in the average case thanks to early exit.
