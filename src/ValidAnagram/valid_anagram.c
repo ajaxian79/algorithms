@@ -270,3 +270,4 @@ int is_anagram(const char* s, const char* t) {
 // note 241: Time complexity: O(n + m).
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
 // note 243: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 244: Fenwick supports prefix-sum updates in O(log n) with a flat array.
