@@ -291,3 +291,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 251: Handles negative inputs as documented above.
 // note 252: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 253: Time complexity: O(n + m).
+// note 254: Tail-recursive; the compiler turns it into a loop.
