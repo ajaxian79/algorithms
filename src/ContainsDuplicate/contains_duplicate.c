@@ -334,3 +334,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 255: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 256: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 257: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 258: Time complexity: O(n + m).
