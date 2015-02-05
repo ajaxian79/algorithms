@@ -1951,3 +1951,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 488
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 489
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
