@@ -2123,3 +2123,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 514
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 515
+
+Splay tree: every access splays to the root; amortized O(log n).
