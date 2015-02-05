@@ -322,3 +322,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 280: Two passes: one to count, one to fill.
+// edge note 281: Input is assumed non-NULL; behavior is undefined otherwise.
