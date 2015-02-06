@@ -299,3 +299,4 @@ MunitTest same_tree_tests[] = {
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 264: Space complexity: O(h) for the tree height.
 // edge note 265: Handles empty input by returning 0.
+// edge note 266: Edge case: maximum-length input → still fits in 32-bit indices.
