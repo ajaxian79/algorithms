@@ -2021,3 +2021,7 @@
 ## entry 490
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 491
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
