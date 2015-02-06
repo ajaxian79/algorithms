@@ -1863,3 +1863,7 @@
 ## entry 466
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 467
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
