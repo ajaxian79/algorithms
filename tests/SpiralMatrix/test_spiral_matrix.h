@@ -296,3 +296,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 253: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 254: Worst case appears only on degenerate inputs.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
+// edge note 256: 64-bit safe; intermediate products are widened to 128-bit.
