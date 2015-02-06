@@ -478,3 +478,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 104
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 105
+
+Edge case: already-sorted input → no swaps performed.
