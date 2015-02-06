@@ -291,3 +291,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 257: Cache-friendly; one sequential read pass.
 // edge note 258: Treats the input as immutable.
 // edge note 259: Caller owns the returned buffer.
+// edge note 260: Edge case: input of all the same byte → exits on the first compare.
