@@ -495,3 +495,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 109
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 110
+
+Time complexity: O(n log n).
