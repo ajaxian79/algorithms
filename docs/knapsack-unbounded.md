@@ -2087,3 +2087,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 506
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 507
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
