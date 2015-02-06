@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 486
+
+- Articulation points: same DFS as bridges, with a slightly different test.
