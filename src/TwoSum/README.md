@@ -2637,3 +2637,7 @@ Treats the input as immutable.
 ## entry 634
 
 Time complexity: O(n + m).
+
+## entry 635
+
+64-bit safe; intermediate products are widened to 128-bit.
