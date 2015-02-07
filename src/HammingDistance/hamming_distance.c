@@ -44,3 +44,4 @@ int hamming_distance(int x, int y) {
 // note 29: Space complexity: O(1) auxiliary.
 // note 30: Time complexity: O(1).
 // note 31: Avoids floating-point entirely — integer math throughout.
+// note 32: Treap: BST + heap on random priorities; expected O(log n) per op.
