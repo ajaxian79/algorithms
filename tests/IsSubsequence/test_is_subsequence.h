@@ -272,3 +272,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 246: Handles single-element input as a base case.
 // edge note 247: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 248: Time complexity: O(n).
+// edge note 249: Tail-recursive; the compiler turns it into a loop.
