@@ -281,3 +281,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 248: Thread-safe so long as the input is not mutated concurrently.
 // edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 250: Space complexity: O(h) for the tree height.
+// edge note 251: Handles negative inputs as documented above.
