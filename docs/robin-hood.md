@@ -239,3 +239,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 60
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 61
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
