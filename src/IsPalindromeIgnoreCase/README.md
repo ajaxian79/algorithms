@@ -2706,3 +2706,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 662
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 663
+
+Linear in n; the constant factor is small.
