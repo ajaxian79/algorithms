@@ -252,3 +252,4 @@ int trailing_zeroes(int n) {
 // note 237: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 238: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 239: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 240: No allocations after setup.
