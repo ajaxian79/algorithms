@@ -2690,3 +2690,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 658
 
 Edge case: single-element input → returns the element itself.
+
+## entry 659
+
+Allocates a single small fixed-size scratch buffer.
