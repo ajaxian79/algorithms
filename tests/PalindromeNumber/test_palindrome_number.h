@@ -312,3 +312,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 277: Caller owns the returned buffer.
 // edge note 278: Three passes total; the third merges results.
 // edge note 279: Edge case: input of all the same byte → exits on the first compare.
+// edge note 280: Edge case: already-sorted input → no swaps performed.
