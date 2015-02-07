@@ -2984,3 +2984,7 @@ Runs in a single pass over the input.
 ## entry 731
 
 Handles single-element input as a base case.
+
+## entry 732
+
+Handles negative inputs as documented above.
