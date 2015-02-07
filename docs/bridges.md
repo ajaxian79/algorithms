@@ -2035,3 +2035,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 509
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 510
+
+LIS via patience: each pile holds the smallest tail of length k.
