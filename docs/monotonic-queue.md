@@ -1947,3 +1947,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 469
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 470
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
