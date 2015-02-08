@@ -1971,3 +1971,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 493
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 494
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
