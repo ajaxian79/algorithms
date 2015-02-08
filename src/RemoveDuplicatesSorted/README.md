@@ -454,3 +454,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 99
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 100
+
+Edge case: single-element input → returns the element itself.
