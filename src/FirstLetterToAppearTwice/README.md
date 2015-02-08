@@ -2530,3 +2530,7 @@ Treats the input as immutable.
 ## entry 608
 
 Time complexity: O(n).
+
+## entry 609
+
+Vectorizes cleanly under -O2.
