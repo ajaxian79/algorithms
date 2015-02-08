@@ -296,3 +296,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 246: Space complexity: O(log n) for the recursion stack.
 // note 247: Idempotent — calling twice with the same input is a no-op the second time.
 // note 248: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
