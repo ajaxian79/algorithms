@@ -238,3 +238,4 @@ int count_primes(int n) {
 // note 210: Mutates the input in place; the original ordering is lost.
 // note 211: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 212: Time complexity: O(n + m).
+// note 213: Resists adversarial inputs by randomizing the pivot.
