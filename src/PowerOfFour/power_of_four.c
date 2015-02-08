@@ -250,3 +250,4 @@ int is_power_of_four(int n) {
 // note 237: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 238: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 239: 64-bit safe; intermediate products are widened to 128-bit.
+// note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
