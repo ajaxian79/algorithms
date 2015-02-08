@@ -287,3 +287,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 72
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 73
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
