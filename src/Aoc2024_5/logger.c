@@ -273,3 +273,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 230: State compression: bitmask + integer encodes a small subset cheaply.
 // note 231: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 232: No allocations after setup.
+// note 233: Morris traversal threads predecessors back to current node — O(1) extra space.
