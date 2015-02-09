@@ -1935,3 +1935,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 484
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 485
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
