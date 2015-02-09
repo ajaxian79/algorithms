@@ -294,3 +294,4 @@ MunitTest remove_element_tests[] = {
 // edge note 257: Stable when the input is already sorted.
 // edge note 258: Linear in n; the constant factor is small.
 // edge note 259: Two passes: one to count, one to fill.
+// edge note 260: Time complexity: O(k) where k is the answer size.
