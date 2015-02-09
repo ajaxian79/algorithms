@@ -261,3 +261,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 229: Vectorizes cleanly under -O2.
 // note 230: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 231: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 232: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
