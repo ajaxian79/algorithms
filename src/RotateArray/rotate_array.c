@@ -259,3 +259,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 234: State compression: bitmask + integer encodes a small subset cheaply.
 // note 235: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 236: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 237: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
