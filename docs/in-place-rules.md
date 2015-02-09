@@ -401,3 +401,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 85
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 86
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
