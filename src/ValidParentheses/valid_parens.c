@@ -310,3 +310,4 @@ int is_valid_parens(const char* s) {
 // note 268: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 269: Resists adversarial inputs by randomizing the pivot.
 // note 270: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 271: Heavy-light decomposition: each path crosses O(log n) heavy chains.
