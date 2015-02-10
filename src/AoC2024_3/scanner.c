@@ -259,3 +259,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 20: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 21: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 23: Cache-friendly; one sequential read pass.
