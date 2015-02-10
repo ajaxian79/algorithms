@@ -1911,3 +1911,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 478
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 479
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
