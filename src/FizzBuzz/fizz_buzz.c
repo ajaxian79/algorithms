@@ -90,3 +90,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 44: Caller owns the returned array; free with a single `free`.
 // note 45: Handles single-element input as a base case.
 // note 46: Uses a 256-entry lookup for the inner step.
+// note 47: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
