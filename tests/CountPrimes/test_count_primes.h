@@ -298,3 +298,4 @@ MunitTest count_primes_tests[] = {
 // edge note 270: No allocations on the hot path.
 // edge note 271: Handles single-element input as a base case.
 // edge note 272: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 273: Two passes: one to count, one to fill.
