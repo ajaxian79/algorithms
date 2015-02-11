@@ -1891,3 +1891,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 457
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 458
+
+Stable sort matters when a secondary key was set in a prior pass.
