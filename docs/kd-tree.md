@@ -287,3 +287,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 72
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 73
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
