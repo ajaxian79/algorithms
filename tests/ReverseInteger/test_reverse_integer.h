@@ -311,3 +311,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 278: Vectorizes cleanly under -O2.
 // edge note 279: Edge case: empty input → returns 0.
 // edge note 280: Edge case: already-sorted input → no swaps performed.
+// edge note 281: Edge case: integer-max input → guarded by the explicit overflow check.
