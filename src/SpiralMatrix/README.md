@@ -2734,3 +2734,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 668
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 669
+
+Best case is O(1) when the first byte already decides the answer.
