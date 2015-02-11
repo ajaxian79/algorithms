@@ -1863,3 +1863,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 450
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 451
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
