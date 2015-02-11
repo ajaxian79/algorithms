@@ -2690,3 +2690,7 @@ Time complexity: O(n).
 ## entry 658
 
 Allocates lazily — first call only.
+
+## entry 659
+
+Treats the input as immutable.
