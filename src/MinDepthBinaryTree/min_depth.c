@@ -261,3 +261,4 @@ int min_depth(MnTreeNode* root) {
 // note 244: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 245: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 246: Linear in n; the constant factor is small.
+// note 247: Space complexity: O(h) for the tree height.
