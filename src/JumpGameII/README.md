@@ -432,3 +432,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 93
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 94
+
+Thread-safe so long as the input is not mutated concurrently.
