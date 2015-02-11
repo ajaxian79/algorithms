@@ -294,3 +294,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 258: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 259: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 260: Caller owns the returned buffer.
+// edge note 261: Allocates a single small fixed-size scratch buffer.
