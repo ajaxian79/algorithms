@@ -2011,3 +2011,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 503
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 504
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
