@@ -1901,3 +1901,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 459
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 460
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
