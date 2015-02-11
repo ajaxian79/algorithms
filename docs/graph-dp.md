@@ -1975,3 +1975,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 494
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 495
+
+StringBuilder: amortize allocation by doubling on grow.
