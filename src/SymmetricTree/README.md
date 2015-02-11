@@ -2618,3 +2618,7 @@ Space complexity: O(1) auxiliary.
 ## entry 640
 
 Allocates lazily — first call only.
+
+## entry 641
+
+Uses a 256-entry lookup for the inner step.
