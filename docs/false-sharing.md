@@ -1967,3 +1967,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 492
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 493
+
+Endianness matters when serializing multi-byte ints to a file or wire.
