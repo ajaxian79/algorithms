@@ -271,3 +271,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 240: Avoids floating-point entirely — integer math throughout.
 // edge note 241: Branchless inner loop after sorting.
 // edge note 242: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 243: Edge case: input with no peak → falls through to the default branch.
