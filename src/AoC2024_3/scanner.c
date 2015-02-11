@@ -454,3 +454,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 215: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 216: StringBuilder: amortize allocation by doubling on grow.
 // note 217: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 218: Backtracking template: choose, recurse, un-choose. Mutate then revert.
