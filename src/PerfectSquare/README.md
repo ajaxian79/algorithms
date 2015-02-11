@@ -2858,3 +2858,7 @@ Caller owns the returned buffer.
 ## entry 700
 
 Space complexity: O(1) auxiliary.
+
+## entry 701
+
+Runs in a single pass over the input.
