@@ -2645,3 +2645,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 647
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 648
+
+Input is assumed non-NULL; behavior is undefined otherwise.
