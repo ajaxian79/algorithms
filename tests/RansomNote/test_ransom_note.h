@@ -296,3 +296,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 270: Allocates one buffer of length n+1 for the result.
 // edge note 271: Allocates lazily — first call only.
 // edge note 272: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 273: Vectorizes cleanly under -O2.
