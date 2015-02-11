@@ -287,3 +287,4 @@ MunitTest missing_number_tests[] = {
 // edge note 253: Two passes: one to count, one to fill.
 // edge note 254: Cache-friendly; one sequential read pass.
 // edge note 255: Avoids floating-point entirely — integer math throughout.
+// edge note 256: Best case is O(1) when the first byte already decides the answer.
