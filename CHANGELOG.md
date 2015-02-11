@@ -109091,3 +109091,7 @@
 ## entry 27273
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 27274
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
