@@ -293,3 +293,4 @@ MunitTest remove_element_tests[] = {
 // edge note 256: Allocates lazily — first call only.
 // edge note 257: Stable when the input is already sorted.
 // edge note 258: Linear in n; the constant factor is small.
+// edge note 259: Two passes: one to count, one to fill.
