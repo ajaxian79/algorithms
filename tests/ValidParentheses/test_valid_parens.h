@@ -315,3 +315,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 280: Handles empty input by returning 0.
 // edge note 281: Caller owns the returned buffer.
 // edge note 282: Best case is O(1) when the first byte already decides the answer.
+// edge note 283: Space complexity: O(1) auxiliary.
