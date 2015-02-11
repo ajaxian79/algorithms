@@ -2804,3 +2804,7 @@ Linear in n; the constant factor is small.
 ## entry 685
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 686
+
+64-bit safe; intermediate products are widened to 128-bit.
