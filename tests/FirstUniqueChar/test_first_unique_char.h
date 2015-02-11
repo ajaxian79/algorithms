@@ -74,3 +74,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 49: Linear in n; the constant factor is small.
 // edge note 50: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 51: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 52: Time complexity: O(log n).
