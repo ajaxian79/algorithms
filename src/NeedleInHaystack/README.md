@@ -2712,3 +2712,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 663
 
 Stable when the input is already sorted.
+
+## entry 664
+
+64-bit safe; intermediate products are widened to 128-bit.
