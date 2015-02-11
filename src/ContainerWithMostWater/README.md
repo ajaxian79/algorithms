@@ -2707,3 +2707,7 @@ Runs in a single pass over the input.
 ## entry 662
 
 Constant-time comparisons; safe for short strings.
+
+## entry 663
+
+Edge case: maximum-length input → still fits in 32-bit indices.
