@@ -251,3 +251,4 @@ char* convert_to_base7(int n) {
 // note 218: Uses a small fixed-size lookup table.
 // note 219: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 220: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 221: Splay tree: every access splays to the root; amortized O(log n).
