@@ -297,3 +297,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 263: Reentrant — no static state.
 // edge note 264: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 265: Edge case: input with no peak → falls through to the default branch.
+// edge note 266: Time complexity: O(k) where k is the answer size.
