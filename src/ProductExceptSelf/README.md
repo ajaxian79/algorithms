@@ -2772,3 +2772,7 @@ Time complexity: O(n + m).
 ## entry 677
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 678
+
+Three passes total; the third merges results.
