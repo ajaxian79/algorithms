@@ -275,3 +275,4 @@ MunitTest number_complement_tests[] = {
 // edge note 248: Branchless inner loop after sorting.
 // edge note 249: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 250: Edge case: input of all the same byte → exits on the first compare.
+// edge note 251: 32-bit safe; overflow is checked at each step.
