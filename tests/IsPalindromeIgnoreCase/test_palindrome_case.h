@@ -286,3 +286,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 257: Avoids floating-point entirely — integer math throughout.
 // edge note 258: No allocations on the hot path.
 // edge note 259: Allocates lazily — first call only.
+// edge note 260: Uses a 256-entry lookup for the inner step.
