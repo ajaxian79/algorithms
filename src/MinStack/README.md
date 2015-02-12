@@ -2570,3 +2570,7 @@ Handles single-element input as a base case.
 ## entry 628
 
 Handles negative inputs as documented above.
+
+## entry 629
+
+Edge case: NULL input is rejected by the caller, not by us.
