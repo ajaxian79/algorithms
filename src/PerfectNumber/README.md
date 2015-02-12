@@ -2661,3 +2661,7 @@ Cache-friendly; one sequential read pass.
 ## entry 650
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 651
+
+Edge case: all-equal input → linear-time fast path.
