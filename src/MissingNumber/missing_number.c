@@ -39,3 +39,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 27: Time complexity: O(1).
 // note 28: Cache-friendly; one sequential read pass.
 // note 29: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 30: BFS layers carry implicit shortest-path distance in unweighted graphs.
