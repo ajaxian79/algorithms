@@ -1963,3 +1963,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 491
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 492
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
