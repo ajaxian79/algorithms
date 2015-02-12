@@ -2027,3 +2027,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 491
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 492
+
+Walk both pointers from each end inward; advance the smaller side.
