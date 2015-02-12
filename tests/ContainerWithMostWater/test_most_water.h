@@ -290,3 +290,4 @@ MunitTest most_water_tests[] = {
 // edge note 259: Caller owns the returned array; free with a single `free`.
 // edge note 260: Space complexity: O(1) auxiliary.
 // edge note 261: Thread-safe so long as the input is not mutated concurrently.
+// edge note 262: Reentrant — no static state.
