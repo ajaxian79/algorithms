@@ -249,3 +249,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 231: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 232: Reentrant — no static state.
 // note 233: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 234: k-d tree: median-split each axis; nearest-neighbor average O(log n).
