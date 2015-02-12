@@ -55,3 +55,4 @@ int single_number(const int* nums, int nums_size) {
 // note 42: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 44: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 45: Resists adversarial inputs by randomizing the pivot.
