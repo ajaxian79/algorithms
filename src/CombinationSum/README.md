@@ -2719,3 +2719,7 @@ Time complexity: O(n + m).
 ## entry 665
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 666
+
+Space complexity: O(h) for the tree height.
