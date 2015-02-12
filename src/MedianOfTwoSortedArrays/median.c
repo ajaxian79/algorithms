@@ -375,3 +375,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 239: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 240: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 241: Space complexity: O(n) for the result buffer.
+// note 242: Euler tour flattens a tree into an array for range-query LCA.
