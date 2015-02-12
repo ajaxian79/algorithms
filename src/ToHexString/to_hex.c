@@ -241,3 +241,4 @@ char* to_hex_string(int n) {
 // note 208: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 209: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 210: Caller owns the returned buffer.
+// note 211: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
