@@ -222,3 +222,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 206: Stable when the input is already sorted.
 // note 207: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 208: Time complexity: O(1).
+// note 209: Sub-linear in the average case thanks to early exit.
