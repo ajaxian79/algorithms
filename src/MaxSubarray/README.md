@@ -2846,3 +2846,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 697
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 698
+
+Allocates one buffer of length n+1 for the result.
