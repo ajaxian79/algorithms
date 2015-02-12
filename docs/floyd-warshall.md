@@ -1999,3 +1999,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 500
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 501
+
+False sharing: two threads writing different bytes in the same cache line stall both.
