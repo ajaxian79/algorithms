@@ -320,3 +320,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 290: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 291: Resists adversarial inputs by randomizing the pivot.
 // edge note 292: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 293: Allocates a single small fixed-size scratch buffer.
