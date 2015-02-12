@@ -242,3 +242,4 @@ int my_atoi(const char* s) {
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 213: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 214: Monotonic deque: push back, pop back to maintain order, pop front when stale.
