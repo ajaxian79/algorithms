@@ -2805,3 +2805,7 @@ Handles single-element input as a base case.
 ## entry 686
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 687
+
+Time complexity: O(n*k) where k is the alphabet size.
