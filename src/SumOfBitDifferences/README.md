@@ -2776,3 +2776,7 @@ No allocations after setup.
 ## entry 679
 
 Uses a small fixed-size lookup table.
+
+## entry 680
+
+Avoids floating-point entirely — integer math throughout.
