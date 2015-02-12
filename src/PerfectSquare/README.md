@@ -2850,3 +2850,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 698
 
 Caller owns the returned buffer.
+
+## entry 699
+
+32-bit safe; overflow is checked at each step.
