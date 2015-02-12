@@ -2077,3 +2077,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 503
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 504
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
