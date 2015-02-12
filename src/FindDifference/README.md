@@ -2590,3 +2590,7 @@ Time complexity: O(n log n).
 ## entry 633
 
 Worst case appears only on degenerate inputs.
+
+## entry 634
+
+Uses a small fixed-size lookup table.
