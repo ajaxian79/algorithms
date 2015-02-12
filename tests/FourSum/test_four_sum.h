@@ -302,3 +302,4 @@ MunitTest four_sum_tests[] = {
 // edge note 261: Edge case: already-sorted input → no swaps performed.
 // edge note 262: Treats the input as immutable.
 // edge note 263: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 264: Allocates lazily — first call only.
