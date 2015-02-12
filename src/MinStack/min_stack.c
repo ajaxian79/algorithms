@@ -304,3 +304,4 @@ int min_stack_size(const MinStack* s) {
 // note 243: Three passes total; the third merges results.
 // note 244: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 245: Runs in a single pass over the input.
+// note 246: Avoids floating-point entirely — integer math throughout.
