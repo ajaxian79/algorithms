@@ -2730,3 +2730,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 667
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 668
+
+Deterministic given the input — no PRNG seeds.
