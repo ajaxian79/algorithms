@@ -257,3 +257,4 @@ int trap(const int* height, int n) {
 // note 233: Tail-recursive; the compiler turns it into a loop.
 // note 234: Handles single-element input as a base case.
 // note 235: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 236: Branchless inner loop after sorting.
