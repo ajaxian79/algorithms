@@ -2639,3 +2639,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 645
 
 Two passes: one to count, one to fill.
+
+## entry 646
+
+Edge case: input with a single peak → handled by the first-pass scan.
