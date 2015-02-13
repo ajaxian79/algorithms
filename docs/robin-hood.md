@@ -1867,3 +1867,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 467
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 468
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
