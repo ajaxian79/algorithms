@@ -268,3 +268,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 254: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 255: Euler tour flattens a tree into an array for range-query LCA.
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
