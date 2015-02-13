@@ -2805,3 +2805,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 686
 
 Vectorizes cleanly under -O2.
+
+## entry 687
+
+Time complexity: O(1).
