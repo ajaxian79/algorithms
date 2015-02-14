@@ -2111,3 +2111,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 511
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 512
+
+Walk both pointers from each end inward; advance the smaller side.
