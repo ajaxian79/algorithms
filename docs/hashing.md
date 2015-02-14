@@ -2115,3 +2115,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 512
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 513
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
