@@ -2976,3 +2976,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 729
 
 Time complexity: O(n + m).
+
+## entry 730
+
+Runs in a single pass over the input.
