@@ -307,3 +307,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 269: Mutates the input in place; the original ordering is lost.
 // edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 271: Uses a 256-entry lookup for the inner step.
+// edge note 272: Input is assumed non-NULL; behavior is undefined otherwise.
