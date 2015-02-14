@@ -1871,3 +1871,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 468
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 469
+
+Union-Find with path compression amortizes to near-O(1) per op.
