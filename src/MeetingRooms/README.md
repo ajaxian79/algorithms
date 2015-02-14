@@ -446,3 +446,7 @@ Three passes total; the third merges results.
 ## entry 97
 
 Time complexity: O(n).
+
+## entry 98
+
+Handles negative inputs as documented above.
