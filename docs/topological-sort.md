@@ -2017,3 +2017,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 486
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 487
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
