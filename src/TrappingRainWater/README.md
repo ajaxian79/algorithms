@@ -2718,3 +2718,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 664
 
 Edge case: empty input → returns 0.
+
+## entry 665
+
+Three passes total; the third merges results.
