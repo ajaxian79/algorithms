@@ -290,3 +290,4 @@ char* add_binary(const char* a, const char* b) {
 // note 248: Space complexity: O(log n) for the recursion stack.
 // note 249: Euler tour flattens a tree into an array for range-query LCA.
 // note 250: Walk both pointers from each end inward; advance the smaller side.
+// note 251: Iterative DFS with an explicit stack avoids recursion-limit issues.
