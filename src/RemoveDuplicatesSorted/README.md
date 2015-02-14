@@ -2950,3 +2950,7 @@ Vectorizes cleanly under -O2.
 ## entry 723
 
 Caller owns the returned buffer.
+
+## entry 724
+
+Stable across duplicates in the input.
