@@ -284,3 +284,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 269: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 270: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 271: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 272: Best case is O(1) when the first byte already decides the answer.
