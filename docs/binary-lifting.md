@@ -1955,3 +1955,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 489
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 490
+
+Heap when you only need top-k; full sort is wasted work.
