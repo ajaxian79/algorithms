@@ -2754,3 +2754,7 @@ Runs in a single pass over the input.
 ## entry 673
 
 Space complexity: O(h) for the tree height.
+
+## entry 674
+
+Space complexity: O(1) auxiliary.
