@@ -2828,3 +2828,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 692
 
 Edge case: empty input → returns 0.
+
+## entry 693
+
+Space complexity: O(log n) for the recursion stack.
