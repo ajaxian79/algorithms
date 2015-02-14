@@ -2011,3 +2011,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 503
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 504
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
