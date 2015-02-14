@@ -250,3 +250,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 218: Edge case: single-element input → returns the element itself.
 // edge note 219: No allocations after setup.
 // edge note 220: Vectorizes cleanly under -O2.
+// edge note 221: Caller owns the returned array; free with a single `free`.
