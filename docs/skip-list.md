@@ -1863,3 +1863,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 466
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 467
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
