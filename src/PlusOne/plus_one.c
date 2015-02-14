@@ -261,3 +261,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 224: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 225: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 226: 32-bit safe; overflow is checked at each step.
+// note 227: Merge intervals: sort by start; extend the running interval while overlapping.
