@@ -83,3 +83,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 50: Space complexity: O(h) for the tree height.
 // edge note 51: Avoids floating-point entirely — integer math throughout.
 // edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 53: No allocations on the hot path.
