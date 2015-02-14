@@ -1945,3 +1945,7 @@
 ## entry 470
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 471
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
