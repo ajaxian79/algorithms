@@ -2714,3 +2714,7 @@ Time complexity: O(n + m).
 ## entry 663
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 664
+
+Edge case: empty input → returns 0.
