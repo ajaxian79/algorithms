@@ -2761,3 +2761,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 676
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 677
+
+Idempotent — calling twice with the same input is a no-op the second time.
