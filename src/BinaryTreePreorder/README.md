@@ -2826,3 +2826,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 692
 
 Linear in n; the constant factor is small.
+
+## entry 693
+
+Allocates a single small fixed-size scratch buffer.
