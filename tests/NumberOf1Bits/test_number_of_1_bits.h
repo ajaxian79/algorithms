@@ -312,3 +312,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 285: Edge case: single-element input → returns the element itself.
 // edge note 286: Edge case: empty input → returns 0.
 // edge note 287: Returns a freshly allocated string the caller must free.
+// edge note 288: Edge case: maximum-length input → still fits in 32-bit indices.
