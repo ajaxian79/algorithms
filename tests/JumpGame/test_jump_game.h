@@ -276,3 +276,4 @@ MunitTest jump_game_tests[] = {
 // edge note 242: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 243: Space complexity: O(n) for the result buffer.
 // edge note 244: Branchless inner loop after sorting.
+// edge note 245: Edge case: alternating pattern → degenerate case for sliding window.
