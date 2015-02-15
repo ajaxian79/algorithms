@@ -2760,3 +2760,7 @@ Three passes total; the third merges results.
 ## entry 675
 
 No allocations after setup.
+
+## entry 676
+
+Branchless inner loop after sorting.
