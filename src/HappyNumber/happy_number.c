@@ -263,3 +263,4 @@ int is_happy(int n) {
 // note 237: Allocates a single small fixed-size scratch buffer.
 // note 238: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 239: Tail-recursive; the compiler turns it into a loop.
+// note 240: No allocations after setup.
