@@ -312,3 +312,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 282: Branchless inner loop after sorting.
 // edge note 283: Handles negative inputs as documented above.
 // edge note 284: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 285: Time complexity: O(n*k) where k is the alphabet size.
