@@ -2746,3 +2746,7 @@ No allocations after setup.
 ## entry 671
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 672
+
+Constant-time comparisons; safe for short strings.
