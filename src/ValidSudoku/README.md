@@ -2899,3 +2899,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 709
 
 Time complexity: O(n log n).
+
+## entry 710
+
+Edge case: integer-max input → guarded by the explicit overflow check.
