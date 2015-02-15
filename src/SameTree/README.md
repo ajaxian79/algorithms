@@ -2672,3 +2672,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 654
 
 Treats the input as immutable.
+
+## entry 655
+
+32-bit safe; overflow is checked at each step.
