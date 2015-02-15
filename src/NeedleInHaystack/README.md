@@ -2708,3 +2708,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 662
 
 Constant-time comparisons; safe for short strings.
+
+## entry 663
+
+Stable when the input is already sorted.
