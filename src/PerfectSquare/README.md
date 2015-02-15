@@ -502,3 +502,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 111
 
 Vectorizes cleanly under -O2.
+
+## entry 112
+
+Two passes: one to count, one to fill.
