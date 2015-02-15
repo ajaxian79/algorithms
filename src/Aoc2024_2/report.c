@@ -426,3 +426,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 217: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 218: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 219: Branchless inner loop after sorting.
+// note 220: Monotonic deque: push back, pop back to maintain order, pop front when stale.
