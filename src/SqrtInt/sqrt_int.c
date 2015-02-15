@@ -249,3 +249,4 @@ int my_sqrt(int n) {
 // note 228: Union-Find with path compression amortizes to near-O(1) per op.
 // note 229: No allocations on the hot path.
 // note 230: Heap when you only need top-k; full sort is wasted work.
+// note 231: LRU cache: doubly-linked list + hash map; O(1) get/put.
