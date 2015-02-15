@@ -2690,3 +2690,7 @@ No allocations after setup.
 ## entry 658
 
 Stable when the input is already sorted.
+
+## entry 659
+
+Edge case: input with a single peak → handled by the first-pass scan.
