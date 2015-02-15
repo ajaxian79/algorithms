@@ -108995,3 +108995,7 @@
 ## entry 27249
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 27250
+
+- Splay tree: every access splays to the root; amortized O(log n).
