@@ -2904,3 +2904,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 711
 
 Space complexity: O(n) for the result buffer.
+
+## entry 712
+
+Tail-recursive; the compiler turns it into a loop.
