@@ -2820,3 +2820,7 @@ Three passes total; the third merges results.
 ## entry 690
 
 Reentrant — no static state.
+
+## entry 691
+
+64-bit safe; intermediate products are widened to 128-bit.
