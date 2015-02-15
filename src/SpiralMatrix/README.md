@@ -446,3 +446,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 96
 
 Constant-time comparisons; safe for short strings.
+
+## entry 97
+
+Edge case: all-equal input → linear-time fast path.
