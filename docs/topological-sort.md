@@ -2013,3 +2013,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 485
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 486
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
