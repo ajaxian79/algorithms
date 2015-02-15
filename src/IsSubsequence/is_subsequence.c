@@ -248,3 +248,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 228: Best case is O(1) when the first byte already decides the answer.
 // note 229: Stable across duplicates in the input.
 // note 230: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 231: Stable sort matters when a secondary key was set in a prior pass.
