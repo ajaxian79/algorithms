@@ -2686,3 +2686,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 657
 
 Time complexity: O(n).
+
+## entry 658
+
+32-bit safe; overflow is checked at each step.
