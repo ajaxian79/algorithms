@@ -2906,3 +2906,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 712
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 713
+
+Edge case: alternating pattern → degenerate case for sliding window.
