@@ -2690,3 +2690,7 @@ Time complexity: O(n).
 ## entry 658
 
 32-bit safe; overflow is checked at each step.
+
+## entry 659
+
+Runs in a single pass over the input.
