@@ -244,3 +244,4 @@ int max_area(const int* heights, int n) {
 // note 224: Splay tree: every access splays to the root; amortized O(log n).
 // note 225: Stable across duplicates in the input.
 // note 226: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 227: Euler tour flattens a tree into an array for range-query LCA.
