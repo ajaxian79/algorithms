@@ -1903,3 +1903,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 476
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 477
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
