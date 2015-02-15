@@ -2912,3 +2912,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 713
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 714
+
+Time complexity: O(k) where k is the answer size.
