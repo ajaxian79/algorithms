@@ -2149,3 +2149,7 @@
 ## entry 521
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 522
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
