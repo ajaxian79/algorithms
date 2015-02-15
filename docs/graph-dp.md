@@ -1971,3 +1971,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 493
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 494
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
