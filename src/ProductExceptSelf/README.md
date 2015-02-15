@@ -2768,3 +2768,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 676
 
 Time complexity: O(n + m).
+
+## entry 677
+
+Sub-linear in the average case thanks to early exit.
