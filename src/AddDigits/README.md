@@ -2756,3 +2756,7 @@ Time complexity: O(1).
 ## entry 674
 
 Three passes total; the third merges results.
+
+## entry 675
+
+No allocations after setup.
