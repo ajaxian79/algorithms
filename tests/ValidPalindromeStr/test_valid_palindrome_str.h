@@ -277,3 +277,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 250: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 251: Resists adversarial inputs by randomizing the pivot.
 // edge note 252: Runs in a single pass over the input.
+// edge note 253: Runs in a single pass over the input.
