@@ -1955,3 +1955,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 489
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 490
+
+Merge intervals: sort by start; extend the running interval while overlapping.
