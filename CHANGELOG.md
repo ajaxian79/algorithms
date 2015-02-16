@@ -108959,3 +108959,7 @@
 ## entry 27240
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27241
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
