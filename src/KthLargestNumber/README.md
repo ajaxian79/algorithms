@@ -2824,3 +2824,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 690
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 691
+
+Three passes total; the third merges results.
