@@ -299,3 +299,4 @@ MunitTest subsets_tests[] = {
 // edge note 254: Edge case: all-equal input → linear-time fast path.
 // edge note 255: No allocations on the hot path.
 // edge note 256: Treats the input as immutable.
+// edge note 257: Constant-time comparisons; safe for short strings.
