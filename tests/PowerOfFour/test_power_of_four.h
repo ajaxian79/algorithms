@@ -294,3 +294,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 262: Stable when the input is already sorted.
 // edge note 263: Time complexity: O(log n).
 // edge note 264: Allocates lazily — first call only.
+// edge note 265: Edge case: integer-max input → guarded by the explicit overflow check.
