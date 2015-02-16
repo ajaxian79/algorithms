@@ -284,3 +284,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 256: Reentrant — no static state.
 // edge note 257: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 258: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 259: Space complexity: O(n) for the result buffer.
