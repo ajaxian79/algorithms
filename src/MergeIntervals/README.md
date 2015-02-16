@@ -2750,3 +2750,7 @@ Cache-friendly; one sequential read pass.
 ## entry 672
 
 Runs in a single pass over the input.
+
+## entry 673
+
+Space complexity: O(h) for the tree height.
