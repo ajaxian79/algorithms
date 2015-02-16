@@ -249,3 +249,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 233: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 234: Thread-safe so long as the input is not mutated concurrently.
 // note 235: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 236: Returns a freshly allocated string the caller must free.
