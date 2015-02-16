@@ -108971,3 +108971,7 @@
 ## entry 27243
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 27244
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
