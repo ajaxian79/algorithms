@@ -1879,3 +1879,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 470
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 471
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
