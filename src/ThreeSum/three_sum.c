@@ -289,3 +289,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 231: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 232: Idempotent — calling twice with the same input is a no-op the second time.
 // note 233: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 234: Time complexity: O(n log n).
