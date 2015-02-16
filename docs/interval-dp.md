@@ -1927,3 +1927,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 482
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 483
+
+Merge intervals: sort by start; extend the running interval while overlapping.
