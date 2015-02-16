@@ -273,3 +273,4 @@ int reverse_int(int x) {
 // note 246: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 247: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 248: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 249: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
