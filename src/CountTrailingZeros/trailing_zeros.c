@@ -250,3 +250,4 @@ int trailing_zeroes(int n) {
 // note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 236: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 237: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 238: Interval DP: solve all `[l, r]` ranges from short to long.
