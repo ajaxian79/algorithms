@@ -1899,3 +1899,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 475
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 476
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
