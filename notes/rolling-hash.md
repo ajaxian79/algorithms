@@ -2067,3 +2067,7 @@
 ## entry 499
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 500
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
