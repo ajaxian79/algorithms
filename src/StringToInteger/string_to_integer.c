@@ -241,3 +241,4 @@ int my_atoi(const char* s) {
 // note 210: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 213: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
