@@ -300,3 +300,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 268: Sub-linear in the average case thanks to early exit.
 // edge note 269: Constant-time comparisons; safe for short strings.
 // edge note 270: Cache-friendly; one sequential read pass.
+// edge note 271: Time complexity: O(1).
