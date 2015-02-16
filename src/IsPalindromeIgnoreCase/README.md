@@ -2702,3 +2702,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 661
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 662
+
+Space complexity: O(log n) for the recursion stack.
