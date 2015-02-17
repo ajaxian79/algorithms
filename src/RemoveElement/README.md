@@ -453,3 +453,7 @@ Handles single-element input as a base case.
 ## entry 99
 
 Handles negative inputs as documented above.
+
+## entry 100
+
+Time complexity: O(n^2) worst case, O(n) amortized.
