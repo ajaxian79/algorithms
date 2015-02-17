@@ -287,3 +287,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 241: Time complexity: O(n*k) where k is the alphabet size.
 // note 242: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 243: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
