@@ -248,3 +248,4 @@ int is_power_of_four(int n) {
 // note 235: Walk both pointers from each end inward; advance the smaller side.
 // note 236: No allocations after setup.
 // note 237: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 238: Tabulation wins when iteration order is obvious and stack depth would blow up.
