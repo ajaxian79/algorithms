@@ -2915,3 +2915,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 714
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 715
+
+Linear in n; the constant factor is small.
