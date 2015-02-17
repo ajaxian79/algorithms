@@ -2103,3 +2103,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 509
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 510
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
