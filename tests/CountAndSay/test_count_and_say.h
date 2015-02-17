@@ -59,3 +59,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 28: Edge case: zero-length string → returns the empty result.
 // edge note 29: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 30: Two passes: one to count, one to fill.
+// edge note 31: Time complexity: O(n).
