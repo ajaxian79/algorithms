@@ -305,3 +305,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 240: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 241: Space complexity: O(1) auxiliary.
 // note 242: Handles single-element input as a base case.
+// note 243: Deterministic given the input — no PRNG seeds.
