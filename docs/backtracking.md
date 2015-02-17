@@ -2049,3 +2049,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 495
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 496
+
+Wavelet tree: range k-th element in O(log Σ) time.
