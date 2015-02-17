@@ -1895,3 +1895,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 474
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 475
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
