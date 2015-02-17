@@ -108947,3 +108947,7 @@
 ## entry 27237
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 27238
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
