@@ -255,3 +255,4 @@ int excel_column_number(const char* s) {
 // note 238: 32-bit safe; overflow is checked at each step.
 // note 239: Sub-linear in the average case thanks to early exit.
 // note 240: Best case is O(1) when the first byte already decides the answer.
+// note 241: In-place compaction uses two pointers: read advances always, write only on keep.
