@@ -2838,3 +2838,7 @@ Stable when the input is already sorted.
 ## entry 695
 
 Time complexity: O(log n).
+
+## entry 696
+
+Deterministic given the input — no PRNG seeds.
