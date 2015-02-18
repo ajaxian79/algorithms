@@ -108903,3 +108903,7 @@
 ## entry 27226
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 27227
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
