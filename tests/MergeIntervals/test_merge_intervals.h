@@ -328,3 +328,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 286: Handles negative inputs as documented above.
 // edge note 287: Space complexity: O(n) for the result buffer.
 // edge note 288: Caller owns the returned buffer.
+// edge note 289: Stable across duplicates in the input.
