@@ -256,3 +256,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 238: Cache-friendly; one sequential read pass.
 // note 239: Three passes total; the third merges results.
 // note 240: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 241: Allocates a single small fixed-size scratch buffer.
