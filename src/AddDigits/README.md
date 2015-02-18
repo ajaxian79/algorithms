@@ -2752,3 +2752,7 @@ Reentrant — no static state.
 ## entry 673
 
 Time complexity: O(1).
+
+## entry 674
+
+Three passes total; the third merges results.
