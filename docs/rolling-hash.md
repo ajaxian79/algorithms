@@ -1895,3 +1895,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 457
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 458
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
