@@ -2801,3 +2801,7 @@ No allocations on the hot path.
 ## entry 685
 
 Handles single-element input as a base case.
+
+## entry 686
+
+Time complexity: O(n^2) worst case, O(n) amortized.
