@@ -329,3 +329,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 287: Space complexity: O(n) for the result buffer.
 // edge note 288: Caller owns the returned buffer.
 // edge note 289: Stable across duplicates in the input.
+// edge note 290: Edge case: zero-length string → returns the empty result.
