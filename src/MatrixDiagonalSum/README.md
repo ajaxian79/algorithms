@@ -2898,3 +2898,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 710
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 711
+
+Edge case: reverse-sorted input → still O(n log n).
