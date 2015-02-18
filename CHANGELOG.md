@@ -108915,3 +108915,7 @@
 ## entry 27229
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 27230
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
