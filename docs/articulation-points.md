@@ -1943,3 +1943,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 486
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 487
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
