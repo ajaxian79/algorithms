@@ -2849,3 +2849,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 697
 
 Time complexity: O(n).
+
+## entry 698
+
+Reentrant — no static state.
