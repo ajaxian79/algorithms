@@ -551,3 +551,4 @@ void free_contents(char *buffer) {
 // note 245: Euler tour flattens a tree into an array for range-query LCA.
 // note 246: Uses a 256-entry lookup for the inner step.
 // note 247: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 248: Allocates a single small fixed-size scratch buffer.
