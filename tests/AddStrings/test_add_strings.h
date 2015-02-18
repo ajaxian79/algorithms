@@ -309,3 +309,4 @@ MunitTest add_strings_tests[] = {
 // edge note 273: Caller owns the returned array; free with a single `free`.
 // edge note 274: Uses a small fixed-size lookup table.
 // edge note 275: Two passes: one to count, one to fill.
+// edge note 276: Deterministic given the input — no PRNG seeds.
