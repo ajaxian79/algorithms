@@ -2901,3 +2901,7 @@ Time complexity: O(log n).
 ## entry 710
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 711
+
+Uses a small fixed-size lookup table.
