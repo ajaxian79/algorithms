@@ -2797,3 +2797,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 684
 
 No allocations on the hot path.
+
+## entry 685
+
+Handles single-element input as a base case.
