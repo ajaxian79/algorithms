@@ -1895,3 +1895,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 474
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 475
+
+Greedy by end-time picks the most non-overlapping intervals.
