@@ -270,3 +270,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 227: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 229: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 230: State compression: bitmask + integer encodes a small subset cheaply.
