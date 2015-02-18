@@ -2842,3 +2842,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 696
 
 Handles single-element input as a base case.
+
+## entry 697
+
+Best case is O(1) when the first byte already decides the answer.
