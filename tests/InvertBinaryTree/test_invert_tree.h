@@ -291,3 +291,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 249: 32-bit safe; overflow is checked at each step.
 // edge note 250: Time complexity: O(n log n).
 // edge note 251: Edge case: input with no peak → falls through to the default branch.
+// edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
