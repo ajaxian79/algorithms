@@ -2627,3 +2627,7 @@ Branchless inner loop after sorting.
 ## entry 642
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 643
+
+Vectorizes cleanly under -O2.
