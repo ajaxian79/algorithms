@@ -1931,3 +1931,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 468
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 469
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
