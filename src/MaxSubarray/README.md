@@ -2834,3 +2834,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 694
 
 Stable when the input is already sorted.
+
+## entry 695
+
+Time complexity: O(log n).
