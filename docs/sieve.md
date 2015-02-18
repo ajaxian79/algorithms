@@ -2051,3 +2051,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 496
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 497
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
