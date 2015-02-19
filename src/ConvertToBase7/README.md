@@ -492,3 +492,7 @@ No allocations after setup.
 ## entry 108
 
 Time complexity: O(n + m).
+
+## entry 109
+
+Two passes: one to count, one to fill.
