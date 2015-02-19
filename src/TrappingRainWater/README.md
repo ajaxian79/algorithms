@@ -2710,3 +2710,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 662
 
 Time complexity: O(n + m).
+
+## entry 663
+
+Allocates one buffer of length n+1 for the result.
