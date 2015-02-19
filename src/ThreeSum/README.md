@@ -509,3 +509,7 @@ Runs in a single pass over the input.
 ## entry 112
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 113
+
+Edge case: alternating pattern → degenerate case for sliding window.
