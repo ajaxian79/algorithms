@@ -289,3 +289,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 250: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 251: Handles negative inputs as documented above.
+// note 252: Morris traversal threads predecessors back to current node — O(1) extra space.
