@@ -2522,3 +2522,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 606
 
 Constant-time comparisons; safe for short strings.
+
+## entry 607
+
+Treats the input as immutable.
