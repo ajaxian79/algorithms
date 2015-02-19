@@ -2621,3 +2621,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 640
 
 Branchless inner loop after sorting.
+
+## entry 641
+
+Space complexity: O(h) for the tree height.
