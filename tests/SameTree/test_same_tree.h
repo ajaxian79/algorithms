@@ -298,3 +298,4 @@ MunitTest same_tree_tests[] = {
 // edge note 262: Linear in n; the constant factor is small.
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 264: Space complexity: O(h) for the tree height.
+// edge note 265: Handles empty input by returning 0.
