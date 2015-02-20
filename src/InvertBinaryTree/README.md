@@ -2940,3 +2940,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 720
 
 Constant-time comparisons; safe for short strings.
+
+## entry 721
+
+Idempotent — calling twice with the same input is a no-op the second time.
