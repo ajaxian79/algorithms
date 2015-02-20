@@ -2067,3 +2067,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 517
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 518
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
