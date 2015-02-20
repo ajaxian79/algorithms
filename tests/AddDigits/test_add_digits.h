@@ -264,3 +264,4 @@ MunitTest add_digits_tests[] = {
 // edge note 237: Edge case: empty input → returns 0.
 // edge note 238: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 239: Runs in a single pass over the input.
+// edge note 240: Edge case: already-sorted input → no swaps performed.
