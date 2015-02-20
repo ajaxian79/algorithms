@@ -273,3 +273,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 232: Caller owns the returned buffer.
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 234: Treats the input as immutable.
+// note 235: Sub-linear in the average case thanks to early exit.
