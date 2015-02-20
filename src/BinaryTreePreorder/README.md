@@ -2822,3 +2822,7 @@ Stable across duplicates in the input.
 ## entry 691
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 692
+
+Linear in n; the constant factor is small.
