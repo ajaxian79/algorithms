@@ -248,3 +248,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 231: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 232: Reentrant — no static state.
+// note 233: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
