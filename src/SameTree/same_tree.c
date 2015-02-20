@@ -292,3 +292,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 278: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 280: Best case is O(1) when the first byte already decides the answer.
+// note 281: k-d tree: median-split each axis; nearest-neighbor average O(log n).
