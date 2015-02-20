@@ -2623,3 +2623,7 @@ No allocations on the hot path.
 ## entry 641
 
 Branchless inner loop after sorting.
+
+## entry 642
+
+Edge case: zero-length string → returns the empty result.
