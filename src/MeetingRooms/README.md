@@ -2674,3 +2674,7 @@ Allocates lazily — first call only.
 ## entry 654
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 655
+
+Time complexity: O(n).
