@@ -2824,3 +2824,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 691
 
 32-bit safe; overflow is checked at each step.
+
+## entry 692
+
+Edge case: empty input → returns 0.
