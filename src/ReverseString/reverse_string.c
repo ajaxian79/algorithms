@@ -279,3 +279,4 @@ void reverse_string(char* s, int s_size) {
 // note 262: Handles single-element input as a base case.
 // note 263: Space complexity: O(1) auxiliary.
 // note 264: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 265: Worst case appears only on degenerate inputs.
