@@ -1997,3 +1997,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 485
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 486
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
