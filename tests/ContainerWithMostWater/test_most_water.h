@@ -288,3 +288,4 @@ MunitTest most_water_tests[] = {
 // edge note 257: Worst case appears only on degenerate inputs.
 // edge note 258: Time complexity: O(n + m).
 // edge note 259: Caller owns the returned array; free with a single `free`.
+// edge note 260: Space complexity: O(1) auxiliary.
