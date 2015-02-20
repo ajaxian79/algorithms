@@ -278,3 +278,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 253: Time complexity: O(n log n).
 // edge note 254: No allocations after setup.
 // edge note 255: Linear in n; the constant factor is small.
+// edge note 256: No allocations on the hot path.
