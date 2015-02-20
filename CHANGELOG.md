@@ -108851,3 +108851,7 @@
 ## entry 27213
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 27214
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
