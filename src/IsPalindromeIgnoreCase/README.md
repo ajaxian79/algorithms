@@ -2698,3 +2698,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 660
 
 Constant-time comparisons; safe for short strings.
+
+## entry 661
+
+Deterministic given the input — no PRNG seeds.
