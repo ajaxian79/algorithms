@@ -374,3 +374,7 @@ Three passes total; the third merges results.
 ## entry 79
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 80
+
+32-bit safe; overflow is checked at each step.
