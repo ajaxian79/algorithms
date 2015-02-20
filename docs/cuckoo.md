@@ -1711,3 +1711,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 428
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 429
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
