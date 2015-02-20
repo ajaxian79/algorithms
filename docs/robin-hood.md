@@ -1863,3 +1863,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 466
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 467
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
