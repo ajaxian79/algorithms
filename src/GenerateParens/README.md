@@ -2764,3 +2764,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 675
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 676
+
+Edge case: input of all the same byte → exits on the first compare.
