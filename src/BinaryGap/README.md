@@ -2846,3 +2846,7 @@ Treats the input as immutable.
 ## entry 696
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 697
+
+Reentrant — no static state.
