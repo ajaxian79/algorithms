@@ -2820,3 +2820,7 @@ Time complexity: O(1).
 ## entry 690
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 691
+
+32-bit safe; overflow is checked at each step.
