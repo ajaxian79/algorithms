@@ -2801,3 +2801,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 685
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 686
+
+Vectorizes cleanly under -O2.
