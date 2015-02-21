@@ -306,3 +306,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 268: Caller owns the returned array; free with a single `free`.
 // edge note 269: Mutates the input in place; the original ordering is lost.
 // edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 271: Uses a 256-entry lookup for the inner step.
