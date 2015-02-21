@@ -264,3 +264,4 @@ MunitTest min_stack_tests[] = {
 // edge note 227: Tail-recursive; the compiler turns it into a loop.
 // edge note 228: No allocations after setup.
 // edge note 229: Edge case: empty input → returns 0.
+// edge note 230: Avoids floating-point entirely — integer math throughout.
