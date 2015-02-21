@@ -306,3 +306,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 281: Time complexity: O(n log n).
 // edge note 282: Mutates the input in place; the original ordering is lost.
 // edge note 283: Deterministic given the input — no PRNG seeds.
+// edge note 284: Sub-linear in the average case thanks to early exit.
