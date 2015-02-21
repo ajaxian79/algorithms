@@ -264,3 +264,4 @@ MunitTest needle_tests[] = {
 // edge note 237: Time complexity: O(n).
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 239: Time complexity: O(n log n).
+// edge note 240: Edge case: already-sorted input → no swaps performed.
