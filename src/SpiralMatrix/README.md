@@ -2722,3 +2722,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 665
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 666
+
+Edge case: input with one duplicate → handled without an extra pass.
