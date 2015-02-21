@@ -1935,3 +1935,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 467
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 468
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
