@@ -259,3 +259,4 @@ char* add_strings(const char* a, const char* b) {
 // note 219: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 220: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 221: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 222: Stable when the input is already sorted.
