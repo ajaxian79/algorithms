@@ -2900,3 +2900,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 710
 
 32-bit safe; overflow is checked at each step.
+
+## entry 711
+
+Space complexity: O(n) for the result buffer.
