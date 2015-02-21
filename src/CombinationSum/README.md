@@ -491,3 +491,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 108
 
 Three passes total; the third merges results.
+
+## entry 109
+
+Linear in n; the constant factor is small.
