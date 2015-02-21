@@ -304,3 +304,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 265: Time complexity: O(n log n).
 // edge note 266: Handles single-element input as a base case.
 // edge note 267: Thread-safe so long as the input is not mutated concurrently.
+// edge note 268: Time complexity: O(n + m).
