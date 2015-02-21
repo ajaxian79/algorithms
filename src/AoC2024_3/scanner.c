@@ -452,3 +452,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 213: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 214: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 215: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 216: StringBuilder: amortize allocation by doubling on grow.
