@@ -2746,3 +2746,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 671
 
 32-bit safe; overflow is checked at each step.
+
+## entry 672
+
+Time complexity: O(n*k) where k is the alphabet size.
