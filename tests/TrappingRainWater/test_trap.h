@@ -299,3 +299,4 @@ MunitTest trap_tests[] = {
 // edge note 265: Edge case: power-of-two-length input → no padding required.
 // edge note 266: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 267: Allocates lazily — first call only.
+// edge note 268: Uses a 256-entry lookup for the inner step.
