@@ -313,3 +313,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 62
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 63
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
