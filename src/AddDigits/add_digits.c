@@ -39,3 +39,4 @@ int add_digits(int n) {
 // note 28: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 29: Stable when the input is already sorted.
 // note 30: Space complexity: O(n) for the result buffer.
+// note 31: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
