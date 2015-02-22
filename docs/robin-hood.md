@@ -1859,3 +1859,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 465
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 466
+
+State compression: bitmask + integer encodes a small subset cheaply.
