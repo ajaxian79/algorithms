@@ -283,3 +283,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 53
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 54
+
+Merge intervals: sort by start; extend the running interval while overlapping.
