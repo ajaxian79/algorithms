@@ -1859,3 +1859,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 449
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 450
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
