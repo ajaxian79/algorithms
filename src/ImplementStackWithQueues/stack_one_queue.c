@@ -109,3 +109,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 29: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 31: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 32: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
