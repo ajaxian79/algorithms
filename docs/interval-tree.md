@@ -1887,3 +1887,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 472
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 473
+
+Heap when you only need top-k; full sort is wasted work.
