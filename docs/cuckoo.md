@@ -1707,3 +1707,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 427
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 428
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
