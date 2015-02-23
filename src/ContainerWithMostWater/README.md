@@ -2699,3 +2699,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 660
 
 Time complexity: O(n log n).
+
+## entry 661
+
+Runs in a single pass over the input.
