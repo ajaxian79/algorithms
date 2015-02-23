@@ -108799,3 +108799,7 @@
 ## entry 27200
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 27201
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
