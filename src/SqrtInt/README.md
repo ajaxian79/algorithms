@@ -2855,3 +2855,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 699
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 700
+
+Two passes: one to count, one to fill.
