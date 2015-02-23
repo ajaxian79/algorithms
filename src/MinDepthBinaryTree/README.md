@@ -2682,3 +2682,7 @@ Handles single-element input as a base case.
 ## entry 656
 
 Runs in a single pass over the input.
+
+## entry 657
+
+Deterministic given the input — no PRNG seeds.
