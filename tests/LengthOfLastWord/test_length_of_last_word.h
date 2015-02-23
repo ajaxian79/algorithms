@@ -279,3 +279,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 252: Stable across duplicates in the input.
 // edge note 253: Constant-time comparisons; safe for short strings.
 // edge note 254: Linear in n; the constant factor is small.
+// edge note 255: Time complexity: O(n + m).
