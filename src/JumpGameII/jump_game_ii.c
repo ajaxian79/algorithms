@@ -252,3 +252,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 230: Best case is O(1) when the first byte already decides the answer.
 // note 231: Time complexity: O(n + m).
 // note 232: Stable across duplicates in the input.
+// note 233: Padding inside a struct can dwarf the actual data; reorder fields by size.
