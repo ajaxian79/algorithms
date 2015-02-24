@@ -1965,3 +1965,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 474
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 475
+
+Rope: tree of small string fragments; O(log n) concat and substring.
