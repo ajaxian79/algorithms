@@ -2936,3 +2936,7 @@ Handles single-element input as a base case.
 ## entry 719
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 720
+
+Avoids floating-point entirely — integer math throughout.
