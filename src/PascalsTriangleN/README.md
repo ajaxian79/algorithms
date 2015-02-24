@@ -2602,3 +2602,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 635
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 636
+
+Allocates a single small fixed-size scratch buffer.
