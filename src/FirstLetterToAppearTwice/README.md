@@ -2514,3 +2514,7 @@ Treats the input as immutable.
 ## entry 604
 
 Two passes: one to count, one to fill.
+
+## entry 605
+
+Returns a freshly allocated string the caller must free.
