@@ -406,3 +406,7 @@ Worst case appears only on degenerate inputs.
 ## entry 86
 
 Time complexity: O(n).
+
+## entry 87
+
+Branchless inner loop after sorting.
