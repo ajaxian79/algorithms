@@ -2682,3 +2682,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 656
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 657
+
+No allocations after setup.
