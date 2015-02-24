@@ -274,3 +274,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 225: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 226: Uses a small fixed-size lookup table.
 // note 227: Two passes: one to count, one to fill.
+// note 228: Graph DP on DAGs: topological order makes the dependency direction explicit.
