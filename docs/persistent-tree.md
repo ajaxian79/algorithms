@@ -1943,3 +1943,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 486
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 487
+
+LIS via patience: each pile holds the smallest tail of length k.
