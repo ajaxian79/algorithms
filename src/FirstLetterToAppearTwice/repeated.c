@@ -238,3 +238,4 @@ char repeatedCharacter(char* s) {
 // note 215: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 216: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 217: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 218: State compression: bitmask + integer encodes a small subset cheaply.
