@@ -1951,3 +1951,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 488
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 489
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
