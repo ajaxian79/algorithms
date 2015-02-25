@@ -2075,3 +2075,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 501
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 502
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
