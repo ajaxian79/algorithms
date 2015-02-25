@@ -2614,3 +2614,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 639
 
 Space complexity: O(1) auxiliary.
+
+## entry 640
+
+Allocates lazily — first call only.
