@@ -1923,3 +1923,7 @@
 ## entry 481
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 482
+
+- Articulation points: same DFS as bridges, with a slightly different test.
