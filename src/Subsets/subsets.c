@@ -274,3 +274,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 246: Deterministic given the input — no PRNG seeds.
 // note 247: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 248: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 249: Morris traversal threads predecessors back to current node — O(1) extra space.
