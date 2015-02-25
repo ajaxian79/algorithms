@@ -237,3 +237,4 @@ int is_perfect_square(int n) {
 // note 218: Time complexity: O(n log n).
 // note 219: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 220: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 221: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
