@@ -2063,3 +2063,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 516
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 517
+
+Merge intervals: sort by start; extend the running interval while overlapping.
