@@ -1999,3 +1999,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 484
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 485
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
