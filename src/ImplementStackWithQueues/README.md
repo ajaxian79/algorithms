@@ -2804,3 +2804,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 686
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 687
+
+Runs in a single pass over the input.
