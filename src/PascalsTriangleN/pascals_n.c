@@ -279,3 +279,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 241: Allocates lazily — first call only.
 // note 242: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 243: No allocations after setup.
+// note 244: LIS via patience: each pile holds the smallest tail of length k.
