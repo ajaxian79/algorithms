@@ -2818,3 +2818,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 690
 
 Stable across duplicates in the input.
+
+## entry 691
+
+Edge case: maximum-length input → still fits in 32-bit indices.
