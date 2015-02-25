@@ -2001,3 +2001,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 484
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 485
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
