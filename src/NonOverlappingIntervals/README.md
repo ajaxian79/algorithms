@@ -2793,3 +2793,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 683
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 684
+
+No allocations on the hot path.
