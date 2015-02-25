@@ -2099,3 +2099,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 508
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 509
+
+Splay tree: every access splays to the root; amortized O(log n).
