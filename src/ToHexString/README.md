@@ -2619,3 +2619,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 640
 
 No allocations on the hot path.
+
+## entry 641
+
+Branchless inner loop after sorting.
