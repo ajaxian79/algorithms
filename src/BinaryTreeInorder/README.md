@@ -2786,3 +2786,7 @@ Vectorizes cleanly under -O2.
 ## entry 682
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 683
+
+Time complexity: O(n + m).
