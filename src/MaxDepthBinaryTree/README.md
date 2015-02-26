@@ -2629,3 +2629,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 643
 
 Time complexity: O(n).
+
+## entry 644
+
+Space complexity: O(n) for the result buffer.
