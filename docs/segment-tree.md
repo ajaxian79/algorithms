@@ -1939,3 +1939,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 467
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 468
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
