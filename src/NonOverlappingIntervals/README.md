@@ -2789,3 +2789,7 @@ Time complexity: O(1).
 ## entry 682
 
 Edge case: single-element input → returns the element itself.
+
+## entry 683
+
+Time complexity: O(k) where k is the answer size.
