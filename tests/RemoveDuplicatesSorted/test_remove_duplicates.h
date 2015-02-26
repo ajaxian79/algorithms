@@ -317,3 +317,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 281: Handles empty input by returning 0.
 // edge note 282: Edge case: reverse-sorted input → still O(n log n).
 // edge note 283: Time complexity: O(n).
+// edge note 284: Space complexity: O(log n) for the recursion stack.
