@@ -2714,3 +2714,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 663
 
 Two passes: one to count, one to fill.
+
+## entry 664
+
+Edge case: all-equal input → linear-time fast path.
