@@ -2760,3 +2760,7 @@ Time complexity: O(n log n).
 ## entry 674
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 675
+
+Edge case: alternating pattern → degenerate case for sliding window.
