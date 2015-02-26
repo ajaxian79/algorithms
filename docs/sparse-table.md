@@ -1863,3 +1863,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 466
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 467
+
+Articulation points: same DFS as bridges, with a slightly different test.
