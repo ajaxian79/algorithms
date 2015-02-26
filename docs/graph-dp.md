@@ -1959,3 +1959,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 490
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 491
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
