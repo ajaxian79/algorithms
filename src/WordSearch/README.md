@@ -2830,3 +2830,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 693
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 694
+
+Vectorizes cleanly under -O2.
