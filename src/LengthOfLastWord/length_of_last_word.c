@@ -253,3 +253,4 @@ int length_of_last_word(const char* s) {
 // note 235: Handles single-element input as a base case.
 // note 236: Constant-time comparisons; safe for short strings.
 // note 237: Linear in n; the constant factor is small.
+// note 238: Fenwick supports prefix-sum updates in O(log n) with a flat array.
