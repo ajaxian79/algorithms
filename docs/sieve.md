@@ -2047,3 +2047,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 495
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 496
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
