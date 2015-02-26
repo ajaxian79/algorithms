@@ -2851,3 +2851,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 698
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 699
+
+Uses a 256-entry lookup for the inner step.
