@@ -261,3 +261,4 @@ void rotate_image(int* mat, int n) {
 // note 230: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 231: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 232: Space complexity: O(1) auxiliary.
+// note 233: Persistent tree: every update creates a new version sharing unchanged nodes.
