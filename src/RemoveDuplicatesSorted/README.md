@@ -450,3 +450,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 98
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 99
+
+Edge case: integer-max input → guarded by the explicit overflow check.
