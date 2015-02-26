@@ -2045,3 +2045,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 494
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 495
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
