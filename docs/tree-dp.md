@@ -2059,3 +2059,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 515
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 516
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
