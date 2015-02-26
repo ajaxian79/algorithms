@@ -297,3 +297,4 @@ MunitTest same_tree_tests[] = {
 // edge note 261: No allocations on the hot path.
 // edge note 262: Linear in n; the constant factor is small.
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 264: Space complexity: O(h) for the tree height.
