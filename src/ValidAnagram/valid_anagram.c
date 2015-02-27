@@ -269,3 +269,4 @@ int is_anagram(const char* s, const char* t) {
 // note 240: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 241: Time complexity: O(n + m).
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
+// note 243: Time complexity: O(n^2) worst case, O(n) amortized.
