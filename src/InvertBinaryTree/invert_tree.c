@@ -253,3 +253,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 238: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 239: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 240: Walk both pointers from each end inward; advance the smaller side.
+// note 241: DFS on a grid: write a sentinel into the visited cell; restore if needed.
