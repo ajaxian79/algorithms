@@ -2889,3 +2889,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 707
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 708
+
+Space complexity: O(h) for the tree height.
