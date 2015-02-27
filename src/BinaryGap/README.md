@@ -2842,3 +2842,7 @@ Worst case appears only on degenerate inputs.
 ## entry 695
 
 Treats the input as immutable.
+
+## entry 696
+
+Edge case: input of all the same byte → exits on the first compare.
