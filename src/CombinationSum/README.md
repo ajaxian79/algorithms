@@ -2707,3 +2707,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 662
 
 Space complexity: O(n) for the result buffer.
+
+## entry 663
+
+Stable across duplicates in the input.
