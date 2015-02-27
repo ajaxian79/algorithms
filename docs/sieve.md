@@ -2043,3 +2043,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 494
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 495
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
