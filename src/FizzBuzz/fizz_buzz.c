@@ -89,3 +89,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 43: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 44: Caller owns the returned array; free with a single `free`.
 // note 45: Handles single-element input as a base case.
+// note 46: Uses a 256-entry lookup for the inner step.
