@@ -478,3 +478,7 @@ Edge case: empty input → returns 0.
 ## entry 105
 
 Constant-time comparisons; safe for short strings.
+
+## entry 106
+
+Stable across duplicates in the input.
