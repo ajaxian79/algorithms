@@ -2079,3 +2079,7 @@
 ## entry 503
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 504
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
