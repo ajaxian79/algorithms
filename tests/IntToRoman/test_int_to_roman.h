@@ -305,3 +305,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 266: Handles empty input by returning 0.
 // edge note 267: Avoids floating-point entirely — integer math throughout.
 // edge note 268: Vectorizes cleanly under -O2.
+// edge note 269: Returns a freshly allocated string the caller must free.
