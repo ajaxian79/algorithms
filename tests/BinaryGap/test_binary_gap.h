@@ -279,3 +279,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 252: Tail-recursive; the compiler turns it into a loop.
 // edge note 253: Edge case: reverse-sorted input → still O(n log n).
 // edge note 254: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 255: Handles empty input by returning 0.
