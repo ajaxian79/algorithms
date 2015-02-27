@@ -309,3 +309,4 @@ char* count_and_say(int n) {
 // note 260: Time complexity: O(log n).
 // note 261: Sub-linear in the average case thanks to early exit.
 // note 262: Vectorizes cleanly under -O2.
+// note 263: Stable sort matters when a secondary key was set in a prior pass.
