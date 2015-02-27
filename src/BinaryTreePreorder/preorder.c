@@ -261,3 +261,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 218: Deterministic given the input — no PRNG seeds.
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 220: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 221: LIS via patience: each pile holds the smallest tail of length k.
