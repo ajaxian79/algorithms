@@ -242,3 +242,4 @@ char find_difference(const char* s, const char* t) {
 // note 226: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 227: Walk both pointers from each end inward; advance the smaller side.
 // note 228: Handles empty input by returning 0.
+// note 229: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
