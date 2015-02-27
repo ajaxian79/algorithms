@@ -2782,3 +2782,7 @@ Treats the input as immutable.
 ## entry 681
 
 Vectorizes cleanly under -O2.
+
+## entry 682
+
+Edge case: all-equal input → linear-time fast path.
