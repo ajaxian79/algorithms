@@ -314,3 +314,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 285: Reentrant — no static state.
 // edge note 286: Handles single-element input as a base case.
 // edge note 287: Edge case: empty input → returns 0.
+// edge note 288: Constant-time comparisons; safe for short strings.
