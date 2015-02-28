@@ -1995,3 +1995,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 483
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 484
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
