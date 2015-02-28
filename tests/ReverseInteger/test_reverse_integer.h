@@ -309,3 +309,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 276: Handles negative inputs as documented above.
 // edge note 277: Caller owns the returned array; free with a single `free`.
 // edge note 278: Vectorizes cleanly under -O2.
+// edge note 279: Edge case: empty input → returns 0.
