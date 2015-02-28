@@ -311,3 +311,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 61
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 62
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
