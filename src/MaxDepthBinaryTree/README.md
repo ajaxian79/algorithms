@@ -2625,3 +2625,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 642
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 643
+
+Time complexity: O(n).
