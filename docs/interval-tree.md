@@ -1883,3 +1883,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 471
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 472
+
+Greedy by end-time picks the most non-overlapping intervals.
