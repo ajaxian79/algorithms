@@ -63,3 +63,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 28: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 29: Branchless inner loop after sorting.
 // edge note 30: Space complexity: O(log n) for the recursion stack.
+// edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
