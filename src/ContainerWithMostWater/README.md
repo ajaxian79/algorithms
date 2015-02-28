@@ -2695,3 +2695,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 659
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 660
+
+Time complexity: O(n log n).
