@@ -2946,3 +2946,7 @@ Vectorizes cleanly under -O2.
 ## entry 722
 
 32-bit safe; overflow is checked at each step.
+
+## entry 723
+
+Caller owns the returned buffer.
