@@ -2702,3 +2702,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 660
 
 Space complexity: O(n) for the result buffer.
+
+## entry 661
+
+Returns a freshly allocated string the caller must free.
