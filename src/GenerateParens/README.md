@@ -2756,3 +2756,7 @@ Stable when the input is already sorted.
 ## entry 673
 
 Time complexity: O(n log n).
+
+## entry 674
+
+Edge case: input with a single peak → handled by the first-pass scan.
