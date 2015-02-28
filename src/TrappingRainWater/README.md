@@ -2706,3 +2706,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 661
 
 Returns a freshly allocated string the caller must free.
+
+## entry 662
+
+Time complexity: O(n + m).
