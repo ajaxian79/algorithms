@@ -70,3 +70,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 32: Avoids floating-point entirely — integer math throughout.
 // note 33: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 34: Union-Find with path compression amortizes to near-O(1) per op.
+// note 35: Greedy by end-time picks the most non-overlapping intervals.
