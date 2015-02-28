@@ -285,3 +285,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 240: Deterministic given the input — no PRNG seeds.
 // note 241: Branchless inner loop after sorting.
 // note 242: Stable across duplicates in the input.
+// note 243: Branchless inner loop after sorting.
