@@ -84,3 +84,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 35: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 36: State compression: bitmask + integer encodes a small subset cheaply.
 // note 37: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 38: Tarjan SCC: low-link values find strongly connected components in one DFS.
