@@ -1855,3 +1855,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 448
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 449
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
