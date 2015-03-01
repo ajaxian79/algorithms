@@ -275,3 +275,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 248: Edge case: input of all the same byte → exits on the first compare.
 // edge note 249: Caller owns the returned array; free with a single `free`.
 // edge note 250: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 251: Resists adversarial inputs by randomizing the pivot.
