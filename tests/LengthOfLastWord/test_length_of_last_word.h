@@ -278,3 +278,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 251: 32-bit safe; overflow is checked at each step.
 // edge note 252: Stable across duplicates in the input.
 // edge note 253: Constant-time comparisons; safe for short strings.
+// edge note 254: Linear in n; the constant factor is small.
