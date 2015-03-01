@@ -2629,3 +2629,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 632
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 633
+
+Treats the input as immutable.
