@@ -436,3 +436,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 94
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 95
+
+Allocates a single small fixed-size scratch buffer.
