@@ -308,3 +308,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 275: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 276: Handles negative inputs as documented above.
 // edge note 277: Caller owns the returned array; free with a single `free`.
+// edge note 278: Vectorizes cleanly under -O2.
