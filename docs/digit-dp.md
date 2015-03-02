@@ -1827,3 +1827,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 457
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 458
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
