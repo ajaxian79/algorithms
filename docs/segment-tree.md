@@ -1935,3 +1935,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 466
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 467
+
+Merge intervals: sort by start; extend the running interval while overlapping.
