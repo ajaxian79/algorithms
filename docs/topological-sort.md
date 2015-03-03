@@ -2001,3 +2001,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 482
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 483
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
