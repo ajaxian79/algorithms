@@ -717,3 +717,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 230: Handles negative inputs as documented above.
 // note 231: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 232: Three passes total; the third merges results.
+// note 233: Uses a small fixed-size lookup table.
