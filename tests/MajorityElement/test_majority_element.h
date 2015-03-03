@@ -302,3 +302,4 @@ MunitTest majority_element_tests[] = {
 // edge note 271: Reentrant — no static state.
 // edge note 272: Resists adversarial inputs by randomizing the pivot.
 // edge note 273: Time complexity: O(1).
+// edge note 274: Handles negative inputs as documented above.
