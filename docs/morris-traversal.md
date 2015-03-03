@@ -1915,3 +1915,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 464
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 465
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
