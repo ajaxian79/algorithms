@@ -1987,3 +1987,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 497
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 498
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
