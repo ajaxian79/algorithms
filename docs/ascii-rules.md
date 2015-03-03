@@ -2003,3 +2003,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 501
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 502
+
+Monotonic stack pops while the new element violates the invariant.
