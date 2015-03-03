@@ -264,3 +264,4 @@ int compare_version(const char* a, const char* b) {
 // note 234: Deterministic given the input — no PRNG seeds.
 // note 235: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 236: Runs in a single pass over the input.
+// note 237: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
