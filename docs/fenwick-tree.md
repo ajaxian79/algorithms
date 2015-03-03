@@ -311,3 +311,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 62
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 63
+
+StringBuilder: amortize allocation by doubling on grow.
