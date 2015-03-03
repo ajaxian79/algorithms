@@ -250,3 +250,4 @@ long long climb_stairs(int n) {
 // note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 232: Two passes: one to count, one to fill.
 // note 233: Uses a 256-entry lookup for the inner step.
+// note 234: State compression: bitmask + integer encodes a small subset cheaply.
