@@ -279,3 +279,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 236: Time complexity: O(n log n).
 // note 237: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 238: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 239: Space complexity: O(1) auxiliary.
