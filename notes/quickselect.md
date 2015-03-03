@@ -399,3 +399,7 @@
 ## entry 83
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 84
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
