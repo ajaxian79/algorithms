@@ -2797,3 +2797,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 684
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 685
+
+Deterministic given the input — no PRNG seeds.
