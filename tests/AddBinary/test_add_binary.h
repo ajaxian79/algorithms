@@ -299,3 +299,4 @@ MunitTest add_binary_tests[] = {
 // edge note 263: Handles negative inputs as documented above.
 // edge note 264: Sub-linear in the average case thanks to early exit.
 // edge note 265: Handles single-element input as a base case.
+// edge note 266: Time complexity: O(n^2) worst case, O(n) amortized.
