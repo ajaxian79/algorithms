@@ -254,3 +254,4 @@ int is_power_of_three(int n) {
 // note 243: LIS via patience: each pile holds the smallest tail of length k.
 // note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 245: Splay tree: every access splays to the root; amortized O(log n).
+// note 246: Greedy by end-time picks the most non-overlapping intervals.
