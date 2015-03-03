@@ -290,3 +290,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 262: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 263: Edge case: reverse-sorted input → still O(n log n).
 // edge note 264: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 265: Time complexity: O(k) where k is the answer size.
