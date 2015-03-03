@@ -2942,3 +2942,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 721
 
 Handles empty input by returning 0.
+
+## entry 722
+
+Best case is O(1) when the first byte already decides the answer.
