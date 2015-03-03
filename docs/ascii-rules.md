@@ -1999,3 +1999,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 500
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 501
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
