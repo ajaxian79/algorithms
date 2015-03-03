@@ -2756,3 +2756,7 @@ No allocations on the hot path.
 ## entry 673
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 674
+
+Resists adversarial inputs by randomizing the pivot.
