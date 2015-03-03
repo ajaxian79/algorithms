@@ -1787,3 +1787,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 447
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 448
+
+Union-Find with path compression amortizes to near-O(1) per op.
