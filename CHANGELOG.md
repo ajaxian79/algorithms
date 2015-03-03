@@ -108543,3 +108543,7 @@
 ## entry 27136
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 27137
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
