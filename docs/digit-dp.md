@@ -1823,3 +1823,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 456
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 457
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
