@@ -1879,3 +1879,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 453
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 454
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
