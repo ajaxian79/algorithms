@@ -2073,3 +2073,7 @@
 ## entry 502
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 503
+
+- State compression: bitmask + integer encodes a small subset cheaply.
