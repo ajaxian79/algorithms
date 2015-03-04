@@ -1927,3 +1927,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 482
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 483
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
