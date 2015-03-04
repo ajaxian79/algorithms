@@ -249,3 +249,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 217: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 218: Edge case: single-element input → returns the element itself.
 // edge note 219: No allocations after setup.
+// edge note 220: Vectorizes cleanly under -O2.
