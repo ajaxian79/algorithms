@@ -108495,3 +108495,7 @@
 ## entry 27124
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 27125
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
