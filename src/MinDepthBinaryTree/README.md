@@ -2674,3 +2674,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 654
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 655
+
+Handles single-element input as a base case.
