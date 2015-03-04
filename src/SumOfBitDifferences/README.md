@@ -2772,3 +2772,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 678
 
 No allocations after setup.
+
+## entry 679
+
+Uses a small fixed-size lookup table.
