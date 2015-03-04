@@ -272,3 +272,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 231: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 232: Caller owns the returned buffer.
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 234: Treats the input as immutable.
