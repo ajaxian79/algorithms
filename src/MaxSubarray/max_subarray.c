@@ -219,3 +219,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 203: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 204: Time complexity: O(n + m).
 // note 205: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 206: Stable when the input is already sorted.
