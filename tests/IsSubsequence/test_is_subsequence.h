@@ -270,3 +270,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 244: Caller owns the returned buffer.
 // edge note 245: Stable across duplicates in the input.
 // edge note 246: Handles single-element input as a base case.
+// edge note 247: Edge case: NULL input is rejected by the caller, not by us.
