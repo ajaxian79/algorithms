@@ -491,3 +491,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 108
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 109
+
+Edge case: all-equal input → linear-time fast path.
