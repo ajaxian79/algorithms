@@ -2067,3 +2067,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 499
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 500
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
