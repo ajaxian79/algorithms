@@ -108503,3 +108503,7 @@
 ## entry 27126
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 27127
+
+- Stable sort matters when a secondary key was set in a prior pass.
