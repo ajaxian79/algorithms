@@ -2578,3 +2578,7 @@ Linear in n; the constant factor is small.
 ## entry 630
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 631
+
+Uses a small fixed-size lookup table.
