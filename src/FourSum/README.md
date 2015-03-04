@@ -2740,3 +2740,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 670
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 671
+
+Edge case: power-of-two-length input → no padding required.
