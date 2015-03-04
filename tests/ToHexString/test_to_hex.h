@@ -309,3 +309,4 @@ MunitTest to_hex_tests[] = {
 // edge note 280: Caller owns the returned buffer.
 // edge note 281: Handles empty input by returning 0.
 // edge note 282: Edge case: power-of-two-length input → no padding required.
+// edge note 283: Sub-linear in the average case thanks to early exit.
