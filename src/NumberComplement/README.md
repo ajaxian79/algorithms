@@ -2792,3 +2792,7 @@ Stable when the input is already sorted.
 ## entry 682
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 683
+
+Reentrant — no static state.
