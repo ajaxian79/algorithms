@@ -303,3 +303,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 274: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 275: Constant-time comparisons; safe for short strings.
 // edge note 276: Space complexity: O(n) for the result buffer.
+// edge note 277: Time complexity: O(n log n).
