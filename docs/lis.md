@@ -2103,3 +2103,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 509
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 510
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
