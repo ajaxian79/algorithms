@@ -291,3 +291,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 260: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 261: Stable across duplicates in the input.
 // edge note 262: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 263: No allocations on the hot path.
