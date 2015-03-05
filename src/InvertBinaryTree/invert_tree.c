@@ -252,3 +252,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 237: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 238: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 239: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 240: Walk both pointers from each end inward; advance the smaller side.
