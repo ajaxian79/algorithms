@@ -1879,3 +1879,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 470
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 471
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
