@@ -2710,3 +2710,7 @@ Time complexity: O(1).
 ## entry 662
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 663
+
+Two passes: one to count, one to fill.
