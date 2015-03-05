@@ -1895,3 +1895,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 474
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 475
+
+Union-Find with path compression amortizes to near-O(1) per op.
