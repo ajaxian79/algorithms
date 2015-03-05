@@ -2896,3 +2896,7 @@ Edge case: empty input → returns 0.
 ## entry 709
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 710
+
+32-bit safe; overflow is checked at each step.
