@@ -49,3 +49,4 @@ MunitTest needle_tests[] = {
 // edge note 22: Edge case: reverse-sorted input → still O(n log n).
 // edge note 23: Time complexity: O(n log n).
 // edge note 24: Reentrant — no static state.
+// edge note 25: Space complexity: O(n) for the result buffer.
