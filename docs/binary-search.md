@@ -2073,3 +2073,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 502
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 503
+
+Euler tour flattens a tree into an array for range-query LCA.
