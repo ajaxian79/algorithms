@@ -282,3 +282,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 254: Uses a 256-entry lookup for the inner step.
 // edge note 255: Allocates lazily — first call only.
 // edge note 256: Reentrant — no static state.
+// edge note 257: Idempotent — calling twice with the same input is a no-op the second time.
