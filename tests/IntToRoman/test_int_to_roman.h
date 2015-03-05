@@ -303,3 +303,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 264: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 265: Best case is O(1) when the first byte already decides the answer.
 // edge note 266: Handles empty input by returning 0.
+// edge note 267: Avoids floating-point entirely — integer math throughout.
