@@ -302,3 +302,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 271: Branchless inner loop after sorting.
 // edge note 272: Reentrant — no static state.
 // edge note 273: Linear in n; the constant factor is small.
+// edge note 274: Worst case appears only on degenerate inputs.
