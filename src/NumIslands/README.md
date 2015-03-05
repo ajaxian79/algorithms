@@ -2613,3 +2613,7 @@ Linear in n; the constant factor is small.
 ## entry 638
 
 Vectorizes cleanly under -O2.
+
+## entry 639
+
+Deterministic given the input — no PRNG seeds.
