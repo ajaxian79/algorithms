@@ -262,3 +262,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 248: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 249: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 250: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
