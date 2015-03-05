@@ -487,3 +487,7 @@ Space complexity: O(1) auxiliary.
 ## entry 107
 
 Constant-time comparisons; safe for short strings.
+
+## entry 108
+
+Tail-recursive; the compiler turns it into a loop.
