@@ -266,3 +266,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 239: Avoids floating-point entirely — integer math throughout.
 // edge note 240: Deterministic given the input — no PRNG seeds.
 // edge note 241: No allocations on the hot path.
+// edge note 242: Mutates the input in place; the original ordering is lost.
