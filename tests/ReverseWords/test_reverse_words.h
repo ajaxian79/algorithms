@@ -325,3 +325,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 296: Space complexity: O(1) auxiliary.
 // edge note 297: Worst case appears only on degenerate inputs.
 // edge note 298: Allocates one buffer of length n+1 for the result.
+// edge note 299: Time complexity: O(k) where k is the answer size.
