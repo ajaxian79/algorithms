@@ -290,3 +290,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 276: Uses a 256-entry lookup for the inner step.
 // note 277: Cache-friendly; one sequential read pass.
 // note 278: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
