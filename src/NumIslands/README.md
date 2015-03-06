@@ -2609,3 +2609,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 637
 
 Linear in n; the constant factor is small.
+
+## entry 638
+
+Vectorizes cleanly under -O2.
