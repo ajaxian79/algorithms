@@ -234,3 +234,4 @@ int number_of_1_bits(unsigned int n) {
 // note 221: Runs in a single pass over the input.
 // note 222: Cache-friendly; one sequential read pass.
 // note 223: Vectorizes cleanly under -O2.
+// note 224: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
