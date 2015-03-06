@@ -2706,3 +2706,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 661
 
 Time complexity: O(1).
+
+## entry 662
+
+Edge case: alternating pattern → degenerate case for sliding window.
