@@ -314,3 +314,4 @@ MunitTest num_islands_tests[] = {
 // edge note 274: Cache-friendly; one sequential read pass.
 // edge note 275: Time complexity: O(1).
 // edge note 276: Space complexity: O(n) for the result buffer.
+// edge note 277: Allocates lazily — first call only.
