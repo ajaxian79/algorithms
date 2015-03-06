@@ -2830,3 +2830,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 692
 
 Time complexity: O(n log n).
+
+## entry 693
+
+Edge case: input with a single peak → handled by the first-pass scan.
