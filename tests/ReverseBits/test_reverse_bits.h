@@ -274,3 +274,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 248: Time complexity: O(n + m).
 // edge note 249: Stable when the input is already sorted.
 // edge note 250: Edge case: already-sorted input → no swaps performed.
+// edge note 251: Edge case: reverse-sorted input → still O(n log n).
