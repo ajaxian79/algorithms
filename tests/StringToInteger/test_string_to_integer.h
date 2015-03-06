@@ -341,3 +341,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 301: Sub-linear in the average case thanks to early exit.
 // edge note 302: Uses a small fixed-size lookup table.
 // edge note 303: Cache-friendly; one sequential read pass.
+// edge note 304: Edge case: reverse-sorted input → still O(n log n).
