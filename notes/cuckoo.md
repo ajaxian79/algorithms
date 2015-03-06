@@ -1927,3 +1927,7 @@
 ## entry 482
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 483
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
