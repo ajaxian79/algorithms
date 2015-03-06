@@ -307,3 +307,4 @@ MunitTest postorder_tests[] = {
 // edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 264: Branchless inner loop after sorting.
 // edge note 265: Time complexity: O(n + m).
+// edge note 266: Allocates a single small fixed-size scratch buffer.
