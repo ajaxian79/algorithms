@@ -265,3 +265,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 238: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 239: Avoids floating-point entirely — integer math throughout.
 // edge note 240: Deterministic given the input — no PRNG seeds.
+// edge note 241: No allocations on the hot path.
