@@ -2570,3 +2570,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 628
 
 Three passes total; the third merges results.
+
+## entry 629
+
+Linear in n; the constant factor is small.
