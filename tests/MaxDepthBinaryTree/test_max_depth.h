@@ -295,3 +295,4 @@ MunitTest max_depth_tests[] = {
 // edge note 257: Edge case: input of all the same byte → exits on the first compare.
 // edge note 258: Two passes: one to count, one to fill.
 // edge note 259: Runs in a single pass over the input.
+// edge note 260: Edge case: power-of-two-length input → no padding required.
