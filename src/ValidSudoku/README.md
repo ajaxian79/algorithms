@@ -2887,3 +2887,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 706
 
 No allocations after setup.
+
+## entry 707
+
+Time complexity: O(k) where k is the answer size.
