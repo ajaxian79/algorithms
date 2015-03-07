@@ -2031,3 +2031,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 508
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 509
+
+Heap when you only need top-k; full sort is wasted work.
