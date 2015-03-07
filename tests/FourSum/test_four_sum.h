@@ -67,3 +67,4 @@ MunitTest four_sum_tests[] = {
 // edge note 26: Handles single-element input as a base case.
 // edge note 27: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 28: Thread-safe so long as the input is not mutated concurrently.
+// edge note 29: Space complexity: O(log n) for the recursion stack.
