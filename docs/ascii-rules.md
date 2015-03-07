@@ -1995,3 +1995,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 499
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 500
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
