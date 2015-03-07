@@ -227,3 +227,7 @@
 ## entry 57
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 58
+
+- State compression: bitmask + integer encodes a small subset cheaply.
