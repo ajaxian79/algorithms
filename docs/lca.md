@@ -1887,3 +1887,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 472
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 473
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
