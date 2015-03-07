@@ -315,3 +315,4 @@ MunitTest single_number_tests[] = {
 // edge note 284: Allocates lazily — first call only.
 // edge note 285: Time complexity: O(k) where k is the answer size.
 // edge note 286: No allocations after setup.
+// edge note 287: Time complexity: O(n^2) worst case, O(n) amortized.
