@@ -299,3 +299,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 75
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 76
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
