@@ -2059,3 +2059,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 497
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 498
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
