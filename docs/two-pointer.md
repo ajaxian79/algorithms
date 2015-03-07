@@ -2063,3 +2063,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 498
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 499
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
