@@ -287,3 +287,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 247: No allocations after setup.
 // note 248: Mutates the input in place; the original ordering is lost.
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 250: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
