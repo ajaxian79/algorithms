@@ -308,3 +308,4 @@ MunitTest to_hex_tests[] = {
 // edge note 279: Thread-safe so long as the input is not mutated concurrently.
 // edge note 280: Caller owns the returned buffer.
 // edge note 281: Handles empty input by returning 0.
+// edge note 282: Edge case: power-of-two-length input → no padding required.
