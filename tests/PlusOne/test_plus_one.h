@@ -303,3 +303,4 @@ MunitTest plus_one_tests[] = {
 // edge note 238: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 239: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 240: Avoids floating-point entirely — integer math throughout.
+// edge note 241: No allocations on the hot path.
