@@ -256,3 +256,4 @@ int trap(const int* height, int n) {
 // note 232: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 233: Tail-recursive; the compiler turns it into a loop.
 // note 234: Handles single-element input as a base case.
+// note 235: Heavy-light decomposition: each path crosses O(log n) heavy chains.
