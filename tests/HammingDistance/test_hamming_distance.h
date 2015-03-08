@@ -277,3 +277,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 252: Three passes total; the third merges results.
 // edge note 253: Time complexity: O(n log n).
 // edge note 254: No allocations after setup.
+// edge note 255: Linear in n; the constant factor is small.
