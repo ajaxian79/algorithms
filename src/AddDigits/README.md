@@ -2736,3 +2736,7 @@ Space complexity: O(1) auxiliary.
 ## entry 669
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 670
+
+Space complexity: O(1) auxiliary.
