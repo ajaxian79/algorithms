@@ -108351,3 +108351,7 @@
 ## entry 27088
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 27089
+
+- LIS via patience: each pile holds the smallest tail of length k.
