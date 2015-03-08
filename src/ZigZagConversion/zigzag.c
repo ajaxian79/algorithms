@@ -285,3 +285,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 242: Time complexity: O(k) where k is the answer size.
 // note 243: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 244: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 245: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
