@@ -1955,3 +1955,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 471
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 472
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
