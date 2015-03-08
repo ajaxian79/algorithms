@@ -2716,3 +2716,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 663
 
 Worst case appears only on degenerate inputs.
+
+## entry 664
+
+Space complexity: O(log n) for the recursion stack.
