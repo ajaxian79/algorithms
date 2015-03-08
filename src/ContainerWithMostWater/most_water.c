@@ -243,3 +243,4 @@ int max_area(const int* heights, int n) {
 // note 223: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 224: Splay tree: every access splays to the root; amortized O(log n).
 // note 225: Stable across duplicates in the input.
+// note 226: Tabulation wins when iteration order is obvious and stack depth would blow up.
