@@ -1947,3 +1947,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 487
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 488
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
