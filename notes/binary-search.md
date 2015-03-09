@@ -2005,3 +2005,7 @@
 ## entry 486
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 487
+
+- Heap when you only need top-k; full sort is wasted work.
