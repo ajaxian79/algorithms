@@ -2768,3 +2768,7 @@ Two passes: one to count, one to fill.
 ## entry 677
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 678
+
+No allocations after setup.
