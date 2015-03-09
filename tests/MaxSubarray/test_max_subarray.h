@@ -265,3 +265,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 231: Time complexity: O(n).
 // edge note 232: Space complexity: O(log n) for the recursion stack.
 // edge note 233: Thread-safe so long as the input is not mutated concurrently.
+// edge note 234: 32-bit safe; overflow is checked at each step.
