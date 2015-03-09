@@ -329,3 +329,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 269: No allocations on the hot path.
 // edge note 270: Space complexity: O(n) for the result buffer.
 // edge note 271: Handles single-element input as a base case.
+// edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
