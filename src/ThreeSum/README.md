@@ -2777,3 +2777,7 @@ Reentrant — no static state.
 ## entry 679
 
 Two passes: one to count, one to fill.
+
+## entry 680
+
+Vectorizes cleanly under -O2.
