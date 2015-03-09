@@ -108335,3 +108335,7 @@
 ## entry 27084
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 27085
+
+- StringBuilder: amortize allocation by doubling on grow.
