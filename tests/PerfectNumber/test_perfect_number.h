@@ -311,3 +311,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 281: Thread-safe so long as the input is not mutated concurrently.
 // edge note 282: Branchless inner loop after sorting.
 // edge note 283: Handles negative inputs as documented above.
+// edge note 284: Edge case: NULL input is rejected by the caller, not by us.
