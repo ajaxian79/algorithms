@@ -108327,3 +108327,7 @@
 ## entry 27082
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 27083
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
