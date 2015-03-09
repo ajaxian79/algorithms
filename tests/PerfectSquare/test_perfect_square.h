@@ -293,3 +293,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 262: Avoids floating-point entirely — integer math throughout.
 // edge note 263: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 264: Resists adversarial inputs by randomizing the pivot.
+// edge note 265: Uses a 256-entry lookup for the inner step.
