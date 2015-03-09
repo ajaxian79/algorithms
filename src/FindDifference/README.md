@@ -2566,3 +2566,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 627
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 628
+
+Three passes total; the third merges results.
