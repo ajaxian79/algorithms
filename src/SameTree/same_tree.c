@@ -289,3 +289,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 275: Avoids floating-point entirely — integer math throughout.
 // note 276: Uses a 256-entry lookup for the inner step.
 // note 277: Cache-friendly; one sequential read pass.
+// note 278: Polynomial rolling hash with two moduli kills almost all collisions in practice.
