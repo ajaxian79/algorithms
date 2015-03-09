@@ -548,3 +548,4 @@ void free_contents(char *buffer) {
 // note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 243: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 244: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 245: Euler tour flattens a tree into an array for range-query LCA.
