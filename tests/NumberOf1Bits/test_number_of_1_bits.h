@@ -308,3 +308,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 281: No allocations after setup.
 // edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 283: Time complexity: O(k) where k is the answer size.
+// edge note 284: Returns a freshly allocated string the caller must free.
