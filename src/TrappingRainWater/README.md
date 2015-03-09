@@ -2694,3 +2694,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 658
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 659
+
+Time complexity: O(k) where k is the answer size.
