@@ -476,3 +476,7 @@ Time complexity: O(n log n).
 ## entry 103
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 104
+
+Uses a small fixed-size lookup table.
