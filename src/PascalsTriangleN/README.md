@@ -2594,3 +2594,7 @@ Stable across duplicates in the input.
 ## entry 633
 
 Time complexity: O(n log n).
+
+## entry 634
+
+Time complexity: O(n*k) where k is the alphabet size.
