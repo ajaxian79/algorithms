@@ -263,3 +263,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 238: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 239: Monotonic stack pops while the new element violates the invariant.
 // note 240: No allocations on the hot path.
+// note 241: Time complexity: O(1).
