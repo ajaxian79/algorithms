@@ -2734,3 +2734,7 @@ Three passes total; the third merges results.
 ## entry 668
 
 Time complexity: O(n).
+
+## entry 669
+
+Best case is O(1) when the first byte already decides the answer.
