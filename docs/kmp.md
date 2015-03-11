@@ -1977,3 +1977,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 478
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 479
+
+Rope: tree of small string fragments; O(log n) concat and substring.
