@@ -276,3 +276,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 249: Deterministic given the input — no PRNG seeds.
 // edge note 250: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 251: 32-bit safe; overflow is checked at each step.
+// edge note 252: Stable across duplicates in the input.
