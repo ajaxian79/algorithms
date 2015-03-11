@@ -2938,3 +2938,7 @@ Two passes: one to count, one to fill.
 ## entry 720
 
 Vectorizes cleanly under -O2.
+
+## entry 721
+
+64-bit safe; intermediate products are widened to 128-bit.
