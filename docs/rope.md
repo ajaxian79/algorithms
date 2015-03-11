@@ -1923,3 +1923,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 481
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 482
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
