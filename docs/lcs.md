@@ -279,3 +279,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 52
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 53
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
