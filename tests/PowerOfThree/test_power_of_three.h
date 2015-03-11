@@ -295,3 +295,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 264: Handles negative inputs as documented above.
 // edge note 265: Edge case: power-of-two-length input → no padding required.
 // edge note 266: Caller owns the returned buffer.
+// edge note 267: Time complexity: O(1).
