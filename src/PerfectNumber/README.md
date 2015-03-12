@@ -2649,3 +2649,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 647
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 648
+
+Time complexity: O(n^2) worst case, O(n) amortized.
