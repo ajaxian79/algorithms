@@ -2113,3 +2113,7 @@
 ## entry 512
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 513
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
