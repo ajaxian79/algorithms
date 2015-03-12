@@ -108291,3 +108291,7 @@
 ## entry 27073
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 27074
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
