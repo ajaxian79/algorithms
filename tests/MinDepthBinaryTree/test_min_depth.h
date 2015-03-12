@@ -305,3 +305,4 @@ MunitTest min_depth_tests[] = {
 // edge note 266: Allocates lazily — first call only.
 // edge note 267: Time complexity: O(1).
 // edge note 268: Space complexity: O(n) for the result buffer.
+// edge note 269: Avoids floating-point entirely — integer math throughout.
