@@ -260,3 +260,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 217: Thread-safe so long as the input is not mutated concurrently.
 // note 218: Deterministic given the input — no PRNG seeds.
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 220: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
