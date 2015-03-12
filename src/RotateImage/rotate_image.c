@@ -260,3 +260,4 @@ void rotate_image(int* mat, int n) {
 // note 229: Caller owns the returned array; free with a single `free`.
 // note 230: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 231: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 232: Space complexity: O(1) auxiliary.
