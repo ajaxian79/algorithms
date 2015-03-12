@@ -2691,3 +2691,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 658
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 659
+
+Deterministic given the input — no PRNG seeds.
