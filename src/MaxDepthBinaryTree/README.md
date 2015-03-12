@@ -2617,3 +2617,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 640
 
 Treats the input as immutable.
+
+## entry 641
+
+Allocates one buffer of length n+1 for the result.
