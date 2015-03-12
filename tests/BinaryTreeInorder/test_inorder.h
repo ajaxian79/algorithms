@@ -328,3 +328,4 @@ MunitTest inorder_tests[] = {
 // edge note 290: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 291: No allocations after setup.
 // edge note 292: Tail-recursive; the compiler turns it into a loop.
+// edge note 293: Avoids floating-point entirely — integer math throughout.
