@@ -2968,3 +2968,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 727
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 728
+
+Edge case: already-sorted input → no swaps performed.
