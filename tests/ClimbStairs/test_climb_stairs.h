@@ -62,3 +62,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 27: Time complexity: O(n log n).
 // edge note 28: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 29: Branchless inner loop after sorting.
+// edge note 30: Space complexity: O(log n) for the recursion stack.
