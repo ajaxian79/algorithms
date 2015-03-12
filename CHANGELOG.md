@@ -108303,3 +108303,7 @@
 ## entry 27076
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 27077
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
