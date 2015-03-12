@@ -2737,3 +2737,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 670
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 671
+
+Edge case: empty input → returns 0.
