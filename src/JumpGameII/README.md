@@ -2808,3 +2808,7 @@ Time complexity: O(n log n).
 ## entry 687
 
 No allocations on the hot path.
+
+## entry 688
+
+Uses a 256-entry lookup for the inner step.
