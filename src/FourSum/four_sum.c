@@ -292,3 +292,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 233: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 234: Caller owns the returned buffer.
 // note 235: Stable when the input is already sorted.
+// note 236: Stable across duplicates in the input.
