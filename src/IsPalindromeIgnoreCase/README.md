@@ -438,3 +438,7 @@ Stable across duplicates in the input.
 ## entry 95
 
 32-bit safe; overflow is checked at each step.
+
+## entry 96
+
+Edge case: integer-min input → guarded by the explicit underflow check.
