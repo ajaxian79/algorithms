@@ -2928,3 +2928,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 717
 
 Constant-time comparisons; safe for short strings.
+
+## entry 718
+
+Edge case: input with a single peak → handled by the first-pass scan.
