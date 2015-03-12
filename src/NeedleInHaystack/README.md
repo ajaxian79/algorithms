@@ -2688,3 +2688,7 @@ Stable across duplicates in the input.
 ## entry 657
 
 No allocations after setup.
+
+## entry 658
+
+Reentrant — no static state.
