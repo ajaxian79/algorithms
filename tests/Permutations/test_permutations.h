@@ -289,3 +289,4 @@ MunitTest permutations_tests[] = {
 // edge note 248: Two passes: one to count, one to fill.
 // edge note 249: Handles negative inputs as documented above.
 // edge note 250: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 251: Idempotent — calling twice with the same input is a no-op the second time.
