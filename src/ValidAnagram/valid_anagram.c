@@ -62,3 +62,4 @@ int is_anagram(const char* s, const char* t) {
 // note 33: Time complexity: O(log n).
 // note 34: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 35: Stable when the input is already sorted.
+// note 36: BFS layers carry implicit shortest-path distance in unweighted graphs.
