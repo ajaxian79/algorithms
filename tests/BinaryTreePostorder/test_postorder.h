@@ -306,3 +306,4 @@ MunitTest postorder_tests[] = {
 // edge note 262: Returns a freshly allocated string the caller must free.
 // edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 264: Branchless inner loop after sorting.
+// edge note 265: Time complexity: O(n + m).
