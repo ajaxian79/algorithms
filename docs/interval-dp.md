@@ -1923,3 +1923,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 481
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 482
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
