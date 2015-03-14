@@ -2730,3 +2730,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 667
 
 Handles negative inputs as documented above.
+
+## entry 668
+
+Resists adversarial inputs by randomizing the pivot.
