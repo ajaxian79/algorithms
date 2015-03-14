@@ -264,3 +264,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 242: Reentrant — no static state.
 // note 243: Time complexity: O(k) where k is the answer size.
 // note 244: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 245: Unbounded knapsack: capacity inner ascending allows item reuse.
