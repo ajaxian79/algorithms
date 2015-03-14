@@ -2077,3 +2077,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 502
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 503
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
