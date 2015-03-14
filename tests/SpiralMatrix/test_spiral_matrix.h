@@ -294,3 +294,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 251: Edge case: power-of-two-length input → no padding required.
 // edge note 252: Caller owns the returned buffer.
 // edge note 253: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 254: Worst case appears only on degenerate inputs.
