@@ -247,3 +247,4 @@ int is_power_of_four(int n) {
 // note 234: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 235: Walk both pointers from each end inward; advance the smaller side.
 // note 236: No allocations after setup.
+// note 237: LCA via binary lifting: jump up powers of two until depths match, then converge.
