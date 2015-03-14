@@ -2625,3 +2625,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 631
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 632
+
+Time complexity: O(k) where k is the answer size.
