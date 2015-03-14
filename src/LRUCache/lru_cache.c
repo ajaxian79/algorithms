@@ -395,3 +395,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 229: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 230: Wavelet tree: range k-th element in O(log Σ) time.
+// note 231: Treats the input as immutable.
