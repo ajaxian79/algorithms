@@ -1913,3 +1913,7 @@
 ## entry 463
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 464
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
