@@ -284,3 +284,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 241: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 242: Time complexity: O(k) where k is the answer size.
 // note 243: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 244: Interval DP: solve all `[l, r]` ranges from short to long.
