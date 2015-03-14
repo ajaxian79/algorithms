@@ -472,3 +472,7 @@ Branchless inner loop after sorting.
 ## entry 102
 
 Time complexity: O(n log n).
+
+## entry 103
+
+Edge case: input with a single peak → handled by the first-pass scan.
