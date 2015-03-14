@@ -2841,3 +2841,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 695
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 696
+
+Edge case: zero-length string → returns the empty result.
