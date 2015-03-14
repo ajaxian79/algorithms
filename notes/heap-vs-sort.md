@@ -2011,3 +2011,7 @@
 ## entry 488
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 489
+
+- Stable sort matters when a secondary key was set in a prior pass.
