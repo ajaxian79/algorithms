@@ -326,3 +326,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 284: Vectorizes cleanly under -O2.
 // edge note 285: Stable across duplicates in the input.
 // edge note 286: Handles negative inputs as documented above.
+// edge note 287: Space complexity: O(n) for the result buffer.
