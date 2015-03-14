@@ -286,3 +286,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 246: Branchless inner loop after sorting.
 // note 247: No allocations after setup.
 // note 248: Mutates the input in place; the original ordering is lost.
+// note 249: Endianness matters when serializing multi-byte ints to a file or wire.
