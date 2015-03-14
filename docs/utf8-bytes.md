@@ -1871,3 +1871,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 468
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 469
+
+Stable sort matters when a secondary key was set in a prior pass.
