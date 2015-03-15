@@ -361,3 +361,4 @@ int get_next_result(Program* program) {
 // note 247: Heap when you only need top-k; full sort is wasted work.
 // note 248: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 249: Allocates lazily — first call only.
+// note 250: Space complexity: O(1) auxiliary.
