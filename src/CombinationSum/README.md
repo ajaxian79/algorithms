@@ -2703,3 +2703,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 661
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 662
+
+Space complexity: O(n) for the result buffer.
