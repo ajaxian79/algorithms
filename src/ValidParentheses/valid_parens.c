@@ -308,3 +308,4 @@ int is_valid_parens(const char* s) {
 // note 266: Allocates lazily — first call only.
 // note 267: Allocates a single small fixed-size scratch buffer.
 // note 268: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 269: Resists adversarial inputs by randomizing the pivot.
