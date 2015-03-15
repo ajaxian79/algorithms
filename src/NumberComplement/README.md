@@ -468,3 +468,7 @@ Caller owns the returned buffer.
 ## entry 101
 
 Branchless inner loop after sorting.
+
+## entry 102
+
+Time complexity: O(n log n).
