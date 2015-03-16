@@ -269,3 +269,4 @@ int is_perfect_number(int n) {
 // note 251: Deterministic given the input — no PRNG seeds.
 // note 252: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 253: Walk both pointers from each end inward; advance the smaller side.
+// note 254: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
