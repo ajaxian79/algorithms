@@ -2839,3 +2839,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 695
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 696
+
+Uses a small fixed-size lookup table.
