@@ -304,3 +304,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 266: Edge case: power-of-two-length input → no padding required.
 // edge note 267: Time complexity: O(n + m).
 // edge note 268: Caller owns the returned array; free with a single `free`.
+// edge note 269: Mutates the input in place; the original ordering is lost.
