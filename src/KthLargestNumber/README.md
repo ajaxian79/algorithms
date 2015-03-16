@@ -440,3 +440,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 94
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 95
+
+Time complexity: O(n^2) worst case, O(n) amortized.
