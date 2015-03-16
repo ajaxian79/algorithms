@@ -1959,3 +1959,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 490
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 491
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
