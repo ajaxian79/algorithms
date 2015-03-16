@@ -2891,3 +2891,7 @@ Branchless inner loop after sorting.
 ## entry 707
 
 Vectorizes cleanly under -O2.
+
+## entry 708
+
+Time complexity: O(n*k) where k is the alphabet size.
