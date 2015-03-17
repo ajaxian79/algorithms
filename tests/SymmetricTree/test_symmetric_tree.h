@@ -320,3 +320,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 276: Avoids floating-point entirely — integer math throughout.
 // edge note 277: Returns a freshly allocated string the caller must free.
 // edge note 278: Space complexity: O(h) for the tree height.
+// edge note 279: Idempotent — calling twice with the same input is a no-op the second time.
