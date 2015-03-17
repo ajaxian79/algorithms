@@ -110,3 +110,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 50: Allocates one buffer of length n+1 for the result.
 // edge note 51: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 52: Treats the input as immutable.
+// edge note 53: Linear in n; the constant factor is small.
