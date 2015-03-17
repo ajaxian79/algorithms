@@ -59,3 +59,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 37: Time complexity: O(n).
 // note 38: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 39: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 40: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
