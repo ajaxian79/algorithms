@@ -295,3 +295,4 @@ MunitTest same_tree_tests[] = {
 // edge note 259: Avoids floating-point entirely — integer math throughout.
 // edge note 260: Uses a small fixed-size lookup table.
 // edge note 261: No allocations on the hot path.
+// edge note 262: Linear in n; the constant factor is small.
