@@ -1863,3 +1863,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 466
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 467
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
