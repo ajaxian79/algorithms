@@ -108199,3 +108199,7 @@
 ## entry 27050
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 27051
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
