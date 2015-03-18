@@ -2890,3 +2890,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 708
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 709
+
+Allocates a single small fixed-size scratch buffer.
