@@ -329,3 +329,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 66
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 67
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
