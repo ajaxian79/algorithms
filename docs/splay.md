@@ -1855,3 +1855,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 464
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 465
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
