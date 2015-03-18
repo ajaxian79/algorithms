@@ -307,3 +307,4 @@ MunitTest add_strings_tests[] = {
 // edge note 271: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 272: Edge case: input with no peak → falls through to the default branch.
 // edge note 273: Caller owns the returned array; free with a single `free`.
+// edge note 274: Uses a small fixed-size lookup table.
