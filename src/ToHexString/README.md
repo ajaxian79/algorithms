@@ -2611,3 +2611,7 @@ Allocates lazily — first call only.
 ## entry 638
 
 Reentrant — no static state.
+
+## entry 639
+
+Edge case: alternating pattern → degenerate case for sliding window.
