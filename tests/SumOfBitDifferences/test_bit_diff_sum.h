@@ -277,3 +277,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 247: Edge case: empty input → returns 0.
 // edge note 248: Edge case: already-sorted input → no swaps performed.
+// edge note 249: Time complexity: O(n*k) where k is the alphabet size.
