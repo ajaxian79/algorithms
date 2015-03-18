@@ -2095,3 +2095,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 507
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 508
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
