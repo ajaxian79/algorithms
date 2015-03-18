@@ -1863,3 +1863,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 466
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 467
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
