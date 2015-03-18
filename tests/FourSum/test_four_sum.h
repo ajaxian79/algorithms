@@ -300,3 +300,4 @@ MunitTest four_sum_tests[] = {
 // edge note 259: Reentrant — no static state.
 // edge note 260: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 261: Edge case: already-sorted input → no swaps performed.
+// edge note 262: Treats the input as immutable.
