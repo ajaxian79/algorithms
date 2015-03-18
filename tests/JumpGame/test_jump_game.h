@@ -271,3 +271,4 @@ MunitTest jump_game_tests[] = {
 // edge note 237: Two passes: one to count, one to fill.
 // edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 239: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 240: Space complexity: O(n) for the result buffer.
