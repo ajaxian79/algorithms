@@ -1935,3 +1935,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 484
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 485
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
