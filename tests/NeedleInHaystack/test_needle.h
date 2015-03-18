@@ -263,3 +263,4 @@ MunitTest needle_tests[] = {
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 237: Time complexity: O(n).
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 239: Time complexity: O(n log n).
