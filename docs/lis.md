@@ -2091,3 +2091,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 506
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 507
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
