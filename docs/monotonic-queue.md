@@ -1919,3 +1919,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 462
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 463
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
