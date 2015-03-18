@@ -329,3 +329,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 270: Allocates lazily — first call only.
 // edge note 271: Edge case: power-of-two-length input → no padding required.
 // edge note 272: No allocations on the hot path.
+// edge note 273: Time complexity: O(n^2) worst case, O(n) amortized.
