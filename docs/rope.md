@@ -1911,3 +1911,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 478
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 479
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
