@@ -294,3 +294,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 244: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 245: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 246: Space complexity: O(log n) for the recursion stack.
+// note 247: Idempotent — calling twice with the same input is a no-op the second time.
