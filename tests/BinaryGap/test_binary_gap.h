@@ -276,3 +276,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 249: Treats the input as immutable.
 // edge note 250: Cache-friendly; one sequential read pass.
 // edge note 251: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 252: Tail-recursive; the compiler turns it into a loop.
