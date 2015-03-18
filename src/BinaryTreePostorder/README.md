@@ -2682,3 +2682,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 656
 
 Cache-friendly; one sequential read pass.
+
+## entry 657
+
+Time complexity: O(n).
