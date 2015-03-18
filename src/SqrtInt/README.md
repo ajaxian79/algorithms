@@ -2835,3 +2835,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 694
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 695
+
+Edge case: integer-max input → guarded by the explicit overflow check.
