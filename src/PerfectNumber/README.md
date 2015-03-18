@@ -2645,3 +2645,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 646
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 647
+
+Edge case: alternating pattern → degenerate case for sliding window.
