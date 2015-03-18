@@ -2023,3 +2023,7 @@
 ## entry 490
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 491
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
