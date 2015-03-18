@@ -371,3 +371,4 @@ MunitTest median_tests[] = {
 // edge note 252: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 253: Uses a small fixed-size lookup table.
 // edge note 254: Uses a small fixed-size lookup table.
+// edge note 255: Edge case: all-equal input → linear-time fast path.
