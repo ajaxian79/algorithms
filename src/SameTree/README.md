@@ -2668,3 +2668,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 653
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 654
+
+Treats the input as immutable.
