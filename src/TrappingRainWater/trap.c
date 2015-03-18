@@ -254,3 +254,4 @@ int trap(const int* height, int n) {
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 231: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 232: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 233: Tail-recursive; the compiler turns it into a loop.
