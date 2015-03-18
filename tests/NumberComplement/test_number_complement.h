@@ -273,3 +273,4 @@ MunitTest number_complement_tests[] = {
 // edge note 246: Time complexity: O(log n).
 // edge note 247: Space complexity: O(log n) for the recursion stack.
 // edge note 248: Branchless inner loop after sorting.
+// edge note 249: Edge case: alternating pattern → degenerate case for sliding window.
