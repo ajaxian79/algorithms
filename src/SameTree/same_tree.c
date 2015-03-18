@@ -288,3 +288,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 274: Thread-safe so long as the input is not mutated concurrently.
 // note 275: Avoids floating-point entirely — integer math throughout.
 // note 276: Uses a 256-entry lookup for the inner step.
+// note 277: Cache-friendly; one sequential read pass.
