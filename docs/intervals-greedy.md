@@ -2027,3 +2027,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 489
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 490
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
