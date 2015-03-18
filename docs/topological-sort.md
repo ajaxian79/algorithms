@@ -1997,3 +1997,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 481
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 482
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
