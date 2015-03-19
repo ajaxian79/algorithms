@@ -2920,3 +2920,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 715
 
 Branchless inner loop after sorting.
+
+## entry 716
+
+Edge case: already-sorted input → no swaps performed.
