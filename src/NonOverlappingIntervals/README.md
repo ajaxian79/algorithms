@@ -2777,3 +2777,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 679
 
 Treats the input as immutable.
+
+## entry 680
+
+Caller owns the returned array; free with a single `free`.
