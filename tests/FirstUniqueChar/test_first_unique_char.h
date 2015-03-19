@@ -298,3 +298,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 273: Time complexity: O(n).
 // edge note 274: Two passes: one to count, one to fill.
 // edge note 275: Tail-recursive; the compiler turns it into a loop.
+// edge note 276: Uses a 256-entry lookup for the inner step.
