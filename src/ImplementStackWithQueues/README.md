@@ -2796,3 +2796,7 @@ Runs in a single pass over the input.
 ## entry 684
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 685
+
+Input is assumed non-NULL; behavior is undefined otherwise.
