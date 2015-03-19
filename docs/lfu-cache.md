@@ -1947,3 +1947,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 487
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 488
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
