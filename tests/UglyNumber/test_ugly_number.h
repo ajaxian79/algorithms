@@ -313,3 +313,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 284: Cache-friendly; one sequential read pass.
 // edge note 285: Reentrant — no static state.
 // edge note 286: Handles single-element input as a base case.
+// edge note 287: Edge case: empty input → returns 0.
