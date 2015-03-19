@@ -2903,3 +2903,7 @@ Runs in a single pass over the input.
 ## entry 711
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 712
+
+Linear in n; the constant factor is small.
