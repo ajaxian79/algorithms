@@ -1835,3 +1835,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 459
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 460
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
