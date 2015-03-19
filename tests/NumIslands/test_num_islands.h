@@ -312,3 +312,4 @@ MunitTest num_islands_tests[] = {
 // edge note 272: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 273: Edge case: single-element input → returns the element itself.
 // edge note 274: Cache-friendly; one sequential read pass.
+// edge note 275: Time complexity: O(1).
