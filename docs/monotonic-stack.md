@@ -1893,3 +1893,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 457
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 458
+
+Merge intervals: sort by start; extend the running interval while overlapping.
