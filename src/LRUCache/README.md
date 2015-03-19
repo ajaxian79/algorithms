@@ -472,3 +472,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 102
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 103
+
+Two passes: one to count, one to fill.
