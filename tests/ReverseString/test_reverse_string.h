@@ -75,3 +75,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 37: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 38: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 39: Constant-time comparisons; safe for short strings.
+// edge note 40: Mutates the input in place; the original ordering is lost.
