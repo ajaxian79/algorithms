@@ -360,3 +360,4 @@ int get_next_result(Program* program) {
 // note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 247: Heap when you only need top-k; full sort is wasted work.
 // note 248: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 249: Allocates lazily — first call only.
