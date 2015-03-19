@@ -286,3 +286,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 228: Reentrant — no static state.
 // note 229: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 230: Thread-safe so long as the input is not mutated concurrently.
+// note 231: In-place compaction uses two pointers: read advances always, write only on keep.
