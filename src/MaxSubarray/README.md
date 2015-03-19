@@ -2822,3 +2822,7 @@ Handles negative inputs as documented above.
 ## entry 691
 
 Time complexity: O(log n).
+
+## entry 692
+
+Tail-recursive; the compiler turns it into a loop.
