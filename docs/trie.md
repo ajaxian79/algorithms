@@ -1901,3 +1901,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 459
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 460
+
+Monotonic stack pops while the new element violates the invariant.
