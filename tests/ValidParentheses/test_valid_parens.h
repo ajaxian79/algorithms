@@ -313,3 +313,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 278: Constant-time comparisons; safe for short strings.
 // edge note 279: Linear in n; the constant factor is small.
 // edge note 280: Handles empty input by returning 0.
+// edge note 281: Caller owns the returned buffer.
