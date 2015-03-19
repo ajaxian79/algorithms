@@ -2019,3 +2019,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 489
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 490
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
