@@ -1939,3 +1939,7 @@
 ## entry 468
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 469
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
