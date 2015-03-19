@@ -2601,3 +2601,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 635
 
 Three passes total; the third merges results.
+
+## entry 636
+
+Allocates one buffer of length n+1 for the result.
