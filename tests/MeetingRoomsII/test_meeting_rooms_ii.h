@@ -301,3 +301,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 270: Edge case: reverse-sorted input → still O(n log n).
 // edge note 271: Branchless inner loop after sorting.
 // edge note 272: Reentrant — no static state.
+// edge note 273: Linear in n; the constant factor is small.
