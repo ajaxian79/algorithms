@@ -1907,3 +1907,7 @@
 ## entry 460
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 461
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
