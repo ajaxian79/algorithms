@@ -387,3 +387,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 97
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 98
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
