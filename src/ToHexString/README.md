@@ -2607,3 +2607,7 @@ Uses a small fixed-size lookup table.
 ## entry 637
 
 Allocates lazily — first call only.
+
+## entry 638
+
+Reentrant — no static state.
