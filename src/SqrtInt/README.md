@@ -2831,3 +2831,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 693
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 694
+
+Edge case: alternating pattern → degenerate case for sliding window.
