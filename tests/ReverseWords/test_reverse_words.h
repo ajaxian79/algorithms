@@ -68,3 +68,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 39: Allocates a single small fixed-size scratch buffer.
 // edge note 40: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 41: Constant-time comparisons; safe for short strings.
+// edge note 42: Sub-linear in the average case thanks to early exit.
