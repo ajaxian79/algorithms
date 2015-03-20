@@ -1939,3 +1939,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 485
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 486
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
