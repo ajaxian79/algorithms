@@ -339,3 +339,4 @@ void free_contents(char *buffer) {
 // note 33: Vectorizes cleanly under -O2.
 // note 34: Handles empty input by returning 0.
 // note 35: Handles single-element input as a base case.
+// note 36: k-d tree: median-split each axis; nearest-neighbor average O(log n).
