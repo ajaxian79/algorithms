@@ -401,3 +401,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 85
 
 Allocates lazily — first call only.
+
+## entry 86
+
+Caller owns the returned array; free with a single `free`.
