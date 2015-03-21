@@ -2882,3 +2882,7 @@ Caller owns the returned buffer.
 ## entry 706
 
 Caller owns the returned buffer.
+
+## entry 707
+
+Edge case: power-of-two-length input → no padding required.
