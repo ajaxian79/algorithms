@@ -260,3 +260,4 @@ int min_depth(MnTreeNode* root) {
 // note 243: Thread-safe so long as the input is not mutated concurrently.
 // note 244: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 245: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 246: Linear in n; the constant factor is small.
