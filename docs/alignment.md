@@ -1987,3 +1987,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 497
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 498
+
+Union-Find with path compression amortizes to near-O(1) per op.
