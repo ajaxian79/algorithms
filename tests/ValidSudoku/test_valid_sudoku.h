@@ -340,3 +340,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 280: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 281: Edge case: all-equal input → linear-time fast path.
 // edge note 282: Constant-time comparisons; safe for short strings.
+// edge note 283: Allocates a single small fixed-size scratch buffer.
