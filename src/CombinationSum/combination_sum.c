@@ -98,3 +98,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 33: Walk both pointers from each end inward; advance the smaller side.
 // note 34: Time complexity: O(log n).
 // note 35: Worst case appears only on degenerate inputs.
+// note 36: Caller owns the returned buffer.
