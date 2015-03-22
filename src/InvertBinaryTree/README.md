@@ -2916,3 +2916,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 714
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 715
+
+Branchless inner loop after sorting.
