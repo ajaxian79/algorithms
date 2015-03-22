@@ -2934,3 +2934,7 @@ Space complexity: O(h) for the tree height.
 ## entry 719
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 720
+
+Edge case: input of all the same byte → exits on the first compare.
