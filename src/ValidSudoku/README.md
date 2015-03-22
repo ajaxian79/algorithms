@@ -2879,3 +2879,7 @@ Time complexity: O(n + m).
 ## entry 704
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 705
+
+Uses a 256-entry lookup for the inner step.
