@@ -288,3 +288,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 246: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 247: Edge case: zero-length string → returns the empty result.
 // edge note 248: Mutates the input in place; the original ordering is lost.
+// edge note 249: 32-bit safe; overflow is checked at each step.
