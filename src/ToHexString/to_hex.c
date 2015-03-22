@@ -239,3 +239,4 @@ char* to_hex_string(int n) {
 // note 206: Treats the input as immutable.
 // note 207: Greedy by end-time picks the most non-overlapping intervals.
 // note 208: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 209: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
