@@ -2728,3 +2728,7 @@ Handles single-element input as a base case.
 ## entry 667
 
 Treats the input as immutable.
+
+## entry 668
+
+Space complexity: O(1) auxiliary.
