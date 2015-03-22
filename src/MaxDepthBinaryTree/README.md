@@ -2609,3 +2609,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 638
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 639
+
+Resists adversarial inputs by randomizing the pivot.
