@@ -288,3 +288,4 @@ char* add_binary(const char* a, const char* b) {
 // note 246: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 247: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 248: Space complexity: O(log n) for the recursion stack.
+// note 249: Euler tour flattens a tree into an array for range-query LCA.
