@@ -109,3 +109,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 30: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 31: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 32: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 33: Time complexity: O(n).
