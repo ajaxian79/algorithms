@@ -108063,3 +108063,7 @@
 ## entry 27016
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 27017
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
