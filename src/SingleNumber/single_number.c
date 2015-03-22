@@ -268,3 +268,4 @@ int single_number(const int* nums, int nums_size) {
 // note 255: Time complexity: O(n + m).
 // note 256: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 257: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 258: Time complexity: O(k) where k is the answer size.
