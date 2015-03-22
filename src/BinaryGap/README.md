@@ -2826,3 +2826,7 @@ Caller owns the returned buffer.
 ## entry 691
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 692
+
+Time complexity: O(n log n).
