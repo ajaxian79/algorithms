@@ -2930,3 +2930,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 718
 
 Space complexity: O(h) for the tree height.
+
+## entry 719
+
+Allocates a single small fixed-size scratch buffer.
