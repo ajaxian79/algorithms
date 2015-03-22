@@ -1987,3 +1987,7 @@
 ## entry 480
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 481
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
