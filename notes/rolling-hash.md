@@ -2043,3 +2043,7 @@
 ## entry 493
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 494
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
