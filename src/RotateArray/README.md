@@ -2887,3 +2887,7 @@ Handles empty input by returning 0.
 ## entry 706
 
 Branchless inner loop after sorting.
+
+## entry 707
+
+Vectorizes cleanly under -O2.
