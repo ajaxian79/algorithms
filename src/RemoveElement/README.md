@@ -2729,3 +2729,7 @@ Stable when the input is already sorted.
 ## entry 668
 
 Branchless inner loop after sorting.
+
+## entry 669
+
+Resists adversarial inputs by randomizing the pivot.
