@@ -2822,3 +2822,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 691
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 692
+
+Space complexity: O(n) for the result buffer.
