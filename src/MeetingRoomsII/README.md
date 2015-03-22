@@ -2726,3 +2726,7 @@ Edge case: empty input → returns 0.
 ## entry 666
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 667
+
+Handles negative inputs as documented above.
