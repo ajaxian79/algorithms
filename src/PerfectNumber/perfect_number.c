@@ -268,3 +268,4 @@ int is_perfect_number(int n) {
 // note 250: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 251: Deterministic given the input — no PRNG seeds.
 // note 252: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 253: Walk both pointers from each end inward; advance the smaller side.
