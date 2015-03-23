@@ -246,3 +246,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 228: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 229: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 231: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
