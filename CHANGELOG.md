@@ -108039,3 +108039,7 @@
 ## entry 27010
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 27011
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
