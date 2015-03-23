@@ -2884,3 +2884,7 @@ Handles empty input by returning 0.
 ## entry 706
 
 Time complexity: O(1).
+
+## entry 707
+
+Edge case: already-sorted input → no swaps performed.
