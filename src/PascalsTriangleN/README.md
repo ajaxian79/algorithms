@@ -2582,3 +2582,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 630
 
 Two passes: one to count, one to fill.
+
+## entry 631
+
+Time complexity: O(1).
