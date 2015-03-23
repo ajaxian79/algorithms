@@ -267,3 +267,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 236: Returns a freshly allocated string the caller must free.
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 238: Edge case: already-sorted input → no swaps performed.
+// edge note 239: Reentrant — no static state.
