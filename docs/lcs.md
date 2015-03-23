@@ -1967,3 +1967,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 474
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 475
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
