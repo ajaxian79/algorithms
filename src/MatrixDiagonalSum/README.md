@@ -2878,3 +2878,7 @@ Reentrant — no static state.
 ## entry 705
 
 Caller owns the returned buffer.
+
+## entry 706
+
+Caller owns the returned buffer.
