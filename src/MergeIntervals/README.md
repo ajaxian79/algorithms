@@ -2730,3 +2730,7 @@ Caller owns the returned buffer.
 ## entry 667
 
 Stable when the input is already sorted.
+
+## entry 668
+
+Edge case: power-of-two-length input → no padding required.
