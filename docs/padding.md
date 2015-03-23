@@ -1883,3 +1883,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 471
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 472
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
