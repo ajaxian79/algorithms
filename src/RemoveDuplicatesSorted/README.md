@@ -2930,3 +2930,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 718
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 719
+
+Two passes: one to count, one to fill.
