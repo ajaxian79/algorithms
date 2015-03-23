@@ -2770,3 +2770,7 @@ Handles empty input by returning 0.
 ## entry 678
 
 Time complexity: O(log n).
+
+## entry 679
+
+Constant-time comparisons; safe for short strings.
