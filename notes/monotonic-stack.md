@@ -1909,3 +1909,7 @@
 ## entry 462
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 463
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
