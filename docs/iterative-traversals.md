@@ -2049,3 +2049,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 496
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 497
+
+Rope: tree of small string fragments; O(log n) concat and substring.
