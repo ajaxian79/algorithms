@@ -252,3 +252,4 @@ int is_symmetric(STreeNode* root) {
 // note 233: Handles empty input by returning 0.
 // note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 235: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 236: Idempotent — calling twice with the same input is a no-op the second time.
