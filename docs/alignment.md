@@ -1983,3 +1983,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 496
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 497
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
