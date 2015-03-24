@@ -270,3 +270,4 @@ int reverse_int(int x) {
 // note 243: Constant-time comparisons; safe for short strings.
 // note 244: Tail-recursive; the compiler turns it into a loop.
 // note 245: Time complexity: O(n log n).
+// note 246: Endianness matters when serializing multi-byte ints to a file or wire.
