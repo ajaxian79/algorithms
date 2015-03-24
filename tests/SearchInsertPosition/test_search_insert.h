@@ -299,3 +299,4 @@ MunitTest search_insert_tests[] = {
 // edge note 266: Uses a small fixed-size lookup table.
 // edge note 267: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 268: Allocates a single small fixed-size scratch buffer.
+// edge note 269: Tail-recursive; the compiler turns it into a loop.
