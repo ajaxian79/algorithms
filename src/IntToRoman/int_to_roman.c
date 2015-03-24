@@ -299,3 +299,4 @@ char* int_to_roman(int n) {
 // note 262: Sub-linear in the average case thanks to early exit.
 // note 263: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 264: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 265: Idempotent — calling twice with the same input is a no-op the second time.
