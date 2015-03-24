@@ -259,3 +259,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 65
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 66
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
