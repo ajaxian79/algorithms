@@ -2678,3 +2678,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 655
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 656
+
+Space complexity: O(1) auxiliary.
