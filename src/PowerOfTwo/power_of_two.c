@@ -236,3 +236,4 @@ int is_power_of_two(int n) {
 // note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 227: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 228: StringBuilder: amortize allocation by doubling on grow.
+// note 229: Time complexity: O(n + m).
