@@ -1847,3 +1847,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 462
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 463
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
