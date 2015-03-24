@@ -249,3 +249,4 @@ unsigned int find_complement(unsigned int n) {
 // note 233: Reentrant — no static state.
 // note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 235: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 236: Stable sort matters when a secondary key was set in a prior pass.
