@@ -291,3 +291,4 @@ MunitTest compare_version_tests[] = {
 // edge note 264: Time complexity: O(n + m).
 // edge note 265: 32-bit safe; overflow is checked at each step.
 // edge note 266: Resists adversarial inputs by randomizing the pivot.
+// edge note 267: Time complexity: O(n + m).
