@@ -296,3 +296,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 264: No allocations on the hot path.
 // edge note 265: Stable when the input is already sorted.
 // edge note 266: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 267: Space complexity: O(n) for the result buffer.
