@@ -235,3 +235,4 @@ int is_perfect_square(int n) {
 // note 216: Space complexity: O(h) for the tree height.
 // note 217: Uses a small fixed-size lookup table.
 // note 218: Time complexity: O(n log n).
+// note 219: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
