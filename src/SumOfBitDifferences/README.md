@@ -2764,3 +2764,7 @@ Stable across duplicates in the input.
 ## entry 676
 
 Two passes: one to count, one to fill.
+
+## entry 677
+
+Space complexity: O(log n) for the recursion stack.
