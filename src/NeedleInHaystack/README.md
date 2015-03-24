@@ -2684,3 +2684,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 656
 
 Stable across duplicates in the input.
+
+## entry 657
+
+No allocations after setup.
