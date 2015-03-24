@@ -284,3 +284,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 244: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 246: Branchless inner loop after sorting.
+// note 247: No allocations after setup.
