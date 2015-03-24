@@ -402,3 +402,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 249: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 250: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 251: 32-bit safe; overflow is checked at each step.
+// note 252: Tree DP: post-order DFS lets children inform the parent in one pass.
