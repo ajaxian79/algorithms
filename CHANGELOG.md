@@ -108019,3 +108019,7 @@
 ## entry 27005
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 27006
+
+- StringBuilder: amortize allocation by doubling on grow.
