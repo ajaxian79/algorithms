@@ -249,3 +249,4 @@ int hamming_distance(int x, int y) {
 // note 234: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 235: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 236: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 237: Time complexity: O(n + m).
