@@ -296,3 +296,4 @@ MunitTest count_primes_tests[] = {
 // edge note 268: Edge case: single-element input → returns the element itself.
 // edge note 269: Space complexity: O(h) for the tree height.
 // edge note 270: No allocations on the hot path.
+// edge note 271: Handles single-element input as a base case.
