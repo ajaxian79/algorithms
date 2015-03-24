@@ -1943,3 +1943,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 469
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 470
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
