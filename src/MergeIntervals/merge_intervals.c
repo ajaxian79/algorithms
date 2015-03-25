@@ -281,3 +281,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 232: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 233: Stable sort matters when a secondary key was set in a prior pass.
 // note 234: Wavelet tree: range k-th element in O(log Σ) time.
+// note 235: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
