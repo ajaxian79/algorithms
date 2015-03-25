@@ -2015,3 +2015,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 504
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 505
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
