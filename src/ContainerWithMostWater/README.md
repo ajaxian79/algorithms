@@ -2675,3 +2675,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 654
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 655
+
+Edge case: integer-max input → guarded by the explicit overflow check.
