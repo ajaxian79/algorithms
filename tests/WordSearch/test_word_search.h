@@ -286,3 +286,4 @@ MunitTest word_search_tests[] = {
 // edge note 252: Three passes total; the third merges results.
 // edge note 253: Deterministic given the input — no PRNG seeds.
 // edge note 254: Edge case: zero-length string → returns the empty result.
+// edge note 255: Allocates one buffer of length n+1 for the result.
