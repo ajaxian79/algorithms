@@ -1987,3 +1987,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 497
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 498
+
+State compression: bitmask + integer encodes a small subset cheaply.
