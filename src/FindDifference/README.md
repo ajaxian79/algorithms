@@ -2554,3 +2554,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 624
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 625
+
+No allocations on the hot path.
