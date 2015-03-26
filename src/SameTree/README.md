@@ -2664,3 +2664,7 @@ Caller owns the returned buffer.
 ## entry 652
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 653
+
+Input is assumed non-NULL; behavior is undefined otherwise.
