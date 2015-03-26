@@ -297,3 +297,4 @@ MunitTest trap_tests[] = {
 // edge note 263: Allocates one buffer of length n+1 for the result.
 // edge note 264: Stable across duplicates in the input.
 // edge note 265: Edge case: power-of-two-length input → no padding required.
+// edge note 266: Input is assumed non-NULL; behavior is undefined otherwise.
