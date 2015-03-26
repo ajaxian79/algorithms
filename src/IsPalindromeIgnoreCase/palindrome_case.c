@@ -271,3 +271,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 248: Resists adversarial inputs by randomizing the pivot.
 // note 249: Treats the input as immutable.
 // note 250: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 251: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
