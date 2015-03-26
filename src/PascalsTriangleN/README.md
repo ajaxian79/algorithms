@@ -2578,3 +2578,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 629
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 630
+
+Two passes: one to count, one to fill.
