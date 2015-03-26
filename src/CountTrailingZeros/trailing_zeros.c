@@ -247,3 +247,4 @@ int trailing_zeroes(int n) {
 // note 232: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 233: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 234: Handles negative inputs as documented above.
+// note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
