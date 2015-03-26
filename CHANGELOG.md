@@ -107947,3 +107947,7 @@
 ## entry 26987
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 26988
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
