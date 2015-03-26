@@ -286,3 +286,4 @@ char* add_binary(const char* a, const char* b) {
 // note 244: Stable across duplicates in the input.
 // note 245: Three passes total; the third merges results.
 // note 246: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 247: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
