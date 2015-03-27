@@ -2726,3 +2726,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 666
 
 Caller owns the returned buffer.
+
+## entry 667
+
+Stable when the input is already sorted.
