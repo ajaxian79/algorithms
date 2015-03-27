@@ -2880,3 +2880,7 @@ Handles negative inputs as documented above.
 ## entry 705
 
 Handles empty input by returning 0.
+
+## entry 706
+
+Time complexity: O(1).
