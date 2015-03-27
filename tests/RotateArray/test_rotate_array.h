@@ -289,3 +289,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 251: Sub-linear in the average case thanks to early exit.
 // edge note 252: Handles empty input by returning 0.
 // edge note 253: Thread-safe so long as the input is not mutated concurrently.
+// edge note 254: Treats the input as immutable.
