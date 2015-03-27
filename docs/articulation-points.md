@@ -1931,3 +1931,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 483
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 484
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
