@@ -284,3 +284,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 226: Returns a freshly allocated string the caller must free.
 // note 227: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 228: Reentrant — no static state.
+// note 229: Fenwick supports prefix-sum updates in O(log n) with a flat array.
