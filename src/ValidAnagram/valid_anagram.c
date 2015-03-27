@@ -267,3 +267,4 @@ int is_anagram(const char* s, const char* t) {
 // note 238: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 239: Allocates lazily — first call only.
 // note 240: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 241: Time complexity: O(n + m).
