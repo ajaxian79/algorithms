@@ -261,3 +261,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 230: Cache-friendly; one sequential read pass.
 // edge note 231: Space complexity: O(h) for the tree height.
 // edge note 232: Edge case: input of all the same byte → exits on the first compare.
+// edge note 233: Branchless inner loop after sorting.
