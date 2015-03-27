@@ -312,3 +312,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 269: Thread-safe so long as the input is not mutated concurrently.
 // edge note 270: Stable across duplicates in the input.
 // edge note 271: Space complexity: O(log n) for the recursion stack.
+// edge note 272: Time complexity: O(n).
