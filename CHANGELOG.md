@@ -107951,3 +107951,7 @@
 ## entry 26988
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 26989
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
