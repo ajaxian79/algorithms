@@ -302,3 +302,4 @@ MunitTest plus_one_tests[] = {
 // edge note 237: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 238: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 239: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 240: Avoids floating-point entirely — integer math throughout.
