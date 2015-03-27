@@ -269,3 +269,4 @@ int reverse_int(int x) {
 // note 242: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 243: Constant-time comparisons; safe for short strings.
 // note 244: Tail-recursive; the compiler turns it into a loop.
+// note 245: Time complexity: O(n log n).
