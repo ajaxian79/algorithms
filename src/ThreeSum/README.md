@@ -2773,3 +2773,7 @@ No allocations on the hot path.
 ## entry 678
 
 Reentrant — no static state.
+
+## entry 679
+
+Two passes: one to count, one to fill.
