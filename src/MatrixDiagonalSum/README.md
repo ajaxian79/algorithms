@@ -474,3 +474,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 104
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 105
+
+Avoids floating-point entirely — integer math throughout.
