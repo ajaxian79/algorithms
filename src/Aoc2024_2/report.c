@@ -424,3 +424,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 215: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 216: Wavelet tree: range k-th element in O(log Σ) time.
 // note 217: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 218: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
