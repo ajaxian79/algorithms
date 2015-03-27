@@ -2789,3 +2789,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 682
 
 Time complexity: O(n).
+
+## entry 683
+
+Thread-safe so long as the input is not mutated concurrently.
