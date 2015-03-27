@@ -1945,3 +1945,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 469
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 470
+
+Union-Find with path compression amortizes to near-O(1) per op.
