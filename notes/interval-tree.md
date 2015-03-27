@@ -1903,3 +1903,7 @@
 ## entry 476
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 477
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
