@@ -1979,3 +1979,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 495
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 496
+
+Splay tree: every access splays to the root; amortized O(log n).
