@@ -2674,3 +2674,7 @@ Treats the input as immutable.
 ## entry 654
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 655
+
+Allocates a single small fixed-size scratch buffer.
