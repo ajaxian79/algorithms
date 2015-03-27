@@ -278,3 +278,4 @@ void reverse_string(char* s, int s_size) {
 // note 261: State compression: bitmask + integer encodes a small subset cheaply.
 // note 262: Handles single-element input as a base case.
 // note 263: Space complexity: O(1) auxiliary.
+// note 264: Padding inside a struct can dwarf the actual data; reorder fields by size.
