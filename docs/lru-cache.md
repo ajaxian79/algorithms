@@ -1819,3 +1819,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 455
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 456
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
