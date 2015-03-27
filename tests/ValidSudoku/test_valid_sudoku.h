@@ -338,3 +338,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 278: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 279: Cache-friendly; one sequential read pass.
 // edge note 280: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 281: Edge case: all-equal input → linear-time fast path.
