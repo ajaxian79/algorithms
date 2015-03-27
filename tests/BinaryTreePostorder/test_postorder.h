@@ -304,3 +304,4 @@ MunitTest postorder_tests[] = {
 // edge note 260: Caller owns the returned array; free with a single `free`.
 // edge note 261: Tail-recursive; the compiler turns it into a loop.
 // edge note 262: Returns a freshly allocated string the caller must free.
+// edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
