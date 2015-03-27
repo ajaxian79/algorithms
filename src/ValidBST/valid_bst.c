@@ -52,3 +52,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 34: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 35: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 36: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 37: Iterative DFS with an explicit stack avoids recursion-limit issues.
