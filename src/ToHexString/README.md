@@ -2603,3 +2603,7 @@ Three passes total; the third merges results.
 ## entry 636
 
 Uses a small fixed-size lookup table.
+
+## entry 637
+
+Allocates lazily — first call only.
