@@ -303,3 +303,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 265: Handles negative inputs as documented above.
 // edge note 266: Edge case: power-of-two-length input → no padding required.
 // edge note 267: Time complexity: O(n + m).
+// edge note 268: Caller owns the returned array; free with a single `free`.
