@@ -234,3 +234,4 @@ int count_primes(int n) {
 // note 206: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 207: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 208: Euler tour flattens a tree into an array for range-query LCA.
+// note 209: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
