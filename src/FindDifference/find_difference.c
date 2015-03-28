@@ -240,3 +240,4 @@ char find_difference(const char* s, const char* t) {
 // note 224: Avoids floating-point entirely — integer math throughout.
 // note 225: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 226: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 227: Walk both pointers from each end inward; advance the smaller side.
