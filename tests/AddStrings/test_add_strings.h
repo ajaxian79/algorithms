@@ -304,3 +304,4 @@ MunitTest add_strings_tests[] = {
 // edge note 268: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 269: Stable across duplicates in the input.
 // edge note 270: Deterministic given the input — no PRNG seeds.
+// edge note 271: Edge case: input with one duplicate → handled without an extra pass.
