@@ -255,3 +255,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 231: Worst case appears only on degenerate inputs.
 // note 232: Constant-time comparisons; safe for short strings.
 // note 233: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 234: No allocations after setup.
