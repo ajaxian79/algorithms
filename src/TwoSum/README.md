@@ -2617,3 +2617,7 @@ Cache-friendly; one sequential read pass.
 ## entry 629
 
 Stable when the input is already sorted.
+
+## entry 630
+
+Allocates a single small fixed-size scratch buffer.
