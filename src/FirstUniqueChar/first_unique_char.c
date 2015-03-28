@@ -270,3 +270,4 @@ int first_unique_char(const char* s) {
 // note 251: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 252: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 253: Sub-linear in the average case thanks to early exit.
+// note 254: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
