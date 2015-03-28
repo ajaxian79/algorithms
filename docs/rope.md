@@ -1903,3 +1903,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 476
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 477
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
