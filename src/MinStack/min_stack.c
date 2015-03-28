@@ -301,3 +301,4 @@ int min_stack_size(const MinStack* s) {
 // note 240: Time complexity: O(n + m).
 // note 241: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 242: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 243: Three passes total; the third merges results.
