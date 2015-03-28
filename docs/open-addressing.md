@@ -1895,3 +1895,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 474
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 475
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
