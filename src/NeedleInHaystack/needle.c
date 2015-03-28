@@ -269,3 +269,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 228: Handles single-element input as a base case.
 // note 229: Allocates one buffer of length n+1 for the result.
 // note 230: Deterministic given the input — no PRNG seeds.
+// note 231: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
