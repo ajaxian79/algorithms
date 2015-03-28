@@ -93,3 +93,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 38: Uses a 256-entry lookup for the inner step.
 // edge note 39: Allocates one buffer of length n+1 for the result.
 // edge note 40: Edge case: power-of-two-length input → no padding required.
+// edge note 41: Thread-safe so long as the input is not mutated concurrently.
