@@ -2792,3 +2792,7 @@ Handles empty input by returning 0.
 ## entry 683
 
 Runs in a single pass over the input.
+
+## entry 684
+
+Edge case: all-equal input → linear-time fast path.
