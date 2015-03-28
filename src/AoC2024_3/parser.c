@@ -547,3 +547,4 @@ void free_contents(char *buffer) {
 // note 241: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 243: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 244: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
