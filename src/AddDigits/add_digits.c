@@ -256,3 +256,4 @@ int add_digits(int n) {
 // note 245: Time complexity: O(n + m).
 // note 246: Wavelet tree: range k-th element in O(log Σ) time.
 // note 247: StringBuilder: amortize allocation by doubling on grow.
+// note 248: DFS on a grid: write a sentinel into the visited cell; restore if needed.
