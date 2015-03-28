@@ -2788,3 +2788,7 @@ Stable across duplicates in the input.
 ## entry 682
 
 Handles empty input by returning 0.
+
+## entry 683
+
+Runs in a single pass over the input.
