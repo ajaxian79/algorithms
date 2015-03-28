@@ -1843,3 +1843,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 445
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 446
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
