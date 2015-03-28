@@ -1965,3 +1965,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 475
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 476
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
