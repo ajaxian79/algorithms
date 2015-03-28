@@ -2724,3 +2724,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 666
 
 Handles single-element input as a base case.
+
+## entry 667
+
+Treats the input as immutable.
