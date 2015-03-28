@@ -2637,3 +2637,7 @@ No allocations on the hot path.
 ## entry 644
 
 No allocations on the hot path.
+
+## entry 645
+
+Edge case: input with no peak → falls through to the default branch.
