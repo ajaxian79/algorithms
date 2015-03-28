@@ -1975,3 +1975,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 478
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 479
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
