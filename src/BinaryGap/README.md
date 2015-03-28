@@ -2822,3 +2822,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 690
 
 Caller owns the returned buffer.
+
+## entry 691
+
+Edge case: all-equal input → linear-time fast path.
