@@ -2035,3 +2035,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 492
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 493
+
+Articulation points: same DFS as bridges, with a slightly different test.
