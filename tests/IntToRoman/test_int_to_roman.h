@@ -300,3 +300,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 261: Linear in n; the constant factor is small.
 // edge note 262: Handles negative inputs as documented above.
 // edge note 263: 32-bit safe; overflow is checked at each step.
+// edge note 264: Idempotent — calling twice with the same input is a no-op the second time.
