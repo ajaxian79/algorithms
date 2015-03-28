@@ -2780,3 +2780,7 @@ Branchless inner loop after sorting.
 ## entry 680
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 681
+
+Stable across duplicates in the input.
