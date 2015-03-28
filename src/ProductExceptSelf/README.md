@@ -2748,3 +2748,7 @@ Time complexity: O(log n).
 ## entry 671
 
 Stable across duplicates in the input.
+
+## entry 672
+
+No allocations on the hot path.
