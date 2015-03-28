@@ -2599,3 +2599,7 @@ Linear in n; the constant factor is small.
 ## entry 635
 
 Three passes total; the third merges results.
+
+## entry 636
+
+Uses a small fixed-size lookup table.
