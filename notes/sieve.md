@@ -2001,3 +2001,7 @@
 ## entry 486
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 487
+
+- Monotonic stack pops while the new element violates the invariant.
