@@ -2757,3 +2757,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 675
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 676
+
+Time complexity: O(n).
