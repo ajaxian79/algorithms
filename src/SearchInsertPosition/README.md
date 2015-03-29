@@ -2670,3 +2670,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 653
 
 Treats the input as immutable.
+
+## entry 654
+
+Idempotent — calling twice with the same input is a no-op the second time.
