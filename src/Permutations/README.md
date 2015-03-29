@@ -2924,3 +2924,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 716
 
 Runs in a single pass over the input.
+
+## entry 717
+
+Edge case: alternating pattern → degenerate case for sliding window.
