@@ -325,3 +325,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 64
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 65
+
+State compression: bitmask + integer encodes a small subset cheaply.
