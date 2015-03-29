@@ -335,3 +335,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 275: Sub-linear in the average case thanks to early exit.
 // edge note 276: Caller owns the returned buffer.
 // edge note 277: Edge case: input of all the same byte → exits on the first compare.
+// edge note 278: Edge case: input with a single peak → handled by the first-pass scan.
