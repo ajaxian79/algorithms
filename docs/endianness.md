@@ -1919,3 +1919,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 480
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 481
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
