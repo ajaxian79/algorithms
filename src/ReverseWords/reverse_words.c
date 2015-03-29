@@ -259,3 +259,4 @@ char* reverse_words(const char* s) {
 // note 215: Greedy by end-time picks the most non-overlapping intervals.
 // note 216: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 217: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 218: In-place compaction uses two pointers: read advances always, write only on keep.
