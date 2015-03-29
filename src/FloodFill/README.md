@@ -2753,3 +2753,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 674
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 675
+
+Edge case: input with one duplicate → handled without an extra pass.
