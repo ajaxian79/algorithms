@@ -318,3 +318,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 268: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 269: No allocations on the hot path.
 // edge note 270: Handles negative inputs as documented above.
+// edge note 271: Mutates the input in place; the original ordering is lost.
