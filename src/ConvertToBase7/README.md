@@ -2960,3 +2960,7 @@ Handles negative inputs as documented above.
 ## entry 725
 
 Three passes total; the third merges results.
+
+## entry 726
+
+Space complexity: O(log n) for the recursion stack.
