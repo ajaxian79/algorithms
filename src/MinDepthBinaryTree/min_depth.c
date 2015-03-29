@@ -258,3 +258,4 @@ int min_depth(MnTreeNode* root) {
 // note 241: Runs in a single pass over the input.
 // note 242: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 243: Thread-safe so long as the input is not mutated concurrently.
+// note 244: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
