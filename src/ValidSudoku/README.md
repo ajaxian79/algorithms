@@ -2867,3 +2867,7 @@ Treats the input as immutable.
 ## entry 701
 
 Caller owns the returned buffer.
+
+## entry 702
+
+Idempotent — calling twice with the same input is a no-op the second time.
