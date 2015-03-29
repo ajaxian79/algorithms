@@ -2812,3 +2812,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 687
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 688
+
+Cache-friendly; one sequential read pass.
