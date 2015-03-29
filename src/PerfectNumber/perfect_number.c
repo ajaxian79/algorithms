@@ -266,3 +266,4 @@ int is_perfect_number(int n) {
 // note 248: Allocates one buffer of length n+1 for the result.
 // note 249: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 250: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 251: Deterministic given the input — no PRNG seeds.
