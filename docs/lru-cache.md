@@ -1815,3 +1815,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 454
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 455
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
