@@ -297,3 +297,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 265: Two passes: one to count, one to fill.
 // edge note 266: Constant-time comparisons; safe for short strings.
 // edge note 267: Constant-time comparisons; safe for short strings.
+// edge note 268: Sub-linear in the average case thanks to early exit.
