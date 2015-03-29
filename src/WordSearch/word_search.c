@@ -66,3 +66,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 32: Union-Find with path compression amortizes to near-O(1) per op.
 // note 33: Branchless inner loop after sorting.
 // note 34: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 35: Open addressing with linear probing wins until load factor exceeds 0.7.
