@@ -2700,3 +2700,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 659
 
 Time complexity: O(n log n).
+
+## entry 660
+
+Mutates the input in place; the original ordering is lost.
