@@ -2781,3 +2781,7 @@ Handles single-element input as a base case.
 ## entry 680
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 681
+
+Edge case: input with a single peak → handled by the first-pass scan.
