@@ -2682,3 +2682,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 655
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 656
+
+Time complexity: O(k) where k is the answer size.
