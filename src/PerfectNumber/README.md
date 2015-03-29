@@ -2633,3 +2633,7 @@ Three passes total; the third merges results.
 ## entry 643
 
 No allocations on the hot path.
+
+## entry 644
+
+No allocations on the hot path.
