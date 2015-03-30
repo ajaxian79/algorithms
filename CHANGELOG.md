@@ -107783,3 +107783,7 @@
 ## entry 26946
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 26947
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
