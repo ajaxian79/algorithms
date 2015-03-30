@@ -2891,3 +2891,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 708
 
 Edge case: single-element input → returns the element itself.
+
+## entry 709
+
+Time complexity: O(n + m).
