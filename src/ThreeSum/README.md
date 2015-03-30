@@ -2769,3 +2769,7 @@ No allocations on the hot path.
 ## entry 677
 
 No allocations on the hot path.
+
+## entry 678
+
+Reentrant — no static state.
