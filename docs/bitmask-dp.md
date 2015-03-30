@@ -2011,3 +2011,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 503
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 504
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
