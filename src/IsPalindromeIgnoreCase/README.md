@@ -2666,3 +2666,7 @@ Time complexity: O(n log n).
 ## entry 652
 
 Constant-time comparisons; safe for short strings.
+
+## entry 653
+
+Stable when the input is already sorted.
