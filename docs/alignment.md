@@ -1975,3 +1975,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 494
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 495
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
