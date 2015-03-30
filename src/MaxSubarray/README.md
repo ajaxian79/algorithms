@@ -2818,3 +2818,7 @@ Three passes total; the third merges results.
 ## entry 690
 
 Handles negative inputs as documented above.
+
+## entry 691
+
+Time complexity: O(log n).
