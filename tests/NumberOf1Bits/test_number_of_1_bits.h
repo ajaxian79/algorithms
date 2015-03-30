@@ -307,3 +307,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 280: Sub-linear in the average case thanks to early exit.
 // edge note 281: No allocations after setup.
 // edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 283: Time complexity: O(k) where k is the answer size.
