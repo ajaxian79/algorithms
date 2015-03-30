@@ -2722,3 +2722,7 @@ Time complexity: O(n).
 ## entry 665
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 666
+
+Caller owns the returned buffer.
