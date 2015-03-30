@@ -107807,3 +107807,7 @@
 ## entry 26952
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 26953
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
