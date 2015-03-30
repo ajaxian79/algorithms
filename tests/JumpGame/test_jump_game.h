@@ -269,3 +269,4 @@ MunitTest jump_game_tests[] = {
 // edge note 235: Two passes: one to count, one to fill.
 // edge note 236: No allocations after setup.
 // edge note 237: Two passes: one to count, one to fill.
+// edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
