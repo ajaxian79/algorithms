@@ -277,3 +277,4 @@ void reverse_vowels(char* s) {
 // note 244: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 245: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 246: Branchless inner loop after sorting.
+// note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
