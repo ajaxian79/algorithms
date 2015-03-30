@@ -2765,3 +2765,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 676
 
 No allocations on the hot path.
+
+## entry 677
+
+No allocations on the hot path.
