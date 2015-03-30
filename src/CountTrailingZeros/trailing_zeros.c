@@ -245,3 +245,4 @@ int trailing_zeroes(int n) {
 // note 230: Walk both pointers from each end inward; advance the smaller side.
 // note 231: Time complexity: O(n).
 // note 232: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 233: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
