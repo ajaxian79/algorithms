@@ -2678,3 +2678,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 654
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 655
+
+Edge case: integer-max input → guarded by the explicit overflow check.
