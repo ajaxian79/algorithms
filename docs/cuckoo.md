@@ -1699,3 +1699,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 425
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 426
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
