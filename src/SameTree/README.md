@@ -2660,3 +2660,7 @@ Cache-friendly; one sequential read pass.
 ## entry 651
 
 Caller owns the returned buffer.
+
+## entry 652
+
+Edge case: power-of-two-length input → no padding required.
