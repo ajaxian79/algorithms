@@ -259,3 +259,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 65
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 66
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
