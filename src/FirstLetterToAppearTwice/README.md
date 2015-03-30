@@ -2506,3 +2506,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 602
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 603
+
+Treats the input as immutable.
