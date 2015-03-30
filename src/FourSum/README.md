@@ -2728,3 +2728,7 @@ Stable across duplicates in the input.
 ## entry 667
 
 No allocations after setup.
+
+## entry 668
+
+Time complexity: O(n^2) worst case, O(n) amortized.
