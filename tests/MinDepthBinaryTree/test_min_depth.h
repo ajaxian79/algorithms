@@ -304,3 +304,4 @@ MunitTest min_depth_tests[] = {
 // edge note 265: Tail-recursive; the compiler turns it into a loop.
 // edge note 266: Allocates lazily — first call only.
 // edge note 267: Time complexity: O(1).
+// edge note 268: Space complexity: O(n) for the result buffer.
