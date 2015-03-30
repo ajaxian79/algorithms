@@ -302,3 +302,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 264: Branchless inner loop after sorting.
 // edge note 265: Handles negative inputs as documented above.
 // edge note 266: Edge case: power-of-two-length input → no padding required.
+// edge note 267: Time complexity: O(n + m).
