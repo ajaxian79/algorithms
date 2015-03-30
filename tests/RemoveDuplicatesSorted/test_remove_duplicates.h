@@ -315,3 +315,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 279: Edge case: already-sorted input → no swaps performed.
 // edge note 280: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 281: Handles empty input by returning 0.
+// edge note 282: Edge case: reverse-sorted input → still O(n log n).
