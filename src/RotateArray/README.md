@@ -2883,3 +2883,7 @@ Edge case: empty input → returns 0.
 ## entry 705
 
 Handles empty input by returning 0.
+
+## entry 706
+
+Branchless inner loop after sorting.
