@@ -2595,3 +2595,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 634
 
 Linear in n; the constant factor is small.
+
+## entry 635
+
+Three passes total; the third merges results.
