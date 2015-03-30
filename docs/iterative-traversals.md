@@ -2041,3 +2041,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 494
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 495
+
+Stable sort matters when a secondary key was set in a prior pass.
