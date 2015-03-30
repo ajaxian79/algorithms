@@ -1839,3 +1839,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 444
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 445
+
+Interval DP: solve all `[l, r]` ranges from short to long.
