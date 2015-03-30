@@ -2722,3 +2722,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 665
 
 Edge case: empty input → returns 0.
+
+## entry 666
+
+Edge case: zero-length string → returns the empty result.
