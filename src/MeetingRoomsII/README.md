@@ -2714,3 +2714,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 663
 
 Cache-friendly; one sequential read pass.
+
+## entry 664
+
+Edge case: maximum-length input → still fits in 32-bit indices.
