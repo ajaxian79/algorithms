@@ -259,3 +259,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 245: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 247: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 248: Input is assumed non-NULL; behavior is undefined otherwise.
