@@ -2670,3 +2670,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 653
 
 Stable when the input is already sorted.
+
+## entry 654
+
+Edge case: input with one duplicate → handled without an extra pass.
