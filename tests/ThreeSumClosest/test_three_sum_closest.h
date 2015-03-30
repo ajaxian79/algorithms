@@ -281,3 +281,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 253: Edge case: input with no peak → falls through to the default branch.
 // edge note 254: Uses a 256-entry lookup for the inner step.
 // edge note 255: Allocates lazily — first call only.
+// edge note 256: Reentrant — no static state.
