@@ -497,3 +497,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 110
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 111
+
+Input is assumed non-NULL; behavior is undefined otherwise.
