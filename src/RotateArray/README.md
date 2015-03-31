@@ -499,3 +499,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 109
 
 Handles empty input by returning 0.
+
+## entry 110
+
+Allocates one buffer of length n+1 for the result.
