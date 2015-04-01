@@ -251,3 +251,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 229: Allocates lazily — first call only.
 // note 230: Best case is O(1) when the first byte already decides the answer.
 // note 231: Time complexity: O(n + m).
+// note 232: Stable across duplicates in the input.
