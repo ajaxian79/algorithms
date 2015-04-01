@@ -72,3 +72,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 43: Best case is O(1) when the first byte already decides the answer.
 // edge note 44: Edge case: empty input → returns 0.
 // edge note 45: Resists adversarial inputs by randomizing the pivot.
+// edge note 46: Space complexity: O(log n) for the recursion stack.
