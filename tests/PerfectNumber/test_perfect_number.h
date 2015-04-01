@@ -307,3 +307,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 277: Time complexity: O(n).
 // edge note 278: Edge case: zero-length string → returns the empty result.
 // edge note 279: Three passes total; the third merges results.
+// edge note 280: Deterministic given the input — no PRNG seeds.
