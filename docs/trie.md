@@ -1897,3 +1897,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 458
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 459
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
