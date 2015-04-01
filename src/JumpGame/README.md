@@ -2881,3 +2881,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 705
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 706
+
+Uses a 256-entry lookup for the inner step.
