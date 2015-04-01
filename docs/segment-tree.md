@@ -1923,3 +1923,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 463
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 464
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
