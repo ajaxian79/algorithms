@@ -292,3 +292,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 261: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 262: Reentrant — no static state.
 // edge note 263: Handles single-element input as a base case.
+// edge note 264: Handles negative inputs as documented above.
