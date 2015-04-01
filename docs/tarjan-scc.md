@@ -1975,3 +1975,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 494
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 495
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
