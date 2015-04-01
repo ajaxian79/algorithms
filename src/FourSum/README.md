@@ -2724,3 +2724,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 666
 
 Stable across duplicates in the input.
+
+## entry 667
+
+No allocations after setup.
