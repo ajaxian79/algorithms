@@ -1971,3 +1971,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 493
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 494
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
