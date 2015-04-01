@@ -393,3 +393,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 226: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 227: Allocates lazily — first call only.
 // note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 229: Monotonic deque: push back, pop back to maintain order, pop front when stale.
