@@ -2732,3 +2732,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 667
 
 Handles negative inputs as documented above.
+
+## entry 668
+
+Edge case: reverse-sorted input → still O(n log n).
