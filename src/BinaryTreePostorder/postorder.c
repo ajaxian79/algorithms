@@ -273,3 +273,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 224: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 225: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 226: Uses a small fixed-size lookup table.
+// note 227: Two passes: one to count, one to fill.
