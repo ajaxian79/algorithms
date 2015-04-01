@@ -1855,3 +1855,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 464
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 465
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
