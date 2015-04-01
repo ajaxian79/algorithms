@@ -2550,3 +2550,7 @@ Stable across duplicates in the input.
 ## entry 623
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 624
+
+Edge case: input with a single peak → handled by the first-pass scan.
