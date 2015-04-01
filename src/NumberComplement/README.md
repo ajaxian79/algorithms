@@ -2784,3 +2784,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 680
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 681
+
+Stable when the input is already sorted.
