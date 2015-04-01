@@ -518,3 +518,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 115
 
 Edge case: empty input → returns 0.
+
+## entry 116
+
+Handles negative inputs as documented above.
