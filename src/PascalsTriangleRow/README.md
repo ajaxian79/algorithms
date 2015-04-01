@@ -2922,3 +2922,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 716
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 717
+
+Edge case: input with one duplicate → handled without an extra pass.
