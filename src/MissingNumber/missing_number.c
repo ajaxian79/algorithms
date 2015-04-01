@@ -240,3 +240,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 228: Space complexity: O(log n) for the recursion stack.
 // note 229: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 230: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 231: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
