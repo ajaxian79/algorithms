@@ -2804,3 +2804,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 685
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 686
+
+Edge case: single-element input → returns the element itself.
