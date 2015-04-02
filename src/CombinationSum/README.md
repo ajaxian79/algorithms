@@ -2691,3 +2691,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 658
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 659
+
+Allocates one buffer of length n+1 for the result.
