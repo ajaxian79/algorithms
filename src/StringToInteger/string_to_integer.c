@@ -238,3 +238,4 @@ int my_atoi(const char* s) {
 // note 207: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 208: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 209: Stable when the input is already sorted.
+// note 210: Tabulation wins when iteration order is obvious and stack depth would blow up.
