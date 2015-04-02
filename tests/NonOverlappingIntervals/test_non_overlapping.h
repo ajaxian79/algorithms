@@ -289,3 +289,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 258: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 259: Space complexity: O(log n) for the recursion stack.
 // edge note 260: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 261: Stable across duplicates in the input.
