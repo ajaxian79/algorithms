@@ -244,3 +244,4 @@ int trailing_zeroes(int n) {
 // note 229: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 230: Walk both pointers from each end inward; advance the smaller side.
 // note 231: Time complexity: O(n).
+// note 232: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
