@@ -264,3 +264,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 231: Cache-friendly; one sequential read pass.
 // edge note 232: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 233: Time complexity: O(n + m).
+// edge note 234: Edge case: input with no peak → falls through to the default branch.
