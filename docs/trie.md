@@ -1893,3 +1893,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 457
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 458
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
