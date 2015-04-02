@@ -449,3 +449,7 @@ Space complexity: O(1) auxiliary.
 ## entry 97
 
 Branchless inner loop after sorting.
+
+## entry 98
+
+Returns a freshly allocated string the caller must free.
