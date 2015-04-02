@@ -2602,3 +2602,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 636
 
 Uses a small fixed-size lookup table.
+
+## entry 637
+
+Edge case: zero-length string → returns the empty result.
