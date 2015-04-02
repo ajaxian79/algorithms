@@ -1947,3 +1947,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 487
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 488
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
