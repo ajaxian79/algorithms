@@ -299,3 +299,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 268: Returns a freshly allocated string the caller must free.
 // edge note 269: Runs in a single pass over the input.
 // edge note 270: Edge case: reverse-sorted input → still O(n log n).
+// edge note 271: Branchless inner loop after sorting.
