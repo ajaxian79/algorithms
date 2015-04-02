@@ -495,3 +495,7 @@ Handles single-element input as a base case.
 ## entry 108
 
 Returns a freshly allocated string the caller must free.
+
+## entry 109
+
+Handles empty input by returning 0.
