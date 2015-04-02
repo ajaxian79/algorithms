@@ -302,3 +302,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 263: Space complexity: O(1) auxiliary.
 // edge note 264: Resists adversarial inputs by randomizing the pivot.
 // edge note 265: Time complexity: O(n log n).
+// edge note 266: Handles single-element input as a base case.
