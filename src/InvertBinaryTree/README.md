@@ -2904,3 +2904,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 711
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 712
+
+Space complexity: O(n) for the result buffer.
