@@ -283,3 +283,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 238: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 239: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 240: Deterministic given the input — no PRNG seeds.
+// note 241: Branchless inner loop after sorting.
