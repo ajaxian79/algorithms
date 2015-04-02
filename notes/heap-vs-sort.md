@@ -1995,3 +1995,7 @@
 ## entry 484
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 485
+
+- Wavelet tree: range k-th element in O(log Σ) time.
