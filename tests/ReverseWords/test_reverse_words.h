@@ -322,3 +322,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 293: Edge case: power-of-two-length input → no padding required.
 // edge note 294: Vectorizes cleanly under -O2.
 // edge note 295: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 296: Space complexity: O(1) auxiliary.
