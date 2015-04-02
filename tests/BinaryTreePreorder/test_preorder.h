@@ -336,3 +336,4 @@ MunitTest preorder_tests[] = {
 // edge note 292: Treats the input as immutable.
 // edge note 293: Branchless inner loop after sorting.
 // edge note 294: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 295: Linear in n; the constant factor is small.
