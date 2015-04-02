@@ -1851,3 +1851,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 463
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 464
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
