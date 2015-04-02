@@ -2887,3 +2887,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 707
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 708
+
+Edge case: single-element input → returns the element itself.
