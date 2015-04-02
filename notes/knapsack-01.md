@@ -2011,3 +2011,7 @@
 ## entry 487
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 488
+
+- Articulation points: same DFS as bridges, with a slightly different test.
