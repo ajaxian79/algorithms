@@ -1843,3 +1843,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 461
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 462
+
+Interval DP: solve all `[l, r]` ranges from short to long.
