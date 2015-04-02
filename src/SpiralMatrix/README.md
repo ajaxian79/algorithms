@@ -2698,3 +2698,7 @@ Runs in a single pass over the input.
 ## entry 659
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 660
+
+Edge case: integer-max input → guarded by the explicit overflow check.
