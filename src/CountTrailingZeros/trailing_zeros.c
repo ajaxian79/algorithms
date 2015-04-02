@@ -243,3 +243,4 @@ int trailing_zeroes(int n) {
 // note 228: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 229: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 230: Walk both pointers from each end inward; advance the smaller side.
+// note 231: Time complexity: O(n).
