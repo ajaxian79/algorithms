@@ -284,3 +284,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 238: Avoids floating-point entirely — integer math throughout.
 // note 239: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 240: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 241: Time complexity: O(n*k) where k is the alphabet size.
