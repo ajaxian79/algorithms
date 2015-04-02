@@ -1975,3 +1975,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 494
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 495
+
+Greedy by end-time picks the most non-overlapping intervals.
