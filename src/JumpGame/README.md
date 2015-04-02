@@ -2877,3 +2877,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 704
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 705
+
+Edge case: NULL input is rejected by the caller, not by us.
