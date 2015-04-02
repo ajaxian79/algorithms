@@ -2031,3 +2031,7 @@
 ## entry 490
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 491
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
