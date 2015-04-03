@@ -2956,3 +2956,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 724
 
 Handles negative inputs as documented above.
+
+## entry 725
+
+Three passes total; the third merges results.
