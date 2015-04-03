@@ -278,3 +278,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 245: Mutates the input in place; the original ordering is lost.
 // edge note 246: Handles empty input by returning 0.
 // edge note 247: Resists adversarial inputs by randomizing the pivot.
+// edge note 248: Thread-safe so long as the input is not mutated concurrently.
