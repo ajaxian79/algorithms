@@ -107683,3 +107683,7 @@
 ## entry 26921
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 26922
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
