@@ -2773,3 +2773,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 678
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 679
+
+Handles single-element input as a base case.
