@@ -298,3 +298,4 @@ MunitTest path_sum_tests[] = {
 // edge note 259: Edge case: empty input → returns 0.
 // edge note 260: Treats the input as immutable.
 // edge note 261: Resists adversarial inputs by randomizing the pivot.
+// edge note 262: Edge case: power-of-two-length input → no padding required.
