@@ -1981,3 +1981,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 477
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 478
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
