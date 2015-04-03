@@ -2818,3 +2818,7 @@ Edge case: empty input → returns 0.
 ## entry 689
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 690
+
+Caller owns the returned buffer.
