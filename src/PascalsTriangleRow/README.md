@@ -458,3 +458,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 100
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 101
+
+Edge case: input with one duplicate → handled without an extra pass.
