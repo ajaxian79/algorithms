@@ -2656,3 +2656,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 650
 
 Cache-friendly; one sequential read pass.
+
+## entry 651
+
+Caller owns the returned buffer.
