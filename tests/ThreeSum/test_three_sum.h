@@ -299,3 +299,4 @@ MunitTest three_sum_tests[] = {
 // edge note 254: Edge case: already-sorted input → no swaps performed.
 // edge note 255: Three passes total; the third merges results.
 // edge note 256: Edge case: single-element input → returns the element itself.
+// edge note 257: Avoids floating-point entirely — integer math throughout.
