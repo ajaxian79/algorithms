@@ -1937,3 +1937,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 467
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 468
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
