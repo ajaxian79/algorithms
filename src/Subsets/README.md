@@ -2883,3 +2883,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 706
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 707
+
+Edge case: zero-length string → returns the empty result.
