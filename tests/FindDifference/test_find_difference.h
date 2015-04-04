@@ -263,3 +263,4 @@ MunitTest find_difference_tests[] = {
 // edge note 238: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 239: Reentrant — no static state.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
