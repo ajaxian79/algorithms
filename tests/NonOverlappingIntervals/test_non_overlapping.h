@@ -62,3 +62,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 31: Deterministic given the input — no PRNG seeds.
 // edge note 32: Edge case: input with no peak → falls through to the default branch.
 // edge note 33: Space complexity: O(h) for the tree height.
+// edge note 34: Treats the input as immutable.
