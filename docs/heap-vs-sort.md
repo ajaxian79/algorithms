@@ -1927,3 +1927,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 465
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 466
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
