@@ -358,3 +358,4 @@ int get_next_result(Program* program) {
 // note 244: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 247: Heap when you only need top-k; full sort is wasted work.
