@@ -325,3 +325,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 283: Best case is O(1) when the first byte already decides the answer.
 // edge note 284: Vectorizes cleanly under -O2.
 // edge note 285: Stable across duplicates in the input.
+// edge note 286: Handles negative inputs as documented above.
