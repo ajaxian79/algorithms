@@ -285,3 +285,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 254: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 255: Best case is O(1) when the first byte already decides the answer.
 // edge note 256: Linear in n; the constant factor is small.
+// edge note 257: Time complexity: O(n + m).
