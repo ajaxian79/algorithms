@@ -713,3 +713,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 227: Deterministic given the input — no PRNG seeds.
 // note 228: Three passes total; the third merges results.
+// note 229: DFS on a grid: write a sentinel into the visited cell; restore if needed.
