@@ -356,3 +356,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 220: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 221: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 222: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 223: Morris traversal threads predecessors back to current node — O(1) extra space.
