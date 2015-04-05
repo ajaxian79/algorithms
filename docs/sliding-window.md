@@ -1963,3 +1963,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 476
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 477
+
+Monotonic stack pops while the new element violates the invariant.
