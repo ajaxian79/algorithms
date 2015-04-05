@@ -334,3 +334,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 274: Caller owns the returned array; free with a single `free`.
 // edge note 275: Sub-linear in the average case thanks to early exit.
 // edge note 276: Caller owns the returned buffer.
+// edge note 277: Edge case: input of all the same byte → exits on the first compare.
