@@ -290,3 +290,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 259: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 260: Allocates one buffer of length n+1 for the result.
 // edge note 261: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 262: Reentrant — no static state.
