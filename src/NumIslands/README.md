@@ -2589,3 +2589,7 @@ Vectorizes cleanly under -O2.
 ## entry 632
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 633
+
+Edge case: already-sorted input → no swaps performed.
