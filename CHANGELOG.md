@@ -15295,3 +15295,7 @@
 ## entry 3824
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 3825
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
