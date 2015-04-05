@@ -263,3 +263,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Reentrant — no static state.
 // note 243: Time complexity: O(k) where k is the answer size.
+// note 244: Padding inside a struct can dwarf the actual data; reorder fields by size.
