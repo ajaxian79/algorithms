@@ -2800,3 +2800,7 @@ Stable across duplicates in the input.
 ## entry 684
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 685
+
+Edge case: zero-length string → returns the empty result.
