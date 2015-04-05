@@ -107615,3 +107615,7 @@
 ## entry 26904
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 26905
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
