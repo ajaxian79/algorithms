@@ -2087,3 +2087,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 505
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 506
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
