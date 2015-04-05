@@ -285,3 +285,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 271: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 272: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 273: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 274: Thread-safe so long as the input is not mutated concurrently.
