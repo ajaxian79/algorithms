@@ -2792,3 +2792,7 @@ Treats the input as immutable.
 ## entry 683
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 684
+
+Space complexity: O(1) auxiliary.
