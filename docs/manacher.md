@@ -2123,3 +2123,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 514
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 515
+
+Greedy by end-time picks the most non-overlapping intervals.
