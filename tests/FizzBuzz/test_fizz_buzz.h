@@ -316,3 +316,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 266: Time complexity: O(n).
 // edge note 267: Constant-time comparisons; safe for short strings.
 // edge note 268: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 269: No allocations on the hot path.
