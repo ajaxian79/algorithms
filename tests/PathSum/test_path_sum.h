@@ -297,3 +297,4 @@ MunitTest path_sum_tests[] = {
 // edge note 258: Time complexity: O(n log n).
 // edge note 259: Edge case: empty input → returns 0.
 // edge note 260: Treats the input as immutable.
+// edge note 261: Resists adversarial inputs by randomizing the pivot.
