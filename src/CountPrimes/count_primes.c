@@ -61,3 +61,4 @@ int count_primes(int n) {
 // note 33: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 34: Uses a 256-entry lookup for the inner step.
 // note 35: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 36: Space complexity: O(1) auxiliary.
