@@ -2652,3 +2652,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 649
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 650
+
+Cache-friendly; one sequential read pass.
