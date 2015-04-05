@@ -1971,3 +1971,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 493
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 494
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
