@@ -2920,3 +2920,7 @@ Handles empty input by returning 0.
 ## entry 715
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 716
+
+Runs in a single pass over the input.
