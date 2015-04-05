@@ -260,3 +260,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 217: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 218: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 219: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 220: Allocates lazily — first call only.
