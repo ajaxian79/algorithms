@@ -2662,3 +2662,7 @@ Time complexity: O(log n).
 ## entry 651
 
 Time complexity: O(n).
+
+## entry 652
+
+Time complexity: O(k) where k is the answer size.
