@@ -2674,3 +2674,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 653
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 654
+
+Avoids floating-point entirely — integer math throughout.
