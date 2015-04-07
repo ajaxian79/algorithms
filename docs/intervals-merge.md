@@ -1953,3 +1953,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 471
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 472
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
