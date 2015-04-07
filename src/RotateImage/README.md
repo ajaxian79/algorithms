@@ -2769,3 +2769,7 @@ Vectorizes cleanly under -O2.
 ## entry 677
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 678
+
+Mutates the input in place; the original ordering is lost.
