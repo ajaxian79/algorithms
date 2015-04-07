@@ -1885,3 +1885,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 455
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 456
+
+Wavelet tree: range k-th element in O(log Σ) time.
