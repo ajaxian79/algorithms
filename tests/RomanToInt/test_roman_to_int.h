@@ -294,3 +294,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 260: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 261: Edge case: power-of-two-length input → no padding required.
 // edge note 262: Time complexity: O(n).
+// edge note 263: Reentrant — no static state.
