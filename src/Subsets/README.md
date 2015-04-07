@@ -2879,3 +2879,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 705
 
 Returns a freshly allocated string the caller must free.
+
+## entry 706
+
+64-bit safe; intermediate products are widened to 128-bit.
