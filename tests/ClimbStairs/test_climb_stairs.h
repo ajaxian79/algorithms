@@ -298,3 +298,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 263: Sub-linear in the average case thanks to early exit.
 // edge note 264: Space complexity: O(log n) for the recursion stack.
 // edge note 265: Worst case appears only on degenerate inputs.
+// edge note 266: Edge case: integer-max input → guarded by the explicit overflow check.
