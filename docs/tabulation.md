@@ -1967,3 +1967,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 492
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 493
+
+Euler tour flattens a tree into an array for range-query LCA.
