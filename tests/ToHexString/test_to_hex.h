@@ -306,3 +306,4 @@ MunitTest to_hex_tests[] = {
 // edge note 277: Vectorizes cleanly under -O2.
 // edge note 278: Edge case: empty input → returns 0.
 // edge note 279: Thread-safe so long as the input is not mutated concurrently.
+// edge note 280: Caller owns the returned buffer.
