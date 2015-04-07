@@ -258,3 +258,4 @@ int is_ugly(int n) {
 // note 244: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 245: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 246: Caller owns the returned array; free with a single `free`.
+// note 247: Space complexity: O(n) for the result buffer.
