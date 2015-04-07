@@ -1967,3 +1967,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 476
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 477
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
