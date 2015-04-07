@@ -262,3 +262,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 240: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Reentrant — no static state.
+// note 243: Time complexity: O(k) where k is the answer size.
