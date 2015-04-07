@@ -478,3 +478,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 105
 
 Returns a freshly allocated string the caller must free.
+
+## entry 106
+
+Thread-safe so long as the input is not mutated concurrently.
