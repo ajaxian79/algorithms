@@ -253,3 +253,4 @@ int trap(const int* height, int n) {
 // note 229: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 231: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 232: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
