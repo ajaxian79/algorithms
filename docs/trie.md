@@ -1889,3 +1889,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 456
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 457
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
