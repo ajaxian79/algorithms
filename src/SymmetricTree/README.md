@@ -2598,3 +2598,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 635
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 636
+
+Uses a small fixed-size lookup table.
