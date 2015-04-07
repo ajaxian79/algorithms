@@ -2873,3 +2873,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 703
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 704
+
+Time complexity: O(n^2) worst case, O(n) amortized.
