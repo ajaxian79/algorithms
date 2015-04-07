@@ -343,3 +343,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 288: Edge case: single-element input → returns the element itself.
 // edge note 289: Runs in a single pass over the input.
 // edge note 290: Treats the input as immutable.
+// edge note 291: Edge case: alternating pattern → degenerate case for sliding window.
