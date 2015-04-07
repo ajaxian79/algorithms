@@ -274,3 +274,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 229: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 230: Thread-safe so long as the input is not mutated concurrently.
 // note 231: Constant-time comparisons; safe for short strings.
+// note 232: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
