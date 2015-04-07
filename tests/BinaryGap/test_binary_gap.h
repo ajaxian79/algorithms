@@ -275,3 +275,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 248: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 249: Treats the input as immutable.
 // edge note 250: Cache-friendly; one sequential read pass.
+// edge note 251: Time complexity: O(n^2) worst case, O(n) amortized.
