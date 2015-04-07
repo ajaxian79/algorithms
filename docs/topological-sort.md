@@ -1973,3 +1973,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 475
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 476
+
+Stable sort matters when a secondary key was set in a prior pass.
