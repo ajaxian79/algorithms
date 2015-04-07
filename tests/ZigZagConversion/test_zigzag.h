@@ -277,3 +277,4 @@ MunitTest zigzag_tests[] = {
 // edge note 249: Cache-friendly; one sequential read pass.
 // edge note 250: Edge case: already-sorted input → no swaps performed.
 // edge note 251: Edge case: power-of-two-length input → no padding required.
+// edge note 252: Time complexity: O(n*k) where k is the alphabet size.
