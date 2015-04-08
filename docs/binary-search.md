@@ -2069,3 +2069,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 501
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 502
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
