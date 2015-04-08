@@ -2061,3 +2061,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 499
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 500
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
