@@ -2784,3 +2784,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 681
 
 Worst case appears only on degenerate inputs.
+
+## entry 682
+
+Treats the input as immutable.
