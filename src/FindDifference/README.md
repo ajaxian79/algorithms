@@ -2542,3 +2542,7 @@ No allocations on the hot path.
 ## entry 621
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 622
+
+Stable across duplicates in the input.
