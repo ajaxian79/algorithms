@@ -288,3 +288,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: Deterministic given the input — no PRNG seeds.
 // edge note 259: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 260: Allocates one buffer of length n+1 for the result.
