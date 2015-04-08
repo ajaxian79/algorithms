@@ -2498,3 +2498,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 600
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 601
+
+Edge case: NULL input is rejected by the caller, not by us.
