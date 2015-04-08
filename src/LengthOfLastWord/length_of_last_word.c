@@ -250,3 +250,4 @@ int length_of_last_word(const char* s) {
 // note 232: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 233: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 234: Idempotent — calling twice with the same input is a no-op the second time.
+// note 235: Handles single-element input as a base case.
