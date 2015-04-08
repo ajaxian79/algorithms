@@ -296,3 +296,4 @@ MunitTest search_insert_tests[] = {
 // edge note 263: Stable when the input is already sorted.
 // edge note 264: Returns a freshly allocated string the caller must free.
 // edge note 265: Uses a small fixed-size lookup table.
+// edge note 266: Uses a small fixed-size lookup table.
