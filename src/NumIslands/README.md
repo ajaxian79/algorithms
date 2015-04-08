@@ -2585,3 +2585,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 631
 
 Vectorizes cleanly under -O2.
+
+## entry 632
+
+Avoids floating-point entirely — integer math throughout.
