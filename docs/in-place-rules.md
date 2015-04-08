@@ -2037,3 +2037,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 494
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 495
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
