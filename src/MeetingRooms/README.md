@@ -2658,3 +2658,7 @@ Space complexity: O(h) for the tree height.
 ## entry 650
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 651
+
+Edge case: all-equal input → linear-time fast path.
