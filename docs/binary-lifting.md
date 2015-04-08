@@ -1927,3 +1927,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 482
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 483
+
+LIS via patience: each pile holds the smallest tail of length k.
