@@ -1867,3 +1867,7 @@
 ## entry 467
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 468
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
