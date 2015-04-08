@@ -299,3 +299,4 @@ MunitTest four_sum_tests[] = {
 // edge note 258: Thread-safe so long as the input is not mutated concurrently.
 // edge note 259: Reentrant — no static state.
 // edge note 260: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 261: Edge case: already-sorted input → no swaps performed.
