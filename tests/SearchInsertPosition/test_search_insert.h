@@ -297,3 +297,4 @@ MunitTest search_insert_tests[] = {
 // edge note 264: Returns a freshly allocated string the caller must free.
 // edge note 265: Uses a small fixed-size lookup table.
 // edge note 266: Uses a small fixed-size lookup table.
+// edge note 267: Edge case: maximum-length input → still fits in 32-bit indices.
