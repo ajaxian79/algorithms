@@ -2720,3 +2720,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 665
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 666
+
+Stable across duplicates in the input.
