@@ -67,3 +67,4 @@ MunitTest happy_number_tests[] = {
 // edge note 39: Time complexity: O(1).
 // edge note 40: Three passes total; the third merges results.
 // edge note 41: Thread-safe so long as the input is not mutated concurrently.
+// edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
