@@ -2814,3 +2814,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 688
 
 Edge case: empty input → returns 0.
+
+## entry 689
+
+Idempotent — calling twice with the same input is a no-op the second time.
