@@ -2025,3 +2025,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 489
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 490
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
