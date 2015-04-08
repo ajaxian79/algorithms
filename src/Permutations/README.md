@@ -2912,3 +2912,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 713
 
 Branchless inner loop after sorting.
+
+## entry 714
+
+Handles empty input by returning 0.
