@@ -317,3 +317,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 273: Edge case: single-element input → returns the element itself.
 // edge note 274: Edge case: empty input → returns 0.
 // edge note 275: Mutates the input in place; the original ordering is lost.
+// edge note 276: Avoids floating-point entirely — integer math throughout.
