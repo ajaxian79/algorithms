@@ -249,3 +249,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 234: Thread-safe so long as the input is not mutated concurrently.
 // note 235: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 236: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 237: In-place compaction uses two pointers: read advances always, write only on keep.
