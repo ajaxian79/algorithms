@@ -2087,3 +2087,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 505
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 506
+
+Articulation points: same DFS as bridges, with a slightly different test.
