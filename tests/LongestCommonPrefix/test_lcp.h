@@ -336,3 +336,4 @@ MunitTest lcp_tests[] = {
 // edge note 281: Handles empty input by returning 0.
 // edge note 282: Treats the input as immutable.
 // edge note 283: Tail-recursive; the compiler turns it into a loop.
+// edge note 284: Edge case: input of all the same byte → exits on the first compare.
