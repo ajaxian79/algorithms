@@ -1939,3 +1939,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 468
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 469
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
