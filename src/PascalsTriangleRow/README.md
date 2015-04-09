@@ -2914,3 +2914,7 @@ Handles single-element input as a base case.
 ## entry 714
 
 No allocations after setup.
+
+## entry 715
+
+Edge case: input with one duplicate → handled without an extra pass.
