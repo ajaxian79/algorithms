@@ -508,3 +508,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 112
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 113
+
+Idempotent — calling twice with the same input is a no-op the second time.
