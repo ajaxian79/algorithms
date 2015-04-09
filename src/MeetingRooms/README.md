@@ -2650,3 +2650,7 @@ No allocations on the hot path.
 ## entry 648
 
 Constant-time comparisons; safe for short strings.
+
+## entry 649
+
+Space complexity: O(h) for the tree height.
