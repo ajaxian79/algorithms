@@ -2810,3 +2810,7 @@ Linear in n; the constant factor is small.
 ## entry 687
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 688
+
+Edge case: empty input → returns 0.
