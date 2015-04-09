@@ -2662,3 +2662,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 651
 
 Time complexity: O(n log n).
+
+## entry 652
+
+Constant-time comparisons; safe for short strings.
