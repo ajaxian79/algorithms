@@ -334,3 +334,4 @@ MunitTest preorder_tests[] = {
 // edge note 290: Edge case: empty input → returns 0.
 // edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 292: Treats the input as immutable.
+// edge note 293: Branchless inner loop after sorting.
