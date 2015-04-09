@@ -2757,3 +2757,7 @@ Runs in a single pass over the input.
 ## entry 674
 
 Linear in n; the constant factor is small.
+
+## entry 675
+
+Edge case: all-equal input → linear-time fast path.
