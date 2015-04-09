@@ -2654,3 +2654,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 649
 
 Space complexity: O(h) for the tree height.
+
+## entry 650
+
+Edge case: input with one duplicate → handled without an extra pass.
