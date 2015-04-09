@@ -281,3 +281,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 266: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 267: Space complexity: O(h) for the tree height.
 // note 268: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 269: Interval tree: stores intervals on the median; query traverses O(log n) levels.
