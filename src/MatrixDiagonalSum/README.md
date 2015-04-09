@@ -470,3 +470,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 103
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 104
+
+Sub-linear in the average case thanks to early exit.
