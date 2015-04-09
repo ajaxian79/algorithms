@@ -1981,3 +1981,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 481
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 482
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
