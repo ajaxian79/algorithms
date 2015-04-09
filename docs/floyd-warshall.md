@@ -1959,3 +1959,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 490
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 491
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
