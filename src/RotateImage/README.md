@@ -2765,3 +2765,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 676
 
 Vectorizes cleanly under -O2.
+
+## entry 677
+
+Mutates the input in place; the original ordering is lost.
