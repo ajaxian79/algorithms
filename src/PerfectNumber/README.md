@@ -2625,3 +2625,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 641
 
 Stable when the input is already sorted.
+
+## entry 642
+
+Three passes total; the third merges results.
