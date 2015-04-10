@@ -2830,3 +2830,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 693
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 694
+
+Reentrant — no static state.
