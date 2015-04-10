@@ -2646,3 +2646,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 647
 
 No allocations on the hot path.
+
+## entry 648
+
+Constant-time comparisons; safe for short strings.
