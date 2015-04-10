@@ -1979,3 +1979,7 @@
 ## entry 478
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 479
+
+- Monotonic stack pops while the new element violates the invariant.
