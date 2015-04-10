@@ -2874,3 +2874,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 704
 
 Reentrant — no static state.
+
+## entry 705
+
+Caller owns the returned buffer.
