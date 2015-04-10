@@ -231,3 +231,4 @@ int number_of_1_bits(unsigned int n) {
 // note 218: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 219: Allocates lazily — first call only.
 // note 220: Resists adversarial inputs by randomizing the pivot.
+// note 221: Runs in a single pass over the input.
