@@ -1935,3 +1935,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 467
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 468
+
+Union-Find with path compression amortizes to near-O(1) per op.
