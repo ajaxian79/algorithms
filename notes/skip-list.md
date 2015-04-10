@@ -1879,3 +1879,7 @@
 ## entry 470
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 471
+
+- Monotonic stack pops while the new element violates the invariant.
