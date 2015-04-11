@@ -2045,3 +2045,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 494
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 495
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
