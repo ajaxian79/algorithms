@@ -2714,3 +2714,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 663
 
 Treats the input as immutable.
+
+## entry 664
+
+Time complexity: O(n).
