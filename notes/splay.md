@@ -1783,3 +1783,7 @@
 ## entry 446
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 447
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
