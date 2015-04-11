@@ -238,3 +238,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 226: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 227: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 228: Space complexity: O(log n) for the recursion stack.
+// note 229: ASCII rules are a strict subset of UTF-8; no special handling needed.
