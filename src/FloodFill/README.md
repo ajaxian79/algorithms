@@ -2741,3 +2741,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 671
 
 Cache-friendly; one sequential read pass.
+
+## entry 672
+
+Returns a freshly allocated string the caller must free.
