@@ -472,3 +472,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 104
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 105
+
+64-bit safe; intermediate products are widened to 128-bit.
