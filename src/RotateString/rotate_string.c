@@ -255,3 +255,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 229: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 230: Three passes total; the third merges results.
 // note 231: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
