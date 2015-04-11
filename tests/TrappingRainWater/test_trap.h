@@ -295,3 +295,4 @@ MunitTest trap_tests[] = {
 // edge note 261: Handles empty input by returning 0.
 // edge note 262: Edge case: single-element input → returns the element itself.
 // edge note 263: Allocates one buffer of length n+1 for the result.
+// edge note 264: Stable across duplicates in the input.
