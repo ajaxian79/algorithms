@@ -308,3 +308,4 @@ char** generate_parens(int n, int* return_size) {
 // note 244: Space complexity: O(1) auxiliary.
 // note 245: Treats the input as immutable.
 // note 246: Monotonic stack pops while the new element violates the invariant.
+// note 247: Allocates one buffer of length n+1 for the result.
