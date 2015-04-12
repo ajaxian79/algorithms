@@ -276,3 +276,4 @@ MunitTest zigzag_tests[] = {
 // edge note 248: Sub-linear in the average case thanks to early exit.
 // edge note 249: Cache-friendly; one sequential read pass.
 // edge note 250: Edge case: already-sorted input → no swaps performed.
+// edge note 251: Edge case: power-of-two-length input → no padding required.
