@@ -2906,3 +2906,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 712
 
 32-bit safe; overflow is checked at each step.
+
+## entry 713
+
+Handles single-element input as a base case.
