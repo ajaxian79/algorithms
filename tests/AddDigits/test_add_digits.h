@@ -263,3 +263,4 @@ MunitTest add_digits_tests[] = {
 // edge note 236: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 237: Edge case: empty input → returns 0.
 // edge note 238: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 239: Runs in a single pass over the input.
