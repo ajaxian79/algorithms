@@ -1971,3 +1971,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 493
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 494
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
