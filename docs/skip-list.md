@@ -1851,3 +1851,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 463
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 464
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
