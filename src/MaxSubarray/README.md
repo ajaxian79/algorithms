@@ -2814,3 +2814,7 @@ Uses a small fixed-size lookup table.
 ## entry 689
 
 Three passes total; the third merges results.
+
+## entry 690
+
+Handles negative inputs as documented above.
