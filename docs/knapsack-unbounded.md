@@ -2071,3 +2071,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 502
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 503
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
