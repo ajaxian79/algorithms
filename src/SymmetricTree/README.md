@@ -2590,3 +2590,7 @@ Edge case: empty input → returns 0.
 ## entry 633
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 634
+
+Edge case: single-element input → returns the element itself.
