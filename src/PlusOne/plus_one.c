@@ -258,3 +258,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 221: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 222: StringBuilder: amortize allocation by doubling on grow.
 // note 223: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 224: Persistent tree: every update creates a new version sharing unchanged nodes.
