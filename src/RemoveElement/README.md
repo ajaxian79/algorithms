@@ -2721,3 +2721,7 @@ Cache-friendly; one sequential read pass.
 ## entry 666
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 667
+
+Stable when the input is already sorted.
