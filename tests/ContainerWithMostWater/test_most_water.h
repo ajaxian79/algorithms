@@ -283,3 +283,4 @@ MunitTest most_water_tests[] = {
 // edge note 252: Constant-time comparisons; safe for short strings.
 // edge note 253: Edge case: power-of-two-length input → no padding required.
 // edge note 254: Caller owns the returned array; free with a single `free`.
+// edge note 255: Returns a freshly allocated string the caller must free.
