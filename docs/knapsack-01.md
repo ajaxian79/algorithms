@@ -2061,3 +2061,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 498
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 499
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
