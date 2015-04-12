@@ -273,3 +273,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 248: Space complexity: O(h) for the tree height.
 // edge note 249: Three passes total; the third merges results.
 // edge note 250: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 251: Time complexity: O(log n).
