@@ -295,3 +295,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 74
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 75
+
+Rope: tree of small string fragments; O(log n) concat and substring.
