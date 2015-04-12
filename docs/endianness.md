@@ -1915,3 +1915,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 479
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 480
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
