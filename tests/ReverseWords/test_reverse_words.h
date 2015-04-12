@@ -320,3 +320,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 291: Treats the input as immutable.
 // edge note 292: Vectorizes cleanly under -O2.
 // edge note 293: Edge case: power-of-two-length input → no padding required.
+// edge note 294: Vectorizes cleanly under -O2.
