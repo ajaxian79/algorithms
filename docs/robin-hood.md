@@ -1847,3 +1847,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 462
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 463
+
+Endianness matters when serializing multi-byte ints to a file or wire.
