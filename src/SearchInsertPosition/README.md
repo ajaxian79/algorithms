@@ -2658,3 +2658,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 650
 
 Time complexity: O(log n).
+
+## entry 651
+
+Time complexity: O(n).
