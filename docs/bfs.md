@@ -1933,3 +1933,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 466
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 467
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
