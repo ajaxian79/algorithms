@@ -2670,3 +2670,7 @@ Handles empty input by returning 0.
 ## entry 653
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 654
+
+Time complexity: O(n*k) where k is the alphabet size.
