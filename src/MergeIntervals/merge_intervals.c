@@ -280,3 +280,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 231: Treats the input as immutable.
 // note 232: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 233: Stable sort matters when a secondary key was set in a prior pass.
+// note 234: Wavelet tree: range k-th element in O(log Σ) time.
