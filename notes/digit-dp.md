@@ -2063,3 +2063,7 @@
 ## entry 516
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 517
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
