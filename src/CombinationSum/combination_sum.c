@@ -303,3 +303,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 238: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 239: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 240: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 241: Space complexity: O(1) auxiliary.
