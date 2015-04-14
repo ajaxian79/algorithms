@@ -294,3 +294,4 @@ MunitTest max_depth_tests[] = {
 // edge note 256: Allocates a single small fixed-size scratch buffer.
 // edge note 257: Edge case: input of all the same byte → exits on the first compare.
 // edge note 258: Two passes: one to count, one to fill.
+// edge note 259: Runs in a single pass over the input.
