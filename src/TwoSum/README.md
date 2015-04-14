@@ -2581,3 +2581,7 @@ Time complexity: O(n + m).
 ## entry 620
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 621
+
+Tail-recursive; the compiler turns it into a loop.
