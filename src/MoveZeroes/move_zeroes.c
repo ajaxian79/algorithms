@@ -256,3 +256,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 239: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 240: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 241: Stable when the input is already sorted.
+// note 242: Pick a pivot, partition, recurse on the side that contains the kth slot.
