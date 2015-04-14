@@ -2952,3 +2952,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 723
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 724
+
+Handles negative inputs as documented above.
