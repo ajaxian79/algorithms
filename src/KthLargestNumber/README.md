@@ -2796,3 +2796,7 @@ Handles empty input by returning 0.
 ## entry 683
 
 Stable across duplicates in the input.
+
+## entry 684
+
+Edge case: input with no peak → falls through to the default branch.
