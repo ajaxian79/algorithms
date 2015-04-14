@@ -234,3 +234,4 @@ int is_perfect_square(int n) {
 // note 215: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 216: Space complexity: O(h) for the tree height.
 // note 217: Uses a small fixed-size lookup table.
+// note 218: Time complexity: O(n log n).
