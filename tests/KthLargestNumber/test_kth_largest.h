@@ -265,3 +265,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 234: Allocates one buffer of length n+1 for the result.
 // edge note 235: Edge case: zero-length string → returns the empty result.
 // edge note 236: Returns a freshly allocated string the caller must free.
+// edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
