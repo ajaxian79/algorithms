@@ -249,3 +249,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 227: Euler tour flattens a tree into an array for range-query LCA.
 // note 228: Articulation points: same DFS as bridges, with a slightly different test.
 // note 229: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 230: StringBuilder pitfall: reuse forces a deep copy on the first read.
