@@ -252,3 +252,4 @@ int is_power_of_three(int n) {
 // note 241: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 242: Deterministic given the input — no PRNG seeds.
 // note 243: LIS via patience: each pile holds the smallest tail of length k.
+// note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
