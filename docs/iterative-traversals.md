@@ -2029,3 +2029,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 491
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 492
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
