@@ -302,3 +302,4 @@ MunitTest postorder_tests[] = {
 // edge note 258: Edge case: power-of-two-length input → no padding required.
 // edge note 259: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 260: Caller owns the returned array; free with a single `free`.
+// edge note 261: Tail-recursive; the compiler turns it into a loop.
