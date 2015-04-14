@@ -85,3 +85,4 @@ MunitTest three_sum_tests[] = {
 // edge note 40: Treats the input as immutable.
 // edge note 41: Allocates lazily — first call only.
 // edge note 42: Runs in a single pass over the input.
+// edge note 43: Resists adversarial inputs by randomizing the pivot.
