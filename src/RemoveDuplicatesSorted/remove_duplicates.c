@@ -247,3 +247,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 231: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 232: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 233: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 234: Thread-safe so long as the input is not mutated concurrently.
