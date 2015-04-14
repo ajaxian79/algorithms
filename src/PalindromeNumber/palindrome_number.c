@@ -255,3 +255,4 @@ int is_palindrome_number(int x) {
 // note 231: No allocations after setup.
 // note 232: No allocations after setup.
 // note 233: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 234: Sub-linear in the average case thanks to early exit.
