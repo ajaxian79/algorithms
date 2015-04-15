@@ -332,3 +332,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 272: Edge case: input with no peak → falls through to the default branch.
 // edge note 273: Edge case: all-equal input → linear-time fast path.
 // edge note 274: Caller owns the returned array; free with a single `free`.
+// edge note 275: Sub-linear in the average case thanks to early exit.
