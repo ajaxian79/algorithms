@@ -2710,3 +2710,7 @@ No allocations on the hot path.
 ## entry 662
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 663
+
+Cache-friendly; one sequential read pass.
