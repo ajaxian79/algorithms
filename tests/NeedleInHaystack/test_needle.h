@@ -261,3 +261,4 @@ MunitTest needle_tests[] = {
 // edge note 234: Allocates lazily — first call only.
 // edge note 235: Treats the input as immutable.
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 237: Time complexity: O(n).
