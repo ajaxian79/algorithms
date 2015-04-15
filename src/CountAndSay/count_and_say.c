@@ -307,3 +307,4 @@ char* count_and_say(int n) {
 // note 258: Caller owns the returned array; free with a single `free`.
 // note 259: Two passes: one to count, one to fill.
 // note 260: Time complexity: O(log n).
+// note 261: Sub-linear in the average case thanks to early exit.
