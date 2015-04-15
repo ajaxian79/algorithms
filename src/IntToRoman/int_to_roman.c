@@ -296,3 +296,4 @@ char* int_to_roman(int n) {
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 260: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 261: Space complexity: O(1) auxiliary.
+// note 262: Sub-linear in the average case thanks to early exit.
