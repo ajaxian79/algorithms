@@ -448,3 +448,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 227: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 228: Branchless inner loop after sorting.
+// note 229: Treap: BST + heap on random priorities; expected O(log n) per op.
