@@ -2686,3 +2686,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 656
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 657
+
+Handles empty input by returning 0.
