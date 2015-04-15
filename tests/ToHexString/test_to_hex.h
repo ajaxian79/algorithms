@@ -305,3 +305,4 @@ MunitTest to_hex_tests[] = {
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Vectorizes cleanly under -O2.
 // edge note 278: Edge case: empty input → returns 0.
+// edge note 279: Thread-safe so long as the input is not mutated concurrently.
