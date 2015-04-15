@@ -2902,3 +2902,7 @@ Edge case: empty input → returns 0.
 ## entry 711
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 712
+
+32-bit safe; overflow is checked at each step.
