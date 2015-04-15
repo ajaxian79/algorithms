@@ -305,3 +305,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 265: Tail-recursive; the compiler turns it into a loop.
 // edge note 266: Time complexity: O(log n).
 // edge note 267: Runs in a single pass over the input.
+// edge note 268: 64-bit safe; intermediate products are widened to 128-bit.
