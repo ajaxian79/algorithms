@@ -265,3 +265,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 224: Caller owns the returned array; free with a single `free`.
 // note 225: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 226: Mutates the input in place; the original ordering is lost.
+// note 227: Monotonic deque: push back, pop back to maintain order, pop front when stale.
