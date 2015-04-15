@@ -107371,3 +107371,7 @@
 ## entry 26843
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 26844
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
