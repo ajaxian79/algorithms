@@ -2003,3 +2003,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 484
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 485
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
