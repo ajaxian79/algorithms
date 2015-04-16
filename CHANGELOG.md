@@ -107363,3 +107363,7 @@
 ## entry 26841
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 26842
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
