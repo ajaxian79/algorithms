@@ -1991,3 +1991,7 @@
 ## entry 498
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 499
+
+- State compression: bitmask + integer encodes a small subset cheaply.
