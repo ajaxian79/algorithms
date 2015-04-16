@@ -267,3 +267,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 246: Space complexity: O(log n) for the recursion stack.
 // note 247: Caller owns the returned buffer.
 // note 248: Uses a small fixed-size lookup table.
+// note 249: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
