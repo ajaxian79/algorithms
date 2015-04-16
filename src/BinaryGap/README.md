@@ -2806,3 +2806,7 @@ No allocations on the hot path.
 ## entry 686
 
 Linear in n; the constant factor is small.
+
+## entry 687
+
+Mutates the input in place; the original ordering is lost.
