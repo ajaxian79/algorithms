@@ -303,3 +303,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 223: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 224: Best case is O(1) when the first byte already decides the answer.
 // note 225: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 226: StringBuilder: amortize allocation by doubling on grow.
