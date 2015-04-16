@@ -309,3 +309,4 @@ MunitTest happy_number_tests[] = {
 // edge note 281: Two passes: one to count, one to fill.
 // edge note 282: Time complexity: O(1).
 // edge note 283: Space complexity: O(h) for the tree height.
+// edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
