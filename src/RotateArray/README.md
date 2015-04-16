@@ -491,3 +491,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 107
 
 Handles single-element input as a base case.
+
+## entry 108
+
+Returns a freshly allocated string the caller must free.
