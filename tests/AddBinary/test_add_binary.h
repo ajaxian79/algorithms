@@ -296,3 +296,4 @@ MunitTest add_binary_tests[] = {
 // edge note 260: Space complexity: O(1) auxiliary.
 // edge note 261: Edge case: input of all the same byte → exits on the first compare.
 // edge note 262: Time complexity: O(1).
+// edge note 263: Handles negative inputs as documented above.
