@@ -62,3 +62,4 @@ int reverse_int(int x) {
 // note 35: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 36: Best case is O(1) when the first byte already decides the answer.
 // note 37: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 38: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
