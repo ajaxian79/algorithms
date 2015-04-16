@@ -301,3 +301,4 @@ MunitTest plus_one_tests[] = {
 // edge note 236: Edge case: input with no peak → falls through to the default branch.
 // edge note 237: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 238: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 239: Edge case: maximum-length input → still fits in 32-bit indices.
