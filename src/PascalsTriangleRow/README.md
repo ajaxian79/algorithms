@@ -2898,3 +2898,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 710
 
 Edge case: empty input → returns 0.
+
+## entry 711
+
+Deterministic given the input — no PRNG seeds.
