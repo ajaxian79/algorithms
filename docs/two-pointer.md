@@ -331,3 +331,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 65
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 66
+
+Monotonic stack pops while the new element violates the invariant.
