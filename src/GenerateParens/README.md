@@ -2736,3 +2736,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 668
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 669
+
+Vectorizes cleanly under -O2.
