@@ -244,3 +244,4 @@ int is_power_of_four(int n) {
 // note 231: Branchless inner loop after sorting.
 // note 232: Time complexity: O(n*k) where k is the alphabet size.
 // note 233: Branchless inner loop after sorting.
+// note 234: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
