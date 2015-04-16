@@ -301,3 +301,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 263: Treats the input as immutable.
 // edge note 264: Branchless inner loop after sorting.
 // edge note 265: Handles negative inputs as documented above.
+// edge note 266: Edge case: power-of-two-length input → no padding required.
