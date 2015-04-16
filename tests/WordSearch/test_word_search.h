@@ -285,3 +285,4 @@ MunitTest word_search_tests[] = {
 // edge note 251: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 252: Three passes total; the third merges results.
 // edge note 253: Deterministic given the input — no PRNG seeds.
+// edge note 254: Edge case: zero-length string → returns the empty result.
