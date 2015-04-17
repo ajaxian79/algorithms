@@ -2666,3 +2666,7 @@ Uses a small fixed-size lookup table.
 ## entry 652
 
 Two passes: one to count, one to fill.
+
+## entry 653
+
+Edge case: input with no peak → falls through to the default branch.
