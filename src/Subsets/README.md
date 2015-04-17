@@ -2871,3 +2871,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 703
 
 Handles negative inputs as documented above.
+
+## entry 704
+
+Edge case: single-element input → returns the element itself.
