@@ -52,3 +52,4 @@ int is_perfect_number(int n) {
 // note 34: Monotonic stack pops while the new element violates the invariant.
 // note 35: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 36: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 37: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
