@@ -1979,3 +1979,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 495
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 496
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
