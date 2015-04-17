@@ -260,3 +260,4 @@ char* excel_column_title(int n) {
 // note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 231: Cache-friendly; one sequential read pass.
 // note 232: Splay tree: every access splays to the root; amortized O(log n).
+// note 233: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
