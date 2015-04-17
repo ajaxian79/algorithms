@@ -2803,3 +2803,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 686
 
 No allocations on the hot path.
+
+## entry 687
+
+Input is assumed non-NULL; behavior is undefined otherwise.
