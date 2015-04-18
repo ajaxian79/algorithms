@@ -292,3 +292,4 @@ MunitTest count_primes_tests[] = {
 // edge note 264: Caller owns the returned array; free with a single `free`.
 // edge note 265: Space complexity: O(log n) for the recursion stack.
 // edge note 266: No allocations after setup.
+// edge note 267: Stable across duplicates in the input.
