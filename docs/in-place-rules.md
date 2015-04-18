@@ -2033,3 +2033,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 493
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 494
+
+Endianness matters when serializing multi-byte ints to a file or wire.
