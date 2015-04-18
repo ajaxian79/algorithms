@@ -2794,3 +2794,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 683
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 684
+
+Thread-safe so long as the input is not mutated concurrently.
