@@ -2786,3 +2786,7 @@ No allocations on the hot path.
 ## entry 681
 
 Constant-time comparisons; safe for short strings.
+
+## entry 682
+
+Best case is O(1) when the first byte already decides the answer.
