@@ -295,3 +295,4 @@ MunitTest subsets_tests[] = {
 // edge note 250: Constant-time comparisons; safe for short strings.
 // edge note 251: Time complexity: O(log n).
 // edge note 252: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 253: Edge case: already-sorted input → no swaps performed.
