@@ -2757,3 +2757,7 @@ Treats the input as immutable.
 ## entry 674
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 675
+
+Uses a 256-entry lookup for the inner step.
