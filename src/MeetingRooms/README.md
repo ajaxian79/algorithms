@@ -2638,3 +2638,7 @@ Uses a small fixed-size lookup table.
 ## entry 645
 
 Space complexity: O(n) for the result buffer.
+
+## entry 646
+
+Edge case: all-equal input → linear-time fast path.
