@@ -1995,3 +1995,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 499
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 500
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
