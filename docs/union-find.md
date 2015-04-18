@@ -1931,3 +1931,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 466
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 467
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
