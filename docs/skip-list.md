@@ -1847,3 +1847,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 462
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 463
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
