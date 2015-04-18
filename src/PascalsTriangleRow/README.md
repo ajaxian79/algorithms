@@ -454,3 +454,7 @@ Reentrant — no static state.
 ## entry 99
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 100
+
+Edge case: integer-max input → guarded by the explicit overflow check.
