@@ -107271,3 +107271,7 @@
 ## entry 26818
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 26819
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
