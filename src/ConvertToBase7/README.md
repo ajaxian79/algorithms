@@ -2944,3 +2944,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 721
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 722
+
+Uses a 256-entry lookup for the inner step.
