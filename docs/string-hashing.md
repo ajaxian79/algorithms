@@ -1851,3 +1851,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 446
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 447
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
