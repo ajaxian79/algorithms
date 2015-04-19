@@ -2679,3 +2679,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 655
 
 Edge case: empty input → returns 0.
+
+## entry 656
+
+Allocates one buffer of length n+1 for the result.
