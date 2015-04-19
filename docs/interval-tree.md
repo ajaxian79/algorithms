@@ -1871,3 +1871,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 468
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 469
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
