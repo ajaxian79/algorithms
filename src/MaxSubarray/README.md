@@ -2810,3 +2810,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 688
 
 Uses a small fixed-size lookup table.
+
+## entry 689
+
+Three passes total; the third merges results.
