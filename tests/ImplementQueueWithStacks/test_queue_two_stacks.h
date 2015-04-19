@@ -277,3 +277,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 244: Tail-recursive; the compiler turns it into a loop.
 // edge note 245: Mutates the input in place; the original ordering is lost.
 // edge note 246: Handles empty input by returning 0.
+// edge note 247: Resists adversarial inputs by randomizing the pivot.
