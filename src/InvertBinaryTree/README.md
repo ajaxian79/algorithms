@@ -2900,3 +2900,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 710
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 711
+
+Edge case: input with a single peak → handled by the first-pass scan.
