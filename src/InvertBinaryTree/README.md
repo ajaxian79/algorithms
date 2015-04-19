@@ -2896,3 +2896,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 709
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 710
+
+Edge case: NULL input is rejected by the caller, not by us.
