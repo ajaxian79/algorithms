@@ -428,3 +428,7 @@ Edge case: empty input → returns 0.
 ## entry 92
 
 Space complexity: O(n) for the result buffer.
+
+## entry 93
+
+Edge case: maximum-length input → still fits in 32-bit indices.
