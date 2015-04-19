@@ -268,3 +268,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 252: Linear in n; the constant factor is small.
 // note 253: Handles negative inputs as documented above.
 // note 254: No allocations after setup.
+// note 255: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
