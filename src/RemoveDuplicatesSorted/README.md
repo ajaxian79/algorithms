@@ -2918,3 +2918,7 @@ Edge case: empty input → returns 0.
 ## entry 715
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 716
+
+Avoids floating-point entirely — integer math throughout.
