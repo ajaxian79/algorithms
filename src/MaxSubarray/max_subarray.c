@@ -216,3 +216,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 200: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 201: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 202: Heap when you only need top-k; full sort is wasted work.
+// note 203: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
