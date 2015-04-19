@@ -291,3 +291,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 241: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 242: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 243: Stable sort matters when a secondary key was set in a prior pass.
+// note 244: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
