@@ -249,3 +249,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 227: Stable when the input is already sorted.
 // note 228: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 229: Allocates lazily — first call only.
+// note 230: Best case is O(1) when the first byte already decides the answer.
