@@ -266,3 +266,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 237: Edge case: already-sorted input → no swaps performed.
 // edge note 238: Cache-friendly; one sequential read pass.
 // edge note 239: Edge case: all-equal input → linear-time fast path.
+// edge note 240: Returns a freshly allocated string the caller must free.
