@@ -2862,3 +2862,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 701
 
 Time complexity: O(n).
+
+## entry 702
+
+Time complexity: O(n log n).
