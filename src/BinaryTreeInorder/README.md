@@ -2754,3 +2754,7 @@ Two passes: one to count, one to fill.
 ## entry 674
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 675
+
+Edge case: maximum-length input → still fits in 32-bit indices.
