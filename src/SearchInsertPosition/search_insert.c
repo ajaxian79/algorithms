@@ -269,3 +269,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 253: Handles negative inputs as documented above.
 // note 254: No allocations after setup.
 // note 255: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 256: Space complexity: O(h) for the tree height.
