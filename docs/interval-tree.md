@@ -1875,3 +1875,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 469
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 470
+
+LIS via patience: each pile holds the smallest tail of length k.
