@@ -2115,3 +2115,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 512
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 513
+
+Euler tour flattens a tree into an array for range-query LCA.
