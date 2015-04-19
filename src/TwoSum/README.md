@@ -2577,3 +2577,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 619
 
 Time complexity: O(n + m).
+
+## entry 620
+
+Thread-safe so long as the input is not mutated concurrently.
