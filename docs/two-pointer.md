@@ -2035,3 +2035,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 491
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 492
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
