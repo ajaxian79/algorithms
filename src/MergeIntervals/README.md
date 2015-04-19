@@ -2710,3 +2710,7 @@ Space complexity: O(1) auxiliary.
 ## entry 662
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 663
+
+Treats the input as immutable.
