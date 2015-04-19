@@ -2737,3 +2737,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 670
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 671
+
+Cache-friendly; one sequential read pass.
