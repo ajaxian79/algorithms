@@ -2908,3 +2908,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 712
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 713
+
+Branchless inner loop after sorting.
