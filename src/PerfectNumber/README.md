@@ -2617,3 +2617,7 @@ Runs in a single pass over the input.
 ## entry 639
 
 Space complexity: O(h) for the tree height.
+
+## entry 640
+
+Edge case: all-equal input → linear-time fast path.
