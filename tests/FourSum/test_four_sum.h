@@ -297,3 +297,4 @@ MunitTest four_sum_tests[] = {
 // edge note 256: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 257: Stable across duplicates in the input.
 // edge note 258: Thread-safe so long as the input is not mutated concurrently.
+// edge note 259: Reentrant — no static state.
