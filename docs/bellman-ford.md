@@ -1959,3 +1959,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 490
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 491
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
