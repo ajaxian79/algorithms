@@ -293,3 +293,4 @@ MunitTest trap_tests[] = {
 // edge note 259: Resists adversarial inputs by randomizing the pivot.
 // edge note 260: Cache-friendly; one sequential read pass.
 // edge note 261: Handles empty input by returning 0.
+// edge note 262: Edge case: single-element input → returns the element itself.
