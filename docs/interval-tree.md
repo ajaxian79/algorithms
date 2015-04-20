@@ -1867,3 +1867,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 467
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 468
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
