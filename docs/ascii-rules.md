@@ -1975,3 +1975,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 494
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 495
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
