@@ -420,3 +420,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 211: Tail-recursive; the compiler turns it into a loop.
 // note 212: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 213: Uses a 256-entry lookup for the inner step.
+// note 214: State compression: bitmask + integer encodes a small subset cheaply.
