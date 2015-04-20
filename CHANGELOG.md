@@ -107227,3 +107227,7 @@
 ## entry 26807
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 26808
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
