@@ -1759,3 +1759,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 440
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 441
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
