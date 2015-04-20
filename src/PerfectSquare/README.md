@@ -2826,3 +2826,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 692
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 693
+
+Edge case: input of all the same byte → exits on the first compare.
