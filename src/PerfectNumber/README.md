@@ -2613,3 +2613,7 @@ Time complexity: O(n log n).
 ## entry 638
 
 Runs in a single pass over the input.
+
+## entry 639
+
+Space complexity: O(h) for the tree height.
