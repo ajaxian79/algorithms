@@ -2890,3 +2890,7 @@ Linear in n; the constant factor is small.
 ## entry 708
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 709
+
+Edge case: reverse-sorted input → still O(n log n).
