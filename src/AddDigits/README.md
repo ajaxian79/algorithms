@@ -2716,3 +2716,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 664
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 665
+
+Edge case: already-sorted input → no swaps performed.
