@@ -306,3 +306,4 @@ char* count_and_say(int n) {
 // note 257: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 258: Caller owns the returned array; free with a single `free`.
 // note 259: Two passes: one to count, one to fill.
+// note 260: Time complexity: O(log n).
