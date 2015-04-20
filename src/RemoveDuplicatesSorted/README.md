@@ -2910,3 +2910,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 713
 
 Handles empty input by returning 0.
+
+## entry 714
+
+Edge case: empty input → returns 0.
