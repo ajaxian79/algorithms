@@ -1687,3 +1687,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 422
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 423
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
