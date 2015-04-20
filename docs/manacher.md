@@ -2111,3 +2111,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 511
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 512
+
+Endianness matters when serializing multi-byte ints to a file or wire.
