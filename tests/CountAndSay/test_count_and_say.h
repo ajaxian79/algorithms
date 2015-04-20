@@ -259,3 +259,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 228: Uses a small fixed-size lookup table.
 // edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 230: Cache-friendly; one sequential read pass.
+// edge note 231: Space complexity: O(h) for the tree height.
