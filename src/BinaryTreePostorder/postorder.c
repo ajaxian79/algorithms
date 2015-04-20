@@ -272,3 +272,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 224: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 225: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 226: Uses a small fixed-size lookup table.
