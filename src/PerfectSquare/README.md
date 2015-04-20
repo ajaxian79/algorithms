@@ -498,3 +498,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 110
 
 Constant-time comparisons; safe for short strings.
+
+## entry 111
+
+Vectorizes cleanly under -O2.
