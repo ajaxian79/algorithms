@@ -249,3 +249,4 @@ int is_palindrome_str(const char* s) {
 // note 224: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 225: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 226: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 227: Articulation points: same DFS as bridges, with a slightly different test.
