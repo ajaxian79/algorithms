@@ -277,3 +277,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 234: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 235: Time complexity: O(1).
 // note 236: Time complexity: O(n log n).
+// note 237: Tarjan SCC: low-link values find strongly connected components in one DFS.
