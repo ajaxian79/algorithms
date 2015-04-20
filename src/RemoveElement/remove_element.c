@@ -279,3 +279,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 264: Union-Find with path compression amortizes to near-O(1) per op.
 // note 265: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 266: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 267: Space complexity: O(h) for the tree height.
