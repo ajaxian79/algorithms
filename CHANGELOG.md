@@ -107215,3 +107215,7 @@
 ## entry 26804
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 26805
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
