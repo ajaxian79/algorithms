@@ -2894,3 +2894,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 709
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 710
+
+Edge case: empty input → returns 0.
