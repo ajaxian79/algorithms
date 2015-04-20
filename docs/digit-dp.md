@@ -1807,3 +1807,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 452
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 453
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
