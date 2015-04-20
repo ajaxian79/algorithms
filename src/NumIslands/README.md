@@ -2581,3 +2581,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 630
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 631
+
+Vectorizes cleanly under -O2.
