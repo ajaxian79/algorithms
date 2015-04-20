@@ -470,3 +470,7 @@ Reentrant — no static state.
 ## entry 102
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 103
+
+No allocations on the hot path.
