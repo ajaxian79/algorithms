@@ -449,3 +449,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 98
 
 Handles single-element input as a base case.
+
+## entry 99
+
+Handles negative inputs as documented above.
