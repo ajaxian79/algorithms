@@ -1927,3 +1927,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 482
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 483
+
+Euler tour flattens a tree into an array for range-query LCA.
