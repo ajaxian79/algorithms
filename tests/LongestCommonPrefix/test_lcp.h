@@ -334,3 +334,4 @@ MunitTest lcp_tests[] = {
 // edge note 279: Treats the input as immutable.
 // edge note 280: Handles empty input by returning 0.
 // edge note 281: Handles empty input by returning 0.
+// edge note 282: Treats the input as immutable.
