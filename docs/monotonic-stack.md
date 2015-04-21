@@ -1873,3 +1873,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 452
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 453
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
