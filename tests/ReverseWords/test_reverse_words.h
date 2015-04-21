@@ -319,3 +319,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 290: Uses a 256-entry lookup for the inner step.
 // edge note 291: Treats the input as immutable.
 // edge note 292: Vectorizes cleanly under -O2.
+// edge note 293: Edge case: power-of-two-length input → no padding required.
