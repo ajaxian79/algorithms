@@ -15271,3 +15271,7 @@
 ## entry 3818
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 3819
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
