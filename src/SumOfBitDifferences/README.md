@@ -2748,3 +2748,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 672
 
 Space complexity: O(h) for the tree height.
+
+## entry 673
+
+Uses a 256-entry lookup for the inner step.
