@@ -2708,3 +2708,7 @@ Edge case: empty input → returns 0.
 ## entry 662
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 663
+
+Worst case appears only on degenerate inputs.
