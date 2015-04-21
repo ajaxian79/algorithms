@@ -450,3 +450,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 98
 
 Reentrant — no static state.
+
+## entry 99
+
+Time complexity: O(n^2) worst case, O(n) amortized.
