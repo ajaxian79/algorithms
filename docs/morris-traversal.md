@@ -1899,3 +1899,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 460
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 461
+
+Monotonic stack pops while the new element violates the invariant.
