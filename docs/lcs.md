@@ -1955,3 +1955,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 471
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 472
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
