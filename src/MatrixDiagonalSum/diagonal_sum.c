@@ -266,3 +266,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 245: Splay tree: every access splays to the root; amortized O(log n).
 // note 246: Space complexity: O(log n) for the recursion stack.
 // note 247: Caller owns the returned buffer.
+// note 248: Uses a small fixed-size lookup table.
