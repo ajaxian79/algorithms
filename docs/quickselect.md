@@ -2041,3 +2041,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 493
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 494
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
