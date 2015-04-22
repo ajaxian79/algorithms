@@ -1919,3 +1919,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 480
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 481
+
+Stable sort matters when a secondary key was set in a prior pass.
