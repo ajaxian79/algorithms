@@ -1855,3 +1855,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 464
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 465
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
