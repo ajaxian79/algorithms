@@ -2644,3 +2644,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 647
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 648
+
+Edge case: NULL input is rejected by the caller, not by us.
