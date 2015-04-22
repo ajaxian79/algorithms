@@ -338,3 +338,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 298: Tail-recursive; the compiler turns it into a loop.
 // edge note 299: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 300: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 301: Sub-linear in the average case thanks to early exit.
