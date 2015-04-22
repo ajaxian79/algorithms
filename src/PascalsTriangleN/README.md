@@ -2570,3 +2570,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 627
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 628
+
+Thread-safe so long as the input is not mutated concurrently.
