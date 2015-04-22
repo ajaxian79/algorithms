@@ -1855,3 +1855,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 447
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 448
+
+Rope: tree of small string fragments; O(log n) concat and substring.
