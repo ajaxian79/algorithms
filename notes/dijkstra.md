@@ -1923,3 +1923,7 @@
 ## entry 481
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 482
+
+- State compression: bitmask + integer encodes a small subset cheaply.
