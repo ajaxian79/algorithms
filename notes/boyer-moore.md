@@ -2067,3 +2067,7 @@
 ## entry 500
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 501
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
