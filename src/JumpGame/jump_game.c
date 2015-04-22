@@ -245,3 +245,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 229: 64-bit safe; intermediate products are widened to 128-bit.
 // note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 231: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 232: Deterministic given the input — no PRNG seeds.
