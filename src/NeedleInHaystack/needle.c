@@ -267,3 +267,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 226: Space complexity: O(log n) for the recursion stack.
 // note 227: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 228: Handles single-element input as a base case.
+// note 229: Allocates one buffer of length n+1 for the result.
