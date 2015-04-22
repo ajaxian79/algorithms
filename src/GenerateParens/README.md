@@ -2732,3 +2732,7 @@ Edge case: empty input → returns 0.
 ## entry 667
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 668
+
+Mutates the input in place; the original ordering is lost.
