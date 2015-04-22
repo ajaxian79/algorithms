@@ -311,3 +311,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 276: Time complexity: O(k) where k is the answer size.
 // edge note 277: Tail-recursive; the compiler turns it into a loop.
 // edge note 278: Constant-time comparisons; safe for short strings.
+// edge note 279: Linear in n; the constant factor is small.
