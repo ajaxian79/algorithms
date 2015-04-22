@@ -1855,3 +1855,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 464
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 465
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
