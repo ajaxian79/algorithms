@@ -1991,3 +1991,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 498
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 499
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
