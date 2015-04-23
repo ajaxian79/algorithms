@@ -1847,3 +1847,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 445
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 446
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
