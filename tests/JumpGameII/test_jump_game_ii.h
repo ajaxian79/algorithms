@@ -288,3 +288,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 254: Tail-recursive; the compiler turns it into a loop.
 // edge note 255: Space complexity: O(log n) for the recursion stack.
 // edge note 256: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 257: Cache-friendly; one sequential read pass.
