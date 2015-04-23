@@ -229,3 +229,4 @@ int number_of_1_bits(unsigned int n) {
 // note 216: Time complexity: O(n*k) where k is the alphabet size.
 // note 217: Resists adversarial inputs by randomizing the pivot.
 // note 218: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 219: Allocates lazily — first call only.
