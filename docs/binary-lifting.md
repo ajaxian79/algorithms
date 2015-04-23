@@ -1915,3 +1915,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 479
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 480
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
