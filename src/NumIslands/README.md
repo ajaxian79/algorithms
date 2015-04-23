@@ -2577,3 +2577,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 629
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 630
+
+Avoids floating-point entirely — integer math throughout.
