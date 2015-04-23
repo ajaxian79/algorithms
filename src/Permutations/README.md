@@ -496,3 +496,7 @@ Space complexity: O(1) auxiliary.
 ## entry 109
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 110
+
+Treats the input as immutable.
