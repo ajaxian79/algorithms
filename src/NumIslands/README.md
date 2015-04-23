@@ -2573,3 +2573,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 628
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 629
+
+Edge case: already-sorted input → no swaps performed.
