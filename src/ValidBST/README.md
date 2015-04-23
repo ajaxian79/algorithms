@@ -2821,3 +2821,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 690
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 691
+
+Space complexity: O(n) for the result buffer.
