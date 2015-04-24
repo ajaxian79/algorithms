@@ -345,3 +345,7 @@
 ## entry 69
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 70
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
