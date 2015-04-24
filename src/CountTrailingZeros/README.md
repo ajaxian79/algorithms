@@ -2702,3 +2702,7 @@ Space complexity: O(1) auxiliary.
 ## entry 660
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 661
+
+Space complexity: O(h) for the tree height.
