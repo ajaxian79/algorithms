@@ -489,3 +489,7 @@ Reentrant — no static state.
 ## entry 97
 
 Cache-friendly; one sequential read pass.
+
+## entry 98
+
+Linear in n; the constant factor is small.
