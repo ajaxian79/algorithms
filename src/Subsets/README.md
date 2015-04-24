@@ -2867,3 +2867,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 702
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 703
+
+Handles negative inputs as documented above.
