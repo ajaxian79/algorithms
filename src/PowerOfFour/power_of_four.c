@@ -43,3 +43,4 @@ int is_power_of_four(int n) {
 // note 30: Runs in a single pass over the input.
 // note 31: Time complexity: O(n).
 // note 32: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 33: 64-bit safe; intermediate products are widened to 128-bit.
