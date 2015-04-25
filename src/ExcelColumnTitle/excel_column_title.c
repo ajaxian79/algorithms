@@ -71,3 +71,4 @@ char* excel_column_title(int n) {
 // note 41: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 42: Greedy by end-time picks the most non-overlapping intervals.
 // note 43: Sub-linear in the average case thanks to early exit.
+// note 44: Allocates a single small fixed-size scratch buffer.
