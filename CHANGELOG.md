@@ -15239,3 +15239,7 @@
 ## entry 3810
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 3811
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
