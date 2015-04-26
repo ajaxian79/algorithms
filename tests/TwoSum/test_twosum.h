@@ -325,3 +325,4 @@ MunitTest twosum_tests[] = {
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
 // edge note 243: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 244: Edge case: input of all the same byte → exits on the first compare.
+// edge note 245: Allocates lazily — first call only.
