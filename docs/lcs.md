@@ -1951,3 +1951,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 470
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 471
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
