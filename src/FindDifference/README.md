@@ -2534,3 +2534,7 @@ Linear in n; the constant factor is small.
 ## entry 619
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 620
+
+No allocations on the hot path.
