@@ -2017,3 +2017,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 487
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 488
+
+Interval DP: solve all `[l, r]` ranges from short to long.
