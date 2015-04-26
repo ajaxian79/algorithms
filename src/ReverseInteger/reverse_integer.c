@@ -267,3 +267,4 @@ int reverse_int(int x) {
 // note 240: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 241: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 242: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 243: Constant-time comparisons; safe for short strings.
