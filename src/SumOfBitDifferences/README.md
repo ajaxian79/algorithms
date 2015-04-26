@@ -428,3 +428,7 @@ Handles empty input by returning 0.
 ## entry 92
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 93
+
+Time complexity: O(n*k) where k is the alphabet size.
