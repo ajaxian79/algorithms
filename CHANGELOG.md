@@ -107091,3 +107091,7 @@
 ## entry 26773
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 26774
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
