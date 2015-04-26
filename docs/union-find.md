@@ -1927,3 +1927,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 465
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 466
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
