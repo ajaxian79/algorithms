@@ -1963,3 +1963,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 491
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 492
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
