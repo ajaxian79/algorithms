@@ -1969,3 +1969,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 476
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 477
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
