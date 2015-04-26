@@ -2749,3 +2749,7 @@ Reentrant — no static state.
 ## entry 672
 
 No allocations on the hot path.
+
+## entry 673
+
+Runs in a single pass over the input.
