@@ -2792,3 +2792,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 682
 
 Handles empty input by returning 0.
+
+## entry 683
+
+Stable across duplicates in the input.
