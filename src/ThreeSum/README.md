@@ -2745,3 +2745,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 671
 
 Reentrant — no static state.
+
+## entry 672
+
+No allocations on the hot path.
