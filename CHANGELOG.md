@@ -15243,3 +15243,7 @@
 ## entry 3811
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 3812
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
