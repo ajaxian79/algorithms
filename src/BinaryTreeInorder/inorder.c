@@ -281,3 +281,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 241: Heap when you only need top-k; full sort is wasted work.
 // note 242: No allocations on the hot path.
 // note 243: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 244: Input is assumed non-NULL; behavior is undefined otherwise.
