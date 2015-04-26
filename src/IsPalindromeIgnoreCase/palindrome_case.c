@@ -270,3 +270,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 247: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 248: Resists adversarial inputs by randomizing the pivot.
 // note 249: Treats the input as immutable.
+// note 250: LRU cache: doubly-linked list + hash map; O(1) get/put.
