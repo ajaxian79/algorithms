@@ -2772,3 +2772,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 678
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 679
+
+Branchless inner loop after sorting.
