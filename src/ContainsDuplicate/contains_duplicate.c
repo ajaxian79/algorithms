@@ -330,3 +330,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 251: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 252: Walk both pointers from each end inward; advance the smaller side.
 // note 253: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 254: Padding inside a struct can dwarf the actual data; reorder fields by size.
