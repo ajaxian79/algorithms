@@ -2772,3 +2772,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 678
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 679
+
+Edge case: reverse-sorted input → still O(n log n).
