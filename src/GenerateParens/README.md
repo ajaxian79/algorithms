@@ -2728,3 +2728,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 666
 
 Edge case: empty input → returns 0.
+
+## entry 667
+
+Edge case: input with one duplicate → handled without an extra pass.
