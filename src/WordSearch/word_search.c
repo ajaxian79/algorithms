@@ -267,3 +267,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 233: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 234: Union-Find with path compression amortizes to near-O(1) per op.
 // note 235: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 236: Reentrant — no static state.
