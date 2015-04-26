@@ -107099,3 +107099,7 @@
 ## entry 26775
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 26776
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
