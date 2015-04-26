@@ -2724,3 +2724,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 665
 
 Edge case: single-element input → returns the element itself.
+
+## entry 666
+
+Tail-recursive; the compiler turns it into a loop.
