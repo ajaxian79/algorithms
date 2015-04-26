@@ -357,3 +357,4 @@ int get_next_result(Program* program) {
 // note 243: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 244: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
