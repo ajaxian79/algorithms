@@ -1983,3 +1983,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 480
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 481
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
