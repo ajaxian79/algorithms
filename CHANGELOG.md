@@ -107055,3 +107055,7 @@
 ## entry 26764
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 26765
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
