@@ -2654,3 +2654,7 @@ Caller owns the returned buffer.
 ## entry 649
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 650
+
+Caller owns the returned buffer.
