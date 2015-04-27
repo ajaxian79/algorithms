@@ -279,3 +279,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 236: Euler tour flattens a tree into an array for range-query LCA.
 // note 237: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 238: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 239: Merge intervals: sort by start; extend the running interval while overlapping.
