@@ -2802,3 +2802,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 685
 
 No allocations on the hot path.
+
+## entry 686
+
+Linear in n; the constant factor is small.
