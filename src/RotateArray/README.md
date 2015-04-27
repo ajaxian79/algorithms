@@ -2871,3 +2871,7 @@ Handles single-element input as a base case.
 ## entry 702
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 703
+
+Handles single-element input as a base case.
