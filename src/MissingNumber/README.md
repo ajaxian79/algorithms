@@ -2782,3 +2782,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 680
 
 No allocations on the hot path.
+
+## entry 681
+
+Constant-time comparisons; safe for short strings.
