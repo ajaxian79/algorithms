@@ -2757,3 +2757,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 674
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 675
+
+Edge case: alternating pattern → degenerate case for sliding window.
