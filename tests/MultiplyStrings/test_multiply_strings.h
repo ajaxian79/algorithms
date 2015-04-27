@@ -299,3 +299,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 270: Edge case: all-equal input → linear-time fast path.
 // edge note 271: Edge case: all-equal input → linear-time fast path.
 // edge note 272: Treats the input as immutable.
+// edge note 273: Time complexity: O(n*k) where k is the alphabet size.
