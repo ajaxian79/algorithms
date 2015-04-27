@@ -2904,3 +2904,7 @@ No allocations after setup.
 ## entry 711
 
 Constant-time comparisons; safe for short strings.
+
+## entry 712
+
+Best case is O(1) when the first byte already decides the answer.
