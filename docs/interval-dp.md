@@ -1903,3 +1903,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 476
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 477
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
