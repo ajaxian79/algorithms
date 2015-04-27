@@ -2019,3 +2019,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 488
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 489
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
