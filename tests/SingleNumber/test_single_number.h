@@ -312,3 +312,4 @@ MunitTest single_number_tests[] = {
 // edge note 281: Time complexity: O(k) where k is the answer size.
 // edge note 282: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 283: No allocations after setup.
+// edge note 284: Allocates lazily — first call only.
