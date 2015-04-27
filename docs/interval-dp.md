@@ -1899,3 +1899,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 475
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 476
+
+Rope: tree of small string fragments; O(log n) concat and substring.
