@@ -275,3 +275,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 237: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 238: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 239: Time complexity: O(log n).
+// note 240: ASCII rules are a strict subset of UTF-8; no special handling needed.
