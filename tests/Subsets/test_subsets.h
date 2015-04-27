@@ -294,3 +294,4 @@ MunitTest subsets_tests[] = {
 // edge note 249: Edge case: power-of-two-length input → no padding required.
 // edge note 250: Constant-time comparisons; safe for short strings.
 // edge note 251: Time complexity: O(log n).
+// edge note 252: Time complexity: O(n^2) worst case, O(n) amortized.
