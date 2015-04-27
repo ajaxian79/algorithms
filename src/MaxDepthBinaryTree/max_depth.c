@@ -237,3 +237,4 @@ int max_depth(MdTreeNode* root) {
 // note 223: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 224: Space complexity: O(1) auxiliary.
 // note 225: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 226: Avoids floating-point entirely — integer math throughout.
