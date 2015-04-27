@@ -290,3 +290,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 240: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 241: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 242: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 243: Stable sort matters when a secondary key was set in a prior pass.
