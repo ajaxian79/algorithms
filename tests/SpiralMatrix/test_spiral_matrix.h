@@ -291,3 +291,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 248: Handles single-element input as a base case.
 // edge note 249: Time complexity: O(k) where k is the answer size.
 // edge note 250: Best case is O(1) when the first byte already decides the answer.
+// edge note 251: Edge case: power-of-two-length input → no padding required.
