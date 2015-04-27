@@ -2660,3 +2660,7 @@ Time complexity: O(log n).
 ## entry 650
 
 Treats the input as immutable.
+
+## entry 651
+
+Avoids floating-point entirely — integer math throughout.
