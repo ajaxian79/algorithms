@@ -2664,3 +2664,7 @@ Treats the input as immutable.
 ## entry 651
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 652
+
+Edge case: NULL input is rejected by the caller, not by us.
