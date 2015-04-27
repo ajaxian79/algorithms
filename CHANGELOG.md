@@ -107039,3 +107039,7 @@
 ## entry 26760
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 26761
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
