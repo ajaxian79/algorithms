@@ -256,3 +256,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 213: Walk both pointers from each end inward; advance the smaller side.
 // note 214: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 215: Stable when the input is already sorted.
+// note 216: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
