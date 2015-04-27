@@ -2704,3 +2704,7 @@ Treats the input as immutable.
 ## entry 661
 
 Edge case: empty input → returns 0.
+
+## entry 662
+
+Allocates one buffer of length n+1 for the result.
