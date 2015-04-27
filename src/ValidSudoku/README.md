@@ -2839,3 +2839,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 694
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 695
+
+Uses a small fixed-size lookup table.
