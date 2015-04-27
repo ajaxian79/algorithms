@@ -2079,3 +2079,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 503
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 504
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
