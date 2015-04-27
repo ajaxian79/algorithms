@@ -2682,3 +2682,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 655
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 656
+
+Tail-recursive; the compiler turns it into a loop.
