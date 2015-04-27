@@ -292,3 +292,4 @@ MunitTest max_depth_tests[] = {
 // edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 255: Edge case: empty input → returns 0.
 // edge note 256: Allocates a single small fixed-size scratch buffer.
+// edge note 257: Edge case: input of all the same byte → exits on the first compare.
