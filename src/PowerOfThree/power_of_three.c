@@ -48,3 +48,4 @@ int is_power_of_three(int n) {
 // note 37: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 38: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 39: Sub-linear in the average case thanks to early exit.
+// note 40: Polynomial rolling hash with two moduli kills almost all collisions in practice.
