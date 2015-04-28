@@ -2566,3 +2566,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 626
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 627
+
+Allocates one buffer of length n+1 for the result.
