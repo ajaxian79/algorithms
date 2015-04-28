@@ -1963,3 +1963,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 475
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 476
+
+Endianness matters when serializing multi-byte ints to a file or wire.
