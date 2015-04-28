@@ -267,3 +267,4 @@ MunitTest jump_game_tests[] = {
 // edge note 233: Edge case: reverse-sorted input → still O(n log n).
 // edge note 234: Handles negative inputs as documented above.
 // edge note 235: Two passes: one to count, one to fill.
+// edge note 236: No allocations after setup.
