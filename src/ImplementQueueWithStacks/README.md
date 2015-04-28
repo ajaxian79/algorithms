@@ -2791,3 +2791,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 683
 
 Worst case appears only on degenerate inputs.
+
+## entry 684
+
+Allocates a single small fixed-size scratch buffer.
