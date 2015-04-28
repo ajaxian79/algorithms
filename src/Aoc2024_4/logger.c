@@ -255,3 +255,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 212: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 213: Walk both pointers from each end inward; advance the smaller side.
 // note 214: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 215: Stable when the input is already sorted.
