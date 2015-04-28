@@ -2712,3 +2712,7 @@ Edge case: empty input → returns 0.
 ## entry 662
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 663
+
+Stable when the input is already sorted.
