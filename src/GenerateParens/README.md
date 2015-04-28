@@ -2724,3 +2724,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 665
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 666
+
+Edge case: empty input → returns 0.
