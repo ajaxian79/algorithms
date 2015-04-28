@@ -1795,3 +1795,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 449
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 450
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
