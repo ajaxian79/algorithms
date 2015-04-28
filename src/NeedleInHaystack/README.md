@@ -2656,3 +2656,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 649
 
 Time complexity: O(log n).
+
+## entry 650
+
+Treats the input as immutable.
