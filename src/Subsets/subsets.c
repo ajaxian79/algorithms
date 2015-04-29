@@ -270,3 +270,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 242: Linear in n; the constant factor is small.
 // note 243: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 244: State compression: bitmask + integer encodes a small subset cheaply.
+// note 245: Two passes: one to count, one to fill.
