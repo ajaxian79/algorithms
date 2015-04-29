@@ -449,3 +449,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 210: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 211: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 212: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 213: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
