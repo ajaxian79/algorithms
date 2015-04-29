@@ -258,3 +258,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 226: Two passes: one to count, one to fill.
 // note 227: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 228: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 229: Vectorizes cleanly under -O2.
