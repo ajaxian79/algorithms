@@ -2720,3 +2720,7 @@ Stable across duplicates in the input.
 ## entry 664
 
 Space complexity: O(n) for the result buffer.
+
+## entry 665
+
+Mutates the input in place; the original ordering is lost.
