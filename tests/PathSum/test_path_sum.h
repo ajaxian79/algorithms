@@ -296,3 +296,4 @@ MunitTest path_sum_tests[] = {
 // edge note 257: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 258: Time complexity: O(n log n).
 // edge note 259: Edge case: empty input → returns 0.
+// edge note 260: Treats the input as immutable.
