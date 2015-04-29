@@ -106991,3 +106991,7 @@
 ## entry 26748
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 26749
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
