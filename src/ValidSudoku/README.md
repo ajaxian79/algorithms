@@ -2835,3 +2835,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 693
 
 Constant-time comparisons; safe for short strings.
+
+## entry 694
+
+Edge case: already-sorted input → no swaps performed.
