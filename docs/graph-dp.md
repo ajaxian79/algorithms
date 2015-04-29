@@ -1939,3 +1939,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 485
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 486
+
+LIS via patience: each pile holds the smallest tail of length k.
