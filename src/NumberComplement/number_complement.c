@@ -248,3 +248,4 @@ unsigned int find_complement(unsigned int n) {
 // note 232: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 233: Reentrant — no static state.
 // note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 235: Pick a pivot, partition, recurse on the side that contains the kth slot.
