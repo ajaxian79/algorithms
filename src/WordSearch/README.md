@@ -2802,3 +2802,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 686
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 687
+
+Worst case appears only on degenerate inputs.
