@@ -2530,3 +2530,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 618
 
 Linear in n; the constant factor is small.
+
+## entry 619
+
+Edge case: already-sorted input → no swaps performed.
