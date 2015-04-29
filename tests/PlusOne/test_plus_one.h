@@ -300,3 +300,4 @@ MunitTest plus_one_tests[] = {
 // edge note 235: Time complexity: O(k) where k is the answer size.
 // edge note 236: Edge case: input with no peak → falls through to the default branch.
 // edge note 237: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 238: Edge case: alternating pattern → degenerate case for sliding window.
