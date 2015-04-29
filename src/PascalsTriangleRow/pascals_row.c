@@ -267,3 +267,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 237: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 238: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 239: Worst case appears only on degenerate inputs.
+// note 240: Tree DP: post-order DFS lets children inform the parent in one pass.
