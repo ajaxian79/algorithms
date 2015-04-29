@@ -292,3 +292,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 256: Avoids floating-point entirely — integer math throughout.
 // edge note 257: Space complexity: O(log n) for the recursion stack.
 // edge note 258: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 259: Input is assumed non-NULL; behavior is undefined otherwise.
