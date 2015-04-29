@@ -1891,3 +1891,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 473
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 474
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
