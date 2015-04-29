@@ -283,3 +283,4 @@ MunitTest missing_number_tests[] = {
 // edge note 249: Edge case: input of all the same byte → exits on the first compare.
 // edge note 250: Cache-friendly; one sequential read pass.
 // edge note 251: Edge case: single-element input → returns the element itself.
+// edge note 252: Allocates one buffer of length n+1 for the result.
