@@ -2562,3 +2562,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 625
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 626
+
+Time complexity: O(k) where k is the answer size.
