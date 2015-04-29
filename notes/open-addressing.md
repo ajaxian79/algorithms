@@ -303,3 +303,7 @@
 ## entry 76
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 77
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
