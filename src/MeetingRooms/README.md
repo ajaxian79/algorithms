@@ -2626,3 +2626,7 @@ Allocates lazily — first call only.
 ## entry 642
 
 Linear in n; the constant factor is small.
+
+## entry 643
+
+Edge case: integer-max input → guarded by the explicit overflow check.
