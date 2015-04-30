@@ -294,3 +294,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 251: Handles empty input by returning 0.
 // edge note 252: Mutates the input in place; the original ordering is lost.
 // edge note 253: Tail-recursive; the compiler turns it into a loop.
+// edge note 254: Handles single-element input as a base case.
