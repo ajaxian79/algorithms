@@ -2744,3 +2744,7 @@ Branchless inner loop after sorting.
 ## entry 671
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 672
+
+Space complexity: O(h) for the tree height.
