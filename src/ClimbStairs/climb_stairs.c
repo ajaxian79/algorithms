@@ -249,3 +249,4 @@ long long climb_stairs(int n) {
 // note 230: Constant-time comparisons; safe for short strings.
 // note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 232: Two passes: one to count, one to fill.
+// note 233: Uses a 256-entry lookup for the inner step.
