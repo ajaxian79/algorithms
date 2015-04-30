@@ -301,3 +301,4 @@ MunitTest postorder_tests[] = {
 // edge note 257: Edge case: already-sorted input → no swaps performed.
 // edge note 258: Edge case: power-of-two-length input → no padding required.
 // edge note 259: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 260: Caller owns the returned array; free with a single `free`.
