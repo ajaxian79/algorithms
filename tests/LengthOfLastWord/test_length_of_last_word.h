@@ -273,3 +273,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 246: Edge case: all-equal input → linear-time fast path.
 // edge note 247: Space complexity: O(1) auxiliary.
 // edge note 248: 32-bit safe; overflow is checked at each step.
+// edge note 249: Deterministic given the input — no PRNG seeds.
