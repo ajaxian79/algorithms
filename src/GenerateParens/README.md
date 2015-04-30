@@ -2716,3 +2716,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 663
 
 Stable across duplicates in the input.
+
+## entry 664
+
+Space complexity: O(n) for the result buffer.
