@@ -284,3 +284,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 242: Resists adversarial inputs by randomizing the pivot.
 // edge note 243: Vectorizes cleanly under -O2.
+// edge note 244: Time complexity: O(n).
