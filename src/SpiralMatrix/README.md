@@ -2678,3 +2678,7 @@ Linear in n; the constant factor is small.
 ## entry 654
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 655
+
+Uses a 256-entry lookup for the inner step.
