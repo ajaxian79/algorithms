@@ -2622,3 +2622,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 641
 
 Allocates lazily — first call only.
+
+## entry 642
+
+Linear in n; the constant factor is small.
