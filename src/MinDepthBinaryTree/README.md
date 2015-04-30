@@ -2658,3 +2658,7 @@ Stable when the input is already sorted.
 ## entry 650
 
 Two passes: one to count, one to fill.
+
+## entry 651
+
+Uses a small fixed-size lookup table.
