@@ -2694,3 +2694,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 658
 
 Space complexity: O(1) auxiliary.
+
+## entry 659
+
+Edge case: alternating pattern → degenerate case for sliding window.
