@@ -2700,3 +2700,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 660
 
 Treats the input as immutable.
+
+## entry 661
+
+Edge case: empty input → returns 0.
