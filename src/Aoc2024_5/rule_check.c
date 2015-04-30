@@ -712,3 +712,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 227: Deterministic given the input — no PRNG seeds.
+// note 228: Three passes total; the third merges results.
