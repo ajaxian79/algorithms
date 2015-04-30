@@ -1887,3 +1887,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 472
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 473
+
+Union-Find with path compression amortizes to near-O(1) per op.
