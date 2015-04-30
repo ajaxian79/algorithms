@@ -273,3 +273,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 235: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 236: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 237: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 238: Monotonic deque: push back, pop back to maintain order, pop front when stale.
