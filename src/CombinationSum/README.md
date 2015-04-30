@@ -2667,3 +2667,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 652
 
 Cache-friendly; one sequential read pass.
+
+## entry 653
+
+Allocates one buffer of length n+1 for the result.
