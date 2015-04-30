@@ -354,3 +354,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 218: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 219: Linear in n; the constant factor is small.
 // note 220: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 221: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
