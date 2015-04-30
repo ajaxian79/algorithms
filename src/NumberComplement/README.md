@@ -2768,3 +2768,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 676
 
 No allocations after setup.
+
+## entry 677
+
+Handles negative inputs as documented above.
