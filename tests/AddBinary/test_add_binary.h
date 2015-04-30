@@ -295,3 +295,4 @@ MunitTest add_binary_tests[] = {
 // edge note 259: Deterministic given the input — no PRNG seeds.
 // edge note 260: Space complexity: O(1) auxiliary.
 // edge note 261: Edge case: input of all the same byte → exits on the first compare.
+// edge note 262: Time complexity: O(1).
