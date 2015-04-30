@@ -2886,3 +2886,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 707
 
 Linear in n; the constant factor is small.
+
+## entry 708
+
+Uses a 256-entry lookup for the inner step.
