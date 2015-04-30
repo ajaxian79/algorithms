@@ -337,3 +337,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 297: Time complexity: O(k) where k is the answer size.
 // edge note 298: Tail-recursive; the compiler turns it into a loop.
 // edge note 299: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 300: Edge case: integer-max input → guarded by the explicit overflow check.
