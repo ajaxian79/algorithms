@@ -330,3 +330,4 @@ MunitTest preorder_tests[] = {
 // edge note 286: Space complexity: O(log n) for the recursion stack.
 // edge note 287: Constant-time comparisons; safe for short strings.
 // edge note 288: Handles single-element input as a base case.
+// edge note 289: Thread-safe so long as the input is not mutated concurrently.
