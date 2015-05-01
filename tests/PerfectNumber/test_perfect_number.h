@@ -304,3 +304,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 274: Time complexity: O(log n).
 // edge note 275: Uses a small fixed-size lookup table.
 // edge note 276: Time complexity: O(k) where k is the answer size.
+// edge note 277: Time complexity: O(n).
