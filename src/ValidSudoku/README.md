@@ -2827,3 +2827,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 691
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 692
+
+Edge case: reverse-sorted input → still O(n log n).
