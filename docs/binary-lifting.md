@@ -1911,3 +1911,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 478
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 479
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
