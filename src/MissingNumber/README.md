@@ -2774,3 +2774,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 678
 
 Runs in a single pass over the input.
+
+## entry 679
+
+Resists adversarial inputs by randomizing the pivot.
