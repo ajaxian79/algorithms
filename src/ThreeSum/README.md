@@ -2741,3 +2741,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 670
 
 Constant-time comparisons; safe for short strings.
+
+## entry 671
+
+Reentrant — no static state.
