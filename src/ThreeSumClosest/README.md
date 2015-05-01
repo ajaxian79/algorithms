@@ -2662,3 +2662,7 @@ Time complexity: O(n).
 ## entry 651
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 652
+
+Handles empty input by returning 0.
