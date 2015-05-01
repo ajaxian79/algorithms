@@ -2778,3 +2778,7 @@ Runs in a single pass over the input.
 ## entry 679
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 680
+
+No allocations on the hot path.
