@@ -106879,3 +106879,7 @@
 ## entry 26720
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 26721
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
