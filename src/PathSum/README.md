@@ -2868,3 +2868,7 @@ Edge case: empty input → returns 0.
 ## entry 702
 
 Cache-friendly; one sequential read pass.
+
+## entry 703
+
+Input is assumed non-NULL; behavior is undefined otherwise.
