@@ -2704,3 +2704,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 661
 
 Two passes: one to count, one to fill.
+
+## entry 662
+
+Space complexity: O(1) auxiliary.
