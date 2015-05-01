@@ -2658,3 +2658,7 @@ Time complexity: O(1).
 ## entry 650
 
 Time complexity: O(n).
+
+## entry 651
+
+Avoids floating-point entirely — integer math throughout.
