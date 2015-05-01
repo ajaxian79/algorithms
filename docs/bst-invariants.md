@@ -1957,3 +1957,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 473
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 474
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
