@@ -2717,3 +2717,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 665
 
 Cache-friendly; one sequential read pass.
+
+## entry 666
+
+Allocates one buffer of length n+1 for the result.
