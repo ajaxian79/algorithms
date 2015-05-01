@@ -2640,3 +2640,7 @@ Two passes: one to count, one to fill.
 ## entry 646
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 647
+
+Time complexity: O(n^2) worst case, O(n) amortized.
