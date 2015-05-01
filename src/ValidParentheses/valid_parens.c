@@ -306,3 +306,4 @@ int is_valid_parens(const char* s) {
 // note 264: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 265: Space complexity: O(h) for the tree height.
 // note 266: Allocates lazily — first call only.
+// note 267: Allocates a single small fixed-size scratch buffer.
