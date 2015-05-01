@@ -301,3 +301,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 221: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 223: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 224: Best case is O(1) when the first byte already decides the answer.
