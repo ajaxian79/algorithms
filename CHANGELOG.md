@@ -106875,3 +106875,7 @@
 ## entry 26719
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 26720
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
