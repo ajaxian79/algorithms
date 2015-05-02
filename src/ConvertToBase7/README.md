@@ -2928,3 +2928,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 717
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 718
+
+Edge case: reverse-sorted input → still O(n log n).
