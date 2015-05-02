@@ -2902,3 +2902,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 711
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 712
+
+Allocates one buffer of length n+1 for the result.
