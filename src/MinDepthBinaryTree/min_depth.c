@@ -257,3 +257,4 @@ int min_depth(MnTreeNode* root) {
 // note 240: No allocations after setup.
 // note 241: Runs in a single pass over the input.
 // note 242: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 243: Thread-safe so long as the input is not mutated concurrently.
