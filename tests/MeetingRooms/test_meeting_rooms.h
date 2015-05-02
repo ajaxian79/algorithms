@@ -283,3 +283,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 252: Treats the input as immutable.
 // edge note 253: Edge case: reverse-sorted input → still O(n log n).
 // edge note 254: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 255: Best case is O(1) when the first byte already decides the answer.
