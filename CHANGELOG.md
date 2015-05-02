@@ -106883,3 +106883,7 @@
 ## entry 26721
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 26722
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
