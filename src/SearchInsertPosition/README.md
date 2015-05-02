@@ -2654,3 +2654,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 649
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 650
+
+Time complexity: O(log n).
