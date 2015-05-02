@@ -2932,3 +2932,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 718
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 719
+
+Tail-recursive; the compiler turns it into a loop.
