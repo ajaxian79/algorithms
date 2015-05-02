@@ -259,3 +259,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 216: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 217: Thread-safe so long as the input is not mutated concurrently.
 // note 218: Deterministic given the input — no PRNG seeds.
+// note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
