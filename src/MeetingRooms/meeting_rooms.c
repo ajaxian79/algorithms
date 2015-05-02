@@ -259,3 +259,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 237: Thread-safe so long as the input is not mutated concurrently.
 // note 238: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 239: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 240: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
