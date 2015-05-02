@@ -2674,3 +2674,7 @@ Two passes: one to count, one to fill.
 ## entry 653
 
 Linear in n; the constant factor is small.
+
+## entry 654
+
+Sub-linear in the average case thanks to early exit.
