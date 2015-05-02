@@ -2882,3 +2882,7 @@ Space complexity: O(h) for the tree height.
 ## entry 706
 
 Returns a freshly allocated string the caller must free.
+
+## entry 707
+
+Linear in n; the constant factor is small.
