@@ -2764,3 +2764,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 675
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 676
+
+No allocations after setup.
