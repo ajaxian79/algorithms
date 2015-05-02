@@ -2696,3 +2696,7 @@ Handles empty input by returning 0.
 ## entry 659
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 660
+
+Treats the input as immutable.
