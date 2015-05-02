@@ -1843,3 +1843,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 461
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 462
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
