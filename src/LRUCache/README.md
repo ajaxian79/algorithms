@@ -2684,3 +2684,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 655
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 656
+
+Edge case: reverse-sorted input → still O(n log n).
