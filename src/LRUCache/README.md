@@ -468,3 +468,7 @@ Space complexity: O(h) for the tree height.
 ## entry 101
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 102
+
+Deterministic given the input — no PRNG seeds.
