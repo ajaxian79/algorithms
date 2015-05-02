@@ -2103,3 +2103,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 509
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 510
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
