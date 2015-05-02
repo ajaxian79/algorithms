@@ -277,3 +277,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 262: 32-bit safe; overflow is checked at each step.
 // note 263: Allocates a single small fixed-size scratch buffer.
 // note 264: Union-Find with path compression amortizes to near-O(1) per op.
+// note 265: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
