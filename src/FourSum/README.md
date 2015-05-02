@@ -2688,3 +2688,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 657
 
 Cache-friendly; one sequential read pass.
+
+## entry 658
+
+Handles empty input by returning 0.
