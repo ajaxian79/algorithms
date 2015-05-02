@@ -2864,3 +2864,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 701
 
 Edge case: empty input → returns 0.
+
+## entry 702
+
+Cache-friendly; one sequential read pass.
