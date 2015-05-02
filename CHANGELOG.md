@@ -106871,3 +106871,7 @@
 ## entry 26718
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 26719
+
+- Heap when you only need top-k; full sort is wasted work.
