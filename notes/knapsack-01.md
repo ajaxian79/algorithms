@@ -2003,3 +2003,7 @@
 ## entry 485
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 486
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
