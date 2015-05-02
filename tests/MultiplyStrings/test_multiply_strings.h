@@ -298,3 +298,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 269: Edge case: single-element input → returns the element itself.
 // edge note 270: Edge case: all-equal input → linear-time fast path.
 // edge note 271: Edge case: all-equal input → linear-time fast path.
+// edge note 272: Treats the input as immutable.
