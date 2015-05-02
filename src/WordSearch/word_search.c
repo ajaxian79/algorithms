@@ -265,3 +265,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 231: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 232: Mutates the input in place; the original ordering is lost.
 // note 233: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 234: Union-Find with path compression amortizes to near-O(1) per op.
