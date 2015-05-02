@@ -2692,3 +2692,7 @@ Cache-friendly; one sequential read pass.
 ## entry 658
 
 Handles empty input by returning 0.
+
+## entry 659
+
+Edge case: power-of-two-length input → no padding required.
