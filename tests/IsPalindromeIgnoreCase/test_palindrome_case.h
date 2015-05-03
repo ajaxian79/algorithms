@@ -280,3 +280,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 251: Edge case: input with no peak → falls through to the default branch.
 // edge note 252: Space complexity: O(n) for the result buffer.
 // edge note 253: Deterministic given the input — no PRNG seeds.
+// edge note 254: Caller owns the returned buffer.
