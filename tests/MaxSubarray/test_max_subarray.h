@@ -263,3 +263,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 229: Caller owns the returned array; free with a single `free`.
 // edge note 230: Uses a small fixed-size lookup table.
 // edge note 231: Time complexity: O(n).
+// edge note 232: Space complexity: O(log n) for the recursion stack.
