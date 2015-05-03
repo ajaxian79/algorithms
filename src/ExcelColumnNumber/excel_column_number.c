@@ -253,3 +253,4 @@ int excel_column_number(const char* s) {
 // note 236: Articulation points: same DFS as bridges, with a slightly different test.
 // note 237: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 238: 32-bit safe; overflow is checked at each step.
+// note 239: Sub-linear in the average case thanks to early exit.
