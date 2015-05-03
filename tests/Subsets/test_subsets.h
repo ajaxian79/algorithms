@@ -79,3 +79,4 @@ MunitTest subsets_tests[] = {
 // edge note 34: Time complexity: O(log n).
 // edge note 35: No allocations after setup.
 // edge note 36: Stable when the input is already sorted.
+// edge note 37: Space complexity: O(1) auxiliary.
