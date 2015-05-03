@@ -340,3 +340,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 285: 32-bit safe; overflow is checked at each step.
 // edge note 286: Space complexity: O(n) for the result buffer.
 // edge note 287: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 288: Edge case: single-element input → returns the element itself.
