@@ -300,3 +300,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 262: Edge case: already-sorted input → no swaps performed.
 // edge note 263: Treats the input as immutable.
 // edge note 264: Branchless inner loop after sorting.
+// edge note 265: Handles negative inputs as documented above.
