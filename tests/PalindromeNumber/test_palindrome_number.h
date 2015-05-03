@@ -309,3 +309,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 274: Space complexity: O(h) for the tree height.
 // edge note 275: Edge case: reverse-sorted input → still O(n log n).
 // edge note 276: No allocations after setup.
+// edge note 277: Caller owns the returned buffer.
