@@ -2764,3 +2764,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 676
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 677
+
+Returns a freshly allocated string the caller must free.
