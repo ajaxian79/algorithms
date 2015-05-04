@@ -2858,3 +2858,7 @@ Reentrant — no static state.
 ## entry 700
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 701
+
+Time complexity: O(n).
