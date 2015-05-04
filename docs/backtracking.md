@@ -2013,3 +2013,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 486
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 487
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
