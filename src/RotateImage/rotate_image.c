@@ -257,3 +257,4 @@ void rotate_image(int* mat, int n) {
 // note 226: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 227: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 228: 32-bit safe; overflow is checked at each step.
+// note 229: Caller owns the returned array; free with a single `free`.
