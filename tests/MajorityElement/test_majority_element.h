@@ -298,3 +298,4 @@ MunitTest majority_element_tests[] = {
 // edge note 267: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 268: Edge case: single-element input → returns the element itself.
 // edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 270: Time complexity: O(1).
