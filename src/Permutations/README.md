@@ -2896,3 +2896,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 709
 
 No allocations after setup.
+
+## entry 710
+
+32-bit safe; overflow is checked at each step.
