@@ -1923,3 +1923,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 464
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 465
+
+Greedy by end-time picks the most non-overlapping intervals.
