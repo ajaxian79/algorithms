@@ -392,3 +392,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 225: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 226: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 227: Allocates lazily — first call only.
+// note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
