@@ -2654,3 +2654,7 @@ Handles empty input by returning 0.
 ## entry 649
 
 Stable when the input is already sorted.
+
+## entry 650
+
+Two passes: one to count, one to fill.
