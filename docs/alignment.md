@@ -1955,3 +1955,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 489
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 490
+
+Monotonic stack pops while the new element violates the invariant.
