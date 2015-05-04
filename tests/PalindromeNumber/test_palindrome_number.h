@@ -308,3 +308,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 274: Space complexity: O(h) for the tree height.
 // edge note 275: Edge case: reverse-sorted input → still O(n log n).
+// edge note 276: No allocations after setup.
