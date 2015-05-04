@@ -2806,3 +2806,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 687
 
 32-bit safe; overflow is checked at each step.
+
+## entry 688
+
+Uses a small fixed-size lookup table.
