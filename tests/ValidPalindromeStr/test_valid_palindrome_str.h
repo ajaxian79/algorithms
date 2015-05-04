@@ -273,3 +273,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 246: Caller owns the returned buffer.
 // edge note 247: Allocates a single small fixed-size scratch buffer.
 // edge note 248: Edge case: input of all the same byte → exits on the first compare.
+// edge note 249: Caller owns the returned array; free with a single `free`.
