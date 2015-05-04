@@ -2798,3 +2798,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 685
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 686
+
+Sub-linear in the average case thanks to early exit.
