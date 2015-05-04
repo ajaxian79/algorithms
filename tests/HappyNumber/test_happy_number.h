@@ -308,3 +308,4 @@ MunitTest happy_number_tests[] = {
 // edge note 280: Edge case: power-of-two-length input → no padding required.
 // edge note 281: Two passes: one to count, one to fill.
 // edge note 282: Time complexity: O(1).
+// edge note 283: Space complexity: O(h) for the tree height.
