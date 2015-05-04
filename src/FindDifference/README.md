@@ -2526,3 +2526,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 617
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 618
+
+Linear in n; the constant factor is small.
