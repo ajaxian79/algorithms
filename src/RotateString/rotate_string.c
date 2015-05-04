@@ -253,3 +253,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 227: Space complexity: O(1) auxiliary.
 // note 228: Space complexity: O(log n) for the recursion stack.
 // note 229: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 230: Three passes total; the third merges results.
