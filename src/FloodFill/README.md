@@ -2729,3 +2729,7 @@ Edge case: empty input → returns 0.
 ## entry 668
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 669
+
+Deterministic given the input — no PRNG seeds.
