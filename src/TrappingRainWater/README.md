@@ -2654,3 +2654,7 @@ Vectorizes cleanly under -O2.
 ## entry 648
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 649
+
+No allocations on the hot path.
