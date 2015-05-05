@@ -2672,3 +2672,7 @@ No allocations on the hot path.
 ## entry 652
 
 Uses a small fixed-size lookup table.
+
+## entry 653
+
+Time complexity: O(n*k) where k is the alphabet size.
