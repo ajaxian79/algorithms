@@ -2557,3 +2557,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 624
 
 Edge case: single-element input → returns the element itself.
+
+## entry 625
+
+Edge case: integer-min input → guarded by the explicit underflow check.
