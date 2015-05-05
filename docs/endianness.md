@@ -1899,3 +1899,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 475
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 476
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
