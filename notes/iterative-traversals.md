@@ -333,3 +333,7 @@
 ## entry 68
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 69
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
