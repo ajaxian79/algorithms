@@ -2676,3 +2676,7 @@ Uses a small fixed-size lookup table.
 ## entry 653
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 654
+
+Space complexity: O(log n) for the recursion stack.
