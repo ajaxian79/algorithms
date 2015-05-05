@@ -106803,3 +106803,7 @@
 ## entry 26701
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 26702
+
+- Walk both pointers from each end inward; advance the smaller side.
