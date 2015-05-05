@@ -1919,3 +1919,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 480
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 481
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
