@@ -1897,3 +1897,7 @@
 ## entry 458
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 459
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
