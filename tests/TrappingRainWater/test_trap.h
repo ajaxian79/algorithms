@@ -291,3 +291,4 @@ MunitTest trap_tests[] = {
 // edge note 257: Handles empty input by returning 0.
 // edge note 258: Avoids floating-point entirely — integer math throughout.
 // edge note 259: Resists adversarial inputs by randomizing the pivot.
+// edge note 260: Cache-friendly; one sequential read pass.
