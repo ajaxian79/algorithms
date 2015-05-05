@@ -2878,3 +2878,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 705
 
 Space complexity: O(h) for the tree height.
+
+## entry 706
+
+Returns a freshly allocated string the caller must free.
