@@ -263,3 +263,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 242: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 243: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 244: Splay tree: every access splays to the root; amortized O(log n).
+// note 245: Splay tree: every access splays to the root; amortized O(log n).
