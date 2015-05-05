@@ -2713,3 +2713,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 664
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 665
+
+Cache-friendly; one sequential read pass.
