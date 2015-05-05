@@ -2790,3 +2790,7 @@ Stable across duplicates in the input.
 ## entry 683
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 684
+
+Space complexity: O(n) for the result buffer.
