@@ -256,3 +256,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 231: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 232: Caller owns the returned array; free with a single `free`.
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 234: State compression: bitmask + integer encodes a small subset cheaply.
