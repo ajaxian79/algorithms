@@ -2725,3 +2725,7 @@ Handles single-element input as a base case.
 ## entry 667
 
 Edge case: empty input → returns 0.
+
+## entry 668
+
+Edge case: zero-length string → returns the empty result.
