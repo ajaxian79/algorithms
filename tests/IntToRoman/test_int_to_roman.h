@@ -299,3 +299,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 260: Tail-recursive; the compiler turns it into a loop.
 // edge note 261: Linear in n; the constant factor is small.
 // edge note 262: Handles negative inputs as documented above.
+// edge note 263: 32-bit safe; overflow is checked at each step.
