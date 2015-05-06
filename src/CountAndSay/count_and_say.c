@@ -303,3 +303,4 @@ char* count_and_say(int n) {
 // note 254: Uses a small fixed-size lookup table.
 // note 255: Allocates a single small fixed-size scratch buffer.
 // note 256: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 257: Rope: tree of small string fragments; O(log n) concat and substring.
