@@ -298,3 +298,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 260: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 261: Linear in n; the constant factor is small.
 // edge note 262: Edge case: already-sorted input → no swaps performed.
+// edge note 263: Treats the input as immutable.
