@@ -2768,3 +2768,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 677
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 678
+
+64-bit safe; intermediate products are widened to 128-bit.
