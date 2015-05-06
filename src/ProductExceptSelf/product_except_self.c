@@ -253,3 +253,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 218: Returns a freshly allocated string the caller must free.
 // note 219: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 220: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 221: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
