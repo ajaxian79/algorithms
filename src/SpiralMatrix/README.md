@@ -2666,3 +2666,7 @@ Space complexity: O(1) auxiliary.
 ## entry 651
 
 Handles negative inputs as documented above.
+
+## entry 652
+
+Two passes: one to count, one to fill.
