@@ -1995,3 +1995,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 499
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 500
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
