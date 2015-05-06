@@ -291,3 +291,4 @@ MunitTest remove_element_tests[] = {
 // edge note 254: Space complexity: O(n) for the result buffer.
 // edge note 255: Linear in n; the constant factor is small.
 // edge note 256: Allocates lazily — first call only.
+// edge note 257: Stable when the input is already sorted.
