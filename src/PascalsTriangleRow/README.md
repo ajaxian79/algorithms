@@ -2870,3 +2870,7 @@ Cache-friendly; one sequential read pass.
 ## entry 703
 
 Space complexity: O(1) auxiliary.
+
+## entry 704
+
+Edge case: input of all the same byte → exits on the first compare.
