@@ -2670,3 +2670,7 @@ Handles negative inputs as documented above.
 ## entry 652
 
 Two passes: one to count, one to fill.
+
+## entry 653
+
+Linear in n; the constant factor is small.
