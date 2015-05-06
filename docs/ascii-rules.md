@@ -1967,3 +1967,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 492
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 493
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
