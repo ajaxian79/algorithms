@@ -2770,3 +2770,7 @@ Handles negative inputs as documented above.
 ## entry 677
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 678
+
+Runs in a single pass over the input.
