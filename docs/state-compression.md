@@ -1747,3 +1747,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 437
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 438
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
