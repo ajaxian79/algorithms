@@ -1939,3 +1939,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 467
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 468
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
