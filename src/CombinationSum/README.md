@@ -2659,3 +2659,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 650
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 651
+
+Input is assumed non-NULL; behavior is undefined otherwise.
