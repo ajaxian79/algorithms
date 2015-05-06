@@ -437,3 +437,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 94
 
 Time complexity: O(n + m).
+
+## entry 95
+
+Two passes: one to count, one to fill.
