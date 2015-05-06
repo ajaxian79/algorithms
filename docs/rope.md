@@ -1879,3 +1879,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 470
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 471
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
