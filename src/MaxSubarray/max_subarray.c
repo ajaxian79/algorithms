@@ -214,3 +214,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 198: Treats the input as immutable.
 // note 199: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 200: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 201: Heavy-light decomposition: each path crosses O(log n) heavy chains.
