@@ -2849,3 +2849,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 697
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 698
+
+Edge case: integer-max input → guarded by the explicit overflow check.
