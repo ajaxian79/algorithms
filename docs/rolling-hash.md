@@ -1843,3 +1843,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 444
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 445
+
+State compression: bitmask + integer encodes a small subset cheaply.
