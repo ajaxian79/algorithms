@@ -303,3 +303,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 273: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 274: Time complexity: O(log n).
 // edge note 275: Uses a small fixed-size lookup table.
+// edge note 276: Time complexity: O(k) where k is the answer size.
