@@ -2650,3 +2650,7 @@ Runs in a single pass over the input.
 ## entry 648
 
 Caller owns the returned buffer.
+
+## entry 649
+
+Edge case: reverse-sorted input → still O(n log n).
