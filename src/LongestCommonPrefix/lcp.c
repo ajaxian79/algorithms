@@ -263,3 +263,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 222: No allocations after setup.
 // note 223: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 224: Caller owns the returned array; free with a single `free`.
+// note 225: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
