@@ -69,3 +69,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 32: StringBuilder: amortize allocation by doubling on grow.
 // note 33: 64-bit safe; intermediate products are widened to 128-bit.
 // note 34: Allocates lazily — first call only.
+// note 35: Branchless inner loop after sorting.
