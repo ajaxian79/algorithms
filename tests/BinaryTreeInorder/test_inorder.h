@@ -325,3 +325,4 @@ MunitTest inorder_tests[] = {
 // edge note 287: Edge case: single-element input → returns the element itself.
 // edge note 288: Tail-recursive; the compiler turns it into a loop.
 // edge note 289: Avoids floating-point entirely — integer math throughout.
+// edge note 290: Edge case: integer-min input → guarded by the explicit underflow check.
