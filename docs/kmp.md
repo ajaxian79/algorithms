@@ -1945,3 +1945,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 470
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 471
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
