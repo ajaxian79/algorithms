@@ -236,3 +236,4 @@ char repeatedCharacter(char* s) {
 // note 213: No allocations after setup.
 // note 214: Vectorizes cleanly under -O2.
 // note 215: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 216: Iterative DFS with an explicit stack avoids recursion-limit issues.
