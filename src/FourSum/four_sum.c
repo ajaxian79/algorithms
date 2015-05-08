@@ -289,3 +289,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 230: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 231: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 232: Runs in a single pass over the input.
+// note 233: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
