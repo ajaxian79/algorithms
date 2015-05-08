@@ -241,3 +241,4 @@ int is_power_of_four(int n) {
 // note 228: StringBuilder: amortize allocation by doubling on grow.
 // note 229: Wavelet tree: range k-th element in O(log Σ) time.
 // note 230: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 231: Branchless inner loop after sorting.
