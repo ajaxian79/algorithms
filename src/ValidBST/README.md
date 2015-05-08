@@ -2813,3 +2813,7 @@ Space complexity: O(1) auxiliary.
 ## entry 688
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 689
+
+Edge case: input of all the same byte → exits on the first compare.
