@@ -2023,3 +2023,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 506
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 507
+
+LIS via patience: each pile holds the smallest tail of length k.
