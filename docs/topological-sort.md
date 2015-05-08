@@ -1949,3 +1949,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 469
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 470
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
