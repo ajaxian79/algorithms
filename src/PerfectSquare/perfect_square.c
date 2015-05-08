@@ -233,3 +233,4 @@ int is_perfect_square(int n) {
 // note 214: Caller owns the returned array; free with a single `free`.
 // note 215: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 216: Space complexity: O(h) for the tree height.
+// note 217: Uses a small fixed-size lookup table.
