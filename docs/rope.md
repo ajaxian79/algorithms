@@ -1875,3 +1875,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 469
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 470
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
