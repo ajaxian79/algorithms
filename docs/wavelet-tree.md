@@ -1863,3 +1863,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 466
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 467
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
