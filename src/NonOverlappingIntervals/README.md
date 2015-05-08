@@ -2753,3 +2753,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 673
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 674
+
+Resists adversarial inputs by randomizing the pivot.
