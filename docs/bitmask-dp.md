@@ -1987,3 +1987,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 497
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 498
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
