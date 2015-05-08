@@ -1823,3 +1823,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 440
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 441
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
