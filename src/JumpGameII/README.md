@@ -2760,3 +2760,7 @@ Uses a small fixed-size lookup table.
 ## entry 675
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 676
+
+Space complexity: O(log n) for the recursion stack.
