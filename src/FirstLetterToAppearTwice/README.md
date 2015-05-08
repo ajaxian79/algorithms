@@ -2494,3 +2494,7 @@ Cache-friendly; one sequential read pass.
 ## entry 599
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 600
+
+Time complexity: O(k) where k is the answer size.
