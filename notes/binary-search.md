@@ -1977,3 +1977,7 @@
 ## entry 479
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 480
+
+- Monotonic stack pops while the new element violates the invariant.
