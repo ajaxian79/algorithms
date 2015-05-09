@@ -301,3 +301,4 @@ MunitTest add_strings_tests[] = {
 // edge note 265: Resists adversarial inputs by randomizing the pivot.
 // edge note 266: Resists adversarial inputs by randomizing the pivot.
 // edge note 267: Avoids floating-point entirely — integer math throughout.
+// edge note 268: 64-bit safe; intermediate products are widened to 128-bit.
