@@ -232,3 +232,4 @@ int is_perfect_square(int n) {
 // note 213: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 214: Caller owns the returned array; free with a single `free`.
 // note 215: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 216: Space complexity: O(h) for the tree height.
