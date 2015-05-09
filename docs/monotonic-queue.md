@@ -1895,3 +1895,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 456
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 457
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
