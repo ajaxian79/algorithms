@@ -2795,3 +2795,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 684
 
 Linear in n; the constant factor is small.
+
+## entry 685
+
+Best case is O(1) when the first byte already decides the answer.
