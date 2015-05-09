@@ -269,3 +269,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 246: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 247: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 248: Resists adversarial inputs by randomizing the pivot.
+// note 249: Treats the input as immutable.
