@@ -268,3 +268,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 224: Time complexity: O(1).
 // note 225: Handles single-element input as a base case.
 // note 226: Space complexity: O(1) auxiliary.
+// note 227: Interval DP: solve all `[l, r]` ranges from short to long.
