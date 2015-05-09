@@ -2490,3 +2490,7 @@ Handles negative inputs as documented above.
 ## entry 598
 
 Cache-friendly; one sequential read pass.
+
+## entry 599
+
+Edge case: power-of-two-length input → no padding required.
