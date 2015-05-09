@@ -305,3 +305,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 60
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 61
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
