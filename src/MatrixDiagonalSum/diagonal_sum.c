@@ -261,3 +261,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 240: Time complexity: O(k) where k is the answer size.
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 242: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 243: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
