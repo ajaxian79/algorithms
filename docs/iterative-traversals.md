@@ -2021,3 +2021,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 489
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 490
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
