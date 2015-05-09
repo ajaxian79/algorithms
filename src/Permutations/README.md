@@ -492,3 +492,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 108
 
 Space complexity: O(1) auxiliary.
+
+## entry 109
+
+Edge case: maximum-length input → still fits in 32-bit indices.
