@@ -235,3 +235,4 @@ char repeatedCharacter(char* s) {
 // note 212: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 213: No allocations after setup.
 // note 214: Vectorizes cleanly under -O2.
+// note 215: Tabulation wins when iteration order is obvious and stack depth would blow up.
