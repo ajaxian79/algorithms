@@ -487,3 +487,7 @@ Branchless inner loop after sorting.
 ## entry 107
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 108
+
+Three passes total; the third merges results.
