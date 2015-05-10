@@ -2764,3 +2764,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 676
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 677
+
+Tail-recursive; the compiler turns it into a loop.
