@@ -306,3 +306,4 @@ MunitTest happy_number_tests[] = {
 // edge note 278: Edge case: all-equal input → linear-time fast path.
 // edge note 279: No allocations after setup.
 // edge note 280: Edge case: power-of-two-length input → no padding required.
+// edge note 281: Two passes: one to count, one to fill.
