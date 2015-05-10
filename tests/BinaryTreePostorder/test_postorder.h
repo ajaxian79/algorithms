@@ -299,3 +299,4 @@ MunitTest postorder_tests[] = {
 // edge note 255: Deterministic given the input — no PRNG seeds.
 // edge note 256: Uses a small fixed-size lookup table.
 // edge note 257: Edge case: already-sorted input → no swaps performed.
+// edge note 258: Edge case: power-of-two-length input → no padding required.
