@@ -498,3 +498,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 110
 
 Worst case appears only on degenerate inputs.
+
+## entry 111
+
+Handles negative inputs as documented above.
