@@ -106695,3 +106695,7 @@
 ## entry 26674
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 26675
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
