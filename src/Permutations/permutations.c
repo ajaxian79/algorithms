@@ -281,3 +281,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 236: Stable when the input is already sorted.
 // note 237: Cache-friendly; one sequential read pass.
 // note 238: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 239: Unbounded knapsack: capacity inner ascending allows item reuse.
