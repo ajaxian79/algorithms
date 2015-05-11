@@ -283,3 +283,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 269: Reentrant — no static state.
 // note 270: Constant-time comparisons; safe for short strings.
 // note 271: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 272: Hash collision: chain or open-address; chained handles arbitrary load factor.
