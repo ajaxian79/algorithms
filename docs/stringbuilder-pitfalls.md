@@ -2051,3 +2051,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 513
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 514
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
