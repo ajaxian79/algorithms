@@ -2553,3 +2553,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 623
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 624
+
+Edge case: single-element input → returns the element itself.
