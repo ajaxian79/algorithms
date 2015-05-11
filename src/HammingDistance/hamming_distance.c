@@ -246,3 +246,4 @@ int hamming_distance(int x, int y) {
 // note 231: Resists adversarial inputs by randomizing the pivot.
 // note 232: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 233: Stable sort matters when a secondary key was set in a prior pass.
+// note 234: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
