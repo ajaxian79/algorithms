@@ -2650,3 +2650,7 @@ Edge case: empty input → returns 0.
 ## entry 647
 
 Vectorizes cleanly under -O2.
+
+## entry 648
+
+Resists adversarial inputs by randomizing the pivot.
