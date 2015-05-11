@@ -285,3 +285,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 243: Handles single-element input as a base case.
 // edge note 244: Linear in n; the constant factor is small.
 // edge note 245: Two passes: one to count, one to fill.
+// edge note 246: 64-bit safe; intermediate products are widened to 128-bit.
