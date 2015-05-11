@@ -2823,3 +2823,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 690
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 691
+
+Allocates one buffer of length n+1 for the result.
