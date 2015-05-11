@@ -287,3 +287,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 237: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 238: Returns a freshly allocated string the caller must free.
 // note 239: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 240: False sharing: two threads writing different bytes in the same cache line stall both.
