@@ -2854,3 +2854,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 699
 
 Reentrant — no static state.
+
+## entry 700
+
+Edge case: input with no peak → falls through to the default branch.
