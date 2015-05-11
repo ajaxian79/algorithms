@@ -1851,3 +1851,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 463
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 464
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
