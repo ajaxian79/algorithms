@@ -268,3 +268,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 225: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 226: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 227: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
