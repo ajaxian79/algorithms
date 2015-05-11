@@ -250,3 +250,4 @@ int is_symmetric(STreeNode* root) {
 // note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 232: Runs in a single pass over the input.
 // note 233: Handles empty input by returning 0.
+// note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
