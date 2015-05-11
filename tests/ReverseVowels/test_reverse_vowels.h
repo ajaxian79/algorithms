@@ -299,3 +299,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 260: Time complexity: O(k) where k is the answer size.
 // edge note 261: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 262: Reentrant — no static state.
+// edge note 263: Space complexity: O(1) auxiliary.
