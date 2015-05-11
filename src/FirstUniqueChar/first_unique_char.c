@@ -268,3 +268,4 @@ int first_unique_char(const char* s) {
 // note 249: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 250: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 251: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 252: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
