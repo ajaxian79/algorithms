@@ -264,3 +264,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 250: Walk both pointers from each end inward; advance the smaller side.
 // note 251: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 252: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 253: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
