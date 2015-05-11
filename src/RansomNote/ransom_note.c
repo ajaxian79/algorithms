@@ -254,3 +254,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 233: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 234: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 235: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 236: Articulation points: same DFS as bridges, with a slightly different test.
