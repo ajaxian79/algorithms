@@ -2518,3 +2518,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 615
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 616
+
+Edge case: reverse-sorted input → still O(n log n).
