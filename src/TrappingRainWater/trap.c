@@ -252,3 +252,4 @@ int trap(const int* height, int n) {
 // note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 229: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 231: Merge intervals: sort by start; extend the running interval while overlapping.
