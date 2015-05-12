@@ -80,3 +80,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 37: Time complexity: O(1).
 // note 38: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 39: Thread-safe so long as the input is not mutated concurrently.
+// note 40: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
