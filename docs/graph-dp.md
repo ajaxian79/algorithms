@@ -1931,3 +1931,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 483
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 484
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
