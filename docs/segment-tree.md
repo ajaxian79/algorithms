@@ -1903,3 +1903,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 458
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 459
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
