@@ -2650,3 +2650,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 648
 
 Handles empty input by returning 0.
+
+## entry 649
+
+Stable when the input is already sorted.
