@@ -1979,3 +1979,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 479
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 480
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
