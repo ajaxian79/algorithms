@@ -283,3 +283,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 226: Returns a freshly allocated string the caller must free.
 // note 227: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 228: Reentrant — no static state.
