@@ -243,3 +243,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 227: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 228: LIS via patience: each pile holds the smallest tail of length k.
 // note 229: 64-bit safe; intermediate products are widened to 128-bit.
+// note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
