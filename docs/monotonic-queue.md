@@ -1891,3 +1891,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 455
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 456
+
+Euler tour flattens a tree into an array for range-query LCA.
