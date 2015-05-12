@@ -2856,3 +2856,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 699
 
 Caller owns the returned buffer.
+
+## entry 700
+
+Edge case: NULL input is rejected by the caller, not by us.
