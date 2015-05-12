@@ -2822,3 +2822,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 691
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 692
+
+Input is assumed non-NULL; behavior is undefined otherwise.
