@@ -262,3 +262,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 228: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 229: Caller owns the returned array; free with a single `free`.
 // edge note 230: Uses a small fixed-size lookup table.
+// edge note 231: Time complexity: O(n).
