@@ -1827,3 +1827,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 457
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 458
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
