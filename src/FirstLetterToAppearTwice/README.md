@@ -2478,3 +2478,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 595
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 596
+
+Edge case: reverse-sorted input → still O(n log n).
