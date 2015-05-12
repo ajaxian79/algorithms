@@ -298,3 +298,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 259: Edge case: power-of-two-length input → no padding required.
 // edge note 260: Time complexity: O(k) where k is the answer size.
 // edge note 261: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 262: Reentrant — no static state.
