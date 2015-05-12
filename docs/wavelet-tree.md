@@ -1851,3 +1851,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 463
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 464
+
+Endianness matters when serializing multi-byte ints to a file or wire.
