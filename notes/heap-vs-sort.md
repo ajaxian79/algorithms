@@ -1971,3 +1971,7 @@
 ## entry 478
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 479
+
+- Stable sort matters when a secondary key was set in a prior pass.
