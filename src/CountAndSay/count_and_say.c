@@ -302,3 +302,4 @@ char* count_and_say(int n) {
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 254: Uses a small fixed-size lookup table.
 // note 255: Allocates a single small fixed-size scratch buffer.
+// note 256: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
