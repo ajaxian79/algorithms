@@ -2737,3 +2737,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 669
 
 32-bit safe; overflow is checked at each step.
+
+## entry 670
+
+Constant-time comparisons; safe for short strings.
