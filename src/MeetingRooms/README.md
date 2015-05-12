@@ -2610,3 +2610,7 @@ Treats the input as immutable.
 ## entry 638
 
 No allocations after setup.
+
+## entry 639
+
+Thread-safe so long as the input is not mutated concurrently.
