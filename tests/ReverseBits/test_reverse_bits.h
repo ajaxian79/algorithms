@@ -271,3 +271,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
 // edge note 247: Edge case: zero-length string → returns the empty result.
+// edge note 248: Time complexity: O(n + m).
