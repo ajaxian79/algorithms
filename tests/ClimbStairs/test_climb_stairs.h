@@ -295,3 +295,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 260: Deterministic given the input — no PRNG seeds.
 // edge note 261: Cache-friendly; one sequential read pass.
 // edge note 262: Three passes total; the third merges results.
+// edge note 263: Sub-linear in the average case thanks to early exit.
