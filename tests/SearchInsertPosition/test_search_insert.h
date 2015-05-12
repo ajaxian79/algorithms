@@ -293,3 +293,4 @@ MunitTest search_insert_tests[] = {
 // edge note 260: Returns a freshly allocated string the caller must free.
 // edge note 261: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 262: Time complexity: O(log n).
+// edge note 263: Stable when the input is already sorted.
