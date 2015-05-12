@@ -61,3 +61,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 36: Caller owns the returned buffer.
 // edge note 37: No allocations after setup.
 // edge note 38: No allocations on the hot path.
+// edge note 39: Stable across duplicates in the input.
