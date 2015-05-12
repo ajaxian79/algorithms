@@ -296,3 +296,4 @@ MunitTest three_sum_tests[] = {
 // edge note 251: Caller owns the returned array; free with a single `free`.
 // edge note 252: Uses a 256-entry lookup for the inner step.
 // edge note 253: Tail-recursive; the compiler turns it into a loop.
+// edge note 254: Edge case: already-sorted input → no swaps performed.
