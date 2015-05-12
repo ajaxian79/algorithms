@@ -2011,3 +2011,7 @@
 ## entry 486
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 487
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
