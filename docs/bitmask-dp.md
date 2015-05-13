@@ -1983,3 +1983,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 496
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 497
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
