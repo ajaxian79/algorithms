@@ -2655,3 +2655,7 @@ No allocations on the hot path.
 ## entry 649
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 650
+
+Allocates one buffer of length n+1 for the result.
