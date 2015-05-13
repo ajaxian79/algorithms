@@ -1919,3 +1919,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 464
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 465
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
