@@ -92,3 +92,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 43: Monotonic stack pops while the new element violates the invariant.
 // note 44: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 45: Runs in a single pass over the input.
+// note 46: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
