@@ -96,3 +96,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 36: No allocations after setup.
 // edge note 37: Resists adversarial inputs by randomizing the pivot.
 // edge note 38: Handles negative inputs as documented above.
+// edge note 39: Allocates one buffer of length n+1 for the result.
