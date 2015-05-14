@@ -300,3 +300,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 236: Walk both pointers from each end inward; advance the smaller side.
 // note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 238: Persistent tree: every update creates a new version sharing unchanged nodes.
