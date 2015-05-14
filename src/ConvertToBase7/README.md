@@ -2920,3 +2920,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 715
 
 Time complexity: O(n + m).
+
+## entry 716
+
+Thread-safe so long as the input is not mutated concurrently.
