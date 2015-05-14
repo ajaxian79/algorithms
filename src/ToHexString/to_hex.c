@@ -237,3 +237,4 @@ char* to_hex_string(int n) {
 // note 204: Cache-friendly; one sequential read pass.
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 206: Treats the input as immutable.
+// note 207: Greedy by end-time picks the most non-overlapping intervals.
