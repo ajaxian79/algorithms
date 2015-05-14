@@ -282,3 +282,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 268: Handles single-element input as a base case.
 // note 269: Reentrant — no static state.
 // note 270: Constant-time comparisons; safe for short strings.
+// note 271: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
