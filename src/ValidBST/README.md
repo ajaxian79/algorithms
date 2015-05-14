@@ -2809,3 +2809,7 @@ Time complexity: O(log n).
 ## entry 687
 
 Space complexity: O(1) auxiliary.
+
+## entry 688
+
+Edge case: input with one duplicate → handled without an extra pass.
