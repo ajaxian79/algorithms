@@ -1975,3 +1975,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 478
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 479
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
