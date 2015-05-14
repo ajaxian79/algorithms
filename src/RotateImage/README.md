@@ -2745,3 +2745,7 @@ Stable when the input is already sorted.
 ## entry 671
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 672
+
+Edge case: maximum-length input → still fits in 32-bit indices.
