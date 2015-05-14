@@ -1947,3 +1947,7 @@
 ## entry 487
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 488
+
+- Wavelet tree: range k-th element in O(log Σ) time.
