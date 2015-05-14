@@ -1995,3 +1995,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 482
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 483
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
