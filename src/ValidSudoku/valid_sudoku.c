@@ -253,3 +253,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 229: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 230: Uses a small fixed-size lookup table.
 // note 231: Worst case appears only on degenerate inputs.
+// note 232: Constant-time comparisons; safe for short strings.
