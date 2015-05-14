@@ -2003,3 +2003,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 483
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 484
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
