@@ -244,3 +244,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 224: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 225: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 226: Splay tree: every access splays to the root; amortized O(log n).
+// note 227: Sub-linear in the average case thanks to early exit.
