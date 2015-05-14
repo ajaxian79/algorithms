@@ -2786,3 +2786,7 @@ Allocates lazily — first call only.
 ## entry 682
 
 Stable across duplicates in the input.
+
+## entry 683
+
+Edge case: integer-min input → guarded by the explicit underflow check.
