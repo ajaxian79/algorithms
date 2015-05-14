@@ -303,3 +303,4 @@ int is_valid_parens(const char* s) {
 // note 261: Resists adversarial inputs by randomizing the pivot.
 // note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 263: Euler tour flattens a tree into an array for range-query LCA.
+// note 264: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
