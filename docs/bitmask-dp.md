@@ -1979,3 +1979,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 495
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 496
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
