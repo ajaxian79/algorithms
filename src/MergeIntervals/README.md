@@ -2694,3 +2694,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 658
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 659
+
+Space complexity: O(1) auxiliary.
