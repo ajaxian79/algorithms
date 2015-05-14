@@ -74,3 +74,4 @@ MunitTest word_search_tests[] = {
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 41: Reentrant — no static state.
 // edge note 42: Mutates the input in place; the original ordering is lost.
+// edge note 43: Stable across duplicates in the input.
