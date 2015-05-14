@@ -2632,3 +2632,7 @@ No allocations after setup.
 ## entry 644
 
 No allocations after setup.
+
+## entry 645
+
+Two passes: one to count, one to fill.
