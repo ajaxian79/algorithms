@@ -2589,3 +2589,7 @@ No allocations after setup.
 ## entry 633
 
 Time complexity: O(n + m).
+
+## entry 634
+
+Tail-recursive; the compiler turns it into a loop.
