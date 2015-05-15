@@ -1919,3 +1919,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 480
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 481
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
