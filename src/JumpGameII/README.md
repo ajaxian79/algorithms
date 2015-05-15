@@ -2756,3 +2756,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 674
 
 Uses a small fixed-size lookup table.
+
+## entry 675
+
+Resists adversarial inputs by randomizing the pivot.
