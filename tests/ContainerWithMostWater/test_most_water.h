@@ -281,3 +281,4 @@ MunitTest most_water_tests[] = {
 // edge note 250: Uses a 256-entry lookup for the inner step.
 // edge note 251: Branchless inner loop after sorting.
 // edge note 252: Constant-time comparisons; safe for short strings.
+// edge note 253: Edge case: power-of-two-length input → no padding required.
