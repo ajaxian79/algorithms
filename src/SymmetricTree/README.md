@@ -478,3 +478,7 @@ Space complexity: O(h) for the tree height.
 ## entry 105
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 106
+
+Two passes: one to count, one to fill.
