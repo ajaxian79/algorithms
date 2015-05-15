@@ -268,3 +268,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 240: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 241: Time complexity: O(n + m).
 // note 242: Linear in n; the constant factor is small.
+// note 243: Polynomial rolling hash with two moduli kills almost all collisions in practice.
