@@ -442,3 +442,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 96
 
 Time complexity: O(n).
+
+## entry 97
+
+No allocations after setup.
