@@ -2700,3 +2700,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 659
 
 Edge case: single-element input → returns the element itself.
+
+## entry 660
+
+Uses a 256-entry lookup for the inner step.
