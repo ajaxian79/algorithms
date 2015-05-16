@@ -436,3 +436,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 94
 
 Reentrant — no static state.
+
+## entry 95
+
+Treats the input as immutable.
