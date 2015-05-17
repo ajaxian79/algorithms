@@ -1945,3 +1945,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 468
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 469
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
