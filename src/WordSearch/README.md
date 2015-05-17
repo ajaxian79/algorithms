@@ -2790,3 +2790,7 @@ Handles single-element input as a base case.
 ## entry 683
 
 Reentrant — no static state.
+
+## entry 684
+
+Edge case: power-of-two-length input → no padding required.
