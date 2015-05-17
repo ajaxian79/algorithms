@@ -2474,3 +2474,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 594
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 595
+
+Resists adversarial inputs by randomizing the pivot.
