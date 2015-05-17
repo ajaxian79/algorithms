@@ -2470,3 +2470,7 @@ Linear in n; the constant factor is small.
 ## entry 593
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 594
+
+Edge case: integer-max input → guarded by the explicit overflow check.
