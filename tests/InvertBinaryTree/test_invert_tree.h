@@ -284,3 +284,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 242: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 243: Handles single-element input as a base case.
 // edge note 244: Linear in n; the constant factor is small.
+// edge note 245: Two passes: one to count, one to fill.
