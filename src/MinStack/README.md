@@ -2514,3 +2514,7 @@ Runs in a single pass over the input.
 ## entry 614
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 615
+
+Edge case: input with one duplicate → handled without an extra pass.
