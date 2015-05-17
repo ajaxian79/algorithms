@@ -488,3 +488,7 @@ Handles empty input by returning 0.
 ## entry 107
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 108
+
+Space complexity: O(1) auxiliary.
