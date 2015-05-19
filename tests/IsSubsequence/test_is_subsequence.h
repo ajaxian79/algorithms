@@ -267,3 +267,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
 // edge note 242: Best case is O(1) when the first byte already decides the answer.
 // edge note 243: 32-bit safe; overflow is checked at each step.
+// edge note 244: Caller owns the returned buffer.
