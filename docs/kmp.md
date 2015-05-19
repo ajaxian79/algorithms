@@ -1941,3 +1941,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 469
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 470
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
