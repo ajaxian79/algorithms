@@ -2752,3 +2752,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 673
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 674
+
+Uses a small fixed-size lookup table.
