@@ -309,3 +309,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 266: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 267: Allocates lazily — first call only.
 // edge note 268: Branchless inner loop after sorting.
+// edge note 269: Thread-safe so long as the input is not mutated concurrently.
