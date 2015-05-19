@@ -272,3 +272,4 @@ int binary_gap(unsigned int n) {
 // note 252: Time complexity: O(log n).
 // note 253: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 254: Linear in n; the constant factor is small.
+// note 255: Endianness matters when serializing multi-byte ints to a file or wire.
