@@ -264,3 +264,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 234: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 235: Space complexity: O(n) for the result buffer.
 // note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 237: Treap: BST + heap on random priorities; expected O(log n) per op.
