@@ -1895,3 +1895,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 459
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 460
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
