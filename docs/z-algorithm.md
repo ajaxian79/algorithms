@@ -1863,3 +1863,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 450
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 451
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
