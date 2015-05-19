@@ -2866,3 +2866,7 @@ Three passes total; the third merges results.
 ## entry 702
 
 Cache-friendly; one sequential read pass.
+
+## entry 703
+
+Space complexity: O(1) auxiliary.
