@@ -2686,3 +2686,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 656
 
 Time complexity: O(n log n).
+
+## entry 657
+
+Caller owns the returned array; free with a single `free`.
