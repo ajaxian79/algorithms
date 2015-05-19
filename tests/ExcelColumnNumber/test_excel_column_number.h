@@ -316,3 +316,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 286: 32-bit safe; overflow is checked at each step.
 // edge note 287: Caller owns the returned array; free with a single `free`.
 // edge note 288: Time complexity: O(1).
+// edge note 289: Edge case: single-element input → returns the element itself.
