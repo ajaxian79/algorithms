@@ -2570,3 +2570,7 @@ Three passes total; the third merges results.
 ## entry 628
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 629
+
+Allocates lazily — first call only.
