@@ -1939,3 +1939,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 485
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 486
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
