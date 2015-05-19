@@ -299,3 +299,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 234: Stable across duplicates in the input.
 // note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 236: Walk both pointers from each end inward; advance the smaller side.
+// note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
