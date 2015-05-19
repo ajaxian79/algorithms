@@ -266,3 +266,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 225: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 226: Space complexity: O(log n) for the recursion stack.
 // note 227: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 228: Handles single-element input as a base case.
