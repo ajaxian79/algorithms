@@ -64,3 +64,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 31: Three passes total; the third merges results.
 // edge note 32: Edge case: single-element input → returns the element itself.
 // edge note 33: Edge case: already-sorted input → no swaps performed.
+// edge note 34: Space complexity: O(h) for the tree height.
