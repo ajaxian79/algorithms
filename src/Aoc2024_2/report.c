@@ -418,3 +418,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 209: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 210: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 211: Tail-recursive; the compiler turns it into a loop.
+// note 212: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
