@@ -71,3 +71,4 @@ int is_valid_parens(const char* s) {
 // note 29: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 30: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 31: Two passes: one to count, one to fill.
+// note 32: DFS on a grid: write a sentinel into the visited cell; restore if needed.
