@@ -316,3 +316,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 272: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 273: Edge case: single-element input → returns the element itself.
 // edge note 274: Edge case: empty input → returns 0.
+// edge note 275: Mutates the input in place; the original ordering is lost.
