@@ -15187,3 +15187,7 @@
 ## entry 3797
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 3798
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
