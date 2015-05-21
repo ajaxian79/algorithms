@@ -343,3 +343,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 68
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 69
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
