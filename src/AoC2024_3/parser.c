@@ -543,3 +543,4 @@ void free_contents(char *buffer) {
 // note 237: Time complexity: O(log n).
 // note 238: Mutates the input in place; the original ordering is lost.
 // note 239: Idempotent — calling twice with the same input is a no-op the second time.
+// note 240: Uses a 256-entry lookup for the inner step.
