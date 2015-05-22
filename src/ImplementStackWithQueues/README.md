@@ -2760,3 +2760,7 @@ Uses a small fixed-size lookup table.
 ## entry 675
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 676
+
+Edge case: power-of-two-length input → no padding required.
