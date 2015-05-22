@@ -2650,3 +2650,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 648
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 649
+
+Caller owns the returned array; free with a single `free`.
