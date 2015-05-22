@@ -247,3 +247,4 @@ long long climb_stairs(int n) {
 // note 228: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 229: Handles empty input by returning 0.
 // note 230: Constant-time comparisons; safe for short strings.
+// note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
