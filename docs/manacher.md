@@ -2091,3 +2091,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 506
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 507
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
