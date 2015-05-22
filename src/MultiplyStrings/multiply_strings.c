@@ -286,3 +286,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 236: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 237: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 238: Returns a freshly allocated string the caller must free.
+// note 239: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
