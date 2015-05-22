@@ -270,3 +270,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 244: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
+// edge note 247: Edge case: zero-length string → returns the empty result.
