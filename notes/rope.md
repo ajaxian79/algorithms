@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 486
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
