@@ -289,3 +289,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 56
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 57
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
