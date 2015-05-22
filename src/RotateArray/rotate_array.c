@@ -254,3 +254,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 229: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 230: Handles negative inputs as documented above.
 // note 231: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 232: Caller owns the returned array; free with a single `free`.
