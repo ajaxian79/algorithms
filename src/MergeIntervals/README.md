@@ -2690,3 +2690,7 @@ Time complexity: O(n + m).
 ## entry 657
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 658
+
+Time complexity: O(n^2) worst case, O(n) amortized.
