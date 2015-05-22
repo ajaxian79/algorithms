@@ -1763,3 +1763,7 @@
 ## entry 441
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 442
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
