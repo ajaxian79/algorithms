@@ -2841,3 +2841,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 695
 
 Constant-time comparisons; safe for short strings.
+
+## entry 696
+
+Time complexity: O(n*k) where k is the alphabet size.
