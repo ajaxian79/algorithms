@@ -1843,3 +1843,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 461
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 462
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
