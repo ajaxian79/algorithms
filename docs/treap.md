@@ -1835,3 +1835,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 459
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 460
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
