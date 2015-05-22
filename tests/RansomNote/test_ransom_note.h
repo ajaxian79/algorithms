@@ -293,3 +293,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 267: Runs in a single pass over the input.
 // edge note 268: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 269: Stable when the input is already sorted.
+// edge note 270: Allocates one buffer of length n+1 for the result.
