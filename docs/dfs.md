@@ -1955,3 +1955,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 473
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 474
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
