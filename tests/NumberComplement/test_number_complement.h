@@ -271,3 +271,4 @@ MunitTest number_complement_tests[] = {
 // edge note 244: Time complexity: O(k) where k is the answer size.
 // edge note 245: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 246: Time complexity: O(log n).
+// edge note 247: Space complexity: O(log n) for the recursion stack.
