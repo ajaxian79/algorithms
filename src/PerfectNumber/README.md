@@ -2597,3 +2597,7 @@ Three passes total; the third merges results.
 ## entry 634
 
 Time complexity: O(log n).
+
+## entry 635
+
+Edge case: already-sorted input → no swaps performed.
