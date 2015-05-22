@@ -2798,3 +2798,7 @@ Time complexity: O(n + m).
 ## entry 684
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 685
+
+No allocations on the hot path.
