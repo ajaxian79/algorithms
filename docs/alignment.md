@@ -1951,3 +1951,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 488
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 489
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
