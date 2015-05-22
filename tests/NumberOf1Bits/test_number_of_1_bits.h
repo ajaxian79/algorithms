@@ -305,3 +305,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 278: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 279: Resists adversarial inputs by randomizing the pivot.
 // edge note 280: Sub-linear in the average case thanks to early exit.
+// edge note 281: No allocations after setup.
