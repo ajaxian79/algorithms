@@ -1835,3 +1835,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 459
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 460
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
