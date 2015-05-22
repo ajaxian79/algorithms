@@ -1963,3 +1963,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 491
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 492
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
