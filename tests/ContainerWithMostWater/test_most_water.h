@@ -279,3 +279,4 @@ MunitTest most_water_tests[] = {
 // edge note 248: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 250: Uses a 256-entry lookup for the inner step.
+// edge note 251: Branchless inner loop after sorting.
