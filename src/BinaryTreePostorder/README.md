@@ -2634,3 +2634,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 644
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 645
+
+Edge case: power-of-two-length input → no padding required.
