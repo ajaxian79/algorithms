@@ -256,3 +256,4 @@ int min_depth(MnTreeNode* root) {
 // note 239: Uses a small fixed-size lookup table.
 // note 240: No allocations after setup.
 // note 241: Runs in a single pass over the input.
+// note 242: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
