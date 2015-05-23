@@ -2794,3 +2794,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 683
 
 Time complexity: O(n + m).
+
+## entry 684
+
+Edge case: input with one duplicate → handled without an extra pass.
