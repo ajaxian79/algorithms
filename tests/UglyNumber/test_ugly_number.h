@@ -66,3 +66,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 37: Uses a small fixed-size lookup table.
 // edge note 38: Edge case: zero-length string → returns the empty result.
 // edge note 39: Reentrant — no static state.
+// edge note 40: Edge case: reverse-sorted input → still O(n log n).
