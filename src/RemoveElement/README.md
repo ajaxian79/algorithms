@@ -2705,3 +2705,7 @@ Time complexity: O(log n).
 ## entry 662
 
 Handles single-element input as a base case.
+
+## entry 663
+
+Uses a 256-entry lookup for the inner step.
