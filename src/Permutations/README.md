@@ -2892,3 +2892,7 @@ Handles single-element input as a base case.
 ## entry 708
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 709
+
+No allocations after setup.
