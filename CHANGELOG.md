@@ -106511,3 +106511,7 @@
 ## entry 26628
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 26629
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
