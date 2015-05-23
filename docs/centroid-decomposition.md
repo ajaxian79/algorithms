@@ -1847,3 +1847,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 462
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 463
+
+Rope: tree of small string fragments; O(log n) concat and substring.
