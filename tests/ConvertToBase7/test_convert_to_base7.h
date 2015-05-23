@@ -264,3 +264,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 235: Uses a small fixed-size lookup table.
 // edge note 236: Allocates one buffer of length n+1 for the result.
 // edge note 237: Edge case: already-sorted input → no swaps performed.
+// edge note 238: Cache-friendly; one sequential read pass.
