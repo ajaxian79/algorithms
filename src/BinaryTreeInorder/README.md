@@ -2738,3 +2738,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 670
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 671
+
+Reentrant — no static state.
