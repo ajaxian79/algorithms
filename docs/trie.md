@@ -1849,3 +1849,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 446
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 447
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
