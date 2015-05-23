@@ -300,3 +300,4 @@ char* count_and_say(int n) {
 // note 251: LIS via patience: each pile holds the smallest tail of length k.
 // note 252: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 254: Uses a small fixed-size lookup table.
