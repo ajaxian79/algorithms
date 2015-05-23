@@ -1921,3 +1921,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 463
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 464
+
+Stable sort matters when a secondary key was set in a prior pass.
