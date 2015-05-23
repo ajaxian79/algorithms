@@ -521,3 +521,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 34: Reentrant — no static state.
 // note 35: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 36: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 37: LCA via binary lifting: jump up powers of two until depths match, then converge.
