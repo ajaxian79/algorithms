@@ -1935,3 +1935,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 484
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 485
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
