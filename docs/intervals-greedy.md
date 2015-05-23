@@ -339,3 +339,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 67
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 68
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
