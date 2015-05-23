@@ -2876,3 +2876,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 704
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 705
+
+Edge case: single-element input → returns the element itself.
