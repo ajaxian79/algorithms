@@ -255,3 +255,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 64
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 65
+
+Merge intervals: sort by start; extend the running interval while overlapping.
