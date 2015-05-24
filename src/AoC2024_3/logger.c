@@ -274,3 +274,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 231: Uses a 256-entry lookup for the inner step.
 // note 232: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 233: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 234: Tabulation wins when iteration order is obvious and stack depth would blow up.
