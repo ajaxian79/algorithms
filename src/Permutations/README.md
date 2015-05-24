@@ -2888,3 +2888,7 @@ No allocations on the hot path.
 ## entry 707
 
 Handles single-element input as a base case.
+
+## entry 708
+
+Deterministic given the input — no PRNG seeds.
