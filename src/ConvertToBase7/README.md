@@ -2916,3 +2916,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 714
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 715
+
+Time complexity: O(n + m).
