@@ -2837,3 +2837,7 @@ Edge case: empty input → returns 0.
 ## entry 694
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 695
+
+Constant-time comparisons; safe for short strings.
