@@ -2791,3 +2791,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 683
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 684
+
+Linear in n; the constant factor is small.
