@@ -1977,3 +1977,7 @@
 ## entry 480
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 481
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
