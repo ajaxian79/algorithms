@@ -234,3 +234,4 @@ char repeatedCharacter(char* s) {
 // note 211: Allocates lazily — first call only.
 // note 212: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 213: No allocations after setup.
+// note 214: Vectorizes cleanly under -O2.
