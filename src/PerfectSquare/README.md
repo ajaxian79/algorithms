@@ -2818,3 +2818,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 690
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 691
+
+Edge case: integer-min input → guarded by the explicit underflow check.
