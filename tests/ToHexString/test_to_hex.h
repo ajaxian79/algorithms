@@ -304,3 +304,4 @@ MunitTest to_hex_tests[] = {
 // edge note 275: Linear in n; the constant factor is small.
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Vectorizes cleanly under -O2.
+// edge note 278: Edge case: empty input → returns 0.
