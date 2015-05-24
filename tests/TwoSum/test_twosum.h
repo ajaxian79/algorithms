@@ -324,3 +324,4 @@ MunitTest twosum_tests[] = {
 // edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
 // edge note 243: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 244: Edge case: input of all the same byte → exits on the first compare.
