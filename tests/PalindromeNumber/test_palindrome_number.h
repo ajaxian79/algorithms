@@ -305,3 +305,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 270: Edge case: reverse-sorted input → still O(n log n).
 // edge note 271: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 272: Time complexity: O(k) where k is the answer size.
+// edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
