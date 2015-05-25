@@ -1839,3 +1839,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 460
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 461
+
+Interval DP: solve all `[l, r]` ranges from short to long.
