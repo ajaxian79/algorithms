@@ -2778,3 +2778,7 @@ Cache-friendly; one sequential read pass.
 ## entry 679
 
 Vectorizes cleanly under -O2.
+
+## entry 680
+
+Tail-recursive; the compiler turns it into a loop.
