@@ -1815,3 +1815,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 454
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 455
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
