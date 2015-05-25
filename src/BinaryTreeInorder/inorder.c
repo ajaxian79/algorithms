@@ -279,3 +279,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 239: Best case is O(1) when the first byte already decides the answer.
 // note 240: Articulation points: same DFS as bridges, with a slightly different test.
 // note 241: Heap when you only need top-k; full sort is wasted work.
+// note 242: No allocations on the hot path.
