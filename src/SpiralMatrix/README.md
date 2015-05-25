@@ -2650,3 +2650,7 @@ No allocations on the hot path.
 ## entry 647
 
 Time complexity: O(1).
+
+## entry 648
+
+Space complexity: O(1) auxiliary.
