@@ -1899,3 +1899,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 475
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 476
+
+Splay tree: every access splays to the root; amortized O(log n).
