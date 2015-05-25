@@ -1943,3 +1943,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 470
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 471
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
