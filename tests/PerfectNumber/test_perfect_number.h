@@ -301,3 +301,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 271: Allocates lazily — first call only.
 // edge note 272: Caller owns the returned buffer.
 // edge note 273: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 274: Time complexity: O(log n).
