@@ -2805,3 +2805,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 686
 
 Time complexity: O(log n).
+
+## entry 687
+
+Space complexity: O(1) auxiliary.
