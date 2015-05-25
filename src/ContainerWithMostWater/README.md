@@ -2655,3 +2655,7 @@ Worst case appears only on degenerate inputs.
 ## entry 649
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 650
+
+Time complexity: O(n log n).
