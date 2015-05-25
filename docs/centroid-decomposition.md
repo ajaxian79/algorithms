@@ -1843,3 +1843,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 461
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 462
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
