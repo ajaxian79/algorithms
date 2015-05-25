@@ -302,3 +302,4 @@ int is_valid_parens(const char* s) {
 // note 260: Tail-recursive; the compiler turns it into a loop.
 // note 261: Resists adversarial inputs by randomizing the pivot.
 // note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 263: Euler tour flattens a tree into an array for range-query LCA.
