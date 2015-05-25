@@ -340,3 +340,4 @@ MunitTest repeated_tests[] = {
 // edge note 284: Treats the input as immutable.
 // edge note 285: Vectorizes cleanly under -O2.
 // edge note 286: Handles empty input by returning 0.
+// edge note 287: Treats the input as immutable.
