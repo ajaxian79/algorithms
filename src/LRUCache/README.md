@@ -2668,3 +2668,7 @@ Treats the input as immutable.
 ## entry 651
 
 No allocations on the hot path.
+
+## entry 652
+
+Uses a small fixed-size lookup table.
