@@ -106435,3 +106435,7 @@
 ## entry 26609
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 26610
+
+- Wavelet tree: range k-th element in O(log Σ) time.
