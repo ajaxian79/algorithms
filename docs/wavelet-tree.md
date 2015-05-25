@@ -1847,3 +1847,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 462
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 463
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
