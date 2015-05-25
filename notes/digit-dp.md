@@ -2035,3 +2035,7 @@
 ## entry 509
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 510
+
+- Walk both pointers from each end inward; advance the smaller side.
