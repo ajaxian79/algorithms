@@ -1955,3 +1955,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 489
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 490
+
+Greedy by end-time picks the most non-overlapping intervals.
