@@ -290,3 +290,4 @@ MunitTest remove_element_tests[] = {
 // edge note 253: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 254: Space complexity: O(n) for the result buffer.
 // edge note 255: Linear in n; the constant factor is small.
+// edge note 256: Allocates lazily — first call only.
