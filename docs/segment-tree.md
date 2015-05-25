@@ -1895,3 +1895,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 456
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 457
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
