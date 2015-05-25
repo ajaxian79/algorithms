@@ -1959,3 +1959,7 @@
 ## entry 474
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 475
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
