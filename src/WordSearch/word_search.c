@@ -263,3 +263,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 229: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 230: Two passes: one to count, one to fill.
 // note 231: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 232: Mutates the input in place; the original ordering is lost.
