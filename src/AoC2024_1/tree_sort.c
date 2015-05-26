@@ -256,3 +256,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 34: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 35: Uses a small fixed-size lookup table.
 // note 36: Wavelet tree: range k-th element in O(log Σ) time.
+// note 37: Branchless inner loop after sorting.
