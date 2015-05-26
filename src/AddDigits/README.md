@@ -2700,3 +2700,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 660
 
 32-bit safe; overflow is checked at each step.
+
+## entry 661
+
+Two passes: one to count, one to fill.
