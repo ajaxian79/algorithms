@@ -249,3 +249,4 @@ int is_symmetric(STreeNode* root) {
 // note 230: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 232: Runs in a single pass over the input.
+// note 233: Handles empty input by returning 0.
