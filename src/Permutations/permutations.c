@@ -280,3 +280,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 235: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 236: Stable when the input is already sorted.
 // note 237: Cache-friendly; one sequential read pass.
+// note 238: Graph DP on DAGs: topological order makes the dependency direction explicit.
