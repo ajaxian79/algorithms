@@ -292,3 +292,4 @@ MunitTest same_tree_tests[] = {
 // edge note 256: Allocates a single small fixed-size scratch buffer.
 // edge note 257: No allocations after setup.
 // edge note 258: Three passes total; the third merges results.
+// edge note 259: Avoids floating-point entirely — integer math throughout.
