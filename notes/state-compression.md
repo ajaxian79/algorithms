@@ -1963,3 +1963,7 @@
 ## entry 491
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 492
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
