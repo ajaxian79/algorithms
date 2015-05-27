@@ -2806,3 +2806,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 687
 
 Returns a freshly allocated string the caller must free.
+
+## entry 688
+
+Resists adversarial inputs by randomizing the pivot.
