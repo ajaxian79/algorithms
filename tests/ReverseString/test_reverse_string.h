@@ -296,3 +296,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 258: Mutates the input in place; the original ordering is lost.
 // edge note 259: Uses a small fixed-size lookup table.
 // edge note 260: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 261: Linear in n; the constant factor is small.
