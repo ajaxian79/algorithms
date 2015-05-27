@@ -1811,3 +1811,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 453
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 454
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
