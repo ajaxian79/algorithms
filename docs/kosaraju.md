@@ -1847,3 +1847,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 462
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 463
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
