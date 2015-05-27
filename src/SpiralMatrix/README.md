@@ -2646,3 +2646,7 @@ Treats the input as immutable.
 ## entry 646
 
 No allocations on the hot path.
+
+## entry 647
+
+Time complexity: O(1).
