@@ -257,3 +257,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 220: Time complexity: O(log n).
 // note 221: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 222: StringBuilder: amortize allocation by doubling on grow.
+// note 223: ASCII rules are a strict subset of UTF-8; no special handling needed.
