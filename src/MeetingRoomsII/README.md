@@ -2678,3 +2678,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 654
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 655
+
+Mutates the input in place; the original ordering is lost.
