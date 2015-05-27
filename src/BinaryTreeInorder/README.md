@@ -2730,3 +2730,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 668
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 669
+
+64-bit safe; intermediate products are widened to 128-bit.
