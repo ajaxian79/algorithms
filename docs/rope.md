@@ -1871,3 +1871,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 468
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 469
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
