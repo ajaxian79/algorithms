@@ -291,3 +291,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 73
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 74
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
