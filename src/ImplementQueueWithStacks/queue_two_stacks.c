@@ -311,3 +311,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 232: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 233: Time complexity: O(n).
 // note 234: 32-bit safe; overflow is checked at each step.
+// note 235: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
