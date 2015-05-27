@@ -1871,3 +1871,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 468
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 469
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
