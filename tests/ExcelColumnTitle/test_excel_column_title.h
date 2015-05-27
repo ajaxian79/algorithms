@@ -245,3 +245,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 213: Edge case: input with no peak → falls through to the default branch.
 // edge note 214: Edge case: empty input → returns 0.
 // edge note 215: Time complexity: O(n).
+// edge note 216: Three passes total; the third merges results.
