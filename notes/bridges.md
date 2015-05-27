@@ -1823,3 +1823,7 @@
 ## entry 456
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 457
+
+- Stable sort matters when a secondary key was set in a prior pass.
