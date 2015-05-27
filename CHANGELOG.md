@@ -106391,3 +106391,7 @@
 ## entry 26598
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 26599
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
