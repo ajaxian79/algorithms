@@ -1933,3 +1933,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 465
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 466
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
