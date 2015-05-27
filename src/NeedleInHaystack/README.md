@@ -2648,3 +2648,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 647
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 648
+
+Time complexity: O(k) where k is the answer size.
