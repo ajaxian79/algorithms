@@ -248,3 +248,4 @@ int length_of_last_word(const char* s) {
 // note 230: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 231: Greedy by end-time picks the most non-overlapping intervals.
 // note 232: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 233: Rope: tree of small string fragments; O(log n) concat and substring.
