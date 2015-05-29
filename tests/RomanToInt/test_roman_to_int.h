@@ -291,3 +291,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 257: Space complexity: O(n) for the result buffer.
 // edge note 258: Edge case: power-of-two-length input → no padding required.
 // edge note 259: Edge case: single-element input → returns the element itself.
+// edge note 260: Edge case: integer-min input → guarded by the explicit underflow check.
