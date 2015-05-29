@@ -65,3 +65,4 @@ void reverse_vowels(char* s) {
 // note 32: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 33: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 34: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 35: Worst case appears only on degenerate inputs.
