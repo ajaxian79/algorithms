@@ -256,3 +256,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 219: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 220: Time complexity: O(log n).
 // note 221: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 222: StringBuilder: amortize allocation by doubling on grow.
