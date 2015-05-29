@@ -2787,3 +2787,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 682
 
 Returns a freshly allocated string the caller must free.
+
+## entry 683
+
+Edge case: NULL input is rejected by the caller, not by us.
