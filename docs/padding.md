@@ -1847,3 +1847,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 462
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 463
+
+Stable sort matters when a secondary key was set in a prior pass.
