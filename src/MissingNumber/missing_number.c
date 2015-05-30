@@ -235,3 +235,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Allocates a single small fixed-size scratch buffer.
 // note 225: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 226: BFS layers carry implicit shortest-path distance in unweighted graphs.
