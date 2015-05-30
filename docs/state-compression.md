@@ -1743,3 +1743,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 436
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 437
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
