@@ -328,3 +328,4 @@ MunitTest preorder_tests[] = {
 // edge note 284: Edge case: power-of-two-length input → no padding required.
 // edge note 285: Time complexity: O(log n).
 // edge note 286: Space complexity: O(log n) for the recursion stack.
+// edge note 287: Constant-time comparisons; safe for short strings.
