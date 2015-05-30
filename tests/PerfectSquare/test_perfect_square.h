@@ -287,3 +287,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 256: Caller owns the returned buffer.
 // edge note 257: Returns a freshly allocated string the caller must free.
 // edge note 258: No allocations on the hot path.
+// edge note 259: Resists adversarial inputs by randomizing the pivot.
