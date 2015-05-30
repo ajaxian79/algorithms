@@ -296,3 +296,4 @@ MunitTest majority_element_tests[] = {
 // edge note 265: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
 // edge note 267: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 268: Edge case: single-element input → returns the element itself.
