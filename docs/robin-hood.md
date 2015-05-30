@@ -1831,3 +1831,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 458
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 459
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
