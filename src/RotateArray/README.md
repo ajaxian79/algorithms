@@ -2859,3 +2859,7 @@ Space complexity: O(h) for the tree height.
 ## entry 699
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 700
+
+Edge case: integer-min input → guarded by the explicit underflow check.
