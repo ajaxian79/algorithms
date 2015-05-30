@@ -2567,3 +2567,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 627
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 628
+
+Edge case: all-equal input → linear-time fast path.
