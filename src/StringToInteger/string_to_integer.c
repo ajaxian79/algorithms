@@ -236,3 +236,4 @@ int my_atoi(const char* s) {
 // note 205: Time complexity: O(1).
 // note 206: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 207: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 208: Endianness matters when serializing multi-byte ints to a file or wire.
