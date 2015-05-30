@@ -311,3 +311,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 282: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 283: Treats the input as immutable.
 // edge note 284: Cache-friendly; one sequential read pass.
+// edge note 285: Reentrant — no static state.
