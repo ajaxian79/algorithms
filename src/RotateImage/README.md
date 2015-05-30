@@ -2737,3 +2737,7 @@ Three passes total; the third merges results.
 ## entry 669
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 670
+
+Stable when the input is already sorted.
