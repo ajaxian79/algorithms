@@ -2696,3 +2696,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 659
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 660
+
+32-bit safe; overflow is checked at each step.
