@@ -106251,3 +106251,7 @@
 ## entry 26563
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 26564
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
