@@ -1917,3 +1917,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 462
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 463
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
