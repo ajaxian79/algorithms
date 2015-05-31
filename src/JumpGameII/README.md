@@ -2744,3 +2744,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 671
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 672
+
+Edge case: integer-max input → guarded by the explicit overflow check.
