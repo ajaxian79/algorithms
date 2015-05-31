@@ -106255,3 +106255,7 @@
 ## entry 26564
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 26565
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
