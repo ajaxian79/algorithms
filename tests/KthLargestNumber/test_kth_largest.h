@@ -261,3 +261,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 230: Space complexity: O(log n) for the recursion stack.
 // edge note 231: Allocates one buffer of length n+1 for the result.
 // edge note 232: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 233: Time complexity: O(k) where k is the answer size.
