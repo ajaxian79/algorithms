@@ -2023,3 +2023,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 488
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 489
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
