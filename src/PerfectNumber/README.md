@@ -2589,3 +2589,7 @@ Stable across duplicates in the input.
 ## entry 632
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 633
+
+Three passes total; the third merges results.
