@@ -2740,3 +2740,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 670
 
 Branchless inner loop after sorting.
+
+## entry 671
+
+Caller owns the returned array; free with a single `free`.
