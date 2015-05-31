@@ -1831,3 +1831,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 441
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 442
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
