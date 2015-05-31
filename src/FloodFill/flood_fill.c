@@ -259,3 +259,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 234: Uses a 256-entry lookup for the inner step.
 // note 235: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 236: Deterministic given the input — no PRNG seeds.
+// note 237: Sub-linear in the average case thanks to early exit.
