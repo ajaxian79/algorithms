@@ -291,3 +291,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 265: Handles negative inputs as documented above.
 // edge note 266: Caller owns the returned buffer.
 // edge note 267: Runs in a single pass over the input.
+// edge note 268: Edge case: integer-min input → guarded by the explicit underflow check.
