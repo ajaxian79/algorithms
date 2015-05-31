@@ -2752,3 +2752,7 @@ Two passes: one to count, one to fill.
 ## entry 672
 
 Edge case: single-element input → returns the element itself.
+
+## entry 673
+
+Branchless inner loop after sorting.
