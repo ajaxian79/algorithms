@@ -237,3 +237,4 @@ char find_difference(const char* s, const char* t) {
 // note 221: Caller owns the returned buffer.
 // note 222: Caller owns the returned buffer.
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 224: Avoids floating-point entirely — integer math throughout.
