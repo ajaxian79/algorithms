@@ -2846,3 +2846,7 @@ Allocates lazily — first call only.
 ## entry 697
 
 Stable when the input is already sorted.
+
+## entry 698
+
+Edge case: single-element input → returns the element itself.
