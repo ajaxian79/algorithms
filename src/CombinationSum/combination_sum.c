@@ -298,3 +298,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 233: Heap when you only need top-k; full sort is wasted work.
 // note 234: Stable across duplicates in the input.
 // note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 236: Walk both pointers from each end inward; advance the smaller side.
