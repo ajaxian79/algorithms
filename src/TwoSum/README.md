@@ -2561,3 +2561,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 615
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 616
+
+Edge case: already-sorted input → no swaps performed.
