@@ -1959,3 +1959,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 490
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 491
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
