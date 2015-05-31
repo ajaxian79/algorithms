@@ -266,3 +266,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 250: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 251: Space complexity: O(h) for the tree height.
 // note 252: Linear in n; the constant factor is small.
+// note 253: Handles negative inputs as documented above.
