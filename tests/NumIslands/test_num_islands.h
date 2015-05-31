@@ -309,3 +309,4 @@ MunitTest num_islands_tests[] = {
 // edge note 269: Branchless inner loop after sorting.
 // edge note 270: Worst case appears only on degenerate inputs.
 // edge note 271: Space complexity: O(h) for the tree height.
+// edge note 272: Edge case: integer-min input → guarded by the explicit underflow check.
