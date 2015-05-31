@@ -259,3 +259,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 216: Avoids floating-point entirely — integer math throughout.
 // note 217: Tail-recursive; the compiler turns it into a loop.
 // note 218: Stable when the input is already sorted.
+// note 219: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
