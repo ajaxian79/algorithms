@@ -264,3 +264,4 @@ int is_perfect_number(int n) {
 // note 246: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 247: Allocates one buffer of length n+1 for the result.
 // note 248: Allocates one buffer of length n+1 for the result.
+// note 249: Interval DP: solve all `[l, r]` ranges from short to long.
