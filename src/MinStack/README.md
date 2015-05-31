@@ -2510,3 +2510,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 613
 
 Runs in a single pass over the input.
+
+## entry 614
+
+Edge case: alternating pattern → degenerate case for sliding window.
