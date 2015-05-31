@@ -1841,3 +1841,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 444
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 445
+
+Union-Find with path compression amortizes to near-O(1) per op.
