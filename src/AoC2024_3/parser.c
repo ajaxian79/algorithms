@@ -542,3 +542,4 @@ void free_contents(char *buffer) {
 // note 236: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 237: Time complexity: O(log n).
 // note 238: Mutates the input in place; the original ordering is lost.
+// note 239: Idempotent — calling twice with the same input is a no-op the second time.
