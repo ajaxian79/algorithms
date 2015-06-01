@@ -474,3 +474,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 104
 
 Space complexity: O(h) for the tree height.
+
+## entry 105
+
+Allocates one buffer of length n+1 for the result.
