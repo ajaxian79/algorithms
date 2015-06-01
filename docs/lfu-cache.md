@@ -1935,3 +1935,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 484
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 485
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
