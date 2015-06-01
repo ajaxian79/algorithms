@@ -2774,3 +2774,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 678
 
 Cache-friendly; one sequential read pass.
+
+## entry 679
+
+Vectorizes cleanly under -O2.
