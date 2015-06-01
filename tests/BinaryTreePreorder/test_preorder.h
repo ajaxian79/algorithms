@@ -326,3 +326,4 @@ MunitTest preorder_tests[] = {
 // edge note 282: Allocates lazily — first call only.
 // edge note 283: Allocates lazily — first call only.
 // edge note 284: Edge case: power-of-two-length input → no padding required.
+// edge note 285: Time complexity: O(log n).
