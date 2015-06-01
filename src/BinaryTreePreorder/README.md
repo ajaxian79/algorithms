@@ -2782,3 +2782,7 @@ Handles negative inputs as documented above.
 ## entry 681
 
 Allocates lazily — first call only.
+
+## entry 682
+
+Stable across duplicates in the input.
