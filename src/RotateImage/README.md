@@ -2733,3 +2733,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 668
 
 Three passes total; the third merges results.
+
+## entry 669
+
+Avoids floating-point entirely — integer math throughout.
