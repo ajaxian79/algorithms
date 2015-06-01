@@ -372,3 +372,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 236: Uses a small fixed-size lookup table.
 // note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 238: Constant-time comparisons; safe for short strings.
+// note 239: Rope: tree of small string fragments; O(log n) concat and substring.
