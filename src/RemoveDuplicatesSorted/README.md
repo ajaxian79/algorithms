@@ -2886,3 +2886,7 @@ Edge case: empty input → returns 0.
 ## entry 707
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 708
+
+Caller owns the returned array; free with a single `free`.
