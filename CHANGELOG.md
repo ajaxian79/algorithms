@@ -106223,3 +106223,7 @@
 ## entry 26556
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 26557
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
