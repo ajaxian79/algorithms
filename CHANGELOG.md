@@ -106227,3 +106227,7 @@
 ## entry 26557
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 26558
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
