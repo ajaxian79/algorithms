@@ -1803,3 +1803,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 451
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 452
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
