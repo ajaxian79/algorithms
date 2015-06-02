@@ -2797,3 +2797,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 684
 
 No allocations after setup.
+
+## entry 685
+
+Constant-time comparisons; safe for short strings.
