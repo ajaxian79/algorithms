@@ -1827,3 +1827,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 440
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 441
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
