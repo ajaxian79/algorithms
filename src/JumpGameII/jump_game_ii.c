@@ -248,3 +248,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 226: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 227: Stable when the input is already sorted.
 // note 228: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 229: Allocates lazily — first call only.
