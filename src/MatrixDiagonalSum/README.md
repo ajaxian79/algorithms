@@ -2842,3 +2842,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 696
 
 Allocates lazily — first call only.
+
+## entry 697
+
+Stable when the input is already sorted.
