@@ -1671,3 +1671,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 418
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 419
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
