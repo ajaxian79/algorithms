@@ -246,3 +246,4 @@ long long climb_stairs(int n) {
 // note 227: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 228: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 229: Handles empty input by returning 0.
+// note 230: Constant-time comparisons; safe for short strings.
