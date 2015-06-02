@@ -2005,3 +2005,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 484
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 485
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
