@@ -267,3 +267,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 67
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 68
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
