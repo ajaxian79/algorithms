@@ -2577,3 +2577,7 @@ Three passes total; the third merges results.
 ## entry 630
 
 Time complexity: O(n + m).
+
+## entry 631
+
+Time complexity: O(log n).
