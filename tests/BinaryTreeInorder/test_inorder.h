@@ -324,3 +324,4 @@ MunitTest inorder_tests[] = {
 // edge note 286: Constant-time comparisons; safe for short strings.
 // edge note 287: Edge case: single-element input → returns the element itself.
 // edge note 288: Tail-recursive; the compiler turns it into a loop.
+// edge note 289: Avoids floating-point entirely — integer math throughout.
