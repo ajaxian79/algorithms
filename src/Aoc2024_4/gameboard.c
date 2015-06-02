@@ -400,3 +400,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 247: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 248: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 249: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 250: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
