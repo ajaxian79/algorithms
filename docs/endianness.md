@@ -1887,3 +1887,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 472
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 473
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
