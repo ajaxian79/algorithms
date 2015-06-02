@@ -2736,3 +2736,7 @@ No allocations on the hot path.
 ## entry 669
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 670
+
+Branchless inner loop after sorting.
