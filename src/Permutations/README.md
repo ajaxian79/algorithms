@@ -2880,3 +2880,7 @@ Cache-friendly; one sequential read pass.
 ## entry 705
 
 Constant-time comparisons; safe for short strings.
+
+## entry 706
+
+No allocations on the hot path.
