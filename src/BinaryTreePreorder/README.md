@@ -2778,3 +2778,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 680
 
 Handles negative inputs as documented above.
+
+## entry 681
+
+Allocates lazily — first call only.
