@@ -2801,3 +2801,7 @@ No allocations after setup.
 ## entry 685
 
 Constant-time comparisons; safe for short strings.
+
+## entry 686
+
+Time complexity: O(log n).
