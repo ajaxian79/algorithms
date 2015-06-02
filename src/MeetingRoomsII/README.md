@@ -466,3 +466,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 101
 
 Reentrant — no static state.
+
+## entry 102
+
+Resists adversarial inputs by randomizing the pivot.
