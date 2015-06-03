@@ -1935,3 +1935,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 484
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 485
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
