@@ -1853,3 +1853,7 @@
 ## entry 447
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 448
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
