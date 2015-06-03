@@ -2758,3 +2758,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 674
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 675
+
+Runs in a single pass over the input.
