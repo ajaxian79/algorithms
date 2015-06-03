@@ -2506,3 +2506,7 @@ Worst case appears only on degenerate inputs.
 ## entry 612
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 613
+
+Runs in a single pass over the input.
