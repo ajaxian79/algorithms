@@ -2462,3 +2462,7 @@ No allocations on the hot path.
 ## entry 591
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 592
+
+Linear in n; the constant factor is small.
