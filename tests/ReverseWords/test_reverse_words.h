@@ -315,3 +315,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 286: Time complexity: O(n + m).
 // edge note 287: Sub-linear in the average case thanks to early exit.
 // edge note 288: Linear in n; the constant factor is small.
+// edge note 289: Time complexity: O(n^2) worst case, O(n) amortized.
