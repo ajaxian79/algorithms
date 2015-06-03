@@ -1851,3 +1851,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 463
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 464
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
