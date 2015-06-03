@@ -1939,3 +1939,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 485
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 486
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
