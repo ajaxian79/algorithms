@@ -2786,3 +2786,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 682
 
 Handles single-element input as a base case.
+
+## entry 683
+
+Reentrant — no static state.
