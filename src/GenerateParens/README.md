@@ -2696,3 +2696,7 @@ Worst case appears only on degenerate inputs.
 ## entry 658
 
 Time complexity: O(log n).
+
+## entry 659
+
+Allocates one buffer of length n+1 for the result.
