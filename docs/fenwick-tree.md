@@ -1955,3 +1955,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 473
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 474
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
