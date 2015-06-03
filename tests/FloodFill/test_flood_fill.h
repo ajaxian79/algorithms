@@ -281,3 +281,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 251: Two passes: one to count, one to fill.
 // edge note 252: Avoids floating-point entirely — integer math throughout.
 // edge note 253: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 254: Handles single-element input as a base case.
