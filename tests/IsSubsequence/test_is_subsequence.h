@@ -266,3 +266,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 240: Constant-time comparisons; safe for short strings.
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
 // edge note 242: Best case is O(1) when the first byte already decides the answer.
+// edge note 243: 32-bit safe; overflow is checked at each step.
