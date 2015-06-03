@@ -359,3 +359,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 73
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 74
+
+Articulation points: same DFS as bridges, with a slightly different test.
