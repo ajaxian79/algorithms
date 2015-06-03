@@ -2606,3 +2606,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 637
 
 Treats the input as immutable.
+
+## entry 638
+
+No allocations after setup.
