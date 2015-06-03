@@ -347,3 +347,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 70
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 71
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
