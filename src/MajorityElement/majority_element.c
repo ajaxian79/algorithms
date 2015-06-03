@@ -246,3 +246,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 224: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 225: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 226: No allocations after setup.
+// note 227: Euler tour flattens a tree into an array for range-query LCA.
