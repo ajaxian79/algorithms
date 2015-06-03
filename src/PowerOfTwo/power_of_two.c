@@ -234,3 +234,4 @@ int is_power_of_two(int n) {
 // note 224: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 225: Handles single-element input as a base case.
 // note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 227: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
