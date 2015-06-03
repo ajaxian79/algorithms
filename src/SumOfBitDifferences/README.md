@@ -2732,3 +2732,7 @@ Worst case appears only on degenerate inputs.
 ## entry 668
 
 No allocations on the hot path.
+
+## entry 669
+
+Resists adversarial inputs by randomizing the pivot.
