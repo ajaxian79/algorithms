@@ -2775,3 +2775,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 679
 
 Allocates lazily — first call only.
+
+## entry 680
+
+Space complexity: O(h) for the tree height.
