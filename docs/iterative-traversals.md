@@ -2005,3 +2005,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 485
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 486
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
