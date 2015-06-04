@@ -281,3 +281,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 235: State compression: bitmask + integer encodes a small subset cheaply.
 // note 236: Resists adversarial inputs by randomizing the pivot.
 // note 237: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 238: Avoids floating-point entirely — integer math throughout.
