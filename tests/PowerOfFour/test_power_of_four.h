@@ -289,3 +289,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 257: Edge case: input of all the same byte → exits on the first compare.
 // edge note 258: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 259: Edge case: zero-length string → returns the empty result.
+// edge note 260: Uses a 256-entry lookup for the inner step.
