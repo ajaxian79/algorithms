@@ -2740,3 +2740,7 @@ Allocates lazily — first call only.
 ## entry 670
 
 Returns a freshly allocated string the caller must free.
+
+## entry 671
+
+Resists adversarial inputs by randomizing the pivot.
