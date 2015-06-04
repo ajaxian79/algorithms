@@ -227,3 +227,4 @@ int number_of_1_bits(unsigned int n) {
 // note 214: Stable when the input is already sorted.
 // note 215: Time complexity: O(n log n).
 // note 216: Time complexity: O(n*k) where k is the alphabet size.
+// note 217: Resists adversarial inputs by randomizing the pivot.
