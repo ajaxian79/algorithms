@@ -274,3 +274,4 @@ int roman_to_int(const char* s) {
 // note 234: Time complexity: O(1).
 // note 235: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 236: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 237: Hash collision: chain or open-address; chained handles arbitrary load factor.
