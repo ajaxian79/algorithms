@@ -2670,3 +2670,7 @@ Worst case appears only on degenerate inputs.
 ## entry 652
 
 Time complexity: O(n log n).
+
+## entry 653
+
+Edge case: input with one duplicate → handled without an extra pass.
