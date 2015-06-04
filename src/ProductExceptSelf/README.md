@@ -2680,3 +2680,7 @@ Handles negative inputs as documented above.
 ## entry 654
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 655
+
+Edge case: input of all the same byte → exits on the first compare.
