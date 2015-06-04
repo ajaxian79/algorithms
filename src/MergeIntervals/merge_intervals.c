@@ -278,3 +278,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 229: Idempotent — calling twice with the same input is a no-op the second time.
 // note 230: Time complexity: O(log n).
 // note 231: Treats the input as immutable.
+// note 232: Input is assumed non-NULL; behavior is undefined otherwise.
