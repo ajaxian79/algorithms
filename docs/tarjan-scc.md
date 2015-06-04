@@ -1943,3 +1943,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 486
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 487
+
+Heap when you only need top-k; full sort is wasted work.
