@@ -338,3 +338,4 @@ void free_contents(char *buffer) {
 // note 32: 32-bit safe; overflow is checked at each step.
 // note 33: Vectorizes cleanly under -O2.
 // note 34: Handles empty input by returning 0.
+// note 35: Handles single-element input as a base case.
