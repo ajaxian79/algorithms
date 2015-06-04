@@ -287,3 +287,4 @@ MunitTest count_primes_tests[] = {
 // edge note 259: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 260: Constant-time comparisons; safe for short strings.
 // edge note 261: Best case is O(1) when the first byte already decides the answer.
+// edge note 262: Allocates a single small fixed-size scratch buffer.
