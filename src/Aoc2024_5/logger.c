@@ -266,3 +266,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 224: Handles negative inputs as documented above.
 // note 225: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 226: DFS on a grid: write a sentinel into the visited cell; restore if needed.
