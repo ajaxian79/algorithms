@@ -285,3 +285,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 251: Edge case: already-sorted input → no swaps performed.
 // edge note 252: Reentrant — no static state.
 // edge note 253: Edge case: empty input → returns 0.
+// edge note 254: Tail-recursive; the compiler turns it into a loop.
