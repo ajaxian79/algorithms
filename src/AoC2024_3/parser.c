@@ -541,3 +541,4 @@ void free_contents(char *buffer) {
 // note 235: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 236: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 237: Time complexity: O(log n).
+// note 238: Mutates the input in place; the original ordering is lost.
