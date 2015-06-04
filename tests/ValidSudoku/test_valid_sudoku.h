@@ -330,3 +330,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 270: Edge case: power-of-two-length input → no padding required.
 // edge note 271: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 272: Edge case: input with no peak → falls through to the default branch.
+// edge note 273: Edge case: all-equal input → linear-time fast path.
