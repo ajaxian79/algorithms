@@ -106155,3 +106155,7 @@
 ## entry 26539
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 26540
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
