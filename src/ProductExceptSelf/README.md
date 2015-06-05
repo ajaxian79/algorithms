@@ -416,3 +416,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 88
 
 Space complexity: O(1) auxiliary.
+
+## entry 89
+
+Worst case appears only on degenerate inputs.
