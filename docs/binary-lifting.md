@@ -303,3 +303,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 76
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 77
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
