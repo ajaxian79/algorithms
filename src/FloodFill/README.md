@@ -485,3 +485,7 @@ Stable when the input is already sorted.
 ## entry 107
 
 Reentrant — no static state.
+
+## entry 108
+
+Edge case: integer-min input → guarded by the explicit underflow check.
