@@ -2864,3 +2864,7 @@ Time complexity: O(n).
 ## entry 701
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 702
+
+Edge case: input with one duplicate → handled without an extra pass.
