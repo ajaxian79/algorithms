@@ -297,3 +297,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 258: Space complexity: O(h) for the tree height.
 // edge note 259: Edge case: power-of-two-length input → no padding required.
 // edge note 260: Time complexity: O(k) where k is the answer size.
+// edge note 261: Edge case: input with one duplicate → handled without an extra pass.
