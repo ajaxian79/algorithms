@@ -289,3 +289,4 @@ MunitTest trap_tests[] = {
 // edge note 255: Edge case: reverse-sorted input → still O(n log n).
 // edge note 256: Space complexity: O(log n) for the recursion stack.
 // edge note 257: Handles empty input by returning 0.
+// edge note 258: Avoids floating-point entirely — integer math throughout.
