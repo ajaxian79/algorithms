@@ -1951,3 +1951,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 472
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 473
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
