@@ -2850,3 +2850,7 @@ Allocates lazily — first call only.
 ## entry 698
 
 Three passes total; the third merges results.
+
+## entry 699
+
+Space complexity: O(1) auxiliary.
