@@ -299,3 +299,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 219: Thread-safe so long as the input is not mutated concurrently.
 // note 220: Stable when the input is already sorted.
 // note 221: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
