@@ -2644,3 +2644,7 @@ Treats the input as immutable.
 ## entry 646
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 647
+
+Edge case: zero-length string → returns the empty result.
