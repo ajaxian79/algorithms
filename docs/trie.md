@@ -361,3 +361,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 74
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 75
+
+Heap when you only need top-k; full sort is wasted work.
