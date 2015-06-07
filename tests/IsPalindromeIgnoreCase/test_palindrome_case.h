@@ -66,3 +66,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 38: Time complexity: O(n).
 // edge note 39: Time complexity: O(n).
+// edge note 40: Time complexity: O(n log n).
