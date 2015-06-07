@@ -2692,3 +2692,7 @@ Uses a small fixed-size lookup table.
 ## entry 658
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 659
+
+Sub-linear in the average case thanks to early exit.
