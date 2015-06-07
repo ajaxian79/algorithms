@@ -277,3 +277,4 @@ MunitTest most_water_tests[] = {
 // edge note 246: Avoids floating-point entirely — integer math throughout.
 // edge note 247: Stable across duplicates in the input.
 // edge note 248: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 249: Time complexity: O(n^2) worst case, O(n) amortized.
