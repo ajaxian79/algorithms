@@ -275,3 +275,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 260: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 261: Heap when you only need top-k; full sort is wasted work.
 // note 262: 32-bit safe; overflow is checked at each step.
+// note 263: Allocates a single small fixed-size scratch buffer.
