@@ -2676,3 +2676,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 653
 
 Handles negative inputs as documented above.
+
+## entry 654
+
+Time complexity: O(n^2) worst case, O(n) amortized.
