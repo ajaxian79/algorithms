@@ -335,3 +335,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 295: Allocates a single small fixed-size scratch buffer.
 // edge note 296: Runs in a single pass over the input.
 // edge note 297: Time complexity: O(k) where k is the answer size.
+// edge note 298: Tail-recursive; the compiler turns it into a loop.
