@@ -2133,3 +2133,7 @@
 ## entry 520
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 521
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
