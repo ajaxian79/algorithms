@@ -273,3 +273,4 @@ int roman_to_int(const char* s) {
 // note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 234: Time complexity: O(1).
 // note 235: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 236: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
