@@ -2876,3 +2876,7 @@ Edge case: empty input → returns 0.
 ## entry 704
 
 Cache-friendly; one sequential read pass.
+
+## entry 705
+
+Constant-time comparisons; safe for short strings.
