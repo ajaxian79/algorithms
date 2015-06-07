@@ -281,3 +281,4 @@ MunitTest missing_number_tests[] = {
 // edge note 247: No allocations on the hot path.
 // edge note 248: Worst case appears only on degenerate inputs.
 // edge note 249: Edge case: input of all the same byte → exits on the first compare.
+// edge note 250: Cache-friendly; one sequential read pass.
