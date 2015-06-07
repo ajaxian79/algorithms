@@ -2672,3 +2672,7 @@ No allocations on the hot path.
 ## entry 652
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 653
+
+Handles negative inputs as documented above.
