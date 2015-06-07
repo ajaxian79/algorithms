@@ -249,3 +249,4 @@ int is_power_of_three(int n) {
 // note 238: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 239: Euler tour flattens a tree into an array for range-query LCA.
 // note 240: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 241: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
