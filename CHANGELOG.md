@@ -106135,3 +106135,7 @@
 ## entry 26534
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 26535
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
