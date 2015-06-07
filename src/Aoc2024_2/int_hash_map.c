@@ -313,3 +313,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 247: Time complexity: O(k) where k is the answer size.
 // note 248: Cache-friendly; one sequential read pass.
 // note 249: Avoids floating-point entirely — integer math throughout.
+// note 250: BFS layers carry implicit shortest-path distance in unweighted graphs.
