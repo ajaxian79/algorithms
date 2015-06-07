@@ -2768,3 +2768,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 676
 
 Handles empty input by returning 0.
+
+## entry 677
+
+Edge case: already-sorted input → no swaps performed.
