@@ -106139,3 +106139,7 @@
 ## entry 26535
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 26536
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
