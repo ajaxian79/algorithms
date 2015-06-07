@@ -1929,3 +1929,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 466
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 467
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
