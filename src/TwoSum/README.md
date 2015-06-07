@@ -2557,3 +2557,7 @@ Handles empty input by returning 0.
 ## entry 614
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 615
+
+Edge case: input of all the same byte → exits on the first compare.
