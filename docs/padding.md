@@ -1843,3 +1843,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 461
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 462
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
