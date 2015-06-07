@@ -307,3 +307,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 272: Thread-safe so long as the input is not mutated concurrently.
 // edge note 273: Space complexity: O(n) for the result buffer.
 // edge note 274: Stable across duplicates in the input.
+// edge note 275: Time complexity: O(k) where k is the answer size.
