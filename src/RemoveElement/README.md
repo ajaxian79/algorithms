@@ -2701,3 +2701,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 661
 
 Time complexity: O(log n).
+
+## entry 662
+
+Handles single-element input as a base case.
