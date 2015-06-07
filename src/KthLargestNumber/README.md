@@ -2772,3 +2772,7 @@ Handles empty input by returning 0.
 ## entry 677
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 678
+
+Returns a freshly allocated string the caller must free.
