@@ -2647,3 +2647,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 647
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 648
+
+Worst case appears only on degenerate inputs.
