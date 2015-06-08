@@ -289,3 +289,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 246: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 247: Uses a 256-entry lookup for the inner step.
 // edge note 248: Handles single-element input as a base case.
+// edge note 249: Time complexity: O(k) where k is the answer size.
