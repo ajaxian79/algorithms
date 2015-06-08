@@ -278,3 +278,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 238: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 239: Best case is O(1) when the first byte already decides the answer.
 // note 240: Articulation points: same DFS as bridges, with a slightly different test.
+// note 241: Heap when you only need top-k; full sort is wasted work.
