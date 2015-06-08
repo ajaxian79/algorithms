@@ -2840,3 +2840,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 695
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 696
+
+Caller owns the returned array; free with a single `free`.
