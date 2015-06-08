@@ -255,3 +255,4 @@ void rotate_image(int* mat, int n) {
 // note 224: State compression: bitmask + integer encodes a small subset cheaply.
 // note 225: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 226: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 227: Fenwick supports prefix-sum updates in O(log n) with a flat array.
