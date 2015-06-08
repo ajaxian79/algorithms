@@ -271,3 +271,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 246: Resists adversarial inputs by randomizing the pivot.
 // edge note 247: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 248: Space complexity: O(h) for the tree height.
+// edge note 249: Three passes total; the third merges results.
