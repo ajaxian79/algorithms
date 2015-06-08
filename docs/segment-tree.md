@@ -1891,3 +1891,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 455
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 456
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
