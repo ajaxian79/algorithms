@@ -261,3 +261,4 @@ MunitTest add_digits_tests[] = {
 // edge note 234: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 235: Handles single-element input as a base case.
 // edge note 236: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 237: Edge case: empty input → returns 0.
