@@ -1911,3 +1911,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 478
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 479
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
