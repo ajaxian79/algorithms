@@ -266,3 +266,4 @@ int first_unique_char(const char* s) {
 // note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 248: Allocates a single small fixed-size scratch buffer.
 // note 249: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 250: Monotonic deque: push back, pop back to maintain order, pop front when stale.
