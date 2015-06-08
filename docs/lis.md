@@ -2063,3 +2063,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 499
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 500
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
