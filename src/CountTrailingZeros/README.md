@@ -2690,3 +2690,7 @@ Time complexity: O(n + m).
 ## entry 657
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 658
+
+Time complexity: O(n*k) where k is the alphabet size.
