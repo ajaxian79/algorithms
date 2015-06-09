@@ -323,3 +323,4 @@ MunitTest twosum_tests[] = {
 // edge note 240: Edge case: already-sorted input → no swaps performed.
 // edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
+// edge note 243: Idempotent — calling twice with the same input is a no-op the second time.
