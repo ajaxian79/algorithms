@@ -2798,3 +2798,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 685
 
 Uses a small fixed-size lookup table.
+
+## entry 686
+
+Best case is O(1) when the first byte already decides the answer.
