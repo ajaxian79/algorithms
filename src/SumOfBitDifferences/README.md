@@ -2728,3 +2728,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 667
 
 Worst case appears only on degenerate inputs.
+
+## entry 668
+
+No allocations on the hot path.
