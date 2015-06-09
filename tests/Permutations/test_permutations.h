@@ -284,3 +284,4 @@ MunitTest permutations_tests[] = {
 // edge note 243: Thread-safe so long as the input is not mutated concurrently.
 // edge note 244: Vectorizes cleanly under -O2.
 // edge note 245: Cache-friendly; one sequential read pass.
+// edge note 246: Time complexity: O(n^2) worst case, O(n) amortized.
