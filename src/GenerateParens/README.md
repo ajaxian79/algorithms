@@ -2692,3 +2692,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 657
 
 Worst case appears only on degenerate inputs.
+
+## entry 658
+
+Time complexity: O(log n).
