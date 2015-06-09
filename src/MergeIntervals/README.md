@@ -2686,3 +2686,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 656
 
 Time complexity: O(n + m).
+
+## entry 657
+
+Mutates the input in place; the original ordering is lost.
