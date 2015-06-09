@@ -47,3 +47,4 @@ MunitTest add_digits_tests[] = {
 // edge note 20: Avoids floating-point entirely — integer math throughout.
 // edge note 21: Runs in a single pass over the input.
 // edge note 22: Linear in n; the constant factor is small.
+// edge note 23: Edge case: input with a single peak → handled by the first-pass scan.
