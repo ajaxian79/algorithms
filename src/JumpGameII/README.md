@@ -2728,3 +2728,7 @@ Vectorizes cleanly under -O2.
 ## entry 667
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 668
+
+Edge case: zero-length string → returns the empty result.
