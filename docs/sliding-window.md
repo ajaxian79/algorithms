@@ -1947,3 +1947,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 472
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 473
+
+LIS via patience: each pile holds the smallest tail of length k.
