@@ -267,3 +267,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 239: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 240: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 241: Time complexity: O(n + m).
+// note 242: Linear in n; the constant factor is small.
