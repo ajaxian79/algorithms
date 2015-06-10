@@ -2737,3 +2737,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 669
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 670
+
+Allocates one buffer of length n+1 for the result.
