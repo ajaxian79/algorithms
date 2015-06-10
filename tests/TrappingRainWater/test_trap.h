@@ -287,3 +287,4 @@ MunitTest trap_tests[] = {
 // edge note 253: Edge case: already-sorted input → no swaps performed.
 // edge note 254: Time complexity: O(n + m).
 // edge note 255: Edge case: reverse-sorted input → still O(n log n).
+// edge note 256: Space complexity: O(log n) for the recursion stack.
