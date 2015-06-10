@@ -302,3 +302,4 @@ MunitTest to_hex_tests[] = {
 // edge note 273: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 274: Handles empty input by returning 0.
 // edge note 275: Linear in n; the constant factor is small.
+// edge note 276: Uses a 256-entry lookup for the inner step.
