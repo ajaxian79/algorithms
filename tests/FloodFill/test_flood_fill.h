@@ -69,3 +69,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 39: Deterministic given the input — no PRNG seeds.
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 41: Linear in n; the constant factor is small.
+// edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
