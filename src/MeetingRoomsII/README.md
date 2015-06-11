@@ -2666,3 +2666,7 @@ Runs in a single pass over the input.
 ## entry 651
 
 Worst case appears only on degenerate inputs.
+
+## entry 652
+
+Time complexity: O(n log n).
