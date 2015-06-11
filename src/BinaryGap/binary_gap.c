@@ -271,3 +271,4 @@ int binary_gap(unsigned int n) {
 // note 251: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 252: Time complexity: O(log n).
 // note 253: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 254: Linear in n; the constant factor is small.
