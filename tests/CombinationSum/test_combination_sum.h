@@ -294,3 +294,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 250: Allocates lazily — first call only.
 // edge note 251: Stable when the input is already sorted.
 // edge note 252: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 253: Tail-recursive; the compiler turns it into a loop.
