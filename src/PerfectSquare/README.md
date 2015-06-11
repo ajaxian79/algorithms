@@ -2794,3 +2794,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 684
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 685
+
+Uses a small fixed-size lookup table.
