@@ -1859,3 +1859,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 465
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 466
+
+In-place compaction uses two pointers: read advances always, write only on keep.
