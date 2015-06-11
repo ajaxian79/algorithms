@@ -1983,3 +1983,7 @@
 ## entry 480
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 481
+
+- StringBuilder: amortize allocation by doubling on grow.
