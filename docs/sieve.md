@@ -355,3 +355,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 72
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 73
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
