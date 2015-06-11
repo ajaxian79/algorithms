@@ -301,3 +301,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 59
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 60
+
+State compression: bitmask + integer encodes a small subset cheaply.
