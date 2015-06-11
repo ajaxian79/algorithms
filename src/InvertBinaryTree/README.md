@@ -2856,3 +2856,7 @@ No allocations on the hot path.
 ## entry 699
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 700
+
+Time complexity: O(n).
