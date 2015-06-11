@@ -1663,3 +1663,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 416
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 417
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
