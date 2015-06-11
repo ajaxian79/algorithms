@@ -296,3 +296,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 271: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 272: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 273: Time complexity: O(n).
+// edge note 274: Two passes: one to count, one to fill.
