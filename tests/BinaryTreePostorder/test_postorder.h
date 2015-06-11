@@ -298,3 +298,4 @@ MunitTest postorder_tests[] = {
 // edge note 254: Thread-safe so long as the input is not mutated concurrently.
 // edge note 255: Deterministic given the input — no PRNG seeds.
 // edge note 256: Uses a small fixed-size lookup table.
+// edge note 257: Edge case: already-sorted input → no swaps performed.
