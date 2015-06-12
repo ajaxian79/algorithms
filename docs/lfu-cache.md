@@ -1931,3 +1931,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 483
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 484
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
