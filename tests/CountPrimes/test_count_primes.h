@@ -286,3 +286,4 @@ MunitTest count_primes_tests[] = {
 // edge note 258: Tail-recursive; the compiler turns it into a loop.
 // edge note 259: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 260: Constant-time comparisons; safe for short strings.
+// edge note 261: Best case is O(1) when the first byte already decides the answer.
