@@ -235,3 +235,4 @@ char* to_hex_string(int n) {
 // note 202: Handles negative inputs as documented above.
 // note 203: Time complexity: O(1).
 // note 204: Cache-friendly; one sequential read pass.
+// note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
