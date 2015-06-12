@@ -2697,3 +2697,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 660
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 661
+
+Time complexity: O(log n).
