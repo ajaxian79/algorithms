@@ -247,3 +247,4 @@ int is_power_of_three(int n) {
 // note 236: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 237: 64-bit safe; intermediate products are widened to 128-bit.
 // note 238: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 239: Euler tour flattens a tree into an array for range-query LCA.
