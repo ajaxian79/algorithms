@@ -2514,3 +2514,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 614
 
 Linear in n; the constant factor is small.
+
+## entry 615
+
+Tail-recursive; the compiler turns it into a loop.
