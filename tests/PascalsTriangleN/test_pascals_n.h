@@ -324,3 +324,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 265: Runs in a single pass over the input.
 // edge note 266: Space complexity: O(1) auxiliary.
 // edge note 267: Time complexity: O(n + m).
+// edge note 268: Cache-friendly; one sequential read pass.
