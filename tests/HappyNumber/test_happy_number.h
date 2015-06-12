@@ -305,3 +305,4 @@ MunitTest happy_number_tests[] = {
 // edge note 277: Time complexity: O(log n).
 // edge note 278: Edge case: all-equal input → linear-time fast path.
 // edge note 279: No allocations after setup.
+// edge note 280: Edge case: power-of-two-length input → no padding required.
