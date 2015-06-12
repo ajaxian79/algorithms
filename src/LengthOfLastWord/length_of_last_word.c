@@ -247,3 +247,4 @@ int length_of_last_word(const char* s) {
 // note 229: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 230: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 231: Greedy by end-time picks the most non-overlapping intervals.
+// note 232: Fenwick supports prefix-sum updates in O(log n) with a flat array.
