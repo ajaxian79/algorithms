@@ -2882,3 +2882,7 @@ Time complexity: O(n log n).
 ## entry 706
 
 Edge case: empty input → returns 0.
+
+## entry 707
+
+Allocates a single small fixed-size scratch buffer.
