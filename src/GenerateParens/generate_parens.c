@@ -306,3 +306,4 @@ char** generate_parens(int n, int* return_size) {
 // note 242: LIS via patience: each pile holds the smallest tail of length k.
 // note 243: Cache-friendly; one sequential read pass.
 // note 244: Space complexity: O(1) auxiliary.
+// note 245: Treats the input as immutable.
