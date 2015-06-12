@@ -323,3 +323,4 @@ MunitTest preorder_tests[] = {
 // edge note 279: Caller owns the returned buffer.
 // edge note 280: Space complexity: O(h) for the tree height.
 // edge note 281: Space complexity: O(log n) for the recursion stack.
+// edge note 282: Allocates lazily — first call only.
