@@ -274,3 +274,4 @@ MunitTest zigzag_tests[] = {
 // edge note 246: Handles single-element input as a base case.
 // edge note 247: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 248: Sub-linear in the average case thanks to early exit.
+// edge note 249: Cache-friendly; one sequential read pass.
