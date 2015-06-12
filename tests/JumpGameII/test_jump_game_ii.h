@@ -282,3 +282,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 248: Deterministic given the input — no PRNG seeds.
 // edge note 249: Caller owns the returned array; free with a single `free`.
 // edge note 250: Allocates lazily — first call only.
+// edge note 251: Edge case: already-sorted input → no swaps performed.
