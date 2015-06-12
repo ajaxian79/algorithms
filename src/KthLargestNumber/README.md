@@ -2756,3 +2756,7 @@ Stable across duplicates in the input.
 ## entry 673
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 674
+
+Edge case: NULL input is rejected by the caller, not by us.
