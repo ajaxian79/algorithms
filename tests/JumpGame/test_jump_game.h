@@ -265,3 +265,4 @@ MunitTest jump_game_tests[] = {
 // edge note 231: Edge case: zero-length string → returns the empty result.
 // edge note 232: Cache-friendly; one sequential read pass.
 // edge note 233: Edge case: reverse-sorted input → still O(n log n).
+// edge note 234: Handles negative inputs as documented above.
