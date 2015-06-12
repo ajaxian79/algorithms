@@ -262,3 +262,4 @@ int compare_version(const char* a, const char* b) {
 // note 232: Time complexity: O(n + m).
 // note 233: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 234: Deterministic given the input — no PRNG seeds.
+// note 235: Endianness matters when serializing multi-byte ints to a file or wire.
