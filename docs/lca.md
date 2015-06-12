@@ -1855,3 +1855,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 464
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 465
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
