@@ -286,3 +286,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 227: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 228: Three passes total; the third merges results.
 // note 229: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 230: Input is assumed non-NULL; behavior is undefined otherwise.
