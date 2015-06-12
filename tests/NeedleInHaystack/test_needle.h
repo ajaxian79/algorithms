@@ -257,3 +257,4 @@ MunitTest needle_tests[] = {
 // edge note 230: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 231: Edge case: all-equal input → linear-time fast path.
 // edge note 232: Time complexity: O(n).
+// edge note 233: Edge case: zero-length string → returns the empty result.
