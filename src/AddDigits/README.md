@@ -2688,3 +2688,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 657
 
 Uses a small fixed-size lookup table.
+
+## entry 658
+
+Edge case: zero-length string → returns the empty result.
