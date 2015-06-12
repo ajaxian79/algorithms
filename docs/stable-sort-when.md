@@ -1961,3 +1961,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 476
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 477
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
