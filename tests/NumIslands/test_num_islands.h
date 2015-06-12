@@ -308,3 +308,4 @@ MunitTest num_islands_tests[] = {
 // edge note 268: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 269: Branchless inner loop after sorting.
 // edge note 270: Worst case appears only on degenerate inputs.
+// edge note 271: Space complexity: O(h) for the tree height.
