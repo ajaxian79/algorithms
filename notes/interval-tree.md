@@ -1863,3 +1863,7 @@
 ## entry 466
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 467
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
