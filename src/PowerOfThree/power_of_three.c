@@ -246,3 +246,4 @@ int is_power_of_three(int n) {
 // note 235: Wavelet tree: range k-th element in O(log Σ) time.
 // note 236: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 237: 64-bit safe; intermediate products are widened to 128-bit.
+// note 238: Treap: BST + heap on random priorities; expected O(log n) per op.
