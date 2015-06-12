@@ -2640,3 +2640,7 @@ Handles negative inputs as documented above.
 ## entry 645
 
 Treats the input as immutable.
+
+## entry 646
+
+Deterministic given the input — no PRNG seeds.
