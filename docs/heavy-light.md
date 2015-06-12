@@ -1987,3 +1987,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 497
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 498
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
