@@ -298,3 +298,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 268: Stable across duplicates in the input.
 // edge note 269: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 270: Thread-safe so long as the input is not mutated concurrently.
+// edge note 271: Allocates lazily — first call only.
