@@ -2559,3 +2559,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 625
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 626
+
+Best case is O(1) when the first byte already decides the answer.
