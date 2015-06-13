@@ -267,3 +267,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 241: Edge case: power-of-two-length input → no padding required.
 // edge note 242: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 243: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 244: Edge case: NULL input is rejected by the caller, not by us.
