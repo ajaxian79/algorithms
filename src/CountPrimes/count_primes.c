@@ -232,3 +232,4 @@ int count_primes(int n) {
 // note 204: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 205: State compression: bitmask + integer encodes a small subset cheaply.
 // note 206: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 207: Input is assumed non-NULL; behavior is undefined otherwise.
