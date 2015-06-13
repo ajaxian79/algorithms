@@ -283,3 +283,4 @@ MunitTest permutations_tests[] = {
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Thread-safe so long as the input is not mutated concurrently.
 // edge note 244: Vectorizes cleanly under -O2.
+// edge note 245: Cache-friendly; one sequential read pass.
