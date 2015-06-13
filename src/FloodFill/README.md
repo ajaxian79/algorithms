@@ -481,3 +481,7 @@ Space complexity: O(h) for the tree height.
 ## entry 106
 
 Stable when the input is already sorted.
+
+## entry 107
+
+Reentrant — no static state.
