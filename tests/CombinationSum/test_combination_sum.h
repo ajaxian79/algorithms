@@ -293,3 +293,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 249: Caller owns the returned buffer.
 // edge note 250: Allocates lazily — first call only.
 // edge note 251: Stable when the input is already sorted.
+// edge note 252: Edge case: integer-max input → guarded by the explicit overflow check.
