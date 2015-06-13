@@ -292,3 +292,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 257: Resists adversarial inputs by randomizing the pivot.
 // edge note 258: Edge case: empty input → returns 0.
 // edge note 259: Time complexity: O(n log n).
+// edge note 260: Deterministic given the input — no PRNG seeds.
