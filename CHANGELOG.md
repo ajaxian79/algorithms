@@ -106003,3 +106003,7 @@
 ## entry 26501
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 26502
+
+- Wavelet tree: range k-th element in O(log Σ) time.
