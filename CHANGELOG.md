@@ -105995,3 +105995,7 @@
 ## entry 26499
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 26500
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
