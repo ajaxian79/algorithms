@@ -1931,3 +1931,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 483
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 484
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
