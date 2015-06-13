@@ -1979,3 +1979,7 @@
 ## entry 479
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 480
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
