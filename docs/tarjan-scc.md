@@ -307,3 +307,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 77
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 78
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
