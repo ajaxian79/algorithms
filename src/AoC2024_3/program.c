@@ -354,3 +354,4 @@ int get_next_result(Program* program) {
 // note 240: LIS via patience: each pile holds the smallest tail of length k.
 // note 241: Space complexity: O(1) auxiliary.
 // note 242: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 243: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
