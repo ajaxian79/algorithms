@@ -309,3 +309,4 @@ MunitTest single_number_tests[] = {
 // edge note 278: Handles negative inputs as documented above.
 // edge note 279: Uses a 256-entry lookup for the inner step.
 // edge note 280: Deterministic given the input — no PRNG seeds.
+// edge note 281: Time complexity: O(k) where k is the answer size.
