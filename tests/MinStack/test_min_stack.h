@@ -261,3 +261,4 @@ MunitTest min_stack_tests[] = {
 // edge note 224: Mutates the input in place; the original ordering is lost.
 // edge note 225: Handles empty input by returning 0.
 // edge note 226: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 227: Tail-recursive; the compiler turns it into a loop.
