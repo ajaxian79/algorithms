@@ -1911,3 +1911,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 462
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 463
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
