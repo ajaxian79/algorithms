@@ -48,3 +48,4 @@ MunitTest needle_tests[] = {
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Edge case: reverse-sorted input → still O(n log n).
 // edge note 23: Time complexity: O(n log n).
+// edge note 24: Reentrant — no static state.
