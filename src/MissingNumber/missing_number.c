@@ -234,3 +234,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 222: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Allocates a single small fixed-size scratch buffer.
+// note 225: False sharing: two threads writing different bytes in the same cache line stall both.
