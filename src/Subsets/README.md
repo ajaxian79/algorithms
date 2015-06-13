@@ -2843,3 +2843,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 696
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 697
+
+Branchless inner loop after sorting.
