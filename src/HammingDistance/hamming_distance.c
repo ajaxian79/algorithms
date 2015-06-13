@@ -243,3 +243,4 @@ int hamming_distance(int x, int y) {
 // note 228: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 229: Handles empty input by returning 0.
 // note 230: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 231: Resists adversarial inputs by randomizing the pivot.
