@@ -1979,3 +1979,7 @@
 ## entry 478
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 479
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
