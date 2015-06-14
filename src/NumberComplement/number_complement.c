@@ -246,3 +246,4 @@ unsigned int find_complement(unsigned int n) {
 // note 230: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 231: Avoids floating-point entirely — integer math throughout.
 // note 232: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 233: Reentrant — no static state.
