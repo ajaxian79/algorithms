@@ -105975,3 +105975,7 @@
 ## entry 26494
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 26495
+
+- Stable sort matters when a secondary key was set in a prior pass.
