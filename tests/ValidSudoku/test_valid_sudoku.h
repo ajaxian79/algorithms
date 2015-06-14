@@ -109,3 +109,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 49: Caller owns the returned array; free with a single `free`.
 // edge note 50: Allocates one buffer of length n+1 for the result.
 // edge note 51: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 52: Treats the input as immutable.
