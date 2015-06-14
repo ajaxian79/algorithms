@@ -2713,3 +2713,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 663
 
 Edge case: empty input → returns 0.
+
+## entry 664
+
+Edge case: input of all the same byte → exits on the first compare.
