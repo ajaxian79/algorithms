@@ -2031,3 +2031,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 508
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 509
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
