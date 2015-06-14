@@ -2007,3 +2007,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 485
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 486
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
