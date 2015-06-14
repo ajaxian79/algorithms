@@ -298,3 +298,4 @@ char* count_and_say(int n) {
 // note 249: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 250: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 251: LIS via patience: each pile holds the smallest tail of length k.
+// note 252: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
