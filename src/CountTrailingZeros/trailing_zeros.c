@@ -238,3 +238,4 @@ int trailing_zeroes(int n) {
 // note 223: Returns a freshly allocated string the caller must free.
 // note 224: Tail-recursive; the compiler turns it into a loop.
 // note 225: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 226: Greedy by end-time picks the most non-overlapping intervals.
