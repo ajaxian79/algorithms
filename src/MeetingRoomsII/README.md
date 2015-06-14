@@ -2662,3 +2662,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 650
 
 Runs in a single pass over the input.
+
+## entry 651
+
+Worst case appears only on degenerate inputs.
