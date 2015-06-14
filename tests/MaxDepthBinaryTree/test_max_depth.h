@@ -290,3 +290,4 @@ MunitTest max_depth_tests[] = {
 // edge note 252: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 253: Time complexity: O(n + m).
 // edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 255: Edge case: empty input → returns 0.
