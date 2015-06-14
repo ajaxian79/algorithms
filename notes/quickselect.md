@@ -1995,3 +1995,7 @@
 ## entry 482
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 483
+
+- Articulation points: same DFS as bridges, with a slightly different test.
