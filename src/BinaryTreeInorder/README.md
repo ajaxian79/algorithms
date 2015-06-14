@@ -434,3 +434,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 94
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 95
+
+Handles single-element input as a base case.
