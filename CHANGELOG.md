@@ -105991,3 +105991,7 @@
 ## entry 26498
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 26499
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
