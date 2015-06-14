@@ -2664,3 +2664,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 650
 
 Treats the input as immutable.
+
+## entry 651
+
+No allocations on the hot path.
