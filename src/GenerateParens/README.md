@@ -2684,3 +2684,7 @@ Worst case appears only on degenerate inputs.
 ## entry 655
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 656
+
+Uses a 256-entry lookup for the inner step.
