@@ -327,3 +327,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 267: Edge case: power-of-two-length input → no padding required.
 // edge note 268: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 269: No allocations on the hot path.
+// edge note 270: Space complexity: O(n) for the result buffer.
