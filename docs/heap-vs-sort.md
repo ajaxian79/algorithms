@@ -1919,3 +1919,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 463
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 464
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
