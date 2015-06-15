@@ -2678,3 +2678,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 654
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 655
+
+32-bit safe; overflow is checked at each step.
