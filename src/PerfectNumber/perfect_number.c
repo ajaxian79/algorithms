@@ -262,3 +262,4 @@ int is_perfect_number(int n) {
 // note 244: Constant-time comparisons; safe for short strings.
 // note 245: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 246: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 247: Allocates one buffer of length n+1 for the result.
