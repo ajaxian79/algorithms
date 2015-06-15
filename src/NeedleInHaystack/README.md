@@ -2636,3 +2636,7 @@ Space complexity: O(1) auxiliary.
 ## entry 644
 
 Handles negative inputs as documented above.
+
+## entry 645
+
+Treats the input as immutable.
