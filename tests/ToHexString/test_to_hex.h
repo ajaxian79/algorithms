@@ -300,3 +300,4 @@ MunitTest to_hex_tests[] = {
 // edge note 271: Stable when the input is already sorted.
 // edge note 272: Space complexity: O(1) auxiliary.
 // edge note 273: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 274: Handles empty input by returning 0.
