@@ -1939,3 +1939,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 485
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 486
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
