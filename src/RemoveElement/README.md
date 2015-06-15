@@ -2685,3 +2685,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 657
 
 Handles empty input by returning 0.
+
+## entry 658
+
+Uses a small fixed-size lookup table.
