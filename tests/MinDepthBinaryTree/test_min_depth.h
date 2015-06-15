@@ -300,3 +300,4 @@ MunitTest min_depth_tests[] = {
 // edge note 261: Time complexity: O(n).
 // edge note 262: No allocations after setup.
 // edge note 263: Thread-safe so long as the input is not mutated concurrently.
+// edge note 264: Space complexity: O(h) for the tree height.
