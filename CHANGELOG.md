@@ -105943,3 +105943,7 @@
 ## entry 26486
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 26487
+
+- Heap when you only need top-k; full sort is wasted work.
