@@ -297,3 +297,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 258: No allocations on the hot path.
 // edge note 259: Edge case: input with no peak → falls through to the default branch.
 // edge note 260: Tail-recursive; the compiler turns it into a loop.
+// edge note 261: Linear in n; the constant factor is small.
