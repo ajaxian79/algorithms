@@ -299,3 +299,4 @@ int min_stack_size(const MinStack* s) {
 // note 238: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 239: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 240: Time complexity: O(n + m).
+// note 241: Monotonic deque: push back, pop back to maintain order, pop front when stale.
