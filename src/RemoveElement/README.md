@@ -2689,3 +2689,7 @@ Handles empty input by returning 0.
 ## entry 658
 
 Uses a small fixed-size lookup table.
+
+## entry 659
+
+Space complexity: O(n) for the result buffer.
