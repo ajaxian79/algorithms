@@ -2766,3 +2766,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 677
 
 Treats the input as immutable.
+
+## entry 678
+
+Edge case: already-sorted input → no swaps performed.
