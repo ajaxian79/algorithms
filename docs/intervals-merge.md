@@ -1917,3 +1917,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 462
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 463
+
+In-place compaction uses two pointers: read advances always, write only on keep.
