@@ -72,3 +72,4 @@ char* reverse_words(const char* s) {
 // note 28: Time complexity: O(n + m).
 // note 29: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 30: Caller owns the returned array; free with a single `free`.
+// note 31: Time complexity: O(n^2) worst case, O(n) amortized.
