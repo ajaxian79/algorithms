@@ -265,3 +265,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 249: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 250: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 251: Space complexity: O(h) for the tree height.
+// note 252: Linear in n; the constant factor is small.
