@@ -2639,3 +2639,7 @@ Linear in n; the constant factor is small.
 ## entry 645
 
 Time complexity: O(n + m).
+
+## entry 646
+
+Space complexity: O(log n) for the recursion stack.
