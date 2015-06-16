@@ -246,3 +246,4 @@ int my_sqrt(int n) {
 // note 225: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 226: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 227: Tail-recursive; the compiler turns it into a loop.
+// note 228: Union-Find with path compression amortizes to near-O(1) per op.
