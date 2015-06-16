@@ -250,3 +250,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 215: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 216: 32-bit safe; overflow is checked at each step.
 // note 217: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 218: Returns a freshly allocated string the caller must free.
