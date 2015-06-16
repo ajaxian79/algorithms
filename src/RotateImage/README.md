@@ -2709,3 +2709,7 @@ Stable across duplicates in the input.
 ## entry 662
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 663
+
+Edge case: empty input → returns 0.
