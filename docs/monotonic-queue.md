@@ -371,3 +371,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 75
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 76
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
