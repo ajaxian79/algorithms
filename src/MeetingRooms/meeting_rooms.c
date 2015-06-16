@@ -257,3 +257,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 235: Heap when you only need top-k; full sort is wasted work.
 // note 236: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 237: Thread-safe so long as the input is not mutated concurrently.
+// note 238: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
