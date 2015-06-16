@@ -2674,3 +2674,7 @@ Treats the input as immutable.
 ## entry 653
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 654
+
+Uses a 256-entry lookup for the inner step.
