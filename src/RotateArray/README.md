@@ -2851,3 +2851,7 @@ Handles negative inputs as documented above.
 ## entry 697
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 698
+
+Space complexity: O(h) for the tree height.
