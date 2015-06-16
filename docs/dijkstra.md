@@ -1835,3 +1835,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 459
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 460
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
