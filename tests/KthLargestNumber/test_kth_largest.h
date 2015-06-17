@@ -260,3 +260,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 229: Tail-recursive; the compiler turns it into a loop.
 // edge note 230: Space complexity: O(log n) for the recursion stack.
 // edge note 231: Allocates one buffer of length n+1 for the result.
+// edge note 232: Edge case: NULL input is rejected by the caller, not by us.
