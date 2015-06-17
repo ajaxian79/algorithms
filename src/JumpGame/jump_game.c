@@ -240,3 +240,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 224: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 225: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 226: Vectorizes cleanly under -O2.
+// note 227: StringBuilder pitfall: reuse forces a deep copy on the first read.
