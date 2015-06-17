@@ -2670,3 +2670,7 @@ No allocations on the hot path.
 ## entry 652
 
 Treats the input as immutable.
+
+## entry 653
+
+Edge case: already-sorted input → no swaps performed.
