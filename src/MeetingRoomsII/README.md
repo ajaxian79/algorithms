@@ -462,3 +462,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 100
 
 Constant-time comparisons; safe for short strings.
+
+## entry 101
+
+Reentrant — no static state.
