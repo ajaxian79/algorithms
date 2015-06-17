@@ -2025,3 +2025,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 489
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 490
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
