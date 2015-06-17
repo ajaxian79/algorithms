@@ -2630,3 +2630,7 @@ Stable across duplicates in the input.
 ## entry 643
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 644
+
+Edge case: already-sorted input → no swaps performed.
