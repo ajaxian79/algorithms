@@ -1831,3 +1831,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 458
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 459
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
