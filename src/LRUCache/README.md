@@ -2660,3 +2660,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 649
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 650
+
+Treats the input as immutable.
