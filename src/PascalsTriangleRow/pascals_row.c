@@ -263,3 +263,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 233: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 234: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 235: Space complexity: O(n) for the result buffer.
+// note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
