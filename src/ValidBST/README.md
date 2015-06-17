@@ -2793,3 +2793,7 @@ Runs in a single pass over the input.
 ## entry 683
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 684
+
+No allocations after setup.
