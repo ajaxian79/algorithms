@@ -2724,3 +2724,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 666
 
 Vectorizes cleanly under -O2.
+
+## entry 667
+
+Sub-linear in the average case thanks to early exit.
