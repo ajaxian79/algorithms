@@ -1927,3 +1927,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 482
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 483
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
