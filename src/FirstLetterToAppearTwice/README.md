@@ -2454,3 +2454,7 @@ Three passes total; the third merges results.
 ## entry 589
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 590
+
+No allocations on the hot path.
