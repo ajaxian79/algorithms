@@ -1831,3 +1831,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 458
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 459
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
