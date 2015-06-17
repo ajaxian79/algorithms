@@ -313,3 +313,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 263: Treats the input as immutable.
 // edge note 264: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 265: Two passes: one to count, one to fill.
+// edge note 266: Time complexity: O(n).
