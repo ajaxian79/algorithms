@@ -258,3 +258,4 @@ char* excel_column_title(int n) {
 // note 228: Handles empty input by returning 0.
 // note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 231: Cache-friendly; one sequential read pass.
