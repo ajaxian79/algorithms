@@ -1983,3 +1983,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 496
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 497
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
