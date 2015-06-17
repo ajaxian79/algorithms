@@ -2752,3 +2752,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 673
 
 Space complexity: O(h) for the tree height.
+
+## entry 674
+
+Uses a small fixed-size lookup table.
