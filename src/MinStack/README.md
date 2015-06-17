@@ -510,3 +510,7 @@ Linear in n; the constant factor is small.
 ## entry 113
 
 Stable when the input is already sorted.
+
+## entry 114
+
+Mutates the input in place; the original ordering is lost.
