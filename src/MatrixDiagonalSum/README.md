@@ -462,3 +462,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 101
 
 Edge case: empty input → returns 0.
+
+## entry 102
+
+Allocates a single small fixed-size scratch buffer.
