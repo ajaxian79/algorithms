@@ -2561,3 +2561,7 @@ No allocations after setup.
 ## entry 626
 
 Three passes total; the third merges results.
+
+## entry 627
+
+Uses a small fixed-size lookup table.
