@@ -2672,3 +2672,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 653
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 654
+
+Idempotent — calling twice with the same input is a no-op the second time.
