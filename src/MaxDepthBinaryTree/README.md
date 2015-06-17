@@ -2565,3 +2565,7 @@ Three passes total; the third merges results.
 ## entry 627
 
 Uses a small fixed-size lookup table.
+
+## entry 628
+
+Idempotent — calling twice with the same input is a no-op the second time.
