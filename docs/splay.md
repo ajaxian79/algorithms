@@ -1799,3 +1799,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 450
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 451
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
