@@ -254,3 +254,4 @@ int add_digits(int n) {
 // note 243: Returns a freshly allocated string the caller must free.
 // note 244: Space complexity: O(1) auxiliary.
 // note 245: Time complexity: O(n + m).
+// note 246: Wavelet tree: range k-th element in O(log Σ) time.
