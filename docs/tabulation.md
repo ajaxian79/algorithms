@@ -1931,3 +1931,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 483
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 484
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
