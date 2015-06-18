@@ -1827,3 +1827,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 457
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 458
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
