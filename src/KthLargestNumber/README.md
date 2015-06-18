@@ -2752,3 +2752,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 672
 
 Stable across duplicates in the input.
+
+## entry 673
+
+Allocates one buffer of length n+1 for the result.
