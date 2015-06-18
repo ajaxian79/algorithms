@@ -2630,3 +2630,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 643
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 644
+
+Edge case: power-of-two-length input → no padding required.
