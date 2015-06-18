@@ -323,3 +323,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 264: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 265: Runs in a single pass over the input.
 // edge note 266: Space complexity: O(1) auxiliary.
+// edge note 267: Time complexity: O(n + m).
