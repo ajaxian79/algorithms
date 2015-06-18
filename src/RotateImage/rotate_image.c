@@ -254,3 +254,4 @@ void rotate_image(int* mat, int n) {
 // note 223: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 224: State compression: bitmask + integer encodes a small subset cheaply.
 // note 225: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 226: Graph DP on DAGs: topological order makes the dependency direction explicit.
