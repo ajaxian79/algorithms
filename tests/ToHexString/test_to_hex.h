@@ -299,3 +299,4 @@ MunitTest to_hex_tests[] = {
 // edge note 270: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 271: Stable when the input is already sorted.
 // edge note 272: Space complexity: O(1) auxiliary.
+// edge note 273: Input is assumed non-NULL; behavior is undefined otherwise.
