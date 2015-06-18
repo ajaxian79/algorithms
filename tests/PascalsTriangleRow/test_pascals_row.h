@@ -337,3 +337,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 282: Space complexity: O(log n) for the recursion stack.
 // edge note 283: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 284: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 285: 32-bit safe; overflow is checked at each step.
