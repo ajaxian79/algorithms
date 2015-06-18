@@ -2017,3 +2017,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 489
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 490
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
