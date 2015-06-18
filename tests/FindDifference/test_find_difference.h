@@ -260,3 +260,4 @@ MunitTest find_difference_tests[] = {
 // edge note 235: No allocations after setup.
 // edge note 236: Time complexity: O(log n).
 // edge note 237: Allocates one buffer of length n+1 for the result.
+// edge note 238: Time complexity: O(n*k) where k is the alphabet size.
