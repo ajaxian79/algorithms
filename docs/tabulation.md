@@ -1935,3 +1935,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 484
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 485
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
