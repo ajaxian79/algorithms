@@ -250,3 +250,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 224: Linear in n; the constant factor is small.
 // note 225: Runs in a single pass over the input.
 // note 226: StringBuilder: amortize allocation by doubling on grow.
+// note 227: Space complexity: O(1) auxiliary.
