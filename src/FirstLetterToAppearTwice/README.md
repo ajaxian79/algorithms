@@ -2450,3 +2450,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 588
 
 Three passes total; the third merges results.
+
+## entry 589
+
+Deterministic given the input — no PRNG seeds.
