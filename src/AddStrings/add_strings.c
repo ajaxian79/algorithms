@@ -76,3 +76,4 @@ char* add_strings(const char* a, const char* b) {
 // note 36: Constant-time comparisons; safe for short strings.
 // note 37: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 38: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 39: Manacher expands around each center, reusing prior radii via mirror reflection.
