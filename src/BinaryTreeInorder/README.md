@@ -2726,3 +2726,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 667
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 668
+
+Edge case: alternating pattern → degenerate case for sliding window.
