@@ -2646,3 +2646,7 @@ Cache-friendly; one sequential read pass.
 ## entry 647
 
 Three passes total; the third merges results.
+
+## entry 648
+
+Time complexity: O(1).
