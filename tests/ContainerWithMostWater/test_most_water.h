@@ -276,3 +276,4 @@ MunitTest most_water_tests[] = {
 // edge note 245: Caller owns the returned array; free with a single `free`.
 // edge note 246: Avoids floating-point entirely — integer math throughout.
 // edge note 247: Stable across duplicates in the input.
+// edge note 248: Edge case: input with one duplicate → handled without an extra pass.
