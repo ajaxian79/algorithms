@@ -1905,3 +1905,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 459
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 460
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
