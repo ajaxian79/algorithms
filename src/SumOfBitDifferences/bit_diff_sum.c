@@ -253,3 +253,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 235: Resists adversarial inputs by randomizing the pivot.
 // note 236: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 237: Deterministic given the input — no PRNG seeds.
+// note 238: Cache-friendly; one sequential read pass.
