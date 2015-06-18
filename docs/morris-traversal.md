@@ -1871,3 +1871,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 453
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 454
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
