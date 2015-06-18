@@ -295,3 +295,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 266: Edge case: reverse-sorted input → still O(n log n).
 // edge note 267: Caller owns the returned array; free with a single `free`.
 // edge note 268: Treats the input as immutable.
+// edge note 269: Edge case: single-element input → returns the element itself.
