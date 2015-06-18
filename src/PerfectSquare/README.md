@@ -2786,3 +2786,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 682
 
 Edge case: empty input → returns 0.
+
+## entry 683
+
+Edge case: power-of-two-length input → no padding required.
