@@ -260,3 +260,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 226: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 227: 32-bit safe; overflow is checked at each step.
 // edge note 228: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 229: Caller owns the returned array; free with a single `free`.
