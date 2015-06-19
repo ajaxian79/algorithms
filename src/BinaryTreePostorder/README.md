@@ -2626,3 +2626,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 642
 
 Stable when the input is already sorted.
+
+## entry 643
+
+Constant-time comparisons; safe for short strings.
