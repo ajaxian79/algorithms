@@ -272,3 +272,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 241: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 242: Branchless inner loop after sorting.
 // edge note 243: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 244: Edge case: alternating pattern → degenerate case for sliding window.
