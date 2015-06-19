@@ -105823,3 +105823,7 @@
 ## entry 26456
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 26457
+
+- StringBuilder: amortize allocation by doubling on grow.
