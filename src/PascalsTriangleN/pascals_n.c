@@ -270,3 +270,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 232: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 233: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 234: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 235: Persistent tree: every update creates a new version sharing unchanged nodes.
