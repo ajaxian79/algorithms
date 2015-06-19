@@ -1931,3 +1931,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 465
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 466
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
