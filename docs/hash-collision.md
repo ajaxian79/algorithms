@@ -2007,3 +2007,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 502
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 503
+
+Rope: tree of small string fragments; O(log n) concat and substring.
