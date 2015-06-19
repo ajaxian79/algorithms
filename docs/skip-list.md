@@ -1815,3 +1815,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 454
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 455
+
+Endianness matters when serializing multi-byte ints to a file or wire.
