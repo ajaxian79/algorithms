@@ -248,3 +248,4 @@ int is_palindrome_str(const char* s) {
 // note 223: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 224: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 225: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 226: BFS layers carry implicit shortest-path distance in unweighted graphs.
