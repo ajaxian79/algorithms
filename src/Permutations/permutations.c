@@ -278,3 +278,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 233: State compression: bitmask + integer encodes a small subset cheaply.
 // note 234: Uses a 256-entry lookup for the inner step.
 // note 235: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 236: Stable when the input is already sorted.
