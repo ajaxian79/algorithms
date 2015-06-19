@@ -2557,3 +2557,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 625
 
 No allocations after setup.
+
+## entry 626
+
+Three passes total; the third merges results.
