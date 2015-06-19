@@ -1827,3 +1827,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 440
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 441
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
