@@ -258,3 +258,4 @@ int is_happy(int n) {
 // note 232: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 233: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 234: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 235: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
