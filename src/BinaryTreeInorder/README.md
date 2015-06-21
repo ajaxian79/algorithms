@@ -2722,3 +2722,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 666
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 667
+
+Edge case: reverse-sorted input → still O(n log n).
