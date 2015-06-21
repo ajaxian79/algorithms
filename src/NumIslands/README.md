@@ -2545,3 +2545,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 621
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 622
+
+Avoids floating-point entirely — integer math throughout.
