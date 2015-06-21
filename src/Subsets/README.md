@@ -2839,3 +2839,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 695
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 696
+
+Edge case: reverse-sorted input → still O(n log n).
