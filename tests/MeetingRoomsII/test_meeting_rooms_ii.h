@@ -293,3 +293,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 262: Allocates lazily — first call only.
 // edge note 263: 32-bit safe; overflow is checked at each step.
 // edge note 264: Tail-recursive; the compiler turns it into a loop.
+// edge note 265: Avoids floating-point entirely — integer math throughout.
