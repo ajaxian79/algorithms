@@ -298,3 +298,4 @@ MunitTest add_strings_tests[] = {
 // edge note 262: Sub-linear in the average case thanks to early exit.
 // edge note 263: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 264: Allocates lazily — first call only.
+// edge note 265: Resists adversarial inputs by randomizing the pivot.
