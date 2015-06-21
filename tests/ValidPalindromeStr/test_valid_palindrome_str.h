@@ -270,3 +270,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 243: 32-bit safe; overflow is checked at each step.
 // edge note 244: Runs in a single pass over the input.
 // edge note 245: Mutates the input in place; the original ordering is lost.
+// edge note 246: Caller owns the returned buffer.
