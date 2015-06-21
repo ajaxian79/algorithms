@@ -260,3 +260,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 219: Time complexity: O(n*k) where k is the alphabet size.
 // note 220: Returns a freshly allocated string the caller must free.
 // note 221: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 222: No allocations after setup.
