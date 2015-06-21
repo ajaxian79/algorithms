@@ -2542,3 +2542,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 620
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 621
+
+Handles negative inputs as documented above.
