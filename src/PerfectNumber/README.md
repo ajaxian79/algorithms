@@ -2577,3 +2577,7 @@ Caller owns the returned buffer.
 ## entry 629
 
 Stable when the input is already sorted.
+
+## entry 630
+
+Edge case: integer-min input → guarded by the explicit underflow check.
