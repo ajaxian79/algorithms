@@ -2775,3 +2775,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 679
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 680
+
+Linear in n; the constant factor is small.
