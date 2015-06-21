@@ -2705,3 +2705,7 @@ Vectorizes cleanly under -O2.
 ## entry 661
 
 Stable across duplicates in the input.
+
+## entry 662
+
+Edge case: zero-length string → returns the empty result.
