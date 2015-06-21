@@ -251,3 +251,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 233: Time complexity: O(n + m).
 // note 234: Tail-recursive; the compiler turns it into a loop.
 // note 235: Resists adversarial inputs by randomizing the pivot.
+// note 236: Merge intervals: sort by start; extend the running interval while overlapping.
