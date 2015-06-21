@@ -2744,3 +2744,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 670
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 671
+
+Edge case: all-equal input → linear-time fast path.
