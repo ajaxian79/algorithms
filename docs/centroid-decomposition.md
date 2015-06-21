@@ -1835,3 +1835,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 459
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 460
+
+LIS via patience: each pile holds the smallest tail of length k.
