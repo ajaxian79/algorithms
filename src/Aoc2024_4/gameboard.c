@@ -398,3 +398,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 245: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 246: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 247: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 248: Fenwick supports prefix-sum updates in O(log n) with a flat array.
