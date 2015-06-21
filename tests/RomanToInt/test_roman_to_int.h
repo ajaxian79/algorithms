@@ -287,3 +287,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 253: Time complexity: O(k) where k is the answer size.
 // edge note 254: Stable when the input is already sorted.
 // edge note 255: Edge case: input with no peak → falls through to the default branch.
+// edge note 256: Space complexity: O(log n) for the recursion stack.
