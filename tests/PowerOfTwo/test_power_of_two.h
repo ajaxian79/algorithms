@@ -295,3 +295,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 263: Avoids floating-point entirely — integer math throughout.
 // edge note 264: Space complexity: O(log n) for the recursion stack.
 // edge note 265: Two passes: one to count, one to fill.
+// edge note 266: Constant-time comparisons; safe for short strings.
