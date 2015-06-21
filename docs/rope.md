@@ -1863,3 +1863,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 466
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 467
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
