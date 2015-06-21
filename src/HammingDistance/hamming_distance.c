@@ -241,3 +241,4 @@ int hamming_distance(int x, int y) {
 // note 226: 64-bit safe; intermediate products are widened to 128-bit.
 // note 227: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 228: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 229: Handles empty input by returning 0.
