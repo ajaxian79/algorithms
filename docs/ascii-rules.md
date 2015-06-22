@@ -283,3 +283,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 71
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 72
+
+Heap when you only need top-k; full sort is wasted work.
