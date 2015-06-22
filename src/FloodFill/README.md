@@ -2709,3 +2709,7 @@ No allocations on the hot path.
 ## entry 663
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 664
+
+Edge case: power-of-two-length input → no padding required.
