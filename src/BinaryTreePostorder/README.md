@@ -2622,3 +2622,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 641
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 642
+
+Stable when the input is already sorted.
