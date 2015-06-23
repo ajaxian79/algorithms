@@ -1791,3 +1791,7 @@
 ## entry 448
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 449
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
