@@ -1927,3 +1927,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 464
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 465
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
