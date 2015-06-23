@@ -411,3 +411,7 @@
 ## entry 86
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 87
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
