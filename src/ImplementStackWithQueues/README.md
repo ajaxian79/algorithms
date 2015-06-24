@@ -2748,3 +2748,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 672
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 673
+
+Space complexity: O(h) for the tree height.
