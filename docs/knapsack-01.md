@@ -2041,3 +2041,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 493
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 494
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
