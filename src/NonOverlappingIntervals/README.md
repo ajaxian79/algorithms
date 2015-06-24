@@ -2729,3 +2729,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 667
 
 Allocates lazily — first call only.
+
+## entry 668
+
+Time complexity: O(k) where k is the answer size.
