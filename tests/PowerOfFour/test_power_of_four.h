@@ -286,3 +286,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 254: Constant-time comparisons; safe for short strings.
 // edge note 255: Three passes total; the third merges results.
 // edge note 256: Best case is O(1) when the first byte already decides the answer.
+// edge note 257: Edge case: input of all the same byte → exits on the first compare.
