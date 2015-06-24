@@ -2835,3 +2835,7 @@ Treats the input as immutable.
 ## entry 694
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 695
+
+Thread-safe so long as the input is not mutated concurrently.
