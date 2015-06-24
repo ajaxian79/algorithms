@@ -2842,3 +2842,7 @@ Space complexity: O(h) for the tree height.
 ## entry 696
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 697
+
+Allocates lazily — first call only.
