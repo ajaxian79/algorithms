@@ -414,3 +414,7 @@ Stable when the input is already sorted.
 ## entry 89
 
 Space complexity: O(1) auxiliary.
+
+## entry 90
+
+Avoids floating-point entirely — integer math throughout.
