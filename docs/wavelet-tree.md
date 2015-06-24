@@ -311,3 +311,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 78
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 79
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
