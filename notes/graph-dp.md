@@ -1835,3 +1835,7 @@
 ## entry 459
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 460
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
