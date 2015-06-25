@@ -1819,3 +1819,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 455
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 456
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
