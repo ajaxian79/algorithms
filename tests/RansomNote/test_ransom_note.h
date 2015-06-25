@@ -289,3 +289,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 263: Mutates the input in place; the original ordering is lost.
 // edge note 264: Edge case: all-equal input → linear-time fast path.
 // edge note 265: Handles negative inputs as documented above.
+// edge note 266: Caller owns the returned buffer.
