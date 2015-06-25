@@ -290,3 +290,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 258: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 259: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 260: Stable across duplicates in the input.
+// edge note 261: Tail-recursive; the compiler turns it into a loop.
