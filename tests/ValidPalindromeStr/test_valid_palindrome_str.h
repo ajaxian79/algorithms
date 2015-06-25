@@ -269,3 +269,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 242: Allocates a single small fixed-size scratch buffer.
 // edge note 243: 32-bit safe; overflow is checked at each step.
 // edge note 244: Runs in a single pass over the input.
+// edge note 245: Mutates the input in place; the original ordering is lost.
