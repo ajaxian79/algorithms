@@ -2638,3 +2638,7 @@ Branchless inner loop after sorting.
 ## entry 644
 
 Caller owns the returned buffer.
+
+## entry 645
+
+Tail-recursive; the compiler turns it into a loop.
