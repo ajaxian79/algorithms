@@ -1927,3 +1927,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 482
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 483
+
+LIS via patience: each pile holds the smallest tail of length k.
