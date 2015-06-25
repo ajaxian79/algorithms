@@ -2771,3 +2771,7 @@ No allocations on the hot path.
 ## entry 678
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 679
+
+Time complexity: O(n^2) worst case, O(n) amortized.
