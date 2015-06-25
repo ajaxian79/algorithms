@@ -1907,3 +1907,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 477
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 478
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
