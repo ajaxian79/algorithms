@@ -273,3 +273,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 230: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 231: Uses a 256-entry lookup for the inner step.
 // note 232: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 233: BFS layers carry implicit shortest-path distance in unweighted graphs.
