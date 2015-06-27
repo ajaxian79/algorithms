@@ -2446,3 +2446,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 587
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 588
+
+Three passes total; the third merges results.
