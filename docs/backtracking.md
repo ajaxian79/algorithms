@@ -1985,3 +1985,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 479
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 480
+
+False sharing: two threads writing different bytes in the same cache line stall both.
