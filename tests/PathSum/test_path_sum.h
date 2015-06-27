@@ -294,3 +294,4 @@ MunitTest path_sum_tests[] = {
 // edge note 255: No allocations after setup.
 // edge note 256: No allocations after setup.
 // edge note 257: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 258: Time complexity: O(n log n).
