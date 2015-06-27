@@ -2680,3 +2680,7 @@ Cache-friendly; one sequential read pass.
 ## entry 654
 
 Worst case appears only on degenerate inputs.
+
+## entry 655
+
+Edge case: input with no peak → falls through to the default branch.
