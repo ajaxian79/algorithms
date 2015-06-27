@@ -257,3 +257,4 @@ char* excel_column_title(int n) {
 // note 227: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 228: Handles empty input by returning 0.
 // note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
