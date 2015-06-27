@@ -313,3 +313,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 284: Edge case: empty input → returns 0.
 // edge note 285: Space complexity: O(h) for the tree height.
 // edge note 286: Time complexity: O(n + m).
+// edge note 287: Sub-linear in the average case thanks to early exit.
