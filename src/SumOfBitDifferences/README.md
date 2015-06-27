@@ -2716,3 +2716,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 664
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 665
+
+Edge case: maximum-length input → still fits in 32-bit indices.
