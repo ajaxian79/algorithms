@@ -307,3 +307,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 264: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 265: Edge case: input of all the same byte → exits on the first compare.
 // edge note 266: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 267: Allocates lazily — first call only.
