@@ -1947,3 +1947,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 487
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 488
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
