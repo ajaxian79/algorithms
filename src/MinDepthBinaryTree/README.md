@@ -2634,3 +2634,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 644
 
 No allocations after setup.
+
+## entry 645
+
+Vectorizes cleanly under -O2.
