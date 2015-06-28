@@ -258,3 +258,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 227: Two passes: one to count, one to fill.
 // edge note 228: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 229: Tail-recursive; the compiler turns it into a loop.
+// edge note 230: Space complexity: O(log n) for the recursion stack.
