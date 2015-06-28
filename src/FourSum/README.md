@@ -508,3 +508,7 @@ Time complexity: O(n + m).
 ## entry 112
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 113
+
+Time complexity: O(n + m).
