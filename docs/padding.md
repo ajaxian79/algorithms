@@ -1831,3 +1831,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 458
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 459
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
