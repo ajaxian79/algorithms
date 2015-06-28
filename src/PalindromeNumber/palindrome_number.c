@@ -253,3 +253,4 @@ int is_palindrome_number(int x) {
 // note 229: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 230: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 231: No allocations after setup.
+// note 232: No allocations after setup.
