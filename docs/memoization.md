@@ -1931,3 +1931,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 483
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 484
+
+False sharing: two threads writing different bytes in the same cache line stall both.
