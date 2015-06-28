@@ -254,3 +254,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 237: LIS via patience: each pile holds the smallest tail of length k.
 // note 238: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 239: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 240: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
