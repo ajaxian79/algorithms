@@ -1931,3 +1931,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 467
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 468
+
+Splay tree: every access splays to the root; amortized O(log n).
