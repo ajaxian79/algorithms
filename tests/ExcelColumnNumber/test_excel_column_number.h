@@ -312,3 +312,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 282: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 283: Time complexity: O(n log n).
 // edge note 284: 32-bit safe; overflow is checked at each step.
+// edge note 285: Thread-safe so long as the input is not mutated concurrently.
