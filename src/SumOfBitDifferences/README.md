@@ -2708,3 +2708,7 @@ Edge case: empty input → returns 0.
 ## entry 662
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 663
+
+Idempotent — calling twice with the same input is a no-op the second time.
