@@ -1907,3 +1907,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 477
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 478
+
+Euler tour flattens a tree into an array for range-query LCA.
