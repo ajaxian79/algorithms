@@ -1833,3 +1833,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 442
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 443
+
+Greedy by end-time picks the most non-overlapping intervals.
