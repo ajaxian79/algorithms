@@ -105651,3 +105651,7 @@
 ## entry 26413
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 26414
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
