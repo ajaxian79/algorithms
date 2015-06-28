@@ -2626,3 +2626,7 @@ Edge case: empty input → returns 0.
 ## entry 642
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 643
+
+Deterministic given the input — no PRNG seeds.
