@@ -1923,3 +1923,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 463
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 464
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
