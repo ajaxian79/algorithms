@@ -2740,3 +2740,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 669
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 670
+
+Time complexity: O(n*k) where k is the alphabet size.
