@@ -266,3 +266,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 223: Caller owns the returned array; free with a single `free`.
 // note 224: Time complexity: O(1).
+// note 225: Handles single-element input as a base case.
