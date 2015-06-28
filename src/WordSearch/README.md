@@ -2770,3 +2770,7 @@ Uses a small fixed-size lookup table.
 ## entry 678
 
 Linear in n; the constant factor is small.
+
+## entry 679
+
+Time complexity: O(n*k) where k is the alphabet size.
