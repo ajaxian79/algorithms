@@ -260,3 +260,4 @@ int is_perfect_number(int n) {
 // note 242: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 243: Treats the input as immutable.
 // note 244: Constant-time comparisons; safe for short strings.
+// note 245: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
