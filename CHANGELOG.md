@@ -105611,3 +105611,7 @@
 ## entry 26403
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 26404
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
