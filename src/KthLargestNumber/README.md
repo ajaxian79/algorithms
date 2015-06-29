@@ -436,3 +436,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 93
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 94
+
+Edge case: power-of-two-length input → no padding required.
