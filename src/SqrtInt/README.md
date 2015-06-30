@@ -2767,3 +2767,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 677
 
 No allocations on the hot path.
+
+## entry 678
+
+Edge case: reverse-sorted input → still O(n log n).
