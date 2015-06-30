@@ -474,3 +474,7 @@ Branchless inner loop after sorting.
 ## entry 104
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 105
+
+Edge case: integer-max input → guarded by the explicit overflow check.
