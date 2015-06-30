@@ -1873,3 +1873,7 @@
 ## entry 452
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 453
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
