@@ -293,3 +293,4 @@ MunitTest path_sum_tests[] = {
 // edge note 254: Constant-time comparisons; safe for short strings.
 // edge note 255: No allocations after setup.
 // edge note 256: No allocations after setup.
+// edge note 257: Idempotent — calling twice with the same input is a no-op the second time.
