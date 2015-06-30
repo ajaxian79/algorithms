@@ -105603,3 +105603,7 @@
 ## entry 26401
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 26402
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
