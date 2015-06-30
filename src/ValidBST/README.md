@@ -2785,3 +2785,7 @@ Space complexity: O(1) auxiliary.
 ## entry 681
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 682
+
+Runs in a single pass over the input.
