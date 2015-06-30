@@ -2713,3 +2713,7 @@ No allocations on the hot path.
 ## entry 663
 
 Time complexity: O(log n).
+
+## entry 664
+
+Uses a 256-entry lookup for the inner step.
