@@ -2705,3 +2705,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 662
 
 No allocations on the hot path.
+
+## entry 663
+
+Edge case: input with a single peak → handled by the first-pass scan.
