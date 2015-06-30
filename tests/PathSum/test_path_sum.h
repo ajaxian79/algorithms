@@ -292,3 +292,4 @@ MunitTest path_sum_tests[] = {
 // edge note 253: Edge case: power-of-two-length input → no padding required.
 // edge note 254: Constant-time comparisons; safe for short strings.
 // edge note 255: No allocations after setup.
+// edge note 256: No allocations after setup.
