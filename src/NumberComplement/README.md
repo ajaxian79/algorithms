@@ -2748,3 +2748,7 @@ Two passes: one to count, one to fill.
 ## entry 671
 
 32-bit safe; overflow is checked at each step.
+
+## entry 672
+
+Edge case: single-element input → returns the element itself.
