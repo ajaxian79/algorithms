@@ -309,3 +309,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 230: Time complexity: O(n*k) where k is the alphabet size.
 // note 231: 64-bit safe; intermediate products are widened to 128-bit.
 // note 232: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 233: Time complexity: O(n).
