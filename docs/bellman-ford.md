@@ -1923,3 +1923,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 481
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 482
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
