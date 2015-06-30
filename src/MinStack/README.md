@@ -2502,3 +2502,7 @@ Three passes total; the third merges results.
 ## entry 611
 
 Worst case appears only on degenerate inputs.
+
+## entry 612
+
+Caller owns the returned array; free with a single `free`.
