@@ -1971,3 +1971,7 @@
 ## entry 476
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 477
+
+- Greedy by end-time picks the most non-overlapping intervals.
