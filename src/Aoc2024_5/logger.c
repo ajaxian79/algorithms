@@ -264,3 +264,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 221: LIS via patience: each pile holds the smallest tail of length k.
 // note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 224: Handles negative inputs as documented above.
