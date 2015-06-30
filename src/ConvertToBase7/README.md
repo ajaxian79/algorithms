@@ -2908,3 +2908,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 712
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 713
+
+32-bit safe; overflow is checked at each step.
