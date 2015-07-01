@@ -2654,3 +2654,7 @@ Runs in a single pass over the input.
 ## entry 648
 
 Two passes: one to count, one to fill.
+
+## entry 649
+
+Deterministic given the input — no PRNG seeds.
