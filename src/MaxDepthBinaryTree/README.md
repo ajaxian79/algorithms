@@ -2549,3 +2549,7 @@ Branchless inner loop after sorting.
 ## entry 623
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 624
+
+Allocates a single small fixed-size scratch buffer.
