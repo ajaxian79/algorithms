@@ -1731,3 +1731,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 433
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 434
+
+State compression: bitmask + integer encodes a small subset cheaply.
