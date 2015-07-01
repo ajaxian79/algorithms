@@ -262,3 +262,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 229: Tail-recursive; the compiler turns it into a loop.
 // edge note 230: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 231: Cache-friendly; one sequential read pass.
+// edge note 232: Input is assumed non-NULL; behavior is undefined otherwise.
