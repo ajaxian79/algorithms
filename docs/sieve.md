@@ -1995,3 +1995,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 482
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 483
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
