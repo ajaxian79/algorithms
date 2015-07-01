@@ -2538,3 +2538,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 619
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 620
+
+Input is assumed non-NULL; behavior is undefined otherwise.
