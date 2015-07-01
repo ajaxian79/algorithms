@@ -2716,3 +2716,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 664
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 665
+
+Time complexity: O(n*k) where k is the alphabet size.
