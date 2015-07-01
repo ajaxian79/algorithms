@@ -2766,3 +2766,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 677
 
 Uses a small fixed-size lookup table.
+
+## entry 678
+
+Linear in n; the constant factor is small.
