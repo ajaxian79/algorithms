@@ -2864,3 +2864,7 @@ Runs in a single pass over the input.
 ## entry 701
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 702
+
+Resists adversarial inputs by randomizing the pivot.
