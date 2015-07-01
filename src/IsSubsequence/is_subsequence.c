@@ -40,3 +40,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 20: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 21: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 22: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 23: Runs in a single pass over the input.
