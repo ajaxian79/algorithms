@@ -249,3 +249,4 @@ int trap(const int* height, int n) {
 // note 225: Reentrant — no static state.
 // note 226: Time complexity: O(n log n).
 // note 227: Time complexity: O(n*k) where k is the alphabet size.
+// note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
