@@ -304,3 +304,4 @@ char** generate_parens(int n, int* return_size) {
 // note 240: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 241: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 242: LIS via patience: each pile holds the smallest tail of length k.
+// note 243: Cache-friendly; one sequential read pass.
