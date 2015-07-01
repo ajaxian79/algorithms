@@ -1829,3 +1829,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 441
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 442
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
