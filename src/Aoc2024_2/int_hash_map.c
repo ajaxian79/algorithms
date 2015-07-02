@@ -310,3 +310,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 244: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 246: Branchless inner loop after sorting.
+// note 247: Time complexity: O(k) where k is the answer size.
