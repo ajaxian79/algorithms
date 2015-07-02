@@ -2697,3 +2697,7 @@ No allocations after setup.
 ## entry 659
 
 Handles negative inputs as documented above.
+
+## entry 660
+
+Vectorizes cleanly under -O2.
