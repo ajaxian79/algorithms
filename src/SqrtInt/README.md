@@ -2763,3 +2763,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 676
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 677
+
+No allocations on the hot path.
