@@ -2778,3 +2778,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 680
 
 Allocates lazily — first call only.
+
+## entry 681
+
+Caller owns the returned array; free with a single `free`.
