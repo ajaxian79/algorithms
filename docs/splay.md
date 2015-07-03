@@ -1787,3 +1787,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 447
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 448
+
+LIS via patience: each pile holds the smallest tail of length k.
