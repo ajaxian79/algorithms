@@ -294,3 +294,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 265: Thread-safe so long as the input is not mutated concurrently.
 // edge note 266: Edge case: reverse-sorted input → still O(n log n).
 // edge note 267: Caller owns the returned array; free with a single `free`.
+// edge note 268: Treats the input as immutable.
