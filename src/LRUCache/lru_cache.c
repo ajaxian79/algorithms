@@ -389,3 +389,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 222: Cache-friendly; one sequential read pass.
 // note 223: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 224: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 225: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
