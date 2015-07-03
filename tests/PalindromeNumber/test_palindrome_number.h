@@ -301,3 +301,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 266: Edge case: reverse-sorted input → still O(n log n).
 // edge note 267: Avoids floating-point entirely — integer math throughout.
 // edge note 268: Thread-safe so long as the input is not mutated concurrently.
+// edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
