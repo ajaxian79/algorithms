@@ -263,3 +263,4 @@ int single_number(const int* nums, int nums_size) {
 // note 250: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 251: Space complexity: O(n) for the result buffer.
 // note 252: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 253: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
