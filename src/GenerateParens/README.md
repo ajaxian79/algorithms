@@ -2676,3 +2676,7 @@ Cache-friendly; one sequential read pass.
 ## entry 653
 
 Cache-friendly; one sequential read pass.
+
+## entry 654
+
+Worst case appears only on degenerate inputs.
