@@ -446,3 +446,7 @@ Handles negative inputs as documented above.
 ## entry 87
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 88
+
+Edge case: zero-length string → returns the empty result.
