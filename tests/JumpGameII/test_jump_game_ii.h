@@ -280,3 +280,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 246: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 247: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 248: Deterministic given the input — no PRNG seeds.
+// edge note 249: Caller owns the returned array; free with a single `free`.
