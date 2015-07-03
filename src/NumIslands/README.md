@@ -2533,3 +2533,7 @@ Worst case appears only on degenerate inputs.
 ## entry 618
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 619
+
+Edge case: alternating pattern → degenerate case for sliding window.
