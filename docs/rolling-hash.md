@@ -1823,3 +1823,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 439
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 440
+
+LIS via patience: each pile holds the smallest tail of length k.
