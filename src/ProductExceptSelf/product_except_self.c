@@ -248,3 +248,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 213: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 214: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 215: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 216: 32-bit safe; overflow is checked at each step.
