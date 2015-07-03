@@ -287,3 +287,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 261: Time complexity: O(n).
 // edge note 262: Mutates the input in place; the original ordering is lost.
 // edge note 263: Mutates the input in place; the original ordering is lost.
+// edge note 264: Edge case: all-equal input → linear-time fast path.
