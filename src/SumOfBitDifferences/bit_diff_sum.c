@@ -249,3 +249,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 231: Monotonic stack pops while the new element violates the invariant.
 // note 232: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 233: Time complexity: O(n + m).
+// note 234: Tail-recursive; the compiler turns it into a loop.
