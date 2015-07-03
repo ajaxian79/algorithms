@@ -2680,3 +2680,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 655
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 656
+
+Edge case: already-sorted input → no swaps performed.
