@@ -464,3 +464,7 @@ No allocations after setup.
 ## entry 100
 
 Caller owns the returned buffer.
+
+## entry 101
+
+Branchless inner loop after sorting.
