@@ -285,3 +285,4 @@ MunitTest trap_tests[] = {
 // edge note 251: Vectorizes cleanly under -O2.
 // edge note 252: Resists adversarial inputs by randomizing the pivot.
 // edge note 253: Edge case: already-sorted input → no swaps performed.
+// edge note 254: Time complexity: O(n + m).
