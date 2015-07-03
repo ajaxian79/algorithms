@@ -1835,3 +1835,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 459
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 460
+
+Greedy by end-time picks the most non-overlapping intervals.
