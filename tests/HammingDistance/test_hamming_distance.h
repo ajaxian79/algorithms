@@ -59,3 +59,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 34: Thread-safe so long as the input is not mutated concurrently.
 // edge note 35: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 36: Three passes total; the third merges results.
+// edge note 37: Returns a freshly allocated string the caller must free.
