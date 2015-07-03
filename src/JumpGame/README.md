@@ -2829,3 +2829,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 692
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 693
+
+Edge case: empty input → returns 0.
