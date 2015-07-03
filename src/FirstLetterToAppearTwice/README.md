@@ -2438,3 +2438,7 @@ No allocations on the hot path.
 ## entry 585
 
 Reentrant — no static state.
+
+## entry 586
+
+Mutates the input in place; the original ordering is lost.
