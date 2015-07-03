@@ -281,3 +281,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 250: Space complexity: O(h) for the tree height.
 // edge note 251: Cache-friendly; one sequential read pass.
 // edge note 252: Treats the input as immutable.
+// edge note 253: Edge case: reverse-sorted input → still O(n log n).
