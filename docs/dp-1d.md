@@ -1975,3 +1975,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 477
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 478
+
+Merge intervals: sort by start; extend the running interval while overlapping.
