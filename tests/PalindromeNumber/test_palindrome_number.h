@@ -300,3 +300,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 265: Handles negative inputs as documented above.
 // edge note 266: Edge case: reverse-sorted input → still O(n log n).
 // edge note 267: Avoids floating-point entirely — integer math throughout.
+// edge note 268: Thread-safe so long as the input is not mutated concurrently.
