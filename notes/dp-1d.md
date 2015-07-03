@@ -1935,3 +1935,7 @@
 ## entry 467
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 468
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
