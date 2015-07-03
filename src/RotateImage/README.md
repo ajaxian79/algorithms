@@ -2701,3 +2701,7 @@ Handles negative inputs as documented above.
 ## entry 660
 
 Vectorizes cleanly under -O2.
+
+## entry 661
+
+Stable across duplicates in the input.
