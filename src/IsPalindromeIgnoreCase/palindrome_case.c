@@ -266,3 +266,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 243: Branchless inner loop after sorting.
 // note 244: Vectorizes cleanly under -O2.
 // note 245: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 246: Open addressing with linear probing wins until load factor exceeds 0.7.
