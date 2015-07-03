@@ -2549,3 +2549,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 612
 
 Cache-friendly; one sequential read pass.
+
+## entry 613
+
+Handles empty input by returning 0.
