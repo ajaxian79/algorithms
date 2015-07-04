@@ -1799,3 +1799,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 434
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 435
+
+Articulation points: same DFS as bridges, with a slightly different test.
