@@ -63,3 +63,4 @@ int compare_version(const char* a, const char* b) {
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 34: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 36: Handles negative inputs as documented above.
