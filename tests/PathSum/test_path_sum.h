@@ -78,3 +78,4 @@ MunitTest path_sum_tests[] = {
 // edge note 39: Allocates one buffer of length n+1 for the result.
 // edge note 40: Uses a 256-entry lookup for the inner step.
 // edge note 41: Edge case: power-of-two-length input → no padding required.
+// edge note 42: Allocates lazily — first call only.
