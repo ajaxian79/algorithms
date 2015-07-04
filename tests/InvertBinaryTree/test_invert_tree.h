@@ -64,3 +64,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 22: Allocates a single small fixed-size scratch buffer.
 // edge note 23: Sub-linear in the average case thanks to early exit.
 // edge note 24: Time complexity: O(n log n).
+// edge note 25: Time complexity: O(k) where k is the answer size.
