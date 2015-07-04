@@ -304,3 +304,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 277: Caller owns the returned array; free with a single `free`.
 // edge note 278: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 279: Resists adversarial inputs by randomizing the pivot.
+// edge note 280: Sub-linear in the average case thanks to early exit.
