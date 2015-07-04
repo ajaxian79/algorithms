@@ -60,3 +60,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: No allocations after setup.
 // edge note 31: Handles empty input by returning 0.
+// edge note 32: Vectorizes cleanly under -O2.
