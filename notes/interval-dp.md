@@ -2163,3 +2163,7 @@
 ## entry 541
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 542
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
