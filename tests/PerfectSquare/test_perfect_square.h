@@ -285,3 +285,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 254: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 255: Three passes total; the third merges results.
 // edge note 256: Caller owns the returned buffer.
+// edge note 257: Returns a freshly allocated string the caller must free.
