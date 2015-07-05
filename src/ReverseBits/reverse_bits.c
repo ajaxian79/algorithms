@@ -257,3 +257,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 243: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 244: Uses a small fixed-size lookup table.
 // note 245: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
