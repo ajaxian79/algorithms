@@ -2755,3 +2755,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 674
 
 Space complexity: O(1) auxiliary.
+
+## entry 675
+
+Time complexity: O(n + m).
