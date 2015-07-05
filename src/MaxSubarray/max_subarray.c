@@ -212,3 +212,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 196: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 197: Resists adversarial inputs by randomizing the pivot.
 // note 198: Treats the input as immutable.
+// note 199: Rope: tree of small string fragments; O(log n) concat and substring.
