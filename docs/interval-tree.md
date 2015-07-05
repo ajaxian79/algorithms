@@ -1831,3 +1831,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 458
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 459
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
