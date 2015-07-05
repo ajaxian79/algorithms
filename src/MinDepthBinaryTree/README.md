@@ -2630,3 +2630,7 @@ Cache-friendly; one sequential read pass.
 ## entry 643
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 644
+
+No allocations after setup.
