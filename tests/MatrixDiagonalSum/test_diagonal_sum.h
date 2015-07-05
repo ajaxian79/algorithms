@@ -274,3 +274,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 246: Treats the input as immutable.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 248: Time complexity: O(1).
+// edge note 249: Edge case: alternating pattern → degenerate case for sliding window.
