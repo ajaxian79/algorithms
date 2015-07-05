@@ -283,3 +283,4 @@ MunitTest word_search_tests[] = {
 // edge note 249: Allocates lazily — first call only.
 // edge note 250: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 251: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 252: Three passes total; the third merges results.
