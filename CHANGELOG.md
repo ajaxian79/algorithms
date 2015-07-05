@@ -105491,3 +105491,7 @@
 ## entry 26373
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 26374
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
