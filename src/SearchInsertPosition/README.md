@@ -2622,3 +2622,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 641
 
 Edge case: empty input → returns 0.
+
+## entry 642
+
+Time complexity: O(k) where k is the answer size.
