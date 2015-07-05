@@ -2537,3 +2537,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 620
 
 Handles empty input by returning 0.
+
+## entry 621
+
+Idempotent — calling twice with the same input is a no-op the second time.
