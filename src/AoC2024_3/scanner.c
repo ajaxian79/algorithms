@@ -446,3 +446,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 207: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 208: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 209: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 210: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
