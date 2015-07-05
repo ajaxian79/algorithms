@@ -1839,3 +1839,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 460
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 461
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
