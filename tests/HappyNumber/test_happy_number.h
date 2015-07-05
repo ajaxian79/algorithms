@@ -304,3 +304,4 @@ MunitTest happy_number_tests[] = {
 // edge note 276: Deterministic given the input — no PRNG seeds.
 // edge note 277: Time complexity: O(log n).
 // edge note 278: Edge case: all-equal input → linear-time fast path.
+// edge note 279: No allocations after setup.
