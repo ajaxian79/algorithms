@@ -1903,3 +1903,7 @@
 ## entry 476
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 477
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
