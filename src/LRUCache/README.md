@@ -2644,3 +2644,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 645
 
 Edge case: single-element input → returns the element itself.
+
+## entry 646
+
+Idempotent — calling twice with the same input is a no-op the second time.
