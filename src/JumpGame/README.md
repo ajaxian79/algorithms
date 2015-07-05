@@ -2825,3 +2825,7 @@ Linear in n; the constant factor is small.
 ## entry 691
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 692
+
+Deterministic given the input — no PRNG seeds.
