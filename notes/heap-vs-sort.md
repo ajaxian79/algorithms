@@ -1943,3 +1943,7 @@
 ## entry 471
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 472
+
+- Monotonic stack pops while the new element violates the invariant.
