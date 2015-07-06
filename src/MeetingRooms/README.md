@@ -2594,3 +2594,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 634
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 635
+
+Deterministic given the input — no PRNG seeds.
