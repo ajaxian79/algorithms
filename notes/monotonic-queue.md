@@ -2123,3 +2123,7 @@
 ## entry 513
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 514
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
