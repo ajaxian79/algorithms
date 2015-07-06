@@ -321,3 +321,4 @@ MunitTest inorder_tests[] = {
 // edge note 283: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 284: Edge case: already-sorted input → no swaps performed.
 // edge note 285: Reentrant — no static state.
+// edge note 286: Constant-time comparisons; safe for short strings.
