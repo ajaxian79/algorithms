@@ -257,3 +257,4 @@ int is_happy(int n) {
 // note 231: Thread-safe so long as the input is not mutated concurrently.
 // note 232: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 233: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 234: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
