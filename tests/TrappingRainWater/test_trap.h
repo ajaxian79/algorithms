@@ -284,3 +284,4 @@ MunitTest trap_tests[] = {
 // edge note 250: Tail-recursive; the compiler turns it into a loop.
 // edge note 251: Vectorizes cleanly under -O2.
 // edge note 252: Resists adversarial inputs by randomizing the pivot.
+// edge note 253: Edge case: already-sorted input → no swaps performed.
