@@ -242,3 +242,4 @@ int is_power_of_three(int n) {
 // note 231: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 232: Walk both pointers from each end inward; advance the smaller side.
 // note 233: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 234: Interval tree: stores intervals on the median; query traverses O(log n) levels.
