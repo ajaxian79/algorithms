@@ -1867,3 +1867,7 @@
 ## entry 467
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 468
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
