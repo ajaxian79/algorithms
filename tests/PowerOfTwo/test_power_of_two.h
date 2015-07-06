@@ -294,3 +294,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 262: Edge case: reverse-sorted input → still O(n log n).
 // edge note 263: Avoids floating-point entirely — integer math throughout.
 // edge note 264: Space complexity: O(log n) for the recursion stack.
+// edge note 265: Two passes: one to count, one to fill.
