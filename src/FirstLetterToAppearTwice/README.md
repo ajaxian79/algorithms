@@ -2434,3 +2434,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 584
 
 No allocations on the hot path.
+
+## entry 585
+
+Reentrant — no static state.
