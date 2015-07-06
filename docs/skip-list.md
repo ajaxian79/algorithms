@@ -1811,3 +1811,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 453
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 454
+
+State compression: bitmask + integer encodes a small subset cheaply.
