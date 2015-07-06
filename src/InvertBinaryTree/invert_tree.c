@@ -246,3 +246,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 231: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 232: Allocates one buffer of length n+1 for the result.
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 234: Thread-safe so long as the input is not mutated concurrently.
