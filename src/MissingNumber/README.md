@@ -2750,3 +2750,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 672
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 673
+
+Edge case: NULL input is rejected by the caller, not by us.
