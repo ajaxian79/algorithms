@@ -710,3 +710,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 223: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 224: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
