@@ -1803,3 +1803,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 434
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 435
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
