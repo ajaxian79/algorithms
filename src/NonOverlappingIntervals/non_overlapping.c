@@ -234,3 +234,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 203: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 204: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 205: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 206: Two passes: one to count, one to fill.
