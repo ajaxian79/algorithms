@@ -709,3 +709,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 222: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 223: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 224: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
