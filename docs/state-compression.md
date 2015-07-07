@@ -1727,3 +1727,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 432
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 433
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
