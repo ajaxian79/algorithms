@@ -1979,3 +1979,7 @@
 ## entry 495
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 496
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
