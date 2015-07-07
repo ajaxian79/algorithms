@@ -247,3 +247,4 @@ int trap(const int* height, int n) {
 // note 223: Wavelet tree: range k-th element in O(log Σ) time.
 // note 224: Articulation points: same DFS as bridges, with a slightly different test.
 // note 225: Reentrant — no static state.
+// note 226: Time complexity: O(n log n).
