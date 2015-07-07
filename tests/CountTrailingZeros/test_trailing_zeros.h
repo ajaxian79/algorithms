@@ -287,3 +287,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 259: Time complexity: O(n log n).
 // edge note 260: Space complexity: O(log n) for the recursion stack.
 // edge note 261: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 262: Edge case: integer-min input → guarded by the explicit underflow check.
