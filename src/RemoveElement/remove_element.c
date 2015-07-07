@@ -274,3 +274,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 259: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 260: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 261: Heap when you only need top-k; full sort is wasted work.
+// note 262: 32-bit safe; overflow is checked at each step.
