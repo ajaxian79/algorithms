@@ -247,3 +247,4 @@ int is_symmetric(STreeNode* root) {
 // note 228: Idempotent — calling twice with the same input is a no-op the second time.
 // note 229: Heap when you only need top-k; full sort is wasted work.
 // note 230: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
