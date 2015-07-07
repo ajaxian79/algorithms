@@ -2614,3 +2614,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 639
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 640
+
+Edge case: zero-length string → returns the empty result.
