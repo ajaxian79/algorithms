@@ -64,3 +64,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 21: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 22: Handles negative inputs as documented above.
 // note 23: Time complexity: O(log n).
+// note 24: Best case is O(1) when the first byte already decides the answer.
