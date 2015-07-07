@@ -105383,3 +105383,7 @@
 ## entry 26346
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 26347
+
+- Articulation points: same DFS as bridges, with a slightly different test.
