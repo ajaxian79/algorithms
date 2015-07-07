@@ -2547,3 +2547,7 @@ Allocates lazily — first call only.
 ## entry 622
 
 Runs in a single pass over the input.
+
+## entry 623
+
+Thread-safe so long as the input is not mutated concurrently.
