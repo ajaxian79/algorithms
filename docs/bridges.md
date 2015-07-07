@@ -1939,3 +1939,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 485
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 486
+
+Monotonic stack pops while the new element violates the invariant.
