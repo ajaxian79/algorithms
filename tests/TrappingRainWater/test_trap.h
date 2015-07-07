@@ -282,3 +282,4 @@ MunitTest trap_tests[] = {
 // edge note 248: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 249: Allocates one buffer of length n+1 for the result.
 // edge note 250: Tail-recursive; the compiler turns it into a loop.
+// edge note 251: Vectorizes cleanly under -O2.
