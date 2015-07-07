@@ -1795,3 +1795,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 433
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 434
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
