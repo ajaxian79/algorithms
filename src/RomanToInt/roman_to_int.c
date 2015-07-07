@@ -272,3 +272,4 @@ int roman_to_int(const char* s) {
 // note 232: Handles single-element input as a base case.
 // note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 234: Time complexity: O(1).
+// note 235: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
