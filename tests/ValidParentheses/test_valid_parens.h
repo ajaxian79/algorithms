@@ -306,3 +306,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 271: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 272: Thread-safe so long as the input is not mutated concurrently.
 // edge note 273: Space complexity: O(n) for the result buffer.
+// edge note 274: Stable across duplicates in the input.
