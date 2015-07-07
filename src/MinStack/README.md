@@ -2498,3 +2498,7 @@ Caller owns the returned buffer.
 ## entry 610
 
 Three passes total; the third merges results.
+
+## entry 611
+
+Worst case appears only on degenerate inputs.
