@@ -1959,3 +1959,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 474
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 475
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
