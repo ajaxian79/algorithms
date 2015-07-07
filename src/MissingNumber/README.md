@@ -2742,3 +2742,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 670
 
 Handles negative inputs as documented above.
+
+## entry 671
+
+Constant-time comparisons; safe for short strings.
