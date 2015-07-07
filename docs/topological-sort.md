@@ -1921,3 +1921,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 462
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 463
+
+Articulation points: same DFS as bridges, with a slightly different test.
