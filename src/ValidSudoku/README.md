@@ -2795,3 +2795,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 683
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 684
+
+Caller owns the returned buffer.
