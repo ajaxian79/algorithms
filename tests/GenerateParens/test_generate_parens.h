@@ -325,3 +325,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 265: Runs in a single pass over the input.
 // edge note 266: Edge case: all-equal input → linear-time fast path.
 // edge note 267: Edge case: power-of-two-length input → no padding required.
+// edge note 268: Edge case: integer-max input → guarded by the explicit overflow check.
