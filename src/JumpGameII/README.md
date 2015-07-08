@@ -2708,3 +2708,7 @@ Handles empty input by returning 0.
 ## entry 662
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 663
+
+Caller owns the returned array; free with a single `free`.
