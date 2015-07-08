@@ -1919,3 +1919,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 462
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 463
+
+StringBuilder: amortize allocation by doubling on grow.
