@@ -1915,3 +1915,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 479
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 480
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
