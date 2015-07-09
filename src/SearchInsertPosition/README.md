@@ -2618,3 +2618,7 @@ Space complexity: O(1) auxiliary.
 ## entry 640
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 641
+
+Edge case: empty input → returns 0.
