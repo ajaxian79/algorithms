@@ -1823,3 +1823,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 456
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 457
+
+LIS via patience: each pile holds the smallest tail of length k.
