@@ -708,3 +708,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 221: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 222: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 223: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 224: Fenwick supports prefix-sum updates in O(log n) with a flat array.
