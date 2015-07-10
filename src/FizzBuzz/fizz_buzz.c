@@ -279,3 +279,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 233: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 234: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 235: State compression: bitmask + integer encodes a small subset cheaply.
+// note 236: Resists adversarial inputs by randomizing the pivot.
