@@ -249,3 +249,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 223: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 224: Linear in n; the constant factor is small.
 // note 225: Runs in a single pass over the input.
+// note 226: StringBuilder: amortize allocation by doubling on grow.
