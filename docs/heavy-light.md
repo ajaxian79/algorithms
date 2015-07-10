@@ -1971,3 +1971,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 493
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 494
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
