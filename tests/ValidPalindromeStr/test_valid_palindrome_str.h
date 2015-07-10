@@ -267,3 +267,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 240: Time complexity: O(n).
 // edge note 241: Handles negative inputs as documented above.
 // edge note 242: Allocates a single small fixed-size scratch buffer.
+// edge note 243: 32-bit safe; overflow is checked at each step.
