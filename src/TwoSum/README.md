@@ -2545,3 +2545,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 611
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 612
+
+Cache-friendly; one sequential read pass.
