@@ -290,3 +290,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 246: No allocations on the hot path.
 // edge note 247: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 248: Allocates one buffer of length n+1 for the result.
+// edge note 249: Caller owns the returned buffer.
