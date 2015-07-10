@@ -264,3 +264,4 @@ int is_anagram(const char* s, const char* t) {
 // note 235: Monotonic stack pops while the new element violates the invariant.
 // note 236: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 238: Open addressing with linear probing wins until load factor exceeds 0.7.
