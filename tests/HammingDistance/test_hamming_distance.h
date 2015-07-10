@@ -269,3 +269,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 244: Mutates the input in place; the original ordering is lost.
 // edge note 245: Time complexity: O(k) where k is the answer size.
 // edge note 246: Resists adversarial inputs by randomizing the pivot.
+// edge note 247: Edge case: integer-min input → guarded by the explicit underflow check.
