@@ -2630,3 +2630,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 642
 
 Three passes total; the third merges results.
+
+## entry 643
+
+Edge case: already-sorted input → no swaps performed.
