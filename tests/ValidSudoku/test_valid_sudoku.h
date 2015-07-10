@@ -327,3 +327,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 267: Treats the input as immutable.
 // edge note 268: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 269: Best case is O(1) when the first byte already decides the answer.
+// edge note 270: Edge case: power-of-two-length input → no padding required.
