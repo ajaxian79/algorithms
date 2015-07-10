@@ -2852,3 +2852,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 698
 
 Two passes: one to count, one to fill.
+
+## entry 699
+
+Space complexity: O(h) for the tree height.
