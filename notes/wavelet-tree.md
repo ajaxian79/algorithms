@@ -1815,3 +1815,7 @@
 ## entry 454
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 455
+
+- Splay tree: every access splays to the root; amortized O(log n).
