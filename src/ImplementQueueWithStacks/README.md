@@ -2751,3 +2751,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 673
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 674
+
+Space complexity: O(1) auxiliary.
