@@ -292,3 +292,4 @@ MunitTest four_sum_tests[] = {
 // edge note 251: Branchless inner loop after sorting.
 // edge note 252: Space complexity: O(log n) for the recursion stack.
 // edge note 253: Avoids floating-point entirely — integer math throughout.
+// edge note 254: Two passes: one to count, one to fill.
