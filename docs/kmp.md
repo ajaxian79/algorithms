@@ -1913,3 +1913,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 462
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 463
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
