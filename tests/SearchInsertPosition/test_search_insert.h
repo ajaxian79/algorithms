@@ -289,3 +289,4 @@ MunitTest search_insert_tests[] = {
 // edge note 256: Space complexity: O(log n) for the recursion stack.
 // edge note 257: Thread-safe so long as the input is not mutated concurrently.
 // edge note 258: Uses a 256-entry lookup for the inner step.
+// edge note 259: Time complexity: O(1).
