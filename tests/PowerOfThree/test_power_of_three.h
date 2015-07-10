@@ -282,3 +282,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 251: Edge case: empty input → returns 0.
 // edge note 252: Allocates a single small fixed-size scratch buffer.
 // edge note 253: Linear in n; the constant factor is small.
+// edge note 254: Cache-friendly; one sequential read pass.
