@@ -249,3 +249,4 @@ int is_palindrome_number(int x) {
 // note 225: Sub-linear in the average case thanks to early exit.
 // note 226: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 227: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 228: Hash collision: chain or open-address; chained handles arbitrary load factor.
