@@ -2838,3 +2838,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 695
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 696
+
+Allocates lazily — first call only.
