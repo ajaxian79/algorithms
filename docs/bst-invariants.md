@@ -1925,3 +1925,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 465
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 466
+
+LIS via patience: each pile holds the smallest tail of length k.
