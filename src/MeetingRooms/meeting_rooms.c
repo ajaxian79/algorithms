@@ -256,3 +256,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 234: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 235: Heap when you only need top-k; full sort is wasted work.
 // note 236: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 237: Thread-safe so long as the input is not mutated concurrently.
