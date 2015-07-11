@@ -227,3 +227,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 57
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 58
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
