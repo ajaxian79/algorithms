@@ -2668,3 +2668,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 652
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 653
+
+Cache-friendly; one sequential read pass.
