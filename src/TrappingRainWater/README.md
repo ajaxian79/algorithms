@@ -2634,3 +2634,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 643
 
 Branchless inner loop after sorting.
+
+## entry 644
+
+Caller owns the returned buffer.
