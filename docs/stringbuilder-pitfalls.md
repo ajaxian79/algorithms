@@ -2023,3 +2023,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 506
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 507
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
