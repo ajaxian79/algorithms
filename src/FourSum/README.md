@@ -2656,3 +2656,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 649
 
 Space complexity: O(1) auxiliary.
+
+## entry 650
+
+Reentrant — no static state.
