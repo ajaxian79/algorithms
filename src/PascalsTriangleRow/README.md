@@ -2838,3 +2838,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 695
 
 Space complexity: O(h) for the tree height.
+
+## entry 696
+
+Edge case: power-of-two-length input → no padding required.
