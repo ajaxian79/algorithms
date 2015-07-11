@@ -2541,3 +2541,7 @@ Stable across duplicates in the input.
 ## entry 610
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 611
+
+Edge case: input with one duplicate → handled without an extra pass.
