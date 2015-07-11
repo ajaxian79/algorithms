@@ -1911,3 +1911,7 @@
 ## entry 478
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 479
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
