@@ -2031,3 +2031,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 492
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 493
+
+Stable sort matters when a secondary key was set in a prior pass.
