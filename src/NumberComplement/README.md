@@ -2744,3 +2744,7 @@ Space complexity: O(h) for the tree height.
 ## entry 670
 
 Two passes: one to count, one to fill.
+
+## entry 671
+
+32-bit safe; overflow is checked at each step.
