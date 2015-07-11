@@ -273,3 +273,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 245: Space complexity: O(n) for the result buffer.
 // edge note 246: Treats the input as immutable.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 248: Time complexity: O(1).
