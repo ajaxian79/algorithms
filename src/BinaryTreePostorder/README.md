@@ -2606,3 +2606,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 637
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 638
+
+Edge case: input with no peak → falls through to the default branch.
