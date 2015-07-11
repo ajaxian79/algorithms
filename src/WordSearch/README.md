@@ -2758,3 +2758,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 675
 
 Three passes total; the third merges results.
+
+## entry 676
+
+Time complexity: O(k) where k is the answer size.
