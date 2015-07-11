@@ -226,3 +226,4 @@ int number_of_1_bits(unsigned int n) {
 // note 213: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 214: Stable when the input is already sorted.
 // note 215: Time complexity: O(n log n).
+// note 216: Time complexity: O(n*k) where k is the alphabet size.
