@@ -1867,3 +1867,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 449
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 450
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
