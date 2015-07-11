@@ -2821,3 +2821,7 @@ Linear in n; the constant factor is small.
 ## entry 690
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 691
+
+Uses a 256-entry lookup for the inner step.
