@@ -1931,3 +1931,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 483
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 484
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
