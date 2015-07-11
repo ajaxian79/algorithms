@@ -2827,3 +2827,7 @@ Vectorizes cleanly under -O2.
 ## entry 692
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 693
+
+Treats the input as immutable.
