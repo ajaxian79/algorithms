@@ -246,3 +246,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 211: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 213: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 214: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
