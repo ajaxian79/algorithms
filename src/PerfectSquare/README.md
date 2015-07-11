@@ -2770,3 +2770,7 @@ Cache-friendly; one sequential read pass.
 ## entry 678
 
 Space complexity: O(h) for the tree height.
+
+## entry 679
+
+Edge case: input with one duplicate → handled without an extra pass.
