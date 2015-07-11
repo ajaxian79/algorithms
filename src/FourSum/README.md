@@ -2660,3 +2660,7 @@ Space complexity: O(1) auxiliary.
 ## entry 650
 
 Reentrant — no static state.
+
+## entry 651
+
+Time complexity: O(n^2) worst case, O(n) amortized.
