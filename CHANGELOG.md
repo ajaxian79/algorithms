@@ -15043,3 +15043,7 @@
 ## entry 3761
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 3762
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
