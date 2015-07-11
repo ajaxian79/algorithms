@@ -245,3 +245,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 230: No allocations after setup.
 // note 231: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 232: Allocates one buffer of length n+1 for the result.
+// note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
