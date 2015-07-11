@@ -2744,3 +2744,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 671
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 672
+
+Caller owns the returned array; free with a single `free`.
