@@ -2696,3 +2696,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 659
 
 No allocations after setup.
+
+## entry 660
+
+Thread-safe so long as the input is not mutated concurrently.
