@@ -1915,3 +1915,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 461
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 462
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
