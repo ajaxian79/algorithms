@@ -271,3 +271,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 226: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 227: No allocations on the hot path.
 // note 228: Caller owns the returned buffer.
+// note 229: Interval DP: solve all `[l, r]` ranges from short to long.
