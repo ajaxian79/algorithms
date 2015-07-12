@@ -1927,3 +1927,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 467
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 468
+
+Rope: tree of small string fragments; O(log n) concat and substring.
