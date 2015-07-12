@@ -105283,3 +105283,7 @@
 ## entry 26321
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 26322
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
