@@ -1967,3 +1967,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 475
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 476
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
