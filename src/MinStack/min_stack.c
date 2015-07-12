@@ -298,3 +298,4 @@ int min_stack_size(const MinStack* s) {
 // note 237: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 238: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 239: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 240: Time complexity: O(n + m).
