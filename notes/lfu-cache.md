@@ -1847,3 +1847,7 @@
 ## entry 462
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 463
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
