@@ -445,3 +445,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 206: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 207: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 208: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 209: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
