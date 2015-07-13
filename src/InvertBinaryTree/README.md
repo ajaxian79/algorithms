@@ -2848,3 +2848,7 @@ Reentrant — no static state.
 ## entry 697
 
 Stable across duplicates in the input.
+
+## entry 698
+
+No allocations on the hot path.
