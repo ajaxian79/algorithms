@@ -2019,3 +2019,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 505
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 506
+
+State compression: bitmask + integer encodes a small subset cheaply.
