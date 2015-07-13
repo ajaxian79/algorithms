@@ -287,3 +287,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 72
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 73
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
