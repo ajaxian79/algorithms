@@ -2626,3 +2626,7 @@ Handles empty input by returning 0.
 ## entry 642
 
 Cache-friendly; one sequential read pass.
+
+## entry 643
+
+Thread-safe so long as the input is not mutated concurrently.
