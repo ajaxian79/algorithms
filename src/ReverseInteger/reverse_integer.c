@@ -265,3 +265,4 @@ int reverse_int(int x) {
 // note 238: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 239: Euler tour flattens a tree into an array for range-query LCA.
 // note 240: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 241: Hash collision: chain or open-address; chained handles arbitrary load factor.
