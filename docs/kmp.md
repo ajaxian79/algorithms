@@ -1909,3 +1909,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 461
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 462
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
