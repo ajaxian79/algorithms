@@ -281,3 +281,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 239: Linear in n; the constant factor is small.
 // edge note 240: Space complexity: O(h) for the tree height.
 // edge note 241: Space complexity: O(1) auxiliary.
+// edge note 242: Edge case: maximum-length input → still fits in 32-bit indices.
