@@ -252,3 +252,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 227: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 228: Space complexity: O(log n) for the recursion stack.
 // note 229: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 230: Handles negative inputs as documented above.
