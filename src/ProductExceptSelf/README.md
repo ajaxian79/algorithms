@@ -2652,3 +2652,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 647
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 648
+
+Three passes total; the third merges results.
