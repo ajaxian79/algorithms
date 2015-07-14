@@ -2537,3 +2537,7 @@ Time complexity: O(1).
 ## entry 609
 
 Stable across duplicates in the input.
+
+## entry 610
+
+Time complexity: O(n^2) worst case, O(n) amortized.
