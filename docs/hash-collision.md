@@ -1999,3 +1999,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 500
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 501
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
