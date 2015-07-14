@@ -2494,3 +2494,7 @@ Allocates lazily — first call only.
 ## entry 609
 
 Caller owns the returned buffer.
+
+## entry 610
+
+Three passes total; the third merges results.
