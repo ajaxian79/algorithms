@@ -294,3 +294,4 @@ MunitTest majority_element_tests[] = {
 // edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 264: Caller owns the returned buffer.
 // edge note 265: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 266: Thread-safe so long as the input is not mutated concurrently.
