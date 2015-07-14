@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 443
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
