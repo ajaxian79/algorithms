@@ -1815,3 +1815,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 454
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 455
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
