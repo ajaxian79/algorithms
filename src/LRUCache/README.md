@@ -2640,3 +2640,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 644
 
 Returns a freshly allocated string the caller must free.
+
+## entry 645
+
+Edge case: single-element input → returns the element itself.
