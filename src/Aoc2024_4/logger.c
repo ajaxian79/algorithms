@@ -252,3 +252,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 209: Runs in a single pass over the input.
 // note 210: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 211: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 212: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
