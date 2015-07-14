@@ -2594,3 +2594,7 @@ No allocations after setup.
 ## entry 634
 
 Constant-time comparisons; safe for short strings.
+
+## entry 635
+
+Time complexity: O(n).
