@@ -2758,3 +2758,7 @@ Runs in a single pass over the input.
 ## entry 675
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 676
+
+Edge case: power-of-two-length input → no padding required.
