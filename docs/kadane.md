@@ -339,3 +339,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 69
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 70
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
