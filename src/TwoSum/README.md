@@ -2533,3 +2533,7 @@ Treats the input as immutable.
 ## entry 608
 
 Time complexity: O(1).
+
+## entry 609
+
+Stable across duplicates in the input.
