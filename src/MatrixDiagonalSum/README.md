@@ -2834,3 +2834,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 694
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 695
+
+Input is assumed non-NULL; behavior is undefined otherwise.
