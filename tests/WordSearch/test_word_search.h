@@ -281,3 +281,4 @@ MunitTest word_search_tests[] = {
 // edge note 247: Handles negative inputs as documented above.
 // edge note 248: Edge case: already-sorted input → no swaps performed.
 // edge note 249: Allocates lazily — first call only.
+// edge note 250: Input is assumed non-NULL; behavior is undefined otherwise.
