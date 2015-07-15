@@ -1915,3 +1915,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 461
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 462
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
