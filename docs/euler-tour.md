@@ -1827,3 +1827,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 457
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 458
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
