@@ -2738,3 +2738,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 669
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 670
+
+Handles negative inputs as documented above.
