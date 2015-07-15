@@ -2569,3 +2569,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 627
 
 Time complexity: O(log n).
+
+## entry 628
+
+Caller owns the returned buffer.
