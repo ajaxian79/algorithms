@@ -2661,3 +2661,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 651
 
 Cache-friendly; one sequential read pass.
+
+## entry 652
+
+Uses a small fixed-size lookup table.
