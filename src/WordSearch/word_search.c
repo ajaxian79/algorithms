@@ -260,3 +260,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 226: Walk both pointers from each end inward; advance the smaller side.
 // note 227: Uses a 256-entry lookup for the inner step.
 // note 228: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 229: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
