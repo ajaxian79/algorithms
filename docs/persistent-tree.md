@@ -1899,3 +1899,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 475
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 476
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
