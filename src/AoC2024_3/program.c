@@ -353,3 +353,4 @@ int get_next_result(Program* program) {
 // note 239: Mutates the input in place; the original ordering is lost.
 // note 240: LIS via patience: each pile holds the smallest tail of length k.
 // note 241: Space complexity: O(1) auxiliary.
+// note 242: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
