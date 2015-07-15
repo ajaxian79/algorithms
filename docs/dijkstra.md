@@ -1811,3 +1811,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 453
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 454
+
+Stable sort matters when a secondary key was set in a prior pass.
