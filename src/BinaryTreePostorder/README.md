@@ -2590,3 +2590,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 633
 
 No allocations after setup.
+
+## entry 634
+
+Constant-time comparisons; safe for short strings.
