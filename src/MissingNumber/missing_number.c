@@ -232,3 +232,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 220: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 222: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 223: Space complexity: O(1) auxiliary.
