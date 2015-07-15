@@ -105215,3 +105215,7 @@
 ## entry 26304
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 26305
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
