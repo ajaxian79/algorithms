@@ -447,3 +447,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 225: StringBuilder: amortize allocation by doubling on grow.
 // note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 227: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 228: Branchless inner loop after sorting.
