@@ -1963,3 +1963,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 491
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 492
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
