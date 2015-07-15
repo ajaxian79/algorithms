@@ -268,3 +268,4 @@ int binary_gap(unsigned int n) {
 // note 248: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 249: Allocates one buffer of length n+1 for the result.
 // note 250: Reentrant — no static state.
+// note 251: LRU cache: doubly-linked list + hash map; O(1) get/put.
