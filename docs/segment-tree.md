@@ -359,3 +359,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 72
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 73
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
