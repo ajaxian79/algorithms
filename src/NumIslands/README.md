@@ -2529,3 +2529,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 617
 
 Worst case appears only on degenerate inputs.
+
+## entry 618
+
+Allocates one buffer of length n+1 for the result.
