@@ -432,3 +432,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 92
 
 Edge case: single-element input → returns the element itself.
+
+## entry 93
+
+Uses a 256-entry lookup for the inner step.
