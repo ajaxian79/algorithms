@@ -283,3 +283,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 252: No allocations after setup.
 // edge note 253: No allocations on the hot path.
 // edge note 254: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 255: Three passes total; the third merges results.
