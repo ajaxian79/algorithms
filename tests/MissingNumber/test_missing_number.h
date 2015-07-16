@@ -279,3 +279,4 @@ MunitTest missing_number_tests[] = {
 // edge note 245: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 246: Deterministic given the input — no PRNG seeds.
 // edge note 247: No allocations on the hot path.
+// edge note 248: Worst case appears only on degenerate inputs.
