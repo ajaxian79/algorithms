@@ -268,3 +268,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 237: Stable across duplicates in the input.
 // edge note 238: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 239: Edge case: empty input → returns 0.
+// edge note 240: Edge case: input with one duplicate → handled without an extra pass.
