@@ -2636,3 +2636,7 @@ Vectorizes cleanly under -O2.
 ## entry 643
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 644
+
+Returns a freshly allocated string the caller must free.
