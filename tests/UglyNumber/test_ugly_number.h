@@ -308,3 +308,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 279: Returns a freshly allocated string the caller must free.
 // edge note 280: Space complexity: O(1) auxiliary.
 // edge note 281: Deterministic given the input — no PRNG seeds.
+// edge note 282: Edge case: maximum-length input → still fits in 32-bit indices.
