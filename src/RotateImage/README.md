@@ -2689,3 +2689,7 @@ Time complexity: O(n).
 ## entry 657
 
 Handles negative inputs as documented above.
+
+## entry 658
+
+No allocations after setup.
