@@ -1899,3 +1899,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 475
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 476
+
+In-place compaction uses two pointers: read advances always, write only on keep.
