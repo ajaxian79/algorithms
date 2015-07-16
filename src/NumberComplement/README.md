@@ -2740,3 +2740,7 @@ Stable when the input is already sorted.
 ## entry 669
 
 Space complexity: O(h) for the tree height.
+
+## entry 670
+
+Two passes: one to count, one to fill.
