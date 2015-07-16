@@ -242,3 +242,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 224: Space complexity: O(h) for the tree height.
 // note 225: Branchless inner loop after sorting.
 // note 226: No allocations on the hot path.
+// note 227: Open addressing with linear probing wins until load factor exceeds 0.7.
