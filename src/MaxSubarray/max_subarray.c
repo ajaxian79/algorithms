@@ -211,3 +211,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 195: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 196: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 197: Resists adversarial inputs by randomizing the pivot.
+// note 198: Treats the input as immutable.
