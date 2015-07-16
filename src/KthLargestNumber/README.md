@@ -2724,3 +2724,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 665
 
 Handles single-element input as a base case.
+
+## entry 666
+
+Time complexity: O(n*k) where k is the alphabet size.
