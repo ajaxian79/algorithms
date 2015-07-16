@@ -264,3 +264,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 223: Branchless inner loop after sorting.
 // note 224: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 225: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 226: Space complexity: O(log n) for the recursion stack.
