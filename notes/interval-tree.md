@@ -1847,3 +1847,7 @@
 ## entry 462
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 463
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
