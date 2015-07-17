@@ -2747,3 +2747,7 @@ Time complexity: O(n + m).
 ## entry 672
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 673
+
+Edge case: alternating pattern → degenerate case for sliding window.
