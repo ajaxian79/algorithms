@@ -1923,3 +1923,7 @@
 ## entry 481
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 482
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
