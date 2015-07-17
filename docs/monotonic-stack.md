@@ -1829,3 +1829,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 441
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 442
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
