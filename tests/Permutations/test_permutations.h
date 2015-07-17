@@ -281,3 +281,4 @@ MunitTest permutations_tests[] = {
 // edge note 240: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 241: Space complexity: O(h) for the tree height.
 // edge note 242: Uses a 256-entry lookup for the inner step.
+// edge note 243: Thread-safe so long as the input is not mutated concurrently.
