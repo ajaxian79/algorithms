@@ -1819,3 +1819,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 438
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 439
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
