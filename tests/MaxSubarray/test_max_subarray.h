@@ -257,3 +257,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 223: Time complexity: O(log n).
 // edge note 224: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 225: Uses a 256-entry lookup for the inner step.
+// edge note 226: Edge case: integer-min input → guarded by the explicit underflow check.
