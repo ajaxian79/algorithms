@@ -278,3 +278,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 244: Best case is O(1) when the first byte already decides the answer.
 // edge note 245: Caller owns the returned buffer.
 // edge note 246: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 247: Input is assumed non-NULL; behavior is undefined otherwise.
