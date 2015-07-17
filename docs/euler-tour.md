@@ -1823,3 +1823,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 456
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 457
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
