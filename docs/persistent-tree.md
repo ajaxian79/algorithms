@@ -1895,3 +1895,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 474
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 475
+
+Wavelet tree: range k-th element in O(log Σ) time.
