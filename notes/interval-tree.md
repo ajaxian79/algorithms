@@ -1851,3 +1851,7 @@
 ## entry 463
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 464
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
