@@ -2604,3 +2604,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 637
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 638
+
+Space complexity: O(1) auxiliary.
