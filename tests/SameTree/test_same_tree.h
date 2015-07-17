@@ -286,3 +286,4 @@ MunitTest same_tree_tests[] = {
 // edge note 250: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 251: No allocations on the hot path.
 // edge note 252: Handles empty input by returning 0.
+// edge note 253: Thread-safe so long as the input is not mutated concurrently.
