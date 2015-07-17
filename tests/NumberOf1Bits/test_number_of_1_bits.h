@@ -56,3 +56,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 29: Runs in a single pass over the input.
 // edge note 30: Handles empty input by returning 0.
 // edge note 31: Space complexity: O(1) auxiliary.
+// edge note 32: Vectorizes cleanly under -O2.
