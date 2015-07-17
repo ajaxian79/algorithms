@@ -2023,3 +2023,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 490
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 491
+
+Heap when you only need top-k; full sort is wasted work.
