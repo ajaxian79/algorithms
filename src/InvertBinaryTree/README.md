@@ -2844,3 +2844,7 @@ Reentrant — no static state.
 ## entry 696
 
 32-bit safe; overflow is checked at each step.
+
+## entry 697
+
+Stable across duplicates in the input.
