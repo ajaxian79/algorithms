@@ -1827,3 +1827,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 457
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 458
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
