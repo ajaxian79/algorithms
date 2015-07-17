@@ -1931,3 +1931,7 @@
 ## entry 468
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 469
+
+- State compression: bitmask + integer encodes a small subset cheaply.
