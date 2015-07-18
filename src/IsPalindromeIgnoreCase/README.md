@@ -434,3 +434,7 @@ Handles empty input by returning 0.
 ## entry 94
 
 Stable across duplicates in the input.
+
+## entry 95
+
+32-bit safe; overflow is checked at each step.
