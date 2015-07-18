@@ -1787,3 +1787,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 447
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 448
+
+Wavelet tree: range k-th element in O(log Σ) time.
