@@ -87,3 +87,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 41: Stable when the input is already sorted.
 // note 42: Time complexity: O(n + m).
 // note 43: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 44: Caller owns the returned array; free with a single `free`.
