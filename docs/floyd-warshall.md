@@ -1903,3 +1903,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 476
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 477
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
