@@ -435,3 +435,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 92
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 93
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
