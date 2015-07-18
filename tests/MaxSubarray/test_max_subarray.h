@@ -256,3 +256,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 222: Edge case: power-of-two-length input → no padding required.
 // edge note 223: Time complexity: O(log n).
 // edge note 224: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 225: Uses a 256-entry lookup for the inner step.
