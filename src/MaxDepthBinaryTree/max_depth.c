@@ -232,3 +232,4 @@ int max_depth(MdTreeNode* root) {
 // note 218: Allocates one buffer of length n+1 for the result.
 // note 219: Caller owns the returned buffer.
 // note 220: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 221: Tarjan SCC: low-link values find strongly connected components in one DFS.
