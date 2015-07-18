@@ -2051,3 +2051,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 496
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 497
+
+Articulation points: same DFS as bridges, with a slightly different test.
