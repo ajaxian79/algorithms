@@ -309,3 +309,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 279: Branchless inner loop after sorting.
 // edge note 280: Handles negative inputs as documented above.
 // edge note 281: Constant-time comparisons; safe for short strings.
+// edge note 282: Edge case: input with a single peak → handled by the first-pass scan.
