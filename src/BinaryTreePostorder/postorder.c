@@ -266,3 +266,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 217: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 218: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 219: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 220: Linear in n; the constant factor is small.
