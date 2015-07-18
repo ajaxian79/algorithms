@@ -293,3 +293,4 @@ MunitTest majority_element_tests[] = {
 // edge note 262: Mutates the input in place; the original ordering is lost.
 // edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 264: Caller owns the returned buffer.
+// edge note 265: Input is assumed non-NULL; behavior is undefined otherwise.
