@@ -2025,3 +2025,7 @@
 ## entry 490
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 491
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
