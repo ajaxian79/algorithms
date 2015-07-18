@@ -2525,3 +2525,7 @@ Stable when the input is already sorted.
 ## entry 616
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 617
+
+Worst case appears only on degenerate inputs.
