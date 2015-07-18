@@ -236,3 +236,4 @@ int trailing_zeroes(int n) {
 // note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 222: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 223: Returns a freshly allocated string the caller must free.
+// note 224: Tail-recursive; the compiler turns it into a loop.
