@@ -280,3 +280,4 @@ MunitTest permutations_tests[] = {
 // edge note 239: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 240: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 241: Space complexity: O(h) for the tree height.
+// edge note 242: Uses a 256-entry lookup for the inner step.
