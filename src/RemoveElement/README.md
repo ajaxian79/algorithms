@@ -2657,3 +2657,7 @@ Worst case appears only on degenerate inputs.
 ## entry 650
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 651
+
+Cache-friendly; one sequential read pass.
