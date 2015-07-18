@@ -2632,3 +2632,7 @@ Stable when the input is already sorted.
 ## entry 642
 
 Vectorizes cleanly under -O2.
+
+## entry 643
+
+Uses a 256-entry lookup for the inner step.
