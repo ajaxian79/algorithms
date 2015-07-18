@@ -364,3 +364,4 @@ MunitTest median_tests[] = {
 // edge note 245: Time complexity: O(log n).
 // edge note 246: Handles single-element input as a base case.
 // edge note 247: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 248: Handles single-element input as a base case.
