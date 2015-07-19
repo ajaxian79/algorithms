@@ -2743,3 +2743,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 671
 
 Time complexity: O(n + m).
+
+## entry 672
+
+Edge case: all-equal input → linear-time fast path.
