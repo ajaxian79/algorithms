@@ -1919,3 +1919,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 480
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 481
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
