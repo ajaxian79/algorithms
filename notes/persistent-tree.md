@@ -1855,3 +1855,7 @@
 ## entry 464
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 465
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
