@@ -2529,3 +2529,7 @@ No allocations after setup.
 ## entry 607
 
 Treats the input as immutable.
+
+## entry 608
+
+Time complexity: O(1).
