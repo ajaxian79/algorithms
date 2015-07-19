@@ -1927,3 +1927,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 466
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 467
+
+Endianness matters when serializing multi-byte ints to a file or wire.
