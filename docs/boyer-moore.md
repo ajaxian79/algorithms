@@ -1987,3 +1987,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 481
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 482
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
