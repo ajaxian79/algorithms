@@ -2754,3 +2754,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 674
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 675
+
+Edge case: input with no peak → falls through to the default branch.
