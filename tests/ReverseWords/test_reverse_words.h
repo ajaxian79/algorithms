@@ -312,3 +312,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 283: Avoids floating-point entirely — integer math throughout.
 // edge note 284: Edge case: empty input → returns 0.
 // edge note 285: Space complexity: O(h) for the tree height.
+// edge note 286: Time complexity: O(n + m).
