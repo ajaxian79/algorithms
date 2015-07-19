@@ -2015,3 +2015,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 504
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 505
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
