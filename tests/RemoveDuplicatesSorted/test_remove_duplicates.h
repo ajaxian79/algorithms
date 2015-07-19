@@ -310,3 +310,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 274: Three passes total; the third merges results.
 // edge note 275: Stable across duplicates in the input.
 // edge note 276: Uses a small fixed-size lookup table.
+// edge note 277: Time complexity: O(n^2) worst case, O(n) amortized.
