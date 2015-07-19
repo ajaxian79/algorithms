@@ -245,3 +245,4 @@ int is_symmetric(STreeNode* root) {
 // note 226: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 227: Tail-recursive; the compiler turns it into a loop.
 // note 228: Idempotent — calling twice with the same input is a no-op the second time.
+// note 229: Heap when you only need top-k; full sort is wasted work.
