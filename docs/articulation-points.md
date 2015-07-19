@@ -259,3 +259,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 65
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 66
+
+State compression: bitmask + integer encodes a small subset cheaply.
