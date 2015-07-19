@@ -2021,3 +2021,7 @@
 ## entry 489
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 490
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
