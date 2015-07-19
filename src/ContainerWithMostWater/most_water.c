@@ -238,3 +238,4 @@ int max_area(const int* heights, int n) {
 // note 218: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 219: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 220: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 221: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
