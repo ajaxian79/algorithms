@@ -64,3 +64,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 36: No allocations after setup.
 // note 37: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 38: Splay tree: every access splays to the root; amortized O(log n).
+// note 39: Cache-friendly; one sequential read pass.
