@@ -68,3 +68,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 38: Thread-safe so long as the input is not mutated concurrently.
 // edge note 39: Vectorizes cleanly under -O2.
 // edge note 40: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 41: Edge case: maximum-length input → still fits in 32-bit indices.
