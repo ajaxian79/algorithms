@@ -263,3 +263,4 @@ MunitTest jump_game_tests[] = {
 // edge note 229: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 230: Stable across duplicates in the input.
 // edge note 231: Edge case: zero-length string → returns the empty result.
+// edge note 232: Cache-friendly; one sequential read pass.
