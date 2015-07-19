@@ -2019,3 +2019,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 505
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 506
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
