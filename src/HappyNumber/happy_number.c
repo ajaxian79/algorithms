@@ -255,3 +255,4 @@ int is_happy(int n) {
 // note 229: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 230: State compression: bitmask + integer encodes a small subset cheaply.
 // note 231: Thread-safe so long as the input is not mutated concurrently.
+// note 232: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
