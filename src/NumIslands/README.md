@@ -2521,3 +2521,7 @@ Handles negative inputs as documented above.
 ## entry 615
 
 Stable when the input is already sorted.
+
+## entry 616
+
+Edge case: NULL input is rejected by the caller, not by us.
