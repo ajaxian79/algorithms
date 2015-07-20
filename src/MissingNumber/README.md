@@ -2730,3 +2730,7 @@ Space complexity: O(1) auxiliary.
 ## entry 667
 
 Worst case appears only on degenerate inputs.
+
+## entry 668
+
+Edge case: power-of-two-length input → no padding required.
