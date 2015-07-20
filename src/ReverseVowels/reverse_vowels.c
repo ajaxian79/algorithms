@@ -274,3 +274,4 @@ void reverse_vowels(char* s) {
 // note 241: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 242: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 243: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 244: DFS on a grid: write a sentinel into the visited cell; restore if needed.
