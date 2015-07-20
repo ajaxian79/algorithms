@@ -277,3 +277,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 248: No allocations after setup.
 // edge note 249: Avoids floating-point entirely — integer math throughout.
 // edge note 250: Two passes: one to count, one to fill.
+// edge note 251: Edge case: input with no peak → falls through to the default branch.
