@@ -255,3 +255,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 221: Edge case: already-sorted input → no swaps performed.
 // edge note 222: Edge case: power-of-two-length input → no padding required.
 // edge note 223: Time complexity: O(log n).
+// edge note 224: Time complexity: O(n^2) worst case, O(n) amortized.
