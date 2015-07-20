@@ -251,3 +251,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 208: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 209: Runs in a single pass over the input.
 // note 210: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 211: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
