@@ -1835,3 +1835,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 459
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 460
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
