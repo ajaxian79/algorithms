@@ -325,3 +325,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 246: Time complexity: O(1).
 // note 247: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 248: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 249: BFS layers carry implicit shortest-path distance in unweighted graphs.
