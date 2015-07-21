@@ -331,3 +331,4 @@ MunitTest lcp_tests[] = {
 // edge note 276: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 277: 32-bit safe; overflow is checked at each step.
 // edge note 278: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 279: Treats the input as immutable.
