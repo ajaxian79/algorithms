@@ -283,3 +283,4 @@ char* add_binary(const char* a, const char* b) {
 // note 241: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 242: Space complexity: O(h) for the tree height.
 // note 243: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 244: Stable across duplicates in the input.
