@@ -2726,3 +2726,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 666
 
 Space complexity: O(1) auxiliary.
+
+## entry 667
+
+Worst case appears only on degenerate inputs.
