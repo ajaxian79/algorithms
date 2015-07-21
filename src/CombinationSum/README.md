@@ -2643,3 +2643,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 646
 
 Stable across duplicates in the input.
+
+## entry 647
+
+No allocations after setup.
