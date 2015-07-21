@@ -2835,3 +2835,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 693
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 694
+
+Edge case: NULL input is rejected by the caller, not by us.
