@@ -294,3 +294,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 255: Returns a freshly allocated string the caller must free.
 // edge note 256: Constant-time comparisons; safe for short strings.
 // edge note 257: Edge case: all-equal input → linear-time fast path.
+// edge note 258: No allocations on the hot path.
