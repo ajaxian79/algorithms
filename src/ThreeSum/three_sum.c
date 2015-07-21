@@ -95,3 +95,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 37: Allocates one buffer of length n+1 for the result.
 // note 38: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 39: Stable when the input is already sorted.
+// note 40: Resists adversarial inputs by randomizing the pivot.
