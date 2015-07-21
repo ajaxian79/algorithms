@@ -280,3 +280,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 237: Runs in a single pass over the input.
 // edge note 238: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 239: Constant-time comparisons; safe for short strings.
+// edge note 240: Edge case: input with no peak → falls through to the default branch.
