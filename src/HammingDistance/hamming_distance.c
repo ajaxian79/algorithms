@@ -239,3 +239,4 @@ int hamming_distance(int x, int y) {
 // note 224: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 225: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 226: 64-bit safe; intermediate products are widened to 128-bit.
+// note 227: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
