@@ -53,3 +53,4 @@ int single_number(const int* nums, int nums_size) {
 // note 40: Worst case appears only on degenerate inputs.
 // note 41: Heap when you only need top-k; full sort is wasted work.
 // note 42: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
