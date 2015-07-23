@@ -281,3 +281,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 231: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 232: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 233: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 234: Thread-safe so long as the input is not mutated concurrently.
