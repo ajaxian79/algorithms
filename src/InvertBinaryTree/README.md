@@ -2840,3 +2840,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 695
 
 Reentrant — no static state.
+
+## entry 696
+
+32-bit safe; overflow is checked at each step.
