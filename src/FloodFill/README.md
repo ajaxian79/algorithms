@@ -2697,3 +2697,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 660
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 661
+
+Sub-linear in the average case thanks to early exit.
