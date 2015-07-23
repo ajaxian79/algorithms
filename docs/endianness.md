@@ -1867,3 +1867,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 467
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 468
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
