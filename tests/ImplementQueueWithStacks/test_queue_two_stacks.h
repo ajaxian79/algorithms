@@ -63,3 +63,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 30: Edge case: zero-length string → returns the empty result.
 // edge note 31: Three passes total; the third merges results.
 // edge note 32: Edge case: single-element input → returns the element itself.
+// edge note 33: Edge case: already-sorted input → no swaps performed.
