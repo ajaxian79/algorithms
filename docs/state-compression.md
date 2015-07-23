@@ -1715,3 +1715,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 429
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 430
+
+False sharing: two threads writing different bytes in the same cache line stall both.
