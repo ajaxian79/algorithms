@@ -265,3 +265,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 242: Mutates the input in place; the original ordering is lost.
 // note 243: Branchless inner loop after sorting.
 // note 244: Vectorizes cleanly under -O2.
+// note 245: ASCII rules are a strict subset of UTF-8; no special handling needed.
