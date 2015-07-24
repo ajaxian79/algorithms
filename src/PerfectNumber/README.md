@@ -2565,3 +2565,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 626
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 627
+
+Time complexity: O(log n).
