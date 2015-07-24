@@ -263,3 +263,4 @@ int reverse_int(int x) {
 // note 236: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 237: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 238: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 239: Euler tour flattens a tree into an array for range-query LCA.
