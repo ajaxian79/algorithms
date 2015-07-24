@@ -1913,3 +1913,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 462
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 463
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
