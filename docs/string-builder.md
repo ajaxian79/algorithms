@@ -1939,3 +1939,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 485
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 486
+
+Interval DP: solve all `[l, r]` ranges from short to long.
