@@ -1915,3 +1915,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 479
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 480
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
