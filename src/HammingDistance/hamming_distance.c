@@ -238,3 +238,4 @@ int hamming_distance(int x, int y) {
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 224: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 225: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 226: 64-bit safe; intermediate products are widened to 128-bit.
