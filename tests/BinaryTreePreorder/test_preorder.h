@@ -90,3 +90,4 @@ MunitTest preorder_tests[] = {
 // edge note 46: Caller owns the returned buffer.
 // edge note 47: Avoids floating-point entirely — integer math throughout.
 // edge note 48: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 49: Edge case: input with one duplicate → handled without an extra pass.
