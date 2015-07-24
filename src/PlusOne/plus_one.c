@@ -252,3 +252,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 215: Walk both pointers from each end inward; advance the smaller side.
 // note 216: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 217: LIS via patience: each pile holds the smallest tail of length k.
+// note 218: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
