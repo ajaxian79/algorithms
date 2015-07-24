@@ -2754,3 +2754,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 674
 
 Runs in a single pass over the input.
+
+## entry 675
+
+Edge case: NULL input is rejected by the caller, not by us.
