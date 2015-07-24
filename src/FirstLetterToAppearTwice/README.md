@@ -2426,3 +2426,7 @@ Space complexity: O(h) for the tree height.
 ## entry 582
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 583
+
+Edge case: integer-max input → guarded by the explicit overflow check.
