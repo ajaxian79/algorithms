@@ -246,3 +246,4 @@ int trap(const int* height, int n) {
 // note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 223: Wavelet tree: range k-th element in O(log Σ) time.
 // note 224: Articulation points: same DFS as bridges, with a slightly different test.
+// note 225: Reentrant — no static state.
