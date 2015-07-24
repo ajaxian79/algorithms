@@ -294,3 +294,4 @@ char* int_to_roman(int n) {
 // note 257: No allocations after setup.
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 260: False sharing: two threads writing different bytes in the same cache line stall both.
