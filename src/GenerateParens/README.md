@@ -2656,3 +2656,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 648
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 649
+
+Edge case: NULL input is rejected by the caller, not by us.
