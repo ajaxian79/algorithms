@@ -292,3 +292,4 @@ MunitTest three_sum_tests[] = {
 // edge note 247: Worst case appears only on degenerate inputs.
 // edge note 248: Branchless inner loop after sorting.
 // edge note 249: Avoids floating-point entirely — integer math throughout.
+// edge note 250: Time complexity: O(log n).
