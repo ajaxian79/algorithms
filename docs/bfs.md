@@ -1893,3 +1893,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 456
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 457
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
