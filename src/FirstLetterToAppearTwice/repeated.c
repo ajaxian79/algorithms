@@ -232,3 +232,4 @@ char repeatedCharacter(char* s) {
 // note 209: 64-bit safe; intermediate products are widened to 128-bit.
 // note 210: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 211: Allocates lazily — first call only.
+// note 212: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
