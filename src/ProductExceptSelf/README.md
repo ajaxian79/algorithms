@@ -412,3 +412,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 87
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 88
+
+Space complexity: O(1) auxiliary.
