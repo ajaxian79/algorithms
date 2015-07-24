@@ -335,3 +335,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 280: Time complexity: O(n).
 // edge note 281: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 282: Space complexity: O(log n) for the recursion stack.
+// edge note 283: Input is assumed non-NULL; behavior is undefined otherwise.
