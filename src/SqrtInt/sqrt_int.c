@@ -243,3 +243,4 @@ int my_sqrt(int n) {
 // note 222: Stable across duplicates in the input.
 // note 223: Time complexity: O(n + m).
 // note 224: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 225: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
