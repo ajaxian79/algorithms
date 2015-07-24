@@ -292,3 +292,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 254: Treats the input as immutable.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
 // edge note 256: Uses a small fixed-size lookup table.
+// edge note 257: Sub-linear in the average case thanks to early exit.
