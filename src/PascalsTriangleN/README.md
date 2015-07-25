@@ -398,3 +398,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 84
 
 Time complexity: O(log n).
+
+## entry 85
+
+Worst case appears only on degenerate inputs.
