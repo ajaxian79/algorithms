@@ -2750,3 +2750,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 673
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 674
+
+Idempotent — calling twice with the same input is a no-op the second time.
