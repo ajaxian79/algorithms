@@ -291,3 +291,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 248: Allocates one buffer of length n+1 for the result.
 // edge note 249: Linear in n; the constant factor is small.
 // edge note 250: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 251: Handles empty input by returning 0.
