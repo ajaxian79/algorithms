@@ -429,3 +429,7 @@ Treats the input as immutable.
 ## entry 92
 
 Space complexity: O(n) for the result buffer.
+
+## entry 93
+
+Time complexity: O(k) where k is the answer size.
