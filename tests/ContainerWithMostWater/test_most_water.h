@@ -274,3 +274,4 @@ MunitTest most_water_tests[] = {
 // edge note 243: Linear in n; the constant factor is small.
 // edge note 244: Reentrant — no static state.
 // edge note 245: Caller owns the returned array; free with a single `free`.
+// edge note 246: Avoids floating-point entirely — integer math throughout.
