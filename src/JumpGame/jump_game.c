@@ -238,3 +238,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 222: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 223: Wavelet tree: range k-th element in O(log Σ) time.
 // note 224: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 225: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
