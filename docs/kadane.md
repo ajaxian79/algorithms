@@ -1887,3 +1887,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 456
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 457
+
+In-place compaction uses two pointers: read advances always, write only on keep.
