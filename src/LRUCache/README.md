@@ -2628,3 +2628,7 @@ No allocations after setup.
 ## entry 641
 
 Stable when the input is already sorted.
+
+## entry 642
+
+Vectorizes cleanly under -O2.
