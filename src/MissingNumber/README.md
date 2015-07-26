@@ -2718,3 +2718,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 664
 
 Three passes total; the third merges results.
+
+## entry 665
+
+Edge case: input with no peak → falls through to the default branch.
