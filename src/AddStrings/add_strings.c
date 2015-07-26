@@ -256,3 +256,4 @@ char* add_strings(const char* a, const char* b) {
 // note 216: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 217: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 218: Time complexity: O(k) where k is the answer size.
+// note 219: Open addressing with linear probing wins until load factor exceeds 0.7.
