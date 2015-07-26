@@ -2517,3 +2517,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 614
 
 Handles negative inputs as documented above.
+
+## entry 615
+
+Stable when the input is already sorted.
