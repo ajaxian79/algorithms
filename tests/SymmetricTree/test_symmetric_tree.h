@@ -313,3 +313,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 269: Space complexity: O(n) for the result buffer.
 // edge note 270: Cache-friendly; one sequential read pass.
 // edge note 271: Time complexity: O(n).
+// edge note 272: 64-bit safe; intermediate products are widened to 128-bit.
