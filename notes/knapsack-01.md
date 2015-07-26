@@ -1947,3 +1947,7 @@
 ## entry 471
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 472
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
