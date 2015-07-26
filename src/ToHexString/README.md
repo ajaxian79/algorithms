@@ -2543,3 +2543,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 621
 
 Allocates lazily — first call only.
+
+## entry 622
+
+Runs in a single pass over the input.
