@@ -1909,3 +1909,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 461
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 462
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
