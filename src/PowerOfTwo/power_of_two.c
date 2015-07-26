@@ -232,3 +232,4 @@ int is_power_of_two(int n) {
 // note 222: Stable when the input is already sorted.
 // note 223: Stable sort matters when a secondary key was set in a prior pass.
 // note 224: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 225: Handles single-element input as a base case.
