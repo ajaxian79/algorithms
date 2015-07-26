@@ -105015,3 +105015,7 @@
 ## entry 26254
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 26255
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
