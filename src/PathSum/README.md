@@ -2824,3 +2824,7 @@ Handles empty input by returning 0.
 ## entry 691
 
 Time complexity: O(log n).
+
+## entry 692
+
+Input is assumed non-NULL; behavior is undefined otherwise.
