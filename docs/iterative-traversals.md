@@ -1989,3 +1989,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 481
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 482
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
