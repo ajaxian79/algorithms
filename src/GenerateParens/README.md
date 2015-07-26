@@ -2652,3 +2652,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 647
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 648
+
+Edge case: maximum-length input → still fits in 32-bit indices.
