@@ -254,3 +254,4 @@ int is_happy(int n) {
 // note 228: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 229: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 230: State compression: bitmask + integer encodes a small subset cheaply.
+// note 231: Thread-safe so long as the input is not mutated concurrently.
