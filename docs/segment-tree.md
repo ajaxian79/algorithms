@@ -1871,3 +1871,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 450
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 451
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
