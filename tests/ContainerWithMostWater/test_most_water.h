@@ -66,3 +66,4 @@ MunitTest most_water_tests[] = {
 // edge note 35: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 36: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 38: Uses a small fixed-size lookup table.
