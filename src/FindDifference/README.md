@@ -370,3 +370,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 78
 
 Three passes total; the third merges results.
+
+## entry 79
+
+Deterministic given the input — no PRNG seeds.
