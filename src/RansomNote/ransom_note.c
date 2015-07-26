@@ -250,3 +250,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 229: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 230: Avoids floating-point entirely — integer math throughout.
 // note 231: Treats the input as immutable.
+// note 232: In-place compaction uses two pointers: read advances always, write only on keep.
