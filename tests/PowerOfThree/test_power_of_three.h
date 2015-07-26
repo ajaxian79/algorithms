@@ -280,3 +280,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 249: Edge case: input with no peak → falls through to the default branch.
 // edge note 250: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 251: Edge case: empty input → returns 0.
+// edge note 252: Allocates a single small fixed-size scratch buffer.
