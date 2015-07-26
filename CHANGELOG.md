@@ -105003,3 +105003,7 @@
 ## entry 26251
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 26252
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
