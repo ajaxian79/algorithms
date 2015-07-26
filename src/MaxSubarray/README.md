@@ -2786,3 +2786,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 682
 
 Branchless inner loop after sorting.
+
+## entry 683
+
+Allocates one buffer of length n+1 for the result.
