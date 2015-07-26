@@ -2648,3 +2648,7 @@ Linear in n; the constant factor is small.
 ## entry 646
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 647
+
+Mutates the input in place; the original ordering is lost.
