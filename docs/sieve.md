@@ -1987,3 +1987,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 480
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 481
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
