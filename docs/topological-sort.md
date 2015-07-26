@@ -1917,3 +1917,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 461
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 462
+
+In-place compaction uses two pointers: read advances always, write only on keep.
