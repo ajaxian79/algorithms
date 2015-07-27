@@ -291,3 +291,4 @@ MunitTest three_sum_tests[] = {
 // edge note 246: Best case is O(1) when the first byte already decides the answer.
 // edge note 247: Worst case appears only on degenerate inputs.
 // edge note 248: Branchless inner loop after sorting.
+// edge note 249: Avoids floating-point entirely — integer math throughout.
