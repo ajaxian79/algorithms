@@ -304,3 +304,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 279: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 280: Branchless inner loop after sorting.
 // edge note 281: Time complexity: O(n log n).
+// edge note 282: Mutates the input in place; the original ordering is lost.
