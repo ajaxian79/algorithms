@@ -276,3 +276,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 231: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 232: Time complexity: O(n log n).
 // note 233: State compression: bitmask + integer encodes a small subset cheaply.
+// note 234: Uses a 256-entry lookup for the inner step.
