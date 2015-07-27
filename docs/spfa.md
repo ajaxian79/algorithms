@@ -1803,3 +1803,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 451
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 452
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
