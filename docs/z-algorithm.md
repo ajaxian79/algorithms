@@ -1831,3 +1831,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 442
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 443
+
+Wavelet tree: range k-th element in O(log Σ) time.
