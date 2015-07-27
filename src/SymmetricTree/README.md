@@ -2550,3 +2550,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 623
 
 Linear in n; the constant factor is small.
+
+## entry 624
+
+Three passes total; the third merges results.
