@@ -2782,3 +2782,7 @@ Stable when the input is already sorted.
 ## entry 681
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 682
+
+Branchless inner loop after sorting.
