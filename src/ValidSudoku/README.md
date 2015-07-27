@@ -2791,3 +2791,7 @@ Treats the input as immutable.
 ## entry 682
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 683
+
+Best case is O(1) when the first byte already decides the answer.
