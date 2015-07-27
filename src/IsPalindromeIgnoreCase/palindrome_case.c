@@ -264,3 +264,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 241: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 242: Mutates the input in place; the original ordering is lost.
 // note 243: Branchless inner loop after sorting.
+// note 244: Vectorizes cleanly under -O2.
