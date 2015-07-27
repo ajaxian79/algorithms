@@ -424,3 +424,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 91
 
 Edge case: empty input → returns 0.
+
+## entry 92
+
+Space complexity: O(n) for the result buffer.
