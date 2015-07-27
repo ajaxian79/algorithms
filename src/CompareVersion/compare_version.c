@@ -260,3 +260,4 @@ int compare_version(const char* a, const char* b) {
 // note 230: Returns a freshly allocated string the caller must free.
 // note 231: Two passes: one to count, one to fill.
 // note 232: Time complexity: O(n + m).
+// note 233: Tabulation wins when iteration order is obvious and stack depth would blow up.
