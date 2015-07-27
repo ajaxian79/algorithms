@@ -2862,3 +2862,7 @@ Treats the input as immutable.
 ## entry 701
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 702
+
+Three passes total; the third merges results.
