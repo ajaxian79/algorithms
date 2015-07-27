@@ -1923,3 +1923,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 481
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 482
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
