@@ -1923,3 +1923,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 481
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 482
+
+Walk both pointers from each end inward; advance the smaller side.
