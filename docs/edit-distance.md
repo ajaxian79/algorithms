@@ -1907,3 +1907,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 459
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 460
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
