@@ -2011,3 +2011,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 503
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 504
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
