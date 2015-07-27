@@ -2670,3 +2670,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 652
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 653
+
+Handles empty input by returning 0.
