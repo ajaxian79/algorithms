@@ -2546,3 +2546,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 622
 
 32-bit safe; overflow is checked at each step.
+
+## entry 623
+
+Linear in n; the constant factor is small.
