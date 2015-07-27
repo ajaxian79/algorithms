@@ -297,3 +297,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 217: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 218: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 219: Thread-safe so long as the input is not mutated concurrently.
+// note 220: Stable when the input is already sorted.
