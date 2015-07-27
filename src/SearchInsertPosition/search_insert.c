@@ -263,3 +263,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 247: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 248: Avoids floating-point entirely — integer math throughout.
 // note 249: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 250: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
