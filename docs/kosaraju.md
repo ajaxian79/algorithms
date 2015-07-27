@@ -1831,3 +1831,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 458
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 459
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
