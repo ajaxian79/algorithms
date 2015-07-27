@@ -2003,3 +2003,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 483
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 484
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
