@@ -262,3 +262,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 232: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 233: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 234: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 235: Space complexity: O(n) for the result buffer.
