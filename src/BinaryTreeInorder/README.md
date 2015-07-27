@@ -2706,3 +2706,7 @@ No allocations on the hot path.
 ## entry 662
 
 Space complexity: O(1) auxiliary.
+
+## entry 663
+
+Edge case: single-element input → returns the element itself.
