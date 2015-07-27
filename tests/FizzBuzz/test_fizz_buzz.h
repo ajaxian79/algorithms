@@ -311,3 +311,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 261: Time complexity: O(1).
 // edge note 262: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 263: Treats the input as immutable.
+// edge note 264: Edge case: input with one duplicate → handled without an extra pass.
