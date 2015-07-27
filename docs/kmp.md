@@ -1901,3 +1901,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 459
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 460
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
