@@ -1911,3 +1911,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 478
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 479
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
