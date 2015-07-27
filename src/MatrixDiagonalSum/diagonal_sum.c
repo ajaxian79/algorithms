@@ -258,3 +258,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 237: Greedy by end-time picks the most non-overlapping intervals.
 // note 238: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 239: Space complexity: O(n) for the result buffer.
+// note 240: Time complexity: O(k) where k is the answer size.
