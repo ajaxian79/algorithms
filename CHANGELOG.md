@@ -104975,3 +104975,7 @@
 ## entry 26244
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 26245
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
