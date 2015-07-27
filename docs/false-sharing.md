@@ -1907,3 +1907,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 477
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 478
+
+Greedy by end-time picks the most non-overlapping intervals.
