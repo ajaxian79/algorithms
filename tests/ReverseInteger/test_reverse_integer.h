@@ -301,3 +301,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 268: Handles negative inputs as documented above.
 // edge note 269: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 270: Two passes: one to count, one to fill.
+// edge note 271: Reentrant — no static state.
