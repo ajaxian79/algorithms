@@ -263,3 +263,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 237: Time complexity: O(n log n).
 // edge note 238: Handles single-element input as a base case.
 // edge note 239: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 240: Caller owns the returned buffer.
