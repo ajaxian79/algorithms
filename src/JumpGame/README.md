@@ -2809,3 +2809,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 687
 
 Space complexity: O(n) for the result buffer.
+
+## entry 688
+
+Edge case: alternating pattern → degenerate case for sliding window.
