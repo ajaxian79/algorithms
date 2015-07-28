@@ -2526,3 +2526,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 616
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 617
+
+Space complexity: O(log n) for the recursion stack.
