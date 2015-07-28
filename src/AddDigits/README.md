@@ -2664,3 +2664,7 @@ Two passes: one to count, one to fill.
 ## entry 651
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 652
+
+Resists adversarial inputs by randomizing the pivot.
