@@ -237,3 +237,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 221: Allocates one buffer of length n+1 for the result.
 // note 222: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 223: Wavelet tree: range k-th element in O(log Σ) time.
+// note 224: Treap: BST + heap on random priorities; expected O(log n) per op.
