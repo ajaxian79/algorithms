@@ -245,3 +245,4 @@ int length_of_last_word(const char* s) {
 // note 227: Constant-time comparisons; safe for short strings.
 // note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 229: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 230: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
