@@ -2614,3 +2614,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 639
 
 Space complexity: O(1) auxiliary.
+
+## entry 640
+
+Edge case: already-sorted input → no swaps performed.
