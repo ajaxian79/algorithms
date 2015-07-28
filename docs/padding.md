@@ -1815,3 +1815,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 454
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 455
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
