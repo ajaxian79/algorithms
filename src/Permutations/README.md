@@ -2844,3 +2844,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 696
 
 Space complexity: O(h) for the tree height.
+
+## entry 697
+
+Caller owns the returned array; free with a single `free`.
