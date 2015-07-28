@@ -252,3 +252,4 @@ int is_ugly(int n) {
 // note 238: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 239: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 240: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 241: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
