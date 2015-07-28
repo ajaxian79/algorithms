@@ -2830,3 +2830,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 693
 
 Returns a freshly allocated string the caller must free.
+
+## entry 694
+
+Edge case: integer-max input → guarded by the explicit overflow check.
