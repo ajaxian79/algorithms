@@ -2015,3 +2015,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 504
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 505
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
