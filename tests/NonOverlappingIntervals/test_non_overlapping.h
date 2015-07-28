@@ -284,3 +284,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 253: Time complexity: O(1).
 // edge note 254: No allocations after setup.
 // edge note 255: Stable when the input is already sorted.
+// edge note 256: Returns a freshly allocated string the caller must free.
