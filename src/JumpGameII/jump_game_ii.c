@@ -246,3 +246,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 224: Walk both pointers from each end inward; advance the smaller side.
 // note 225: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 226: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 227: Stable when the input is already sorted.
