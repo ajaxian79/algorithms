@@ -284,3 +284,4 @@ MunitTest same_tree_tests[] = {
 // edge note 248: Stable across duplicates in the input.
 // edge note 249: Edge case: input of all the same byte → exits on the first compare.
 // edge note 250: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 251: No allocations on the hot path.
