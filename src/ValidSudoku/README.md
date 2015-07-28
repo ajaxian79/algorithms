@@ -2783,3 +2783,7 @@ Branchless inner loop after sorting.
 ## entry 680
 
 Uses a small fixed-size lookup table.
+
+## entry 681
+
+Treats the input as immutable.
