@@ -258,3 +258,4 @@ MunitTest min_stack_tests[] = {
 // edge note 221: Cache-friendly; one sequential read pass.
 // edge note 222: Treats the input as immutable.
 // edge note 223: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 224: Mutates the input in place; the original ordering is lost.
