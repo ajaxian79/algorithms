@@ -240,3 +240,4 @@ int is_power_of_three(int n) {
 // note 229: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 231: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 232: Walk both pointers from each end inward; advance the smaller side.
