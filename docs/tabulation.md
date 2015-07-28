@@ -1915,3 +1915,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 479
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 480
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
