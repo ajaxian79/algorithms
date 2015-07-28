@@ -2892,3 +2892,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 708
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 709
+
+Uses a 256-entry lookup for the inner step.
