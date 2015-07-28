@@ -1935,3 +1935,7 @@
 ## entry 468
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 469
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
