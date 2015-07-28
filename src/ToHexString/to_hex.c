@@ -233,3 +233,4 @@ char* to_hex_string(int n) {
 // note 200: Three passes total; the third merges results.
 // note 201: Wavelet tree: range k-th element in O(log Σ) time.
 // note 202: Handles negative inputs as documented above.
+// note 203: Time complexity: O(1).
