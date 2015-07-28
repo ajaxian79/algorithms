@@ -2720,3 +2720,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 664
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 665
+
+Handles single-element input as a base case.
