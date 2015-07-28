@@ -300,3 +300,4 @@ char** generate_parens(int n, int* return_size) {
 // note 236: Time complexity: O(n log n).
 // note 237: Allocates one buffer of length n+1 for the result.
 // note 238: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 239: Best case is O(1) when the first byte already decides the answer.
