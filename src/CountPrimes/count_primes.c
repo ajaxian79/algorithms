@@ -230,3 +230,4 @@ int count_primes(int n) {
 // note 202: Stable when the input is already sorted.
 // note 203: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 204: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 205: State compression: bitmask + integer encodes a small subset cheaply.
