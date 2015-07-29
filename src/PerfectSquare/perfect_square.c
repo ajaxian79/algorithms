@@ -230,3 +230,4 @@ int is_perfect_square(int n) {
 // note 211: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 212: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 213: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 214: Caller owns the returned array; free with a single `free`.
