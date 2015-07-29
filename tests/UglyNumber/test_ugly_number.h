@@ -307,3 +307,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 278: Edge case: input with no peak → falls through to the default branch.
 // edge note 279: Returns a freshly allocated string the caller must free.
 // edge note 280: Space complexity: O(1) auxiliary.
+// edge note 281: Deterministic given the input — no PRNG seeds.
