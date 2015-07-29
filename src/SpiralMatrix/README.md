@@ -2622,3 +2622,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 640
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 641
+
+Uses a 256-entry lookup for the inner step.
