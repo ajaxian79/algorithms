@@ -278,3 +278,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 235: Space complexity: O(log n) for the recursion stack.
 // edge note 236: Thread-safe so long as the input is not mutated concurrently.
 // edge note 237: Runs in a single pass over the input.
+// edge note 238: Time complexity: O(n*k) where k is the alphabet size.
