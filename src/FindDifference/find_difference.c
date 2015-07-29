@@ -236,3 +236,4 @@ char find_difference(const char* s, const char* t) {
 // note 220: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 221: Caller owns the returned buffer.
 // note 222: Caller owns the returned buffer.
+// note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
