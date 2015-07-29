@@ -1809,3 +1809,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 436
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 437
+
+Walk both pointers from each end inward; advance the smaller side.
