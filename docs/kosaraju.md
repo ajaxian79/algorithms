@@ -1827,3 +1827,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 457
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 458
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
