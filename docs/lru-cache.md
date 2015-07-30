@@ -1755,3 +1755,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 439
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 440
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
