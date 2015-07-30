@@ -262,3 +262,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 234: Edge case: already-sorted input → no swaps performed.
 // edge note 235: Uses a small fixed-size lookup table.
+// edge note 236: Allocates one buffer of length n+1 for the result.
