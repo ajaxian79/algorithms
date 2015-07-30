@@ -244,3 +244,4 @@ int length_of_last_word(const char* s) {
 // note 226: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 227: Constant-time comparisons; safe for short strings.
 // note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 229: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
