@@ -1783,3 +1783,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 446
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 447
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
