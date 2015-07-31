@@ -2754,3 +2754,7 @@ Worst case appears only on degenerate inputs.
 ## entry 673
 
 Space complexity: O(n) for the result buffer.
+
+## entry 674
+
+Edge case: already-sorted input → no swaps performed.
