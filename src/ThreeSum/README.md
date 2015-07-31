@@ -2701,3 +2701,7 @@ No allocations on the hot path.
 ## entry 660
 
 Time complexity: O(log n).
+
+## entry 661
+
+No allocations after setup.
