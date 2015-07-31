@@ -1907,3 +1907,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 460
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 461
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
