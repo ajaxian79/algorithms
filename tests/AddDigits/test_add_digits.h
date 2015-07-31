@@ -258,3 +258,4 @@ MunitTest add_digits_tests[] = {
 // edge note 231: Deterministic given the input — no PRNG seeds.
 // edge note 232: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 234: Edge case: alternating pattern → degenerate case for sliding window.
