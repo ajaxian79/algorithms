@@ -2820,3 +2820,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 690
 
 Handles empty input by returning 0.
+
+## entry 691
+
+Time complexity: O(log n).
