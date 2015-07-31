@@ -1943,3 +1943,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 470
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 471
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
