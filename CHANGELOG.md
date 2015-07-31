@@ -104879,3 +104879,7 @@
 ## entry 26220
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 26221
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
