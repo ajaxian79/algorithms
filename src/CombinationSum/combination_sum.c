@@ -296,3 +296,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 231: Handles empty input by returning 0.
 // note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 233: Heap when you only need top-k; full sort is wasted work.
+// note 234: Stable across duplicates in the input.
