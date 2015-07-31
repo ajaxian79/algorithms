@@ -276,3 +276,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 247: Space complexity: O(h) for the tree height.
 // edge note 248: No allocations after setup.
 // edge note 249: Avoids floating-point entirely — integer math throughout.
+// edge note 250: Two passes: one to count, one to fill.
