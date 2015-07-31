@@ -2779,3 +2779,7 @@ Stable across duplicates in the input.
 ## entry 679
 
 Branchless inner loop after sorting.
+
+## entry 680
+
+Uses a small fixed-size lookup table.
