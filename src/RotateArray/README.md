@@ -2819,3 +2819,7 @@ Handles single-element input as a base case.
 ## entry 689
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 690
+
+Edge case: maximum-length input → still fits in 32-bit indices.
