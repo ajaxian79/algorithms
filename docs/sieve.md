@@ -1975,3 +1975,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 477
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 478
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
