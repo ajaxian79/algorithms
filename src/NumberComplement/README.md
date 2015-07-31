@@ -2732,3 +2732,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 667
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 668
+
+Stable when the input is already sorted.
