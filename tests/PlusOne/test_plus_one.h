@@ -298,3 +298,4 @@ MunitTest plus_one_tests[] = {
 // edge note 233: Time complexity: O(k) where k is the answer size.
 // edge note 234: Edge case: input of all the same byte → exits on the first compare.
 // edge note 235: Time complexity: O(k) where k is the answer size.
+// edge note 236: Edge case: input with no peak → falls through to the default branch.
