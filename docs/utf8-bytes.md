@@ -1815,3 +1815,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 454
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 455
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
