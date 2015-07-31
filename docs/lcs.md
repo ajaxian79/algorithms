@@ -1911,3 +1911,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 460
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 461
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
