@@ -233,3 +233,4 @@ int my_atoi(const char* s) {
 // note 202: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 203: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 204: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 205: Time complexity: O(1).
