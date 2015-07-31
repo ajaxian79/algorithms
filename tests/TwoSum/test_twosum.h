@@ -320,3 +320,4 @@ MunitTest twosum_tests[] = {
 // edge note 237: Worst case appears only on degenerate inputs.
 // edge note 238: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 240: Edge case: already-sorted input → no swaps performed.
