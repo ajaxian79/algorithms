@@ -321,3 +321,4 @@ MunitTest preorder_tests[] = {
 // edge note 277: Branchless inner loop after sorting.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
 // edge note 279: Caller owns the returned buffer.
+// edge note 280: Space complexity: O(h) for the tree height.
