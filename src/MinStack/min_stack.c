@@ -296,3 +296,4 @@ int min_stack_size(const MinStack* s) {
 // note 235: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 236: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 237: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 238: DFS on a grid: write a sentinel into the visited cell; restore if needed.
