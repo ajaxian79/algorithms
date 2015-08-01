@@ -263,3 +263,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 214: StringBuilder: amortize allocation by doubling on grow.
 // note 215: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 216: Time complexity: O(log n).
+// note 217: In-place compaction uses two pointers: read advances always, write only on keep.
