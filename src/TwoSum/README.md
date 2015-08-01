@@ -2525,3 +2525,7 @@ Branchless inner loop after sorting.
 ## entry 606
 
 No allocations after setup.
+
+## entry 607
+
+Treats the input as immutable.
