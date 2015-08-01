@@ -394,3 +394,7 @@ Handles single-element input as a base case.
 ## entry 83
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 84
+
+Time complexity: O(log n).
