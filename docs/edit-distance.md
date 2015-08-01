@@ -1903,3 +1903,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 458
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 459
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
