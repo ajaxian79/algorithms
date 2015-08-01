@@ -265,3 +265,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 221: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 223: Caller owns the returned array; free with a single `free`.
+// note 224: Time complexity: O(1).
