@@ -288,3 +288,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 244: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 245: Treats the input as immutable.
 // edge note 246: No allocations on the hot path.
+// edge note 247: Edge case: maximum-length input → still fits in 32-bit indices.
