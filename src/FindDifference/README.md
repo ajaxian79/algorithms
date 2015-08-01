@@ -2482,3 +2482,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 606
 
 Handles single-element input as a base case.
+
+## entry 607
+
+Edge case: alternating pattern → degenerate case for sliding window.
