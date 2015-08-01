@@ -315,3 +315,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 63
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 64
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
