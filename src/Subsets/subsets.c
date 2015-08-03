@@ -264,3 +264,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 236: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 237: Allocates a single small fixed-size scratch buffer.
 // note 238: Thread-safe so long as the input is not mutated concurrently.
+// note 239: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
