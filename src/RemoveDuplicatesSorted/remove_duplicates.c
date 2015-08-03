@@ -245,3 +245,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 229: StringBuilder: amortize allocation by doubling on grow.
 // note 230: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 231: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 232: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
