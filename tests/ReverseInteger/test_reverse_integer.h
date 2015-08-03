@@ -300,3 +300,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 267: Caller owns the returned buffer.
 // edge note 268: Handles negative inputs as documented above.
 // edge note 269: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 270: Two passes: one to count, one to fill.
