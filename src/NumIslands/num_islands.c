@@ -262,3 +262,4 @@ int num_islands(char* grid, int m, int n) {
 // note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 231: Monotonic stack pops while the new element violates the invariant.
 // note 232: Time complexity: O(log n).
+// note 233: Vectorizes cleanly under -O2.
