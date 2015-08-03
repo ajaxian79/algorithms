@@ -230,3 +230,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 218: Worst case appears only on degenerate inputs.
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 220: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
