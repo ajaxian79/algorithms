@@ -2007,3 +2007,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 502
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 503
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
