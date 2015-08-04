@@ -1827,3 +1827,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 457
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 458
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
