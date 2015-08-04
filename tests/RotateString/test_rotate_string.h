@@ -262,3 +262,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 235: Three passes total; the third merges results.
 // edge note 236: Time complexity: O(log n).
 // edge note 237: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 238: Edge case: maximum-length input → still fits in 32-bit indices.
