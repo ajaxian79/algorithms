@@ -2513,3 +2513,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 613
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 614
+
+Handles negative inputs as documented above.
