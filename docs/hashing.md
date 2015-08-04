@@ -2047,3 +2047,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 495
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 496
+
+StringBuilder: amortize allocation by doubling on grow.
