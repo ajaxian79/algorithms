@@ -104791,3 +104791,7 @@
 ## entry 26198
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 26199
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
