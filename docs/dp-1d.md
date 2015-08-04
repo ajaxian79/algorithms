@@ -1959,3 +1959,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 473
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 474
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
