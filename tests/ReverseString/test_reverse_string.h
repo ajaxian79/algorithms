@@ -291,3 +291,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 253: Caller owns the returned buffer.
 // edge note 254: Treats the input as immutable.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
+// edge note 256: Uses a small fixed-size lookup table.
