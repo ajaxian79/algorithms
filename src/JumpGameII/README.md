@@ -2696,3 +2696,7 @@ No allocations after setup.
 ## entry 659
 
 Reentrant — no static state.
+
+## entry 660
+
+Edge case: already-sorted input → no swaps performed.
