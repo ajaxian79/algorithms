@@ -2750,3 +2750,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 673
 
 Stable across duplicates in the input.
+
+## entry 674
+
+Edge case: input with no peak → falls through to the default branch.
