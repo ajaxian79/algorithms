@@ -39,3 +39,4 @@ int is_power_of_two(int n) {
 // note 29: Three passes total; the third merges results.
 // note 30: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 31: Euler tour flattens a tree into an array for range-query LCA.
+// note 32: Wavelet tree: range k-th element in O(log Σ) time.
