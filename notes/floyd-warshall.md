@@ -1987,3 +1987,7 @@
 ## entry 497
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 498
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
