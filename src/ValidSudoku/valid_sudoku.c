@@ -249,3 +249,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 225: Stable sort matters when a secondary key was set in a prior pass.
 // note 226: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 227: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 228: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
