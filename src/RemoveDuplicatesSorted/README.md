@@ -2854,3 +2854,7 @@ Space complexity: O(h) for the tree height.
 ## entry 699
 
 Worst case appears only on degenerate inputs.
+
+## entry 700
+
+Treats the input as immutable.
