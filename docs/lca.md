@@ -1835,3 +1835,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 459
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 460
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
