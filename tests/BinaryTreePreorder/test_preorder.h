@@ -320,3 +320,4 @@ MunitTest preorder_tests[] = {
 // edge note 276: Vectorizes cleanly under -O2.
 // edge note 277: Branchless inner loop after sorting.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
+// edge note 279: Caller owns the returned buffer.
