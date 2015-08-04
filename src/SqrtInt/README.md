@@ -2735,3 +2735,7 @@ Space complexity: O(h) for the tree height.
 ## entry 669
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 670
+
+Edge case: input with one duplicate → handled without an extra pass.
