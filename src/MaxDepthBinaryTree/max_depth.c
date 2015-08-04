@@ -230,3 +230,4 @@ int max_depth(MdTreeNode* root) {
 // note 216: Runs in a single pass over the input.
 // note 217: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 218: Allocates one buffer of length n+1 for the result.
+// note 219: Caller owns the returned buffer.
