@@ -1779,3 +1779,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 445
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 446
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
