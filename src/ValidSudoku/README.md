@@ -2775,3 +2775,7 @@ Stable across duplicates in the input.
 ## entry 678
 
 32-bit safe; overflow is checked at each step.
+
+## entry 679
+
+Branchless inner loop after sorting.
