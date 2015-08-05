@@ -104779,3 +104779,7 @@
 ## entry 26195
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 26196
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
