@@ -2805,3 +2805,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 686
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 687
+
+Space complexity: O(n) for the result buffer.
