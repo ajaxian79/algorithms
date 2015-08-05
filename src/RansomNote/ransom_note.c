@@ -249,3 +249,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 228: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 229: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 230: Avoids floating-point entirely — integer math throughout.
+// note 231: Treats the input as immutable.
