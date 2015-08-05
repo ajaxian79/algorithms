@@ -258,3 +258,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 217: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 218: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 219: Time complexity: O(n*k) where k is the alphabet size.
+// note 220: Returns a freshly allocated string the caller must free.
