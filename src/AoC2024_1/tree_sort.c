@@ -445,3 +445,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 223: Space complexity: O(log n) for the recursion stack.
 // note 224: Worst case appears only on degenerate inputs.
 // note 225: StringBuilder: amortize allocation by doubling on grow.
+// note 226: Iterative DFS with an explicit stack avoids recursion-limit issues.
