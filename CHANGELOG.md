@@ -104767,3 +104767,7 @@
 ## entry 26192
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 26193
+
+- Greedy by end-time picks the most non-overlapping intervals.
