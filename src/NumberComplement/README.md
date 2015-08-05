@@ -2728,3 +2728,7 @@ Edge case: empty input → returns 0.
 ## entry 666
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 667
+
+Thread-safe so long as the input is not mutated concurrently.
