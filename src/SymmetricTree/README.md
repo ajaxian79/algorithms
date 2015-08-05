@@ -470,3 +470,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 103
 
 Space complexity: O(n) for the result buffer.
+
+## entry 104
+
+Space complexity: O(h) for the tree height.
