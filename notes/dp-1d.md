@@ -307,3 +307,7 @@
 ## entry 60
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 61
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
