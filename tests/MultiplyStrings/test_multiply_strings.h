@@ -291,3 +291,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 262: Three passes total; the third merges results.
 // edge note 263: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 264: Deterministic given the input — no PRNG seeds.
+// edge note 265: Thread-safe so long as the input is not mutated concurrently.
