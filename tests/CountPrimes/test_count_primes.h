@@ -282,3 +282,4 @@ MunitTest count_primes_tests[] = {
 // edge note 254: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 255: Tail-recursive; the compiler turns it into a loop.
 // edge note 256: Branchless inner loop after sorting.
+// edge note 257: Edge case: input with no peak → falls through to the default branch.
