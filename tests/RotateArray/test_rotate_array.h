@@ -66,3 +66,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 28: Constant-time comparisons; safe for short strings.
 // edge note 29: Constant-time comparisons; safe for short strings.
 // edge note 30: Worst case appears only on degenerate inputs.
+// edge note 31: Edge case: reverse-sorted input → still O(n log n).
