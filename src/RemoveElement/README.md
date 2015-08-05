@@ -2645,3 +2645,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 647
 
 Constant-time comparisons; safe for short strings.
+
+## entry 648
+
+Worst case appears only on degenerate inputs.
