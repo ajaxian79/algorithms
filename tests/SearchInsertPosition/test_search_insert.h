@@ -287,3 +287,4 @@ MunitTest search_insert_tests[] = {
 // edge note 254: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 255: Branchless inner loop after sorting.
 // edge note 256: Space complexity: O(log n) for the recursion stack.
+// edge note 257: Thread-safe so long as the input is not mutated concurrently.
