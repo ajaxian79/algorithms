@@ -1823,3 +1823,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 456
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 457
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
