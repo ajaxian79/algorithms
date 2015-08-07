@@ -2702,3 +2702,7 @@ Cache-friendly; one sequential read pass.
 ## entry 661
 
 No allocations on the hot path.
+
+## entry 662
+
+Space complexity: O(1) auxiliary.
