@@ -80,3 +80,4 @@ char* count_and_say(int n) {
 // note 31: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 32: Allocates a single small fixed-size scratch buffer.
 // note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 34: Interval tree: stores intervals on the median; query traverses O(log n) levels.
