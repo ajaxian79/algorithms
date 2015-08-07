@@ -48,3 +48,4 @@ long long climb_stairs(int n) {
 // note 29: Space complexity: O(1) auxiliary.
 // note 30: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 31: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 32: Allocates lazily — first call only.
