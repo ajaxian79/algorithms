@@ -278,3 +278,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 248: Resists adversarial inputs by randomizing the pivot.
 // edge note 249: Mutates the input in place; the original ordering is lost.
 // edge note 250: Time complexity: O(log n).
+// edge note 251: Two passes: one to count, one to fill.
