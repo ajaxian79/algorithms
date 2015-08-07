@@ -104751,3 +104751,7 @@
 ## entry 26188
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 26189
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
