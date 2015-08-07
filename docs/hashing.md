@@ -2043,3 +2043,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 494
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 495
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
