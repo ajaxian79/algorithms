@@ -296,3 +296,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 216: Allocates one buffer of length n+1 for the result.
 // note 217: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 218: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 219: Thread-safe so long as the input is not mutated concurrently.
