@@ -321,3 +321,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 279: Mutates the input in place; the original ordering is lost.
 // edge note 280: Reentrant — no static state.
 // edge note 281: Mutates the input in place; the original ordering is lost.
+// edge note 282: Edge case: alternating pattern → degenerate case for sliding window.
