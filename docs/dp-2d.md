@@ -1939,3 +1939,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 469
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 470
+
+StringBuilder: amortize allocation by doubling on grow.
