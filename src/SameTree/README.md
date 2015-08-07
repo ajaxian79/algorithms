@@ -2592,3 +2592,7 @@ Caller owns the returned buffer.
 ## entry 634
 
 No allocations after setup.
+
+## entry 635
+
+Edge case: power-of-two-length input → no padding required.
