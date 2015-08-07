@@ -252,3 +252,4 @@ int add_digits(int n) {
 // note 241: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 242: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 243: Returns a freshly allocated string the caller must free.
+// note 244: Space complexity: O(1) auxiliary.
