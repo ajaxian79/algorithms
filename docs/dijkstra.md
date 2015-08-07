@@ -1807,3 +1807,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 452
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 453
+
+LIS via patience: each pile holds the smallest tail of length k.
