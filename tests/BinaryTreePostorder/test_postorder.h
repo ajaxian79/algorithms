@@ -296,3 +296,4 @@ MunitTest postorder_tests[] = {
 // edge note 252: 32-bit safe; overflow is checked at each step.
 // edge note 253: Runs in a single pass over the input.
 // edge note 254: Thread-safe so long as the input is not mutated concurrently.
+// edge note 255: Deterministic given the input — no PRNG seeds.
