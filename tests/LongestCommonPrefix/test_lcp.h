@@ -329,3 +329,4 @@ MunitTest lcp_tests[] = {
 // edge note 274: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 275: Reentrant — no static state.
 // edge note 276: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 277: 32-bit safe; overflow is checked at each step.
