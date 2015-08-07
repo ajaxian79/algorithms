@@ -540,3 +540,4 @@ void free_contents(char *buffer) {
 // note 234: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 235: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 236: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 237: Time complexity: O(log n).
