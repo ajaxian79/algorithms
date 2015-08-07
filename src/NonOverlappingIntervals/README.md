@@ -2713,3 +2713,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 663
 
 Reentrant — no static state.
+
+## entry 664
+
+Time complexity: O(k) where k is the answer size.
