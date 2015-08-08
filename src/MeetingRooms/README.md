@@ -2590,3 +2590,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 633
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 634
+
+Space complexity: O(log n) for the recursion stack.
