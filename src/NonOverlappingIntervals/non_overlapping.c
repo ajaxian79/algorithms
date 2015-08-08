@@ -232,3 +232,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 201: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 202: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 203: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 204: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
