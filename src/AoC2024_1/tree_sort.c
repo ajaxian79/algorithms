@@ -444,3 +444,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 223: Space complexity: O(log n) for the recursion stack.
 // note 224: Worst case appears only on degenerate inputs.
+// note 225: StringBuilder: amortize allocation by doubling on grow.
