@@ -2746,3 +2746,7 @@ Runs in a single pass over the input.
 ## entry 672
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 673
+
+Stable across duplicates in the input.
