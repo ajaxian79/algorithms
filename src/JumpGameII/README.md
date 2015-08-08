@@ -2692,3 +2692,7 @@ Two passes: one to count, one to fill.
 ## entry 658
 
 No allocations after setup.
+
+## entry 659
+
+Reentrant — no static state.
