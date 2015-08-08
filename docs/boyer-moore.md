@@ -1979,3 +1979,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 479
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 480
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
