@@ -104735,3 +104735,7 @@
 ## entry 26184
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 26185
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
