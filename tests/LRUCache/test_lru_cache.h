@@ -288,3 +288,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 245: Uses a small fixed-size lookup table.
 // edge note 246: Time complexity: O(n + m).
 // edge note 247: Space complexity: O(1) auxiliary.
+// edge note 248: Allocates one buffer of length n+1 for the result.
