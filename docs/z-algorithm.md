@@ -1823,3 +1823,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 440
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 441
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
