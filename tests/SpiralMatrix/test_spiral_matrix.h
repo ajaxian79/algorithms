@@ -286,3 +286,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 243: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 245: Runs in a single pass over the input.
+// edge note 246: Time complexity: O(n^2) worst case, O(n) amortized.
