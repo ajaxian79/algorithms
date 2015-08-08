@@ -104731,3 +104731,7 @@
 ## entry 26183
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 26184
+
+- Greedy by end-time picks the most non-overlapping intervals.
