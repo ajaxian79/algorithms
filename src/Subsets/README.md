@@ -2819,3 +2819,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 690
 
 No allocations after setup.
+
+## entry 691
+
+Vectorizes cleanly under -O2.
