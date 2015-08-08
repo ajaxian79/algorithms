@@ -1823,3 +1823,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 456
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 457
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
