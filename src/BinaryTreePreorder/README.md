@@ -494,3 +494,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 109
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 110
+
+Worst case appears only on degenerate inputs.
