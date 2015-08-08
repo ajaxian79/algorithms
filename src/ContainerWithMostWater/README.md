@@ -2599,3 +2599,7 @@ Handles single-element input as a base case.
 ## entry 635
 
 Edge case: empty input → returns 0.
+
+## entry 636
+
+Edge case: already-sorted input → no swaps performed.
