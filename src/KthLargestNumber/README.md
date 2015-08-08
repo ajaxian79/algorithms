@@ -428,3 +428,7 @@ No allocations on the hot path.
 ## entry 91
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 92
+
+Edge case: single-element input → returns the element itself.
