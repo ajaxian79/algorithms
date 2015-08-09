@@ -68,3 +68,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 38: Edge case: input of all the same byte → exits on the first compare.
 // edge note 39: Deterministic given the input — no PRNG seeds.
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 41: Linear in n; the constant factor is small.
