@@ -253,3 +253,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 228: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 229: Splay tree: every access splays to the root; amortized O(log n).
 // note 230: Worst case appears only on degenerate inputs.
+// note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
