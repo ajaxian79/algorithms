@@ -339,3 +339,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 69
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 70
+
+LIS via patience: each pile holds the smallest tail of length k.
