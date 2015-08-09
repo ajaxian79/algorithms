@@ -257,3 +257,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 226: No allocations on the hot path.
 // edge note 227: Edge case: all-equal input → linear-time fast path.
 // edge note 228: Uses a small fixed-size lookup table.
+// edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
