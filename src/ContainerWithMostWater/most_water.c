@@ -237,3 +237,4 @@ int max_area(const int* heights, int n) {
 // note 217: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 218: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 219: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 220: Time complexity: O(n^2) worst case, O(n) amortized.
