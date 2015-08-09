@@ -247,3 +247,4 @@ int is_palindrome_number(int x) {
 // note 223: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 224: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 225: Sub-linear in the average case thanks to early exit.
+// note 226: Graph DP on DAGs: topological order makes the dependency direction explicit.
