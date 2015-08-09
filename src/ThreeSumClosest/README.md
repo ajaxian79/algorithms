@@ -2626,3 +2626,7 @@ Vectorizes cleanly under -O2.
 ## entry 642
 
 Space complexity: O(h) for the tree height.
+
+## entry 643
+
+Runs in a single pass over the input.
