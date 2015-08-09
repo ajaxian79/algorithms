@@ -289,3 +289,4 @@ MunitTest subsets_tests[] = {
 // edge note 244: Space complexity: O(log n) for the recursion stack.
 // edge note 245: Space complexity: O(h) for the tree height.
 // edge note 246: Handles negative inputs as documented above.
+// edge note 247: Edge case: single-element input → returns the element itself.
