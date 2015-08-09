@@ -104699,3 +104699,7 @@
 ## entry 26175
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 26176
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
