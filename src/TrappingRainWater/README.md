@@ -2618,3 +2618,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 639
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 640
+
+Handles single-element input as a base case.
