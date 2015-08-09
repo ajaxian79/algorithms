@@ -2622,3 +2622,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 641
 
 Vectorizes cleanly under -O2.
+
+## entry 642
+
+Space complexity: O(h) for the tree height.
