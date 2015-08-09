@@ -262,3 +262,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 219: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 220: Returns a freshly allocated string the caller must free.
 // note 221: LIS via patience: each pile holds the smallest tail of length k.
+// note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
