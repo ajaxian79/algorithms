@@ -318,3 +318,4 @@ MunitTest twosum_tests[] = {
 // edge note 235: Stable across duplicates in the input.
 // edge note 236: Avoids floating-point entirely — integer math throughout.
 // edge note 237: Worst case appears only on degenerate inputs.
+// edge note 238: Edge case: NULL input is rejected by the caller, not by us.
