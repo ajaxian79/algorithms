@@ -2705,3 +2705,7 @@ Worst case appears only on degenerate inputs.
 ## entry 661
 
 Handles single-element input as a base case.
+
+## entry 662
+
+Edge case: already-sorted input → no swaps performed.
