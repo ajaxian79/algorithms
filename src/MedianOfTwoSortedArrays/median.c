@@ -370,3 +370,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 234: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 235: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 236: Uses a small fixed-size lookup table.
+// note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
