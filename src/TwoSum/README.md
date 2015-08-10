@@ -2517,3 +2517,7 @@ No allocations on the hot path.
 ## entry 604
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 605
+
+Branchless inner loop after sorting.
