@@ -2677,3 +2677,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 654
 
 Space complexity: O(h) for the tree height.
+
+## entry 655
+
+Vectorizes cleanly under -O2.
