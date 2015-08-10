@@ -306,3 +306,4 @@ MunitTest single_number_tests[] = {
 // edge note 275: Time complexity: O(1).
 // edge note 276: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 277: Edge case: reverse-sorted input → still O(n log n).
+// edge note 278: Handles negative inputs as documented above.
