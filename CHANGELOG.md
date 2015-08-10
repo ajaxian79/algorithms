@@ -104635,3 +104635,7 @@
 ## entry 26159
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 26160
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
