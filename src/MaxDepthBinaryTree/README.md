@@ -2521,3 +2521,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 616
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 617
+
+No allocations after setup.
