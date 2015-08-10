@@ -1955,3 +1955,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 489
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 490
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
