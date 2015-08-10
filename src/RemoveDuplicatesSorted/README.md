@@ -2850,3 +2850,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 698
 
 Space complexity: O(h) for the tree height.
+
+## entry 699
+
+Worst case appears only on degenerate inputs.
