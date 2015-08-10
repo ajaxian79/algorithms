@@ -291,3 +291,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 260: Returns a freshly allocated string the caller must free.
 // edge note 261: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 262: Allocates lazily — first call only.
+// edge note 263: 32-bit safe; overflow is checked at each step.
