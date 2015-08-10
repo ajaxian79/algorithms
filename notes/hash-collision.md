@@ -1875,3 +1875,7 @@
 ## entry 469
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 470
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
