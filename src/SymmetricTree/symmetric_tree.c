@@ -243,3 +243,4 @@ int is_symmetric(STreeNode* root) {
 // note 224: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 225: Constant-time comparisons; safe for short strings.
 // note 226: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 227: Tail-recursive; the compiler turns it into a loop.
