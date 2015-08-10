@@ -1933,3 +1933,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 469
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 470
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
