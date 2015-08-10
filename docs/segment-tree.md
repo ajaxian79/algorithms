@@ -1867,3 +1867,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 449
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 450
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
