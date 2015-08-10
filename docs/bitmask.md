@@ -1787,3 +1787,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 431
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 432
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
