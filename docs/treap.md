@@ -1827,3 +1827,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 457
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 458
+
+Wavelet tree: range k-th element in O(log Σ) time.
