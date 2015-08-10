@@ -2013,3 +2013,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 487
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 488
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
