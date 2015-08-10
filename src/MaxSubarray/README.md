@@ -2778,3 +2778,7 @@ Time complexity: O(log n).
 ## entry 680
 
 Stable when the input is already sorted.
+
+## entry 681
+
+Caller owns the returned array; free with a single `free`.
