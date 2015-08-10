@@ -269,3 +269,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 224: Wavelet tree: range k-th element in O(log Σ) time.
 // note 225: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 226: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 227: No allocations on the hot path.
