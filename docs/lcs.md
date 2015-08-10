@@ -1903,3 +1903,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 458
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 459
+
+LIS via patience: each pile holds the smallest tail of length k.
