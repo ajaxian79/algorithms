@@ -1919,3 +1919,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 480
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 481
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
