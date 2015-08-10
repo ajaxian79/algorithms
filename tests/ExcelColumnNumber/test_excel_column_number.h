@@ -307,3 +307,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 277: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Branchless inner loop after sorting.
+// edge note 280: Handles negative inputs as documented above.
