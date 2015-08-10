@@ -1953,3 +1953,7 @@
 ## entry 474
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 475
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
