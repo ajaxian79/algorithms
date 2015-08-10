@@ -1807,3 +1807,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 452
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 453
+
+LIS via patience: each pile holds the smallest tail of length k.
