@@ -1801,3 +1801,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 434
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 435
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
