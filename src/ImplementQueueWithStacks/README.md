@@ -2719,3 +2719,7 @@ Runs in a single pass over the input.
 ## entry 665
 
 Time complexity: O(n).
+
+## entry 666
+
+Mutates the input in place; the original ordering is lost.
