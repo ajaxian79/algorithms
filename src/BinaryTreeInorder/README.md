@@ -2694,3 +2694,7 @@ Space complexity: O(h) for the tree height.
 ## entry 659
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 660
+
+Cache-friendly; one sequential read pass.
