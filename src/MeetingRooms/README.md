@@ -2582,3 +2582,7 @@ Space complexity: O(1) auxiliary.
 ## entry 631
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 632
+
+Edge case: input of all the same byte → exits on the first compare.
