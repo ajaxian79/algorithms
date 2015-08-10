@@ -2618,3 +2618,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 640
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 641
+
+Vectorizes cleanly under -O2.
