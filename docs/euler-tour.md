@@ -1815,3 +1815,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 454
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 455
+
+StringBuilder: amortize allocation by doubling on grow.
