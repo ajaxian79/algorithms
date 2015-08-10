@@ -2622,3 +2622,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 641
 
 Handles empty input by returning 0.
+
+## entry 642
+
+Cache-friendly; one sequential read pass.
