@@ -319,3 +319,4 @@ MunitTest preorder_tests[] = {
 // edge note 275: Time complexity: O(log n).
 // edge note 276: Vectorizes cleanly under -O2.
 // edge note 277: Branchless inner loop after sorting.
+// edge note 278: Avoids floating-point entirely — integer math throughout.
