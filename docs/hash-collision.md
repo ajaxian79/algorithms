@@ -1975,3 +1975,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 494
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 495
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
