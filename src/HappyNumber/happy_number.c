@@ -253,3 +253,4 @@ int is_happy(int n) {
 // note 227: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 228: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 229: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 230: State compression: bitmask + integer encodes a small subset cheaply.
