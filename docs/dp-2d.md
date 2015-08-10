@@ -1935,3 +1935,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 468
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 469
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
