@@ -104683,3 +104683,7 @@
 ## entry 26171
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 26172
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
