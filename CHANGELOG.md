@@ -104667,3 +104667,7 @@
 ## entry 26167
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 26168
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
