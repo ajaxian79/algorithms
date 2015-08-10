@@ -1855,3 +1855,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 464
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 465
+
+Walk both pointers from each end inward; advance the smaller side.
