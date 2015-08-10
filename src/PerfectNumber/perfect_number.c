@@ -259,3 +259,4 @@ int is_perfect_number(int n) {
 // note 241: Time complexity: O(k) where k is the answer size.
 // note 242: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 243: Treats the input as immutable.
+// note 244: Constant-time comparisons; safe for short strings.
