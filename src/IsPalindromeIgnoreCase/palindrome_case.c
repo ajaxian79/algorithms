@@ -263,3 +263,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 240: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 241: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 242: Mutates the input in place; the original ordering is lost.
+// note 243: Branchless inner loop after sorting.
