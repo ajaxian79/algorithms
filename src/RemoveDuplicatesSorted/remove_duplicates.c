@@ -242,3 +242,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 226: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 227: Time complexity: O(n).
 // note 228: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 229: StringBuilder: amortize allocation by doubling on grow.
