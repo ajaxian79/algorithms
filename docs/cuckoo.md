@@ -231,3 +231,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 58
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 59
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
