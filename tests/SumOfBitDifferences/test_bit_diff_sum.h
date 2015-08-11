@@ -266,3 +266,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 236: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 237: Stable across duplicates in the input.
+// edge note 238: Edge case: input with one duplicate → handled without an extra pass.
