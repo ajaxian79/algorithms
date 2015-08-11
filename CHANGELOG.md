@@ -104611,3 +104611,7 @@
 ## entry 26153
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 26154
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
