@@ -270,3 +270,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 227: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 228: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 229: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 230: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
