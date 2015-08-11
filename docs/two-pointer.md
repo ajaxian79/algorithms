@@ -1999,3 +1999,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 482
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 483
+
+Stable sort matters when a secondary key was set in a prior pass.
