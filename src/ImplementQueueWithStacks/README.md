@@ -2715,3 +2715,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 664
 
 Runs in a single pass over the input.
+
+## entry 665
+
+Time complexity: O(n).
