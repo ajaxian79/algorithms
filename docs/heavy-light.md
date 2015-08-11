@@ -1951,3 +1951,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 488
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 489
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
