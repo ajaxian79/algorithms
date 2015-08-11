@@ -275,3 +275,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 241: Stable when the input is already sorted.
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 244: Best case is O(1) when the first byte already decides the answer.
