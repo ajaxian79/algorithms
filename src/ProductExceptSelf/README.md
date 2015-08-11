@@ -2628,3 +2628,7 @@ Time complexity: O(log n).
 ## entry 641
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 642
+
+Edge case: maximum-length input → still fits in 32-bit indices.
