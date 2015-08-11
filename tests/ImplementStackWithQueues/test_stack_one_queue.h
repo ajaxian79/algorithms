@@ -285,3 +285,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 253: Edge case: single-element input → returns the element itself.
 // edge note 254: Time complexity: O(n).
 // edge note 255: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 256: Thread-safe so long as the input is not mutated concurrently.
