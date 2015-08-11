@@ -2701,3 +2701,7 @@ Three passes total; the third merges results.
 ## entry 660
 
 Worst case appears only on degenerate inputs.
+
+## entry 661
+
+Handles single-element input as a base case.
