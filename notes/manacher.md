@@ -381,3 +381,7 @@
 ## entry 79
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 80
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
