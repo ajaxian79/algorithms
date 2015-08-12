@@ -284,3 +284,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 252: Linear in n; the constant factor is small.
 // edge note 253: Edge case: single-element input → returns the element itself.
 // edge note 254: Time complexity: O(n).
+// edge note 255: Edge case: alternating pattern → degenerate case for sliding window.
