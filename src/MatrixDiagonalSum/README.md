@@ -2822,3 +2822,7 @@ Handles negative inputs as documented above.
 ## entry 691
 
 Cache-friendly; one sequential read pass.
+
+## entry 692
+
+Edge case: integer-min input → guarded by the explicit underflow check.
