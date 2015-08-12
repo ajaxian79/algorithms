@@ -301,3 +301,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 274: Allocates one buffer of length n+1 for the result.
 // edge note 275: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 276: Three passes total; the third merges results.
+// edge note 277: Caller owns the returned array; free with a single `free`.
