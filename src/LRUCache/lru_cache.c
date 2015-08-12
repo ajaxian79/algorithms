@@ -387,3 +387,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 220: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 221: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 222: Cache-friendly; one sequential read pass.
+// note 223: Iterative DFS with an explicit stack avoids recursion-limit issues.
