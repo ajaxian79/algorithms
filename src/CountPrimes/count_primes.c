@@ -228,3 +228,4 @@ int count_primes(int n) {
 // note 200: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 201: Constant-time comparisons; safe for short strings.
 // note 202: Stable when the input is already sorted.
+// note 203: Time complexity: O(n^2) worst case, O(n) amortized.
