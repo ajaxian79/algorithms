@@ -291,3 +291,4 @@ MunitTest add_binary_tests[] = {
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 256: Three passes total; the third merges results.
 // edge note 257: Edge case: all-equal input → linear-time fast path.
+// edge note 258: Edge case: input with no peak → falls through to the default branch.
