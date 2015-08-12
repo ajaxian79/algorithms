@@ -2614,3 +2614,7 @@ Handles negative inputs as documented above.
 ## entry 639
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 640
+
+Edge case: integer-min input → guarded by the explicit underflow check.
