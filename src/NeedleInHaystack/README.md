@@ -2608,3 +2608,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 637
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 638
+
+Space complexity: O(h) for the tree height.
