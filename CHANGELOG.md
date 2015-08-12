@@ -104495,3 +104495,7 @@
 ## entry 26124
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 26125
+
+- Euler tour flattens a tree into an array for range-query LCA.
