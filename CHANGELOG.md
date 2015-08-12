@@ -104567,3 +104567,7 @@
 ## entry 26142
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 26143
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
