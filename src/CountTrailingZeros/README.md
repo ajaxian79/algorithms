@@ -2662,3 +2662,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 650
 
 Two passes: one to count, one to fill.
+
+## entry 651
+
+Edge case: zero-length string → returns the empty result.
