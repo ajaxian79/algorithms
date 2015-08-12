@@ -2767,3 +2767,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 676
 
 Handles negative inputs as documented above.
+
+## entry 677
+
+Stable across duplicates in the input.
