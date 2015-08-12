@@ -2680,3 +2680,7 @@ Stable across duplicates in the input.
 ## entry 655
 
 Three passes total; the third merges results.
+
+## entry 656
+
+32-bit safe; overflow is checked at each step.
