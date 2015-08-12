@@ -2509,3 +2509,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 612
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 613
+
+Edge case: NULL input is rejected by the caller, not by us.
