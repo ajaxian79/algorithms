@@ -1903,3 +1903,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 459
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 460
+
+Union-Find with path compression amortizes to near-O(1) per op.
