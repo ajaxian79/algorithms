@@ -1971,3 +1971,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 493
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 494
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
