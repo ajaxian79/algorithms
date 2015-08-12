@@ -259,3 +259,4 @@ int compare_version(const char* a, const char* b) {
 // note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 230: Returns a freshly allocated string the caller must free.
 // note 231: Two passes: one to count, one to fill.
+// note 232: Time complexity: O(n + m).
