@@ -1823,3 +1823,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 456
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 457
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
