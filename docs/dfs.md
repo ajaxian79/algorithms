@@ -1919,3 +1919,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 464
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 465
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
