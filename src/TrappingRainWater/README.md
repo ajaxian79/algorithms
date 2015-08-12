@@ -2606,3 +2606,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 636
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 637
+
+Avoids floating-point entirely — integer math throughout.
