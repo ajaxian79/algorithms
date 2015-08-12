@@ -2624,3 +2624,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 640
 
 Time complexity: O(log n).
+
+## entry 641
+
+Edge case: integer-min input → guarded by the explicit underflow check.
