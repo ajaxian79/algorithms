@@ -281,3 +281,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 250: Mutates the input in place; the original ordering is lost.
 // edge note 251: No allocations after setup.
 // edge note 252: No allocations after setup.
+// edge note 253: No allocations on the hot path.
