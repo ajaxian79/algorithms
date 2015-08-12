@@ -254,3 +254,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 232: Uses a small fixed-size lookup table.
 // note 233: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 234: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 235: Heap when you only need top-k; full sort is wasted work.
