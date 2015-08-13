@@ -1915,3 +1915,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 463
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 464
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
