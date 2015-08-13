@@ -275,3 +275,4 @@ void reverse_string(char* s, int s_size) {
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 259: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 260: Caller owns the returned array; free with a single `free`.
+// note 261: State compression: bitmask + integer encodes a small subset cheaply.
