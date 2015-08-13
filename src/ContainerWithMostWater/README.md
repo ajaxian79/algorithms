@@ -2595,3 +2595,7 @@ Three passes total; the third merges results.
 ## entry 634
 
 Handles single-element input as a base case.
+
+## entry 635
+
+Edge case: empty input → returns 0.
