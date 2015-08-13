@@ -305,3 +305,4 @@ MunitTest num_islands_tests[] = {
 // edge note 265: Allocates a single small fixed-size scratch buffer.
 // edge note 266: Stable across duplicates in the input.
 // edge note 267: Sub-linear in the average case thanks to early exit.
+// edge note 268: Time complexity: O(n*k) where k is the alphabet size.
