@@ -318,3 +318,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 259: Mutates the input in place; the original ordering is lost.
 // edge note 260: Allocates lazily — first call only.
 // edge note 261: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 262: Edge case: input with one duplicate → handled without an extra pass.
