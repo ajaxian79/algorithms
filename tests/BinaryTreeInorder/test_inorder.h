@@ -318,3 +318,4 @@ MunitTest inorder_tests[] = {
 // edge note 280: Three passes total; the third merges results.
 // edge note 281: Handles negative inputs as documented above.
 // edge note 282: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 283: 64-bit safe; intermediate products are widened to 128-bit.
