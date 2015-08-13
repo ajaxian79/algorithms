@@ -1901,3 +1901,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 458
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 459
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
