@@ -1907,3 +1907,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 477
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 478
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
