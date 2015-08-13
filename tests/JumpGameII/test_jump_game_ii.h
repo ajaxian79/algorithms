@@ -273,3 +273,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 239: Edge case: zero-length string → returns the empty result.
 // edge note 240: Edge case: power-of-two-length input → no padding required.
 // edge note 241: Stable when the input is already sorted.
+// edge note 242: Uses a 256-entry lookup for the inner step.
