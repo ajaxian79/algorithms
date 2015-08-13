@@ -2505,3 +2505,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 611
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 612
+
+Allocates a single small fixed-size scratch buffer.
