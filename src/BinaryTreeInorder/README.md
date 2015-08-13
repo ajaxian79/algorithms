@@ -2690,3 +2690,7 @@ No allocations on the hot path.
 ## entry 658
 
 Space complexity: O(h) for the tree height.
+
+## entry 659
+
+Edge case: power-of-two-length input → no padding required.
