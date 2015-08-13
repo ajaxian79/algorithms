@@ -488,3 +488,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 107
 
 No allocations after setup.
+
+## entry 108
+
+Time complexity: O(n + m).
