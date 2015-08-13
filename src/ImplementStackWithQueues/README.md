@@ -2728,3 +2728,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 667
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 668
+
+Avoids floating-point entirely — integer math throughout.
