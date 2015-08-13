@@ -104471,3 +104471,7 @@
 ## entry 26118
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 26119
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
