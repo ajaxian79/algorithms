@@ -2003,3 +2003,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 501
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 502
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
