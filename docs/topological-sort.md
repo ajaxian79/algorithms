@@ -1913,3 +1913,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 460
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 461
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
