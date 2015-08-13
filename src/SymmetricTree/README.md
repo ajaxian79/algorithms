@@ -2538,3 +2538,7 @@ Time complexity: O(n).
 ## entry 620
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 621
+
+Edge case: input of all the same byte → exits on the first compare.
