@@ -294,3 +294,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 229: Constant-time comparisons; safe for short strings.
 // note 230: 64-bit safe; intermediate products are widened to 128-bit.
 // note 231: Handles empty input by returning 0.
+// note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
