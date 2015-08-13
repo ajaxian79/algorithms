@@ -1915,3 +1915,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 479
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 480
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
