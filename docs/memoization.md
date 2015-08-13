@@ -1923,3 +1923,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 481
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 482
+
+Monotonic stack pops while the new element violates the invariant.
