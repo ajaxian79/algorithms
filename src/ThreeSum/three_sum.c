@@ -279,3 +279,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 221: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 222: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 223: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 224: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
