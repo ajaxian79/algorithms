@@ -296,3 +296,4 @@ MunitTest min_depth_tests[] = {
 // edge note 257: Time complexity: O(n + m).
 // edge note 258: Two passes: one to count, one to fill.
 // edge note 259: Edge case: already-sorted input → no swaps performed.
+// edge note 260: Tail-recursive; the compiler turns it into a loop.
