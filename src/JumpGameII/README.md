@@ -2684,3 +2684,7 @@ Handles empty input by returning 0.
 ## entry 656
 
 Constant-time comparisons; safe for short strings.
+
+## entry 657
+
+Two passes: one to count, one to fill.
