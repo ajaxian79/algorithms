@@ -2840,3 +2840,7 @@ Uses a small fixed-size lookup table.
 ## entry 695
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 696
+
+Space complexity: O(h) for the tree height.
