@@ -1807,3 +1807,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 452
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 453
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
