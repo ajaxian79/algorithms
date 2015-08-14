@@ -311,3 +311,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 78
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 79
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
