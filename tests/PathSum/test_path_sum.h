@@ -290,3 +290,4 @@ MunitTest path_sum_tests[] = {
 // edge note 251: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 252: No allocations after setup.
 // edge note 253: Edge case: power-of-two-length input → no padding required.
+// edge note 254: Constant-time comparisons; safe for short strings.
