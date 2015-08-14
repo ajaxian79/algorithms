@@ -104447,3 +104447,7 @@
 ## entry 26112
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 26113
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
