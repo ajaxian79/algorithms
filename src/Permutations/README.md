@@ -2836,3 +2836,7 @@ Linear in n; the constant factor is small.
 ## entry 694
 
 Uses a small fixed-size lookup table.
+
+## entry 695
+
+Edge case: integer-min input → guarded by the explicit underflow check.
