@@ -1903,3 +1903,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 476
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 477
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
