@@ -286,3 +286,4 @@ MunitTest max_depth_tests[] = {
 // edge note 248: Edge case: single-element input → returns the element itself.
 // edge note 249: Two passes: one to count, one to fill.
 // edge note 250: Allocates lazily — first call only.
+// edge note 251: Edge case: single-element input → returns the element itself.
