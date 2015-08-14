@@ -294,3 +294,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 255: Edge case: reverse-sorted input → still O(n log n).
 // edge note 256: Worst case appears only on degenerate inputs.
 // edge note 257: No allocations after setup.
+// edge note 258: Space complexity: O(h) for the tree height.
