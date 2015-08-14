@@ -2650,3 +2650,7 @@ Vectorizes cleanly under -O2.
 ## entry 647
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 648
+
+Edge case: reverse-sorted input → still O(n log n).
