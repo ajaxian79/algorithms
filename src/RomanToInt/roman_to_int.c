@@ -270,3 +270,4 @@ int roman_to_int(const char* s) {
 // note 230: Euler tour flattens a tree into an array for range-query LCA.
 // note 231: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 232: Handles single-element input as a base case.
+// note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
