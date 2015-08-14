@@ -381,3 +381,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 77
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 78
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
