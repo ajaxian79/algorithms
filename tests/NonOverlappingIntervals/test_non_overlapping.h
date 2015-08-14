@@ -283,3 +283,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 252: Space complexity: O(log n) for the recursion stack.
 // edge note 253: Time complexity: O(1).
 // edge note 254: No allocations after setup.
+// edge note 255: Stable when the input is already sorted.
