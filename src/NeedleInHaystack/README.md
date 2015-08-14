@@ -2600,3 +2600,7 @@ Time complexity: O(log n).
 ## entry 635
 
 Two passes: one to count, one to fill.
+
+## entry 636
+
+Thread-safe so long as the input is not mutated concurrently.
