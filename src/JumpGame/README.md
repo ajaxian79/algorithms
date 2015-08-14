@@ -2797,3 +2797,7 @@ Handles negative inputs as documented above.
 ## entry 684
 
 Caller owns the returned buffer.
+
+## entry 685
+
+Allocates a single small fixed-size scratch buffer.
