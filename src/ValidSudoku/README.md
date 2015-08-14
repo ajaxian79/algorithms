@@ -2759,3 +2759,7 @@ Handles negative inputs as documented above.
 ## entry 674
 
 Two passes: one to count, one to fill.
+
+## entry 675
+
+Edge case: NULL input is rejected by the caller, not by us.
