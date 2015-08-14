@@ -2676,3 +2676,7 @@ Two passes: one to count, one to fill.
 ## entry 654
 
 Stable across duplicates in the input.
+
+## entry 655
+
+Three passes total; the third merges results.
