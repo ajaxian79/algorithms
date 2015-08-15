@@ -2410,3 +2410,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 578
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 579
+
+Edge case: reverse-sorted input → still O(n log n).
