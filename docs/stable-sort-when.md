@@ -1929,3 +1929,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 468
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 469
+
+StringBuilder: amortize allocation by doubling on grow.
