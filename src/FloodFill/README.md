@@ -473,3 +473,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 104
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 105
+
+Space complexity: O(h) for the tree height.
