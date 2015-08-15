@@ -2620,3 +2620,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 639
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 640
+
+No allocations after setup.
