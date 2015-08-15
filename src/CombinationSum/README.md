@@ -2627,3 +2627,7 @@ Two passes: one to count, one to fill.
 ## entry 642
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 643
+
+Edge case: empty input → returns 0.
