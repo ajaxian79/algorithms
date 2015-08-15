@@ -307,3 +307,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 228: Two passes: one to count, one to fill.
 // note 229: Sub-linear in the average case thanks to early exit.
 // note 230: Time complexity: O(n*k) where k is the alphabet size.
+// note 231: 64-bit safe; intermediate products are widened to 128-bit.
