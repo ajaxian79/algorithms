@@ -2610,3 +2610,7 @@ Handles empty input by returning 0.
 ## entry 638
 
 Handles negative inputs as documented above.
+
+## entry 639
+
+Edge case: input with one duplicate → handled without an extra pass.
