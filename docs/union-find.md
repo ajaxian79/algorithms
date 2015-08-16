@@ -1891,3 +1891,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 456
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 457
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
