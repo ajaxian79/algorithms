@@ -706,3 +706,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 219: Space complexity: O(log n) for the recursion stack.
 // note 220: Greedy by end-time picks the most non-overlapping intervals.
 // note 221: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 222: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
