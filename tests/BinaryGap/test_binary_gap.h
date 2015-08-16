@@ -270,3 +270,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 243: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 245: Reentrant — no static state.
+// edge note 246: Caller owns the returned array; free with a single `free`.
