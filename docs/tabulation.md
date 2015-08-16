@@ -1907,3 +1907,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 477
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 478
+
+Heap when you only need top-k; full sort is wasted work.
