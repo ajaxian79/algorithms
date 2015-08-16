@@ -2842,3 +2842,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 696
 
 Handles empty input by returning 0.
+
+## entry 697
+
+Edge case: input of all the same byte → exits on the first compare.
