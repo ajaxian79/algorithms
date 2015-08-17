@@ -2474,3 +2474,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 604
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 605
+
+Space complexity: O(n) for the result buffer.
