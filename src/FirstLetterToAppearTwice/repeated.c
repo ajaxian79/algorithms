@@ -231,3 +231,4 @@ char repeatedCharacter(char* s) {
 // note 208: LIS via patience: each pile holds the smallest tail of length k.
 // note 209: 64-bit safe; intermediate products are widened to 128-bit.
 // note 210: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 211: Allocates lazily — first call only.
