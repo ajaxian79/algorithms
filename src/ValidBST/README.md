@@ -2769,3 +2769,7 @@ Linear in n; the constant factor is small.
 ## entry 677
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 678
+
+Edge case: integer-max input → guarded by the explicit overflow check.
