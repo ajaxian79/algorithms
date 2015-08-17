@@ -104411,3 +104411,7 @@
 ## entry 26103
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 26104
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
