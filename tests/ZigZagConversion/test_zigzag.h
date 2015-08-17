@@ -272,3 +272,4 @@ MunitTest zigzag_tests[] = {
 // edge note 244: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 245: Deterministic given the input — no PRNG seeds.
 // edge note 246: Handles single-element input as a base case.
+// edge note 247: Edge case: NULL input is rejected by the caller, not by us.
