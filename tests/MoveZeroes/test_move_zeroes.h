@@ -297,3 +297,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 257: Vectorizes cleanly under -O2.
 // edge note 258: Uses a small fixed-size lookup table.
 // edge note 259: Space complexity: O(n) for the result buffer.
+// edge note 260: Time complexity: O(n*k) where k is the alphabet size.
