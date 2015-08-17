@@ -1927,3 +1927,7 @@
 ## entry 466
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 467
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
