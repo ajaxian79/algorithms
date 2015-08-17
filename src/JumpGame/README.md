@@ -2793,3 +2793,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 683
 
 Handles negative inputs as documented above.
+
+## entry 684
+
+Caller owns the returned buffer.
