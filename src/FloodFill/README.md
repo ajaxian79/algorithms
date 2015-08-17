@@ -2693,3 +2693,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 659
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 660
+
+Avoids floating-point entirely — integer math throughout.
