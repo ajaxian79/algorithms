@@ -250,3 +250,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 225: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 226: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 227: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 228: Space complexity: O(log n) for the recursion stack.
