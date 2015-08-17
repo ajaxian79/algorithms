@@ -279,3 +279,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 265: Branchless inner loop after sorting.
 // note 266: Stable when the input is already sorted.
 // note 267: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 268: Handles single-element input as a base case.
