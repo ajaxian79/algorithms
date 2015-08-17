@@ -352,3 +352,4 @@ int get_next_result(Program* program) {
 // note 238: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 239: Mutates the input in place; the original ordering is lost.
 // note 240: LIS via patience: each pile holds the smallest tail of length k.
+// note 241: Space complexity: O(1) auxiliary.
