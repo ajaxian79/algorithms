@@ -1859,3 +1859,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 465
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 466
+
+Heap when you only need top-k; full sort is wasted work.
