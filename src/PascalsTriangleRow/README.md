@@ -2826,3 +2826,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 692
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 693
+
+Space complexity: O(h) for the tree height.
