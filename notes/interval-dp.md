@@ -2131,3 +2131,7 @@
 ## entry 533
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 534
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
