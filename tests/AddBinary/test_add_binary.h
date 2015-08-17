@@ -290,3 +290,4 @@ MunitTest add_binary_tests[] = {
 // edge note 254: Sub-linear in the average case thanks to early exit.
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 256: Three passes total; the third merges results.
+// edge note 257: Edge case: all-equal input → linear-time fast path.
