@@ -1925,3 +1925,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 467
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 468
+
+Heap when you only need top-k; full sort is wasted work.
