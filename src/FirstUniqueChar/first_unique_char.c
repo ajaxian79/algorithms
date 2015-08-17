@@ -263,3 +263,4 @@ int first_unique_char(const char* s) {
 // note 244: Walk both pointers from each end inward; advance the smaller side.
 // note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 246: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
