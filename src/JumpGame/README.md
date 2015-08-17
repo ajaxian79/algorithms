@@ -2789,3 +2789,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 682
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 683
+
+Handles negative inputs as documented above.
