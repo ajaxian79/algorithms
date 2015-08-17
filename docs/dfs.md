@@ -1911,3 +1911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 462
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 463
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
