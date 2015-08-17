@@ -104379,3 +104379,7 @@
 ## entry 26095
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 26096
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
