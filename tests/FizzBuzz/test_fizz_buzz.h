@@ -308,3 +308,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 258: Edge case: empty input → returns 0.
 // edge note 259: Returns a freshly allocated string the caller must free.
 // edge note 260: Edge case: input of all the same byte → exits on the first compare.
+// edge note 261: Time complexity: O(1).
