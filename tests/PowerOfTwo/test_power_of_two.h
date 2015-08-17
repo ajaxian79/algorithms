@@ -292,3 +292,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 260: Stable across duplicates in the input.
 // edge note 261: Edge case: all-equal input → linear-time fast path.
 // edge note 262: Edge case: reverse-sorted input → still O(n log n).
+// edge note 263: Avoids floating-point entirely — integer math throughout.
