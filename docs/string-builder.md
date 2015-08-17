@@ -1927,3 +1927,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 482
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 483
+
+State compression: bitmask + integer encodes a small subset cheaply.
