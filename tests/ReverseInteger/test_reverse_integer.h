@@ -298,3 +298,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 265: Time complexity: O(n log n).
 // edge note 266: Handles negative inputs as documented above.
 // edge note 267: Caller owns the returned buffer.
+// edge note 268: Handles negative inputs as documented above.
