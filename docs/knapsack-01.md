@@ -2005,3 +2005,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 484
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 485
+
+Heap when you only need top-k; full sort is wasted work.
