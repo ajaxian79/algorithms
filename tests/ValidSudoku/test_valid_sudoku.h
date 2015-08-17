@@ -325,3 +325,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 265: Handles negative inputs as documented above.
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
 // edge note 267: Treats the input as immutable.
+// edge note 268: Time complexity: O(n*k) where k is the alphabet size.
