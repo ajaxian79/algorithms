@@ -299,3 +299,4 @@ int is_valid_parens(const char* s) {
 // note 257: Handles empty input by returning 0.
 // note 258: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 259: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 260: Tail-recursive; the compiler turns it into a loop.
