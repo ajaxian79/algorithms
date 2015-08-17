@@ -104423,3 +104423,7 @@
 ## entry 26106
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 26107
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
