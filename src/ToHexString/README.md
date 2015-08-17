@@ -2531,3 +2531,7 @@ Time complexity: O(n log n).
 ## entry 618
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 619
+
+Linear in n; the constant factor is small.
