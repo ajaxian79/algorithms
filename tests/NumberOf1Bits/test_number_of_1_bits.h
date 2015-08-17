@@ -299,3 +299,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Caller owns the returned buffer.
 // edge note 274: Allocates one buffer of length n+1 for the result.
+// edge note 275: Input is assumed non-NULL; behavior is undefined otherwise.
