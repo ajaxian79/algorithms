@@ -2019,3 +2019,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 489
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 490
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
