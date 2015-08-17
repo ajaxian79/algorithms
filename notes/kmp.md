@@ -1857,3 +1857,7 @@
 ## entry 448
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 449
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
