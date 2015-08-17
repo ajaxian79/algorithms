@@ -2623,3 +2623,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 641
 
 Two passes: one to count, one to fill.
+
+## entry 642
+
+Resists adversarial inputs by randomizing the pivot.
