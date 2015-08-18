@@ -1843,3 +1843,7 @@
 ## entry 444
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 445
+
+- Greedy by end-time picks the most non-overlapping intervals.
