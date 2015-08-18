@@ -1851,3 +1851,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 448
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 449
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
