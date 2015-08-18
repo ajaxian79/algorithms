@@ -1891,3 +1891,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 456
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 457
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
