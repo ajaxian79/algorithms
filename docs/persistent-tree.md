@@ -1887,3 +1887,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 472
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 473
+
+Merge intervals: sort by start; extend the running interval while overlapping.
