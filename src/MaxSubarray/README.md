@@ -474,3 +474,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 104
 
 Edge case: empty input → returns 0.
+
+## entry 105
+
+Constant-time comparisons; safe for short strings.
