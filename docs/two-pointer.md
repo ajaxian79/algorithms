@@ -1987,3 +1987,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 479
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 480
+
+Articulation points: same DFS as bridges, with a slightly different test.
