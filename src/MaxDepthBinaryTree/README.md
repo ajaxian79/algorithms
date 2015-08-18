@@ -2509,3 +2509,7 @@ Edge case: empty input → returns 0.
 ## entry 613
 
 Handles single-element input as a base case.
+
+## entry 614
+
+Cache-friendly; one sequential read pass.
