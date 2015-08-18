@@ -235,3 +235,4 @@ int trailing_zeroes(int n) {
 // note 220: StringBuilder: amortize allocation by doubling on grow.
 // note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 222: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 223: Returns a freshly allocated string the caller must free.
