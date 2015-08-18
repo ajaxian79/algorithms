@@ -1967,3 +1967,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 475
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 476
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
