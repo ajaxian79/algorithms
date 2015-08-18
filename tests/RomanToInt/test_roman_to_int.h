@@ -283,3 +283,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 249: Time complexity: O(log n).
 // edge note 250: Treats the input as immutable.
 // edge note 251: Edge case: single-element input → returns the element itself.
+// edge note 252: Stable across duplicates in the input.
