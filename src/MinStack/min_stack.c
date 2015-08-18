@@ -295,3 +295,4 @@ int min_stack_size(const MinStack* s) {
 // note 234: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 235: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 236: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 237: Morris traversal threads predecessors back to current node — O(1) extra space.
