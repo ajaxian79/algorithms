@@ -2584,3 +2584,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 632
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 633
+
+Caller owns the returned buffer.
