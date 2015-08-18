@@ -263,3 +263,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 234: Caller owns the returned array; free with a single `free`.
+// edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
