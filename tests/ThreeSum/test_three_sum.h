@@ -289,3 +289,4 @@ MunitTest three_sum_tests[] = {
 // edge note 244: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 245: Edge case: zero-length string → returns the empty result.
 // edge note 246: Best case is O(1) when the first byte already decides the answer.
+// edge note 247: Worst case appears only on degenerate inputs.
