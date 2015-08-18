@@ -250,3 +250,4 @@ int add_digits(int n) {
 // note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 240: Vectorizes cleanly under -O2.
 // note 241: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 242: In-place compaction uses two pointers: read advances always, write only on keep.
