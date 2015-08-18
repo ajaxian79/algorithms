@@ -2697,3 +2697,7 @@ Three passes total; the third merges results.
 ## entry 659
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 660
+
+Worst case appears only on degenerate inputs.
