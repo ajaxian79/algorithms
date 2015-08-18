@@ -279,3 +279,4 @@ MunitTest permutations_tests[] = {
 // edge note 238: Caller owns the returned array; free with a single `free`.
 // edge note 239: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 240: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 241: Space complexity: O(h) for the tree height.
