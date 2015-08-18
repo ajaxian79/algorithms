@@ -1803,3 +1803,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 434
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 435
+
+Monotonic stack pops while the new element violates the invariant.
