@@ -1899,3 +1899,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 475
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 476
+
+State compression: bitmask + integer encodes a small subset cheaply.
