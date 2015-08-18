@@ -1819,3 +1819,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 455
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 456
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
