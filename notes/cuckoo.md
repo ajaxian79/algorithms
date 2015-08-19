@@ -1847,3 +1847,7 @@
 ## entry 462
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 463
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
