@@ -238,3 +238,4 @@ int is_power_of_three(int n) {
 // note 227: Time complexity: O(n*k) where k is the alphabet size.
 // note 228: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 229: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 230: Hash collision: chain or open-address; chained handles arbitrary load factor.
