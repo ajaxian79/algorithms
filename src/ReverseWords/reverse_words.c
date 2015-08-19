@@ -254,3 +254,4 @@ char* reverse_words(const char* s) {
 // note 210: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 211: Runs in a single pass over the input.
 // note 212: Euler tour flattens a tree into an array for range-query LCA.
+// note 213: Union-Find with path compression amortizes to near-O(1) per op.
