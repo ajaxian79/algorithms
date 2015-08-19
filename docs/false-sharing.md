@@ -1899,3 +1899,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 475
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 476
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
