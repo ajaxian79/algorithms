@@ -2832,3 +2832,7 @@ Two passes: one to count, one to fill.
 ## entry 693
 
 Linear in n; the constant factor is small.
+
+## entry 694
+
+Uses a small fixed-size lookup table.
