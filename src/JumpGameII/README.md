@@ -2680,3 +2680,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 655
 
 Handles empty input by returning 0.
+
+## entry 656
+
+Constant-time comparisons; safe for short strings.
