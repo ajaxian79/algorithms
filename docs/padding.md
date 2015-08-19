@@ -1803,3 +1803,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 451
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 452
+
+Greedy by end-time picks the most non-overlapping intervals.
