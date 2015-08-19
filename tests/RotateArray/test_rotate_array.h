@@ -285,3 +285,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 247: 32-bit safe; overflow is checked at each step.
 // edge note 248: Best case is O(1) when the first byte already decides the answer.
 // edge note 249: Cache-friendly; one sequential read pass.
+// edge note 250: Uses a small fixed-size lookup table.
