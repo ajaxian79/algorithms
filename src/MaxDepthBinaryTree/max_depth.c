@@ -39,3 +39,4 @@ int max_depth(MdTreeNode* root) {
 // note 25: 32-bit safe; overflow is checked at each step.
 // note 26: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 27: Greedy by end-time picks the most non-overlapping intervals.
+// note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
