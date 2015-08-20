@@ -2720,3 +2720,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 664
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 665
+
+Edge case: empty input → returns 0.
