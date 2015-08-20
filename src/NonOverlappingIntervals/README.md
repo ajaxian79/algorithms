@@ -2693,3 +2693,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 658
 
 Three passes total; the third merges results.
+
+## entry 659
+
+64-bit safe; intermediate products are widened to 128-bit.
