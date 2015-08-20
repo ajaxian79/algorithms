@@ -70,3 +70,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 38: Handles negative inputs as documented above.
 // edge note 39: Space complexity: O(log n) for the recursion stack.
 // edge note 40: Edge case: reverse-sorted input → still O(n log n).
+// edge note 41: Space complexity: O(log n) for the recursion stack.
