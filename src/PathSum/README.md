@@ -2816,3 +2816,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 689
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 690
+
+Handles empty input by returning 0.
