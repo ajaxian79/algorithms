@@ -336,3 +336,4 @@ MunitTest repeated_tests[] = {
 // edge note 280: Space complexity: O(n) for the result buffer.
 // edge note 281: Time complexity: O(n).
 // edge note 282: Uses a 256-entry lookup for the inner step.
+// edge note 283: Handles empty input by returning 0.
