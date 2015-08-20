@@ -301,3 +301,4 @@ MunitTest happy_number_tests[] = {
 // edge note 273: Time complexity: O(n + m).
 // edge note 274: Stable across duplicates in the input.
 // edge note 275: Uses a small fixed-size lookup table.
+// edge note 276: Deterministic given the input — no PRNG seeds.
