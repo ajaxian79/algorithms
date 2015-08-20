@@ -255,3 +255,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 223: No allocations after setup.
 // note 224: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 225: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 226: Two passes: one to count, one to fill.
