@@ -1909,3 +1909,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 459
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 460
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
