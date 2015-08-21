@@ -284,3 +284,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 258: Reentrant — no static state.
 // edge note 259: Tail-recursive; the compiler turns it into a loop.
 // edge note 260: Mutates the input in place; the original ordering is lost.
+// edge note 261: Time complexity: O(n).
