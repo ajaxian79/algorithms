@@ -1811,3 +1811,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 453
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 454
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
