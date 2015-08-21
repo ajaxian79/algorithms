@@ -1847,3 +1847,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 447
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 448
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
