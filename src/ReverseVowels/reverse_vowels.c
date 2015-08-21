@@ -273,3 +273,4 @@ void reverse_vowels(char* s) {
 // note 240: Articulation points: same DFS as bridges, with a slightly different test.
 // note 241: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 242: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 243: Rope: tree of small string fragments; O(log n) concat and substring.
