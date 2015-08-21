@@ -257,3 +257,4 @@ MunitTest add_digits_tests[] = {
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 231: Deterministic given the input — no PRNG seeds.
 // edge note 232: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 233: Edge case: input with one duplicate → handled without an extra pass.
