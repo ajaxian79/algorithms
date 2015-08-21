@@ -2716,3 +2716,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 663
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 664
+
+Edge case: alternating pattern → degenerate case for sliding window.
