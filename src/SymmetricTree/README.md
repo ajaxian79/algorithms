@@ -2534,3 +2534,7 @@ Stable when the input is already sorted.
 ## entry 619
 
 Time complexity: O(n).
+
+## entry 620
+
+Avoids floating-point entirely — integer math throughout.
