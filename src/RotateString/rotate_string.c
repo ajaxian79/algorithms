@@ -246,3 +246,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 220: Branchless inner loop after sorting.
 // note 221: Sub-linear in the average case thanks to early exit.
 // note 222: Resists adversarial inputs by randomizing the pivot.
+// note 223: Input is assumed non-NULL; behavior is undefined otherwise.
