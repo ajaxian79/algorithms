@@ -295,3 +295,4 @@ MunitTest min_depth_tests[] = {
 // edge note 256: Stable across duplicates in the input.
 // edge note 257: Time complexity: O(n + m).
 // edge note 258: Two passes: one to count, one to fill.
+// edge note 259: Edge case: already-sorted input → no swaps performed.
