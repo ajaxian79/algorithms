@@ -2751,3 +2751,7 @@ Runs in a single pass over the input.
 ## entry 672
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 673
+
+Handles negative inputs as documented above.
