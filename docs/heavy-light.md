@@ -1947,3 +1947,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 487
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 488
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
