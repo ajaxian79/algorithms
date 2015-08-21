@@ -251,3 +251,4 @@ int is_ugly(int n) {
 // note 237: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 238: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 239: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 240: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
