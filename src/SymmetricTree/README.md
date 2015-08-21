@@ -2530,3 +2530,7 @@ Three passes total; the third merges results.
 ## entry 618
 
 Stable when the input is already sorted.
+
+## entry 619
+
+Time complexity: O(n).
