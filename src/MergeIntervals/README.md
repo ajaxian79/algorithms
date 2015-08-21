@@ -2646,3 +2646,7 @@ Vectorizes cleanly under -O2.
 ## entry 646
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 647
+
+Resists adversarial inputs by randomizing the pivot.
