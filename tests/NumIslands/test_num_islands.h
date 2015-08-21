@@ -304,3 +304,4 @@ MunitTest num_islands_tests[] = {
 // edge note 264: Edge case: input with no peak → falls through to the default branch.
 // edge note 265: Allocates a single small fixed-size scratch buffer.
 // edge note 266: Stable across duplicates in the input.
+// edge note 267: Sub-linear in the average case thanks to early exit.
