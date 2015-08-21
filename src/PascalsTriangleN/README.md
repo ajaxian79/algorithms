@@ -2518,3 +2518,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 614
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 615
+
+Edge case: alternating pattern → degenerate case for sliding window.
