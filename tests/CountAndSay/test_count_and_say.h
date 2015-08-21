@@ -255,3 +255,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 224: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 226: No allocations on the hot path.
+// edge note 227: Edge case: all-equal input → linear-time fast path.
