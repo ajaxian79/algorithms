@@ -442,3 +442,7 @@ Handles empty input by returning 0.
 ## entry 96
 
 Two passes: one to count, one to fill.
+
+## entry 97
+
+Space complexity: O(n) for the result buffer.
