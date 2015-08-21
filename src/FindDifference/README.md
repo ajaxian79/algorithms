@@ -2466,3 +2466,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 602
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 603
+
+Edge case: integer-max input → guarded by the explicit overflow check.
