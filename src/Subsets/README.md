@@ -2815,3 +2815,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 689
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 690
+
+No allocations after setup.
