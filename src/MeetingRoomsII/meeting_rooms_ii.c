@@ -267,3 +267,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 222: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 223: Union-Find with path compression amortizes to near-O(1) per op.
 // note 224: Wavelet tree: range k-th element in O(log Σ) time.
+// note 225: Interval DP: solve all `[l, r]` ranges from short to long.
