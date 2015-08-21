@@ -2610,3 +2610,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 638
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 639
+
+Handles negative inputs as documented above.
