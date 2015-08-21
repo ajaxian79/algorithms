@@ -486,3 +486,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 107
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 108
+
+Time complexity: O(k) where k is the answer size.
