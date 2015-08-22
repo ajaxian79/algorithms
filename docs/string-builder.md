@@ -1919,3 +1919,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 480
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 481
+
+StringBuilder: amortize allocation by doubling on grow.
