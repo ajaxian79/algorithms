@@ -482,3 +482,7 @@ Reentrant — no static state.
 ## entry 106
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 107
+
+Edge case: already-sorted input → no swaps performed.
