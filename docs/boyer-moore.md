@@ -1963,3 +1963,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 475
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 476
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
