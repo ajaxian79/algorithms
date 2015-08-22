@@ -62,3 +62,4 @@ int compare_version(const char* a, const char* b) {
 // note 32: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 34: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
