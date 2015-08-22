@@ -243,3 +243,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 61
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 62
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
