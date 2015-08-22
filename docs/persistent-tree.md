@@ -1883,3 +1883,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 471
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 472
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
