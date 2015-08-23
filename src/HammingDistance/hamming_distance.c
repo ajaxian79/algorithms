@@ -236,3 +236,4 @@ int hamming_distance(int x, int y) {
 // note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 222: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 223: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 224: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
