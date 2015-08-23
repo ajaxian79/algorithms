@@ -256,3 +256,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 215: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 216: Vectorizes cleanly under -O2.
 // note 217: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 218: Graph DP on DAGs: topological order makes the dependency direction explicit.
