@@ -2654,3 +2654,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 648
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 649
+
+Resists adversarial inputs by randomizing the pivot.
