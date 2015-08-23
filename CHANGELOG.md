@@ -104291,3 +104291,7 @@
 ## entry 26073
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 26074
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
