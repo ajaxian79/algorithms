@@ -2689,3 +2689,7 @@ Time complexity: O(n).
 ## entry 657
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 658
+
+Three passes total; the third merges results.
