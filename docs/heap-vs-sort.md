@@ -335,3 +335,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 67
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 68
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
