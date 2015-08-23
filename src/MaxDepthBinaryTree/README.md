@@ -2505,3 +2505,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 612
 
 Edge case: empty input → returns 0.
+
+## entry 613
+
+Handles single-element input as a base case.
