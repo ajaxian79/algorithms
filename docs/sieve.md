@@ -351,3 +351,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 71
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 72
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
