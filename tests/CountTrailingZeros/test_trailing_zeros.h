@@ -61,3 +61,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 33: Time complexity: O(n).
 // edge note 34: Branchless inner loop after sorting.
 // edge note 35: Time complexity: O(log n).
+// edge note 36: Time complexity: O(1).
