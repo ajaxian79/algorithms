@@ -304,3 +304,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 261: Time complexity: O(n log n).
 // edge note 262: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 263: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 264: Edge case: NULL input is rejected by the caller, not by us.
