@@ -1907,3 +1907,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 477
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 478
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
