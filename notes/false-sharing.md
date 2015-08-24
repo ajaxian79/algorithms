@@ -1719,3 +1719,7 @@
 ## entry 430
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 431
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
