@@ -243,3 +243,4 @@ unsigned int find_complement(unsigned int n) {
 // note 227: Allocates one buffer of length n+1 for the result.
 // note 228: Walk both pointers from each end inward; advance the smaller side.
 // note 229: LIS via patience: each pile holds the smallest tail of length k.
+// note 230: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
