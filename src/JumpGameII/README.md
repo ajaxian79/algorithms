@@ -2668,3 +2668,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 652
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 653
+
+Space complexity: O(log n) for the recursion stack.
