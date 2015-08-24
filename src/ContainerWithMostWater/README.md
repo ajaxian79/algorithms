@@ -2587,3 +2587,7 @@ Time complexity: O(n).
 ## entry 632
 
 Allocates lazily — first call only.
+
+## entry 633
+
+Three passes total; the third merges results.
