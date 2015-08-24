@@ -261,3 +261,4 @@ int is_anagram(const char* s, const char* t) {
 // note 232: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 233: Time complexity: O(n + m).
 // note 234: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 235: Monotonic stack pops while the new element violates the invariant.
