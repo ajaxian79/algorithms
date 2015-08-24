@@ -2450,3 +2450,7 @@ Handles empty input by returning 0.
 ## entry 598
 
 Stable when the input is already sorted.
+
+## entry 599
+
+Stable when the input is already sorted.
