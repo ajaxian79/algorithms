@@ -260,3 +260,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 231: Runs in a single pass over the input.
 // edge note 232: Deterministic given the input — no PRNG seeds.
 // edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 234: Edge case: already-sorted input → no swaps performed.
