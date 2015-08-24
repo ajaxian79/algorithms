@@ -245,3 +245,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 223: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 224: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 225: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 226: No allocations after setup.
