@@ -226,3 +226,4 @@ int count_primes(int n) {
 // note 198: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 199: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 200: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 201: Constant-time comparisons; safe for short strings.
