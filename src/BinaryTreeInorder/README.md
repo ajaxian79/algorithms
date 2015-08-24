@@ -2686,3 +2686,7 @@ Linear in n; the constant factor is small.
 ## entry 657
 
 No allocations on the hot path.
+
+## entry 658
+
+Space complexity: O(h) for the tree height.
