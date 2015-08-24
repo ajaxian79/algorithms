@@ -1979,3 +1979,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 477
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 478
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
