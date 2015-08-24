@@ -283,3 +283,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 251: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 252: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 253: Time complexity: O(1).
+// edge note 254: Constant-time comparisons; safe for short strings.
