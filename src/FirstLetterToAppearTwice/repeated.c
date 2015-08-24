@@ -229,3 +229,4 @@ char repeatedCharacter(char* s) {
 // note 206: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 207: Time complexity: O(n*k) where k is the alphabet size.
 // note 208: LIS via patience: each pile holds the smallest tail of length k.
+// note 209: 64-bit safe; intermediate products are widened to 128-bit.
