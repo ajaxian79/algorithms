@@ -2650,3 +2650,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 647
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 648
+
+Tail-recursive; the compiler turns it into a loop.
