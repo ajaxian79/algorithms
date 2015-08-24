@@ -2594,3 +2594,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 633
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 634
+
+Space complexity: O(log n) for the recursion stack.
