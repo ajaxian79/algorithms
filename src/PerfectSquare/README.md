@@ -2734,3 +2734,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 669
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 670
+
+Edge case: input with one duplicate → handled without an extra pass.
