@@ -2672,3 +2672,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 653
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 654
+
+Time complexity: O(k) where k is the answer size.
