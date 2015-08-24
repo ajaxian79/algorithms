@@ -104271,3 +104271,7 @@
 ## entry 26068
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 26069
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
