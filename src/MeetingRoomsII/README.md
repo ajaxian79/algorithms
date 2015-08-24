@@ -2638,3 +2638,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 644
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 645
+
+Time complexity: O(k) where k is the answer size.
