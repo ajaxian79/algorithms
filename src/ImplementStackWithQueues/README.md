@@ -2724,3 +2724,7 @@ Worst case appears only on degenerate inputs.
 ## entry 666
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 667
+
+Edge case: all-equal input → linear-time fast path.
