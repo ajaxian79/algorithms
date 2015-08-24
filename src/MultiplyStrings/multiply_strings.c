@@ -276,3 +276,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 226: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 227: Uses a 256-entry lookup for the inner step.
 // note 228: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 229: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
