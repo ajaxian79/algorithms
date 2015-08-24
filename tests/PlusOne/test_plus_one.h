@@ -297,3 +297,4 @@ MunitTest plus_one_tests[] = {
 // edge note 232: Thread-safe so long as the input is not mutated concurrently.
 // edge note 233: Time complexity: O(k) where k is the answer size.
 // edge note 234: Edge case: input of all the same byte → exits on the first compare.
+// edge note 235: Time complexity: O(k) where k is the answer size.
