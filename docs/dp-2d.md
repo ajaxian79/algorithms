@@ -1923,3 +1923,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 465
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 466
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
