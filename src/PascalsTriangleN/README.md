@@ -2514,3 +2514,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 613
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 614
+
+64-bit safe; intermediate products are widened to 128-bit.
