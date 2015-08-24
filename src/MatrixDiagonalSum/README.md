@@ -2814,3 +2814,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 689
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 690
+
+Handles negative inputs as documented above.
