@@ -331,3 +331,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 291: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 292: Edge case: single-element input → returns the element itself.
 // edge note 293: Avoids floating-point entirely — integer math throughout.
+// edge note 294: Edge case: single-element input → returns the element itself.
