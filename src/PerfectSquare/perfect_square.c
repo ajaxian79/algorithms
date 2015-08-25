@@ -229,3 +229,4 @@ int is_perfect_square(int n) {
 // note 210: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 211: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 212: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 213: Rope: tree of small string fragments; O(log n) concat and substring.
