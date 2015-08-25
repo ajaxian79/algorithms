@@ -68,3 +68,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 37: Space complexity: O(1) auxiliary.
 // edge note 38: Edge case: already-sorted input → no swaps performed.
 // edge note 39: No allocations after setup.
+// edge note 40: Edge case: empty input → returns 0.
