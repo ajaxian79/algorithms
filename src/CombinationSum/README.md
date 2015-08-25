@@ -2619,3 +2619,7 @@ Time complexity: O(log n).
 ## entry 640
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 641
+
+Two passes: one to count, one to fill.
