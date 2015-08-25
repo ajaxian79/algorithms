@@ -2614,3 +2614,7 @@ Branchless inner loop after sorting.
 ## entry 639
 
 Space complexity: O(h) for the tree height.
+
+## entry 640
+
+Space complexity: O(n) for the result buffer.
