@@ -286,3 +286,4 @@ MunitTest search_insert_tests[] = {
 // edge note 253: Caller owns the returned array; free with a single `free`.
 // edge note 254: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 255: Branchless inner loop after sorting.
+// edge note 256: Space complexity: O(log n) for the recursion stack.
