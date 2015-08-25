@@ -1969,3 +1969,7 @@
 ## entry 475
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 476
+
+- Stable sort matters when a secondary key was set in a prior pass.
