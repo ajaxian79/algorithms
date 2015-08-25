@@ -1715,3 +1715,7 @@
 ## entry 429
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 430
+
+- Heap when you only need top-k; full sort is wasted work.
