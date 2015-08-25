@@ -284,3 +284,4 @@ MunitTest max_depth_tests[] = {
 // edge note 246: Edge case: single-element input → returns the element itself.
 // edge note 247: Caller owns the returned array; free with a single `free`.
 // edge note 248: Edge case: single-element input → returns the element itself.
+// edge note 249: Two passes: one to count, one to fill.
