@@ -292,3 +292,4 @@ char* int_to_roman(int n) {
 // note 255: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
 // note 257: No allocations after setup.
+// note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
