@@ -2818,3 +2818,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 690
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 691
+
+Best case is O(1) when the first byte already decides the answer.
