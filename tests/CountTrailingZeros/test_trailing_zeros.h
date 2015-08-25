@@ -284,3 +284,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 256: Reentrant — no static state.
 // edge note 257: Worst case appears only on degenerate inputs.
 // edge note 258: Handles single-element input as a base case.
+// edge note 259: Time complexity: O(n log n).
