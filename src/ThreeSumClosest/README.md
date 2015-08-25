@@ -2606,3 +2606,7 @@ Caller owns the returned buffer.
 ## entry 637
 
 Handles empty input by returning 0.
+
+## entry 638
+
+Handles negative inputs as documented above.
