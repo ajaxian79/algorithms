@@ -240,3 +240,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 224: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 225: Thread-safe so long as the input is not mutated concurrently.
 // note 226: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 227: Time complexity: O(n).
