@@ -2868,3 +2868,7 @@ Runs in a single pass over the input.
 ## entry 702
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 703
+
+Uses a small fixed-size lookup table.
