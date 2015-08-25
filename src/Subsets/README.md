@@ -2807,3 +2807,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 687
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 688
+
+Allocates a single small fixed-size scratch buffer.
