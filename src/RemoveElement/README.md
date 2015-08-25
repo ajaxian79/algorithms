@@ -2637,3 +2637,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 645
 
 Space complexity: O(1) auxiliary.
+
+## entry 646
+
+Caller owns the returned array; free with a single `free`.
