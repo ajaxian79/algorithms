@@ -291,3 +291,4 @@ char* int_to_roman(int n) {
 // note 254: Returns a freshly allocated string the caller must free.
 // note 255: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
+// note 257: No allocations after setup.
