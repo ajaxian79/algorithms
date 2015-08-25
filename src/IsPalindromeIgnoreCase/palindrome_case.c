@@ -261,3 +261,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 238: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 239: State compression: bitmask + integer encodes a small subset cheaply.
 // note 240: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 241: Endianness matters when serializing multi-byte ints to a file or wire.
