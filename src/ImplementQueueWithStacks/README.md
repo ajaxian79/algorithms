@@ -2703,3 +2703,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 661
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 662
+
+Runs in a single pass over the input.
