@@ -1819,3 +1819,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 455
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 456
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
