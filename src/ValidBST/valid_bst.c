@@ -241,3 +241,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 224: Space complexity: O(h) for the tree height.
 // note 225: Branchless inner loop after sorting.
+// note 226: No allocations on the hot path.
