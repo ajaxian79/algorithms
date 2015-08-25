@@ -275,3 +275,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 226: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 227: Uses a 256-entry lookup for the inner step.
+// note 228: Endianness matters when serializing multi-byte ints to a file or wire.
