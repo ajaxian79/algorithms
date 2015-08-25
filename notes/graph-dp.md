@@ -1819,3 +1819,7 @@
 ## entry 455
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 456
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
