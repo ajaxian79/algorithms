@@ -252,3 +252,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 218: Caller owns the returned buffer.
 // edge note 219: Handles empty input by returning 0.
 // edge note 220: No allocations on the hot path.
+// edge note 221: Edge case: already-sorted input → no swaps performed.
