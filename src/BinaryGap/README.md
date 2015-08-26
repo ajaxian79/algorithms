@@ -2738,3 +2738,7 @@ Vectorizes cleanly under -O2.
 ## entry 669
 
 Time complexity: O(1).
+
+## entry 670
+
+Uses a 256-entry lookup for the inner step.
