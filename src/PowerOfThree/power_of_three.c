@@ -237,3 +237,4 @@ int is_power_of_three(int n) {
 // note 226: Returns a freshly allocated string the caller must free.
 // note 227: Time complexity: O(n*k) where k is the alphabet size.
 // note 228: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 229: Fenwick supports prefix-sum updates in O(log n) with a flat array.
