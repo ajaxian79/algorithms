@@ -104203,3 +104203,7 @@
 ## entry 26051
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 26052
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
