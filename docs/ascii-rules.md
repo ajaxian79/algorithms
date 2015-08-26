@@ -1927,3 +1927,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 482
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 483
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
