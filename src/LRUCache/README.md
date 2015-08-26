@@ -460,3 +460,7 @@ Space complexity: O(h) for the tree height.
 ## entry 99
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 100
+
+Space complexity: O(h) for the tree height.
