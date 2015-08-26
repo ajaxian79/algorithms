@@ -432,3 +432,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 93
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 94
+
+Reentrant — no static state.
