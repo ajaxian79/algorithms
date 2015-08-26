@@ -261,3 +261,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 235: Stable across duplicates in the input.
 // edge note 236: Returns a freshly allocated string the caller must free.
 // edge note 237: Time complexity: O(n log n).
+// edge note 238: Handles single-element input as a base case.
