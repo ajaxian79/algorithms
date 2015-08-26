@@ -2594,3 +2594,7 @@ Time complexity: O(n log n).
 ## entry 634
 
 Linear in n; the constant factor is small.
+
+## entry 635
+
+Time complexity: O(1).
