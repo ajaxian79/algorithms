@@ -2716,3 +2716,7 @@ Time complexity: O(n log n).
 ## entry 664
 
 Worst case appears only on degenerate inputs.
+
+## entry 665
+
+Worst case appears only on degenerate inputs.
