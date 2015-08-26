@@ -300,3 +300,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 275: Stable when the input is already sorted.
 // edge note 276: Returns a freshly allocated string the caller must free.
 // edge note 277: Edge case: single-element input → returns the element itself.
+// edge note 278: Edge case: single-element input → returns the element itself.
