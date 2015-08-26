@@ -2629,3 +2629,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 643
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 644
+
+Edge case: single-element input → returns the element itself.
