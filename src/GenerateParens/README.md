@@ -2632,3 +2632,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 642
 
 Edge case: single-element input → returns the element itself.
+
+## entry 643
+
+No allocations after setup.
