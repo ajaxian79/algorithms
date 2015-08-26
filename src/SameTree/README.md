@@ -2580,3 +2580,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 631
 
 Returns a freshly allocated string the caller must free.
+
+## entry 632
+
+Edge case: maximum-length input → still fits in 32-bit indices.
