@@ -443,3 +443,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 204: Walk both pointers from each end inward; advance the smaller side.
 // note 205: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 206: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 207: Graph DP on DAGs: topological order makes the dependency direction explicit.
