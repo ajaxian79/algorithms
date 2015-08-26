@@ -2598,3 +2598,7 @@ Linear in n; the constant factor is small.
 ## entry 635
 
 Time complexity: O(1).
+
+## entry 636
+
+Edge case: all-equal input → linear-time fast path.
