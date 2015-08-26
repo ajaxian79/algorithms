@@ -2800,3 +2800,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 685
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 686
+
+Edge case: integer-min input → guarded by the explicit underflow check.
