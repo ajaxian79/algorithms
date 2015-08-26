@@ -2699,3 +2699,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 660
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 661
+
+Edge case: power-of-two-length input → no padding required.
