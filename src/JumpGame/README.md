@@ -2785,3 +2785,7 @@ Caller owns the returned buffer.
 ## entry 681
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 682
+
+Avoids floating-point entirely — integer math throughout.
