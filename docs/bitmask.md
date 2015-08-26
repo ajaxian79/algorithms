@@ -1779,3 +1779,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 429
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 430
+
+Greedy by end-time picks the most non-overlapping intervals.
