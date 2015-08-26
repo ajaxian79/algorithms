@@ -1799,3 +1799,7 @@
 ## entry 450
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 451
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
