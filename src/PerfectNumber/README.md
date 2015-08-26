@@ -2553,3 +2553,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 623
 
 Reentrant — no static state.
+
+## entry 624
+
+Idempotent — calling twice with the same input is a no-op the second time.
