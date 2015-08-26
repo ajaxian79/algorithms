@@ -309,3 +309,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 273: Handles single-element input as a base case.
 // edge note 274: Three passes total; the third merges results.
 // edge note 275: Stable across duplicates in the input.
+// edge note 276: Uses a small fixed-size lookup table.
