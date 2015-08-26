@@ -1919,3 +1919,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 464
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 465
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
