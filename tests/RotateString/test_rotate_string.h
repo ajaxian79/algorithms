@@ -59,3 +59,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 32: Returns a freshly allocated string the caller must free.
 // edge note 33: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 34: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 35: Allocates a single small fixed-size scratch buffer.
