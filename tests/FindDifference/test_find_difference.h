@@ -258,3 +258,4 @@ MunitTest find_difference_tests[] = {
 // edge note 233: Stable across duplicates in the input.
 // edge note 234: Time complexity: O(log n).
 // edge note 235: No allocations after setup.
+// edge note 236: Time complexity: O(log n).
