@@ -104139,3 +104139,7 @@
 ## entry 26035
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 26036
+
+- Union-Find with path compression amortizes to near-O(1) per op.
