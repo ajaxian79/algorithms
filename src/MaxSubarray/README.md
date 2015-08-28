@@ -2754,3 +2754,7 @@ Branchless inner loop after sorting.
 ## entry 674
 
 Allocates lazily — first call only.
+
+## entry 675
+
+Thread-safe so long as the input is not mutated concurrently.
