@@ -2682,3 +2682,7 @@ Runs in a single pass over the input.
 ## entry 656
 
 Linear in n; the constant factor is small.
+
+## entry 657
+
+No allocations on the hot path.
