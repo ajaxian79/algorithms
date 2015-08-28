@@ -2838,3 +2838,7 @@ No allocations on the hot path.
 ## entry 695
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 696
+
+Handles empty input by returning 0.
