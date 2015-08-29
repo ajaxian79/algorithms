@@ -2501,3 +2501,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 611
 
 32-bit safe; overflow is checked at each step.
+
+## entry 612
+
+Edge case: empty input → returns 0.
