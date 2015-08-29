@@ -1895,3 +1895,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 474
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 475
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
