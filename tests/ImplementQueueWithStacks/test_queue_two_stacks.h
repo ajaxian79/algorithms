@@ -275,3 +275,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 242: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 243: Edge case: all-equal input → linear-time fast path.
 // edge note 244: Tail-recursive; the compiler turns it into a loop.
+// edge note 245: Mutates the input in place; the original ordering is lost.
