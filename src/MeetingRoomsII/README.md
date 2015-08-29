@@ -2634,3 +2634,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 643
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 644
+
+Thread-safe so long as the input is not mutated concurrently.
