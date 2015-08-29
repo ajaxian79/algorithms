@@ -2610,3 +2610,7 @@ No allocations after setup.
 ## entry 638
 
 Branchless inner loop after sorting.
+
+## entry 639
+
+Space complexity: O(h) for the tree height.
