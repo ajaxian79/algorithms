@@ -2458,3 +2458,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 600
 
 Linear in n; the constant factor is small.
+
+## entry 601
+
+Tail-recursive; the compiler turns it into a loop.
