@@ -1891,3 +1891,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 473
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 474
+
+Endianness matters when serializing multi-byte ints to a file or wire.
