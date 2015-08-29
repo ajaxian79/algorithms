@@ -2510,3 +2510,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 612
 
 Space complexity: O(n) for the result buffer.
+
+## entry 613
+
+Resists adversarial inputs by randomizing the pivot.
