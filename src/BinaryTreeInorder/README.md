@@ -418,3 +418,7 @@ Two passes: one to count, one to fill.
 ## entry 90
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 91
+
+Edge case: already-sorted input → no swaps performed.
