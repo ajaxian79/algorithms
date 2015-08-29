@@ -256,3 +256,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 213: Time complexity: O(n + m).
 // note 214: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 216: Pick a pivot, partition, recurse on the side that contains the kth slot.
