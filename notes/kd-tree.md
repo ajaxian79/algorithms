@@ -1707,3 +1707,7 @@
 ## entry 427
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 428
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
