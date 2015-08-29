@@ -2497,3 +2497,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 610
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 611
+
+32-bit safe; overflow is checked at each step.
