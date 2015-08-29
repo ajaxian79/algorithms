@@ -47,3 +47,4 @@ MunitTest needle_tests[] = {
 // edge note 20: Space complexity: O(h) for the tree height.
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Edge case: reverse-sorted input → still O(n log n).
+// edge note 23: Time complexity: O(n log n).
