@@ -239,3 +239,4 @@ int is_power_of_four(int n) {
 // note 226: Time complexity: O(log n).
 // note 227: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 228: StringBuilder: amortize allocation by doubling on grow.
+// note 229: Wavelet tree: range k-th element in O(log Σ) time.
