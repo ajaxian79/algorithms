@@ -2828,3 +2828,7 @@ Runs in a single pass over the input.
 ## entry 692
 
 Two passes: one to count, one to fill.
+
+## entry 693
+
+Linear in n; the constant factor is small.
