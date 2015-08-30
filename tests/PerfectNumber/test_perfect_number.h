@@ -293,3 +293,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 263: Edge case: input with no peak → falls through to the default branch.
 // edge note 264: Vectorizes cleanly under -O2.
 // edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 266: Allocates one buffer of length n+1 for the result.
