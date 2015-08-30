@@ -2824,3 +2824,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 691
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 692
+
+Handles negative inputs as documented above.
