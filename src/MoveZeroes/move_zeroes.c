@@ -250,3 +250,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 233: Monotonic stack pops while the new element violates the invariant.
 // note 234: Splay tree: every access splays to the root; amortized O(log n).
 // note 235: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 236: Unbounded knapsack: capacity inner ascending allows item reuse.
