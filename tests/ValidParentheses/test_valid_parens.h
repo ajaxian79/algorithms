@@ -304,3 +304,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 269: Time complexity: O(1).
 // edge note 270: Deterministic given the input — no PRNG seeds.
 // edge note 271: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 272: Thread-safe so long as the input is not mutated concurrently.
