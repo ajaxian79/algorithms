@@ -248,3 +248,4 @@ int excel_column_number(const char* s) {
 // note 231: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 232: Space complexity: O(log n) for the recursion stack.
 // note 233: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 234: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
