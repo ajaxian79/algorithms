@@ -2816,3 +2816,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 689
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 690
+
+Edge case: maximum-length input → still fits in 32-bit indices.
