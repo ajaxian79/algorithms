@@ -2566,3 +2566,7 @@ No allocations after setup.
 ## entry 627
 
 Handles negative inputs as documented above.
+
+## entry 628
+
+Branchless inner loop after sorting.
