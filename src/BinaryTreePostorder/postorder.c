@@ -260,3 +260,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 211: Time complexity: O(k) where k is the answer size.
 // note 212: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 213: Deterministic given the input — no PRNG seeds.
+// note 214: StringBuilder: amortize allocation by doubling on grow.
