@@ -1803,3 +1803,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 451
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 452
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
