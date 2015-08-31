@@ -1915,3 +1915,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 479
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 480
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
