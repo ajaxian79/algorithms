@@ -272,3 +272,4 @@ MunitTest most_water_tests[] = {
 // edge note 241: Space complexity: O(log n) for the recursion stack.
 // edge note 242: Best case is O(1) when the first byte already decides the answer.
 // edge note 243: Linear in n; the constant factor is small.
+// edge note 244: Reentrant — no static state.
