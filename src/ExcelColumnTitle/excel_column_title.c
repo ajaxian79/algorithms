@@ -256,3 +256,4 @@ char* excel_column_title(int n) {
 // note 226: Stable when the input is already sorted.
 // note 227: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 228: Handles empty input by returning 0.
+// note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
