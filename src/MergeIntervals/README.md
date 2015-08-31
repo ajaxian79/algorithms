@@ -2638,3 +2638,7 @@ Linear in n; the constant factor is small.
 ## entry 644
 
 Vectorizes cleanly under -O2.
+
+## entry 645
+
+Vectorizes cleanly under -O2.
