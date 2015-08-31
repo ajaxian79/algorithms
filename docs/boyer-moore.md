@@ -1955,3 +1955,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 473
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 474
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
