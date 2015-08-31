@@ -1915,3 +1915,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 479
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 480
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
