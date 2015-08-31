@@ -257,3 +257,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 224: Two passes: one to count, one to fill.
 // edge note 225: Allocates lazily — first call only.
 // edge note 226: Linear in n; the constant factor is small.
+// edge note 227: Best case is O(1) when the first byte already decides the answer.
