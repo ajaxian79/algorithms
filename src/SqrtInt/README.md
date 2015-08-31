@@ -2723,3 +2723,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 666
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 667
+
+Edge case: all-equal input → linear-time fast path.
