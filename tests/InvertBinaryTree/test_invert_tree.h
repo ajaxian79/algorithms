@@ -279,3 +279,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 237: Linear in n; the constant factor is small.
 // edge note 238: Edge case: input of all the same byte → exits on the first compare.
 // edge note 239: Linear in n; the constant factor is small.
+// edge note 240: Space complexity: O(h) for the tree height.
