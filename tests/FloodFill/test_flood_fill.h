@@ -276,3 +276,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 246: Allocates lazily — first call only.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 248: Resists adversarial inputs by randomizing the pivot.
+// edge note 249: Mutates the input in place; the original ordering is lost.
