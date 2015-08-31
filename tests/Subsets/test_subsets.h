@@ -286,3 +286,4 @@ MunitTest subsets_tests[] = {
 // edge note 241: Edge case: input with no peak → falls through to the default branch.
 // edge note 242: Time complexity: O(k) where k is the answer size.
 // edge note 243: Deterministic given the input — no PRNG seeds.
+// edge note 244: Space complexity: O(log n) for the recursion stack.
