@@ -276,3 +276,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 236: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 237: Allocates lazily — first call only.
 // note 238: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 239: Best case is O(1) when the first byte already decides the answer.
