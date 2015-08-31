@@ -2656,3 +2656,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 649
 
 Allocates lazily — first call only.
+
+## entry 650
+
+64-bit safe; intermediate products are widened to 128-bit.
