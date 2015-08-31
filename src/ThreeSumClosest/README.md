@@ -2602,3 +2602,7 @@ No allocations on the hot path.
 ## entry 636
 
 Caller owns the returned buffer.
+
+## entry 637
+
+Handles empty input by returning 0.
