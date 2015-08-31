@@ -278,3 +278,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 264: 64-bit safe; intermediate products are widened to 128-bit.
 // note 265: Branchless inner loop after sorting.
 // note 266: Stable when the input is already sorted.
+// note 267: Input is assumed non-NULL; behavior is undefined otherwise.
