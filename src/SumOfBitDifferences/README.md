@@ -2652,3 +2652,7 @@ Uses a small fixed-size lookup table.
 ## entry 648
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 649
+
+Allocates lazily — first call only.
