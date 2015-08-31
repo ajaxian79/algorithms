@@ -261,3 +261,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 230: Time complexity: O(n).
 // edge note 231: Mutates the input in place; the original ordering is lost.
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
+// edge note 233: Edge case: input with one duplicate → handled without an extra pass.
