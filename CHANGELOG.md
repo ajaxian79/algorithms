@@ -104079,3 +104079,7 @@
 ## entry 26020
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 26021
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
