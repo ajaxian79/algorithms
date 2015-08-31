@@ -1887,3 +1887,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 472
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 473
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
