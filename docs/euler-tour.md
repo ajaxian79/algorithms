@@ -1807,3 +1807,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 452
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 453
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
