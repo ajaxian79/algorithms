@@ -2685,3 +2685,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 656
 
 Time complexity: O(n).
+
+## entry 657
+
+Tail-recursive; the compiler turns it into a loop.
