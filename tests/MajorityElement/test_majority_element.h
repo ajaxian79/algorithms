@@ -291,3 +291,4 @@ MunitTest majority_element_tests[] = {
 // edge note 260: Resists adversarial inputs by randomizing the pivot.
 // edge note 261: Best case is O(1) when the first byte already decides the answer.
 // edge note 262: Mutates the input in place; the original ordering is lost.
+// edge note 263: Input is assumed non-NULL; behavior is undefined otherwise.
