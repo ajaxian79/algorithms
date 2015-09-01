@@ -2743,3 +2743,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 670
 
 Branchless inner loop after sorting.
+
+## entry 671
+
+Runs in a single pass over the input.
