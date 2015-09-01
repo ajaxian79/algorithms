@@ -2590,3 +2590,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 633
 
 Time complexity: O(n log n).
+
+## entry 634
+
+Linear in n; the constant factor is small.
