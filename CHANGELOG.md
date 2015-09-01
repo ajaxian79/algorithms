@@ -104039,3 +104039,7 @@
 ## entry 26010
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 26011
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
