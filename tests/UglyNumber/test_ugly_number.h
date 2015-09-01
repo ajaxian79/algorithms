@@ -305,3 +305,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 276: Space complexity: O(n) for the result buffer.
 // edge note 277: Time complexity: O(n).
 // edge note 278: Edge case: input with no peak → falls through to the default branch.
+// edge note 279: Returns a freshly allocated string the caller must free.
