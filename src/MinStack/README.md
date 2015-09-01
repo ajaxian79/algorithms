@@ -2442,3 +2442,7 @@ Runs in a single pass over the input.
 ## entry 596
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 597
+
+Handles empty input by returning 0.
