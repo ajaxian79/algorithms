@@ -1863,3 +1863,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 466
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 467
+
+Greedy by end-time picks the most non-overlapping intervals.
