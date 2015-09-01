@@ -2602,3 +2602,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 635
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 636
+
+Time complexity: O(1).
