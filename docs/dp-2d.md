@@ -1911,3 +1911,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 462
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 463
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
