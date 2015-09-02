@@ -247,3 +247,4 @@ char* convert_to_base7(int n) {
 // note 214: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 215: Allocates lazily — first call only.
 // note 216: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 217: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
