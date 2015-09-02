@@ -1803,3 +1803,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 451
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 452
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
