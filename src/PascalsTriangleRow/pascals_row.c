@@ -259,3 +259,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 229: Monotonic stack pops while the new element violates the invariant.
 // note 230: Constant-time comparisons; safe for short strings.
 // note 231: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 232: Backtracking template: choose, recurse, un-choose. Mutate then revert.
