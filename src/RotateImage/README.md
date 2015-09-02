@@ -2669,3 +2669,7 @@ Handles negative inputs as documented above.
 ## entry 652
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 653
+
+Uses a 256-entry lookup for the inner step.
