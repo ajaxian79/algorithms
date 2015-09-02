@@ -333,3 +333,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 278: Cache-friendly; one sequential read pass.
 // edge note 279: Edge case: all-equal input → linear-time fast path.
 // edge note 280: Time complexity: O(n).
+// edge note 281: Idempotent — calling twice with the same input is a no-op the second time.
