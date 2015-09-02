@@ -2750,3 +2750,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 673
 
 Branchless inner loop after sorting.
+
+## entry 674
+
+Allocates lazily — first call only.
