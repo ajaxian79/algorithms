@@ -1943,3 +1943,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 486
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 487
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
