@@ -2673,3 +2673,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 653
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 654
+
+Space complexity: O(h) for the tree height.
