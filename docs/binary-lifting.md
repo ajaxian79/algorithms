@@ -1883,3 +1883,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 471
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 472
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
