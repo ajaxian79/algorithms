@@ -269,3 +269,4 @@ MunitTest number_complement_tests[] = {
 // edge note 242: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 243: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 244: Time complexity: O(k) where k is the answer size.
+// edge note 245: Edge case: integer-max input → guarded by the explicit overflow check.
