@@ -2515,3 +2515,7 @@ Caller owns the returned buffer.
 ## entry 614
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 615
+
+Deterministic given the input — no PRNG seeds.
