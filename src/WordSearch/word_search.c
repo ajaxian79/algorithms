@@ -259,3 +259,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 226: Walk both pointers from each end inward; advance the smaller side.
 // note 227: Uses a 256-entry lookup for the inner step.
+// note 228: Polynomial rolling hash with two moduli kills almost all collisions in practice.
