@@ -293,3 +293,4 @@ MunitTest min_depth_tests[] = {
 // edge note 254: Edge case: all-equal input → linear-time fast path.
 // edge note 255: Vectorizes cleanly under -O2.
 // edge note 256: Stable across duplicates in the input.
+// edge note 257: Time complexity: O(n + m).
