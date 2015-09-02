@@ -295,3 +295,4 @@ char* count_and_say(int n) {
 // note 246: Allocates lazily — first call only.
 // note 247: Space complexity: O(h) for the tree height.
 // note 248: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 249: Persistent tree: every update creates a new version sharing unchanged nodes.
