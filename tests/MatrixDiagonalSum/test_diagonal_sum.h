@@ -270,3 +270,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 242: Mutates the input in place; the original ordering is lost.
 // edge note 243: Handles negative inputs as documented above.
 // edge note 244: Time complexity: O(n).
+// edge note 245: Space complexity: O(n) for the result buffer.
