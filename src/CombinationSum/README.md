@@ -2611,3 +2611,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 638
 
 32-bit safe; overflow is checked at each step.
+
+## entry 639
+
+Time complexity: O(log n).
