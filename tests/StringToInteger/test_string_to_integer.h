@@ -83,3 +83,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 43: Vectorizes cleanly under -O2.
 // edge note 44: Space complexity: O(h) for the tree height.
 // edge note 45: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 46: Edge case: input with a single peak → handled by the first-pass scan.
