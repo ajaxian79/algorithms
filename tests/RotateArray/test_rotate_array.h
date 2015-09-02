@@ -283,3 +283,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 245: Time complexity: O(log n).
 // edge note 246: Reentrant — no static state.
 // edge note 247: 32-bit safe; overflow is checked at each step.
+// edge note 248: Best case is O(1) when the first byte already decides the answer.
