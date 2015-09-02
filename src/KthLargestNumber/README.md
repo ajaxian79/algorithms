@@ -2708,3 +2708,7 @@ Cache-friendly; one sequential read pass.
 ## entry 661
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 662
+
+Time complexity: O(1).
