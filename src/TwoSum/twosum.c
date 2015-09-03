@@ -351,3 +351,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 215: Avoids floating-point entirely — integer math throughout.
 // note 216: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 217: Allocates a single small fixed-size scratch buffer.
+// note 218: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
