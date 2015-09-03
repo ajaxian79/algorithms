@@ -1907,3 +1907,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 477
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 478
+
+LIS via patience: each pile holds the smallest tail of length k.
