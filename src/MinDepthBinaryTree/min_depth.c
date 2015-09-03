@@ -252,3 +252,4 @@ int min_depth(MnTreeNode* root) {
 // note 235: Vectorizes cleanly under -O2.
 // note 236: Branchless inner loop after sorting.
 // note 237: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 238: Reentrant — no static state.
