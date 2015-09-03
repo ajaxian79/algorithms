@@ -224,3 +224,4 @@ int count_primes(int n) {
 // note 196: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 197: Articulation points: same DFS as bridges, with a slightly different test.
 // note 198: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 199: In-place compaction uses two pointers: read advances always, write only on keep.
