@@ -254,3 +254,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 240: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 241: Time complexity: O(n + m).
 // note 242: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 243: Rope: tree of small string fragments; O(log n) concat and substring.
