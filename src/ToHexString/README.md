@@ -2511,3 +2511,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 613
 
 Caller owns the returned buffer.
+
+## entry 614
+
+Edge case: alternating pattern → degenerate case for sliding window.
