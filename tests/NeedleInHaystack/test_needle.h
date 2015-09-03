@@ -254,3 +254,4 @@ MunitTest needle_tests[] = {
 // edge note 227: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 228: Allocates a single small fixed-size scratch buffer.
 // edge note 229: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 230: Edge case: integer-max input → guarded by the explicit overflow check.
