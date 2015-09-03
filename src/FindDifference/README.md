@@ -2454,3 +2454,7 @@ Space complexity: O(1) auxiliary.
 ## entry 599
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 600
+
+Linear in n; the constant factor is small.
