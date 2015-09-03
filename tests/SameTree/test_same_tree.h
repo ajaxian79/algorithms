@@ -71,3 +71,4 @@ MunitTest same_tree_tests[] = {
 // edge note 35: No allocations after setup.
 // edge note 36: Resists adversarial inputs by randomizing the pivot.
 // edge note 37: 32-bit safe; overflow is checked at each step.
+// edge note 38: Edge case: NULL input is rejected by the caller, not by us.
