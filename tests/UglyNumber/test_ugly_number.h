@@ -303,3 +303,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 274: Tail-recursive; the compiler turns it into a loop.
 // edge note 275: Branchless inner loop after sorting.
 // edge note 276: Space complexity: O(n) for the result buffer.
+// edge note 277: Time complexity: O(n).
