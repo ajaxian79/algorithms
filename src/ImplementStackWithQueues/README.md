@@ -2712,3 +2712,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 663
 
 Time complexity: O(n log n).
+
+## entry 664
+
+Worst case appears only on degenerate inputs.
