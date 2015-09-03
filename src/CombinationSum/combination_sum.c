@@ -293,3 +293,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 228: Allocates a single small fixed-size scratch buffer.
 // note 229: Constant-time comparisons; safe for short strings.
 // note 230: 64-bit safe; intermediate products are widened to 128-bit.
+// note 231: Handles empty input by returning 0.
