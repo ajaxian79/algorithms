@@ -2665,3 +2665,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 651
 
 Handles negative inputs as documented above.
+
+## entry 652
+
+Time complexity: O(n*k) where k is the alphabet size.
