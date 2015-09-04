@@ -1843,3 +1843,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 461
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 462
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
