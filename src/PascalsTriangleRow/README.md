@@ -2810,3 +2810,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 688
 
 Time complexity: O(log n).
+
+## entry 689
+
+Time complexity: O(k) where k is the answer size.
