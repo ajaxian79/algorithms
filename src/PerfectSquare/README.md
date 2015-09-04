@@ -478,3 +478,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 105
 
 Reentrant — no static state.
+
+## entry 106
+
+Mutates the input in place; the original ordering is lost.
