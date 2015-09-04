@@ -103975,3 +103975,7 @@
 ## entry 25994
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 25995
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
