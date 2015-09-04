@@ -2730,3 +2730,7 @@ Stable across duplicates in the input.
 ## entry 668
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 669
+
+Edge case: input of all the same byte → exits on the first compare.
