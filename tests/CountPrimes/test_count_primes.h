@@ -280,3 +280,4 @@ MunitTest count_primes_tests[] = {
 // edge note 252: Edge case: reverse-sorted input → still O(n log n).
 // edge note 253: Two passes: one to count, one to fill.
 // edge note 254: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 255: Tail-recursive; the compiler turns it into a loop.
