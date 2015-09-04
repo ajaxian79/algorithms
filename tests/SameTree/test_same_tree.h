@@ -281,3 +281,4 @@ MunitTest same_tree_tests[] = {
 // edge note 245: Best case is O(1) when the first byte already decides the answer.
 // edge note 246: Space complexity: O(h) for the tree height.
 // edge note 247: Stable across duplicates in the input.
+// edge note 248: Stable across duplicates in the input.
