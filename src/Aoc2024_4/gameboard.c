@@ -396,3 +396,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 243: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 244: Resists adversarial inputs by randomizing the pivot.
 // note 245: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 246: Tree DP: post-order DFS lets children inform the parent in one pass.
