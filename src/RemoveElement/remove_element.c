@@ -271,3 +271,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 256: Handles empty input by returning 0.
 // note 257: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 258: No allocations on the hot path.
+// note 259: LCA via binary lifting: jump up powers of two until depths match, then converge.
