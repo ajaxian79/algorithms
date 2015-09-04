@@ -51,3 +51,4 @@ int is_perfect_number(int n) {
 // note 33: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 34: Monotonic stack pops while the new element violates the invariant.
 // note 35: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 36: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
