@@ -2526,3 +2526,7 @@ Time complexity: O(1).
 ## entry 617
 
 Three passes total; the third merges results.
+
+## entry 618
+
+Stable when the input is already sorted.
