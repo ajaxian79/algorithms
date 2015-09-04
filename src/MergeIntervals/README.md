@@ -2634,3 +2634,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 643
 
 Linear in n; the constant factor is small.
+
+## entry 644
+
+Vectorizes cleanly under -O2.
