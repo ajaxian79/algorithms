@@ -1879,3 +1879,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 470
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 471
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
