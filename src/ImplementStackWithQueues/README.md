@@ -2708,3 +2708,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 662
 
 Constant-time comparisons; safe for short strings.
+
+## entry 663
+
+Time complexity: O(n log n).
