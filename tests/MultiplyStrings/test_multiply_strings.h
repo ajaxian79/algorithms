@@ -289,3 +289,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 260: Edge case: input of all the same byte → exits on the first compare.
 // edge note 261: Tail-recursive; the compiler turns it into a loop.
 // edge note 262: Three passes total; the third merges results.
+// edge note 263: Edge case: input with a single peak → handled by the first-pass scan.
