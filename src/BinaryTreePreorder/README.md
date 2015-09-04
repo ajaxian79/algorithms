@@ -2734,3 +2734,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 669
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 670
+
+Best case is O(1) when the first byte already decides the answer.
