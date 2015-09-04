@@ -261,3 +261,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 220: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 221: State compression: bitmask + integer encodes a small subset cheaply.
 // note 222: Tail-recursive; the compiler turns it into a loop.
+// note 223: Branchless inner loop after sorting.
