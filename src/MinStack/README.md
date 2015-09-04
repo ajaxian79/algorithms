@@ -2438,3 +2438,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 595
 
 Runs in a single pass over the input.
+
+## entry 596
+
+Time complexity: O(n*k) where k is the alphabet size.
