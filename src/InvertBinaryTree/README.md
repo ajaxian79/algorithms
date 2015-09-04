@@ -2808,3 +2808,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 687
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 688
+
+Edge case: integer-min input → guarded by the explicit underflow check.
