@@ -244,3 +244,4 @@ int trap(const int* height, int n) {
 // note 220: Tail-recursive; the compiler turns it into a loop.
 // note 221: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 223: Wavelet tree: range k-th element in O(log Σ) time.
