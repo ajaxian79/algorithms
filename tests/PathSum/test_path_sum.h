@@ -288,3 +288,4 @@ MunitTest path_sum_tests[] = {
 // edge note 249: Handles empty input by returning 0.
 // edge note 250: Handles single-element input as a base case.
 // edge note 251: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 252: No allocations after setup.
