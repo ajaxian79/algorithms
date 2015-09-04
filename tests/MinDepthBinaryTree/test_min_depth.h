@@ -292,3 +292,4 @@ MunitTest min_depth_tests[] = {
 // edge note 253: Mutates the input in place; the original ordering is lost.
 // edge note 254: Edge case: all-equal input → linear-time fast path.
 // edge note 255: Vectorizes cleanly under -O2.
+// edge note 256: Stable across duplicates in the input.
