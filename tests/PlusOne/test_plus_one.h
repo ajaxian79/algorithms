@@ -295,3 +295,4 @@ MunitTest plus_one_tests[] = {
 // edge note 230: Returns a freshly allocated string the caller must free.
 // edge note 231: Caller owns the returned buffer.
 // edge note 232: Thread-safe so long as the input is not mutated concurrently.
+// edge note 233: Time complexity: O(k) where k is the answer size.
