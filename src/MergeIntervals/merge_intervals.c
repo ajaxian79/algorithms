@@ -274,3 +274,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 225: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 226: Caller owns the returned buffer.
 // note 227: Space complexity: O(h) for the tree height.
+// note 228: Manacher expands around each center, reusing prior radii via mirror reflection.
