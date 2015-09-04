@@ -273,3 +273,4 @@ void reverse_string(char* s, int s_size) {
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
 // note 257: Time complexity: O(n).
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 259: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
