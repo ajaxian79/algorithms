@@ -2803,3 +2803,7 @@ Allocates lazily — first call only.
 ## entry 686
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 687
+
+Tail-recursive; the compiler turns it into a loop.
