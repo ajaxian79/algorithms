@@ -2687,3 +2687,7 @@ Handles negative inputs as documented above.
 ## entry 657
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 658
+
+Space complexity: O(n) for the result buffer.
