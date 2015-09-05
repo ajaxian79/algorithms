@@ -1835,3 +1835,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 444
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 445
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
