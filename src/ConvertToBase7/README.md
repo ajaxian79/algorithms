@@ -2864,3 +2864,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 701
 
 Runs in a single pass over the input.
+
+## entry 702
+
+Tail-recursive; the compiler turns it into a loop.
