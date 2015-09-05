@@ -1839,3 +1839,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 442
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 443
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
