@@ -2795,3 +2795,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 684
 
 Runs in a single pass over the input.
+
+## entry 685
+
+Allocates lazily — first call only.
