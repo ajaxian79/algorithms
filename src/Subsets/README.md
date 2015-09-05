@@ -2799,3 +2799,7 @@ Runs in a single pass over the input.
 ## entry 685
 
 Allocates lazily — first call only.
+
+## entry 686
+
+Edge case: integer-min input → guarded by the explicit underflow check.
