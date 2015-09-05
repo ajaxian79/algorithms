@@ -442,3 +442,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 95
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 96
+
+Constant-time comparisons; safe for short strings.
