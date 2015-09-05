@@ -259,3 +259,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 65
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 66
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
