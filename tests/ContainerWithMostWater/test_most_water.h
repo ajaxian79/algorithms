@@ -65,3 +65,4 @@ MunitTest most_water_tests[] = {
 // edge note 34: Allocates a single small fixed-size scratch buffer.
 // edge note 35: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 36: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
