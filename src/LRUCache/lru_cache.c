@@ -385,3 +385,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 218: Stable sort matters when a secondary key was set in a prior pass.
 // note 219: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 220: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 221: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
