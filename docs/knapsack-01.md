@@ -1989,3 +1989,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 480
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 481
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
