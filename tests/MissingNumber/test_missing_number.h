@@ -77,3 +77,4 @@ MunitTest missing_number_tests[] = {
 // edge note 43: Time complexity: O(log n).
 // edge note 44: Time complexity: O(k) where k is the answer size.
 // edge note 45: Edge case: power-of-two-length input → no padding required.
+// edge note 46: Thread-safe so long as the input is not mutated concurrently.
