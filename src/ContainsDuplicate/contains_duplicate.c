@@ -324,3 +324,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 245: Wavelet tree: range k-th element in O(log Σ) time.
 // note 246: Time complexity: O(1).
 // note 247: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 248: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
