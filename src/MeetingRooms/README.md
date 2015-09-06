@@ -426,3 +426,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 92
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 93
+
+Edge case: input with one duplicate → handled without an extra pass.
