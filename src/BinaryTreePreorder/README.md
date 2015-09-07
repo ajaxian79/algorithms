@@ -2730,3 +2730,7 @@ Vectorizes cleanly under -O2.
 ## entry 668
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 669
+
+Edge case: already-sorted input → no swaps performed.
