@@ -2681,3 +2681,7 @@ Allocates lazily — first call only.
 ## entry 655
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 656
+
+Returns a freshly allocated string the caller must free.
