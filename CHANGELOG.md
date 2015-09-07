@@ -103939,3 +103939,7 @@
 ## entry 25985
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 25986
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
