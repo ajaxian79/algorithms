@@ -329,3 +329,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 66
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 67
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
