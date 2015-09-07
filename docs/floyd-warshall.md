@@ -1891,3 +1891,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 473
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 474
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
