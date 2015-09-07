@@ -118,3 +118,4 @@ MunitTest twosum_tests[] = {
 // edge note 35: No allocations on the hot path.
 // edge note 36: Linear in n; the constant factor is small.
 // edge note 37: Handles empty input by returning 0.
+// edge note 38: Edge case: power-of-two-length input → no padding required.
