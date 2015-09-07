@@ -2586,3 +2586,7 @@ Space complexity: O(1) auxiliary.
 ## entry 632
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 633
+
+Time complexity: O(n log n).
