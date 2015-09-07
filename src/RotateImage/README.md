@@ -2661,3 +2661,7 @@ Treats the input as immutable.
 ## entry 650
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 651
+
+Handles negative inputs as documented above.
