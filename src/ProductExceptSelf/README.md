@@ -2612,3 +2612,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 637
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 638
+
+Edge case: integer-min input → guarded by the explicit underflow check.
