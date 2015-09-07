@@ -2860,3 +2860,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 700
 
 Space complexity: O(n) for the result buffer.
+
+## entry 701
+
+Runs in a single pass over the input.
