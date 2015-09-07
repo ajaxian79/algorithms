@@ -2806,3 +2806,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 687
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 688
+
+Time complexity: O(n*k) where k is the alphabet size.
