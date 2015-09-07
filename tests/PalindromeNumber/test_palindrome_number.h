@@ -294,3 +294,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 259: Edge case: zero-length string → returns the empty result.
 // edge note 260: 32-bit safe; overflow is checked at each step.
 // edge note 261: Edge case: power-of-two-length input → no padding required.
+// edge note 262: Edge case: integer-min input → guarded by the explicit underflow check.
