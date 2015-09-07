@@ -273,3 +273,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 230: Mutates the input in place; the original ordering is lost.
 // edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 232: Treats the input as immutable.
+// edge note 233: Edge case: zero-length string → returns the empty result.
