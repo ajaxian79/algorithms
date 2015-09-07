@@ -291,3 +291,4 @@ MunitTest four_sum_tests[] = {
 // edge note 250: Caller owns the returned buffer.
 // edge note 251: Branchless inner loop after sorting.
 // edge note 252: Space complexity: O(log n) for the recursion stack.
+// edge note 253: Avoids floating-point entirely — integer math throughout.
