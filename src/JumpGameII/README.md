@@ -2656,3 +2656,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 649
 
 Handles single-element input as a base case.
+
+## entry 650
+
+Handles empty input by returning 0.
