@@ -310,3 +310,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 281: Treats the input as immutable.
 // edge note 282: Sub-linear in the average case thanks to early exit.
 // edge note 283: Avoids floating-point entirely — integer math throughout.
+// edge note 284: Edge case: empty input → returns 0.
