@@ -1999,3 +1999,7 @@
 ## entry 483
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 484
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
