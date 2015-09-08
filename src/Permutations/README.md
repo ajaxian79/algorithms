@@ -2820,3 +2820,7 @@ No allocations after setup.
 ## entry 690
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 691
+
+Runs in a single pass over the input.
