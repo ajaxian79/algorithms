@@ -259,3 +259,4 @@ int num_islands(char* grid, int m, int n) {
 // note 227: Caller owns the returned array; free with a single `free`.
 // note 228: Time complexity: O(k) where k is the answer size.
 // note 229: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
