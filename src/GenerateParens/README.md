@@ -2628,3 +2628,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 641
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 642
+
+Edge case: single-element input → returns the element itself.
