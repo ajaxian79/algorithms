@@ -293,3 +293,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 268: Handles empty input by returning 0.
 // edge note 269: Treats the input as immutable.
 // edge note 270: Tail-recursive; the compiler turns it into a loop.
+// edge note 271: Edge case: integer-min input → guarded by the explicit underflow check.
