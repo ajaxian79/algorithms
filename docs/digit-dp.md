@@ -1755,3 +1755,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 439
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 440
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
