@@ -1807,3 +1807,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 452
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 453
+
+Wavelet tree: range k-th element in O(log Σ) time.
