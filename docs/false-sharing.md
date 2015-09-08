@@ -1887,3 +1887,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 472
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 473
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
