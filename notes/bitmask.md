@@ -1925,3 +1925,7 @@
 ## entry 465
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 466
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
