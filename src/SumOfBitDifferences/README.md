@@ -2648,3 +2648,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 647
 
 Uses a small fixed-size lookup table.
+
+## entry 648
+
+Time complexity: O(n*k) where k is the alphabet size.
