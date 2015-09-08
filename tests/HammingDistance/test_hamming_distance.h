@@ -266,3 +266,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 241: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 242: Uses a small fixed-size lookup table.
 // edge note 243: Mutates the input in place; the original ordering is lost.
+// edge note 244: Mutates the input in place; the original ordering is lost.
