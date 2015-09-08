@@ -2715,3 +2715,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 664
 
 Uses a small fixed-size lookup table.
+
+## entry 665
+
+Uses a 256-entry lookup for the inner step.
