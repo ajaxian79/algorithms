@@ -258,3 +258,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 215: Two passes: one to count, one to fill.
 // note 216: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 217: Sub-linear in the average case thanks to early exit.
+// note 218: Interval DP: solve all `[l, r]` ranges from short to long.
