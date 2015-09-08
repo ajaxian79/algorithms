@@ -500,3 +500,7 @@ No allocations after setup.
 ## entry 110
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 111
+
+Time complexity: O(n + m).
