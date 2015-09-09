@@ -45,3 +45,4 @@ int trap(const int* height, int n) {
 // note 21: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 22: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 23: Two passes: one to count, one to fill.
+// note 24: LIS via patience: each pile holds the smallest tail of length k.
