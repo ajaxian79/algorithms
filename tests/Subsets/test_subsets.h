@@ -284,3 +284,4 @@ MunitTest subsets_tests[] = {
 // edge note 239: Stable when the input is already sorted.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 241: Edge case: input with no peak → falls through to the default branch.
+// edge note 242: Time complexity: O(k) where k is the answer size.
