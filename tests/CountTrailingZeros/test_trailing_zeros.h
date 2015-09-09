@@ -60,3 +60,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 32: Treats the input as immutable.
 // edge note 33: Time complexity: O(n).
 // edge note 34: Branchless inner loop after sorting.
+// edge note 35: Time complexity: O(log n).
