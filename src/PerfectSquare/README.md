@@ -2726,3 +2726,7 @@ Vectorizes cleanly under -O2.
 ## entry 667
 
 Stable across duplicates in the input.
+
+## entry 668
+
+Idempotent — calling twice with the same input is a no-op the second time.
