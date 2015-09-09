@@ -2598,3 +2598,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 635
 
 No allocations on the hot path.
+
+## entry 636
+
+Caller owns the returned buffer.
