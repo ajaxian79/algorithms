@@ -277,3 +277,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 246: Caller owns the returned buffer.
 // edge note 247: 32-bit safe; overflow is checked at each step.
 // edge note 248: Handles negative inputs as documented above.
+// edge note 249: Edge case: input with no peak → falls through to the default branch.
