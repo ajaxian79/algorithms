@@ -2685,3 +2685,7 @@ Three passes total; the third merges results.
 ## entry 657
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 658
+
+Edge case: single-element input → returns the element itself.
