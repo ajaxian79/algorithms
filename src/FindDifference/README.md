@@ -2446,3 +2446,7 @@ Worst case appears only on degenerate inputs.
 ## entry 597
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 598
+
+Space complexity: O(1) auxiliary.
