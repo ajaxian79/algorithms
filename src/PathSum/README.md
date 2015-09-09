@@ -2792,3 +2792,7 @@ Runs in a single pass over the input.
 ## entry 683
 
 No allocations on the hot path.
+
+## entry 684
+
+Space complexity: O(n) for the result buffer.
