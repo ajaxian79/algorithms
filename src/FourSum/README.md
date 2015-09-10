@@ -2624,3 +2624,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 641
 
 Two passes: one to count, one to fill.
+
+## entry 642
+
+Edge case: alternating pattern → degenerate case for sliding window.
