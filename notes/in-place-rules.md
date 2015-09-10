@@ -1927,3 +1927,7 @@
 ## entry 466
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 467
+
+- LIS via patience: each pile holds the smallest tail of length k.
