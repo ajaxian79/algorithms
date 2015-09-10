@@ -295,3 +295,4 @@ MunitTest add_strings_tests[] = {
 // edge note 259: Space complexity: O(1) auxiliary.
 // edge note 260: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 261: Handles empty input by returning 0.
+// edge note 262: Sub-linear in the average case thanks to early exit.
