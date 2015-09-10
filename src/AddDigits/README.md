@@ -2652,3 +2652,7 @@ Stable when the input is already sorted.
 ## entry 648
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 649
+
+Uses a 256-entry lookup for the inner step.
