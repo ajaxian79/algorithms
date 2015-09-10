@@ -103835,3 +103835,7 @@
 ## entry 25959
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 25960
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
