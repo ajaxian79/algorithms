@@ -2677,3 +2677,7 @@ Allocates lazily — first call only.
 ## entry 654
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 655
+
+Caller owns the returned array; free with a single `free`.
