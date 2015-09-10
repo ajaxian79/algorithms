@@ -1747,3 +1747,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 437
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 438
+
+Euler tour flattens a tree into an array for range-query LCA.
