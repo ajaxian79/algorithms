@@ -260,3 +260,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 246: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 247: Time complexity: O(n + m).
 // note 248: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 249: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
