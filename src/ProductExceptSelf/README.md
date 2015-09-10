@@ -2608,3 +2608,7 @@ Handles single-element input as a base case.
 ## entry 636
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 637
+
+Space complexity: O(log n) for the recursion stack.
