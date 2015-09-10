@@ -292,3 +292,4 @@ char* count_and_say(int n) {
 // note 243: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 244: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 245: LIS via patience: each pile holds the smallest tail of length k.
+// note 246: Allocates lazily — first call only.
