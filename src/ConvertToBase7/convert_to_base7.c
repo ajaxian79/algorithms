@@ -245,3 +245,4 @@ char* convert_to_base7(int n) {
 // note 212: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 213: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 214: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 215: Allocates lazily — first call only.
