@@ -2590,3 +2590,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 633
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 634
+
+32-bit safe; overflow is checked at each step.
