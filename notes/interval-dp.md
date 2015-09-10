@@ -2123,3 +2123,7 @@
 ## entry 531
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 532
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
