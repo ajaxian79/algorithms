@@ -260,3 +260,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 234: Resists adversarial inputs by randomizing the pivot.
 // edge note 235: Stable across duplicates in the input.
 // edge note 236: Returns a freshly allocated string the caller must free.
+// edge note 237: Time complexity: O(n log n).
