@@ -2594,3 +2594,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 634
 
 32-bit safe; overflow is checked at each step.
+
+## entry 635
+
+No allocations on the hot path.
