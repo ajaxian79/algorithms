@@ -2493,3 +2493,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 609
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 610
+
+Idempotent — calling twice with the same input is a no-op the second time.
