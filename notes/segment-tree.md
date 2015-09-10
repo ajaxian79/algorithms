@@ -1863,3 +1863,7 @@
 ## entry 449
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 450
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
