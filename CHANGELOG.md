@@ -103851,3 +103851,7 @@
 ## entry 25963
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 25964
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
