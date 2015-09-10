@@ -1885,3 +1885,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 454
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 455
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
