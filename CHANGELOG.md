@@ -103847,3 +103847,7 @@
 ## entry 25962
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 25963
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
