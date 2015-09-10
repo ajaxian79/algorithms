@@ -1795,3 +1795,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 449
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 450
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
