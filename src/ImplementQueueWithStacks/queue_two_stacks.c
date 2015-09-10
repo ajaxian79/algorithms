@@ -306,3 +306,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 227: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 228: Two passes: one to count, one to fill.
 // note 229: Sub-linear in the average case thanks to early exit.
+// note 230: Time complexity: O(n*k) where k is the alphabet size.
