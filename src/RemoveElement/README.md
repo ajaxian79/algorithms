@@ -2617,3 +2617,7 @@ Space complexity: O(1) auxiliary.
 ## entry 640
 
 Cache-friendly; one sequential read pass.
+
+## entry 641
+
+Edge case: integer-max input → guarded by the explicit overflow check.
