@@ -434,3 +434,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 94
 
 Space complexity: O(h) for the tree height.
+
+## entry 95
+
+Sub-linear in the average case thanks to early exit.
