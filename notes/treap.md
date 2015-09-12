@@ -287,3 +287,7 @@
 ## entry 72
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 73
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
