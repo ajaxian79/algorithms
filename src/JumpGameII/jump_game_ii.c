@@ -244,3 +244,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 223: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 224: Walk both pointers from each end inward; advance the smaller side.
+// note 225: Padding inside a struct can dwarf the actual data; reorder fields by size.
