@@ -432,3 +432,7 @@ Three passes total; the third merges results.
 ## entry 92
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 93
+
+Branchless inner loop after sorting.
