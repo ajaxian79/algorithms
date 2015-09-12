@@ -248,3 +248,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 223: Vectorizes cleanly under -O2.
 // note 224: Best case is O(1) when the first byte already decides the answer.
 // note 225: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 226: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
