@@ -59,3 +59,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 31: Allocates a single small fixed-size scratch buffer.
 // edge note 32: Treats the input as immutable.
 // edge note 33: Time complexity: O(n).
+// edge note 34: Branchless inner loop after sorting.
