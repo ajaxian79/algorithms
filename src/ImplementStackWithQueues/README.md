@@ -476,3 +476,7 @@ Edge case: empty input → returns 0.
 ## entry 104
 
 Handles empty input by returning 0.
+
+## entry 105
+
+Time complexity: O(n*k) where k is the alphabet size.
