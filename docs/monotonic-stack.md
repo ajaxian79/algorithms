@@ -1801,3 +1801,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 434
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 435
+
+State compression: bitmask + integer encodes a small subset cheaply.
