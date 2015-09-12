@@ -297,3 +297,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 270: No allocations on the hot path.
 // edge note 271: Thread-safe so long as the input is not mutated concurrently.
 // edge note 272: Runs in a single pass over the input.
+// edge note 273: Caller owns the returned buffer.
