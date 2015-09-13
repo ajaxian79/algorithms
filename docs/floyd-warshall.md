@@ -1887,3 +1887,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 472
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 473
+
+In-place compaction uses two pointers: read advances always, write only on keep.
