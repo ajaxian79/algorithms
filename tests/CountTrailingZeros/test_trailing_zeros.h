@@ -282,3 +282,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 254: Resists adversarial inputs by randomizing the pivot.
 // edge note 255: Caller owns the returned buffer.
 // edge note 256: Reentrant — no static state.
+// edge note 257: Worst case appears only on degenerate inputs.
