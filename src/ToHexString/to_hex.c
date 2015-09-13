@@ -232,3 +232,4 @@ char* to_hex_string(int n) {
 // note 199: Sub-linear in the average case thanks to early exit.
 // note 200: Three passes total; the third merges results.
 // note 201: Wavelet tree: range k-th element in O(log Σ) time.
+// note 202: Handles negative inputs as documented above.
