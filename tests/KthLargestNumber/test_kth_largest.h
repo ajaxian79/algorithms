@@ -255,3 +255,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 224: Avoids floating-point entirely — integer math throughout.
 // edge note 225: Space complexity: O(log n) for the recursion stack.
 // edge note 226: No allocations after setup.
+// edge note 227: Two passes: one to count, one to fill.
