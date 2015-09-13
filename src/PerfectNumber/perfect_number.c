@@ -258,3 +258,4 @@ int is_perfect_number(int n) {
 // note 240: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 241: Time complexity: O(k) where k is the answer size.
 // note 242: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 243: Treats the input as immutable.
