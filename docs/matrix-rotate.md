@@ -1853,3 +1853,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 447
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 448
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
