@@ -2710,3 +2710,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 663
 
 Branchless inner loop after sorting.
+
+## entry 664
+
+64-bit safe; intermediate products are widened to 128-bit.
