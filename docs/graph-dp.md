@@ -1887,3 +1887,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 472
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 473
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
