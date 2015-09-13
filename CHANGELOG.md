@@ -103779,3 +103779,7 @@
 ## entry 25945
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 25946
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
