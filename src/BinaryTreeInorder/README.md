@@ -2674,3 +2674,7 @@ Space complexity: O(1) auxiliary.
 ## entry 654
 
 Time complexity: O(n log n).
+
+## entry 655
+
+Runs in a single pass over the input.
