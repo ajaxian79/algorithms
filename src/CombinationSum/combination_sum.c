@@ -290,3 +290,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 225: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 226: Wavelet tree: range k-th element in O(log Σ) time.
 // note 227: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 228: Allocates a single small fixed-size scratch buffer.
