@@ -1847,3 +1847,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 462
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 463
+
+In-place compaction uses two pointers: read advances always, write only on keep.
