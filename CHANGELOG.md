@@ -103783,3 +103783,7 @@
 ## entry 25946
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 25947
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
