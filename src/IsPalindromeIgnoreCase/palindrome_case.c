@@ -258,3 +258,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 235: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 236: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 237: Reentrant — no static state.
+// note 238: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
