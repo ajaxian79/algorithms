@@ -308,3 +308,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 242: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 243: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 244: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
