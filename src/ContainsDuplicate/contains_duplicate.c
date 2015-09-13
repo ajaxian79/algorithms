@@ -321,3 +321,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 242: Wavelet tree: range k-th element in O(log Σ) time.
 // note 243: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 244: Reentrant — no static state.
+// note 245: Wavelet tree: range k-th element in O(log Σ) time.
