@@ -355,3 +355,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 71
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 72
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
