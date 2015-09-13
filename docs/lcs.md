@@ -1895,3 +1895,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 456
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 457
+
+State compression: bitmask + integer encodes a small subset cheaply.
