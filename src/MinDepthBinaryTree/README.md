@@ -2606,3 +2606,7 @@ Two passes: one to count, one to fill.
 ## entry 637
 
 No allocations after setup.
+
+## entry 638
+
+Branchless inner loop after sorting.
