@@ -2398,3 +2398,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 575
 
 Allocates lazily — first call only.
+
+## entry 576
+
+Edge case: integer-max input → guarded by the explicit overflow check.
