@@ -231,3 +231,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 200: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 201: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 202: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 203: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
