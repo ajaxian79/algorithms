@@ -2541,3 +2541,7 @@ Handles negative inputs as documented above.
 ## entry 620
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 621
+
+No allocations after setup.
