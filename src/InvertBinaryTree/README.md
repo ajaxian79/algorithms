@@ -2804,3 +2804,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 686
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 687
+
+Edge case: power-of-two-length input → no padding required.
