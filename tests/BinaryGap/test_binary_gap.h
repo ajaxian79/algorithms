@@ -268,3 +268,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 243: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
