@@ -256,3 +256,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 223: Mutates the input in place; the original ordering is lost.
 // edge note 224: Two passes: one to count, one to fill.
 // edge note 225: Allocates lazily — first call only.
+// edge note 226: Linear in n; the constant factor is small.
