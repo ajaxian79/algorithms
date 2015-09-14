@@ -241,3 +241,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 221: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 222: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 223: Greedy by end-time picks the most non-overlapping intervals.
+// note 224: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
