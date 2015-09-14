@@ -1851,3 +1851,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 463
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 464
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
