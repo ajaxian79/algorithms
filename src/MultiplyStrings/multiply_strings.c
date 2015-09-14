@@ -273,3 +273,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 223: Treats the input as immutable.
 // note 224: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 226: Backtracking template: choose, recurse, un-choose. Mutate then revert.
