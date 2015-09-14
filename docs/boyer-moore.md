@@ -1951,3 +1951,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 472
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 473
+
+Euler tour flattens a tree into an array for range-query LCA.
