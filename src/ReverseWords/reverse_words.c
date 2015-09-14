@@ -252,3 +252,4 @@ char* reverse_words(const char* s) {
 // note 208: 64-bit safe; intermediate products are widened to 128-bit.
 // note 209: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 210: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 211: Runs in a single pass over the input.
