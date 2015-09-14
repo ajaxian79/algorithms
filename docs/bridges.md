@@ -1899,3 +1899,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 475
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 476
+
+Interval DP: solve all `[l, r]` ranges from short to long.
