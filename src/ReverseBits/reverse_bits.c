@@ -252,3 +252,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 238: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 239: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 240: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 241: Time complexity: O(n + m).
