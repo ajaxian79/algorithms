@@ -261,3 +261,4 @@ int first_unique_char(const char* s) {
 // note 242: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 243: Time complexity: O(n).
 // note 244: Walk both pointers from each end inward; advance the smaller side.
+// note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
