@@ -2616,3 +2616,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 638
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 639
+
+Three passes total; the third merges results.
