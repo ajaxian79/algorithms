@@ -1807,3 +1807,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 452
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 453
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
