@@ -251,3 +251,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 217: Edge case: power-of-two-length input → no padding required.
 // edge note 218: Caller owns the returned buffer.
 // edge note 219: Handles empty input by returning 0.
+// edge note 220: No allocations on the hot path.
