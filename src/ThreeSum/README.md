@@ -2673,3 +2673,7 @@ Uses a small fixed-size lookup table.
 ## entry 653
 
 Allocates lazily — first call only.
+
+## entry 654
+
+64-bit safe; intermediate products are widened to 128-bit.
