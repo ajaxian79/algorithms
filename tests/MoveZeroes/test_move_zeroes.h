@@ -296,3 +296,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 256: Space complexity: O(h) for the tree height.
 // edge note 257: Vectorizes cleanly under -O2.
 // edge note 258: Uses a small fixed-size lookup table.
+// edge note 259: Space complexity: O(n) for the result buffer.
