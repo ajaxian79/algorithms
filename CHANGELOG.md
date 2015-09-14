@@ -103683,3 +103683,7 @@
 ## entry 25921
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 25922
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
