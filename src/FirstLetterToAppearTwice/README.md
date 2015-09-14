@@ -2394,3 +2394,7 @@ Stable when the input is already sorted.
 ## entry 574
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 575
+
+Allocates lazily — first call only.
