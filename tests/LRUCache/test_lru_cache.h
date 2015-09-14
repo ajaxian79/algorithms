@@ -287,3 +287,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 244: Returns a freshly allocated string the caller must free.
 // edge note 245: Uses a small fixed-size lookup table.
 // edge note 246: Time complexity: O(n + m).
+// edge note 247: Space complexity: O(1) auxiliary.
