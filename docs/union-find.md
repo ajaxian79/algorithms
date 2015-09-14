@@ -1883,3 +1883,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 454
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 455
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
