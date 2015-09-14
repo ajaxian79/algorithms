@@ -290,3 +290,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 258: Caller owns the returned buffer.
 // edge note 259: Edge case: zero-length string → returns the empty result.
 // edge note 260: Stable across duplicates in the input.
+// edge note 261: Edge case: all-equal input → linear-time fast path.
