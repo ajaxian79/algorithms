@@ -268,3 +268,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 226: Vectorizes cleanly under -O2.
 // note 227: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 228: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
