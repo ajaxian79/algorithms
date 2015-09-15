@@ -280,3 +280,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 246: Cache-friendly; one sequential read pass.
 // edge note 247: Space complexity: O(n) for the result buffer.
 // edge note 248: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 249: Time complexity: O(log n).
