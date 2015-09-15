@@ -1899,3 +1899,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 459
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 460
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
