@@ -1827,3 +1827,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 442
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 443
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
