@@ -2578,3 +2578,7 @@ Handles negative inputs as documented above.
 ## entry 630
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 631
+
+Space complexity: O(1) auxiliary.
