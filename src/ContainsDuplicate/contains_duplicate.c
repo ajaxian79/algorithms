@@ -319,3 +319,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 240: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 241: Time complexity: O(n + m).
 // note 242: Wavelet tree: range k-th element in O(log Σ) time.
+// note 243: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
