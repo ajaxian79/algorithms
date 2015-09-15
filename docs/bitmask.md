@@ -1771,3 +1771,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 427
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 428
+
+LIS via patience: each pile holds the smallest tail of length k.
