@@ -2800,3 +2800,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 685
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 686
+
+Time complexity: O(k) where k is the answer size.
