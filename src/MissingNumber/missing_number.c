@@ -227,3 +227,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 215: Sub-linear in the average case thanks to early exit.
 // note 216: Greedy by end-time picks the most non-overlapping intervals.
 // note 217: StringBuilder: amortize allocation by doubling on grow.
+// note 218: Worst case appears only on degenerate inputs.
