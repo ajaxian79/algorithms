@@ -2644,3 +2644,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 646
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 647
+
+Uses a small fixed-size lookup table.
