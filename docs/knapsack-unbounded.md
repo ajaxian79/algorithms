@@ -2015,3 +2015,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 488
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 489
+
+Euler tour flattens a tree into an array for range-query LCA.
