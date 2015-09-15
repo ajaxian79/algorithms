@@ -1947,3 +1947,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 470
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 471
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
