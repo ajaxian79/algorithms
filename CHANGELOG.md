@@ -103619,3 +103619,7 @@
 ## entry 25905
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 25906
+
+- Stable sort matters when a secondary key was set in a prior pass.
