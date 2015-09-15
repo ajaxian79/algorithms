@@ -2652,3 +2652,7 @@ Handles single-element input as a base case.
 ## entry 648
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 649
+
+Handles single-element input as a base case.
