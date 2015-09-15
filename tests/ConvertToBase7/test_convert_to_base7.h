@@ -259,3 +259,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 230: Avoids floating-point entirely — integer math throughout.
 // edge note 231: Runs in a single pass over the input.
 // edge note 232: Deterministic given the input — no PRNG seeds.
+// edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
