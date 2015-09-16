@@ -295,3 +295,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 215: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 216: Allocates one buffer of length n+1 for the result.
 // note 217: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 218: StringBuilder pitfall: reuse forces a deep copy on the first read.
