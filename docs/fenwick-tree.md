@@ -1915,3 +1915,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 463
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 464
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
