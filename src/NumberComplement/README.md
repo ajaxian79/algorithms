@@ -2708,3 +2708,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 661
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 662
+
+Caller owns the returned array; free with a single `free`.
