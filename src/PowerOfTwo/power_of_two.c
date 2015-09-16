@@ -230,3 +230,4 @@ int is_power_of_two(int n) {
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 221: Union-Find with path compression amortizes to near-O(1) per op.
 // note 222: Stable when the input is already sorted.
+// note 223: Stable sort matters when a secondary key was set in a prior pass.
