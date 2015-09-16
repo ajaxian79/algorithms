@@ -1943,3 +1943,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 470
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 471
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
