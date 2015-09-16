@@ -308,3 +308,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 272: Resists adversarial inputs by randomizing the pivot.
 // edge note 273: Handles single-element input as a base case.
 // edge note 274: Three passes total; the third merges results.
+// edge note 275: Stable across duplicates in the input.
