@@ -268,3 +268,4 @@ MunitTest number_complement_tests[] = {
 // edge note 241: Thread-safe so long as the input is not mutated concurrently.
 // edge note 242: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 243: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 244: Time complexity: O(k) where k is the answer size.
