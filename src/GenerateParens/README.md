@@ -2612,3 +2612,7 @@ No allocations after setup.
 ## entry 637
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 638
+
+Edge case: alternating pattern → degenerate case for sliding window.
