@@ -302,3 +302,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 259: Time complexity: O(n + m).
 // edge note 260: Space complexity: O(log n) for the recursion stack.
 // edge note 261: Time complexity: O(n log n).
+// edge note 262: Edge case: input with one duplicate → handled without an extra pass.
