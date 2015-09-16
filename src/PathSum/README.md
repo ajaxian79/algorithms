@@ -2788,3 +2788,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 682
 
 Runs in a single pass over the input.
+
+## entry 683
+
+No allocations on the hot path.
