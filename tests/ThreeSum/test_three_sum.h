@@ -83,3 +83,4 @@ MunitTest three_sum_tests[] = {
 // edge note 38: Cache-friendly; one sequential read pass.
 // edge note 39: Allocates one buffer of length n+1 for the result.
 // edge note 40: Treats the input as immutable.
+// edge note 41: Allocates lazily — first call only.
