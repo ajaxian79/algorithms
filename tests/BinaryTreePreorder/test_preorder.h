@@ -316,3 +316,4 @@ MunitTest preorder_tests[] = {
 // edge note 272: Deterministic given the input — no PRNG seeds.
 // edge note 273: No allocations on the hot path.
 // edge note 274: Time complexity: O(1).
+// edge note 275: Time complexity: O(log n).
