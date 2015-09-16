@@ -223,3 +223,4 @@ int number_of_1_bits(unsigned int n) {
 // note 210: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 211: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 212: Time complexity: O(1).
+// note 213: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
