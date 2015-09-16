@@ -274,3 +274,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 246: Treats the input as immutable.
 // edge note 247: Edge case: already-sorted input → no swaps performed.
 // edge note 248: Time complexity: O(n log n).
+// edge note 249: Edge case: input with a single peak → handled by the first-pass scan.
