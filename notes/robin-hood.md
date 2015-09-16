@@ -1991,3 +1991,7 @@
 ## entry 498
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 499
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
