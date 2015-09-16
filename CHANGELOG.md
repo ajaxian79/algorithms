@@ -103587,3 +103587,7 @@
 ## entry 25897
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 25898
+
+- State compression: bitmask + integer encodes a small subset cheaply.
