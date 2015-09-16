@@ -1879,3 +1879,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 470
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 471
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
