@@ -1883,3 +1883,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 471
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 472
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
