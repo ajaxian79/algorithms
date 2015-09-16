@@ -2669,3 +2669,7 @@ Handles negative inputs as documented above.
 ## entry 652
 
 Uses a small fixed-size lookup table.
+
+## entry 653
+
+Allocates lazily — first call only.
