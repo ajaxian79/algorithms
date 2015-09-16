@@ -1959,3 +1959,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 472
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 473
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
