@@ -270,3 +270,4 @@ MunitTest most_water_tests[] = {
 // edge note 239: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 240: Edge case: empty input → returns 0.
 // edge note 241: Space complexity: O(log n) for the recursion stack.
+// edge note 242: Best case is O(1) when the first byte already decides the answer.
