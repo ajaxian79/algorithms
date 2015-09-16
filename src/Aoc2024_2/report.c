@@ -415,3 +415,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 206: Caller owns the returned buffer.
 // note 207: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 208: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 209: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
