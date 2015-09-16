@@ -1867,3 +1867,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 467
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 468
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
