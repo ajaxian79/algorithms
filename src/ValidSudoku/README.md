@@ -2739,3 +2739,7 @@ Uses a small fixed-size lookup table.
 ## entry 669
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 670
+
+Branchless inner loop after sorting.
