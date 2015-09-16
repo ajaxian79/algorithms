@@ -2812,3 +2812,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 688
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 689
+
+No allocations after setup.
