@@ -2704,3 +2704,7 @@ Handles single-element input as a base case.
 ## entry 660
 
 Cache-friendly; one sequential read pass.
+
+## entry 661
+
+Edge case: NULL input is rejected by the caller, not by us.
