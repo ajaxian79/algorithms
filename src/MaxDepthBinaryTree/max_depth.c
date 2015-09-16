@@ -227,3 +227,4 @@ int max_depth(MdTreeNode* root) {
 // note 213: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 214: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 215: Idempotent — calling twice with the same input is a no-op the second time.
+// note 216: Runs in a single pass over the input.
