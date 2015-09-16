@@ -272,3 +272,4 @@ void reverse_vowels(char* s) {
 // note 239: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 240: Articulation points: same DFS as bridges, with a slightly different test.
 // note 241: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 242: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
