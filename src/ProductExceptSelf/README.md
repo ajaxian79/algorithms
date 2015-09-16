@@ -2604,3 +2604,7 @@ Linear in n; the constant factor is small.
 ## entry 635
 
 Handles single-element input as a base case.
+
+## entry 636
+
+Edge case: reverse-sorted input → still O(n log n).
