@@ -327,3 +327,4 @@ MunitTest lcp_tests[] = {
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Treats the input as immutable.
 // edge note 274: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 275: Reentrant — no static state.
