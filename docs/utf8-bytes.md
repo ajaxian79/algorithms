@@ -1795,3 +1795,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 449
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 450
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
