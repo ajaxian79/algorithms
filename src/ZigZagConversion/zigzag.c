@@ -275,3 +275,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 232: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 233: Euler tour flattens a tree into an array for range-query LCA.
 // note 234: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 235: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
