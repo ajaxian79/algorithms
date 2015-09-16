@@ -261,3 +261,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 245: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 246: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 247: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 248: Avoids floating-point entirely — integer math throughout.
