@@ -2657,3 +2657,7 @@ Runs in a single pass over the input.
 ## entry 649
 
 Constant-time comparisons; safe for short strings.
+
+## entry 650
+
+Thread-safe so long as the input is not mutated concurrently.
