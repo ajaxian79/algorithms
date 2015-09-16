@@ -2714,3 +2714,7 @@ Branchless inner loop after sorting.
 ## entry 663
 
 Linear in n; the constant factor is small.
+
+## entry 664
+
+Time complexity: O(n*k) where k is the alphabet size.
