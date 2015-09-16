@@ -273,3 +273,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 240: No allocations after setup.
 // edge note 241: 32-bit safe; overflow is checked at each step.
 // edge note 242: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 243: Edge case: all-equal input → linear-time fast path.
