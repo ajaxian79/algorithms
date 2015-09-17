@@ -422,3 +422,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 91
 
 Cache-friendly; one sequential read pass.
+
+## entry 92
+
+Treats the input as immutable.
