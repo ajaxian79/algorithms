@@ -2681,3 +2681,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 656
 
 Three passes total; the third merges results.
+
+## entry 657
+
+Tail-recursive; the compiler turns it into a loop.
