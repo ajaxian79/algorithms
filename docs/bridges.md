@@ -1895,3 +1895,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 474
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 475
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
