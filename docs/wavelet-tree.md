@@ -1803,3 +1803,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 451
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 452
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
