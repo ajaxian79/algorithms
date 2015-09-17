@@ -347,3 +347,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 70
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 71
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
