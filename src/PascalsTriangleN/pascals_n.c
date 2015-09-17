@@ -267,3 +267,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 229: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 230: Caller owns the returned array; free with a single `free`.
 // note 231: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 232: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
