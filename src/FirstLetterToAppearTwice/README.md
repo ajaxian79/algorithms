@@ -2390,3 +2390,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 573
 
 Stable when the input is already sorted.
+
+## entry 574
+
+Deterministic given the input — no PRNG seeds.
