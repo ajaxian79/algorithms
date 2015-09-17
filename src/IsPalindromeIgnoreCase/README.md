@@ -2598,3 +2598,7 @@ Stable across duplicates in the input.
 ## entry 635
 
 Space complexity: O(n) for the result buffer.
+
+## entry 636
+
+Space complexity: O(n) for the result buffer.
