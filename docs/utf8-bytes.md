@@ -1791,3 +1791,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 448
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 449
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
