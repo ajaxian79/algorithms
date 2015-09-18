@@ -274,3 +274,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 231: Greedy by end-time picks the most non-overlapping intervals.
 // note 232: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 233: Euler tour flattens a tree into an array for range-query LCA.
+// note 234: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
