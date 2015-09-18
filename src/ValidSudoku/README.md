@@ -2735,3 +2735,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 668
 
 Uses a small fixed-size lookup table.
+
+## entry 669
+
+Allocates a single small fixed-size scratch buffer.
