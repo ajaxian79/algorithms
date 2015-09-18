@@ -2622,3 +2622,7 @@ Reentrant — no static state.
 ## entry 640
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 641
+
+Edge case: maximum-length input → still fits in 32-bit indices.
