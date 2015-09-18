@@ -1899,3 +1899,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 459
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 460
+
+Rope: tree of small string fragments; O(log n) concat and substring.
