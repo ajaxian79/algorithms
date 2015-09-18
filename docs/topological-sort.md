@@ -1901,3 +1901,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 457
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 458
+
+Interval DP: solve all `[l, r]` ranges from short to long.
