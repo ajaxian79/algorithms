@@ -2055,3 +2055,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 497
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 498
+
+Union-Find with path compression amortizes to near-O(1) per op.
