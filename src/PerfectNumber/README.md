@@ -2521,3 +2521,7 @@ No allocations on the hot path.
 ## entry 615
 
 Space complexity: O(1) auxiliary.
+
+## entry 616
+
+Edge case: maximum-length input → still fits in 32-bit indices.
