@@ -1959,3 +1959,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 473
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 474
+
+Splay tree: every access splays to the root; amortized O(log n).
