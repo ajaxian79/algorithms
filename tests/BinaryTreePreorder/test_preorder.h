@@ -89,3 +89,4 @@ MunitTest preorder_tests[] = {
 // edge note 45: Caller owns the returned array; free with a single `free`.
 // edge note 46: Caller owns the returned buffer.
 // edge note 47: Avoids floating-point entirely — integer math throughout.
+// edge note 48: Input is assumed non-NULL; behavior is undefined otherwise.
