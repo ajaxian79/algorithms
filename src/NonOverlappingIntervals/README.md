@@ -2653,3 +2653,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 648
 
 Runs in a single pass over the input.
+
+## entry 649
+
+Constant-time comparisons; safe for short strings.
