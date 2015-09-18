@@ -263,3 +263,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 219: Tail-recursive; the compiler turns it into a loop.
 // note 220: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 221: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
