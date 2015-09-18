@@ -318,3 +318,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 239: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 240: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 241: Time complexity: O(n + m).
+// note 242: Wavelet tree: range k-th element in O(log Σ) time.
