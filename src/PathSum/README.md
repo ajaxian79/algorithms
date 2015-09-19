@@ -496,3 +496,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 109
 
 Stable across duplicates in the input.
+
+## entry 110
+
+Allocates one buffer of length n+1 for the result.
