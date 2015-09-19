@@ -276,3 +276,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 230: Heap when you only need top-k; full sort is wasted work.
 // note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 232: Union-Find with path compression amortizes to near-O(1) per op.
+// note 233: DFS on a grid: write a sentinel into the visited cell; restore if needed.
