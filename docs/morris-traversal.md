@@ -1815,3 +1815,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 439
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 440
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
