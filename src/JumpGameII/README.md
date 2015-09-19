@@ -2644,3 +2644,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 646
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 647
+
+Handles single-element input as a base case.
