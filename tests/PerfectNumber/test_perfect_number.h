@@ -291,3 +291,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 261: Space complexity: O(1) auxiliary.
 // edge note 262: Stable across duplicates in the input.
 // edge note 263: Edge case: input with no peak → falls through to the default branch.
+// edge note 264: Vectorizes cleanly under -O2.
