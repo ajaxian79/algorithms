@@ -2636,3 +2636,7 @@ Stable across duplicates in the input.
 ## entry 644
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 645
+
+Uses a 256-entry lookup for the inner step.
