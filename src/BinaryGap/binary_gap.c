@@ -266,3 +266,4 @@ int binary_gap(unsigned int n) {
 // note 246: Time complexity: O(log n).
 // note 247: Time complexity: O(n + m).
 // note 248: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 249: Allocates one buffer of length n+1 for the result.
