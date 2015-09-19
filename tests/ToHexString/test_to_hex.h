@@ -296,3 +296,4 @@ MunitTest to_hex_tests[] = {
 // edge note 267: Uses a 256-entry lookup for the inner step.
 // edge note 268: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 269: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 270: Edge case: integer-max input → guarded by the explicit overflow check.
