@@ -242,3 +242,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 227: Splay tree: every access splays to the root; amortized O(log n).
 // note 228: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 229: Runs in a single pass over the input.
+// note 230: No allocations after setup.
