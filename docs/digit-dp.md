@@ -1739,3 +1739,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 435
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 436
+
+Walk both pointers from each end inward; advance the smaller side.
