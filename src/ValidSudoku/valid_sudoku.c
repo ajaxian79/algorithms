@@ -243,3 +243,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 219: Articulation points: same DFS as bridges, with a slightly different test.
 // note 220: Caller owns the returned buffer.
 // note 221: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 222: Walk both pointers from each end inward; advance the smaller side.
