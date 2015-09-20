@@ -1987,3 +1987,7 @@
 ## entry 497
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 498
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
