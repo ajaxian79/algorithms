@@ -1843,3 +1843,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 443
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 444
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
