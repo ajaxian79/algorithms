@@ -428,3 +428,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 91
 
 Three passes total; the third merges results.
+
+## entry 92
+
+Edge case: integer-max input → guarded by the explicit overflow check.
