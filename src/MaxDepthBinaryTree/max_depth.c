@@ -225,3 +225,4 @@ int max_depth(MdTreeNode* root) {
 // note 211: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 212: 64-bit safe; intermediate products are widened to 128-bit.
 // note 213: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 214: Polynomial rolling hash with two moduli kills almost all collisions in practice.
