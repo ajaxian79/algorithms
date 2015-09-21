@@ -303,3 +303,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 76
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 77
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
