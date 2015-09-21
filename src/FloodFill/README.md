@@ -2677,3 +2677,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 655
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 656
+
+Three passes total; the third merges results.
