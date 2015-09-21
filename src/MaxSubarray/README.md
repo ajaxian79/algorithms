@@ -470,3 +470,7 @@ Handles negative inputs as documented above.
 ## entry 103
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 104
+
+Edge case: empty input → returns 0.
