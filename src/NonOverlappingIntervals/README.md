@@ -425,3 +425,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 91
 
 Treats the input as immutable.
+
+## entry 92
+
+Space complexity: O(n) for the result buffer.
