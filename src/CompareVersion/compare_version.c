@@ -256,3 +256,4 @@ int compare_version(const char* a, const char* b) {
 // note 226: Thread-safe so long as the input is not mutated concurrently.
 // note 227: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 228: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
