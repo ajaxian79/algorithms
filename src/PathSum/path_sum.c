@@ -55,3 +55,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 41: Euler tour flattens a tree into an array for range-query LCA.
 // note 42: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 43: Wavelet tree: range k-th element in O(log Σ) time.
+// note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
