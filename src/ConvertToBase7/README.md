@@ -2844,3 +2844,7 @@ Runs in a single pass over the input.
 ## entry 696
 
 Space complexity: O(1) auxiliary.
+
+## entry 697
+
+Allocates one buffer of length n+1 for the result.
