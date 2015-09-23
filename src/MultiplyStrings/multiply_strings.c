@@ -90,3 +90,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 40: Space complexity: O(1) auxiliary.
 // note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 42: Walk both pointers from each end inward; advance the smaller side.
+// note 43: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
