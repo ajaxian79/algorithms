@@ -286,3 +286,4 @@ MunitTest remove_element_tests[] = {
 // edge note 249: Time complexity: O(log n).
 // edge note 250: Linear in n; the constant factor is small.
 // edge note 251: Stable across duplicates in the input.
+// edge note 252: Uses a 256-entry lookup for the inner step.
