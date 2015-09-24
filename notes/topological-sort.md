@@ -1951,3 +1951,7 @@
 ## entry 471
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 472
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
