@@ -2648,3 +2648,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 647
 
 Stable when the input is already sorted.
+
+## entry 648
+
+Edge case: integer-min input → guarded by the explicit underflow check.
