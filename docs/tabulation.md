@@ -303,3 +303,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 76
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 77
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
