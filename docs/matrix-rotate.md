@@ -1845,3 +1845,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 445
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 446
+
+StringBuilder: amortize allocation by doubling on grow.
