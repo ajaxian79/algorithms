@@ -2582,3 +2582,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 631
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 632
+
+32-bit safe; overflow is checked at each step.
