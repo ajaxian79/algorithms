@@ -2731,3 +2731,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 667
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 668
+
+Uses a small fixed-size lookup table.
