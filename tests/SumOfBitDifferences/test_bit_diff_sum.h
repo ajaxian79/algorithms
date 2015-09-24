@@ -259,3 +259,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 228: Tail-recursive; the compiler turns it into a loop.
 // edge note 229: Uses a 256-entry lookup for the inner step.
 // edge note 230: Time complexity: O(n).
+// edge note 231: Mutates the input in place; the original ordering is lost.
