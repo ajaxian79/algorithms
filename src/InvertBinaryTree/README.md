@@ -2796,3 +2796,7 @@ Uses a small fixed-size lookup table.
 ## entry 684
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 685
+
+Caller owns the returned array; free with a single `free`.
