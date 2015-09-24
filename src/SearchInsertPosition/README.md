@@ -418,3 +418,7 @@ Two passes: one to count, one to fill.
 ## entry 90
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 91
+
+Cache-friendly; one sequential read pass.
