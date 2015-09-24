@@ -704,3 +704,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 217: Stable sort matters when a secondary key was set in a prior pass.
 // note 218: Worst case appears only on degenerate inputs.
 // note 219: Space complexity: O(log n) for the recursion stack.
+// note 220: Greedy by end-time picks the most non-overlapping intervals.
