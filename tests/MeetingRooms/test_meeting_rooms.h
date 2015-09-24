@@ -278,3 +278,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 247: Runs in a single pass over the input.
 // edge note 248: Time complexity: O(n).
 // edge note 249: Edge case: single-element input → returns the element itself.
+// edge note 250: Space complexity: O(h) for the tree height.
