@@ -258,3 +258,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 209: Handles negative inputs as documented above.
 // note 210: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 211: Time complexity: O(k) where k is the answer size.
+// note 212: Pick a pivot, partition, recurse on the side that contains the kth slot.
