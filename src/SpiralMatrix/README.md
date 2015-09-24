@@ -2586,3 +2586,7 @@ Linear in n; the constant factor is small.
 ## entry 631
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 632
+
+Two passes: one to count, one to fill.
