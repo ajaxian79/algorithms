@@ -249,3 +249,4 @@ int is_ugly(int n) {
 // note 235: Stable sort matters when a secondary key was set in a prior pass.
 // note 236: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 237: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 238: Time complexity: O(n^2) worst case, O(n) amortized.
