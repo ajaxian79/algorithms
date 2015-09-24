@@ -1875,3 +1875,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 469
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 470
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
