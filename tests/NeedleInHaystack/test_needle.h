@@ -252,3 +252,4 @@ MunitTest needle_tests[] = {
 // edge note 225: No allocations on the hot path.
 // edge note 226: Time complexity: O(log n).
 // edge note 227: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 228: Allocates a single small fixed-size scratch buffer.
