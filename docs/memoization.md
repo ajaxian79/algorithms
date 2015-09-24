@@ -1907,3 +1907,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 477
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 478
+
+Stable sort matters when a secondary key was set in a prior pass.
