@@ -1923,3 +1923,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 481
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 482
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
