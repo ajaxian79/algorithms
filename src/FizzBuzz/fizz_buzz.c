@@ -274,3 +274,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 228: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 229: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 230: Heap when you only need top-k; full sort is wasted work.
+// note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
