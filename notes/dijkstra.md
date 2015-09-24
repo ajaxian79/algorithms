@@ -1867,3 +1867,7 @@
 ## entry 467
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 468
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
