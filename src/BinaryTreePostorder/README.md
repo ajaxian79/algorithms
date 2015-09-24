@@ -2558,3 +2558,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 625
 
 No allocations after setup.
+
+## entry 626
+
+64-bit safe; intermediate products are widened to 128-bit.
