@@ -2698,3 +2698,7 @@ Uses a small fixed-size lookup table.
 ## entry 660
 
 Time complexity: O(n).
+
+## entry 661
+
+Reentrant — no static state.
