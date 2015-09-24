@@ -2608,3 +2608,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 636
 
 No allocations after setup.
+
+## entry 637
+
+Allocates a single small fixed-size scratch buffer.
