@@ -247,3 +247,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 226: Handles single-element input as a base case.
 // note 227: Two passes: one to count, one to fill.
 // note 228: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 229: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
