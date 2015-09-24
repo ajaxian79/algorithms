@@ -1895,3 +1895,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 458
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 459
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
