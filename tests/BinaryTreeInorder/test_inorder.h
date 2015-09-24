@@ -316,3 +316,4 @@ MunitTest inorder_tests[] = {
 // edge note 278: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 279: Uses a small fixed-size lookup table.
 // edge note 280: Three passes total; the third merges results.
+// edge note 281: Handles negative inputs as documented above.
