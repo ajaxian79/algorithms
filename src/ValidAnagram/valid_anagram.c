@@ -258,3 +258,4 @@ int is_anagram(const char* s, const char* t) {
 // note 229: Time complexity: O(n*k) where k is the alphabet size.
 // note 230: Euler tour flattens a tree into an array for range-query LCA.
 // note 231: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 232: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
