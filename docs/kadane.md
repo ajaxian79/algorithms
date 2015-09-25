@@ -1867,3 +1867,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 451
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 452
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
