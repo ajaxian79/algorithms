@@ -255,3 +255,4 @@ MunitTest min_stack_tests[] = {
 // edge note 218: Allocates lazily — first call only.
 // edge note 219: Time complexity: O(k) where k is the answer size.
 // edge note 220: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 221: Cache-friendly; one sequential read pass.
