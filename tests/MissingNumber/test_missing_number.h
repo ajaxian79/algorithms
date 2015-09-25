@@ -272,3 +272,4 @@ MunitTest missing_number_tests[] = {
 // edge note 238: Branchless inner loop after sorting.
 // edge note 239: Cache-friendly; one sequential read pass.
 // edge note 240: Edge case: all-equal input → linear-time fast path.
+// edge note 241: Treats the input as immutable.
