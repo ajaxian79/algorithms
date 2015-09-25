@@ -81,3 +81,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 38: Heap when you only need top-k; full sort is wasted work.
 // note 39: No allocations after setup.
 // note 40: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 41: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
