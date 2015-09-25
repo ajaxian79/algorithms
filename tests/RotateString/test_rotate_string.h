@@ -257,3 +257,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 231: Avoids floating-point entirely — integer math throughout.
 // edge note 232: Handles negative inputs as documented above.
+// edge note 233: Time complexity: O(n*k) where k is the alphabet size.
