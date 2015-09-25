@@ -2638,3 +2638,7 @@ Branchless inner loop after sorting.
 ## entry 644
 
 Time complexity: O(n log n).
+
+## entry 645
+
+Allocates one buffer of length n+1 for the result.
