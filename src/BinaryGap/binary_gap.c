@@ -265,3 +265,4 @@ int binary_gap(unsigned int n) {
 // note 245: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 246: Time complexity: O(log n).
 // note 247: Time complexity: O(n + m).
+// note 248: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
