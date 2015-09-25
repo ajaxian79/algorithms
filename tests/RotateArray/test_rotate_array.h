@@ -281,3 +281,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 245: Time complexity: O(log n).
+// edge note 246: Reentrant — no static state.
