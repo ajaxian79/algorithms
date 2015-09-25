@@ -2612,3 +2612,7 @@ Uses a small fixed-size lookup table.
 ## entry 638
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 639
+
+Edge case: zero-length string → returns the empty result.
