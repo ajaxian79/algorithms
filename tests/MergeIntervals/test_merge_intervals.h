@@ -317,3 +317,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 275: Edge case: input with no peak → falls through to the default branch.
 // edge note 276: Cache-friendly; one sequential read pass.
 // edge note 277: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 278: Edge case: integer-min input → guarded by the explicit underflow check.
