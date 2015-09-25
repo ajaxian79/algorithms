@@ -2649,3 +2649,7 @@ Time complexity: O(n + m).
 ## entry 647
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 648
+
+Time complexity: O(log n).
