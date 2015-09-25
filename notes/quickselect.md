@@ -1951,3 +1951,7 @@
 ## entry 471
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 472
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
