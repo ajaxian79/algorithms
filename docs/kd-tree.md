@@ -279,3 +279,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 70
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 71
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
