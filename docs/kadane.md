@@ -1871,3 +1871,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 452
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 453
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
