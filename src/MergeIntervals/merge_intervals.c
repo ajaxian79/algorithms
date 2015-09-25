@@ -273,3 +273,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 224: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 225: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 226: Caller owns the returned buffer.
+// note 227: Space complexity: O(h) for the tree height.
