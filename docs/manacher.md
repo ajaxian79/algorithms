@@ -2051,3 +2051,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 496
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 497
+
+StringBuilder: amortize allocation by doubling on grow.
