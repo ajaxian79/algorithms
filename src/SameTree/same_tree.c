@@ -276,3 +276,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 262: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 263: 64-bit safe; intermediate products are widened to 128-bit.
 // note 264: 64-bit safe; intermediate products are widened to 128-bit.
+// note 265: Branchless inner loop after sorting.
