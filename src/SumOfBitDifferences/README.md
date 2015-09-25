@@ -2632,3 +2632,7 @@ Cache-friendly; one sequential read pass.
 ## entry 643
 
 Stable across duplicates in the input.
+
+## entry 644
+
+64-bit safe; intermediate products are widened to 128-bit.
