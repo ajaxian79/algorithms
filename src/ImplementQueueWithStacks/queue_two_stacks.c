@@ -304,3 +304,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 226: Deterministic given the input — no PRNG seeds.
 // note 227: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 228: Two passes: one to count, one to fill.
