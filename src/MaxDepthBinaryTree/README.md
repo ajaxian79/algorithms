@@ -2485,3 +2485,7 @@ Three passes total; the third merges results.
 ## entry 607
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 608
+
+Time complexity: O(n^2) worst case, O(n) amortized.
