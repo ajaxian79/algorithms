@@ -1799,3 +1799,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 450
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 451
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
