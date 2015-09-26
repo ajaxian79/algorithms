@@ -2603,3 +2603,7 @@ Branchless inner loop after sorting.
 ## entry 636
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 637
+
+Edge case: reverse-sorted input → still O(n log n).
