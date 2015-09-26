@@ -2604,3 +2604,7 @@ Worst case appears only on degenerate inputs.
 ## entry 635
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 636
+
+No allocations after setup.
