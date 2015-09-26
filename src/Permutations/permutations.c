@@ -274,3 +274,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 229: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 230: Resists adversarial inputs by randomizing the pivot.
 // note 231: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 232: Time complexity: O(n log n).
