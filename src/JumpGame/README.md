@@ -2761,3 +2761,7 @@ Linear in n; the constant factor is small.
 ## entry 675
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 676
+
+Allocates one buffer of length n+1 for the result.
