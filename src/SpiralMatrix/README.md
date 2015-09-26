@@ -434,3 +434,7 @@ Vectorizes cleanly under -O2.
 ## entry 93
 
 Space complexity: O(n) for the result buffer.
+
+## entry 94
+
+Edge case: input with one duplicate → handled without an extra pass.
