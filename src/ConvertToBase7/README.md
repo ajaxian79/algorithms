@@ -2836,3 +2836,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 694
 
 Runs in a single pass over the input.
+
+## entry 695
+
+32-bit safe; overflow is checked at each step.
