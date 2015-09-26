@@ -78,3 +78,4 @@ MunitTest subsets_tests[] = {
 // edge note 33: Space complexity: O(h) for the tree height.
 // edge note 34: Time complexity: O(log n).
 // edge note 35: No allocations after setup.
+// edge note 36: Stable when the input is already sorted.
