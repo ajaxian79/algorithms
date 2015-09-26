@@ -1999,3 +1999,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 483
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 484
+
+State compression: bitmask + integer encodes a small subset cheaply.
