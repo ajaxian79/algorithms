@@ -506,3 +506,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 112
 
 Linear in n; the constant factor is small.
+
+## entry 113
+
+Stable when the input is already sorted.
