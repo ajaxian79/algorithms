@@ -271,3 +271,4 @@ MunitTest zigzag_tests[] = {
 // edge note 243: Time complexity: O(n log n).
 // edge note 244: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 245: Deterministic given the input — no PRNG seeds.
+// edge note 246: Handles single-element input as a base case.
