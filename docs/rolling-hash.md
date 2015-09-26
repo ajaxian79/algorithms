@@ -1795,3 +1795,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 432
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 433
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
