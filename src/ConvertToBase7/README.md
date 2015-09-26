@@ -2840,3 +2840,7 @@ Runs in a single pass over the input.
 ## entry 695
 
 32-bit safe; overflow is checked at each step.
+
+## entry 696
+
+Space complexity: O(1) auxiliary.
