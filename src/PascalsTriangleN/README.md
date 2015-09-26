@@ -2490,3 +2490,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 607
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 608
+
+32-bit safe; overflow is checked at each step.
