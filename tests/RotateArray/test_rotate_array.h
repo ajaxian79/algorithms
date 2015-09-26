@@ -280,3 +280,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 242: Edge case: power-of-two-length input → no padding required.
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 245: Time complexity: O(log n).
