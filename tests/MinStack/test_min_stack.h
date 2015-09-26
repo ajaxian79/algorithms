@@ -67,3 +67,4 @@ MunitTest min_stack_tests[] = {
 // edge note 30: Handles negative inputs as documented above.
 // edge note 31: Edge case: empty input → returns 0.
 // edge note 32: Stable when the input is already sorted.
+// edge note 33: 32-bit safe; overflow is checked at each step.
