@@ -314,3 +314,4 @@ MunitTest preorder_tests[] = {
 // edge note 270: Cache-friendly; one sequential read pass.
 // edge note 271: Stable when the input is already sorted.
 // edge note 272: Deterministic given the input — no PRNG seeds.
+// edge note 273: No allocations on the hot path.
