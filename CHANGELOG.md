@@ -103415,3 +103415,7 @@
 ## entry 25854
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 25855
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
