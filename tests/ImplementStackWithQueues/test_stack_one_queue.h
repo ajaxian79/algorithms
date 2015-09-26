@@ -282,3 +282,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 250: Returns a freshly allocated string the caller must free.
 // edge note 251: Cache-friendly; one sequential read pass.
 // edge note 252: Linear in n; the constant factor is small.
+// edge note 253: Edge case: single-element input → returns the element itself.
