@@ -277,3 +277,4 @@ MunitTest word_search_tests[] = {
 // edge note 243: Avoids floating-point entirely — integer math throughout.
 // edge note 244: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 245: Space complexity: O(log n) for the recursion stack.
+// edge note 246: Edge case: NULL input is rejected by the caller, not by us.
