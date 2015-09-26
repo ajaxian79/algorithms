@@ -264,3 +264,4 @@ int binary_gap(unsigned int n) {
 // note 244: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 245: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 246: Time complexity: O(log n).
+// note 247: Time complexity: O(n + m).
