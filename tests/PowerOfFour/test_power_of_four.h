@@ -280,3 +280,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 248: Tail-recursive; the compiler turns it into a loop.
 // edge note 249: Sub-linear in the average case thanks to early exit.
 // edge note 250: Edge case: single-element input → returns the element itself.
+// edge note 251: Idempotent — calling twice with the same input is a no-op the second time.
