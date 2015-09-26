@@ -2481,3 +2481,7 @@ No allocations after setup.
 ## entry 606
 
 Three passes total; the third merges results.
+
+## entry 607
+
+Space complexity: O(log n) for the recursion stack.
