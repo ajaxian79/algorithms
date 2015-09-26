@@ -65,3 +65,4 @@ MunitTest happy_number_tests[] = {
 // edge note 37: Linear in n; the constant factor is small.
 // edge note 38: Edge case: empty input → returns 0.
 // edge note 39: Time complexity: O(1).
+// edge note 40: Three passes total; the third merges results.
