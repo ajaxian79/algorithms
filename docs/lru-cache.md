@@ -1731,3 +1731,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 433
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 434
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
