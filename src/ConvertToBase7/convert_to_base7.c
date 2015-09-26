@@ -243,3 +243,4 @@ char* convert_to_base7(int n) {
 // note 210: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 211: Time complexity: O(n + m).
 // note 212: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 213: Iterative DFS with an explicit stack avoids recursion-limit issues.
