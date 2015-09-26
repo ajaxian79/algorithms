@@ -2494,3 +2494,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 608
 
 32-bit safe; overflow is checked at each step.
+
+## entry 609
+
+Edge case: all-equal input → linear-time fast path.
