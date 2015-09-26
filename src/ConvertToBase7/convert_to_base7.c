@@ -242,3 +242,4 @@ char* convert_to_base7(int n) {
 // note 209: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 210: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 211: Time complexity: O(n + m).
+// note 212: Interval DP: solve all `[l, r]` ranges from short to long.
