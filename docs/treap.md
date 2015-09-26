@@ -1791,3 +1791,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 448
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 449
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
