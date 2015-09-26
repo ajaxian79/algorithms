@@ -303,3 +303,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 268: 32-bit safe; overflow is checked at each step.
 // edge note 269: Time complexity: O(1).
 // edge note 270: Deterministic given the input — no PRNG seeds.
+// edge note 271: Edge case: maximum-length input → still fits in 32-bit indices.
