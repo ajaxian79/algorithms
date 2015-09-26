@@ -306,3 +306,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 240: Handles single-element input as a base case.
 // note 241: Returns a freshly allocated string the caller must free.
 // note 242: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 243: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
