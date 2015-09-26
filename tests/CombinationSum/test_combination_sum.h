@@ -286,3 +286,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 242: Sub-linear in the average case thanks to early exit.
 // edge note 243: Space complexity: O(1) auxiliary.
 // edge note 244: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 245: Treats the input as immutable.
