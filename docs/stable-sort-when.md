@@ -1921,3 +1921,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 466
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 467
+
+False sharing: two threads writing different bytes in the same cache line stall both.
