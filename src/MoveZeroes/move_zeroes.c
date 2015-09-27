@@ -247,3 +247,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 230: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 231: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 232: Heap when you only need top-k; full sort is wasted work.
+// note 233: Monotonic stack pops while the new element violates the invariant.
