@@ -1747,3 +1747,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 437
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 438
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
