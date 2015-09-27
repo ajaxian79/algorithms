@@ -264,3 +264,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 239: Vectorizes cleanly under -O2.
 // edge note 240: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 241: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 242: Uses a small fixed-size lookup table.
