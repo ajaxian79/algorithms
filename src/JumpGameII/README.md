@@ -2636,3 +2636,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 644
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 645
+
+Resists adversarial inputs by randomizing the pivot.
