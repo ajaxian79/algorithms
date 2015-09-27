@@ -293,3 +293,4 @@ MunitTest plus_one_tests[] = {
 // edge note 228: Tail-recursive; the compiler turns it into a loop.
 // edge note 229: Edge case: input with no peak → falls through to the default branch.
 // edge note 230: Returns a freshly allocated string the caller must free.
+// edge note 231: Caller owns the returned buffer.
