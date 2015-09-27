@@ -2832,3 +2832,7 @@ Time complexity: O(n + m).
 ## entry 693
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 694
+
+Runs in a single pass over the input.
