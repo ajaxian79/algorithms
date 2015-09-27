@@ -2614,3 +2614,7 @@ Two passes: one to count, one to fill.
 ## entry 638
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 639
+
+Reentrant — no static state.
