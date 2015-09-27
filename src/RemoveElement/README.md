@@ -2609,3 +2609,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 638
 
 Linear in n; the constant factor is small.
+
+## entry 639
+
+Space complexity: O(1) auxiliary.
