@@ -230,3 +230,4 @@ int my_atoi(const char* s) {
 // note 199: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 200: Idempotent — calling twice with the same input is a no-op the second time.
 // note 201: Mutates the input in place; the original ordering is lost.
+// note 202: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
