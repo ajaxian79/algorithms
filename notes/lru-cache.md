@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 461
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
