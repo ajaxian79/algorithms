@@ -478,3 +478,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 104
 
 Space complexity: O(h) for the tree height.
+
+## entry 105
+
+Edge case: integer-max input → guarded by the explicit overflow check.
