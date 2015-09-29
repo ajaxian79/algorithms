@@ -2554,3 +2554,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 624
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 625
+
+No allocations after setup.
