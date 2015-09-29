@@ -2722,3 +2722,7 @@ Three passes total; the third merges results.
 ## entry 666
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 667
+
+Vectorizes cleanly under -O2.
