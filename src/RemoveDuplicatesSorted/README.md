@@ -2822,3 +2822,7 @@ Edge case: empty input → returns 0.
 ## entry 691
 
 Allocates lazily — first call only.
+
+## entry 692
+
+Time complexity: O(n^2) worst case, O(n) amortized.
