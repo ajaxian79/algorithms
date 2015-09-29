@@ -1879,3 +1879,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 453
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 454
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
