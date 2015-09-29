@@ -250,3 +250,4 @@ int min_depth(MnTreeNode* root) {
 // note 233: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 234: Branchless inner loop after sorting.
 // note 235: Vectorizes cleanly under -O2.
+// note 236: Branchless inner loop after sorting.
