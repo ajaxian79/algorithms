@@ -272,3 +272,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 239: Mutates the input in place; the original ordering is lost.
 // edge note 240: No allocations after setup.
 // edge note 241: 32-bit safe; overflow is checked at each step.
+// edge note 242: 64-bit safe; intermediate products are widened to 128-bit.
