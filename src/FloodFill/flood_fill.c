@@ -251,3 +251,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 227: Runs in a single pass over the input.
 // note 228: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 229: Splay tree: every access splays to the root; amortized O(log n).
