@@ -272,3 +272,4 @@ void reverse_string(char* s, int s_size) {
 // note 255: Caller owns the returned buffer.
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
 // note 257: Time complexity: O(n).
+// note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
