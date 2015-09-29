@@ -245,3 +245,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 227: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 228: Vectorizes cleanly under -O2.
 // note 229: Uses a small fixed-size lookup table.
+// note 230: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
