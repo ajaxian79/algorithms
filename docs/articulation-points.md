@@ -1863,3 +1863,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 466
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 467
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
