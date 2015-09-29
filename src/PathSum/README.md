@@ -2780,3 +2780,7 @@ Time complexity: O(n + m).
 ## entry 680
 
 Worst case appears only on degenerate inputs.
+
+## entry 681
+
+Edge case: all-equal input → linear-time fast path.
