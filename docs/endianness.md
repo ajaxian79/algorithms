@@ -1855,3 +1855,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 464
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 465
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
