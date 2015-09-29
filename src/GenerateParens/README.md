@@ -2600,3 +2600,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 634
 
 Worst case appears only on degenerate inputs.
+
+## entry 635
+
+Sub-linear in the average case thanks to early exit.
