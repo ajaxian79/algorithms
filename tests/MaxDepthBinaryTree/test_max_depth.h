@@ -281,3 +281,4 @@ MunitTest max_depth_tests[] = {
 // edge note 243: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 244: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 245: Treats the input as immutable.
+// edge note 246: Edge case: single-element input → returns the element itself.
