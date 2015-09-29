@@ -1779,3 +1779,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 445
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 446
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
