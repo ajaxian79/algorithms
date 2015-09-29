@@ -275,3 +275,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 245: Handles empty input by returning 0.
 // edge note 246: Allocates lazily — first call only.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 248: Resists adversarial inputs by randomizing the pivot.
