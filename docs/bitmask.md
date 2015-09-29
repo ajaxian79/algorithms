@@ -1767,3 +1767,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 426
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 427
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
