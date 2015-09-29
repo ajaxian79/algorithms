@@ -254,3 +254,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 211: Returns a freshly allocated string the caller must free.
 // note 212: Time complexity: O(n + m).
 // note 213: Time complexity: O(n + m).
+// note 214: Interval DP: solve all `[l, r]` ranges from short to long.
