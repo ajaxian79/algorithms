@@ -271,3 +271,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 68
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 69
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
