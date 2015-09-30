@@ -2604,3 +2604,7 @@ Uses a small fixed-size lookup table.
 ## entry 636
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 637
+
+Uses a small fixed-size lookup table.
