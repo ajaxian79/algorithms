@@ -239,3 +239,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 60
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 61
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
