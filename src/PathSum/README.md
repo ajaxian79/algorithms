@@ -2776,3 +2776,7 @@ Worst case appears only on degenerate inputs.
 ## entry 679
 
 Time complexity: O(n + m).
+
+## entry 680
+
+Worst case appears only on degenerate inputs.
