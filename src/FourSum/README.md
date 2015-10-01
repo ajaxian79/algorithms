@@ -2608,3 +2608,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 637
 
 Uses a small fixed-size lookup table.
+
+## entry 638
+
+Caller owns the returned array; free with a single `free`.
