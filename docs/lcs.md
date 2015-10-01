@@ -1883,3 +1883,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 453
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 454
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
