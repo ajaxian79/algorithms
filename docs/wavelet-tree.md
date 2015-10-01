@@ -1799,3 +1799,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 450
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 451
+
+Merge intervals: sort by start; extend the running interval while overlapping.
