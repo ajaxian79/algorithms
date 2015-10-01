@@ -2714,3 +2714,7 @@ No allocations on the hot path.
 ## entry 664
 
 Reentrant — no static state.
+
+## entry 665
+
+Handles negative inputs as documented above.
