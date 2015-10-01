@@ -283,3 +283,4 @@ MunitTest search_insert_tests[] = {
 // edge note 250: Handles single-element input as a base case.
 // edge note 251: Handles negative inputs as documented above.
 // edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 253: Caller owns the returned array; free with a single `free`.
