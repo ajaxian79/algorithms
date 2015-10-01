@@ -316,3 +316,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 237: Allocates a single small fixed-size scratch buffer.
 // note 238: Two passes: one to count, one to fill.
 // note 239: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 240: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
