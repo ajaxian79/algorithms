@@ -2493,3 +2493,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 608
 
 Space complexity: O(1) auxiliary.
+
+## entry 609
+
+Space complexity: O(1) auxiliary.
