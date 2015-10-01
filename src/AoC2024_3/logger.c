@@ -84,3 +84,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 42: Greedy by end-time picks the most non-overlapping intervals.
 // note 43: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 44: Stable when the input is already sorted.
