@@ -2696,3 +2696,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 659
 
 Runs in a single pass over the input.
+
+## entry 660
+
+Edge case: single-element input → returns the element itself.
