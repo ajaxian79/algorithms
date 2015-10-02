@@ -2570,3 +2570,7 @@ Allocates lazily — first call only.
 ## entry 628
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 629
+
+Vectorizes cleanly under -O2.
