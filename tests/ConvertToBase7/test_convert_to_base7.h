@@ -257,3 +257,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 228: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 229: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 230: Avoids floating-point entirely — integer math throughout.
+// edge note 231: Runs in a single pass over the input.
