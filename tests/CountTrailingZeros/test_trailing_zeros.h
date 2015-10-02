@@ -279,3 +279,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 251: Stable across duplicates in the input.
 // edge note 252: Edge case: reverse-sorted input → still O(n log n).
 // edge note 253: Mutates the input in place; the original ordering is lost.
+// edge note 254: Resists adversarial inputs by randomizing the pivot.
