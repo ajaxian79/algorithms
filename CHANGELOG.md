@@ -14863,3 +14863,7 @@
 ## entry 3716
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 3717
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
