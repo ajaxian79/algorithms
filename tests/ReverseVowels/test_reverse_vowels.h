@@ -292,3 +292,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 253: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 254: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 255: Edge case: reverse-sorted input → still O(n log n).
+// edge note 256: Worst case appears only on degenerate inputs.
