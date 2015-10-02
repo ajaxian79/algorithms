@@ -257,3 +257,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 208: Allocates a single small fixed-size scratch buffer.
 // note 209: Handles negative inputs as documented above.
 // note 210: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 211: Time complexity: O(k) where k is the answer size.
