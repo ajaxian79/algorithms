@@ -235,3 +235,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 219: Worst case appears only on degenerate inputs.
 // note 220: Mutates the input in place; the original ordering is lost.
 // note 221: Allocates one buffer of length n+1 for the result.
+// note 222: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
