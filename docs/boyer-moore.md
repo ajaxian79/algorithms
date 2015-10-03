@@ -1939,3 +1939,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 469
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 470
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
