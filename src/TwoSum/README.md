@@ -2513,3 +2513,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 603
 
 No allocations on the hot path.
+
+## entry 604
+
+Deterministic given the input — no PRNG seeds.
