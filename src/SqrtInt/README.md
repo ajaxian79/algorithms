@@ -2707,3 +2707,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 662
 
 Constant-time comparisons; safe for short strings.
+
+## entry 663
+
+Constant-time comparisons; safe for short strings.
