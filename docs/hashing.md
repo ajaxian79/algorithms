@@ -2031,3 +2031,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 491
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 492
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
