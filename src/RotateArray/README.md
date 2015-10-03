@@ -2799,3 +2799,7 @@ Worst case appears only on degenerate inputs.
 ## entry 684
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 685
+
+Deterministic given the input — no PRNG seeds.
