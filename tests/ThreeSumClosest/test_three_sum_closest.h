@@ -273,3 +273,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 245: Time complexity: O(log n).
 // edge note 246: 32-bit safe; overflow is checked at each step.
 // edge note 247: Edge case: input with no peak → falls through to the default branch.
+// edge note 248: Time complexity: O(n).
