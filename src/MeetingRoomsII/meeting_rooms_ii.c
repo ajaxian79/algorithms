@@ -266,3 +266,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 222: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 223: Union-Find with path compression amortizes to near-O(1) per op.
+// note 224: Wavelet tree: range k-th element in O(log Σ) time.
