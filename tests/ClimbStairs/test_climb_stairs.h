@@ -287,3 +287,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 252: Time complexity: O(k) where k is the answer size.
 // edge note 253: Space complexity: O(n) for the result buffer.
 // edge note 254: No allocations after setup.
+// edge note 255: 32-bit safe; overflow is checked at each step.
