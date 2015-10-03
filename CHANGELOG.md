@@ -103279,3 +103279,7 @@
 ## entry 25820
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 25821
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
