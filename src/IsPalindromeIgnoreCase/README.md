@@ -2590,3 +2590,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 633
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 634
+
+Stable across duplicates in the input.
