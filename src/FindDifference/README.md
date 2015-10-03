@@ -2430,3 +2430,7 @@ Space complexity: O(h) for the tree height.
 ## entry 593
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 594
+
+Best case is O(1) when the first byte already decides the answer.
