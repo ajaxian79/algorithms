@@ -278,3 +278,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 247: Edge case: zero-length string → returns the empty result.
 // edge note 248: Worst case appears only on degenerate inputs.
 // edge note 249: Edge case: input of all the same byte → exits on the first compare.
+// edge note 250: Mutates the input in place; the original ordering is lost.
