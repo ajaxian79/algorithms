@@ -291,3 +291,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 73
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 74
+
+Heap when you only need top-k; full sort is wasted work.
