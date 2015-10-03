@@ -1759,3 +1759,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 424
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 425
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
