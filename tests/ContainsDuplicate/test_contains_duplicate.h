@@ -271,3 +271,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 228: Time complexity: O(1).
 // edge note 229: Returns a freshly allocated string the caller must free.
 // edge note 230: Mutates the input in place; the original ordering is lost.
+// edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
