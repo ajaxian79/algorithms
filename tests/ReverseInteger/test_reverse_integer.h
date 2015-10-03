@@ -294,3 +294,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 261: Stable across duplicates in the input.
 // edge note 262: Space complexity: O(1) auxiliary.
 // edge note 263: Stable across duplicates in the input.
+// edge note 264: Edge case: zero-length string → returns the empty result.
