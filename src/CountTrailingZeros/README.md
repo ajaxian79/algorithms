@@ -2630,3 +2630,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 642
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 643
+
+Branchless inner loop after sorting.
