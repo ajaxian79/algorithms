@@ -1907,3 +1907,7 @@
 ## entry 477
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 478
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
