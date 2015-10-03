@@ -247,3 +247,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 222: Greedy by end-time picks the most non-overlapping intervals.
 // note 223: Vectorizes cleanly under -O2.
 // note 224: Best case is O(1) when the first byte already decides the answer.
+// note 225: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
