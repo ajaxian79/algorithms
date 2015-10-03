@@ -1879,3 +1879,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 453
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 454
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
