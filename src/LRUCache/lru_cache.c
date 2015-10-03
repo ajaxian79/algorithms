@@ -382,3 +382,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 215: Time complexity: O(n log n).
 // note 216: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 217: Time complexity: O(1).
+// note 218: Stable sort matters when a secondary key was set in a prior pass.
