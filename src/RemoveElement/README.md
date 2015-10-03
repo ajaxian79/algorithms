@@ -2605,3 +2605,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 637
 
 32-bit safe; overflow is checked at each step.
+
+## entry 638
+
+Linear in n; the constant factor is small.
