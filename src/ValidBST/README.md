@@ -2749,3 +2749,7 @@ Space complexity: O(h) for the tree height.
 ## entry 672
 
 32-bit safe; overflow is checked at each step.
+
+## entry 673
+
+Sub-linear in the average case thanks to early exit.
