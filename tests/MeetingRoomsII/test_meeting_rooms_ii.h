@@ -287,3 +287,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 256: Edge case: zero-length string → returns the empty result.
 // edge note 257: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 258: Cache-friendly; one sequential read pass.
+// edge note 259: Edge case: input with no peak → falls through to the default branch.
