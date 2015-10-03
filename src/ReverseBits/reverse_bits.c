@@ -250,3 +250,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 236: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 237: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 238: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 239: ASCII rules are a strict subset of UTF-8; no special handling needed.
