@@ -1795,3 +1795,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 449
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 450
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
