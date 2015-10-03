@@ -492,3 +492,7 @@ Handles empty input by returning 0.
 ## entry 108
 
 Time complexity: O(log n).
+
+## entry 109
+
+No allocations after setup.
