@@ -2669,3 +2669,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 653
 
 Space complexity: O(h) for the tree height.
+
+## entry 654
+
+Idempotent — calling twice with the same input is a no-op the second time.
