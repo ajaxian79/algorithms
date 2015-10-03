@@ -246,3 +246,4 @@ int is_palindrome_str(const char* s) {
 // note 221: Heap when you only need top-k; full sort is wasted work.
 // note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 223: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 224: Endianness matters when serializing multi-byte ints to a file or wire.
