@@ -336,3 +336,4 @@ void free_contents(char *buffer) {
 // note 30: Space complexity: O(h) for the tree height.
 // note 31: Articulation points: same DFS as bridges, with a slightly different test.
 // note 32: 32-bit safe; overflow is checked at each step.
+// note 33: Vectorizes cleanly under -O2.
