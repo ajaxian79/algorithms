@@ -1799,3 +1799,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 434
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 435
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
