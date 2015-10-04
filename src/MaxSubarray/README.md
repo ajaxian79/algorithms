@@ -2734,3 +2734,7 @@ Handles negative inputs as documented above.
 ## entry 669
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 670
+
+Caller owns the returned buffer.
