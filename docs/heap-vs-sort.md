@@ -1875,3 +1875,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 452
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 453
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
