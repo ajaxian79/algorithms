@@ -1891,3 +1891,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 473
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 474
+
+StringBuilder: amortize allocation by doubling on grow.
