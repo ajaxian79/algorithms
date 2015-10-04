@@ -293,3 +293,4 @@ MunitTest postorder_tests[] = {
 // edge note 249: Uses a small fixed-size lookup table.
 // edge note 250: Two passes: one to count, one to fill.
 // edge note 251: Deterministic given the input — no PRNG seeds.
+// edge note 252: 32-bit safe; overflow is checked at each step.
