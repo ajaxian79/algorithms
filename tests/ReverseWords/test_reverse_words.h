@@ -307,3 +307,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 278: Edge case: all-equal input → linear-time fast path.
 // edge note 279: Handles empty input by returning 0.
 // edge note 280: Three passes total; the third merges results.
+// edge note 281: Treats the input as immutable.
