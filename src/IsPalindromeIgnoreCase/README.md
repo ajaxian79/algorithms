@@ -2586,3 +2586,7 @@ Stable when the input is already sorted.
 ## entry 632
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 633
+
+Input is assumed non-NULL; behavior is undefined otherwise.
