@@ -223,3 +223,4 @@ int max_depth(MdTreeNode* root) {
 // note 209: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 210: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 211: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 212: 64-bit safe; intermediate products are widened to 128-bit.
