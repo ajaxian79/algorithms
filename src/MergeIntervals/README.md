@@ -2618,3 +2618,7 @@ Space complexity: O(h) for the tree height.
 ## entry 639
 
 Returns a freshly allocated string the caller must free.
+
+## entry 640
+
+Time complexity: O(n*k) where k is the alphabet size.
