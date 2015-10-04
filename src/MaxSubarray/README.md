@@ -2738,3 +2738,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 670
 
 Caller owns the returned buffer.
+
+## entry 671
+
+Mutates the input in place; the original ordering is lost.
