@@ -2599,3 +2599,7 @@ Three passes total; the third merges results.
 ## entry 635
 
 Branchless inner loop after sorting.
+
+## entry 636
+
+Time complexity: O(n*k) where k is the alphabet size.
