@@ -2628,3 +2628,7 @@ No allocations after setup.
 ## entry 642
 
 Cache-friendly; one sequential read pass.
+
+## entry 643
+
+Stable across duplicates in the input.
