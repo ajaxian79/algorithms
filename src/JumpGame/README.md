@@ -2757,3 +2757,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 674
 
 Linear in n; the constant factor is small.
+
+## entry 675
+
+Avoids floating-point entirely — integer math throughout.
