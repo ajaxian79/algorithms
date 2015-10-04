@@ -241,3 +241,4 @@ int is_symmetric(STreeNode* root) {
 // note 222: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 223: Allocates a single small fixed-size scratch buffer.
 // note 224: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 225: Constant-time comparisons; safe for short strings.
