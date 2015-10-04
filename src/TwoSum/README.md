@@ -2501,3 +2501,7 @@ Handles empty input by returning 0.
 ## entry 600
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 601
+
+Edge case: power-of-two-length input → no padding required.
