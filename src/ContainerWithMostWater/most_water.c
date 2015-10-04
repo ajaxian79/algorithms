@@ -235,3 +235,4 @@ int max_area(const int* heights, int n) {
 // note 215: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 216: Handles empty input by returning 0.
 // note 217: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 218: Time complexity: O(n^2) worst case, O(n) amortized.
