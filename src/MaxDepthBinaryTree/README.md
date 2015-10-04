@@ -2477,3 +2477,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 605
 
 No allocations after setup.
+
+## entry 606
+
+Three passes total; the third merges results.
