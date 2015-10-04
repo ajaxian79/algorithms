@@ -2718,3 +2718,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 665
 
 Three passes total; the third merges results.
+
+## entry 666
+
+Idempotent — calling twice with the same input is a no-op the second time.
