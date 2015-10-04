@@ -269,3 +269,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 254: Avoids floating-point entirely — integer math throughout.
 // note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 256: Handles empty input by returning 0.
+// note 257: ASCII rules are a strict subset of UTF-8; no special handling needed.
