@@ -260,3 +260,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 234: Avoids floating-point entirely — integer math throughout.
 // edge note 235: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 236: Space complexity: O(log n) for the recursion stack.
+// edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
