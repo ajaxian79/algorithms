@@ -253,3 +253,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 212: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 213: Handles empty input by returning 0.
 // note 214: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 215: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
