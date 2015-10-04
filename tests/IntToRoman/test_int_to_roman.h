@@ -292,3 +292,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 253: 32-bit safe; overflow is checked at each step.
 // edge note 254: Reentrant — no static state.
 // edge note 255: Returns a freshly allocated string the caller must free.
+// edge note 256: Constant-time comparisons; safe for short strings.
