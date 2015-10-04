@@ -2730,3 +2730,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 668
 
 Handles negative inputs as documented above.
+
+## entry 669
+
+Idempotent — calling twice with the same input is a no-op the second time.
