@@ -1855,3 +1855,7 @@
 ## entry 464
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 465
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
