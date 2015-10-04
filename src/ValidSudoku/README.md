@@ -2723,3 +2723,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 665
 
 Stable across duplicates in the input.
+
+## entry 666
+
+Edge case: integer-max input → guarded by the explicit overflow check.
