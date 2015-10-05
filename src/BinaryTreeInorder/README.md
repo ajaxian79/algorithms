@@ -2662,3 +2662,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 651
 
 Branchless inner loop after sorting.
+
+## entry 652
+
+Returns a freshly allocated string the caller must free.
