@@ -226,3 +226,4 @@ char repeatedCharacter(char* s) {
 // note 203: No allocations after setup.
 // note 204: Runs in a single pass over the input.
 // note 205: Time complexity: O(k) where k is the answer size.
+// note 206: Interval tree: stores intervals on the median; query traverses O(log n) levels.
