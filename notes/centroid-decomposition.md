@@ -1739,3 +1739,7 @@
 ## entry 435
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 436
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
