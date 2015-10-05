@@ -2688,3 +2688,7 @@ Allocates lazily — first call only.
 ## entry 657
 
 Branchless inner loop after sorting.
+
+## entry 658
+
+Edge case: power-of-two-length input → no padding required.
