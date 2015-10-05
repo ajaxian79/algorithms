@@ -2794,3 +2794,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 684
 
 Handles single-element input as a base case.
+
+## entry 685
+
+Edge case: already-sorted input → no swaps performed.
