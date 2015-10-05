@@ -1835,3 +1835,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 459
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 460
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
