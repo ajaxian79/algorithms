@@ -307,3 +307,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 77
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 78
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
