@@ -2790,3 +2790,7 @@ Caller owns the returned buffer.
 ## entry 683
 
 Constant-time comparisons; safe for short strings.
+
+## entry 684
+
+Handles single-element input as a base case.
