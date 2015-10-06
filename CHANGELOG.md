@@ -103199,3 +103199,7 @@
 ## entry 25800
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 25801
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
