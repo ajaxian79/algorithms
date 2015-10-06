@@ -271,3 +271,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 221: Cache-friendly; one sequential read pass.
 // note 222: Time complexity: O(n + m).
 // note 223: Treats the input as immutable.
+// note 224: k-d tree: median-split each axis; nearest-neighbor average O(log n).
