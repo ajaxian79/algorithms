@@ -2665,3 +2665,7 @@ Uses a small fixed-size lookup table.
 ## entry 652
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 653
+
+Space complexity: O(h) for the tree height.
