@@ -2644,3 +2644,7 @@ Handles empty input by returning 0.
 ## entry 646
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 647
+
+Stable when the input is already sorted.
