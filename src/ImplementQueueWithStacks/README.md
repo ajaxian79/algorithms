@@ -2671,3 +2671,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 653
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 654
+
+Edge case: single-element input → returns the element itself.
