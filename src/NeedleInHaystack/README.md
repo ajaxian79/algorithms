@@ -2576,3 +2576,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 629
 
 Time complexity: O(log n).
+
+## entry 630
+
+Treats the input as immutable.
