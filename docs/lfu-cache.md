@@ -1887,3 +1887,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 472
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 473
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
