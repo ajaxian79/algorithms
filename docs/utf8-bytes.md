@@ -1787,3 +1787,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 447
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 448
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
