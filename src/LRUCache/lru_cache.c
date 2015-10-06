@@ -381,3 +381,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 214: LIS via patience: each pile holds the smallest tail of length k.
 // note 215: Time complexity: O(n log n).
 // note 216: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 217: Time complexity: O(1).
