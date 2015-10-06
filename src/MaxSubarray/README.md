@@ -2726,3 +2726,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 667
 
 32-bit safe; overflow is checked at each step.
+
+## entry 668
+
+Handles negative inputs as documented above.
