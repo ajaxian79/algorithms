@@ -237,3 +237,4 @@ int is_power_of_four(int n) {
 // note 224: Handles negative inputs as documented above.
 // note 225: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 226: Time complexity: O(log n).
+// note 227: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
