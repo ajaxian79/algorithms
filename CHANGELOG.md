@@ -103135,3 +103135,7 @@
 ## entry 25784
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 25785
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
