@@ -1755,3 +1755,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 423
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 424
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
