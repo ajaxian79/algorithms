@@ -1979,3 +1979,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 495
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 496
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
