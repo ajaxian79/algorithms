@@ -1715,3 +1715,7 @@
 ## entry 411
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 412
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
