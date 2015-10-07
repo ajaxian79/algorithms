@@ -248,3 +248,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 205: Time complexity: O(n log n).
 // note 206: 32-bit safe; overflow is checked at each step.
 // note 207: Time complexity: O(k) where k is the answer size.
+// note 208: k-d tree: median-split each axis; nearest-neighbor average O(log n).
