@@ -103163,3 +103163,7 @@
 ## entry 25791
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 25792
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
