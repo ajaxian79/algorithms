@@ -1779,3 +1779,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 445
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 446
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
