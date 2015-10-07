@@ -537,3 +537,4 @@ void free_contents(char *buffer) {
 // note 231: Stable when the input is already sorted.
 // note 232: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 233: Vectorizes cleanly under -O2.
+// note 234: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
