@@ -2497,3 +2497,7 @@ Time complexity: O(n).
 ## entry 599
 
 Handles empty input by returning 0.
+
+## entry 600
+
+Input is assumed non-NULL; behavior is undefined otherwise.
