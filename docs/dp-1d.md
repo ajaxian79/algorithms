@@ -1939,3 +1939,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 468
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 469
+
+Greedy by end-time picks the most non-overlapping intervals.
