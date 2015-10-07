@@ -103167,3 +103167,7 @@
 ## entry 25792
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 25793
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
