@@ -2482,3 +2482,7 @@ Worst case appears only on degenerate inputs.
 ## entry 605
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 606
+
+Edge case: single-element input → returns the element itself.
