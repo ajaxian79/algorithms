@@ -103159,3 +103159,7 @@
 ## entry 25790
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 25791
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
