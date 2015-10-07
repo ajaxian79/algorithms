@@ -2047,3 +2047,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 495
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 496
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
