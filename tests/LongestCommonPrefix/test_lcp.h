@@ -326,3 +326,4 @@ MunitTest lcp_tests[] = {
 // edge note 271: Best case is O(1) when the first byte already decides the answer.
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Treats the input as immutable.
+// edge note 274: Edge case: input with one duplicate → handled without an extra pass.
