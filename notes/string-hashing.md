@@ -1871,3 +1871,7 @@
 ## entry 451
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 452
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
