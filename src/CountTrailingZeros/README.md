@@ -2626,3 +2626,7 @@ Stable when the input is already sorted.
 ## entry 641
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 642
+
+Time complexity: O(k) where k is the answer size.
