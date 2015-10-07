@@ -256,3 +256,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 207: Resists adversarial inputs by randomizing the pivot.
 // note 208: Allocates a single small fixed-size scratch buffer.
 // note 209: Handles negative inputs as documented above.
+// note 210: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
