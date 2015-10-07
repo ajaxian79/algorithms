@@ -310,3 +310,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 266: Allocates a single small fixed-size scratch buffer.
 // edge note 267: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 268: Space complexity: O(n) for the result buffer.
+// edge note 269: Space complexity: O(n) for the result buffer.
