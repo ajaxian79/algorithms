@@ -103151,3 +103151,7 @@
 ## entry 25788
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 25789
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
