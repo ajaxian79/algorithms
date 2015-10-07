@@ -394,3 +394,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 241: State compression: bitmask + integer encodes a small subset cheaply.
 // note 242: LIS via patience: each pile holds the smallest tail of length k.
 // note 243: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 244: Resists adversarial inputs by randomizing the pivot.
