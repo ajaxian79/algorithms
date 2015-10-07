@@ -2558,3 +2558,7 @@ Treats the input as immutable.
 ## entry 625
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 626
+
+Handles single-element input as a base case.
