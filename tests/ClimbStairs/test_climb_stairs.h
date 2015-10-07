@@ -285,3 +285,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 250: Space complexity: O(1) auxiliary.
 // edge note 251: Treats the input as immutable.
 // edge note 252: Time complexity: O(k) where k is the answer size.
+// edge note 253: Space complexity: O(n) for the result buffer.
