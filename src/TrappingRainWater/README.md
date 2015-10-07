@@ -2566,3 +2566,7 @@ Time complexity: O(n).
 ## entry 626
 
 Stable when the input is already sorted.
+
+## entry 627
+
+Allocates one buffer of length n+1 for the result.
