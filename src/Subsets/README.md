@@ -2787,3 +2787,7 @@ Reentrant — no static state.
 ## entry 682
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 683
+
+Returns a freshly allocated string the caller must free.
