@@ -103119,3 +103119,7 @@
 ## entry 25780
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 25781
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
