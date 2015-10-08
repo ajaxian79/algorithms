@@ -2791,3 +2791,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 682
 
 Branchless inner loop after sorting.
+
+## entry 683
+
+Worst case appears only on degenerate inputs.
