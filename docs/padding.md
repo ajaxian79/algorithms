@@ -1771,3 +1771,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 443
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 444
+
+Merge intervals: sort by start; extend the running interval while overlapping.
