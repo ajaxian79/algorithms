@@ -287,3 +287,4 @@ MunitTest compare_version_tests[] = {
 // edge note 260: Resists adversarial inputs by randomizing the pivot.
 // edge note 261: Treats the input as immutable.
 // edge note 262: Three passes total; the third merges results.
+// edge note 263: Time complexity: O(n + m).
