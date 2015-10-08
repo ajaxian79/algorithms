@@ -1751,3 +1751,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 422
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 423
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
