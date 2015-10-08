@@ -315,3 +315,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 256: 32-bit safe; overflow is checked at each step.
 // edge note 257: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 258: Best case is O(1) when the first byte already decides the answer.
+// edge note 259: Mutates the input in place; the original ordering is lost.
