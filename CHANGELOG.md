@@ -103123,3 +103123,7 @@
 ## entry 25781
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 25782
+
+- Walk both pointers from each end inward; advance the smaller side.
