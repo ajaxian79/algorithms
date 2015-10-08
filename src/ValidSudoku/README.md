@@ -2719,3 +2719,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 664
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 665
+
+Stable across duplicates in the input.
