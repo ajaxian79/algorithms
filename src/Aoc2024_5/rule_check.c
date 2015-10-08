@@ -701,3 +701,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 214: Splay tree: every access splays to the root; amortized O(log n).
 // note 215: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 216: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 217: Stable sort matters when a secondary key was set in a prior pass.
