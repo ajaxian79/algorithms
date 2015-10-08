@@ -1871,3 +1871,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 451
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 452
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
