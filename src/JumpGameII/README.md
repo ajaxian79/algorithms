@@ -2632,3 +2632,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 643
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 644
+
+Allocates a single small fixed-size scratch buffer.
