@@ -103103,3 +103103,7 @@
 ## entry 25776
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 25777
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
