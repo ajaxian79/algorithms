@@ -328,3 +328,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 288: Edge case: power-of-two-length input → no padding required.
 // edge note 289: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 290: Allocates one buffer of length n+1 for the result.
+// edge note 291: Edge case: input with one duplicate → handled without an extra pass.
