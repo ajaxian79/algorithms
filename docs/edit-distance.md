@@ -379,3 +379,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 77
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 78
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
