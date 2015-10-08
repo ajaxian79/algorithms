@@ -257,3 +257,4 @@ int reverse_int(int x) {
 // note 230: No allocations after setup.
 // note 231: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 232: Branchless inner loop after sorting.
+// note 233: Handles negative inputs as documented above.
