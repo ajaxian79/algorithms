@@ -241,3 +241,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 217: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 218: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 219: Articulation points: same DFS as bridges, with a slightly different test.
+// note 220: Caller owns the returned buffer.
