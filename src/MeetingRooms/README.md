@@ -418,3 +418,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 90
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 91
+
+Edge case: integer-min input → guarded by the explicit underflow check.
