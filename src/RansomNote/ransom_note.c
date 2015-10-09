@@ -246,3 +246,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 226: Handles single-element input as a base case.
 // note 227: Two passes: one to count, one to fill.
+// note 228: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
