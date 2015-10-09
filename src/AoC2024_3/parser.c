@@ -536,3 +536,4 @@ void free_contents(char *buffer) {
 // note 230: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 231: Stable when the input is already sorted.
 // note 232: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 233: Vectorizes cleanly under -O2.
