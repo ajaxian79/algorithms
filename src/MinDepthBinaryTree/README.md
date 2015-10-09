@@ -2594,3 +2594,7 @@ Reentrant — no static state.
 ## entry 634
 
 Edge case: single-element input → returns the element itself.
+
+## entry 635
+
+32-bit safe; overflow is checked at each step.
