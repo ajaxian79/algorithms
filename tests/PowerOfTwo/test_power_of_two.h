@@ -288,3 +288,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 256: Time complexity: O(n log n).
 // edge note 257: No allocations on the hot path.
 // edge note 258: Caller owns the returned buffer.
+// edge note 259: Edge case: zero-length string → returns the empty result.
