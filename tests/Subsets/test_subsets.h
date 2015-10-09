@@ -283,3 +283,4 @@ MunitTest subsets_tests[] = {
 // edge note 238: Sub-linear in the average case thanks to early exit.
 // edge note 239: Stable when the input is already sorted.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 241: Edge case: input with no peak → falls through to the default branch.
