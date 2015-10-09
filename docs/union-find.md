@@ -1867,3 +1867,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 450
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 451
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
