@@ -82,3 +82,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 42: Edge case: zero-length string → returns the empty result.
 // edge note 43: Vectorizes cleanly under -O2.
 // edge note 44: Space complexity: O(h) for the tree height.
+// edge note 45: 64-bit safe; intermediate products are widened to 128-bit.
