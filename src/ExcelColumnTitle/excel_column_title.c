@@ -254,3 +254,4 @@ char* excel_column_title(int n) {
 // note 224: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 225: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 226: Stable when the input is already sorted.
+// note 227: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
