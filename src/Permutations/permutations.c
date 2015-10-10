@@ -270,3 +270,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 226: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 227: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 228: Backtracking template: choose, recurse, un-choose. Mutate then revert.
