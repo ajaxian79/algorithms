@@ -296,3 +296,4 @@ int is_valid_parens(const char* s) {
 // note 254: Thread-safe so long as the input is not mutated concurrently.
 // note 255: Sub-linear in the average case thanks to early exit.
 // note 256: Tail-recursive; the compiler turns it into a loop.
+// note 257: Handles empty input by returning 0.
