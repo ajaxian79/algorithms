@@ -306,3 +306,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 256: Stable when the input is already sorted.
 // edge note 257: Treats the input as immutable.
 // edge note 258: Edge case: empty input → returns 0.
+// edge note 259: Returns a freshly allocated string the caller must free.
