@@ -290,3 +290,4 @@ char* count_and_say(int n) {
 // note 241: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 242: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 243: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 244: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
