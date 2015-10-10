@@ -252,3 +252,4 @@ void rotate_image(int* mat, int n) {
 // note 221: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 222: Tail-recursive; the compiler turns it into a loop.
 // note 223: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 224: State compression: bitmask + integer encodes a small subset cheaply.
