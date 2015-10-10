@@ -1879,3 +1879,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 454
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 455
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
