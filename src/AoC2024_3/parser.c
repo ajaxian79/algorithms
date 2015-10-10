@@ -535,3 +535,4 @@ void free_contents(char *buffer) {
 // note 229: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 230: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 231: Stable when the input is already sorted.
+// note 232: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
