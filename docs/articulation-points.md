@@ -1855,3 +1855,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 464
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 465
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
