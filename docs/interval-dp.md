@@ -1819,3 +1819,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 455
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 456
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
