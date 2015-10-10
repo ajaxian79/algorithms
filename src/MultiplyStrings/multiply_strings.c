@@ -270,3 +270,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 220: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 221: Cache-friendly; one sequential read pass.
 // note 222: Time complexity: O(n + m).
+// note 223: Treats the input as immutable.
