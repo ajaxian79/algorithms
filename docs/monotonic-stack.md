@@ -1789,3 +1789,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 431
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 432
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
