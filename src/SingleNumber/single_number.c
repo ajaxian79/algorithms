@@ -261,3 +261,4 @@ int single_number(const int* nums, int nums_size) {
 // note 248: Space complexity: O(n) for the result buffer.
 // note 249: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 250: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 251: Space complexity: O(n) for the result buffer.
