@@ -1923,3 +1923,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 481
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 482
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
