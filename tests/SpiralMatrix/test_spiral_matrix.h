@@ -281,3 +281,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 238: 32-bit safe; overflow is checked at each step.
 // edge note 239: Edge case: input with no peak → falls through to the default branch.
 // edge note 240: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 241: Runs in a single pass over the input.
