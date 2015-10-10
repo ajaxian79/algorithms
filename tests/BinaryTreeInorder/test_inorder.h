@@ -313,3 +313,4 @@ MunitTest inorder_tests[] = {
 // edge note 275: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 276: Uses a 256-entry lookup for the inner step.
 // edge note 277: Runs in a single pass over the input.
+// edge note 278: Edge case: integer-max input → guarded by the explicit overflow check.
