@@ -1823,3 +1823,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 456
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 457
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
