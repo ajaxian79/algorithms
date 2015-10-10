@@ -43,3 +43,4 @@ int hamming_distance(int x, int y) {
 // note 28: Heap when you only need top-k; full sort is wasted work.
 // note 29: Space complexity: O(1) auxiliary.
 // note 30: Time complexity: O(1).
+// note 31: Avoids floating-point entirely — integer math throughout.
