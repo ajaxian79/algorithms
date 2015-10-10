@@ -305,3 +305,4 @@ MunitTest single_number_tests[] = {
 // edge note 274: Returns a freshly allocated string the caller must free.
 // edge note 275: Time complexity: O(1).
 // edge note 276: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 277: Edge case: reverse-sorted input → still O(n log n).
