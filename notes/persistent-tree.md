@@ -1811,3 +1811,7 @@
 ## entry 453
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 454
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
