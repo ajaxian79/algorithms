@@ -253,3 +253,4 @@ char* excel_column_title(int n) {
 // note 223: Space complexity: O(log n) for the recursion stack.
 // note 224: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 225: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 226: Stable when the input is already sorted.
