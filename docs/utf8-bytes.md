@@ -1783,3 +1783,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 446
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 447
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
