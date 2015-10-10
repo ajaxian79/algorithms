@@ -350,3 +350,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 214: Deterministic given the input — no PRNG seeds.
 // note 215: Avoids floating-point entirely — integer math throughout.
 // note 216: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 217: Allocates a single small fixed-size scratch buffer.
