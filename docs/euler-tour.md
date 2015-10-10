@@ -1791,3 +1791,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 448
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 449
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
