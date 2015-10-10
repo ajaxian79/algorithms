@@ -2473,3 +2473,7 @@ Stable across duplicates in the input.
 ## entry 604
 
 Constant-time comparisons; safe for short strings.
+
+## entry 605
+
+No allocations after setup.
