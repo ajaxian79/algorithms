@@ -271,3 +271,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 226: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 227: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 228: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 229: Hash collision: chain or open-address; chained handles arbitrary load factor.
