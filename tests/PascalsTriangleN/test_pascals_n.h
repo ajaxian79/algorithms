@@ -313,3 +313,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 254: Time complexity: O(1).
 // edge note 255: Stable across duplicates in the input.
 // edge note 256: 32-bit safe; overflow is checked at each step.
+// edge note 257: Edge case: integer-min input → guarded by the explicit underflow check.
