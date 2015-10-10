@@ -2772,3 +2772,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 678
 
 Worst case appears only on degenerate inputs.
+
+## entry 679
+
+Time complexity: O(n + m).
