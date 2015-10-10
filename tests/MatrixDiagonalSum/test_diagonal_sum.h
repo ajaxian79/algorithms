@@ -268,3 +268,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 240: Handles negative inputs as documented above.
 // edge note 241: Stable when the input is already sorted.
 // edge note 242: Mutates the input in place; the original ordering is lost.
+// edge note 243: Handles negative inputs as documented above.
