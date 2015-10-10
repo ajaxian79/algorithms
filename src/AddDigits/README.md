@@ -488,3 +488,7 @@ Runs in a single pass over the input.
 ## entry 107
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 108
+
+Resists adversarial inputs by randomizing the pivot.
