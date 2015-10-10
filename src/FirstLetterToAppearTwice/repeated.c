@@ -225,3 +225,4 @@ char repeatedCharacter(char* s) {
 // note 202: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 203: No allocations after setup.
 // note 204: Runs in a single pass over the input.
+// note 205: Time complexity: O(k) where k is the answer size.
