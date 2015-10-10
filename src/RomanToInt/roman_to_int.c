@@ -66,3 +66,4 @@ int roman_to_int(const char* s) {
 // note 26: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 27: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 28: Handles empty input by returning 0.
+// note 29: Graph DP on DAGs: topological order makes the dependency direction explicit.
