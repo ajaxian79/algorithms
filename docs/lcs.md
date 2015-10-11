@@ -1879,3 +1879,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 452
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 453
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
