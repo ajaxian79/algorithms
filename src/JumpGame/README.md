@@ -2749,3 +2749,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 672
 
 Space complexity: O(h) for the tree height.
+
+## entry 673
+
+Tail-recursive; the compiler turns it into a loop.
