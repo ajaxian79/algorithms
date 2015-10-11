@@ -1863,3 +1863,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 466
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 467
+
+Splay tree: every access splays to the root; amortized O(log n).
