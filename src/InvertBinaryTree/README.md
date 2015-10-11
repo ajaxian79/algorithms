@@ -2788,3 +2788,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 682
 
 Caller owns the returned buffer.
+
+## entry 683
+
+Uses a small fixed-size lookup table.
