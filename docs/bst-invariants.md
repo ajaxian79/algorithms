@@ -1877,3 +1877,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 453
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 454
+
+State compression: bitmask + integer encodes a small subset cheaply.
