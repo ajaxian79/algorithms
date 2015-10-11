@@ -266,3 +266,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 223: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 224: Returns a freshly allocated string the caller must free.
 // note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 226: Vectorizes cleanly under -O2.
