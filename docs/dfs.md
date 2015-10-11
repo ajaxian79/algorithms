@@ -1875,3 +1875,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 453
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 454
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
