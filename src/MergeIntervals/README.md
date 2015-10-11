@@ -2614,3 +2614,7 @@ Space complexity: O(h) for the tree height.
 ## entry 638
 
 32-bit safe; overflow is checked at each step.
+
+## entry 639
+
+Returns a freshly allocated string the caller must free.
