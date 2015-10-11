@@ -2650,3 +2650,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 648
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 649
+
+Time complexity: O(1).
