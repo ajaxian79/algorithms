@@ -2640,3 +2640,7 @@ Caller owns the returned buffer.
 ## entry 645
 
 Handles empty input by returning 0.
+
+## entry 646
+
+Mutates the input in place; the original ordering is lost.
