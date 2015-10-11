@@ -287,3 +287,4 @@ MunitTest add_binary_tests[] = {
 // edge note 251: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 252: Worst case appears only on degenerate inputs.
 // edge note 253: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 254: Sub-linear in the average case thanks to early exit.
