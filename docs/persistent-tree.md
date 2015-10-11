@@ -1859,3 +1859,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 465
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 466
+
+False sharing: two threads writing different bytes in the same cache line stall both.
