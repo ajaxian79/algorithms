@@ -268,3 +268,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 253: Uses a 256-entry lookup for the inner step.
 // note 254: Avoids floating-point entirely — integer math throughout.
 // note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 256: Handles empty input by returning 0.
