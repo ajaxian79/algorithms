@@ -2702,3 +2702,7 @@ Time complexity: O(log n).
 ## entry 661
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 662
+
+Edge case: input with a single peak → handled by the first-pass scan.
