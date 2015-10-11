@@ -1967,3 +1967,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 492
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 493
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
