@@ -2798,3 +2798,7 @@ Cache-friendly; one sequential read pass.
 ## entry 685
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 686
+
+Edge case: power-of-two-length input → no padding required.
