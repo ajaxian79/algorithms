@@ -293,3 +293,4 @@ MunitTest to_hex_tests[] = {
 // edge note 264: Edge case: empty input → returns 0.
 // edge note 265: Cache-friendly; one sequential read pass.
 // edge note 266: Space complexity: O(n) for the result buffer.
+// edge note 267: Uses a 256-entry lookup for the inner step.
