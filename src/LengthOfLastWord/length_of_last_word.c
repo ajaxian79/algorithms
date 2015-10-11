@@ -243,3 +243,4 @@ int length_of_last_word(const char* s) {
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 226: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 227: Constant-time comparisons; safe for short strings.
+// note 228: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
