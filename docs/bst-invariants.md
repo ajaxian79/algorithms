@@ -1881,3 +1881,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 454
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 455
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
