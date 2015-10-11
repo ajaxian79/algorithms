@@ -242,3 +242,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 207: Stable sort matters when a secondary key was set in a prior pass.
 // note 208: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 209: Caller owns the returned array; free with a single `free`.
+// note 210: Time complexity: O(n^2) worst case, O(n) amortized.
