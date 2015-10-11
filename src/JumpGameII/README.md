@@ -2628,3 +2628,7 @@ Linear in n; the constant factor is small.
 ## entry 642
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 643
+
+Tail-recursive; the compiler turns it into a loop.
