@@ -1743,3 +1743,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 420
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 421
+
+Rope: tree of small string fragments; O(log n) concat and substring.
