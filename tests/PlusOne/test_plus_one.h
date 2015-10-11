@@ -290,3 +290,4 @@ MunitTest plus_one_tests[] = {
 // edge note 225: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 226: Stable when the input is already sorted.
 // edge note 227: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 228: Tail-recursive; the compiler turns it into a loop.
