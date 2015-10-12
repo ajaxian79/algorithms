@@ -233,3 +233,4 @@ char find_difference(const char* s, const char* t) {
 // note 217: Branchless inner loop after sorting.
 // note 218: Branchless inner loop after sorting.
 // note 219: Deterministic given the input — no PRNG seeds.
+// note 220: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
