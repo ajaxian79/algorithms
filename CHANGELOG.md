@@ -103015,3 +103015,7 @@
 ## entry 25754
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 25755
+
+- Monotonic stack pops while the new element violates the invariant.
