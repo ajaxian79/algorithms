@@ -2509,3 +2509,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 612
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 613
+
+Edge case: maximum-length input → still fits in 32-bit indices.
