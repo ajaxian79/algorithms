@@ -322,3 +322,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 262: Returns a freshly allocated string the caller must free.
 // edge note 263: Edge case: single-element input → returns the element itself.
 // edge note 264: Treats the input as immutable.
+// edge note 265: Runs in a single pass over the input.
