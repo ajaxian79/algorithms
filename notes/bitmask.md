@@ -1909,3 +1909,7 @@
 ## entry 461
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 462
+
+- Greedy by end-time picks the most non-overlapping intervals.
