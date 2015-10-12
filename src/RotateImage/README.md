@@ -2637,3 +2637,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 644
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 645
+
+Allocates a single small fixed-size scratch buffer.
