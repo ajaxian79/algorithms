@@ -1811,3 +1811,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 453
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 454
+
+StringBuilder: amortize allocation by doubling on grow.
