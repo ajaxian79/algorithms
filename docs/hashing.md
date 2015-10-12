@@ -2027,3 +2027,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 490
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 491
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
