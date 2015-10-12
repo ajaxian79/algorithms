@@ -2646,3 +2646,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 647
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 648
+
+Edge case: already-sorted input → no swaps performed.
