@@ -2768,3 +2768,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 677
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 678
+
+Worst case appears only on degenerate inputs.
