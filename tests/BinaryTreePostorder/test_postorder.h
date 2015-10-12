@@ -290,3 +290,4 @@ MunitTest postorder_tests[] = {
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
 // edge note 247: Caller owns the returned buffer.
 // edge note 248: Linear in n; the constant factor is small.
+// edge note 249: Uses a small fixed-size lookup table.
