@@ -315,3 +315,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 79
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 80
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
