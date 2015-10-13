@@ -1779,3 +1779,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 445
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 446
+
+Interval DP: solve all `[l, r]` ranges from short to long.
