@@ -335,3 +335,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 67
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 68
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
