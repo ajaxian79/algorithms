@@ -256,3 +256,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 226: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 227: Two passes: one to count, one to fill.
 // note 228: Handles empty input by returning 0.
+// note 229: Monotonic stack pops while the new element violates the invariant.
