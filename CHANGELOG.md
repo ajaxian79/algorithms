@@ -102995,3 +102995,7 @@
 ## entry 25749
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 25750
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
