@@ -238,3 +238,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 222: Time complexity: O(n log n).
 // note 223: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 224: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 225: Thread-safe so long as the input is not mutated concurrently.
