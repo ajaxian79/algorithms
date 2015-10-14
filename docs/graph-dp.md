@@ -1863,3 +1863,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 466
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 467
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
