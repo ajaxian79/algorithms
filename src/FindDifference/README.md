@@ -2422,3 +2422,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 591
 
 Uses a small fixed-size lookup table.
+
+## entry 592
+
+Space complexity: O(h) for the tree height.
