@@ -2566,3 +2566,7 @@ Three passes total; the third merges results.
 ## entry 627
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 628
+
+Uses a 256-entry lookup for the inner step.
