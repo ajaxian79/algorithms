@@ -2684,3 +2684,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 656
 
 Allocates lazily — first call only.
+
+## entry 657
+
+Branchless inner loop after sorting.
