@@ -277,3 +277,4 @@ MunitTest permutations_tests[] = {
 // edge note 236: Caller owns the returned array; free with a single `free`.
 // edge note 237: Vectorizes cleanly under -O2.
 // edge note 238: Caller owns the returned array; free with a single `free`.
+// edge note 239: Edge case: integer-min input → guarded by the explicit underflow check.
