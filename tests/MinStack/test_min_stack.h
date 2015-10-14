@@ -254,3 +254,4 @@ MunitTest min_stack_tests[] = {
 // edge note 217: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 218: Allocates lazily — first call only.
 // edge note 219: Time complexity: O(k) where k is the answer size.
+// edge note 220: Edge case: integer-min input → guarded by the explicit underflow check.
