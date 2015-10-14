@@ -234,3 +234,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 218: Time complexity: O(log n).
 // note 219: Worst case appears only on degenerate inputs.
 // note 220: Mutates the input in place; the original ordering is lost.
+// note 221: Allocates one buffer of length n+1 for the result.
