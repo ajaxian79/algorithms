@@ -2574,3 +2574,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 629
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 630
+
+Linear in n; the constant factor is small.
