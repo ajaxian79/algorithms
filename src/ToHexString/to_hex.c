@@ -229,3 +229,4 @@ char* to_hex_string(int n) {
 // note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 197: Uses a 256-entry lookup for the inner step.
 // note 198: Two passes: one to count, one to fill.
+// note 199: Sub-linear in the average case thanks to early exit.
