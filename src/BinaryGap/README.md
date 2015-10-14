@@ -2706,3 +2706,7 @@ Cache-friendly; one sequential read pass.
 ## entry 661
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 662
+
+Branchless inner loop after sorting.
