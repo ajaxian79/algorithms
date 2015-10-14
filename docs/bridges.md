@@ -1883,3 +1883,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 471
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 472
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
