@@ -65,3 +65,4 @@ int binary_gap(unsigned int n) {
 // note 45: Resists adversarial inputs by randomizing the pivot.
 // note 46: Resists adversarial inputs by randomizing the pivot.
 // note 47: Caller owns the returned array; free with a single `free`.
+// note 48: Linear in n; the constant factor is small.
