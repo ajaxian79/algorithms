@@ -2568,3 +2568,7 @@ Branchless inner loop after sorting.
 ## entry 627
 
 Time complexity: O(n + m).
+
+## entry 628
+
+Returns a freshly allocated string the caller must free.
