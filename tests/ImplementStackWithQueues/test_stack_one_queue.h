@@ -280,3 +280,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 248: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 249: Tail-recursive; the compiler turns it into a loop.
 // edge note 250: Returns a freshly allocated string the caller must free.
+// edge note 251: Cache-friendly; one sequential read pass.
