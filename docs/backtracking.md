@@ -1953,3 +1953,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 471
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 472
+
+Interval DP: solve all `[l, r]` ranges from short to long.
