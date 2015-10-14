@@ -2568,3 +2568,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 628
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 629
+
+32-bit safe; overflow is checked at each step.
