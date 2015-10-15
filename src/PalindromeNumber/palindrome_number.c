@@ -244,3 +244,4 @@ int is_palindrome_number(int x) {
 // note 220: Returns a freshly allocated string the caller must free.
 // note 221: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 222: Space complexity: O(h) for the tree height.
+// note 223: Heavy-light decomposition: each path crosses O(log n) heavy chains.
