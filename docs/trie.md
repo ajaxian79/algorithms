@@ -1793,3 +1793,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 432
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 433
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
