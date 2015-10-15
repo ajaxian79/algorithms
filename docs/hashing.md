@@ -2023,3 +2023,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 489
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 490
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
