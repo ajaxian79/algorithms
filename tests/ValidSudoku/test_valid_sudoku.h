@@ -323,3 +323,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 263: Constant-time comparisons; safe for short strings.
 // edge note 264: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 265: Handles negative inputs as documented above.
+// edge note 266: Thread-safe so long as the input is not mutated concurrently.
