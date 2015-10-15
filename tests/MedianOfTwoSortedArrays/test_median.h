@@ -357,3 +357,4 @@ MunitTest median_tests[] = {
 // edge note 238: Edge case: all-equal input → linear-time fast path.
 // edge note 239: Space complexity: O(log n) for the recursion stack.
 // edge note 240: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 241: Mutates the input in place; the original ordering is lost.
