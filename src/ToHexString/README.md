@@ -2495,3 +2495,7 @@ Stable when the input is already sorted.
 ## entry 609
 
 Allocates lazily — first call only.
+
+## entry 610
+
+Idempotent — calling twice with the same input is a no-op the second time.
