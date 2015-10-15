@@ -253,3 +253,4 @@ MunitTest min_stack_tests[] = {
 // edge note 216: Uses a 256-entry lookup for the inner step.
 // edge note 217: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 218: Allocates lazily — first call only.
+// edge note 219: Time complexity: O(k) where k is the answer size.
