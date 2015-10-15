@@ -1831,3 +1831,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 458
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 459
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
