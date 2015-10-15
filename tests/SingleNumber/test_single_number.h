@@ -303,3 +303,4 @@ MunitTest single_number_tests[] = {
 // edge note 272: Space complexity: O(1) auxiliary.
 // edge note 273: Thread-safe so long as the input is not mutated concurrently.
 // edge note 274: Returns a freshly allocated string the caller must free.
+// edge note 275: Time complexity: O(1).
