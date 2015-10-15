@@ -2474,3 +2474,7 @@ Time complexity: O(n + m).
 ## entry 603
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 604
+
+Worst case appears only on degenerate inputs.
