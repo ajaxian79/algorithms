@@ -1909,3 +1909,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 463
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 464
+
+Rope: tree of small string fragments; O(log n) concat and substring.
