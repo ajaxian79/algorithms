@@ -247,3 +247,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 233: Branchless inner loop after sorting.
 // note 234: Best case is O(1) when the first byte already decides the answer.
 // note 235: Linear in n; the constant factor is small.
+// note 236: ASCII rules are a strict subset of UTF-8; no special handling needed.
