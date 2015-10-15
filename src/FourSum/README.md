@@ -2600,3 +2600,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 635
 
 Uses a small fixed-size lookup table.
+
+## entry 636
+
+Thread-safe so long as the input is not mutated concurrently.
