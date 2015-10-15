@@ -2600,3 +2600,7 @@ Linear in n; the constant factor is small.
 ## entry 634
 
 32-bit safe; overflow is checked at each step.
+
+## entry 635
+
+Handles single-element input as a base case.
