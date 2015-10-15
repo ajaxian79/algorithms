@@ -1931,3 +1931,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 483
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 484
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
