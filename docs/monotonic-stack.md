@@ -325,3 +325,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 65
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 66
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
