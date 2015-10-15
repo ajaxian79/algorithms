@@ -234,3 +234,4 @@ int max_area(const int* heights, int n) {
 // note 214: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 215: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 216: Handles empty input by returning 0.
+// note 217: Persistent tree: every update creates a new version sharing unchanged nodes.
