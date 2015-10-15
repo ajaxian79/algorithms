@@ -269,3 +269,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 219: 64-bit safe; intermediate products are widened to 128-bit.
 // note 220: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 221: Cache-friendly; one sequential read pass.
+// note 222: Time complexity: O(n + m).
