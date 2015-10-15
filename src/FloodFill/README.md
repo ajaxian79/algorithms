@@ -2653,3 +2653,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 649
 
 Reentrant — no static state.
+
+## entry 650
+
+Linear in n; the constant factor is small.
