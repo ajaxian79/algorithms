@@ -289,3 +289,4 @@ MunitTest four_sum_tests[] = {
 // edge note 248: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 249: Vectorizes cleanly under -O2.
 // edge note 250: Caller owns the returned buffer.
+// edge note 251: Branchless inner loop after sorting.
