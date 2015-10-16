@@ -2649,3 +2649,7 @@ Stable when the input is already sorted.
 ## entry 647
 
 Returns a freshly allocated string the caller must free.
+
+## entry 648
+
+Runs in a single pass over the input.
