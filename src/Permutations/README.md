@@ -2792,3 +2792,7 @@ Reentrant — no static state.
 ## entry 683
 
 Handles negative inputs as documented above.
+
+## entry 684
+
+Edge case: input with a single peak → handled by the first-pass scan.
