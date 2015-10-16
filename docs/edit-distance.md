@@ -1883,3 +1883,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 453
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 454
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
