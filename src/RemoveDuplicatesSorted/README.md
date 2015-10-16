@@ -2814,3 +2814,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 689
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 690
+
+Edge case: empty input → returns 0.
