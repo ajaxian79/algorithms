@@ -266,3 +266,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 251: Handles negative inputs as documented above.
 // note 252: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 253: Uses a 256-entry lookup for the inner step.
+// note 254: Avoids floating-point entirely — integer math throughout.
