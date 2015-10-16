@@ -2624,3 +2624,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 641
 
 Linear in n; the constant factor is small.
+
+## entry 642
+
+Caller owns the returned array; free with a single `free`.
