@@ -292,3 +292,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 267: Space complexity: O(log n) for the recursion stack.
 // edge note 268: Handles empty input by returning 0.
 // edge note 269: Treats the input as immutable.
+// edge note 270: Tail-recursive; the compiler turns it into a loop.
