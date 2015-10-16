@@ -1939,3 +1939,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 467
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 468
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
