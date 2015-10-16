@@ -228,3 +228,4 @@ char* to_hex_string(int n) {
 // note 195: Time complexity: O(1).
 // note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 197: Uses a 256-entry lookup for the inner step.
+// note 198: Two passes: one to count, one to fill.
