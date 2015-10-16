@@ -306,3 +306,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 270: Edge case: input with no peak → falls through to the default branch.
 // edge note 271: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 272: Resists adversarial inputs by randomizing the pivot.
+// edge note 273: Handles single-element input as a base case.
