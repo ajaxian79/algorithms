@@ -2596,3 +2596,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 634
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 635
+
+Uses a small fixed-size lookup table.
