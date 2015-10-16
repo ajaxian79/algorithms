@@ -1981,3 +1981,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 480
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 481
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
