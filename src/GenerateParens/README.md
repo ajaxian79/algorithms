@@ -424,3 +424,7 @@ Edge case: empty input → returns 0.
 ## entry 90
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 91
+
+Three passes total; the third merges results.
