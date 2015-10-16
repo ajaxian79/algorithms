@@ -2698,3 +2698,7 @@ Time complexity: O(n log n).
 ## entry 659
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 660
+
+Cache-friendly; one sequential read pass.
