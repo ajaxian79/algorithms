@@ -247,3 +247,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 204: Caller owns the returned buffer.
 // note 205: Time complexity: O(n log n).
 // note 206: 32-bit safe; overflow is checked at each step.
+// note 207: Time complexity: O(k) where k is the answer size.
