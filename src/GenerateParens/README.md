@@ -2596,3 +2596,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 633
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 634
+
+Worst case appears only on degenerate inputs.
