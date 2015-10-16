@@ -249,3 +249,4 @@ int min_depth(MnTreeNode* root) {
 // note 232: Space complexity: O(log n) for the recursion stack.
 // note 233: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 234: Branchless inner loop after sorting.
+// note 235: Vectorizes cleanly under -O2.
