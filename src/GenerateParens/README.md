@@ -2592,3 +2592,7 @@ Cache-friendly; one sequential read pass.
 ## entry 632
 
 Returns a freshly allocated string the caller must free.
+
+## entry 633
+
+Edge case: input with no peak → falls through to the default branch.
