@@ -484,3 +484,7 @@ Three passes total; the third merges results.
 ## entry 106
 
 Handles empty input by returning 0.
+
+## entry 107
+
+Caller owns the returned array; free with a single `free`.
