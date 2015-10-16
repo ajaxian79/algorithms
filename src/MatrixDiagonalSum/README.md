@@ -2786,3 +2786,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 682
 
 Caller owns the returned buffer.
+
+## entry 683
+
+Constant-time comparisons; safe for short strings.
