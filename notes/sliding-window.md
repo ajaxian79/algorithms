@@ -2005,3 +2005,7 @@
 ## entry 485
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 486
+
+- State compression: bitmask + integer encodes a small subset cheaply.
