@@ -2711,3 +2711,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 662
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 663
+
+Space complexity: O(log n) for the recursion stack.
