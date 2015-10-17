@@ -55,3 +55,4 @@ int max_area(const int* heights, int n) {
 // note 35: Reentrant — no static state.
 // note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 37: Linear in n; the constant factor is small.
+// note 38: Greedy by end-time picks the most non-overlapping intervals.
