@@ -1891,3 +1891,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 457
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 458
+
+Stable sort matters when a secondary key was set in a prior pass.
