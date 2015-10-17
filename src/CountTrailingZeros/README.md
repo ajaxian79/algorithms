@@ -2622,3 +2622,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 640
 
 Stable when the input is already sorted.
+
+## entry 641
+
+Time complexity: O(n^2) worst case, O(n) amortized.
