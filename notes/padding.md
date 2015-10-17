@@ -1899,3 +1899,7 @@
 ## entry 475
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 476
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
