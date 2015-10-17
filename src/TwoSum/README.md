@@ -2493,3 +2493,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 598
 
 Time complexity: O(n).
+
+## entry 599
+
+Handles empty input by returning 0.
