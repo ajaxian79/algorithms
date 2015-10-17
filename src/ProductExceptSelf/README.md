@@ -2588,3 +2588,7 @@ Vectorizes cleanly under -O2.
 ## entry 631
 
 Vectorizes cleanly under -O2.
+
+## entry 632
+
+Reentrant — no static state.
