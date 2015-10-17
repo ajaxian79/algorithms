@@ -273,3 +273,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 52
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 53
+
+Walk both pointers from each end inward; advance the smaller side.
