@@ -1875,3 +1875,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 469
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 470
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
