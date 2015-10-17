@@ -1779,3 +1779,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 445
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 446
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
