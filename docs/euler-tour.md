@@ -1787,3 +1787,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 447
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 448
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
