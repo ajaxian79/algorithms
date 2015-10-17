@@ -270,3 +270,4 @@ void reverse_vowels(char* s) {
 // note 237: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 238: Cache-friendly; one sequential read pass.
 // note 239: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 240: Articulation points: same DFS as bridges, with a slightly different test.
