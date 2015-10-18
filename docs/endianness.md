@@ -1847,3 +1847,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 462
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 463
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
