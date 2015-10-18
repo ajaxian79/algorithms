@@ -1783,3 +1783,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 446
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 447
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
