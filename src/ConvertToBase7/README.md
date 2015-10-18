@@ -2816,3 +2816,7 @@ Time complexity: O(n + m).
 ## entry 689
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 690
+
+Reentrant — no static state.
