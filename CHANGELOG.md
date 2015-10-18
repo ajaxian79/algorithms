@@ -102883,3 +102883,7 @@
 ## entry 25721
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 25722
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
