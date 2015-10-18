@@ -2741,3 +2741,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 670
 
 Edge case: single-element input → returns the element itself.
+
+## entry 671
+
+Avoids floating-point entirely — integer math throughout.
