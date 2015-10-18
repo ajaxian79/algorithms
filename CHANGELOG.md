@@ -102895,3 +102895,7 @@
 ## entry 25724
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 25725
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
