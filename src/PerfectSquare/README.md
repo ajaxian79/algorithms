@@ -2710,3 +2710,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 663
 
 No allocations on the hot path.
+
+## entry 664
+
+Reentrant — no static state.
