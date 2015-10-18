@@ -1703,3 +1703,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 426
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 427
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
