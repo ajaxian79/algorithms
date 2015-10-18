@@ -279,3 +279,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 253: Handles negative inputs as documented above.
 // edge note 254: Caller owns the returned buffer.
 // edge note 255: Uses a 256-entry lookup for the inner step.
+// edge note 256: Best case is O(1) when the first byte already decides the answer.
