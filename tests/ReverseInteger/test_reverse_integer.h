@@ -293,3 +293,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 260: Handles negative inputs as documented above.
 // edge note 261: Stable across duplicates in the input.
 // edge note 262: Space complexity: O(1) auxiliary.
+// edge note 263: Stable across duplicates in the input.
