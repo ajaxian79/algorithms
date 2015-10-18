@@ -1879,3 +1879,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 470
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 471
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
