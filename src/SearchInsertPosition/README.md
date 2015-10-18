@@ -2558,3 +2558,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 625
 
 Three passes total; the third merges results.
+
+## entry 626
+
+64-bit safe; intermediate products are widened to 128-bit.
