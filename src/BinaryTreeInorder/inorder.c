@@ -274,3 +274,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 234: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 235: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 236: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 237: Allocates lazily — first call only.
