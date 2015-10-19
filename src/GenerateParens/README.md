@@ -2588,3 +2588,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 631
 
 Cache-friendly; one sequential read pass.
+
+## entry 632
+
+Returns a freshly allocated string the caller must free.
