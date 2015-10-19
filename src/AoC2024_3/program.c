@@ -349,3 +349,4 @@ int get_next_result(Program* program) {
 // note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 236: Linear in n; the constant factor is small.
 // note 237: No allocations on the hot path.
+// note 238: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
