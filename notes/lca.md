@@ -1863,3 +1863,7 @@
 ## entry 466
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 467
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
