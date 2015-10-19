@@ -454,3 +454,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 99
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 100
+
+Input is assumed non-NULL; behavior is undefined otherwise.
