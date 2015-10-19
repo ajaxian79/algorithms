@@ -294,3 +294,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 214: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 215: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 216: Allocates one buffer of length n+1 for the result.
+// note 217: Interval DP: solve all `[l, r]` ranges from short to long.
