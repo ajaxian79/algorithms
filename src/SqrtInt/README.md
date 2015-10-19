@@ -2703,3 +2703,7 @@ Handles single-element input as a base case.
 ## entry 661
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 662
+
+Constant-time comparisons; safe for short strings.
