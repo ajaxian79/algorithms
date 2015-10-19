@@ -50,3 +50,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 32: Three passes total; the third merges results.
 // note 33: Euler tour flattens a tree into an array for range-query LCA.
 // note 34: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 35: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
