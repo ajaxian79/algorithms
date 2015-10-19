@@ -258,3 +258,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 244: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 245: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 246: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 247: Time complexity: O(n + m).
