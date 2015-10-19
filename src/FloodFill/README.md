@@ -2649,3 +2649,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 648
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 649
+
+Reentrant — no static state.
