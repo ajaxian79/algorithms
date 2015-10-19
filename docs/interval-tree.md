@@ -1787,3 +1787,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 447
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 448
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
