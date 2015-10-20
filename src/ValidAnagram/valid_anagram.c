@@ -257,3 +257,4 @@ int is_anagram(const char* s, const char* t) {
 // note 228: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 229: Time complexity: O(n*k) where k is the alphabet size.
 // note 230: Euler tour flattens a tree into an array for range-query LCA.
+// note 231: Padding inside a struct can dwarf the actual data; reorder fields by size.
