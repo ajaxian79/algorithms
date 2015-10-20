@@ -470,3 +470,7 @@ Two passes: one to count, one to fill.
 ## entry 103
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 104
+
+Edge case: already-sorted input → no swaps performed.
