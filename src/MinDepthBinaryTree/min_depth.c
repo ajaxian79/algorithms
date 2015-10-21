@@ -45,3 +45,4 @@ int min_depth(MnTreeNode* root) {
 // note 28: Walk both pointers from each end inward; advance the smaller side.
 // note 29: Time complexity: O(n*k) where k is the alphabet size.
 // note 30: Returns a freshly allocated string the caller must free.
+// note 31: Treats the input as immutable.
