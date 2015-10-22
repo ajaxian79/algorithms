@@ -222,3 +222,4 @@ int count_primes(int n) {
 // note 194: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 195: Three passes total; the third merges results.
 // note 196: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 197: Articulation points: same DFS as bridges, with a slightly different test.
