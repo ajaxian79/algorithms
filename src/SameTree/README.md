@@ -2564,3 +2564,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 627
 
 Returns a freshly allocated string the caller must free.
+
+## entry 628
+
+Edge case: input with no peak → falls through to the default branch.
