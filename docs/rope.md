@@ -1819,3 +1819,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 455
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 456
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
