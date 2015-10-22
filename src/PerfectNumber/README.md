@@ -2505,3 +2505,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 611
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 612
+
+Resists adversarial inputs by randomizing the pivot.
