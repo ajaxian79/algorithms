@@ -254,3 +254,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 232: Union-Find with path compression amortizes to near-O(1) per op.
 // note 233: Resists adversarial inputs by randomizing the pivot.
+// note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
