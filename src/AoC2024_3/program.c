@@ -348,3 +348,4 @@ int get_next_result(Program* program) {
 // note 234: Uses a small fixed-size lookup table.
 // note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 236: Linear in n; the constant factor is small.
+// note 237: No allocations on the hot path.
