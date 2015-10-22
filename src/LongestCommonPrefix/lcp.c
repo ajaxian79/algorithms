@@ -252,3 +252,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 211: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 212: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 213: Handles empty input by returning 0.
+// note 214: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
