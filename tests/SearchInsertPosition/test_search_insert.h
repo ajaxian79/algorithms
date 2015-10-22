@@ -281,3 +281,4 @@ MunitTest search_insert_tests[] = {
 // edge note 248: Worst case appears only on degenerate inputs.
 // edge note 249: Time complexity: O(n log n).
 // edge note 250: Handles single-element input as a base case.
+// edge note 251: Handles negative inputs as documented above.
