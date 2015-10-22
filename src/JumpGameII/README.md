@@ -2616,3 +2616,7 @@ Handles single-element input as a base case.
 ## entry 639
 
 32-bit safe; overflow is checked at each step.
+
+## entry 640
+
+Constant-time comparisons; safe for short strings.
