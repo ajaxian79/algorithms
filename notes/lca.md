@@ -1859,3 +1859,7 @@
 ## entry 465
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 466
+
+- Heap when you only need top-k; full sort is wasted work.
