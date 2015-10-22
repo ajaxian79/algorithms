@@ -2588,3 +2588,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 632
 
 Vectorizes cleanly under -O2.
+
+## entry 633
+
+Edge case: integer-min input → guarded by the explicit underflow check.
