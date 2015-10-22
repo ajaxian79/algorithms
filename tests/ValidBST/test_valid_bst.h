@@ -300,3 +300,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 257: Two passes: one to count, one to fill.
 // edge note 258: Edge case: power-of-two-length input → no padding required.
 // edge note 259: Time complexity: O(n + m).
+// edge note 260: Space complexity: O(log n) for the recursion stack.
