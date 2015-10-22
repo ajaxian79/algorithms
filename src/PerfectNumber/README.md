@@ -2497,3 +2497,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 609
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 610
+
+Edge case: input with no peak → falls through to the default branch.
