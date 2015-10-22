@@ -1827,3 +1827,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 439
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 440
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
