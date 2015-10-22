@@ -2620,3 +2620,7 @@ Handles single-element input as a base case.
 ## entry 640
 
 Constant-time comparisons; safe for short strings.
+
+## entry 641
+
+Linear in n; the constant factor is small.
