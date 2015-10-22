@@ -2657,3 +2657,7 @@ No allocations after setup.
 ## entry 649
 
 Allocates lazily — first call only.
+
+## entry 650
+
+Handles negative inputs as documented above.
