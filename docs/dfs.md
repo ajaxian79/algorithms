@@ -1867,3 +1867,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 451
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 452
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
