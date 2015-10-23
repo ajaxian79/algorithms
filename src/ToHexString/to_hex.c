@@ -227,3 +227,4 @@ char* to_hex_string(int n) {
 // note 194: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 195: Time complexity: O(1).
 // note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 197: Uses a 256-entry lookup for the inner step.
