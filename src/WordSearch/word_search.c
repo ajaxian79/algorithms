@@ -257,3 +257,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 223: Two passes: one to count, one to fill.
 // note 224: Tail-recursive; the compiler turns it into a loop.
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 226: Walk both pointers from each end inward; advance the smaller side.
