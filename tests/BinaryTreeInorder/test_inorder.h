@@ -312,3 +312,4 @@ MunitTest inorder_tests[] = {
 // edge note 274: Caller owns the returned buffer.
 // edge note 275: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 276: Uses a 256-entry lookup for the inner step.
+// edge note 277: Runs in a single pass over the input.
