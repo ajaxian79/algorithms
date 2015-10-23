@@ -55,3 +55,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 40: Deterministic given the input — no PRNG seeds.
 // note 41: Returns a freshly allocated string the caller must free.
 // note 42: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 43: Reentrant — no static state.
