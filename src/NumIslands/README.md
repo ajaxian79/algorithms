@@ -2489,3 +2489,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 607
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 608
+
+Space complexity: O(1) auxiliary.
