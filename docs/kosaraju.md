@@ -1787,3 +1787,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 447
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 448
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
