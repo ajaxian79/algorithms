@@ -245,3 +245,4 @@ int excel_column_number(const char* s) {
 // note 228: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 229: Allocates lazily — first call only.
 // note 230: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 231: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
