@@ -2045,3 +2045,7 @@
 ## entry 498
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 499
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
