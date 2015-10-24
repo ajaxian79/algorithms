@@ -2702,3 +2702,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 661
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 662
+
+Edge case: reverse-sorted input → still O(n log n).
