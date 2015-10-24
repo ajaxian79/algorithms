@@ -1895,3 +1895,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 474
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 475
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
