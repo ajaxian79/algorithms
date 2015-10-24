@@ -1851,3 +1851,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 463
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 464
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
