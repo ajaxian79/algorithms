@@ -2554,3 +2554,7 @@ Stable across duplicates in the input.
 ## entry 624
 
 Treats the input as immutable.
+
+## entry 625
+
+Edge case: integer-max input → guarded by the explicit overflow check.
