@@ -2422,3 +2422,7 @@ Cache-friendly; one sequential read pass.
 ## entry 591
 
 Stable when the input is already sorted.
+
+## entry 592
+
+Edge case: empty input → returns 0.
