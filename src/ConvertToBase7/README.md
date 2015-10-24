@@ -2812,3 +2812,7 @@ Time complexity: O(n + m).
 ## entry 688
 
 32-bit safe; overflow is checked at each step.
+
+## entry 689
+
+Uses a 256-entry lookup for the inner step.
