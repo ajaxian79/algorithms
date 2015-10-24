@@ -2570,3 +2570,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 627
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 628
+
+Time complexity: O(n log n).
