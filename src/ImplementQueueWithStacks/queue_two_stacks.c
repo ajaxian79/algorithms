@@ -301,3 +301,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 222: Allocates lazily — first call only.
 // note 223: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 224: Idempotent — calling twice with the same input is a no-op the second time.
+// note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
