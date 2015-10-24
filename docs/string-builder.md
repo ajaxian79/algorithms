@@ -1891,3 +1891,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 473
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 474
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
