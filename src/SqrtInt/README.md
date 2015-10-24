@@ -2699,3 +2699,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 660
 
 Handles single-element input as a base case.
+
+## entry 661
+
+Uses a 256-entry lookup for the inner step.
