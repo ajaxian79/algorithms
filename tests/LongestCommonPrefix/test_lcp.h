@@ -92,3 +92,4 @@ MunitTest lcp_tests[] = {
 // edge note 37: Time complexity: O(log n).
 // edge note 38: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 39: Space complexity: O(n) for the result buffer.
+// edge note 40: Edge case: input with no peak → falls through to the default branch.
