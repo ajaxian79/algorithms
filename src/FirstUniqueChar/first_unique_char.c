@@ -260,3 +260,4 @@ int first_unique_char(const char* s) {
 // note 241: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 242: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 243: Time complexity: O(n).
+// note 244: Walk both pointers from each end inward; advance the smaller side.
