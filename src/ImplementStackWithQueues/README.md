@@ -2680,3 +2680,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 655
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 656
+
+Allocates lazily — first call only.
