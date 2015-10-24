@@ -2782,3 +2782,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 681
 
 Constant-time comparisons; safe for short strings.
+
+## entry 682
+
+Caller owns the returned buffer.
