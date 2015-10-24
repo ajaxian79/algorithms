@@ -466,3 +466,7 @@ Worst case appears only on degenerate inputs.
 ## entry 101
 
 Time complexity: O(1).
+
+## entry 102
+
+Stable when the input is already sorted.
