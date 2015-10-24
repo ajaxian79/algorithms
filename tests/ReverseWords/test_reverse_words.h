@@ -305,3 +305,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 276: Caller owns the returned array; free with a single `free`.
 // edge note 277: Edge case: all-equal input → linear-time fast path.
 // edge note 278: Edge case: all-equal input → linear-time fast path.
+// edge note 279: Handles empty input by returning 0.
