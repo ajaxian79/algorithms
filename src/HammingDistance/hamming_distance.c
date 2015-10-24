@@ -234,3 +234,4 @@ int hamming_distance(int x, int y) {
 // note 219: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 220: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 222: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
