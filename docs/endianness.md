@@ -1843,3 +1843,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 461
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 462
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
