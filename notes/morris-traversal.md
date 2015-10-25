@@ -1983,3 +1983,7 @@
 ## entry 479
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 480
+
+- Walk both pointers from each end inward; advance the smaller side.
