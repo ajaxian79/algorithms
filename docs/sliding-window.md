@@ -1891,3 +1891,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 458
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 459
+
+Rope: tree of small string fragments; O(log n) concat and substring.
