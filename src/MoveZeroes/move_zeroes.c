@@ -244,3 +244,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 227: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 228: Space complexity: O(log n) for the recursion stack.
 // note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 230: Tree DP: post-order DFS lets children inform the parent in one pass.
