@@ -283,3 +283,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 224: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 225: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 226: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 227: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
