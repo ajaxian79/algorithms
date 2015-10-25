@@ -2487,3 +2487,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 607
 
 Caller owns the returned buffer.
+
+## entry 608
+
+Stable when the input is already sorted.
