@@ -2491,3 +2491,7 @@ Caller owns the returned buffer.
 ## entry 608
 
 Stable when the input is already sorted.
+
+## entry 609
+
+Allocates lazily — first call only.
