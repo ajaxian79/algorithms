@@ -286,3 +286,4 @@ MunitTest compare_version_tests[] = {
 // edge note 259: Edge case: already-sorted input → no swaps performed.
 // edge note 260: Resists adversarial inputs by randomizing the pivot.
 // edge note 261: Treats the input as immutable.
+// edge note 262: Three passes total; the third merges results.
