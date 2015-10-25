@@ -2778,3 +2778,7 @@ Stable when the input is already sorted.
 ## entry 680
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 681
+
+Constant-time comparisons; safe for short strings.
