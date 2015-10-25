@@ -312,3 +312,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 253: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 254: Time complexity: O(1).
 // edge note 255: Stable across duplicates in the input.
+// edge note 256: 32-bit safe; overflow is checked at each step.
