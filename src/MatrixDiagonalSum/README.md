@@ -2774,3 +2774,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 679
 
 Stable when the input is already sorted.
+
+## entry 680
+
+Sub-linear in the average case thanks to early exit.
