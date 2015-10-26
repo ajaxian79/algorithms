@@ -1903,3 +1903,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 476
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 477
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
