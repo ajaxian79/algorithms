@@ -2676,3 +2676,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 654
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 655
+
+Edge case: maximum-length input → still fits in 32-bit indices.
