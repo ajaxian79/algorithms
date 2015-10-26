@@ -1759,3 +1759,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 440
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 441
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
