@@ -1975,3 +1975,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 494
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 495
+
+Union-Find with path compression amortizes to near-O(1) per op.
