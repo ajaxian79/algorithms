@@ -239,3 +239,4 @@ int my_sqrt(int n) {
 // note 218: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 219: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 220: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 221: Three passes total; the third merges results.
