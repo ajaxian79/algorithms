@@ -1815,3 +1815,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 454
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 455
+
+State compression: bitmask + integer encodes a small subset cheaply.
