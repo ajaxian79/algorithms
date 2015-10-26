@@ -483,3 +483,7 @@ Stable when the input is already sorted.
 ## entry 106
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 107
+
+Space complexity: O(n) for the result buffer.
