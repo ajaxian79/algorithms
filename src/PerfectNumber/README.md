@@ -397,3 +397,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 84
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 85
+
+Allocates lazily — first call only.
