@@ -255,3 +255,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 228: Stable across duplicates in the input.
 // edge note 229: Caller owns the returned array; free with a single `free`.
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 231: Avoids floating-point entirely — integer math throughout.
