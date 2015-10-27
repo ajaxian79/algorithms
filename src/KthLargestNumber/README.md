@@ -2700,3 +2700,7 @@ Linear in n; the constant factor is small.
 ## entry 659
 
 Handles single-element input as a base case.
+
+## entry 660
+
+Cache-friendly; one sequential read pass.
