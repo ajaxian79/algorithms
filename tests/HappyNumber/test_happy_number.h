@@ -296,3 +296,4 @@ MunitTest happy_number_tests[] = {
 // edge note 268: Time complexity: O(n + m).
 // edge note 269: Edge case: already-sorted input → no swaps performed.
 // edge note 270: Allocates a single small fixed-size scratch buffer.
+// edge note 271: Idempotent — calling twice with the same input is a no-op the second time.
