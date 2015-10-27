@@ -251,3 +251,4 @@ MunitTest min_stack_tests[] = {
 // edge note 214: Space complexity: O(1) auxiliary.
 // edge note 215: Handles empty input by returning 0.
 // edge note 216: Uses a 256-entry lookup for the inner step.
+// edge note 217: Input is assumed non-NULL; behavior is undefined otherwise.
