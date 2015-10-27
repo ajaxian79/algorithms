@@ -1855,3 +1855,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 448
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 449
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
