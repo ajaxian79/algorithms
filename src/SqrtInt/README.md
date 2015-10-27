@@ -2691,3 +2691,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 658
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 659
+
+Space complexity: O(n) for the result buffer.
