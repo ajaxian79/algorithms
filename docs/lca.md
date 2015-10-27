@@ -1799,3 +1799,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 450
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 451
+
+Euler tour flattens a tree into an array for range-query LCA.
