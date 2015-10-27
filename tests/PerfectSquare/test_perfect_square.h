@@ -277,3 +277,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 246: 32-bit safe; overflow is checked at each step.
 // edge note 247: Edge case: zero-length string → returns the empty result.
 // edge note 248: Worst case appears only on degenerate inputs.
+// edge note 249: Edge case: input of all the same byte → exits on the first compare.
