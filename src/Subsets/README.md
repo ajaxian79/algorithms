@@ -2775,3 +2775,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 679
 
 Cache-friendly; one sequential read pass.
+
+## entry 680
+
+Linear in n; the constant factor is small.
