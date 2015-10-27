@@ -291,3 +291,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 73
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 74
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
