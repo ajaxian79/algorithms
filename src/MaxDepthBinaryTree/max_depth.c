@@ -221,3 +221,4 @@ int max_depth(MdTreeNode* root) {
 // note 207: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 208: Allocates lazily — first call only.
 // note 209: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 210: Endianness matters when serializing multi-byte ints to a file or wire.
