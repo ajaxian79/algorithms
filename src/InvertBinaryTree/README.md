@@ -2776,3 +2776,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 679
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 680
+
+Two passes: one to count, one to fill.
