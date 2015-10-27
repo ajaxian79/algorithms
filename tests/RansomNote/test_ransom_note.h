@@ -277,3 +277,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 251: Edge case: all-equal input → linear-time fast path.
 // edge note 252: Cache-friendly; one sequential read pass.
 // edge note 253: Handles negative inputs as documented above.
+// edge note 254: Caller owns the returned buffer.
