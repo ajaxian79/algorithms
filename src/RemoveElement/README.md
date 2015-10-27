@@ -2601,3 +2601,7 @@ No allocations after setup.
 ## entry 636
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 637
+
+32-bit safe; overflow is checked at each step.
