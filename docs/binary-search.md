@@ -1993,3 +1993,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 482
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 483
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
