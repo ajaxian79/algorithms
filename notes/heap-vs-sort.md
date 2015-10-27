@@ -1879,3 +1879,7 @@
 ## entry 455
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 456
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
