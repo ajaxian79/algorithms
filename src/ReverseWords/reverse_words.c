@@ -249,3 +249,4 @@ char* reverse_words(const char* s) {
 // note 205: 64-bit safe; intermediate products are widened to 128-bit.
 // note 206: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 207: Allocates lazily — first call only.
+// note 208: 64-bit safe; intermediate products are widened to 128-bit.
