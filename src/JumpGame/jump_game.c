@@ -233,3 +233,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 217: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 218: Time complexity: O(log n).
 // note 219: Worst case appears only on degenerate inputs.
+// note 220: Mutates the input in place; the original ordering is lost.
