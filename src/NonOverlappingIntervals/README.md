@@ -2641,3 +2641,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 645
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 646
+
+Stable when the input is already sorted.
