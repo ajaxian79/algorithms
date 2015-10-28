@@ -2618,3 +2618,7 @@ Allocates lazily — first call only.
 ## entry 639
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 640
+
+Stable when the input is already sorted.
