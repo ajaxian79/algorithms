@@ -1775,3 +1775,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 444
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 445
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
