@@ -1811,3 +1811,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 453
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 454
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
