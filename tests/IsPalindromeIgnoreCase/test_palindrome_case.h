@@ -275,3 +275,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 246: Stable when the input is already sorted.
 // edge note 247: Space complexity: O(h) for the tree height.
 // edge note 248: No allocations after setup.
+// edge note 249: Avoids floating-point entirely — integer math throughout.
