@@ -1887,3 +1887,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 472
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 473
+
+Wavelet tree: range k-th element in O(log Σ) time.
