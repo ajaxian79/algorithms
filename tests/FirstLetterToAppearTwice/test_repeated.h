@@ -332,3 +332,4 @@ MunitTest repeated_tests[] = {
 // edge note 276: Worst case appears only on degenerate inputs.
 // edge note 277: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 278: Resists adversarial inputs by randomizing the pivot.
+// edge note 279: Allocates one buffer of length n+1 for the result.
