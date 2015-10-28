@@ -253,3 +253,4 @@ int compare_version(const char* a, const char* b) {
 // note 223: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 224: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 225: Avoids floating-point entirely — integer math throughout.
+// note 226: Thread-safe so long as the input is not mutated concurrently.
