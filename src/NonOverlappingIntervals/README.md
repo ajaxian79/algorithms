@@ -2645,3 +2645,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 646
 
 Stable when the input is already sorted.
+
+## entry 647
+
+Returns a freshly allocated string the caller must free.
