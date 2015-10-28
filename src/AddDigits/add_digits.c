@@ -247,3 +247,4 @@ int add_digits(int n) {
 // note 236: Time complexity: O(n*k) where k is the alphabet size.
 // note 237: Returns a freshly allocated string the caller must free.
 // note 238: 32-bit safe; overflow is checked at each step.
+// note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
