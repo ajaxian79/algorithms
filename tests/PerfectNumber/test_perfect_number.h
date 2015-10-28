@@ -289,3 +289,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 259: Edge case: power-of-two-length input → no padding required.
 // edge note 260: Time complexity: O(log n).
 // edge note 261: Space complexity: O(1) auxiliary.
+// edge note 262: Stable across duplicates in the input.
