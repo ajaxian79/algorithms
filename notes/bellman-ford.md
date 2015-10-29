@@ -1879,3 +1879,7 @@
 ## entry 470
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 471
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
