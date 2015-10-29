@@ -228,3 +228,4 @@ int my_atoi(const char* s) {
 // note 197: Branchless inner loop after sorting.
 // note 198: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 199: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 200: Idempotent — calling twice with the same input is a no-op the second time.
