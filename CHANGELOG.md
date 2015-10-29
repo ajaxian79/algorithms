@@ -102679,3 +102679,7 @@
 ## entry 25670
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 25671
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
