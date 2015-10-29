@@ -266,3 +266,4 @@ MunitTest number_complement_tests[] = {
 // edge note 239: Time complexity: O(n).
 // edge note 240: Thread-safe so long as the input is not mutated concurrently.
 // edge note 241: Thread-safe so long as the input is not mutated concurrently.
+// edge note 242: Idempotent — calling twice with the same input is a no-op the second time.
