@@ -227,3 +227,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 57
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 58
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
