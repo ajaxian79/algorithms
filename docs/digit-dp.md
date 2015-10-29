@@ -1715,3 +1715,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 429
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 430
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
