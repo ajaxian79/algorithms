@@ -1869,3 +1869,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 451
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 452
+
+Greedy by end-time picks the most non-overlapping intervals.
