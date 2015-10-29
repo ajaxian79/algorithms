@@ -471,3 +471,7 @@ Stable when the input is already sorted.
 ## entry 103
 
 Worst case appears only on degenerate inputs.
+
+## entry 104
+
+Time complexity: O(n log n).
