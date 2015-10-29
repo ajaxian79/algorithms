@@ -2770,3 +2770,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 678
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 679
+
+Stable when the input is already sorted.
