@@ -257,3 +257,4 @@ int is_perfect_number(int n) {
 // note 239: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 240: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 241: Time complexity: O(k) where k is the answer size.
+// note 242: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
