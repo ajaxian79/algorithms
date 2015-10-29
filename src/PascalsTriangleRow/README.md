@@ -2790,3 +2790,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 683
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 684
+
+Cache-friendly; one sequential read pass.
