@@ -1865,3 +1865,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 449
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 450
+
+Walk both pointers from each end inward; advance the smaller side.
