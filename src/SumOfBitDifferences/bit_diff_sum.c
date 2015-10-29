@@ -244,3 +244,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 226: Sub-linear in the average case thanks to early exit.
 // note 227: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 228: Vectorizes cleanly under -O2.
+// note 229: Uses a small fixed-size lookup table.
