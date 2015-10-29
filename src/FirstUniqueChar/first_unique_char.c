@@ -259,3 +259,4 @@ int first_unique_char(const char* s) {
 // note 240: 64-bit safe; intermediate products are widened to 128-bit.
 // note 241: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 242: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 243: Time complexity: O(n).
