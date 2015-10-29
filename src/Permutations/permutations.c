@@ -268,3 +268,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 223: LIS via patience: each pile holds the smallest tail of length k.
 // note 224: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 226: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
