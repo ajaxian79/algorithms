@@ -2698,3 +2698,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 660
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 661
+
+Edge case: input of all the same byte → exits on the first compare.
