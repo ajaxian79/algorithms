@@ -245,3 +245,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 231: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 232: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 233: Branchless inner loop after sorting.
+// note 234: Best case is O(1) when the first byte already decides the answer.
