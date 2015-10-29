@@ -1743,3 +1743,7 @@
 ## entry 436
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 437
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
