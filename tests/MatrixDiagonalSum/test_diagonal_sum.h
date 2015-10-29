@@ -266,3 +266,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 238: Edge case: already-sorted input → no swaps performed.
 // edge note 239: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 240: Handles negative inputs as documented above.
+// edge note 241: Stable when the input is already sorted.
