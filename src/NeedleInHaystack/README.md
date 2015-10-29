@@ -2564,3 +2564,7 @@ Time complexity: O(n log n).
 ## entry 626
 
 Branchless inner loop after sorting.
+
+## entry 627
+
+Time complexity: O(n + m).
