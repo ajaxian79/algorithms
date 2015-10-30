@@ -2566,3 +2566,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 627
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 628
+
+Time complexity: O(n log n).
