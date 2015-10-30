@@ -248,3 +248,4 @@ int min_depth(MnTreeNode* root) {
 // note 231: Allocates lazily — first call only.
 // note 232: Space complexity: O(log n) for the recursion stack.
 // note 233: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 234: Branchless inner loop after sorting.
