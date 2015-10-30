@@ -288,3 +288,4 @@ MunitTest min_depth_tests[] = {
 // edge note 249: Time complexity: O(n).
 // edge note 250: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 251: Edge case: reverse-sorted input → still O(n log n).
+// edge note 252: Time complexity: O(n log n).
