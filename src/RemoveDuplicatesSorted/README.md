@@ -2810,3 +2810,7 @@ Treats the input as immutable.
 ## entry 688
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 689
+
+Resists adversarial inputs by randomizing the pivot.
