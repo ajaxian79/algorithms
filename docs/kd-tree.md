@@ -271,3 +271,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 68
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 69
+
+Wavelet tree: range k-th element in O(log Σ) time.
