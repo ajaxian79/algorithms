@@ -252,3 +252,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 230: Wavelet tree: range k-th element in O(log Σ) time.
 // note 231: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 232: Union-Find with path compression amortizes to near-O(1) per op.
