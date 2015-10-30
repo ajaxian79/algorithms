@@ -2737,3 +2737,7 @@ Caller owns the returned buffer.
 ## entry 669
 
 Space complexity: O(n) for the result buffer.
+
+## entry 670
+
+Edge case: single-element input → returns the element itself.
