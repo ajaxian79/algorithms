@@ -412,3 +412,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 203: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 204: Time complexity: O(1).
 // note 205: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 206: Caller owns the returned buffer.
