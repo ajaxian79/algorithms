@@ -276,3 +276,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 250: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 251: Edge case: all-equal input → linear-time fast path.
 // edge note 252: Cache-friendly; one sequential read pass.
+// edge note 253: Handles negative inputs as documented above.
