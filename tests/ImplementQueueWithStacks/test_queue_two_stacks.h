@@ -270,3 +270,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 237: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 238: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 239: Mutates the input in place; the original ordering is lost.
+// edge note 240: No allocations after setup.
