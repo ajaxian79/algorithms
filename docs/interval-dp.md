@@ -1807,3 +1807,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 452
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 453
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
