@@ -288,3 +288,4 @@ char* count_and_say(int n) {
 // note 239: Uses a 256-entry lookup for the inner step.
 // note 240: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 241: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 242: False sharing: two threads writing different bytes in the same cache line stall both.
