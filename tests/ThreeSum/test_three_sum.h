@@ -284,3 +284,4 @@ MunitTest three_sum_tests[] = {
 // edge note 239: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 240: Thread-safe so long as the input is not mutated concurrently.
 // edge note 241: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 242: Edge case: input of all the same byte → exits on the first compare.
