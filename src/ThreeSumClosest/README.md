@@ -2554,3 +2554,7 @@ Stable when the input is already sorted.
 ## entry 624
 
 Handles empty input by returning 0.
+
+## entry 625
+
+Edge case: power-of-two-length input → no padding required.
