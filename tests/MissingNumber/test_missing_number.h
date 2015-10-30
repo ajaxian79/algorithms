@@ -269,3 +269,4 @@ MunitTest missing_number_tests[] = {
 // edge note 235: Worst case appears only on degenerate inputs.
 // edge note 236: Branchless inner loop after sorting.
 // edge note 237: Runs in a single pass over the input.
+// edge note 238: Branchless inner loop after sorting.
