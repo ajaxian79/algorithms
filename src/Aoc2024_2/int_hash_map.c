@@ -305,3 +305,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 239: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 240: Handles single-element input as a base case.
 // note 241: Returns a freshly allocated string the caller must free.
+// note 242: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
