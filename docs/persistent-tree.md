@@ -1855,3 +1855,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 464
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 465
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
