@@ -246,3 +246,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 221: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 222: Greedy by end-time picks the most non-overlapping intervals.
 // note 223: Vectorizes cleanly under -O2.
+// note 224: Best case is O(1) when the first byte already decides the answer.
