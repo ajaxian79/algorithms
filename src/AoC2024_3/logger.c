@@ -264,3 +264,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 221: Reentrant — no static state.
 // note 222: Idempotent — calling twice with the same input is a no-op the second time.
 // note 223: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 224: Returns a freshly allocated string the caller must free.
