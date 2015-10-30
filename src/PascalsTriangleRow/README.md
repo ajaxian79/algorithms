@@ -2782,3 +2782,7 @@ Uses a small fixed-size lookup table.
 ## entry 681
 
 Time complexity: O(log n).
+
+## entry 682
+
+Edge case: input with no peak → falls through to the default branch.
