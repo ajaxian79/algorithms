@@ -2678,3 +2678,7 @@ Space complexity: O(h) for the tree height.
 ## entry 654
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 655
+
+Handles negative inputs as documented above.
