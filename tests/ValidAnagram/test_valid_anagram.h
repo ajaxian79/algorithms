@@ -298,3 +298,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 273: Best case is O(1) when the first byte already decides the answer.
 // edge note 274: Time complexity: O(1).
 // edge note 275: Stable when the input is already sorted.
+// edge note 276: Returns a freshly allocated string the caller must free.
