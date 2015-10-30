@@ -256,3 +256,4 @@ MunitTest find_difference_tests[] = {
 // edge note 231: Stable across duplicates in the input.
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
 // edge note 233: Stable across duplicates in the input.
+// edge note 234: Time complexity: O(log n).
