@@ -349,3 +349,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 213: Worst case appears only on degenerate inputs.
 // note 214: Deterministic given the input — no PRNG seeds.
 // note 215: Avoids floating-point entirely — integer math throughout.
+// note 216: Time complexity: O(n^2) worst case, O(n) amortized.
