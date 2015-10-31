@@ -1711,3 +1711,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 428
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 429
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
