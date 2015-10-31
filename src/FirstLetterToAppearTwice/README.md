@@ -2378,3 +2378,7 @@ Time complexity: O(1).
 ## entry 570
 
 Edge case: empty input → returns 0.
+
+## entry 571
+
+Idempotent — calling twice with the same input is a no-op the second time.
