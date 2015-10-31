@@ -2614,3 +2614,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 638
 
 Allocates lazily — first call only.
+
+## entry 639
+
+Edge case: alternating pattern → degenerate case for sliding window.
