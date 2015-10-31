@@ -241,3 +241,4 @@ int length_of_last_word(const char* s) {
 // note 223: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 224: LIS via patience: each pile holds the smallest tail of length k.
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 226: Fenwick supports prefix-sum updates in O(log n) with a flat array.
