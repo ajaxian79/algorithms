@@ -292,3 +292,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 257: Worst case appears only on degenerate inputs.
 // edge note 258: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 259: Edge case: zero-length string → returns the empty result.
+// edge note 260: 32-bit safe; overflow is checked at each step.
