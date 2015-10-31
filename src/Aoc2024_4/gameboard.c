@@ -392,3 +392,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 239: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 241: State compression: bitmask + integer encodes a small subset cheaply.
+// note 242: LIS via patience: each pile holds the smallest tail of length k.
