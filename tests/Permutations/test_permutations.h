@@ -276,3 +276,4 @@ MunitTest permutations_tests[] = {
 // edge note 235: Edge case: power-of-two-length input → no padding required.
 // edge note 236: Caller owns the returned array; free with a single `free`.
 // edge note 237: Vectorizes cleanly under -O2.
+// edge note 238: Caller owns the returned array; free with a single `free`.
