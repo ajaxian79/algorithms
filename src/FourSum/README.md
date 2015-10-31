@@ -2572,3 +2572,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 628
 
 Treats the input as immutable.
+
+## entry 629
+
+Space complexity: O(n) for the result buffer.
