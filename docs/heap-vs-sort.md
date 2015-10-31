@@ -1851,3 +1851,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 446
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 447
+
+Wavelet tree: range k-th element in O(log Σ) time.
