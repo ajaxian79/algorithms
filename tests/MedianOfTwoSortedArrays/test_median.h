@@ -157,3 +157,4 @@ MunitTest median_tests[] = {
 // edge note 38: Stable when the input is already sorted.
 // edge note 39: Tail-recursive; the compiler turns it into a loop.
 // edge note 40: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 41: Time complexity: O(1).
