@@ -2680,3 +2680,7 @@ Reentrant — no static state.
 ## entry 654
 
 Time complexity: O(n log n).
+
+## entry 655
+
+Space complexity: O(h) for the tree height.
