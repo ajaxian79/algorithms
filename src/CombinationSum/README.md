@@ -2591,3 +2591,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 633
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 634
+
+Three passes total; the third merges results.
