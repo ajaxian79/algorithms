@@ -1851,3 +1851,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 447
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 448
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
