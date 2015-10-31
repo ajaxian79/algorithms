@@ -1771,3 +1771,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 443
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 444
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
