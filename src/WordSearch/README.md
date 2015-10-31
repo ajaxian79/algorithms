@@ -2670,3 +2670,7 @@ Linear in n; the constant factor is small.
 ## entry 653
 
 Time complexity: O(n + m).
+
+## entry 654
+
+Edge case: already-sorted input → no swaps performed.
