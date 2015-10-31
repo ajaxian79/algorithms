@@ -1983,3 +1983,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 480
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 481
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
