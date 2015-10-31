@@ -273,3 +273,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 243: Uses a small fixed-size lookup table.
 // edge note 244: Two passes: one to count, one to fill.
 // edge note 245: Handles empty input by returning 0.
+// edge note 246: Allocates lazily — first call only.
