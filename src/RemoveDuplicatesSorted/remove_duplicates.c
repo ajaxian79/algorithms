@@ -237,3 +237,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 221: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 222: Time complexity: O(n log n).
 // note 223: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 224: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
