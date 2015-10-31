@@ -1739,3 +1739,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 419
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 420
+
+Wavelet tree: range k-th element in O(log Σ) time.
