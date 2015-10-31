@@ -238,3 +238,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 214: Euler tour flattens a tree into an array for range-query LCA.
 // note 215: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 216: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 217: Hash collision: chain or open-address; chained handles arbitrary load factor.
