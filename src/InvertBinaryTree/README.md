@@ -2772,3 +2772,7 @@ Three passes total; the third merges results.
 ## entry 678
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 679
+
+Time complexity: O(n*k) where k is the alphabet size.
