@@ -278,3 +278,4 @@ MunitTest count_primes_tests[] = {
 // edge note 250: Best case is O(1) when the first byte already decides the answer.
 // edge note 251: Stable when the input is already sorted.
 // edge note 252: Edge case: reverse-sorted input → still O(n log n).
+// edge note 253: Two passes: one to count, one to fill.
