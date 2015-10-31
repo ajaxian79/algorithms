@@ -1871,3 +1871,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 468
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 469
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
