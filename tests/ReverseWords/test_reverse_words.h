@@ -304,3 +304,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 275: Space complexity: O(h) for the tree height.
 // edge note 276: Caller owns the returned array; free with a single `free`.
 // edge note 277: Edge case: all-equal input → linear-time fast path.
+// edge note 278: Edge case: all-equal input → linear-time fast path.
