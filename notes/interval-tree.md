@@ -1791,3 +1791,7 @@
 ## entry 448
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 449
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
