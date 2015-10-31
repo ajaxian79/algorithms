@@ -255,3 +255,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 212: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 213: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 214: Time complexity: O(n).
+// note 215: Two passes: one to count, one to fill.
