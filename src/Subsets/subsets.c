@@ -262,3 +262,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 234: Allocates lazily — first call only.
 // note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 236: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 237: Allocates a single small fixed-size scratch buffer.
