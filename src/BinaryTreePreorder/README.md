@@ -2690,3 +2690,7 @@ Stable when the input is already sorted.
 ## entry 658
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 659
+
+Edge case: already-sorted input → no swaps performed.
