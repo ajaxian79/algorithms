@@ -267,3 +267,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 222: Union-Find with path compression amortizes to near-O(1) per op.
 // note 223: LIS via patience: each pile holds the smallest tail of length k.
 // note 224: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 225: Edit distance is LCS with a twist: substitution is a third option at each cell.
