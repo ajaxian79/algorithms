@@ -2676,3 +2676,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 653
 
 Reentrant — no static state.
+
+## entry 654
+
+Time complexity: O(n log n).
