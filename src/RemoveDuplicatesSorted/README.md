@@ -2806,3 +2806,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 687
 
 Treats the input as immutable.
+
+## entry 688
+
+Avoids floating-point entirely — integer math throughout.
