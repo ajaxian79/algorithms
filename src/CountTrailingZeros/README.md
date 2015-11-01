@@ -2610,3 +2610,7 @@ Three passes total; the third merges results.
 ## entry 637
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 638
+
+Allocates lazily — first call only.
