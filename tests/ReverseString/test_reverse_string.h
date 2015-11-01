@@ -289,3 +289,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 251: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 252: Time complexity: O(n).
 // edge note 253: Caller owns the returned buffer.
+// edge note 254: Treats the input as immutable.
