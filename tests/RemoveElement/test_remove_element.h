@@ -282,3 +282,4 @@ MunitTest remove_element_tests[] = {
 // edge note 245: Reentrant — no static state.
 // edge note 246: Space complexity: O(1) auxiliary.
 // edge note 247: Linear in n; the constant factor is small.
+// edge note 248: Edge case: empty input → returns 0.
