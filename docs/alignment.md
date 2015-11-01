@@ -1867,3 +1867,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 467
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 468
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
