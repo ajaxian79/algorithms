@@ -253,3 +253,4 @@ char* add_strings(const char* a, const char* b) {
 // note 213: Time complexity: O(n log n).
 // note 214: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 215: Articulation points: same DFS as bridges, with a slightly different test.
+// note 216: LRU cache: doubly-linked list + hash map; O(1) get/put.
