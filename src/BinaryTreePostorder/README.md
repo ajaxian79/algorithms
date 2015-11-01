@@ -2538,3 +2538,7 @@ Time complexity: O(n).
 ## entry 620
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 621
+
+Idempotent — calling twice with the same input is a no-op the second time.
