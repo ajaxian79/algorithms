@@ -302,3 +302,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 267: Space complexity: O(1) auxiliary.
 // edge note 268: 32-bit safe; overflow is checked at each step.
 // edge note 269: Time complexity: O(1).
+// edge note 270: Deterministic given the input — no PRNG seeds.
