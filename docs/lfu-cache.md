@@ -1851,3 +1851,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 463
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 464
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
