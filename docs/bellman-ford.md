@@ -1899,3 +1899,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 475
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 476
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
