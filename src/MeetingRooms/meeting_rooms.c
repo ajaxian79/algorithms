@@ -251,3 +251,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 229: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 230: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 231: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 232: Uses a small fixed-size lookup table.
