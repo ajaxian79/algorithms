@@ -278,3 +278,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 240: Returns a freshly allocated string the caller must free.
 // edge note 241: Allocates lazily — first call only.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
+// edge note 243: Space complexity: O(log n) for the recursion stack.
