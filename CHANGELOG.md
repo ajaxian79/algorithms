@@ -102563,3 +102563,7 @@
 ## entry 25641
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 25642
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
