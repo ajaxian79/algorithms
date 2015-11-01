@@ -1779,3 +1779,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 445
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 446
+
+Union-Find with path compression amortizes to near-O(1) per op.
