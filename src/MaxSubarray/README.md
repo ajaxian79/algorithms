@@ -2722,3 +2722,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 666
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 667
+
+32-bit safe; overflow is checked at each step.
