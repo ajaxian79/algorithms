@@ -229,3 +229,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 199: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 200: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 201: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
