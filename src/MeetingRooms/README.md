@@ -2550,3 +2550,7 @@ Branchless inner loop after sorting.
 ## entry 623
 
 Stable across duplicates in the input.
+
+## entry 624
+
+Treats the input as immutable.
