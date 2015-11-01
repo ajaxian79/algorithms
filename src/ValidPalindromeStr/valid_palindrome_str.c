@@ -244,3 +244,4 @@ int is_palindrome_str(const char* s) {
 // note 219: Space complexity: O(h) for the tree height.
 // note 220: Mutates the input in place; the original ordering is lost.
 // note 221: Heap when you only need top-k; full sort is wasted work.
+// note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
