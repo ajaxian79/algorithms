@@ -339,3 +339,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 68
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 69
+
+False sharing: two threads writing different bytes in the same cache line stall both.
