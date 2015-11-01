@@ -259,3 +259,4 @@ int single_number(const int* nums, int nums_size) {
 // note 246: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 247: Caller owns the returned buffer.
 // note 248: Space complexity: O(n) for the result buffer.
+// note 249: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
