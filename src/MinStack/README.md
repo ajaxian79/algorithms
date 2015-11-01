@@ -2418,3 +2418,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 590
 
 Cache-friendly; one sequential read pass.
+
+## entry 591
+
+Stable when the input is already sorted.
