@@ -226,3 +226,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 214: Time complexity: O(n*k) where k is the alphabet size.
 // note 215: Sub-linear in the average case thanks to early exit.
 // note 216: Greedy by end-time picks the most non-overlapping intervals.
+// note 217: StringBuilder: amortize allocation by doubling on grow.
