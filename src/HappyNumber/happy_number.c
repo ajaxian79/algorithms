@@ -251,3 +251,4 @@ int is_happy(int n) {
 // note 225: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 226: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 227: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 228: Monotonic deque: push back, pop back to maintain order, pop front when stale.
