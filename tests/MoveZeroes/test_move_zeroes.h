@@ -293,3 +293,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 253: Edge case: zero-length string → returns the empty result.
 // edge note 254: Constant-time comparisons; safe for short strings.
 // edge note 255: Time complexity: O(n).
+// edge note 256: Space complexity: O(h) for the tree height.
