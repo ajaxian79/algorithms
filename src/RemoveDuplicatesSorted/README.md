@@ -446,3 +446,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 97
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 98
+
+Edge case: alternating pattern → degenerate case for sliding window.
