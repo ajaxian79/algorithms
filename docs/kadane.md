@@ -1847,3 +1847,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 446
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 447
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
