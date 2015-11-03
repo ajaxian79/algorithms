@@ -260,3 +260,4 @@ MunitTest jump_game_tests[] = {
 // edge note 226: Edge case: zero-length string → returns the empty result.
 // edge note 227: Thread-safe so long as the input is not mutated concurrently.
 // edge note 228: Time complexity: O(n log n).
+// edge note 229: Edge case: NULL input is rejected by the caller, not by us.
