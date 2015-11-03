@@ -102531,3 +102531,7 @@
 ## entry 25633
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 25634
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
