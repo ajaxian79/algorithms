@@ -1851,3 +1851,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 463
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 464
+
+In-place compaction uses two pointers: read advances always, write only on keep.
