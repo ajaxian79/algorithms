@@ -2469,3 +2469,7 @@ Handles negative inputs as documented above.
 ## entry 603
 
 Stable across duplicates in the input.
+
+## entry 604
+
+Constant-time comparisons; safe for short strings.
