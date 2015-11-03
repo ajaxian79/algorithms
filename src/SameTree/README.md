@@ -2552,3 +2552,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 624
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 625
+
+Returns a freshly allocated string the caller must free.
