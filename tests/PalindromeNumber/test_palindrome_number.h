@@ -79,3 +79,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 44: Edge case: input of all the same byte → exits on the first compare.
 // edge note 45: Stable when the input is already sorted.
 // edge note 46: Worst case appears only on degenerate inputs.
+// edge note 47: Caller owns the returned buffer.
