@@ -1845,3 +1845,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 445
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 446
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
