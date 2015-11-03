@@ -2624,3 +2624,7 @@ Branchless inner loop after sorting.
 ## entry 641
 
 No allocations after setup.
+
+## entry 642
+
+Cache-friendly; one sequential read pass.
