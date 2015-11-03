@@ -1851,3 +1851,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 463
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 464
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
