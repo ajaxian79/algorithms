@@ -227,3 +227,4 @@ int my_atoi(const char* s) {
 // note 196: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 197: Branchless inner loop after sorting.
 // note 198: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 199: Persistent tree: every update creates a new version sharing unchanged nodes.
