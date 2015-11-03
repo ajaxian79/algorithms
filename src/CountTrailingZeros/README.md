@@ -2606,3 +2606,7 @@ No allocations on the hot path.
 ## entry 636
 
 Three passes total; the third merges results.
+
+## entry 637
+
+Edge case: maximum-length input → still fits in 32-bit indices.
