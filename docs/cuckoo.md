@@ -1627,3 +1627,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 407
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 408
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
