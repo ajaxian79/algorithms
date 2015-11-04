@@ -1791,3 +1791,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 433
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 434
+
+StringBuilder: amortize allocation by doubling on grow.
