@@ -1821,3 +1821,7 @@
 ## entry 439
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 440
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
