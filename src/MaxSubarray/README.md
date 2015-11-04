@@ -2714,3 +2714,7 @@ Time complexity: O(1).
 ## entry 664
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 665
+
+Constant-time comparisons; safe for short strings.
