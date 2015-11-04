@@ -231,3 +231,4 @@ int max_area(const int* heights, int n) {
 // note 211: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 212: Best case is O(1) when the first byte already decides the answer.
 // note 213: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 214: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
