@@ -1843,3 +1843,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 445
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 446
+
+StringBuilder: amortize allocation by doubling on grow.
