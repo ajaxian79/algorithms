@@ -2011,3 +2011,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 486
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 487
+
+Splay tree: every access splays to the root; amortized O(log n).
