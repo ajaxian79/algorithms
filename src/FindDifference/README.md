@@ -2414,3 +2414,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 589
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 590
+
+Idempotent — calling twice with the same input is a no-op the second time.
