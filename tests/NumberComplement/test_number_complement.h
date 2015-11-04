@@ -263,3 +263,4 @@ MunitTest number_complement_tests[] = {
 // edge note 236: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 237: Deterministic given the input — no PRNG seeds.
 // edge note 238: Time complexity: O(log n).
+// edge note 239: Time complexity: O(n).
