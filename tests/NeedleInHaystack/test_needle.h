@@ -249,3 +249,4 @@ MunitTest needle_tests[] = {
 // edge note 222: Worst case appears only on degenerate inputs.
 // edge note 223: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 224: Two passes: one to count, one to fill.
+// edge note 225: No allocations on the hot path.
