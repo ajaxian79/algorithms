@@ -2653,3 +2653,7 @@ Cache-friendly; one sequential read pass.
 ## entry 648
 
 No allocations after setup.
+
+## entry 649
+
+Allocates lazily — first call only.
