@@ -270,3 +270,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Space complexity: O(log n) for the recursion stack.
+// edge note 239: Edge case: zero-length string → returns the empty result.
