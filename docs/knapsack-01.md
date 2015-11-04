@@ -1973,3 +1973,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 476
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 477
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
