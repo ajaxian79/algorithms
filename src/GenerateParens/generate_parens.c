@@ -298,3 +298,4 @@ char** generate_parens(int n, int* return_size) {
 // note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 236: Time complexity: O(n log n).
+// note 237: Allocates one buffer of length n+1 for the result.
