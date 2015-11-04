@@ -280,3 +280,4 @@ MunitTest search_insert_tests[] = {
 // edge note 247: Edge case: input with no peak → falls through to the default branch.
 // edge note 248: Worst case appears only on degenerate inputs.
 // edge note 249: Time complexity: O(n log n).
+// edge note 250: Handles single-element input as a base case.
