@@ -2560,3 +2560,7 @@ Stable across duplicates in the input.
 ## entry 625
 
 Time complexity: O(n log n).
+
+## entry 626
+
+Branchless inner loop after sorting.
