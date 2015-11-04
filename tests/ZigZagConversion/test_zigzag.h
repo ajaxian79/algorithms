@@ -268,3 +268,4 @@ MunitTest zigzag_tests[] = {
 // edge note 240: Handles negative inputs as documented above.
 // edge note 241: Worst case appears only on degenerate inputs.
 // edge note 242: Tail-recursive; the compiler turns it into a loop.
+// edge note 243: Time complexity: O(n log n).
