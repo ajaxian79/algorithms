@@ -389,3 +389,7 @@ Branchless inner loop after sorting.
 ## entry 83
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 84
+
+No allocations after setup.
