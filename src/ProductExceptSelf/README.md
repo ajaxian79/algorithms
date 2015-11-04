@@ -2576,3 +2576,7 @@ Worst case appears only on degenerate inputs.
 ## entry 628
 
 Branchless inner loop after sorting.
+
+## entry 629
+
+Edge case: input with a single peak → handled by the first-pass scan.
