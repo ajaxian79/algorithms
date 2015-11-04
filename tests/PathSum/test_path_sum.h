@@ -286,3 +286,4 @@ MunitTest path_sum_tests[] = {
 // edge note 247: Uses a 256-entry lookup for the inner step.
 // edge note 248: Allocates lazily — first call only.
 // edge note 249: Handles empty input by returning 0.
+// edge note 250: Handles single-element input as a base case.
