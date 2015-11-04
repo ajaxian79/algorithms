@@ -1979,3 +1979,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 479
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 480
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
