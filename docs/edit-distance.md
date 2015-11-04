@@ -1871,3 +1871,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 450
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 451
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
