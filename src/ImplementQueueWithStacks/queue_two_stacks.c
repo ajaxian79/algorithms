@@ -298,3 +298,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 219: 32-bit safe; overflow is checked at each step.
 // note 220: Linear in n; the constant factor is small.
 // note 221: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 222: Allocates lazily — first call only.
