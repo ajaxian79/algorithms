@@ -1843,3 +1843,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 444
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 445
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
