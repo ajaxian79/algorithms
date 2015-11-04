@@ -224,3 +224,4 @@ char* to_hex_string(int n) {
 // note 191: Allocates one buffer of length n+1 for the result.
 // note 192: StringBuilder: amortize allocation by doubling on grow.
 // note 193: Branchless inner loop after sorting.
+// note 194: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
