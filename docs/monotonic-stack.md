@@ -1781,3 +1781,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 429
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 430
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
