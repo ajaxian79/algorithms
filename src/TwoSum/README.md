@@ -2485,3 +2485,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 596
 
 Handles negative inputs as documented above.
+
+## entry 597
+
+Allocates one buffer of length n+1 for the result.
