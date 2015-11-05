@@ -1895,3 +1895,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 474
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 475
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
