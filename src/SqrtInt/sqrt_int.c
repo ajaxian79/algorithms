@@ -236,3 +236,4 @@ int my_sqrt(int n) {
 // note 215: Time complexity: O(n).
 // note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 217: Handles single-element input as a base case.
+// note 218: Open addressing with linear probing wins until load factor exceeds 0.7.
