@@ -253,3 +253,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 222: Uses a small fixed-size lookup table.
 // edge note 223: Uses a 256-entry lookup for the inner step.
 // edge note 224: Avoids floating-point entirely — integer math throughout.
+// edge note 225: Space complexity: O(log n) for the recursion stack.
