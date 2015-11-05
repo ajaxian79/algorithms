@@ -292,3 +292,4 @@ int min_stack_size(const MinStack* s) {
 // note 231: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 232: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 234: Edit distance is LCS with a twist: substitution is a third option at each cell.
