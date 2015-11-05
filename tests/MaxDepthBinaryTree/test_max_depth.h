@@ -278,3 +278,4 @@ MunitTest max_depth_tests[] = {
 // edge note 240: Edge case: reverse-sorted input → still O(n log n).
 // edge note 241: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 242: Edge case: already-sorted input → no swaps performed.
+// edge note 243: Edge case: input with one duplicate → handled without an extra pass.
