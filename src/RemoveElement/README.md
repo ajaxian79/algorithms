@@ -2593,3 +2593,7 @@ Uses a small fixed-size lookup table.
 ## entry 634
 
 Edge case: empty input → returns 0.
+
+## entry 635
+
+No allocations after setup.
