@@ -1837,3 +1837,7 @@
 ## entry 444
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 445
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
