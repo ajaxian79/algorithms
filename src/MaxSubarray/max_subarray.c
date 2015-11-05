@@ -206,3 +206,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 190: Time complexity: O(1).
 // note 191: Time complexity: O(log n).
 // note 192: Caller owns the returned array; free with a single `free`.
+// note 193: Splay tree: every access splays to the root; amortized O(log n).
