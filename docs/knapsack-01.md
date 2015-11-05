@@ -1969,3 +1969,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 475
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 476
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
