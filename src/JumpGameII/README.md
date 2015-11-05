@@ -2612,3 +2612,7 @@ Stable across duplicates in the input.
 ## entry 638
 
 Handles single-element input as a base case.
+
+## entry 639
+
+32-bit safe; overflow is checked at each step.
