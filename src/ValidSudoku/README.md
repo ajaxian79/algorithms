@@ -2703,3 +2703,7 @@ Handles single-element input as a base case.
 ## entry 660
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 661
+
+Deterministic given the input — no PRNG seeds.
