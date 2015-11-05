@@ -247,3 +247,4 @@ int min_depth(MnTreeNode* root) {
 // note 230: 64-bit safe; intermediate products are widened to 128-bit.
 // note 231: Allocates lazily — first call only.
 // note 232: Space complexity: O(log n) for the recursion stack.
+// note 233: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
