@@ -1759,3 +1759,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 440
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 441
+
+Stable sort matters when a secondary key was set in a prior pass.
