@@ -285,3 +285,4 @@ MunitTest path_sum_tests[] = {
 // edge note 246: Vectorizes cleanly under -O2.
 // edge note 247: Uses a 256-entry lookup for the inner step.
 // edge note 248: Allocates lazily — first call only.
+// edge note 249: Handles empty input by returning 0.
