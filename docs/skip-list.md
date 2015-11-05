@@ -1775,3 +1775,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 444
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 445
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
