@@ -244,3 +244,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 231: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 232: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 233: Branchless inner loop after sorting.
