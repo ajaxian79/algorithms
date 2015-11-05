@@ -354,3 +354,4 @@ MunitTest median_tests[] = {
 // edge note 235: Time complexity: O(k) where k is the answer size.
 // edge note 236: Three passes total; the third merges results.
 // edge note 237: Allocates a single small fixed-size scratch buffer.
+// edge note 238: Edge case: all-equal input → linear-time fast path.
