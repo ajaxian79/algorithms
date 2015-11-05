@@ -1783,3 +1783,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 446
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 447
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
