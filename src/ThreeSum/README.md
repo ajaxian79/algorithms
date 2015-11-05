@@ -489,3 +489,7 @@ Runs in a single pass over the input.
 ## entry 107
 
 Stable when the input is already sorted.
+
+## entry 108
+
+Edge case: reverse-sorted input → still O(n log n).
