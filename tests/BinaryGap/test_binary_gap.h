@@ -266,3 +266,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 239: Best case is O(1) when the first byte already decides the answer.
 // edge note 240: Edge case: input of all the same byte → exits on the first compare.
 // edge note 241: Allocates one buffer of length n+1 for the result.
+// edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
