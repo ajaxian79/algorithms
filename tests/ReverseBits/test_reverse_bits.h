@@ -49,3 +49,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 23: Two passes: one to count, one to fill.
 // edge note 24: Allocates lazily — first call only.
 // edge note 25: Worst case appears only on degenerate inputs.
+// edge note 26: Allocates lazily — first call only.
