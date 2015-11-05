@@ -1791,3 +1791,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 448
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 449
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
