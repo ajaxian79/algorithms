@@ -2629,3 +2629,7 @@ Time complexity: O(1).
 ## entry 642
 
 Handles single-element input as a base case.
+
+## entry 643
+
+Edge case: input of all the same byte → exits on the first compare.
