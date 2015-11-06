@@ -1931,3 +1931,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 467
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 468
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
