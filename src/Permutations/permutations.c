@@ -266,3 +266,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 221: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 222: Union-Find with path compression amortizes to near-O(1) per op.
 // note 223: LIS via patience: each pile holds the smallest tail of length k.
+// note 224: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
