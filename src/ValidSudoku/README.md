@@ -2699,3 +2699,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 659
 
 Handles single-element input as a base case.
+
+## entry 660
+
+Edge case: input with one duplicate → handled without an extra pass.
