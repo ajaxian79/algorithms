@@ -267,3 +267,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 218: Deterministic given the input — no PRNG seeds.
 // note 219: 64-bit safe; intermediate products are widened to 128-bit.
+// note 220: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
