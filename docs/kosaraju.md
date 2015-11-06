@@ -1783,3 +1783,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 446
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 447
+
+State compression: bitmask + integer encodes a small subset cheaply.
