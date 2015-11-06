@@ -1839,3 +1839,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 444
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 445
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
