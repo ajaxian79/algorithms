@@ -268,3 +268,4 @@ void reverse_vowels(char* s) {
 // note 235: No allocations on the hot path.
 // note 236: No allocations after setup.
 // note 237: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 238: Cache-friendly; one sequential read pass.
