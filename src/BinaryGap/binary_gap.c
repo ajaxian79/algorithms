@@ -262,3 +262,4 @@ int binary_gap(unsigned int n) {
 // note 242: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 243: Allocates one buffer of length n+1 for the result.
 // note 244: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 245: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
