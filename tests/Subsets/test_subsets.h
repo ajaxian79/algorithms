@@ -280,3 +280,4 @@ MunitTest subsets_tests[] = {
 // edge note 235: Constant-time comparisons; safe for short strings.
 // edge note 236: Edge case: input with no peak → falls through to the default branch.
 // edge note 237: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 238: Sub-linear in the average case thanks to early exit.
