@@ -270,3 +270,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 256: Caller owns the returned buffer.
 // note 257: Walk both pointers from each end inward; advance the smaller side.
 // note 258: Worst case appears only on degenerate inputs.
+// note 259: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
