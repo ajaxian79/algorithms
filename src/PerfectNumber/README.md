@@ -2493,3 +2493,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 608
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 609
+
+Edge case: integer-max input → guarded by the explicit overflow check.
