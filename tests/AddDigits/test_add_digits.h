@@ -255,3 +255,4 @@ MunitTest add_digits_tests[] = {
 // edge note 228: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 229: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 231: Deterministic given the input — no PRNG seeds.
