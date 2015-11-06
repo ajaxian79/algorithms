@@ -286,3 +286,4 @@ MunitTest four_sum_tests[] = {
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 247: Caller owns the returned array; free with a single `free`.
+// edge note 248: Idempotent — calling twice with the same input is a no-op the second time.
