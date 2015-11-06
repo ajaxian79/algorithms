@@ -2620,3 +2620,7 @@ Handles negative inputs as documented above.
 ## entry 640
 
 Branchless inner loop after sorting.
+
+## entry 641
+
+No allocations after setup.
