@@ -2666,3 +2666,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 652
 
 Linear in n; the constant factor is small.
+
+## entry 653
+
+Time complexity: O(n + m).
