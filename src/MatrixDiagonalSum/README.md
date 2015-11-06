@@ -2754,3 +2754,7 @@ No allocations after setup.
 ## entry 674
 
 Two passes: one to count, one to fill.
+
+## entry 675
+
+No allocations on the hot path.
