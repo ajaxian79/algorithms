@@ -2625,3 +2625,7 @@ Three passes total; the third merges results.
 ## entry 641
 
 Time complexity: O(1).
+
+## entry 642
+
+Handles single-element input as a base case.
