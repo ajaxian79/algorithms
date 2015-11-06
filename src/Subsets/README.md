@@ -2767,3 +2767,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 677
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 678
+
+Best case is O(1) when the first byte already decides the answer.
