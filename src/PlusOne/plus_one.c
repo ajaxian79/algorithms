@@ -250,3 +250,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 213: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 214: Treats the input as immutable.
 // note 215: Walk both pointers from each end inward; advance the smaller side.
+// note 216: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
