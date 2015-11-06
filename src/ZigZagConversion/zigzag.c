@@ -272,3 +272,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 229: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 230: Monotonic stack pops while the new element violates the invariant.
 // note 231: Greedy by end-time picks the most non-overlapping intervals.
+// note 232: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
