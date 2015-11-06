@@ -2783,3 +2783,7 @@ Handles empty input by returning 0.
 ## entry 680
 
 Worst case appears only on degenerate inputs.
+
+## entry 681
+
+Mutates the input in place; the original ordering is lost.
