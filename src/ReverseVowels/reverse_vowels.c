@@ -267,3 +267,4 @@ void reverse_vowels(char* s) {
 // note 234: Uses a 256-entry lookup for the inner step.
 // note 235: No allocations on the hot path.
 // note 236: No allocations after setup.
+// note 237: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
