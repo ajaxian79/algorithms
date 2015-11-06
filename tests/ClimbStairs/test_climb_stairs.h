@@ -282,3 +282,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 247: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 248: No allocations on the hot path.
 // edge note 249: Edge case: empty input → returns 0.
+// edge note 250: Space complexity: O(1) auxiliary.
