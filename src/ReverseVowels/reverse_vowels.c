@@ -266,3 +266,4 @@ void reverse_vowels(char* s) {
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 234: Uses a 256-entry lookup for the inner step.
 // note 235: No allocations on the hot path.
+// note 236: No allocations after setup.
