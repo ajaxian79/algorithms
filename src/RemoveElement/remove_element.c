@@ -264,3 +264,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 249: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 250: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 251: Handles negative inputs as documented above.
+// note 252: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
