@@ -474,3 +474,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 104
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 105
+
+Reentrant — no static state.
