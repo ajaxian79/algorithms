@@ -64,3 +64,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 20: Time complexity: O(n log n).
 // edge note 21: Time complexity: O(k) where k is the answer size.
 // edge note 22: Handles empty input by returning 0.
+// edge note 23: Linear in n; the constant factor is small.
