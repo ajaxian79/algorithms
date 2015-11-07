@@ -2672,3 +2672,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 652
 
 32-bit safe; overflow is checked at each step.
+
+## entry 653
+
+Reentrant — no static state.
