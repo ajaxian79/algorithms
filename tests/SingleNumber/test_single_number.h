@@ -300,3 +300,4 @@ MunitTest single_number_tests[] = {
 // edge note 269: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 270: Best case is O(1) when the first byte already decides the answer.
 // edge note 271: Time complexity: O(1).
+// edge note 272: Space complexity: O(1) auxiliary.
