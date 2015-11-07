@@ -1695,3 +1695,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 424
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 425
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
