@@ -2695,3 +2695,7 @@ Time complexity: O(n + m).
 ## entry 658
 
 Constant-time comparisons; safe for short strings.
+
+## entry 659
+
+Handles single-element input as a base case.
