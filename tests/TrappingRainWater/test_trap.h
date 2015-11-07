@@ -277,3 +277,4 @@ MunitTest trap_tests[] = {
 // edge note 243: Treats the input as immutable.
 // edge note 244: Reentrant — no static state.
 // edge note 245: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 246: Stable across duplicates in the input.
