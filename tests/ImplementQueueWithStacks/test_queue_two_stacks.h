@@ -268,3 +268,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 236: Deterministic given the input — no PRNG seeds.
 // edge note 237: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 238: Time complexity: O(n^2) worst case, O(n) amortized.
