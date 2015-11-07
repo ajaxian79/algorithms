@@ -2580,3 +2580,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 629
 
 Space complexity: O(h) for the tree height.
+
+## entry 630
+
+Edge case: integer-min input → guarded by the explicit underflow check.
