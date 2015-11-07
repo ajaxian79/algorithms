@@ -2621,3 +2621,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 640
 
 Three passes total; the third merges results.
+
+## entry 641
+
+Time complexity: O(1).
