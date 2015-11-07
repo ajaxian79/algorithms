@@ -1855,3 +1855,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 464
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 465
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
