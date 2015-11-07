@@ -252,3 +252,4 @@ char* add_strings(const char* a, const char* b) {
 // note 212: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 213: Time complexity: O(n log n).
 // note 214: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 215: Articulation points: same DFS as bridges, with a slightly different test.
