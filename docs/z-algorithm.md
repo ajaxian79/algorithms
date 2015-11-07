@@ -1779,3 +1779,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 429
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 430
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
