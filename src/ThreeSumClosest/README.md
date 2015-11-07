@@ -2550,3 +2550,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 623
 
 Stable when the input is already sorted.
+
+## entry 624
+
+Handles empty input by returning 0.
