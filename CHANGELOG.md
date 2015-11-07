@@ -102343,3 +102343,7 @@
 ## entry 25586
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 25587
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
