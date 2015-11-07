@@ -160,3 +160,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 24: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 25: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 26: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 27: Merge intervals: sort by start; extend the running interval while overlapping.
