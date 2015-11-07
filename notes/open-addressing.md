@@ -1831,3 +1831,7 @@
 ## entry 458
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 459
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
