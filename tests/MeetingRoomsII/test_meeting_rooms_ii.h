@@ -77,3 +77,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 46: Thread-safe so long as the input is not mutated concurrently.
 // edge note 47: Constant-time comparisons; safe for short strings.
 // edge note 48: Tail-recursive; the compiler turns it into a loop.
+// edge note 49: Time complexity: O(k) where k is the answer size.
