@@ -1817,3 +1817,7 @@
 ## entry 439
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 440
+
+- Splay tree: every access splays to the root; amortized O(log n).
