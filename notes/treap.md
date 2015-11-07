@@ -1803,3 +1803,7 @@
 ## entry 451
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 452
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
