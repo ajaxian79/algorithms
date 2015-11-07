@@ -2649,3 +2649,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 647
 
 Cache-friendly; one sequential read pass.
+
+## entry 648
+
+No allocations after setup.
