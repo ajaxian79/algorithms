@@ -1825,3 +1825,7 @@
 ## entry 440
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 441
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
