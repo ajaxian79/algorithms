@@ -2616,3 +2616,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 639
 
 Handles negative inputs as documented above.
+
+## entry 640
+
+Branchless inner loop after sorting.
