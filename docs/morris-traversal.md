@@ -1787,3 +1787,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 432
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 433
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
