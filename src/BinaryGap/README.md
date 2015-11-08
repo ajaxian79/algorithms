@@ -2682,3 +2682,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 655
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 656
+
+Edge case: empty input → returns 0.
