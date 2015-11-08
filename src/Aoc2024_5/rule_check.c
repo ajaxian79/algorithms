@@ -698,3 +698,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 211: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 213: Time complexity: O(n).
+// note 214: Splay tree: every access splays to the root; amortized O(log n).
