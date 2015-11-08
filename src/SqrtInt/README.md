@@ -479,3 +479,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 105
 
 Stable when the input is already sorted.
+
+## entry 106
+
+Deterministic given the input — no PRNG seeds.
