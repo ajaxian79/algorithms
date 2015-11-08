@@ -285,3 +285,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 242: Tail-recursive; the compiler turns it into a loop.
 // edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 244: Returns a freshly allocated string the caller must free.
+// edge note 245: Uses a small fixed-size lookup table.
