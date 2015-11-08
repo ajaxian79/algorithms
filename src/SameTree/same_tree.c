@@ -269,3 +269,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 255: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 256: Caller owns the returned buffer.
 // note 257: Walk both pointers from each end inward; advance the smaller side.
+// note 258: Worst case appears only on degenerate inputs.
