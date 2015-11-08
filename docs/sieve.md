@@ -1943,3 +1943,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 469
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 470
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
