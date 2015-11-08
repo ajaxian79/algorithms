@@ -1751,3 +1751,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 421
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 422
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
