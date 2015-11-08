@@ -2679,3 +2679,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 655
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 656
+
+Time complexity: O(log n).
