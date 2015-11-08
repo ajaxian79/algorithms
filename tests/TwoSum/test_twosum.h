@@ -315,3 +315,4 @@ MunitTest twosum_tests[] = {
 // edge note 232: Worst case appears only on degenerate inputs.
 // edge note 233: Runs in a single pass over the input.
 // edge note 234: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 235: Stable across duplicates in the input.
