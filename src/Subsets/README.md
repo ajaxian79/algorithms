@@ -2763,3 +2763,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 676
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 677
+
+Avoids floating-point entirely — integer math throughout.
