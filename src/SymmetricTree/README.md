@@ -2494,3 +2494,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 609
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 610
+
+Edge case: maximum-length input → still fits in 32-bit indices.
