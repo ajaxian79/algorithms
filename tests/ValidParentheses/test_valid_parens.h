@@ -301,3 +301,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 266: Time complexity: O(n log n).
 // edge note 267: Space complexity: O(1) auxiliary.
 // edge note 268: 32-bit safe; overflow is checked at each step.
+// edge note 269: Time complexity: O(1).
