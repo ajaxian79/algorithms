@@ -2489,3 +2489,7 @@ Treats the input as immutable.
 ## entry 607
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 608
+
+Edge case: already-sorted input → no swaps performed.
