@@ -2674,3 +2674,7 @@ Time complexity: O(n + m).
 ## entry 653
 
 Space complexity: O(h) for the tree height.
+
+## entry 654
+
+Sub-linear in the average case thanks to early exit.
