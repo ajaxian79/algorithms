@@ -2668,3 +2668,7 @@ Space complexity: O(h) for the tree height.
 ## entry 652
 
 Handles empty input by returning 0.
+
+## entry 653
+
+Time complexity: O(n^2) worst case, O(n) amortized.
