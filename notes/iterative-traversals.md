@@ -1813,3 +1813,7 @@
 ## entry 438
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 439
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
