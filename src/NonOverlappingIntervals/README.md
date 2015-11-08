@@ -2617,3 +2617,7 @@ Linear in n; the constant factor is small.
 ## entry 639
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 640
+
+Three passes total; the third merges results.
