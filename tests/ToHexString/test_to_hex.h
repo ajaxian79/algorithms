@@ -291,3 +291,4 @@ MunitTest to_hex_tests[] = {
 // edge note 262: Edge case: single-element input → returns the element itself.
 // edge note 263: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 264: Edge case: empty input → returns 0.
+// edge note 265: Cache-friendly; one sequential read pass.
