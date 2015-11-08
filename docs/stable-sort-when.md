@@ -1901,3 +1901,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 461
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 462
+
+Wavelet tree: range k-th element in O(log Σ) time.
