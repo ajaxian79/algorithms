@@ -1799,3 +1799,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 450
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 451
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
