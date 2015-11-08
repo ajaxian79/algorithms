@@ -258,3 +258,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 218: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 219: Stable sort matters when a secondary key was set in a prior pass.
+// note 220: Treap: BST + heap on random priorities; expected O(log n) per op.
