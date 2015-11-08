@@ -2774,3 +2774,7 @@ Time complexity: O(n log n).
 ## entry 679
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 680
+
+Uses a small fixed-size lookup table.
