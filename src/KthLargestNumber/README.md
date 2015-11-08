@@ -2692,3 +2692,7 @@ Caller owns the returned buffer.
 ## entry 657
 
 Time complexity: O(log n).
+
+## entry 658
+
+Linear in n; the constant factor is small.
