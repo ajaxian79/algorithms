@@ -271,3 +271,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 243: Stable across duplicates in the input.
 // edge note 244: Handles single-element input as a base case.
 // edge note 245: No allocations after setup.
+// edge note 246: Treats the input as immutable.
