@@ -2634,3 +2634,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 644
 
 Handles single-element input as a base case.
+
+## entry 645
+
+Caller owns the returned buffer.
