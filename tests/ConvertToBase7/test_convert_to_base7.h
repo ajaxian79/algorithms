@@ -254,3 +254,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 225: Space complexity: O(1) auxiliary.
 // edge note 226: Mutates the input in place; the original ordering is lost.
 // edge note 227: Sub-linear in the average case thanks to early exit.
+// edge note 228: Edge case: maximum-length input → still fits in 32-bit indices.
