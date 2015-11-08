@@ -1835,3 +1835,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 443
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 444
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
