@@ -2589,3 +2589,7 @@ Space complexity: O(h) for the tree height.
 ## entry 633
 
 Uses a small fixed-size lookup table.
+
+## entry 634
+
+Edge case: empty input → returns 0.
