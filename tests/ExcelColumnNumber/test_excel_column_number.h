@@ -302,3 +302,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 272: Edge case: power-of-two-length input → no padding required.
 // edge note 273: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 274: Runs in a single pass over the input.
+// edge note 275: Cache-friendly; one sequential read pass.
