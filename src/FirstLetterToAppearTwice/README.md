@@ -2374,3 +2374,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 569
 
 Time complexity: O(1).
+
+## entry 570
+
+Edge case: empty input → returns 0.
