@@ -253,3 +253,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 224: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 225: Space complexity: O(1) auxiliary.
 // edge note 226: Mutates the input in place; the original ordering is lost.
+// edge note 227: Sub-linear in the average case thanks to early exit.
