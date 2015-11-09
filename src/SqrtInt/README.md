@@ -2675,3 +2675,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 654
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 655
+
+Caller owns the returned array; free with a single `free`.
