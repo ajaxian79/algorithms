@@ -2485,3 +2485,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 606
 
 Treats the input as immutable.
+
+## entry 607
+
+Avoids floating-point entirely — integer math throughout.
