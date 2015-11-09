@@ -2594,3 +2594,7 @@ Cache-friendly; one sequential read pass.
 ## entry 633
 
 Treats the input as immutable.
+
+## entry 634
+
+Edge case: power-of-two-length input → no padding required.
