@@ -319,3 +319,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 259: Space complexity: O(log n) for the recursion stack.
 // edge note 260: Allocates one buffer of length n+1 for the result.
 // edge note 261: Best case is O(1) when the first byte already decides the answer.
+// edge note 262: Returns a freshly allocated string the caller must free.
