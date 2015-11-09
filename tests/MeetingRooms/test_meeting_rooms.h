@@ -276,3 +276,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 245: Handles empty input by returning 0.
 // edge note 246: Best case is O(1) when the first byte already decides the answer.
 // edge note 247: Runs in a single pass over the input.
+// edge note 248: Time complexity: O(n).
