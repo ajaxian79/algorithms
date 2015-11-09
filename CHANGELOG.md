@@ -102287,3 +102287,7 @@
 ## entry 25572
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 25573
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
