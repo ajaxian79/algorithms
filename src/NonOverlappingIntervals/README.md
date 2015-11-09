@@ -2613,3 +2613,7 @@ Reentrant — no static state.
 ## entry 638
 
 Linear in n; the constant factor is small.
+
+## entry 639
+
+Time complexity: O(n*k) where k is the alphabet size.
