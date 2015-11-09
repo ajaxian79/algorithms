@@ -264,3 +264,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 226: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 227: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 228: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 229: Monotonic deque: push back, pop back to maintain order, pop front when stale.
