@@ -1891,3 +1891,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 473
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 474
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
