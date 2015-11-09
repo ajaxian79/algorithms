@@ -1743,3 +1743,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 436
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 437
+
+Greedy by end-time picks the most non-overlapping intervals.
