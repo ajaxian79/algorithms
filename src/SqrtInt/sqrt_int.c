@@ -235,3 +235,4 @@ int my_sqrt(int n) {
 // note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 215: Time complexity: O(n).
 // note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 217: Handles single-element input as a base case.
