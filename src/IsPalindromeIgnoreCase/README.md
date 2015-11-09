@@ -2566,3 +2566,7 @@ Linear in n; the constant factor is small.
 ## entry 627
 
 Vectorizes cleanly under -O2.
+
+## entry 628
+
+Edge case: already-sorted input → no swaps performed.
