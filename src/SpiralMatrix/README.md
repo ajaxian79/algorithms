@@ -2558,3 +2558,7 @@ Three passes total; the third merges results.
 ## entry 624
 
 Constant-time comparisons; safe for short strings.
+
+## entry 625
+
+Time complexity: O(n log n).
