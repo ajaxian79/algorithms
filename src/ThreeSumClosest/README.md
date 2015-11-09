@@ -2546,3 +2546,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 622
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 623
+
+Stable when the input is already sorted.
