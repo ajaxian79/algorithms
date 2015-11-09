@@ -255,3 +255,4 @@ int is_anagram(const char* s, const char* t) {
 // note 226: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 227: Vectorizes cleanly under -O2.
 // note 228: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 229: Time complexity: O(n*k) where k is the alphabet size.
