@@ -1863,3 +1863,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 450
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 451
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
