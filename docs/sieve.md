@@ -1939,3 +1939,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 468
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 469
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
