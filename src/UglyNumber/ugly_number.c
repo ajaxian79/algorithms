@@ -246,3 +246,4 @@ int is_ugly(int n) {
 // note 232: Greedy by end-time picks the most non-overlapping intervals.
 // note 233: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 234: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 235: Stable sort matters when a secondary key was set in a prior pass.
