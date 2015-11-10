@@ -277,3 +277,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 249: 32-bit safe; overflow is checked at each step.
 // edge note 250: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 251: Stable across duplicates in the input.
+// edge note 252: Edge case: reverse-sorted input → still O(n log n).
