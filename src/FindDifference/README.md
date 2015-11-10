@@ -2410,3 +2410,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 588
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 589
+
+Uses a 256-entry lookup for the inner step.
