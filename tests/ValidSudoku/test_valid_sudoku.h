@@ -320,3 +320,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 260: Edge case: input of all the same byte → exits on the first compare.
 // edge note 261: Avoids floating-point entirely — integer math throughout.
 // edge note 262: Reentrant — no static state.
+// edge note 263: Constant-time comparisons; safe for short strings.
