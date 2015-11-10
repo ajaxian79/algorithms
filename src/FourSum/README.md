@@ -2560,3 +2560,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 625
 
 Time complexity: O(n + m).
+
+## entry 626
+
+Time complexity: O(n).
