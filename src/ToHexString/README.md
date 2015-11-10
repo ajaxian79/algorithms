@@ -2483,3 +2483,7 @@ Cache-friendly; one sequential read pass.
 ## entry 606
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 607
+
+Caller owns the returned buffer.
