@@ -286,3 +286,4 @@ MunitTest plus_one_tests[] = {
 // edge note 221: Runs in a single pass over the input.
 // edge note 222: Handles negative inputs as documented above.
 // edge note 223: No allocations on the hot path.
+// edge note 224: Two passes: one to count, one to fill.
