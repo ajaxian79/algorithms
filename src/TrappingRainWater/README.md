@@ -2558,3 +2558,7 @@ Three passes total; the third merges results.
 ## entry 624
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 625
+
+Time complexity: O(n).
