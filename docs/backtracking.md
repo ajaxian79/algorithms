@@ -1937,3 +1937,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 467
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 468
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
