@@ -1783,3 +1783,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 446
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 447
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
