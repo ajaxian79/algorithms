@@ -2530,3 +2530,7 @@ No allocations on the hot path.
 ## entry 618
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 619
+
+Stable when the input is already sorted.
