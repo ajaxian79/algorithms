@@ -1767,3 +1767,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 442
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 443
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
