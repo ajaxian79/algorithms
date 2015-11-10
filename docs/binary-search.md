@@ -1985,3 +1985,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 480
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 481
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
