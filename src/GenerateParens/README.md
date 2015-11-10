@@ -2572,3 +2572,7 @@ Space complexity: O(h) for the tree height.
 ## entry 627
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 628
+
+Resists adversarial inputs by randomizing the pivot.
