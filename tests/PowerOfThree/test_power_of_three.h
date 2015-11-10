@@ -272,3 +272,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
 // edge note 242: Sub-linear in the average case thanks to early exit.
 // edge note 243: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 244: No allocations on the hot path.
