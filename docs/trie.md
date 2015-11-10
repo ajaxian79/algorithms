@@ -1785,3 +1785,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 430
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 431
+
+LIS via patience: each pile holds the smallest tail of length k.
