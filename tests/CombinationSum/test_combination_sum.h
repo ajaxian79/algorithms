@@ -283,3 +283,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 239: Linear in n; the constant factor is small.
 // edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 241: Resists adversarial inputs by randomizing the pivot.
+// edge note 242: Sub-linear in the average case thanks to early exit.
