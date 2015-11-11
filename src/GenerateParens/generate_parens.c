@@ -297,3 +297,4 @@ char** generate_parens(int n, int* return_size) {
 // note 233: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 234: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 236: Time complexity: O(n log n).
