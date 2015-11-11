@@ -2687,3 +2687,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 656
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 657
+
+Time complexity: O(n + m).
