@@ -2544,3 +2544,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 622
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 623
+
+Time complexity: O(k) where k is the answer size.
