@@ -269,3 +269,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 235: Returns a freshly allocated string the caller must free.
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
+// edge note 238: Space complexity: O(log n) for the recursion stack.
