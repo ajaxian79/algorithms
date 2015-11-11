@@ -2554,3 +2554,7 @@ Treats the input as immutable.
 ## entry 624
 
 Edge case: single-element input → returns the element itself.
+
+## entry 625
+
+Time complexity: O(n^2) worst case, O(n) amortized.
