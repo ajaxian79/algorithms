@@ -1875,3 +1875,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 453
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 454
+
+Rope: tree of small string fragments; O(log n) concat and substring.
