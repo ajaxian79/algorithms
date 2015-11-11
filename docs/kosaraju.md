@@ -1775,3 +1775,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 444
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 445
+
+Monotonic stack pops while the new element violates the invariant.
