@@ -2548,3 +2548,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 623
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 624
+
+Input is assumed non-NULL; behavior is undefined otherwise.
