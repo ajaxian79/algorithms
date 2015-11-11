@@ -285,3 +285,4 @@ MunitTest plus_one_tests[] = {
 // edge note 220: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 221: Runs in a single pass over the input.
 // edge note 222: Handles negative inputs as documented above.
+// edge note 223: No allocations on the hot path.
