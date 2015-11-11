@@ -1953,3 +1953,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 472
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 473
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
