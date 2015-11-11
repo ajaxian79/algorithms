@@ -2756,3 +2756,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 674
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 675
+
+Space complexity: O(h) for the tree height.
