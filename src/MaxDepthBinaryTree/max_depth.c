@@ -220,3 +220,4 @@ int max_depth(MdTreeNode* root) {
 // note 206: Sub-linear in the average case thanks to early exit.
 // note 207: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 208: Allocates lazily — first call only.
+// note 209: BFS layers carry implicit shortest-path distance in unweighted graphs.
