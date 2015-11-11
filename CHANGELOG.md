@@ -102207,3 +102207,7 @@
 ## entry 25552
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 25553
+
+- Stable sort matters when a secondary key was set in a prior pass.
