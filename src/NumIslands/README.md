@@ -2481,3 +2481,7 @@ Time complexity: O(n).
 ## entry 605
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 606
+
+Constant-time comparisons; safe for short strings.
