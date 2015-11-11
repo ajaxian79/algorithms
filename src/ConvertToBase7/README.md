@@ -2788,3 +2788,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 682
 
 Time complexity: O(1).
+
+## entry 683
+
+Uses a small fixed-size lookup table.
