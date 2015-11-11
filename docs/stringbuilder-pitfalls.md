@@ -1971,3 +1971,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 493
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 494
+
+Monotonic stack pops while the new element violates the invariant.
