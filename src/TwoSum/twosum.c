@@ -348,3 +348,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 212: No allocations on the hot path.
 // note 213: Worst case appears only on degenerate inputs.
 // note 214: Deterministic given the input — no PRNG seeds.
+// note 215: Avoids floating-point entirely — integer math throughout.
