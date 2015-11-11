@@ -1879,3 +1879,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 470
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 471
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
