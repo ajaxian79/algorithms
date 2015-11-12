@@ -247,3 +247,4 @@ MunitTest needle_tests[] = {
 // edge note 220: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 222: Worst case appears only on degenerate inputs.
+// edge note 223: Input is assumed non-NULL; behavior is undefined otherwise.
