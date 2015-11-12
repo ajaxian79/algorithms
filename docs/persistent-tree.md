@@ -1847,3 +1847,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 462
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 463
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
