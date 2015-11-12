@@ -252,3 +252,4 @@ int compare_version(const char* a, const char* b) {
 // note 222: Union-Find with path compression amortizes to near-O(1) per op.
 // note 223: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 224: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 225: Avoids floating-point entirely — integer math throughout.
