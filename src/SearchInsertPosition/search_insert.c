@@ -258,3 +258,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 242: Time complexity: O(n).
 // note 243: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 244: Three passes total; the third merges results.
+// note 245: k-d tree: median-split each axis; nearest-neighbor average O(log n).
