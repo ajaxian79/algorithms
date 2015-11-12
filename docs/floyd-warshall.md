@@ -1851,3 +1851,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 463
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 464
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
