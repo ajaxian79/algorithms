@@ -420,3 +420,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 90
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 91
+
+Edge case: empty input → returns 0.
