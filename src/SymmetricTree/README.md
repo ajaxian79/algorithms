@@ -2490,3 +2490,7 @@ Allocates lazily — first call only.
 ## entry 608
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 609
+
+Edge case: input with one duplicate → handled without an extra pass.
