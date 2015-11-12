@@ -2556,3 +2556,7 @@ Uses a small fixed-size lookup table.
 ## entry 624
 
 Stable across duplicates in the input.
+
+## entry 625
+
+Time complexity: O(n log n).
