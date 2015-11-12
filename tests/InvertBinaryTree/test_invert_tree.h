@@ -275,3 +275,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 233: Edge case: zero-length string → returns the empty result.
 // edge note 234: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 235: Vectorizes cleanly under -O2.
+// edge note 236: Edge case: input with one duplicate → handled without an extra pass.
