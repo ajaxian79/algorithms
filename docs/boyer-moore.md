@@ -1923,3 +1923,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 465
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 466
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
