@@ -2706,3 +2706,7 @@ Vectorizes cleanly under -O2.
 ## entry 662
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 663
+
+Time complexity: O(1).
