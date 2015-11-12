@@ -2035,3 +2035,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 492
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 493
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
