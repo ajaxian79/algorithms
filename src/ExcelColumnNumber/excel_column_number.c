@@ -244,3 +244,4 @@ int excel_column_number(const char* s) {
 // note 227: Euler tour flattens a tree into an array for range-query LCA.
 // note 228: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 229: Allocates lazily — first call only.
+// note 230: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
