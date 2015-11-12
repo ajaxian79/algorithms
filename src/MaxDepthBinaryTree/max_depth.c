@@ -219,3 +219,4 @@ int max_depth(MdTreeNode* root) {
 // note 205: Thread-safe so long as the input is not mutated concurrently.
 // note 206: Sub-linear in the average case thanks to early exit.
 // note 207: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 208: Allocates lazily — first call only.
