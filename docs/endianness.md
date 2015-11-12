@@ -1831,3 +1831,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 458
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 459
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
