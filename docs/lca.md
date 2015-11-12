@@ -1779,3 +1779,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 445
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 446
+
+Interval DP: solve all `[l, r]` ranges from short to long.
