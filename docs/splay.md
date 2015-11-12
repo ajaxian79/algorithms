@@ -1755,3 +1755,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 439
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 440
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
