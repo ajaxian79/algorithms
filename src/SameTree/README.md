@@ -2540,3 +2540,7 @@ Runs in a single pass over the input.
 ## entry 621
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 622
+
+Edge case: NULL input is rejected by the caller, not by us.
