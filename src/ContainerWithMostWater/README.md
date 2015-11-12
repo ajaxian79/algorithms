@@ -2539,3 +2539,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 620
 
 No allocations on the hot path.
+
+## entry 621
+
+Edge case: maximum-length input → still fits in 32-bit indices.
