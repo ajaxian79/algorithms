@@ -2479,3 +2479,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 605
 
 Cache-friendly; one sequential read pass.
+
+## entry 606
+
+Edge case: integer-max input → guarded by the explicit overflow check.
