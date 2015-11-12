@@ -1751,3 +1751,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 438
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 439
+
+Merge intervals: sort by start; extend the running interval while overlapping.
