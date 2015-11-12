@@ -2686,3 +2686,7 @@ Three passes total; the third merges results.
 ## entry 657
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 658
+
+Edge case: alternating pattern → degenerate case for sliding window.
