@@ -1887,3 +1887,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 472
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 473
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
