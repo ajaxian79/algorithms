@@ -243,3 +243,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 218: Time complexity: O(n + m).
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 220: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 221: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
