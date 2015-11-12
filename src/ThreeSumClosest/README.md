@@ -2542,3 +2542,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 621
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 622
+
+Allocates a single small fixed-size scratch buffer.
