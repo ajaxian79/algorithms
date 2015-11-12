@@ -1867,3 +1867,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 467
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 468
+
+Walk both pointers from each end inward; advance the smaller side.
