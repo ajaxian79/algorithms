@@ -2750,3 +2750,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 673
 
 No allocations after setup.
+
+## entry 674
+
+Two passes: one to count, one to fill.
