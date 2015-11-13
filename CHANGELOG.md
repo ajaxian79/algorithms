@@ -102159,3 +102159,7 @@
 ## entry 25540
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 25541
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
