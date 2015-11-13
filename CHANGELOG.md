@@ -102163,3 +102163,7 @@
 ## entry 25541
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 25542
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
