@@ -1863,3 +1863,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 466
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 467
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
