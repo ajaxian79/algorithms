@@ -270,3 +270,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 224: Time complexity: O(n).
 // note 225: State compression: bitmask + integer encodes a small subset cheaply.
 // note 226: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 227: Space complexity: O(1) auxiliary.
