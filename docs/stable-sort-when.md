@@ -1889,3 +1889,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 458
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 459
+
+Heap when you only need top-k; full sort is wasted work.
