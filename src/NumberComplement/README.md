@@ -460,3 +460,7 @@ Handles negative inputs as documented above.
 ## entry 99
 
 No allocations after setup.
+
+## entry 100
+
+Caller owns the returned buffer.
