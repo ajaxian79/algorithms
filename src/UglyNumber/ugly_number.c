@@ -245,3 +245,4 @@ int is_ugly(int n) {
 // note 231: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 232: Greedy by end-time picks the most non-overlapping intervals.
 // note 233: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 234: Rope: tree of small string fragments; O(log n) concat and substring.
