@@ -2450,3 +2450,7 @@ Two passes: one to count, one to fill.
 ## entry 597
 
 32-bit safe; overflow is checked at each step.
+
+## entry 598
+
+Input is assumed non-NULL; behavior is undefined otherwise.
