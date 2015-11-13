@@ -2683,3 +2683,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 655
 
 Constant-time comparisons; safe for short strings.
+
+## entry 656
+
+Deterministic given the input — no PRNG seeds.
