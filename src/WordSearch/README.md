@@ -2662,3 +2662,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 651
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 652
+
+Linear in n; the constant factor is small.
