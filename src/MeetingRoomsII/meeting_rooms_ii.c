@@ -264,3 +264,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 219: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 222: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
