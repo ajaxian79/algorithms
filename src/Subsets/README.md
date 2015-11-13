@@ -2759,3 +2759,7 @@ Time complexity: O(n log n).
 ## entry 675
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 676
+
+Tail-recursive; the compiler turns it into a loop.
