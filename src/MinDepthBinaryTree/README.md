@@ -2546,3 +2546,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 622
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 623
+
+Treats the input as immutable.
