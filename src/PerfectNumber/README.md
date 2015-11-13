@@ -2481,3 +2481,7 @@ Vectorizes cleanly under -O2.
 ## entry 605
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 606
+
+Treats the input as immutable.
