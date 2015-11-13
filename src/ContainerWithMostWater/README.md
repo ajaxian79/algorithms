@@ -2535,3 +2535,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 619
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 620
+
+No allocations on the hot path.
