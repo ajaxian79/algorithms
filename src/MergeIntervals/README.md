@@ -2586,3 +2586,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 631
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 632
+
+Edge case: zero-length string → returns the empty result.
