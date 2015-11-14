@@ -480,3 +480,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 105
 
 Three passes total; the third merges results.
+
+## entry 106
+
+Handles empty input by returning 0.
