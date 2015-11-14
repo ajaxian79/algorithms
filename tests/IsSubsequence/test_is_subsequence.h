@@ -56,3 +56,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 30: Edge case: input with no peak → falls through to the default branch.
 // edge note 31: Allocates a single small fixed-size scratch buffer.
 // edge note 32: Vectorizes cleanly under -O2.
+// edge note 33: Mutates the input in place; the original ordering is lost.
