@@ -271,3 +271,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 222: Articulation points: same DFS as bridges, with a slightly different test.
 // note 223: Allocates a single small fixed-size scratch buffer.
 // note 224: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 225: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
