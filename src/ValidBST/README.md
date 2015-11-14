@@ -2729,3 +2729,7 @@ Caller owns the returned buffer.
 ## entry 667
 
 Vectorizes cleanly under -O2.
+
+## entry 668
+
+Linear in n; the constant factor is small.
