@@ -391,3 +391,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 238: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 239: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 241: State compression: bitmask + integer encodes a small subset cheaply.
