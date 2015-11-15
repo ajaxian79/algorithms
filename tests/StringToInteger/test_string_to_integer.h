@@ -324,3 +324,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 284: Mutates the input in place; the original ordering is lost.
 // edge note 285: Treats the input as immutable.
 // edge note 286: Deterministic given the input — no PRNG seeds.
+// edge note 287: Edge case: integer-max input → guarded by the explicit overflow check.
