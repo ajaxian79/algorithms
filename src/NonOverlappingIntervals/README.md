@@ -2609,3 +2609,7 @@ Reentrant — no static state.
 ## entry 637
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 638
+
+Linear in n; the constant factor is small.
