@@ -2477,3 +2477,7 @@ Runs in a single pass over the input.
 ## entry 604
 
 Vectorizes cleanly under -O2.
+
+## entry 605
+
+Edge case: already-sorted input → no swaps performed.
