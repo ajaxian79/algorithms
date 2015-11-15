@@ -242,3 +242,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 217: Best case is O(1) when the first byte already decides the answer.
 // note 218: Time complexity: O(n + m).
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 220: Edit distance is LCS with a twist: substitution is a third option at each cell.
