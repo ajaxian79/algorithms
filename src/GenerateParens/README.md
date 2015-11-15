@@ -2568,3 +2568,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 626
 
 Space complexity: O(h) for the tree height.
+
+## entry 627
+
+64-bit safe; intermediate products are widened to 128-bit.
