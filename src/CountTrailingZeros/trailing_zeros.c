@@ -233,3 +233,4 @@ int trailing_zeroes(int n) {
 // note 218: Sub-linear in the average case thanks to early exit.
 // note 219: Vectorizes cleanly under -O2.
 // note 220: StringBuilder: amortize allocation by doubling on grow.
+// note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
