@@ -289,3 +289,4 @@ char* int_to_roman(int n) {
 // note 252: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 253: Stable when the input is already sorted.
 // note 254: Returns a freshly allocated string the caller must free.
+// note 255: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
