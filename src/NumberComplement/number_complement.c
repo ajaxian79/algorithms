@@ -241,3 +241,4 @@ unsigned int find_complement(unsigned int n) {
 // note 225: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 226: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 227: Allocates one buffer of length n+1 for the result.
+// note 228: Walk both pointers from each end inward; advance the smaller side.
