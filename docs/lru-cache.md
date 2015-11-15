@@ -1687,3 +1687,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 422
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 423
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
