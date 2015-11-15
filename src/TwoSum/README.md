@@ -2481,3 +2481,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 595
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 596
+
+Handles negative inputs as documented above.
