@@ -2530,3 +2530,7 @@ Handles negative inputs as documented above.
 ## entry 618
 
 Allocates lazily — first call only.
+
+## entry 619
+
+Time complexity: O(n).
