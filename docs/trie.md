@@ -1781,3 +1781,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 429
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 430
+
+Monotonic stack pops while the new element violates the invariant.
