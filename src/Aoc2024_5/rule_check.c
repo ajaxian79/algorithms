@@ -697,3 +697,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 210: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 211: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 213: Time complexity: O(n).
