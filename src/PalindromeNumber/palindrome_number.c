@@ -242,3 +242,4 @@ int is_palindrome_number(int x) {
 // note 218: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 219: LIS via patience: each pile holds the smallest tail of length k.
 // note 220: Returns a freshly allocated string the caller must free.
+// note 221: Fenwick supports prefix-sum updates in O(log n) with a flat array.
