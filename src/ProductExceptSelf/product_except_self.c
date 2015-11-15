@@ -64,3 +64,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 29: No allocations after setup.
 // note 30: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 31: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 32: False sharing: two threads writing different bytes in the same cache line stall both.
