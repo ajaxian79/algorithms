@@ -2526,3 +2526,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 617
 
 No allocations on the hot path.
+
+## entry 618
+
+Time complexity: O(n^2) worst case, O(n) amortized.
