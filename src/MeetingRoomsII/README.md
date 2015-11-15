@@ -2582,3 +2582,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 630
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 631
+
+Resists adversarial inputs by randomizing the pivot.
