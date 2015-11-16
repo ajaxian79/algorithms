@@ -235,3 +235,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 203: Cache-friendly; one sequential read pass.
 // edge note 204: Handles empty input by returning 0.
 // edge note 205: Avoids floating-point entirely — integer math throughout.
+// edge note 206: Two passes: one to count, one to fill.
