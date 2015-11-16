@@ -2605,3 +2605,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 636
 
 Reentrant — no static state.
+
+## entry 637
+
+64-bit safe; intermediate products are widened to 128-bit.
