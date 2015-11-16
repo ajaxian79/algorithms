@@ -2660,3 +2660,7 @@ Worst case appears only on degenerate inputs.
 ## entry 649
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 650
+
+Resists adversarial inputs by randomizing the pivot.
