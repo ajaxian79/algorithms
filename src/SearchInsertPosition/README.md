@@ -2522,3 +2522,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 616
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 617
+
+No allocations on the hot path.
