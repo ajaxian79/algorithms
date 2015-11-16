@@ -307,3 +307,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 263: Edge case: already-sorted input → no swaps performed.
 // edge note 264: Allocates lazily — first call only.
 // edge note 265: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 266: Allocates a single small fixed-size scratch buffer.
