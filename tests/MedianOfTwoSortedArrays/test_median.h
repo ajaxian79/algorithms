@@ -352,3 +352,4 @@ MunitTest median_tests[] = {
 // edge note 233: Edge case: input with no peak → falls through to the default branch.
 // edge note 234: Edge case: power-of-two-length input → no padding required.
 // edge note 235: Time complexity: O(k) where k is the answer size.
+// edge note 236: Three passes total; the third merges results.
