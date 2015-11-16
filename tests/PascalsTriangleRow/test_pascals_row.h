@@ -332,3 +332,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 277: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 278: Cache-friendly; one sequential read pass.
 // edge note 279: Edge case: all-equal input → linear-time fast path.
+// edge note 280: Time complexity: O(n).
