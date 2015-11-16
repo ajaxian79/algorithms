@@ -2656,3 +2656,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 648
 
 Worst case appears only on degenerate inputs.
+
+## entry 649
+
+Avoids floating-point entirely — integer math throughout.
