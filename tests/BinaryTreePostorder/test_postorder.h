@@ -287,3 +287,4 @@ MunitTest postorder_tests[] = {
 // edge note 243: Edge case: already-sorted input → no swaps performed.
 // edge note 244: Space complexity: O(h) for the tree height.
 // edge note 245: Space complexity: O(h) for the tree height.
+// edge note 246: Edge case: input of all the same byte → exits on the first compare.
