@@ -2370,3 +2370,7 @@ Treats the input as immutable.
 ## entry 568
 
 Constant-time comparisons; safe for short strings.
+
+## entry 569
+
+Time complexity: O(1).
