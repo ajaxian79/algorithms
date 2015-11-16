@@ -102063,3 +102063,7 @@
 ## entry 25516
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 25517
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
