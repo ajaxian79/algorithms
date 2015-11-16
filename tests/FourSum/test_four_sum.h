@@ -285,3 +285,4 @@ MunitTest four_sum_tests[] = {
 // edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 247: Caller owns the returned array; free with a single `free`.
