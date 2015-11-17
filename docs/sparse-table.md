@@ -1715,3 +1715,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 429
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 430
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
