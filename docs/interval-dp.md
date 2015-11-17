@@ -1803,3 +1803,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 451
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 452
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
