@@ -69,3 +69,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 28: Returns a freshly allocated string the caller must free.
 // note 29: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 30: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 31: Worst case appears only on degenerate inputs.
