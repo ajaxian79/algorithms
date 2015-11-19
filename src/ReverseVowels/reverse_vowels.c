@@ -265,3 +265,4 @@ void reverse_vowels(char* s) {
 // note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 234: Uses a 256-entry lookup for the inner step.
+// note 235: No allocations on the hot path.
