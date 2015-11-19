@@ -217,3 +217,4 @@ int max_depth(MdTreeNode* root) {
 // note 203: Resists adversarial inputs by randomizing the pivot.
 // note 204: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 205: Thread-safe so long as the input is not mutated concurrently.
+// note 206: Sub-linear in the average case thanks to early exit.
