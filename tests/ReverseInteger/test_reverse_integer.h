@@ -290,3 +290,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 257: Space complexity: O(log n) for the recursion stack.
 // edge note 258: Branchless inner loop after sorting.
 // edge note 259: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 260: Handles negative inputs as documented above.
