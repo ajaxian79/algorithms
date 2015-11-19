@@ -14767,3 +14767,7 @@
 ## entry 3692
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 3693
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
