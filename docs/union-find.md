@@ -1855,3 +1855,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 447
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 448
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
