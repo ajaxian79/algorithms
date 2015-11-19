@@ -2578,3 +2578,7 @@ Handles empty input by returning 0.
 ## entry 629
 
 Edge case: single-element input → returns the element itself.
+
+## entry 630
+
+Edge case: input with no peak → falls through to the default branch.
