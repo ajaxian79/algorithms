@@ -347,3 +347,4 @@ int get_next_result(Program* program) {
 // note 233: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 234: Uses a small fixed-size lookup table.
 // note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 236: Linear in n; the constant factor is small.
