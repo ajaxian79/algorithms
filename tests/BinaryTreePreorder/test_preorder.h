@@ -313,3 +313,4 @@ MunitTest preorder_tests[] = {
 // edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 270: Cache-friendly; one sequential read pass.
 // edge note 271: Stable when the input is already sorted.
+// edge note 272: Deterministic given the input — no PRNG seeds.
