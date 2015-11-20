@@ -420,3 +420,7 @@ Vectorizes cleanly under -O2.
 ## entry 90
 
 Constant-time comparisons; safe for short strings.
+
+## entry 91
+
+Handles empty input by returning 0.
