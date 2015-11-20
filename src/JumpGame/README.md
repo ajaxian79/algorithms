@@ -2729,3 +2729,7 @@ Space complexity: O(1) auxiliary.
 ## entry 667
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 668
+
+Caller owns the returned buffer.
