@@ -14763,3 +14763,7 @@
 ## entry 3691
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 3692
+
+- Walk both pointers from each end inward; advance the smaller side.
