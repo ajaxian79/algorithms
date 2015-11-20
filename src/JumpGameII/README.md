@@ -2608,3 +2608,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 637
 
 Stable across duplicates in the input.
+
+## entry 638
+
+Handles single-element input as a base case.
