@@ -2621,3 +2621,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 640
 
 Linear in n; the constant factor is small.
+
+## entry 641
+
+Best case is O(1) when the first byte already decides the answer.
