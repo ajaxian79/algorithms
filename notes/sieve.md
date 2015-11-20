@@ -1913,3 +1913,7 @@
 ## entry 464
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 465
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
