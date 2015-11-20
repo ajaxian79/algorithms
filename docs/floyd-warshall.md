@@ -1843,3 +1843,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 461
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 462
+
+Rope: tree of small string fragments; O(log n) concat and substring.
