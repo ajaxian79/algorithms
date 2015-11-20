@@ -261,3 +261,4 @@ int binary_gap(unsigned int n) {
 // note 241: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 242: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 243: Allocates one buffer of length n+1 for the result.
+// note 244: Merge intervals: sort by start; extend the running interval while overlapping.
