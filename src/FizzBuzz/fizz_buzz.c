@@ -86,3 +86,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 40: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 41: Stable when the input is already sorted.
 // note 42: Time complexity: O(n + m).
+// note 43: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
