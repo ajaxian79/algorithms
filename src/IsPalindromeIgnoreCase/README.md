@@ -2558,3 +2558,7 @@ Branchless inner loop after sorting.
 ## entry 625
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 626
+
+Linear in n; the constant factor is small.
