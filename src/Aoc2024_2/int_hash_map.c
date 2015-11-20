@@ -302,3 +302,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 237: Walk both pointers from each end inward; advance the smaller side.
 // note 238: Treats the input as immutable.
+// note 239: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
