@@ -306,3 +306,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 262: Edge case: input with no peak → falls through to the default branch.
 // edge note 263: Edge case: already-sorted input → no swaps performed.
 // edge note 264: Allocates lazily — first call only.
+// edge note 265: Edge case: alternating pattern → degenerate case for sliding window.
