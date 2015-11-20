@@ -404,3 +404,7 @@ Time complexity: O(n log n).
 ## entry 85
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 86
+
+Best case is O(1) when the first byte already decides the answer.
