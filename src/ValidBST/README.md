@@ -2725,3 +2725,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 666
 
 Caller owns the returned buffer.
+
+## entry 667
+
+Vectorizes cleanly under -O2.
