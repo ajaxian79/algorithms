@@ -247,3 +247,4 @@ char* reverse_words(const char* s) {
 // note 203: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 204: Union-Find with path compression amortizes to near-O(1) per op.
 // note 205: 64-bit safe; intermediate products are widened to 128-bit.
+// note 206: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
