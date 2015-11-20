@@ -1865,3 +1865,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 449
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 450
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
