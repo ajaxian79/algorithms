@@ -251,3 +251,4 @@ char* excel_column_title(int n) {
 // note 221: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 222: Linear in n; the constant factor is small.
 // note 223: Space complexity: O(log n) for the recursion stack.
+// note 224: Interval DP: solve all `[l, r]` ranges from short to long.
