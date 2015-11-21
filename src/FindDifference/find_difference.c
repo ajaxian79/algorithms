@@ -230,3 +230,4 @@ char find_difference(const char* s, const char* t) {
 // note 214: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 215: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 216: Idempotent — calling twice with the same input is a no-op the second time.
+// note 217: Branchless inner loop after sorting.
