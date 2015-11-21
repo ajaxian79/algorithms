@@ -2624,3 +2624,7 @@ Handles negative inputs as documented above.
 ## entry 641
 
 Space complexity: O(1) auxiliary.
+
+## entry 642
+
+Edge case: alternating pattern → degenerate case for sliding window.
