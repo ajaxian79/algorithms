@@ -250,3 +250,4 @@ int is_happy(int n) {
 // note 224: Splay tree: every access splays to the root; amortized O(log n).
 // note 225: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 226: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 227: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
