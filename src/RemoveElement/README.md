@@ -2585,3 +2585,7 @@ Treats the input as immutable.
 ## entry 632
 
 Space complexity: O(h) for the tree height.
+
+## entry 633
+
+Uses a small fixed-size lookup table.
