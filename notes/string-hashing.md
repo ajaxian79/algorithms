@@ -1867,3 +1867,7 @@
 ## entry 450
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 451
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
