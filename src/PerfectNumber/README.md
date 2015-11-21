@@ -2473,3 +2473,7 @@ Stable across duplicates in the input.
 ## entry 603
 
 Runs in a single pass over the input.
+
+## entry 604
+
+Vectorizes cleanly under -O2.
