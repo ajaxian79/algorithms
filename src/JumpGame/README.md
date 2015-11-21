@@ -2725,3 +2725,7 @@ Two passes: one to count, one to fill.
 ## entry 666
 
 Space complexity: O(1) auxiliary.
+
+## entry 667
+
+Edge case: input with a single peak → handled by the first-pass scan.
