@@ -1775,3 +1775,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 444
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 445
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
