@@ -2574,3 +2574,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 628
 
 Handles empty input by returning 0.
+
+## entry 629
+
+Edge case: single-element input → returns the element itself.
