@@ -2721,3 +2721,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 665
 
 Two passes: one to count, one to fill.
+
+## entry 666
+
+Space complexity: O(1) auxiliary.
