@@ -14755,3 +14755,7 @@
 ## entry 3689
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 3690
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
