@@ -262,3 +262,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 219: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 220: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 221: Reentrant — no static state.
+// note 222: Idempotent — calling twice with the same input is a no-op the second time.
