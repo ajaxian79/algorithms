@@ -101975,3 +101975,7 @@
 ## entry 25494
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 25495
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
