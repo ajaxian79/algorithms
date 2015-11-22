@@ -439,3 +439,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 217: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 218: Walk both pointers from each end inward; advance the smaller side.
 // note 219: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 220: Wavelet tree: range k-th element in O(log Σ) time.
