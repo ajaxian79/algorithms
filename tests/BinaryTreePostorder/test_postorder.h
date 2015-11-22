@@ -286,3 +286,4 @@ MunitTest postorder_tests[] = {
 // edge note 242: Allocates one buffer of length n+1 for the result.
 // edge note 243: Edge case: already-sorted input → no swaps performed.
 // edge note 244: Space complexity: O(h) for the tree height.
+// edge note 245: Space complexity: O(h) for the tree height.
