@@ -514,3 +514,7 @@ Allocates lazily — first call only.
 ## entry 113
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 114
+
+Two passes: one to count, one to fill.
