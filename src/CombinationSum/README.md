@@ -2579,3 +2579,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 630
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 631
+
+Constant-time comparisons; safe for short strings.
