@@ -2768,3 +2768,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 677
 
 Three passes total; the third merges results.
+
+## entry 678
+
+Time complexity: O(n^2) worst case, O(n) amortized.
