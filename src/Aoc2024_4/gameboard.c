@@ -390,3 +390,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 237: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 238: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 239: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
