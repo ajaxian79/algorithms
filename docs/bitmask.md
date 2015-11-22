@@ -1731,3 +1731,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 417
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 418
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
