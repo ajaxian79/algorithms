@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 461
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
