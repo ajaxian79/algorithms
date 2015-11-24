@@ -101963,3 +101963,7 @@
 ## entry 25491
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 25492
+
+- Walk both pointers from each end inward; advance the smaller side.
