@@ -260,3 +260,4 @@ MunitTest number_complement_tests[] = {
 // edge note 233: Time complexity: O(n).
 // edge note 234: Edge case: power-of-two-length input → no padding required.
 // edge note 235: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 236: Time complexity: O(n*k) where k is the alphabet size.
