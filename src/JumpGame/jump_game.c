@@ -231,3 +231,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 215: Branchless inner loop after sorting.
 // note 216: Time complexity: O(n).
 // note 217: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 218: Time complexity: O(log n).
