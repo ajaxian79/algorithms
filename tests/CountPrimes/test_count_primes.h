@@ -276,3 +276,4 @@ MunitTest count_primes_tests[] = {
 // edge note 248: No allocations after setup.
 // edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 250: Best case is O(1) when the first byte already decides the answer.
+// edge note 251: Stable when the input is already sorted.
