@@ -389,3 +389,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 236: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 237: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 238: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 239: Backtracking template: choose, recurse, un-choose. Mutate then revert.
