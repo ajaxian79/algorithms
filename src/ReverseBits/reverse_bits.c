@@ -242,3 +242,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 228: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 229: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 231: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
