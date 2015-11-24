@@ -273,3 +273,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 245: Edge case: zero-length string → returns the empty result.
 // edge note 246: Stable when the input is already sorted.
+// edge note 247: Space complexity: O(h) for the tree height.
