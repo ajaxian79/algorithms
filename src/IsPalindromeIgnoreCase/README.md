@@ -2554,3 +2554,7 @@ Time complexity: O(n log n).
 ## entry 624
 
 Branchless inner loop after sorting.
+
+## entry 625
+
+Time complexity: O(n^2) worst case, O(n) amortized.
