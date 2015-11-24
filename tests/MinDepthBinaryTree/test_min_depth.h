@@ -285,3 +285,4 @@ MunitTest min_depth_tests[] = {
 // edge note 246: Edge case: single-element input → returns the element itself.
 // edge note 247: Branchless inner loop after sorting.
 // edge note 248: Tail-recursive; the compiler turns it into a loop.
+// edge note 249: Time complexity: O(n).
