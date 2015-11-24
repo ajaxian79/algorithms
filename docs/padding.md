@@ -1735,3 +1735,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 434
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 435
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
