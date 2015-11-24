@@ -2586,3 +2586,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 631
 
 Space complexity: O(n) for the result buffer.
+
+## entry 632
+
+Cache-friendly; one sequential read pass.
