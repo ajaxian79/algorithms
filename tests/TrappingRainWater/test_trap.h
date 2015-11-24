@@ -276,3 +276,4 @@ MunitTest trap_tests[] = {
 // edge note 242: Caller owns the returned array; free with a single `free`.
 // edge note 243: Treats the input as immutable.
 // edge note 244: Reentrant — no static state.
+// edge note 245: Edge case: integer-min input → guarded by the explicit underflow check.
