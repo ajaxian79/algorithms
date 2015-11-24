@@ -2552,3 +2552,7 @@ Handles empty input by returning 0.
 ## entry 623
 
 Uses a small fixed-size lookup table.
+
+## entry 624
+
+Stable across duplicates in the input.
