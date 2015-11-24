@@ -2581,3 +2581,7 @@ Space complexity: O(1) auxiliary.
 ## entry 631
 
 Treats the input as immutable.
+
+## entry 632
+
+Space complexity: O(h) for the tree height.
