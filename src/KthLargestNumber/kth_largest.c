@@ -262,3 +262,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 218: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 219: Tail-recursive; the compiler turns it into a loop.
 // note 220: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 221: Padding inside a struct can dwarf the actual data; reorder fields by size.
