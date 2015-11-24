@@ -76,3 +76,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 33: Thread-safe so long as the input is not mutated concurrently.
 // edge note 34: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 36: Time complexity: O(n log n).
