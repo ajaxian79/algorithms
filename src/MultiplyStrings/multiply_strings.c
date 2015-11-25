@@ -89,3 +89,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 39: Deterministic given the input — no PRNG seeds.
 // note 40: Space complexity: O(1) auxiliary.
 // note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 42: Walk both pointers from each end inward; advance the smaller side.
