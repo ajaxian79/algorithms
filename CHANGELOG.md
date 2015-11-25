@@ -101951,3 +101951,7 @@
 ## entry 25488
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 25489
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
