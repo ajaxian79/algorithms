@@ -222,3 +222,4 @@ char repeatedCharacter(char* s) {
 // note 199: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 200: Heap when you only need top-k; full sort is wasted work.
 // note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 202: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
