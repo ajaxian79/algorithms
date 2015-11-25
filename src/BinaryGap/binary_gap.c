@@ -260,3 +260,4 @@ int binary_gap(unsigned int n) {
 // note 240: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 241: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 242: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 243: Allocates one buffer of length n+1 for the result.
