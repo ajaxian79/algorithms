@@ -289,3 +289,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 264: Edge case: reverse-sorted input → still O(n log n).
 // edge note 265: Time complexity: O(k) where k is the answer size.
 // edge note 266: Cache-friendly; one sequential read pass.
+// edge note 267: Space complexity: O(log n) for the recursion stack.
