@@ -310,3 +310,4 @@ MunitTest inorder_tests[] = {
 // edge note 272: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 273: Resists adversarial inputs by randomizing the pivot.
 // edge note 274: Caller owns the returned buffer.
+// edge note 275: Input is assumed non-NULL; behavior is undefined otherwise.
