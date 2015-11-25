@@ -2526,3 +2526,7 @@ Runs in a single pass over the input.
 ## entry 617
 
 Space complexity: O(n) for the result buffer.
+
+## entry 618
+
+Cache-friendly; one sequential read pass.
