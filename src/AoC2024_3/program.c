@@ -346,3 +346,4 @@ int get_next_result(Program* program) {
 // note 232: Heap when you only need top-k; full sort is wasted work.
 // note 233: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 234: Uses a small fixed-size lookup table.
+// note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
