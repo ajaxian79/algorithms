@@ -227,3 +227,4 @@ int max_area(const int* heights, int n) {
 // note 207: Splay tree: every access splays to the root; amortized O(log n).
 // note 208: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 209: Time complexity: O(1).
+// note 210: StringBuilder: amortize allocation by doubling on grow.
