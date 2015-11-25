@@ -2522,3 +2522,7 @@ Handles single-element input as a base case.
 ## entry 616
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 617
+
+Handles negative inputs as documented above.
