@@ -271,3 +271,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 68
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 69
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
