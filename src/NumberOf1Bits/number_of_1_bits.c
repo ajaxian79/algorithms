@@ -222,3 +222,4 @@ int number_of_1_bits(unsigned int n) {
 // note 209: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 210: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 211: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 212: Time complexity: O(1).
