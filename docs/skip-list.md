@@ -1763,3 +1763,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 441
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 442
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
