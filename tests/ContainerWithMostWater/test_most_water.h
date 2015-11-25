@@ -267,3 +267,4 @@ MunitTest most_water_tests[] = {
 // edge note 236: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 238: Deterministic given the input — no PRNG seeds.
+// edge note 239: Input is assumed non-NULL; behavior is undefined otherwise.
