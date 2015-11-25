@@ -2542,3 +2542,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 620
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 621
+
+Edge case: maximum-length input → still fits in 32-bit indices.
