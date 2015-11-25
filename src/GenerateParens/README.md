@@ -2556,3 +2556,7 @@ Two passes: one to count, one to fill.
 ## entry 623
 
 Time complexity: O(log n).
+
+## entry 624
+
+Idempotent — calling twice with the same input is a no-op the second time.
