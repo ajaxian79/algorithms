@@ -101947,3 +101947,7 @@
 ## entry 25487
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 25488
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
