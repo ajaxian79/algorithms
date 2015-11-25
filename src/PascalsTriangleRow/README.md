@@ -2766,3 +2766,7 @@ Space complexity: O(1) auxiliary.
 ## entry 677
 
 Stable across duplicates in the input.
+
+## entry 678
+
+Time complexity: O(n log n).
