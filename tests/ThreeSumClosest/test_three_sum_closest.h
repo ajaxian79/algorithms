@@ -271,3 +271,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 243: Three passes total; the third merges results.
 // edge note 244: Returns a freshly allocated string the caller must free.
 // edge note 245: Time complexity: O(log n).
+// edge note 246: 32-bit safe; overflow is checked at each step.
