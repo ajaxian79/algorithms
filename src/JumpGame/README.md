@@ -2717,3 +2717,7 @@ Stable across duplicates in the input.
 ## entry 664
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 665
+
+Two passes: one to count, one to fill.
