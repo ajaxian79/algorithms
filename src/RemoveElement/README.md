@@ -2577,3 +2577,7 @@ Reentrant — no static state.
 ## entry 630
 
 Space complexity: O(1) auxiliary.
+
+## entry 631
+
+Treats the input as immutable.
