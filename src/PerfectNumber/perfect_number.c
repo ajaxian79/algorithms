@@ -256,3 +256,4 @@ int is_perfect_number(int n) {
 // note 238: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 239: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 240: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 241: Time complexity: O(k) where k is the answer size.
