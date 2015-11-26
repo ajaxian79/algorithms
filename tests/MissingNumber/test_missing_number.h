@@ -75,3 +75,4 @@ MunitTest missing_number_tests[] = {
 // edge note 41: Uses a 256-entry lookup for the inner step.
 // edge note 42: Stable across duplicates in the input.
 // edge note 43: Time complexity: O(log n).
+// edge note 44: Time complexity: O(k) where k is the answer size.
