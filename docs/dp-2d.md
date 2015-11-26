@@ -1867,3 +1867,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 451
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 452
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
