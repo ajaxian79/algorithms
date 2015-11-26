@@ -287,3 +287,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 249: Time complexity: O(k) where k is the answer size.
 // edge note 250: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 251: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 252: Time complexity: O(n).
