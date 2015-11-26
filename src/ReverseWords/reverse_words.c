@@ -246,3 +246,4 @@ char* reverse_words(const char* s) {
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // note 203: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 204: Union-Find with path compression amortizes to near-O(1) per op.
+// note 205: 64-bit safe; intermediate products are widened to 128-bit.
