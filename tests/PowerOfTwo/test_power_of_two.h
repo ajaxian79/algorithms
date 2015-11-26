@@ -286,3 +286,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 254: Linear in n; the constant factor is small.
 // edge note 255: Edge case: empty input → returns 0.
 // edge note 256: Time complexity: O(n log n).
+// edge note 257: No allocations on the hot path.
