@@ -1855,3 +1855,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 448
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 449
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
