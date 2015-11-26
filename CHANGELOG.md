@@ -101915,3 +101915,7 @@
 ## entry 25479
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 25480
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
