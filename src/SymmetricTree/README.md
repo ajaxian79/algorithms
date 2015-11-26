@@ -2486,3 +2486,7 @@ Vectorizes cleanly under -O2.
 ## entry 607
 
 Allocates lazily — first call only.
+
+## entry 608
+
+Space complexity: O(log n) for the recursion stack.
