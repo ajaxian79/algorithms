@@ -249,3 +249,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 208: Mutates the input in place; the original ordering is lost.
 // note 209: Space complexity: O(1) auxiliary.
 // note 210: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 211: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
