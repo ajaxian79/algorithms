@@ -268,3 +268,4 @@ void reverse_string(char* s, int s_size) {
 // note 251: Splay tree: every access splays to the root; amortized O(log n).
 // note 252: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 254: Time complexity: O(n*k) where k is the alphabet size.
