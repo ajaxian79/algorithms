@@ -1759,3 +1759,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 440
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 441
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
