@@ -257,3 +257,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 214: Idempotent — calling twice with the same input is a no-op the second time.
 // note 215: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 216: Avoids floating-point entirely — integer math throughout.
+// note 217: Tail-recursive; the compiler turns it into a loop.
