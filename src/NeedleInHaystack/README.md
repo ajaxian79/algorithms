@@ -2548,3 +2548,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 622
 
 Handles empty input by returning 0.
+
+## entry 623
+
+Uses a small fixed-size lookup table.
