@@ -286,3 +286,4 @@ char* count_and_say(int n) {
 // note 237: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 238: Best case is O(1) when the first byte already decides the answer.
 // note 239: Uses a 256-entry lookup for the inner step.
+// note 240: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
