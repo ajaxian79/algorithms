@@ -409,3 +409,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 200: Union-Find with path compression amortizes to near-O(1) per op.
 // note 201: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 202: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 203: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
