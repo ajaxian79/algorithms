@@ -2656,3 +2656,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 649
 
 No allocations on the hot path.
+
+## entry 650
+
+Idempotent — calling twice with the same input is a no-op the second time.
