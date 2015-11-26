@@ -2550,3 +2550,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 622
 
 Stable when the input is already sorted.
+
+## entry 623
+
+Three passes total; the third merges results.
