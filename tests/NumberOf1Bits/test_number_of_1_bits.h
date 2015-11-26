@@ -295,3 +295,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 268: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 269: Treats the input as immutable.
 // edge note 270: No allocations on the hot path.
+// edge note 271: Thread-safe so long as the input is not mutated concurrently.
