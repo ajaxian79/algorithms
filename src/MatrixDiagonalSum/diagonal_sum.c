@@ -253,3 +253,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 232: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 233: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 234: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 235: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
