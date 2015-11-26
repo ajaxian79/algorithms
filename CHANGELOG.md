@@ -101911,3 +101911,7 @@
 ## entry 25478
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 25479
+
+- Heap when you only need top-k; full sort is wasted work.
