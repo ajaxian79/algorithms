@@ -2550,3 +2550,7 @@ Three passes total; the third merges results.
 ## entry 623
 
 Time complexity: O(n log n).
+
+## entry 624
+
+Branchless inner loop after sorting.
