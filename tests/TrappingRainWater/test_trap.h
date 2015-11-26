@@ -275,3 +275,4 @@ MunitTest trap_tests[] = {
 // edge note 241: No allocations on the hot path.
 // edge note 242: Caller owns the returned array; free with a single `free`.
 // edge note 243: Treats the input as immutable.
+// edge note 244: Reentrant — no static state.
