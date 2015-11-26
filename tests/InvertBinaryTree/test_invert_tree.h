@@ -273,3 +273,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 231: Space complexity: O(1) auxiliary.
 // edge note 232: Allocates lazily — first call only.
 // edge note 233: Edge case: zero-length string → returns the empty result.
+// edge note 234: Idempotent — calling twice with the same input is a no-op the second time.
