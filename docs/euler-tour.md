@@ -1771,3 +1771,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 443
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 444
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
