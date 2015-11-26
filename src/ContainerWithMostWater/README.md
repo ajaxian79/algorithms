@@ -2531,3 +2531,7 @@ Three passes total; the third merges results.
 ## entry 618
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 619
+
+Best case is O(1) when the first byte already decides the answer.
