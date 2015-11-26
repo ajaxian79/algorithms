@@ -456,3 +456,7 @@ Stable when the input is already sorted.
 ## entry 98
 
 Handles negative inputs as documented above.
+
+## entry 99
+
+No allocations after setup.
