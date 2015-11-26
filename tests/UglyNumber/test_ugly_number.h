@@ -299,3 +299,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 270: Time complexity: O(n log n).
 // edge note 271: Cache-friendly; one sequential read pass.
 // edge note 272: Time complexity: O(n + m).
+// edge note 273: Constant-time comparisons; safe for short strings.
