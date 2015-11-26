@@ -241,3 +241,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 215: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 216: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 217: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 218: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
