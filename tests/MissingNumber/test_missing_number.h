@@ -267,3 +267,4 @@ MunitTest missing_number_tests[] = {
 // edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 234: Stable when the input is already sorted.
 // edge note 235: Worst case appears only on degenerate inputs.
+// edge note 236: Branchless inner loop after sorting.
