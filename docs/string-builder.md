@@ -1879,3 +1879,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 470
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 471
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
