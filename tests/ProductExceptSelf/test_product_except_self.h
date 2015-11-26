@@ -285,3 +285,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 250: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 251: Cache-friendly; one sequential read pass.
+// edge note 252: Edge case: alternating pattern → degenerate case for sliding window.
