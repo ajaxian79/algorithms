@@ -421,3 +421,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 90
 
 Linear in n; the constant factor is small.
+
+## entry 91
+
+64-bit safe; intermediate products are widened to 128-bit.
