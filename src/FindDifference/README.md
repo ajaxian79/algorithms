@@ -2390,3 +2390,7 @@ No allocations after setup.
 ## entry 583
 
 Allocates lazily — first call only.
+
+## entry 584
+
+Time complexity: O(1).
