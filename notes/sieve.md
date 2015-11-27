@@ -369,3 +369,7 @@
 ## entry 78
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 79
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
