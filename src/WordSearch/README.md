@@ -2658,3 +2658,7 @@ Worst case appears only on degenerate inputs.
 ## entry 650
 
 Space complexity: O(n) for the result buffer.
+
+## entry 651
+
+Mutates the input in place; the original ordering is lost.
