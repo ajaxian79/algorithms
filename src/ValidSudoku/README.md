@@ -2679,3 +2679,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 654
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 655
+
+Constant-time comparisons; safe for short strings.
