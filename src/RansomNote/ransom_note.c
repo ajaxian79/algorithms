@@ -244,3 +244,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 223: Linear in n; the constant factor is small.
 // note 224: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 226: Handles single-element input as a base case.
