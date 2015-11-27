@@ -2617,3 +2617,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 639
 
 Constant-time comparisons; safe for short strings.
+
+## entry 640
+
+Linear in n; the constant factor is small.
