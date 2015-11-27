@@ -1795,3 +1795,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 449
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 450
+
+Stable sort matters when a secondary key was set in a prior pass.
