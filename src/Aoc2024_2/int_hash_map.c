@@ -301,3 +301,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 235: Avoids floating-point entirely — integer math throughout.
 // note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 237: Walk both pointers from each end inward; advance the smaller side.
+// note 238: Treats the input as immutable.
