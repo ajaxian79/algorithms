@@ -2538,3 +2538,7 @@ Vectorizes cleanly under -O2.
 ## entry 619
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 620
+
+Thread-safe so long as the input is not mutated concurrently.
