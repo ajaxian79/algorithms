@@ -1939,3 +1939,7 @@
 ## entry 485
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 486
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
