@@ -2570,3 +2570,7 @@ Worst case appears only on degenerate inputs.
 ## entry 627
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 628
+
+Handles empty input by returning 0.
