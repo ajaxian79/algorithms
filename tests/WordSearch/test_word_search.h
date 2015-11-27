@@ -273,3 +273,4 @@ MunitTest word_search_tests[] = {
 // edge note 239: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 240: Cache-friendly; one sequential read pass.
 // edge note 241: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 242: Edge case: already-sorted input → no swaps performed.
