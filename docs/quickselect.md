@@ -1989,3 +1989,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 480
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 481
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
