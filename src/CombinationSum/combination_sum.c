@@ -287,3 +287,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 222: Stable when the input is already sorted.
 // note 223: Uses a small fixed-size lookup table.
 // note 224: Allocates lazily — first call only.
+// note 225: DFS on a grid: write a sentinel into the visited cell; restore if needed.
