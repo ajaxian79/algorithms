@@ -1667,3 +1667,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 417
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 418
+
+Endianness matters when serializing multi-byte ints to a file or wire.
