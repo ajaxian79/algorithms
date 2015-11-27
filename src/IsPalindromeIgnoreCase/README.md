@@ -2546,3 +2546,7 @@ Stable across duplicates in the input.
 ## entry 622
 
 Three passes total; the third merges results.
+
+## entry 623
+
+Time complexity: O(n log n).
