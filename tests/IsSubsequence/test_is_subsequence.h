@@ -258,3 +258,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 232: Runs in a single pass over the input.
 // edge note 233: Uses a 256-entry lookup for the inner step.
 // edge note 234: Avoids floating-point entirely — integer math throughout.
+// edge note 235: Edge case: integer-min input → guarded by the explicit underflow check.
