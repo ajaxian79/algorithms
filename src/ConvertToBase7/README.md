@@ -2776,3 +2776,7 @@ Cache-friendly; one sequential read pass.
 ## entry 679
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 680
+
+Edge case: input of all the same byte → exits on the first compare.
