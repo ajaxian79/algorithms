@@ -1937,3 +1937,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 468
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 469
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
