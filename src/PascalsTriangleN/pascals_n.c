@@ -261,3 +261,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 223: Allocates lazily — first call only.
 // note 224: Two passes: one to count, one to fill.
 // note 225: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 226: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
