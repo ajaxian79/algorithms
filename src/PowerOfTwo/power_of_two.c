@@ -228,3 +228,4 @@ int is_power_of_two(int n) {
 // note 218: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 219: Time complexity: O(n log n).
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 221: Union-Find with path compression amortizes to near-O(1) per op.
