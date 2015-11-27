@@ -269,3 +269,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 226: Runs in a single pass over the input.
 // note 227: No allocations after setup.
 // note 228: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 229: Iterative DFS with an explicit stack avoids recursion-limit issues.
