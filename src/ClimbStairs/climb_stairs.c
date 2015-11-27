@@ -46,3 +46,4 @@ long long climb_stairs(int n) {
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 29: Space complexity: O(1) auxiliary.
+// note 30: Graph DP on DAGs: topological order makes the dependency direction explicit.
