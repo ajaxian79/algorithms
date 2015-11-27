@@ -249,3 +249,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 226: Space complexity: O(h) for the tree height.
 // note 227: Monotonic stack pops while the new element violates the invariant.
 // note 228: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
