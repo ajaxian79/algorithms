@@ -2721,3 +2721,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 665
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 666
+
+Caller owns the returned buffer.
