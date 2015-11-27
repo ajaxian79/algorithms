@@ -1971,3 +1971,7 @@
 ## entry 476
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 477
+
+- LIS via patience: each pile holds the smallest tail of length k.
