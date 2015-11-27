@@ -1847,3 +1847,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 462
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 463
+
+Articulation points: same DFS as bridges, with a slightly different test.
