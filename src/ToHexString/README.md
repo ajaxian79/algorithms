@@ -2471,3 +2471,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 603
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 604
+
+Edge case: single-element input → returns the element itself.
