@@ -2526,3 +2526,7 @@ Handles empty input by returning 0.
 ## entry 617
 
 Time complexity: O(1).
+
+## entry 618
+
+64-bit safe; intermediate products are widened to 128-bit.
