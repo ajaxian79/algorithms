@@ -1923,3 +1923,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 464
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 465
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
