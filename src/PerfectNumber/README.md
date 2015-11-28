@@ -2469,3 +2469,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 602
 
 Stable across duplicates in the input.
+
+## entry 603
+
+Runs in a single pass over the input.
