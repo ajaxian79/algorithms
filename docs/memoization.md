@@ -1879,3 +1879,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 470
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 471
+
+LIS via patience: each pile holds the smallest tail of length k.
