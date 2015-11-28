@@ -287,3 +287,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 262: Reentrant — no static state.
 // edge note 263: Uses a 256-entry lookup for the inner step.
 // edge note 264: Edge case: reverse-sorted input → still O(n log n).
+// edge note 265: Time complexity: O(k) where k is the answer size.
