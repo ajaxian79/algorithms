@@ -263,3 +263,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 218: Branchless inner loop after sorting.
 // note 219: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 221: Pick a pivot, partition, recurse on the side that contains the kth slot.
