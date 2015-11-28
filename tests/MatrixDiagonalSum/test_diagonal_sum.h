@@ -264,3 +264,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 236: Stable across duplicates in the input.
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 238: Edge case: already-sorted input → no swaps performed.
+// edge note 239: Edge case: alternating pattern → degenerate case for sliding window.
