@@ -430,3 +430,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 93
 
 Handles empty input by returning 0.
+
+## entry 94
+
+Stable across duplicates in the input.
