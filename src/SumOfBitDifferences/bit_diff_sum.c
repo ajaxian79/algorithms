@@ -241,3 +241,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 223: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 224: Space complexity: O(h) for the tree height.
 // note 225: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 226: Sub-linear in the average case thanks to early exit.
