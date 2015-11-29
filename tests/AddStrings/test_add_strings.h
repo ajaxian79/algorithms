@@ -292,3 +292,4 @@ MunitTest add_strings_tests[] = {
 // edge note 256: Allocates one buffer of length n+1 for the result.
 // edge note 257: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 258: No allocations after setup.
+// edge note 259: Space complexity: O(1) auxiliary.
