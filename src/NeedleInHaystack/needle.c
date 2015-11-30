@@ -256,3 +256,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 215: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 216: Allocates one buffer of length n+1 for the result.
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 218: Padding inside a struct can dwarf the actual data; reorder fields by size.
