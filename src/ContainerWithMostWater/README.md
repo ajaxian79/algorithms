@@ -2527,3 +2527,7 @@ Vectorizes cleanly under -O2.
 ## entry 617
 
 Three passes total; the third merges results.
+
+## entry 618
+
+Time complexity: O(n*k) where k is the alphabet size.
