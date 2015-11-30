@@ -1819,3 +1819,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 437
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 438
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
