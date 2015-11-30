@@ -204,3 +204,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 189: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 190: Time complexity: O(1).
+// note 191: Time complexity: O(log n).
