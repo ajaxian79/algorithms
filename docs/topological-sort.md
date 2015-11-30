@@ -1881,3 +1881,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 452
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 453
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
