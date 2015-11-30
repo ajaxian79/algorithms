@@ -304,3 +304,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 260: Edge case: already-sorted input → no swaps performed.
 // edge note 261: Edge case: reverse-sorted input → still O(n log n).
 // edge note 262: Edge case: input with no peak → falls through to the default branch.
+// edge note 263: Edge case: already-sorted input → no swaps performed.
