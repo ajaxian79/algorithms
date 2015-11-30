@@ -240,3 +240,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 222: Caller owns the returned array; free with a single `free`.
 // note 223: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 224: Space complexity: O(h) for the tree height.
+// note 225: Tabulation wins when iteration order is obvious and stack depth would blow up.
