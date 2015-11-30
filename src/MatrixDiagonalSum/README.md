@@ -2730,3 +2730,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 668
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 669
+
+Space complexity: O(n) for the result buffer.
