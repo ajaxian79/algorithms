@@ -2467,3 +2467,7 @@ Stable when the input is already sorted.
 ## entry 602
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 603
+
+Edge case: input with no peak → falls through to the default branch.
