@@ -2674,3 +2674,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 654
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 655
+
+Time complexity: O(log n).
