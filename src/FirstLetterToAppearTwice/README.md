@@ -2366,3 +2366,7 @@ Treats the input as immutable.
 ## entry 567
 
 32-bit safe; overflow is checked at each step.
+
+## entry 568
+
+Constant-time comparisons; safe for short strings.
