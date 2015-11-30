@@ -2544,3 +2544,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 621
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 622
+
+Handles empty input by returning 0.
