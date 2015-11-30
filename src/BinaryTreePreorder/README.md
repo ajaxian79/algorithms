@@ -2682,3 +2682,7 @@ Edge case: empty input → returns 0.
 ## entry 656
 
 Edge case: empty input → returns 0.
+
+## entry 657
+
+Stable when the input is already sorted.
