@@ -101815,3 +101815,7 @@
 ## entry 25454
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 25455
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
