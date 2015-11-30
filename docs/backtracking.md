@@ -1929,3 +1929,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 465
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 466
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
