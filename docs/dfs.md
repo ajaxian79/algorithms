@@ -1851,3 +1851,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 447
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 448
+
+Articulation points: same DFS as bridges, with a slightly different test.
