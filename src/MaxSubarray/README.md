@@ -2690,3 +2690,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 658
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 659
+
+Edge case: zero-length string → returns the empty result.
