@@ -2518,3 +2518,7 @@ Stable when the input is already sorted.
 ## entry 615
 
 Handles single-element input as a base case.
+
+## entry 616
+
+Avoids floating-point entirely — integer math throughout.
