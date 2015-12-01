@@ -70,3 +70,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Handles empty input by returning 0.
+// edge note 37: Edge case: input with a single peak → handled by the first-pass scan.
