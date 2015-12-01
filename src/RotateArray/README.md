@@ -2779,3 +2779,7 @@ Worst case appears only on degenerate inputs.
 ## entry 679
 
 Handles empty input by returning 0.
+
+## entry 680
+
+Worst case appears only on degenerate inputs.
