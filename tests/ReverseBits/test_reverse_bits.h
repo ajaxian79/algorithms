@@ -258,3 +258,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 232: Cache-friendly; one sequential read pass.
 // edge note 233: Edge case: input of all the same byte → exits on the first compare.
 // edge note 234: Resists adversarial inputs by randomizing the pivot.
+// edge note 235: Stable across duplicates in the input.
