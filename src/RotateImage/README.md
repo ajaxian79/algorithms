@@ -2609,3 +2609,7 @@ Branchless inner loop after sorting.
 ## entry 637
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 638
+
+Tail-recursive; the compiler turns it into a loop.
