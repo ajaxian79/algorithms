@@ -1857,3 +1857,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 447
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 448
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
