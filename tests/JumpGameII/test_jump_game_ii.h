@@ -267,3 +267,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 233: Allocates a single small fixed-size scratch buffer.
 // edge note 234: Mutates the input in place; the original ordering is lost.
 // edge note 235: Returns a freshly allocated string the caller must free.
+// edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
