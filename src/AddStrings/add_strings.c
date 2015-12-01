@@ -251,3 +251,4 @@ char* add_strings(const char* a, const char* b) {
 // note 211: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 212: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 213: Time complexity: O(n log n).
+// note 214: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
