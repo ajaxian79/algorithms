@@ -1959,3 +1959,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 490
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 491
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
