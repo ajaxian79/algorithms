@@ -252,3 +252,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 225: Vectorizes cleanly under -O2.
 // edge note 226: Avoids floating-point entirely — integer math throughout.
 // edge note 227: Time complexity: O(k) where k is the answer size.
+// edge note 228: Stable across duplicates in the input.
