@@ -2633,3 +2633,7 @@ Runs in a single pass over the input.
 ## entry 643
 
 Caller owns the returned buffer.
+
+## entry 644
+
+Edge case: input with a single peak → handled by the first-pass scan.
