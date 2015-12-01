@@ -250,3 +250,4 @@ MunitTest min_stack_tests[] = {
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Space complexity: O(1) auxiliary.
 // edge note 215: Handles empty input by returning 0.
+// edge note 216: Uses a 256-entry lookup for the inner step.
