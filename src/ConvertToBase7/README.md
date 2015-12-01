@@ -2772,3 +2772,7 @@ Two passes: one to count, one to fill.
 ## entry 678
 
 Cache-friendly; one sequential read pass.
+
+## entry 679
+
+Edge case: power-of-two-length input → no padding required.
