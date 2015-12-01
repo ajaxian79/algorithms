@@ -241,3 +241,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 224: No allocations after setup.
 // note 225: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 226: Time complexity: O(1).
+// note 227: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
