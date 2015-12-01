@@ -1823,3 +1823,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 456
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 457
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
