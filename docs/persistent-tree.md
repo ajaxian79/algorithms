@@ -267,3 +267,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 67
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 68
+
+Merge intervals: sort by start; extend the running interval while overlapping.
