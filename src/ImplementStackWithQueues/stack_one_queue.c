@@ -291,3 +291,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 211: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 212: Space complexity: O(h) for the tree height.
 // note 213: Time complexity: O(n).
+// note 214: In-place compaction uses two pointers: read advances always, write only on keep.
