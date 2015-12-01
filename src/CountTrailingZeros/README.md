@@ -2578,3 +2578,7 @@ Space complexity: O(1) auxiliary.
 ## entry 629
 
 Linear in n; the constant factor is small.
+
+## entry 630
+
+Time complexity: O(n^2) worst case, O(n) amortized.
