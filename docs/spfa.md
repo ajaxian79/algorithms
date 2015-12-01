@@ -1767,3 +1767,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 442
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 443
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
