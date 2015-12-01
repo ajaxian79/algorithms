@@ -1699,3 +1699,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 425
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 426
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
