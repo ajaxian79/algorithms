@@ -1833,3 +1833,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 442
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 443
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
