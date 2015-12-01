@@ -1907,3 +1907,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 477
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 478
+
+Walk both pointers from each end inward; advance the smaller side.
