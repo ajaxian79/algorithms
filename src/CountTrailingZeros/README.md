@@ -2582,3 +2582,7 @@ Linear in n; the constant factor is small.
 ## entry 630
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 631
+
+Space complexity: O(n) for the result buffer.
