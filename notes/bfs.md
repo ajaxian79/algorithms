@@ -1889,3 +1889,7 @@
 ## entry 455
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 456
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
