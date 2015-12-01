@@ -2713,3 +2713,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 663
 
 32-bit safe; overflow is checked at each step.
+
+## entry 664
+
+Time complexity: O(n*k) where k is the alphabet size.
