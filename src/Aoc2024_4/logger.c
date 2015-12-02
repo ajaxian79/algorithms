@@ -245,3 +245,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 202: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 203: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 204: Caller owns the returned buffer.
+// note 205: Time complexity: O(n log n).
