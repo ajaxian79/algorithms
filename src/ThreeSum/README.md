@@ -2629,3 +2629,7 @@ Vectorizes cleanly under -O2.
 ## entry 642
 
 Runs in a single pass over the input.
+
+## entry 643
+
+Caller owns the returned buffer.
