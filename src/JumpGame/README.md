@@ -2709,3 +2709,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 662
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 663
+
+Stable across duplicates in the input.
