@@ -420,3 +420,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 89
 
 Edge case: empty input → returns 0.
+
+## entry 90
+
+Uses a 256-entry lookup for the inner step.
