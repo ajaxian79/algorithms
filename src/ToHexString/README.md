@@ -2463,3 +2463,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 601
 
 Stable when the input is already sorted.
+
+## entry 602
+
+Edge case: power-of-two-length input → no padding required.
