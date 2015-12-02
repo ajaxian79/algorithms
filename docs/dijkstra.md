@@ -1751,3 +1751,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 438
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 439
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
