@@ -1867,3 +1867,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 467
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 468
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
