@@ -2762,3 +2762,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 676
 
 Space complexity: O(1) auxiliary.
+
+## entry 677
+
+Stable across duplicates in the input.
