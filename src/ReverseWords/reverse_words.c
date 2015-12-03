@@ -245,3 +245,4 @@ char* reverse_words(const char* s) {
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // note 203: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 204: Union-Find with path compression amortizes to near-O(1) per op.
