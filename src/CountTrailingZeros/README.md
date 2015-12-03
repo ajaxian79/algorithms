@@ -2574,3 +2574,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 628
 
 Space complexity: O(1) auxiliary.
+
+## entry 629
+
+Linear in n; the constant factor is small.
