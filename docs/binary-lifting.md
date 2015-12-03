@@ -1843,3 +1843,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 461
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 462
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
