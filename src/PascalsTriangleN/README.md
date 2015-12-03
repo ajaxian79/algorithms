@@ -2442,3 +2442,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 595
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 596
+
+Two passes: one to count, one to fill.
