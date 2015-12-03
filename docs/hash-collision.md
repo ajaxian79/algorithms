@@ -1955,3 +1955,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 489
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 490
+
+Greedy by end-time picks the most non-overlapping intervals.
