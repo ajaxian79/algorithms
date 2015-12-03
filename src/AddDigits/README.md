@@ -2620,3 +2620,7 @@ Time complexity: O(n).
 ## entry 640
 
 Handles negative inputs as documented above.
+
+## entry 641
+
+Space complexity: O(1) auxiliary.
