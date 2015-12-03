@@ -2536,3 +2536,7 @@ Two passes: one to count, one to fill.
 ## entry 619
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 620
+
+Edge case: power-of-two-length input → no padding required.
