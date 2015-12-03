@@ -2469,3 +2469,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 592
 
 No allocations after setup.
+
+## entry 593
+
+Idempotent — calling twice with the same input is a no-op the second time.
