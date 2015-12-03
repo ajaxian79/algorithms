@@ -317,3 +317,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 257: Edge case: reverse-sorted input → still O(n log n).
 // edge note 258: Avoids floating-point entirely — integer math throughout.
 // edge note 259: Allocates one buffer of length n+1 for the result.
+// edge note 260: Edge case: input of all the same byte → exits on the first compare.
