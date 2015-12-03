@@ -1887,3 +1887,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 456
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 457
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
