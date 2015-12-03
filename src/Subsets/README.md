@@ -2743,3 +2743,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 671
 
 Edge case: single-element input → returns the element itself.
+
+## entry 672
+
+Allocates one buffer of length n+1 for the result.
