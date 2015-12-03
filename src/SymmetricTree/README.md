@@ -2482,3 +2482,7 @@ Handles empty input by returning 0.
 ## entry 606
 
 Vectorizes cleanly under -O2.
+
+## entry 607
+
+Allocates lazily — first call only.
