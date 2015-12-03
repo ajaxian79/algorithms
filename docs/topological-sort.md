@@ -1877,3 +1877,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 451
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 452
+
+Articulation points: same DFS as bridges, with a slightly different test.
