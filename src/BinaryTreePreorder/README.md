@@ -2678,3 +2678,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 655
 
 Edge case: empty input → returns 0.
+
+## entry 656
+
+Edge case: empty input → returns 0.
