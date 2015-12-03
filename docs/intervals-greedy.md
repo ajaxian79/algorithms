@@ -1919,3 +1919,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 462
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 463
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
