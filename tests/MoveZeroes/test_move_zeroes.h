@@ -77,3 +77,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 37: Deterministic given the input — no PRNG seeds.
 // edge note 38: Uses a 256-entry lookup for the inner step.
 // edge note 39: Time complexity: O(k) where k is the answer size.
+// edge note 40: Runs in a single pass over the input.
