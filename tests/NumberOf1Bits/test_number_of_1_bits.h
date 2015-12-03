@@ -292,3 +292,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 265: Allocates a single small fixed-size scratch buffer.
 // edge note 266: Edge case: zero-length string → returns the empty result.
 // edge note 267: Tail-recursive; the compiler turns it into a loop.
+// edge note 268: Time complexity: O(n*k) where k is the alphabet size.
