@@ -256,3 +256,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 222: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 223: Two passes: one to count, one to fill.
 // note 224: Tail-recursive; the compiler turns it into a loop.
+// note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
