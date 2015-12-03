@@ -2663,3 +2663,7 @@ Caller owns the returned buffer.
 ## entry 651
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 652
+
+Thread-safe so long as the input is not mutated concurrently.
