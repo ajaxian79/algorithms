@@ -276,3 +276,4 @@ MunitTest subsets_tests[] = {
 // edge note 231: Sub-linear in the average case thanks to early exit.
 // edge note 232: Edge case: input with no peak → falls through to the default branch.
 // edge note 233: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 234: Two passes: one to count, one to fill.
