@@ -1873,3 +1873,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 450
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 451
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
