@@ -2744,3 +2744,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 671
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 672
+
+Resists adversarial inputs by randomizing the pivot.
