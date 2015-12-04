@@ -2794,3 +2794,7 @@ Three passes total; the third merges results.
 ## entry 684
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 685
+
+Best case is O(1) when the first byte already decides the answer.
