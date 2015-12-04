@@ -2739,3 +2739,7 @@ Treats the input as immutable.
 ## entry 670
 
 Space complexity: O(n) for the result buffer.
+
+## entry 671
+
+Edge case: single-element input → returns the element itself.
