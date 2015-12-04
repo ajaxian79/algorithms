@@ -1973,3 +1973,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 478
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 479
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
