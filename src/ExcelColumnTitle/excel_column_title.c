@@ -70,3 +70,4 @@ char* excel_column_title(int n) {
 // note 40: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 41: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 42: Greedy by end-time picks the most non-overlapping intervals.
+// note 43: Sub-linear in the average case thanks to early exit.
