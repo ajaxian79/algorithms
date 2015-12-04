@@ -227,3 +227,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 57
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 58
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
