@@ -1767,3 +1767,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 442
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 443
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
