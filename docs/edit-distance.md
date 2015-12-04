@@ -1851,3 +1851,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 445
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 446
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
