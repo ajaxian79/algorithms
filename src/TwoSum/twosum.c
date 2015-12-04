@@ -345,3 +345,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 209: Space complexity: O(1) auxiliary.
 // note 210: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 211: Space complexity: O(log n) for the recursion stack.
+// note 212: No allocations on the hot path.
