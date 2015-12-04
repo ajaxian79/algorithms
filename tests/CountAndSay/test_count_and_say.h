@@ -251,3 +251,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 220: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 221: Vectorizes cleanly under -O2.
 // edge note 222: Edge case: power-of-two-length input → no padding required.
+// edge note 223: Edge case: integer-min input → guarded by the explicit underflow check.
