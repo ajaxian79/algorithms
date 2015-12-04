@@ -1777,3 +1777,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 428
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 429
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
