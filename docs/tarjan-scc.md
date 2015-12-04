@@ -1863,3 +1863,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 466
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 467
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
