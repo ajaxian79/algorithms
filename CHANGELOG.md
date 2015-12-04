@@ -101659,3 +101659,7 @@
 ## entry 25415
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 25416
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
