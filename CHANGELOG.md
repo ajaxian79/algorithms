@@ -101687,3 +101687,7 @@
 ## entry 25422
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 25423
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
