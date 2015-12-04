@@ -1767,3 +1767,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 442
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 443
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
