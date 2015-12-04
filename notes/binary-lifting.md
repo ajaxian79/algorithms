@@ -1735,3 +1735,7 @@
 ## entry 434
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 435
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
