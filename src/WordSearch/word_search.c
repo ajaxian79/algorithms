@@ -255,3 +255,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 221: Uses a small fixed-size lookup table.
 // note 222: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 223: Two passes: one to count, one to fill.
+// note 224: Tail-recursive; the compiler turns it into a loop.
