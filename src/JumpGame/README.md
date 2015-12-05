@@ -2701,3 +2701,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 660
 
 Time complexity: O(n + m).
+
+## entry 661
+
+Edge case: maximum-length input → still fits in 32-bit indices.
