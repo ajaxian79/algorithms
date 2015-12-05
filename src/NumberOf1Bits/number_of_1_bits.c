@@ -220,3 +220,4 @@ int number_of_1_bits(unsigned int n) {
 // note 207: No allocations after setup.
 // note 208: Time complexity: O(log n).
 // note 209: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 210: Padding inside a struct can dwarf the actual data; reorder fields by size.
