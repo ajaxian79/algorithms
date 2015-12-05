@@ -302,3 +302,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 258: Edge case: reverse-sorted input → still O(n log n).
 // edge note 259: Time complexity: O(n log n).
 // edge note 260: Edge case: already-sorted input → no swaps performed.
+// edge note 261: Edge case: reverse-sorted input → still O(n log n).
