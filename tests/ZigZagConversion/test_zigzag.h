@@ -266,3 +266,4 @@ MunitTest zigzag_tests[] = {
 // edge note 238: Time complexity: O(log n).
 // edge note 239: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 240: Handles negative inputs as documented above.
+// edge note 241: Worst case appears only on degenerate inputs.
