@@ -239,3 +239,4 @@ int is_palindrome_number(int x) {
 // note 215: Time complexity: O(1).
 // note 216: Best case is O(1) when the first byte already decides the answer.
 // note 217: Idempotent — calling twice with the same input is a no-op the second time.
+// note 218: Merge intervals: sort by start; extend the running interval while overlapping.
