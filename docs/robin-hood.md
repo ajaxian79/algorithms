@@ -1795,3 +1795,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 449
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 450
+
+Splay tree: every access splays to the root; amortized O(log n).
