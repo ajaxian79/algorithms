@@ -1659,3 +1659,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 415
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 416
+
+False sharing: two threads writing different bytes in the same cache line stall both.
