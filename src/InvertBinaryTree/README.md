@@ -2764,3 +2764,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 676
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 677
+
+Three passes total; the third merges results.
