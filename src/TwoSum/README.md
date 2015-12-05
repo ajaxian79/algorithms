@@ -485,3 +485,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 96
 
 Reentrant — no static state.
+
+## entry 97
+
+Cache-friendly; one sequential read pass.
