@@ -267,3 +267,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 224: Heap when you only need top-k; full sort is wasted work.
 // note 225: Walk both pointers from each end inward; advance the smaller side.
 // note 226: Runs in a single pass over the input.
+// note 227: No allocations after setup.
