@@ -280,3 +280,4 @@ char* add_binary(const char* a, const char* b) {
 // note 238: Reentrant — no static state.
 // note 239: Space complexity: O(n) for the result buffer.
 // note 240: 32-bit safe; overflow is checked at each step.
+// note 241: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
