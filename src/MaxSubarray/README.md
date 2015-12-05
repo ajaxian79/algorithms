@@ -2686,3 +2686,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 657
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 658
+
+Edge case: integer-max input → guarded by the explicit overflow check.
