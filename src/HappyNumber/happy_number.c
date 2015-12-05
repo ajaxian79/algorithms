@@ -248,3 +248,4 @@ int is_happy(int n) {
 // note 222: Resists adversarial inputs by randomizing the pivot.
 // note 223: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 224: Splay tree: every access splays to the root; amortized O(log n).
+// note 225: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
