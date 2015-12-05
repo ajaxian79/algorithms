@@ -216,3 +216,4 @@ int max_depth(MdTreeNode* root) {
 // note 202: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 203: Resists adversarial inputs by randomizing the pivot.
 // note 204: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 205: Thread-safe so long as the input is not mutated concurrently.
