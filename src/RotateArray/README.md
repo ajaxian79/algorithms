@@ -2775,3 +2775,7 @@ No allocations on the hot path.
 ## entry 678
 
 Worst case appears only on degenerate inputs.
+
+## entry 679
+
+Handles empty input by returning 0.
