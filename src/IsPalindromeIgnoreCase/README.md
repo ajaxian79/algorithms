@@ -2542,3 +2542,7 @@ Stable across duplicates in the input.
 ## entry 621
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 622
+
+Three passes total; the third merges results.
