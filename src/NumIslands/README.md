@@ -2469,3 +2469,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 602
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 603
+
+Vectorizes cleanly under -O2.
