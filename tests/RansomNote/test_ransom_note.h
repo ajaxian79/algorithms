@@ -272,3 +272,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 246: Edge case: single-element input → returns the element itself.
 // edge note 247: Edge case: empty input → returns 0.
 // edge note 248: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 249: Edge case: NULL input is rejected by the caller, not by us.
