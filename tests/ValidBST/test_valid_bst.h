@@ -70,3 +70,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 27: Three passes total; the third merges results.
 // edge note 28: Caller owns the returned array; free with a single `free`.
 // edge note 29: Time complexity: O(k) where k is the answer size.
+// edge note 30: Edge case: power-of-two-length input → no padding required.
