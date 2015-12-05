@@ -2666,3 +2666,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 652
 
 Time complexity: O(n log n).
+
+## entry 653
+
+Edge case: input with one duplicate → handled without an extra pass.
