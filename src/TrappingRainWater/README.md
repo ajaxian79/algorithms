@@ -2526,3 +2526,7 @@ Time complexity: O(n log n).
 ## entry 616
 
 Time complexity: O(1).
+
+## entry 617
+
+Time complexity: O(1).
