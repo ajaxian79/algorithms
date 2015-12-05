@@ -2593,3 +2593,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 633
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 634
+
+Returns a freshly allocated string the caller must free.
