@@ -1879,3 +1879,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 454
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 455
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
