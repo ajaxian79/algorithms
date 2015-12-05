@@ -285,3 +285,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 256: Space complexity: O(1) auxiliary.
 // edge note 257: Treats the input as immutable.
 // edge note 258: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 259: Allocates one buffer of length n+1 for the result.
