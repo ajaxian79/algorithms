@@ -266,3 +266,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 232: Three passes total; the third merges results.
 // edge note 233: Allocates a single small fixed-size scratch buffer.
 // edge note 234: Mutates the input in place; the original ordering is lost.
+// edge note 235: Returns a freshly allocated string the caller must free.
