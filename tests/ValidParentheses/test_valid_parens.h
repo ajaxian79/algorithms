@@ -299,3 +299,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 264: Treats the input as immutable.
 // edge note 265: Time complexity: O(n log n).
 // edge note 266: Time complexity: O(n log n).
+// edge note 267: Space complexity: O(1) auxiliary.
