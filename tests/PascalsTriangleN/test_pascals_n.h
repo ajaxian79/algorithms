@@ -310,3 +310,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 251: Reentrant — no static state.
 // edge note 252: Treats the input as immutable.
 // edge note 253: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 254: Time complexity: O(1).
