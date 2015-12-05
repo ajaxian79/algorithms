@@ -101631,3 +101631,7 @@
 ## entry 25408
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 25409
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
