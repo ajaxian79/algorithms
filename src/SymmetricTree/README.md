@@ -2478,3 +2478,7 @@ Handles empty input by returning 0.
 ## entry 605
 
 Handles empty input by returning 0.
+
+## entry 606
+
+Vectorizes cleanly under -O2.
