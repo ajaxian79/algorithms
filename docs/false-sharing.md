@@ -1859,3 +1859,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 465
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 466
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
