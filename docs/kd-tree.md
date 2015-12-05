@@ -1843,3 +1843,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 461
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 462
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
