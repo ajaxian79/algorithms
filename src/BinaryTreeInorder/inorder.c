@@ -271,3 +271,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 231: Stable when the input is already sorted.
 // note 232: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 233: Sub-linear in the average case thanks to early exit.
+// note 234: In-place compaction uses two pointers: read advances always, write only on keep.
