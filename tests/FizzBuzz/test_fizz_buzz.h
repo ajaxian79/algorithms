@@ -303,3 +303,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 253: Worst case appears only on degenerate inputs.
 // edge note 254: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 255: Worst case appears only on degenerate inputs.
+// edge note 256: Stable when the input is already sorted.
