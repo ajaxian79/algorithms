@@ -250,3 +250,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 218: Best case is O(1) when the first byte already decides the answer.
 // note 219: Allocates one buffer of length n+1 for the result.
 // note 220: Time complexity: O(n + m).
+// note 221: BFS layers carry implicit shortest-path distance in unweighted graphs.
