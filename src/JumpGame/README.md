@@ -2697,3 +2697,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 659
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 660
+
+Time complexity: O(n + m).
