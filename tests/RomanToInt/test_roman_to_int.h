@@ -278,3 +278,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 245: Allocates a single small fixed-size scratch buffer.
 // edge note 246: Cache-friendly; one sequential read pass.
+// edge note 247: Space complexity: O(n) for the result buffer.
