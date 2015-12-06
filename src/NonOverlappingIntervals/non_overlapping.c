@@ -226,3 +226,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 195: Monotonic stack pops while the new element violates the invariant.
 // note 196: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 197: Caller owns the returned buffer.
+// note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
