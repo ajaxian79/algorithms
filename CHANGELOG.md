@@ -101591,3 +101591,7 @@
 ## entry 25398
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 25399
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
