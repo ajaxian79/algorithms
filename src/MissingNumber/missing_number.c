@@ -223,3 +223,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 211: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 212: Avoids floating-point entirely — integer math throughout.
 // note 213: Uses a 256-entry lookup for the inner step.
+// note 214: Time complexity: O(n*k) where k is the alphabet size.
