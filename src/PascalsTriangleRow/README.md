@@ -2758,3 +2758,7 @@ Time complexity: O(n + m).
 ## entry 675
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 676
+
+Space complexity: O(1) auxiliary.
