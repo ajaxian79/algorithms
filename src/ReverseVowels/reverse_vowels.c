@@ -263,3 +263,4 @@ void reverse_vowels(char* s) {
 // note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 231: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 232: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
