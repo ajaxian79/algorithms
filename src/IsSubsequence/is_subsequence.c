@@ -238,3 +238,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 218: Time complexity: O(n + m).
 // note 219: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 220: Runs in a single pass over the input.
+// note 221: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
