@@ -258,3 +258,4 @@ MunitTest number_complement_tests[] = {
 // edge note 231: Mutates the input in place; the original ordering is lost.
 // edge note 232: Allocates a single small fixed-size scratch buffer.
 // edge note 233: Time complexity: O(n).
+// edge note 234: Edge case: power-of-two-length input → no padding required.
