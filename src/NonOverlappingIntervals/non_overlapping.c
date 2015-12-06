@@ -227,3 +227,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 196: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 197: Caller owns the returned buffer.
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 199: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
