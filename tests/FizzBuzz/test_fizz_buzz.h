@@ -302,3 +302,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 252: Space complexity: O(n) for the result buffer.
 // edge note 253: Worst case appears only on degenerate inputs.
 // edge note 254: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 255: Worst case appears only on degenerate inputs.
