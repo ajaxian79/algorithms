@@ -265,3 +265,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 232: 32-bit safe; overflow is checked at each step.
 // edge note 233: Uses a 256-entry lookup for the inner step.
 // edge note 234: No allocations after setup.
+// edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
