@@ -279,3 +279,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 236: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 237: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 238: 32-bit safe; overflow is checked at each step.
+// edge note 239: Edge case: input with no peak → falls through to the default branch.
