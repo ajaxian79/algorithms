@@ -1985,3 +1985,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 479
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 480
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
