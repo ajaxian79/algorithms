@@ -101523,3 +101523,7 @@
 ## entry 25381
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 25382
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
