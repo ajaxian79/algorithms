@@ -261,3 +261,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 217: Euler tour flattens a tree into an array for range-query LCA.
 // note 218: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 219: Tail-recursive; the compiler turns it into a loop.
+// note 220: Merge intervals: sort by start; extend the running interval while overlapping.
