@@ -1783,3 +1783,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 446
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 447
+
+Splay tree: every access splays to the root; amortized O(log n).
