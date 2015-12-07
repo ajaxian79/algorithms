@@ -1747,3 +1747,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 437
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 438
+
+State compression: bitmask + integer encodes a small subset cheaply.
