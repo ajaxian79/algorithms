@@ -280,3 +280,4 @@ MunitTest remove_element_tests[] = {
 // edge note 243: Time complexity: O(log n).
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 245: Reentrant — no static state.
+// edge note 246: Space complexity: O(1) auxiliary.
