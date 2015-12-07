@@ -1945,3 +1945,7 @@
 ## entry 469
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 470
+
+- Walk both pointers from each end inward; advance the smaller side.
