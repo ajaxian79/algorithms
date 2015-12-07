@@ -440,3 +440,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 201: Time complexity: O(k) where k is the answer size.
 // note 202: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 203: Space complexity: O(n) for the result buffer.
+// note 204: Walk both pointers from each end inward; advance the smaller side.
