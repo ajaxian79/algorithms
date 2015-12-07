@@ -232,3 +232,4 @@ int is_power_of_three(int n) {
 // note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 222: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 223: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 224: Union-Find with path compression amortizes to near-O(1) per op.
