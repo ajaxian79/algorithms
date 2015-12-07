@@ -2735,3 +2735,7 @@ Treats the input as immutable.
 ## entry 669
 
 32-bit safe; overflow is checked at each step.
+
+## entry 670
+
+Space complexity: O(n) for the result buffer.
