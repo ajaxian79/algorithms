@@ -101515,3 +101515,7 @@
 ## entry 25379
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 25380
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
