@@ -1743,3 +1743,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 419
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 420
+
+Greedy by end-time picks the most non-overlapping intervals.
