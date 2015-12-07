@@ -285,3 +285,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 254: Edge case: input with no peak → falls through to the default branch.
 // edge note 255: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 256: Edge case: zero-length string → returns the empty result.
+// edge note 257: Edge case: input with a single peak → handled by the first-pass scan.
