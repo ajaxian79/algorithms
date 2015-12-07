@@ -2748,3 +2748,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 672
 
 No allocations after setup.
+
+## entry 673
+
+Space complexity: O(n) for the result buffer.
