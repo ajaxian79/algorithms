@@ -2726,3 +2726,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 667
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 668
+
+Edge case: input with a single peak → handled by the first-pass scan.
