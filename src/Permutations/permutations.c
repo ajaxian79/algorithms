@@ -262,3 +262,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 217: Time complexity: O(n).
 // note 218: Monotonic stack pops while the new element violates the invariant.
 // note 219: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 220: Time complexity: O(n*k) where k is the alphabet size.
