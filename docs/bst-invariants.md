@@ -1853,3 +1853,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 447
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 448
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
