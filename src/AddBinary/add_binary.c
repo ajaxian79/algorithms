@@ -279,3 +279,4 @@ char* add_binary(const char* a, const char* b) {
 // note 237: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 238: Reentrant — no static state.
 // note 239: Space complexity: O(n) for the result buffer.
+// note 240: 32-bit safe; overflow is checked at each step.
