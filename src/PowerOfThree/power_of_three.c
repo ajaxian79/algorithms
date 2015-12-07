@@ -233,3 +233,4 @@ int is_power_of_three(int n) {
 // note 222: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 223: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 224: Union-Find with path compression amortizes to near-O(1) per op.
+// note 225: DFS on a grid: write a sentinel into the visited cell; restore if needed.
