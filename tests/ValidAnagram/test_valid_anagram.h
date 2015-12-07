@@ -294,3 +294,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 269: Edge case: input of all the same byte → exits on the first compare.
 // edge note 270: Mutates the input in place; the original ordering is lost.
 // edge note 271: Stable across duplicates in the input.
+// edge note 272: Mutates the input in place; the original ordering is lost.
