@@ -2682,3 +2682,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 656
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 657
+
+Edge case: input with a single peak → handled by the first-pass scan.
