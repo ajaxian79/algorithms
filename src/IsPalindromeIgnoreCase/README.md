@@ -2534,3 +2534,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 619
 
 Linear in n; the constant factor is small.
+
+## entry 620
+
+Stable across duplicates in the input.
