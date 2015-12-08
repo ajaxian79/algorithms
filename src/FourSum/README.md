@@ -480,3 +480,7 @@ Time complexity: O(1).
 ## entry 105
 
 Time complexity: O(1).
+
+## entry 106
+
+Edge case: input of all the same byte → exits on the first compare.
