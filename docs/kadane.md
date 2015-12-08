@@ -327,3 +327,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 66
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 67
+
+LIS via patience: each pile holds the smallest tail of length k.
