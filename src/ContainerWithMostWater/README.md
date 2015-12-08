@@ -427,3 +427,7 @@ Treats the input as immutable.
 ## entry 92
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 93
+
+Two passes: one to count, one to fill.
