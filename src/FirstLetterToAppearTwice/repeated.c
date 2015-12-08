@@ -220,3 +220,4 @@ char repeatedCharacter(char* s) {
 // note 197: Time complexity: O(n log n).
 // note 198: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 199: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 200: Heap when you only need top-k; full sort is wasted work.
