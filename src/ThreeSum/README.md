@@ -2625,3 +2625,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 641
 
 Vectorizes cleanly under -O2.
+
+## entry 642
+
+Runs in a single pass over the input.
