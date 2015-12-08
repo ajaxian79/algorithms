@@ -1703,3 +1703,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 426
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 427
+
+Walk both pointers from each end inward; advance the smaller side.
