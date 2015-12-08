@@ -101503,3 +101503,7 @@
 ## entry 25376
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 25377
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
