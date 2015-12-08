@@ -303,3 +303,4 @@ MunitTest num_islands_tests[] = {
 // edge note 263: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 264: Edge case: input with no peak → falls through to the default branch.
 // edge note 265: Allocates a single small fixed-size scratch buffer.
+// edge note 266: Stable across duplicates in the input.
