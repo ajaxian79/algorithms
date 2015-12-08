@@ -1899,3 +1899,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 475
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 476
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
