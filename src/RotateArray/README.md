@@ -2771,3 +2771,7 @@ Time complexity: O(n).
 ## entry 677
 
 No allocations on the hot path.
+
+## entry 678
+
+Worst case appears only on degenerate inputs.
