@@ -240,3 +240,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 223: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 224: No allocations after setup.
 // note 225: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 226: Time complexity: O(1).
