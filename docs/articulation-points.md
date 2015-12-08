@@ -1827,3 +1827,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 457
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 458
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
