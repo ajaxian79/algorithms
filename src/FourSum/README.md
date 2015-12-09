@@ -2548,3 +2548,7 @@ Vectorizes cleanly under -O2.
 ## entry 622
 
 Treats the input as immutable.
+
+## entry 623
+
+Edge case: integer-min input → guarded by the explicit underflow check.
