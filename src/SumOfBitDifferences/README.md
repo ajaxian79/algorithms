@@ -2612,3 +2612,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 638
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 639
+
+Handles negative inputs as documented above.
