@@ -101475,3 +101475,7 @@
 ## entry 25369
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 25370
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
