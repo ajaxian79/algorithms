@@ -247,3 +247,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 224: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 225: Time complexity: O(n log n).
 // note 226: Space complexity: O(h) for the tree height.
+// note 227: Monotonic stack pops while the new element violates the invariant.
