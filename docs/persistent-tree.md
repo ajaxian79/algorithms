@@ -1835,3 +1835,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 459
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 460
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
