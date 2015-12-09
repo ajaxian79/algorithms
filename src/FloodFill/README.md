@@ -2621,3 +2621,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 641
 
 Cache-friendly; one sequential read pass.
+
+## entry 642
+
+Edge case: alternating pattern → degenerate case for sliding window.
