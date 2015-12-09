@@ -416,3 +416,7 @@ Two passes: one to count, one to fill.
 ## entry 88
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 89
+
+Edge case: empty input → returns 0.
