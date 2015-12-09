@@ -2693,3 +2693,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 658
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 659
+
+Allocates a single small fixed-size scratch buffer.
