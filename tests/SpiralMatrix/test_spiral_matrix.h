@@ -278,3 +278,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 235: Edge case: reverse-sorted input → still O(n log n).
 // edge note 236: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 237: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 238: 32-bit safe; overflow is checked at each step.
