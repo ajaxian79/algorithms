@@ -2465,3 +2465,7 @@ No allocations after setup.
 ## entry 591
 
 Constant-time comparisons; safe for short strings.
+
+## entry 592
+
+No allocations after setup.
