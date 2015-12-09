@@ -1839,3 +1839,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 460
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 461
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
