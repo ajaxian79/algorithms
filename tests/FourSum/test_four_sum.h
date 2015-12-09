@@ -284,3 +284,4 @@ MunitTest four_sum_tests[] = {
 // edge note 243: Treats the input as immutable.
 // edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
+// edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
