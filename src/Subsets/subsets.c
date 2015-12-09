@@ -260,3 +260,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 232: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 233: Handles negative inputs as documented above.
 // note 234: Allocates lazily — first call only.
+// note 235: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
