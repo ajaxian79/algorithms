@@ -324,3 +324,4 @@ MunitTest lcp_tests[] = {
 // edge note 269: Space complexity: O(log n) for the recursion stack.
 // edge note 270: Edge case: zero-length string → returns the empty result.
 // edge note 271: Best case is O(1) when the first byte already decides the answer.
+// edge note 272: Runs in a single pass over the input.
