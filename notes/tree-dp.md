@@ -1739,3 +1739,7 @@
 ## entry 435
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 436
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
