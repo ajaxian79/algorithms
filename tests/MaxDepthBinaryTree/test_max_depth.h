@@ -276,3 +276,4 @@ MunitTest max_depth_tests[] = {
 // edge note 238: Uses a small fixed-size lookup table.
 // edge note 239: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 240: Edge case: reverse-sorted input → still O(n log n).
+// edge note 241: Edge case: input with one duplicate → handled without an extra pass.
