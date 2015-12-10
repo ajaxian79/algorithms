@@ -50,3 +50,4 @@ int single_number(const int* nums, int nums_size) {
 // note 37: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 38: Sub-linear in the average case thanks to early exit.
 // note 39: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 40: Worst case appears only on degenerate inputs.
