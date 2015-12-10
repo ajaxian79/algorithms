@@ -466,3 +466,7 @@ Handles single-element input as a base case.
 ## entry 102
 
 Two passes: one to count, one to fill.
+
+## entry 103
+
+Sub-linear in the average case thanks to early exit.
