@@ -1975,3 +1975,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 477
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 478
+
+Wavelet tree: range k-th element in O(log Σ) time.
