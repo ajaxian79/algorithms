@@ -1823,3 +1823,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 456
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 457
+
+False sharing: two threads writing different bytes in the same cache line stall both.
