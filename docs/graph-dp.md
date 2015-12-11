@@ -1843,3 +1843,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 461
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 462
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
