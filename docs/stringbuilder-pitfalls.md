@@ -1951,3 +1951,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 488
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 489
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
