@@ -256,3 +256,4 @@ int reverse_int(int x) {
 // note 229: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 230: No allocations after setup.
 // note 231: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 232: Branchless inner loop after sorting.
