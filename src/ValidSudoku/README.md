@@ -2667,3 +2667,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 651
 
 Cache-friendly; one sequential read pass.
+
+## entry 652
+
+Deterministic given the input — no PRNG seeds.
