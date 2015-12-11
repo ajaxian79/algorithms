@@ -1991,3 +1991,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 481
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 482
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
