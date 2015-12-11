@@ -2756,3 +2756,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 674
 
 Edge case: empty input → returns 0.
+
+## entry 675
+
+Returns a freshly allocated string the caller must free.
