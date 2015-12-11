@@ -2768,3 +2768,7 @@ Branchless inner loop after sorting.
 ## entry 677
 
 Two passes: one to count, one to fill.
+
+## entry 678
+
+Cache-friendly; one sequential read pass.
