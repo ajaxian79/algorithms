@@ -2663,3 +2663,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 650
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 651
+
+Cache-friendly; one sequential read pass.
