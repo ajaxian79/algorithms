@@ -2532,3 +2532,7 @@ Stable across duplicates in the input.
 ## entry 618
 
 Two passes: one to count, one to fill.
+
+## entry 619
+
+Edge case: reverse-sorted input → still O(n log n).
