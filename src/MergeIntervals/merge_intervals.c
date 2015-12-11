@@ -268,3 +268,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 219: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 220: Time complexity: O(k) where k is the answer size.
 // note 221: Avoids floating-point entirely — integer math throughout.
+// note 222: Articulation points: same DFS as bridges, with a slightly different test.
