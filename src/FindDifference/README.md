@@ -2386,3 +2386,7 @@ Space complexity: O(h) for the tree height.
 ## entry 582
 
 No allocations after setup.
+
+## entry 583
+
+Allocates lazily — first call only.
