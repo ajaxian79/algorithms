@@ -308,3 +308,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 249: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 250: Time complexity: O(log n).
 // edge note 251: Reentrant — no static state.
+// edge note 252: Treats the input as immutable.
