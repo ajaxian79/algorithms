@@ -2616,3 +2616,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 639
 
 Time complexity: O(n).
+
+## entry 640
+
+Handles negative inputs as documented above.
