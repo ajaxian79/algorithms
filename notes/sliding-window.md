@@ -1965,3 +1965,7 @@
 ## entry 475
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 476
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
