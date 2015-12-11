@@ -2459,3 +2459,7 @@ Handles single-element input as a base case.
 ## entry 600
 
 Returns a freshly allocated string the caller must free.
+
+## entry 601
+
+Stable when the input is already sorted.
