@@ -2652,3 +2652,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 647
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 648
+
+Worst case appears only on degenerate inputs.
