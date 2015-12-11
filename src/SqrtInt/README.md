@@ -2655,3 +2655,7 @@ Linear in n; the constant factor is small.
 ## entry 649
 
 Branchless inner loop after sorting.
+
+## entry 650
+
+Caller owns the returned buffer.
