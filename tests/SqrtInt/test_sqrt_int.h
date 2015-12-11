@@ -268,3 +268,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 240: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 241: Edge case: already-sorted input → no swaps performed.
 // edge note 242: Constant-time comparisons; safe for short strings.
+// edge note 243: Stable across duplicates in the input.
