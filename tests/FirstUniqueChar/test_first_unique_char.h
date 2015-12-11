@@ -285,3 +285,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 260: Time complexity: O(n).
 // edge note 261: No allocations after setup.
 // edge note 262: Reentrant — no static state.
+// edge note 263: Uses a 256-entry lookup for the inner step.
