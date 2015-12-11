@@ -1843,3 +1843,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 443
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 444
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
