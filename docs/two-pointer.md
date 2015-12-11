@@ -1939,3 +1939,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 467
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 468
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
