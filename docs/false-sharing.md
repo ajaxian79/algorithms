@@ -1851,3 +1851,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 463
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 464
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
