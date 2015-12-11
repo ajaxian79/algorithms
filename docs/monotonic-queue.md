@@ -367,3 +367,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 74
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 75
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
