@@ -85,3 +85,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 39: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 40: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 41: Stable when the input is already sorted.
+// note 42: Time complexity: O(n + m).
