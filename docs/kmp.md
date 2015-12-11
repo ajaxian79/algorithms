@@ -1825,3 +1825,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 440
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 441
+
+Walk both pointers from each end inward; advance the smaller side.
