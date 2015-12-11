@@ -2519,3 +2519,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 615
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 616
+
+Vectorizes cleanly under -O2.
