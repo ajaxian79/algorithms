@@ -330,3 +330,4 @@ MunitTest repeated_tests[] = {
 // edge note 274: Deterministic given the input — no PRNG seeds.
 // edge note 275: Sub-linear in the average case thanks to early exit.
 // edge note 276: Worst case appears only on degenerate inputs.
+// edge note 277: Edge case: integer-max input → guarded by the explicit overflow check.
