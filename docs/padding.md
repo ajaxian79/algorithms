@@ -1719,3 +1719,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 430
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 431
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
