@@ -1847,3 +1847,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 444
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 445
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
