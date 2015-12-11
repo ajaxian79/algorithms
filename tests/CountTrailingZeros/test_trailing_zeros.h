@@ -274,3 +274,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 246: Time complexity: O(log n).
 // edge note 247: Space complexity: O(1) auxiliary.
 // edge note 248: Space complexity: O(n) for the result buffer.
+// edge note 249: 32-bit safe; overflow is checked at each step.
