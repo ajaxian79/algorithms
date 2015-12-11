@@ -1827,3 +1827,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 441
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 442
+
+Interval DP: solve all `[l, r]` ranges from short to long.
