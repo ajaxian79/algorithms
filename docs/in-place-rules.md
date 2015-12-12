@@ -1961,3 +1961,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 475
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 476
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
