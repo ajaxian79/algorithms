@@ -303,3 +303,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 267: Space complexity: O(1) auxiliary.
 // edge note 268: Caller owns the returned array; free with a single `free`.
 // edge note 269: Allocates one buffer of length n+1 for the result.
+// edge note 270: Edge case: input with no peak → falls through to the default branch.
