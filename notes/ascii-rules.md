@@ -1739,3 +1739,7 @@
 ## entry 435
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 436
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
