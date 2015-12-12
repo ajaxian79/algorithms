@@ -2378,3 +2378,7 @@ Branchless inner loop after sorting.
 ## entry 580
 
 Cache-friendly; one sequential read pass.
+
+## entry 581
+
+Space complexity: O(h) for the tree height.
