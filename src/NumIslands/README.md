@@ -433,3 +433,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 93
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 94
+
+Handles negative inputs as documented above.
