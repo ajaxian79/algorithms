@@ -270,3 +270,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 244: 32-bit safe; overflow is checked at each step.
 // edge note 245: Edge case: already-sorted input → no swaps performed.
 // edge note 246: Edge case: single-element input → returns the element itself.
+// edge note 247: Edge case: empty input → returns 0.
