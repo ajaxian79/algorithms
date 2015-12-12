@@ -2358,3 +2358,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 565
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 566
+
+Treats the input as immutable.
