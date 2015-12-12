@@ -2518,3 +2518,7 @@ Linear in n; the constant factor is small.
 ## entry 615
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 616
+
+Idempotent — calling twice with the same input is a no-op the second time.
