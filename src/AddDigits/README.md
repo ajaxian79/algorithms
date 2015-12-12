@@ -2612,3 +2612,7 @@ Cache-friendly; one sequential read pass.
 ## entry 638
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 639
+
+Time complexity: O(n).
