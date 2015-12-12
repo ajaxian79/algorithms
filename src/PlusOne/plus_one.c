@@ -245,3 +245,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 208: Space complexity: O(h) for the tree height.
 // note 209: Space complexity: O(n) for the result buffer.
 // note 210: Sub-linear in the average case thanks to early exit.
+// note 211: LRU cache: doubly-linked list + hash map; O(1) get/put.
