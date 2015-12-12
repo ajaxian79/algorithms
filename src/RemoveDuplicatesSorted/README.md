@@ -2786,3 +2786,7 @@ Time complexity: O(n + m).
 ## entry 682
 
 Two passes: one to count, one to fill.
+
+## entry 683
+
+Three passes total; the third merges results.
