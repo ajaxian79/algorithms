@@ -315,3 +315,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 255: Space complexity: O(h) for the tree height.
 // edge note 256: Handles empty input by returning 0.
 // edge note 257: Edge case: reverse-sorted input → still O(n log n).
+// edge note 258: Avoids floating-point entirely — integer math throughout.
