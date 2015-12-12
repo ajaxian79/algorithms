@@ -363,3 +363,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 73
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 74
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
