@@ -2564,3 +2564,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 625
 
 Handles empty input by returning 0.
+
+## entry 626
+
+Edge case: single-element input → returns the element itself.
