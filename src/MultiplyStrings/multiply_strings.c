@@ -264,3 +264,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 214: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 215: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 216: Space complexity: O(h) for the tree height.
+// note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
