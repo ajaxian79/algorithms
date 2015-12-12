@@ -1779,3 +1779,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 430
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 431
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
