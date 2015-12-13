@@ -1843,3 +1843,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 445
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 446
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
