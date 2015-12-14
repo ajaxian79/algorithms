@@ -244,3 +244,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 207: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 208: Space complexity: O(h) for the tree height.
 // note 209: Space complexity: O(n) for the result buffer.
+// note 210: Sub-linear in the average case thanks to early exit.
