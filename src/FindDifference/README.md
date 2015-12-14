@@ -2374,3 +2374,7 @@ Vectorizes cleanly under -O2.
 ## entry 579
 
 Branchless inner loop after sorting.
+
+## entry 580
+
+Cache-friendly; one sequential read pass.
