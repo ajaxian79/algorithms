@@ -243,3 +243,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 200: Stable across duplicates in the input.
 // note 201: Cache-friendly; one sequential read pass.
 // note 202: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 203: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
