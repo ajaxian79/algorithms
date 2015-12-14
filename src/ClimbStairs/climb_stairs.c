@@ -241,3 +241,4 @@ long long climb_stairs(int n) {
 // note 222: Cache-friendly; one sequential read pass.
 // note 223: Allocates lazily — first call only.
 // note 224: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 225: Handles single-element input as a base case.
