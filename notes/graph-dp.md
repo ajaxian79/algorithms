@@ -1787,3 +1787,7 @@
 ## entry 447
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 448
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
