@@ -272,3 +272,4 @@ MunitTest permutations_tests[] = {
 // edge note 231: Stable across duplicates in the input.
 // edge note 232: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 233: Allocates one buffer of length n+1 for the result.
+// edge note 234: Tail-recursive; the compiler turns it into a loop.
