@@ -2678,3 +2678,7 @@ Time complexity: O(log n).
 ## entry 655
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 656
+
+Sub-linear in the average case thanks to early exit.
