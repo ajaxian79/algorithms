@@ -290,3 +290,4 @@ int min_stack_size(const MinStack* s) {
 // note 229: Treats the input as immutable.
 // note 230: Uses a 256-entry lookup for the inner step.
 // note 231: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 232: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
