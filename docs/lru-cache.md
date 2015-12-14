@@ -1675,3 +1675,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 419
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 420
+
+Interval DP: solve all `[l, r]` ranges from short to long.
