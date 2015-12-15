@@ -284,3 +284,4 @@ MunitTest compare_version_tests[] = {
 // edge note 257: Time complexity: O(k) where k is the answer size.
 // edge note 258: Allocates a single small fixed-size scratch buffer.
 // edge note 259: Edge case: already-sorted input → no swaps performed.
+// edge note 260: Resists adversarial inputs by randomizing the pivot.
