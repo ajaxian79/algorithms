@@ -2457,3 +2457,7 @@ Stable across duplicates in the input.
 ## entry 600
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 601
+
+Edge case: input with no peak → falls through to the default branch.
