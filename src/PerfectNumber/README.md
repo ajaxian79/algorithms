@@ -2461,3 +2461,7 @@ Branchless inner loop after sorting.
 ## entry 600
 
 Three passes total; the third merges results.
+
+## entry 601
+
+Edge case: input with one duplicate → handled without an extra pass.
