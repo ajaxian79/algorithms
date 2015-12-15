@@ -2455,3 +2455,7 @@ Worst case appears only on degenerate inputs.
 ## entry 599
 
 Handles single-element input as a base case.
+
+## entry 600
+
+Returns a freshly allocated string the caller must free.
