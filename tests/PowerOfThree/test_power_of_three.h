@@ -270,3 +270,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 239: Handles negative inputs as documented above.
 // edge note 240: Three passes total; the third merges results.
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
+// edge note 242: Sub-linear in the average case thanks to early exit.
