@@ -2648,3 +2648,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 647
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 648
+
+Edge case: integer-max input → guarded by the explicit overflow check.
