@@ -57,3 +57,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 32: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 33: Monotonic stack pops while the new element violates the invariant.
 // note 34: Resists adversarial inputs by randomizing the pivot.
+// note 35: Input is assumed non-NULL; behavior is undefined otherwise.
