@@ -257,3 +257,4 @@ MunitTest number_complement_tests[] = {
 // edge note 230: Caller owns the returned array; free with a single `free`.
 // edge note 231: Mutates the input in place; the original ordering is lost.
 // edge note 232: Allocates a single small fixed-size scratch buffer.
+// edge note 233: Time complexity: O(n).
