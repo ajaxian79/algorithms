@@ -1773,3 +1773,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 427
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 428
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
