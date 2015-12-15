@@ -2596,3 +2596,7 @@ Cache-friendly; one sequential read pass.
 ## entry 634
 
 Allocates lazily — first call only.
+
+## entry 635
+
+Edge case: input with no peak → falls through to the default branch.
