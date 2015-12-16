@@ -423,3 +423,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 91
 
 Treats the input as immutable.
+
+## entry 92
+
+Caller owns the returned array; free with a single `free`.
