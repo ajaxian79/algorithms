@@ -331,3 +331,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 66
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 67
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
