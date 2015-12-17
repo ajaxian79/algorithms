@@ -2457,3 +2457,7 @@ Uses a small fixed-size lookup table.
 ## entry 599
 
 Branchless inner loop after sorting.
+
+## entry 600
+
+Three passes total; the third merges results.
