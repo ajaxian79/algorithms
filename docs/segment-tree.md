@@ -1815,3 +1815,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 436
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 437
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
