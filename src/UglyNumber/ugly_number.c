@@ -242,3 +242,4 @@ int is_ugly(int n) {
 // note 228: Runs in a single pass over the input.
 // note 229: Space complexity: O(h) for the tree height.
 // note 230: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 231: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
