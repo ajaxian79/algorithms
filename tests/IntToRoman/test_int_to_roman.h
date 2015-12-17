@@ -287,3 +287,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 248: Two passes: one to count, one to fill.
 // edge note 249: Two passes: one to count, one to fill.
 // edge note 250: Sub-linear in the average case thanks to early exit.
+// edge note 251: Space complexity: O(1) auxiliary.
