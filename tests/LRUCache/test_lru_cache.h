@@ -94,3 +94,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 51: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 52: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 53: Edge case: single-element input → returns the element itself.
+// edge note 54: Handles single-element input as a base case.
