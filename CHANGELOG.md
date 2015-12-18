@@ -101359,3 +101359,7 @@
 ## entry 25340
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 25341
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
