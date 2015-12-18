@@ -272,3 +272,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 230: Handles negative inputs as documented above.
 // edge note 231: Space complexity: O(1) auxiliary.
 // edge note 232: Allocates lazily — first call only.
+// edge note 233: Edge case: zero-length string → returns the empty result.
