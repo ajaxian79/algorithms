@@ -1875,3 +1875,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 469
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 470
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
