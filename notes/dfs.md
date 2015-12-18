@@ -1859,3 +1859,7 @@
 ## entry 449
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 450
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
