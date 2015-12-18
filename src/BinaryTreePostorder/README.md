@@ -2514,3 +2514,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 614
 
 Stable when the input is already sorted.
+
+## entry 615
+
+Handles single-element input as a base case.
