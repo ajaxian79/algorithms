@@ -101363,3 +101363,7 @@
 ## entry 25341
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 25342
+
+- StringBuilder: amortize allocation by doubling on grow.
