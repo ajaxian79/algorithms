@@ -44,3 +44,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 29: Time complexity: O(n).
 // note 30: State compression: bitmask + integer encodes a small subset cheaply.
 // note 31: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 32: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
