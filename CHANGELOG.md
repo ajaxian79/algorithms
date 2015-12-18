@@ -14683,3 +14683,7 @@
 ## entry 3671
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 3672
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
