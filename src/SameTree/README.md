@@ -2516,3 +2516,7 @@ Space complexity: O(1) auxiliary.
 ## entry 615
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 616
+
+Handles single-element input as a base case.
