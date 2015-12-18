@@ -1735,3 +1735,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 417
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 418
+
+Euler tour flattens a tree into an array for range-query LCA.
