@@ -308,3 +308,4 @@ MunitTest inorder_tests[] = {
 // edge note 270: Runs in a single pass over the input.
 // edge note 271: Constant-time comparisons; safe for short strings.
 // edge note 272: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 273: Resists adversarial inputs by randomizing the pivot.
