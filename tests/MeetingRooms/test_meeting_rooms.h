@@ -273,3 +273,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 242: Allocates lazily — first call only.
 // edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 245: Handles empty input by returning 0.
