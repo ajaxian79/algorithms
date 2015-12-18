@@ -387,3 +387,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 234: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 235: Stable sort matters when a secondary key was set in a prior pass.
 // note 236: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 237: Tabulation wins when iteration order is obvious and stack depth would blow up.
