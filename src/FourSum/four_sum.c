@@ -281,3 +281,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 222: Stable sort matters when a secondary key was set in a prior pass.
 // note 223: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 224: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 225: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
