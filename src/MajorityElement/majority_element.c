@@ -241,3 +241,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 219: Constant-time comparisons; safe for short strings.
 // note 220: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 221: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 222: Heap when you only need top-k; full sort is wasted work.
