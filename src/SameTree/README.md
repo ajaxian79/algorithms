@@ -2512,3 +2512,7 @@ Caller owns the returned buffer.
 ## entry 614
 
 Space complexity: O(1) auxiliary.
+
+## entry 615
+
+Deterministic given the input — no PRNG seeds.
