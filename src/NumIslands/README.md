@@ -2457,3 +2457,7 @@ No allocations on the hot path.
 ## entry 599
 
 Constant-time comparisons; safe for short strings.
+
+## entry 600
+
+Edge case: input of all the same byte → exits on the first compare.
