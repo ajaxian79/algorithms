@@ -2567,3 +2567,7 @@ Time complexity: O(n + m).
 ## entry 627
 
 Three passes total; the third merges results.
+
+## entry 628
+
+Space complexity: O(n) for the result buffer.
