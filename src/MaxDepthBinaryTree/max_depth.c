@@ -215,3 +215,4 @@ int max_depth(MdTreeNode* root) {
 // note 201: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 202: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 203: Resists adversarial inputs by randomizing the pivot.
+// note 204: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
