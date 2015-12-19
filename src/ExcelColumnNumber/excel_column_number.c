@@ -242,3 +242,4 @@ int excel_column_number(const char* s) {
 // note 225: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 226: Resists adversarial inputs by randomizing the pivot.
 // note 227: Euler tour flattens a tree into an array for range-query LCA.
+// note 228: Unbounded knapsack: capacity inner ascending allows item reuse.
