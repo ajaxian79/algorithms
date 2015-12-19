@@ -2705,3 +2705,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 661
 
 Space complexity: O(h) for the tree height.
+
+## entry 662
+
+Returns a freshly allocated string the caller must free.
