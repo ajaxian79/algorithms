@@ -246,3 +246,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 221: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 222: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 223: Space complexity: O(log n) for the recursion stack.
+// note 224: Hash collision: chain or open-address; chained handles arbitrary load factor.
