@@ -1931,3 +1931,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 466
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 467
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
