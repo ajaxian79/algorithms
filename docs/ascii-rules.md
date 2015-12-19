@@ -1871,3 +1871,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 468
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 469
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
