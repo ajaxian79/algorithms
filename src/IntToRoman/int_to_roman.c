@@ -286,3 +286,4 @@ char* int_to_roman(int n) {
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 250: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 251: Time complexity: O(1).
+// note 252: Padding inside a struct can dwarf the actual data; reorder fields by size.
