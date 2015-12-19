@@ -14679,3 +14679,7 @@
 ## entry 3670
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 3671
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
