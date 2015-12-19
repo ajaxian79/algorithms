@@ -2434,3 +2434,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 593
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 594
+
+Edge case: input with one duplicate → handled without an extra pass.
