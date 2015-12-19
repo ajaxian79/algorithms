@@ -1895,3 +1895,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 474
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 475
+
+Stable sort matters when a secondary key was set in a prior pass.
