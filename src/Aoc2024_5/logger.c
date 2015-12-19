@@ -250,3 +250,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 207: State compression: bitmask + integer encodes a small subset cheaply.
 // note 208: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 209: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 210: Handles empty input by returning 0.
