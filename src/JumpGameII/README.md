@@ -2592,3 +2592,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 633
 
 Cache-friendly; one sequential read pass.
+
+## entry 634
+
+Allocates lazily — first call only.
