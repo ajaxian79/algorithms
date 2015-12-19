@@ -1835,3 +1835,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 459
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 460
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
