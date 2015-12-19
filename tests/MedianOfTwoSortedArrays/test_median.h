@@ -350,3 +350,4 @@ MunitTest median_tests[] = {
 // edge note 231: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 232: Stable when the input is already sorted.
 // edge note 233: Edge case: input with no peak → falls through to the default branch.
+// edge note 234: Edge case: power-of-two-length input → no padding required.
