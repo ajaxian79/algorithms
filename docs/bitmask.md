@@ -1719,3 +1719,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 414
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 415
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
