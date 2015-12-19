@@ -224,3 +224,4 @@ int my_atoi(const char* s) {
 // note 193: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 195: 32-bit safe; overflow is checked at each step.
+// note 196: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
