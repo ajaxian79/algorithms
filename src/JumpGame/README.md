@@ -2685,3 +2685,7 @@ Caller owns the returned buffer.
 ## entry 656
 
 Edge case: single-element input → returns the element itself.
+
+## entry 657
+
+Edge case: power-of-two-length input → no padding required.
