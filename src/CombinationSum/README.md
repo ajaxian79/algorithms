@@ -2571,3 +2571,7 @@ Three passes total; the third merges results.
 ## entry 628
 
 Space complexity: O(n) for the result buffer.
+
+## entry 629
+
+Allocates one buffer of length n+1 for the result.
