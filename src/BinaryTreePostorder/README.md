@@ -2510,3 +2510,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 613
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 614
+
+Stable when the input is already sorted.
