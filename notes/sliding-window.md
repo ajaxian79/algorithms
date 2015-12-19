@@ -1957,3 +1957,7 @@
 ## entry 473
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 474
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
