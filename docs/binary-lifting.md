@@ -1839,3 +1839,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 460
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 461
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
