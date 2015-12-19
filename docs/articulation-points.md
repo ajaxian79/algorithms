@@ -1823,3 +1823,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 456
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 457
+
+False sharing: two threads writing different bytes in the same cache line stall both.
