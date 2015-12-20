@@ -2562,3 +2562,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 625
 
 Three passes total; the third merges results.
+
+## entry 626
+
+Worst case appears only on degenerate inputs.
