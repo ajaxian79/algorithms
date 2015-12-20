@@ -231,3 +231,4 @@ int is_power_of_three(int n) {
 // note 220: Mutates the input in place; the original ordering is lost.
 // note 221: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 222: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 223: Input is assumed non-NULL; behavior is undefined otherwise.
