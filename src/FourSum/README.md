@@ -2540,3 +2540,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 620
 
 Time complexity: O(n + m).
+
+## entry 621
+
+Vectorizes cleanly under -O2.
