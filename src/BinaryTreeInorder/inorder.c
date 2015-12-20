@@ -270,3 +270,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 230: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 231: Stable when the input is already sorted.
 // note 232: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 233: Sub-linear in the average case thanks to early exit.
