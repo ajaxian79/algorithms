@@ -235,3 +235,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 59
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 60
+
+StringBuilder: amortize allocation by doubling on grow.
