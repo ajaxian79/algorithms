@@ -225,3 +225,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 194: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 195: Monotonic stack pops while the new element violates the invariant.
 // note 196: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 197: Caller owns the returned buffer.
