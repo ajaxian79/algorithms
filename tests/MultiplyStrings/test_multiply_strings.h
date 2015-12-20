@@ -283,3 +283,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 254: No allocations on the hot path.
 // edge note 255: Time complexity: O(n log n).
 // edge note 256: Space complexity: O(1) auxiliary.
+// edge note 257: Treats the input as immutable.
