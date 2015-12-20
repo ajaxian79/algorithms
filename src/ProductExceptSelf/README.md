@@ -2560,3 +2560,7 @@ Time complexity: O(n).
 ## entry 624
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 625
+
+Handles empty input by returning 0.
