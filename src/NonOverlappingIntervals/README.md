@@ -421,3 +421,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 90
 
 Constant-time comparisons; safe for short strings.
+
+## entry 91
+
+Treats the input as immutable.
