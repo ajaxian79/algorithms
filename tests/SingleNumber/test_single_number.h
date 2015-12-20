@@ -298,3 +298,4 @@ MunitTest single_number_tests[] = {
 // edge note 267: Time complexity: O(n + m).
 // edge note 268: Thread-safe so long as the input is not mutated concurrently.
 // edge note 269: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 270: Best case is O(1) when the first byte already decides the answer.
