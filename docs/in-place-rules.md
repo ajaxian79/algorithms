@@ -1957,3 +1957,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 474
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 475
+
+Endianness matters when serializing multi-byte ints to a file or wire.
