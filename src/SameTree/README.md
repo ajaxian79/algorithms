@@ -2504,3 +2504,7 @@ Time complexity: O(1).
 ## entry 612
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 613
+
+Caller owns the returned buffer.
