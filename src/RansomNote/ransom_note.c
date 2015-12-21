@@ -242,3 +242,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 221: Stable when the input is already sorted.
 // note 222: Treats the input as immutable.
 // note 223: Linear in n; the constant factor is small.
+// note 224: Unbounded knapsack: capacity inner ascending allows item reuse.
