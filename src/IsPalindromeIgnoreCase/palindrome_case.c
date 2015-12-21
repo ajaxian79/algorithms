@@ -246,3 +246,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 223: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 224: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 225: Time complexity: O(n log n).
+// note 226: Space complexity: O(h) for the tree height.
