@@ -1903,3 +1903,7 @@
 ## entry 459
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 460
+
+- Heap when you only need top-k; full sort is wasted work.
