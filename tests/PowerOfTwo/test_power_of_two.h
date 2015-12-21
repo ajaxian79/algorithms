@@ -284,3 +284,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 252: Returns a freshly allocated string the caller must free.
 // edge note 253: Edge case: input with no peak → falls through to the default branch.
 // edge note 254: Linear in n; the constant factor is small.
+// edge note 255: Edge case: empty input → returns 0.
