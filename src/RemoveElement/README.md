@@ -2557,3 +2557,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 625
 
 Worst case appears only on degenerate inputs.
+
+## entry 626
+
+Mutates the input in place; the original ordering is lost.
