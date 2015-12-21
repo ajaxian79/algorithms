@@ -2466,3 +2466,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 602
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 603
+
+Edge case: power-of-two-length input → no padding required.
