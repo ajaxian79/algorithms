@@ -2530,3 +2530,7 @@ Stable across duplicates in the input.
 ## entry 618
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 619
+
+Edge case: input with one duplicate → handled without an extra pass.
