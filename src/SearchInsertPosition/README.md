@@ -2514,3 +2514,7 @@ Time complexity: O(n).
 ## entry 614
 
 Linear in n; the constant factor is small.
+
+## entry 615
+
+Sub-linear in the average case thanks to early exit.
