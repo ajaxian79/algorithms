@@ -1929,3 +1929,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 466
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 467
+
+LIS via patience: each pile holds the smallest tail of length k.
