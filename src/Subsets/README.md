@@ -2731,3 +2731,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 668
 
 Treats the input as immutable.
+
+## entry 669
+
+32-bit safe; overflow is checked at each step.
