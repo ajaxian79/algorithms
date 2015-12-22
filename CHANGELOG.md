@@ -101251,3 +101251,7 @@
 ## entry 25313
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 25314
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
