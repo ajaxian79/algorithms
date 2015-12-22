@@ -2534,3 +2534,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 618
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 619
+
+Allocates a single small fixed-size scratch buffer.
