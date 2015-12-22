@@ -2406,3 +2406,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 587
 
 Cache-friendly; one sequential read pass.
+
+## entry 588
+
+Time complexity: O(n^2) worst case, O(n) amortized.
