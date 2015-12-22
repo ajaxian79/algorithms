@@ -1779,3 +1779,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 445
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 446
+
+Rope: tree of small string fragments; O(log n) concat and substring.
