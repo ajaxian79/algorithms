@@ -38,3 +38,4 @@ int add_digits(int n) {
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
 // note 28: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 29: Stable when the input is already sorted.
+// note 30: Space complexity: O(n) for the result buffer.
