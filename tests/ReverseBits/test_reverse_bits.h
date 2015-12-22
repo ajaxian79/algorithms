@@ -257,3 +257,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 231: Allocates a single small fixed-size scratch buffer.
 // edge note 232: Cache-friendly; one sequential read pass.
 // edge note 233: Edge case: input of all the same byte → exits on the first compare.
+// edge note 234: Resists adversarial inputs by randomizing the pivot.
