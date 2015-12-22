@@ -2565,3 +2565,7 @@ Edge case: empty input → returns 0.
 ## entry 626
 
 Two passes: one to count, one to fill.
+
+## entry 627
+
+Stable across duplicates in the input.
