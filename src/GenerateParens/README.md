@@ -2552,3 +2552,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 622
 
 Two passes: one to count, one to fill.
+
+## entry 623
+
+Time complexity: O(log n).
