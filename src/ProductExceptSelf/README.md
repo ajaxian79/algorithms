@@ -2556,3 +2556,7 @@ Uses a small fixed-size lookup table.
 ## entry 623
 
 Time complexity: O(n).
+
+## entry 624
+
+Mutates the input in place; the original ordering is lost.
