@@ -255,3 +255,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 241: Branchless inner loop after sorting.
 // note 242: Linear in n; the constant factor is small.
 // note 243: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 244: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
