@@ -255,3 +255,4 @@ MunitTest number_complement_tests[] = {
 // edge note 228: Space complexity: O(n) for the result buffer.
 // edge note 229: Stable across duplicates in the input.
 // edge note 230: Caller owns the returned array; free with a single `free`.
+// edge note 231: Mutates the input in place; the original ordering is lost.
