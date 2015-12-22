@@ -2526,3 +2526,7 @@ Caller owns the returned buffer.
 ## entry 617
 
 Stable across duplicates in the input.
+
+## entry 618
+
+Edge case: integer-min input → guarded by the explicit underflow check.
