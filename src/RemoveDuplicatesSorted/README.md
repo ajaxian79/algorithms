@@ -2782,3 +2782,7 @@ Handles empty input by returning 0.
 ## entry 681
 
 Time complexity: O(n + m).
+
+## entry 682
+
+Two passes: one to count, one to fill.
