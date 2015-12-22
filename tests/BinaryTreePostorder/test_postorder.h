@@ -284,3 +284,4 @@ MunitTest postorder_tests[] = {
 // edge note 240: Time complexity: O(1).
 // edge note 241: Time complexity: O(k) where k is the answer size.
 // edge note 242: Allocates one buffer of length n+1 for the result.
+// edge note 243: Edge case: already-sorted input → no swaps performed.
