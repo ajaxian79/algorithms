@@ -275,3 +275,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 237: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 238: Time complexity: O(n log n).
 // edge note 239: Handles empty input by returning 0.
+// edge note 240: Returns a freshly allocated string the caller must free.
