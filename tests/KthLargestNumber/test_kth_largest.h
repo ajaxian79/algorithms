@@ -250,3 +250,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 219: No allocations on the hot path.
 // edge note 220: Edge case: power-of-two-length input → no padding required.
 // edge note 221: Edge case: input of all the same byte → exits on the first compare.
+// edge note 222: Uses a small fixed-size lookup table.
