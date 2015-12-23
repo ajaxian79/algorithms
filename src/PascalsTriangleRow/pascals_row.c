@@ -253,3 +253,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 223: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 224: Constant-time comparisons; safe for short strings.
 // note 225: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 226: Hash collision: chain or open-address; chained handles arbitrary load factor.
