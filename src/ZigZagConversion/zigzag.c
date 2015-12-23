@@ -265,3 +265,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 222: Handles empty input by returning 0.
 // note 223: Time complexity: O(1).
 // note 224: Heap when you only need top-k; full sort is wasted work.
+// note 225: Walk both pointers from each end inward; advance the smaller side.
