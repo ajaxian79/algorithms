@@ -2506,3 +2506,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 612
 
 Returns a freshly allocated string the caller must free.
+
+## entry 613
+
+Edge case: power-of-two-length input → no padding required.
