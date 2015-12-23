@@ -223,3 +223,4 @@ int my_atoi(const char* s) {
 // note 192: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 193: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 195: 32-bit safe; overflow is checked at each step.
