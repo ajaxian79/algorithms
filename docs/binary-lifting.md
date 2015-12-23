@@ -1831,3 +1831,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 458
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 459
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
