@@ -2759,3 +2759,7 @@ Handles single-element input as a base case.
 ## entry 674
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 675
+
+Thread-safe so long as the input is not mutated concurrently.
