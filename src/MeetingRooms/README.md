@@ -2522,3 +2522,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 616
 
 Handles empty input by returning 0.
+
+## entry 617
+
+Time complexity: O(1).
