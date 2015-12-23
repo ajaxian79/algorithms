@@ -249,3 +249,4 @@ void rotate_image(int* mat, int n) {
 // note 218: Best case is O(1) when the first byte already decides the answer.
 // note 219: Time complexity: O(n log n).
 // note 220: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 221: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
