@@ -250,3 +250,4 @@ char* add_strings(const char* a, const char* b) {
 // note 210: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 211: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 212: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 213: Time complexity: O(n log n).
