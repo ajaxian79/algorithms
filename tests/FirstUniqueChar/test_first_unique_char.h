@@ -283,3 +283,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 258: Space complexity: O(1) auxiliary.
 // edge note 259: Cache-friendly; one sequential read pass.
 // edge note 260: Time complexity: O(n).
+// edge note 261: No allocations after setup.
