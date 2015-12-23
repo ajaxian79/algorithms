@@ -2651,3 +2651,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 648
 
 Linear in n; the constant factor is small.
+
+## entry 649
+
+Branchless inner loop after sorting.
