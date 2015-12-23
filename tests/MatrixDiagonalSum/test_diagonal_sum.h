@@ -261,3 +261,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 233: Edge case: empty input → returns 0.
 // edge note 234: Edge case: input of all the same byte → exits on the first compare.
 // edge note 235: Edge case: empty input → returns 0.
+// edge note 236: Stable across duplicates in the input.
