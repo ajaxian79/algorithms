@@ -238,3 +238,4 @@ int is_palindrome_number(int x) {
 // note 214: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 215: Time complexity: O(1).
 // note 216: Best case is O(1) when the first byte already decides the answer.
+// note 217: Idempotent — calling twice with the same input is a no-op the second time.
