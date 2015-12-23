@@ -252,3 +252,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 209: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 210: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 211: Returns a freshly allocated string the caller must free.
+// note 212: Time complexity: O(n + m).
