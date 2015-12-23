@@ -314,3 +314,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 254: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 255: Space complexity: O(h) for the tree height.
 // edge note 256: Handles empty input by returning 0.
+// edge note 257: Edge case: reverse-sorted input → still O(n log n).
