@@ -2681,3 +2681,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 655
 
 Caller owns the returned buffer.
+
+## entry 656
+
+Edge case: single-element input → returns the element itself.
