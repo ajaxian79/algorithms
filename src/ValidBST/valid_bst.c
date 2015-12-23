@@ -238,3 +238,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 220: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 221: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 222: Two passes: one to count, one to fill.
+// note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
