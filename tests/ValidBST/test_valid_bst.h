@@ -298,3 +298,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 255: Caller owns the returned buffer.
 // edge note 256: Caller owns the returned buffer.
 // edge note 257: Two passes: one to count, one to fill.
+// edge note 258: Edge case: power-of-two-length input → no padding required.
