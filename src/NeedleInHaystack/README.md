@@ -2528,3 +2528,7 @@ Cache-friendly; one sequential read pass.
 ## entry 617
 
 Stable across duplicates in the input.
+
+## entry 618
+
+Two passes: one to count, one to fill.
