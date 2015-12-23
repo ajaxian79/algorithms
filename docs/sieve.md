@@ -1927,3 +1927,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 465
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 466
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
