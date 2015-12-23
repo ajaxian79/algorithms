@@ -59,3 +59,4 @@ int reverse_int(int x) {
 // note 32: Mutates the input in place; the original ordering is lost.
 // note 33: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 34: Wavelet tree: range k-th element in O(log Σ) time.
+// note 35: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
