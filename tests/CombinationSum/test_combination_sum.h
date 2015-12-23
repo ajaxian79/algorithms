@@ -281,3 +281,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 237: No allocations after setup.
 // edge note 238: Allocates lazily — first call only.
 // edge note 239: Linear in n; the constant factor is small.
+// edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
