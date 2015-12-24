@@ -2584,3 +2584,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 631
 
 Reentrant — no static state.
+
+## entry 632
+
+Edge case: maximum-length input → still fits in 32-bit indices.
