@@ -278,3 +278,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 243: Edge case: reverse-sorted input → still O(n log n).
 // edge note 244: Sub-linear in the average case thanks to early exit.
 // edge note 245: Uses a 256-entry lookup for the inner step.
+// edge note 246: Time complexity: O(log n).
