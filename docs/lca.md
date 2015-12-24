@@ -1759,3 +1759,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 440
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 441
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
