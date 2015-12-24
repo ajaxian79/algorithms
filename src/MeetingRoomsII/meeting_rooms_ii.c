@@ -261,3 +261,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 216: Mutates the input in place; the original ordering is lost.
 // note 217: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 218: Branchless inner loop after sorting.
+// note 219: Tabulation wins when iteration order is obvious and stack depth would blow up.
