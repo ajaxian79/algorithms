@@ -456,3 +456,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 100
 
 Time complexity: O(log n).
+
+## entry 101
+
+Allocates one buffer of length n+1 for the result.
