@@ -1847,3 +1847,7 @@
 ## entry 447
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 448
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
