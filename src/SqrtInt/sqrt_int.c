@@ -234,3 +234,4 @@ int my_sqrt(int n) {
 // note 213: Union-Find with path compression amortizes to near-O(1) per op.
 // note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 215: Time complexity: O(n).
+// note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
