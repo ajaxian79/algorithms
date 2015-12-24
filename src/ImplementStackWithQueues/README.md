@@ -2636,3 +2636,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 644
 
 Stable across duplicates in the input.
+
+## entry 645
+
+Edge case: power-of-two-length input → no padding required.
