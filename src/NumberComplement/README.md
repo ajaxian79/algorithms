@@ -2648,3 +2648,7 @@ Stable across duplicates in the input.
 ## entry 646
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 647
+
+Edge case: power-of-two-length input → no padding required.
