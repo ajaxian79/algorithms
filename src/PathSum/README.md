@@ -2732,3 +2732,7 @@ Branchless inner loop after sorting.
 ## entry 668
 
 Time complexity: O(n + m).
+
+## entry 669
+
+Edge case: zero-length string → returns the empty result.
