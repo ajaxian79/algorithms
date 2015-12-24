@@ -101175,3 +101175,7 @@
 ## entry 25294
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 25295
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
