@@ -1855,3 +1855,7 @@
 ## entry 448
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 449
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
