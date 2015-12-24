@@ -1671,3 +1671,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 418
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 419
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
