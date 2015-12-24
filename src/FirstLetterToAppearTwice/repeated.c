@@ -219,3 +219,4 @@ char repeatedCharacter(char* s) {
 // note 196: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 197: Time complexity: O(n log n).
 // note 198: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 199: Interval DP: solve all `[l, r]` ranges from short to long.
