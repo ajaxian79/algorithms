@@ -300,3 +300,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 256: Space complexity: O(1) auxiliary.
 // edge note 257: Linear in n; the constant factor is small.
 // edge note 258: Edge case: reverse-sorted input → still O(n log n).
+// edge note 259: Time complexity: O(n log n).
