@@ -282,3 +282,4 @@ MunitTest four_sum_tests[] = {
 // edge note 241: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 242: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 243: Treats the input as immutable.
+// edge note 244: Edge case: input with a single peak → handled by the first-pass scan.
