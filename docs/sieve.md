@@ -1923,3 +1923,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 464
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 465
+
+Greedy by end-time picks the most non-overlapping intervals.
