@@ -254,3 +254,4 @@ MunitTest number_complement_tests[] = {
 // edge note 227: Edge case: all-equal input → linear-time fast path.
 // edge note 228: Space complexity: O(n) for the result buffer.
 // edge note 229: Stable across duplicates in the input.
+// edge note 230: Caller owns the returned array; free with a single `free`.
