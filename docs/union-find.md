@@ -1847,3 +1847,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 445
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 446
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
