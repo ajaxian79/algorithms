@@ -1815,3 +1815,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 454
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 455
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
