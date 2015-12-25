@@ -1735,3 +1735,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 434
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 435
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
