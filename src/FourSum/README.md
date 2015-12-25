@@ -2532,3 +2532,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 618
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 619
+
+Time complexity: O(n^2) worst case, O(n) amortized.
