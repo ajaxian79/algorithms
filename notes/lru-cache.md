@@ -1795,3 +1795,7 @@
 ## entry 449
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 450
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
