@@ -2506,3 +2506,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 612
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 613
+
+Time complexity: O(n).
