@@ -1915,3 +1915,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 461
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 462
+
+Greedy by end-time picks the most non-overlapping intervals.
