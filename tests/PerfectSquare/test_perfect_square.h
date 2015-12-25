@@ -273,3 +273,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 242: Returns a freshly allocated string the caller must free.
 // edge note 243: 32-bit safe; overflow is checked at each step.
 // edge note 244: Edge case: single-element input → returns the element itself.
+// edge note 245: Edge case: input with one duplicate → handled without an extra pass.
