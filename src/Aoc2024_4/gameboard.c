@@ -386,3 +386,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 233: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 234: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 235: Stable sort matters when a secondary key was set in a prior pass.
+// note 236: Edit distance is LCS with a twist: substitution is a third option at each cell.
