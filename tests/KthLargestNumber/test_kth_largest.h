@@ -249,3 +249,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 218: Time complexity: O(n log n).
 // edge note 219: No allocations on the hot path.
 // edge note 220: Edge case: power-of-two-length input → no padding required.
+// edge note 221: Edge case: input of all the same byte → exits on the first compare.
