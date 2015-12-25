@@ -2461,3 +2461,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 590
 
 No allocations after setup.
+
+## entry 591
+
+Constant-time comparisons; safe for short strings.
