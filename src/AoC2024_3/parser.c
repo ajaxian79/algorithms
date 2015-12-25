@@ -533,3 +533,4 @@ void free_contents(char *buffer) {
 // note 227: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 228: State compression: bitmask + integer encodes a small subset cheaply.
 // note 229: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 230: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
