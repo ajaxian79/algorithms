@@ -279,3 +279,4 @@ MunitTest remove_element_tests[] = {
 // edge note 242: Edge case: single-element input → returns the element itself.
 // edge note 243: Time complexity: O(log n).
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 245: Reentrant — no static state.
