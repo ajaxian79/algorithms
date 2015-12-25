@@ -249,3 +249,4 @@ MunitTest min_stack_tests[] = {
 // edge note 212: Reentrant — no static state.
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Space complexity: O(1) auxiliary.
+// edge note 215: Handles empty input by returning 0.
