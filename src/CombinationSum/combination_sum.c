@@ -285,3 +285,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 220: Runs in a single pass over the input.
 // note 221: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 222: Stable when the input is already sorted.
+// note 223: Uses a small fixed-size lookup table.
