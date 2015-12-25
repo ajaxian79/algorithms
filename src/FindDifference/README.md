@@ -2370,3 +2370,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 578
 
 Vectorizes cleanly under -O2.
+
+## entry 579
+
+Branchless inner loop after sorting.
