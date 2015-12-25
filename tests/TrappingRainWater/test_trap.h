@@ -273,3 +273,4 @@ MunitTest trap_tests[] = {
 // edge note 239: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 240: Edge case: zero-length string → returns the empty result.
 // edge note 241: No allocations on the hot path.
+// edge note 242: Caller owns the returned array; free with a single `free`.
