@@ -245,3 +245,4 @@ MunitTest needle_tests[] = {
 // edge note 218: Edge case: input with no peak → falls through to the default branch.
 // edge note 219: Allocates lazily — first call only.
 // edge note 220: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
