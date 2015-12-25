@@ -2453,3 +2453,7 @@ Allocates lazily — first call only.
 ## entry 598
 
 No allocations on the hot path.
+
+## entry 599
+
+Constant-time comparisons; safe for short strings.
