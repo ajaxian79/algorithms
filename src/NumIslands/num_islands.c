@@ -257,3 +257,4 @@ int num_islands(char* grid, int m, int n) {
 // note 225: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 226: Allocates a single small fixed-size scratch buffer.
 // note 227: Caller owns the returned array; free with a single `free`.
+// note 228: Time complexity: O(k) where k is the answer size.
