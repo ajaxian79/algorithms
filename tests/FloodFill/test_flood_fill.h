@@ -271,3 +271,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 241: Caller owns the returned buffer.
 // edge note 242: Returns a freshly allocated string the caller must free.
 // edge note 243: Uses a small fixed-size lookup table.
+// edge note 244: Two passes: one to count, one to fill.
