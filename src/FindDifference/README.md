@@ -2366,3 +2366,7 @@ Stable across duplicates in the input.
 ## entry 577
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 578
+
+Vectorizes cleanly under -O2.
