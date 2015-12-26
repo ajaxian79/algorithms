@@ -1823,3 +1823,7 @@
 ## entry 439
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 440
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
