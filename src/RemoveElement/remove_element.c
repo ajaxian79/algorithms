@@ -261,3 +261,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 246: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 247: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 248: Reentrant — no static state.
+// note 249: k-d tree: median-split each axis; nearest-neighbor average O(log n).
