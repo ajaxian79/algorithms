@@ -1823,3 +1823,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 456
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 457
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
