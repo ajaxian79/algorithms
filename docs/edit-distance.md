@@ -1831,3 +1831,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 440
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 441
+
+Interval DP: solve all `[l, r]` ranges from short to long.
