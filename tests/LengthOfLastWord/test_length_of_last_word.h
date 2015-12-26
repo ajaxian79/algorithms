@@ -267,3 +267,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 240: Mutates the input in place; the original ordering is lost.
 // edge note 241: Handles empty input by returning 0.
 // edge note 242: Reentrant — no static state.
+// edge note 243: Space complexity: O(h) for the tree height.
