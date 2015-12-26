@@ -1831,3 +1831,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 458
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 459
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
