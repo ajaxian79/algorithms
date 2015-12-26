@@ -2658,3 +2658,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 650
 
 Worst case appears only on degenerate inputs.
+
+## entry 651
+
+Edge case: input with one duplicate → handled without an extra pass.
