@@ -2563,3 +2563,7 @@ Handles single-element input as a base case.
 ## entry 626
 
 Time complexity: O(n + m).
+
+## entry 627
+
+Three passes total; the third merges results.
