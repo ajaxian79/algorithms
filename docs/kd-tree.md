@@ -1835,3 +1835,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 459
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 460
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
