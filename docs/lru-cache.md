@@ -1667,3 +1667,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 417
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 418
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
