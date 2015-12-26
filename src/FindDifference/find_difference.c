@@ -227,3 +227,4 @@ char find_difference(const char* s, const char* t) {
 // note 211: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 212: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 213: StringBuilder: amortize allocation by doubling on grow.
+// note 214: BFS layers carry implicit shortest-path distance in unweighted graphs.
