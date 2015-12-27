@@ -88,3 +88,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 39: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 40: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 41: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 42: 64-bit safe; intermediate products are widened to 128-bit.
