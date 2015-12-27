@@ -1851,3 +1851,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 447
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 448
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
