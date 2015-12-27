@@ -276,3 +276,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 245: Allocates a single small fixed-size scratch buffer.
