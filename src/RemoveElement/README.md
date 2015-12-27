@@ -437,3 +437,7 @@ Space complexity: O(1) auxiliary.
 ## entry 95
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 96
+
+Time complexity: O(n).
