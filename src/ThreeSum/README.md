@@ -2617,3 +2617,7 @@ Worst case appears only on degenerate inputs.
 ## entry 639
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 640
+
+Edge case: maximum-length input → still fits in 32-bit indices.
