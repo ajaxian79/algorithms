@@ -260,3 +260,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 246: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 247: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 248: Reentrant — no static state.
