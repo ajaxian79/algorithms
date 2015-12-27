@@ -2701,3 +2701,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 660
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 661
+
+Space complexity: O(h) for the tree height.
