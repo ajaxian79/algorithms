@@ -2430,3 +2430,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 592
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 593
+
+Edge case: all-equal input → linear-time fast path.
