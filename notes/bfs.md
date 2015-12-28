@@ -1869,3 +1869,7 @@
 ## entry 450
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 451
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
