@@ -101079,3 +101079,7 @@
 ## entry 25270
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 25271
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
