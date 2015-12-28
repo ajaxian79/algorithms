@@ -1877,3 +1877,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 455
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 456
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
