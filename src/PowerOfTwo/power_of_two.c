@@ -226,3 +226,4 @@ int is_power_of_two(int n) {
 // note 216: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 218: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 219: Time complexity: O(n log n).
