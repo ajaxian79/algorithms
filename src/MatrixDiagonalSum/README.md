@@ -2718,3 +2718,7 @@ Linear in n; the constant factor is small.
 ## entry 665
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 666
+
+Space complexity: O(n) for the result buffer.
