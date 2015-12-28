@@ -101087,3 +101087,7 @@
 ## entry 25272
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 25273
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
