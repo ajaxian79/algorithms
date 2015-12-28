@@ -2756,3 +2756,7 @@ Caller owns the returned buffer.
 ## entry 674
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 675
+
+Edge case: maximum-length input → still fits in 32-bit indices.
