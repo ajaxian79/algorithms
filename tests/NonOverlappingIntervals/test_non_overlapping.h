@@ -278,3 +278,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 247: Resists adversarial inputs by randomizing the pivot.
 // edge note 248: Stable when the input is already sorted.
 // edge note 249: Edge case: single-element input → returns the element itself.
+// edge note 250: Idempotent — calling twice with the same input is a no-op the second time.
