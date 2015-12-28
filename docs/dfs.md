@@ -1835,3 +1835,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 443
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 444
+
+False sharing: two threads writing different bytes in the same cache line stall both.
