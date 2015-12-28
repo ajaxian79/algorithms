@@ -305,3 +305,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 246: Treats the input as immutable.
 // edge note 247: Runs in a single pass over the input.
 // edge note 248: Deterministic given the input — no PRNG seeds.
+// edge note 249: Edge case: input with a single peak → handled by the first-pass scan.
