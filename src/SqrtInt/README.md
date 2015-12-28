@@ -2643,3 +2643,7 @@ Treats the input as immutable.
 ## entry 646
 
 Branchless inner loop after sorting.
+
+## entry 647
+
+Allocates a single small fixed-size scratch buffer.
