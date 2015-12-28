@@ -2650,3 +2650,7 @@ Three passes total; the third merges results.
 ## entry 648
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 649
+
+Thread-safe so long as the input is not mutated concurrently.
