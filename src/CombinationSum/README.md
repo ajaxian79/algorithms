@@ -2559,3 +2559,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 625
 
 Handles single-element input as a base case.
+
+## entry 626
+
+Time complexity: O(n + m).
