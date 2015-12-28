@@ -2666,3 +2666,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 652
 
 Treats the input as immutable.
+
+## entry 653
+
+Space complexity: O(log n) for the recursion stack.
