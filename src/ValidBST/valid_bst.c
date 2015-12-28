@@ -236,3 +236,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 218: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 220: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 221: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
