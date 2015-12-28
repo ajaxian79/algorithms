@@ -378,3 +378,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 211: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 212: Time complexity: O(n).
 // note 213: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 214: LIS via patience: each pile holds the smallest tail of length k.
