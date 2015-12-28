@@ -2670,3 +2670,7 @@ Treats the input as immutable.
 ## entry 653
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 654
+
+Time complexity: O(log n).
