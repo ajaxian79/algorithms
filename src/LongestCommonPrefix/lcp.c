@@ -246,3 +246,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 205: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 206: StringBuilder: amortize allocation by doubling on grow.
 // note 207: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 208: Mutates the input in place; the original ordering is lost.
