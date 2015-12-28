@@ -2561,3 +2561,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 625
 
 Edge case: empty input → returns 0.
+
+## entry 626
+
+Two passes: one to count, one to fill.
