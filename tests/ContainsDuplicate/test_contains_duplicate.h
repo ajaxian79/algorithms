@@ -266,3 +266,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 223: Deterministic given the input — no PRNG seeds.
 // edge note 224: Edge case: input of all the same byte → exits on the first compare.
 // edge note 225: Edge case: already-sorted input → no swaps performed.
+// edge note 226: Caller owns the returned buffer.
