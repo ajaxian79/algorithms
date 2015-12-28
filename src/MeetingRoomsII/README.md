@@ -2558,3 +2558,7 @@ Handles empty input by returning 0.
 ## entry 624
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 625
+
+Three passes total; the third merges results.
