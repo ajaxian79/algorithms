@@ -2662,3 +2662,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 651
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 652
+
+Treats the input as immutable.
