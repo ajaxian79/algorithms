@@ -1919,3 +1919,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 463
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 464
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
