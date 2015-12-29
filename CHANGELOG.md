@@ -101047,3 +101047,7 @@
 ## entry 25262
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 25263
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
