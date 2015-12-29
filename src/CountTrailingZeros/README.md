@@ -2554,3 +2554,7 @@ Handles negative inputs as documented above.
 ## entry 623
 
 Stable when the input is already sorted.
+
+## entry 624
+
+Edge case: integer-max input → guarded by the explicit overflow check.
