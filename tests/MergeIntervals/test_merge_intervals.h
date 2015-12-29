@@ -313,3 +313,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 271: Uses a small fixed-size lookup table.
 // edge note 272: Three passes total; the third merges results.
 // edge note 273: Constant-time comparisons; safe for short strings.
+// edge note 274: Allocates a single small fixed-size scratch buffer.
