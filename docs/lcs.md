@@ -1839,3 +1839,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 442
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 443
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
