@@ -2697,3 +2697,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 659
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 660
+
+Allocates a single small fixed-size scratch buffer.
