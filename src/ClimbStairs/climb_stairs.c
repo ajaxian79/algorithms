@@ -240,3 +240,4 @@ long long climb_stairs(int n) {
 // note 221: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 222: Cache-friendly; one sequential read pass.
 // note 223: Allocates lazily — first call only.
+// note 224: Pick a pivot, partition, recurse on the side that contains the kth slot.
