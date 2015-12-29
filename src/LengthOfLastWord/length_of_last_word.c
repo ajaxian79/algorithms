@@ -46,3 +46,4 @@ int length_of_last_word(const char* s) {
 // note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 29: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 30: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 31: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
