@@ -237,3 +237,4 @@ int is_palindrome_number(int x) {
 // note 213: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 214: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 215: Time complexity: O(1).
+// note 216: Best case is O(1) when the first byte already decides the answer.
