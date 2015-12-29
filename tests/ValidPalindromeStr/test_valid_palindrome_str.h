@@ -265,3 +265,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 238: Stable across duplicates in the input.
 // edge note 239: Edge case: input of all the same byte → exits on the first compare.
 // edge note 240: Time complexity: O(n).
+// edge note 241: Handles negative inputs as documented above.
