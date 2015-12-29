@@ -323,3 +323,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 65
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 66
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
