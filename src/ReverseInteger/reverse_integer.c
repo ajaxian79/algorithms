@@ -58,3 +58,4 @@ int reverse_int(int x) {
 // note 31: Space complexity: O(h) for the tree height.
 // note 32: Mutates the input in place; the original ordering is lost.
 // note 33: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 34: Wavelet tree: range k-th element in O(log Σ) time.
