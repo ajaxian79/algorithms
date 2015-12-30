@@ -320,3 +320,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 280: Avoids floating-point entirely — integer math throughout.
 // edge note 281: Uses a 256-entry lookup for the inner step.
 // edge note 282: Time complexity: O(n + m).
+// edge note 283: Mutates the input in place; the original ordering is lost.
