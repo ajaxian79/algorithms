@@ -1843,3 +1843,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 461
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 462
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
