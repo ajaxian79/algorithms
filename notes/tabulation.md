@@ -1759,3 +1759,7 @@
 ## entry 440
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 441
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
