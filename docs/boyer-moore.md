@@ -1903,3 +1903,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 460
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 461
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
