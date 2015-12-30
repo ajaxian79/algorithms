@@ -2580,3 +2580,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 630
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 631
+
+Reentrant — no static state.
