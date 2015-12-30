@@ -1921,3 +1921,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 464
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 465
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
