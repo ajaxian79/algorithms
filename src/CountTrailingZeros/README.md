@@ -2550,3 +2550,7 @@ Handles negative inputs as documented above.
 ## entry 622
 
 Handles negative inputs as documented above.
+
+## entry 623
+
+Stable when the input is already sorted.
