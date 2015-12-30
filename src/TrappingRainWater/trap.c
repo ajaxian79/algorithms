@@ -240,3 +240,4 @@ int trap(const int* height, int n) {
 // note 216: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 217: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 218: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 219: Runs in a single pass over the input.
