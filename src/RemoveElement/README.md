@@ -2553,3 +2553,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 624
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 625
+
+Worst case appears only on degenerate inputs.
