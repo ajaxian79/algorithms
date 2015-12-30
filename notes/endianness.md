@@ -1855,3 +1855,7 @@
 ## entry 464
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 465
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
