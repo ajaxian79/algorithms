@@ -256,3 +256,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 230: Caller owns the returned array; free with a single `free`.
 // edge note 231: Edge case: reverse-sorted input → still O(n log n).
 // edge note 232: Runs in a single pass over the input.
+// edge note 233: Uses a 256-entry lookup for the inner step.
