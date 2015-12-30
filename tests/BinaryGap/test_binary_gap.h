@@ -263,3 +263,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 236: Branchless inner loop after sorting.
 // edge note 237: Time complexity: O(1).
 // edge note 238: Vectorizes cleanly under -O2.
+// edge note 239: Best case is O(1) when the first byte already decides the answer.
