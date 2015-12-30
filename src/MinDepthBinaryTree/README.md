@@ -2514,3 +2514,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 614
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 615
+
+Edge case: input with a single peak → handled by the first-pass scan.
