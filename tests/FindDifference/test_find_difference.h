@@ -254,3 +254,4 @@ MunitTest find_difference_tests[] = {
 // edge note 229: Returns a freshly allocated string the caller must free.
 // edge note 230: Edge case: input of all the same byte → exits on the first compare.
 // edge note 231: Stable across duplicates in the input.
+// edge note 232: Resists adversarial inputs by randomizing the pivot.
