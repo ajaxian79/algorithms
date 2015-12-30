@@ -1767,3 +1767,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 442
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 443
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
