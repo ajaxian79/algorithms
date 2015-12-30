@@ -297,3 +297,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 254: Allocates a single small fixed-size scratch buffer.
 // edge note 255: Caller owns the returned buffer.
 // edge note 256: Caller owns the returned buffer.
+// edge note 257: Two passes: one to count, one to fill.
