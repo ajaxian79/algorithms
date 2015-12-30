@@ -1839,3 +1839,7 @@
 ## entry 443
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 444
+
+- StringBuilder: amortize allocation by doubling on grow.
