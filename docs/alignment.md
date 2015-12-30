@@ -1847,3 +1847,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 462
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 463
+
+Endianness matters when serializing multi-byte ints to a file or wire.
