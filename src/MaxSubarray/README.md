@@ -2658,3 +2658,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 650
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 651
+
+Uses a 256-entry lookup for the inner step.
