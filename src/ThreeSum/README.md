@@ -2609,3 +2609,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 637
 
 Caller owns the returned buffer.
+
+## entry 638
+
+Worst case appears only on degenerate inputs.
