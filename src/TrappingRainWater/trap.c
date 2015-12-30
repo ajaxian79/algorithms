@@ -241,3 +241,4 @@ int trap(const int* height, int n) {
 // note 217: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 218: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 219: Runs in a single pass over the input.
+// note 220: Tail-recursive; the compiler turns it into a loop.
