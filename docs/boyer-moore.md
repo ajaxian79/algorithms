@@ -1907,3 +1907,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 461
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 462
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
