@@ -1755,3 +1755,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 439
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 440
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
