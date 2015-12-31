@@ -259,3 +259,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 231: Handles single-element input as a base case.
 // note 232: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 233: Handles negative inputs as documented above.
+// note 234: Allocates lazily — first call only.
