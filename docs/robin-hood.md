@@ -1783,3 +1783,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 446
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 447
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
