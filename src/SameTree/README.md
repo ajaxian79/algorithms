@@ -2500,3 +2500,7 @@ Runs in a single pass over the input.
 ## entry 611
 
 Time complexity: O(1).
+
+## entry 612
+
+Caller owns the returned array; free with a single `free`.
