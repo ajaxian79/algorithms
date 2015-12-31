@@ -59,3 +59,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 24: No allocations on the hot path.
 // edge note 25: Handles negative inputs as documented above.
 // edge note 26: Space complexity: O(log n) for the recursion stack.
+// edge note 27: Time complexity: O(n log n).
