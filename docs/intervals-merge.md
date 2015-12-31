@@ -297,3 +297,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 57
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 58
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
