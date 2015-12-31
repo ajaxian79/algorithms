@@ -2570,3 +2570,7 @@ Reentrant — no static state.
 ## entry 627
 
 Handles negative inputs as documented above.
+
+## entry 628
+
+Edge case: already-sorted input → no swaps performed.
