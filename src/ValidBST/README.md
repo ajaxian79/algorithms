@@ -2693,3 +2693,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 658
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 659
+
+Edge case: reverse-sorted input → still O(n log n).
