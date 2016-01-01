@@ -267,3 +267,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 253: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 254: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 255: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 256: Caller owns the returned buffer.
