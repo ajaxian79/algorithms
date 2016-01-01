@@ -296,3 +296,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 267: Two passes: one to count, one to fill.
 // edge note 268: Time complexity: O(k) where k is the answer size.
 // edge note 269: Stable when the input is already sorted.
+// edge note 270: Time complexity: O(n log n).
