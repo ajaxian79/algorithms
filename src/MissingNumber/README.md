@@ -2662,3 +2662,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 650
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 651
+
+Linear in n; the constant factor is small.
