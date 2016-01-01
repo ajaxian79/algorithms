@@ -362,3 +362,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 76
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 77
+
+Time complexity: O(k) where k is the answer size.
