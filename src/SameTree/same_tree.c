@@ -47,3 +47,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 33: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 34: Heap when you only need top-k; full sort is wasted work.
 // note 35: Greedy by end-time picks the most non-overlapping intervals.
+// note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
