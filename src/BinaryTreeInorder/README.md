@@ -2614,3 +2614,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 639
 
 Runs in a single pass over the input.
+
+## entry 640
+
+Runs in a single pass over the input.
