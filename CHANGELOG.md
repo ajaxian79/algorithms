@@ -100975,3 +100975,7 @@
 ## entry 25244
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 25245
+
+- Union-Find with path compression amortizes to near-O(1) per op.
