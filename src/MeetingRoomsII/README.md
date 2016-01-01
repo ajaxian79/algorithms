@@ -2554,3 +2554,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 623
 
 Handles empty input by returning 0.
+
+## entry 624
+
+Uses a 256-entry lookup for the inner step.
