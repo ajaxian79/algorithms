@@ -275,3 +275,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 51
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 52
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
