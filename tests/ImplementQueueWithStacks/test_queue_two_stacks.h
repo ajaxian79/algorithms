@@ -264,3 +264,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 231: Allocates one buffer of length n+1 for the result.
 // edge note 232: 32-bit safe; overflow is checked at each step.
 // edge note 233: Uses a 256-entry lookup for the inner step.
+// edge note 234: No allocations after setup.
