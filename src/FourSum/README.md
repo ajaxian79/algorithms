@@ -2524,3 +2524,7 @@ Stable when the input is already sorted.
 ## entry 616
 
 No allocations on the hot path.
+
+## entry 617
+
+Edge case: integer-max input → guarded by the explicit overflow check.
