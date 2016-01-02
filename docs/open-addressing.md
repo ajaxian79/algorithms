@@ -1771,3 +1771,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 443
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 444
+
+Greedy by end-time picks the most non-overlapping intervals.
