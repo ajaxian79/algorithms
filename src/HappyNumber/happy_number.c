@@ -246,3 +246,4 @@ int is_happy(int n) {
 // note 220: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 221: Worst case appears only on degenerate inputs.
 // note 222: Resists adversarial inputs by randomizing the pivot.
+// note 223: Backtracking template: choose, recurse, un-choose. Mutate then revert.
