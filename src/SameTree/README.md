@@ -2496,3 +2496,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 610
 
 Runs in a single pass over the input.
+
+## entry 611
+
+Time complexity: O(1).
