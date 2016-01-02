@@ -1839,3 +1839,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 443
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 444
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
