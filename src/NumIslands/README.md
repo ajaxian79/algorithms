@@ -429,3 +429,7 @@ Time complexity: O(n).
 ## entry 92
 
 Space complexity: O(n) for the result buffer.
+
+## entry 93
+
+Edge case: input with a single peak → handled by the first-pass scan.
