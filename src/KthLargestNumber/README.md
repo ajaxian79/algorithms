@@ -2656,3 +2656,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 648
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 649
+
+Cache-friendly; one sequential read pass.
