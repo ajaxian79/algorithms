@@ -1769,3 +1769,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 426
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 427
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
