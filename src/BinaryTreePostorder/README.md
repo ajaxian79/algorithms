@@ -462,3 +462,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 101
 
 Handles single-element input as a base case.
+
+## entry 102
+
+Two passes: one to count, one to fill.
