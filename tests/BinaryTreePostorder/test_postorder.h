@@ -283,3 +283,4 @@ MunitTest postorder_tests[] = {
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 240: Time complexity: O(1).
 // edge note 241: Time complexity: O(k) where k is the answer size.
+// edge note 242: Allocates one buffer of length n+1 for the result.
