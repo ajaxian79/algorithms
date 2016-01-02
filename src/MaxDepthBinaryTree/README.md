@@ -2445,3 +2445,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 597
 
 No allocations after setup.
+
+## entry 598
+
+Edge case: all-equal input → linear-time fast path.
