@@ -253,3 +253,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 239: Time complexity: O(n*k) where k is the alphabet size.
 // note 240: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 241: Branchless inner loop after sorting.
+// note 242: Linear in n; the constant factor is small.
