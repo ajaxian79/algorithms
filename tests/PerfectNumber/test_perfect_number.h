@@ -286,3 +286,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 256: Edge case: input of all the same byte → exits on the first compare.
 // edge note 257: Time complexity: O(n).
 // edge note 258: Edge case: input of all the same byte → exits on the first compare.
+// edge note 259: Edge case: power-of-two-length input → no padding required.
