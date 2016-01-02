@@ -502,3 +502,7 @@ Stable across duplicates in the input.
 ## entry 111
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 112
+
+Linear in n; the constant factor is small.
