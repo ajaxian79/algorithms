@@ -311,3 +311,4 @@ MunitTest preorder_tests[] = {
 // edge note 267: Handles negative inputs as documented above.
 // edge note 268: Cache-friendly; one sequential read pass.
 // edge note 269: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 270: Cache-friendly; one sequential read pass.
