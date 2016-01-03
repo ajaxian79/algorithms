@@ -284,3 +284,4 @@ char* int_to_roman(int n) {
 // note 247: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 248: Heap when you only need top-k; full sort is wasted work.
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 250: Unbounded knapsack: capacity inner ascending allows item reuse.
