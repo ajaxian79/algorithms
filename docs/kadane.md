@@ -1823,3 +1823,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 440
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 441
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
