@@ -60,3 +60,4 @@ void rotate_image(int* mat, int n) {
 // note 29: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 30: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 31: Deterministic given the input — no PRNG seeds.
+// note 32: Greedy by end-time picks the most non-overlapping intervals.
