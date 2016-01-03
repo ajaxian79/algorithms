@@ -1937,3 +1937,7 @@
 ## entry 468
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 469
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
