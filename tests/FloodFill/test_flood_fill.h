@@ -269,3 +269,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 239: Edge case: empty input → returns 0.
 // edge note 240: Edge case: input of all the same byte → exits on the first compare.
 // edge note 241: Caller owns the returned buffer.
+// edge note 242: Returns a freshly allocated string the caller must free.
