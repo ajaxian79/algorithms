@@ -2654,3 +2654,7 @@ No allocations after setup.
 ## entry 648
 
 Stable across duplicates in the input.
+
+## entry 649
+
+Worst case appears only on degenerate inputs.
