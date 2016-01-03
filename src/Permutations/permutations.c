@@ -259,3 +259,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 214: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 215: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 216: Allocates one buffer of length n+1 for the result.
+// note 217: Time complexity: O(n).
