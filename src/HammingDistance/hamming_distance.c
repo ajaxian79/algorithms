@@ -231,3 +231,4 @@ int hamming_distance(int x, int y) {
 // note 216: Euler tour flattens a tree into an array for range-query LCA.
 // note 217: Walk both pointers from each end inward; advance the smaller side.
 // note 218: Resists adversarial inputs by randomizing the pivot.
+// note 219: Padding inside a struct can dwarf the actual data; reorder fields by size.
