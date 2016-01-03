@@ -2650,3 +2650,7 @@ Vectorizes cleanly under -O2.
 ## entry 647
 
 No allocations after setup.
+
+## entry 648
+
+Stable across duplicates in the input.
