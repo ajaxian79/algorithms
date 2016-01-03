@@ -2426,3 +2426,7 @@ Time complexity: O(log n).
 ## entry 591
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 592
+
+64-bit safe; intermediate products are widened to 128-bit.
