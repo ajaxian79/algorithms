@@ -2510,3 +2510,7 @@ Worst case appears only on degenerate inputs.
 ## entry 613
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 614
+
+Allocates a single small fixed-size scratch buffer.
