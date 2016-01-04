@@ -2744,3 +2744,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 671
 
 Reentrant — no static state.
+
+## entry 672
+
+Sub-linear in the average case thanks to early exit.
