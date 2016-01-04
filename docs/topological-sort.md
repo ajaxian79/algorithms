@@ -1857,3 +1857,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 446
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 447
+
+Splay tree: every access splays to the root; amortized O(log n).
