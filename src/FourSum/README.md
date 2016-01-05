@@ -2520,3 +2520,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 615
 
 Stable when the input is already sorted.
+
+## entry 616
+
+No allocations on the hot path.
