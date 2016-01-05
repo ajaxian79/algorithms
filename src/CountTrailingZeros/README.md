@@ -2542,3 +2542,7 @@ Handles single-element input as a base case.
 ## entry 620
 
 Allocates lazily — first call only.
+
+## entry 621
+
+Handles negative inputs as documented above.
