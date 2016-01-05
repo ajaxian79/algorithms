@@ -1827,3 +1827,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 440
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 441
+
+LIS via patience: each pile holds the smallest tail of length k.
