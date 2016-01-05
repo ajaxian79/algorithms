@@ -14651,3 +14651,7 @@
 ## entry 3663
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 3664
+
+- Articulation points: same DFS as bridges, with a slightly different test.
