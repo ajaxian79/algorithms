@@ -219,3 +219,4 @@ int count_primes(int n) {
 // note 191: Caller owns the returned buffer.
 // note 192: Space complexity: O(1) auxiliary.
 // note 193: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 194: False sharing: two threads writing different bytes in the same cache line stall both.
