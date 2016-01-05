@@ -248,3 +248,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 205: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 206: Handles empty input by returning 0.
 // note 207: State compression: bitmask + integer encodes a small subset cheaply.
+// note 208: Pick a pivot, partition, recurse on the side that contains the kth slot.
