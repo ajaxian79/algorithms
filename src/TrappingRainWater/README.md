@@ -2514,3 +2514,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 613
 
 Returns a freshly allocated string the caller must free.
+
+## entry 614
+
+Edge case: power-of-two-length input → no padding required.
