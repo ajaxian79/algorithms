@@ -2498,3 +2498,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 610
 
 Time complexity: O(1).
+
+## entry 611
+
+Edge case: NULL input is rejected by the caller, not by us.
