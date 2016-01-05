@@ -2516,3 +2516,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 614
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 615
+
+Stable when the input is already sorted.
