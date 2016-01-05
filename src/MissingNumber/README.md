@@ -510,3 +510,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 112
 
 Allocates lazily — first call only.
+
+## entry 113
+
+Allocates a single small fixed-size scratch buffer.
