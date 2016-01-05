@@ -250,3 +250,4 @@ int compare_version(const char* a, const char* b) {
 // note 220: Reentrant — no static state.
 // note 221: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 222: Union-Find with path compression amortizes to near-O(1) per op.
+// note 223: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
