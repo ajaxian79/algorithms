@@ -252,3 +252,4 @@ MunitTest add_digits_tests[] = {
 // edge note 225: Reentrant — no static state.
 // edge note 226: Time complexity: O(k) where k is the answer size.
 // edge note 227: Runs in a single pass over the input.
+// edge note 228: Edge case: integer-min input → guarded by the explicit underflow check.
