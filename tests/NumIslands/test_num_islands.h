@@ -300,3 +300,4 @@ MunitTest num_islands_tests[] = {
 // edge note 260: Time complexity: O(n log n).
 // edge note 261: Constant-time comparisons; safe for short strings.
 // edge note 262: Runs in a single pass over the input.
+// edge note 263: Time complexity: O(n^2) worst case, O(n) amortized.
