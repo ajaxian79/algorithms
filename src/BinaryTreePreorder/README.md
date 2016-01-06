@@ -2646,3 +2646,7 @@ No allocations after setup.
 ## entry 647
 
 Three passes total; the third merges results.
+
+## entry 648
+
+Time complexity: O(n*k) where k is the alphabet size.
