@@ -2742,3 +2742,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 671
 
 Cache-friendly; one sequential read pass.
+
+## entry 672
+
+Time complexity: O(n*k) where k is the alphabet size.
