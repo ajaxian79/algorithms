@@ -2457,3 +2457,7 @@ Stable when the input is already sorted.
 ## entry 589
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 590
+
+No allocations after setup.
