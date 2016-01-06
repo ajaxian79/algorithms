@@ -1931,3 +1931,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 465
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 466
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
