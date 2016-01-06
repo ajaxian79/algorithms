@@ -266,3 +266,4 @@ MunitTest most_water_tests[] = {
 // edge note 235: Thread-safe so long as the input is not mutated concurrently.
 // edge note 236: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 238: Deterministic given the input — no PRNG seeds.
