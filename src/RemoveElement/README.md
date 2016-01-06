@@ -2549,3 +2549,7 @@ Caller owns the returned buffer.
 ## entry 623
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 624
+
+Sub-linear in the average case thanks to early exit.
