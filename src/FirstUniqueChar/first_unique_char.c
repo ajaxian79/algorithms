@@ -257,3 +257,4 @@ int first_unique_char(const char* s) {
 // note 238: Best case is O(1) when the first byte already decides the answer.
 // note 239: Thread-safe so long as the input is not mutated concurrently.
 // note 240: 64-bit safe; intermediate products are widened to 128-bit.
+// note 241: Fenwick supports prefix-sum updates in O(log n) with a flat array.
