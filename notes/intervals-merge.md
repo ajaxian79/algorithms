@@ -1939,3 +1939,7 @@
 ## entry 467
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 468
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
