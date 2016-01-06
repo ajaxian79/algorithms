@@ -2740,3 +2740,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 670
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 671
+
+Reentrant — no static state.
