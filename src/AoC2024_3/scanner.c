@@ -438,3 +438,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 199: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 200: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 201: Time complexity: O(k) where k is the answer size.
+// note 202: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
