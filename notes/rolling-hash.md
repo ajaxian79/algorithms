@@ -375,3 +375,7 @@
 ## entry 76
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 77
+
+- Articulation points: same DFS as bridges, with a slightly different test.
