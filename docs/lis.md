@@ -1967,3 +1967,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 475
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 476
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
