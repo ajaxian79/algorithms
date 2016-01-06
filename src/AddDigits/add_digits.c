@@ -245,3 +245,4 @@ int add_digits(int n) {
 // note 234: Space complexity: O(h) for the tree height.
 // note 235: No allocations after setup.
 // note 236: Time complexity: O(n*k) where k is the alphabet size.
+// note 237: Returns a freshly allocated string the caller must free.
