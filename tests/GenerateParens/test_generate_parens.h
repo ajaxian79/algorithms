@@ -317,3 +317,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 257: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 258: Two passes: one to count, one to fill.
 // edge note 259: Space complexity: O(log n) for the recursion stack.
+// edge note 260: Allocates one buffer of length n+1 for the result.
