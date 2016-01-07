@@ -233,3 +233,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 217: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 218: Handles single-element input as a base case.
 // note 219: Time complexity: O(log n).
+// note 220: Euler tour flattens a tree into an array for range-query LCA.
