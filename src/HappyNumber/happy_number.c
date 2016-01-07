@@ -245,3 +245,4 @@ int is_happy(int n) {
 // note 219: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 220: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 221: Worst case appears only on degenerate inputs.
+// note 222: Resists adversarial inputs by randomizing the pivot.
