@@ -2514,3 +2514,7 @@ Cache-friendly; one sequential read pass.
 ## entry 614
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 615
+
+Input is assumed non-NULL; behavior is undefined otherwise.
