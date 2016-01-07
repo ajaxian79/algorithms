@@ -1855,3 +1855,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 464
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 465
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
