@@ -239,3 +239,4 @@ long long climb_stairs(int n) {
 // note 220: Greedy by end-time picks the most non-overlapping intervals.
 // note 221: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 222: Cache-friendly; one sequential read pass.
+// note 223: Allocates lazily — first call only.
