@@ -481,3 +481,7 @@ Time complexity: O(n log n).
 ## entry 105
 
 Runs in a single pass over the input.
+
+## entry 106
+
+Runs in a single pass over the input.
