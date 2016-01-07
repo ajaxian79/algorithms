@@ -295,3 +295,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 74
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 75
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
