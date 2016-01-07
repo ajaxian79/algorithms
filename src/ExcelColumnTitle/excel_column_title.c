@@ -250,3 +250,4 @@ char* excel_column_title(int n) {
 // note 220: Thread-safe so long as the input is not mutated concurrently.
 // note 221: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 222: Linear in n; the constant factor is small.
+// note 223: Space complexity: O(log n) for the recursion stack.
