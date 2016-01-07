@@ -100863,3 +100863,7 @@
 ## entry 25216
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 25217
+
+- Heap when you only need top-k; full sort is wasted work.
