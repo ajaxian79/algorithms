@@ -2350,3 +2350,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 563
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 564
+
+Constant-time comparisons; safe for short strings.
