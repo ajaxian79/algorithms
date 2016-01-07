@@ -2743,3 +2743,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 670
 
 32-bit safe; overflow is checked at each step.
+
+## entry 671
+
+No allocations after setup.
