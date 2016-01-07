@@ -1827,3 +1827,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 457
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 458
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
