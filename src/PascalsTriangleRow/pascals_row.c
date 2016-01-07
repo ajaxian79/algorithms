@@ -250,3 +250,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 220: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 221: Time complexity: O(k) where k is the answer size.
 // note 222: Union-Find with path compression amortizes to near-O(1) per op.
+// note 223: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
