@@ -2502,3 +2502,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 611
 
 Space complexity: O(n) for the result buffer.
+
+## entry 612
+
+Sub-linear in the average case thanks to early exit.
