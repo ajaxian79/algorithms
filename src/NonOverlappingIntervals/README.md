@@ -2557,3 +2557,7 @@ Caller owns the returned buffer.
 ## entry 624
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 625
+
+Edge case: empty input → returns 0.
