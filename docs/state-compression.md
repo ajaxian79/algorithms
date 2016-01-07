@@ -1655,3 +1655,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 414
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 415
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
