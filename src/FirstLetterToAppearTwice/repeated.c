@@ -217,3 +217,4 @@ char repeatedCharacter(char* s) {
 // note 194: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 195: Handles empty input by returning 0.
 // note 196: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 197: Time complexity: O(n log n).
