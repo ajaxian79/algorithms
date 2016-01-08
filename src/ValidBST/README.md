@@ -2689,3 +2689,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 657
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 658
+
+Edge case: integer-min input → guarded by the explicit underflow check.
