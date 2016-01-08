@@ -249,3 +249,4 @@ int compare_version(const char* a, const char* b) {
 // note 219: LIS via patience: each pile holds the smallest tail of length k.
 // note 220: Reentrant — no static state.
 // note 221: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 222: Union-Find with path compression amortizes to near-O(1) per op.
