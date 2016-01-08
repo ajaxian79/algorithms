@@ -2545,3 +2545,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 622
 
 Caller owns the returned buffer.
+
+## entry 623
+
+Edge case: already-sorted input → no swaps performed.
