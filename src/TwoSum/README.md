@@ -2449,3 +2449,7 @@ Space complexity: O(h) for the tree height.
 ## entry 587
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 588
+
+Stable when the input is already sorted.
