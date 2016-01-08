@@ -2538,3 +2538,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 619
 
 Handles single-element input as a base case.
+
+## entry 620
+
+Allocates lazily — first call only.
