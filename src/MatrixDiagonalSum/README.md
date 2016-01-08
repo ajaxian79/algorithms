@@ -2714,3 +2714,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 664
 
 Linear in n; the constant factor is small.
+
+## entry 665
+
+Edge case: input of all the same byte → exits on the first compare.
