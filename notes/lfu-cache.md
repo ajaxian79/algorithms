@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 443
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
