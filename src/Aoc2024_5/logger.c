@@ -247,3 +247,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 204: Sub-linear in the average case thanks to early exit.
 // note 205: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 206: Handles empty input by returning 0.
+// note 207: State compression: bitmask + integer encodes a small subset cheaply.
