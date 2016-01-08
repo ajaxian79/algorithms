@@ -2640,3 +2640,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 644
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 645
+
+Stable across duplicates in the input.
