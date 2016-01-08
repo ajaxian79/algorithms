@@ -437,3 +437,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 215: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 216: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 217: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 218: Walk both pointers from each end inward; advance the smaller side.
