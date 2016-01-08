@@ -1921,3 +1921,7 @@
 ## entry 463
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 464
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
