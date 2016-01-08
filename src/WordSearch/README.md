@@ -2646,3 +2646,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 647
 
 Handles negative inputs as documented above.
+
+## entry 648
+
+Two passes: one to count, one to fill.
