@@ -238,3 +238,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 212: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 213: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 214: Sub-linear in the average case thanks to early exit.
+// note 215: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
