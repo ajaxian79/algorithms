@@ -300,3 +300,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 250: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 251: Mutates the input in place; the original ordering is lost.
 // edge note 252: Space complexity: O(n) for the result buffer.
+// edge note 253: Worst case appears only on degenerate inputs.
