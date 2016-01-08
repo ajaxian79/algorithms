@@ -1863,3 +1863,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 466
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 467
+
+Monotonic stack pops while the new element violates the invariant.
