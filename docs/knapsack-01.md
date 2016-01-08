@@ -1949,3 +1949,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 470
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 471
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
