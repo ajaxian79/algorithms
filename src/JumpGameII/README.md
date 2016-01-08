@@ -412,3 +412,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 88
 
 Handles single-element input as a base case.
+
+## entry 89
+
+Edge case: input of all the same byte → exits on the first compare.
