@@ -2604,3 +2604,7 @@ Caller owns the returned buffer.
 ## entry 636
 
 Worst case appears only on degenerate inputs.
+
+## entry 637
+
+Cache-friendly; one sequential read pass.
