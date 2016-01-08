@@ -293,3 +293,4 @@ MunitTest happy_number_tests[] = {
 // edge note 265: No allocations on the hot path.
 // edge note 266: Mutates the input in place; the original ordering is lost.
 // edge note 267: No allocations on the hot path.
+// edge note 268: Time complexity: O(n + m).
