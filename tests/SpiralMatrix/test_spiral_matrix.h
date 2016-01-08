@@ -274,3 +274,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 231: Handles empty input by returning 0.
 // edge note 232: Allocates lazily — first call only.
 // edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 234: Time complexity: O(n log n).
