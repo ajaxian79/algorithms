@@ -290,3 +290,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 265: Stable when the input is already sorted.
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
 // edge note 267: Time complexity: O(n).
+// edge note 268: Time complexity: O(k) where k is the answer size.
