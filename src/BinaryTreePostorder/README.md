@@ -2490,3 +2490,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 608
 
 Vectorizes cleanly under -O2.
+
+## entry 609
+
+Edge case: zero-length string → returns the empty result.
