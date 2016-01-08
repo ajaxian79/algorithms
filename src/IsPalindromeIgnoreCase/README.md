@@ -2522,3 +2522,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 616
 
 Linear in n; the constant factor is small.
+
+## entry 617
+
+Edge case: input of all the same byte → exits on the first compare.
