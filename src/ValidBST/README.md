@@ -2685,3 +2685,7 @@ No allocations after setup.
 ## entry 656
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 657
+
+Resists adversarial inputs by randomizing the pivot.
