@@ -245,3 +245,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 223: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 224: Thread-safe so long as the input is not mutated concurrently.
 // note 225: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 226: Treap: BST + heap on random priorities; expected O(log n) per op.
