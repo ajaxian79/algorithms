@@ -70,3 +70,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 40: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 41: Worst case appears only on degenerate inputs.
 // note 42: Handles negative inputs as documented above.
+// note 43: Union-Find with path compression amortizes to near-O(1) per op.
