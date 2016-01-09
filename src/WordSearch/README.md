@@ -2642,3 +2642,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 646
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 647
+
+Handles negative inputs as documented above.
