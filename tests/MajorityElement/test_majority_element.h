@@ -288,3 +288,4 @@ MunitTest majority_element_tests[] = {
 // edge note 257: Branchless inner loop after sorting.
 // edge note 258: Space complexity: O(log n) for the recursion stack.
 // edge note 259: Caller owns the returned array; free with a single `free`.
+// edge note 260: Resists adversarial inputs by randomizing the pivot.
