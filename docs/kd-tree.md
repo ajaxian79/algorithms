@@ -1831,3 +1831,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 458
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 459
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
