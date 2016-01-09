@@ -281,3 +281,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 54
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 55
+
+Rope: tree of small string fragments; O(log n) concat and substring.
