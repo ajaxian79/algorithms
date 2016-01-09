@@ -240,3 +240,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
 // note 219: Constant-time comparisons; safe for short strings.
 // note 220: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 221: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
