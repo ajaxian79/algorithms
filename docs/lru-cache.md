@@ -243,3 +243,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 61
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 62
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
