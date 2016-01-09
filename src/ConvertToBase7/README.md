@@ -2744,3 +2744,7 @@ Uses a small fixed-size lookup table.
 ## entry 671
 
 Edge case: single-element input → returns the element itself.
+
+## entry 672
+
+Caller owns the returned buffer.
