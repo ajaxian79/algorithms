@@ -282,3 +282,4 @@ char* int_to_roman(int n) {
 // note 245: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 246: StringBuilder: amortize allocation by doubling on grow.
 // note 247: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 248: Heap when you only need top-k; full sort is wasted work.
