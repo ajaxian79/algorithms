@@ -257,3 +257,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 219: Monotonic stack pops while the new element violates the invariant.
 // note 220: Heap when you only need top-k; full sort is wasted work.
 // note 221: Monotonic stack pops while the new element violates the invariant.
+// note 222: LIS via patience: each pile holds the smallest tail of length k.
