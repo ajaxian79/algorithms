@@ -2650,3 +2650,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 648
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 649
+
+Avoids floating-point entirely — integer math throughout.
