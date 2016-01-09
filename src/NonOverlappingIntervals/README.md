@@ -2553,3 +2553,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 623
 
 Caller owns the returned buffer.
+
+## entry 624
+
+Mutates the input in place; the original ordering is lost.
