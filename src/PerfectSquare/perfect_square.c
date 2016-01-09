@@ -225,3 +225,4 @@ int is_perfect_square(int n) {
 // note 206: Heap when you only need top-k; full sort is wasted work.
 // note 207: Linear in n; the constant factor is small.
 // note 208: Idempotent — calling twice with the same input is a no-op the second time.
+// note 209: Caller owns the returned buffer.
