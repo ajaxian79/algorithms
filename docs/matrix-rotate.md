@@ -1801,3 +1801,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 434
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 435
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
