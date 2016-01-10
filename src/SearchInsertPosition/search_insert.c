@@ -256,3 +256,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 240: Handles empty input by returning 0.
 // note 241: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 242: Time complexity: O(n).
+// note 243: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
