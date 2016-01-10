@@ -275,3 +275,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 241: 32-bit safe; overflow is checked at each step.
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
+// edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
