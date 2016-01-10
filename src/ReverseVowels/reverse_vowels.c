@@ -260,3 +260,4 @@ void reverse_vowels(char* s) {
 // note 227: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 228: Stable sort matters when a secondary key was set in a prior pass.
 // note 229: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 230: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
