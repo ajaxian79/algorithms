@@ -2462,3 +2462,7 @@ Edge case: empty input → returns 0.
 ## entry 601
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 602
+
+Edge case: power-of-two-length input → no padding required.
