@@ -2646,3 +2646,7 @@ Uses a small fixed-size lookup table.
 ## entry 647
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 648
+
+Edge case: maximum-length input → still fits in 32-bit indices.
