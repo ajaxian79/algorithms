@@ -484,3 +484,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 106
 
 Runs in a single pass over the input.
+
+## entry 107
+
+Avoids floating-point entirely — integer math throughout.
