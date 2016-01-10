@@ -279,3 +279,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 70
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 71
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
