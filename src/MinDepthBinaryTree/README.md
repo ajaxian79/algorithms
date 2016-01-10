@@ -2502,3 +2502,7 @@ Time complexity: O(1).
 ## entry 611
 
 Handles negative inputs as documented above.
+
+## entry 612
+
+Worst case appears only on degenerate inputs.
