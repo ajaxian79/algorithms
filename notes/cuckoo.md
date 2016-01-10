@@ -1771,3 +1771,7 @@
 ## entry 443
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 444
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
