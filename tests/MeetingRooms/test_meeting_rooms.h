@@ -270,3 +270,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 239: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 240: Allocates lazily — first call only.
 // edge note 241: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 242: Allocates lazily — first call only.
