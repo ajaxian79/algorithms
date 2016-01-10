@@ -1751,3 +1751,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 438
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 439
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
