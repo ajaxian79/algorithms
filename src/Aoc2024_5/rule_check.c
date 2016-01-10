@@ -694,3 +694,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 207: Reentrant — no static state.
 // note 208: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 209: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 210: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
