@@ -1833,3 +1833,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 442
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 443
+
+Euler tour flattens a tree into an array for range-query LCA.
