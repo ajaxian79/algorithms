@@ -2518,3 +2518,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 615
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 616
+
+Linear in n; the constant factor is small.
