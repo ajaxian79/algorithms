@@ -234,3 +234,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 216: Time complexity: O(n*k) where k is the alphabet size.
 // note 217: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 218: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
