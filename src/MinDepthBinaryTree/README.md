@@ -2506,3 +2506,7 @@ Handles negative inputs as documented above.
 ## entry 612
 
 Worst case appears only on degenerate inputs.
+
+## entry 613
+
+Deterministic given the input — no PRNG seeds.
