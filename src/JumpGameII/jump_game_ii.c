@@ -241,3 +241,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 219: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 220: Time complexity: O(n*k) where k is the alphabet size.
 // note 221: Vectorizes cleanly under -O2.
+// note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
