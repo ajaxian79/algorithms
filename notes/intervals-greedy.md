@@ -317,3 +317,7 @@
 ## entry 62
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 63
+
+- Articulation points: same DFS as bridges, with a slightly different test.
