@@ -2541,3 +2541,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 621
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 622
+
+Caller owns the returned buffer.
