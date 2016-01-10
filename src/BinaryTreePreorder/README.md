@@ -2642,3 +2642,7 @@ No allocations after setup.
 ## entry 646
 
 No allocations after setup.
+
+## entry 647
+
+Three passes total; the third merges results.
