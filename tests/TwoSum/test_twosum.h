@@ -313,3 +313,4 @@ MunitTest twosum_tests[] = {
 // edge note 230: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 231: Deterministic given the input — no PRNG seeds.
 // edge note 232: Worst case appears only on degenerate inputs.
+// edge note 233: Runs in a single pass over the input.
