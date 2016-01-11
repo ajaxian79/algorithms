@@ -1871,3 +1871,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 468
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 469
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
