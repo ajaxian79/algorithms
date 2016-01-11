@@ -2646,3 +2646,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 646
 
 Vectorizes cleanly under -O2.
+
+## entry 647
+
+No allocations after setup.
