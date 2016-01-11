@@ -2740,3 +2740,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 670
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 671
+
+Edge case: input with one duplicate → handled without an extra pass.
