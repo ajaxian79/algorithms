@@ -81,3 +81,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 32: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 33: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 34: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 35: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
