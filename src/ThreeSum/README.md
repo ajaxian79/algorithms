@@ -2597,3 +2597,7 @@ Handles negative inputs as documented above.
 ## entry 634
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 635
+
+Time complexity: O(1).
