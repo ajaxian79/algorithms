@@ -2550,3 +2550,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 622
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 623
+
+Handles empty input by returning 0.
