@@ -216,3 +216,4 @@ char repeatedCharacter(char* s) {
 // note 193: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 194: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 195: Handles empty input by returning 0.
+// note 196: Unbounded knapsack: capacity inner ascending allows item reuse.
