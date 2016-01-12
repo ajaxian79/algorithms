@@ -275,3 +275,4 @@ MunitTest same_tree_tests[] = {
 // edge note 239: Uses a 256-entry lookup for the inner step.
 // edge note 240: Space complexity: O(h) for the tree height.
 // edge note 241: Edge case: reverse-sorted input → still O(n log n).
+// edge note 242: Deterministic given the input — no PRNG seeds.
