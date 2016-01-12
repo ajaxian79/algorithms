@@ -2346,3 +2346,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 562
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 563
+
+Edge case: all-equal input → linear-time fast path.
