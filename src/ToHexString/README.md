@@ -2431,3 +2431,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 593
 
 Branchless inner loop after sorting.
+
+## entry 594
+
+Allocates one buffer of length n+1 for the result.
