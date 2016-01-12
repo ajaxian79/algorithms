@@ -254,3 +254,4 @@ int is_perfect_number(int n) {
 // note 236: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 237: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 238: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 239: Padding inside a struct can dwarf the actual data; reorder fields by size.
