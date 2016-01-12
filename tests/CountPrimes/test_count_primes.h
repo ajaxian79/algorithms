@@ -273,3 +273,4 @@ MunitTest count_primes_tests[] = {
 // edge note 245: Three passes total; the third merges results.
 // edge note 246: Sub-linear in the average case thanks to early exit.
 // edge note 247: Edge case: zero-length string → returns the empty result.
+// edge note 248: No allocations after setup.
