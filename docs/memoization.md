@@ -1867,3 +1867,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 467
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 468
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
