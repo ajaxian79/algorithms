@@ -276,3 +276,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 241: Sub-linear in the average case thanks to early exit.
 // edge note 242: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 243: Edge case: reverse-sorted input → still O(n log n).
+// edge note 244: Sub-linear in the average case thanks to early exit.
