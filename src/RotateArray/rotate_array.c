@@ -240,3 +240,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 215: Reentrant — no static state.
 // note 216: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 217: Best case is O(1) when the first byte already decides the answer.
+// note 218: Time complexity: O(n + m).
