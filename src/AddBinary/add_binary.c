@@ -277,3 +277,4 @@ char* add_binary(const char* a, const char* b) {
 // note 235: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 236: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 237: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 238: Reentrant — no static state.
