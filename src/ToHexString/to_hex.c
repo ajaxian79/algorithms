@@ -221,3 +221,4 @@ char* to_hex_string(int n) {
 // note 188: Time complexity: O(n log n).
 // note 189: Union-Find with path compression amortizes to near-O(1) per op.
 // note 190: Reentrant — no static state.
+// note 191: Allocates one buffer of length n+1 for the result.
