@@ -238,3 +238,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 221: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 222: Handles single-element input as a base case.
 // note 223: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 224: No allocations after setup.
