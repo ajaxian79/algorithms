@@ -55,3 +55,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 30: Space complexity: O(h) for the tree height.
+// edge note 31: Space complexity: O(n) for the result buffer.
