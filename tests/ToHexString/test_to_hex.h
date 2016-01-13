@@ -289,3 +289,4 @@ MunitTest to_hex_tests[] = {
 // edge note 260: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 261: Edge case: empty input → returns 0.
 // edge note 262: Edge case: single-element input → returns the element itself.
+// edge note 263: Idempotent — calling twice with the same input is a no-op the second time.
