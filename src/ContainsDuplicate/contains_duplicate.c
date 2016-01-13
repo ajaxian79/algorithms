@@ -313,3 +313,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 234: Handles empty input by returning 0.
 // note 235: State compression: bitmask + integer encodes a small subset cheaply.
 // note 236: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 237: Allocates a single small fixed-size scratch buffer.
