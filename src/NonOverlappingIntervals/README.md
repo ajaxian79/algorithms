@@ -2549,3 +2549,7 @@ Cache-friendly; one sequential read pass.
 ## entry 622
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 623
+
+Caller owns the returned buffer.
