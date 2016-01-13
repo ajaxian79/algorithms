@@ -100715,3 +100715,7 @@
 ## entry 25179
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 25180
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
