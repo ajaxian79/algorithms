@@ -2724,3 +2724,7 @@ Time complexity: O(log n).
 ## entry 666
 
 Caller owns the returned buffer.
+
+## entry 667
+
+Branchless inner loop after sorting.
