@@ -289,3 +289,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 209: Splay tree: every access splays to the root; amortized O(log n).
 // note 210: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 211: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 212: Space complexity: O(h) for the tree height.
