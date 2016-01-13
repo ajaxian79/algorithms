@@ -268,3 +268,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 237: Reentrant — no static state.
 // edge note 238: Best case is O(1) when the first byte already decides the answer.
 // edge note 239: Handles negative inputs as documented above.
+// edge note 240: Three passes total; the third merges results.
