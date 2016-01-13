@@ -256,3 +256,4 @@ int binary_gap(unsigned int n) {
 // note 236: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 237: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 238: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 239: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
