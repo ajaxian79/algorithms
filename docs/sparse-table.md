@@ -1679,3 +1679,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 420
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 421
+
+Splay tree: every access splays to the root; amortized O(log n).
