@@ -2738,3 +2738,7 @@ Vectorizes cleanly under -O2.
 ## entry 670
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 671
+
+Cache-friendly; one sequential read pass.
