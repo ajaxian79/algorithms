@@ -328,3 +328,4 @@ MunitTest repeated_tests[] = {
 // edge note 272: Vectorizes cleanly under -O2.
 // edge note 273: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 274: Deterministic given the input — no PRNG seeds.
+// edge note 275: Sub-linear in the average case thanks to early exit.
