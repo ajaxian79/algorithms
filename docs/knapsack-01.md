@@ -1945,3 +1945,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 469
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 470
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
