@@ -442,3 +442,7 @@ Handles negative inputs as documented above.
 ## entry 86
 
 Handles negative inputs as documented above.
+
+## entry 87
+
+Uses a 256-entry lookup for the inner step.
