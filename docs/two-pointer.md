@@ -1923,3 +1923,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 463
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 464
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
