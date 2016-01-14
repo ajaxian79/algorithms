@@ -1835,3 +1835,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 459
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 460
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
