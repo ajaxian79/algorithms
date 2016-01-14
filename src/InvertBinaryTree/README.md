@@ -2732,3 +2732,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 668
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 669
+
+Resists adversarial inputs by randomizing the pivot.
