@@ -279,3 +279,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 254: Time complexity: O(n + m).
 // edge note 255: Time complexity: O(log n).
 // edge note 256: Resists adversarial inputs by randomizing the pivot.
+// edge note 257: Edge case: reverse-sorted input → still O(n log n).
