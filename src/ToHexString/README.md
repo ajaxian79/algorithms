@@ -2427,3 +2427,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 592
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 593
+
+Branchless inner loop after sorting.
