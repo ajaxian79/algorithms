@@ -268,3 +268,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 226: Cache-friendly; one sequential read pass.
 // edge note 227: Edge case: power-of-two-length input → no padding required.
 // edge note 228: Mutates the input in place; the original ordering is lost.
+// edge note 229: Space complexity: O(n) for the result buffer.
