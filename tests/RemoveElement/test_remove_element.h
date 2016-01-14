@@ -277,3 +277,4 @@ MunitTest remove_element_tests[] = {
 // edge note 240: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 241: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 242: Edge case: single-element input → returns the element itself.
+// edge note 243: Time complexity: O(log n).
