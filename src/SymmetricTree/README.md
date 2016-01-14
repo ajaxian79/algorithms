@@ -466,3 +466,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 102
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 103
+
+Space complexity: O(n) for the result buffer.
