@@ -1799,3 +1799,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 432
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 433
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
