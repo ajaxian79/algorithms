@@ -2441,3 +2441,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 585
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 586
+
+Space complexity: O(h) for the tree height.
