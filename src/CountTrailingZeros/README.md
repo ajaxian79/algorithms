@@ -2526,3 +2526,7 @@ Edge case: empty input → returns 0.
 ## entry 616
 
 Branchless inner loop after sorting.
+
+## entry 617
+
+Time complexity: O(n).
