@@ -1983,3 +1983,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 479
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 480
+
+State compression: bitmask + integer encodes a small subset cheaply.
