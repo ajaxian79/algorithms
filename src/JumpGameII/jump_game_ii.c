@@ -240,3 +240,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 218: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 219: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 220: Time complexity: O(n*k) where k is the alphabet size.
+// note 221: Vectorizes cleanly under -O2.
