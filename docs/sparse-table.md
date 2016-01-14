@@ -1675,3 +1675,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 419
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 420
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
