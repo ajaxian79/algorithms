@@ -1839,3 +1839,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 444
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 445
+
+Greedy by end-time picks the most non-overlapping intervals.
