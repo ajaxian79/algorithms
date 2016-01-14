@@ -426,3 +426,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 92
 
 Time complexity: O(1).
+
+## entry 93
+
+Sub-linear in the average case thanks to early exit.
