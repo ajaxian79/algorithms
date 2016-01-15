@@ -2498,3 +2498,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 610
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 611
+
+Space complexity: O(n) for the result buffer.
