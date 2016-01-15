@@ -2600,3 +2600,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 635
 
 Caller owns the returned buffer.
+
+## entry 636
+
+Worst case appears only on degenerate inputs.
