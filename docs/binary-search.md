@@ -1961,3 +1961,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 474
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 475
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
