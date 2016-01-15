@@ -2596,3 +2596,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 634
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 635
+
+Caller owns the returned buffer.
