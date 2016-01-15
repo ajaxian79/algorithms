@@ -2510,3 +2510,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 613
 
 Time complexity: O(n log n).
+
+## entry 614
+
+Sub-linear in the average case thanks to early exit.
