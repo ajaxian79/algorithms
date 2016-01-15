@@ -264,3 +264,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 237: Reentrant — no static state.
 // edge note 238: Uses a 256-entry lookup for the inner step.
 // edge note 239: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 240: Mutates the input in place; the original ordering is lost.
