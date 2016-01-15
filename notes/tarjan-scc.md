@@ -1747,3 +1747,7 @@
 ## entry 437
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 438
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
