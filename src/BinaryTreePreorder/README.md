@@ -2634,3 +2634,7 @@ Stable when the input is already sorted.
 ## entry 644
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 645
+
+No allocations after setup.
