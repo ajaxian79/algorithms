@@ -1831,3 +1831,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 458
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 459
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
