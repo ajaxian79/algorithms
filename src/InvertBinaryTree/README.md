@@ -2724,3 +2724,7 @@ Reentrant — no static state.
 ## entry 666
 
 Handles empty input by returning 0.
+
+## entry 667
+
+Best case is O(1) when the first byte already decides the answer.
