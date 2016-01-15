@@ -234,3 +234,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 210: Time complexity: O(log n).
 // note 211: Branchless inner loop after sorting.
 // note 212: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 213: Union-Find with path compression amortizes to near-O(1) per op.
