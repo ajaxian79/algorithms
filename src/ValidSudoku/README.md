@@ -2655,3 +2655,7 @@ Three passes total; the third merges results.
 ## entry 648
 
 Reentrant — no static state.
+
+## entry 649
+
+Uses a 256-entry lookup for the inner step.
