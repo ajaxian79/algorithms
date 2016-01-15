@@ -100651,3 +100651,7 @@
 ## entry 25163
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 25164
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
