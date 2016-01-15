@@ -2736,3 +2736,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 669
 
 Constant-time comparisons; safe for short strings.
+
+## entry 670
+
+Idempotent — calling twice with the same input is a no-op the second time.
