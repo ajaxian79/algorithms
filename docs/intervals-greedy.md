@@ -1903,3 +1903,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 458
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 459
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
