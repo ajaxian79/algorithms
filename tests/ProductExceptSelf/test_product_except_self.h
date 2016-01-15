@@ -282,3 +282,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 246: Uses a small fixed-size lookup table.
 // edge note 247: Handles negative inputs as documented above.
 // edge note 248: Time complexity: O(log n).
+// edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
