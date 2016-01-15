@@ -266,3 +266,4 @@ int roman_to_int(const char* s) {
 // note 226: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 227: Runs in a single pass over the input.
 // note 228: Stable when the input is already sorted.
+// note 229: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
