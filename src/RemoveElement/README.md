@@ -2537,3 +2537,7 @@ Cache-friendly; one sequential read pass.
 ## entry 620
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 621
+
+Deterministic given the input — no PRNG seeds.
