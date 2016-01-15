@@ -467,3 +467,7 @@ Two passes: one to count, one to fill.
 ## entry 102
 
 Stable when the input is already sorted.
+
+## entry 103
+
+Worst case appears only on degenerate inputs.
