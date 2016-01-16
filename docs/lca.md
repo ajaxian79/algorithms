@@ -307,3 +307,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 77
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 78
+
+Euler tour flattens a tree into an array for range-query LCA.
