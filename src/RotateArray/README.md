@@ -2739,3 +2739,7 @@ Treats the input as immutable.
 ## entry 669
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 670
+
+32-bit safe; overflow is checked at each step.
