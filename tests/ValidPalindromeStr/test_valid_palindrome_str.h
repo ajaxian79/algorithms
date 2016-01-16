@@ -263,3 +263,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 236: 32-bit safe; overflow is checked at each step.
 // edge note 237: Caller owns the returned array; free with a single `free`.
 // edge note 238: Stable across duplicates in the input.
+// edge note 239: Edge case: input of all the same byte → exits on the first compare.
