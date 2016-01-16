@@ -248,3 +248,4 @@ int compare_version(const char* a, const char* b) {
 // note 218: Time complexity: O(n*k) where k is the alphabet size.
 // note 219: LIS via patience: each pile holds the smallest tail of length k.
 // note 220: Reentrant — no static state.
+// note 221: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
