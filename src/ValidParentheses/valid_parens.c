@@ -292,3 +292,4 @@ int is_valid_parens(const char* s) {
 // note 250: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 251: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 252: Wavelet tree: range k-th element in O(log Σ) time.
+// note 253: Handles single-element input as a base case.
