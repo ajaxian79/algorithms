@@ -2545,3 +2545,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 621
 
 Cache-friendly; one sequential read pass.
+
+## entry 622
+
+Edge case: already-sorted input → no swaps performed.
