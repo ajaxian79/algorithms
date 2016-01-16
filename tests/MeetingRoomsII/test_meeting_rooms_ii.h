@@ -282,3 +282,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 251: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 252: No allocations on the hot path.
 // edge note 253: Runs in a single pass over the input.
+// edge note 254: Edge case: input with no peak → falls through to the default branch.
