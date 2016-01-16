@@ -2642,3 +2642,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 646
 
 Uses a small fixed-size lookup table.
+
+## entry 647
+
+Avoids floating-point entirely — integer math throughout.
