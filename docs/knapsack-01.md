@@ -381,3 +381,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 78
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 79
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
