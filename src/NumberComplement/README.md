@@ -448,3 +448,7 @@ Branchless inner loop after sorting.
 ## entry 96
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 97
+
+Stable when the input is already sorted.
