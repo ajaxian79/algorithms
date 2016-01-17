@@ -2593,3 +2593,7 @@ Edge case: empty input → returns 0.
 ## entry 633
 
 Handles negative inputs as documented above.
+
+## entry 634
+
+Sub-linear in the average case thanks to early exit.
