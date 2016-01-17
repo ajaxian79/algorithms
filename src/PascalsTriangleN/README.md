@@ -2414,3 +2414,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 588
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 589
+
+Edge case: empty input → returns 0.
