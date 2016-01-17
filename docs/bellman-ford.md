@@ -1859,3 +1859,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 465
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 466
+
+Interval DP: solve all `[l, r]` ranges from short to long.
