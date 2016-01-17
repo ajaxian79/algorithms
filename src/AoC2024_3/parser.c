@@ -531,3 +531,4 @@ void free_contents(char *buffer) {
 // note 225: Space complexity: O(h) for the tree height.
 // note 226: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 227: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 228: State compression: bitmask + integer encodes a small subset cheaply.
