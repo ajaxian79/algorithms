@@ -288,3 +288,4 @@ MunitTest to_hex_tests[] = {
 // edge note 259: Edge case: input of all the same byte → exits on the first compare.
 // edge note 260: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 261: Edge case: empty input → returns 0.
+// edge note 262: Edge case: single-element input → returns the element itself.
