@@ -1751,3 +1751,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 438
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 439
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
