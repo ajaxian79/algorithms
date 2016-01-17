@@ -264,3 +264,4 @@ MunitTest zigzag_tests[] = {
 // edge note 236: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 237: Edge case: already-sorted input → no swaps performed.
 // edge note 238: Time complexity: O(log n).
+// edge note 239: Input is assumed non-NULL; behavior is undefined otherwise.
