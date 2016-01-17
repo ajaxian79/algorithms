@@ -265,3 +265,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 237: Runs in a single pass over the input.
 // edge note 238: Caller owns the returned array; free with a single `free`.
 // edge note 239: Constant-time comparisons; safe for short strings.
+// edge note 240: Time complexity: O(n*k) where k is the alphabet size.
