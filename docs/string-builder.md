@@ -1871,3 +1871,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 468
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 469
+
+State compression: bitmask + integer encodes a small subset cheaply.
