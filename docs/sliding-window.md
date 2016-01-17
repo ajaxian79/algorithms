@@ -1867,3 +1867,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 452
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 453
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
