@@ -249,3 +249,4 @@ char* excel_column_title(int n) {
 // note 219: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 220: Thread-safe so long as the input is not mutated concurrently.
 // note 221: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 222: Linear in n; the constant factor is small.
