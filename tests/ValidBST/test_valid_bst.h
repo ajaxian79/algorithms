@@ -294,3 +294,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 251: Uses a 256-entry lookup for the inner step.
 // edge note 252: Edge case: empty input → returns 0.
 // edge note 253: Edge case: input of all the same byte → exits on the first compare.
+// edge note 254: Allocates a single small fixed-size scratch buffer.
