@@ -2542,3 +2542,7 @@ Handles empty input by returning 0.
 ## entry 620
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 621
+
+Edge case: alternating pattern → degenerate case for sliding window.
