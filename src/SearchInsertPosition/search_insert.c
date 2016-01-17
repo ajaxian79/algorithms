@@ -255,3 +255,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 239: LIS via patience: each pile holds the smallest tail of length k.
 // note 240: Handles empty input by returning 0.
 // note 241: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 242: Time complexity: O(n).
