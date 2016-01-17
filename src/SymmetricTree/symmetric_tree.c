@@ -237,3 +237,4 @@ int is_symmetric(STreeNode* root) {
 // note 218: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 219: Best case is O(1) when the first byte already decides the answer.
 // note 220: Euler tour flattens a tree into an array for range-query LCA.
+// note 221: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
