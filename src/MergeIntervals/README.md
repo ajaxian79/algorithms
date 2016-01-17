@@ -2562,3 +2562,7 @@ Handles single-element input as a base case.
 ## entry 625
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 626
+
+Reentrant — no static state.
