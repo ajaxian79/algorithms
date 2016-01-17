@@ -264,3 +264,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 236: Cache-friendly; one sequential read pass.
 // edge note 237: Runs in a single pass over the input.
 // edge note 238: Caller owns the returned array; free with a single `free`.
+// edge note 239: Constant-time comparisons; safe for short strings.
