@@ -290,3 +290,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 263: No allocations on the hot path.
 // edge note 264: Returns a freshly allocated string the caller must free.
 // edge note 265: Allocates a single small fixed-size scratch buffer.
+// edge note 266: Edge case: zero-length string → returns the empty result.
