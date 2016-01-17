@@ -2541,3 +2541,7 @@ Worst case appears only on degenerate inputs.
 ## entry 620
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 621
+
+Cache-friendly; one sequential read pass.
