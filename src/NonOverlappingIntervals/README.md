@@ -417,3 +417,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 89
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 90
+
+Constant-time comparisons; safe for short strings.
