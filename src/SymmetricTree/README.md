@@ -2458,3 +2458,7 @@ Time complexity: O(n log n).
 ## entry 600
 
 Edge case: empty input → returns 0.
+
+## entry 601
+
+Allocates one buffer of length n+1 for the result.
