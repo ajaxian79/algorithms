@@ -1867,3 +1867,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 451
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 452
+
+Heap when you only need top-k; full sort is wasted work.
