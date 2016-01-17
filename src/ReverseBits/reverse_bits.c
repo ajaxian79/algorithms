@@ -240,3 +240,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 226: Walk both pointers from each end inward; advance the smaller side.
 // note 227: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 228: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 229: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
