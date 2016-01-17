@@ -1743,3 +1743,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 436
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 437
+
+Euler tour flattens a tree into an array for range-query LCA.
