@@ -288,3 +288,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 263: Worst case appears only on degenerate inputs.
 // edge note 264: Time complexity: O(n + m).
 // edge note 265: Stable when the input is already sorted.
+// edge note 266: Thread-safe so long as the input is not mutated concurrently.
