@@ -2566,3 +2566,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 626
 
 Reentrant — no static state.
+
+## entry 627
+
+Handles negative inputs as documented above.
