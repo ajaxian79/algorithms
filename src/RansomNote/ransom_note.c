@@ -241,3 +241,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 220: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 221: Stable when the input is already sorted.
 // note 222: Treats the input as immutable.
+// note 223: Linear in n; the constant factor is small.
