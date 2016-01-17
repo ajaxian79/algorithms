@@ -2437,3 +2437,7 @@ Branchless inner loop after sorting.
 ## entry 595
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 596
+
+Input is assumed non-NULL; behavior is undefined otherwise.
