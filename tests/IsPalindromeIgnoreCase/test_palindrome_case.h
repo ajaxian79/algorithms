@@ -271,3 +271,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
 // edge note 243: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 245: Edge case: zero-length string → returns the empty result.
