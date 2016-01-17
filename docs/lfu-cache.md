@@ -1803,3 +1803,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 451
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 452
+
+Greedy by end-time picks the most non-overlapping intervals.
