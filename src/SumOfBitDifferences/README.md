@@ -2604,3 +2604,7 @@ Time complexity: O(1).
 ## entry 636
 
 Uses a small fixed-size lookup table.
+
+## entry 637
+
+Thread-safe so long as the input is not mutated concurrently.
