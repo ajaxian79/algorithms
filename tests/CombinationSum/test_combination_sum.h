@@ -279,3 +279,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 235: Avoids floating-point entirely — integer math throughout.
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: No allocations after setup.
+// edge note 238: Allocates lazily — first call only.
