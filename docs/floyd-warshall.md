@@ -1815,3 +1815,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 454
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 455
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
