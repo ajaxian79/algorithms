@@ -1603,3 +1603,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 401
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 402
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
