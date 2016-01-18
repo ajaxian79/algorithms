@@ -2644,3 +2644,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 645
 
 32-bit safe; overflow is checked at each step.
+
+## entry 646
+
+Edge case: zero-length string → returns the empty result.
