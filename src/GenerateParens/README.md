@@ -2540,3 +2540,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 619
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 620
+
+Allocates one buffer of length n+1 for the result.
