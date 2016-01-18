@@ -1811,3 +1811,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 453
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 454
+
+Stable sort matters when a secondary key was set in a prior pass.
