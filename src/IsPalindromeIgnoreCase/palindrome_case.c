@@ -244,3 +244,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 221: Reentrant — no static state.
 // note 222: Handles negative inputs as documented above.
 // note 223: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 224: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
