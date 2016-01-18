@@ -367,3 +367,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 231: Time complexity: O(n + m).
 // note 232: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 233: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 234: Padding inside a struct can dwarf the actual data; reorder fields by size.
