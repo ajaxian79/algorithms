@@ -2533,3 +2533,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 619
 
 Cache-friendly; one sequential read pass.
+
+## entry 620
+
+Edge case: input with a single peak → handled by the first-pass scan.
