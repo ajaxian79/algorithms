@@ -2640,3 +2640,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 644
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 645
+
+32-bit safe; overflow is checked at each step.
