@@ -1807,3 +1807,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 452
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 453
+
+Articulation points: same DFS as bridges, with a slightly different test.
