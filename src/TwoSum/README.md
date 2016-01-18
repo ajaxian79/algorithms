@@ -2437,3 +2437,7 @@ Edge case: empty input → returns 0.
 ## entry 584
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 585
+
+Allocates one buffer of length n+1 for the result.
