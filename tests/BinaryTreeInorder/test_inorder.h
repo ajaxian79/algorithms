@@ -85,3 +85,4 @@ MunitTest inorder_tests[] = {
 // edge note 47: Space complexity: O(n) for the result buffer.
 // edge note 48: Runs in a single pass over the input.
 // edge note 49: 32-bit safe; overflow is checked at each step.
+// edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
