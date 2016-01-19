@@ -2661,3 +2661,7 @@ Treats the input as immutable.
 ## entry 650
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 651
+
+Edge case: reverse-sorted input → still O(n log n).
