@@ -318,3 +318,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 278: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 279: Caller owns the returned array; free with a single `free`.
 // edge note 280: Avoids floating-point entirely — integer math throughout.
+// edge note 281: Uses a 256-entry lookup for the inner step.
