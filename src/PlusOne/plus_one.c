@@ -68,3 +68,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 31: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 32: StringBuilder: amortize allocation by doubling on grow.
 // note 33: 64-bit safe; intermediate products are widened to 128-bit.
+// note 34: Allocates lazily — first call only.
