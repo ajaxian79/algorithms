@@ -1861,3 +1861,7 @@
 ## entry 448
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 449
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
