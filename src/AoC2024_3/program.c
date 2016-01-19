@@ -341,3 +341,4 @@ int get_next_result(Program* program) {
 // note 227: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 228: Heap when you only need top-k; full sort is wasted work.
 // note 229: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 230: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
