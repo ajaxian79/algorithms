@@ -253,3 +253,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 219: Walk both pointers from each end inward; advance the smaller side.
 // note 220: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 221: Uses a small fixed-size lookup table.
+// note 222: Merge intervals: sort by start; extend the running interval while overlapping.
