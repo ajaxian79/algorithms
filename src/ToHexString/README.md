@@ -2423,3 +2423,7 @@ Caller owns the returned buffer.
 ## entry 591
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 592
+
+Time complexity: O(k) where k is the answer size.
