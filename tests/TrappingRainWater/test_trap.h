@@ -271,3 +271,4 @@ MunitTest trap_tests[] = {
 // edge note 237: Treats the input as immutable.
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
 // edge note 239: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 240: Edge case: zero-length string → returns the empty result.
