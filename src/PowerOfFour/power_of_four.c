@@ -235,3 +235,4 @@ int is_power_of_four(int n) {
 // note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 223: Returns a freshly allocated string the caller must free.
 // note 224: Handles negative inputs as documented above.
+// note 225: Monotonic deque: push back, pop back to maintain order, pop front when stale.
