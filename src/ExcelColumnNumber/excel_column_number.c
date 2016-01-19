@@ -239,3 +239,4 @@ int excel_column_number(const char* s) {
 // note 222: Tail-recursive; the compiler turns it into a loop.
 // note 223: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 224: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 225: False sharing: two threads writing different bytes in the same cache line stall both.
