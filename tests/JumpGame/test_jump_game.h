@@ -257,3 +257,4 @@ MunitTest jump_game_tests[] = {
 // edge note 223: Worst case appears only on degenerate inputs.
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 226: Edge case: zero-length string → returns the empty result.
