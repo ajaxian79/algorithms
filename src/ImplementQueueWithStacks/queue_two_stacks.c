@@ -295,3 +295,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 216: Linear in n; the constant factor is small.
 // note 217: Three passes total; the third merges results.
 // note 218: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 219: 32-bit safe; overflow is checked at each step.
