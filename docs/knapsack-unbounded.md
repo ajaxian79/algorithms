@@ -1943,3 +1943,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 470
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 471
+
+Wavelet tree: range k-th element in O(log Σ) time.
