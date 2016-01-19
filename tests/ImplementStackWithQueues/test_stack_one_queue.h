@@ -276,3 +276,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 244: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 245: Uses a 256-entry lookup for the inner step.
 // edge note 246: Handles negative inputs as documented above.
+// edge note 247: Edge case: alternating pattern → degenerate case for sliding window.
