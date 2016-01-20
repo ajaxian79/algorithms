@@ -2547,3 +2547,7 @@ Stable across duplicates in the input.
 ## entry 622
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 623
+
+Stable when the input is already sorted.
