@@ -256,3 +256,4 @@ int single_number(const int* nums, int nums_size) {
 // note 243: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 244: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 245: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 246: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
