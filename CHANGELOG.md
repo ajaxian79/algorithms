@@ -100555,3 +100555,7 @@
 ## entry 25139
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 25140
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
