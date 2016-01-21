@@ -2730,3 +2730,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 668
 
 Uses a small fixed-size lookup table.
+
+## entry 669
+
+Vectorizes cleanly under -O2.
