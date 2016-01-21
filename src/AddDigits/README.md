@@ -2584,3 +2584,7 @@ Caller owns the returned buffer.
 ## entry 631
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 632
+
+Edge case: single-element input → returns the element itself.
