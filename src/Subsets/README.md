@@ -463,3 +463,7 @@ Two passes: one to count, one to fill.
 ## entry 101
 
 32-bit safe; overflow is checked at each step.
+
+## entry 102
+
+Stable when the input is already sorted.
