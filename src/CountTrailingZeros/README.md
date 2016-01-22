@@ -2514,3 +2514,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 613
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 614
+
+Uses a 256-entry lookup for the inner step.
