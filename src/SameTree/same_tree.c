@@ -265,3 +265,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 251: Thread-safe so long as the input is not mutated concurrently.
 // note 252: Time complexity: O(n log n).
 // note 253: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 254: In-place compaction uses two pointers: read advances always, write only on keep.
