@@ -2552,3 +2552,7 @@ Cache-friendly; one sequential read pass.
 ## entry 622
 
 Uses a small fixed-size lookup table.
+
+## entry 623
+
+Time complexity: O(n).
