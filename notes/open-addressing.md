@@ -1779,3 +1779,7 @@
 ## entry 445
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 446
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
