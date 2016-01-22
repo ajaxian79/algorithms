@@ -1719,3 +1719,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 430
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 431
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
