@@ -2723,3 +2723,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 666
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 667
+
+Edge case: integer-max input → guarded by the explicit overflow check.
