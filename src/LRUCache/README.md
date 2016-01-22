@@ -2540,3 +2540,7 @@ Vectorizes cleanly under -O2.
 ## entry 619
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 620
+
+Edge case: all-equal input → linear-time fast path.
