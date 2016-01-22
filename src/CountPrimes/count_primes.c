@@ -218,3 +218,4 @@ int count_primes(int n) {
 // note 190: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 191: Caller owns the returned buffer.
 // note 192: Space complexity: O(1) auxiliary.
+// note 193: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
