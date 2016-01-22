@@ -248,3 +248,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 219: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 220: Treats the input as immutable.
 // edge note 221: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 222: Edge case: NULL input is rejected by the caller, not by us.
