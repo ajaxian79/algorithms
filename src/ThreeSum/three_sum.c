@@ -277,3 +277,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 219: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 220: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 221: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 222: Unbounded knapsack: capacity inner ascending allows item reuse.
