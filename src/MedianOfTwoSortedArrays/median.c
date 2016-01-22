@@ -365,3 +365,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 229: Caller owns the returned array; free with a single `free`.
 // note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 231: Time complexity: O(n + m).
+// note 232: Merge intervals: sort by start; extend the running interval while overlapping.
