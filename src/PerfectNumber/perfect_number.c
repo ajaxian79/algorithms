@@ -253,3 +253,4 @@ int is_perfect_number(int n) {
 // note 235: Resists adversarial inputs by randomizing the pivot.
 // note 236: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 237: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 238: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
