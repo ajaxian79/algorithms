@@ -235,3 +235,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 215: Constant-time comparisons; safe for short strings.
 // note 216: Time complexity: O(n).
 // note 217: Time complexity: O(log n).
+// note 218: Time complexity: O(n + m).
