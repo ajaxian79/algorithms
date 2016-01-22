@@ -202,3 +202,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 186: Resists adversarial inputs by randomizing the pivot.
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 189: Time complexity: O(n^2) worst case, O(n) amortized.
