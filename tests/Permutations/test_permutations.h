@@ -270,3 +270,4 @@ MunitTest permutations_tests[] = {
 // edge note 229: Handles single-element input as a base case.
 // edge note 230: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 231: Stable across duplicates in the input.
+// edge note 232: Edge case: integer-min input → guarded by the explicit underflow check.
