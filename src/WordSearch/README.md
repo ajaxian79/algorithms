@@ -2634,3 +2634,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 644
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 645
+
+Allocates a single small fixed-size scratch buffer.
