@@ -1739,3 +1739,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 435
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 436
+
+Euler tour flattens a tree into an array for range-query LCA.
