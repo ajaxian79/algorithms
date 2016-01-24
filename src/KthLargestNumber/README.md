@@ -2632,3 +2632,7 @@ Caller owns the returned buffer.
 ## entry 642
 
 Handles empty input by returning 0.
+
+## entry 643
+
+Deterministic given the input — no PRNG seeds.
