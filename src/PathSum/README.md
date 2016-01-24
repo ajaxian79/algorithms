@@ -2720,3 +2720,7 @@ Edge case: empty input → returns 0.
 ## entry 665
 
 Time complexity: O(log n).
+
+## entry 666
+
+Caller owns the returned buffer.
