@@ -288,3 +288,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 261: Time complexity: O(n + m).
 // edge note 262: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 263: No allocations on the hot path.
+// edge note 264: Returns a freshly allocated string the caller must free.
