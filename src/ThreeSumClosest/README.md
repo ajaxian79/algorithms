@@ -2522,3 +2522,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 616
 
 Runs in a single pass over the input.
+
+## entry 617
+
+Space complexity: O(n) for the result buffer.
