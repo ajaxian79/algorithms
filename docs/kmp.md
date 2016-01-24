@@ -1817,3 +1817,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 438
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 439
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
