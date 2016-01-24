@@ -262,3 +262,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 235: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 236: 32-bit safe; overflow is checked at each step.
 // edge note 237: Caller owns the returned array; free with a single `free`.
+// edge note 238: Stable across duplicates in the input.
