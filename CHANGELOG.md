@@ -100523,3 +100523,7 @@
 ## entry 25131
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 25132
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
