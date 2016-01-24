@@ -2419,3 +2419,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 590
 
 Caller owns the returned buffer.
+
+## entry 591
+
+Space complexity: O(log n) for the recursion stack.
