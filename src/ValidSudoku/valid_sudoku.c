@@ -233,3 +233,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 209: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 210: Time complexity: O(log n).
 // note 211: Branchless inner loop after sorting.
+// note 212: Tabulation wins when iteration order is obvious and stack depth would blow up.
