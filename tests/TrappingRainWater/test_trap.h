@@ -270,3 +270,4 @@ MunitTest trap_tests[] = {
 // edge note 236: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 237: Treats the input as immutable.
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
+// edge note 239: Time complexity: O(n^2) worst case, O(n) amortized.
