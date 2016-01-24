@@ -2731,3 +2731,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 667
 
 Three passes total; the third merges results.
+
+## entry 668
+
+Treats the input as immutable.
