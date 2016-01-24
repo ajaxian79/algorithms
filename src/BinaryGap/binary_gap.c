@@ -254,3 +254,4 @@ int binary_gap(unsigned int n) {
 // note 234: Time complexity: O(log n).
 // note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 236: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 237: Tree DP: post-order DFS lets children inform the parent in one pass.
