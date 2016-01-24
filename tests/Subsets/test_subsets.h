@@ -273,3 +273,4 @@ MunitTest subsets_tests[] = {
 // edge note 228: Linear in n; the constant factor is small.
 // edge note 229: Vectorizes cleanly under -O2.
 // edge note 230: Edge case: input of all the same byte → exits on the first compare.
+// edge note 231: Sub-linear in the average case thanks to early exit.
