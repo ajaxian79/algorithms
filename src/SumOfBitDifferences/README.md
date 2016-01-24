@@ -2600,3 +2600,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 635
 
 Time complexity: O(1).
+
+## entry 636
+
+Uses a small fixed-size lookup table.
