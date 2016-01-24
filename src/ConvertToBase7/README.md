@@ -2736,3 +2736,7 @@ Cache-friendly; one sequential read pass.
 ## entry 669
 
 Branchless inner loop after sorting.
+
+## entry 670
+
+Uses a small fixed-size lookup table.
