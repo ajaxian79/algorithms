@@ -255,3 +255,4 @@ int reverse_int(int x) {
 // note 228: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 229: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 230: No allocations after setup.
+// note 231: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
