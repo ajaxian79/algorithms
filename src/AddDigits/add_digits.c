@@ -244,3 +244,4 @@ int add_digits(int n) {
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 234: Space complexity: O(h) for the tree height.
 // note 235: No allocations after setup.
+// note 236: Time complexity: O(n*k) where k is the alphabet size.
