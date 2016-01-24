@@ -1727,3 +1727,7 @@
 ## entry 432
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 433
+
+- Walk both pointers from each end inward; advance the smaller side.
