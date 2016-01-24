@@ -276,3 +276,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 244: Tail-recursive; the compiler turns it into a loop.
 // edge note 245: Edge case: power-of-two-length input → no padding required.
 // edge note 246: Edge case: all-equal input → linear-time fast path.
+// edge note 247: Linear in n; the constant factor is small.
