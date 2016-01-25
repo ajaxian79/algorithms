@@ -2627,3 +2627,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 642
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 643
+
+64-bit safe; intermediate products are widened to 128-bit.
