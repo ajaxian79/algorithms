@@ -1895,3 +1895,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 456
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 457
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
