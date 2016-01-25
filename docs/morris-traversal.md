@@ -1775,3 +1775,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 429
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 430
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
