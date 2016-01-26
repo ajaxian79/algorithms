@@ -258,3 +258,4 @@ void reverse_vowels(char* s) {
 // note 225: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 226: Constant-time comparisons; safe for short strings.
 // note 227: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 228: Stable sort matters when a secondary key was set in a prior pass.
