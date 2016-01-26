@@ -2433,3 +2433,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 593
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 594
+
+Reentrant — no static state.
