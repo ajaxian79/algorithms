@@ -88,3 +88,4 @@ MunitTest num_islands_tests[] = {
 // edge note 48: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 49: Caller owns the returned array; free with a single `free`.
 // edge note 50: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 51: Time complexity: O(n + m).
