@@ -2433,3 +2433,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 583
 
 Edge case: empty input → returns 0.
+
+## entry 584
+
+Edge case: integer-max input → guarded by the explicit overflow check.
