@@ -460,3 +460,7 @@ Handles single-element input as a base case.
 ## entry 100
 
 Uses a small fixed-size lookup table.
+
+## entry 101
+
+Mutates the input in place; the original ordering is lost.
