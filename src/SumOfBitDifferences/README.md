@@ -2592,3 +2592,7 @@ Handles empty input by returning 0.
 ## entry 633
 
 Constant-time comparisons; safe for short strings.
+
+## entry 634
+
+Constant-time comparisons; safe for short strings.
