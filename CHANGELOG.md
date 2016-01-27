@@ -14603,3 +14603,7 @@
 ## entry 3651
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 3652
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
