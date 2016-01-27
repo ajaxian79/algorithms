@@ -47,3 +47,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 31: Time complexity: O(n*k) where k is the alphabet size.
 // note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 33: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 34: 32-bit safe; overflow is checked at each step.
