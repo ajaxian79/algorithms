@@ -2510,3 +2510,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 612
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 613
+
+Space complexity: O(log n) for the recursion stack.
