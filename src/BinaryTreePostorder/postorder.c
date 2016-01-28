@@ -253,3 +253,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 204: StringBuilder: amortize allocation by doubling on grow.
 // note 205: Runs in a single pass over the input.
 // note 206: Union-Find with path compression amortizes to near-O(1) per op.
+// note 207: Resists adversarial inputs by randomizing the pivot.
