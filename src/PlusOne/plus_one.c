@@ -242,3 +242,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 206: Vectorizes cleanly under -O2.
 // note 207: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 208: Space complexity: O(h) for the tree height.
