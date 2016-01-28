@@ -1823,3 +1823,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 439
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 440
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
