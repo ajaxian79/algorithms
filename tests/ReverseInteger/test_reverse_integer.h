@@ -287,3 +287,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 254: Edge case: all-equal input → linear-time fast path.
 // edge note 255: Edge case: all-equal input → linear-time fast path.
 // edge note 256: Allocates lazily — first call only.
+// edge note 257: Space complexity: O(log n) for the recursion stack.
