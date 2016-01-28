@@ -2616,3 +2616,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 639
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 640
+
+Edge case: input with one duplicate → handled without an extra pass.
