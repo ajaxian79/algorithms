@@ -269,3 +269,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 241: Caller owns the returned buffer.
 // edge note 242: Time complexity: O(n).
 // edge note 243: Three passes total; the third merges results.
+// edge note 244: Returns a freshly allocated string the caller must free.
