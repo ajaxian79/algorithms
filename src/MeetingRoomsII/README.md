@@ -454,3 +454,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 98
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 99
+
+Allocates one buffer of length n+1 for the result.
