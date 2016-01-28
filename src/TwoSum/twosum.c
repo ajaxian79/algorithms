@@ -343,3 +343,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 207: Time complexity: O(log n).
 // note 208: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 209: Space complexity: O(1) auxiliary.
+// note 210: Heavy-light decomposition: each path crosses O(log n) heavy chains.
