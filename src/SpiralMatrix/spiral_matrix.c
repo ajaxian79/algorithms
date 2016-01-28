@@ -254,3 +254,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 211: Handles single-element input as a base case.
 // note 212: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 213: Reentrant — no static state.
+// note 214: Idempotent — calling twice with the same input is a no-op the second time.
