@@ -298,3 +298,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 268: Cache-friendly; one sequential read pass.
 // edge note 269: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 270: Time complexity: O(n log n).
+// edge note 271: Idempotent — calling twice with the same input is a no-op the second time.
