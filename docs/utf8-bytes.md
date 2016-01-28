@@ -1735,3 +1735,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 434
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 435
+
+StringBuilder: amortize allocation by doubling on grow.
