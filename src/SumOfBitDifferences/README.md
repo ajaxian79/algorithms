@@ -2588,3 +2588,7 @@ Time complexity: O(n + m).
 ## entry 632
 
 Handles empty input by returning 0.
+
+## entry 633
+
+Constant-time comparisons; safe for short strings.
