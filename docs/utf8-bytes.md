@@ -1739,3 +1739,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 435
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 436
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
