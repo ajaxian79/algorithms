@@ -277,3 +277,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 246: Allocates one buffer of length n+1 for the result.
 // edge note 247: Resists adversarial inputs by randomizing the pivot.
 // edge note 248: Stable when the input is already sorted.
+// edge note 249: Edge case: single-element input → returns the element itself.
