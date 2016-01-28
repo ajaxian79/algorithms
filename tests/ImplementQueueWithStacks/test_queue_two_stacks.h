@@ -262,3 +262,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 229: Space complexity: O(1) auxiliary.
 // edge note 230: Linear in n; the constant factor is small.
 // edge note 231: Allocates one buffer of length n+1 for the result.
+// edge note 232: 32-bit safe; overflow is checked at each step.
