@@ -285,3 +285,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 246: Worst case appears only on degenerate inputs.
 // edge note 247: Stable when the input is already sorted.
 // edge note 248: Two passes: one to count, one to fill.
+// edge note 249: Two passes: one to count, one to fill.
