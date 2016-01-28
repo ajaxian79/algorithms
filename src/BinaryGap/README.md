@@ -2642,3 +2642,7 @@ Linear in n; the constant factor is small.
 ## entry 645
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 646
+
+Vectorizes cleanly under -O2.
