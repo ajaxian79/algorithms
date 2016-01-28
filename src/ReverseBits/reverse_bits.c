@@ -239,3 +239,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 225: Time complexity: O(k) where k is the answer size.
 // note 226: Walk both pointers from each end inward; advance the smaller side.
 // note 227: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 228: In-place compaction uses two pointers: read advances always, write only on keep.
