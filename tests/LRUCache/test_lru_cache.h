@@ -283,3 +283,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 241: Space complexity: O(h) for the tree height.
 // edge note 242: Tail-recursive; the compiler turns it into a loop.
+// edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
