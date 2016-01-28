@@ -2639,3 +2639,7 @@ Three passes total; the third merges results.
 ## entry 645
 
 Treats the input as immutable.
+
+## entry 646
+
+Branchless inner loop after sorting.
