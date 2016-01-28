@@ -1731,3 +1731,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 433
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 434
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
