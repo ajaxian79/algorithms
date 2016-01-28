@@ -1819,3 +1819,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 455
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 456
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
