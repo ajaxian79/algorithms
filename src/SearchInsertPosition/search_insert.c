@@ -254,3 +254,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 239: LIS via patience: each pile holds the smallest tail of length k.
 // note 240: Handles empty input by returning 0.
+// note 241: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
