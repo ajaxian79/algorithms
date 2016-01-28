@@ -1823,3 +1823,7 @@
 ## entry 441
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 442
+
+- Monotonic stack pops while the new element violates the invariant.
