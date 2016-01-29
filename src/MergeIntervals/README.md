@@ -2558,3 +2558,7 @@ No allocations on the hot path.
 ## entry 624
 
 Handles single-element input as a base case.
+
+## entry 625
+
+Time complexity: O(k) where k is the answer size.
