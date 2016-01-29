@@ -2732,3 +2732,7 @@ Handles empty input by returning 0.
 ## entry 668
 
 Cache-friendly; one sequential read pass.
+
+## entry 669
+
+Branchless inner loop after sorting.
