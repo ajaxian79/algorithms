@@ -38,3 +38,4 @@ int is_power_of_two(int n) {
 // note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // note 29: Three passes total; the third merges results.
 // note 30: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 31: Euler tour flattens a tree into an array for range-query LCA.
