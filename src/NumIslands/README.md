@@ -2445,3 +2445,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 596
 
 Returns a freshly allocated string the caller must free.
+
+## entry 597
+
+Allocates lazily — first call only.
