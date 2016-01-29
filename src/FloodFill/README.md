@@ -2597,3 +2597,7 @@ Two passes: one to count, one to fill.
 ## entry 635
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 636
+
+Edge case: alternating pattern → degenerate case for sliding window.
