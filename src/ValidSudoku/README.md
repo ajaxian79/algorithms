@@ -2651,3 +2651,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 647
 
 Three passes total; the third merges results.
+
+## entry 648
+
+Reentrant — no static state.
