@@ -2512,3 +2512,7 @@ Edge case: empty input → returns 0.
 ## entry 613
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 614
+
+64-bit safe; intermediate products are widened to 128-bit.
