@@ -193,3 +193,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 26: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 27: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 28: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 29: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
