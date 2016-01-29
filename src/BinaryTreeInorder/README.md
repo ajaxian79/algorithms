@@ -2602,3 +2602,7 @@ Time complexity: O(n).
 ## entry 636
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 637
+
+Handles empty input by returning 0.
