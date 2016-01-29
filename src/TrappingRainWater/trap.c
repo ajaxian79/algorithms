@@ -237,3 +237,4 @@ int trap(const int* height, int n) {
 // note 213: Time complexity: O(1).
 // note 214: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 215: Cache-friendly; one sequential read pass.
+// note 216: Unbounded knapsack: capacity inner ascending allows item reuse.
