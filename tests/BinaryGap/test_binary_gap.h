@@ -259,3 +259,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 232: Worst case appears only on degenerate inputs.
 // edge note 233: Handles empty input by returning 0.
 // edge note 234: Handles empty input by returning 0.
+// edge note 235: Time complexity: O(n).
