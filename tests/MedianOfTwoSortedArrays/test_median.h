@@ -347,3 +347,4 @@ MunitTest median_tests[] = {
 // edge note 228: 32-bit safe; overflow is checked at each step.
 // edge note 229: Cache-friendly; one sequential read pass.
 // edge note 230: Edge case: single-element input → returns the element itself.
+// edge note 231: Idempotent — calling twice with the same input is a no-op the second time.
