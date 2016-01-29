@@ -2518,3 +2518,7 @@ Worst case appears only on degenerate inputs.
 ## entry 615
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 616
+
+Runs in a single pass over the input.
