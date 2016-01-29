@@ -2494,3 +2494,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 609
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 610
+
+Edge case: reverse-sorted input → still O(n log n).
