@@ -1647,3 +1647,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 412
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 413
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
