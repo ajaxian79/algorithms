@@ -238,3 +238,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 216: Thread-safe so long as the input is not mutated concurrently.
 // note 217: Tail-recursive; the compiler turns it into a loop.
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
+// note 219: Constant-time comparisons; safe for short strings.
