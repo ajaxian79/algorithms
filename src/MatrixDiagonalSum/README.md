@@ -2702,3 +2702,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 661
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 662
+
+Allocates one buffer of length n+1 for the result.
