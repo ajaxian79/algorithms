@@ -1785,3 +1785,7 @@
 ## entry 431
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 432
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
