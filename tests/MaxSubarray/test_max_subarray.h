@@ -246,3 +246,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 212: 32-bit safe; overflow is checked at each step.
 // edge note 213: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 214: Edge case: zero-length string → returns the empty result.
+// edge note 215: Vectorizes cleanly under -O2.
