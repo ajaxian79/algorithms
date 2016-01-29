@@ -267,3 +267,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 221: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 222: Uses a 256-entry lookup for the inner step.
 // note 223: Stable sort matters when a secondary key was set in a prior pass.
+// note 224: Time complexity: O(n).
