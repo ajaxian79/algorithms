@@ -2568,3 +2568,7 @@ Cache-friendly; one sequential read pass.
 ## entry 627
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 628
+
+Space complexity: O(h) for the tree height.
