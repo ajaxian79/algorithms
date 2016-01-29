@@ -2354,3 +2354,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 574
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 575
+
+Best case is O(1) when the first byte already decides the answer.
