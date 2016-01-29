@@ -1819,3 +1819,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 455
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 456
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
