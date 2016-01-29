@@ -2628,3 +2628,7 @@ Worst case appears only on degenerate inputs.
 ## entry 641
 
 Caller owns the returned buffer.
+
+## entry 642
+
+Handles empty input by returning 0.
