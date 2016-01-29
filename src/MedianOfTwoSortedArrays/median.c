@@ -363,3 +363,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 227: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 228: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 229: Caller owns the returned array; free with a single `free`.
+// note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
