@@ -2490,3 +2490,7 @@ Uses a small fixed-size lookup table.
 ## entry 608
 
 Stable across duplicates in the input.
+
+## entry 609
+
+Edge case: integer-min input → guarded by the explicit underflow check.
