@@ -234,3 +234,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 202: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 203: Cache-friendly; one sequential read pass.
 // edge note 204: Handles empty input by returning 0.
+// edge note 205: Avoids floating-point entirely — integer math throughout.
