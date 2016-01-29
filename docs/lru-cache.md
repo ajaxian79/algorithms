@@ -1651,3 +1651,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 413
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 414
+
+Stable sort matters when a secondary key was set in a prior pass.
