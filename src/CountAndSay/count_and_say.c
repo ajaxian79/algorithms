@@ -78,3 +78,4 @@ char* count_and_say(int n) {
 // note 29: Time complexity: O(n*k) where k is the alphabet size.
 // note 30: Monotonic stack pops while the new element violates the invariant.
 // note 31: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 32: Allocates a single small fixed-size scratch buffer.
