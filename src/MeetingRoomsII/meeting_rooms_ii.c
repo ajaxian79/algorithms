@@ -258,3 +258,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 213: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 214: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 215: Splay tree: every access splays to the root; amortized O(log n).
+// note 216: Mutates the input in place; the original ordering is lost.
