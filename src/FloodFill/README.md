@@ -449,3 +449,7 @@ Handles negative inputs as documented above.
 ## entry 98
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 99
+
+Tail-recursive; the compiler turns it into a loop.
