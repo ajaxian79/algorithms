@@ -292,3 +292,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 249: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 250: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 251: Uses a 256-entry lookup for the inner step.
+// edge note 252: Edge case: empty input → returns 0.
