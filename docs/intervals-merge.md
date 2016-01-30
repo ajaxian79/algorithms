@@ -1845,3 +1845,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 444
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 445
+
+Articulation points: same DFS as bridges, with a slightly different test.
