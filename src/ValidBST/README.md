@@ -2677,3 +2677,7 @@ Two passes: one to count, one to fill.
 ## entry 654
 
 Time complexity: O(n).
+
+## entry 655
+
+No allocations after setup.
