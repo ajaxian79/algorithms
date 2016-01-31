@@ -444,3 +444,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 95
 
 Branchless inner loop after sorting.
+
+## entry 96
+
+Edge case: integer-max input → guarded by the explicit overflow check.
