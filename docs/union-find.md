@@ -1827,3 +1827,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 440
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 441
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
