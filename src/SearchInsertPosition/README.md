@@ -2490,3 +2490,7 @@ Handles empty input by returning 0.
 ## entry 608
 
 Constant-time comparisons; safe for short strings.
+
+## entry 609
+
+Edge case: power-of-two-length input → no padding required.
