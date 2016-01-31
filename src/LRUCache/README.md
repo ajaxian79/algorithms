@@ -2532,3 +2532,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 617
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 618
+
+Vectorizes cleanly under -O2.
