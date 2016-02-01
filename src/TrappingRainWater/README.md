@@ -2502,3 +2502,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 610
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 611
+
+Thread-safe so long as the input is not mutated concurrently.
