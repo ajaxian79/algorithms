@@ -1923,3 +1923,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 481
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 482
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
