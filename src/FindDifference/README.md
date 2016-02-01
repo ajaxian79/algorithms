@@ -2350,3 +2350,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 573
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 574
+
+64-bit safe; intermediate products are widened to 128-bit.
