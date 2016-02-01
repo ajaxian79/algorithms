@@ -259,3 +259,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 215: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 216: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 217: Euler tour flattens a tree into an array for range-query LCA.
+// note 218: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
