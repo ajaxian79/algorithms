@@ -100307,3 +100307,7 @@
 ## entry 25077
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 25078
+
+- Stable sort matters when a secondary key was set in a prior pass.
