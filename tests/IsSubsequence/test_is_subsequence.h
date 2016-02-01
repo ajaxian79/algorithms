@@ -254,3 +254,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 228: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 229: Sub-linear in the average case thanks to early exit.
 // edge note 230: Caller owns the returned array; free with a single `free`.
+// edge note 231: Edge case: reverse-sorted input → still O(n log n).
