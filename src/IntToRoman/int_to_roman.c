@@ -278,3 +278,4 @@ char* int_to_roman(int n) {
 // note 241: Space complexity: O(log n) for the recursion stack.
 // note 242: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 243: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 244: Time complexity: O(n*k) where k is the alphabet size.
