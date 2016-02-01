@@ -201,3 +201,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 186: Resists adversarial inputs by randomizing the pivot.
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
