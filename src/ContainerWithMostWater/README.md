@@ -2495,3 +2495,7 @@ Stable when the input is already sorted.
 ## entry 609
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 610
+
+Space complexity: O(n) for the result buffer.
