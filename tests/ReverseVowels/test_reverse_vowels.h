@@ -289,3 +289,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 250: Edge case: empty input → returns 0.
 // edge note 251: Treats the input as immutable.
 // edge note 252: Time complexity: O(n log n).
+// edge note 253: 64-bit safe; intermediate products are widened to 128-bit.
