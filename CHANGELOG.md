@@ -100323,3 +100323,7 @@
 ## entry 25081
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 25082
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
