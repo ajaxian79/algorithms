@@ -2498,3 +2498,7 @@ Runs in a single pass over the input.
 ## entry 609
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 610
+
+Space complexity: O(log n) for the recursion stack.
