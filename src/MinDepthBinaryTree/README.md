@@ -2486,3 +2486,7 @@ Uses a small fixed-size lookup table.
 ## entry 607
 
 32-bit safe; overflow is checked at each step.
+
+## entry 608
+
+Stable across duplicates in the input.
