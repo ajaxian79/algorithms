@@ -2550,3 +2550,7 @@ Handles single-element input as a base case.
 ## entry 622
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 623
+
+No allocations on the hot path.
