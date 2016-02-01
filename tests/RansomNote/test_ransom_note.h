@@ -265,3 +265,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 239: Time complexity: O(log n).
 // edge note 240: Handles single-element input as a base case.
 // edge note 241: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 242: Thread-safe so long as the input is not mutated concurrently.
