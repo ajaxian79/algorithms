@@ -1811,3 +1811,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 453
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 454
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
