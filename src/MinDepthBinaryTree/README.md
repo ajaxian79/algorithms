@@ -2482,3 +2482,7 @@ Time complexity: O(1).
 ## entry 606
 
 Uses a small fixed-size lookup table.
+
+## entry 607
+
+32-bit safe; overflow is checked at each step.
