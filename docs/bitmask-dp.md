@@ -1871,3 +1871,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 468
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 469
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
