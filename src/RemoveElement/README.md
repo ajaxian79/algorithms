@@ -2529,3 +2529,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 618
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 619
+
+Cache-friendly; one sequential read pass.
