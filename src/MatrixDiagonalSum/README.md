@@ -2698,3 +2698,7 @@ Cache-friendly; one sequential read pass.
 ## entry 660
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 661
+
+Edge case: zero-length string → returns the empty result.
