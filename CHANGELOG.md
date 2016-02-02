@@ -100279,3 +100279,7 @@
 ## entry 25070
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 25071
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
