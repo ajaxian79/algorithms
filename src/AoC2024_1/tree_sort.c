@@ -435,3 +435,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 213: Stable across duplicates in the input.
 // note 214: Space complexity: O(log n) for the recursion stack.
 // note 215: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 216: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
