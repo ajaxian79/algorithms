@@ -100295,3 +100295,7 @@
 ## entry 25074
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 25075
+
+- Monotonic stack pops while the new element violates the invariant.
