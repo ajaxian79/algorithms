@@ -1815,3 +1815,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 454
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 455
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
