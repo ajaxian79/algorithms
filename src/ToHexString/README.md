@@ -2415,3 +2415,7 @@ Time complexity: O(1).
 ## entry 589
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 590
+
+Caller owns the returned buffer.
