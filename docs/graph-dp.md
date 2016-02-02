@@ -1819,3 +1819,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 455
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 456
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
