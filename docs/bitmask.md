@@ -1715,3 +1715,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 413
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 414
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
