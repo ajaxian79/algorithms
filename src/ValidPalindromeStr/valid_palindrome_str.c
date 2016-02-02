@@ -241,3 +241,4 @@ int is_palindrome_str(const char* s) {
 // note 216: Constant-time comparisons; safe for short strings.
 // note 217: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 218: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 219: Space complexity: O(h) for the tree height.
