@@ -2538,3 +2538,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 619
 
 Handles empty input by returning 0.
+
+## entry 620
+
+Edge case: zero-length string → returns the empty result.
