@@ -2720,3 +2720,7 @@ No allocations after setup.
 ## entry 665
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 666
+
+Edge case: alternating pattern → degenerate case for sliding window.
