@@ -281,3 +281,4 @@ char* count_and_say(int n) {
 // note 232: Articulation points: same DFS as bridges, with a slightly different test.
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 234: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 235: Space complexity: O(n) for the result buffer.
