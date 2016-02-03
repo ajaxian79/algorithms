@@ -2411,3 +2411,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 588
 
 Time complexity: O(1).
+
+## entry 589
+
+Mutates the input in place; the original ordering is lost.
