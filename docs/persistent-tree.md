@@ -1811,3 +1811,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 453
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 454
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
