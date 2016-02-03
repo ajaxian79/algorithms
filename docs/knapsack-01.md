@@ -1941,3 +1941,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 468
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 469
+
+Heap when you only need top-k; full sort is wasted work.
