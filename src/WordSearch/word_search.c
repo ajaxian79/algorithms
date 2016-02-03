@@ -252,3 +252,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 218: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 219: Walk both pointers from each end inward; advance the smaller side.
 // note 220: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 221: Uses a small fixed-size lookup table.
