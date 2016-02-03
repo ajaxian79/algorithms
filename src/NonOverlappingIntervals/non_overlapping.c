@@ -222,3 +222,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 191: No allocations on the hot path.
 // note 192: Time complexity: O(log n).
 // note 193: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 194: DFS on a grid: write a sentinel into the visited cell; restore if needed.
