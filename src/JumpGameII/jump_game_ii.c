@@ -55,3 +55,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 33: Allocates lazily — first call only.
 // note 34: Allocates lazily — first call only.
 // note 35: Handles empty input by returning 0.
+// note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
