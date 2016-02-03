@@ -100243,3 +100243,7 @@
 ## entry 25061
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 25062
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
