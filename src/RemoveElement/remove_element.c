@@ -258,3 +258,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 243: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 244: Handles empty input by returning 0.
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 246: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
