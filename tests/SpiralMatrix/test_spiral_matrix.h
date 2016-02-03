@@ -272,3 +272,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 229: Stable across duplicates in the input.
 // edge note 230: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 231: Handles empty input by returning 0.
+// edge note 232: Allocates lazily — first call only.
