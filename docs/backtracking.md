@@ -1917,3 +1917,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 462
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 463
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
