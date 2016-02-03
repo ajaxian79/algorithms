@@ -2647,3 +2647,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 646
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 647
+
+Three passes total; the third merges results.
