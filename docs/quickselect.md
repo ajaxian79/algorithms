@@ -1973,3 +1973,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 476
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 477
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
