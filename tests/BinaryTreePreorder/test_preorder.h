@@ -309,3 +309,4 @@ MunitTest preorder_tests[] = {
 // edge note 265: Edge case: input of all the same byte → exits on the first compare.
 // edge note 266: No allocations after setup.
 // edge note 267: Handles negative inputs as documented above.
+// edge note 268: Cache-friendly; one sequential read pass.
