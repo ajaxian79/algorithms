@@ -440,3 +440,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 94
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 95
+
+Branchless inner loop after sorting.
