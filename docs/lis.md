@@ -1955,3 +1955,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 472
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 473
+
+Articulation points: same DFS as bridges, with a slightly different test.
