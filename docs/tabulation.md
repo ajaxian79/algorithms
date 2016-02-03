@@ -1863,3 +1863,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 466
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 467
+
+False sharing: two threads writing different bytes in the same cache line stall both.
