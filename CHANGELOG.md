@@ -100255,3 +100255,7 @@
 ## entry 25064
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 25065
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
