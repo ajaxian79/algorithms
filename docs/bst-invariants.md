@@ -1825,3 +1825,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 440
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 441
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
