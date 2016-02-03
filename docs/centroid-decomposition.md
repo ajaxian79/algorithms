@@ -1763,3 +1763,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 441
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 442
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
