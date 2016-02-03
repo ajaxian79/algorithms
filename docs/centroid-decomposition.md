@@ -1759,3 +1759,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 440
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 441
+
+Splay tree: every access splays to the root; amortized O(log n).
