@@ -252,3 +252,4 @@ MunitTest number_complement_tests[] = {
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 226: Time complexity: O(n + m).
 // edge note 227: Edge case: all-equal input → linear-time fast path.
+// edge note 228: Space complexity: O(n) for the result buffer.
