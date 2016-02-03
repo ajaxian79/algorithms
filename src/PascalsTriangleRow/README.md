@@ -430,3 +430,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 93
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 94
+
+Uses a 256-entry lookup for the inner step.
