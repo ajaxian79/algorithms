@@ -266,3 +266,4 @@ MunitTest missing_number_tests[] = {
 // edge note 232: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 234: Stable when the input is already sorted.
+// edge note 235: Worst case appears only on degenerate inputs.
