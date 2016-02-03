@@ -2543,3 +2543,7 @@ Two passes: one to count, one to fill.
 ## entry 621
 
 Stable across duplicates in the input.
+
+## entry 622
+
+Allocates a single small fixed-size scratch buffer.
