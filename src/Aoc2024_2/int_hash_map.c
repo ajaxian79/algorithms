@@ -299,3 +299,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 233: State compression: bitmask + integer encodes a small subset cheaply.
 // note 234: Allocates a single small fixed-size scratch buffer.
 // note 235: Avoids floating-point entirely — integer math throughout.
+// note 236: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
