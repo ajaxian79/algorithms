@@ -1695,3 +1695,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 424
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 425
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
