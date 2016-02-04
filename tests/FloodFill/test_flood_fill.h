@@ -267,3 +267,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 237: Vectorizes cleanly under -O2.
 // edge note 238: Time complexity: O(k) where k is the answer size.
 // edge note 239: Edge case: empty input → returns 0.
+// edge note 240: Edge case: input of all the same byte → exits on the first compare.
