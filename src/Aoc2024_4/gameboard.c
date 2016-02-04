@@ -382,3 +382,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 229: Worst case appears only on degenerate inputs.
 // note 230: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 231: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 232: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
