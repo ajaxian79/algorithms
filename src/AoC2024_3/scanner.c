@@ -257,3 +257,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 18: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 20: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 21: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
