@@ -100227,3 +100227,7 @@
 ## entry 25057
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 25058
+
+- Heap when you only need top-k; full sort is wasted work.
