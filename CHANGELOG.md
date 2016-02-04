@@ -100231,3 +100231,7 @@
 ## entry 25058
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 25059
+
+- Walk both pointers from each end inward; advance the smaller side.
