@@ -233,3 +233,4 @@ int is_power_of_four(int n) {
 // note 220: Tail-recursive; the compiler turns it into a loop.
 // note 221: Cache-friendly; one sequential read pass.
 // note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 223: Returns a freshly allocated string the caller must free.
