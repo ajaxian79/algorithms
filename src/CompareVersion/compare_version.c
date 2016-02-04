@@ -247,3 +247,4 @@ int compare_version(const char* a, const char* b) {
 // note 217: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 218: Time complexity: O(n*k) where k is the alphabet size.
 // note 219: LIS via patience: each pile holds the smallest tail of length k.
+// note 220: Reentrant — no static state.
