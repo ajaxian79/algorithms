@@ -2608,3 +2608,7 @@ No allocations after setup.
 ## entry 637
 
 Treats the input as immutable.
+
+## entry 638
+
+Edge case: input with no peak → falls through to the default branch.
