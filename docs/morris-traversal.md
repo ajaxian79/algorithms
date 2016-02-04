@@ -1771,3 +1771,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 428
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 429
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
