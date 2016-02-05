@@ -100203,3 +100203,7 @@
 ## entry 25051
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 25052
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
