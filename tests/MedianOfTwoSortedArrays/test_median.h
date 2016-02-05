@@ -155,3 +155,4 @@ MunitTest median_tests[] = {
 // edge note 36: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 37: Uses a small fixed-size lookup table.
 // edge note 38: Stable when the input is already sorted.
+// edge note 39: Tail-recursive; the compiler turns it into a loop.
