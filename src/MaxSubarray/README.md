@@ -466,3 +466,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 102
 
 Handles negative inputs as documented above.
+
+## entry 103
+
+Mutates the input in place; the original ordering is lost.
