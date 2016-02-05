@@ -476,3 +476,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 104
 
 Handles empty input by returning 0.
+
+## entry 105
+
+Edge case: zero-length string → returns the empty result.
