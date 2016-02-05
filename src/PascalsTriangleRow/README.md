@@ -2718,3 +2718,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 665
 
 Cache-friendly; one sequential read pass.
+
+## entry 666
+
+Caller owns the returned array; free with a single `free`.
