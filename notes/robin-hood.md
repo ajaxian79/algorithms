@@ -1919,3 +1919,7 @@
 ## entry 480
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 481
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
