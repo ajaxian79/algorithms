@@ -2502,3 +2502,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 610
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 611
+
+Deterministic given the input — no PRNG seeds.
