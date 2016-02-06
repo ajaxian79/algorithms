@@ -1815,3 +1815,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 454
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 455
+
+Wavelet tree: range k-th element in O(log Σ) time.
