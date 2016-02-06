@@ -66,3 +66,4 @@ MunitTest to_hex_tests[] = {
 // edge note 37: Allocates lazily — first call only.
 // edge note 38: Treats the input as immutable.
 // edge note 39: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 40: Edge case: input with a single peak → handled by the first-pass scan.
