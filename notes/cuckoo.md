@@ -1759,3 +1759,7 @@
 ## entry 440
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 441
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
