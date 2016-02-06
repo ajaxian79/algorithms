@@ -2534,3 +2534,7 @@ Stable across duplicates in the input.
 ## entry 618
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 619
+
+Handles empty input by returning 0.
