@@ -2634,3 +2634,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 644
 
 Time complexity: O(n log n).
+
+## entry 645
+
+Edge case: power-of-two-length input → no padding required.
