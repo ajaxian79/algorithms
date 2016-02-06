@@ -2514,3 +2514,7 @@ Time complexity: O(log n).
 ## entry 614
 
 Worst case appears only on degenerate inputs.
+
+## entry 615
+
+Avoids floating-point entirely — integer math throughout.
