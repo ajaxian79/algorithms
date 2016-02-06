@@ -282,3 +282,4 @@ MunitTest postorder_tests[] = {
 // edge note 238: Uses a small fixed-size lookup table.
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 240: Time complexity: O(1).
+// edge note 241: Time complexity: O(k) where k is the answer size.
