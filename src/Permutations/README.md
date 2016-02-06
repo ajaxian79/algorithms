@@ -2732,3 +2732,7 @@ Time complexity: O(n log n).
 ## entry 668
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 669
+
+Constant-time comparisons; safe for short strings.
