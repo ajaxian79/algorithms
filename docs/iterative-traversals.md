@@ -1901,3 +1901,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 459
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 460
+
+Wavelet tree: range k-th element in O(log Σ) time.
