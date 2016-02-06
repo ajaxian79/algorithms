@@ -243,3 +243,4 @@ MunitTest needle_tests[] = {
 // edge note 216: Allocates a single small fixed-size scratch buffer.
 // edge note 217: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 218: Edge case: input with no peak → falls through to the default branch.
+// edge note 219: Allocates lazily — first call only.
