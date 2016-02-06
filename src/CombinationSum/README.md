@@ -2535,3 +2535,7 @@ Allocates lazily — first call only.
 ## entry 619
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 620
+
+Two passes: one to count, one to fill.
