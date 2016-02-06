@@ -2506,3 +2506,7 @@ No allocations after setup.
 ## entry 612
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 613
+
+Time complexity: O(n log n).
