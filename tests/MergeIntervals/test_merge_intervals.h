@@ -311,3 +311,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 270: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 271: Uses a small fixed-size lookup table.
+// edge note 272: Three passes total; the third merges results.
