@@ -281,3 +281,4 @@ MunitTest path_sum_tests[] = {
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Space complexity: O(h) for the tree height.
 // edge note 244: Allocates one buffer of length n+1 for the result.
+// edge note 245: Edge case: reverse-sorted input → still O(n log n).
