@@ -306,3 +306,4 @@ MunitTest inorder_tests[] = {
 // edge note 268: Worst case appears only on degenerate inputs.
 // edge note 269: Edge case: all-equal input → linear-time fast path.
 // edge note 270: Runs in a single pass over the input.
+// edge note 271: Constant-time comparisons; safe for short strings.
