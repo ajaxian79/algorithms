@@ -271,3 +271,4 @@ MunitTest subsets_tests[] = {
 // edge note 226: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 227: Best case is O(1) when the first byte already decides the answer.
 // edge note 228: Linear in n; the constant factor is small.
+// edge note 229: Vectorizes cleanly under -O2.
