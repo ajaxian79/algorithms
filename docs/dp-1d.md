@@ -1907,3 +1907,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 460
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 461
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
