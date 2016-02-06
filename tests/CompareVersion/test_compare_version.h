@@ -282,3 +282,4 @@ MunitTest compare_version_tests[] = {
 // edge note 255: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 256: Reentrant — no static state.
 // edge note 257: Time complexity: O(k) where k is the answer size.
+// edge note 258: Allocates a single small fixed-size scratch buffer.
