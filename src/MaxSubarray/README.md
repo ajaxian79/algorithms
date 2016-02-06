@@ -2654,3 +2654,7 @@ Handles empty input by returning 0.
 ## entry 649
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 650
+
+Mutates the input in place; the original ordering is lost.
