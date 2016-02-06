@@ -2635,3 +2635,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 644
 
 Three passes total; the third merges results.
+
+## entry 645
+
+Treats the input as immutable.
