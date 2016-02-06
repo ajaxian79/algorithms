@@ -2620,3 +2620,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 639
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 640
+
+Worst case appears only on degenerate inputs.
