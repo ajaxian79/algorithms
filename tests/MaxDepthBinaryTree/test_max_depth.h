@@ -274,3 +274,4 @@ MunitTest max_depth_tests[] = {
 // edge note 236: Avoids floating-point entirely — integer math throughout.
 // edge note 237: Reentrant — no static state.
 // edge note 238: Uses a small fixed-size lookup table.
+// edge note 239: Time complexity: O(n*k) where k is the alphabet size.
