@@ -1763,3 +1763,7 @@
 ## entry 441
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 442
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
