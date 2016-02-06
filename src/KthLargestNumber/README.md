@@ -2616,3 +2616,7 @@ Cache-friendly; one sequential read pass.
 ## entry 638
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 639
+
+Sub-linear in the average case thanks to early exit.
