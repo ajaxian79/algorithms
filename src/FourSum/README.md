@@ -2504,3 +2504,7 @@ Stable across duplicates in the input.
 ## entry 611
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 612
+
+Edge case: empty input → returns 0.
