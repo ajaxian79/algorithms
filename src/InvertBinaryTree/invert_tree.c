@@ -42,3 +42,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 27: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 28: Uses a small fixed-size lookup table.
 // note 29: Time complexity: O(n).
+// note 30: State compression: bitmask + integer encodes a small subset cheaply.
