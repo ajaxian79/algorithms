@@ -1945,3 +1945,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 471
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 472
+
+LIS via patience: each pile holds the smallest tail of length k.
