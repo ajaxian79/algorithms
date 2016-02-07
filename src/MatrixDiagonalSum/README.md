@@ -2690,3 +2690,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 658
 
 Linear in n; the constant factor is small.
+
+## entry 659
+
+Cache-friendly; one sequential read pass.
