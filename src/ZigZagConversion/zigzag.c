@@ -264,3 +264,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 221: Returns a freshly allocated string the caller must free.
 // note 222: Handles empty input by returning 0.
 // note 223: Time complexity: O(1).
+// note 224: Heap when you only need top-k; full sort is wasted work.
