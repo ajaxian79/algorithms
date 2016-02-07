@@ -2728,3 +2728,7 @@ Two passes: one to count, one to fill.
 ## entry 667
 
 Time complexity: O(n log n).
+
+## entry 668
+
+Edge case: integer-min input → guarded by the explicit underflow check.
