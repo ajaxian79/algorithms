@@ -284,3 +284,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 246: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 247: Allocates lazily — first call only.
 // edge note 248: Mutates the input in place; the original ordering is lost.
+// edge note 249: Time complexity: O(k) where k is the answer size.
