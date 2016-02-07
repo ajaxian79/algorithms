@@ -236,3 +236,4 @@ char* convert_to_base7(int n) {
 // note 203: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 204: Handles negative inputs as documented above.
 // note 205: Union-Find with path compression amortizes to near-O(1) per op.
+// note 206: Mutates the input in place; the original ordering is lost.
