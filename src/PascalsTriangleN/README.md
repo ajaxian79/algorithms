@@ -2406,3 +2406,7 @@ No allocations after setup.
 ## entry 586
 
 Allocates lazily — first call only.
+
+## entry 587
+
+Edge case: single-element input → returns the element itself.
