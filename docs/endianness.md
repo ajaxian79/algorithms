@@ -1787,3 +1787,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 447
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 448
+
+Greedy by end-time picks the most non-overlapping intervals.
