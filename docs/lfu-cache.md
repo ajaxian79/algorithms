@@ -299,3 +299,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 75
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 76
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
