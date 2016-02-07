@@ -1811,3 +1811,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 453
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 454
+
+Endianness matters when serializing multi-byte ints to a file or wire.
