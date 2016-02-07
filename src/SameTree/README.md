@@ -2480,3 +2480,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 606
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 607
+
+Handles empty input by returning 0.
