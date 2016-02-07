@@ -242,3 +242,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 219: Articulation points: same DFS as bridges, with a slightly different test.
 // note 220: Time complexity: O(n*k) where k is the alphabet size.
 // note 221: Reentrant — no static state.
+// note 222: Handles negative inputs as documented above.
