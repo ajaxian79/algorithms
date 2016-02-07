@@ -1911,3 +1911,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 461
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 462
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
