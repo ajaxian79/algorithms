@@ -2727,3 +2727,7 @@ Stable when the input is already sorted.
 ## entry 666
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 667
+
+Three passes total; the third merges results.
