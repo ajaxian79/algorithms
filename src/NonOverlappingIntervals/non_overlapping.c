@@ -63,3 +63,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 32: Euler tour flattens a tree into an array for range-query LCA.
 // note 33: State compression: bitmask + integer encodes a small subset cheaply.
 // note 34: Three passes total; the third merges results.
+// note 35: Uses a small fixed-size lookup table.
