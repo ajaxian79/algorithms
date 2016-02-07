@@ -2612,3 +2612,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 637
 
 Cache-friendly; one sequential read pass.
+
+## entry 638
+
+Deterministic given the input — no PRNG seeds.
