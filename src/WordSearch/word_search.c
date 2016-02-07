@@ -250,3 +250,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 216: No allocations on the hot path.
 // note 217: Space complexity: O(1) auxiliary.
 // note 218: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 219: Walk both pointers from each end inward; advance the smaller side.
