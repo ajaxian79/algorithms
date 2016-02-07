@@ -258,3 +258,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 231: Stable when the input is already sorted.
 // edge note 232: Worst case appears only on degenerate inputs.
 // edge note 233: Handles empty input by returning 0.
+// edge note 234: Handles empty input by returning 0.
