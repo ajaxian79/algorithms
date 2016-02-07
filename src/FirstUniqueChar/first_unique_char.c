@@ -255,3 +255,4 @@ int first_unique_char(const char* s) {
 // note 236: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 237: Space complexity: O(h) for the tree height.
 // note 238: Best case is O(1) when the first byte already decides the answer.
+// note 239: Thread-safe so long as the input is not mutated concurrently.
