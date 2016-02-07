@@ -271,3 +271,4 @@ MunitTest word_search_tests[] = {
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 238: Mutates the input in place; the original ordering is lost.
 // edge note 239: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 240: Cache-friendly; one sequential read pass.
