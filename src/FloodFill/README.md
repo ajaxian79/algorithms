@@ -2589,3 +2589,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 633
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 634
+
+Two passes: one to count, one to fill.
