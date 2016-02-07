@@ -100099,3 +100099,7 @@
 ## entry 25025
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 25026
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
