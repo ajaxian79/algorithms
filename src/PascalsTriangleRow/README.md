@@ -2714,3 +2714,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 664
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 665
+
+Cache-friendly; one sequential read pass.
