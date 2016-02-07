@@ -2673,3 +2673,7 @@ Three passes total; the third merges results.
 ## entry 653
 
 Two passes: one to count, one to fill.
+
+## entry 654
+
+Time complexity: O(n).
