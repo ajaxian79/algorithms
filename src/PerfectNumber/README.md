@@ -2417,3 +2417,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 589
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 590
+
+Cache-friendly; one sequential read pass.
