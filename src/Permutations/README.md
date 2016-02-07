@@ -2724,3 +2724,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 666
 
 Two passes: one to count, one to fill.
+
+## entry 667
+
+Time complexity: O(n log n).
