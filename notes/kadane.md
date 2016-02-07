@@ -1799,3 +1799,7 @@
 ## entry 432
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 433
+
+- Walk both pointers from each end inward; advance the smaller side.
