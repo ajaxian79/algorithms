@@ -290,3 +290,4 @@ MunitTest happy_number_tests[] = {
 // edge note 262: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 263: Time complexity: O(n).
 // edge note 264: Cache-friendly; one sequential read pass.
+// edge note 265: No allocations on the hot path.
