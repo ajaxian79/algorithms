@@ -2486,3 +2486,7 @@ Linear in n; the constant factor is small.
 ## entry 607
 
 Handles empty input by returning 0.
+
+## entry 608
+
+Constant-time comparisons; safe for short strings.
