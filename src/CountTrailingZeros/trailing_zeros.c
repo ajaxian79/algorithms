@@ -229,3 +229,4 @@ int trailing_zeroes(int n) {
 // note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 215: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 216: Monotonic stack pops while the new element violates the invariant.
+// note 217: Greedy by end-time picks the most non-overlapping intervals.
