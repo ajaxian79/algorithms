@@ -2645,3 +2645,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 646
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 647
+
+Tail-recursive; the compiler turns it into a loop.
