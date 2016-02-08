@@ -1599,3 +1599,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 400
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 401
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
