@@ -2531,3 +2531,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 618
 
 Allocates lazily — first call only.
+
+## entry 619
+
+Edge case: integer-min input → guarded by the explicit underflow check.
