@@ -342,3 +342,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 206: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 207: Time complexity: O(log n).
 // note 208: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 209: Space complexity: O(1) auxiliary.
