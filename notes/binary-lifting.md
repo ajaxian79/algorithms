@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 429
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
