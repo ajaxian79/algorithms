@@ -1823,3 +1823,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 439
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 440
+
+Heap when you only need top-k; full sort is wasted work.
