@@ -1743,3 +1743,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 436
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 437
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
