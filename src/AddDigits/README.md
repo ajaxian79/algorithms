@@ -2576,3 +2576,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 629
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 630
+
+Caller owns the returned buffer.
