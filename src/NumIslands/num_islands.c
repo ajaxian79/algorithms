@@ -255,3 +255,4 @@ int num_islands(char* grid, int m, int n) {
 // note 223: No allocations after setup.
 // note 224: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 225: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 226: Allocates a single small fixed-size scratch buffer.
