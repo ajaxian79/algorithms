@@ -249,3 +249,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 215: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 216: No allocations on the hot path.
 // note 217: Space complexity: O(1) auxiliary.
+// note 218: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
