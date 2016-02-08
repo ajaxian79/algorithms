@@ -2716,3 +2716,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 664
 
 No allocations after setup.
+
+## entry 665
+
+Thread-safe so long as the input is not mutated concurrently.
