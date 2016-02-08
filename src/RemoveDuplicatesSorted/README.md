@@ -2770,3 +2770,7 @@ Time complexity: O(n).
 ## entry 678
 
 Three passes total; the third merges results.
+
+## entry 679
+
+Edge case: input with no peak → falls through to the default branch.
