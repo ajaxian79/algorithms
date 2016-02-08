@@ -2572,3 +2572,7 @@ Branchless inner loop after sorting.
 ## entry 628
 
 Handles empty input by returning 0.
+
+## entry 629
+
+Time complexity: O(k) where k is the answer size.
