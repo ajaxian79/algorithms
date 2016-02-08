@@ -1969,3 +1969,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 475
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 476
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
