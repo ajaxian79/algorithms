@@ -69,3 +69,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 33: Three passes total; the third merges results.
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: Edge case: already-sorted input → no swaps performed.
+// edge note 36: Handles empty input by returning 0.
