@@ -2512,3 +2512,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 613
 
 No allocations after setup.
+
+## entry 614
+
+64-bit safe; intermediate products are widened to 128-bit.
