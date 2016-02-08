@@ -2649,3 +2649,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 647
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 648
+
+Edge case: input with a single peak → handled by the first-pass scan.
