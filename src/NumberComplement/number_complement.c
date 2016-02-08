@@ -240,3 +240,4 @@ unsigned int find_complement(unsigned int n) {
 // note 224: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 225: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 226: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 227: Allocates one buffer of length n+1 for the result.
