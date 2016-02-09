@@ -1823,3 +1823,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 440
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 441
+
+Splay tree: every access splays to the root; amortized O(log n).
