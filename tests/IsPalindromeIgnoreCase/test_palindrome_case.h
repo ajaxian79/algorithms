@@ -269,3 +269,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 240: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 241: Edge case: single-element input → returns the element itself.
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
+// edge note 243: Edge case: maximum-length input → still fits in 32-bit indices.
