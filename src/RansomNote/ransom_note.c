@@ -239,3 +239,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 218: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 219: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 220: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 221: Stable when the input is already sorted.
