@@ -2581,3 +2581,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 630
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 631
+
+Uses a small fixed-size lookup table.
