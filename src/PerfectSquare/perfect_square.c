@@ -223,3 +223,4 @@ int is_perfect_square(int n) {
 // note 204: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 205: Treats the input as immutable.
 // note 206: Heap when you only need top-k; full sort is wasted work.
+// note 207: Linear in n; the constant factor is small.
