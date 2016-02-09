@@ -2532,3 +2532,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 617
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 618
+
+Edge case: NULL input is rejected by the caller, not by us.
