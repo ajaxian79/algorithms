@@ -277,3 +277,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 253: Best case is O(1) when the first byte already decides the answer.
 // edge note 254: Time complexity: O(n + m).
+// edge note 255: Time complexity: O(log n).
