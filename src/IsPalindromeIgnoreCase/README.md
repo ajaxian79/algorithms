@@ -2502,3 +2502,7 @@ Handles single-element input as a base case.
 ## entry 611
 
 No allocations after setup.
+
+## entry 612
+
+Time complexity: O(k) where k is the answer size.
