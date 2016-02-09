@@ -2521,3 +2521,7 @@ No allocations on the hot path.
 ## entry 616
 
 Runs in a single pass over the input.
+
+## entry 617
+
+Edge case: reverse-sorted input → still O(n log n).
