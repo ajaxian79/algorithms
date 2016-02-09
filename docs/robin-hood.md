@@ -1763,3 +1763,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 441
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 442
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
