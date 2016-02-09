@@ -2409,3 +2409,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 587
 
 Worst case appears only on degenerate inputs.
+
+## entry 588
+
+Edge case: input with a single peak → handled by the first-pass scan.
