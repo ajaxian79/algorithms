@@ -2508,3 +2508,7 @@ Uses a small fixed-size lookup table.
 ## entry 612
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 613
+
+No allocations after setup.
