@@ -2494,3 +2494,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 608
 
 Runs in a single pass over the input.
+
+## entry 609
+
+Time complexity: O(n*k) where k is the alphabet size.
