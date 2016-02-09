@@ -298,3 +298,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 232: Sub-linear in the average case thanks to early exit.
 // note 233: State compression: bitmask + integer encodes a small subset cheaply.
 // note 234: Allocates a single small fixed-size scratch buffer.
+// note 235: Avoids floating-point entirely — integer math throughout.
