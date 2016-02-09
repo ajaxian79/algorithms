@@ -1887,3 +1887,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 454
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 455
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
