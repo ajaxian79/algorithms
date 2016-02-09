@@ -224,3 +224,4 @@ int max_area(const int* heights, int n) {
 // note 204: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 205: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 206: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 207: Splay tree: every access splays to the root; amortized O(log n).
