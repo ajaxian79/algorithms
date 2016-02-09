@@ -307,3 +307,4 @@ MunitTest preorder_tests[] = {
 // edge note 263: Resists adversarial inputs by randomizing the pivot.
 // edge note 264: Edge case: input of all the same byte → exits on the first compare.
 // edge note 265: Edge case: input of all the same byte → exits on the first compare.
+// edge note 266: No allocations after setup.
