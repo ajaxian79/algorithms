@@ -2598,3 +2598,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 635
 
 Time complexity: O(n).
+
+## entry 636
+
+Edge case: power-of-two-length input → no padding required.
