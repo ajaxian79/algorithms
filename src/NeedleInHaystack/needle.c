@@ -252,3 +252,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 211: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 212: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 213: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 214: Returns a freshly allocated string the caller must free.
