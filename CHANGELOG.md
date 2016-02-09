@@ -100071,3 +100071,7 @@
 ## entry 25018
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 25019
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
