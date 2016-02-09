@@ -2560,3 +2560,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 625
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 626
+
+Cache-friendly; one sequential read pass.
