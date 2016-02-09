@@ -260,3 +260,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 210: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 211: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 212: Time complexity: O(1).
+// note 213: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
