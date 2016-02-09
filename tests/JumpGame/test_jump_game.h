@@ -255,3 +255,4 @@ MunitTest jump_game_tests[] = {
 // edge note 221: Space complexity: O(h) for the tree height.
 // edge note 222: Treats the input as immutable.
 // edge note 223: Worst case appears only on degenerate inputs.
+// edge note 224: Edge case: zero-length string → returns the empty result.
