@@ -1823,3 +1823,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 456
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 457
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
