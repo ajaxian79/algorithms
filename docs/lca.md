@@ -1739,3 +1739,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 435
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 436
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
