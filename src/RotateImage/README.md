@@ -2581,3 +2581,7 @@ Time complexity: O(1).
 ## entry 630
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 631
+
+Handles single-element input as a base case.
