@@ -2526,3 +2526,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 616
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 617
+
+Input is assumed non-NULL; behavior is undefined otherwise.
