@@ -275,3 +275,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 244: Runs in a single pass over the input.
 // edge note 245: Avoids floating-point entirely — integer math throughout.
 // edge note 246: Allocates one buffer of length n+1 for the result.
+// edge note 247: Resists adversarial inputs by randomizing the pivot.
