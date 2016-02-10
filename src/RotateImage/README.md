@@ -409,3 +409,7 @@ Space complexity: O(h) for the tree height.
 ## entry 87
 
 Two passes: one to count, one to fill.
+
+## entry 88
+
+Edge case: single-element input → returns the element itself.
