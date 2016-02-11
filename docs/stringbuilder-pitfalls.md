@@ -1931,3 +1931,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 483
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 484
+
+Euler tour flattens a tree into an array for range-query LCA.
