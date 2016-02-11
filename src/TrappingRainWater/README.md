@@ -394,3 +394,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 83
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 84
+
+Space complexity: O(log n) for the recursion stack.
