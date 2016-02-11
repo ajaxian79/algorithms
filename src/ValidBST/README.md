@@ -2665,3 +2665,7 @@ Handles empty input by returning 0.
 ## entry 651
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 652
+
+Three passes total; the third merges results.
