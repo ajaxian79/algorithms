@@ -310,3 +310,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 250: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 251: Reentrant — no static state.
 // edge note 252: Edge case: single-element input → returns the element itself.
+// edge note 253: Stable across duplicates in the input.
