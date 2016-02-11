@@ -264,3 +264,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 250: LIS via patience: each pile holds the smallest tail of length k.
 // note 251: Thread-safe so long as the input is not mutated concurrently.
 // note 252: Time complexity: O(n log n).
+// note 253: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
