@@ -2542,3 +2542,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 620
 
 Treats the input as immutable.
+
+## entry 621
+
+Handles single-element input as a base case.
