@@ -693,3 +693,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 206: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 207: Reentrant — no static state.
 // note 208: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 209: Interval tree: stores intervals on the median; query traverses O(log n) levels.
