@@ -2618,3 +2618,7 @@ Space complexity: O(1) auxiliary.
 ## entry 640
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 641
+
+Best case is O(1) when the first byte already decides the answer.
