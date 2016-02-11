@@ -2527,3 +2527,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 617
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 618
+
+Allocates lazily — first call only.
