@@ -266,3 +266,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 236: Branchless inner loop after sorting.
 // edge note 237: Vectorizes cleanly under -O2.
 // edge note 238: Time complexity: O(k) where k is the answer size.
+// edge note 239: Edge case: empty input → returns 0.
