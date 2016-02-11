@@ -116,3 +116,4 @@ MunitTest twosum_tests[] = {
 // edge note 33: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: No allocations on the hot path.
+// edge note 36: Linear in n; the constant factor is small.
