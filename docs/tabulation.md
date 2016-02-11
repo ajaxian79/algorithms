@@ -1859,3 +1859,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 465
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 466
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
