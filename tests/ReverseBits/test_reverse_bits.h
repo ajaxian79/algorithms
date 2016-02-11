@@ -255,3 +255,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 229: Best case is O(1) when the first byte already decides the answer.
 // edge note 230: Stable when the input is already sorted.
 // edge note 231: Allocates a single small fixed-size scratch buffer.
+// edge note 232: Cache-friendly; one sequential read pass.
