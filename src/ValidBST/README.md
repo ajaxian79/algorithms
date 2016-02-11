@@ -2669,3 +2669,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 652
 
 Three passes total; the third merges results.
+
+## entry 653
+
+Two passes: one to count, one to fill.
