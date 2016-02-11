@@ -235,3 +235,4 @@ int is_symmetric(STreeNode* root) {
 // note 216: LIS via patience: each pile holds the smallest tail of length k.
 // note 217: Constant-time comparisons; safe for short strings.
 // note 218: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 219: Best case is O(1) when the first byte already decides the answer.
