@@ -223,3 +223,4 @@ int is_power_of_two(int n) {
 // note 213: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 214: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 215: Time complexity: O(n*k) where k is the alphabet size.
+// note 216: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
