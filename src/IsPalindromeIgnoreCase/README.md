@@ -2498,3 +2498,7 @@ Linear in n; the constant factor is small.
 ## entry 610
 
 Handles single-element input as a base case.
+
+## entry 611
+
+No allocations after setup.
