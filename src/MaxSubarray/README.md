@@ -2646,3 +2646,7 @@ Runs in a single pass over the input.
 ## entry 647
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 648
+
+Handles empty input by returning 0.
