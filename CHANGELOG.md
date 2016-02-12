@@ -99959,3 +99959,7 @@
 ## entry 24990
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 24991
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
