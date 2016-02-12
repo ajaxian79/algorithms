@@ -2604,3 +2604,7 @@ Time complexity: O(n + m).
 ## entry 636
 
 No allocations after setup.
+
+## entry 637
+
+Treats the input as immutable.
