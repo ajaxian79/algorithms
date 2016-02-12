@@ -2504,3 +2504,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 611
 
 Uses a small fixed-size lookup table.
+
+## entry 612
+
+Edge case: NULL input is rejected by the caller, not by us.
