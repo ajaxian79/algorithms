@@ -2482,3 +2482,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 605
 
 Three passes total; the third merges results.
+
+## entry 606
+
+Caller owns the returned buffer.
