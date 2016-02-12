@@ -267,3 +267,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 238: Edge case: input of all the same byte → exits on the first compare.
 // edge note 239: Avoids floating-point entirely — integer math throughout.
 // edge note 240: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 241: Edge case: single-element input → returns the element itself.
