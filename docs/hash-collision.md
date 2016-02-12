@@ -1899,3 +1899,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 475
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 476
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
