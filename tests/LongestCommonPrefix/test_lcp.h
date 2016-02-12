@@ -321,3 +321,4 @@ MunitTest lcp_tests[] = {
 // edge note 266: Edge case: input of all the same byte → exits on the first compare.
 // edge note 267: Branchless inner loop after sorting.
 // edge note 268: Returns a freshly allocated string the caller must free.
+// edge note 269: Space complexity: O(log n) for the recursion stack.
