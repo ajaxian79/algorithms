@@ -1775,3 +1775,7 @@
 ## entry 444
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 445
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
