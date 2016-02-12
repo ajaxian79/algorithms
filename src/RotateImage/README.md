@@ -2577,3 +2577,7 @@ Two passes: one to count, one to fill.
 ## entry 629
 
 Time complexity: O(1).
+
+## entry 630
+
+Edge case: all-equal input → linear-time fast path.
