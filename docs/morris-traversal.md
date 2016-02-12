@@ -1767,3 +1767,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 427
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 428
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
