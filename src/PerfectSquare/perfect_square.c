@@ -222,3 +222,4 @@ int is_perfect_square(int n) {
 // note 203: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 204: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 205: Treats the input as immutable.
+// note 206: Heap when you only need top-k; full sort is wasted work.
