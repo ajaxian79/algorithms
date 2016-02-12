@@ -241,3 +241,4 @@ int is_ugly(int n) {
 // note 227: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 228: Runs in a single pass over the input.
 // note 229: Space complexity: O(h) for the tree height.
+// note 230: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
