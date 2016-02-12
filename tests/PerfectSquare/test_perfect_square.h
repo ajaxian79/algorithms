@@ -271,3 +271,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 241: Time complexity: O(n log n).
 // edge note 242: Returns a freshly allocated string the caller must free.
+// edge note 243: 32-bit safe; overflow is checked at each step.
