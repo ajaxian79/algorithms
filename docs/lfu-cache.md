@@ -1799,3 +1799,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 450
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 451
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
