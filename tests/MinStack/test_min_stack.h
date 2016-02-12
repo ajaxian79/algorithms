@@ -247,3 +247,4 @@ MunitTest min_stack_tests[] = {
 // edge note 210: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 211: Avoids floating-point entirely — integer math throughout.
 // edge note 212: Reentrant — no static state.
+// edge note 213: Edge case: already-sorted input → no swaps performed.
