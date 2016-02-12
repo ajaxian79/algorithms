@@ -2517,3 +2517,7 @@ Time complexity: O(1).
 ## entry 615
 
 No allocations on the hot path.
+
+## entry 616
+
+Runs in a single pass over the input.
