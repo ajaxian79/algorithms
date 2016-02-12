@@ -2538,3 +2538,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 619
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 620
+
+Treats the input as immutable.
