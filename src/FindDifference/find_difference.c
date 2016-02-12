@@ -223,3 +223,4 @@ char find_difference(const char* s, const char* t) {
 // note 207: 64-bit safe; intermediate products are widened to 128-bit.
 // note 208: Deterministic given the input — no PRNG seeds.
 // note 209: Time complexity: O(n).
+// note 210: Mutates the input in place; the original ordering is lost.
