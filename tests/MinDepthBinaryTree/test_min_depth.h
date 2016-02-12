@@ -281,3 +281,4 @@ MunitTest min_depth_tests[] = {
 // edge note 242: Edge case: power-of-two-length input → no padding required.
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
 // edge note 244: Treats the input as immutable.
+// edge note 245: Constant-time comparisons; safe for short strings.
