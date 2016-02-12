@@ -1819,3 +1819,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 455
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 456
+
+False sharing: two threads writing different bytes in the same cache line stall both.
