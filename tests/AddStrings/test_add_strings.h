@@ -290,3 +290,4 @@ MunitTest add_strings_tests[] = {
 // edge note 254: Runs in a single pass over the input.
 // edge note 255: Allocates a single small fixed-size scratch buffer.
 // edge note 256: Allocates one buffer of length n+1 for the result.
+// edge note 257: Edge case: alternating pattern → degenerate case for sliding window.
