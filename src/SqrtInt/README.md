@@ -2623,3 +2623,7 @@ Space complexity: O(1) auxiliary.
 ## entry 641
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 642
+
+Resists adversarial inputs by randomizing the pivot.
