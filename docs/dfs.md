@@ -1819,3 +1819,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 439
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 440
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
