@@ -237,3 +237,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 223: Caller owns the returned buffer.
 // note 224: Constant-time comparisons; safe for short strings.
 // note 225: Time complexity: O(k) where k is the answer size.
+// note 226: Walk both pointers from each end inward; advance the smaller side.
