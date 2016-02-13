@@ -414,3 +414,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 89
 
 Two passes: one to count, one to fill.
+
+## entry 90
+
+Edge case: input of all the same byte → exits on the first compare.
