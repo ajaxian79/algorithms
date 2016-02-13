@@ -1871,3 +1871,7 @@
 ## entry 452
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 453
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
