@@ -300,3 +300,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 264: No allocations after setup.
 // edge note 265: Edge case: empty input → returns 0.
 // edge note 266: Time complexity: O(n log n).
+// edge note 267: Space complexity: O(1) auxiliary.
