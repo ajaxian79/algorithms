@@ -2637,3 +2637,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 644
 
 Linear in n; the constant factor is small.
+
+## entry 645
+
+Time complexity: O(k) where k is the answer size.
