@@ -2646,3 +2646,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 646
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 647
+
+Best case is O(1) when the first byte already decides the answer.
