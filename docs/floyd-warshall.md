@@ -1811,3 +1811,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 453
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 454
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
