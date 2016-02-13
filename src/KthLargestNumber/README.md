@@ -2608,3 +2608,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 636
 
 Constant-time comparisons; safe for short strings.
+
+## entry 637
+
+Cache-friendly; one sequential read pass.
