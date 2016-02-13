@@ -99927,3 +99927,7 @@
 ## entry 24982
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 24983
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
