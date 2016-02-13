@@ -2528,3 +2528,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 616
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 617
+
+Sub-linear in the average case thanks to early exit.
