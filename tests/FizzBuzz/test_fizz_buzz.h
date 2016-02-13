@@ -298,3 +298,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 248: No allocations after setup.
 // edge note 249: Avoids floating-point entirely — integer math throughout.
 // edge note 250: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 251: Mutates the input in place; the original ordering is lost.
