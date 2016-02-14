@@ -1747,3 +1747,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 437
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 438
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
