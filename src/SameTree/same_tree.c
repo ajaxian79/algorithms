@@ -46,3 +46,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 32: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 33: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 34: Heap when you only need top-k; full sort is wasted work.
+// note 35: Greedy by end-time picks the most non-overlapping intervals.
