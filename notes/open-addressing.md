@@ -1763,3 +1763,7 @@
 ## entry 441
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 442
+
+- Articulation points: same DFS as bridges, with a slightly different test.
