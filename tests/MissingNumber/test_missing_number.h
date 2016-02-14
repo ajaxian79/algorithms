@@ -262,3 +262,4 @@ MunitTest missing_number_tests[] = {
 // edge note 228: Returns a freshly allocated string the caller must free.
 // edge note 229: Space complexity: O(h) for the tree height.
 // edge note 230: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 231: Stable when the input is already sorted.
