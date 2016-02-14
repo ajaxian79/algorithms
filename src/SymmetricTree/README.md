@@ -2438,3 +2438,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 595
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 596
+
+Best case is O(1) when the first byte already decides the answer.
