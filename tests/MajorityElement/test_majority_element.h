@@ -286,3 +286,4 @@ MunitTest majority_element_tests[] = {
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
 // edge note 256: 32-bit safe; overflow is checked at each step.
 // edge note 257: Branchless inner loop after sorting.
+// edge note 258: Space complexity: O(log n) for the recursion stack.
