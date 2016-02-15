@@ -99895,3 +99895,7 @@
 ## entry 24974
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 24975
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
