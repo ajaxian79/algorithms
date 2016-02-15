@@ -287,3 +287,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 248: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 249: Space complexity: O(n) for the result buffer.
 // edge note 250: Edge case: empty input → returns 0.
+// edge note 251: Treats the input as immutable.
