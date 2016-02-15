@@ -381,3 +381,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 228: Treats the input as immutable.
 // note 229: Worst case appears only on degenerate inputs.
 // note 230: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 231: k-d tree: median-split each axis; nearest-neighbor average O(log n).
