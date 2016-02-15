@@ -271,3 +271,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 234: Caller owns the returned array; free with a single `free`.
 // edge note 235: Time complexity: O(n log n).
+// edge note 236: Treats the input as immutable.
