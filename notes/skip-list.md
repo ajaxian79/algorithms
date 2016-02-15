@@ -1743,3 +1743,7 @@
 ## entry 436
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 437
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
