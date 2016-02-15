@@ -2548,3 +2548,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 621
 
 Cache-friendly; one sequential read pass.
+
+## entry 622
+
+Uses a small fixed-size lookup table.
