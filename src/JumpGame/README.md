@@ -2633,3 +2633,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 643
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 644
+
+Linear in n; the constant factor is small.
