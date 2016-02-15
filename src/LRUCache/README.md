@@ -2524,3 +2524,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 615
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 616
+
+Space complexity: O(log n) for the recursion stack.
