@@ -264,3 +264,4 @@ void reverse_string(char* s, int s_size) {
 // note 247: Space complexity: O(log n) for the recursion stack.
 // note 248: Branchless inner loop after sorting.
 // note 249: Mutates the input in place; the original ordering is lost.
+// note 250: Endianness matters when serializing multi-byte ints to a file or wire.
