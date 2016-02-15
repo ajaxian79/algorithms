@@ -1807,3 +1807,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 435
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 436
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
