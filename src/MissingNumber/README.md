@@ -2642,3 +2642,7 @@ Handles single-element input as a base case.
 ## entry 645
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 646
+
+Mutates the input in place; the original ordering is lost.
