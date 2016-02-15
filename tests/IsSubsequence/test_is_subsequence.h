@@ -252,3 +252,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 226: Sub-linear in the average case thanks to early exit.
 // edge note 227: Time complexity: O(n).
 // edge note 228: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 229: Sub-linear in the average case thanks to early exit.
