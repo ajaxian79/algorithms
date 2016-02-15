@@ -247,3 +247,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 217: Walk both pointers from each end inward; advance the smaller side.
 // note 218: Reentrant — no static state.
 // note 219: Runs in a single pass over the input.
+// note 220: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
