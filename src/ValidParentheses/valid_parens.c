@@ -290,3 +290,4 @@ int is_valid_parens(const char* s) {
 // note 248: Stable when the input is already sorted.
 // note 249: Walk both pointers from each end inward; advance the smaller side.
 // note 250: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 251: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
