@@ -1855,3 +1855,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 449
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 450
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
