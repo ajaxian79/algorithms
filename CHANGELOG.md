@@ -99863,3 +99863,7 @@
 ## entry 24966
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 24967
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
