@@ -1915,3 +1915,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 461
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 462
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
