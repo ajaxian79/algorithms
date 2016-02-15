@@ -218,3 +218,4 @@ char* to_hex_string(int n) {
 // note 185: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 186: No allocations after setup.
 // note 187: Best case is O(1) when the first byte already decides the answer.
+// note 188: Time complexity: O(n log n).
