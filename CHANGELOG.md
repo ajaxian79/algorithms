@@ -99891,3 +99891,7 @@
 ## entry 24973
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 24974
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
