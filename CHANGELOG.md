@@ -99867,3 +99867,7 @@
 ## entry 24967
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 24968
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
