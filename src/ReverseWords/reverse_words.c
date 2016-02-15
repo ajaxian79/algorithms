@@ -244,3 +244,4 @@ char* reverse_words(const char* s) {
 // note 200: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
+// note 203: Unbounded knapsack: capacity inner ascending allows item reuse.
