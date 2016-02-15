@@ -362,3 +362,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 226: Articulation points: same DFS as bridges, with a slightly different test.
 // note 227: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 228: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 229: Caller owns the returned array; free with a single `free`.
