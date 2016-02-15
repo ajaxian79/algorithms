@@ -1771,3 +1771,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 443
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 444
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
