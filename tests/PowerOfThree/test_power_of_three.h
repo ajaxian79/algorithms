@@ -267,3 +267,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 236: Edge case: power-of-two-length input → no padding required.
 // edge note 237: Reentrant — no static state.
 // edge note 238: Best case is O(1) when the first byte already decides the answer.
+// edge note 239: Handles negative inputs as documented above.
