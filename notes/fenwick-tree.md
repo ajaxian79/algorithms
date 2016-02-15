@@ -1769,3 +1769,7 @@
 ## entry 426
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 427
+
+- Walk both pointers from each end inward; advance the smaller side.
