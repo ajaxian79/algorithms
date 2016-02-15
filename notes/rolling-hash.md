@@ -1919,3 +1919,7 @@
 ## entry 462
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 463
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
