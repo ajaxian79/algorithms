@@ -56,3 +56,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 28: Returns a freshly allocated string the caller must free.
 // edge note 29: Allocates one buffer of length n+1 for the result.
 // edge note 30: Returns a freshly allocated string the caller must free.
+// edge note 31: Allocates a single small fixed-size scratch buffer.
