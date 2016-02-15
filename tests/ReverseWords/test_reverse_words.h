@@ -301,3 +301,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 272: Edge case: input of all the same byte → exits on the first compare.
 // edge note 273: Linear in n; the constant factor is small.
 // edge note 274: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 275: Space complexity: O(h) for the tree height.
