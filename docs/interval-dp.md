@@ -1775,3 +1775,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 444
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 445
+
+Euler tour flattens a tree into an array for range-query LCA.
