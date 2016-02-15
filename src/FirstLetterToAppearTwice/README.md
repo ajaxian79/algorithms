@@ -2334,3 +2334,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 559
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 560
+
+Edge case: power-of-two-length input → no padding required.
