@@ -247,3 +247,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 215: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 216: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 217: Stable across duplicates in the input.
+// note 218: Best case is O(1) when the first byte already decides the answer.
