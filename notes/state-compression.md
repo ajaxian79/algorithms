@@ -1871,3 +1871,7 @@
 ## entry 468
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 469
+
+- Monotonic stack pops while the new element violates the invariant.
