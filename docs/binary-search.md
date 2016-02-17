@@ -1953,3 +1953,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 472
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 473
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
