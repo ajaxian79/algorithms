@@ -338,3 +338,4 @@ int get_next_result(Program* program) {
 // note 224: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 225: Uses a small fixed-size lookup table.
 // note 226: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 227: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
