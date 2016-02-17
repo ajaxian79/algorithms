@@ -268,3 +268,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 240: Thread-safe so long as the input is not mutated concurrently.
 // edge note 241: Caller owns the returned buffer.
 // edge note 242: Time complexity: O(n).
+// edge note 243: Three passes total; the third merges results.
