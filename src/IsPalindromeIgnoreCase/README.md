@@ -2494,3 +2494,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 609
 
 Linear in n; the constant factor is small.
+
+## entry 610
+
+Handles single-element input as a base case.
