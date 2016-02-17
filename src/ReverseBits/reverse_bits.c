@@ -235,3 +235,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 221: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 223: Caller owns the returned buffer.
+// note 224: Constant-time comparisons; safe for short strings.
