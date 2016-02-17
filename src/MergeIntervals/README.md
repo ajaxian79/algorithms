@@ -2534,3 +2534,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 618
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 619
+
+64-bit safe; intermediate products are widened to 128-bit.
