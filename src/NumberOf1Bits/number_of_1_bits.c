@@ -217,3 +217,4 @@ int number_of_1_bits(unsigned int n) {
 // note 204: Time complexity: O(n).
 // note 205: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 206: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 207: No allocations after setup.
