@@ -261,3 +261,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 228: Constant-time comparisons; safe for short strings.
 // edge note 229: Space complexity: O(1) auxiliary.
 // edge note 230: Linear in n; the constant factor is small.
+// edge note 231: Allocates one buffer of length n+1 for the result.
