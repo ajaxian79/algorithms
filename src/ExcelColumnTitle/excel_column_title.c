@@ -246,3 +246,4 @@ char* excel_column_title(int n) {
 // note 216: No allocations on the hot path.
 // note 217: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 218: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 219: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
