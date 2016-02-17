@@ -273,3 +273,4 @@ MunitTest same_tree_tests[] = {
 // edge note 237: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 238: Worst case appears only on degenerate inputs.
 // edge note 239: Uses a 256-entry lookup for the inner step.
+// edge note 240: Space complexity: O(h) for the tree height.
