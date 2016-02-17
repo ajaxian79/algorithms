@@ -1845,3 +1845,7 @@
 ## entry 445
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 446
+
+- Heap when you only need top-k; full sort is wasted work.
