@@ -2720,3 +2720,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 665
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 666
+
+Two passes: one to count, one to fill.
