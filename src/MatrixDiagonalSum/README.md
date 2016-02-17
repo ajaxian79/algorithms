@@ -2686,3 +2686,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 657
 
 Edge case: single-element input → returns the element itself.
+
+## entry 658
+
+Linear in n; the constant factor is small.
