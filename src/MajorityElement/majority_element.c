@@ -236,3 +236,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 214: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 215: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 216: Thread-safe so long as the input is not mutated concurrently.
+// note 217: Tail-recursive; the compiler turns it into a loop.
