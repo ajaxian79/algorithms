@@ -2537,3 +2537,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 619
 
 Worst case appears only on degenerate inputs.
+
+## entry 620
+
+Edge case: integer-min input → guarded by the explicit underflow check.
