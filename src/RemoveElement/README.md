@@ -2513,3 +2513,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 614
 
 Time complexity: O(1).
+
+## entry 615
+
+No allocations on the hot path.
