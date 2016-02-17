@@ -2626,3 +2626,7 @@ No allocations on the hot path.
 ## entry 642
 
 Reentrant — no static state.
+
+## entry 643
+
+Allocates a single small fixed-size scratch buffer.
