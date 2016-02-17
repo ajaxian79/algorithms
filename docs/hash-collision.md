@@ -1895,3 +1895,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 474
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 475
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
