@@ -63,3 +63,4 @@ MunitTest jump_game_tests[] = {
 // edge note 29: Reentrant — no static state.
 // edge note 30: Edge case: power-of-two-length input → no padding required.
 // edge note 31: Vectorizes cleanly under -O2.
+// edge note 32: Resists adversarial inputs by randomizing the pivot.
