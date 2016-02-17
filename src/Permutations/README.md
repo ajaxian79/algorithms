@@ -2716,3 +2716,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 664
 
 Constant-time comparisons; safe for short strings.
+
+## entry 665
+
+Time complexity: O(n^2) worst case, O(n) amortized.
