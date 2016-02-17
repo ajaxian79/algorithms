@@ -1935,3 +1935,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 468
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 469
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
