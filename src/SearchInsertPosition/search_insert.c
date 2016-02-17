@@ -252,3 +252,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 236: Heap when you only need top-k; full sort is wasted work.
 // note 237: 64-bit safe; intermediate products are widened to 128-bit.
 // note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 239: LIS via patience: each pile holds the smallest tail of length k.
