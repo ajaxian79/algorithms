@@ -2758,3 +2758,7 @@ No allocations after setup.
 ## entry 675
 
 Space complexity: O(1) auxiliary.
+
+## entry 676
+
+Uses a small fixed-size lookup table.
