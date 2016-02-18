@@ -2509,3 +2509,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 613
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 614
+
+Time complexity: O(1).
