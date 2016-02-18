@@ -64,3 +64,4 @@ MunitTest add_binary_tests[] = {
 // edge note 28: Branchless inner loop after sorting.
 // edge note 29: Space complexity: O(h) for the tree height.
 // edge note 30: Stable across duplicates in the input.
+// edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
