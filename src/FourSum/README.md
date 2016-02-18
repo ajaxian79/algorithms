@@ -2500,3 +2500,7 @@ Linear in n; the constant factor is small.
 ## entry 610
 
 Stable across duplicates in the input.
+
+## entry 611
+
+Sub-linear in the average case thanks to early exit.
