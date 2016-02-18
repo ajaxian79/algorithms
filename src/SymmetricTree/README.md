@@ -2434,3 +2434,7 @@ Three passes total; the third merges results.
 ## entry 594
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 595
+
+Edge case: input with a single peak → handled by the first-pass scan.
