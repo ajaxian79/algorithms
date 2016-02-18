@@ -1899,3 +1899,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 458
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 459
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
