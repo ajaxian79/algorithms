@@ -2766,3 +2766,7 @@ Uses a small fixed-size lookup table.
 ## entry 677
 
 Time complexity: O(n).
+
+## entry 678
+
+Three passes total; the third merges results.
