@@ -2581,3 +2581,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 631
 
 Three passes total; the third merges results.
+
+## entry 632
+
+Constant-time comparisons; safe for short strings.
