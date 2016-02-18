@@ -1839,3 +1839,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 460
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 461
+
+In-place compaction uses two pointers: read advances always, write only on keep.
