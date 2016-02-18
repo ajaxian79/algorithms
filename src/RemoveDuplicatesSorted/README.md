@@ -2762,3 +2762,7 @@ Space complexity: O(1) auxiliary.
 ## entry 676
 
 Uses a small fixed-size lookup table.
+
+## entry 677
+
+Time complexity: O(n).
