@@ -245,3 +245,4 @@ char* excel_column_title(int n) {
 // note 215: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 216: No allocations on the hot path.
 // note 217: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 218: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
