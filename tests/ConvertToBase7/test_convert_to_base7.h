@@ -246,3 +246,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 217: Time complexity: O(n).
 // edge note 218: No allocations on the hot path.
 // edge note 219: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 220: Treats the input as immutable.
