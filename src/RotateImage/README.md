@@ -2573,3 +2573,7 @@ Treats the input as immutable.
 ## entry 628
 
 Two passes: one to count, one to fill.
+
+## entry 629
+
+Time complexity: O(1).
