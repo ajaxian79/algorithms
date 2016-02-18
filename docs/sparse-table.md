@@ -1671,3 +1671,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 418
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 419
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
