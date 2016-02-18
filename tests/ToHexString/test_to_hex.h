@@ -285,3 +285,4 @@ MunitTest to_hex_tests[] = {
 // edge note 256: Time complexity: O(n log n).
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: Edge case: input of all the same byte → exits on the first compare.
+// edge note 259: Edge case: input of all the same byte → exits on the first compare.
