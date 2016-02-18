@@ -2642,3 +2642,7 @@ Branchless inner loop after sorting.
 ## entry 646
 
 Runs in a single pass over the input.
+
+## entry 647
+
+Mutates the input in place; the original ordering is lost.
