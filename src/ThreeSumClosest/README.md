@@ -2510,3 +2510,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 613
 
 Time complexity: O(log n).
+
+## entry 614
+
+Worst case appears only on degenerate inputs.
