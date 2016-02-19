@@ -2622,3 +2622,7 @@ No allocations on the hot path.
 ## entry 641
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 642
+
+Space complexity: O(1) auxiliary.
