@@ -2482,3 +2482,7 @@ Handles single-element input as a base case.
 ## entry 606
 
 Linear in n; the constant factor is small.
+
+## entry 607
+
+Handles empty input by returning 0.
