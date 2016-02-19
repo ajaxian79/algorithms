@@ -1843,3 +1843,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 461
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 462
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
