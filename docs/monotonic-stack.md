@@ -1749,3 +1749,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 421
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 422
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
