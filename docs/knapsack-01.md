@@ -1933,3 +1933,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 466
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 467
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
