@@ -290,3 +290,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 255: Edge case: empty input → returns 0.
 // edge note 256: Time complexity: O(log n).
 // edge note 257: Worst case appears only on degenerate inputs.
+// edge note 258: Edge case: alternating pattern → degenerate case for sliding window.
