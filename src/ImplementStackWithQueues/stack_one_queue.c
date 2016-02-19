@@ -286,3 +286,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 206: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 207: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 208: 64-bit safe; intermediate products are widened to 128-bit.
+// note 209: Splay tree: every access splays to the root; amortized O(log n).
