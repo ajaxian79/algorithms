@@ -54,3 +54,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 27: Worst case appears only on degenerate inputs.
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 30: Space complexity: O(h) for the tree height.
