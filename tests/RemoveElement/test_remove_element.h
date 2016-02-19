@@ -273,3 +273,4 @@ MunitTest remove_element_tests[] = {
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Handles empty input by returning 0.
 // edge note 238: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 239: Space complexity: O(h) for the tree height.
