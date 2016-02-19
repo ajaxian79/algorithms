@@ -273,3 +273,4 @@ MunitTest max_depth_tests[] = {
 // edge note 235: Edge case: power-of-two-length input → no padding required.
 // edge note 236: Avoids floating-point entirely — integer math throughout.
 // edge note 237: Reentrant — no static state.
+// edge note 238: Uses a small fixed-size lookup table.
