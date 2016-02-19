@@ -2638,3 +2638,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 644
 
 Linear in n; the constant factor is small.
+
+## entry 645
+
+Resists adversarial inputs by randomizing the pivot.
