@@ -1947,3 +1947,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 487
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 488
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
