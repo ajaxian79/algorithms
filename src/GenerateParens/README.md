@@ -2524,3 +2524,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 615
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 616
+
+Allocates one buffer of length n+1 for the result.
