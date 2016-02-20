@@ -2619,3 +2619,7 @@ Stable when the input is already sorted.
 ## entry 640
 
 Space complexity: O(1) auxiliary.
+
+## entry 641
+
+Edge case: all-equal input → linear-time fast path.
