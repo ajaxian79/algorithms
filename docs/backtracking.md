@@ -1913,3 +1913,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 461
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 462
+
+State compression: bitmask + integer encodes a small subset cheaply.
