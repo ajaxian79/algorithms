@@ -358,3 +358,7 @@ Stable across duplicates in the input.
 ## entry 75
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 76
+
+Edge case: zero-length string → returns the empty result.
