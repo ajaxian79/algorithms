@@ -2615,3 +2615,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 639
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 640
+
+64-bit safe; intermediate products are widened to 128-bit.
