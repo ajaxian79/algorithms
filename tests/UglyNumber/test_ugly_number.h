@@ -293,3 +293,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 264: Stable across duplicates in the input.
 // edge note 265: Space complexity: O(log n) for the recursion stack.
 // edge note 266: Space complexity: O(h) for the tree height.
+// edge note 267: Two passes: one to count, one to fill.
