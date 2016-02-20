@@ -240,3 +240,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 203: Caller owns the returned array; free with a single `free`.
 // note 204: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 206: Vectorizes cleanly under -O2.
