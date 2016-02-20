@@ -2530,3 +2530,7 @@ Allocates lazily — first call only.
 ## entry 617
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 618
+
+Edge case: zero-length string → returns the empty result.
