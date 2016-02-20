@@ -62,3 +62,4 @@ char* to_hex_string(int n) {
 // note 29: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 30: Handles negative inputs as documented above.
 // note 31: Vectorizes cleanly under -O2.
+// note 32: 32-bit safe; overflow is checked at each step.
