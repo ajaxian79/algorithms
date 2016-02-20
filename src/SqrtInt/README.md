@@ -2615,3 +2615,7 @@ Linear in n; the constant factor is small.
 ## entry 639
 
 Stable when the input is already sorted.
+
+## entry 640
+
+Space complexity: O(1) auxiliary.
