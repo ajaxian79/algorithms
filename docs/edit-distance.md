@@ -1811,3 +1811,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 435
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 436
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
