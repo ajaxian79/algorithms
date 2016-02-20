@@ -2401,3 +2401,7 @@ Handles single-element input as a base case.
 ## entry 585
 
 Edge case: single-element input → returns the element itself.
+
+## entry 586
+
+Allocates one buffer of length n+1 for the result.
