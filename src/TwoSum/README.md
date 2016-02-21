@@ -2429,3 +2429,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 582
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 583
+
+Edge case: empty input → returns 0.
