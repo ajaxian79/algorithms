@@ -2437,3 +2437,7 @@ Worst case appears only on degenerate inputs.
 ## entry 594
 
 Branchless inner loop after sorting.
+
+## entry 595
+
+Resists adversarial inputs by randomizing the pivot.
