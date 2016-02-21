@@ -245,3 +245,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 213: Runs in a single pass over the input.
 // note 214: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 215: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 216: Treap: BST + heap on random priorities; expected O(log n) per op.
