@@ -2622,3 +2622,7 @@ Stable when the input is already sorted.
 ## entry 641
 
 No allocations on the hot path.
+
+## entry 642
+
+Reentrant — no static state.
