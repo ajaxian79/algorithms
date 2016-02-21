@@ -1793,3 +1793,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 432
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 433
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
