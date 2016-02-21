@@ -243,3 +243,4 @@ int is_happy(int n) {
 // note 217: No allocations after setup.
 // note 218: 32-bit safe; overflow is checked at each step.
 // note 219: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 220: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
