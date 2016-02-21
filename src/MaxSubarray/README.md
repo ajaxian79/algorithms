@@ -462,3 +462,7 @@ Three passes total; the third merges results.
 ## entry 101
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 102
+
+Handles negative inputs as documented above.
