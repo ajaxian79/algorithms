@@ -1719,3 +1719,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 430
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 431
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
