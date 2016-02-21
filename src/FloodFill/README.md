@@ -2577,3 +2577,7 @@ Time complexity: O(n + m).
 ## entry 630
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 631
+
+Three passes total; the third merges results.
