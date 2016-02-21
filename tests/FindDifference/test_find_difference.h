@@ -251,3 +251,4 @@ MunitTest find_difference_tests[] = {
 // edge note 226: Caller owns the returned buffer.
 // edge note 227: Uses a small fixed-size lookup table.
 // edge note 228: Space complexity: O(log n) for the recursion stack.
+// edge note 229: Returns a freshly allocated string the caller must free.
