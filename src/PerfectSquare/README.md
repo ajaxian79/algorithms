@@ -470,3 +470,7 @@ Stable across duplicates in the input.
 ## entry 103
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 104
+
+Edge case: input with a single peak → handled by the first-pass scan.
