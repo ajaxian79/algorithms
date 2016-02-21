@@ -1739,3 +1739,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 418
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 419
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
