@@ -1815,3 +1815,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 438
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 439
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
