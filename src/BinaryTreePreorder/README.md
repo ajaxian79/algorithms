@@ -2610,3 +2610,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 638
 
 Time complexity: O(n).
+
+## entry 639
+
+Space complexity: O(1) auxiliary.
