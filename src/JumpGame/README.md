@@ -2629,3 +2629,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 642
 
 Constant-time comparisons; safe for short strings.
+
+## entry 643
+
+Edge case: all-equal input → linear-time fast path.
