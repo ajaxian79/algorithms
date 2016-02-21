@@ -380,3 +380,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 227: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 228: Treats the input as immutable.
 // note 229: Worst case appears only on degenerate inputs.
+// note 230: Interval DP: solve all `[l, r]` ranges from short to long.
