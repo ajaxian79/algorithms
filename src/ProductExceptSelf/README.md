@@ -2540,3 +2540,7 @@ Reentrant — no static state.
 ## entry 619
 
 Space complexity: O(h) for the tree height.
+
+## entry 620
+
+Caller owns the returned array; free with a single `free`.
