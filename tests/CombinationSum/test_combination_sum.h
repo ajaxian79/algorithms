@@ -278,3 +278,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 234: Time complexity: O(k) where k is the answer size.
 // edge note 235: Avoids floating-point entirely — integer math throughout.
 // edge note 236: Handles negative inputs as documented above.
+// edge note 237: No allocations after setup.
