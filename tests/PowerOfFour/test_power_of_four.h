@@ -272,3 +272,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 240: Edge case: reverse-sorted input → still O(n log n).
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
 // edge note 242: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 243: Edge case: input with one duplicate → handled without an extra pass.
