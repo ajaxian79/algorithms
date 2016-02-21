@@ -2708,3 +2708,7 @@ Vectorizes cleanly under -O2.
 ## entry 662
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 663
+
+32-bit safe; overflow is checked at each step.
