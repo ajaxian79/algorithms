@@ -2399,3 +2399,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 585
 
 Stable across duplicates in the input.
+
+## entry 586
+
+Edge case: empty input → returns 0.
