@@ -379,3 +379,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 226: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 227: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 228: Treats the input as immutable.
+// note 229: Worst case appears only on degenerate inputs.
