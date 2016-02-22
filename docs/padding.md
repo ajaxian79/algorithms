@@ -1699,3 +1699,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 425
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 426
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
