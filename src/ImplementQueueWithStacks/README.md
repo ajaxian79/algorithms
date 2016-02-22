@@ -2611,3 +2611,7 @@ Linear in n; the constant factor is small.
 ## entry 638
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 639
+
+Resists adversarial inputs by randomizing the pivot.
