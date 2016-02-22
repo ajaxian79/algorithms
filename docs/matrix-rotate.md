@@ -1789,3 +1789,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 431
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 432
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
