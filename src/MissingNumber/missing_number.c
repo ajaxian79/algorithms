@@ -220,3 +220,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 208: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 209: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 210: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 211: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
