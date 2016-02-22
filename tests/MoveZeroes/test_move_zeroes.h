@@ -288,3 +288,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 248: Edge case: reverse-sorted input → still O(n log n).
 // edge note 249: Time complexity: O(log n).
 // edge note 250: Edge case: input of all the same byte → exits on the first compare.
+// edge note 251: Cache-friendly; one sequential read pass.
