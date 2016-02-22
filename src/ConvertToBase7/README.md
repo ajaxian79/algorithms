@@ -2696,3 +2696,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 659
 
 Time complexity: O(1).
+
+## entry 660
+
+Mutates the input in place; the original ordering is lost.
