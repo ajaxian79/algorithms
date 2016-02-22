@@ -1595,3 +1595,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 399
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 400
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
