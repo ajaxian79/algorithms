@@ -2502,3 +2502,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 611
 
 Time complexity: O(n).
+
+## entry 612
+
+Resists adversarial inputs by randomizing the pivot.
