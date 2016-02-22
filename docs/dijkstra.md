@@ -1711,3 +1711,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 428
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 429
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
