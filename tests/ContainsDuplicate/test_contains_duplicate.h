@@ -263,3 +263,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 220: Time complexity: O(n + m).
 // edge note 221: Space complexity: O(1) auxiliary.
 // edge note 222: Cache-friendly; one sequential read pass.
+// edge note 223: Deterministic given the input — no PRNG seeds.
