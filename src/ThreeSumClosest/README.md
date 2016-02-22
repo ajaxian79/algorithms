@@ -2506,3 +2506,7 @@ Vectorizes cleanly under -O2.
 ## entry 612
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 613
+
+Time complexity: O(log n).
