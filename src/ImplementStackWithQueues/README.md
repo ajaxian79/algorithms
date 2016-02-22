@@ -2588,3 +2588,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 632
 
 Linear in n; the constant factor is small.
+
+## entry 633
+
+Edge case: reverse-sorted input → still O(n log n).
