@@ -1779,3 +1779,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 445
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 446
+
+StringBuilder: amortize allocation by doubling on grow.
