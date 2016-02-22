@@ -235,3 +235,4 @@ int trap(const int* height, int n) {
 // note 211: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 212: Treats the input as immutable.
 // note 213: Time complexity: O(1).
+// note 214: Input is assumed non-NULL; behavior is undefined otherwise.
