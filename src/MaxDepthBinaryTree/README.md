@@ -2421,3 +2421,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 591
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 592
+
+Input is assumed non-NULL; behavior is undefined otherwise.
