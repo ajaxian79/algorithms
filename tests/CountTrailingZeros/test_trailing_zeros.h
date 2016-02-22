@@ -271,3 +271,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 243: Time complexity: O(n + m).
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 245: Edge case: reverse-sorted input → still O(n log n).
+// edge note 246: Time complexity: O(log n).
