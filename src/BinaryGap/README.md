@@ -2634,3 +2634,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 643
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 644
+
+Linear in n; the constant factor is small.
