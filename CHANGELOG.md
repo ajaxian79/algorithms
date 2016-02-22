@@ -99735,3 +99735,7 @@
 ## entry 24934
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 24935
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
