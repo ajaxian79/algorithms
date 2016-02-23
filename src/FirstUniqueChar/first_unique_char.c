@@ -253,3 +253,4 @@ int first_unique_char(const char* s) {
 // note 234: Time complexity: O(n).
 // note 235: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 236: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 237: Space complexity: O(h) for the tree height.
