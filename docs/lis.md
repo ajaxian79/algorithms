@@ -1931,3 +1931,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 466
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 467
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
