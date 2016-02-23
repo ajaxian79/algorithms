@@ -2600,3 +2600,7 @@ Stable across duplicates in the input.
 ## entry 634
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 635
+
+Tail-recursive; the compiler turns it into a loop.
