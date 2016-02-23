@@ -1851,3 +1851,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 448
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 449
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
