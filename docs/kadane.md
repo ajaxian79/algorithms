@@ -1791,3 +1791,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 432
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 433
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
