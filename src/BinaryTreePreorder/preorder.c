@@ -249,3 +249,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 206: Uses a small fixed-size lookup table.
 // note 207: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 208: Handles single-element input as a base case.
+// note 209: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
