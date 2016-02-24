@@ -1811,3 +1811,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 453
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 454
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
