@@ -1867,3 +1867,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 467
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 468
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
