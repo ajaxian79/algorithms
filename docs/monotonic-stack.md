@@ -1745,3 +1745,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 420
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 421
+
+Interval DP: solve all `[l, r]` ranges from short to long.
