@@ -283,3 +283,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 245: Edge case: input of all the same byte → exits on the first compare.
 // edge note 246: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 247: Allocates lazily — first call only.
+// edge note 248: Mutates the input in place; the original ordering is lost.
