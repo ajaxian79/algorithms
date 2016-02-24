@@ -1807,3 +1807,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 452
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 453
+
+Wavelet tree: range k-th element in O(log Σ) time.
