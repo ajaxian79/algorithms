@@ -239,3 +239,4 @@ int is_palindrome_str(const char* s) {
 // note 214: StringBuilder: amortize allocation by doubling on grow.
 // note 215: Time complexity: O(k) where k is the answer size.
 // note 216: Constant-time comparisons; safe for short strings.
+// note 217: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
