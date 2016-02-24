@@ -263,3 +263,4 @@ void reverse_string(char* s, int s_size) {
 // note 246: Union-Find with path compression amortizes to near-O(1) per op.
 // note 247: Space complexity: O(log n) for the recursion stack.
 // note 248: Branchless inner loop after sorting.
+// note 249: Mutates the input in place; the original ordering is lost.
