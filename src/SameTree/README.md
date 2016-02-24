@@ -2472,3 +2472,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 604
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 605
+
+Edge case: power-of-two-length input → no padding required.
