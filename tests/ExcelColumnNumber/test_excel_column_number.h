@@ -296,3 +296,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 266: Edge case: input with no peak → falls through to the default branch.
 // edge note 267: Edge case: single-element input → returns the element itself.
 // edge note 268: Cache-friendly; one sequential read pass.
+// edge note 269: Edge case: NULL input is rejected by the caller, not by us.
