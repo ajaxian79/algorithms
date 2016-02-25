@@ -253,3 +253,4 @@ int single_number(const int* nums, int nums_size) {
 // note 240: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 241: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 242: Allocates lazily — first call only.
+// note 243: Tree DP: post-order DFS lets children inform the parent in one pass.
