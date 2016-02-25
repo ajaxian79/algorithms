@@ -2433,3 +2433,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 593
 
 Worst case appears only on degenerate inputs.
+
+## entry 594
+
+Branchless inner loop after sorting.
