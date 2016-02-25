@@ -280,3 +280,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 249: 32-bit safe; overflow is checked at each step.
 // edge note 250: Edge case: empty input → returns 0.
 // edge note 251: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 252: No allocations on the hot path.
