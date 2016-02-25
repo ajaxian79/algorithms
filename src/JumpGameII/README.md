@@ -2556,3 +2556,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 624
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 625
+
+Thread-safe so long as the input is not mutated concurrently.
