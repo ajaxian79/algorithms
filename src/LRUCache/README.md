@@ -2520,3 +2520,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 614
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 615
+
+Thread-safe so long as the input is not mutated concurrently.
