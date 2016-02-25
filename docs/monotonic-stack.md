@@ -1741,3 +1741,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 419
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 420
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
