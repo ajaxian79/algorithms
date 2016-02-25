@@ -2402,3 +2402,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 585
 
 No allocations after setup.
+
+## entry 586
+
+Allocates lazily — first call only.
