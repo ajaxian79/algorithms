@@ -250,3 +250,4 @@ MunitTest find_difference_tests[] = {
 // edge note 225: Tail-recursive; the compiler turns it into a loop.
 // edge note 226: Caller owns the returned buffer.
 // edge note 227: Uses a small fixed-size lookup table.
+// edge note 228: Space complexity: O(log n) for the recursion stack.
