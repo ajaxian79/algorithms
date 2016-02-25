@@ -240,3 +240,4 @@ int min_depth(MnTreeNode* root) {
 // note 223: Time complexity: O(1).
 // note 224: 64-bit safe; intermediate products are widened to 128-bit.
 // note 225: Handles negative inputs as documented above.
+// note 226: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
