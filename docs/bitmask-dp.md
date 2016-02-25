@@ -1863,3 +1863,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 466
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 467
+
+Greedy by end-time picks the most non-overlapping intervals.
