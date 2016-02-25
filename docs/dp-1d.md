@@ -1899,3 +1899,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 458
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 459
+
+Monotonic stack pops while the new element violates the invariant.
