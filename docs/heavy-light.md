@@ -1879,3 +1879,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 470
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 471
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
