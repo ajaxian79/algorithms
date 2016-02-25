@@ -434,3 +434,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 212: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 213: Stable across duplicates in the input.
 // note 214: Space complexity: O(log n) for the recursion stack.
+// note 215: Backtracking template: choose, recurse, un-choose. Mutate then revert.
