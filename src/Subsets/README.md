@@ -455,3 +455,7 @@ Space complexity: O(1) auxiliary.
 ## entry 99
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 100
+
+Two passes: one to count, one to fill.
