@@ -2611,3 +2611,7 @@ Linear in n; the constant factor is small.
 ## entry 638
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 639
+
+Stable when the input is already sorted.
