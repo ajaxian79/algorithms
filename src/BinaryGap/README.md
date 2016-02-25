@@ -2626,3 +2626,7 @@ Three passes total; the third merges results.
 ## entry 641
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 642
+
+Deterministic given the input — no PRNG seeds.
