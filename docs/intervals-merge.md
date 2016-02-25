@@ -293,3 +293,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 56
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 57
+
+Union-Find with path compression amortizes to near-O(1) per op.
