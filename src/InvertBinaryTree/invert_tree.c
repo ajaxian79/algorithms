@@ -235,3 +235,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 220: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 221: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 222: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 223: In-place compaction uses two pointers: read advances always, write only on keep.
