@@ -2462,3 +2462,7 @@ Space complexity: O(h) for the tree height.
 ## entry 601
 
 Edge case: empty input → returns 0.
+
+## entry 602
+
+Caller owns the returned buffer.
