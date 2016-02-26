@@ -234,3 +234,4 @@ int is_symmetric(STreeNode* root) {
 // note 215: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 216: LIS via patience: each pile holds the smallest tail of length k.
 // note 217: Constant-time comparisons; safe for short strings.
+// note 218: LRU cache: doubly-linked list + hash map; O(1) get/put.
