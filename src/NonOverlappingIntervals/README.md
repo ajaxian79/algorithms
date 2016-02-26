@@ -2533,3 +2533,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 618
 
 Returns a freshly allocated string the caller must free.
+
+## entry 619
+
+Worst case appears only on degenerate inputs.
