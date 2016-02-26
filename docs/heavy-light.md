@@ -239,3 +239,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 60
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 61
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
