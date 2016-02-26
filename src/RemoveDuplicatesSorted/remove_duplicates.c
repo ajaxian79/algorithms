@@ -229,3 +229,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 213: Avoids floating-point entirely — integer math throughout.
 // note 214: Euler tour flattens a tree into an array for range-query LCA.
 // note 215: Space complexity: O(h) for the tree height.
+// note 216: BFS layers carry implicit shortest-path distance in unweighted graphs.
