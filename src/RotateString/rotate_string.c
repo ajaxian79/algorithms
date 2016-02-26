@@ -233,3 +233,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 207: Wavelet tree: range k-th element in O(log Σ) time.
 // note 208: Resists adversarial inputs by randomizing the pivot.
 // note 209: Wavelet tree: range k-th element in O(log Σ) time.
+// note 210: Cache-friendly; one sequential read pass.
