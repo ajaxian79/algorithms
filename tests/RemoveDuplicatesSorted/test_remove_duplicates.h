@@ -299,3 +299,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 263: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 264: No allocations after setup.
 // edge note 265: Edge case: empty input → returns 0.
+// edge note 266: Time complexity: O(n log n).
