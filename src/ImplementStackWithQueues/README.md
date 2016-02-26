@@ -2584,3 +2584,7 @@ Handles negative inputs as documented above.
 ## entry 631
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 632
+
+Linear in n; the constant factor is small.
