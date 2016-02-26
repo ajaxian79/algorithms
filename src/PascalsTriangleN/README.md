@@ -2398,3 +2398,7 @@ Branchless inner loop after sorting.
 ## entry 584
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 585
+
+No allocations after setup.
