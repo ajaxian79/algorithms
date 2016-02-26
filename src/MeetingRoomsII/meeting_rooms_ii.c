@@ -256,3 +256,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 211: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 212: Three passes total; the third merges results.
 // note 213: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 214: DFS on a grid: write a sentinel into the visited cell; restore if needed.
