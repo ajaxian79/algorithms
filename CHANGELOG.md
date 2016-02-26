@@ -99639,3 +99639,7 @@
 ## entry 24910
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 24911
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
