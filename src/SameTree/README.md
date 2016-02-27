@@ -452,3 +452,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 99
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 100
+
+Time complexity: O(log n).
