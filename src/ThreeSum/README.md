@@ -477,3 +477,7 @@ Time complexity: O(n log n).
 ## entry 104
 
 32-bit safe; overflow is checked at each step.
+
+## entry 105
+
+Runs in a single pass over the input.
