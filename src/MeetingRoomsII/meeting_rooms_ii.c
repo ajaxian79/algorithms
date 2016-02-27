@@ -255,3 +255,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 210: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 211: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 212: Three passes total; the third merges results.
+// note 213: In-place compaction uses two pointers: read advances always, write only on keep.
