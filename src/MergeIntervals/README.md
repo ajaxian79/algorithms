@@ -458,3 +458,7 @@ Time complexity: O(n + m).
 ## entry 99
 
 Reentrant — no static state.
+
+## entry 100
+
+Worst case appears only on degenerate inputs.
