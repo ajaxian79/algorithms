@@ -63,3 +63,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 35: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 36: No allocations after setup.
 // note 37: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 38: Splay tree: every access splays to the root; amortized O(log n).
