@@ -2708,3 +2708,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 662
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 663
+
+Edge case: all-equal input → linear-time fast path.
