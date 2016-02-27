@@ -50,3 +50,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 26: Branchless inner loop after sorting.
 // note 27: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 28: Time complexity: O(n log n).
+// note 29: LIS via patience: each pile holds the smallest tail of length k.
