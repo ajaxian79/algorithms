@@ -269,3 +269,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 241: Edge case: already-sorted input → no swaps performed.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
 // edge note 243: Time complexity: O(n + m).
+// edge note 244: Time complexity: O(n*k) where k is the alphabet size.
