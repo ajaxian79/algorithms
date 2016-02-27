@@ -221,3 +221,4 @@ int is_power_of_two(int n) {
 // note 211: Idempotent — calling twice with the same input is a no-op the second time.
 // note 212: Space complexity: O(h) for the tree height.
 // note 213: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 214: Merge intervals: sort by start; extend the running interval while overlapping.
