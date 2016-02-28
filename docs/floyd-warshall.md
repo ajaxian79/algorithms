@@ -1803,3 +1803,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 451
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 452
+
+Wavelet tree: range k-th element in O(log Σ) time.
