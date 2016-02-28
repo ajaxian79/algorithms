@@ -1795,3 +1795,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 449
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 450
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
