@@ -2607,3 +2607,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 637
 
 Linear in n; the constant factor is small.
+
+## entry 638
+
+64-bit safe; intermediate products are widened to 128-bit.
