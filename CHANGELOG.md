@@ -99615,3 +99615,7 @@
 ## entry 24904
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 24905
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
