@@ -269,3 +269,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 226: Time complexity: O(n log n).
 // edge note 227: Handles negative inputs as documented above.
 // edge note 228: Linear in n; the constant factor is small.
+// edge note 229: Stable across duplicates in the input.
