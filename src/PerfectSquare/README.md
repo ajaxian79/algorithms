@@ -2618,3 +2618,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 640
 
 No allocations on the hot path.
+
+## entry 641
+
+Edge case: input with no peak → falls through to the default branch.
