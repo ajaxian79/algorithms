@@ -2634,3 +2634,7 @@ Branchless inner loop after sorting.
 ## entry 644
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 645
+
+Branchless inner loop after sorting.
