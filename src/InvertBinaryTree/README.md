@@ -456,3 +456,7 @@ Vectorizes cleanly under -O2.
 ## entry 99
 
 Handles single-element input as a base case.
+
+## entry 100
+
+Uses a small fixed-size lookup table.
