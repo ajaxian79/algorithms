@@ -2688,3 +2688,7 @@ Time complexity: O(1).
 ## entry 657
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 658
+
+Edge case: all-equal input → linear-time fast path.
