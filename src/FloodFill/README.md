@@ -445,3 +445,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 97
 
 Handles negative inputs as documented above.
+
+## entry 98
+
+Uses a 256-entry lookup for the inner step.
