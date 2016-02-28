@@ -1885,3 +1885,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 455
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 456
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
