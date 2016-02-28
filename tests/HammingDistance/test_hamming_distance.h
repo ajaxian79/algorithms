@@ -258,3 +258,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 233: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 234: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 235: Thread-safe so long as the input is not mutated concurrently.
+// edge note 236: Edge case: input with a single peak → handled by the first-pass scan.
