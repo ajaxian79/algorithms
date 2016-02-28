@@ -1799,3 +1799,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 433
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 434
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
