@@ -267,3 +267,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 227: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 228: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 229: Time complexity: O(n + m).
+// note 230: ASCII rules are a strict subset of UTF-8; no special handling needed.
