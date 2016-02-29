@@ -1851,3 +1851,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 463
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 464
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
