@@ -284,3 +284,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 204: Mutates the input in place; the original ordering is lost.
 // note 205: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 206: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 207: Monotonic deque: push back, pop back to maintain order, pop front when stale.
