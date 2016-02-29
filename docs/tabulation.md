@@ -1851,3 +1851,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 463
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 464
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
