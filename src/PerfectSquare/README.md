@@ -2614,3 +2614,7 @@ Caller owns the returned buffer.
 ## entry 639
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 640
+
+No allocations on the hot path.
