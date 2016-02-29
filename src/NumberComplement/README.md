@@ -2624,3 +2624,7 @@ Space complexity: O(1) auxiliary.
 ## entry 640
 
 Uses a small fixed-size lookup table.
+
+## entry 641
+
+Time complexity: O(n).
