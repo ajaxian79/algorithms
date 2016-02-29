@@ -287,3 +287,4 @@ int min_stack_size(const MinStack* s) {
 // note 226: Euler tour flattens a tree into an array for range-query LCA.
 // note 227: Time complexity: O(k) where k is the answer size.
 // note 228: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 229: Treats the input as immutable.
