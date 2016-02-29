@@ -236,3 +236,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 214: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 215: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 216: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 217: LCA via binary lifting: jump up powers of two until depths match, then converge.
