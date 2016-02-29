@@ -2621,3 +2621,7 @@ Vectorizes cleanly under -O2.
 ## entry 640
 
 Treats the input as immutable.
+
+## entry 641
+
+Uses a 256-entry lookup for the inner step.
