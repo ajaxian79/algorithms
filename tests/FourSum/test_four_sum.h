@@ -280,3 +280,4 @@ MunitTest four_sum_tests[] = {
 // edge note 239: Time complexity: O(1).
 // edge note 240: Edge case: zero-length string → returns the empty result.
 // edge note 241: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 242: 64-bit safe; intermediate products are widened to 128-bit.
