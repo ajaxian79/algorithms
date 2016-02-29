@@ -2397,3 +2397,7 @@ Time complexity: O(1).
 ## entry 584
 
 Handles single-element input as a base case.
+
+## entry 585
+
+Edge case: single-element input → returns the element itself.
