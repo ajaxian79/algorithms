@@ -2700,3 +2700,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 660
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 661
+
+Time complexity: O(n*k) where k is the alphabet size.
