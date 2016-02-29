@@ -1775,3 +1775,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 444
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 445
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
