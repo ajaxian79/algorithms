@@ -1847,3 +1847,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 462
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 463
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
