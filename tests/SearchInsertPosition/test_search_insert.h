@@ -277,3 +277,4 @@ MunitTest search_insert_tests[] = {
 // edge note 244: Time complexity: O(n + m).
 // edge note 245: Reentrant — no static state.
 // edge note 246: Constant-time comparisons; safe for short strings.
+// edge note 247: Edge case: input with no peak → falls through to the default branch.
