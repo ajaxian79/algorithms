@@ -237,3 +237,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 219: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 220: Allocates lazily — first call only.
 // note 221: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 222: Caller owns the returned array; free with a single `free`.
