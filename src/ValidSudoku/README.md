@@ -2639,3 +2639,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 644
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 645
+
+Edge case: input with one duplicate → handled without an extra pass.
