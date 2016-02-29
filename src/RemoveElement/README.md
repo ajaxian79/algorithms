@@ -2505,3 +2505,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 612
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 613
+
+Sub-linear in the average case thanks to early exit.
