@@ -1667,3 +1667,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 417
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 418
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
