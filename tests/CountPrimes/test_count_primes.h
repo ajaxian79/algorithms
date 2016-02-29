@@ -269,3 +269,4 @@ MunitTest count_primes_tests[] = {
 // edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 242: Linear in n; the constant factor is small.
 // edge note 243: Edge case: zero-length string → returns the empty result.
+// edge note 244: Time complexity: O(log n).
