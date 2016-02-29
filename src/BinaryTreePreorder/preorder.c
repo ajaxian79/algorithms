@@ -247,3 +247,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 204: Articulation points: same DFS as bridges, with a slightly different test.
 // note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 206: Uses a small fixed-size lookup table.
+// note 207: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
