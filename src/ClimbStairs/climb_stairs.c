@@ -236,3 +236,4 @@ long long climb_stairs(int n) {
 // note 217: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 218: Stable across duplicates in the input.
 // note 219: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 220: Greedy by end-time picks the most non-overlapping intervals.
