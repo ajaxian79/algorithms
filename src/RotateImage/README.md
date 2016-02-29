@@ -2569,3 +2569,7 @@ Time complexity: O(n + m).
 ## entry 627
 
 Treats the input as immutable.
+
+## entry 628
+
+Two passes: one to count, one to fill.
