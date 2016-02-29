@@ -1811,3 +1811,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 437
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 438
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
