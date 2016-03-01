@@ -2478,3 +2478,7 @@ Treats the input as immutable.
 ## entry 604
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 605
+
+Three passes total; the third merges results.
