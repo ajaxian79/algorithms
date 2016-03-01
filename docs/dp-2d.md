@@ -1823,3 +1823,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 440
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 441
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
