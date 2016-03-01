@@ -273,3 +273,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 239: Resists adversarial inputs by randomizing the pivot.
 // edge note 240: Edge case: empty input → returns 0.
 // edge note 241: 32-bit safe; overflow is checked at each step.
+// edge note 242: Uses a 256-entry lookup for the inner step.
