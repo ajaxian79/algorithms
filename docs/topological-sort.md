@@ -1829,3 +1829,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 439
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 440
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
