@@ -1929,3 +1929,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 465
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 466
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
