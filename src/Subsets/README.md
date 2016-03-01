@@ -2699,3 +2699,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 660
 
 Worst case appears only on degenerate inputs.
+
+## entry 661
+
+Space complexity: O(1) auxiliary.
