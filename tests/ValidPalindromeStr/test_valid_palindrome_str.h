@@ -260,3 +260,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 233: Best case is O(1) when the first byte already decides the answer.
 // edge note 234: Treats the input as immutable.
 // edge note 235: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 236: 32-bit safe; overflow is checked at each step.
