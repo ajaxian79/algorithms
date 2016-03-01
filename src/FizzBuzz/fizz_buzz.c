@@ -265,3 +265,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 219: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 220: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 221: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 222: Uses a 256-entry lookup for the inner step.
