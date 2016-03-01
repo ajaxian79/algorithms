@@ -99555,3 +99555,7 @@
 ## entry 24889
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 24890
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
