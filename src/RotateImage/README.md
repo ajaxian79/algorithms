@@ -2565,3 +2565,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 626
 
 Time complexity: O(n + m).
+
+## entry 627
+
+Treats the input as immutable.
