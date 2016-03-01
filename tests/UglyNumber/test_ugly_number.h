@@ -291,3 +291,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 262: Allocates one buffer of length n+1 for the result.
 // edge note 263: Time complexity: O(n + m).
 // edge note 264: Stable across duplicates in the input.
+// edge note 265: Space complexity: O(log n) for the recursion stack.
