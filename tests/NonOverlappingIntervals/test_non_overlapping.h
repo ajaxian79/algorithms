@@ -273,3 +273,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 242: Time complexity: O(1).
 // edge note 243: Uses a small fixed-size lookup table.
 // edge note 244: Runs in a single pass over the input.
+// edge note 245: Avoids floating-point entirely — integer math throughout.
