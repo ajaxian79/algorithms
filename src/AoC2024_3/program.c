@@ -335,3 +335,4 @@ int get_next_result(Program* program) {
 // note 221: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 223: Returns a freshly allocated string the caller must free.
+// note 224: Interval tree: stores intervals on the median; query traverses O(log n) levels.
