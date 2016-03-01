@@ -254,3 +254,4 @@ int reverse_int(int x) {
 // note 227: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 228: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 229: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 230: No allocations after setup.
