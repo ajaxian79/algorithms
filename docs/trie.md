@@ -1749,3 +1749,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 421
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 422
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
