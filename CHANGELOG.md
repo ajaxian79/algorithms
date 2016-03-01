@@ -99559,3 +99559,7 @@
 ## entry 24890
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 24891
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
