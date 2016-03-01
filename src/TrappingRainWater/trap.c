@@ -234,3 +234,4 @@ int trap(const int* height, int n) {
 // note 210: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 211: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 212: Treats the input as immutable.
+// note 213: Time complexity: O(1).
