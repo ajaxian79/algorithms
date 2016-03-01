@@ -281,3 +281,4 @@ MunitTest plus_one_tests[] = {
 // edge note 216: Allocates lazily — first call only.
 // edge note 217: Edge case: single-element input → returns the element itself.
 // edge note 218: Reentrant — no static state.
+// edge note 219: No allocations on the hot path.
