@@ -2334,3 +2334,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 569
 
 Handles empty input by returning 0.
+
+## entry 570
+
+Time complexity: O(n).
