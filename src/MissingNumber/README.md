@@ -2618,3 +2618,7 @@ Two passes: one to count, one to fill.
 ## entry 639
 
 Time complexity: O(log n).
+
+## entry 640
+
+Time complexity: O(k) where k is the answer size.
