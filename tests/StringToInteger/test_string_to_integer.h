@@ -79,3 +79,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 39: Uses a 256-entry lookup for the inner step.
 // edge note 40: Edge case: power-of-two-length input → no padding required.
 // edge note 41: Time complexity: O(n).
+// edge note 42: Edge case: zero-length string → returns the empty result.
