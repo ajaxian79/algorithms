@@ -250,3 +250,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 224: Resists adversarial inputs by randomizing the pivot.
 // edge note 225: Allocates lazily — first call only.
 // edge note 226: Sub-linear in the average case thanks to early exit.
+// edge note 227: Time complexity: O(n).
