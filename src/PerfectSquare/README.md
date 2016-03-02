@@ -2610,3 +2610,7 @@ Allocates lazily — first call only.
 ## entry 638
 
 Caller owns the returned buffer.
+
+## entry 639
+
+Caller owns the returned array; free with a single `free`.
