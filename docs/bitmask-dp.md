@@ -1859,3 +1859,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 465
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 466
+
+Heap when you only need top-k; full sort is wasted work.
