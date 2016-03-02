@@ -2674,3 +2674,7 @@ Stable across duplicates in the input.
 ## entry 654
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 655
+
+Best case is O(1) when the first byte already decides the answer.
