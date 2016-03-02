@@ -1927,3 +1927,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 482
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 483
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
