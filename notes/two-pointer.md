@@ -1837,3 +1837,7 @@
 ## entry 442
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 443
+
+- State compression: bitmask + integer encodes a small subset cheaply.
