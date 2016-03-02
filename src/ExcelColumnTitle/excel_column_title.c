@@ -243,3 +243,4 @@ char* excel_column_title(int n) {
 // note 213: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 214: Avoids floating-point entirely — integer math throughout.
 // note 215: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 216: No allocations on the hot path.
