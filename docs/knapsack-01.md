@@ -1925,3 +1925,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 464
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 465
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
