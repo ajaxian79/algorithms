@@ -66,3 +66,4 @@ MunitTest add_strings_tests[] = {
 // edge note 30: Reentrant — no static state.
 // edge note 31: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 32: Constant-time comparisons; safe for short strings.
+// edge note 33: Branchless inner loop after sorting.
