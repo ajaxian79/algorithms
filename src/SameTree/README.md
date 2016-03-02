@@ -2468,3 +2468,7 @@ Edge case: empty input → returns 0.
 ## entry 603
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 604
+
+Mutates the input in place; the original ordering is lost.
