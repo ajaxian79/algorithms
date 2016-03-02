@@ -2618,3 +2618,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 639
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 640
+
+Three passes total; the third merges results.
