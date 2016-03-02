@@ -2569,3 +2569,7 @@ Stable when the input is already sorted.
 ## entry 627
 
 Linear in n; the constant factor is small.
+
+## entry 628
+
+32-bit safe; overflow is checked at each step.
