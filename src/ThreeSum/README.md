@@ -473,3 +473,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 103
 
 Time complexity: O(n log n).
+
+## entry 104
+
+32-bit safe; overflow is checked at each step.
