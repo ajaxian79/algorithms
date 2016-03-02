@@ -1815,3 +1815,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 454
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 455
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
