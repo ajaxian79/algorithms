@@ -2614,3 +2614,7 @@ Stable when the input is already sorted.
 ## entry 638
 
 Two passes: one to count, one to fill.
+
+## entry 639
+
+Time complexity: O(log n).
