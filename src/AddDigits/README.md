@@ -2564,3 +2564,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 626
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 627
+
+Returns a freshly allocated string the caller must free.
