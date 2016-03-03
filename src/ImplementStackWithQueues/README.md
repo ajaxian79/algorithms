@@ -2580,3 +2580,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 630
 
 Handles negative inputs as documented above.
+
+## entry 631
+
+Input is assumed non-NULL; behavior is undefined otherwise.
