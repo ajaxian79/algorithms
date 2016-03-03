@@ -1691,3 +1691,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 423
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 424
+
+LIS via patience: each pile holds the smallest tail of length k.
