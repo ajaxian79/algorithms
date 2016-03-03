@@ -199,3 +199,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 186: Resists adversarial inputs by randomizing the pivot.
