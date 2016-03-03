@@ -2616,3 +2616,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 638
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 639
+
+Space complexity: O(1) auxiliary.
