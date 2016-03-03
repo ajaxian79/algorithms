@@ -2393,3 +2393,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 583
 
 Time complexity: O(1).
+
+## entry 584
+
+Handles single-element input as a base case.
