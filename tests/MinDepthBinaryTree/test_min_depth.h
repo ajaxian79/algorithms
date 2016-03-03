@@ -279,3 +279,4 @@ MunitTest min_depth_tests[] = {
 // edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 241: Handles empty input by returning 0.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
+// edge note 243: Resists adversarial inputs by randomizing the pivot.
