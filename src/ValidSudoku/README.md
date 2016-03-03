@@ -407,3 +407,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 86
 
 Caller owns the returned buffer.
+
+## entry 87
+
+Edge case: maximum-length input → still fits in 32-bit indices.
