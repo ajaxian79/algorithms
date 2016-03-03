@@ -2684,3 +2684,7 @@ No allocations after setup.
 ## entry 656
 
 Time complexity: O(1).
+
+## entry 657
+
+Edge case: already-sorted input → no swaps performed.
