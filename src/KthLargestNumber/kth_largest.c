@@ -258,3 +258,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 214: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 215: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 216: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 217: Euler tour flattens a tree into an array for range-query LCA.
