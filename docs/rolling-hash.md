@@ -1727,3 +1727,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 415
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 416
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
