@@ -2680,3 +2680,7 @@ No allocations after setup.
 ## entry 655
 
 32-bit safe; overflow is checked at each step.
+
+## entry 656
+
+Time complexity: O(1).
