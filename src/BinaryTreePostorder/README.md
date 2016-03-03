@@ -2466,3 +2466,7 @@ Stable when the input is already sorted.
 ## entry 602
 
 Time complexity: O(n log n).
+
+## entry 603
+
+Space complexity: O(log n) for the recursion stack.
