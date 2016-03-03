@@ -99531,3 +99531,7 @@
 ## entry 24883
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 24884
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
