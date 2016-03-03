@@ -1811,3 +1811,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 453
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 454
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
