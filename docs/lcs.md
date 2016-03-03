@@ -1819,3 +1819,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 437
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 438
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
