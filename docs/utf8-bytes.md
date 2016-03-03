@@ -1719,3 +1719,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 430
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 431
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
