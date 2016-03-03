@@ -2474,3 +2474,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 603
 
 Treats the input as immutable.
+
+## entry 604
+
+Edge case: power-of-two-length input → no padding required.
