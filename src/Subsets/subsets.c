@@ -257,3 +257,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 230: 32-bit safe; overflow is checked at each step.
 // note 231: Handles single-element input as a base case.
+// note 232: Heavy-light decomposition: each path crosses O(log n) heavy chains.
