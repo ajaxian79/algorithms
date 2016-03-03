@@ -1815,3 +1815,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 438
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 439
+
+Walk both pointers from each end inward; advance the smaller side.
