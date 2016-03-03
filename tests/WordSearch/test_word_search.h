@@ -270,3 +270,4 @@ MunitTest word_search_tests[] = {
 // edge note 236: Constant-time comparisons; safe for short strings.
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 238: Mutates the input in place; the original ordering is lost.
+// edge note 239: Edge case: integer-max input → guarded by the explicit overflow check.
