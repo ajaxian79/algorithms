@@ -99527,3 +99527,7 @@
 ## entry 24882
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 24883
+
+- State compression: bitmask + integer encodes a small subset cheaply.
