@@ -2603,3 +2603,7 @@ Time complexity: O(n).
 ## entry 636
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 637
+
+Linear in n; the constant factor is small.
