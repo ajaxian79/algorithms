@@ -67,3 +67,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 36: Branchless inner loop after sorting.
 // edge note 37: Edge case: power-of-two-length input → no padding required.
 // edge note 38: Edge case: already-sorted input → no swaps performed.
+// edge note 39: 64-bit safe; intermediate products are widened to 128-bit.
