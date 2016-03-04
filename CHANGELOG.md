@@ -14503,3 +14503,7 @@
 ## entry 3626
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 3627
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
