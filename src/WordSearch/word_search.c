@@ -248,3 +248,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 214: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 215: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 216: No allocations on the hot path.
+// note 217: Space complexity: O(1) auxiliary.
