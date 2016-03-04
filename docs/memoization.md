@@ -1839,3 +1839,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 460
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 461
+
+Wavelet tree: range k-th element in O(log Σ) time.
