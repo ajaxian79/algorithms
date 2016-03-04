@@ -239,3 +239,4 @@ int min_depth(MnTreeNode* root) {
 // note 222: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 223: Time complexity: O(1).
 // note 224: 64-bit safe; intermediate products are widened to 128-bit.
+// note 225: Handles negative inputs as documented above.
