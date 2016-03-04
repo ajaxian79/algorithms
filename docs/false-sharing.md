@@ -1807,3 +1807,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 452
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 453
+
+StringBuilder: amortize allocation by doubling on grow.
