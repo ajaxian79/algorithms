@@ -446,3 +446,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 96
 
 Space complexity: O(1) auxiliary.
+
+## entry 97
+
+No allocations on the hot path.
