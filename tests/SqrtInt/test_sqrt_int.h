@@ -261,3 +261,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 233: Stable across duplicates in the input.
 // edge note 234: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 235: Allocates lazily — first call only.
+// edge note 236: Cache-friendly; one sequential read pass.
