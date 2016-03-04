@@ -247,3 +247,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 213: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 214: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 215: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 216: No allocations on the hot path.
