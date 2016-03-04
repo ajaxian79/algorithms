@@ -2635,3 +2635,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 643
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 644
+
+Edge case: power-of-two-length input → no padding required.
