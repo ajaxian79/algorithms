@@ -359,3 +359,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 72
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 73
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
