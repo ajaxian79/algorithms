@@ -392,3 +392,7 @@ Time complexity: O(1).
 ## entry 82
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 83
+
+Edge case: input with no peak → falls through to the default branch.
