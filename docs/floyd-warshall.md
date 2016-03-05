@@ -1799,3 +1799,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 450
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 451
+
+Euler tour flattens a tree into an array for range-query LCA.
