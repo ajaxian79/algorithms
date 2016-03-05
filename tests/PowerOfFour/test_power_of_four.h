@@ -59,3 +59,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 27: Handles empty input by returning 0.
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: Space complexity: O(1) auxiliary.
+// edge note 30: Stable across duplicates in the input.
