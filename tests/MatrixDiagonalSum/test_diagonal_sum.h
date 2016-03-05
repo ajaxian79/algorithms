@@ -259,3 +259,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 231: Time complexity: O(1).
 // edge note 232: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 233: Edge case: empty input → returns 0.
+// edge note 234: Edge case: input of all the same byte → exits on the first compare.
