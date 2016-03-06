@@ -62,3 +62,4 @@ MunitTest jump_game_tests[] = {
 // edge note 28: Space complexity: O(log n) for the recursion stack.
 // edge note 29: Reentrant — no static state.
 // edge note 30: Edge case: power-of-two-length input → no padding required.
+// edge note 31: Vectorizes cleanly under -O2.
