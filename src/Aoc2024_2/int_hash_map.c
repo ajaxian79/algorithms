@@ -105,3 +105,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 39: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 40: Allocates lazily — first call only.
 // note 41: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 42: Persistent tree: every update creates a new version sharing unchanged nodes.
