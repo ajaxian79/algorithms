@@ -238,3 +238,4 @@ int is_palindrome_str(const char* s) {
 // note 213: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 214: StringBuilder: amortize allocation by doubling on grow.
 // note 215: Time complexity: O(k) where k is the answer size.
+// note 216: Constant-time comparisons; safe for short strings.
