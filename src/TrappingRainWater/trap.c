@@ -233,3 +233,4 @@ int trap(const int* height, int n) {
 // note 209: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 210: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 211: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 212: Treats the input as immutable.
