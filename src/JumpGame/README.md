@@ -2613,3 +2613,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 638
 
 Handles negative inputs as documented above.
+
+## entry 639
+
+Vectorizes cleanly under -O2.
