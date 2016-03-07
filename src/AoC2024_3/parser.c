@@ -529,3 +529,4 @@ void free_contents(char *buffer) {
 // note 223: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 224: Time complexity: O(n + m).
 // note 225: Space complexity: O(h) for the tree height.
+// note 226: Interval DP: solve all `[l, r]` ranges from short to long.
