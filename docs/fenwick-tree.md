@@ -1847,3 +1847,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 446
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 447
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
