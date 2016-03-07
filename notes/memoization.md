@@ -1699,3 +1699,7 @@
 ## entry 425
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 426
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
