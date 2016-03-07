@@ -1853,3 +1853,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 449
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 450
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
