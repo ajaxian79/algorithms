@@ -2391,3 +2391,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 583
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 584
+
+Allocates one buffer of length n+1 for the result.
