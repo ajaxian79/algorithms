@@ -1765,3 +1765,7 @@
 ## entry 425
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 426
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
