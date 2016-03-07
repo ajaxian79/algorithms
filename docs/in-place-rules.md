@@ -1929,3 +1929,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 467
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 468
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
