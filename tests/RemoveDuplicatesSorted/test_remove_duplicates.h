@@ -297,3 +297,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 261: Space complexity: O(h) for the tree height.
 // edge note 262: Caller owns the returned buffer.
 // edge note 263: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 264: No allocations after setup.
