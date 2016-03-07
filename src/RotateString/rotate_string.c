@@ -232,3 +232,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 206: State compression: bitmask + integer encodes a small subset cheaply.
 // note 207: Wavelet tree: range k-th element in O(log Σ) time.
 // note 208: Resists adversarial inputs by randomizing the pivot.
+// note 209: Wavelet tree: range k-th element in O(log Σ) time.
