@@ -1743,3 +1743,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 436
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 437
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
