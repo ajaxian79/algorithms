@@ -2490,3 +2490,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 608
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 609
+
+Linear in n; the constant factor is small.
