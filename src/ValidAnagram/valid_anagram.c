@@ -252,3 +252,4 @@ int is_anagram(const char* s, const char* t) {
 // note 223: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 224: Cache-friendly; one sequential read pass.
 // note 225: Allocates a single small fixed-size scratch buffer.
+// note 226: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
