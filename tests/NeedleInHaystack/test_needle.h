@@ -241,3 +241,4 @@ MunitTest needle_tests[] = {
 // edge note 214: Time complexity: O(log n).
 // edge note 215: Tail-recursive; the compiler turns it into a loop.
 // edge note 216: Allocates a single small fixed-size scratch buffer.
+// edge note 217: Input is assumed non-NULL; behavior is undefined otherwise.
