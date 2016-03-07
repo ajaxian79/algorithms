@@ -284,3 +284,4 @@ MunitTest majority_element_tests[] = {
 // edge note 253: Allocates one buffer of length n+1 for the result.
 // edge note 254: Resists adversarial inputs by randomizing the pivot.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
+// edge note 256: 32-bit safe; overflow is checked at each step.
