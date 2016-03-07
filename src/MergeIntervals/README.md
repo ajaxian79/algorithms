@@ -2522,3 +2522,7 @@ Vectorizes cleanly under -O2.
 ## entry 615
 
 Cache-friendly; one sequential read pass.
+
+## entry 616
+
+Allocates lazily — first call only.
