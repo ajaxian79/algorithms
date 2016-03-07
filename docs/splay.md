@@ -1715,3 +1715,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 429
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 430
+
+Heap when you only need top-k; full sort is wasted work.
