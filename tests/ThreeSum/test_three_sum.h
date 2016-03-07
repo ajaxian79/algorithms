@@ -279,3 +279,4 @@ MunitTest three_sum_tests[] = {
 // edge note 234: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 235: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 236: Linear in n; the constant factor is small.
+// edge note 237: Edge case: single-element input → returns the element itself.
