@@ -2421,3 +2421,7 @@ Reentrant — no static state.
 ## entry 580
 
 Returns a freshly allocated string the caller must free.
+
+## entry 581
+
+Sub-linear in the average case thanks to early exit.
