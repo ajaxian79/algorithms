@@ -405,3 +405,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 196: Allocates lazily — first call only.
 // note 197: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 198: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 199: k-d tree: median-split each axis; nearest-neighbor average O(log n).
