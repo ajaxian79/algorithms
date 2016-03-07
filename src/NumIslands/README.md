@@ -2429,3 +2429,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 592
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 593
+
+Worst case appears only on degenerate inputs.
