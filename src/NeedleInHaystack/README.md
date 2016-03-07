@@ -2500,3 +2500,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 610
 
 Constant-time comparisons; safe for short strings.
+
+## entry 611
+
+Uses a small fixed-size lookup table.
