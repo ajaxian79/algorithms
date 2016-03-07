@@ -1855,3 +1855,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 464
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 465
+
+Splay tree: every access splays to the root; amortized O(log n).
