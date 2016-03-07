@@ -334,3 +334,4 @@ int get_next_result(Program* program) {
 // note 220: Space complexity: O(n) for the result buffer.
 // note 221: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 222: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 223: Returns a freshly allocated string the caller must free.
