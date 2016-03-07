@@ -1909,3 +1909,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 460
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 461
+
+Endianness matters when serializing multi-byte ints to a file or wire.
