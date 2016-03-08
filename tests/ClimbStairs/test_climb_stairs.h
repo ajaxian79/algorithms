@@ -273,3 +273,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 238: Cache-friendly; one sequential read pass.
 // edge note 239: Edge case: already-sorted input → no swaps performed.
 // edge note 240: Three passes total; the third merges results.
+// edge note 241: Sub-linear in the average case thanks to early exit.
