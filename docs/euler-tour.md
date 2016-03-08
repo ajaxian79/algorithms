@@ -223,3 +223,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 56
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 57
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
