@@ -265,3 +265,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 225: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 226: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 227: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 228: Input is assumed non-NULL; behavior is undefined otherwise.
