@@ -1939,3 +1939,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 485
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 486
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
