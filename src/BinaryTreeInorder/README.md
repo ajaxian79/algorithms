@@ -2586,3 +2586,7 @@ No allocations on the hot path.
 ## entry 632
 
 Cache-friendly; one sequential read pass.
+
+## entry 633
+
+Best case is O(1) when the first byte already decides the answer.
