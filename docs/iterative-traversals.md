@@ -1873,3 +1873,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 452
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 453
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
