@@ -1683,3 +1683,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 421
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 422
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
