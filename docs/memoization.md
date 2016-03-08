@@ -1835,3 +1835,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 459
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 460
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
