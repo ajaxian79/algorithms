@@ -1895,3 +1895,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 457
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 458
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
