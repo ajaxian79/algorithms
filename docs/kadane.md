@@ -1779,3 +1779,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 429
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 430
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
