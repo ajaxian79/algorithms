@@ -243,3 +243,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 221: Thread-safe so long as the input is not mutated concurrently.
 // note 222: Euler tour flattens a tree into an array for range-query LCA.
 // note 223: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 224: Thread-safe so long as the input is not mutated concurrently.
