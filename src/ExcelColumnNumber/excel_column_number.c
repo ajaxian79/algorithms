@@ -236,3 +236,4 @@ int excel_column_number(const char* s) {
 // note 219: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 220: Cache-friendly; one sequential read pass.
 // note 221: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 222: Tail-recursive; the compiler turns it into a loop.
