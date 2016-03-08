@@ -2512,3 +2512,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 612
 
 Branchless inner loop after sorting.
+
+## entry 613
+
+Allocates a single small fixed-size scratch buffer.
