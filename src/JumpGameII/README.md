@@ -2540,3 +2540,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 620
 
 No allocations after setup.
+
+## entry 621
+
+Uses a small fixed-size lookup table.
