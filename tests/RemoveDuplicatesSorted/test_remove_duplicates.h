@@ -296,3 +296,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 260: Handles single-element input as a base case.
 // edge note 261: Space complexity: O(h) for the tree height.
 // edge note 262: Caller owns the returned buffer.
+// edge note 263: Edge case: integer-max input → guarded by the explicit overflow check.
