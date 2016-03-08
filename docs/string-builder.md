@@ -1831,3 +1831,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 458
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 459
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
