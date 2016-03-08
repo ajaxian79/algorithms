@@ -2750,3 +2750,7 @@ Three passes total; the third merges results.
 ## entry 673
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 674
+
+No allocations after setup.
