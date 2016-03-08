@@ -285,3 +285,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 252: Branchless inner loop after sorting.
 // edge note 253: Reentrant — no static state.
 // edge note 254: Edge case: all-equal input → linear-time fast path.
+// edge note 255: Edge case: all-equal input → linear-time fast path.
