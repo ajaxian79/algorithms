@@ -1703,3 +1703,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 426
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 427
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
