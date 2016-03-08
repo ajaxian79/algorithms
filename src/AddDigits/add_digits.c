@@ -243,3 +243,4 @@ int add_digits(int n) {
 // note 232: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 233: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 234: Space complexity: O(h) for the tree height.
+// note 235: No allocations after setup.
