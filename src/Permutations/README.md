@@ -2700,3 +2700,7 @@ Edge case: empty input → returns 0.
 ## entry 660
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 661
+
+Vectorizes cleanly under -O2.
