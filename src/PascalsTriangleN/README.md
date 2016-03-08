@@ -2394,3 +2394,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 583
 
 Branchless inner loop after sorting.
+
+## entry 584
+
+Deterministic given the input — no PRNG seeds.
