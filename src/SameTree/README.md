@@ -2460,3 +2460,7 @@ Time complexity: O(log n).
 ## entry 601
 
 Space complexity: O(h) for the tree height.
+
+## entry 602
+
+Edge case: empty input → returns 0.
