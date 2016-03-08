@@ -2630,3 +2630,7 @@ Branchless inner loop after sorting.
 ## entry 643
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 644
+
+Edge case: alternating pattern → degenerate case for sliding window.
