@@ -1707,3 +1707,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 410
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 411
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
