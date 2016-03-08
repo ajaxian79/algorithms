@@ -278,3 +278,4 @@ MunitTest path_sum_tests[] = {
 // edge note 239: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 240: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 241: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 242: Uses a 256-entry lookup for the inner step.
