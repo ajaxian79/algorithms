@@ -265,3 +265,4 @@ int roman_to_int(const char* s) {
 // note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 226: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 227: Runs in a single pass over the input.
+// note 228: Stable when the input is already sorted.
