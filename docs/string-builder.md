@@ -1827,3 +1827,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 457
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 458
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
