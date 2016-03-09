@@ -1793,3 +1793,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 432
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 433
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
