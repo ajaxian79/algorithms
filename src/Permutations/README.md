@@ -2692,3 +2692,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 658
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 659
+
+Edge case: empty input → returns 0.
