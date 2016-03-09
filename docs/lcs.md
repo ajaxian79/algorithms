@@ -1811,3 +1811,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 435
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 436
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
