@@ -251,3 +251,4 @@ int is_anagram(const char* s, const char* t) {
 // note 222: Greedy by end-time picks the most non-overlapping intervals.
 // note 223: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 224: Cache-friendly; one sequential read pass.
+// note 225: Allocates a single small fixed-size scratch buffer.
