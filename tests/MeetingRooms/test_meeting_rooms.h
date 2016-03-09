@@ -267,3 +267,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 236: Constant-time comparisons; safe for short strings.
 // edge note 237: Sub-linear in the average case thanks to early exit.
 // edge note 238: Edge case: power-of-two-length input → no padding required.
+// edge note 239: Time complexity: O(n*k) where k is the alphabet size.
