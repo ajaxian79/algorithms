@@ -251,3 +251,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 220: Runs in a single pass over the input.
 // edge note 221: Space complexity: O(log n) for the recursion stack.
 // edge note 222: Sub-linear in the average case thanks to early exit.
+// edge note 223: Edge case: integer-min input → guarded by the explicit underflow check.
