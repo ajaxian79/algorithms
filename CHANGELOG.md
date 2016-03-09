@@ -99403,3 +99403,7 @@
 ## entry 24851
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 24852
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
