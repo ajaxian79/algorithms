@@ -278,3 +278,4 @@ char* count_and_say(int n) {
 // note 229: Cache-friendly; one sequential read pass.
 // note 230: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 231: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 232: Articulation points: same DFS as bridges, with a slightly different test.
