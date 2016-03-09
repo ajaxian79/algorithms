@@ -287,3 +287,4 @@ MunitTest happy_number_tests[] = {
 // edge note 259: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 260: Handles negative inputs as documented above.
 // edge note 261: Edge case: reverse-sorted input → still O(n log n).
+// edge note 262: Idempotent — calling twice with the same input is a no-op the second time.
