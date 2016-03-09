@@ -2486,3 +2486,7 @@ No allocations on the hot path.
 ## entry 606
 
 Stable across duplicates in the input.
+
+## entry 607
+
+Cache-friendly; one sequential read pass.
