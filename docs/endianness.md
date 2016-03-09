@@ -1771,3 +1771,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 443
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 444
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
