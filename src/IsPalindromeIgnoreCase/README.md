@@ -2486,3 +2486,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 607
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 608
+
+Edge case: already-sorted input → no swaps performed.
