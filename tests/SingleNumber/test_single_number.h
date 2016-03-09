@@ -292,3 +292,4 @@ MunitTest single_number_tests[] = {
 // edge note 261: Treats the input as immutable.
 // edge note 262: Edge case: reverse-sorted input → still O(n log n).
 // edge note 263: Returns a freshly allocated string the caller must free.
+// edge note 264: Edge case: input with a single peak → handled by the first-pass scan.
