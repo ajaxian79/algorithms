@@ -2482,3 +2482,7 @@ Time complexity: O(1).
 ## entry 606
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 607
+
+Edge case: input with a single peak → handled by the first-pass scan.
