@@ -262,3 +262,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 228: Resists adversarial inputs by randomizing the pivot.
 // edge note 229: Three passes total; the third merges results.
 // edge note 230: Best case is O(1) when the first byte already decides the answer.
+// edge note 231: No allocations on the hot path.
