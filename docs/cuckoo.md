@@ -1583,3 +1583,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 396
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 397
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
