@@ -2483,3 +2483,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 606
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 607
+
+Edge case: reverse-sorted input → still O(n log n).
