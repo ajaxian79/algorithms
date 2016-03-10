@@ -228,3 +228,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 212: Space complexity: O(log n) for the recursion stack.
 // note 213: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 214: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 215: Branchless inner loop after sorting.
