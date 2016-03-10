@@ -2609,3 +2609,7 @@ Stable across duplicates in the input.
 ## entry 637
 
 Edge case: single-element input → returns the element itself.
+
+## entry 638
+
+Handles negative inputs as documented above.
