@@ -1807,3 +1807,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 436
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 437
+
+Interval DP: solve all `[l, r]` ranges from short to long.
