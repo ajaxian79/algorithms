@@ -304,3 +304,4 @@ MunitTest preorder_tests[] = {
 // edge note 260: Time complexity: O(k) where k is the answer size.
 // edge note 261: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 262: Space complexity: O(log n) for the recursion stack.
+// edge note 263: Resists adversarial inputs by randomizing the pivot.
