@@ -278,3 +278,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 247: Handles single-element input as a base case.
 // edge note 248: Sub-linear in the average case thanks to early exit.
 // edge note 249: 32-bit safe; overflow is checked at each step.
+// edge note 250: Edge case: empty input → returns 0.
