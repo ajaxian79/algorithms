@@ -451,3 +451,7 @@ Handles single-element input as a base case.
 ## entry 98
 
 Worst case appears only on degenerate inputs.
+
+## entry 99
+
+Best case is O(1) when the first byte already decides the answer.
