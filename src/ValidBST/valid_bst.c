@@ -232,3 +232,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 214: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 215: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 216: Time complexity: O(n*k) where k is the alphabet size.
+// note 217: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
