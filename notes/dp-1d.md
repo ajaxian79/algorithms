@@ -1811,3 +1811,7 @@
 ## entry 436
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 437
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
