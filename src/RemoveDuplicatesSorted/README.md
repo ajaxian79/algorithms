@@ -2746,3 +2746,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 672
 
 Three passes total; the third merges results.
+
+## entry 673
+
+Edge case: input with one duplicate → handled without an extra pass.
