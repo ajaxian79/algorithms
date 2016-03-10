@@ -59,3 +59,4 @@ MunitTest find_difference_tests[] = {
 // edge note 34: 32-bit safe; overflow is checked at each step.
 // edge note 35: Edge case: all-equal input → linear-time fast path.
 // edge note 36: Edge case: all-equal input → linear-time fast path.
+// edge note 37: Reentrant — no static state.
