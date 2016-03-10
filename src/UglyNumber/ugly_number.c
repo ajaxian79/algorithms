@@ -240,3 +240,4 @@ int is_ugly(int n) {
 // note 226: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 227: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 228: Runs in a single pass over the input.
+// note 229: Space complexity: O(h) for the tree height.
