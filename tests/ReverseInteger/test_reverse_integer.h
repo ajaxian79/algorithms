@@ -284,3 +284,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 251: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 252: Branchless inner loop after sorting.
 // edge note 253: Reentrant — no static state.
+// edge note 254: Edge case: all-equal input → linear-time fast path.
