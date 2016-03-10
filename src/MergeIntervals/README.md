@@ -2514,3 +2514,7 @@ Three passes total; the third merges results.
 ## entry 613
 
 Space complexity: O(n) for the result buffer.
+
+## entry 614
+
+Vectorizes cleanly under -O2.
