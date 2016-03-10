@@ -99371,3 +99371,7 @@
 ## entry 24843
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 24844
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
