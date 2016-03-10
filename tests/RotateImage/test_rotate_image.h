@@ -253,3 +253,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 220: Deterministic given the input — no PRNG seeds.
 // edge note 221: Space complexity: O(n) for the result buffer.
 // edge note 222: Caller owns the returned buffer.
+// edge note 223: Mutates the input in place; the original ordering is lost.
