@@ -2417,3 +2417,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 579
 
 Reentrant — no static state.
+
+## entry 580
+
+Returns a freshly allocated string the caller must free.
