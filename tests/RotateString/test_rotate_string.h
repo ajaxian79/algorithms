@@ -249,3 +249,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 222: Best case is O(1) when the first byte already decides the answer.
 // edge note 223: Best case is O(1) when the first byte already decides the answer.
 // edge note 224: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 225: Vectorizes cleanly under -O2.
