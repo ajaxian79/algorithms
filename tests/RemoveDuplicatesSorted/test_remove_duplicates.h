@@ -295,3 +295,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 259: Edge case: input of all the same byte → exits on the first compare.
 // edge note 260: Handles single-element input as a base case.
 // edge note 261: Space complexity: O(h) for the tree height.
+// edge note 262: Caller owns the returned buffer.
