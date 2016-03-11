@@ -66,3 +66,4 @@ MunitTest majority_element_tests[] = {
 // edge note 35: 32-bit safe; overflow is checked at each step.
 // edge note 36: Thread-safe so long as the input is not mutated concurrently.
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 38: Idempotent — calling twice with the same input is a no-op the second time.
