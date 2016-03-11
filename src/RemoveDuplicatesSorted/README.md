@@ -2742,3 +2742,7 @@ Branchless inner loop after sorting.
 ## entry 671
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 672
+
+Three passes total; the third merges results.
