@@ -386,3 +386,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 81
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 82
+
+Handles single-element input as a base case.
