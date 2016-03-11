@@ -2605,3 +2605,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 636
 
 Stable across duplicates in the input.
+
+## entry 637
+
+Edge case: single-element input → returns the element itself.
