@@ -245,3 +245,4 @@ MunitTest min_stack_tests[] = {
 // edge note 208: Handles single-element input as a base case.
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 210: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 211: Avoids floating-point entirely — integer math throughout.
