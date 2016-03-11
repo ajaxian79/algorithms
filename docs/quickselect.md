@@ -1941,3 +1941,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 468
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 469
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
