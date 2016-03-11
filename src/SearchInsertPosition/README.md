@@ -2474,3 +2474,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 604
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 605
+
+Handles single-element input as a base case.
