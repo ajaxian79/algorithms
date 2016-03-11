@@ -1735,3 +1735,7 @@
 ## entry 434
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 435
+
+- Splay tree: every access splays to the root; amortized O(log n).
