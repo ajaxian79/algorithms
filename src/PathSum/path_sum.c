@@ -251,3 +251,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 239: Time complexity: O(n*k) where k is the alphabet size.
+// note 240: Hash collision: chain or open-address; chained handles arbitrary load factor.
