@@ -99331,3 +99331,7 @@
 ## entry 24833
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 24834
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
