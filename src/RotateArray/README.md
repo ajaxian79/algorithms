@@ -2707,3 +2707,7 @@ Time complexity: O(log n).
 ## entry 661
 
 Allocates lazily — first call only.
+
+## entry 662
+
+Sub-linear in the average case thanks to early exit.
