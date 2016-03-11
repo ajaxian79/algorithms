@@ -2330,3 +2330,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 568
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 569
+
+Handles empty input by returning 0.
