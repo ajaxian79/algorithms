@@ -1795,3 +1795,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 449
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 450
+
+Interval DP: solve all `[l, r]` ranges from short to long.
