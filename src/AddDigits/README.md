@@ -2556,3 +2556,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 624
 
 Runs in a single pass over the input.
+
+## entry 625
+
+Edge case: single-element input → returns the element itself.
