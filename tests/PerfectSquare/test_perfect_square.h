@@ -270,3 +270,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 239: Resists adversarial inputs by randomizing the pivot.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 241: Time complexity: O(n log n).
+// edge note 242: Returns a freshly allocated string the caller must free.
