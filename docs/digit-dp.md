@@ -1679,3 +1679,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 420
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 421
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
