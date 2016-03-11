@@ -2692,3 +2692,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 658
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 659
+
+Edge case: reverse-sorted input → still O(n log n).
