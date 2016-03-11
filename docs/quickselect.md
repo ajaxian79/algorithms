@@ -1945,3 +1945,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 469
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 470
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
