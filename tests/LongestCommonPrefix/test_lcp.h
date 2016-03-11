@@ -320,3 +320,4 @@ MunitTest lcp_tests[] = {
 // edge note 265: Allocates one buffer of length n+1 for the result.
 // edge note 266: Edge case: input of all the same byte → exits on the first compare.
 // edge note 267: Branchless inner loop after sorting.
+// edge note 268: Returns a freshly allocated string the caller must free.
