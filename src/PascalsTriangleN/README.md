@@ -2386,3 +2386,7 @@ Allocates lazily — first call only.
 ## entry 581
 
 32-bit safe; overflow is checked at each step.
+
+## entry 582
+
+Time complexity: O(n*k) where k is the alphabet size.
