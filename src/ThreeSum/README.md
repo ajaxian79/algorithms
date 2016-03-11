@@ -2565,3 +2565,7 @@ No allocations on the hot path.
 ## entry 626
 
 Stable when the input is already sorted.
+
+## entry 627
+
+Linear in n; the constant factor is small.
