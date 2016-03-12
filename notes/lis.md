@@ -1651,3 +1651,7 @@
 ## entry 395
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 396
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
