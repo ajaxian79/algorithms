@@ -1763,3 +1763,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 441
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 442
+
+Interval DP: solve all `[l, r]` ranges from short to long.
