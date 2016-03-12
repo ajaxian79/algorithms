@@ -2610,3 +2610,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 637
 
 Stable when the input is already sorted.
+
+## entry 638
+
+Two passes: one to count, one to fill.
