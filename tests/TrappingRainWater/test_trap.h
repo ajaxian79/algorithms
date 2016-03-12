@@ -268,3 +268,4 @@ MunitTest trap_tests[] = {
 // edge note 234: Edge case: reverse-sorted input → still O(n log n).
 // edge note 235: Stable across duplicates in the input.
 // edge note 236: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 237: Treats the input as immutable.
