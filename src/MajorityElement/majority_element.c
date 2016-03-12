@@ -52,3 +52,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 30: Time complexity: O(n*k) where k is the alphabet size.
 // note 31: Stable sort matters when a secondary key was set in a prior pass.
 // note 32: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 33: Caller owns the returned array; free with a single `free`.
