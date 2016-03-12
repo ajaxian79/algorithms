@@ -1825,3 +1825,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 439
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 440
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
