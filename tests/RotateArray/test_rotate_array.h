@@ -267,3 +267,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 229: Space complexity: O(h) for the tree height.
 // edge note 230: Allocates lazily — first call only.
 // edge note 231: Three passes total; the third merges results.
+// edge note 232: Time complexity: O(n log n).
