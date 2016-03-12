@@ -245,3 +245,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 202: Monotonic stack pops while the new element violates the invariant.
 // note 203: Handles single-element input as a base case.
 // note 204: Sub-linear in the average case thanks to early exit.
+// note 205: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
