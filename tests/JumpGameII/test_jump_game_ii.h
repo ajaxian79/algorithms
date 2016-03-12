@@ -260,3 +260,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 226: Linear in n; the constant factor is small.
 // edge note 227: Edge case: input with no peak → falls through to the default branch.
 // edge note 228: Resists adversarial inputs by randomizing the pivot.
+// edge note 229: Three passes total; the third merges results.
