@@ -278,3 +278,4 @@ MunitTest compare_version_tests[] = {
 // edge note 251: Sub-linear in the average case thanks to early exit.
 // edge note 252: Caller owns the returned array; free with a single `free`.
 // edge note 253: Edge case: input with no peak → falls through to the default branch.
+// edge note 254: Edge case: power-of-two-length input → no padding required.
