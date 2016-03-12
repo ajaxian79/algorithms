@@ -276,3 +276,4 @@ char* int_to_roman(int n) {
 // note 239: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 240: Euler tour flattens a tree into an array for range-query LCA.
 // note 241: Space complexity: O(log n) for the recursion stack.
+// note 242: k-d tree: median-split each axis; nearest-neighbor average O(log n).
