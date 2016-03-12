@@ -2602,3 +2602,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 636
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 637
+
+Allocates lazily — first call only.
