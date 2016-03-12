@@ -2708,3 +2708,7 @@ Two passes: one to count, one to fill.
 ## entry 662
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 663
+
+Edge case: integer-min input → guarded by the explicit underflow check.
