@@ -218,3 +218,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 206: Avoids floating-point entirely — integer math throughout.
 // note 207: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 208: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 209: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
