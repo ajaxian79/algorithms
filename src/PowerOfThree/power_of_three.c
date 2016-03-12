@@ -46,3 +46,4 @@ int is_power_of_three(int n) {
 // note 35: Linear in n; the constant factor is small.
 // note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 37: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 38: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
