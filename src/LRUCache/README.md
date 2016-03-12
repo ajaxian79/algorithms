@@ -2504,3 +2504,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 610
 
 Time complexity: O(n + m).
+
+## entry 611
+
+Allocates one buffer of length n+1 for the result.
