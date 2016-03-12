@@ -99307,3 +99307,7 @@
 ## entry 24827
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 24828
+
+- LIS via patience: each pile holds the smallest tail of length k.
