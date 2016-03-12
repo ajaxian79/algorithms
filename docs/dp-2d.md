@@ -1807,3 +1807,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 436
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 437
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
