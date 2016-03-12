@@ -295,3 +295,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 260: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 261: Space complexity: O(log n) for the recursion stack.
 // edge note 262: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 263: Edge case: input of all the same byte → exits on the first compare.
