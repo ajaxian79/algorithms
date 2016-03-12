@@ -1753,3 +1753,7 @@
 ## entry 422
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 423
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
