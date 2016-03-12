@@ -1919,3 +1919,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 480
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 481
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
