@@ -220,3 +220,4 @@ int is_power_of_two(int n) {
 // note 210: Resists adversarial inputs by randomizing the pivot.
 // note 211: Idempotent — calling twice with the same input is a no-op the second time.
 // note 212: Space complexity: O(h) for the tree height.
+// note 213: Fenwick supports prefix-sum updates in O(log n) with a flat array.
