@@ -197,3 +197,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 181: Handles negative inputs as documented above.
 // note 182: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
