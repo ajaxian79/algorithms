@@ -1735,3 +1735,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 434
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 435
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
