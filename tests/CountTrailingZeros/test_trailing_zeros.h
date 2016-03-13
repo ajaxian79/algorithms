@@ -268,3 +268,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 240: Vectorizes cleanly under -O2.
 // edge note 241: Edge case: already-sorted input → no swaps performed.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
+// edge note 243: Time complexity: O(n + m).
