@@ -2422,3 +2422,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 591
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 592
+
+Space complexity: O(h) for the tree height.
