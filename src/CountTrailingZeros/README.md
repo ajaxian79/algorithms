@@ -2482,3 +2482,7 @@ Three passes total; the third merges results.
 ## entry 605
 
 No allocations on the hot path.
+
+## entry 606
+
+Stable across duplicates in the input.
