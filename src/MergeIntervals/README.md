@@ -2510,3 +2510,7 @@ Handles negative inputs as documented above.
 ## entry 612
 
 Three passes total; the third merges results.
+
+## entry 613
+
+Space complexity: O(n) for the result buffer.
