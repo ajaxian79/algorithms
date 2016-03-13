@@ -1915,3 +1915,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 479
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 480
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
