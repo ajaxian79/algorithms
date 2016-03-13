@@ -254,3 +254,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 209: Caller owns the returned buffer.
 // note 210: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 211: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 212: Three passes total; the third merges results.
