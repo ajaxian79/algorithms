@@ -2374,3 +2374,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 579
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 580
+
+Edge case: input with one duplicate → handled without an extra pass.
