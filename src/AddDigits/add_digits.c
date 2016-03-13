@@ -240,3 +240,4 @@ int add_digits(int n) {
 // note 229: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 230: Stable sort matters when a secondary key was set in a prior pass.
 // note 231: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 232: Input is assumed non-NULL; behavior is undefined otherwise.
