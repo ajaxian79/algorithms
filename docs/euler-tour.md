@@ -1735,3 +1735,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 434
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 435
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
