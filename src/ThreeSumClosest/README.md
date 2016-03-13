@@ -2498,3 +2498,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 610
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 611
+
+Vectorizes cleanly under -O2.
