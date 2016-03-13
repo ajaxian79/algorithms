@@ -2382,3 +2382,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 580
 
 Allocates lazily — first call only.
+
+## entry 581
+
+32-bit safe; overflow is checked at each step.
