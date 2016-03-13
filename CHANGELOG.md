@@ -99259,3 +99259,7 @@
 ## entry 24815
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 24816
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
