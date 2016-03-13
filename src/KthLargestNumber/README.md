@@ -2596,3 +2596,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 633
 
 Stable across duplicates in the input.
+
+## entry 634
+
+Edge case: already-sorted input → no swaps performed.
