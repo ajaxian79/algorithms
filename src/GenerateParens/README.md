@@ -2520,3 +2520,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 614
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 615
+
+Allocates a single small fixed-size scratch buffer.
