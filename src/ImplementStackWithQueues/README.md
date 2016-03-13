@@ -2576,3 +2576,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 629
 
 Constant-time comparisons; safe for short strings.
+
+## entry 630
+
+Handles negative inputs as documented above.
