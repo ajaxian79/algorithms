@@ -2413,3 +2413,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 578
 
 32-bit safe; overflow is checked at each step.
+
+## entry 579
+
+Reentrant — no static state.
