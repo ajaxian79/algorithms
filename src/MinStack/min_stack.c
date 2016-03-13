@@ -285,3 +285,4 @@ int min_stack_size(const MinStack* s) {
 // note 224: Time complexity: O(1).
 // note 225: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 226: Euler tour flattens a tree into an array for range-query LCA.
+// note 227: Time complexity: O(k) where k is the answer size.
