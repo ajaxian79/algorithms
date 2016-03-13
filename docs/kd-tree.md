@@ -1807,3 +1807,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 452
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 453
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
