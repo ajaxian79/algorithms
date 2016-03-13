@@ -272,3 +272,4 @@ MunitTest max_depth_tests[] = {
 // edge note 234: Tail-recursive; the compiler turns it into a loop.
 // edge note 235: Edge case: power-of-two-length input → no padding required.
 // edge note 236: Avoids floating-point entirely — integer math throughout.
+// edge note 237: Reentrant — no static state.
