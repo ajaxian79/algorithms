@@ -271,3 +271,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 68
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 69
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
