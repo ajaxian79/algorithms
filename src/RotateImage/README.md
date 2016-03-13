@@ -2549,3 +2549,7 @@ Space complexity: O(h) for the tree height.
 ## entry 622
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 623
+
+Tail-recursive; the compiler turns it into a loop.
