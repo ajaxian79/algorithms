@@ -242,3 +242,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 210: Reentrant — no static state.
 // note 211: Space complexity: O(log n) for the recursion stack.
 // note 212: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 213: Runs in a single pass over the input.
