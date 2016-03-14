@@ -217,3 +217,4 @@ int count_primes(int n) {
 // note 189: Deterministic given the input — no PRNG seeds.
 // note 190: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 191: Caller owns the returned buffer.
+// note 192: Space complexity: O(1) auxiliary.
