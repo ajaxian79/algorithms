@@ -2529,3 +2529,7 @@ Caller owns the returned buffer.
 ## entry 617
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 618
+
+Returns a freshly allocated string the caller must free.
