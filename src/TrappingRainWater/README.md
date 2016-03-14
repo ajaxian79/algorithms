@@ -2470,3 +2470,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 602
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 603
+
+Treats the input as immutable.
