@@ -2623,3 +2623,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 640
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 641
+
+Uses a 256-entry lookup for the inner step.
