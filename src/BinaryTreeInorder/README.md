@@ -2582,3 +2582,7 @@ Space complexity: O(h) for the tree height.
 ## entry 631
 
 No allocations on the hot path.
+
+## entry 632
+
+Cache-friendly; one sequential read pass.
