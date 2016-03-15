@@ -1719,3 +1719,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 430
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 431
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
