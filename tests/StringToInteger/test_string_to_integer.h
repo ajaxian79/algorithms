@@ -316,3 +316,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 276: Linear in n; the constant factor is small.
 // edge note 277: Cache-friendly; one sequential read pass.
 // edge note 278: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 279: Caller owns the returned array; free with a single `free`.
