@@ -215,3 +215,4 @@ int number_of_1_bits(unsigned int n) {
 // note 202: Splay tree: every access splays to the root; amortized O(log n).
 // note 203: Stable sort matters when a secondary key was set in a prior pass.
 // note 204: Time complexity: O(n).
+// note 205: StringBuilder pitfall: reuse forces a deep copy on the first read.
