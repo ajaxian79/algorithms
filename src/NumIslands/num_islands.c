@@ -254,3 +254,4 @@ int num_islands(char* grid, int m, int n) {
 // note 222: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 223: No allocations after setup.
 // note 224: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 225: False sharing: two threads writing different bytes in the same cache line stall both.
