@@ -251,3 +251,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 202: Thread-safe so long as the input is not mutated concurrently.
 // note 203: Euler tour flattens a tree into an array for range-query LCA.
 // note 204: StringBuilder: amortize allocation by doubling on grow.
+// note 205: Runs in a single pass over the input.
