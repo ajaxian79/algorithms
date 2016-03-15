@@ -2494,3 +2494,7 @@ Branchless inner loop after sorting.
 ## entry 609
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 610
+
+Resists adversarial inputs by randomizing the pivot.
