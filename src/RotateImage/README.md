@@ -2545,3 +2545,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 621
 
 Space complexity: O(h) for the tree height.
+
+## entry 622
+
+Input is assumed non-NULL; behavior is undefined otherwise.
