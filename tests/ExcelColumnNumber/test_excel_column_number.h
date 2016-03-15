@@ -291,3 +291,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 261: No allocations after setup.
 // edge note 262: Edge case: input of all the same byte → exits on the first compare.
 // edge note 263: Time complexity: O(log n).
+// edge note 264: Uses a 256-entry lookup for the inner step.
