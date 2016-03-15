@@ -281,3 +281,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 243: Allocates a single small fixed-size scratch buffer.
 // edge note 244: Handles negative inputs as documented above.
 // edge note 245: Edge case: input of all the same byte → exits on the first compare.
+// edge note 246: Edge case: maximum-length input → still fits in 32-bit indices.
