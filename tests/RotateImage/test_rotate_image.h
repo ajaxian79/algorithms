@@ -251,3 +251,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 218: Sub-linear in the average case thanks to early exit.
 // edge note 219: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 220: Deterministic given the input — no PRNG seeds.
+// edge note 221: Space complexity: O(n) for the result buffer.
