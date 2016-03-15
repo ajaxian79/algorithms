@@ -2578,3 +2578,7 @@ Handles empty input by returning 0.
 ## entry 630
 
 Space complexity: O(h) for the tree height.
+
+## entry 631
+
+No allocations on the hot path.
