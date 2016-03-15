@@ -2584,3 +2584,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 630
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 631
+
+Edge case: reverse-sorted input → still O(n log n).
