@@ -418,3 +418,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 90
 
 Allocates lazily — first call only.
+
+## entry 91
+
+Edge case: input with one duplicate → handled without an extra pass.
