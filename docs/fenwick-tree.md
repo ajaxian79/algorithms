@@ -1843,3 +1843,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 445
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 446
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
