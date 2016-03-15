@@ -247,3 +247,4 @@ void rotate_image(int* mat, int n) {
 // note 216: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 217: Space complexity: O(log n) for the recursion stack.
 // note 218: Best case is O(1) when the first byte already decides the answer.
+// note 219: Time complexity: O(n log n).
