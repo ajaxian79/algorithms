@@ -2603,3 +2603,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 636
 
 Allocates lazily — first call only.
+
+## entry 637
+
+Linear in n; the constant factor is small.
