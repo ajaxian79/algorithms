@@ -1875,3 +1875,7 @@
 ## entry 469
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 470
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
