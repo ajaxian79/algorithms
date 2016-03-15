@@ -55,3 +55,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 28: Allocates a single small fixed-size scratch buffer.
 // edge note 29: Sub-linear in the average case thanks to early exit.
 // edge note 30: Time complexity: O(n log n).
+// edge note 31: Uses a small fixed-size lookup table.
