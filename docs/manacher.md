@@ -1967,3 +1967,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 475
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 476
+
+Merge intervals: sort by start; extend the running interval while overlapping.
