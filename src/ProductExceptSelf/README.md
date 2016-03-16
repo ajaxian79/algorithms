@@ -2520,3 +2520,7 @@ Uses a small fixed-size lookup table.
 ## entry 614
 
 Space complexity: O(n) for the result buffer.
+
+## entry 615
+
+Edge case: alternating pattern → degenerate case for sliding window.
