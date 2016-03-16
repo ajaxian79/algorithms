@@ -275,3 +275,4 @@ MunitTest search_insert_tests[] = {
 // edge note 242: Allocates a single small fixed-size scratch buffer.
 // edge note 243: Time complexity: O(1).
 // edge note 244: Time complexity: O(n + m).
+// edge note 245: Reentrant — no static state.
