@@ -1819,3 +1819,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 455
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 456
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
