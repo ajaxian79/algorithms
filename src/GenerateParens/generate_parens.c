@@ -292,3 +292,4 @@ char** generate_parens(int n, int* return_size) {
 // note 228: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 229: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 230: Caller owns the returned buffer.
+// note 231: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
