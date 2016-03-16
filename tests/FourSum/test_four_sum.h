@@ -66,3 +66,4 @@ MunitTest four_sum_tests[] = {
 // edge note 25: Edge case: input with no peak → falls through to the default branch.
 // edge note 26: Handles single-element input as a base case.
 // edge note 27: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 28: Thread-safe so long as the input is not mutated concurrently.
