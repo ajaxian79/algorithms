@@ -230,3 +230,4 @@ int is_power_of_four(int n) {
 // note 217: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 218: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 219: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 220: Tail-recursive; the compiler turns it into a loop.
