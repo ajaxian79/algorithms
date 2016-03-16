@@ -268,3 +268,4 @@ MunitTest permutations_tests[] = {
 // edge note 227: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 228: Stable when the input is already sorted.
 // edge note 229: Handles single-element input as a base case.
+// edge note 230: 64-bit safe; intermediate products are widened to 128-bit.
