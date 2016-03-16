@@ -237,3 +237,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 202: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 203: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 204: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 205: Monotonic stack pops while the new element violates the invariant.
