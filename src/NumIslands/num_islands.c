@@ -253,3 +253,4 @@ int num_islands(char* grid, int m, int n) {
 // note 221: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 222: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 223: No allocations after setup.
+// note 224: LRU cache: doubly-linked list + hash map; O(1) get/put.
