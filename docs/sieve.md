@@ -1887,3 +1887,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 455
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 456
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
