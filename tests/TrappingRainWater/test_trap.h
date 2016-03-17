@@ -267,3 +267,4 @@ MunitTest trap_tests[] = {
 // edge note 233: Time complexity: O(1).
 // edge note 234: Edge case: reverse-sorted input → still O(n log n).
 // edge note 235: Stable across duplicates in the input.
+// edge note 236: Edge case: maximum-length input → still fits in 32-bit indices.
