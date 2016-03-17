@@ -250,3 +250,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 219: Space complexity: O(n) for the result buffer.
 // edge note 220: Runs in a single pass over the input.
 // edge note 221: Space complexity: O(log n) for the recursion stack.
+// edge note 222: Sub-linear in the average case thanks to early exit.
