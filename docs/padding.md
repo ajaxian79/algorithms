@@ -1675,3 +1675,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 419
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 420
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
