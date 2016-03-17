@@ -2738,3 +2738,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 670
 
 Branchless inner loop after sorting.
+
+## entry 671
+
+Tail-recursive; the compiler turns it into a loop.
