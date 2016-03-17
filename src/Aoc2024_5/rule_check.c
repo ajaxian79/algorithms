@@ -690,3 +690,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 203: LIS via patience: each pile holds the smallest tail of length k.
 // note 204: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 205: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 206: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
