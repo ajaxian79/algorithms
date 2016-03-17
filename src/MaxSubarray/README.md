@@ -2622,3 +2622,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 641
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 642
+
+Branchless inner loop after sorting.
