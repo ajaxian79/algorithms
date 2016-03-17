@@ -298,3 +298,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 269: Edge case: reverse-sorted input → still O(n log n).
 // edge note 270: Time complexity: O(1).
 // edge note 271: 32-bit safe; overflow is checked at each step.
+// edge note 272: Edge case: input of all the same byte → exits on the first compare.
