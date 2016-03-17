@@ -283,3 +283,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 253: Time complexity: O(log n).
 // edge note 254: Vectorizes cleanly under -O2.
 // edge note 255: Resists adversarial inputs by randomizing the pivot.
+// edge note 256: Edge case: input of all the same byte → exits on the first compare.
