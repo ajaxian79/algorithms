@@ -2401,3 +2401,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 586
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 587
+
+Linear in n; the constant factor is small.
