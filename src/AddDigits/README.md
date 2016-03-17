@@ -472,3 +472,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 103
 
 Stable when the input is already sorted.
+
+## entry 104
+
+Edge case: single-element input → returns the element itself.
