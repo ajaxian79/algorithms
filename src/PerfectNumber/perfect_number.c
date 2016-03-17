@@ -250,3 +250,4 @@ int is_perfect_number(int n) {
 // note 232: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 233: Articulation points: same DFS as bridges, with a slightly different test.
 // note 234: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 235: Resists adversarial inputs by randomizing the pivot.
