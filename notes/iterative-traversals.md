@@ -317,3 +317,7 @@
 ## entry 64
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 65
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
