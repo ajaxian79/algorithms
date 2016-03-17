@@ -282,3 +282,4 @@ MunitTest add_binary_tests[] = {
 // edge note 246: Avoids floating-point entirely — integer math throughout.
 // edge note 247: Reentrant — no static state.
 // edge note 248: Avoids floating-point entirely — integer math throughout.
+// edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
