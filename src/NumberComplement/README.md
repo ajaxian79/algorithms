@@ -2608,3 +2608,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 636
 
 Stable when the input is already sorted.
+
+## entry 637
+
+Edge case: input of all the same byte → exits on the first compare.
