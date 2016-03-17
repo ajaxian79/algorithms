@@ -262,3 +262,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 248: Avoids floating-point entirely — integer math throughout.
 // note 249: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 250: LIS via patience: each pile holds the smallest tail of length k.
+// note 251: Thread-safe so long as the input is not mutated concurrently.
