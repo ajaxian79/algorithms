@@ -498,3 +498,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 110
 
 Stable across duplicates in the input.
+
+## entry 111
+
+Idempotent — calling twice with the same input is a no-op the second time.
