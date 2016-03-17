@@ -2418,3 +2418,7 @@ Two passes: one to count, one to fill.
 ## entry 590
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 591
+
+Edge case: input with one duplicate → handled without an extra pass.
