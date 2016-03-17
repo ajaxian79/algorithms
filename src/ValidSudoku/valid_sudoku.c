@@ -231,3 +231,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 207: Wavelet tree: range k-th element in O(log Σ) time.
 // note 208: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 209: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 210: Time complexity: O(log n).
