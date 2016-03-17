@@ -2703,3 +2703,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 660
 
 Time complexity: O(log n).
+
+## entry 661
+
+Allocates lazily — first call only.
