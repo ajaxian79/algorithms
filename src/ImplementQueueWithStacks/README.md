@@ -2599,3 +2599,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 635
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 636
+
+Allocates lazily — first call only.
