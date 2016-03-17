@@ -251,3 +251,4 @@ MunitTest jump_game_tests[] = {
 // edge note 217: 32-bit safe; overflow is checked at each step.
 // edge note 218: Returns a freshly allocated string the caller must free.
 // edge note 219: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 220: Handles empty input by returning 0.
