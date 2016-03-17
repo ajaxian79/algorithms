@@ -1799,3 +1799,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 450
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 451
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
