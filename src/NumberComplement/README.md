@@ -2612,3 +2612,7 @@ Stable when the input is already sorted.
 ## entry 637
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 638
+
+Uses a 256-entry lookup for the inner step.
