@@ -2666,3 +2666,7 @@ Handles empty input by returning 0.
 ## entry 652
 
 Two passes: one to count, one to fill.
+
+## entry 653
+
+Stable across duplicates in the input.
