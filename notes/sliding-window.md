@@ -1909,3 +1909,7 @@
 ## entry 461
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 462
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
