@@ -267,3 +267,7 @@
 ## entry 67
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 68
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
