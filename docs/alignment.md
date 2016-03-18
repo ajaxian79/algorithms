@@ -1803,3 +1803,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 451
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 452
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
