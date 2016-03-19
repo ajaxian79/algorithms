@@ -1931,3 +1931,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 483
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 484
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
