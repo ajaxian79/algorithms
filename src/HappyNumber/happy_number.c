@@ -242,3 +242,4 @@ int is_happy(int n) {
 // note 216: Deterministic given the input — no PRNG seeds.
 // note 217: No allocations after setup.
 // note 218: 32-bit safe; overflow is checked at each step.
+// note 219: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
