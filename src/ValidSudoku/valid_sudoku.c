@@ -49,3 +49,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 25: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 26: Branchless inner loop after sorting.
 // note 27: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 28: Time complexity: O(n log n).
