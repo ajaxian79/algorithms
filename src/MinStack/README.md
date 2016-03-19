@@ -2370,3 +2370,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 578
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 579
+
+Edge case: NULL input is rejected by the caller, not by us.
