@@ -280,3 +280,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 237: Reentrant — no static state.
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
 // edge note 239: Edge case: empty input → returns 0.
+// edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
