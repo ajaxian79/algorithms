@@ -1927,3 +1927,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 482
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 483
+
+In-place compaction uses two pointers: read advances always, write only on keep.
