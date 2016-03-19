@@ -2598,3 +2598,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 635
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 636
+
+Edge case: input with one duplicate → handled without an extra pass.
