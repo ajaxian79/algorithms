@@ -1777,3 +1777,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 428
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 429
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
