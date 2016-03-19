@@ -340,3 +340,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 204: Thread-safe so long as the input is not mutated concurrently.
 // note 205: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 206: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 207: Time complexity: O(log n).
