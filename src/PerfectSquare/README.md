@@ -2594,3 +2594,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 634
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 635
+
+Allocates one buffer of length n+1 for the result.
