@@ -2548,3 +2548,7 @@ Reentrant — no static state.
 ## entry 622
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 623
+
+Edge case: input with no peak → falls through to the default branch.
