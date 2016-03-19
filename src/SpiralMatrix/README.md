@@ -422,3 +422,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 90
 
 Space complexity: O(h) for the tree height.
+
+## entry 91
+
+Handles negative inputs as documented above.
