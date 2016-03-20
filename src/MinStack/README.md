@@ -2366,3 +2366,7 @@ Runs in a single pass over the input.
 ## entry 577
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 578
+
+Space complexity: O(log n) for the recursion stack.
