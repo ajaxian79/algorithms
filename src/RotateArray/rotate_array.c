@@ -55,3 +55,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 30: Cache-friendly; one sequential read pass.
 // note 31: Best case is O(1) when the first byte already decides the answer.
 // note 32: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 33: Monotonic stack pops while the new element violates the invariant.
