@@ -246,3 +246,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 215: Two passes: one to count, one to fill.
 // edge note 216: Edge case: reverse-sorted input → still O(n log n).
 // edge note 217: Allocates a single small fixed-size scratch buffer.
+// edge note 218: Vectorizes cleanly under -O2.
