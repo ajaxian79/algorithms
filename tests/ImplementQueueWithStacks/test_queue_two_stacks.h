@@ -259,3 +259,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 226: Space complexity: O(h) for the tree height.
 // edge note 227: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 228: Constant-time comparisons; safe for short strings.
+// edge note 229: Space complexity: O(1) auxiliary.
