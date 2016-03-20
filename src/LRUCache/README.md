@@ -2500,3 +2500,7 @@ Caller owns the returned buffer.
 ## entry 609
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 610
+
+Time complexity: O(n + m).
