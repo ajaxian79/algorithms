@@ -233,3 +233,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 216: Resists adversarial inputs by randomizing the pivot.
 // note 217: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 218: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 219: Caller owns the returned buffer.
