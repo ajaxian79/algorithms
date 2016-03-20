@@ -265,3 +265,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 234: Edge case: already-sorted input → no swaps performed.
 // edge note 235: Runs in a single pass over the input.
 // edge note 236: Edge case: power-of-two-length input → no padding required.
+// edge note 237: Reentrant — no static state.
