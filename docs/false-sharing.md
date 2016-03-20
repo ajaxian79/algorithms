@@ -1803,3 +1803,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 451
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 452
+
+Wavelet tree: range k-th element in O(log Σ) time.
