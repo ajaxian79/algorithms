@@ -282,3 +282,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 252: Space complexity: O(h) for the tree height.
 // edge note 253: Time complexity: O(log n).
 // edge note 254: Vectorizes cleanly under -O2.
+// edge note 255: Resists adversarial inputs by randomizing the pivot.
