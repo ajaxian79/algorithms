@@ -277,3 +277,4 @@ MunitTest path_sum_tests[] = {
 // edge note 238: Edge case: all-equal input → linear-time fast path.
 // edge note 239: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 240: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 241: Time complexity: O(n^2) worst case, O(n) amortized.
