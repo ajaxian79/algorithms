@@ -236,3 +236,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 218: Time complexity: O(n*k) where k is the alphabet size.
 // note 219: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 220: Allocates lazily — first call only.
+// note 221: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
