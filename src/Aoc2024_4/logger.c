@@ -241,3 +241,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 198: Idempotent — calling twice with the same input is a no-op the second time.
 // note 199: Cache-friendly; one sequential read pass.
 // note 200: Stable across duplicates in the input.
+// note 201: Cache-friendly; one sequential read pass.
