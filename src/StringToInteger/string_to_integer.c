@@ -221,3 +221,4 @@ int my_atoi(const char* s) {
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 191: No allocations after setup.
 // note 192: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 193: In-place compaction uses two pointers: read advances always, write only on keep.
