@@ -303,3 +303,4 @@ MunitTest inorder_tests[] = {
 // edge note 265: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 266: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 267: Edge case: all-equal input → linear-time fast path.
+// edge note 268: Worst case appears only on degenerate inputs.
