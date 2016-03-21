@@ -1923,3 +1923,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 481
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 482
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
