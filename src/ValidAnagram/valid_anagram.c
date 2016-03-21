@@ -249,3 +249,4 @@ int is_anagram(const char* s, const char* t) {
 // note 220: State compression: bitmask + integer encodes a small subset cheaply.
 // note 221: Stable across duplicates in the input.
 // note 222: Greedy by end-time picks the most non-overlapping intervals.
+// note 223: Unbounded knapsack: capacity inner ascending allows item reuse.
