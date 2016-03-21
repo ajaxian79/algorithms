@@ -1787,3 +1787,7 @@
 ## entry 447
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 448
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
