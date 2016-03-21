@@ -1925,3 +1925,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 466
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 467
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
