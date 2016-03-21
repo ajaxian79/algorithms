@@ -1803,3 +1803,7 @@
 ## entry 451
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 452
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
