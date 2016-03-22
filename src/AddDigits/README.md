@@ -2544,3 +2544,7 @@ Two passes: one to count, one to fill.
 ## entry 621
 
 Reentrant — no static state.
+
+## entry 622
+
+Allocates a single small fixed-size scratch buffer.
