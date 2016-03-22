@@ -248,3 +248,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 217: Returns a freshly allocated string the caller must free.
 // edge note 218: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 219: Space complexity: O(n) for the result buffer.
+// edge note 220: Runs in a single pass over the input.
