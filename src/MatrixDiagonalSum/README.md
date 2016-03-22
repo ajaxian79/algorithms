@@ -2662,3 +2662,7 @@ Time complexity: O(n).
 ## entry 651
 
 Handles empty input by returning 0.
+
+## entry 652
+
+Two passes: one to count, one to fill.
