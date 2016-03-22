@@ -267,3 +267,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 239: Returns a freshly allocated string the caller must free.
 // edge note 240: Vectorizes cleanly under -O2.
 // edge note 241: Edge case: already-sorted input → no swaps performed.
+// edge note 242: Edge case: power-of-two-length input → no padding required.
