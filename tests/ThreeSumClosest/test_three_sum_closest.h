@@ -266,3 +266,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 238: Cache-friendly; one sequential read pass.
 // edge note 239: Returns a freshly allocated string the caller must free.
 // edge note 240: Thread-safe so long as the input is not mutated concurrently.
+// edge note 241: Caller owns the returned buffer.
