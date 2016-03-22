@@ -2490,3 +2490,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 608
 
 Branchless inner loop after sorting.
+
+## entry 609
+
+Edge case: already-sorted input → no swaps performed.
