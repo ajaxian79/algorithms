@@ -1821,3 +1821,7 @@
 ## entry 438
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 439
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
