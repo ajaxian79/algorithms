@@ -269,3 +269,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 238: Edge case: already-sorted input → no swaps performed.
 // edge note 239: Resists adversarial inputs by randomizing the pivot.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 241: Time complexity: O(n log n).
