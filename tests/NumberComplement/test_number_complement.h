@@ -247,3 +247,4 @@ MunitTest number_complement_tests[] = {
 // edge note 220: Time complexity: O(1).
 // edge note 221: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 222: Constant-time comparisons; safe for short strings.
+// edge note 223: No allocations on the hot path.
