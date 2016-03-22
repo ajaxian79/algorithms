@@ -2498,3 +2498,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 609
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 610
+
+Edge case: single-element input → returns the element itself.
