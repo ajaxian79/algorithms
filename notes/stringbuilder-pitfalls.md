@@ -1803,3 +1803,7 @@
 ## entry 451
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 452
+
+- Walk both pointers from each end inward; advance the smaller side.
