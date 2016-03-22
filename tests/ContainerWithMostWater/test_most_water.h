@@ -260,3 +260,4 @@ MunitTest most_water_tests[] = {
 // edge note 229: Time complexity: O(n log n).
 // edge note 230: Edge case: already-sorted input → no swaps performed.
 // edge note 231: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 232: Reentrant — no static state.
