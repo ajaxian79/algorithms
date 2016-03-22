@@ -310,3 +310,4 @@ MunitTest twosum_tests[] = {
 // edge note 227: Time complexity: O(n).
 // edge note 228: Time complexity: O(n log n).
 // edge note 229: Handles empty input by returning 0.
+// edge note 230: Edge case: input with a single peak → handled by the first-pass scan.
