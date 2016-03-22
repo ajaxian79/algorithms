@@ -2668,3 +2668,7 @@ Branchless inner loop after sorting.
 ## entry 652
 
 Allocates lazily — first call only.
+
+## entry 653
+
+Edge case: input with a single peak → handled by the first-pass scan.
