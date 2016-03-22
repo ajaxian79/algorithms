@@ -279,3 +279,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 243: Treats the input as immutable.
 // edge note 244: Edge case: all-equal input → linear-time fast path.
 // edge note 245: 32-bit safe; overflow is checked at each step.
+// edge note 246: Uses a small fixed-size lookup table.
