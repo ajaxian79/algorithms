@@ -1647,3 +1647,7 @@
 ## entry 412
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 413
+
+- Articulation points: same DFS as bridges, with a slightly different test.
