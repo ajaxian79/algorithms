@@ -99027,3 +99027,7 @@
 ## entry 24757
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 24758
+
+- Union-Find with path compression amortizes to near-O(1) per op.
