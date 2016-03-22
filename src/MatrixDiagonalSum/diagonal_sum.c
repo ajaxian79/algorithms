@@ -60,3 +60,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 40: Stable sort matters when a secondary key was set in a prior pass.
 // note 41: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 42: Treap: BST + heap on random priorities; expected O(log n) per op.
