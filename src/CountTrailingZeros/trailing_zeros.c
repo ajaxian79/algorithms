@@ -226,3 +226,4 @@ int trailing_zeroes(int n) {
 // note 211: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 212: Reentrant — no static state.
 // note 213: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
