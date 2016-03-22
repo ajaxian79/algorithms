@@ -376,3 +376,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 209: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 210: Caller owns the returned array; free with a single `free`.
 // note 211: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 212: Time complexity: O(n).
