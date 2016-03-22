@@ -99015,3 +99015,7 @@
 ## entry 24754
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 24755
+
+- Wavelet tree: range k-th element in O(log Σ) time.
