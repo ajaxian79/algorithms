@@ -1811,3 +1811,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 453
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 454
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
