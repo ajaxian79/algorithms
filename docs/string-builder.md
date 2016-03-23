@@ -1807,3 +1807,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 452
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 453
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
