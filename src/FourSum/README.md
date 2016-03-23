@@ -2484,3 +2484,7 @@ Handles negative inputs as documented above.
 ## entry 606
 
 Two passes: one to count, one to fill.
+
+## entry 607
+
+Edge case: maximum-length input → still fits in 32-bit indices.
