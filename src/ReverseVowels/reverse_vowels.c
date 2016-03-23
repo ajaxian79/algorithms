@@ -256,3 +256,4 @@ void reverse_vowels(char* s) {
 // note 223: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 224: StringBuilder: amortize allocation by doubling on grow.
 // note 225: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 226: Constant-time comparisons; safe for short strings.
