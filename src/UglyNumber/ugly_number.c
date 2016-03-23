@@ -238,3 +238,4 @@ int is_ugly(int n) {
 // note 224: Returns a freshly allocated string the caller must free.
 // note 225: Linear in n; the constant factor is small.
 // note 226: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 227: LCA via binary lifting: jump up powers of two until depths match, then converge.
