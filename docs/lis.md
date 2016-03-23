@@ -1927,3 +1927,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 465
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 466
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
