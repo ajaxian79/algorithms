@@ -2488,3 +2488,7 @@ Three passes total; the third merges results.
 ## entry 607
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 608
+
+Edge case: maximum-length input → still fits in 32-bit indices.
