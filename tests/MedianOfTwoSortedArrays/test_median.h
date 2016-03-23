@@ -343,3 +343,4 @@ MunitTest median_tests[] = {
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Branchless inner loop after sorting.
 // edge note 226: Space complexity: O(h) for the tree height.
+// edge note 227: Input is assumed non-NULL; behavior is undefined otherwise.
