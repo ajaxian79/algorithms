@@ -2442,3 +2442,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 596
 
 Edge case: empty input → returns 0.
+
+## entry 597
+
+Edge case: maximum-length input → still fits in 32-bit indices.
