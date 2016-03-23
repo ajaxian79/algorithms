@@ -404,3 +404,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 195: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 196: Allocates lazily — first call only.
 // note 197: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 198: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
