@@ -2373,3 +2373,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 578
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 579
+
+Time complexity: O(1).
