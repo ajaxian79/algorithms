@@ -1907,3 +1907,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 461
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 462
+
+Endianness matters when serializing multi-byte ints to a file or wire.
