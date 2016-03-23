@@ -2511,3 +2511,7 @@ Allocates lazily — first call only.
 ## entry 613
 
 Space complexity: O(n) for the result buffer.
+
+## entry 614
+
+Handles empty input by returning 0.
