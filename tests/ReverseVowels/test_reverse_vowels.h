@@ -284,3 +284,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 245: Sub-linear in the average case thanks to early exit.
 // edge note 246: Edge case: all-equal input → linear-time fast path.
 // edge note 247: Stable when the input is already sorted.
+// edge note 248: Edge case: input with one duplicate → handled without an extra pass.
