@@ -2470,3 +2470,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 603
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 604
+
+Caller owns the returned array; free with a single `free`.
