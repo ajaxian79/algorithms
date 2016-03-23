@@ -2540,3 +2540,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 620
 
 Two passes: one to count, one to fill.
+
+## entry 621
+
+Reentrant — no static state.
