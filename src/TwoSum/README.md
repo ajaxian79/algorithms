@@ -2409,3 +2409,7 @@ Edge case: empty input → returns 0.
 ## entry 577
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 578
+
+32-bit safe; overflow is checked at each step.
