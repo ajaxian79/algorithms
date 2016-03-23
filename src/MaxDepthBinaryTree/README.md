@@ -2393,3 +2393,7 @@ Cache-friendly; one sequential read pass.
 ## entry 584
 
 32-bit safe; overflow is checked at each step.
+
+## entry 585
+
+Space complexity: O(log n) for the recursion stack.
