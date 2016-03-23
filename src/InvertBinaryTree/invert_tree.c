@@ -231,3 +231,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 216: Walk both pointers from each end inward; advance the smaller side.
 // note 217: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 218: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 219: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
