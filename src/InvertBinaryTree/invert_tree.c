@@ -232,3 +232,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 217: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 218: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 219: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 220: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
