@@ -388,3 +388,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 81
 
 Time complexity: O(1).
+
+## entry 82
+
+Edge case: power-of-two-length input → no padding required.
