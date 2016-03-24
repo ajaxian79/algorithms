@@ -476,3 +476,7 @@ Two passes: one to count, one to fill.
 ## entry 104
 
 Time complexity: O(1).
+
+## entry 105
+
+Time complexity: O(1).
