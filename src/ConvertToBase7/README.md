@@ -2664,3 +2664,7 @@ Allocates lazily — first call only.
 ## entry 651
 
 Branchless inner loop after sorting.
+
+## entry 652
+
+Allocates lazily — first call only.
