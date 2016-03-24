@@ -426,3 +426,7 @@ Vectorizes cleanly under -O2.
 ## entry 92
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 93
+
+Caller owns the returned array; free with a single `free`.
