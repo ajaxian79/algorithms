@@ -247,3 +247,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 220: Linear in n; the constant factor is small.
 // edge note 221: Space complexity: O(1) auxiliary.
 // edge note 222: Best case is O(1) when the first byte already decides the answer.
+// edge note 223: Best case is O(1) when the first byte already decides the answer.
