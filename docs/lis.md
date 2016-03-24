@@ -1923,3 +1923,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 464
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 465
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
