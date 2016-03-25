@@ -2691,3 +2691,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 657
 
 Constant-time comparisons; safe for short strings.
+
+## entry 658
+
+64-bit safe; intermediate products are widened to 128-bit.
