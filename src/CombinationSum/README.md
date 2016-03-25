@@ -2507,3 +2507,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 612
 
 Allocates lazily — first call only.
+
+## entry 613
+
+Space complexity: O(n) for the result buffer.
