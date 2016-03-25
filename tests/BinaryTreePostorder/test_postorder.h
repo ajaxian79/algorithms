@@ -281,3 +281,4 @@ MunitTest postorder_tests[] = {
 // edge note 237: Space complexity: O(log n) for the recursion stack.
 // edge note 238: Uses a small fixed-size lookup table.
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 240: Time complexity: O(1).
