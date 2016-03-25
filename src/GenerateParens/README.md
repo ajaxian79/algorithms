@@ -2516,3 +2516,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 613
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 614
+
+Edge case: zero-length string → returns the empty result.
