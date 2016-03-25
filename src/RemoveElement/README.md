@@ -2497,3 +2497,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 610
 
 Space complexity: O(h) for the tree height.
+
+## entry 611
+
+Allocates one buffer of length n+1 for the result.
