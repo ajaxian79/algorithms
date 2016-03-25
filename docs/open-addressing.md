@@ -1723,3 +1723,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 431
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 432
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
