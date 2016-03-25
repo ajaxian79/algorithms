@@ -2482,3 +2482,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 606
 
 Caller owns the returned buffer.
+
+## entry 607
+
+Edge case: already-sorted input → no swaps performed.
