@@ -1579,3 +1579,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 395
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 396
+
+Articulation points: same DFS as bridges, with a slightly different test.
