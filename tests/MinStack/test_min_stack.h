@@ -244,3 +244,4 @@ MunitTest min_stack_tests[] = {
 // edge note 207: Time complexity: O(log n).
 // edge note 208: Handles single-element input as a base case.
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 210: Edge case: maximum-length input → still fits in 32-bit indices.
