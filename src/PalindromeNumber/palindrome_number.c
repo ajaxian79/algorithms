@@ -233,3 +233,4 @@ int is_palindrome_number(int x) {
 // note 209: Branchless inner loop after sorting.
 // note 210: Stable sort matters when a secondary key was set in a prior pass.
 // note 211: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 212: Time complexity: O(n^2) worst case, O(n) amortized.
