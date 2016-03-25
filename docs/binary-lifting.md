@@ -287,3 +287,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 72
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 73
+
+Heap when you only need top-k; full sort is wasted work.
