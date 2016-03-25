@@ -1751,3 +1751,7 @@
 ## entry 438
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 439
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
