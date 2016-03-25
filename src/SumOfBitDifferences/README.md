@@ -2548,3 +2548,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 622
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 623
+
+Tail-recursive; the compiler turns it into a loop.
