@@ -81,3 +81,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 36: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 37: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 38: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 39: State compression: bitmask + integer encodes a small subset cheaply.
