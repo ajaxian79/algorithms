@@ -1679,3 +1679,7 @@
 ## entry 420
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 421
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
