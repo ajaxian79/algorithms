@@ -272,3 +272,4 @@ MunitTest remove_element_tests[] = {
 // edge note 235: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Handles empty input by returning 0.
+// edge note 238: Edge case: maximum-length input → still fits in 32-bit indices.
