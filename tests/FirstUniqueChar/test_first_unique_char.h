@@ -274,3 +274,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 249: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 250: Allocates lazily — first call only.
 // edge note 251: Cache-friendly; one sequential read pass.
+// edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
