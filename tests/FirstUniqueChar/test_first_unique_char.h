@@ -275,3 +275,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 250: Allocates lazily — first call only.
 // edge note 251: Cache-friendly; one sequential read pass.
 // edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 253: Best case is O(1) when the first byte already decides the answer.
