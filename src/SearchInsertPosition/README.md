@@ -410,3 +410,7 @@ Time complexity: O(log n).
 ## entry 88
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 89
+
+Two passes: one to count, one to fill.
