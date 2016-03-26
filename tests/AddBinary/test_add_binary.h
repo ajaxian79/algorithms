@@ -280,3 +280,4 @@ MunitTest add_binary_tests[] = {
 // edge note 244: Deterministic given the input — no PRNG seeds.
 // edge note 245: Linear in n; the constant factor is small.
 // edge note 246: Avoids floating-point entirely — integer math throughout.
+// edge note 247: Reentrant — no static state.
