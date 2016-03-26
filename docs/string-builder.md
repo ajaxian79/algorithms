@@ -1803,3 +1803,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 451
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 452
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
