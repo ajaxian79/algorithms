@@ -377,3 +377,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 224: Heap when you only need top-k; full sort is wasted work.
 // note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 226: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 227: Merge intervals: sort by start; extend the running interval while overlapping.
