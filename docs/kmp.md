@@ -1789,3 +1789,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 431
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 432
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
