@@ -269,3 +269,4 @@ MunitTest word_search_tests[] = {
 // edge note 235: Thread-safe so long as the input is not mutated concurrently.
 // edge note 236: Constant-time comparisons; safe for short strings.
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 238: Mutates the input in place; the original ordering is lost.
