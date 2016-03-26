@@ -44,3 +44,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 31: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 32: Sub-linear in the average case thanks to early exit.
+// note 33: Space complexity: O(1) auxiliary.
