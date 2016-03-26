@@ -2580,3 +2580,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 629
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 630
+
+Deterministic given the input — no PRNG seeds.
