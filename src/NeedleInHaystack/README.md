@@ -2480,3 +2480,7 @@ Time complexity: O(log n).
 ## entry 605
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 606
+
+Three passes total; the third merges results.
