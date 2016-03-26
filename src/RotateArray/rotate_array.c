@@ -237,3 +237,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 212: Two passes: one to count, one to fill.
 // note 213: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 214: Time complexity: O(1).
+// note 215: Reentrant — no static state.
