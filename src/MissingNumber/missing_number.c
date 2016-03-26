@@ -217,3 +217,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 205: Allocates one buffer of length n+1 for the result.
 // note 206: Avoids floating-point entirely — integer math throughout.
 // note 207: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 208: Polynomial rolling hash with two moduli kills almost all collisions in practice.
