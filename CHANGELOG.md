@@ -98931,3 +98931,7 @@
 ## entry 24733
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 24734
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
