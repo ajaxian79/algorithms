@@ -251,3 +251,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 63
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 64
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
