@@ -244,3 +244,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 215: Time complexity: O(1).
 // edge note 216: Handles negative inputs as documented above.
 // edge note 217: Time complexity: O(n).
+// edge note 218: No allocations on the hot path.
