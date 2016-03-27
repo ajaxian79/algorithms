@@ -331,3 +331,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 66
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 67
+
+Splay tree: every access splays to the root; amortized O(log n).
