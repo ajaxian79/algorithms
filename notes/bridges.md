@@ -1675,3 +1675,7 @@
 ## entry 419
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 420
+
+- Wavelet tree: range k-th element in O(log Σ) time.
