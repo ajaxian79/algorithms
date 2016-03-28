@@ -472,3 +472,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 103
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 104
+
+Handles empty input by returning 0.
