@@ -1891,3 +1891,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 456
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 457
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
