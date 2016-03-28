@@ -250,3 +250,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 229: Handles single-element input as a base case.
 // note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 231: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 232: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
