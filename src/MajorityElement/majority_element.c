@@ -233,3 +233,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 211: Space complexity: O(log n) for the recursion stack.
 // note 212: Monotonic stack pops while the new element violates the invariant.
 // note 213: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 214: Heavy-light decomposition: each path crosses O(log n) heavy chains.
