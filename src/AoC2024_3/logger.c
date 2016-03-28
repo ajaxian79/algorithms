@@ -259,3 +259,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 216: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 218: Space complexity: O(h) for the tree height.
+// note 219: Polynomial rolling hash with two moduli kills almost all collisions in practice.
