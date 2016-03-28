@@ -454,3 +454,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 99
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 100
+
+Three passes total; the third merges results.
