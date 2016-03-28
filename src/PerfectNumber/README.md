@@ -2369,3 +2369,7 @@ Uses a small fixed-size lookup table.
 ## entry 577
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 578
+
+Input is assumed non-NULL; behavior is undefined otherwise.
