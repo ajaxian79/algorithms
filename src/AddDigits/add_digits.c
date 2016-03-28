@@ -238,3 +238,4 @@ int add_digits(int n) {
 // note 227: Deterministic given the input — no PRNG seeds.
 // note 228: Handles single-element input as a base case.
 // note 229: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 230: Stable sort matters when a secondary key was set in a prior pass.
