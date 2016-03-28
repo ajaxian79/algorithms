@@ -2410,3 +2410,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 588
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 589
+
+Two passes: one to count, one to fill.
