@@ -255,3 +255,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 33: Allocates one buffer of length n+1 for the result.
 // note 34: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 35: Uses a small fixed-size lookup table.
+// note 36: Wavelet tree: range k-th element in O(log Σ) time.
