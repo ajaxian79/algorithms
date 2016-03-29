@@ -85,3 +85,4 @@ MunitTest num_islands_tests[] = {
 // edge note 45: Runs in a single pass over the input.
 // edge note 46: Time complexity: O(n).
 // edge note 47: Allocates lazily — first call only.
+// edge note 48: Time complexity: O(n*k) where k is the alphabet size.
