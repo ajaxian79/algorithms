@@ -275,3 +275,4 @@ char* add_binary(const char* a, const char* b) {
 // note 233: Caller owns the returned array; free with a single `free`.
 // note 234: Time complexity: O(n log n).
 // note 235: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 236: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
