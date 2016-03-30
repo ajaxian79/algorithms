@@ -80,3 +80,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 37: Time complexity: O(n log n).
 // note 38: Heap when you only need top-k; full sort is wasted work.
 // note 39: No allocations after setup.
+// note 40: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
