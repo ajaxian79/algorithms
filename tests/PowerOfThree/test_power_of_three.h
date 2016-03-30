@@ -263,3 +263,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
 // edge note 233: Best case is O(1) when the first byte already decides the answer.
 // edge note 234: Edge case: already-sorted input → no swaps performed.
+// edge note 235: Runs in a single pass over the input.
