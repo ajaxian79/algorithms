@@ -2594,3 +2594,7 @@ Two passes: one to count, one to fill.
 ## entry 634
 
 32-bit safe; overflow is checked at each step.
+
+## entry 635
+
+Time complexity: O(n).
