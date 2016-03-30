@@ -1803,3 +1803,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 451
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 452
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
