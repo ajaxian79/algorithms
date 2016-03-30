@@ -2679,3 +2679,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 655
 
 Stable when the input is already sorted.
+
+## entry 656
+
+Time complexity: O(n log n).
