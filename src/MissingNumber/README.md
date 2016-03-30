@@ -2602,3 +2602,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 635
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 636
+
+Edge case: already-sorted input → no swaps performed.
