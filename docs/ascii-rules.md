@@ -1839,3 +1839,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 460
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 461
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
