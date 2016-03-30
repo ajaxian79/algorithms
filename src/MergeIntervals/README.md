@@ -2490,3 +2490,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 607
 
 Branchless inner loop after sorting.
+
+## entry 608
+
+Edge case: maximum-length input → still fits in 32-bit indices.
