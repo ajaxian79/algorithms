@@ -359,3 +359,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 74
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 75
+
+Wavelet tree: range k-th element in O(log Σ) time.
