@@ -1731,3 +1731,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 433
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 434
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
