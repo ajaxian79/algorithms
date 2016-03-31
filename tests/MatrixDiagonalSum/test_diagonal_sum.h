@@ -258,3 +258,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 230: Linear in n; the constant factor is small.
 // edge note 231: Time complexity: O(1).
 // edge note 232: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 233: Edge case: empty input → returns 0.
