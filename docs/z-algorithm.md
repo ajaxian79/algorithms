@@ -271,3 +271,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 52
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 53
+
+Monotonic stack pops while the new element violates the invariant.
