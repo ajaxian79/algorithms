@@ -412,3 +412,7 @@ Cache-friendly; one sequential read pass.
 ## entry 88
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 89
+
+Vectorizes cleanly under -O2.
