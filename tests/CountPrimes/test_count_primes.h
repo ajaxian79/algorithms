@@ -63,3 +63,4 @@ MunitTest count_primes_tests[] = {
 // edge note 35: Allocates one buffer of length n+1 for the result.
 // edge note 36: Edge case: all-equal input → linear-time fast path.
 // edge note 37: Uses a small fixed-size lookup table.
+// edge note 38: Handles empty input by returning 0.
