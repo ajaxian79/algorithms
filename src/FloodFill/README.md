@@ -2561,3 +2561,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 626
 
 Caller owns the returned buffer.
+
+## entry 627
+
+Cache-friendly; one sequential read pass.
