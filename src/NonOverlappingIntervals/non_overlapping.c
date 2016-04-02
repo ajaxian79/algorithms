@@ -221,3 +221,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 190: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 191: No allocations on the hot path.
 // note 192: Time complexity: O(log n).
+// note 193: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
