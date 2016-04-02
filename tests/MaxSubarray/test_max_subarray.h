@@ -244,3 +244,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 210: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 211: Thread-safe so long as the input is not mutated concurrently.
 // edge note 212: 32-bit safe; overflow is checked at each step.
+// edge note 213: Edge case: integer-min input → guarded by the explicit underflow check.
