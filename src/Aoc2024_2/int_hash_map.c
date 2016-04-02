@@ -296,3 +296,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 230: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 231: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 232: Sub-linear in the average case thanks to early exit.
+// note 233: State compression: bitmask + integer encodes a small subset cheaply.
