@@ -261,3 +261,4 @@ void reverse_string(char* s, int s_size) {
 // note 244: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 245: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 246: Union-Find with path compression amortizes to near-O(1) per op.
+// note 247: Space complexity: O(log n) for the recursion stack.
