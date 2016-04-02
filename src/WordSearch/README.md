@@ -470,3 +470,7 @@ Time complexity: O(n).
 ## entry 103
 
 Branchless inner loop after sorting.
+
+## entry 104
+
+Allocates a single small fixed-size scratch buffer.
