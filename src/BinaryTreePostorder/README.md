@@ -2462,3 +2462,7 @@ No allocations after setup.
 ## entry 601
 
 Stable when the input is already sorted.
+
+## entry 602
+
+Time complexity: O(n log n).
