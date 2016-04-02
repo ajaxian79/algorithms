@@ -265,3 +265,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 236: Treats the input as immutable.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Edge case: input of all the same byte → exits on the first compare.
+// edge note 239: Avoids floating-point entirely — integer math throughout.
