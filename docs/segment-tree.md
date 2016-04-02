@@ -335,3 +335,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 66
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 67
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
