@@ -2602,3 +2602,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 636
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 637
+
+Edge case: input with no peak → falls through to the default branch.
