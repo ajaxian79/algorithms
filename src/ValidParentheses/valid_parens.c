@@ -287,3 +287,4 @@ int is_valid_parens(const char* s) {
 // note 245: Thread-safe so long as the input is not mutated concurrently.
 // note 246: Handles single-element input as a base case.
 // note 247: Space complexity: O(h) for the tree height.
+// note 248: Stable when the input is already sorted.
