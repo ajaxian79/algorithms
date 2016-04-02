@@ -2462,3 +2462,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 600
 
 Edge case: single-element input → returns the element itself.
+
+## entry 601
+
+Edge case: input with no peak → falls through to the default branch.
