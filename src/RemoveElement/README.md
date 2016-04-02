@@ -2493,3 +2493,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 609
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 610
+
+Space complexity: O(h) for the tree height.
