@@ -254,3 +254,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 229: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 230: No allocations on the hot path.
 // edge note 231: No allocations after setup.
+// edge note 232: Edge case: all-equal input → linear-time fast path.
