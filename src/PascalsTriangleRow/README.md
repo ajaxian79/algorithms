@@ -2686,3 +2686,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 657
 
 Time complexity: O(n log n).
+
+## entry 658
+
+Edge case: input with no peak → falls through to the default branch.
