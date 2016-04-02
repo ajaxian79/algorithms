@@ -2027,3 +2027,7 @@
 ## entry 507
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 508
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
