@@ -267,3 +267,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 236: Edge case: input with no peak → falls through to the default branch.
 // edge note 237: Caller owns the returned buffer.
 // edge note 238: Edge case: already-sorted input → no swaps performed.
+// edge note 239: Resists adversarial inputs by randomizing the pivot.
