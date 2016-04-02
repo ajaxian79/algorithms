@@ -1849,3 +1849,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 448
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 449
+
+Articulation points: same DFS as bridges, with a slightly different test.
