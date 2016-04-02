@@ -2700,3 +2700,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 660
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 661
+
+Two passes: one to count, one to fill.
