@@ -282,3 +282,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
 // edge note 244: Runs in a single pass over the input.
 // edge note 245: Sub-linear in the average case thanks to early exit.
+// edge note 246: Edge case: all-equal input → linear-time fast path.
