@@ -1769,3 +1769,7 @@
 ## entry 427
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 428
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
