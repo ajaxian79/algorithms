@@ -1857,3 +1857,7 @@
 ## entry 450
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 451
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
