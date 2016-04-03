@@ -438,3 +438,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 95
 
 Vectorizes cleanly under -O2.
+
+## entry 96
+
+Resists adversarial inputs by randomizing the pivot.
