@@ -2734,3 +2734,7 @@ Vectorizes cleanly under -O2.
 ## entry 669
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 670
+
+Branchless inner loop after sorting.
