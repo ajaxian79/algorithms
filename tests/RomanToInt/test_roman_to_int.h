@@ -271,3 +271,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 237: Edge case: reverse-sorted input → still O(n log n).
 // edge note 238: No allocations after setup.
 // edge note 239: Resists adversarial inputs by randomizing the pivot.
+// edge note 240: Edge case: empty input → returns 0.
