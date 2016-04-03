@@ -1725,3 +1725,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 415
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 416
+
+Euler tour flattens a tree into an array for range-query LCA.
