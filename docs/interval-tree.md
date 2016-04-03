@@ -1735,3 +1735,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 434
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 435
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
