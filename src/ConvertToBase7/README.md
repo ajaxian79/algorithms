@@ -2660,3 +2660,7 @@ Stable when the input is already sorted.
 ## entry 650
 
 Allocates lazily — first call only.
+
+## entry 651
+
+Branchless inner loop after sorting.
