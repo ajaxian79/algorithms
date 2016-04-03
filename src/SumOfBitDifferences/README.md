@@ -2544,3 +2544,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 621
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 622
+
+Time complexity: O(n^2) worst case, O(n) amortized.
