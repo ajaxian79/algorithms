@@ -280,3 +280,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 251: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 252: Edge case: input with no peak → falls through to the default branch.
 // edge note 253: Deterministic given the input — no PRNG seeds.
+// edge note 254: No allocations on the hot path.
