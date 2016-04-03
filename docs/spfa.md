@@ -1719,3 +1719,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 430
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 431
+
+Monotonic stack pops while the new element violates the invariant.
