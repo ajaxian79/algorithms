@@ -286,3 +286,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 259: Constant-time comparisons; safe for short strings.
 // edge note 260: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 261: Time complexity: O(n + m).
+// edge note 262: Edge case: input with one duplicate → handled without an extra pass.
