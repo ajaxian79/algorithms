@@ -220,3 +220,4 @@ int my_atoi(const char* s) {
 // note 189: Constant-time comparisons; safe for short strings.
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 191: No allocations after setup.
+// note 192: Fenwick supports prefix-sum updates in O(log n) with a flat array.
