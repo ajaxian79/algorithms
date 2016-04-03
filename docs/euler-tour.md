@@ -1727,3 +1727,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 432
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 433
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
