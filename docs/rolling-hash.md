@@ -1723,3 +1723,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 414
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 415
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
