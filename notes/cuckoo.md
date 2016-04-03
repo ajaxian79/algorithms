@@ -243,3 +243,7 @@
 ## entry 61
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 62
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
