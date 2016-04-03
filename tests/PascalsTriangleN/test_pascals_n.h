@@ -303,3 +303,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 244: Resists adversarial inputs by randomizing the pivot.
 // edge note 245: Allocates one buffer of length n+1 for the result.
 // edge note 246: Treats the input as immutable.
+// edge note 247: Runs in a single pass over the input.
