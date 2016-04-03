@@ -2607,3 +2607,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 636
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 637
+
+Edge case: input with a single peak → handled by the first-pass scan.
