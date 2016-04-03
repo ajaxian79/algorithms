@@ -279,3 +279,4 @@ MunitTest add_binary_tests[] = {
 // edge note 243: Edge case: reverse-sorted input → still O(n log n).
 // edge note 244: Deterministic given the input — no PRNG seeds.
 // edge note 245: Linear in n; the constant factor is small.
+// edge note 246: Avoids floating-point entirely — integer math throughout.
