@@ -1795,3 +1795,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 433
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 434
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
