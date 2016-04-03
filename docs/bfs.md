@@ -1797,3 +1797,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 432
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 433
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
