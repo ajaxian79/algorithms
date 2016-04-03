@@ -252,3 +252,4 @@ int binary_gap(unsigned int n) {
 // note 232: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 233: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 234: Time complexity: O(log n).
+// note 235: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
