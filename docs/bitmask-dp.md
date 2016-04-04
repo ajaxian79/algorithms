@@ -1843,3 +1843,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 461
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 462
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
