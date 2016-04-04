@@ -255,3 +255,4 @@ void reverse_vowels(char* s) {
 // note 222: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 223: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 224: StringBuilder: amortize allocation by doubling on grow.
+// note 225: ASCII rules are a strict subset of UTF-8; no special handling needed.
