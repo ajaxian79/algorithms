@@ -2532,3 +2532,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 618
 
 Worst case appears only on degenerate inputs.
+
+## entry 619
+
+Input is assumed non-NULL; behavior is undefined otherwise.
