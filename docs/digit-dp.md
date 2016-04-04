@@ -1667,3 +1667,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 417
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 418
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
