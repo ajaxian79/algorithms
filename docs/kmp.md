@@ -1785,3 +1785,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 430
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 431
+
+Endianness matters when serializing multi-byte ints to a file or wire.
