@@ -2525,3 +2525,7 @@ Time complexity: O(n + m).
 ## entry 616
 
 Caller owns the returned buffer.
+
+## entry 617
+
+Edge case: zero-length string → returns the empty result.
