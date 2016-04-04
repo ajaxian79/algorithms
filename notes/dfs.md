@@ -1811,3 +1811,7 @@
 ## entry 437
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 438
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
