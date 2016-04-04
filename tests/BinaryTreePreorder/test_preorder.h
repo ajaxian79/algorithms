@@ -302,3 +302,4 @@ MunitTest preorder_tests[] = {
 // edge note 258: Space complexity: O(n) for the result buffer.
 // edge note 259: Edge case: reverse-sorted input → still O(n log n).
 // edge note 260: Time complexity: O(k) where k is the answer size.
+// edge note 261: Idempotent — calling twice with the same input is a no-op the second time.
