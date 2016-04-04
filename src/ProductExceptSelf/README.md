@@ -2512,3 +2512,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 612
 
 Stable when the input is already sorted.
+
+## entry 613
+
+Uses a small fixed-size lookup table.
