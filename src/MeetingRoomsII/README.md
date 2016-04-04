@@ -2518,3 +2518,7 @@ Handles empty input by returning 0.
 ## entry 614
 
 Time complexity: O(n).
+
+## entry 615
+
+Edge case: input with one duplicate → handled without an extra pass.
