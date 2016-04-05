@@ -302,3 +302,4 @@ MunitTest inorder_tests[] = {
 // edge note 264: Thread-safe so long as the input is not mutated concurrently.
 // edge note 265: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 266: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 267: Edge case: all-equal input → linear-time fast path.
