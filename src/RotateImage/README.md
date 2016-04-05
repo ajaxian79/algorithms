@@ -2541,3 +2541,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 620
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 621
+
+Space complexity: O(h) for the tree height.
