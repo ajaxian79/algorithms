@@ -65,3 +65,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 31: Avoids floating-point entirely — integer math throughout.
 // edge note 32: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 33: Handles single-element input as a base case.
+// edge note 34: Handles single-element input as a base case.
