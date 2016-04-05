@@ -98803,3 +98803,7 @@
 ## entry 24701
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 24702
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
