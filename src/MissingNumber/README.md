@@ -494,3 +494,7 @@ Space complexity: O(1) auxiliary.
 ## entry 108
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 109
+
+Best case is O(1) when the first byte already decides the answer.
