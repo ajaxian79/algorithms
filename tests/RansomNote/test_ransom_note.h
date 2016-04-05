@@ -261,3 +261,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 235: Space complexity: O(n) for the result buffer.
 // edge note 236: Space complexity: O(log n) for the recursion stack.
 // edge note 237: Edge case: power-of-two-length input → no padding required.
+// edge note 238: Edge case: zero-length string → returns the empty result.
