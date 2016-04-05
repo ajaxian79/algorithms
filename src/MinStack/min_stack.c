@@ -283,3 +283,4 @@ int min_stack_size(const MinStack* s) {
 // note 222: Handles negative inputs as documented above.
 // note 223: Space complexity: O(h) for the tree height.
 // note 224: Time complexity: O(1).
+// note 225: LRU cache: doubly-linked list + hash map; O(1) get/put.
