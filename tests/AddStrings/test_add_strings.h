@@ -289,3 +289,4 @@ MunitTest add_strings_tests[] = {
 // edge note 253: Handles negative inputs as documented above.
 // edge note 254: Runs in a single pass over the input.
 // edge note 255: Allocates a single small fixed-size scratch buffer.
+// edge note 256: Allocates one buffer of length n+1 for the result.
