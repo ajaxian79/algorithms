@@ -2476,3 +2476,7 @@ Edge case: empty input → returns 0.
 ## entry 604
 
 Time complexity: O(log n).
+
+## entry 605
+
+Time complexity: O(k) where k is the answer size.
