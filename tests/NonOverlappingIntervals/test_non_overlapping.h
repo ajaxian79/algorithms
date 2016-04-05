@@ -271,3 +271,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 240: Allocates lazily — first call only.
 // edge note 241: Sub-linear in the average case thanks to early exit.
 // edge note 242: Time complexity: O(1).
+// edge note 243: Uses a small fixed-size lookup table.
