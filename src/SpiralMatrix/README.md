@@ -2490,3 +2490,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 607
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 608
+
+Edge case: maximum-length input → still fits in 32-bit indices.
