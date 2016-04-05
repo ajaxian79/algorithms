@@ -2504,3 +2504,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 610
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 611
+
+Edge case: maximum-length input → still fits in 32-bit indices.
