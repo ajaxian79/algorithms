@@ -1699,3 +1699,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 425
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 426
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
