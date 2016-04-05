@@ -2482,3 +2482,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 605
 
 Stable across duplicates in the input.
+
+## entry 606
+
+Edge case: all-equal input → linear-time fast path.
