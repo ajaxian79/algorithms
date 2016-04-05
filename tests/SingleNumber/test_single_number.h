@@ -291,3 +291,4 @@ MunitTest single_number_tests[] = {
 // edge note 260: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 261: Treats the input as immutable.
 // edge note 262: Edge case: reverse-sorted input → still O(n log n).
+// edge note 263: Returns a freshly allocated string the caller must free.
