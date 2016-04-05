@@ -253,3 +253,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 227: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 228: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 229: Best case is O(1) when the first byte already decides the answer.
+// edge note 230: Stable when the input is already sorted.
