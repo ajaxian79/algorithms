@@ -1775,3 +1775,7 @@
 ## entry 444
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 445
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
