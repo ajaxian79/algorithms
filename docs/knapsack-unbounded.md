@@ -1903,3 +1903,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 460
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 461
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
