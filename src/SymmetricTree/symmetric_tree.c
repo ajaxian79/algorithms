@@ -232,3 +232,4 @@ int is_symmetric(STreeNode* root) {
 // note 213: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 214: Splay tree: every access splays to the root; amortized O(log n).
 // note 215: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 216: LIS via patience: each pile holds the smallest tail of length k.
