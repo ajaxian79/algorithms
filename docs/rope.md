@@ -275,3 +275,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 69
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 70
+
+State compression: bitmask + integer encodes a small subset cheaply.
