@@ -44,3 +44,4 @@ int number_of_1_bits(unsigned int n) {
 // note 31: Worst case appears only on degenerate inputs.
 // note 32: Euler tour flattens a tree into an array for range-query LCA.
 // note 33: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 34: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
