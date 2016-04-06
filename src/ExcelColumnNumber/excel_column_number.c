@@ -36,3 +36,4 @@ int excel_column_number(const char* s) {
 // note 19: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 20: Heap when you only need top-k; full sort is wasted work.
 // note 21: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 22: No allocations after setup.
