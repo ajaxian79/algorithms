@@ -2641,3 +2641,7 @@ Time complexity: O(n log n).
 ## entry 645
 
 Uses a small fixed-size lookup table.
+
+## entry 646
+
+Time complexity: O(n^2) worst case, O(n) amortized.
