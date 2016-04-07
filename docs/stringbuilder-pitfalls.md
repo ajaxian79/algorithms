@@ -1911,3 +1911,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 478
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 479
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
