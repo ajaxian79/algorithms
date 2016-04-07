@@ -2540,3 +2540,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 620
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 621
+
+Edge case: input with one duplicate → handled without an extra pass.
