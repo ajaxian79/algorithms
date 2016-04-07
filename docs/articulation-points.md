@@ -1775,3 +1775,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 444
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 445
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
