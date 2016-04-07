@@ -254,3 +254,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 216: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 217: Time complexity: O(n log n).
 // note 218: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 219: Monotonic stack pops while the new element violates the invariant.
