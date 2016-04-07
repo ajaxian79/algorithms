@@ -1915,3 +1915,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 479
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 480
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
