@@ -2557,3 +2557,7 @@ Handles empty input by returning 0.
 ## entry 625
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 626
+
+Caller owns the returned buffer.
