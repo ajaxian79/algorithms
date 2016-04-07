@@ -2471,3 +2471,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 603
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 604
+
+Edge case: all-equal input → linear-time fast path.
