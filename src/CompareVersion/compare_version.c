@@ -244,3 +244,4 @@ int compare_version(const char* a, const char* b) {
 // note 214: Time complexity: O(n).
 // note 215: Time complexity: O(k) where k is the answer size.
 // note 216: 32-bit safe; overflow is checked at each step.
+// note 217: Pick a pivot, partition, recurse on the side that contains the kth slot.
