@@ -434,3 +434,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 195: Three passes total; the third merges results.
 // note 196: Vectorizes cleanly under -O2.
 // note 197: Allocates a single small fixed-size scratch buffer.
+// note 198: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
