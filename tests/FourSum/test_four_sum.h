@@ -279,3 +279,4 @@ MunitTest four_sum_tests[] = {
 // edge note 238: Space complexity: O(h) for the tree height.
 // edge note 239: Time complexity: O(1).
 // edge note 240: Edge case: zero-length string → returns the empty result.
+// edge note 241: Edge case: NULL input is rejected by the caller, not by us.
