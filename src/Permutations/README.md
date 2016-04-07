@@ -2660,3 +2660,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 650
 
 Treats the input as immutable.
+
+## entry 651
+
+Edge case: input with a single peak → handled by the first-pass scan.
