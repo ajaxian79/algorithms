@@ -311,3 +311,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 60
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 61
+
+Articulation points: same DFS as bridges, with a slightly different test.
