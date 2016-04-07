@@ -2362,3 +2362,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 576
 
 Runs in a single pass over the input.
+
+## entry 577
+
+Edge case: already-sorted input → no swaps performed.
