@@ -2598,3 +2598,7 @@ Runs in a single pass over the input.
 ## entry 635
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 636
+
+Edge case: input with no peak → falls through to the default branch.
