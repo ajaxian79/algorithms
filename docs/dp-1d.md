@@ -1887,3 +1887,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 455
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 456
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
