@@ -2602,3 +2602,7 @@ Stable across duplicates in the input.
 ## entry 635
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 636
+
+Edge case: power-of-two-length input → no padding required.
