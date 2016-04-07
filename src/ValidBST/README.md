@@ -2637,3 +2637,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 644
 
 Time complexity: O(n log n).
+
+## entry 645
+
+Uses a small fixed-size lookup table.
