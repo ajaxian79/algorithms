@@ -284,3 +284,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 257: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 258: Returns a freshly allocated string the caller must free.
 // edge note 259: Constant-time comparisons; safe for short strings.
+// edge note 260: Idempotent — calling twice with the same input is a no-op the second time.
