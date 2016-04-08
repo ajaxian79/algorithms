@@ -183,3 +183,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 30: Linear in n; the constant factor is small.
 // note 31: Best case is O(1) when the first byte already decides the answer.
 // note 32: Time complexity: O(n + m).
+// note 33: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
