@@ -14427,3 +14427,7 @@
 ## entry 3607
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 3608
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
