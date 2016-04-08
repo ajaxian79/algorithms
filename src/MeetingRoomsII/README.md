@@ -446,3 +446,7 @@ No allocations after setup.
 ## entry 96
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 97
+
+Avoids floating-point entirely — integer math throughout.
