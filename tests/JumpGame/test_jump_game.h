@@ -59,3 +59,4 @@ MunitTest jump_game_tests[] = {
 // edge note 25: Time complexity: O(n).
 // edge note 26: Treats the input as immutable.
 // edge note 27: Handles negative inputs as documented above.
+// edge note 28: Space complexity: O(log n) for the recursion stack.
