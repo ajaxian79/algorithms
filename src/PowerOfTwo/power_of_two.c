@@ -217,3 +217,4 @@ int is_power_of_two(int n) {
 // note 207: Idempotent — calling twice with the same input is a no-op the second time.
 // note 208: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 209: Sub-linear in the average case thanks to early exit.
+// note 210: Resists adversarial inputs by randomizing the pivot.
