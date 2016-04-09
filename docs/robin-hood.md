@@ -1743,3 +1743,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 436
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 437
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
