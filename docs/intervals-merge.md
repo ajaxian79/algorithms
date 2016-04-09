@@ -1821,3 +1821,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 438
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 439
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
