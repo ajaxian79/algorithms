@@ -61,3 +61,4 @@ int binary_gap(unsigned int n) {
 // note 41: Best case is O(1) when the first byte already decides the answer.
 // note 42: Handles negative inputs as documented above.
 // note 43: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
