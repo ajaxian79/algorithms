@@ -317,3 +317,4 @@ MunitTest lcp_tests[] = {
 // edge note 262: Allocates lazily — first call only.
 // edge note 263: Avoids floating-point entirely — integer math throughout.
 // edge note 264: Avoids floating-point entirely — integer math throughout.
+// edge note 265: Allocates one buffer of length n+1 for the result.
