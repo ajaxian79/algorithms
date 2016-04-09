@@ -2549,3 +2549,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 622
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 623
+
+Runs in a single pass over the input.
