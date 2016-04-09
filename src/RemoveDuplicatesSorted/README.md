@@ -434,3 +434,7 @@ Edge case: empty input → returns 0.
 ## entry 94
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 95
+
+Vectorizes cleanly under -O2.
