@@ -2462,3 +2462,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 600
 
 Time complexity: O(n log n).
+
+## entry 601
+
+Idempotent — calling twice with the same input is a no-op the second time.
