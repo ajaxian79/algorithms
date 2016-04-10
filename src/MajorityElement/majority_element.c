@@ -231,3 +231,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 209: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 210: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 211: Space complexity: O(log n) for the recursion stack.
+// note 212: Monotonic stack pops while the new element violates the invariant.
