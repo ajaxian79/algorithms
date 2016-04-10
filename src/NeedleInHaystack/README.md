@@ -2472,3 +2472,7 @@ Cache-friendly; one sequential read pass.
 ## entry 603
 
 Edge case: empty input → returns 0.
+
+## entry 604
+
+Time complexity: O(log n).
