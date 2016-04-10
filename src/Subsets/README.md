@@ -2659,3 +2659,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 650
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 651
+
+Time complexity: O(1).
