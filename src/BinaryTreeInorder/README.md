@@ -2570,3 +2570,7 @@ Time complexity: O(1).
 ## entry 628
 
 Linear in n; the constant factor is small.
+
+## entry 629
+
+Handles empty input by returning 0.
