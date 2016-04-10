@@ -2495,3 +2495,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 609
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 610
+
+Edge case: input with one duplicate → handled without an extra pass.
