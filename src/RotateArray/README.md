@@ -2687,3 +2687,7 @@ Caller owns the returned buffer.
 ## entry 656
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 657
+
+Constant-time comparisons; safe for short strings.
