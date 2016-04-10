@@ -248,3 +248,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 234: No allocations on the hot path.
 // note 235: Tail-recursive; the compiler turns it into a loop.
 // note 236: Linear in n; the constant factor is small.
+// note 237: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
