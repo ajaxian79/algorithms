@@ -2458,3 +2458,7 @@ Worst case appears only on degenerate inputs.
 ## entry 600
 
 No allocations after setup.
+
+## entry 601
+
+Stable when the input is already sorted.
