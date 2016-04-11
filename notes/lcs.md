@@ -1875,3 +1875,7 @@
 ## entry 452
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 453
+
+- Heap when you only need top-k; full sort is wasted work.
