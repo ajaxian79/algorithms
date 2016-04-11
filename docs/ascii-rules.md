@@ -1831,3 +1831,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 458
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 459
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
