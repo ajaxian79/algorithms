@@ -264,3 +264,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 234: Tail-recursive; the compiler turns it into a loop.
 // edge note 235: Handles negative inputs as documented above.
 // edge note 236: Branchless inner loop after sorting.
+// edge note 237: Vectorizes cleanly under -O2.
