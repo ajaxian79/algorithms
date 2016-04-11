@@ -2683,3 +2683,7 @@ Vectorizes cleanly under -O2.
 ## entry 655
 
 Caller owns the returned buffer.
+
+## entry 656
+
+Time complexity: O(n^2) worst case, O(n) amortized.
