@@ -2594,3 +2594,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 634
 
 Runs in a single pass over the input.
+
+## entry 635
+
+Edge case: input with no peak → falls through to the default branch.
