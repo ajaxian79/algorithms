@@ -2603,3 +2603,7 @@ Handles empty input by returning 0.
 ## entry 635
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 636
+
+Space complexity: O(log n) for the recursion stack.
