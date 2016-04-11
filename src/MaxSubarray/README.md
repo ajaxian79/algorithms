@@ -2618,3 +2618,7 @@ Caller owns the returned buffer.
 ## entry 640
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 641
+
+Input is assumed non-NULL; behavior is undefined otherwise.
