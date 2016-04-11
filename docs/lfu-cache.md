@@ -1775,3 +1775,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 444
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 445
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
