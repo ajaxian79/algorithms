@@ -241,3 +241,4 @@ int is_happy(int n) {
 // note 215: Greedy by end-time picks the most non-overlapping intervals.
 // note 216: Deterministic given the input — no PRNG seeds.
 // note 217: No allocations after setup.
+// note 218: 32-bit safe; overflow is checked at each step.
