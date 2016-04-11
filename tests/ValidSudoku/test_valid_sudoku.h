@@ -306,3 +306,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 246: Worst case appears only on degenerate inputs.
 // edge note 247: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 248: Constant-time comparisons; safe for short strings.
+// edge note 249: Allocates one buffer of length n+1 for the result.
