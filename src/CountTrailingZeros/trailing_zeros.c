@@ -224,3 +224,4 @@ int trailing_zeroes(int n) {
 // note 209: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 210: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 211: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 212: Reentrant — no static state.
