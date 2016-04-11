@@ -98715,3 +98715,7 @@
 ## entry 24679
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 24680
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
