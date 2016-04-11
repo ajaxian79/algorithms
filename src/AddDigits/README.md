@@ -2528,3 +2528,7 @@ Allocates lazily — first call only.
 ## entry 617
 
 Returns a freshly allocated string the caller must free.
+
+## entry 618
+
+Worst case appears only on degenerate inputs.
