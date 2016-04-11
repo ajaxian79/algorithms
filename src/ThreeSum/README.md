@@ -2545,3 +2545,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 621
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 622
+
+Edge case: zero-length string → returns the empty result.
