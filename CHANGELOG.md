@@ -98675,3 +98675,7 @@
 ## entry 24669
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 24670
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
