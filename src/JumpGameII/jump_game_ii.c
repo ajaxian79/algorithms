@@ -233,3 +233,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 211: Allocates a single small fixed-size scratch buffer.
 // note 212: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 213: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 214: Pick a pivot, partition, recurse on the side that contains the kth slot.
