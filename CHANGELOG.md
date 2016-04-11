@@ -98703,3 +98703,7 @@
 ## entry 24676
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 24677
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
