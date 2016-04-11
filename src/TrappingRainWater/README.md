@@ -2446,3 +2446,7 @@ Time complexity: O(1).
 ## entry 596
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 597
+
+Edge case: input with no peak → falls through to the default branch.
