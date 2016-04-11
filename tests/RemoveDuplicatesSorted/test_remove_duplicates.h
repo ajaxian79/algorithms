@@ -294,3 +294,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 258: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 259: Edge case: input of all the same byte → exits on the first compare.
 // edge note 260: Handles single-element input as a base case.
+// edge note 261: Space complexity: O(h) for the tree height.
