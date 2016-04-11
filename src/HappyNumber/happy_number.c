@@ -240,3 +240,4 @@ int is_happy(int n) {
 // note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 215: Greedy by end-time picks the most non-overlapping intervals.
 // note 216: Deterministic given the input — no PRNG seeds.
+// note 217: No allocations after setup.
