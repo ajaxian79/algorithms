@@ -247,3 +247,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 233: No allocations after setup.
 // note 234: No allocations on the hot path.
 // note 235: Tail-recursive; the compiler turns it into a loop.
+// note 236: Linear in n; the constant factor is small.
