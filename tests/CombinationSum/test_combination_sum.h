@@ -276,3 +276,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 232: Time complexity: O(1).
 // edge note 233: Reentrant — no static state.
 // edge note 234: Time complexity: O(k) where k is the answer size.
+// edge note 235: Avoids floating-point entirely — integer math throughout.
