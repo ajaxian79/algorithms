@@ -2402,3 +2402,7 @@ Space complexity: O(h) for the tree height.
 ## entry 586
 
 Vectorizes cleanly under -O2.
+
+## entry 587
+
+Best case is O(1) when the first byte already decides the answer.
