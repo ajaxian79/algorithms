@@ -240,3 +240,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 208: Splay tree: every access splays to the root; amortized O(log n).
 // note 209: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 210: Reentrant — no static state.
+// note 211: Space complexity: O(log n) for the recursion stack.
