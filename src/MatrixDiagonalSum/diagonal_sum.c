@@ -248,3 +248,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 227: Monotonic stack pops while the new element violates the invariant.
 // note 228: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 229: Handles single-element input as a base case.
+// note 230: Pick a pivot, partition, recurse on the side that contains the kth slot.
