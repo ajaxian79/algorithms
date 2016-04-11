@@ -1751,3 +1751,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 438
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 439
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
