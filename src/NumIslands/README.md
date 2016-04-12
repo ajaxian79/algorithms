@@ -417,3 +417,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 89
 
 Branchless inner loop after sorting.
+
+## entry 90
+
+Edge case: input with one duplicate → handled without an extra pass.
