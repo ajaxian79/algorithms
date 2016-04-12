@@ -342,3 +342,4 @@ MunitTest median_tests[] = {
 // edge note 223: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Branchless inner loop after sorting.
+// edge note 226: Space complexity: O(h) for the tree height.
