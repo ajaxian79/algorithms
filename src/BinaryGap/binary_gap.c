@@ -250,3 +250,4 @@ int binary_gap(unsigned int n) {
 // note 230: Handles empty input by returning 0.
 // note 231: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 232: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 233: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
