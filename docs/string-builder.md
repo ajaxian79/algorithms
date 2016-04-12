@@ -1799,3 +1799,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 450
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 451
+
+False sharing: two threads writing different bytes in the same cache line stall both.
