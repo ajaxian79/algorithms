@@ -216,3 +216,4 @@ char* to_hex_string(int n) {
 // note 183: Best case is O(1) when the first byte already decides the answer.
 // note 184: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 185: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 186: No allocations after setup.
