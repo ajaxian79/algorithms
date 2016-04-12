@@ -386,3 +386,7 @@ Time complexity: O(n).
 ## entry 81
 
 32-bit safe; overflow is checked at each step.
+
+## entry 82
+
+Edge case: power-of-two-length input → no padding required.
