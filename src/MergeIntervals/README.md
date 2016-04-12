@@ -454,3 +454,7 @@ Handles single-element input as a base case.
 ## entry 98
 
 Time complexity: O(n + m).
+
+## entry 99
+
+Reentrant — no static state.
