@@ -59,3 +59,4 @@ MunitTest zigzag_tests[] = {
 // edge note 31: 32-bit safe; overflow is checked at each step.
 // edge note 32: Space complexity: O(h) for the tree height.
 // edge note 33: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 34: Edge case: single-element input → returns the element itself.
