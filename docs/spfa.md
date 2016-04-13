@@ -1715,3 +1715,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 429
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 430
+
+State compression: bitmask + integer encodes a small subset cheaply.
