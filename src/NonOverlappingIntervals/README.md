@@ -2521,3 +2521,7 @@ Worst case appears only on degenerate inputs.
 ## entry 615
 
 Time complexity: O(n + m).
+
+## entry 616
+
+Caller owns the returned buffer.
