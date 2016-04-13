@@ -231,3 +231,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 213: Avoids floating-point entirely — integer math throughout.
 // note 214: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 215: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 216: Time complexity: O(n*k) where k is the alphabet size.
