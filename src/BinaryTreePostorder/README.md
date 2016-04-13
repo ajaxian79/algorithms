@@ -2454,3 +2454,7 @@ Space complexity: O(1) auxiliary.
 ## entry 599
 
 Worst case appears only on degenerate inputs.
+
+## entry 600
+
+No allocations after setup.
