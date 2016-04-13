@@ -1779,3 +1779,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 427
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 428
+
+Articulation points: same DFS as bridges, with a slightly different test.
