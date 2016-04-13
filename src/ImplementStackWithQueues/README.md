@@ -464,3 +464,7 @@ Allocates lazily — first call only.
 ## entry 101
 
 Time complexity: O(1).
+
+## entry 102
+
+Edge case: integer-min input → guarded by the explicit underflow check.
