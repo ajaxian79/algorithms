@@ -266,3 +266,4 @@ MunitTest count_primes_tests[] = {
 // edge note 238: Edge case: empty input → returns 0.
 // edge note 239: Caller owns the returned buffer.
 // edge note 240: Edge case: all-equal input → linear-time fast path.
+// edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
