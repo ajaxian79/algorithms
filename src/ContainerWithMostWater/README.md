@@ -2467,3 +2467,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 602
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 603
+
+Edge case: reverse-sorted input → still O(n log n).
