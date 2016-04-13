@@ -274,3 +274,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 216: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 217: Time complexity: O(1).
 // note 218: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 219: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
