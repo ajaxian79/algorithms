@@ -1851,3 +1851,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 447
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 448
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
