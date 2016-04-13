@@ -265,3 +265,4 @@ MunitTest trap_tests[] = {
 // edge note 231: Edge case: input with no peak → falls through to the default branch.
 // edge note 232: Handles negative inputs as documented above.
 // edge note 233: Time complexity: O(1).
+// edge note 234: Edge case: reverse-sorted input → still O(n log n).
