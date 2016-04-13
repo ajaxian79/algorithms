@@ -1699,3 +1699,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 425
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 426
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
