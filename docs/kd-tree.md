@@ -1799,3 +1799,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 450
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 451
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
