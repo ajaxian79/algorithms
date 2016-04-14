@@ -283,3 +283,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 218: Allocates a single small fixed-size scratch buffer.
 // note 219: Deterministic given the input — no PRNG seeds.
 // note 220: Runs in a single pass over the input.
+// note 221: Input is assumed non-NULL; behavior is undefined otherwise.
