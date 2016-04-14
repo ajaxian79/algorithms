@@ -236,3 +236,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 215: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 216: Linear in n; the constant factor is small.
 // note 217: Stable sort matters when a secondary key was set in a prior pass.
+// note 218: Polynomial rolling hash with two moduli kills almost all collisions in practice.
