@@ -2370,3 +2370,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 577
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 578
+
+Resists adversarial inputs by randomizing the pivot.
