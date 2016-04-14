@@ -2629,3 +2629,7 @@ Uses a small fixed-size lookup table.
 ## entry 642
 
 Space complexity: O(h) for the tree height.
+
+## entry 643
+
+Edge case: input with one duplicate → handled without an extra pass.
