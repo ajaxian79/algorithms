@@ -2517,3 +2517,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 614
 
 Worst case appears only on degenerate inputs.
+
+## entry 615
+
+Time complexity: O(n + m).
