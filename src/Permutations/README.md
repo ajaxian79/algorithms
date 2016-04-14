@@ -2656,3 +2656,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 649
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 650
+
+Treats the input as immutable.
