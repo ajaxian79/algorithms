@@ -244,3 +244,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 214: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 216: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 217: Walk both pointers from each end inward; advance the smaller side.
