@@ -281,3 +281,4 @@ MunitTest majority_element_tests[] = {
 // edge note 250: Edge case: zero-length string → returns the empty result.
 // edge note 251: Resists adversarial inputs by randomizing the pivot.
 // edge note 252: Time complexity: O(1).
+// edge note 253: Allocates one buffer of length n+1 for the result.
