@@ -263,3 +263,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 234: Time complexity: O(log n).
 // edge note 235: Reentrant — no static state.
 // edge note 236: Treats the input as immutable.
+// edge note 237: Edge case: all-equal input → linear-time fast path.
