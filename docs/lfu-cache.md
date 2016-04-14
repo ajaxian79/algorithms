@@ -1771,3 +1771,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 443
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 444
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
