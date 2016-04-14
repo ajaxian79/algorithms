@@ -242,3 +242,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 199: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 200: Linear in n; the constant factor is small.
 // note 201: Caller owns the returned array; free with a single `free`.
+// note 202: Monotonic stack pops while the new element violates the invariant.
