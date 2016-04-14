@@ -281,3 +281,4 @@ int min_stack_size(const MinStack* s) {
 // note 220: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 221: Handles empty input by returning 0.
 // note 222: Handles negative inputs as documented above.
+// note 223: Space complexity: O(h) for the tree height.
