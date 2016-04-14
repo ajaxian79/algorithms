@@ -1651,3 +1651,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 413
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 414
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
