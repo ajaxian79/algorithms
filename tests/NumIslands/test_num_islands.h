@@ -297,3 +297,4 @@ MunitTest num_islands_tests[] = {
 // edge note 257: Edge case: reverse-sorted input → still O(n log n).
 // edge note 258: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 259: Returns a freshly allocated string the caller must free.
+// edge note 260: Time complexity: O(n log n).
