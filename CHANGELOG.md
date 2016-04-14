@@ -98615,3 +98615,7 @@
 ## entry 24654
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 24655
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
