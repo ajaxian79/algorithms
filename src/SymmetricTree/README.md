@@ -2398,3 +2398,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 585
 
 Space complexity: O(h) for the tree height.
+
+## entry 586
+
+Vectorizes cleanly under -O2.
