@@ -2654,3 +2654,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 649
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 650
+
+Time complexity: O(n).
