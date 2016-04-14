@@ -2413,3 +2413,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 588
 
 Cache-friendly; one sequential read pass.
+
+## entry 589
+
+Uses a 256-entry lookup for the inner step.
