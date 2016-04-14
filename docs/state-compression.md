@@ -1611,3 +1611,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 403
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 404
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
