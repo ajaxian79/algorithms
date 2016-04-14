@@ -1947,3 +1947,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 470
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 471
+
+Stable sort matters when a secondary key was set in a prior pass.
