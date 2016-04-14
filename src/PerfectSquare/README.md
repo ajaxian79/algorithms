@@ -2586,3 +2586,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 632
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 633
+
+Time complexity: O(k) where k is the answer size.
