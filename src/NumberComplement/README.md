@@ -2588,3 +2588,7 @@ Space complexity: O(h) for the tree height.
 ## entry 631
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 632
+
+Edge case: input with a single peak → handled by the first-pass scan.
