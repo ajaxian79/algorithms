@@ -2476,3 +2476,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 604
 
 Reentrant — no static state.
+
+## entry 605
+
+Handles negative inputs as documented above.
