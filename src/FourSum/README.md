@@ -2480,3 +2480,7 @@ Reentrant — no static state.
 ## entry 605
 
 Handles negative inputs as documented above.
+
+## entry 606
+
+Two passes: one to count, one to fill.
