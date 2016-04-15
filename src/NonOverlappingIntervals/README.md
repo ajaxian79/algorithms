@@ -2513,3 +2513,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 613
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 614
+
+Worst case appears only on degenerate inputs.
