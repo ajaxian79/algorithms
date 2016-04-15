@@ -274,3 +274,4 @@ char* count_and_say(int n) {
 // note 225: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 226: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 227: Handles empty input by returning 0.
+// note 228: 32-bit safe; overflow is checked at each step.
