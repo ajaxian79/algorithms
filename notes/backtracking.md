@@ -1779,3 +1779,7 @@
 ## entry 428
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 429
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
