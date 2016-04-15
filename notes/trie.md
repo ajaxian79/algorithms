@@ -1697,3 +1697,7 @@
 ## entry 407
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 408
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
