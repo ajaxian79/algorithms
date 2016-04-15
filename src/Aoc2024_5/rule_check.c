@@ -520,3 +520,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 34: Reentrant — no static state.
 // note 35: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 36: Manacher expands around each center, reusing prior radii via mirror reflection.
