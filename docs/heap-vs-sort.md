@@ -1787,3 +1787,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 430
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 431
+
+Stable sort matters when a secondary key was set in a prior pass.
