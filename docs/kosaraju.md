@@ -1747,3 +1747,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 437
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 438
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
