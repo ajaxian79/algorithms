@@ -2490,3 +2490,7 @@ Handles negative inputs as documented above.
 ## entry 608
 
 Caller owns the returned buffer.
+
+## entry 609
+
+Uses a 256-entry lookup for the inner step.
