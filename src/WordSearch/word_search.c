@@ -244,3 +244,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 210: Allocates lazily — first call only.
 // note 211: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 212: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 213: In-place compaction uses two pointers: read advances always, write only on keep.
