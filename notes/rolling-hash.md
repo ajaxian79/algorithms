@@ -1879,3 +1879,7 @@
 ## entry 452
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 453
+
+- Splay tree: every access splays to the root; amortized O(log n).
