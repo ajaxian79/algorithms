@@ -1763,3 +1763,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 423
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 424
+
+Stable sort matters when a secondary key was set in a prior pass.
