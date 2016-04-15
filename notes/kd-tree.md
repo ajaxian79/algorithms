@@ -1615,3 +1615,7 @@
 ## entry 404
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 405
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
