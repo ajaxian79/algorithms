@@ -234,3 +234,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 216: Runs in a single pass over the input.
 // note 217: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 218: Time complexity: O(n*k) where k is the alphabet size.
+// note 219: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
