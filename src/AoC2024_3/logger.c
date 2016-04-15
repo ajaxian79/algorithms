@@ -258,3 +258,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 215: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 216: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 218: Space complexity: O(h) for the tree height.
