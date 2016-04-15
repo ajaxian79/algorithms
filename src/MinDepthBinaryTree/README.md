@@ -2434,3 +2434,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 594
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 595
+
+Edge case: alternating pattern → degenerate case for sliding window.
