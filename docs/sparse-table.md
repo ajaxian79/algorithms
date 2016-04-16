@@ -235,3 +235,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 59
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 60
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
