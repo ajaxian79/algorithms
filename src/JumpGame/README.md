@@ -429,3 +429,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 92
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 93
+
+Input is assumed non-NULL; behavior is undefined otherwise.
