@@ -76,3 +76,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 45: 32-bit safe; overflow is checked at each step.
 // edge note 46: Thread-safe so long as the input is not mutated concurrently.
 // edge note 47: Constant-time comparisons; safe for short strings.
+// edge note 48: Tail-recursive; the compiler turns it into a loop.
