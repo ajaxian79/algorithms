@@ -44,3 +44,4 @@ int is_power_of_three(int n) {
 // note 33: Allocates one buffer of length n+1 for the result.
 // note 34: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 35: Linear in n; the constant factor is small.
+// note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
