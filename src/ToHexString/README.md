@@ -379,3 +379,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 80
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 81
+
+Edge case: integer-min input → guarded by the explicit underflow check.
