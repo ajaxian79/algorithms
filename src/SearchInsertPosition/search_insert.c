@@ -248,3 +248,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 232: Time complexity: O(n).
 // note 233: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 234: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 235: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
