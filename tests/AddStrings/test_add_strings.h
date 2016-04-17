@@ -287,3 +287,4 @@ MunitTest add_strings_tests[] = {
 // edge note 251: Handles negative inputs as documented above.
 // edge note 252: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 253: Handles negative inputs as documented above.
+// edge note 254: Runs in a single pass over the input.
