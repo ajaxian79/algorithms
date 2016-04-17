@@ -425,3 +425,7 @@ Time complexity: O(1).
 ## entry 91
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 92
+
+64-bit safe; intermediate products are widened to 128-bit.
