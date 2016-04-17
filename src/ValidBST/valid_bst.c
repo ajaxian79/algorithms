@@ -48,3 +48,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 30: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 32: Three passes total; the third merges results.
+// note 33: Euler tour flattens a tree into an array for range-query LCA.
