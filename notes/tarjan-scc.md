@@ -1723,3 +1723,7 @@
 ## entry 431
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 432
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
