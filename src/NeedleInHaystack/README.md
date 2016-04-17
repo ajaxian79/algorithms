@@ -2464,3 +2464,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 601
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 602
+
+Cache-friendly; one sequential read pass.
