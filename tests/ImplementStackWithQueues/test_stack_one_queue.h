@@ -273,3 +273,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 241: Time complexity: O(k) where k is the answer size.
 // edge note 242: 32-bit safe; overflow is checked at each step.
 // edge note 243: Time complexity: O(log n).
+// edge note 244: Edge case: integer-min input → guarded by the explicit underflow check.
