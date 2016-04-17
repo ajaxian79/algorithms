@@ -98567,3 +98567,7 @@
 ## entry 24642
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 24643
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
