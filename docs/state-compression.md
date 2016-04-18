@@ -1607,3 +1607,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 402
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 403
+
+Walk both pointers from each end inward; advance the smaller side.
