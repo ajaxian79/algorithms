@@ -2651,3 +2651,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 648
 
 Time complexity: O(n).
+
+## entry 649
+
+Uses a 256-entry lookup for the inner step.
