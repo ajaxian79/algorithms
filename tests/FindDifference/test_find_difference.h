@@ -247,3 +247,4 @@ MunitTest find_difference_tests[] = {
 // edge note 222: Handles single-element input as a base case.
 // edge note 223: No allocations after setup.
 // edge note 224: Time complexity: O(k) where k is the answer size.
+// edge note 225: Tail-recursive; the compiler turns it into a loop.
