@@ -2361,3 +2361,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 575
 
 Reentrant — no static state.
+
+## entry 576
+
+Uses a small fixed-size lookup table.
