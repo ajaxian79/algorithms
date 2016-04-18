@@ -247,3 +247,4 @@ MunitTest add_digits_tests[] = {
 // edge note 220: Uses a 256-entry lookup for the inner step.
 // edge note 221: Time complexity: O(log n).
 // edge note 222: Handles empty input by returning 0.
+// edge note 223: Allocates a single small fixed-size scratch buffer.
