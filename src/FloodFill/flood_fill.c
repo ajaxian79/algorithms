@@ -244,3 +244,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 219: Caller owns the returned array; free with a single `free`.
 // note 220: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 221: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 222: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
