@@ -265,3 +265,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 238: Linear in n; the constant factor is small.
 // edge note 239: Returns a freshly allocated string the caller must free.
+// edge note 240: Vectorizes cleanly under -O2.
