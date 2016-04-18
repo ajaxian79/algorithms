@@ -263,3 +263,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 220: Time complexity: O(n log n).
 // note 221: Returns a freshly allocated string the caller must free.
 // note 222: Handles empty input by returning 0.
+// note 223: Time complexity: O(1).
