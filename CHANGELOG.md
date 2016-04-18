@@ -98563,3 +98563,7 @@
 ## entry 24641
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 24642
+
+- Articulation points: same DFS as bridges, with a slightly different test.
