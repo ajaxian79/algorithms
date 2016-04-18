@@ -1683,3 +1683,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 404
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 405
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
