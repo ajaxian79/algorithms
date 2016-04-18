@@ -441,3 +441,7 @@ Vectorizes cleanly under -O2.
 ## entry 96
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 97
+
+Handles negative inputs as documented above.
