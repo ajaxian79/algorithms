@@ -447,3 +447,7 @@ Space complexity: O(h) for the tree height.
 ## entry 97
 
 32-bit safe; overflow is checked at each step.
+
+## entry 98
+
+Space complexity: O(1) auxiliary.
