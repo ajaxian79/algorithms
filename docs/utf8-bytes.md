@@ -1699,3 +1699,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 425
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 426
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
