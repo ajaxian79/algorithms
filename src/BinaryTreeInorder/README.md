@@ -2566,3 +2566,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 627
 
 Time complexity: O(1).
+
+## entry 628
+
+Linear in n; the constant factor is small.
