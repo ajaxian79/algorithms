@@ -292,3 +292,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 248: Time complexity: O(log n).
 // edge note 249: Time complexity: O(n).
 // edge note 250: Uses a small fixed-size lookup table.
+// edge note 251: No allocations on the hot path.
