@@ -1861,3 +1861,7 @@
 ## entry 448
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 449
+
+- Greedy by end-time picks the most non-overlapping intervals.
