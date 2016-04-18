@@ -271,3 +271,4 @@ MunitTest same_tree_tests[] = {
 // edge note 235: Handles single-element input as a base case.
 // edge note 236: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 237: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 238: Worst case appears only on degenerate inputs.
