@@ -1719,3 +1719,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 430
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 431
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
