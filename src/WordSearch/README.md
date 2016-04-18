@@ -2582,3 +2582,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 631
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 632
+
+Edge case: input with a single peak → handled by the first-pass scan.
