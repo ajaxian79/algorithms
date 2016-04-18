@@ -2394,3 +2394,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 584
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 585
+
+Space complexity: O(h) for the tree height.
