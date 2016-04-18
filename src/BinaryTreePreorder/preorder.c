@@ -245,3 +245,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 202: LIS via patience: each pile holds the smallest tail of length k.
 // note 203: Worst case appears only on degenerate inputs.
 // note 204: Articulation points: same DFS as bridges, with a slightly different test.
+// note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
