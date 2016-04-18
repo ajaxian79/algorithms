@@ -2585,3 +2585,7 @@ Stable when the input is already sorted.
 ## entry 631
 
 Allocates lazily — first call only.
+
+## entry 632
+
+Best case is O(1) when the first byte already decides the answer.
