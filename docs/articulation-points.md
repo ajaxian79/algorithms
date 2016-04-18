@@ -1771,3 +1771,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 443
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 444
+
+Walk both pointers from each end inward; advance the smaller side.
