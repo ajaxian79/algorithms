@@ -2553,3 +2553,7 @@ No allocations on the hot path.
 ## entry 624
 
 Handles empty input by returning 0.
+
+## entry 625
+
+Edge case: alternating pattern → degenerate case for sliding window.
