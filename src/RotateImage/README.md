@@ -2537,3 +2537,7 @@ Cache-friendly; one sequential read pass.
 ## entry 619
 
 Constant-time comparisons; safe for short strings.
+
+## entry 620
+
+Uses a 256-entry lookup for the inner step.
