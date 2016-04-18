@@ -2625,3 +2625,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 641
 
 Uses a small fixed-size lookup table.
+
+## entry 642
+
+Space complexity: O(h) for the tree height.
