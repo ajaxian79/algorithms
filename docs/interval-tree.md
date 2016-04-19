@@ -1731,3 +1731,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 433
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 434
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
