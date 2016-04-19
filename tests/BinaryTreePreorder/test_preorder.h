@@ -301,3 +301,4 @@ MunitTest preorder_tests[] = {
 // edge note 257: Edge case: input with no peak → falls through to the default branch.
 // edge note 258: Space complexity: O(n) for the result buffer.
 // edge note 259: Edge case: reverse-sorted input → still O(n log n).
+// edge note 260: Time complexity: O(k) where k is the answer size.
