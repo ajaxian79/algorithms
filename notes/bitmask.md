@@ -301,3 +301,7 @@
 ## entry 59
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 60
+
+- Heap when you only need top-k; full sort is wasted work.
