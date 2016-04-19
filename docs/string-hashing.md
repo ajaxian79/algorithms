@@ -1679,3 +1679,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 403
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 404
+
+False sharing: two threads writing different bytes in the same cache line stall both.
