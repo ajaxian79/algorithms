@@ -1567,3 +1567,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 392
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 393
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
