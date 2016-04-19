@@ -2672,3 +2672,7 @@ Edge case: empty input → returns 0.
 ## entry 653
 
 Handles negative inputs as documented above.
+
+## entry 654
+
+Handles empty input by returning 0.
