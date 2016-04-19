@@ -98503,3 +98503,7 @@
 ## entry 24626
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 24627
+
+- Articulation points: same DFS as bridges, with a slightly different test.
