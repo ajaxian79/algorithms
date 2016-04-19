@@ -332,3 +332,4 @@ int get_next_result(Program* program) {
 // note 218: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 219: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 220: Space complexity: O(n) for the result buffer.
+// note 221: Tree DP: post-order DFS lets children inform the parent in one pass.
