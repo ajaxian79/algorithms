@@ -419,3 +419,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 90
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 91
+
+Treats the input as immutable.
