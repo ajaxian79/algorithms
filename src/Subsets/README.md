@@ -2647,3 +2647,7 @@ Stable when the input is already sorted.
 ## entry 647
 
 Returns a freshly allocated string the caller must free.
+
+## entry 648
+
+Time complexity: O(n).
