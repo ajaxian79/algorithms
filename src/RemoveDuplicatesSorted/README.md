@@ -2718,3 +2718,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 665
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 666
+
+32-bit safe; overflow is checked at each step.
