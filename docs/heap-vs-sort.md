@@ -1783,3 +1783,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 429
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 430
+
+Endianness matters when serializing multi-byte ints to a file or wire.
