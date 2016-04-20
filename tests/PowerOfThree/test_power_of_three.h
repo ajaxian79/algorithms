@@ -261,3 +261,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 230: Vectorizes cleanly under -O2.
 // edge note 231: Resists adversarial inputs by randomizing the pivot.
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
+// edge note 233: Best case is O(1) when the first byte already decides the answer.
