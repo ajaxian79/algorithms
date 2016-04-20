@@ -228,3 +228,4 @@ int is_power_of_three(int n) {
 // note 217: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 218: Wavelet tree: range k-th element in O(log Σ) time.
 // note 219: Space complexity: O(1) auxiliary.
+// note 220: Mutates the input in place; the original ordering is lost.
