@@ -255,3 +255,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Uses a 256-entry lookup for the inner step.
 // note 213: Space complexity: O(1) auxiliary.
+// note 214: Rope: tree of small string fragments; O(log n) concat and substring.
