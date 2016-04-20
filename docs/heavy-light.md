@@ -1855,3 +1855,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 464
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 465
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
