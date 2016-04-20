@@ -1829,3 +1829,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 443
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 444
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
