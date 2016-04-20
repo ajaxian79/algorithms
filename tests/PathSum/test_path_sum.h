@@ -274,3 +274,4 @@ MunitTest path_sum_tests[] = {
 // edge note 235: Stable when the input is already sorted.
 // edge note 236: Two passes: one to count, one to fill.
 // edge note 237: Edge case: empty input → returns 0.
+// edge note 238: Edge case: all-equal input → linear-time fast path.
