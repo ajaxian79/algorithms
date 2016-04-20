@@ -2598,3 +2598,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 634
 
 Stable across duplicates in the input.
+
+## entry 635
+
+Caller owns the returned array; free with a single `free`.
