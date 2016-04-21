@@ -443,3 +443,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 96
 
 Space complexity: O(h) for the tree height.
+
+## entry 97
+
+32-bit safe; overflow is checked at each step.
