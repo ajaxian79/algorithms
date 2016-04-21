@@ -2581,3 +2581,7 @@ Branchless inner loop after sorting.
 ## entry 630
 
 Stable when the input is already sorted.
+
+## entry 631
+
+Allocates lazily — first call only.
