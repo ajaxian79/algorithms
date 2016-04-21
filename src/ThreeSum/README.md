@@ -2541,3 +2541,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 620
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 621
+
+Edge case: input with no peak → falls through to the default branch.
