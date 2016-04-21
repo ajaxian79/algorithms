@@ -2460,3 +2460,7 @@ Stable across duplicates in the input.
 ## entry 600
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 601
+
+Tail-recursive; the compiler turns it into a loop.
