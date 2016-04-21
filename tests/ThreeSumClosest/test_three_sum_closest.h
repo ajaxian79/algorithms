@@ -66,3 +66,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 38: Handles negative inputs as documented above.
 // edge note 39: Time complexity: O(n).
 // edge note 40: Linear in n; the constant factor is small.
+// edge note 41: Edge case: empty input → returns 0.
