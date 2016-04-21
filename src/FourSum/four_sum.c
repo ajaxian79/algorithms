@@ -279,3 +279,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 220: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 221: Returns a freshly allocated string the caller must free.
 // note 222: Stable sort matters when a secondary key was set in a prior pass.
+// note 223: Fenwick supports prefix-sum updates in O(log n) with a flat array.
