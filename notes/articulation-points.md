@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 461
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
