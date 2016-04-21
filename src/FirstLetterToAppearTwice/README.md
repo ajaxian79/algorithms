@@ -2314,3 +2314,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 554
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 555
+
+Edge case: input of all the same byte → exits on the first compare.
