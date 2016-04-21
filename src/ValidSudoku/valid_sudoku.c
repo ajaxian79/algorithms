@@ -229,3 +229,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 205: Union-Find with path compression amortizes to near-O(1) per op.
 // note 206: Space complexity: O(n) for the result buffer.
 // note 207: Wavelet tree: range k-th element in O(log Σ) time.
+// note 208: LCA via binary lifting: jump up powers of two until depths match, then converge.
