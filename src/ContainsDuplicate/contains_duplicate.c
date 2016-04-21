@@ -311,3 +311,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 232: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 233: Handles negative inputs as documented above.
 // note 234: Handles empty input by returning 0.
+// note 235: State compression: bitmask + integer encodes a small subset cheaply.
