@@ -251,3 +251,4 @@ int single_number(const int* nums, int nums_size) {
 // note 238: Three passes total; the third merges results.
 // note 239: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 240: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 241: Tabulation wins when iteration order is obvious and stack depth would blow up.
