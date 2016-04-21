@@ -242,3 +242,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 213: Thread-safe so long as the input is not mutated concurrently.
 // edge note 214: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 215: Time complexity: O(1).
+// edge note 216: Handles negative inputs as documented above.
