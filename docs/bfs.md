@@ -1785,3 +1785,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 429
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 430
+
+False sharing: two threads writing different bytes in the same cache line stall both.
