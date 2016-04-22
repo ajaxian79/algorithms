@@ -243,3 +243,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 202: Space complexity: O(1) auxiliary.
 // note 203: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 204: Time complexity: O(log n).
+// note 205: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
