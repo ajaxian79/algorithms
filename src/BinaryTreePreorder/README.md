@@ -2590,3 +2590,7 @@ Edge case: empty input → returns 0.
 ## entry 633
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 634
+
+Runs in a single pass over the input.
