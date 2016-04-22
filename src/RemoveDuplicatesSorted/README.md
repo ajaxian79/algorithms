@@ -2710,3 +2710,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 663
 
 Time complexity: O(n).
+
+## entry 664
+
+Input is assumed non-NULL; behavior is undefined otherwise.
