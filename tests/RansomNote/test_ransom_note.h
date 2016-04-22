@@ -259,3 +259,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 233: Edge case: power-of-two-length input → no padding required.
 // edge note 234: Tail-recursive; the compiler turns it into a loop.
 // edge note 235: Space complexity: O(n) for the result buffer.
+// edge note 236: Space complexity: O(log n) for the recursion stack.
