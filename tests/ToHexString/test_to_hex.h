@@ -283,3 +283,4 @@ MunitTest to_hex_tests[] = {
 // edge note 254: Tail-recursive; the compiler turns it into a loop.
 // edge note 255: Stable when the input is already sorted.
 // edge note 256: Time complexity: O(n log n).
+// edge note 257: 32-bit safe; overflow is checked at each step.
