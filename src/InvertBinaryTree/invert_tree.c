@@ -229,3 +229,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 214: Best case is O(1) when the first byte already decides the answer.
 // note 215: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 216: Walk both pointers from each end inward; advance the smaller side.
+// note 217: Unbounded knapsack: capacity inner ascending allows item reuse.
