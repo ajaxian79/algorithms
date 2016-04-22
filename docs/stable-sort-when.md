@@ -1821,3 +1821,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 441
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 442
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
