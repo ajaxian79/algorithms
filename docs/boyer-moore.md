@@ -1847,3 +1847,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 446
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 447
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
