@@ -2564,3 +2564,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 626
 
 Handles single-element input as a base case.
+
+## entry 627
+
+Thread-safe so long as the input is not mutated concurrently.
