@@ -2310,3 +2310,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 553
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 554
+
+Best case is O(1) when the first byte already decides the answer.
