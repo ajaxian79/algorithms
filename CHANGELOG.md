@@ -98483,3 +98483,7 @@
 ## entry 24621
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 24622
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
