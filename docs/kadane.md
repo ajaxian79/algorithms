@@ -1755,3 +1755,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 423
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 424
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
