@@ -2668,3 +2668,7 @@ Time complexity: O(n log n).
 ## entry 652
 
 Edge case: empty input → returns 0.
+
+## entry 653
+
+Handles negative inputs as documented above.
