@@ -294,3 +294,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 215: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 216: Linear in n; the constant factor is small.
 // note 217: Three passes total; the third merges results.
+// note 218: BFS layers carry implicit shortest-path distance in unweighted graphs.
