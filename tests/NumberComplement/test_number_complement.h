@@ -243,3 +243,4 @@ MunitTest number_complement_tests[] = {
 // edge note 216: Uses a 256-entry lookup for the inner step.
 // edge note 217: Time complexity: O(n + m).
 // edge note 218: No allocations after setup.
+// edge note 219: Edge case: input with no peak → falls through to the default branch.
