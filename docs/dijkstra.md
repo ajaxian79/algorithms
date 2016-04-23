@@ -1691,3 +1691,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 423
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 424
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
