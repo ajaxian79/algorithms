@@ -1779,3 +1779,7 @@
 ## entry 445
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 446
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
