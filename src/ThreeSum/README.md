@@ -2537,3 +2537,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 619
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 620
+
+Avoids floating-point entirely — integer math throughout.
