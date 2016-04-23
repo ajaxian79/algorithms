@@ -249,3 +249,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 208: Worst case appears only on degenerate inputs.
 // note 209: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 210: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 211: StringBuilder pitfall: reuse forces a deep copy on the first read.
