@@ -444,3 +444,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 97
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 98
+
+Deterministic given the input — no PRNG seeds.
