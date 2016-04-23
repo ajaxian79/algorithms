@@ -1841,3 +1841,7 @@
 ## entry 445
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 446
+
+- Walk both pointers from each end inward; advance the smaller side.
