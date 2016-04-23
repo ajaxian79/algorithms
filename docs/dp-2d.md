@@ -1791,3 +1791,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 432
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 433
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
