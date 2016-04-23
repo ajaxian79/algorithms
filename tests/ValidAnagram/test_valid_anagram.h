@@ -283,3 +283,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 258: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 259: Time complexity: O(n log n).
 // edge note 260: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 261: Input is assumed non-NULL; behavior is undefined otherwise.
