@@ -1845,3 +1845,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 445
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 446
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
