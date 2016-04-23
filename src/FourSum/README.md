@@ -2456,3 +2456,7 @@ Linear in n; the constant factor is small.
 ## entry 599
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 600
+
+Thread-safe so long as the input is not mutated concurrently.
