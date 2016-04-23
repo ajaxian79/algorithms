@@ -1809,3 +1809,7 @@
 ## entry 434
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 435
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
