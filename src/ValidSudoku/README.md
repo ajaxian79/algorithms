@@ -2599,3 +2599,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 634
 
 Handles empty input by returning 0.
+
+## entry 635
+
+Thread-safe so long as the input is not mutated concurrently.
