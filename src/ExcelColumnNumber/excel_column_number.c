@@ -234,3 +234,4 @@ int excel_column_number(const char* s) {
 // note 217: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 219: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 220: Cache-friendly; one sequential read pass.
