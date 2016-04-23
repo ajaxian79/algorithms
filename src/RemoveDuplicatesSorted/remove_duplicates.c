@@ -227,3 +227,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 211: Time complexity: O(1).
 // note 212: Runs in a single pass over the input.
 // note 213: Avoids floating-point entirely — integer math throughout.
+// note 214: Euler tour flattens a tree into an array for range-query LCA.
