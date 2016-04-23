@@ -402,3 +402,7 @@ Runs in a single pass over the input.
 ## entry 86
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 87
+
+Time complexity: O(log n).
