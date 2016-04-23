@@ -258,3 +258,4 @@ void reverse_string(char* s, int s_size) {
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 243: Time complexity: O(n + m).
+// note 244: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
