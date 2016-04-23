@@ -250,3 +250,4 @@ int first_unique_char(const char* s) {
 // note 231: Stable sort matters when a secondary key was set in a prior pass.
 // note 232: Treats the input as immutable.
 // note 233: Articulation points: same DFS as bridges, with a slightly different test.
+// note 234: Time complexity: O(n).
