@@ -258,3 +258,4 @@ MunitTest missing_number_tests[] = {
 // edge note 224: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 225: Caller owns the returned array; free with a single `free`.
 // edge note 226: Time complexity: O(log n).
+// edge note 227: Edge case: integer-max input → guarded by the explicit overflow check.
