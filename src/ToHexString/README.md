@@ -2367,3 +2367,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 577
 
 Runs in a single pass over the input.
+
+## entry 578
+
+Mutates the input in place; the original ordering is lost.
