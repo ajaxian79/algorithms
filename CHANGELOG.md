@@ -14379,3 +14379,7 @@
 ## entry 3595
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 3596
+
+- Walk both pointers from each end inward; advance the smaller side.
