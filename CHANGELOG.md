@@ -98411,3 +98411,7 @@
 ## entry 24603
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 24604
+
+- Wavelet tree: range k-th element in O(log Σ) time.
