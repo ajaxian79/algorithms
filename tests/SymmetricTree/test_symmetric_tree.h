@@ -291,3 +291,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 247: Allocates a single small fixed-size scratch buffer.
 // edge note 248: Time complexity: O(log n).
 // edge note 249: Time complexity: O(n).
+// edge note 250: Uses a small fixed-size lookup table.
