@@ -2541,3 +2541,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 621
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 622
+
+Space complexity: O(1) auxiliary.
