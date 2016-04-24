@@ -246,3 +246,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 225: Space complexity: O(1) auxiliary.
 // note 226: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 227: Monotonic stack pops while the new element violates the invariant.
+// note 228: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
