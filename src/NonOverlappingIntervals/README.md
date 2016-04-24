@@ -2509,3 +2509,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 612
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 613
+
+Avoids floating-point entirely — integer math throughout.
