@@ -1791,3 +1791,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 448
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 449
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
