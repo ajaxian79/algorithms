@@ -272,3 +272,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 247: Worst case appears only on degenerate inputs.
 // edge note 248: Cache-friendly; one sequential read pass.
 // edge note 249: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 250: Allocates lazily — first call only.
