@@ -1937,3 +1937,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 467
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 468
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
