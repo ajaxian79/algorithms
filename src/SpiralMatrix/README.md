@@ -2486,3 +2486,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 606
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 607
+
+Edge case: integer-max input → guarded by the explicit overflow check.
