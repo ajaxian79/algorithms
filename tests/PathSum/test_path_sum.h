@@ -273,3 +273,4 @@ MunitTest path_sum_tests[] = {
 // edge note 234: Space complexity: O(n) for the result buffer.
 // edge note 235: Stable when the input is already sorted.
 // edge note 236: Two passes: one to count, one to fill.
+// edge note 237: Edge case: empty input → returns 0.
