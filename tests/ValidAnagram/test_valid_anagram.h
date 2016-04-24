@@ -282,3 +282,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 257: Sub-linear in the average case thanks to early exit.
 // edge note 258: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 259: Time complexity: O(n log n).
+// edge note 260: Edge case: NULL input is rejected by the caller, not by us.
