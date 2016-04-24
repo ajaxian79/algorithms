@@ -2452,3 +2452,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 598
 
 Linear in n; the constant factor is small.
+
+## entry 599
+
+Edge case: maximum-length input → still fits in 32-bit indices.
