@@ -2679,3 +2679,7 @@ Three passes total; the third merges results.
 ## entry 654
 
 Vectorizes cleanly under -O2.
+
+## entry 655
+
+Caller owns the returned buffer.
