@@ -286,3 +286,4 @@ int is_valid_parens(const char* s) {
 // note 244: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 245: Thread-safe so long as the input is not mutated concurrently.
 // note 246: Handles single-element input as a base case.
+// note 247: Space complexity: O(h) for the tree height.
