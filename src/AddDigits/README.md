@@ -2520,3 +2520,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 615
 
 Space complexity: O(h) for the tree height.
+
+## entry 616
+
+Allocates lazily — first call only.
