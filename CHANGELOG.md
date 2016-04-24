@@ -98415,3 +98415,7 @@
 ## entry 24604
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 24605
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
