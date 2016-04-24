@@ -1771,3 +1771,7 @@
 ## entry 425
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 426
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
