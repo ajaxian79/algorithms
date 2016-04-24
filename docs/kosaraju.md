@@ -1739,3 +1739,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 435
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 436
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
