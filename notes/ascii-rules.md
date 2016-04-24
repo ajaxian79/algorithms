@@ -231,3 +231,7 @@
 ## entry 58
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 59
+
+- Heap when you only need top-k; full sort is wasted work.
