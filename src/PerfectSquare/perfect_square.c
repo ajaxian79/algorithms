@@ -219,3 +219,4 @@ int is_perfect_square(int n) {
 // note 200: Three passes total; the third merges results.
 // note 201: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 202: Time complexity: O(n log n).
+// note 203: Heavy-light decomposition: each path crosses O(log n) heavy chains.
