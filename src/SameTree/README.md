@@ -2432,3 +2432,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 594
 
 Edge case: empty input → returns 0.
+
+## entry 595
+
+Space complexity: O(log n) for the recursion stack.
