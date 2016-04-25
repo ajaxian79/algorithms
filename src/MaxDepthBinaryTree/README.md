@@ -2381,3 +2381,7 @@ Stable when the input is already sorted.
 ## entry 581
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 582
+
+Edge case: input with a single peak → handled by the first-pass scan.
