@@ -2533,3 +2533,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 619
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 620
+
+Edge case: power-of-two-length input → no padding required.
