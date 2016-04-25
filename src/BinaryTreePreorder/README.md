@@ -2586,3 +2586,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 632
 
 Edge case: empty input → returns 0.
+
+## entry 633
+
+Avoids floating-point entirely — integer math throughout.
