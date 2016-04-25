@@ -2587,3 +2587,7 @@ Cache-friendly; one sequential read pass.
 ## entry 632
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 633
+
+Edge case: already-sorted input → no swaps performed.
