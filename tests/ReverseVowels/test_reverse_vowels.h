@@ -280,3 +280,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Stable across duplicates in the input.
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
+// edge note 244: Runs in a single pass over the input.
