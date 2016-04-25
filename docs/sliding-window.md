@@ -1827,3 +1827,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 442
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 443
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
