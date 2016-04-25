@@ -98371,3 +98371,7 @@
 ## entry 24593
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 24594
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
