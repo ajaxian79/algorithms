@@ -2349,3 +2349,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 572
 
 Space complexity: O(1) auxiliary.
+
+## entry 573
+
+Vectorizes cleanly under -O2.
