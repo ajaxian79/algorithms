@@ -2595,3 +2595,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 633
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 634
+
+Handles empty input by returning 0.
