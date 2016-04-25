@@ -2477,3 +2477,7 @@ Space complexity: O(h) for the tree height.
 ## entry 605
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 606
+
+Runs in a single pass over the input.
