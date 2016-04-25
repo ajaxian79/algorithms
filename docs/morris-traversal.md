@@ -1743,3 +1743,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 421
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 422
+
+Interval DP: solve all `[l, r]` ranges from short to long.
