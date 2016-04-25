@@ -263,3 +263,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 232: Time complexity: O(n + m).
 // edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 234: Handles negative inputs as documented above.
+// edge note 235: Runs in a single pass over the input.
