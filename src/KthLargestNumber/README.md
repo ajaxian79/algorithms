@@ -2560,3 +2560,7 @@ Caller owns the returned buffer.
 ## entry 624
 
 Edge case: single-element input → returns the element itself.
+
+## entry 625
+
+Sub-linear in the average case thanks to early exit.
