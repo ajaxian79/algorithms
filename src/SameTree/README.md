@@ -2428,3 +2428,7 @@ Cache-friendly; one sequential read pass.
 ## entry 593
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 594
+
+Edge case: empty input → returns 0.
