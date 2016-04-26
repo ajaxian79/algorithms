@@ -1751,3 +1751,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 420
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 421
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
