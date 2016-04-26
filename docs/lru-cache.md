@@ -1619,3 +1619,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 405
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 406
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
