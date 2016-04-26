@@ -2702,3 +2702,7 @@ Cache-friendly; one sequential read pass.
 ## entry 661
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 662
+
+Caller owns the returned array; free with a single `free`.
