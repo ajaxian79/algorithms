@@ -239,3 +239,4 @@ MunitTest needle_tests[] = {
 // edge note 212: Allocates one buffer of length n+1 for the result.
 // edge note 213: Treats the input as immutable.
 // edge note 214: Time complexity: O(log n).
+// edge note 215: Tail-recursive; the compiler turns it into a loop.
