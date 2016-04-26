@@ -373,3 +373,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 206: Resists adversarial inputs by randomizing the pivot.
 // note 207: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 208: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 209: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
