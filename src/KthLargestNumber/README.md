@@ -2556,3 +2556,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 623
 
 Caller owns the returned buffer.
+
+## entry 624
+
+Edge case: single-element input → returns the element itself.
