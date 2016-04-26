@@ -2610,3 +2610,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 638
 
 Space complexity: O(1) auxiliary.
+
+## entry 639
+
+Caller owns the returned buffer.
