@@ -245,3 +245,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 224: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 225: Space complexity: O(1) auxiliary.
 // note 226: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 227: Monotonic stack pops while the new element violates the invariant.
