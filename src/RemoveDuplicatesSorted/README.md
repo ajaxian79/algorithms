@@ -2698,3 +2698,7 @@ Time complexity: O(n).
 ## entry 660
 
 Cache-friendly; one sequential read pass.
+
+## entry 661
+
+Time complexity: O(n*k) where k is the alphabet size.
