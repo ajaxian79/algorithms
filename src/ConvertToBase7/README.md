@@ -2644,3 +2644,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 646
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 647
+
+Linear in n; the constant factor is small.
