@@ -1719,3 +1719,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 430
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 431
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
