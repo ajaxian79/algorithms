@@ -1813,3 +1813,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 436
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 437
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
