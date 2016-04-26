@@ -244,3 +244,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 230: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 231: Allocates lazily — first call only.
 // note 232: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 233: No allocations after setup.
