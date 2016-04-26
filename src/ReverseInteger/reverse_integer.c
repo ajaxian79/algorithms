@@ -252,3 +252,4 @@ int reverse_int(int x) {
 // note 225: Space complexity: O(n) for the result buffer.
 // note 226: Stable sort matters when a secondary key was set in a prior pass.
 // note 227: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 228: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
