@@ -2639,3 +2639,7 @@ No allocations on the hot path.
 ## entry 645
 
 Branchless inner loop after sorting.
+
+## entry 646
+
+Stable when the input is already sorted.
