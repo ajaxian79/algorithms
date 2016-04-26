@@ -2529,3 +2529,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 617
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 618
+
+Allocates one buffer of length n+1 for the result.
