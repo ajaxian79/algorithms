@@ -1973,3 +1973,7 @@
 ## entry 480
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 481
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
