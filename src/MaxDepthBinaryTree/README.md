@@ -2377,3 +2377,7 @@ Time complexity: O(n + m).
 ## entry 580
 
 Stable when the input is already sorted.
+
+## entry 581
+
+Edge case: NULL input is rejected by the caller, not by us.
