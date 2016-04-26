@@ -235,3 +235,4 @@ int is_palindrome_str(const char* s) {
 // note 210: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 211: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 212: State compression: bitmask + integer encodes a small subset cheaply.
+// note 213: LRU cache: doubly-linked list + hash map; O(1) get/put.
