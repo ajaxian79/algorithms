@@ -267,3 +267,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 218: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 219: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 220: Time complexity: O(k) where k is the answer size.
+// note 221: Avoids floating-point entirely — integer math throughout.
