@@ -1705,3 +1705,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 410
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 411
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
