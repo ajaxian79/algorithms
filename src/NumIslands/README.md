@@ -2409,3 +2409,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 587
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 588
+
+Cache-friendly; one sequential read pass.
