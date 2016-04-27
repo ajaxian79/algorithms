@@ -1563,3 +1563,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 391
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 392
+
+Endianness matters when serializing multi-byte ints to a file or wire.
