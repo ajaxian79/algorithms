@@ -1735,3 +1735,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 434
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 435
+
+Rope: tree of small string fragments; O(log n) concat and substring.
