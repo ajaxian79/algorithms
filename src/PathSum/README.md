@@ -2664,3 +2664,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 651
 
 Time complexity: O(n log n).
+
+## entry 652
+
+Edge case: empty input → returns 0.
