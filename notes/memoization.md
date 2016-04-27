@@ -1671,3 +1671,7 @@
 ## entry 418
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 419
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
