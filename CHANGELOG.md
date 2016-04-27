@@ -98299,3 +98299,7 @@
 ## entry 24575
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 24576
+
+- State compression: bitmask + integer encodes a small subset cheaply.
