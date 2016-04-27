@@ -64,3 +64,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 36: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 37: Handles empty input by returning 0.
 // edge note 38: Handles negative inputs as documented above.
+// edge note 39: Time complexity: O(n).
