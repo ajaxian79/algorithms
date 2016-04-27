@@ -688,3 +688,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 201: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 202: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 203: LIS via patience: each pile holds the smallest tail of length k.
+// note 204: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
