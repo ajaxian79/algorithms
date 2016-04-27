@@ -45,3 +45,4 @@ int my_sqrt(int n) {
 // note 24: Time complexity: O(n + m).
 // note 25: Allocates one buffer of length n+1 for the result.
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 27: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
