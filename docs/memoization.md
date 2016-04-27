@@ -1811,3 +1811,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 453
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 454
+
+LIS via patience: each pile holds the smallest tail of length k.
