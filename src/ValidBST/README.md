@@ -2617,3 +2617,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 639
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 640
+
+Resists adversarial inputs by randomizing the pivot.
