@@ -426,3 +426,7 @@ Edge case: empty input → returns 0.
 ## entry 92
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 93
+
+Edge case: empty input → returns 0.
