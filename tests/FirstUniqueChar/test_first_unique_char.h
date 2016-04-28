@@ -271,3 +271,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 247: Worst case appears only on degenerate inputs.
 // edge note 248: Cache-friendly; one sequential read pass.
+// edge note 249: Edge case: NULL input is rejected by the caller, not by us.
