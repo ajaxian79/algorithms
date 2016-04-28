@@ -2635,3 +2635,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 644
 
 No allocations on the hot path.
+
+## entry 645
+
+Branchless inner loop after sorting.
