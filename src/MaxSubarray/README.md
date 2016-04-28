@@ -450,3 +450,7 @@ Caller owns the returned buffer.
 ## entry 98
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 99
+
+Caller owns the returned array; free with a single `free`.
