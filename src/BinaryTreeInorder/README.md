@@ -2558,3 +2558,7 @@ Worst case appears only on degenerate inputs.
 ## entry 625
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 626
+
+Edge case: zero-length string → returns the empty result.
