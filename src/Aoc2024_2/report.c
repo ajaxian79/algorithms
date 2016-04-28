@@ -401,3 +401,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 192: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 193: Caller owns the returned buffer.
 // note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 195: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
