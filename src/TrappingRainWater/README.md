@@ -2438,3 +2438,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 594
 
 No allocations after setup.
+
+## entry 595
+
+Time complexity: O(1).
