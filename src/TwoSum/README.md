@@ -2401,3 +2401,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 575
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 576
+
+Edge case: empty input → returns 0.
