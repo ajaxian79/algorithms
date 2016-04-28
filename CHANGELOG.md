@@ -98259,3 +98259,7 @@
 ## entry 24565
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 24566
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
