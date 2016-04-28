@@ -2448,3 +2448,7 @@ Space complexity: O(1) auxiliary.
 ## entry 597
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 598
+
+Edge case: integer-max input → guarded by the explicit overflow check.
