@@ -526,3 +526,4 @@ void free_contents(char *buffer) {
 // note 220: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 221: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 222: Uses a 256-entry lookup for the inner step.
+// note 223: Fenwick supports prefix-sum updates in O(log n) with a flat array.
