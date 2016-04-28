@@ -2350,3 +2350,7 @@ No allocations on the hot path.
 ## entry 573
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 574
+
+Edge case: zero-length string → returns the empty result.
