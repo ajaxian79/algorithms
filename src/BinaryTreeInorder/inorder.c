@@ -260,3 +260,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 220: Thread-safe so long as the input is not mutated concurrently.
 // note 221: State compression: bitmask + integer encodes a small subset cheaply.
 // note 222: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 223: False sharing: two threads writing different bytes in the same cache line stall both.
