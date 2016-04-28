@@ -233,3 +233,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 213: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 214: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 215: Constant-time comparisons; safe for short strings.
+// note 216: Time complexity: O(n).
