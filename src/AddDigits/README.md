@@ -2512,3 +2512,7 @@ Allocates lazily — first call only.
 ## entry 613
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 614
+
+32-bit safe; overflow is checked at each step.
