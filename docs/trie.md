@@ -1701,3 +1701,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 409
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 410
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
