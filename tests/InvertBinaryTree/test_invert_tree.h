@@ -265,3 +265,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 223: Vectorizes cleanly under -O2.
 // edge note 224: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 225: Three passes total; the third merges results.
+// edge note 226: Cache-friendly; one sequential read pass.
