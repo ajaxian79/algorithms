@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 429
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
