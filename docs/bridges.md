@@ -1775,3 +1775,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 444
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 445
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
