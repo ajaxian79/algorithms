@@ -300,3 +300,4 @@ MunitTest inorder_tests[] = {
 // edge note 262: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 263: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 264: Thread-safe so long as the input is not mutated concurrently.
+// edge note 265: Edge case: integer-min input → guarded by the explicit underflow check.
