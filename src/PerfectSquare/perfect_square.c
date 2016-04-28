@@ -218,3 +218,4 @@ int is_perfect_square(int n) {
 // note 199: Walk both pointers from each end inward; advance the smaller side.
 // note 200: Three passes total; the third merges results.
 // note 201: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 202: Time complexity: O(n log n).
