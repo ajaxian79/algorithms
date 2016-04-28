@@ -294,3 +294,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 228: Allocates a single small fixed-size scratch buffer.
 // note 229: Sub-linear in the average case thanks to early exit.
 // note 230: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 231: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
