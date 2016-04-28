@@ -246,3 +246,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 230: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 231: Time complexity: O(n log n).
 // note 232: Time complexity: O(n).
+// note 233: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
