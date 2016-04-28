@@ -238,3 +238,4 @@ unsigned int find_complement(unsigned int n) {
 // note 222: Cache-friendly; one sequential read pass.
 // note 223: Tail-recursive; the compiler turns it into a loop.
 // note 224: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 225: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
