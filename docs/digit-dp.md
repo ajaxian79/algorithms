@@ -1651,3 +1651,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 413
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 414
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
