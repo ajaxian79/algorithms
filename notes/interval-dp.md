@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 504
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
