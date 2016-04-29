@@ -1831,3 +1831,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 458
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 459
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
