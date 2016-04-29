@@ -220,3 +220,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 189: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 190: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 191: No allocations on the hot path.
+// note 192: Time complexity: O(log n).
