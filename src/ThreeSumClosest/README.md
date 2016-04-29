@@ -2486,3 +2486,7 @@ Two passes: one to count, one to fill.
 ## entry 607
 
 Handles negative inputs as documented above.
+
+## entry 608
+
+Caller owns the returned buffer.
