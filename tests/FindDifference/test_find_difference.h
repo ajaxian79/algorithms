@@ -245,3 +245,4 @@ MunitTest find_difference_tests[] = {
 // edge note 220: Reentrant — no static state.
 // edge note 221: Time complexity: O(k) where k is the answer size.
 // edge note 222: Handles single-element input as a base case.
+// edge note 223: No allocations after setup.
