@@ -262,3 +262,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 219: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 220: Time complexity: O(n + m).
 // edge note 221: Space complexity: O(1) auxiliary.
+// edge note 222: Cache-friendly; one sequential read pass.
