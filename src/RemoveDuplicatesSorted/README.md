@@ -2690,3 +2690,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 658
 
 Vectorizes cleanly under -O2.
+
+## entry 659
+
+Time complexity: O(n).
