@@ -1851,3 +1851,7 @@
 ## entry 463
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 464
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
