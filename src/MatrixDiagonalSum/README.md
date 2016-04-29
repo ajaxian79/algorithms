@@ -2642,3 +2642,7 @@ Treats the input as immutable.
 ## entry 646
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 647
+
+Two passes: one to count, one to fill.
