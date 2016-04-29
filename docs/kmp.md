@@ -1777,3 +1777,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 428
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 429
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
