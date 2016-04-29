@@ -1933,3 +1933,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 466
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 467
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
