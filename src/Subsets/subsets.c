@@ -253,3 +253,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 225: Allocates lazily — first call only.
 // note 226: Time complexity: O(n*k) where k is the alphabet size.
 // note 227: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 228: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
