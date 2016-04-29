@@ -2536,3 +2536,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 619
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 620
+
+Edge case: all-equal input → linear-time fast path.
