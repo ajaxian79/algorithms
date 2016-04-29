@@ -2640,3 +2640,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 645
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 646
+
+Edge case: zero-length string → returns the empty result.
