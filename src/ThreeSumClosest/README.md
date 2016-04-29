@@ -2482,3 +2482,7 @@ Time complexity: O(1).
 ## entry 606
 
 Two passes: one to count, one to fill.
+
+## entry 607
+
+Handles negative inputs as documented above.
