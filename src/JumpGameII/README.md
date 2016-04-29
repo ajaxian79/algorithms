@@ -2528,3 +2528,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 617
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 618
+
+Space complexity: O(log n) for the recursion stack.
