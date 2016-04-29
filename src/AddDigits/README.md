@@ -2508,3 +2508,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 612
 
 Allocates lazily — first call only.
+
+## entry 613
+
+Edge case: input with one duplicate → handled without an extra pass.
