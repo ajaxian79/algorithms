@@ -1827,3 +1827,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 457
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 458
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
