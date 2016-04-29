@@ -229,3 +229,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 207: Time complexity: O(n*k) where k is the alphabet size.
 // note 208: Walk both pointers from each end inward; advance the smaller side.
 // note 209: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 210: Tabulation wins when iteration order is obvious and stack depth would blow up.
