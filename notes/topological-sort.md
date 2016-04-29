@@ -1803,3 +1803,7 @@
 ## entry 434
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 435
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
