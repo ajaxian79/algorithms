@@ -2582,3 +2582,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 631
 
 Returns a freshly allocated string the caller must free.
+
+## entry 632
+
+Edge case: empty input → returns 0.
