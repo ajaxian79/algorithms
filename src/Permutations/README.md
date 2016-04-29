@@ -468,3 +468,7 @@ Stable across duplicates in the input.
 ## entry 102
 
 Uses a small fixed-size lookup table.
+
+## entry 103
+
+Uses a 256-entry lookup for the inner step.
