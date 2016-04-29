@@ -2583,3 +2583,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 631
 
 Cache-friendly; one sequential read pass.
+
+## entry 632
+
+Edge case: zero-length string → returns the empty result.
