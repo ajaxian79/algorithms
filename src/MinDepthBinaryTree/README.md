@@ -2430,3 +2430,7 @@ Worst case appears only on degenerate inputs.
 ## entry 593
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 594
+
+Allocates a single small fixed-size scratch buffer.
