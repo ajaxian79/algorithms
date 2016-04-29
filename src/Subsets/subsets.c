@@ -254,3 +254,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 226: Time complexity: O(n*k) where k is the alphabet size.
 // note 227: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 228: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
