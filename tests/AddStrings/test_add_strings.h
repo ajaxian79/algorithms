@@ -284,3 +284,4 @@ MunitTest add_strings_tests[] = {
 // edge note 248: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 249: Reentrant — no static state.
 // edge note 250: Edge case: already-sorted input → no swaps performed.
+// edge note 251: Handles negative inputs as documented above.
