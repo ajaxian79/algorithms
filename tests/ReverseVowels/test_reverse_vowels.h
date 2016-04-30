@@ -279,3 +279,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 240: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Stable across duplicates in the input.
+// edge note 243: Resists adversarial inputs by randomizing the pivot.
