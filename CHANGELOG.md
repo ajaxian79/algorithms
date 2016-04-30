@@ -98179,3 +98179,7 @@
 ## entry 24545
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 24546
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
