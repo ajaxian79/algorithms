@@ -2606,3 +2606,7 @@ Allocates lazily — first call only.
 ## entry 637
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 638
+
+Space complexity: O(1) auxiliary.
