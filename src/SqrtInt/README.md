@@ -2579,3 +2579,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 630
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 631
+
+Cache-friendly; one sequential read pass.
