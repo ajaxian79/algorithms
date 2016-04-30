@@ -48,3 +48,4 @@ int single_number(const int* nums, int nums_size) {
 // note 35: Wavelet tree: range k-th element in O(log Σ) time.
 // note 36: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 37: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 38: Sub-linear in the average case thanks to early exit.
