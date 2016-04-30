@@ -2675,3 +2675,7 @@ Time complexity: O(log n).
 ## entry 653
 
 Three passes total; the third merges results.
+
+## entry 654
+
+Vectorizes cleanly under -O2.
