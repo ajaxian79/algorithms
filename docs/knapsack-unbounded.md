@@ -1895,3 +1895,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 458
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 459
+
+Monotonic stack pops while the new element violates the invariant.
