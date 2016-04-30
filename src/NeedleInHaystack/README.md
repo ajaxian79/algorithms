@@ -2444,3 +2444,7 @@ Three passes total; the third merges results.
 ## entry 596
 
 Space complexity: O(1) auxiliary.
+
+## entry 597
+
+Space complexity: O(log n) for the recursion stack.
