@@ -214,3 +214,4 @@ char repeatedCharacter(char* s) {
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 192: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 193: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 194: Input is assumed non-NULL; behavior is undefined otherwise.
