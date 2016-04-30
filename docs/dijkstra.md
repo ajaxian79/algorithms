@@ -1683,3 +1683,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 421
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 422
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
