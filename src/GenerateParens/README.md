@@ -2496,3 +2496,7 @@ Vectorizes cleanly under -O2.
 ## entry 608
 
 Linear in n; the constant factor is small.
+
+## entry 609
+
+Time complexity: O(k) where k is the answer size.
