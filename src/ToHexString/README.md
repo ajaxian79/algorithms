@@ -375,3 +375,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 79
 
 32-bit safe; overflow is checked at each step.
+
+## entry 80
+
+Avoids floating-point entirely — integer math throughout.
