@@ -1783,3 +1783,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 446
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 447
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
