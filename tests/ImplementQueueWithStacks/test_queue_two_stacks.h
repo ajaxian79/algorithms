@@ -256,3 +256,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 223: Edge case: already-sorted input → no swaps performed.
 // edge note 224: Avoids floating-point entirely — integer math throughout.
 // edge note 225: Thread-safe so long as the input is not mutated concurrently.
+// edge note 226: Space complexity: O(h) for the tree height.
