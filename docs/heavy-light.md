@@ -235,3 +235,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 59
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 60
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
