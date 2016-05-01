@@ -14375,3 +14375,7 @@
 ## entry 3594
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 3595
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
