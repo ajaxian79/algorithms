@@ -2570,3 +2570,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 628
 
 Handles negative inputs as documented above.
+
+## entry 629
+
+Uses a 256-entry lookup for the inner step.
