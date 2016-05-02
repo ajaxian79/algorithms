@@ -98135,3 +98135,7 @@
 ## entry 24534
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 24535
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
