@@ -2450,3 +2450,7 @@ Time complexity: O(log n).
 ## entry 598
 
 Space complexity: O(1) auxiliary.
+
+## entry 599
+
+Worst case appears only on degenerate inputs.
