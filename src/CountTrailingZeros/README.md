@@ -2446,3 +2446,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 596
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 597
+
+64-bit safe; intermediate products are widened to 128-bit.
