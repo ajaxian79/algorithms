@@ -375,3 +375,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 223: Stable sort matters when a secondary key was set in a prior pass.
 // note 224: Heap when you only need top-k; full sort is wasted work.
+// note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
