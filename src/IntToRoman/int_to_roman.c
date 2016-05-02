@@ -273,3 +273,4 @@ char* int_to_roman(int n) {
 // note 236: State compression: bitmask + integer encodes a small subset cheaply.
 // note 237: Wavelet tree: range k-th element in O(log Σ) time.
 // note 238: Union-Find with path compression amortizes to near-O(1) per op.
+// note 239: LCA via binary lifting: jump up powers of two until depths match, then converge.
