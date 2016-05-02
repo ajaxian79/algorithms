@@ -295,3 +295,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 245: Allocates one buffer of length n+1 for the result.
 // edge note 246: Space complexity: O(h) for the tree height.
 // edge note 247: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 248: No allocations after setup.
