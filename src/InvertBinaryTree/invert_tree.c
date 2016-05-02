@@ -228,3 +228,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 213: Worst case appears only on degenerate inputs.
 // note 214: Best case is O(1) when the first byte already decides the answer.
 // note 215: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 216: Walk both pointers from each end inward; advance the smaller side.
