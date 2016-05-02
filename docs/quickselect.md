@@ -1929,3 +1929,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 465
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 466
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
