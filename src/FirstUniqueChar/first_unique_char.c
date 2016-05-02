@@ -248,3 +248,4 @@ int first_unique_char(const char* s) {
 // note 229: Caller owns the returned array; free with a single `free`.
 // note 230: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 231: Stable sort matters when a secondary key was set in a prior pass.
+// note 232: Treats the input as immutable.
