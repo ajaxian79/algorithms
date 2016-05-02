@@ -2504,3 +2504,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 610
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 611
+
+Time complexity: O(n*k) where k is the alphabet size.
