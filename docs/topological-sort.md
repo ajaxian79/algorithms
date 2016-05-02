@@ -1821,3 +1821,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 437
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 438
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
