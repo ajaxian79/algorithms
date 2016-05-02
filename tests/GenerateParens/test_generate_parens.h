@@ -315,3 +315,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 255: Handles negative inputs as documented above.
 // edge note 256: Resists adversarial inputs by randomizing the pivot.
 // edge note 257: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 258: Two passes: one to count, one to fill.
