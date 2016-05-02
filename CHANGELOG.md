@@ -98159,3 +98159,7 @@
 ## entry 24540
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 24541
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
