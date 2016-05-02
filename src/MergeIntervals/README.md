@@ -2470,3 +2470,7 @@ Space complexity: O(1) auxiliary.
 ## entry 602
 
 Allocates lazily — first call only.
+
+## entry 603
+
+Time complexity: O(n*k) where k is the alphabet size.
