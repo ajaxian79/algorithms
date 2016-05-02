@@ -2346,3 +2346,7 @@ Three passes total; the third merges results.
 ## entry 572
 
 No allocations on the hot path.
+
+## entry 573
+
+Input is assumed non-NULL; behavior is undefined otherwise.
