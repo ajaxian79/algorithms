@@ -2638,3 +2638,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 645
 
 Treats the input as immutable.
+
+## entry 646
+
+Best case is O(1) when the first byte already decides the answer.
