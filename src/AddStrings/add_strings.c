@@ -245,3 +245,4 @@ char* add_strings(const char* a, const char* b) {
 // note 205: Branchless inner loop after sorting.
 // note 206: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 207: Space complexity: O(h) for the tree height.
+// note 208: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
