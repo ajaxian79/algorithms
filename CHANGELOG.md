@@ -98167,3 +98167,7 @@
 ## entry 24542
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 24543
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
