@@ -1909,3 +1909,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 460
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 461
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
