@@ -2533,3 +2533,7 @@ Two passes: one to count, one to fill.
 ## entry 618
 
 Cache-friendly; one sequential read pass.
+
+## entry 619
+
+Constant-time comparisons; safe for short strings.
