@@ -215,3 +215,4 @@ int count_primes(int n) {
 // note 187: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 188: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 189: Deterministic given the input — no PRNG seeds.
+// note 190: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
