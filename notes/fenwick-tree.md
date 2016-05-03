@@ -345,3 +345,7 @@
 ## entry 70
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 71
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
