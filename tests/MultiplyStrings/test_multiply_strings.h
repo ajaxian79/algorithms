@@ -69,3 +69,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 40: Handles empty input by returning 0.
 // edge note 41: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 43: Best case is O(1) when the first byte already decides the answer.
