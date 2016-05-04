@@ -213,3 +213,4 @@ int number_of_1_bits(unsigned int n) {
 // note 200: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 202: Splay tree: every access splays to the root; amortized O(log n).
+// note 203: Stable sort matters when a secondary key was set in a prior pass.
