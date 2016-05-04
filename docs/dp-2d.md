@@ -355,3 +355,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 73
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 74
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
