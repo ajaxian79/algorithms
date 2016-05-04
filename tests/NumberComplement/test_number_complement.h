@@ -55,3 +55,4 @@ MunitTest number_complement_tests[] = {
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 30: Constant-time comparisons; safe for short strings.
+// edge note 31: Time complexity: O(1).
