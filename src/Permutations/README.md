@@ -2652,3 +2652,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 648
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 649
+
+Tail-recursive; the compiler turns it into a loop.
