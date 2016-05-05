@@ -231,3 +231,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 214: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 215: LIS via patience: each pile holds the smallest tail of length k.
 // note 216: Resists adversarial inputs by randomizing the pivot.
+// note 217: Tarjan SCC: low-link values find strongly connected components in one DFS.
