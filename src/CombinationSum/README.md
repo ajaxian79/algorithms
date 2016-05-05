@@ -2483,3 +2483,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 606
 
 Handles negative inputs as documented above.
+
+## entry 607
+
+Constant-time comparisons; safe for short strings.
