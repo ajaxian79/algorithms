@@ -56,3 +56,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 29: Time complexity: O(1).
 // edge note 30: Edge case: input with no peak → falls through to the default branch.
 // edge note 31: Time complexity: O(n log n).
+// edge note 32: Space complexity: O(h) for the tree height.
