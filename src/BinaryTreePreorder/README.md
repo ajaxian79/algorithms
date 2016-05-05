@@ -2578,3 +2578,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 630
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 631
+
+Returns a freshly allocated string the caller must free.
