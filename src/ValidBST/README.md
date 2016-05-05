@@ -2609,3 +2609,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 637
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 638
+
+Edge case: input of all the same byte → exits on the first compare.
