@@ -239,3 +239,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 60
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 61
+
+Wavelet tree: range k-th element in O(log Σ) time.
