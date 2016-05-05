@@ -2574,3 +2574,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 629
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 630
+
+Edge case: reverse-sorted input → still O(n log n).
