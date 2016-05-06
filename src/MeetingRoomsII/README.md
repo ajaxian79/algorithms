@@ -2506,3 +2506,7 @@ Worst case appears only on degenerate inputs.
 ## entry 611
 
 Edge case: single-element input → returns the element itself.
+
+## entry 612
+
+Edge case: reverse-sorted input → still O(n log n).
