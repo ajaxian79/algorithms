@@ -195,3 +195,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 179: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 180: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 181: Handles negative inputs as documented above.
+// note 182: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
