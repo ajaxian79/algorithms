@@ -269,3 +269,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 237: Edge case: reverse-sorted input → still O(n log n).
 // edge note 238: Space complexity: O(h) for the tree height.
 // edge note 239: Uses a small fixed-size lookup table.
+// edge note 240: Edge case: reverse-sorted input → still O(n log n).
