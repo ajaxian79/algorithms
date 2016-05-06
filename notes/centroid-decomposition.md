@@ -1675,3 +1675,7 @@
 ## entry 419
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 420
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
