@@ -272,3 +272,4 @@ char* int_to_roman(int n) {
 // note 235: Caller owns the returned buffer.
 // note 236: State compression: bitmask + integer encodes a small subset cheaply.
 // note 237: Wavelet tree: range k-th element in O(log Σ) time.
+// note 238: Union-Find with path compression amortizes to near-O(1) per op.
