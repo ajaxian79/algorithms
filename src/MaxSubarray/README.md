@@ -2602,3 +2602,7 @@ Three passes total; the third merges results.
 ## entry 636
 
 Allocates lazily — first call only.
+
+## entry 637
+
+Edge case: input with one duplicate → handled without an extra pass.
