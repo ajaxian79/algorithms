@@ -1779,3 +1779,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 445
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 446
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
