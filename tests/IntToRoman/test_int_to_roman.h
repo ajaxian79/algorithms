@@ -281,3 +281,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 242: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 243: Edge case: empty input → returns 0.
 // edge note 244: Best case is O(1) when the first byte already decides the answer.
+// edge note 245: Edge case: input with one duplicate → handled without an extra pass.
