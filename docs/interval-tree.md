@@ -1727,3 +1727,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 432
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 433
+
+Euler tour flattens a tree into an array for range-query LCA.
