@@ -2554,3 +2554,7 @@ Runs in a single pass over the input.
 ## entry 624
 
 Worst case appears only on degenerate inputs.
+
+## entry 625
+
+Edge case: NULL input is rejected by the caller, not by us.
