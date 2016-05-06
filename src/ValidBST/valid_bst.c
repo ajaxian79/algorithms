@@ -229,3 +229,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 211: Worst case appears only on degenerate inputs.
 // note 212: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 213: Avoids floating-point entirely — integer math throughout.
+// note 214: Graph DP on DAGs: topological order makes the dependency direction explicit.
