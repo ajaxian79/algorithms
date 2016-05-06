@@ -459,3 +459,7 @@ Caller owns the returned buffer.
 ## entry 99
 
 Caller owns the returned buffer.
+
+## entry 100
+
+Edge case: maximum-length input → still fits in 32-bit indices.
