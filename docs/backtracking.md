@@ -1889,3 +1889,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 455
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 456
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
