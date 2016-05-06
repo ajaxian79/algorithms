@@ -243,3 +243,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 209: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 210: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 211: Thread-safe so long as the input is not mutated concurrently.
+// edge note 212: 32-bit safe; overflow is checked at each step.
