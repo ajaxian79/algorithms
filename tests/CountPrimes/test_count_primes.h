@@ -265,3 +265,4 @@ MunitTest count_primes_tests[] = {
 // edge note 237: Tail-recursive; the compiler turns it into a loop.
 // edge note 238: Edge case: empty input → returns 0.
 // edge note 239: Caller owns the returned buffer.
+// edge note 240: Edge case: all-equal input → linear-time fast path.
