@@ -295,3 +295,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 74
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 75
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
