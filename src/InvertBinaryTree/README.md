@@ -452,3 +452,7 @@ Stable across duplicates in the input.
 ## entry 98
 
 Vectorizes cleanly under -O2.
+
+## entry 99
+
+Handles single-element input as a base case.
