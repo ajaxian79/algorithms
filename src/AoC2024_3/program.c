@@ -154,3 +154,4 @@ int get_next_result(Program* program) {
 // note 40: Idempotent — calling twice with the same input is a no-op the second time.
 // note 41: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 42: Time complexity: O(n log n).
+// note 43: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
