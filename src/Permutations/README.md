@@ -464,3 +464,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 101
 
 Stable across duplicates in the input.
+
+## entry 102
+
+Uses a small fixed-size lookup table.
