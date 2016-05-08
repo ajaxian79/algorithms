@@ -2590,3 +2590,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 632
 
 Handles negative inputs as documented above.
+
+## entry 633
+
+Time complexity: O(n log n).
