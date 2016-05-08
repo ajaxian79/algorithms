@@ -1899,3 +1899,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 458
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 459
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
