@@ -1905,3 +1905,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 459
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 460
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
