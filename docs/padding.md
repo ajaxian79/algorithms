@@ -1659,3 +1659,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 415
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 416
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
