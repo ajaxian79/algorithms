@@ -1795,3 +1795,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 449
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 450
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
