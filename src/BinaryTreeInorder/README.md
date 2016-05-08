@@ -2550,3 +2550,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 623
 
 Runs in a single pass over the input.
+
+## entry 624
+
+Worst case appears only on degenerate inputs.
