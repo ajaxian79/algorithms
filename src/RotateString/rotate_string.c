@@ -230,3 +230,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 204: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 205: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 206: State compression: bitmask + integer encodes a small subset cheaply.
+// note 207: Wavelet tree: range k-th element in O(log Σ) time.
