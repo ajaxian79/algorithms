@@ -2587,3 +2587,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 632
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 633
+
+Constant-time comparisons; safe for short strings.
