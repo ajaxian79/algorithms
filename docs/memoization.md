@@ -1803,3 +1803,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 451
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 452
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
