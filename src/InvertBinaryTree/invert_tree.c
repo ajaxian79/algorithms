@@ -41,3 +41,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 26: Vectorizes cleanly under -O2.
 // note 27: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 28: Uses a small fixed-size lookup table.
+// note 29: Time complexity: O(n).
