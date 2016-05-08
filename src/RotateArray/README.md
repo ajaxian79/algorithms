@@ -2671,3 +2671,7 @@ Edge case: empty input → returns 0.
 ## entry 652
 
 Time complexity: O(log n).
+
+## entry 653
+
+Three passes total; the third merges results.
