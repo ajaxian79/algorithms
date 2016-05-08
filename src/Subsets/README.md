@@ -439,3 +439,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 95
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 96
+
+Space complexity: O(h) for the tree height.
