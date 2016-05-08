@@ -2552,3 +2552,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 622
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 623
+
+Caller owns the returned buffer.
