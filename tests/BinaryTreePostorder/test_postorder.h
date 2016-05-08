@@ -279,3 +279,4 @@ MunitTest postorder_tests[] = {
 // edge note 235: 32-bit safe; overflow is checked at each step.
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 237: Space complexity: O(log n) for the recursion stack.
+// edge note 238: Uses a small fixed-size lookup table.
