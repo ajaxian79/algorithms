@@ -2576,3 +2576,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 628
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 629
+
+Time complexity: O(n*k) where k is the alphabet size.
