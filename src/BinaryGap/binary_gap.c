@@ -248,3 +248,4 @@ int binary_gap(unsigned int n) {
 // note 228: Caller owns the returned buffer.
 // note 229: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 230: Handles empty input by returning 0.
+// note 231: Polynomial rolling hash with two moduli kills almost all collisions in practice.
