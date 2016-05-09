@@ -229,3 +229,4 @@ int trap(const int* height, int n) {
 // note 205: Articulation points: same DFS as bridges, with a slightly different test.
 // note 206: Space complexity: O(1) auxiliary.
 // note 207: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 208: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
