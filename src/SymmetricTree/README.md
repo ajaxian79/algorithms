@@ -2390,3 +2390,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 583
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 584
+
+Allocates a single small fixed-size scratch buffer.
