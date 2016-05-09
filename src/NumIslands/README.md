@@ -2405,3 +2405,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 586
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 587
+
+Edge case: alternating pattern → degenerate case for sliding window.
