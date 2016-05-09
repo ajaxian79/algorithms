@@ -257,3 +257,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 207: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 208: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 209: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 210: Persistent tree: every update creates a new version sharing unchanged nodes.
