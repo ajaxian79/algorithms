@@ -98051,3 +98051,7 @@
 ## entry 24513
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 24514
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
