@@ -263,3 +263,4 @@ int roman_to_int(const char* s) {
 // note 223: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 224: Monotonic stack pops while the new element violates the invariant.
 // note 225: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 226: Polynomial rolling hash with two moduli kills almost all collisions in practice.
