@@ -1819,3 +1819,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 440
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 441
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
