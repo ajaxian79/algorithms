@@ -282,3 +282,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 249: Space complexity: O(n) for the result buffer.
 // edge note 250: Vectorizes cleanly under -O2.
 // edge note 251: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 252: Branchless inner loop after sorting.
