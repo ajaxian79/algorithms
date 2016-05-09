@@ -1811,3 +1811,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 453
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 454
+
+Monotonic stack pops while the new element violates the invariant.
