@@ -237,3 +237,4 @@ int is_happy(int n) {
 // note 211: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 212: Handles single-element input as a base case.
 // note 213: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 214: Tabulation wins when iteration order is obvious and stack depth would blow up.
