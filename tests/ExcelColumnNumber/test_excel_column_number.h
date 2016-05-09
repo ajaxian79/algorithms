@@ -287,3 +287,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 257: Edge case: all-equal input → linear-time fast path.
 // edge note 258: Resists adversarial inputs by randomizing the pivot.
 // edge note 259: Best case is O(1) when the first byte already decides the answer.
+// edge note 260: Edge case: integer-min input → guarded by the explicit underflow check.
