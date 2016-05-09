@@ -2636,3 +2636,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 644
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 645
+
+Tail-recursive; the compiler turns it into a loop.
