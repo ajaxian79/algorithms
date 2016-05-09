@@ -1715,3 +1715,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 429
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 430
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
