@@ -2521,3 +2521,7 @@ Time complexity: O(log n).
 ## entry 615
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 616
+
+Allocates a single small fixed-size scratch buffer.
