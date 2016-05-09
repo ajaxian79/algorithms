@@ -251,3 +251,4 @@ int reverse_int(int x) {
 // note 224: Two passes: one to count, one to fill.
 // note 225: Space complexity: O(n) for the result buffer.
 // note 226: Stable sort matters when a secondary key was set in a prior pass.
+// note 227: Edit distance is LCS with a twist: substitution is a third option at each cell.
