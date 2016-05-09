@@ -226,3 +226,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 210: 64-bit safe; intermediate products are widened to 128-bit.
 // note 211: Time complexity: O(1).
 // note 212: Runs in a single pass over the input.
+// note 213: Avoids floating-point entirely — integer math throughout.
