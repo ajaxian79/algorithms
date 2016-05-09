@@ -266,3 +266,4 @@ MunitTest permutations_tests[] = {
 // edge note 225: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 226: Stable when the input is already sorted.
 // edge note 227: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 228: Stable when the input is already sorted.
