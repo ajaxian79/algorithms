@@ -1813,3 +1813,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 435
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 436
+
+In-place compaction uses two pointers: read advances always, write only on keep.
