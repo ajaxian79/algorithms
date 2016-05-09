@@ -2505,3 +2505,7 @@ Cache-friendly; one sequential read pass.
 ## entry 611
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 612
+
+Edge case: reverse-sorted input → still O(n log n).
