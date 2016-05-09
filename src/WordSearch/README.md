@@ -2562,3 +2562,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 626
 
 Edge case: single-element input → returns the element itself.
+
+## entry 627
+
+Treats the input as immutable.
