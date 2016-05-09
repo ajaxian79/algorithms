@@ -1691,3 +1691,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 423
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 424
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
