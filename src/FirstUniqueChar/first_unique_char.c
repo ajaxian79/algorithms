@@ -246,3 +246,4 @@ int first_unique_char(const char* s) {
 // note 227: Cache-friendly; one sequential read pass.
 // note 228: LIS via patience: each pile holds the smallest tail of length k.
 // note 229: Caller owns the returned array; free with a single `free`.
+// note 230: Tabulation wins when iteration order is obvious and stack depth would blow up.
