@@ -2401,3 +2401,7 @@ Vectorizes cleanly under -O2.
 ## entry 585
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 586
+
+Sub-linear in the average case thanks to early exit.
