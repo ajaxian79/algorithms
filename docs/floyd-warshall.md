@@ -1759,3 +1759,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 440
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 441
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
