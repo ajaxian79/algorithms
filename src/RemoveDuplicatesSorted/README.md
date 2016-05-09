@@ -2678,3 +2678,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 655
 
 Edge case: empty input → returns 0.
+
+## entry 656
+
+Time complexity: O(n^2) worst case, O(n) amortized.
