@@ -2682,3 +2682,7 @@ Edge case: empty input → returns 0.
 ## entry 656
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 657
+
+Sub-linear in the average case thanks to early exit.
