@@ -2573,3 +2573,7 @@ No allocations after setup.
 ## entry 628
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 629
+
+Branchless inner loop after sorting.
