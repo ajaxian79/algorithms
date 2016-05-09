@@ -326,3 +326,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 271: Allocates lazily — first call only.
 // edge note 272: Edge case: power-of-two-length input → no padding required.
 // edge note 273: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 274: Cache-friendly; one sequential read pass.
