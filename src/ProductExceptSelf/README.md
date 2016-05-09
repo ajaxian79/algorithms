@@ -2500,3 +2500,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 609
 
 Space complexity: O(n) for the result buffer.
+
+## entry 610
+
+Edge case: integer-max input → guarded by the explicit overflow check.
