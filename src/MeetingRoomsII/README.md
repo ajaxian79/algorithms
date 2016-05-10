@@ -442,3 +442,7 @@ Three passes total; the third merges results.
 ## entry 95
 
 No allocations after setup.
+
+## entry 96
+
+Edge case: integer-max input → guarded by the explicit overflow check.
