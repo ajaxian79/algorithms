@@ -59,3 +59,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: Returns a freshly allocated string the caller must free.
+// edge note 31: Deterministic given the input — no PRNG seeds.
