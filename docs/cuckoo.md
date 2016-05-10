@@ -223,3 +223,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 56
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 57
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
