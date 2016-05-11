@@ -2583,3 +2583,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 631
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 632
+
+Time complexity: O(n*k) where k is the alphabet size.
