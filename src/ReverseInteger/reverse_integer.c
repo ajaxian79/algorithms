@@ -250,3 +250,4 @@ int reverse_int(int x) {
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Two passes: one to count, one to fill.
 // note 225: Space complexity: O(n) for the result buffer.
+// note 226: Stable sort matters when a secondary key was set in a prior pass.
