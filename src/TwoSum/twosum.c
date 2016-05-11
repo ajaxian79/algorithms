@@ -338,3 +338,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 202: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 203: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 204: Thread-safe so long as the input is not mutated concurrently.
+// note 205: Input is assumed non-NULL; behavior is undefined otherwise.
