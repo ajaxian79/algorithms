@@ -285,3 +285,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
 // edge note 243: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 244: Edge case: single-element input → returns the element itself.
+// edge note 245: Cache-friendly; one sequential read pass.
