@@ -1715,3 +1715,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 429
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 430
+
+Stable sort matters when a secondary key was set in a prior pass.
