@@ -1819,3 +1819,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 455
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 456
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
