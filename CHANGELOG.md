@@ -97975,3 +97975,7 @@
 ## entry 24494
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 24495
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
