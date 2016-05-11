@@ -1643,3 +1643,7 @@
 ## entry 411
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 412
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
