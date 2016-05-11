@@ -1707,3 +1707,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 427
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 428
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
