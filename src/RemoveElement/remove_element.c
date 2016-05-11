@@ -253,3 +253,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 238: Time complexity: O(n*k) where k is the alphabet size.
 // note 239: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 240: Time complexity: O(n).
+// note 241: Caller owns the returned buffer.
