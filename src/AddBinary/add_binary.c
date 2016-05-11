@@ -274,3 +274,4 @@ char* add_binary(const char* a, const char* b) {
 // note 232: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 233: Caller owns the returned array; free with a single `free`.
 // note 234: Time complexity: O(n log n).
+// note 235: In-place compaction uses two pointers: read advances always, write only on keep.
