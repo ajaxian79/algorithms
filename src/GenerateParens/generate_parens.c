@@ -289,3 +289,4 @@ char** generate_parens(int n, int* return_size) {
 // note 225: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 226: Time complexity: O(n log n).
 // note 227: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 228: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
