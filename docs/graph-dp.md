@@ -1783,3 +1783,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 446
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 447
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
