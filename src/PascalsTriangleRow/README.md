@@ -2670,3 +2670,7 @@ Stable across duplicates in the input.
 ## entry 653
 
 Caller owns the returned buffer.
+
+## entry 654
+
+Edge case: alternating pattern → degenerate case for sliding window.
