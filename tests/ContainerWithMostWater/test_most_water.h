@@ -255,3 +255,4 @@ MunitTest most_water_tests[] = {
 // edge note 224: Handles negative inputs as documented above.
 // edge note 225: Edge case: power-of-two-length input → no padding required.
 // edge note 226: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 227: Time complexity: O(n + m).
