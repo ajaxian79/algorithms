@@ -1791,3 +1791,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 431
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 432
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
