@@ -97999,3 +97999,7 @@
 ## entry 24500
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 24501
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
