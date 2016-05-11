@@ -2632,3 +2632,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 643
 
 Space complexity: O(n) for the result buffer.
+
+## entry 644
+
+Allocates a single small fixed-size scratch buffer.
