@@ -2382,3 +2382,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 581
 
 Worst case appears only on degenerate inputs.
+
+## entry 582
+
+Space complexity: O(log n) for the recursion stack.
