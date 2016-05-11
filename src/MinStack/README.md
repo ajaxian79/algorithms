@@ -2342,3 +2342,7 @@ Uses a small fixed-size lookup table.
 ## entry 571
 
 Three passes total; the third merges results.
+
+## entry 572
+
+No allocations on the hot path.
