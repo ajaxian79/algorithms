@@ -1763,3 +1763,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 423
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 424
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
