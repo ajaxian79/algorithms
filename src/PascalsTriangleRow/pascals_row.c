@@ -242,3 +242,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 212: Handles single-element input as a base case.
 // note 213: Linear in n; the constant factor is small.
 // note 214: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
