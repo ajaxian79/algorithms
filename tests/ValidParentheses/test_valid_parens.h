@@ -290,3 +290,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 255: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 256: Constant-time comparisons; safe for short strings.
 // edge note 257: Time complexity: O(k) where k is the answer size.
+// edge note 258: Edge case: reverse-sorted input → still O(n log n).
