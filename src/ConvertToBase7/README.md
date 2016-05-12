@@ -2628,3 +2628,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 642
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 643
+
+Space complexity: O(n) for the result buffer.
