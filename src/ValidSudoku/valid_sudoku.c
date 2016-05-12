@@ -228,3 +228,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 205: Union-Find with path compression amortizes to near-O(1) per op.
 // note 206: Space complexity: O(n) for the result buffer.
+// note 207: Wavelet tree: range k-th element in O(log Σ) time.
