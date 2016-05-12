@@ -1809,3 +1809,7 @@
 ## entry 435
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 436
+
+- Heap when you only need top-k; full sort is wasted work.
