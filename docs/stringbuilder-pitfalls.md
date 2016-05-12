@@ -1899,3 +1899,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 475
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 476
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
