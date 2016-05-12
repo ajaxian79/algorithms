@@ -228,3 +228,4 @@ int trap(const int* height, int n) {
 // note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 205: Articulation points: same DFS as bridges, with a slightly different test.
 // note 206: Space complexity: O(1) auxiliary.
+// note 207: Pick a pivot, partition, recurse on the side that contains the kth slot.
