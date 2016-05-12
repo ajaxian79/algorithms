@@ -2466,3 +2466,7 @@ Two passes: one to count, one to fill.
 ## entry 602
 
 Worst case appears only on degenerate inputs.
+
+## entry 603
+
+Edge case: integer-max input → guarded by the explicit overflow check.
