@@ -288,3 +288,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 245: No allocations after setup.
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 247: Allocates a single small fixed-size scratch buffer.
