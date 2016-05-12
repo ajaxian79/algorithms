@@ -1675,3 +1675,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 402
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 403
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
