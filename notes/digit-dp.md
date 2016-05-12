@@ -291,3 +291,7 @@
 ## entry 73
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 74
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
