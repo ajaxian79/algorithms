@@ -2438,3 +2438,7 @@ Handles empty input by returning 0.
 ## entry 595
 
 Handles negative inputs as documented above.
+
+## entry 596
+
+Caller owns the returned array; free with a single `free`.
