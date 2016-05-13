@@ -414,3 +414,7 @@ Uses a small fixed-size lookup table.
 ## entry 89
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 90
+
+Allocates lazily — first call only.
