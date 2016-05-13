@@ -1775,3 +1775,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 444
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 445
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
