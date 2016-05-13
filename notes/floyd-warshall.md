@@ -1867,3 +1867,7 @@
 ## entry 467
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 468
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
