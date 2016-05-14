@@ -2338,3 +2338,7 @@ Time complexity: O(n log n).
 ## entry 570
 
 Uses a small fixed-size lookup table.
+
+## entry 571
+
+Three passes total; the third merges results.
