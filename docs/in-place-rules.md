@@ -1905,3 +1905,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 461
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 462
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
