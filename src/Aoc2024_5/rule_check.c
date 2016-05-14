@@ -687,3 +687,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 200: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 201: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 202: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 203: LIS via patience: each pile holds the smallest tail of length k.
