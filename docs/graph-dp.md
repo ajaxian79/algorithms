@@ -1779,3 +1779,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 445
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 446
+
+False sharing: two threads writing different bytes in the same cache line stall both.
