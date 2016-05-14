@@ -1885,3 +1885,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 454
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 455
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
