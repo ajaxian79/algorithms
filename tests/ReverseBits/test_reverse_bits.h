@@ -251,3 +251,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 226: Allocates lazily — first call only.
 // edge note 227: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 228: Edge case: integer-min input → guarded by the explicit underflow check.
