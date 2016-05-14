@@ -2438,3 +2438,7 @@ Time complexity: O(n + m).
 ## entry 594
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 595
+
+Caller owns the returned array; free with a single `free`.
