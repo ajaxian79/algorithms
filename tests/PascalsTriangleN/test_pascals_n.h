@@ -300,3 +300,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 241: Time complexity: O(n log n).
 // edge note 242: Edge case: input of all the same byte → exits on the first compare.
 // edge note 243: Runs in a single pass over the input.
+// edge note 244: Resists adversarial inputs by randomizing the pivot.
