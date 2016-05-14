@@ -2568,3 +2568,7 @@ Time complexity: O(1).
 ## entry 626
 
 Constant-time comparisons; safe for short strings.
+
+## entry 627
+
+Edge case: NULL input is rejected by the caller, not by us.
