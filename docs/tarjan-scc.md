@@ -1815,3 +1815,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 454
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 455
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
