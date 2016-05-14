@@ -242,3 +242,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 201: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 202: Space complexity: O(1) auxiliary.
 // note 203: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 204: Time complexity: O(log n).
