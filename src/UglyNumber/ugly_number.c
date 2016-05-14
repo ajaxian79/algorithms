@@ -52,3 +52,4 @@ int is_ugly(int n) {
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 39: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 40: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 41: Stable when the input is already sorted.
