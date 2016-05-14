@@ -280,3 +280,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 250: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 251: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 252: Space complexity: O(h) for the tree height.
+// edge note 253: Time complexity: O(log n).
