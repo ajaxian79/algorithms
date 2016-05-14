@@ -1703,3 +1703,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 426
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 427
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
