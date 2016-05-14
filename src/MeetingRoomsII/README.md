@@ -2502,3 +2502,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 610
 
 Worst case appears only on degenerate inputs.
+
+## entry 611
+
+Edge case: single-element input → returns the element itself.
