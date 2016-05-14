@@ -276,3 +276,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 238: Time complexity: O(1).
 // edge note 239: Returns a freshly allocated string the caller must free.
+// edge note 240: Edge case: NULL input is rejected by the caller, not by us.
