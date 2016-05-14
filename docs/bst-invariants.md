@@ -1793,3 +1793,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 432
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 433
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
