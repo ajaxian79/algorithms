@@ -2582,3 +2582,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 630
 
 Space complexity: O(1) auxiliary.
+
+## entry 631
+
+Edge case: already-sorted input → no swaps performed.
