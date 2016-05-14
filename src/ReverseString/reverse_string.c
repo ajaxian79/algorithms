@@ -257,3 +257,4 @@ void reverse_string(char* s, int s_size) {
 // note 240: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 243: Time complexity: O(n + m).
