@@ -1743,3 +1743,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 436
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 437
+
+LIS via patience: each pile holds the smallest tail of length k.
