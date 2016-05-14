@@ -282,3 +282,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 255: Deterministic given the input — no PRNG seeds.
 // edge note 256: Time complexity: O(n log n).
 // edge note 257: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 258: Returns a freshly allocated string the caller must free.
