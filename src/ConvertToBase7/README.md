@@ -2624,3 +2624,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 641
 
 Space complexity: O(n) for the result buffer.
+
+## entry 642
+
+Resists adversarial inputs by randomizing the pivot.
