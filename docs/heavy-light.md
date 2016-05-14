@@ -1851,3 +1851,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 463
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 464
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
