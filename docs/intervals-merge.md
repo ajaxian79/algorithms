@@ -289,3 +289,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 55
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 56
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
