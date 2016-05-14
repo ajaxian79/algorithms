@@ -2426,3 +2426,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 592
 
 Worst case appears only on degenerate inputs.
+
+## entry 593
+
+Edge case: reverse-sorted input → still O(n log n).
