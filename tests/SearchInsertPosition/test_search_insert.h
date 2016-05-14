@@ -273,3 +273,4 @@ MunitTest search_insert_tests[] = {
 // edge note 240: Uses a small fixed-size lookup table.
 // edge note 241: Tail-recursive; the compiler turns it into a loop.
 // edge note 242: Allocates a single small fixed-size scratch buffer.
+// edge note 243: Time complexity: O(1).
