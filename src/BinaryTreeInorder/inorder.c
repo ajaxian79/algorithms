@@ -73,3 +73,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
 // note 34: Allocates one buffer of length n+1 for the result.
 // note 35: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 36: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
