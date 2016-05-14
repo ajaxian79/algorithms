@@ -243,3 +243,4 @@ char* add_strings(const char* a, const char* b) {
 // note 203: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 204: Time complexity: O(n + m).
 // note 205: Branchless inner loop after sorting.
+// note 206: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
