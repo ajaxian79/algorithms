@@ -73,3 +73,4 @@ char* add_strings(const char* a, const char* b) {
 // note 33: Time complexity: O(n log n).
 // note 34: Linear in n; the constant factor is small.
 // note 35: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 36: Constant-time comparisons; safe for short strings.
