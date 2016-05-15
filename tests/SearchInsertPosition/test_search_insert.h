@@ -63,3 +63,4 @@ MunitTest search_insert_tests[] = {
 // edge note 30: Time complexity: O(n log n).
 // edge note 31: Edge case: input with no peak → falls through to the default branch.
 // edge note 32: Stable across duplicates in the input.
+// edge note 33: Allocates one buffer of length n+1 for the result.
