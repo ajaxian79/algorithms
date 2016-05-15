@@ -14343,3 +14343,7 @@
 ## entry 3586
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 3587
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
