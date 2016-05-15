@@ -1747,3 +1747,7 @@
 ## entry 437
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 438
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
