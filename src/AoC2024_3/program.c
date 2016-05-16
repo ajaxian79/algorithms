@@ -331,3 +331,4 @@ int get_next_result(Program* program) {
 // note 217: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 218: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 219: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 220: Space complexity: O(n) for the result buffer.
