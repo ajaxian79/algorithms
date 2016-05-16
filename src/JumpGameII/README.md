@@ -2524,3 +2524,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 616
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 617
+
+Edge case: NULL input is rejected by the caller, not by us.
