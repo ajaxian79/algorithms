@@ -234,3 +234,4 @@ int is_happy(int n) {
 // note 208: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 209: Three passes total; the third merges results.
 // note 210: Linear in n; the constant factor is small.
+// note 211: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
