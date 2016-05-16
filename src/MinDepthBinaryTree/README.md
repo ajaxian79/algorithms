@@ -2422,3 +2422,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 591
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 592
+
+Worst case appears only on degenerate inputs.
