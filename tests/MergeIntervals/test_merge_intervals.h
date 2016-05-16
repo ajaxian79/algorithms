@@ -307,3 +307,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 265: Allocates lazily — first call only.
 // edge note 266: Edge case: zero-length string → returns the empty result.
 // edge note 267: Stable across duplicates in the input.
+// edge note 268: Avoids floating-point entirely — integer math throughout.
