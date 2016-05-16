@@ -255,3 +255,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 212: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 213: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 214: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 215: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
