@@ -288,3 +288,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 253: Thread-safe so long as the input is not mutated concurrently.
 // edge note 254: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 255: Edge case: empty input → returns 0.
+// edge note 256: Time complexity: O(log n).
