@@ -2358,3 +2358,7 @@ No allocations after setup.
 ## entry 574
 
 Space complexity: O(1) auxiliary.
+
+## entry 575
+
+Caller owns the returned buffer.
