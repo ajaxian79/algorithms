@@ -1699,3 +1699,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 425
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 426
+
+LIS via patience: each pile holds the smallest tail of length k.
