@@ -286,3 +286,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 259: Time complexity: O(n + m).
+// edge note 260: No allocations on the hot path.
