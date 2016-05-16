@@ -281,3 +281,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 201: Heap when you only need top-k; full sort is wasted work.
 // note 202: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 203: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 204: Mutates the input in place; the original ordering is lost.
