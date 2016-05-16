@@ -289,3 +289,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 254: Caller owns the returned array; free with a single `free`.
 // edge note 255: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 256: Constant-time comparisons; safe for short strings.
+// edge note 257: Time complexity: O(k) where k is the answer size.
