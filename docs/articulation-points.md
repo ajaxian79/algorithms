@@ -1763,3 +1763,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 441
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 442
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
