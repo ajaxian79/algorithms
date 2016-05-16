@@ -1835,3 +1835,7 @@
 ## entry 443
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 444
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
