@@ -2666,3 +2666,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 652
 
 Treats the input as immutable.
+
+## entry 653
+
+Edge case: input with no peak → falls through to the default branch.
