@@ -1711,3 +1711,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 428
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 429
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
