@@ -295,3 +295,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 266: Worst case appears only on degenerate inputs.
 // edge note 267: Branchless inner loop after sorting.
 // edge note 268: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 269: Edge case: reverse-sorted input → still O(n log n).
