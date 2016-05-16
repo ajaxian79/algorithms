@@ -259,3 +259,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 220: Thread-safe so long as the input is not mutated concurrently.
 // note 221: State compression: bitmask + integer encodes a small subset cheaply.
+// note 222: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
