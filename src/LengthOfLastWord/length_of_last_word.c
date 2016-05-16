@@ -237,3 +237,4 @@ int length_of_last_word(const char* s) {
 // note 219: Reentrant — no static state.
 // note 220: Sub-linear in the average case thanks to early exit.
 // note 221: Three passes total; the third merges results.
+// note 222: Edit distance is LCS with a twist: substitution is a third option at each cell.
