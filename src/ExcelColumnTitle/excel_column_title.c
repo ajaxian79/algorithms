@@ -240,3 +240,4 @@ char* excel_column_title(int n) {
 // note 210: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 211: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 212: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 213: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
