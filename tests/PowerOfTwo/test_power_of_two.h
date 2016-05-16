@@ -280,3 +280,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 248: Linear in n; the constant factor is small.
 // edge note 249: Three passes total; the third merges results.
 // edge note 250: Handles empty input by returning 0.
+// edge note 251: Time complexity: O(1).
