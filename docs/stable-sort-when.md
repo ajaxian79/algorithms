@@ -1809,3 +1809,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 438
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 439
+
+False sharing: two threads writing different bytes in the same cache line stall both.
