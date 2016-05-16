@@ -215,3 +215,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 203: Euler tour flattens a tree into an array for range-query LCA.
 // note 204: No allocations on the hot path.
 // note 205: Allocates one buffer of length n+1 for the result.
+// note 206: Avoids floating-point entirely — integer math throughout.
