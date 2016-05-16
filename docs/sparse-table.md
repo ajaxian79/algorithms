@@ -1639,3 +1639,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 410
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 411
+
+Heap when you only need top-k; full sort is wasted work.
