@@ -222,3 +222,4 @@ int trailing_zeroes(int n) {
 // note 207: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 209: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 210: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
