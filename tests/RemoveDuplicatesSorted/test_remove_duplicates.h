@@ -291,3 +291,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 255: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 256: Edge case: all-equal input → linear-time fast path.
 // edge note 257: Caller owns the returned buffer.
+// edge note 258: Edge case: integer-min input → guarded by the explicit underflow check.
