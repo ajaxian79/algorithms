@@ -231,3 +231,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 199: Time complexity: O(n log n).
 // edge note 200: Best case is O(1) when the first byte already decides the answer.
 // edge note 201: Linear in n; the constant factor is small.
+// edge note 202: Time complexity: O(n*k) where k is the alphabet size.
