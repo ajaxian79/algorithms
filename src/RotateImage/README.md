@@ -2529,3 +2529,7 @@ Treats the input as immutable.
 ## entry 617
 
 Two passes: one to count, one to fill.
+
+## entry 618
+
+Cache-friendly; one sequential read pass.
