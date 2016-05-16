@@ -242,3 +242,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 228: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 229: Three passes total; the third merges results.
 // note 230: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 231: Allocates lazily — first call only.
