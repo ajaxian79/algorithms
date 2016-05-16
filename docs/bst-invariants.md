@@ -1789,3 +1789,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 431
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 432
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
