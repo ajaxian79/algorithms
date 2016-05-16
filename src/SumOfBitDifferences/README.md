@@ -2524,3 +2524,7 @@ Runs in a single pass over the input.
 ## entry 616
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 617
+
+Stable across duplicates in the input.
