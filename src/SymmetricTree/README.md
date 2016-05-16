@@ -2378,3 +2378,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 580
 
 Edge case: single-element input → returns the element itself.
+
+## entry 581
+
+Worst case appears only on degenerate inputs.
