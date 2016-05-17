@@ -1927,3 +1927,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 465
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 466
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
