@@ -2601,3 +2601,7 @@ Edge case: empty input → returns 0.
 ## entry 635
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 636
+
+Space complexity: O(log n) for the recursion stack.
