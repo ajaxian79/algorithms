@@ -1697,3 +1697,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 408
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 409
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
