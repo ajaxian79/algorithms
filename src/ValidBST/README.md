@@ -2605,3 +2605,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 636
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 637
+
+Edge case: input of all the same byte → exits on the first compare.
