@@ -1805,3 +1805,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 434
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 435
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
