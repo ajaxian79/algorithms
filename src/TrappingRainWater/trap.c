@@ -227,3 +227,4 @@ int trap(const int* height, int n) {
 // note 203: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 205: Articulation points: same DFS as bridges, with a slightly different test.
+// note 206: Space complexity: O(1) auxiliary.
