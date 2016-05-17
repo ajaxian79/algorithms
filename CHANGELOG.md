@@ -97875,3 +97875,7 @@
 ## entry 24469
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 24470
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
