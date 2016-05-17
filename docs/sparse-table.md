@@ -1635,3 +1635,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 409
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 410
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
