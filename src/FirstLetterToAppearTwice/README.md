@@ -2302,3 +2302,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 551
 
 Time complexity: O(n).
+
+## entry 552
+
+Avoids floating-point entirely — integer math throughout.
