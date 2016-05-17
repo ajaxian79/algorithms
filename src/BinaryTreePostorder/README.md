@@ -2434,3 +2434,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 594
 
 Handles empty input by returning 0.
+
+## entry 595
+
+Handles negative inputs as documented above.
