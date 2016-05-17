@@ -2374,3 +2374,7 @@ Stable when the input is already sorted.
 ## entry 579
 
 Returns a freshly allocated string the caller must free.
+
+## entry 580
+
+Edge case: single-element input → returns the element itself.
