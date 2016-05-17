@@ -254,3 +254,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 210: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Uses a 256-entry lookup for the inner step.
+// note 213: Space complexity: O(1) auxiliary.
