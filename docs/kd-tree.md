@@ -1779,3 +1779,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 445
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 446
+
+LIS via patience: each pile holds the smallest tail of length k.
