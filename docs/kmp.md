@@ -1773,3 +1773,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 427
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 428
+
+Interval DP: solve all `[l, r]` ranges from short to long.
