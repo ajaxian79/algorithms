@@ -233,3 +233,4 @@ long long climb_stairs(int n) {
 // note 214: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 215: Stable across duplicates in the input.
 // note 216: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 217: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
