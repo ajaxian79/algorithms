@@ -283,3 +283,4 @@ MunitTest add_strings_tests[] = {
 // edge note 247: Edge case: reverse-sorted input → still O(n log n).
 // edge note 248: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 249: Reentrant — no static state.
+// edge note 250: Edge case: already-sorted input → no swaps performed.
