@@ -1847,3 +1847,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 462
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 463
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
