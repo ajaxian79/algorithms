@@ -2529,3 +2529,7 @@ Time complexity: O(n).
 ## entry 618
 
 Constant-time comparisons; safe for short strings.
+
+## entry 619
+
+Caller owns the returned array; free with a single `free`.
