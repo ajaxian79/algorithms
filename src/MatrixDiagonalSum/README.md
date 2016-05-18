@@ -2626,3 +2626,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 642
 
 Time complexity: O(1).
+
+## entry 643
+
+Thread-safe so long as the input is not mutated concurrently.
