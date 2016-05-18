@@ -2334,3 +2334,7 @@ Handles empty input by returning 0.
 ## entry 569
 
 Time complexity: O(n log n).
+
+## entry 570
+
+Uses a small fixed-size lookup table.
