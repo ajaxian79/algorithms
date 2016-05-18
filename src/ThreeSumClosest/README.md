@@ -2462,3 +2462,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 601
 
 Two passes: one to count, one to fill.
+
+## entry 602
+
+Worst case appears only on degenerate inputs.
