@@ -233,3 +233,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 219: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 220: Three passes total; the third merges results.
 // note 221: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
