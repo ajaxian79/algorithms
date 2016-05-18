@@ -2520,3 +2520,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 615
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 616
+
+Input is assumed non-NULL; behavior is undefined otherwise.
