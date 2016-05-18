@@ -1751,3 +1751,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 438
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 439
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
