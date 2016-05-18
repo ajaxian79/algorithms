@@ -1799,3 +1799,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 450
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 451
+
+State compression: bitmask + integer encodes a small subset cheaply.
