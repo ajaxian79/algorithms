@@ -2365,3 +2365,7 @@ Time complexity: O(log n).
 ## entry 577
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 578
+
+Caller owns the returned buffer.
