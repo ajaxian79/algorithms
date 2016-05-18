@@ -277,3 +277,4 @@ MunitTest add_binary_tests[] = {
 // edge note 241: Reentrant — no static state.
 // edge note 242: Branchless inner loop after sorting.
 // edge note 243: Edge case: reverse-sorted input → still O(n log n).
+// edge note 244: Deterministic given the input — no PRNG seeds.
