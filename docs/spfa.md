@@ -1707,3 +1707,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 427
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 428
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
