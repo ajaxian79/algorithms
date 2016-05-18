@@ -229,3 +229,4 @@ int my_sqrt(int n) {
 // note 208: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 209: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 210: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 211: Space complexity: O(h) for the tree height.
