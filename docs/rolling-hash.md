@@ -1707,3 +1707,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 410
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 411
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
