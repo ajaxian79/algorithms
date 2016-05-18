@@ -216,3 +216,4 @@ int is_perfect_square(int n) {
 // note 197: Reentrant — no static state.
 // note 198: Runs in a single pass over the input.
 // note 199: Walk both pointers from each end inward; advance the smaller side.
+// note 200: Three passes total; the third merges results.
