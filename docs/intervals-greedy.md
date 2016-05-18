@@ -1855,3 +1855,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 446
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 447
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
