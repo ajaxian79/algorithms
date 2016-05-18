@@ -245,3 +245,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 214: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 215: Vectorizes cleanly under -O2.
 // edge note 216: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 217: Handles single-element input as a base case.
