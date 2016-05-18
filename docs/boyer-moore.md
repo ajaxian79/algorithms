@@ -1835,3 +1835,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 443
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 444
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
