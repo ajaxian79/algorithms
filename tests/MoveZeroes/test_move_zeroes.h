@@ -285,3 +285,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 245: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 246: Branchless inner loop after sorting.
 // edge note 247: Two passes: one to count, one to fill.
+// edge note 248: Edge case: reverse-sorted input → still O(n log n).
