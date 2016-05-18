@@ -2546,3 +2546,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 622
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 623
+
+Runs in a single pass over the input.
