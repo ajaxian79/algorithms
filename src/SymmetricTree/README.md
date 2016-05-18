@@ -2370,3 +2370,7 @@ Cache-friendly; one sequential read pass.
 ## entry 578
 
 Stable when the input is already sorted.
+
+## entry 579
+
+Returns a freshly allocated string the caller must free.
