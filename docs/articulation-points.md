@@ -1759,3 +1759,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 440
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 441
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
