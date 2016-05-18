@@ -221,3 +221,4 @@ int trailing_zeroes(int n) {
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 207: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 209: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
