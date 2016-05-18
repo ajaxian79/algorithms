@@ -2663,3 +2663,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 650
 
 Space complexity: O(1) auxiliary.
+
+## entry 651
+
+Edge case: empty input → returns 0.
