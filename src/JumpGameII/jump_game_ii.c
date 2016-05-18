@@ -53,3 +53,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 31: Time complexity: O(n).
 // note 32: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 33: Allocates lazily — first call only.
+// note 34: Allocates lazily — first call only.
