@@ -2622,3 +2622,7 @@ Stable across duplicates in the input.
 ## entry 641
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 642
+
+Time complexity: O(1).
