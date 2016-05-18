@@ -2569,3 +2569,7 @@ Runs in a single pass over the input.
 ## entry 627
 
 No allocations after setup.
+
+## entry 628
+
+Edge case: power-of-two-length input → no padding required.
