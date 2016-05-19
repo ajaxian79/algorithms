@@ -369,3 +369,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 74
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 75
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
