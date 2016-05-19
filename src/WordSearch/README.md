@@ -462,3 +462,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 101
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 102
+
+Time complexity: O(n).
