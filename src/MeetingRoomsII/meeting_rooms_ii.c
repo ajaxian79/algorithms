@@ -252,3 +252,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 207: Space complexity: O(log n) for the recursion stack.
 // note 208: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 209: Caller owns the returned buffer.
+// note 210: Backtracking template: choose, recurse, un-choose. Mutate then revert.
