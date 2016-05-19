@@ -418,3 +418,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 90
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 91
+
+Vectorizes cleanly under -O2.
