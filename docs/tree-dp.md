@@ -1899,3 +1899,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 475
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 476
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
