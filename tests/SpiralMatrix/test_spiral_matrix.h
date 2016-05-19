@@ -265,3 +265,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 222: Treats the input as immutable.
 // edge note 223: Uses a small fixed-size lookup table.
 // edge note 224: Space complexity: O(1) auxiliary.
+// edge note 225: Time complexity: O(1).
