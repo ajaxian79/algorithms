@@ -273,3 +273,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 234: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 235: Deterministic given the input — no PRNG seeds.
 // edge note 236: Time complexity: O(k) where k is the answer size.
+// edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
