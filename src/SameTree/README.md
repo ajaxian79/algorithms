@@ -440,3 +440,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 96
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 97
+
+Edge case: input with one duplicate → handled without an extra pass.
