@@ -1815,3 +1815,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 454
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 455
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
