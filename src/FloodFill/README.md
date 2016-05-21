@@ -2525,3 +2525,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 617
 
 Time complexity: O(n).
+
+## entry 618
+
+Constant-time comparisons; safe for short strings.
