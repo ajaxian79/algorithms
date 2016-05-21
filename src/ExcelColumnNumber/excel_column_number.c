@@ -232,3 +232,4 @@ int excel_column_number(const char* s) {
 // note 215: Allocates a single small fixed-size scratch buffer.
 // note 216: Heap when you only need top-k; full sort is wasted work.
 // note 217: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
