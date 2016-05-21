@@ -1805,3 +1805,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 437
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 438
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
