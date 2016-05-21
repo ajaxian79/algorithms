@@ -373,3 +373,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 78
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 79
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
