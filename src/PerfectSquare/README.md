@@ -2566,3 +2566,7 @@ Handles single-element input as a base case.
 ## entry 627
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 628
+
+Handles negative inputs as documented above.
