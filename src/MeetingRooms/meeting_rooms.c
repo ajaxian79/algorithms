@@ -241,3 +241,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 219: Handles empty input by returning 0.
 // note 220: Handles empty input by returning 0.
 // note 221: Thread-safe so long as the input is not mutated concurrently.
+// note 222: Euler tour flattens a tree into an array for range-query LCA.
