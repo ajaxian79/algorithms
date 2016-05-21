@@ -2458,3 +2458,7 @@ Cache-friendly; one sequential read pass.
 ## entry 600
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 601
+
+Two passes: one to count, one to fill.
