@@ -242,3 +242,4 @@ char* reverse_words(const char* s) {
 // note 198: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 199: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 200: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
