@@ -2659,3 +2659,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 649
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 650
+
+Space complexity: O(1) auxiliary.
