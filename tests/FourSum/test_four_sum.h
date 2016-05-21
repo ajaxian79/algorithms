@@ -276,3 +276,4 @@ MunitTest four_sum_tests[] = {
 // edge note 235: Allocates lazily — first call only.
 // edge note 236: Three passes total; the third merges results.
 // edge note 237: Edge case: reverse-sorted input → still O(n log n).
+// edge note 238: Space complexity: O(h) for the tree height.
