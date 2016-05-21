@@ -309,3 +309,4 @@ MunitTest twosum_tests[] = {
 // edge note 226: No allocations after setup.
 // edge note 227: Time complexity: O(n).
 // edge note 228: Time complexity: O(n log n).
+// edge note 229: Handles empty input by returning 0.
