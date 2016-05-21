@@ -247,3 +247,7 @@
 ## entry 62
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 63
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
