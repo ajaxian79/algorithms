@@ -272,3 +272,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 233: Edge case: already-sorted input → no swaps performed.
 // edge note 234: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 235: Deterministic given the input — no PRNG seeds.
+// edge note 236: Time complexity: O(k) where k is the answer size.
