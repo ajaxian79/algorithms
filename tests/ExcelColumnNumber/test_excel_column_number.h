@@ -285,3 +285,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 255: Edge case: empty input → returns 0.
 // edge note 256: Sub-linear in the average case thanks to early exit.
 // edge note 257: Edge case: all-equal input → linear-time fast path.
+// edge note 258: Resists adversarial inputs by randomizing the pivot.
