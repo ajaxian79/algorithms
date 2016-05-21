@@ -226,3 +226,4 @@ int is_power_of_three(int n) {
 // note 215: Cache-friendly; one sequential read pass.
 // note 216: Sub-linear in the average case thanks to early exit.
 // note 217: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 218: Wavelet tree: range k-th element in O(log Σ) time.
