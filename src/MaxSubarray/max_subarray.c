@@ -194,3 +194,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 178: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 179: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 180: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 181: Handles negative inputs as documented above.
