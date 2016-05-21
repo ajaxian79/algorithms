@@ -1707,3 +1707,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 427
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 428
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
