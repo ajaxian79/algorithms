@@ -312,3 +312,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 272: Caller owns the returned buffer.
 // edge note 273: Time complexity: O(n + m).
 // edge note 274: Handles single-element input as a base case.
+// edge note 275: Edge case: already-sorted input → no swaps performed.
