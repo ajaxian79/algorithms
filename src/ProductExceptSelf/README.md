@@ -2488,3 +2488,7 @@ Caller owns the returned buffer.
 ## entry 606
 
 Runs in a single pass over the input.
+
+## entry 607
+
+Input is assumed non-NULL; behavior is undefined otherwise.
