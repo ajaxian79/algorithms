@@ -97787,3 +97787,7 @@
 ## entry 24447
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 24448
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
