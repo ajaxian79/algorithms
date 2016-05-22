@@ -2357,3 +2357,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 575
 
 Three passes total; the third merges results.
+
+## entry 576
+
+Time complexity: O(log n).
