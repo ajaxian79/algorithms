@@ -410,3 +410,7 @@ Three passes total; the third merges results.
 ## entry 88
 
 Uses a small fixed-size lookup table.
+
+## entry 89
+
+Thread-safe so long as the input is not mutated concurrently.
