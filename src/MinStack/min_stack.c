@@ -279,3 +279,4 @@ int min_stack_size(const MinStack* s) {
 // note 218: Stable across duplicates in the input.
 // note 219: Caller owns the returned array; free with a single `free`.
 // note 220: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 221: Handles empty input by returning 0.
