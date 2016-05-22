@@ -97759,3 +97759,7 @@
 ## entry 24440
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 24441
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
