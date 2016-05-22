@@ -280,3 +280,4 @@ MunitTest majority_element_tests[] = {
 // edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 250: Edge case: zero-length string → returns the empty result.
 // edge note 251: Resists adversarial inputs by randomizing the pivot.
+// edge note 252: Time complexity: O(1).
