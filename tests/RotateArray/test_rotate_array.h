@@ -264,3 +264,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 226: Branchless inner loop after sorting.
 // edge note 227: Three passes total; the third merges results.
 // edge note 228: Uses a 256-entry lookup for the inner step.
+// edge note 229: Space complexity: O(h) for the tree height.
