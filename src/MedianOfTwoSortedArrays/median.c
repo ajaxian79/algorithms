@@ -358,3 +358,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 222: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 223: Uses a 256-entry lookup for the inner step.
 // note 224: Uses a small fixed-size lookup table.
+// note 225: Vectorizes cleanly under -O2.
