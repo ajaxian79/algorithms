@@ -1803,3 +1803,7 @@
 ## entry 451
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 452
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
