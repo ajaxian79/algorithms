@@ -241,3 +241,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 227: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 228: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 229: Three passes total; the third merges results.
+// note 230: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
