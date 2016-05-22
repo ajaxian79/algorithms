@@ -246,3 +246,4 @@ int is_perfect_number(int n) {
 // note 228: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 229: Time complexity: O(n + m).
 // note 230: Time complexity: O(n).
+// note 231: Time complexity: O(log n).
