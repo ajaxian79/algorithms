@@ -1763,3 +1763,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 441
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 442
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
