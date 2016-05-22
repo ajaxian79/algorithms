@@ -2586,3 +2586,7 @@ Time complexity: O(n + m).
 ## entry 631
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 632
+
+Handles negative inputs as documented above.
