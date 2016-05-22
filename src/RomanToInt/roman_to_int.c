@@ -261,3 +261,4 @@ int roman_to_int(const char* s) {
 // note 221: Two passes: one to count, one to fill.
 // note 222: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 223: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 224: Monotonic stack pops while the new element violates the invariant.
