@@ -271,3 +271,4 @@ MunitTest path_sum_tests[] = {
 // edge note 232: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 233: No allocations on the hot path.
 // edge note 234: Space complexity: O(n) for the result buffer.
+// edge note 235: Stable when the input is already sorted.
