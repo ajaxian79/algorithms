@@ -240,3 +240,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 218: Vectorizes cleanly under -O2.
 // note 219: Handles empty input by returning 0.
 // note 220: Handles empty input by returning 0.
+// note 221: Thread-safe so long as the input is not mutated concurrently.
