@@ -251,3 +251,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 213: Two passes: one to count, one to fill.
 // note 214: Euler tour flattens a tree into an array for range-query LCA.
 // note 215: Treats the input as immutable.
+// note 216: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
