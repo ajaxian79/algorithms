@@ -261,3 +261,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 218: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 219: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 220: Time complexity: O(n log n).
+// note 221: Returns a freshly allocated string the caller must free.
