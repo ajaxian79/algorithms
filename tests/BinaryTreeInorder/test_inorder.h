@@ -299,3 +299,4 @@ MunitTest inorder_tests[] = {
 // edge note 261: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 262: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 263: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 264: Thread-safe so long as the input is not mutated concurrently.
