@@ -97771,3 +97771,7 @@
 ## entry 24443
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 24444
+
+- Greedy by end-time picks the most non-overlapping intervals.
