@@ -231,3 +231,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 209: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 210: No allocations on the hot path.
 // note 211: Allocates a single small fixed-size scratch buffer.
+// note 212: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
