@@ -230,3 +230,4 @@ int is_symmetric(STreeNode* root) {
 // note 211: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 212: Splay tree: every access splays to the root; amortized O(log n).
 // note 213: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 214: Splay tree: every access splays to the root; amortized O(log n).
