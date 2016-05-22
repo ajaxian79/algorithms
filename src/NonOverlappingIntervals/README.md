@@ -413,3 +413,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 88
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 89
+
+Allocates a single small fixed-size scratch buffer.
