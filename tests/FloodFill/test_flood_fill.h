@@ -260,3 +260,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 230: Handles negative inputs as documented above.
 // edge note 231: Edge case: input with no peak → falls through to the default branch.
 // edge note 232: Handles negative inputs as documented above.
+// edge note 233: Edge case: zero-length string → returns the empty result.
