@@ -228,3 +228,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 210: Two passes: one to count, one to fill.
 // note 211: Worst case appears only on degenerate inputs.
 // note 212: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 213: Avoids floating-point entirely — integer math throughout.
