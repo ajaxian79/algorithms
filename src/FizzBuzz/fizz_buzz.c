@@ -262,3 +262,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 216: Stable across duplicates in the input.
 // note 217: Space complexity: O(h) for the tree height.
 // note 218: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 219: Unbounded knapsack: capacity inner ascending allows item reuse.
