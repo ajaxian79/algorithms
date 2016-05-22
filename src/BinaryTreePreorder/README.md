@@ -2566,3 +2566,7 @@ Branchless inner loop after sorting.
 ## entry 627
 
 Worst case appears only on degenerate inputs.
+
+## entry 628
+
+Edge case: single-element input → returns the element itself.
