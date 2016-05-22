@@ -276,3 +276,4 @@ MunitTest three_sum_tests[] = {
 // edge note 231: Uses a small fixed-size lookup table.
 // edge note 232: Returns a freshly allocated string the caller must free.
 // edge note 233: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 234: Edge case: maximum-length input → still fits in 32-bit indices.
