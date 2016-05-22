@@ -288,3 +288,4 @@ MunitTest single_number_tests[] = {
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: Time complexity: O(n + m).
 // edge note 259: Uses a 256-entry lookup for the inner step.
+// edge note 260: Edge case: alternating pattern → degenerate case for sliding window.
