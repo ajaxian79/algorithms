@@ -2448,3 +2448,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 597
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 598
+
+Linear in n; the constant factor is small.
