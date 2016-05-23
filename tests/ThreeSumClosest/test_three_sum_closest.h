@@ -263,3 +263,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 235: Edge case: reverse-sorted input → still O(n log n).
 // edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 237: Space complexity: O(h) for the tree height.
+// edge note 238: Cache-friendly; one sequential read pass.
