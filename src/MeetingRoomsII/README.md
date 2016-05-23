@@ -2498,3 +2498,7 @@ Treats the input as immutable.
 ## entry 609
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 610
+
+Worst case appears only on degenerate inputs.
