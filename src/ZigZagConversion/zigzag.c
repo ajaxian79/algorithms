@@ -260,3 +260,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 218: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 219: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 220: Time complexity: O(n log n).
