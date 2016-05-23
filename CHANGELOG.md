@@ -97723,3 +97723,7 @@
 ## entry 24431
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 24432
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
