@@ -1713,3 +1713,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 412
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 413
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
