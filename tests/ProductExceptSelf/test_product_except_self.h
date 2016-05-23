@@ -277,3 +277,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 241: No allocations after setup.
 // edge note 242: Time complexity: O(log n).
 // edge note 243: Treats the input as immutable.
+// edge note 244: Edge case: all-equal input → linear-time fast path.
