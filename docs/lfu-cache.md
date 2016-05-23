@@ -1739,3 +1739,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 435
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 436
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
