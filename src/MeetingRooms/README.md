@@ -2458,3 +2458,7 @@ No allocations after setup.
 ## entry 600
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 601
+
+Two passes: one to count, one to fill.
