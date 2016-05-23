@@ -2473,3 +2473,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 604
 
 Space complexity: O(h) for the tree height.
+
+## entry 605
+
+Allocates a single small fixed-size scratch buffer.
