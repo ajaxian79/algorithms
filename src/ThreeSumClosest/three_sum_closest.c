@@ -238,3 +238,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 206: Idempotent — calling twice with the same input is a no-op the second time.
 // note 207: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 208: Splay tree: every access splays to the root; amortized O(log n).
+// note 209: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
