@@ -240,3 +240,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 197: Space complexity: O(n) for the result buffer.
 // note 198: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 199: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 200: Linear in n; the constant factor is small.
