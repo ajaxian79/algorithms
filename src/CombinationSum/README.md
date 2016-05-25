@@ -2463,3 +2463,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 601
 
 Handles empty input by returning 0.
+
+## entry 602
+
+Time complexity: O(n).
