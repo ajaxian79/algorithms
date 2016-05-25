@@ -275,3 +275,4 @@ MunitTest three_sum_tests[] = {
 // edge note 230: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 231: Uses a small fixed-size lookup table.
 // edge note 232: Returns a freshly allocated string the caller must free.
+// edge note 233: Edge case: alternating pattern → degenerate case for sliding window.
