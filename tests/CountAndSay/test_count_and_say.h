@@ -243,3 +243,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 212: Allocates lazily — first call only.
 // edge note 213: Deterministic given the input — no PRNG seeds.
 // edge note 214: Mutates the input in place; the original ordering is lost.
+// edge note 215: Two passes: one to count, one to fill.
