@@ -2484,3 +2484,7 @@ Caller owns the returned buffer.
 ## entry 605
 
 32-bit safe; overflow is checked at each step.
+
+## entry 606
+
+Runs in a single pass over the input.
