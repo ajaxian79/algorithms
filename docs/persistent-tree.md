@@ -1779,3 +1779,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 445
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 446
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
