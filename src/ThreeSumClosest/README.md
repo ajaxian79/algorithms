@@ -2450,3 +2450,7 @@ Time complexity: O(1).
 ## entry 598
 
 Time complexity: O(1).
+
+## entry 599
+
+Cache-friendly; one sequential read pass.
