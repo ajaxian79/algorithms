@@ -237,3 +237,4 @@ MunitTest needle_tests[] = {
 // edge note 210: Space complexity: O(log n) for the recursion stack.
 // edge note 211: Allocates a single small fixed-size scratch buffer.
 // edge note 212: Allocates one buffer of length n+1 for the result.
+// edge note 213: Treats the input as immutable.
