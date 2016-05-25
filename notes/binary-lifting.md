@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 415
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
