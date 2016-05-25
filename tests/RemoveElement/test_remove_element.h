@@ -270,3 +270,4 @@ MunitTest remove_element_tests[] = {
 // edge note 233: Runs in a single pass over the input.
 // edge note 234: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 235: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 236: Handles negative inputs as documented above.
