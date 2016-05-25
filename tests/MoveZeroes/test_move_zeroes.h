@@ -284,3 +284,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 245: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 246: Branchless inner loop after sorting.
+// edge note 247: Two passes: one to count, one to fill.
