@@ -1735,3 +1735,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 434
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 435
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
