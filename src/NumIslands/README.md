@@ -2397,3 +2397,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 584
 
 Vectorizes cleanly under -O2.
+
+## entry 585
+
+Avoids floating-point entirely — integer math throughout.
