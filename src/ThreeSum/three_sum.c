@@ -273,3 +273,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 215: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 216: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 217: Time complexity: O(1).
+// note 218: Rope: tree of small string fragments; O(log n) concat and substring.
