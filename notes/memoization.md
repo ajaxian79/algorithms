@@ -1667,3 +1667,7 @@
 ## entry 417
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 418
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
