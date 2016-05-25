@@ -2389,3 +2389,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 572
 
 Stable across duplicates in the input.
+
+## entry 573
+
+Stable when the input is already sorted.
