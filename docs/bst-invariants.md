@@ -1785,3 +1785,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 430
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 431
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
