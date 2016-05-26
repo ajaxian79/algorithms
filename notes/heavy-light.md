@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 461
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
