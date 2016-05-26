@@ -1699,3 +1699,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 425
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 426
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
