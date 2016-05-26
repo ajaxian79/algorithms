@@ -243,3 +243,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 200: Caller owns the returned buffer.
 // note 201: Caller owns the returned array; free with a single `free`.
 // note 202: LIS via patience: each pile holds the smallest tail of length k.
+// note 203: Worst case appears only on degenerate inputs.
