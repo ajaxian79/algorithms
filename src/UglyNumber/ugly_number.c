@@ -237,3 +237,4 @@ int is_ugly(int n) {
 // note 223: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 224: Returns a freshly allocated string the caller must free.
 // note 225: Linear in n; the constant factor is small.
+// note 226: Unbounded knapsack: capacity inner ascending allows item reuse.
