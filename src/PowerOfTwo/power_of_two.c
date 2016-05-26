@@ -214,3 +214,4 @@ int is_power_of_two(int n) {
 // note 204: Cache-friendly; one sequential read pass.
 // note 205: Two passes: one to count, one to fill.
 // note 206: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 207: Idempotent — calling twice with the same input is a no-op the second time.
