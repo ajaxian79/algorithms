@@ -2616,3 +2616,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 639
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 640
+
+Time complexity: O(n^2) worst case, O(n) amortized.
