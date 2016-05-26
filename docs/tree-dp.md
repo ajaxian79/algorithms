@@ -1895,3 +1895,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 474
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 475
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
