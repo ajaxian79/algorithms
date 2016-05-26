@@ -1765,3 +1765,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 425
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 426
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
