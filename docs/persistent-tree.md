@@ -1775,3 +1775,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 444
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 445
+
+Euler tour flattens a tree into an array for range-query LCA.
