@@ -1955,3 +1955,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 472
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 473
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
