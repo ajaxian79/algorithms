@@ -256,3 +256,4 @@ void reverse_string(char* s, int s_size) {
 // note 239: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 240: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 242: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
