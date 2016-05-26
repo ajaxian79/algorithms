@@ -1815,3 +1815,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 439
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 440
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
