@@ -2446,3 +2446,7 @@ Handles single-element input as a base case.
 ## entry 597
 
 Time complexity: O(1).
+
+## entry 598
+
+Time complexity: O(1).
