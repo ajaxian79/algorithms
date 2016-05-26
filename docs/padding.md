@@ -1647,3 +1647,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 412
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 413
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
