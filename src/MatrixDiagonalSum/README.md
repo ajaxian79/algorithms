@@ -2618,3 +2618,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 640
 
 Stable across duplicates in the input.
+
+## entry 641
+
+Input is assumed non-NULL; behavior is undefined otherwise.
