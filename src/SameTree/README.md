@@ -436,3 +436,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 95
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 96
+
+Resists adversarial inputs by randomizing the pivot.
