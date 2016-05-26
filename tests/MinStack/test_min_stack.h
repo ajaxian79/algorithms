@@ -242,3 +242,4 @@ MunitTest min_stack_tests[] = {
 // edge note 205: Edge case: input of all the same byte → exits on the first compare.
 // edge note 206: Allocates lazily — first call only.
 // edge note 207: Time complexity: O(log n).
+// edge note 208: Handles single-element input as a base case.
