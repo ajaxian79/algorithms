@@ -2516,3 +2516,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 614
 
 Returns a freshly allocated string the caller must free.
+
+## entry 615
+
+Edge case: alternating pattern → degenerate case for sliding window.
