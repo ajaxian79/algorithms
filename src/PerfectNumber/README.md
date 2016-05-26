@@ -2345,3 +2345,7 @@ Stable when the input is already sorted.
 ## entry 571
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 572
+
+Space complexity: O(1) auxiliary.
