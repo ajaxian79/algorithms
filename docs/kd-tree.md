@@ -1775,3 +1775,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 444
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 445
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
