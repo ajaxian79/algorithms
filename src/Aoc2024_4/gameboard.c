@@ -374,3 +374,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 221: Idempotent — calling twice with the same input is a no-op the second time.
 // note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 223: Stable sort matters when a secondary key was set in a prior pass.
+// note 224: Heap when you only need top-k; full sort is wasted work.
