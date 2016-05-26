@@ -2550,3 +2550,7 @@ Runs in a single pass over the input.
 ## entry 623
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 624
+
+Edge case: empty input → returns 0.
