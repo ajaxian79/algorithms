@@ -1749,3 +1749,7 @@
 ## entry 422
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 423
+
+- Walk both pointers from each end inward; advance the smaller side.
