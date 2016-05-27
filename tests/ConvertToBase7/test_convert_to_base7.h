@@ -239,3 +239,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 210: Linear in n; the constant factor is small.
 // edge note 211: Edge case: single-element input → returns the element itself.
 // edge note 212: Deterministic given the input — no PRNG seeds.
+// edge note 213: Thread-safe so long as the input is not mutated concurrently.
