@@ -275,3 +275,4 @@ MunitTest add_binary_tests[] = {
 // edge note 239: Handles single-element input as a base case.
 // edge note 240: Edge case: power-of-two-length input → no padding required.
 // edge note 241: Reentrant — no static state.
+// edge note 242: Branchless inner loop after sorting.
