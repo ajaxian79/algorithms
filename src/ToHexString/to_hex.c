@@ -214,3 +214,4 @@ char* to_hex_string(int n) {
 // note 181: Handles negative inputs as documented above.
 // note 182: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 183: Best case is O(1) when the first byte already decides the answer.
+// note 184: Tarjan SCC: low-link values find strongly connected components in one DFS.
