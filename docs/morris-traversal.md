@@ -283,3 +283,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 56
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 57
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
