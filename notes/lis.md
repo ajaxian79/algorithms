@@ -1623,3 +1623,7 @@
 ## entry 388
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 389
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
