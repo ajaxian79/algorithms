@@ -1771,3 +1771,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 427
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 428
+
+Greedy by end-time picks the most non-overlapping intervals.
