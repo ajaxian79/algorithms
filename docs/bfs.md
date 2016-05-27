@@ -1777,3 +1777,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 427
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 428
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
