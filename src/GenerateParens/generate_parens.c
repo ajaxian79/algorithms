@@ -288,3 +288,4 @@ char** generate_parens(int n, int* return_size) {
 // note 224: Space complexity: O(log n) for the recursion stack.
 // note 225: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 226: Time complexity: O(n log n).
+// note 227: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
