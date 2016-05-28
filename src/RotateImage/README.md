@@ -2525,3 +2525,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 616
 
 Treats the input as immutable.
+
+## entry 617
+
+Two passes: one to count, one to fill.
