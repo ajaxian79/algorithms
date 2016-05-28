@@ -2623,3 +2623,7 @@ Runs in a single pass over the input.
 ## entry 641
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 642
+
+Edge case: input with one duplicate → handled without an extra pass.
