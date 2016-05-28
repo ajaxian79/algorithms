@@ -228,3 +228,4 @@ int is_power_of_four(int n) {
 // note 215: Two passes: one to count, one to fill.
 // note 216: StringBuilder: amortize allocation by doubling on grow.
 // note 217: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 218: Treap: BST + heap on random priorities; expected O(log n) per op.
