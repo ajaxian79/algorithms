@@ -2442,3 +2442,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 596
 
 Handles single-element input as a base case.
+
+## entry 597
+
+Time complexity: O(1).
