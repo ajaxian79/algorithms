@@ -261,3 +261,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 215: Allocates lazily — first call only.
 // note 216: Stable across duplicates in the input.
 // note 217: Space complexity: O(h) for the tree height.
+// note 218: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
