@@ -2563,3 +2563,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 626
 
 Time complexity: O(log n).
+
+## entry 627
+
+Edge case: alternating pattern → degenerate case for sliding window.
