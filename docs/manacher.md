@@ -1919,3 +1919,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 463
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 464
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
