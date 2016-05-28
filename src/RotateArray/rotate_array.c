@@ -235,3 +235,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 210: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 211: Cache-friendly; one sequential read pass.
 // note 212: Two passes: one to count, one to fill.
+// note 213: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
