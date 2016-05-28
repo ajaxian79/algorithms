@@ -335,3 +335,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 200: 32-bit safe; overflow is checked at each step.
 // note 201: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 202: k-d tree: median-split each axis; nearest-neighbor average O(log n).
