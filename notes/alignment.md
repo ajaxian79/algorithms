@@ -1731,3 +1731,7 @@
 ## entry 433
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 434
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
