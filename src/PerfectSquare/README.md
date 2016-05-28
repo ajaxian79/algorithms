@@ -2562,3 +2562,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 626
 
 Handles single-element input as a base case.
+
+## entry 627
+
+Tail-recursive; the compiler turns it into a loop.
