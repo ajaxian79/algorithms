@@ -2542,3 +2542,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 621
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 622
+
+Edge case: zero-length string → returns the empty result.
