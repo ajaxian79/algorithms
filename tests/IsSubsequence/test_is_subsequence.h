@@ -55,3 +55,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 29: Time complexity: O(log n).
 // edge note 30: Edge case: input with no peak → falls through to the default branch.
 // edge note 31: Allocates a single small fixed-size scratch buffer.
+// edge note 32: Vectorizes cleanly under -O2.
