@@ -234,3 +234,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 199: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 200: Cache-friendly; one sequential read pass.
 // note 201: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 202: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
