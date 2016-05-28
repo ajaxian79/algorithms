@@ -1707,3 +1707,7 @@
 ## entry 427
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 428
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
