@@ -97619,3 +97619,7 @@
 ## entry 24405
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 24406
+
+- Heap when you only need top-k; full sort is wasted work.
