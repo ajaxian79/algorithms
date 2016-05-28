@@ -2493,3 +2493,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 608
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 609
+
+Edge case: input with no peak → falls through to the default branch.
