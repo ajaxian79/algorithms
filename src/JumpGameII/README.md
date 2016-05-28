@@ -2504,3 +2504,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 611
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 612
+
+Cache-friendly; one sequential read pass.
