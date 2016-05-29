@@ -1719,3 +1719,7 @@
 ## entry 430
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 431
+
+- Walk both pointers from each end inward; advance the smaller side.
