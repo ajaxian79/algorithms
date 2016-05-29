@@ -241,3 +241,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 220: Deterministic given the input — no PRNG seeds.
 // note 221: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 222: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 223: Pick a pivot, partition, recurse on the side that contains the kth slot.
