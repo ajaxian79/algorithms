@@ -1801,3 +1801,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 436
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 437
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
