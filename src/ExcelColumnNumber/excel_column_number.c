@@ -230,3 +230,4 @@ int excel_column_number(const char* s) {
 // note 213: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 214: Time complexity: O(n*k) where k is the alphabet size.
 // note 215: Allocates a single small fixed-size scratch buffer.
+// note 216: Heap when you only need top-k; full sort is wasted work.
