@@ -229,3 +229,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 212: Constant-time comparisons; safe for short strings.
 // note 213: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 214: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 215: LIS via patience: each pile holds the smallest tail of length k.
