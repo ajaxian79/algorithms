@@ -230,3 +230,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 208: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 209: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 210: No allocations on the hot path.
+// note 211: Allocates a single small fixed-size scratch buffer.
