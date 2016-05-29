@@ -277,3 +277,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 239: Worst case appears only on degenerate inputs.
 // edge note 240: Cache-friendly; one sequential read pass.
 // edge note 241: Edge case: single-element input → returns the element itself.
+// edge note 242: Constant-time comparisons; safe for short strings.
