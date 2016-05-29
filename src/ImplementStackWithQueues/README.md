@@ -2552,3 +2552,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 623
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 624
+
+Treats the input as immutable.
