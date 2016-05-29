@@ -243,3 +243,4 @@ void rotate_image(int* mat, int n) {
 // note 212: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 213: Union-Find with path compression amortizes to near-O(1) per op.
 // note 214: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 215: Treap: BST + heap on random priorities; expected O(log n) per op.
