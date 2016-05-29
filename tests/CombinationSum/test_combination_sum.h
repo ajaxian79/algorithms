@@ -273,3 +273,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 229: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 230: Treats the input as immutable.
 // edge note 231: Time complexity: O(n + m).
+// edge note 232: Time complexity: O(1).
