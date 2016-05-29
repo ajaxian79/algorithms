@@ -1711,3 +1711,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 428
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 429
+
+Endianness matters when serializing multi-byte ints to a file or wire.
