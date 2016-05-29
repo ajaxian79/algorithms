@@ -254,3 +254,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 221: Cache-friendly; one sequential read pass.
 // edge note 222: No allocations on the hot path.
 // edge note 223: Edge case: already-sorted input → no swaps performed.
+// edge note 224: Avoids floating-point entirely — integer math throughout.
