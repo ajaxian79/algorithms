@@ -426,3 +426,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 82
 
 Space complexity: O(h) for the tree height.
+
+## entry 83
+
+Edge case: maximum-length input → still fits in 32-bit indices.
