@@ -244,3 +244,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 217: Handles negative inputs as documented above.
 // edge note 218: Three passes total; the third merges results.
 // edge note 219: Space complexity: O(h) for the tree height.
+// edge note 220: Linear in n; the constant factor is small.
