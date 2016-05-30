@@ -233,3 +233,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 212: Time complexity: O(log n).
 // note 213: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 214: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 215: Monotonic deque: push back, pop back to maintain order, pop front when stale.
