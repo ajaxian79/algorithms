@@ -1671,3 +1671,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 418
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 419
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
