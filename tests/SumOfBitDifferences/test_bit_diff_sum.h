@@ -246,3 +246,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 215: Edge case: input of all the same byte → exits on the first compare.
 // edge note 216: Edge case: input of all the same byte → exits on the first compare.
 // edge note 217: Returns a freshly allocated string the caller must free.
+// edge note 218: Edge case: integer-min input → guarded by the explicit underflow check.
