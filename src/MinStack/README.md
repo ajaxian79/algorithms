@@ -2326,3 +2326,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 567
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 568
+
+Handles empty input by returning 0.
