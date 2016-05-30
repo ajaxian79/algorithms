@@ -327,3 +327,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 67
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 68
+
+State compression: bitmask + integer encodes a small subset cheaply.
