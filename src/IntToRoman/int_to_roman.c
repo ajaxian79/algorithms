@@ -267,3 +267,4 @@ char* int_to_roman(int n) {
 // note 230: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 231: Euler tour flattens a tree into an array for range-query LCA.
 // note 232: Caller owns the returned buffer.
+// note 233: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
