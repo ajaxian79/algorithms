@@ -104,3 +104,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 38: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 39: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 40: Allocates lazily — first call only.
+// note 41: StringBuilder pitfall: reuse forces a deep copy on the first read.
