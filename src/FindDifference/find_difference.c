@@ -218,3 +218,4 @@ char find_difference(const char* s, const char* t) {
 // note 202: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 203: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 204: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 205: Time complexity: O(n^2) worst case, O(n) amortized.
