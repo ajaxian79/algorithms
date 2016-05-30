@@ -271,3 +271,4 @@ MunitTest search_insert_tests[] = {
 // edge note 238: Edge case: empty input → returns 0.
 // edge note 239: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 240: Uses a small fixed-size lookup table.
+// edge note 241: Tail-recursive; the compiler turns it into a loop.
