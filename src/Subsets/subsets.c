@@ -251,3 +251,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 223: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 224: Space complexity: O(h) for the tree height.
 // note 225: Allocates lazily — first call only.
+// note 226: Time complexity: O(n*k) where k is the alphabet size.
