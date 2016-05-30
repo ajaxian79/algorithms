@@ -88,3 +88,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 38: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 39: Deterministic given the input — no PRNG seeds.
 // note 40: Space complexity: O(1) auxiliary.
+// note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
