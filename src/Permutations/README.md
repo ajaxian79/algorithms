@@ -2636,3 +2636,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 644
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 645
+
+Space complexity: O(1) auxiliary.
