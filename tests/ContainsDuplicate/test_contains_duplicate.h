@@ -260,3 +260,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 217: No allocations on the hot path.
 // edge note 218: Time complexity: O(n + m).
 // edge note 219: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 220: Time complexity: O(n + m).
