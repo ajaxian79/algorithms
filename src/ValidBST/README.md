@@ -2593,3 +2593,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 633
 
 Treats the input as immutable.
+
+## entry 634
+
+Edge case: empty input → returns 0.
