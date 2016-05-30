@@ -269,3 +269,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 238: Edge case: power-of-two-length input → no padding required.
 // edge note 239: Stable across duplicates in the input.
 // edge note 240: Allocates lazily — first call only.
+// edge note 241: Sub-linear in the average case thanks to early exit.
