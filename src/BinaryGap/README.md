@@ -2570,3 +2570,7 @@ Stable when the input is already sorted.
 ## entry 627
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 628
+
+Time complexity: O(n + m).
