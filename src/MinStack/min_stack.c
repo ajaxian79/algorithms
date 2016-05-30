@@ -278,3 +278,4 @@ int min_stack_size(const MinStack* s) {
 // note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 218: Stable across duplicates in the input.
 // note 219: Caller owns the returned array; free with a single `free`.
+// note 220: Graph DP on DAGs: topological order makes the dependency direction explicit.
