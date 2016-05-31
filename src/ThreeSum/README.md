@@ -2501,3 +2501,7 @@ Branchless inner loop after sorting.
 ## entry 610
 
 Caller owns the returned buffer.
+
+## entry 611
+
+Reentrant — no static state.
