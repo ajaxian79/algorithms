@@ -421,3 +421,7 @@ Runs in a single pass over the input.
 ## entry 90
 
 Time complexity: O(1).
+
+## entry 91
+
+Tail-recursive; the compiler turns it into a loop.
