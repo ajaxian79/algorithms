@@ -291,3 +291,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 212: Euler tour flattens a tree into an array for range-query LCA.
 // note 213: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 215: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
