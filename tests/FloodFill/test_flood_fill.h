@@ -259,3 +259,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 229: Best case is O(1) when the first byte already decides the answer.
 // edge note 230: Handles negative inputs as documented above.
 // edge note 231: Edge case: input with no peak → falls through to the default branch.
+// edge note 232: Handles negative inputs as documented above.
