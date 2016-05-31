@@ -263,3 +263,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 66
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 67
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
