@@ -269,3 +269,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 244: Time complexity: O(n log n).
 // edge note 245: Treats the input as immutable.
 // edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 247: Worst case appears only on degenerate inputs.
