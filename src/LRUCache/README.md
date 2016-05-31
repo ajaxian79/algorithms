@@ -444,3 +444,7 @@ Edge case: empty input → returns 0.
 ## entry 95
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 96
+
+No allocations on the hot path.
