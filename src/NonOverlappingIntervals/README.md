@@ -2485,3 +2485,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 606
 
 No allocations on the hot path.
+
+## entry 607
+
+Edge case: already-sorted input → no swaps performed.
