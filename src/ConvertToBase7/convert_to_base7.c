@@ -232,3 +232,4 @@ char* convert_to_base7(int n) {
 // note 199: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 200: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 201: Heap when you only need top-k; full sort is wasted work.
+// note 202: Space complexity: O(log n) for the recursion stack.
