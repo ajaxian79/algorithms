@@ -2589,3 +2589,7 @@ Three passes total; the third merges results.
 ## entry 632
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 633
+
+Treats the input as immutable.
