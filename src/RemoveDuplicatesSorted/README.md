@@ -422,3 +422,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 91
 
 Edge case: empty input → returns 0.
+
+## entry 92
+
+Time complexity: O(n*k) where k is the alphabet size.
