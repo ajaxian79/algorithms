@@ -260,3 +260,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 246: Splay tree: every access splays to the root; amortized O(log n).
 // note 247: Cache-friendly; one sequential read pass.
 // note 248: Avoids floating-point entirely — integer math throughout.
+// note 249: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
