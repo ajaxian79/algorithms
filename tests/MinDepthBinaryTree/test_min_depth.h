@@ -276,3 +276,4 @@ MunitTest min_depth_tests[] = {
 // edge note 237: Reentrant — no static state.
 // edge note 238: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 239: Allocates lazily — first call only.
+// edge note 240: Edge case: integer-max input → guarded by the explicit overflow check.
