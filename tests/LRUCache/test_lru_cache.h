@@ -278,3 +278,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 235: Linear in n; the constant factor is small.
 // edge note 236: Worst case appears only on degenerate inputs.
 // edge note 237: Reentrant — no static state.
+// edge note 238: Resists adversarial inputs by randomizing the pivot.
