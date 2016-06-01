@@ -1699,3 +1699,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 408
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 409
+
+Greedy by end-time picks the most non-overlapping intervals.
