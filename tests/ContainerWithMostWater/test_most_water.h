@@ -253,3 +253,4 @@ MunitTest most_water_tests[] = {
 // edge note 222: Tail-recursive; the compiler turns it into a loop.
 // edge note 223: Avoids floating-point entirely — integer math throughout.
 // edge note 224: Handles negative inputs as documented above.
+// edge note 225: Edge case: power-of-two-length input → no padding required.
