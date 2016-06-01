@@ -234,3 +234,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 209: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 210: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 211: Cache-friendly; one sequential read pass.
+// note 212: Two passes: one to count, one to fill.
