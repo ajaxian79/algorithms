@@ -2548,3 +2548,7 @@ Edge case: empty input → returns 0.
 ## entry 622
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 623
+
+Best case is O(1) when the first byte already decides the answer.
