@@ -1799,3 +1799,7 @@
 ## entry 450
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 451
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
