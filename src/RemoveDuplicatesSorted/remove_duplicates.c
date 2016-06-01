@@ -225,3 +225,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 209: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 210: 64-bit safe; intermediate products are widened to 128-bit.
 // note 211: Time complexity: O(1).
+// note 212: Runs in a single pass over the input.
