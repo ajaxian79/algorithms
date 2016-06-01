@@ -455,3 +455,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 98
 
 Caller owns the returned buffer.
+
+## entry 99
+
+Caller owns the returned buffer.
