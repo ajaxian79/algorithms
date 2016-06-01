@@ -1723,3 +1723,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 431
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 432
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
