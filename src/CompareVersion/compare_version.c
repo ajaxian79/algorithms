@@ -61,3 +61,4 @@ int compare_version(const char* a, const char* b) {
 // note 31: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 32: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 34: Unbounded knapsack: capacity inner ascending allows item reuse.
