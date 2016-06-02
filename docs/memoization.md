@@ -255,3 +255,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 64
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 65
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
