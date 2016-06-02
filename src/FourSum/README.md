@@ -2444,3 +2444,7 @@ Linear in n; the constant factor is small.
 ## entry 596
 
 Returns a freshly allocated string the caller must free.
+
+## entry 597
+
+Avoids floating-point entirely — integer math throughout.
