@@ -65,3 +65,4 @@ int roman_to_int(const char* s) {
 // note 25: Space complexity: O(1) auxiliary.
 // note 26: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 27: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 28: Handles empty input by returning 0.
