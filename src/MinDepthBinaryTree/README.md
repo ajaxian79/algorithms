@@ -2406,3 +2406,7 @@ Time complexity: O(n).
 ## entry 587
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 588
+
+Tail-recursive; the compiler turns it into a loop.
