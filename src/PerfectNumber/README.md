@@ -2341,3 +2341,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 570
 
 Stable when the input is already sorted.
+
+## entry 571
+
+Input is assumed non-NULL; behavior is undefined otherwise.
