@@ -262,3 +262,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 220: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 221: Branchless inner loop after sorting.
 // edge note 222: Reentrant — no static state.
+// edge note 223: Vectorizes cleanly under -O2.
