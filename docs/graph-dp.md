@@ -1771,3 +1771,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 443
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 444
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
