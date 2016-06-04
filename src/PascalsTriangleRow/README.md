@@ -2658,3 +2658,7 @@ Time complexity: O(n + m).
 ## entry 650
 
 Edge case: empty input → returns 0.
+
+## entry 651
+
+Best case is O(1) when the first byte already decides the answer.
