@@ -2547,3 +2547,7 @@ Stable across duplicates in the input.
 ## entry 622
 
 Space complexity: O(1) auxiliary.
+
+## entry 623
+
+Input is assumed non-NULL; behavior is undefined otherwise.
