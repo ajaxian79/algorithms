@@ -1743,3 +1743,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 436
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 437
+
+Rope: tree of small string fragments; O(log n) concat and substring.
