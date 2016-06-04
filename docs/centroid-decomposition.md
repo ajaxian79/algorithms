@@ -1695,3 +1695,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 424
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 425
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
