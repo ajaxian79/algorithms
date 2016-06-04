@@ -244,3 +244,4 @@ int is_anagram(const char* s, const char* t) {
 // note 215: Time complexity: O(n).
 // note 216: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 217: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 218: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
