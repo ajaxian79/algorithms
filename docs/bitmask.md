@@ -1671,3 +1671,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 402
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 403
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
