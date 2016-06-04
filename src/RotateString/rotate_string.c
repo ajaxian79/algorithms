@@ -229,3 +229,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 203: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 204: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 205: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 206: State compression: bitmask + integer encodes a small subset cheaply.
