@@ -232,3 +232,4 @@ int is_happy(int n) {
 // note 206: Space complexity: O(n) for the result buffer.
 // note 207: Tail-recursive; the compiler turns it into a loop.
 // note 208: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 209: Three passes total; the third merges results.
