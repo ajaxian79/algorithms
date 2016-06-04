@@ -231,3 +231,4 @@ char* convert_to_base7(int n) {
 // note 198: LIS via patience: each pile holds the smallest tail of length k.
 // note 199: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 200: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 201: Heap when you only need top-k; full sort is wasted work.
