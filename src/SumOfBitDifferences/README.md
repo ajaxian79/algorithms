@@ -2516,3 +2516,7 @@ Handles empty input by returning 0.
 ## entry 614
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 615
+
+Runs in a single pass over the input.
