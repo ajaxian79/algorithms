@@ -1667,3 +1667,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 401
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 402
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
