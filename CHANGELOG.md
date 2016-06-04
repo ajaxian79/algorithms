@@ -97455,3 +97455,7 @@
 ## entry 24364
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 24365
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
