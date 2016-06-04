@@ -2430,3 +2430,7 @@ Space complexity: O(1) auxiliary.
 ## entry 593
 
 Space complexity: O(1) auxiliary.
+
+## entry 594
+
+Space complexity: O(log n) for the recursion stack.
