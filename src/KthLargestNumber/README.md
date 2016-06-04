@@ -2540,3 +2540,7 @@ Two passes: one to count, one to fill.
 ## entry 619
 
 Time complexity: O(n log n).
+
+## entry 620
+
+Time complexity: O(1).
