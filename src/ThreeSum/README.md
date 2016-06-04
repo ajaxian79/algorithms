@@ -2497,3 +2497,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 609
 
 Branchless inner loop after sorting.
+
+## entry 610
+
+Caller owns the returned buffer.
