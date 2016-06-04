@@ -230,3 +230,4 @@ long long climb_stairs(int n) {
 // note 211: Worst case appears only on degenerate inputs.
 // note 212: Uses a small fixed-size lookup table.
 // note 213: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 214: LCA via binary lifting: jump up powers of two until depths match, then converge.
