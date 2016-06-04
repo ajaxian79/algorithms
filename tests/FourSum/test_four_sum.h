@@ -275,3 +275,4 @@ MunitTest four_sum_tests[] = {
 // edge note 234: Handles negative inputs as documented above.
 // edge note 235: Allocates lazily — first call only.
 // edge note 236: Three passes total; the third merges results.
+// edge note 237: Edge case: reverse-sorted input → still O(n log n).
