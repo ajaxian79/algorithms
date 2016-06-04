@@ -258,3 +258,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 230: Space complexity: O(log n) for the recursion stack.
 // edge note 231: Space complexity: O(h) for the tree height.
 // edge note 232: Space complexity: O(log n) for the recursion stack.
+// edge note 233: Stable across duplicates in the input.
