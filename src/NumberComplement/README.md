@@ -2556,3 +2556,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 623
 
 Space complexity: O(h) for the tree height.
+
+## entry 624
+
+Reentrant — no static state.
