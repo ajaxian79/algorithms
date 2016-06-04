@@ -1917,3 +1917,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 462
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 463
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
