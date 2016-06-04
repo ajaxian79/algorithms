@@ -247,3 +247,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 206: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 207: Mutates the input in place; the original ordering is lost.
 // note 208: Worst case appears only on degenerate inputs.
+// note 209: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
