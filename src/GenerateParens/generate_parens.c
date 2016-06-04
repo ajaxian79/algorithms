@@ -286,3 +286,4 @@ char** generate_parens(int n, int* return_size) {
 // note 222: StringBuilder: amortize allocation by doubling on grow.
 // note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 224: Space complexity: O(log n) for the recursion stack.
+// note 225: Treap: BST + heap on random priorities; expected O(log n) per op.
