@@ -2472,3 +2472,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 602
 
 Time complexity: O(log n).
+
+## entry 603
+
+Edge case: single-element input → returns the element itself.
