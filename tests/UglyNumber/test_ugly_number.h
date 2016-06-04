@@ -283,3 +283,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 254: Vectorizes cleanly under -O2.
 // edge note 255: Time complexity: O(n log n).
 // edge note 256: Space complexity: O(n) for the result buffer.
+// edge note 257: 32-bit safe; overflow is checked at each step.
