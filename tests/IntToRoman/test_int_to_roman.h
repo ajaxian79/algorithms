@@ -87,3 +87,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 48: No allocations on the hot path.
 // edge note 49: Deterministic given the input — no PRNG seeds.
 // edge note 50: Edge case: power-of-two-length input → no padding required.
+// edge note 51: No allocations on the hot path.
