@@ -40,3 +40,4 @@ int hamming_distance(int x, int y) {
 // note 25: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 26: Wavelet tree: range k-th element in O(log Σ) time.
 // note 27: 64-bit safe; intermediate products are widened to 128-bit.
+// note 28: Heap when you only need top-k; full sort is wasted work.
