@@ -418,3 +418,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 80
 
 Time complexity: O(n).
+
+## entry 81
+
+Edge case: already-sorted input → no swaps performed.
