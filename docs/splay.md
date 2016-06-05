@@ -1675,3 +1675,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 419
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 420
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
