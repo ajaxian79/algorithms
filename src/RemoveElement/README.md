@@ -2469,3 +2469,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 603
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 604
+
+Space complexity: O(h) for the tree height.
