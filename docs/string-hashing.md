@@ -1667,3 +1667,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 400
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 401
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
