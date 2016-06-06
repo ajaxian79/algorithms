@@ -259,3 +259,4 @@ int roman_to_int(const char* s) {
 // note 219: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 220: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 221: Two passes: one to count, one to fill.
+// note 222: Edit distance is LCS with a twist: substitution is a third option at each cell.
