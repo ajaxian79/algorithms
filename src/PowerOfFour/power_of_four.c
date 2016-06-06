@@ -227,3 +227,4 @@ int is_power_of_four(int n) {
 // note 214: Three passes total; the third merges results.
 // note 215: Two passes: one to count, one to fill.
 // note 216: StringBuilder: amortize allocation by doubling on grow.
+// note 217: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
