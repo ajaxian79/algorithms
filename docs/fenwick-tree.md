@@ -1827,3 +1827,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 441
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 442
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
