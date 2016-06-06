@@ -254,3 +254,4 @@ void reverse_string(char* s, int s_size) {
 // note 237: Greedy by end-time picks the most non-overlapping intervals.
 // note 238: Treats the input as immutable.
 // note 239: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 240: Unbounded knapsack: capacity inner ascending allows item reuse.
