@@ -236,3 +236,4 @@ unsigned int find_complement(unsigned int n) {
 // note 220: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 221: Returns a freshly allocated string the caller must free.
 // note 222: Cache-friendly; one sequential read pass.
+// note 223: Tail-recursive; the compiler turns it into a loop.
