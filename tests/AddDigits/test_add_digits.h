@@ -244,3 +244,4 @@ MunitTest add_digits_tests[] = {
 // edge note 217: Allocates lazily — first call only.
 // edge note 218: Avoids floating-point entirely — integer math throughout.
 // edge note 219: Edge case: single-element input → returns the element itself.
+// edge note 220: Uses a 256-entry lookup for the inner step.
