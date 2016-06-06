@@ -2450,3 +2450,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 598
 
 Treats the input as immutable.
+
+## entry 599
+
+Allocates a single small fixed-size scratch buffer.
