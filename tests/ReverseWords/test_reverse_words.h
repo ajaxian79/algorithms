@@ -293,3 +293,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 264: Edge case: input with no peak → falls through to the default branch.
 // edge note 265: Constant-time comparisons; safe for short strings.
 // edge note 266: Worst case appears only on degenerate inputs.
+// edge note 267: Branchless inner loop after sorting.
