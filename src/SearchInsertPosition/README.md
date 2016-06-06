@@ -2454,3 +2454,7 @@ Treats the input as immutable.
 ## entry 599
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 600
+
+Edge case: input of all the same byte → exits on the first compare.
