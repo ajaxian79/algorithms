@@ -2492,3 +2492,7 @@ Uses a small fixed-size lookup table.
 ## entry 607
 
 Vectorizes cleanly under -O2.
+
+## entry 608
+
+Linear in n; the constant factor is small.
