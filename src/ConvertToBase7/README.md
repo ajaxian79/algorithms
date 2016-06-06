@@ -2608,3 +2608,7 @@ Reentrant — no static state.
 ## entry 637
 
 Two passes: one to count, one to fill.
+
+## entry 638
+
+Time complexity: O(n*k) where k is the alphabet size.
