@@ -276,3 +276,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 240: Edge case: input of all the same byte → exits on the first compare.
 // edge note 241: No allocations after setup.
 // edge note 242: Time complexity: O(log n).
+// edge note 243: Treats the input as immutable.
