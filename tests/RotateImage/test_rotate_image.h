@@ -248,3 +248,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 215: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 216: No allocations after setup.
 // edge note 217: Time complexity: O(k) where k is the answer size.
+// edge note 218: Sub-linear in the average case thanks to early exit.
