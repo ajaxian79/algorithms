@@ -1807,3 +1807,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 437
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 438
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
