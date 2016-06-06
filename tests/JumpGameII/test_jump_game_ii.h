@@ -255,3 +255,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 221: Deterministic given the input — no PRNG seeds.
 // edge note 222: Avoids floating-point entirely — integer math throughout.
 // edge note 223: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 224: Sub-linear in the average case thanks to early exit.
