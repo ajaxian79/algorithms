@@ -2454,3 +2454,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 599
 
 Time complexity: O(n).
+
+## entry 600
+
+Edge case: reverse-sorted input → still O(n log n).
