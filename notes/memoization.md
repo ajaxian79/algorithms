@@ -1663,3 +1663,7 @@
 ## entry 416
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 417
+
+- Monotonic stack pops while the new element violates the invariant.
