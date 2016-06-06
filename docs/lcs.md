@@ -1795,3 +1795,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 431
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 432
+
+Articulation points: same DFS as bridges, with a slightly different test.
