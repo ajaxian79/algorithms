@@ -2488,3 +2488,7 @@ No allocations after setup.
 ## entry 606
 
 Uses a small fixed-size lookup table.
+
+## entry 607
+
+Vectorizes cleanly under -O2.
