@@ -226,3 +226,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 212: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 213: Worst case appears only on degenerate inputs.
+// note 214: Best case is O(1) when the first byte already decides the answer.
