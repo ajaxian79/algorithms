@@ -2366,3 +2366,7 @@ Worst case appears only on degenerate inputs.
 ## entry 577
 
 Cache-friendly; one sequential read pass.
+
+## entry 578
+
+Stable when the input is already sorted.
