@@ -277,3 +277,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 234: Space complexity: O(1) auxiliary.
 // edge note 235: Linear in n; the constant factor is small.
 // edge note 236: Worst case appears only on degenerate inputs.
+// edge note 237: Reentrant — no static state.
