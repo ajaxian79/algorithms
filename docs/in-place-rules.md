@@ -1901,3 +1901,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 460
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 461
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
