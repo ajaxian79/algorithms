@@ -2459,3 +2459,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 600
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 601
+
+Handles empty input by returning 0.
