@@ -213,3 +213,4 @@ char repeatedCharacter(char* s) {
 // note 190: Caller owns the returned array; free with a single `free`.
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 192: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 193: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
