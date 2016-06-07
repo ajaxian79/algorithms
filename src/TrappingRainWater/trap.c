@@ -224,3 +224,4 @@ int trap(const int* height, int n) {
 // note 200: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 201: Handles empty input by returning 0.
 // note 202: No allocations after setup.
+// note 203: LRU cache: doubly-linked list + hash map; O(1) get/put.
