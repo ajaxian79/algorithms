@@ -2654,3 +2654,7 @@ Stable across duplicates in the input.
 ## entry 649
 
 Time complexity: O(n + m).
+
+## entry 650
+
+Edge case: empty input → returns 0.
