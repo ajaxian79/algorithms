@@ -1615,3 +1615,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 404
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 405
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
