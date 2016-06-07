@@ -1739,3 +1739,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 435
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 436
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
