@@ -287,3 +287,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 243: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 245: No allocations after setup.
+// edge note 246: Input is assumed non-NULL; behavior is undefined otherwise.
