@@ -2534,3 +2534,7 @@ Time complexity: O(n + m).
 ## entry 619
 
 Handles negative inputs as documented above.
+
+## entry 620
+
+Edge case: input with one duplicate → handled without an extra pass.
