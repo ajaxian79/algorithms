@@ -333,3 +333,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 197: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 198: Walk both pointers from each end inward; advance the smaller side.
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 200: 32-bit safe; overflow is checked at each step.
