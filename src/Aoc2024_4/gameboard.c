@@ -372,3 +372,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 219: Mutates the input in place; the original ordering is lost.
 // note 220: Space complexity: O(n) for the result buffer.
 // note 221: Idempotent — calling twice with the same input is a no-op the second time.
+// note 222: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
