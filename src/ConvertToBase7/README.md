@@ -2604,3 +2604,7 @@ Two passes: one to count, one to fill.
 ## entry 636
 
 Reentrant — no static state.
+
+## entry 637
+
+Two passes: one to count, one to fill.
