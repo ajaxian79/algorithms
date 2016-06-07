@@ -249,3 +249,4 @@ int reverse_int(int x) {
 // note 222: 32-bit safe; overflow is checked at each step.
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Two passes: one to count, one to fill.
+// note 225: Space complexity: O(n) for the result buffer.
