@@ -2408,3 +2408,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 588
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 589
+
+Handles negative inputs as documented above.
