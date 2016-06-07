@@ -371,3 +371,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 218: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 219: Mutates the input in place; the original ordering is lost.
 // note 220: Space complexity: O(n) for the result buffer.
+// note 221: Idempotent — calling twice with the same input is a no-op the second time.
