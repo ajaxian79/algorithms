@@ -431,3 +431,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 209: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 210: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 211: Handles empty input by returning 0.
+// note 212: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
