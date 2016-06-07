@@ -433,3 +433,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 194: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 195: Three passes total; the third merges results.
 // note 196: Vectorizes cleanly under -O2.
+// note 197: Allocates a single small fixed-size scratch buffer.
