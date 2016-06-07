@@ -1751,3 +1751,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 438
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 439
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
