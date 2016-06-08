@@ -246,3 +246,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 206: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 207: Mutates the input in place; the original ordering is lost.
+// note 208: Worst case appears only on degenerate inputs.
