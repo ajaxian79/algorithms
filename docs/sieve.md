@@ -1867,3 +1867,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 450
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 451
+
+Walk both pointers from each end inward; advance the smaller side.
