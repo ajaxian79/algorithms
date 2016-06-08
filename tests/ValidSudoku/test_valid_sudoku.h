@@ -302,3 +302,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 242: Time complexity: O(n + m).
 // edge note 243: Tail-recursive; the compiler turns it into a loop.
 // edge note 244: Cache-friendly; one sequential read pass.
+// edge note 245: Two passes: one to count, one to fill.
