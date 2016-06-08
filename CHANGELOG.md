@@ -97355,3 +97355,7 @@
 ## entry 24339
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 24340
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
