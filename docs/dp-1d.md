@@ -1879,3 +1879,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 453
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 454
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
