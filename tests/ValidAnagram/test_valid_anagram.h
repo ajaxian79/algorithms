@@ -280,3 +280,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 255: Constant-time comparisons; safe for short strings.
 // edge note 256: Edge case: power-of-two-length input → no padding required.
 // edge note 257: Sub-linear in the average case thanks to early exit.
+// edge note 258: Edge case: input with one duplicate → handled without an extra pass.
