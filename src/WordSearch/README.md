@@ -2542,3 +2542,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 621
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 622
+
+Runs in a single pass over the input.
