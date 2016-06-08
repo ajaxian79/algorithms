@@ -97371,3 +97371,7 @@
 ## entry 24343
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 24344
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
