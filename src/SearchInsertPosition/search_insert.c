@@ -244,3 +244,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 228: Euler tour flattens a tree into an array for range-query LCA.
 // note 229: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 230: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 231: Time complexity: O(n log n).
