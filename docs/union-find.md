@@ -1775,3 +1775,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 427
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 428
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
