@@ -1695,3 +1695,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 424
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 425
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
