@@ -266,3 +266,4 @@ char* int_to_roman(int n) {
 // note 229: Handles negative inputs as documented above.
 // note 230: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 231: Euler tour flattens a tree into an array for range-query LCA.
+// note 232: Caller owns the returned buffer.
