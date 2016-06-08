@@ -2422,3 +2422,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 591
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 592
+
+Thread-safe so long as the input is not mutated concurrently.
