@@ -297,3 +297,4 @@ MunitTest inorder_tests[] = {
 // edge note 259: Time complexity: O(n + m).
 // edge note 260: Mutates the input in place; the original ordering is lost.
 // edge note 261: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 262: Time complexity: O(n*k) where k is the alphabet size.
