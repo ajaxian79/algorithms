@@ -1763,3 +1763,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 425
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 426
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
