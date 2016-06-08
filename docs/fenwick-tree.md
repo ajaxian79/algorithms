@@ -1815,3 +1815,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 438
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 439
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
