@@ -2543,3 +2543,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 621
 
 Stable across duplicates in the input.
+
+## entry 622
+
+Space complexity: O(1) auxiliary.
