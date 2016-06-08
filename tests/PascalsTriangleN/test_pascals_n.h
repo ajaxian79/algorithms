@@ -89,3 +89,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 30: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 31: Time complexity: O(1).
 // edge note 32: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 33: Reentrant — no static state.
