@@ -2464,3 +2464,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 600
 
 Edge case: empty input → returns 0.
+
+## entry 601
+
+Input is assumed non-NULL; behavior is undefined otherwise.
