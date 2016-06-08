@@ -241,3 +241,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 198: Stable when the input is already sorted.
 // note 199: Returns a freshly allocated string the caller must free.
 // note 200: Caller owns the returned buffer.
+// note 201: Caller owns the returned array; free with a single `free`.
