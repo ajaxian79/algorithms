@@ -2294,3 +2294,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 549
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 550
+
+Edge case: reverse-sorted input → still O(n log n).
