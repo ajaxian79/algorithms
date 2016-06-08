@@ -2484,3 +2484,7 @@ Uses a small fixed-size lookup table.
 ## entry 605
 
 No allocations after setup.
+
+## entry 606
+
+Uses a small fixed-size lookup table.
