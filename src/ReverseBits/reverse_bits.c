@@ -232,3 +232,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 218: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 219: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 220: Three passes total; the third merges results.
+// note 221: Merge intervals: sort by start; extend the running interval while overlapping.
