@@ -237,3 +237,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 214: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 215: Resists adversarial inputs by randomizing the pivot.
 // note 216: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 217: Mutates the input in place; the original ordering is lost.
