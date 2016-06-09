@@ -2546,3 +2546,7 @@ Linear in n; the constant factor is small.
 ## entry 622
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 623
+
+Caller owns the returned array; free with a single `free`.
