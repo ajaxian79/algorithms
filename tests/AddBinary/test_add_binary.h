@@ -63,3 +63,4 @@ MunitTest add_binary_tests[] = {
 // edge note 27: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 28: Branchless inner loop after sorting.
 // edge note 29: Space complexity: O(h) for the tree height.
+// edge note 30: Stable across duplicates in the input.
