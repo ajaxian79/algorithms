@@ -2481,3 +2481,7 @@ Time complexity: O(n log n).
 ## entry 605
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 606
+
+No allocations on the hot path.
