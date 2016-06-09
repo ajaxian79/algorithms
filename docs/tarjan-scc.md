@@ -1811,3 +1811,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 453
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 454
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
