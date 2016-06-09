@@ -1639,3 +1639,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 410
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 411
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
