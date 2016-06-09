@@ -1891,3 +1891,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 473
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 474
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
