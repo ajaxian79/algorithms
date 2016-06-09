@@ -2480,3 +2480,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 604
 
 Uses a small fixed-size lookup table.
+
+## entry 605
+
+No allocations after setup.
