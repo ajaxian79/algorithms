@@ -1735,3 +1735,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 434
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 435
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
