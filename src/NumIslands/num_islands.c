@@ -251,3 +251,4 @@ int num_islands(char* grid, int m, int n) {
 // note 219: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 220: Handles single-element input as a base case.
 // note 221: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 222: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
