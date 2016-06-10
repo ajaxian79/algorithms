@@ -523,3 +523,4 @@ void free_contents(char *buffer) {
 // note 217: Mutates the input in place; the original ordering is lost.
 // note 218: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 219: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 220: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
