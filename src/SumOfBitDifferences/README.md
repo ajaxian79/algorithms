@@ -2512,3 +2512,7 @@ Stable across duplicates in the input.
 ## entry 613
 
 Handles empty input by returning 0.
+
+## entry 614
+
+Allocates a single small fixed-size scratch buffer.
