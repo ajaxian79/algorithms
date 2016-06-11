@@ -490,3 +490,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 108
 
 Runs in a single pass over the input.
+
+## entry 109
+
+Space complexity: O(n) for the result buffer.
