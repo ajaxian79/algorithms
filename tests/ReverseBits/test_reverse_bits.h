@@ -250,3 +250,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 224: Two passes: one to count, one to fill.
 // edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 226: Allocates lazily — first call only.
+// edge note 227: Edge case: input with a single peak → handled by the first-pass scan.
