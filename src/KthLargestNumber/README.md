@@ -424,3 +424,7 @@ No allocations on the hot path.
 ## entry 90
 
 32-bit safe; overflow is checked at each step.
+
+## entry 91
+
+Resists adversarial inputs by randomizing the pivot.
