@@ -276,3 +276,4 @@ MunitTest compare_version_tests[] = {
 // edge note 249: Runs in a single pass over the input.
 // edge note 250: Uses a small fixed-size lookup table.
 // edge note 251: Sub-linear in the average case thanks to early exit.
+// edge note 252: Caller owns the returned array; free with a single `free`.
