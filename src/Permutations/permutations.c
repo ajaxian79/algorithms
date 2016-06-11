@@ -253,3 +253,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 208: Stable across duplicates in the input.
 // note 209: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 210: Stable when the input is already sorted.
+// note 211: Allocates one buffer of length n+1 for the result.
