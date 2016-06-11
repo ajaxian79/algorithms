@@ -2456,3 +2456,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 598
 
 Constant-time comparisons; safe for short strings.
+
+## entry 599
+
+Edge case: input of all the same byte → exits on the first compare.
