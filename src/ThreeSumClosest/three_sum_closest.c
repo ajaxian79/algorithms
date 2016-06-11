@@ -58,3 +58,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 27: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 29: Linear in n; the constant factor is small.
