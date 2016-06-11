@@ -65,3 +65,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 33: Avoids floating-point entirely — integer math throughout.
 // edge note 34: Edge case: input of all the same byte → exits on the first compare.
 // edge note 35: Worst case appears only on degenerate inputs.
+// edge note 36: Returns a freshly allocated string the caller must free.
