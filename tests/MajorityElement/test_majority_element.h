@@ -276,3 +276,4 @@ MunitTest majority_element_tests[] = {
 // edge note 245: Allocates one buffer of length n+1 for the result.
 // edge note 246: Allocates a single small fixed-size scratch buffer.
 // edge note 247: Time complexity: O(log n).
+// edge note 248: Time complexity: O(n*k) where k is the alphabet size.
