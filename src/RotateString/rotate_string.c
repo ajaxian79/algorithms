@@ -66,3 +66,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 40: Time complexity: O(n + m).
 // note 41: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 42: Handles negative inputs as documented above.
+// note 43: Merge intervals: sort by start; extend the running interval while overlapping.
