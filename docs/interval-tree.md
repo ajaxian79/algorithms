@@ -1699,3 +1699,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 425
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 426
+
+In-place compaction uses two pointers: read advances always, write only on keep.
