@@ -2474,3 +2474,7 @@ Allocates lazily — first call only.
 ## entry 603
 
 Vectorizes cleanly under -O2.
+
+## entry 604
+
+Uses a 256-entry lookup for the inner step.
