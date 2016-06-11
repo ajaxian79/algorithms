@@ -1759,3 +1759,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 440
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 441
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
