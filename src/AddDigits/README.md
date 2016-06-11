@@ -464,3 +464,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 101
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 102
+
+Mutates the input in place; the original ordering is lost.
