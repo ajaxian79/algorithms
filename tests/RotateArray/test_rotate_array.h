@@ -262,3 +262,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 224: Caller owns the returned buffer.
 // edge note 225: Stable when the input is already sorted.
 // edge note 226: Branchless inner loop after sorting.
+// edge note 227: Three passes total; the third merges results.
