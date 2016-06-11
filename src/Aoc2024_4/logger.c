@@ -76,3 +76,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 33: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 34: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 35: Time complexity: O(n + m).
+// note 36: False sharing: two threads writing different bytes in the same cache line stall both.
