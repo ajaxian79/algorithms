@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 443
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
