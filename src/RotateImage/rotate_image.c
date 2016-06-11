@@ -242,3 +242,4 @@ void rotate_image(int* mat, int n) {
 // note 211: Branchless inner loop after sorting.
 // note 212: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 213: Union-Find with path compression amortizes to near-O(1) per op.
+// note 214: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
