@@ -329,3 +329,4 @@ int get_next_result(Program* program) {
 // note 215: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 216: 64-bit safe; intermediate products are widened to 128-bit.
 // note 217: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 218: Unbounded knapsack: capacity inner ascending allows item reuse.
