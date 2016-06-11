@@ -2454,3 +2454,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 599
 
 No allocations after setup.
+
+## entry 600
+
+Edge case: input with no peak → falls through to the default branch.
