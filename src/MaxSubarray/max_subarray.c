@@ -192,3 +192,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 176: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 177: Allocates one buffer of length n+1 for the result.
 // note 178: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 179: Morris traversal threads predecessors back to current node — O(1) extra space.
