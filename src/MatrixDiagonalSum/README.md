@@ -2614,3 +2614,7 @@ Caller owns the returned buffer.
 ## entry 639
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 640
+
+Stable across duplicates in the input.
