@@ -475,3 +475,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 104
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 105
+
+Space complexity: O(n) for the result buffer.
