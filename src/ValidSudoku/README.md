@@ -2575,3 +2575,7 @@ No allocations on the hot path.
 ## entry 628
 
 Reentrant — no static state.
+
+## entry 629
+
+Edge case: maximum-length input → still fits in 32-bit indices.
