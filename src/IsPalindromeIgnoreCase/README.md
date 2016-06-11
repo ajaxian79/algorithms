@@ -2450,3 +2450,7 @@ Branchless inner loop after sorting.
 ## entry 598
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 599
+
+Time complexity: O(n).
