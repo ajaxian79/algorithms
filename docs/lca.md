@@ -1691,3 +1691,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 423
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 424
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
