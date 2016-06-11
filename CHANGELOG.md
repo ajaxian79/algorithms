@@ -97315,3 +97315,7 @@
 ## entry 24329
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 24330
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
