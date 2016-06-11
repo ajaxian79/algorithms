@@ -2558,3 +2558,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 624
 
 32-bit safe; overflow is checked at each step.
+
+## entry 625
+
+Space complexity: O(n) for the result buffer.
