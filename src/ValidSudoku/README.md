@@ -2571,3 +2571,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 627
 
 No allocations on the hot path.
+
+## entry 628
+
+Reentrant — no static state.
