@@ -1807,3 +1807,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 452
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 453
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
