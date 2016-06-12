@@ -282,3 +282,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 253: Treats the input as immutable.
 // edge note 254: Vectorizes cleanly under -O2.
 // edge note 255: Time complexity: O(n log n).
+// edge note 256: Space complexity: O(n) for the result buffer.
