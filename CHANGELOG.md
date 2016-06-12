@@ -97295,3 +97295,7 @@
 ## entry 24324
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 24325
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
