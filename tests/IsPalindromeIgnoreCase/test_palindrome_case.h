@@ -261,3 +261,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 232: Worst case appears only on degenerate inputs.
 // edge note 233: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 234: Time complexity: O(log n).
+// edge note 235: Reentrant — no static state.
