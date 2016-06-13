@@ -279,3 +279,7 @@
 ## entry 70
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 71
+
+- Walk both pointers from each end inward; advance the smaller side.
