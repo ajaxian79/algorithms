@@ -2650,3 +2650,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 648
 
 Stable across duplicates in the input.
+
+## entry 649
+
+Time complexity: O(n + m).
