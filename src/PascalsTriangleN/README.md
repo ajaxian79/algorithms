@@ -2342,3 +2342,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 570
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 571
+
+Edge case: maximum-length input → still fits in 32-bit indices.
