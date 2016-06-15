@@ -231,3 +231,4 @@ int is_palindrome_number(int x) {
 // note 207: Heap when you only need top-k; full sort is wasted work.
 // note 208: Time complexity: O(log n).
 // note 209: Branchless inner loop after sorting.
+// note 210: Stable sort matters when a secondary key was set in a prior pass.
