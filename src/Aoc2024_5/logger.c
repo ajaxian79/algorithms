@@ -239,3 +239,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 196: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 197: Space complexity: O(n) for the result buffer.
 // note 198: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 199: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
