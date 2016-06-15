@@ -2290,3 +2290,7 @@ Time complexity: O(log n).
 ## entry 558
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 559
+
+Space complexity: O(h) for the tree height.
