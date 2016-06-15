@@ -2440,3 +2440,7 @@ Edge case: empty input → returns 0.
 ## entry 595
 
 Linear in n; the constant factor is small.
+
+## entry 596
+
+Returns a freshly allocated string the caller must free.
