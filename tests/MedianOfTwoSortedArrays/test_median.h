@@ -339,3 +339,4 @@ MunitTest median_tests[] = {
 // edge note 220: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 221: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 222: Time complexity: O(n).
+// edge note 223: Idempotent — calling twice with the same input is a no-op the second time.
