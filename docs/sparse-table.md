@@ -1607,3 +1607,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 402
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 403
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
