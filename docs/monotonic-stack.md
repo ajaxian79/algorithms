@@ -1709,3 +1709,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 411
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 412
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
