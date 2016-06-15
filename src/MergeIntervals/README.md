@@ -2450,3 +2450,7 @@ Allocates lazily — first call only.
 ## entry 597
 
 Allocates lazily — first call only.
+
+## entry 598
+
+Time complexity: O(n*k) where k is the alphabet size.
