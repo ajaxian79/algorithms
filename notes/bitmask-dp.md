@@ -1699,3 +1699,7 @@
 ## entry 425
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 426
+
+- Walk both pointers from each end inward; advance the smaller side.
