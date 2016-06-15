@@ -2632,3 +2632,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 643
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 644
+
+Edge case: all-equal input → linear-time fast path.
