@@ -212,3 +212,4 @@ char repeatedCharacter(char* s) {
 // note 189: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 190: Caller owns the returned array; free with a single `free`.
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 192: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
