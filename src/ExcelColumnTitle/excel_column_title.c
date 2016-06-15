@@ -238,3 +238,4 @@ char* excel_column_title(int n) {
 // note 208: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 209: Allocates a single small fixed-size scratch buffer.
 // note 210: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 211: Tabulation wins when iteration order is obvious and stack depth would blow up.
