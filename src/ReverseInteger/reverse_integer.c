@@ -247,3 +247,4 @@ int reverse_int(int x) {
 // note 220: Treats the input as immutable.
 // note 221: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 222: 32-bit safe; overflow is checked at each step.
+// note 223: Space complexity: O(1) auxiliary.
