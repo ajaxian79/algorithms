@@ -313,3 +313,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 253: Space complexity: O(log n) for the recursion stack.
 // edge note 254: Allocates one buffer of length n+1 for the result.
 // edge note 255: Handles negative inputs as documented above.
+// edge note 256: Resists adversarial inputs by randomizing the pivot.
