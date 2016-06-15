@@ -97271,3 +97271,7 @@
 ## entry 24318
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 24319
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
