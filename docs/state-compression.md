@@ -1591,3 +1591,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 398
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 399
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
