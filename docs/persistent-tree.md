@@ -1767,3 +1767,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 442
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 443
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
