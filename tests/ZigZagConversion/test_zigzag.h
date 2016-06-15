@@ -257,3 +257,4 @@ MunitTest zigzag_tests[] = {
 // edge note 229: Three passes total; the third merges results.
 // edge note 230: Deterministic given the input — no PRNG seeds.
 // edge note 231: Edge case: zero-length string → returns the empty result.
+// edge note 232: No allocations on the hot path.
