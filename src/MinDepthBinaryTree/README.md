@@ -2390,3 +2390,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 583
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 584
+
+Edge case: maximum-length input → still fits in 32-bit indices.
