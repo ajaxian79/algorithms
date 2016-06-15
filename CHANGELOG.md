@@ -97287,3 +97287,7 @@
 ## entry 24322
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 24323
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
