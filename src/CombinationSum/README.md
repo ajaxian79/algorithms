@@ -2447,3 +2447,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 597
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 598
+
+Edge case: already-sorted input → no swaps performed.
