@@ -458,3 +458,7 @@ Two passes: one to count, one to fill.
 ## entry 100
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 101
+
+Sub-linear in the average case thanks to early exit.
