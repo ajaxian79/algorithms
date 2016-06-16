@@ -2585,3 +2585,7 @@ Three passes total; the third merges results.
 ## entry 631
 
 32-bit safe; overflow is checked at each step.
+
+## entry 632
+
+Edge case: zero-length string → returns the empty result.
