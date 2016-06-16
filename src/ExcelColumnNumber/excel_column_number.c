@@ -228,3 +228,4 @@ int excel_column_number(const char* s) {
 // note 211: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 212: Greedy by end-time picks the most non-overlapping intervals.
 // note 213: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 214: Time complexity: O(n*k) where k is the alphabet size.
