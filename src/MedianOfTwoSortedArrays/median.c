@@ -171,3 +171,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 35: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 38: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
