@@ -249,3 +249,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Thread-safe so long as the input is not mutated concurrently.
 // edge note 226: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 227: Idempotent — calling twice with the same input is a no-op the second time.
