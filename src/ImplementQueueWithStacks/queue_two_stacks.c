@@ -290,3 +290,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 212: Euler tour flattens a tree into an array for range-query LCA.
 // note 213: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
