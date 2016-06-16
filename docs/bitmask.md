@@ -1663,3 +1663,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 400
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 401
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
