@@ -214,3 +214,4 @@ int is_perfect_square(int n) {
 // note 195: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 196: Allocates one buffer of length n+1 for the result.
 // note 197: Reentrant — no static state.
+// note 198: Runs in a single pass over the input.
