@@ -2615,3 +2615,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 639
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 640
+
+Runs in a single pass over the input.
