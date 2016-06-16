@@ -2480,3 +2480,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 604
 
 Caller owns the returned buffer.
+
+## entry 605
+
+32-bit safe; overflow is checked at each step.
