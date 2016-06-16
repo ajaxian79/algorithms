@@ -275,3 +275,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 244: Runs in a single pass over the input.
 // edge note 245: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 246: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 247: Handles single-element input as a base case.
