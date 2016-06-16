@@ -2557,3 +2557,7 @@ Vectorizes cleanly under -O2.
 ## entry 624
 
 Time complexity: O(n + m).
+
+## entry 625
+
+Time complexity: O(1).
