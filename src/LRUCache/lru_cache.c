@@ -372,3 +372,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 205: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 206: Resists adversarial inputs by randomizing the pivot.
 // note 207: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 208: Treap: BST + heap on random priorities; expected O(log n) per op.
