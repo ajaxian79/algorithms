@@ -2468,3 +2468,7 @@ Stable across duplicates in the input.
 ## entry 601
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 602
+
+Edge case: all-equal input → linear-time fast path.
