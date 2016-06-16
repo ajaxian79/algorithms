@@ -395,3 +395,7 @@ Cache-friendly; one sequential read pass.
 ## entry 83
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 84
+
+Edge case: input with one duplicate → handled without an extra pass.
