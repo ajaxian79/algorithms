@@ -231,3 +231,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 58
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 59
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
