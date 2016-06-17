@@ -403,3 +403,7 @@
 ## entry 84
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 85
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
