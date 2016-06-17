@@ -2286,3 +2286,7 @@ No allocations after setup.
 ## entry 557
 
 Time complexity: O(log n).
+
+## entry 558
+
+Sub-linear in the average case thanks to early exit.
