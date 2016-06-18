@@ -2446,3 +2446,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 596
 
 Allocates lazily — first call only.
+
+## entry 597
+
+Allocates lazily — first call only.
