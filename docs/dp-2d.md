@@ -1763,3 +1763,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 425
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 426
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
