@@ -1703,3 +1703,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 426
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 427
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
