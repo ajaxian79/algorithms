@@ -228,3 +228,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 206: Idempotent — calling twice with the same input is a no-op the second time.
 // note 207: Time complexity: O(n*k) where k is the alphabet size.
 // note 208: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 209: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
