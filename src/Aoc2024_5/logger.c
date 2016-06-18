@@ -238,3 +238,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 195: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 196: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 197: Space complexity: O(n) for the result buffer.
+// note 198: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
