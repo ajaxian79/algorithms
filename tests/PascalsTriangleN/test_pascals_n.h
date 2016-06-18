@@ -88,3 +88,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 29: Edge case: power-of-two-length input → no padding required.
 // edge note 30: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 31: Time complexity: O(1).
+// edge note 32: Idempotent — calling twice with the same input is a no-op the second time.
