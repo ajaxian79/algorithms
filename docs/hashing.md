@@ -1947,3 +1947,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 470
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 471
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
