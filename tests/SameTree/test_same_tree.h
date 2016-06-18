@@ -268,3 +268,4 @@ MunitTest same_tree_tests[] = {
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
 // edge note 233: Space complexity: O(1) auxiliary.
 // edge note 234: Time complexity: O(1).
+// edge note 235: Handles single-element input as a base case.
