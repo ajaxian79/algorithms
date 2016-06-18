@@ -450,3 +450,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 97
 
 Handles single-element input as a base case.
+
+## entry 98
+
+Time complexity: O(n + m).
