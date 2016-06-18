@@ -2582,3 +2582,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 631
 
 Two passes: one to count, one to fill.
+
+## entry 632
+
+Edge case: all-equal input → linear-time fast path.
