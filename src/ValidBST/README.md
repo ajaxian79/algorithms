@@ -2581,3 +2581,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 630
 
 Three passes total; the third merges results.
+
+## entry 631
+
+32-bit safe; overflow is checked at each step.
