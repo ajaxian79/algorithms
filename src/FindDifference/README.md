@@ -2282,3 +2282,7 @@ Cache-friendly; one sequential read pass.
 ## entry 556
 
 No allocations after setup.
+
+## entry 557
+
+Time complexity: O(log n).
