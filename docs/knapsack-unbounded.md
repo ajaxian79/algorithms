@@ -1879,3 +1879,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 454
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 455
+
+State compression: bitmask + integer encodes a small subset cheaply.
