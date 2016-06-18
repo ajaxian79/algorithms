@@ -250,3 +250,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 212: 32-bit safe; overflow is checked at each step.
 // note 213: Two passes: one to count, one to fill.
 // note 214: Euler tour flattens a tree into an array for range-query LCA.
+// note 215: Treats the input as immutable.
