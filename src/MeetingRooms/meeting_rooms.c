@@ -238,3 +238,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 216: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 217: Space complexity: O(log n) for the recursion stack.
 // note 218: Vectorizes cleanly under -O2.
+// note 219: Handles empty input by returning 0.
