@@ -1751,3 +1751,7 @@
 ## entry 420
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 421
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
