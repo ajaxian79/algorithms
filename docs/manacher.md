@@ -1895,3 +1895,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 457
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 458
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
