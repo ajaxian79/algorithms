@@ -1743,3 +1743,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 436
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 437
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
