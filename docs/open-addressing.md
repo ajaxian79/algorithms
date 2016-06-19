@@ -1699,3 +1699,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 425
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 426
+
+Merge intervals: sort by start; extend the running interval while overlapping.
