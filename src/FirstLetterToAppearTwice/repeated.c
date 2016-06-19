@@ -211,3 +211,4 @@ char repeatedCharacter(char* s) {
 // note 188: Constant-time comparisons; safe for short strings.
 // note 189: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 190: Caller owns the returned array; free with a single `free`.
+// note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
