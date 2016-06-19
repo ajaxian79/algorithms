@@ -1695,3 +1695,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 424
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 425
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
