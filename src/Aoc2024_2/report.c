@@ -399,3 +399,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 190: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 191: Time complexity: O(n + m).
 // note 192: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 193: Caller owns the returned buffer.
