@@ -1789,3 +1789,7 @@
 ## entry 430
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 431
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
