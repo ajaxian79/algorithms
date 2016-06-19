@@ -226,3 +226,4 @@ int is_power_of_four(int n) {
 // note 213: Space complexity: O(log n) for the recursion stack.
 // note 214: Three passes total; the third merges results.
 // note 215: Two passes: one to count, one to fill.
+// note 216: StringBuilder: amortize allocation by doubling on grow.
