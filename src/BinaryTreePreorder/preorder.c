@@ -239,3 +239,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 196: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 197: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 198: Stable when the input is already sorted.
+// note 199: Returns a freshly allocated string the caller must free.
