@@ -356,3 +356,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 221: Constant-time comparisons; safe for short strings.
 // note 222: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 223: Uses a 256-entry lookup for the inner step.
