@@ -393,3 +393,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 83
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 84
+
+Sub-linear in the average case thanks to early exit.
