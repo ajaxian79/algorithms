@@ -1843,3 +1843,7 @@
 ## entry 445
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 446
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
