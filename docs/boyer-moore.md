@@ -1831,3 +1831,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 442
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 443
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
