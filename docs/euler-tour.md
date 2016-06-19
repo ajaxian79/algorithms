@@ -1707,3 +1707,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 427
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 428
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
