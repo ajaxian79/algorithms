@@ -62,3 +62,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 29: Time complexity: O(n + m).
 // edge note 30: Treats the input as immutable.
 // edge note 31: Edge case: reverse-sorted input → still O(n log n).
+// edge note 32: Edge case: NULL input is rejected by the caller, not by us.
