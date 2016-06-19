@@ -269,3 +269,4 @@ MunitTest path_sum_tests[] = {
 // edge note 230: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 231: Tail-recursive; the compiler turns it into a loop.
 // edge note 232: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 233: No allocations on the hot path.
