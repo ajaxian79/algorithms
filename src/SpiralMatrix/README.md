@@ -2470,3 +2470,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 602
 
 Allocates lazily — first call only.
+
+## entry 603
+
+Vectorizes cleanly under -O2.
