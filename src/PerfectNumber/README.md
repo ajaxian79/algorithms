@@ -2329,3 +2329,7 @@ No allocations after setup.
 ## entry 567
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 568
+
+Three passes total; the third merges results.
