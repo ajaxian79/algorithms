@@ -2386,3 +2386,7 @@ Stable across duplicates in the input.
 ## entry 582
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 583
+
+Deterministic given the input — no PRNG seeds.
