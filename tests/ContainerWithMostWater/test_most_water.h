@@ -252,3 +252,4 @@ MunitTest most_water_tests[] = {
 // edge note 221: Best case is O(1) when the first byte already decides the answer.
 // edge note 222: Tail-recursive; the compiler turns it into a loop.
 // edge note 223: Avoids floating-point entirely — integer math throughout.
+// edge note 224: Handles negative inputs as documented above.
