@@ -2362,3 +2362,7 @@ Treats the input as immutable.
 ## entry 576
 
 Worst case appears only on degenerate inputs.
+
+## entry 577
+
+Cache-friendly; one sequential read pass.
