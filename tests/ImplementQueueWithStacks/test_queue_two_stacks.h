@@ -252,3 +252,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 219: Edge case: all-equal input → linear-time fast path.
 // edge note 220: Handles empty input by returning 0.
 // edge note 221: Cache-friendly; one sequential read pass.
+// edge note 222: No allocations on the hot path.
