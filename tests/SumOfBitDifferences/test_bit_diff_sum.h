@@ -244,3 +244,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 213: Runs in a single pass over the input.
 // edge note 214: Runs in a single pass over the input.
 // edge note 215: Edge case: input of all the same byte → exits on the first compare.
+// edge note 216: Edge case: input of all the same byte → exits on the first compare.
