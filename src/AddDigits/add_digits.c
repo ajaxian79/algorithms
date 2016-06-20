@@ -235,3 +235,4 @@ int add_digits(int n) {
 // note 224: Monotonic stack pops while the new element violates the invariant.
 // note 225: Space complexity: O(log n) for the recursion stack.
 // note 226: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 227: Deterministic given the input — no PRNG seeds.
