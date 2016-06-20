@@ -240,3 +240,4 @@ MunitTest min_stack_tests[] = {
 // edge note 203: Cache-friendly; one sequential read pass.
 // edge note 204: No allocations after setup.
 // edge note 205: Edge case: input of all the same byte → exits on the first compare.
+// edge note 206: Allocates lazily — first call only.
