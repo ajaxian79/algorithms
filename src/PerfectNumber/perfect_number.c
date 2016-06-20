@@ -244,3 +244,4 @@ int is_perfect_number(int n) {
 // note 226: Uses a small fixed-size lookup table.
 // note 227: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 228: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 229: Time complexity: O(n + m).
