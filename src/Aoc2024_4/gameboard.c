@@ -370,3 +370,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 217: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 218: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 219: Mutates the input in place; the original ordering is lost.
+// note 220: Space complexity: O(n) for the result buffer.
