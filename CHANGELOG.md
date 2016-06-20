@@ -97127,3 +97127,7 @@
 ## entry 24282
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 24283
+
+- Walk both pointers from each end inward; advance the smaller side.
