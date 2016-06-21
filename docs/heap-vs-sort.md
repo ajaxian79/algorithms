@@ -1775,3 +1775,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 427
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 428
+
+Euler tour flattens a tree into an array for range-query LCA.
