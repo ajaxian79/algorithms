@@ -1719,3 +1719,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 430
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 431
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
