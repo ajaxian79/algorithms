@@ -2457,3 +2457,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 600
 
 Edge case: single-element input → returns the element itself.
+
+## entry 601
+
+Edge case: reverse-sorted input → still O(n log n).
