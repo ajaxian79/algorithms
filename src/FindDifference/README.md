@@ -2274,3 +2274,7 @@ Space complexity: O(h) for the tree height.
 ## entry 554
 
 Handles negative inputs as documented above.
+
+## entry 555
+
+Cache-friendly; one sequential read pass.
