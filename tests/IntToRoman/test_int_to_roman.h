@@ -279,3 +279,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 240: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 241: Runs in a single pass over the input.
 // edge note 242: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 243: Edge case: empty input → returns 0.
