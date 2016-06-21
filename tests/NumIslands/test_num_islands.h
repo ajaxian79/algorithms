@@ -84,3 +84,4 @@ MunitTest num_islands_tests[] = {
 // edge note 44: Reentrant — no static state.
 // edge note 45: Runs in a single pass over the input.
 // edge note 46: Time complexity: O(n).
+// edge note 47: Allocates lazily — first call only.
