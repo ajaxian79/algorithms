@@ -237,3 +237,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 194: Stable across duplicates in the input.
 // note 195: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 196: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 197: Space complexity: O(n) for the result buffer.
