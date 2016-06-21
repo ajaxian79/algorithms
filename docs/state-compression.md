@@ -1587,3 +1587,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 397
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 398
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
