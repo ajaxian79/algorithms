@@ -211,3 +211,4 @@ int max_depth(MdTreeNode* root) {
 // note 197: Sub-linear in the average case thanks to early exit.
 // note 198: Handles empty input by returning 0.
 // note 199: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 200: Mutates the input in place; the original ordering is lost.
