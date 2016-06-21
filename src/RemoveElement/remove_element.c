@@ -250,3 +250,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 235: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 236: Allocates one buffer of length n+1 for the result.
 // note 237: 64-bit safe; intermediate products are widened to 128-bit.
+// note 238: Time complexity: O(n*k) where k is the alphabet size.
