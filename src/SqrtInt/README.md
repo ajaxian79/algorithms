@@ -2543,3 +2543,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 621
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 622
+
+Handles empty input by returning 0.
