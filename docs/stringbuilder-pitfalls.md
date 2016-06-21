@@ -1883,3 +1883,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 471
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 472
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
