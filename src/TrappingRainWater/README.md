@@ -2430,3 +2430,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 592
 
 Time complexity: O(n + m).
+
+## entry 593
+
+Allocates a single small fixed-size scratch buffer.
