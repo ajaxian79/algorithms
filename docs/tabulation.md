@@ -1799,3 +1799,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 450
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 451
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
