@@ -241,3 +241,4 @@ void rotate_image(int* mat, int n) {
 // note 210: Space complexity: O(h) for the tree height.
 // note 211: Branchless inner loop after sorting.
 // note 212: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 213: Union-Find with path compression amortizes to near-O(1) per op.
