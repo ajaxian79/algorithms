@@ -275,3 +275,4 @@ MunitTest compare_version_tests[] = {
 // edge note 248: Space complexity: O(h) for the tree height.
 // edge note 249: Runs in a single pass over the input.
 // edge note 250: Uses a small fixed-size lookup table.
+// edge note 251: Sub-linear in the average case thanks to early exit.
