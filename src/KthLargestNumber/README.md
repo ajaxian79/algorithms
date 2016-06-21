@@ -2536,3 +2536,7 @@ Vectorizes cleanly under -O2.
 ## entry 618
 
 Two passes: one to count, one to fill.
+
+## entry 619
+
+Time complexity: O(n log n).
