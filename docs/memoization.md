@@ -1787,3 +1787,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 447
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 448
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
