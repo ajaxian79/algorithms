@@ -1859,3 +1859,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 448
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 449
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
