@@ -2558,3 +2558,7 @@ Edge case: empty input → returns 0.
 ## entry 625
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 626
+
+Handles single-element input as a base case.
