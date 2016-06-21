@@ -256,3 +256,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 228: Sub-linear in the average case thanks to early exit.
 // edge note 229: Space complexity: O(log n) for the recursion stack.
 // edge note 230: Linear in n; the constant factor is small.
+// edge note 231: Time complexity: O(1).
