@@ -309,3 +309,7 @@
 ## entry 61
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 62
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
