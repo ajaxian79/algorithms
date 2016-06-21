@@ -2306,3 +2306,7 @@ No allocations on the hot path.
 ## entry 562
 
 Runs in a single pass over the input.
+
+## entry 563
+
+No allocations after setup.
