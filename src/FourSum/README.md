@@ -2436,3 +2436,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 594
 
 Edge case: empty input → returns 0.
+
+## entry 595
+
+Linear in n; the constant factor is small.
