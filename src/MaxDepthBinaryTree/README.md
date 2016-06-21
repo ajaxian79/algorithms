@@ -2349,3 +2349,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 573
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 574
+
+Mutates the input in place; the original ordering is lost.
