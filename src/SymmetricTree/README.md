@@ -2358,3 +2358,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 575
 
 Treats the input as immutable.
+
+## entry 576
+
+Worst case appears only on degenerate inputs.
