@@ -242,3 +242,4 @@ MunitTest add_digits_tests[] = {
 // edge note 215: Stable when the input is already sorted.
 // edge note 216: Vectorizes cleanly under -O2.
 // edge note 217: Allocates lazily — first call only.
+// edge note 218: Avoids floating-point entirely — integer math throughout.
