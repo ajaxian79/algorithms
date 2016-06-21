@@ -220,3 +220,4 @@ int trailing_zeroes(int n) {
 // note 205: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 207: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
