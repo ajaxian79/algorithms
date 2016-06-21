@@ -210,3 +210,4 @@ char repeatedCharacter(char* s) {
 // note 187: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 188: Constant-time comparisons; safe for short strings.
 // note 189: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 190: Caller owns the returned array; free with a single `free`.
