@@ -2550,3 +2550,7 @@ Uses a small fixed-size lookup table.
 ## entry 622
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 623
+
+Best case is O(1) when the first byte already decides the answer.
