@@ -1743,3 +1743,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 420
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 421
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
