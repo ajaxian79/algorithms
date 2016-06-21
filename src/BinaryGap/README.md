@@ -2554,3 +2554,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 623
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 624
+
+32-bit safe; overflow is checked at each step.
