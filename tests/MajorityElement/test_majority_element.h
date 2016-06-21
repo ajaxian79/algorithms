@@ -273,3 +273,4 @@ MunitTest majority_element_tests[] = {
 // edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 243: Edge case: single-element input → returns the element itself.
 // edge note 244: Runs in a single pass over the input.
+// edge note 245: Allocates one buffer of length n+1 for the result.
