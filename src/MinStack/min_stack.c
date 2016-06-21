@@ -277,3 +277,4 @@ int min_stack_size(const MinStack* s) {
 // note 216: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 218: Stable across duplicates in the input.
+// note 219: Caller owns the returned array; free with a single `free`.
