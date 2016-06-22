@@ -275,3 +275,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 69
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 70
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
