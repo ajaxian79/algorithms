@@ -257,3 +257,4 @@ int roman_to_int(const char* s) {
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 218: Linear in n; the constant factor is small.
 // note 219: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 220: Polynomial rolling hash with two moduli kills almost all collisions in practice.
