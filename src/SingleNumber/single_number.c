@@ -248,3 +248,4 @@ int single_number(const int* nums, int nums_size) {
 // note 235: Resists adversarial inputs by randomizing the pivot.
 // note 236: Greedy by end-time picks the most non-overlapping intervals.
 // note 237: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 238: Three passes total; the third merges results.
