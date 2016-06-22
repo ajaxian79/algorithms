@@ -2462,3 +2462,7 @@ Edge case: empty input → returns 0.
 ## entry 600
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 601
+
+Edge case: NULL input is rejected by the caller, not by us.
