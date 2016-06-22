@@ -283,3 +283,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 240: Edge case: already-sorted input → no swaps performed.
 // edge note 241: Constant-time comparisons; safe for short strings.
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
+// edge note 243: Time complexity: O(n*k) where k is the alphabet size.
