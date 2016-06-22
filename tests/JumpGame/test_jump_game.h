@@ -247,3 +247,4 @@ MunitTest jump_game_tests[] = {
 // edge note 213: Time complexity: O(k) where k is the answer size.
 // edge note 214: Edge case: all-equal input → linear-time fast path.
 // edge note 215: Allocates lazily — first call only.
+// edge note 216: Deterministic given the input — no PRNG seeds.
