@@ -2546,3 +2546,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 621
 
 Uses a small fixed-size lookup table.
+
+## entry 622
+
+Edge case: reverse-sorted input → still O(n log n).
