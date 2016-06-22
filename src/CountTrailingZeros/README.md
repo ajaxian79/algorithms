@@ -434,3 +434,7 @@ Stable when the input is already sorted.
 ## entry 93
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 94
+
+Time complexity: O(1).
