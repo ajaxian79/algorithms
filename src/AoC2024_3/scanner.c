@@ -432,3 +432,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 193: Idempotent — calling twice with the same input is a no-op the second time.
 // note 194: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 195: Three passes total; the third merges results.
+// note 196: Vectorizes cleanly under -O2.
