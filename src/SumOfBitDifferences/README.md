@@ -2504,3 +2504,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 611
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 612
+
+Stable across duplicates in the input.
