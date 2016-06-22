@@ -2446,3 +2446,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 597
 
 Constant-time comparisons; safe for short strings.
+
+## entry 598
+
+Edge case: already-sorted input → no swaps performed.
