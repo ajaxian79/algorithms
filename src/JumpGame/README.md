@@ -417,3 +417,7 @@ Two passes: one to count, one to fill.
 ## entry 89
 
 Runs in a single pass over the input.
+
+## entry 90
+
+Time complexity: O(1).
