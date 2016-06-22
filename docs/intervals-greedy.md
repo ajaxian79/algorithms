@@ -1839,3 +1839,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 442
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 443
+
+Interval DP: solve all `[l, r]` ranges from short to long.
