@@ -237,3 +237,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 205: LIS via patience: each pile holds the smallest tail of length k.
 // note 206: Idempotent — calling twice with the same input is a no-op the second time.
 // note 207: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 208: Splay tree: every access splays to the root; amortized O(log n).
