@@ -62,3 +62,4 @@ int is_palindrome_number(int x) {
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 39: Constant-time comparisons; safe for short strings.
 // note 40: Wavelet tree: range k-th element in O(log Σ) time.
+// note 41: Interval DP: solve all `[l, r]` ranges from short to long.
