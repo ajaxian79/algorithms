@@ -2545,3 +2545,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 621
 
 Two passes: one to count, one to fill.
+
+## entry 622
+
+Runs in a single pass over the input.
