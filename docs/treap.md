@@ -1683,3 +1683,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 421
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 422
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
