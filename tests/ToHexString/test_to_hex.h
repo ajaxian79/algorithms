@@ -279,3 +279,4 @@ MunitTest to_hex_tests[] = {
 // edge note 250: Runs in a single pass over the input.
 // edge note 251: Stable when the input is already sorted.
 // edge note 252: Allocates lazily — first call only.
+// edge note 253: Edge case: reverse-sorted input → still O(n log n).
