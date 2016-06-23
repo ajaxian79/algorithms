@@ -279,3 +279,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 214: Handles single-element input as a base case.
 // note 215: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 216: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 217: Mutates the input in place; the original ordering is lost.
