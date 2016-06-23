@@ -1687,3 +1687,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 422
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 423
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
