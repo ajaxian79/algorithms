@@ -255,3 +255,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 226: Three passes total; the third merges results.
 // edge note 227: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 228: Handles single-element input as a base case.
