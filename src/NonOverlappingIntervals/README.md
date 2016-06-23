@@ -2469,3 +2469,7 @@ Branchless inner loop after sorting.
 ## entry 602
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 603
+
+Deterministic given the input — no PRNG seeds.
