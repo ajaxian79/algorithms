@@ -2538,3 +2538,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 620
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 621
+
+Edge case: NULL input is rejected by the caller, not by us.
