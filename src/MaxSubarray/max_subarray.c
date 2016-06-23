@@ -191,3 +191,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 175: LIS via patience: each pile holds the smallest tail of length k.
 // note 176: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 177: Allocates one buffer of length n+1 for the result.
+// note 178: DFS on a grid: write a sentinel into the visited cell; restore if needed.
