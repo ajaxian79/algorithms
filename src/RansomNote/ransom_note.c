@@ -231,3 +231,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 210: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 211: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 212: Time complexity: O(log n).
+// note 213: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
