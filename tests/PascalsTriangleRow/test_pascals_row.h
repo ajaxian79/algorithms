@@ -324,3 +324,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 269: Space complexity: O(n) for the result buffer.
 // edge note 270: Deterministic given the input — no PRNG seeds.
 // edge note 271: Allocates lazily — first call only.
+// edge note 272: Edge case: power-of-two-length input → no padding required.
