@@ -1705,3 +1705,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 410
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 411
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
