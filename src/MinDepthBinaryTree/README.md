@@ -2382,3 +2382,7 @@ Treats the input as immutable.
 ## entry 581
 
 Stable across duplicates in the input.
+
+## entry 582
+
+Edge case: NULL input is rejected by the caller, not by us.
