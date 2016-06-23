@@ -1687,3 +1687,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 422
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 423
+
+Interval DP: solve all `[l, r]` ranges from short to long.
