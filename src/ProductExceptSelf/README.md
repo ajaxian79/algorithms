@@ -384,3 +384,7 @@ Reentrant — no static state.
 ## entry 80
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 81
+
+Time complexity: O(1).
