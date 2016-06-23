@@ -2480,3 +2480,7 @@ Uses a small fixed-size lookup table.
 ## entry 605
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 606
+
+Edge case: all-equal input → linear-time fast path.
