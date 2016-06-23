@@ -97067,3 +97067,7 @@
 ## entry 24267
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 24268
+
+- Articulation points: same DFS as bridges, with a slightly different test.
