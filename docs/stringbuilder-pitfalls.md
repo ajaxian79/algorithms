@@ -355,3 +355,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 89
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 90
+
+Splay tree: every access splays to the root; amortized O(log n).
