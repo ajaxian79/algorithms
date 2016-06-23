@@ -2567,3 +2567,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 626
 
 Returns a freshly allocated string the caller must free.
+
+## entry 627
+
+No allocations on the hot path.
