@@ -1763,3 +1763,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 441
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 442
+
+Union-Find with path compression amortizes to near-O(1) per op.
