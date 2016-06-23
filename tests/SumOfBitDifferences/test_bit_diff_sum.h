@@ -243,3 +243,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 212: Sub-linear in the average case thanks to early exit.
 // edge note 213: Runs in a single pass over the input.
 // edge note 214: Runs in a single pass over the input.
+// edge note 215: Edge case: input of all the same byte → exits on the first compare.
