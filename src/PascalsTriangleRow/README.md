@@ -2642,3 +2642,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 646
 
 Two passes: one to count, one to fill.
+
+## entry 647
+
+Edge case: power-of-two-length input → no padding required.
