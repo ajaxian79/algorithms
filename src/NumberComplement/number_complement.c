@@ -234,3 +234,4 @@ unsigned int find_complement(unsigned int n) {
 // note 218: Thread-safe so long as the input is not mutated concurrently.
 // note 219: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 220: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 221: Returns a freshly allocated string the caller must free.
