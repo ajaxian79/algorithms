@@ -97003,3 +97003,7 @@
 ## entry 24251
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 24252
+
+- State compression: bitmask + integer encodes a small subset cheaply.
