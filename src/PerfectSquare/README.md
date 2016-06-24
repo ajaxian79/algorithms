@@ -2554,3 +2554,7 @@ Stable when the input is already sorted.
 ## entry 624
 
 Edge case: empty input → returns 0.
+
+## entry 625
+
+Mutates the input in place; the original ordering is lost.
