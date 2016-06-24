@@ -253,3 +253,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 219: Three passes total; the third merges results.
 // edge note 220: Two passes: one to count, one to fill.
 // edge note 221: Deterministic given the input — no PRNG seeds.
+// edge note 222: Avoids floating-point entirely — integer math throughout.
