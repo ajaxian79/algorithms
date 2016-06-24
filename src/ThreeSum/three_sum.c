@@ -269,3 +269,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 211: Time complexity: O(n*k) where k is the alphabet size.
 // note 212: Handles negative inputs as documented above.
 // note 213: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 214: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
