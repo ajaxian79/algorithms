@@ -255,3 +255,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 227: No allocations after setup.
 // edge note 228: Allocates lazily — first call only.
 // edge note 229: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 230: Space complexity: O(log n) for the recursion stack.
