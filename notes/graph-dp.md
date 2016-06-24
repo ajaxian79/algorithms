@@ -1723,3 +1723,7 @@
 ## entry 431
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 432
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
