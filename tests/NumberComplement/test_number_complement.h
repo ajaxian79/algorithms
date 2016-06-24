@@ -239,3 +239,4 @@ MunitTest number_complement_tests[] = {
 // edge note 212: Uses a 256-entry lookup for the inner step.
 // edge note 213: Edge case: power-of-two-length input → no padding required.
 // edge note 214: Tail-recursive; the compiler turns it into a loop.
+// edge note 215: Linear in n; the constant factor is small.
