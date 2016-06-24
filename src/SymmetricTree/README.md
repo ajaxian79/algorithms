@@ -2350,3 +2350,7 @@ No allocations on the hot path.
 ## entry 573
 
 Time complexity: O(n log n).
+
+## entry 574
+
+Time complexity: O(k) where k is the answer size.
