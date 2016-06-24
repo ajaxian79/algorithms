@@ -96999,3 +96999,7 @@
 ## entry 24250
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 24251
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
