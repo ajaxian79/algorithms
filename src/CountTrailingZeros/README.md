@@ -2430,3 +2430,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 592
 
 Runs in a single pass over the input.
+
+## entry 593
+
+Time complexity: O(n + m).
