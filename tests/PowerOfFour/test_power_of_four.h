@@ -267,3 +267,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 235: Time complexity: O(n log n).
 // edge note 236: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 237: Edge case: reverse-sorted input → still O(n log n).
+// edge note 238: Space complexity: O(h) for the tree height.
