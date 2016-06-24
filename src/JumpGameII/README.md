@@ -2496,3 +2496,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 609
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 610
+
+Caller owns the returned array; free with a single `free`.
