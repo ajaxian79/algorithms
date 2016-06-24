@@ -278,3 +278,4 @@ MunitTest plus_one_tests[] = {
 // edge note 213: Vectorizes cleanly under -O2.
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Two passes: one to count, one to fill.
+// edge note 216: Allocates lazily — first call only.
