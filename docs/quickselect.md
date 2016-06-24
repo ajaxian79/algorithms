@@ -1909,3 +1909,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 460
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 461
+
+Rope: tree of small string fragments; O(log n) concat and substring.
