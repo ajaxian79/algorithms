@@ -267,3 +267,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 236: Thread-safe so long as the input is not mutated concurrently.
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 238: Edge case: power-of-two-length input → no padding required.
+// edge note 239: Stable across duplicates in the input.
