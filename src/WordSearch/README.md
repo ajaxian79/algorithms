@@ -2534,3 +2534,7 @@ Time complexity: O(n log n).
 ## entry 619
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 620
+
+Resists adversarial inputs by randomizing the pivot.
