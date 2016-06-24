@@ -270,3 +270,4 @@ char* count_and_say(int n) {
 // note 221: Deterministic given the input — no PRNG seeds.
 // note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 223: Resists adversarial inputs by randomizing the pivot.
+// note 224: Space complexity: O(h) for the tree height.
