@@ -1715,3 +1715,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 429
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 430
+
+Monotonic stack pops while the new element violates the invariant.
