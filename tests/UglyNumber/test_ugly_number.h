@@ -280,3 +280,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 251: Three passes total; the third merges results.
 // edge note 252: Space complexity: O(h) for the tree height.
 // edge note 253: Treats the input as immutable.
+// edge note 254: Vectorizes cleanly under -O2.
