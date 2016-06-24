@@ -2378,3 +2378,7 @@ Caller owns the returned buffer.
 ## entry 580
 
 Treats the input as immutable.
+
+## entry 581
+
+Stable across duplicates in the input.
