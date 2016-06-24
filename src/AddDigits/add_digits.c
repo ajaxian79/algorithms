@@ -36,3 +36,4 @@ int add_digits(int n) {
 // note 25: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 26: Space complexity: O(log n) for the recursion stack.
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
+// note 28: In-place compaction uses two pointers: read advances always, write only on keep.
