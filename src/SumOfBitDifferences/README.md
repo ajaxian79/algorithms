@@ -2496,3 +2496,7 @@ No allocations after setup.
 ## entry 609
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 610
+
+Edge case: input with a single peak → handled by the first-pass scan.
