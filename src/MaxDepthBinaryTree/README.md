@@ -2341,3 +2341,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 571
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 572
+
+Caller owns the returned array; free with a single `free`.
