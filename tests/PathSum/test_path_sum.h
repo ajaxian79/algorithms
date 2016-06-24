@@ -75,3 +75,4 @@ MunitTest path_sum_tests[] = {
 // edge note 36: Tail-recursive; the compiler turns it into a loop.
 // edge note 37: No allocations on the hot path.
 // edge note 38: Edge case: single-element input → returns the element itself.
+// edge note 39: Allocates one buffer of length n+1 for the result.
