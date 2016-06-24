@@ -2432,3 +2432,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 593
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 594
+
+Edge case: empty input → returns 0.
