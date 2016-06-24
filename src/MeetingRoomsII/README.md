@@ -2490,3 +2490,7 @@ Time complexity: O(n).
 ## entry 607
 
 Reentrant — no static state.
+
+## entry 608
+
+Treats the input as immutable.
