@@ -2485,3 +2485,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 606
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 607
+
+Caller owns the returned array; free with a single `free`.
