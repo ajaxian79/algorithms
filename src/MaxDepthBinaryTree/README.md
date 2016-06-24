@@ -2345,3 +2345,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 572
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 573
+
+Avoids floating-point entirely — integer math throughout.
