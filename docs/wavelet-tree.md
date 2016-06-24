@@ -1699,3 +1699,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 425
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 426
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
