@@ -1791,3 +1791,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 430
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 431
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
