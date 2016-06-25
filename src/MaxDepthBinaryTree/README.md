@@ -2333,3 +2333,7 @@ Three passes total; the third merges results.
 ## entry 569
 
 Branchless inner loop after sorting.
+
+## entry 570
+
+Idempotent — calling twice with the same input is a no-op the second time.
