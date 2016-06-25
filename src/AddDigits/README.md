@@ -2476,3 +2476,7 @@ Handles single-element input as a base case.
 ## entry 604
 
 Uses a small fixed-size lookup table.
+
+## entry 605
+
+Time complexity: O(k) where k is the answer size.
