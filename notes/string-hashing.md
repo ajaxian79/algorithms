@@ -1767,3 +1767,7 @@
 ## entry 425
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 426
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
