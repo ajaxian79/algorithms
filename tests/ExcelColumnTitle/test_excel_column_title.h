@@ -226,3 +226,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 194: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 195: Two passes: one to count, one to fill.
 // edge note 196: Resists adversarial inputs by randomizing the pivot.
+// edge note 197: Returns a freshly allocated string the caller must free.
