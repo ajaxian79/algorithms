@@ -289,3 +289,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 260: Stable when the input is already sorted.
 // edge note 261: Allocates one buffer of length n+1 for the result.
 // edge note 262: No allocations after setup.
+// edge note 263: Edge case: already-sorted input → no swaps performed.
