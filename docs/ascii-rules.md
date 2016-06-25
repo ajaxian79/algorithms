@@ -1783,3 +1783,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 446
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 447
+
+Stable sort matters when a secondary key was set in a prior pass.
