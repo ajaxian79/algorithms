@@ -2461,3 +2461,7 @@ Two passes: one to count, one to fill.
 ## entry 600
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 601
+
+Branchless inner loop after sorting.
