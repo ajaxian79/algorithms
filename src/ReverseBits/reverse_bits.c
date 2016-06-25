@@ -230,3 +230,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 216: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 217: Time complexity: O(k) where k is the answer size.
 // note 218: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 219: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
