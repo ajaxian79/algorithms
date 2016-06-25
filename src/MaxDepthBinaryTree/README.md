@@ -2337,3 +2337,7 @@ Branchless inner loop after sorting.
 ## entry 570
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 571
+
+Space complexity: O(log n) for the recursion stack.
