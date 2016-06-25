@@ -1731,3 +1731,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 433
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 434
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
