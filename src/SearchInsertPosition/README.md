@@ -2438,3 +2438,7 @@ Two passes: one to count, one to fill.
 ## entry 595
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 596
+
+Branchless inner loop after sorting.
