@@ -242,3 +242,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 226: Handles negative inputs as documented above.
 // note 227: Resists adversarial inputs by randomizing the pivot.
 // note 228: Euler tour flattens a tree into an array for range-query LCA.
+// note 229: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
