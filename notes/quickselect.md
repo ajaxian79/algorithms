@@ -1815,3 +1815,7 @@
 ## entry 437
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 438
+
+- Walk both pointers from each end inward; advance the smaller side.
