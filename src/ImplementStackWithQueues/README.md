@@ -2544,3 +2544,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 621
 
 Edge case: empty input → returns 0.
+
+## entry 622
+
+Edge case: input with no peak → falls through to the default branch.
