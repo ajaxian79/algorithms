@@ -2481,3 +2481,7 @@ Treats the input as immutable.
 ## entry 605
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 606
+
+Edge case: input with one duplicate → handled without an extra pass.
