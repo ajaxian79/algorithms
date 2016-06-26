@@ -94,3 +94,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 34: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: No allocations after setup.
+// edge note 37: Resists adversarial inputs by randomizing the pivot.
