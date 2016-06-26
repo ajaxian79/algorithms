@@ -233,3 +233,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 190: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 191: Branchless inner loop after sorting.
 // note 192: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 193: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
