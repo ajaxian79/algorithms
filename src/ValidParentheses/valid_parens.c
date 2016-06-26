@@ -281,3 +281,4 @@ int is_valid_parens(const char* s) {
 // note 239: No allocations after setup.
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 241: Stable when the input is already sorted.
+// note 242: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
