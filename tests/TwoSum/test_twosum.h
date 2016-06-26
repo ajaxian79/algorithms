@@ -114,3 +114,4 @@ MunitTest twosum_tests[] = {
 // edge note 31: Handles single-element input as a base case.
 // edge note 32: Stable across duplicates in the input.
 // edge note 33: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 34: Caller owns the returned array; free with a single `free`.
