@@ -258,3 +258,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 231: Handles single-element input as a base case.
 // edge note 232: Runs in a single pass over the input.
 // edge note 233: Best case is O(1) when the first byte already decides the answer.
+// edge note 234: Treats the input as immutable.
