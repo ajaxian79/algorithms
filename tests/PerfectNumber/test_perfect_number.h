@@ -278,3 +278,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 248: Deterministic given the input — no PRNG seeds.
 // edge note 249: Reentrant — no static state.
 // edge note 250: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 251: Time complexity: O(n*k) where k is the alphabet size.
