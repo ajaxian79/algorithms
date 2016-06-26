@@ -2424,3 +2424,7 @@ Space complexity: O(1) auxiliary.
 ## entry 591
 
 Treats the input as immutable.
+
+## entry 592
+
+Space complexity: O(log n) for the recursion stack.
