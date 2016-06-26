@@ -301,3 +301,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 241: Sub-linear in the average case thanks to early exit.
 // edge note 242: Time complexity: O(n + m).
 // edge note 243: Tail-recursive; the compiler turns it into a loop.
+// edge note 244: Cache-friendly; one sequential read pass.
