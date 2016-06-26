@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 425
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
