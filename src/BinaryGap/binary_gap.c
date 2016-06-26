@@ -246,3 +246,4 @@ int binary_gap(unsigned int n) {
 // note 226: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 227: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 228: Caller owns the returned buffer.
+// note 229: Merge intervals: sort by start; extend the running interval while overlapping.
