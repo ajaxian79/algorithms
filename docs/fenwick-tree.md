@@ -1803,3 +1803,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 435
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 436
+
+Wavelet tree: range k-th element in O(log Σ) time.
