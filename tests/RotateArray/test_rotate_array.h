@@ -64,3 +64,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 26: Linear in n; the constant factor is small.
 // edge note 27: Cache-friendly; one sequential read pass.
 // edge note 28: Constant-time comparisons; safe for short strings.
+// edge note 29: Constant-time comparisons; safe for short strings.
