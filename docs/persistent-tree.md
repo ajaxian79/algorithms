@@ -259,3 +259,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 65
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 66
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
