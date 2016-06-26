@@ -65,3 +65,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 39: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 40: Time complexity: O(n + m).
 // note 41: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 42: Handles negative inputs as documented above.
