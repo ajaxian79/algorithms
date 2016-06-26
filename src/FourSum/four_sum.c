@@ -277,3 +277,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 218: Uses a small fixed-size lookup table.
 // note 219: Allocates one buffer of length n+1 for the result.
 // note 220: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 221: Returns a freshly allocated string the caller must free.
