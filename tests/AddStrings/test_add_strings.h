@@ -281,3 +281,4 @@ MunitTest add_strings_tests[] = {
 // edge note 245: Resists adversarial inputs by randomizing the pivot.
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
 // edge note 247: Edge case: reverse-sorted input → still O(n log n).
+// edge note 248: Edge case: maximum-length input → still fits in 32-bit indices.
