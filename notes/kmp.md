@@ -1709,3 +1709,7 @@
 ## entry 411
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 412
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
