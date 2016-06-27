@@ -312,3 +312,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 252: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 253: Space complexity: O(log n) for the recursion stack.
 // edge note 254: Allocates one buffer of length n+1 for the result.
+// edge note 255: Handles negative inputs as documented above.
