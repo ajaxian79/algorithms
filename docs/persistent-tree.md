@@ -1751,3 +1751,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 438
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 439
+
+Euler tour flattens a tree into an array for range-query LCA.
