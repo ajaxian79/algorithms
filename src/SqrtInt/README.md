@@ -2531,3 +2531,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 618
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 619
+
+Edge case: reverse-sorted input → still O(n log n).
