@@ -1555,3 +1555,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 389
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 390
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
