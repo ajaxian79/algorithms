@@ -2290,3 +2290,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 548
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 549
+
+Space complexity: O(log n) for the recursion stack.
