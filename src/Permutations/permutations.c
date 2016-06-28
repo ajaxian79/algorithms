@@ -251,3 +251,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 206: Reentrant — no static state.
 // note 207: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 208: Stable across duplicates in the input.
+// note 209: Iterative DFS with an explicit stack avoids recursion-limit issues.
