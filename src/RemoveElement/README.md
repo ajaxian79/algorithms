@@ -2449,3 +2449,7 @@ Vectorizes cleanly under -O2.
 ## entry 598
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 599
+
+Caller owns the returned array; free with a single `free`.
