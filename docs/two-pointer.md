@@ -1871,3 +1871,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 450
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 451
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
