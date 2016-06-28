@@ -1759,3 +1759,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 424
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 425
+
+Stable sort matters when a secondary key was set in a prior pass.
