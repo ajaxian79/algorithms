@@ -2548,3 +2548,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 621
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 622
+
+Edge case: input with one duplicate → handled without an extra pass.
