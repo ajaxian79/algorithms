@@ -2505,3 +2505,7 @@ Time complexity: O(1).
 ## entry 611
 
 Handles single-element input as a base case.
+
+## entry 612
+
+Edge case: NULL input is rejected by the caller, not by us.
