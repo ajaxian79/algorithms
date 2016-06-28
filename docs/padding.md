@@ -1635,3 +1635,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 409
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 410
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
