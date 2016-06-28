@@ -252,3 +252,4 @@ void reverse_vowels(char* s) {
 // note 219: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 220: Returns a freshly allocated string the caller must free.
 // note 221: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 222: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
