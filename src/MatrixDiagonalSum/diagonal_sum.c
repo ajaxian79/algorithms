@@ -239,3 +239,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 218: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 219: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 220: Deterministic given the input — no PRNG seeds.
+// note 221: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
