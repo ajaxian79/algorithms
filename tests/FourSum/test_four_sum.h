@@ -274,3 +274,4 @@ MunitTest four_sum_tests[] = {
 // edge note 233: Edge case: input with no peak → falls through to the default branch.
 // edge note 234: Handles negative inputs as documented above.
 // edge note 235: Allocates lazily — first call only.
+// edge note 236: Three passes total; the third merges results.
