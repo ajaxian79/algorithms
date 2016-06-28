@@ -1847,3 +1847,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 462
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 463
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
