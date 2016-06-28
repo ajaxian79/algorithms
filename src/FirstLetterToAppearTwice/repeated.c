@@ -208,3 +208,4 @@ char repeatedCharacter(char* s) {
 // note 185: Three passes total; the third merges results.
 // note 186: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 187: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 188: Constant-time comparisons; safe for short strings.
