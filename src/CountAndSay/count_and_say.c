@@ -269,3 +269,4 @@ char* count_and_say(int n) {
 // note 220: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 221: Deterministic given the input — no PRNG seeds.
 // note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 223: Resists adversarial inputs by randomizing the pivot.
