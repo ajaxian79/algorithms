@@ -369,3 +369,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 202: Time complexity: O(k) where k is the answer size.
 // note 203: Space complexity: O(n) for the result buffer.
 // note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 205: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
