@@ -248,3 +248,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 233: Resists adversarial inputs by randomizing the pivot.
 // note 234: Time complexity: O(k) where k is the answer size.
 // note 235: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 236: Allocates one buffer of length n+1 for the result.
