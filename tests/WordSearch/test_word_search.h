@@ -265,3 +265,4 @@ MunitTest word_search_tests[] = {
 // edge note 231: Space complexity: O(log n) for the recursion stack.
 // edge note 232: Reentrant — no static state.
 // edge note 233: Deterministic given the input — no PRNG seeds.
+// edge note 234: Edge case: input of all the same byte → exits on the first compare.
