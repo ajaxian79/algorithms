@@ -2532,3 +2532,7 @@ Handles negative inputs as documented above.
 ## entry 617
 
 Vectorizes cleanly under -O2.
+
+## entry 618
+
+Two passes: one to count, one to fill.
