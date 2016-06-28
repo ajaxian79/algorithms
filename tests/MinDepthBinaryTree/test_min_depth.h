@@ -274,3 +274,4 @@ MunitTest min_depth_tests[] = {
 // edge note 235: Runs in a single pass over the input.
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Reentrant — no static state.
+// edge note 238: Edge case: NULL input is rejected by the caller, not by us.
