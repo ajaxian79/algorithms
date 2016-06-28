@@ -368,3 +368,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 215: Sub-linear in the average case thanks to early exit.
 // note 216: Handles negative inputs as documented above.
 // note 217: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 218: k-d tree: median-split each axis; nearest-neighbor average O(log n).
