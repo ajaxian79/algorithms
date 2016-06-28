@@ -1715,3 +1715,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 411
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 412
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
