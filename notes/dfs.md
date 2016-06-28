@@ -1787,3 +1787,7 @@
 ## entry 431
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 432
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
