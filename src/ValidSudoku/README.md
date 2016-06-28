@@ -391,3 +391,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 82
 
 Cache-friendly; one sequential read pass.
+
+## entry 83
+
+Edge case: power-of-two-length input → no padding required.
