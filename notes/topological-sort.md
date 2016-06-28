@@ -1795,3 +1795,7 @@
 ## entry 432
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 433
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
