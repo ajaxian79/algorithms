@@ -2528,3 +2528,7 @@ Treats the input as immutable.
 ## entry 616
 
 Handles negative inputs as documented above.
+
+## entry 617
+
+Vectorizes cleanly under -O2.
