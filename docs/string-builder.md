@@ -1731,3 +1731,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 433
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 434
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
