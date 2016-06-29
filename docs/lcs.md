@@ -1783,3 +1783,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 428
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 429
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
