@@ -2574,3 +2574,7 @@ Stable when the input is already sorted.
 ## entry 628
 
 Treats the input as immutable.
+
+## entry 629
+
+Caller owns the returned array; free with a single `free`.
