@@ -1659,3 +1659,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 399
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 400
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
