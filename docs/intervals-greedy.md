@@ -1835,3 +1835,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 441
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 442
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
