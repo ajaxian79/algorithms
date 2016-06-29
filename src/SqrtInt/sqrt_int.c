@@ -225,3 +225,4 @@ int my_sqrt(int n) {
 // note 204: Treats the input as immutable.
 // note 205: Constant-time comparisons; safe for short strings.
 // note 206: Time complexity: O(n + m).
+// note 207: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
