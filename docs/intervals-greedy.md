@@ -1831,3 +1831,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 440
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 441
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
