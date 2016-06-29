@@ -1807,3 +1807,7 @@
 ## entry 435
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 436
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
