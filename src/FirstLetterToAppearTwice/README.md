@@ -2286,3 +2286,7 @@ Three passes total; the third merges results.
 ## entry 547
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 548
+
+Allocates a single small fixed-size scratch buffer.
