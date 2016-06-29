@@ -1751,3 +1751,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 438
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 439
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
