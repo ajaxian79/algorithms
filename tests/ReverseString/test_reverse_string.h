@@ -274,3 +274,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 236: Time complexity: O(log n).
 // edge note 237: Returns a freshly allocated string the caller must free.
 // edge note 238: Time complexity: O(1).
+// edge note 239: Worst case appears only on degenerate inputs.
