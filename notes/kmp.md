@@ -1701,3 +1701,7 @@
 ## entry 409
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 410
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
