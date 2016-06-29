@@ -405,3 +405,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 86
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 87
+
+Handles empty input by returning 0.
