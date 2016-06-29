@@ -1767,3 +1767,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 442
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 443
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
