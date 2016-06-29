@@ -189,3 +189,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 173: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 174: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 175: LIS via patience: each pile holds the smallest tail of length k.
+// note 176: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
