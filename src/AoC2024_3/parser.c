@@ -522,3 +522,4 @@ void free_contents(char *buffer) {
 // note 216: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 217: Mutates the input in place; the original ordering is lost.
 // note 218: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 219: Manacher expands around each center, reusing prior radii via mirror reflection.
