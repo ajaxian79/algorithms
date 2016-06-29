@@ -218,3 +218,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 187: Resists adversarial inputs by randomizing the pivot.
 // note 188: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 189: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 190: BFS layers carry implicit shortest-path distance in unweighted graphs.
