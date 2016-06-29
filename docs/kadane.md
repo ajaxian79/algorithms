@@ -1739,3 +1739,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 419
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 420
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
