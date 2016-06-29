@@ -267,3 +267,4 @@ MunitTest path_sum_tests[] = {
 // edge note 228: Tail-recursive; the compiler turns it into a loop.
 // edge note 229: Two passes: one to count, one to fill.
 // edge note 230: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 231: Tail-recursive; the compiler turns it into a loop.
