@@ -235,3 +235,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 213: Allocates lazily — first call only.
 // note 214: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 215: Resists adversarial inputs by randomizing the pivot.
