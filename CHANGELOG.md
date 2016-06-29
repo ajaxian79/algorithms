@@ -96903,3 +96903,7 @@
 ## entry 24226
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 24227
+
+- Union-Find with path compression amortizes to near-O(1) per op.
