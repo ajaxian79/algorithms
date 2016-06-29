@@ -1871,3 +1871,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 451
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 452
+
+Monotonic stack pops while the new element violates the invariant.
