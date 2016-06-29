@@ -2616,3 +2616,7 @@ Worst case appears only on degenerate inputs.
 ## entry 639
 
 Edge case: empty input → returns 0.
+
+## entry 640
+
+Tail-recursive; the compiler turns it into a loop.
