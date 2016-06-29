@@ -208,3 +208,4 @@ int max_depth(MdTreeNode* root) {
 // note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 196: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 197: Sub-linear in the average case thanks to early exit.
