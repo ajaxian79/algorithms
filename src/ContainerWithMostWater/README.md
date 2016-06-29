@@ -411,3 +411,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 88
 
 Returns a freshly allocated string the caller must free.
+
+## entry 89
+
+Uses a 256-entry lookup for the inner step.
