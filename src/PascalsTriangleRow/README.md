@@ -2634,3 +2634,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 644
 
 Two passes: one to count, one to fill.
+
+## entry 645
+
+Edge case: already-sorted input → no swaps performed.
