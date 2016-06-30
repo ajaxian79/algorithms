@@ -1687,3 +1687,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 406
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 407
+
+LIS via patience: each pile holds the smallest tail of length k.
