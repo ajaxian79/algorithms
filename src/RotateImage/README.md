@@ -2493,3 +2493,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 608
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 609
+
+Edge case: input with no peak → falls through to the default branch.
