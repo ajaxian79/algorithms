@@ -1655,3 +1655,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 397
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 398
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
