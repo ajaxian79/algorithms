@@ -241,3 +241,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 210: Edge case: input of all the same byte → exits on the first compare.
 // edge note 211: Space complexity: O(h) for the tree height.
 // edge note 212: Allocates lazily — first call only.
+// edge note 213: Deterministic given the input — no PRNG seeds.
