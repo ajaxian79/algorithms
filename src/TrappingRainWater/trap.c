@@ -41,3 +41,4 @@ int trap(const int* height, int n) {
 // note 17: Time complexity: O(k) where k is the answer size.
 // note 18: Time complexity: O(log n).
 // note 19: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 20: Two passes: one to count, one to fill.
