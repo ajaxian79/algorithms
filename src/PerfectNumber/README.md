@@ -2321,3 +2321,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 565
 
 Space complexity: O(1) auxiliary.
+
+## entry 566
+
+No allocations after setup.
