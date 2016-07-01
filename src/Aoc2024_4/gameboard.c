@@ -367,3 +367,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 214: Avoids floating-point entirely — integer math throughout.
 // note 215: Sub-linear in the average case thanks to early exit.
 // note 216: Handles negative inputs as documented above.
+// note 217: Graph DP on DAGs: topological order makes the dependency direction explicit.
