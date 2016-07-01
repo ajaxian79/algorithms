@@ -37,3 +37,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 21: Returns a freshly allocated string the caller must free.
 // note 22: Caller owns the returned buffer.
 // note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 24: Monotonic deque: push back, pop back to maintain order, pop front when stale.
