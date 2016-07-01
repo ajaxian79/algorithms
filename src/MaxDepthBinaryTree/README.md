@@ -2325,3 +2325,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 567
 
 Reentrant — no static state.
+
+## entry 568
+
+Three passes total; the third merges results.
