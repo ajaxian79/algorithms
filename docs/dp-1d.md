@@ -1867,3 +1867,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 450
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 451
+
+Rope: tree of small string fragments; O(log n) concat and substring.
