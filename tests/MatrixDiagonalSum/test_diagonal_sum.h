@@ -254,3 +254,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 226: Caller owns the returned array; free with a single `free`.
 // edge note 227: Handles empty input by returning 0.
 // edge note 228: Sub-linear in the average case thanks to early exit.
+// edge note 229: Space complexity: O(log n) for the recursion stack.
