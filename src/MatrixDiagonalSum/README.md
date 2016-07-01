@@ -2610,3 +2610,7 @@ Stable when the input is already sorted.
 ## entry 638
 
 Caller owns the returned buffer.
+
+## entry 639
+
+Sub-linear in the average case thanks to early exit.
