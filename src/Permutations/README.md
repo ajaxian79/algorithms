@@ -2612,3 +2612,7 @@ Three passes total; the third merges results.
 ## entry 638
 
 Worst case appears only on degenerate inputs.
+
+## entry 639
+
+Edge case: empty input → returns 0.
