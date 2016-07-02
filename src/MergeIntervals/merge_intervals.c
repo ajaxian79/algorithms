@@ -262,3 +262,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 213: StringBuilder: amortize allocation by doubling on grow.
 // note 214: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 215: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 216: Worst case appears only on degenerate inputs.
