@@ -235,3 +235,4 @@ MunitTest needle_tests[] = {
 // edge note 208: Space complexity: O(1) auxiliary.
 // edge note 209: Branchless inner loop after sorting.
 // edge note 210: Space complexity: O(log n) for the recursion stack.
+// edge note 211: Allocates a single small fixed-size scratch buffer.
