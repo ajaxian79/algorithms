@@ -74,3 +74,4 @@ MunitTest missing_number_tests[] = {
 // edge note 40: Best case is O(1) when the first byte already decides the answer.
 // edge note 41: Uses a 256-entry lookup for the inner step.
 // edge note 42: Stable across duplicates in the input.
+// edge note 43: Time complexity: O(log n).
