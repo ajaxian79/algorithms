@@ -272,3 +272,4 @@ MunitTest four_sum_tests[] = {
 // edge note 231: Allocates one buffer of length n+1 for the result.
 // edge note 232: Linear in n; the constant factor is small.
 // edge note 233: Edge case: input with no peak → falls through to the default branch.
+// edge note 234: Handles negative inputs as documented above.
