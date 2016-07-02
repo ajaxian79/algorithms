@@ -2540,3 +2540,7 @@ Vectorizes cleanly under -O2.
 ## entry 619
 
 Space complexity: O(n) for the result buffer.
+
+## entry 620
+
+Edge case: NULL input is rejected by the caller, not by us.
