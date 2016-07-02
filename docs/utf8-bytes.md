@@ -1679,3 +1679,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 420
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 421
+
+LIS via patience: each pile holds the smallest tail of length k.
