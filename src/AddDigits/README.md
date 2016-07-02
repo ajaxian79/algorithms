@@ -2472,3 +2472,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 603
 
 Handles single-element input as a base case.
+
+## entry 604
+
+Uses a small fixed-size lookup table.
