@@ -2385,3 +2385,7 @@ Time complexity: O(n + m).
 ## entry 581
 
 Runs in a single pass over the input.
+
+## entry 582
+
+Uses a 256-entry lookup for the inner step.
