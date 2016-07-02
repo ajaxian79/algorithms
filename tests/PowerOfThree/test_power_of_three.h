@@ -259,3 +259,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 228: Mutates the input in place; the original ordering is lost.
 // edge note 229: Tail-recursive; the compiler turns it into a loop.
 // edge note 230: Vectorizes cleanly under -O2.
+// edge note 231: Resists adversarial inputs by randomizing the pivot.
