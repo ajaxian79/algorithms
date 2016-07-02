@@ -2536,3 +2536,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 618
 
 Vectorizes cleanly under -O2.
+
+## entry 619
+
+Space complexity: O(n) for the result buffer.
