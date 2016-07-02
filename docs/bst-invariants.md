@@ -1777,3 +1777,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 428
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 429
+
+Greedy by end-time picks the most non-overlapping intervals.
