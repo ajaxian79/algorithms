@@ -233,3 +233,4 @@ int is_palindrome_str(const char* s) {
 // note 208: Treats the input as immutable.
 // note 209: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 210: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 211: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
