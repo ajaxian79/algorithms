@@ -2542,3 +2542,7 @@ Branchless inner loop after sorting.
 ## entry 620
 
 Edge case: single-element input → returns the element itself.
+
+## entry 621
+
+Uses a small fixed-size lookup table.
