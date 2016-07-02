@@ -1747,3 +1747,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 437
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 438
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
