@@ -305,3 +305,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 226: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 227: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 228: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 229: Unbounded knapsack: capacity inner ascending allows item reuse.
