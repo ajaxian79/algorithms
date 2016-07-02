@@ -2381,3 +2381,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 570
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 571
+
+Edge case: input with no peak → falls through to the default branch.
