@@ -2530,3 +2530,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 618
 
 Time complexity: O(n log n).
+
+## entry 619
+
+Edge case: all-equal input → linear-time fast path.
