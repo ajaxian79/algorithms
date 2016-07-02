@@ -1631,3 +1631,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 408
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 409
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
