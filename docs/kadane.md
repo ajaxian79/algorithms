@@ -1735,3 +1735,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 418
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 419
+
+StringBuilder: amortize allocation by doubling on grow.
