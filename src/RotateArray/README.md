@@ -2627,3 +2627,7 @@ Handles empty input by returning 0.
 ## entry 641
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 642
+
+Edge case: reverse-sorted input → still O(n log n).
