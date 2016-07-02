@@ -2478,3 +2478,7 @@ Worst case appears only on degenerate inputs.
 ## entry 604
 
 Handles empty input by returning 0.
+
+## entry 605
+
+Handles empty input by returning 0.
