@@ -2492,3 +2492,7 @@ Cache-friendly; one sequential read pass.
 ## entry 608
 
 No allocations after setup.
+
+## entry 609
+
+Edge case: input with one duplicate → handled without an extra pass.
