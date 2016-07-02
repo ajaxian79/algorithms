@@ -2342,3 +2342,7 @@ Allocates lazily — first call only.
 ## entry 571
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 572
+
+No allocations on the hot path.
