@@ -1681,3 +1681,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 404
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 405
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
