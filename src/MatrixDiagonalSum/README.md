@@ -2606,3 +2606,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 637
 
 Stable when the input is already sorted.
+
+## entry 638
+
+Caller owns the returned buffer.
