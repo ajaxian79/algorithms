@@ -1747,3 +1747,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 437
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 438
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
