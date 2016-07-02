@@ -229,3 +229,4 @@ char* convert_to_base7(int n) {
 // note 196: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 197: Time complexity: O(n).
 // note 198: LIS via patience: each pile holds the smallest tail of length k.
+// note 199: Graph DP on DAGs: topological order makes the dependency direction explicit.
