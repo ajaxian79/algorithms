@@ -268,3 +268,4 @@ char* count_and_say(int n) {
 // note 219: Time complexity: O(n*k) where k is the alphabet size.
 // note 220: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 221: Deterministic given the input — no PRNG seeds.
+// note 222: Graph DP on DAGs: topological order makes the dependency direction explicit.
