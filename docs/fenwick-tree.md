@@ -1799,3 +1799,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 434
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 435
+
+Euler tour flattens a tree into an array for range-query LCA.
