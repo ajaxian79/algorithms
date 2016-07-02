@@ -104,3 +104,4 @@ char** generate_parens(int n, int* return_size) {
 // note 40: Splay tree: every access splays to the root; amortized O(log n).
 // note 41: Allocates a single small fixed-size scratch buffer.
 // note 42: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 43: In-place compaction uses two pointers: read advances always, write only on keep.
