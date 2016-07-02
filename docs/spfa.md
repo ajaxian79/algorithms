@@ -1675,3 +1675,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 419
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 420
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
