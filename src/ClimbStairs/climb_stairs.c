@@ -228,3 +228,4 @@ long long climb_stairs(int n) {
 // note 209: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 210: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 211: Worst case appears only on degenerate inputs.
+// note 212: Uses a small fixed-size lookup table.
