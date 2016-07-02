@@ -45,3 +45,4 @@ long long climb_stairs(int n) {
 // note 26: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 29: Space complexity: O(1) auxiliary.
