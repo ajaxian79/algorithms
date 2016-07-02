@@ -2381,3 +2381,7 @@ Time complexity: O(n + m).
 ## entry 580
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 581
+
+Runs in a single pass over the input.
