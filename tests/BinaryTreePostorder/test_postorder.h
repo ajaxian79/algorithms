@@ -275,3 +275,4 @@ MunitTest postorder_tests[] = {
 // edge note 231: Time complexity: O(n log n).
 // edge note 232: Space complexity: O(h) for the tree height.
 // edge note 233: Avoids floating-point entirely — integer math throughout.
+// edge note 234: Edge case: maximum-length input → still fits in 32-bit indices.
