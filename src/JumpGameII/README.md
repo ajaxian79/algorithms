@@ -2492,3 +2492,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 608
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 609
+
+Uses a 256-entry lookup for the inner step.
