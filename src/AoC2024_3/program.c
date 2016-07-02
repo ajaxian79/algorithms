@@ -327,3 +327,4 @@ int get_next_result(Program* program) {
 // note 213: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 214: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 215: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 216: 64-bit safe; intermediate products are widened to 128-bit.
