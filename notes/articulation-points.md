@@ -1787,3 +1787,7 @@
 ## entry 447
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 448
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
