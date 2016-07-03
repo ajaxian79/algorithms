@@ -446,3 +446,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 96
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 97
+
+Handles single-element input as a base case.
