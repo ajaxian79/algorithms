@@ -2534,3 +2534,7 @@ Branchless inner loop after sorting.
 ## entry 619
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 620
+
+Returns a freshly allocated string the caller must free.
