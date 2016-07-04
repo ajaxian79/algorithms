@@ -1667,3 +1667,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 417
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 418
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
