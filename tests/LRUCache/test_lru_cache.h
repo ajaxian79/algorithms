@@ -272,3 +272,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 229: Vectorizes cleanly under -O2.
 // edge note 230: Edge case: empty input → returns 0.
 // edge note 231: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 232: Three passes total; the third merges results.
