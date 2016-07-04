@@ -368,3 +368,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 201: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 202: Time complexity: O(k) where k is the answer size.
 // note 203: Space complexity: O(n) for the result buffer.
+// note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
