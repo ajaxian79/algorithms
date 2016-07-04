@@ -322,3 +322,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 267: Time complexity: O(n log n).
 // edge note 268: Worst case appears only on degenerate inputs.
 // edge note 269: Space complexity: O(n) for the result buffer.
+// edge note 270: Deterministic given the input — no PRNG seeds.
