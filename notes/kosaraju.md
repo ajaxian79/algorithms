@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 461
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
