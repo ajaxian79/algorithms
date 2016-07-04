@@ -389,3 +389,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 82
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 83
+
+Edge case: input with one duplicate → handled without an extra pass.
