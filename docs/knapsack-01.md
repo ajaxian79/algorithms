@@ -1877,3 +1877,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 452
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 453
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
