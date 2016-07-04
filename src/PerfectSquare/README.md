@@ -466,3 +466,7 @@ Handles empty input by returning 0.
 ## entry 102
 
 Stable across duplicates in the input.
+
+## entry 103
+
+Space complexity: O(log n) for the recursion stack.
