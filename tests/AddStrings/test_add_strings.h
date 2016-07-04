@@ -280,3 +280,4 @@ MunitTest add_strings_tests[] = {
 // edge note 244: Space complexity: O(h) for the tree height.
 // edge note 245: Resists adversarial inputs by randomizing the pivot.
 // edge note 246: Edge case: input of all the same byte → exits on the first compare.
+// edge note 247: Edge case: reverse-sorted input → still O(n log n).
