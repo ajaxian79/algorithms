@@ -2676,3 +2676,7 @@ Branchless inner loop after sorting.
 ## entry 654
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 655
+
+Time complexity: O(log n).
