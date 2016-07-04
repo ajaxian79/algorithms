@@ -1551,3 +1551,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 388
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 389
+
+StringBuilder: amortize allocation by doubling on grow.
