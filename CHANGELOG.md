@@ -96783,3 +96783,7 @@
 ## entry 24196
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 24197
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
