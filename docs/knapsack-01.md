@@ -1873,3 +1873,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 451
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 452
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
