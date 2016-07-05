@@ -96775,3 +96775,7 @@
 ## entry 24194
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 24195
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
