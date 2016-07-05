@@ -238,3 +238,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 211: Deterministic given the input — no PRNG seeds.
 // edge note 212: Caller owns the returned buffer.
 // edge note 213: Mutates the input in place; the original ordering is lost.
+// edge note 214: Stable across duplicates in the input.
