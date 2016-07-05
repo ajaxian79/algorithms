@@ -459,3 +459,7 @@ Space complexity: O(h) for the tree height.
 ## entry 100
 
 Three passes total; the third merges results.
+
+## entry 101
+
+Thread-safe so long as the input is not mutated concurrently.
