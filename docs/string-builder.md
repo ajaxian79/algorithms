@@ -1727,3 +1727,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 432
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 433
+
+Walk both pointers from each end inward; advance the smaller side.
