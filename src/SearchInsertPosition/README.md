@@ -2434,3 +2434,7 @@ Handles negative inputs as documented above.
 ## entry 594
 
 Two passes: one to count, one to fill.
+
+## entry 595
+
+Edge case: input with no peak → falls through to the default branch.
