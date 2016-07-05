@@ -1775,3 +1775,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 444
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 445
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
