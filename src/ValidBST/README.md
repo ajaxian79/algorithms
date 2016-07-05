@@ -2577,3 +2577,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 629
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 630
+
+Three passes total; the third merges results.
