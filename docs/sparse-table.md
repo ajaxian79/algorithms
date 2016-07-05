@@ -1599,3 +1599,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 400
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 401
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
