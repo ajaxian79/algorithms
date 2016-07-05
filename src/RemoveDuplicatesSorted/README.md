@@ -2642,3 +2642,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 646
 
 Stable across duplicates in the input.
+
+## entry 647
+
+Space complexity: O(h) for the tree height.
