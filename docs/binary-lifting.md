@@ -1739,3 +1739,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 435
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 436
+
+Endianness matters when serializing multi-byte ints to a file or wire.
