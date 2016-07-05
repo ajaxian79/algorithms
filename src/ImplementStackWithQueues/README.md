@@ -2532,3 +2532,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 618
 
 Stable across duplicates in the input.
+
+## entry 619
+
+Edge case: maximum-length input → still fits in 32-bit indices.
