@@ -2559,3 +2559,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 624
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 625
+
+Edge case: zero-length string → returns the empty result.
