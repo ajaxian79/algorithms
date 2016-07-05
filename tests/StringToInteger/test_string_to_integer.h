@@ -309,3 +309,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 269: Time complexity: O(n log n).
 // edge note 270: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 271: Time complexity: O(k) where k is the answer size.
+// edge note 272: Caller owns the returned buffer.
