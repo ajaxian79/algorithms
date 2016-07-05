@@ -2334,3 +2334,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 568
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 569
+
+Edge case: all-equal input → linear-time fast path.
