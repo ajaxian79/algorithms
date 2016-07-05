@@ -1707,3 +1707,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 427
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 428
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
