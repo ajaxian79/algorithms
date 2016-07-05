@@ -293,3 +293,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 227: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 228: Allocates a single small fixed-size scratch buffer.
 // note 229: Sub-linear in the average case thanks to early exit.
+// note 230: StringBuilder pitfall: reuse forces a deep copy on the first read.
