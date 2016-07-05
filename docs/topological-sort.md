@@ -1781,3 +1781,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 427
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 428
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
