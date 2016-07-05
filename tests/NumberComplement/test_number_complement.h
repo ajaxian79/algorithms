@@ -238,3 +238,4 @@ MunitTest number_complement_tests[] = {
 // edge note 211: Edge case: reverse-sorted input → still O(n log n).
 // edge note 212: Uses a 256-entry lookup for the inner step.
 // edge note 213: Edge case: power-of-two-length input → no padding required.
+// edge note 214: Tail-recursive; the compiler turns it into a loop.
