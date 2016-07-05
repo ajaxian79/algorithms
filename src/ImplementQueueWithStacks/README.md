@@ -2539,3 +2539,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 620
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 621
+
+Stable across duplicates in the input.
