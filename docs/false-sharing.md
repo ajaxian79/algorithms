@@ -1767,3 +1767,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 442
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 443
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
