@@ -247,3 +247,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 198: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 199: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 200: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 201: Runs in a single pass over the input.
