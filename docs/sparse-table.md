@@ -1603,3 +1603,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 401
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 402
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
