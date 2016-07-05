@@ -1785,3 +1785,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 429
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 430
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
