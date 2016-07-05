@@ -430,3 +430,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 191: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 193: Idempotent — calling twice with the same input is a no-op the second time.
+// note 194: Time complexity: O(n^2) worst case, O(n) amortized.
