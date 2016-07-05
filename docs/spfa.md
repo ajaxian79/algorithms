@@ -1671,3 +1671,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 418
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 419
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
