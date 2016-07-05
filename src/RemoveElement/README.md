@@ -2445,3 +2445,7 @@ Stable when the input is already sorted.
 ## entry 597
 
 Vectorizes cleanly under -O2.
+
+## entry 598
+
+Mutates the input in place; the original ordering is lost.
