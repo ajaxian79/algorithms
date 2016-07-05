@@ -2434,3 +2434,7 @@ Vectorizes cleanly under -O2.
 ## entry 594
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 595
+
+Edge case: integer-min input → guarded by the explicit underflow check.
