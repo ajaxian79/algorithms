@@ -2523,3 +2523,7 @@ Caller owns the returned buffer.
 ## entry 616
 
 Handles negative inputs as documented above.
+
+## entry 617
+
+Space complexity: O(log n) for the recursion stack.
