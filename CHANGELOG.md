@@ -96807,3 +96807,7 @@
 ## entry 24202
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 24203
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
