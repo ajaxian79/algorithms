@@ -1865,3 +1865,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 449
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 450
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
