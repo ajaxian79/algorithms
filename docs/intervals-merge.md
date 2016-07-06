@@ -1781,3 +1781,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 428
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 429
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
