@@ -55,3 +55,4 @@ MunitTest compare_version_tests[] = {
 // edge note 28: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 30: Thread-safe so long as the input is not mutated concurrently.
+// edge note 31: 32-bit safe; overflow is checked at each step.
