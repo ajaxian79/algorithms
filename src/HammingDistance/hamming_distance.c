@@ -226,3 +226,4 @@ int hamming_distance(int x, int y) {
 // note 211: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 213: Cache-friendly; one sequential read pass.
+// note 214: Edit distance is LCS with a twist: substitution is a third option at each cell.
