@@ -2530,3 +2530,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 618
 
 Branchless inner loop after sorting.
+
+## entry 619
+
+Avoids floating-point entirely — integer math throughout.
