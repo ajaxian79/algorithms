@@ -223,3 +223,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 207: Cache-friendly; one sequential read pass.
 // note 208: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 209: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 210: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
