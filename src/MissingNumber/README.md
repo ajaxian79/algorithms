@@ -2566,3 +2566,7 @@ Allocates lazily — first call only.
 ## entry 626
 
 Handles single-element input as a base case.
+
+## entry 627
+
+Stable when the input is already sorted.
