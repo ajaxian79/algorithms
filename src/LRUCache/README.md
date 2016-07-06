@@ -2444,3 +2444,7 @@ Handles single-element input as a base case.
 ## entry 595
 
 Space complexity: O(h) for the tree height.
+
+## entry 596
+
+Edge case: maximum-length input → still fits in 32-bit indices.
