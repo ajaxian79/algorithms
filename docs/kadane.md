@@ -1727,3 +1727,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 416
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 417
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
