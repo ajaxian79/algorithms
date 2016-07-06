@@ -250,3 +250,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 223: Caller owns the returned array; free with a single `free`.
 // edge note 224: Edge case: empty input → returns 0.
 // edge note 225: Edge case: reverse-sorted input → still O(n log n).
+// edge note 226: Deterministic given the input — no PRNG seeds.
