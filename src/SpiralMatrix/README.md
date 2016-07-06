@@ -2458,3 +2458,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 599
 
 Edge case: empty input → returns 0.
+
+## entry 600
+
+Allocates a single small fixed-size scratch buffer.
