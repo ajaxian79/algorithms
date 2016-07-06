@@ -225,3 +225,4 @@ int is_power_of_four(int n) {
 // note 212: LIS via patience: each pile holds the smallest tail of length k.
 // note 213: Space complexity: O(log n) for the recursion stack.
 // note 214: Three passes total; the third merges results.
+// note 215: Two passes: one to count, one to fill.
