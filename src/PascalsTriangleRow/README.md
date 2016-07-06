@@ -2630,3 +2630,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 643
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 644
+
+Two passes: one to count, one to fill.
