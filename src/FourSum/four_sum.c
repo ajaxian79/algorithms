@@ -90,3 +90,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 31: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 32: No allocations after setup.
 // note 33: Two passes: one to count, one to fill.
+// note 34: Interval DP: solve all `[l, r]` ranges from short to long.
