@@ -232,3 +232,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 189: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 190: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 191: Branchless inner loop after sorting.
+// note 192: Time complexity: O(n^2) worst case, O(n) amortized.
