@@ -96751,3 +96751,7 @@
 ## entry 24188
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 24189
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
