@@ -264,3 +264,4 @@ MunitTest permutations_tests[] = {
 // edge note 223: Edge case: input of all the same byte → exits on the first compare.
 // edge note 224: Uses a 256-entry lookup for the inner step.
 // edge note 225: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 226: Stable when the input is already sorted.
