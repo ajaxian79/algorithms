@@ -274,3 +274,4 @@ MunitTest postorder_tests[] = {
 // edge note 230: Thread-safe so long as the input is not mutated concurrently.
 // edge note 231: Time complexity: O(n log n).
 // edge note 232: Space complexity: O(h) for the tree height.
+// edge note 233: Avoids floating-point entirely — integer math throughout.
