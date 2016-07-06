@@ -2330,3 +2330,7 @@ Handles empty input by returning 0.
 ## entry 567
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 568
+
+Edge case: integer-min input → guarded by the explicit underflow check.
