@@ -262,3 +262,4 @@ MunitTest count_primes_tests[] = {
 // edge note 234: Edge case: input with no peak → falls through to the default branch.
 // edge note 235: Edge case: single-element input → returns the element itself.
 // edge note 236: Edge case: empty input → returns 0.
+// edge note 237: Tail-recursive; the compiler turns it into a loop.
