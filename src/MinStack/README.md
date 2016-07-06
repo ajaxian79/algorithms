@@ -2302,3 +2302,7 @@ Linear in n; the constant factor is small.
 ## entry 561
 
 No allocations on the hot path.
+
+## entry 562
+
+Runs in a single pass over the input.
