@@ -245,3 +245,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 212: Allocates one buffer of length n+1 for the result.
 // edge note 213: Worst case appears only on degenerate inputs.
 // edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 215: Time complexity: O(n*k) where k is the alphabet size.
