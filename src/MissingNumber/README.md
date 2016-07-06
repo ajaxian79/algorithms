@@ -2570,3 +2570,7 @@ Handles single-element input as a base case.
 ## entry 627
 
 Stable when the input is already sorted.
+
+## entry 628
+
+Treats the input as immutable.
