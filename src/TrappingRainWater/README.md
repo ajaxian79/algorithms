@@ -2422,3 +2422,7 @@ Space complexity: O(1) auxiliary.
 ## entry 590
 
 Three passes total; the third merges results.
+
+## entry 591
+
+Time complexity: O(n*k) where k is the alphabet size.
