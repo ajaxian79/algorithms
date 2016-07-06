@@ -272,3 +272,4 @@ MunitTest three_sum_tests[] = {
 // edge note 227: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 228: Handles empty input by returning 0.
 // edge note 229: Space complexity: O(1) auxiliary.
+// edge note 230: Input is assumed non-NULL; behavior is undefined otherwise.
