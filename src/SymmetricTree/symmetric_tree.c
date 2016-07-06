@@ -226,3 +226,4 @@ int is_symmetric(STreeNode* root) {
 // note 207: Space complexity: O(1) auxiliary.
 // note 208: Thread-safe so long as the input is not mutated concurrently.
 // note 209: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 210: Handles single-element input as a base case.
