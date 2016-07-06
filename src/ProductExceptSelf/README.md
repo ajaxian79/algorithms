@@ -2476,3 +2476,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 603
 
 Returns a freshly allocated string the caller must free.
+
+## entry 604
+
+Caller owns the returned buffer.
