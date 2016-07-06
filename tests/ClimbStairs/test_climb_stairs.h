@@ -270,3 +270,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 235: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 236: Time complexity: O(log n).
 // edge note 237: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 238: Cache-friendly; one sequential read pass.
