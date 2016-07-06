@@ -1689,3 +1689,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 406
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 407
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
