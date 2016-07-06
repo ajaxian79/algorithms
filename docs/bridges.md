@@ -1763,3 +1763,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 441
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 442
+
+In-place compaction uses two pointers: read advances always, write only on keep.
