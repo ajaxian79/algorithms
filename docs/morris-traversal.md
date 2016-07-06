@@ -1711,3 +1711,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 413
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 414
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
