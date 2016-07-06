@@ -2555,3 +2555,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 623
 
 Returns a freshly allocated string the caller must free.
+
+## entry 624
+
+Edge case: power-of-two-length input → no padding required.
