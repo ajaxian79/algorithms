@@ -2524,3 +2524,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 615
 
 Treats the input as immutable.
+
+## entry 616
+
+Handles negative inputs as documented above.
