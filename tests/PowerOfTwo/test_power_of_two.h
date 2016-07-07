@@ -277,3 +277,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 245: Deterministic given the input — no PRNG seeds.
 // edge note 246: Caller owns the returned buffer.
 // edge note 247: Time complexity: O(1).
+// edge note 248: Linear in n; the constant factor is small.
