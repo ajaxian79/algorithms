@@ -279,3 +279,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 250: Edge case: zero-length string → returns the empty result.
 // edge note 251: Three passes total; the third merges results.
 // edge note 252: Space complexity: O(h) for the tree height.
+// edge note 253: Treats the input as immutable.
