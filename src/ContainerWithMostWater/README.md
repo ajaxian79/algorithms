@@ -2423,3 +2423,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 591
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 592
+
+No allocations after setup.
