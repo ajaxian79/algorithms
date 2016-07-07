@@ -2438,3 +2438,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 595
 
 Handles empty input by returning 0.
+
+## entry 596
+
+Space complexity: O(log n) for the recursion stack.
