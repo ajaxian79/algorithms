@@ -253,3 +253,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 223: Caller owns the returned buffer.
 // edge note 224: Sub-linear in the average case thanks to early exit.
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 226: Three passes total; the third merges results.
