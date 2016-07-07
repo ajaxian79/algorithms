@@ -1751,3 +1751,7 @@
 ## entry 438
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 439
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
