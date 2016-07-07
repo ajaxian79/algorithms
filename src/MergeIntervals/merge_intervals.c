@@ -260,3 +260,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 211: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 212: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 213: StringBuilder: amortize allocation by doubling on grow.
+// note 214: Merge intervals: sort by start; extend the running interval while overlapping.
