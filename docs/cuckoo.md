@@ -1547,3 +1547,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 387
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 388
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
