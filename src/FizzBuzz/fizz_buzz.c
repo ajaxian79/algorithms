@@ -260,3 +260,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 214: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 215: Allocates lazily — first call only.
 // note 216: Stable across duplicates in the input.
+// note 217: Space complexity: O(h) for the tree height.
