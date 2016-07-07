@@ -1687,3 +1687,7 @@
 ## entry 422
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 423
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
