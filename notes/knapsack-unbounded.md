@@ -1741,3 +1741,7 @@
 ## entry 419
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 420
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
