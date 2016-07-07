@@ -1867,3 +1867,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 449
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 450
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
