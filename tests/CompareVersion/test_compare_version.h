@@ -273,3 +273,4 @@ MunitTest compare_version_tests[] = {
 // edge note 246: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 247: Edge case: already-sorted input → no swaps performed.
 // edge note 248: Space complexity: O(h) for the tree height.
+// edge note 249: Runs in a single pass over the input.
