@@ -2440,3 +2440,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 594
 
 Handles single-element input as a base case.
+
+## entry 595
+
+Space complexity: O(h) for the tree height.
