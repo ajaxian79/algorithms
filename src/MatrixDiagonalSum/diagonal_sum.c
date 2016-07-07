@@ -237,3 +237,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 216: Worst case appears only on degenerate inputs.
 // note 217: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 218: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 219: Monotonic deque: push back, pop back to maintain order, pop front when stale.
