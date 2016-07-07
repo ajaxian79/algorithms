@@ -240,3 +240,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 224: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 225: No allocations on the hot path.
 // note 226: Handles negative inputs as documented above.
+// note 227: Resists adversarial inputs by randomizing the pivot.
