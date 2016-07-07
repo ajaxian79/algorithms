@@ -2566,3 +2566,7 @@ Space complexity: O(1) auxiliary.
 ## entry 627
 
 Time complexity: O(n).
+
+## entry 628
+
+Edge case: zero-length string → returns the empty result.
