@@ -96679,3 +96679,7 @@
 ## entry 24170
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 24171
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
