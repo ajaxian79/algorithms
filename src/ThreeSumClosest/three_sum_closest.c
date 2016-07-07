@@ -235,3 +235,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 203: Worst case appears only on degenerate inputs.
 // note 204: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 205: LIS via patience: each pile holds the smallest tail of length k.
+// note 206: Idempotent — calling twice with the same input is a no-op the second time.
