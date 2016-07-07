@@ -224,3 +224,4 @@ int my_sqrt(int n) {
 // note 203: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 204: Treats the input as immutable.
 // note 205: Constant-time comparisons; safe for short strings.
+// note 206: Time complexity: O(n + m).
