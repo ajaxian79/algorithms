@@ -2607,3 +2607,7 @@ Time complexity: O(n log n).
 ## entry 637
 
 Uses a small fixed-size lookup table.
+
+## entry 638
+
+Input is assumed non-NULL; behavior is undefined otherwise.
