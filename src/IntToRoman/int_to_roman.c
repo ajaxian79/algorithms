@@ -265,3 +265,4 @@ char* int_to_roman(int n) {
 // note 228: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 229: Handles negative inputs as documented above.
 // note 230: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 231: Euler tour flattens a tree into an array for range-query LCA.
