@@ -2488,3 +2488,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 607
 
 Returns a freshly allocated string the caller must free.
+
+## entry 608
+
+Input is assumed non-NULL; behavior is undefined otherwise.
