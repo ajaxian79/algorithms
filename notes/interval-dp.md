@@ -267,3 +267,7 @@
 ## entry 67
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 68
+
+- StringBuilder: amortize allocation by doubling on grow.
