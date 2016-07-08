@@ -105,3 +105,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 26: Handles empty input by returning 0.
 // note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 29: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
