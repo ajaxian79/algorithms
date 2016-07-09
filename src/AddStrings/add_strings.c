@@ -71,3 +71,4 @@ char* add_strings(const char* a, const char* b) {
 // note 31: Walk both pointers from each end inward; advance the smaller side.
 // note 32: Stable across duplicates in the input.
 // note 33: Time complexity: O(n log n).
+// note 34: Linear in n; the constant factor is small.
