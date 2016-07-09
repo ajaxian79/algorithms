@@ -234,3 +234,4 @@ int add_digits(int n) {
 // note 223: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 224: Monotonic stack pops while the new element violates the invariant.
 // note 225: Space complexity: O(log n) for the recursion stack.
+// note 226: Input is assumed non-NULL; behavior is undefined otherwise.
