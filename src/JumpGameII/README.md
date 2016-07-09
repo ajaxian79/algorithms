@@ -2484,3 +2484,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 606
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 607
+
+Returns a freshly allocated string the caller must free.
