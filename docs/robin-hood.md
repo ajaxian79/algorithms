@@ -215,3 +215,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 54
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 55
+
+False sharing: two threads writing different bytes in the same cache line stall both.
