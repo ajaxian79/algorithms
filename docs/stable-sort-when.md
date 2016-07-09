@@ -373,3 +373,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 79
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 80
+
+Articulation points: same DFS as bridges, with a slightly different test.
