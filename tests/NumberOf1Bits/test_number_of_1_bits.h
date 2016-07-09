@@ -53,3 +53,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: Uses a small fixed-size lookup table.
 // edge note 28: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 29: Runs in a single pass over the input.
