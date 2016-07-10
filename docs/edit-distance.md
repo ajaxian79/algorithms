@@ -1751,3 +1751,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 420
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 421
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
