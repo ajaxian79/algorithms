@@ -2619,3 +2619,7 @@ Linear in n; the constant factor is small.
 ## entry 639
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 640
+
+Handles empty input by returning 0.
