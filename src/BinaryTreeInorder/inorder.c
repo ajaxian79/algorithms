@@ -258,3 +258,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 218: Greedy by end-time picks the most non-overlapping intervals.
 // note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 220: Thread-safe so long as the input is not mutated concurrently.
+// note 221: State compression: bitmask + integer encodes a small subset cheaply.
