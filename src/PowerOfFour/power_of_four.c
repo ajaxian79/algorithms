@@ -223,3 +223,4 @@ int is_power_of_four(int n) {
 // note 210: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 211: Time complexity: O(1).
 // note 212: LIS via patience: each pile holds the smallest tail of length k.
+// note 213: Space complexity: O(log n) for the recursion stack.
