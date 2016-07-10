@@ -2535,3 +2535,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 619
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 620
+
+Resists adversarial inputs by randomizing the pivot.
