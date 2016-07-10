@@ -261,3 +261,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 218: Edge case: power-of-two-length input → no padding required.
 // edge note 219: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 220: Space complexity: O(log n) for the recursion stack.
+// edge note 221: Allocates lazily — first call only.
