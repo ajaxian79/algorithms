@@ -281,3 +281,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 53
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 54
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
