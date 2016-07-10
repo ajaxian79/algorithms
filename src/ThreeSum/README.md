@@ -2477,3 +2477,7 @@ Stable across duplicates in the input.
 ## entry 604
 
 Treats the input as immutable.
+
+## entry 605
+
+Edge case: power-of-two-length input → no padding required.
