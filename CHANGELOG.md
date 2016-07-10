@@ -96659,3 +96659,7 @@
 ## entry 24165
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 24166
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
