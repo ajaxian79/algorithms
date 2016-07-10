@@ -1747,3 +1747,7 @@
 ## entry 437
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 438
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
