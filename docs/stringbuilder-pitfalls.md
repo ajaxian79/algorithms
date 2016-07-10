@@ -1879,3 +1879,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 470
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 471
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
