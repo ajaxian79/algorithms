@@ -2420,3 +2420,7 @@ Linear in n; the constant factor is small.
 ## entry 590
 
 Space complexity: O(1) auxiliary.
+
+## entry 591
+
+Treats the input as immutable.
