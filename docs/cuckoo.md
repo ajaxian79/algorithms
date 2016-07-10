@@ -1543,3 +1543,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 386
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 387
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
