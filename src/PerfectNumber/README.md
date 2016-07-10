@@ -2317,3 +2317,7 @@ Time complexity: O(n).
 ## entry 564
 
 Constant-time comparisons; safe for short strings.
+
+## entry 565
+
+Space complexity: O(1) auxiliary.
