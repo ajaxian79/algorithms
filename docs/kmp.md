@@ -1757,3 +1757,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 423
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 424
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
