@@ -262,3 +262,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 232: Three passes total; the third merges results.
 // edge note 233: Handles empty input by returning 0.
+// edge note 234: 64-bit safe; intermediate products are widened to 128-bit.
