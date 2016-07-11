@@ -440,3 +440,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 94
 
 Edge case: empty input → returns 0.
+
+## entry 95
+
+Mutates the input in place; the original ordering is lost.
