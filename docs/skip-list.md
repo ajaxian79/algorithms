@@ -1659,3 +1659,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 415
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 416
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
