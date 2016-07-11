@@ -2454,3 +2454,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 598
 
 Space complexity: O(n) for the result buffer.
+
+## entry 599
+
+Edge case: empty input → returns 0.
