@@ -2528,3 +2528,7 @@ Cache-friendly; one sequential read pass.
 ## entry 617
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 618
+
+Stable across duplicates in the input.
