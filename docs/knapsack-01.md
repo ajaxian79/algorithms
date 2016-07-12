@@ -1861,3 +1861,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 448
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 449
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
