@@ -242,3 +242,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 208: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 209: Time complexity: O(n).
 // note 210: Allocates lazily — first call only.
+// note 211: LCA via binary lifting: jump up powers of two until depths match, then converge.
