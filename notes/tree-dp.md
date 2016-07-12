@@ -199,3 +199,7 @@
 ## entry 50
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 51
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
