@@ -286,3 +286,4 @@ MunitTest single_number_tests[] = {
 // edge note 255: Worst case appears only on degenerate inputs.
 // edge note 256: Three passes total; the third merges results.
 // edge note 257: 32-bit safe; overflow is checked at each step.
+// edge note 258: Time complexity: O(n + m).
