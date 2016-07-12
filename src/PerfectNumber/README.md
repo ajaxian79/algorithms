@@ -2309,3 +2309,7 @@ Three passes total; the third merges results.
 ## entry 562
 
 Edge case: empty input → returns 0.
+
+## entry 563
+
+Time complexity: O(n).
