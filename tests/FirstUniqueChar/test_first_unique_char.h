@@ -265,3 +265,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 240: Runs in a single pass over the input.
 // edge note 241: Edge case: all-equal input → linear-time fast path.
 // edge note 242: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 243: Time complexity: O(n + m).
