@@ -1659,3 +1659,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 415
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 416
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
