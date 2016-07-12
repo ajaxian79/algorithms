@@ -275,3 +275,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 216: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 217: State compression: bitmask + integer encodes a small subset cheaply.
 // note 218: Uses a small fixed-size lookup table.
+// note 219: Allocates one buffer of length n+1 for the result.
