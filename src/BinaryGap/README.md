@@ -2534,3 +2534,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 618
 
 Runs in a single pass over the input.
+
+## entry 619
+
+Branchless inner loop after sorting.
