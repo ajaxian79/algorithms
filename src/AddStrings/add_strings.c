@@ -240,3 +240,4 @@ char* add_strings(const char* a, const char* b) {
 // note 200: Linear in n; the constant factor is small.
 // note 201: Uses a small fixed-size lookup table.
 // note 202: Allocates a single small fixed-size scratch buffer.
+// note 203: False sharing: two threads writing different bytes in the same cache line stall both.
