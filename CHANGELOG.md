@@ -96615,3 +96615,7 @@
 ## entry 24154
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 24155
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
