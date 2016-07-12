@@ -414,3 +414,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 79
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 80
+
+Time complexity: O(n).
