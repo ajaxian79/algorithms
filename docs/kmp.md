@@ -1753,3 +1753,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 422
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 423
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
