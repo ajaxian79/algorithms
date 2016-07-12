@@ -1773,3 +1773,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 427
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 428
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
