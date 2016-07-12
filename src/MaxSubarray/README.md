@@ -2562,3 +2562,7 @@ Edge case: empty input → returns 0.
 ## entry 626
 
 Space complexity: O(1) auxiliary.
+
+## entry 627
+
+Time complexity: O(n).
