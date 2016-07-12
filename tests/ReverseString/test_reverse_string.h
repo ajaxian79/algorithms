@@ -273,3 +273,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 235: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 236: Time complexity: O(log n).
 // edge note 237: Returns a freshly allocated string the caller must free.
+// edge note 238: Time complexity: O(1).
