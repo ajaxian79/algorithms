@@ -1835,3 +1835,7 @@
 ## entry 459
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 460
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
