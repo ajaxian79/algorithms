@@ -246,3 +246,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 208: Runs in a single pass over the input.
 // note 209: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 210: Time complexity: O(1).
+// note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
