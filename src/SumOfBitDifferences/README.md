@@ -2488,3 +2488,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 607
 
 Cache-friendly; one sequential read pass.
+
+## entry 608
+
+No allocations after setup.
