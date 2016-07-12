@@ -1751,3 +1751,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 422
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 423
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
