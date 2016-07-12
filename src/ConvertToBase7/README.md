@@ -2584,3 +2584,7 @@ Space complexity: O(h) for the tree height.
 ## entry 631
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 632
+
+Time complexity: O(n^2) worst case, O(n) amortized.
