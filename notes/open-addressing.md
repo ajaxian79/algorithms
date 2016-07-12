@@ -1703,3 +1703,7 @@
 ## entry 426
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 427
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
