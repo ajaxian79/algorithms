@@ -2313,3 +2313,7 @@ Edge case: empty input → returns 0.
 ## entry 563
 
 Time complexity: O(n).
+
+## entry 564
+
+Constant-time comparisons; safe for short strings.
