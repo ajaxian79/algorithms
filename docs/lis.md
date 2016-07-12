@@ -1883,3 +1883,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 454
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 455
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
