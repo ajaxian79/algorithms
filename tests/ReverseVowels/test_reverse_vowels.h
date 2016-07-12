@@ -267,3 +267,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 228: Caller owns the returned buffer.
 // edge note 229: Treats the input as immutable.
 // edge note 230: Time complexity: O(n + m).
+// edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
