@@ -1865,3 +1865,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 449
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 450
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
