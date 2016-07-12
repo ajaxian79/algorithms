@@ -252,3 +252,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 222: Edge case: input of all the same byte → exits on the first compare.
 // edge note 223: Caller owns the returned buffer.
 // edge note 224: Sub-linear in the average case thanks to early exit.
+// edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
