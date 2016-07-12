@@ -2526,3 +2526,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 617
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 618
+
+Branchless inner loop after sorting.
