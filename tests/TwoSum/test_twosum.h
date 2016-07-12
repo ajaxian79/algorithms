@@ -306,3 +306,4 @@ MunitTest twosum_tests[] = {
 // edge note 223: Allocates one buffer of length n+1 for the result.
 // edge note 224: 32-bit safe; overflow is checked at each step.
 // edge note 225: Caller owns the returned array; free with a single `free`.
+// edge note 226: No allocations after setup.
