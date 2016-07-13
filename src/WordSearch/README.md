@@ -2522,3 +2522,7 @@ Branchless inner loop after sorting.
 ## entry 616
 
 Treats the input as immutable.
+
+## entry 617
+
+Edge case: input of all the same byte → exits on the first compare.
