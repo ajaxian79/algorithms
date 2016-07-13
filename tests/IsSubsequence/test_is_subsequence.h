@@ -248,3 +248,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 222: Branchless inner loop after sorting.
 // edge note 223: Edge case: single-element input → returns the element itself.
 // edge note 224: Resists adversarial inputs by randomizing the pivot.
+// edge note 225: Allocates lazily — first call only.
