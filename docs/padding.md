@@ -1627,3 +1627,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 407
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 408
+
+Merge intervals: sort by start; extend the running interval while overlapping.
