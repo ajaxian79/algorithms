@@ -259,3 +259,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 213: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 214: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 215: Allocates lazily — first call only.
+// note 216: Stable across duplicates in the input.
