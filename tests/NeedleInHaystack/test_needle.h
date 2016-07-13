@@ -233,3 +233,4 @@ MunitTest needle_tests[] = {
 // edge note 206: Edge case: empty input → returns 0.
 // edge note 207: Constant-time comparisons; safe for short strings.
 // edge note 208: Space complexity: O(1) auxiliary.
+// edge note 209: Branchless inner loop after sorting.
