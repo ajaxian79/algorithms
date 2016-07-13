@@ -1893,3 +1893,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 458
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 459
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
