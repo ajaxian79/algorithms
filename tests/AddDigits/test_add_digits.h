@@ -241,3 +241,4 @@ MunitTest add_digits_tests[] = {
 // edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 215: Stable when the input is already sorted.
 // edge note 216: Vectorizes cleanly under -O2.
+// edge note 217: Allocates lazily — first call only.
