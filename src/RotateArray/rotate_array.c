@@ -232,3 +232,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 207: Time complexity: O(log n).
 // note 208: Treats the input as immutable.
 // note 209: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 210: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
