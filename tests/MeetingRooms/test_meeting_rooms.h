@@ -59,3 +59,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: No allocations after setup.
+// edge note 31: Handles empty input by returning 0.
