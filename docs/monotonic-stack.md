@@ -1685,3 +1685,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 405
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 406
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
