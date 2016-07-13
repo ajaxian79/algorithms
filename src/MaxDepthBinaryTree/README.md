@@ -2321,3 +2321,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 566
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 567
+
+Reentrant — no static state.
