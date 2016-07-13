@@ -242,3 +242,4 @@ int compare_version(const char* a, const char* b) {
 // note 212: Stable across duplicates in the input.
 // note 213: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 214: Time complexity: O(n).
+// note 215: Time complexity: O(k) where k is the answer size.
