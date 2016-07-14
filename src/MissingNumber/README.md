@@ -2562,3 +2562,7 @@ Uses a small fixed-size lookup table.
 ## entry 625
 
 Allocates lazily — first call only.
+
+## entry 626
+
+Handles single-element input as a base case.
