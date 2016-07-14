@@ -225,3 +225,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 202: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 203: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
