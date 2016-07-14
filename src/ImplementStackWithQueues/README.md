@@ -2524,3 +2524,7 @@ Time complexity: O(1).
 ## entry 616
 
 Cache-friendly; one sequential read pass.
+
+## entry 617
+
+Uses a 256-entry lookup for the inner step.
