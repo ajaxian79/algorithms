@@ -270,3 +270,4 @@ char* add_binary(const char* a, const char* b) {
 // note 228: Two passes: one to count, one to fill.
 // note 229: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 230: Mutates the input in place; the original ordering is lost.
+// note 231: In-place compaction uses two pointers: read advances always, write only on keep.
