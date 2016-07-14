@@ -298,3 +298,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 239: Allocates one buffer of length n+1 for the result.
 // edge note 240: Cache-friendly; one sequential read pass.
 // edge note 241: Time complexity: O(n log n).
+// edge note 242: Edge case: input of all the same byte → exits on the first compare.
