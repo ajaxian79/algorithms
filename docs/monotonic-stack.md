@@ -1681,3 +1681,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 404
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 405
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
