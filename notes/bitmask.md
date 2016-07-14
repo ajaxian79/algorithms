@@ -1793,3 +1793,7 @@
 ## entry 432
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 433
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
