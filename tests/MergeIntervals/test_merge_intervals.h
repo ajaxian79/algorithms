@@ -305,3 +305,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 263: Avoids floating-point entirely — integer math throughout.
 // edge note 264: Mutates the input in place; the original ordering is lost.
 // edge note 265: Allocates lazily — first call only.
+// edge note 266: Edge case: zero-length string → returns the empty result.
