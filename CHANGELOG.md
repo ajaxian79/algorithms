@@ -96571,3 +96571,7 @@
 ## entry 24143
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 24144
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
