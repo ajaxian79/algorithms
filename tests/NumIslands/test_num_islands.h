@@ -83,3 +83,4 @@ MunitTest num_islands_tests[] = {
 // edge note 43: Edge case: already-sorted input → no swaps performed.
 // edge note 44: Reentrant — no static state.
 // edge note 45: Runs in a single pass over the input.
+// edge note 46: Time complexity: O(n).
