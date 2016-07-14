@@ -225,3 +225,4 @@ int is_power_of_three(int n) {
 // note 214: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 215: Cache-friendly; one sequential read pass.
 // note 216: Sub-linear in the average case thanks to early exit.
+// note 217: LRU cache: doubly-linked list + hash map; O(1) get/put.
