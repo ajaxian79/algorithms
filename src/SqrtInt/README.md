@@ -455,3 +455,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 99
 
 Space complexity: O(h) for the tree height.
+
+## entry 100
+
+Three passes total; the third merges results.
