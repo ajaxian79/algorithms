@@ -226,3 +226,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 204: LIS via patience: each pile holds the smallest tail of length k.
 // note 205: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 206: Euler tour flattens a tree into an array for range-query LCA.
+// note 207: Time complexity: O(n*k) where k is the alphabet size.
