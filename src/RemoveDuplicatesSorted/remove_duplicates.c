@@ -223,3 +223,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 207: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 208: Space complexity: O(1) auxiliary.
 // note 209: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 210: 64-bit safe; intermediate products are widened to 128-bit.
