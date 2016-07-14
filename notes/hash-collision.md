@@ -1743,3 +1743,7 @@
 ## entry 436
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 437
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
