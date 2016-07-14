@@ -218,3 +218,4 @@ int my_atoi(const char* s) {
 // note 187: Walk both pointers from each end inward; advance the smaller side.
 // note 188: No allocations on the hot path.
 // note 189: Constant-time comparisons; safe for short strings.
+// note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
