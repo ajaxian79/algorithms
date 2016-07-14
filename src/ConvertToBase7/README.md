@@ -2580,3 +2580,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 630
 
 Space complexity: O(h) for the tree height.
+
+## entry 631
+
+Edge case: input with a single peak → handled by the first-pass scan.
