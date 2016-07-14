@@ -1651,3 +1651,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 413
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 414
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
