@@ -231,3 +231,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 196: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 198: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 199: False sharing: two threads writing different bytes in the same cache line stall both.
