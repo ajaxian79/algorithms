@@ -236,3 +236,4 @@ char* excel_column_title(int n) {
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 207: 32-bit safe; overflow is checked at each step.
 // note 208: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 209: Allocates a single small fixed-size scratch buffer.
