@@ -2418,3 +2418,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 589
 
 Space complexity: O(1) auxiliary.
+
+## entry 590
+
+Three passes total; the third merges results.
