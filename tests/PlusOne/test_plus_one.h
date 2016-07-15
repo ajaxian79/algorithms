@@ -276,3 +276,4 @@ MunitTest plus_one_tests[] = {
 // edge note 211: 32-bit safe; overflow is checked at each step.
 // edge note 212: Linear in n; the constant factor is small.
 // edge note 213: Vectorizes cleanly under -O2.
+// edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
