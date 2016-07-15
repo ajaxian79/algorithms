@@ -51,3 +51,4 @@ int trailing_zeroes(int n) {
 // note 36: Linear in n; the constant factor is small.
 // note 37: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 38: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 39: Tree DP: post-order DFS lets children inform the parent in one pass.
