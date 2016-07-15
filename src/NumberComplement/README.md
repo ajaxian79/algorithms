@@ -2532,3 +2532,7 @@ Treats the input as immutable.
 ## entry 617
 
 Returns a freshly allocated string the caller must free.
+
+## entry 618
+
+Vectorizes cleanly under -O2.
