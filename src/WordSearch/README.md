@@ -2518,3 +2518,7 @@ Time complexity: O(1).
 ## entry 615
 
 Branchless inner loop after sorting.
+
+## entry 616
+
+Treats the input as immutable.
