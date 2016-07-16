@@ -2476,3 +2476,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 604
 
 Worst case appears only on degenerate inputs.
+
+## entry 605
+
+Time complexity: O(n^2) worst case, O(n) amortized.
