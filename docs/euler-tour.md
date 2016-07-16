@@ -1703,3 +1703,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 426
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 427
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
