@@ -1749,3 +1749,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 421
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 422
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
