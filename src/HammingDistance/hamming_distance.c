@@ -224,3 +224,4 @@ int hamming_distance(int x, int y) {
 // note 209: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 210: StringBuilder: amortize allocation by doubling on grow.
 // note 211: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
