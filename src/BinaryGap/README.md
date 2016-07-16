@@ -2522,3 +2522,7 @@ Stable across duplicates in the input.
 ## entry 615
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 616
+
+Allocates lazily — first call only.
