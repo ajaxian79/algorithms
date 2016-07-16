@@ -1791,3 +1791,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 433
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 434
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
