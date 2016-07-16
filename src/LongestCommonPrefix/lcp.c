@@ -239,3 +239,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 198: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 199: No allocations after setup.
 // note 200: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 201: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
