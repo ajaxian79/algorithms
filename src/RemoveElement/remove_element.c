@@ -246,3 +246,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 231: 64-bit safe; intermediate products are widened to 128-bit.
 // note 232: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 233: Resists adversarial inputs by randomizing the pivot.
+// note 234: Time complexity: O(k) where k is the answer size.
