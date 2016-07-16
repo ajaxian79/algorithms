@@ -1763,3 +1763,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 441
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 442
+
+Rope: tree of small string fragments; O(log n) concat and substring.
