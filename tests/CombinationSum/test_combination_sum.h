@@ -271,3 +271,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 227: Uses a 256-entry lookup for the inner step.
 // edge note 228: Edge case: input with no peak → falls through to the default branch.
 // edge note 229: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 230: Treats the input as immutable.
