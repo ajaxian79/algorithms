@@ -1777,3 +1777,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 426
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 427
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
