@@ -1719,3 +1719,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 430
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 431
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
