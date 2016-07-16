@@ -2520,3 +2520,7 @@ Space complexity: O(h) for the tree height.
 ## entry 614
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 615
+
+Treats the input as immutable.
