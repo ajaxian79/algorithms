@@ -2449,3 +2449,7 @@ Worst case appears only on degenerate inputs.
 ## entry 597
 
 Uses a small fixed-size lookup table.
+
+## entry 598
+
+Allocates a single small fixed-size scratch buffer.
