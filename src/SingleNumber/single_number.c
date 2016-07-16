@@ -247,3 +247,4 @@ int single_number(const int* nums, int nums_size) {
 // note 234: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 235: Resists adversarial inputs by randomizing the pivot.
 // note 236: Greedy by end-time picks the most non-overlapping intervals.
+// note 237: DFS on a grid: write a sentinel into the visited cell; restore if needed.
