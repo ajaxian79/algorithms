@@ -211,3 +211,4 @@ int number_of_1_bits(unsigned int n) {
 // note 198: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 199: Deterministic given the input — no PRNG seeds.
 // note 200: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
