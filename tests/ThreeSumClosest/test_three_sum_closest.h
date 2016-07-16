@@ -261,3 +261,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 233: Time complexity: O(k) where k is the answer size.
 // edge note 234: Stable across duplicates in the input.
 // edge note 235: Edge case: reverse-sorted input → still O(n log n).
+// edge note 236: Edge case: integer-min input → guarded by the explicit underflow check.
