@@ -248,3 +248,4 @@ int num_islands(char* grid, int m, int n) {
 // note 216: Stable when the input is already sorted.
 // note 217: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 218: Space complexity: O(n) for the result buffer.
+// note 219: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
