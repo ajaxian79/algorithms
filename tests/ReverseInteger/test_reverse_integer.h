@@ -77,3 +77,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 44: Allocates a single small fixed-size scratch buffer.
 // edge note 45: Time complexity: O(n log n).
 // edge note 46: Time complexity: O(n).
+// edge note 47: Edge case: reverse-sorted input → still O(n log n).
