@@ -351,3 +351,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 88
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 89
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
