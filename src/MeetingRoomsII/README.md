@@ -2470,3 +2470,7 @@ Time complexity: O(log n).
 ## entry 602
 
 Caller owns the returned buffer.
+
+## entry 603
+
+Worst case appears only on degenerate inputs.
