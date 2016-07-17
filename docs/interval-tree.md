@@ -1679,3 +1679,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 420
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 421
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
