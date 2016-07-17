@@ -269,3 +269,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 235: Runs in a single pass over the input.
 // edge note 236: Linear in n; the constant factor is small.
 // edge note 237: Edge case: reverse-sorted input → still O(n log n).
+// edge note 238: No allocations after setup.
