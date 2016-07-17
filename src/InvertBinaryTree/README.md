@@ -2672,3 +2672,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 653
 
 Branchless inner loop after sorting.
+
+## entry 654
+
+Edge case: input with one duplicate → handled without an extra pass.
