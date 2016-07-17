@@ -272,3 +272,4 @@ MunitTest majority_element_tests[] = {
 // edge note 241: Best case is O(1) when the first byte already decides the answer.
 // edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 243: Edge case: single-element input → returns the element itself.
+// edge note 244: Runs in a single pass over the input.
