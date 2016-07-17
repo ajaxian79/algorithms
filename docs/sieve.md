@@ -1847,3 +1847,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 445
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 446
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
