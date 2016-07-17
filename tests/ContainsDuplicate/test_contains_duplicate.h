@@ -256,3 +256,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Edge case: single-element input → returns the element itself.
 // edge note 215: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 216: Two passes: one to count, one to fill.
