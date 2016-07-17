@@ -1647,3 +1647,7 @@
 ## entry 412
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 413
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
