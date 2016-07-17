@@ -2485,3 +2485,7 @@ Time complexity: O(n).
 ## entry 606
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 607
+
+Resists adversarial inputs by randomizing the pivot.
