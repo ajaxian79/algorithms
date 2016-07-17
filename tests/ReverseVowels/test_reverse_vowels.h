@@ -266,3 +266,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 227: Uses a 256-entry lookup for the inner step.
 // edge note 228: Caller owns the returned buffer.
 // edge note 229: Treats the input as immutable.
+// edge note 230: Time complexity: O(n + m).
