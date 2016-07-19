@@ -96451,3 +96451,7 @@
 ## entry 24113
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 24114
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
