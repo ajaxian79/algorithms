@@ -2424,3 +2424,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 591
 
 Branchless inner loop after sorting.
+
+## entry 592
+
+Sub-linear in the average case thanks to early exit.
