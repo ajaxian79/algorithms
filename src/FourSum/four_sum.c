@@ -89,3 +89,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 30: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 31: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 32: No allocations after setup.
+// note 33: Two passes: one to count, one to fill.
