@@ -2595,3 +2595,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 634
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 635
+
+Deterministic given the input — no PRNG seeds.
