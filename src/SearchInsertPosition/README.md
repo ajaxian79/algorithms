@@ -2426,3 +2426,7 @@ Space complexity: O(1) auxiliary.
 ## entry 592
 
 Space complexity: O(n) for the result buffer.
+
+## entry 593
+
+Handles negative inputs as documented above.
