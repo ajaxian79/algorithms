@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 425
+
+- Splay tree: every access splays to the root; amortized O(log n).
