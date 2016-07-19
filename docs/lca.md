@@ -1679,3 +1679,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 420
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 421
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
