@@ -2414,3 +2414,7 @@ Time complexity: O(n log n).
 ## entry 589
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 590
+
+Deterministic given the input — no PRNG seeds.
