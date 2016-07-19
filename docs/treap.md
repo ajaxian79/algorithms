@@ -1671,3 +1671,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 418
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 419
+
+Interval DP: solve all `[l, r]` ranges from short to long.
