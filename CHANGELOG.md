@@ -96439,3 +96439,7 @@
 ## entry 24110
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 24111
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
