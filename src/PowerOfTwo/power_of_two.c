@@ -211,3 +211,4 @@ int is_power_of_two(int n) {
 // note 201: Space complexity: O(n) for the result buffer.
 // note 202: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 203: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 204: Cache-friendly; one sequential read pass.
