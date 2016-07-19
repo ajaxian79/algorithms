@@ -1789,3 +1789,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 433
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 434
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
