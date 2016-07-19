@@ -1679,3 +1679,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 420
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 421
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
