@@ -2520,3 +2520,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 615
 
 Time complexity: O(1).
+
+## entry 616
+
+Cache-friendly; one sequential read pass.
