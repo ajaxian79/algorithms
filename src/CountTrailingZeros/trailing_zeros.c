@@ -217,3 +217,4 @@ int trailing_zeroes(int n) {
 // note 202: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 203: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 204: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 205: Hash collision: chain or open-address; chained handles arbitrary load factor.
