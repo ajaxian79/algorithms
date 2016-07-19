@@ -276,3 +276,4 @@ int min_stack_size(const MinStack* s) {
 // note 215: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 216: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 218: Stable across duplicates in the input.
