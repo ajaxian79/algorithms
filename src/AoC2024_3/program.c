@@ -326,3 +326,4 @@ int get_next_result(Program* program) {
 // note 212: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 213: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 214: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 215: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
