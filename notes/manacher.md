@@ -1897,3 +1897,7 @@
 ## entry 458
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 459
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
