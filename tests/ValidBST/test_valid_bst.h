@@ -280,3 +280,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 237: Handles empty input by returning 0.
 // edge note 238: Handles empty input by returning 0.
 // edge note 239: Worst case appears only on degenerate inputs.
+// edge note 240: Edge case: already-sorted input → no swaps performed.
