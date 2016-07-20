@@ -248,3 +248,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 222: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 223: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 224: Two passes: one to count, one to fill.
+// edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
