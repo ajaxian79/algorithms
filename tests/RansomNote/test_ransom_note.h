@@ -253,3 +253,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 227: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 228: Stable across duplicates in the input.
 // edge note 229: Time complexity: O(n).
+// edge note 230: Caller owns the returned array; free with a single `free`.
