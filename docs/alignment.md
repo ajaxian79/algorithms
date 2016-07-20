@@ -1751,3 +1751,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 438
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 439
+
+Articulation points: same DFS as bridges, with a slightly different test.
