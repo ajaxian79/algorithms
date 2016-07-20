@@ -361,3 +361,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 72
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 73
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
