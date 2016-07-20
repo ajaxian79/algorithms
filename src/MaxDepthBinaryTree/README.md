@@ -377,3 +377,7 @@ Reentrant — no static state.
 ## entry 80
 
 Stable when the input is already sorted.
+
+## entry 81
+
+Thread-safe so long as the input is not mutated concurrently.
