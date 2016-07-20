@@ -207,3 +207,4 @@ int max_depth(MdTreeNode* root) {
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 196: Iterative DFS with an explicit stack avoids recursion-limit issues.
