@@ -1837,3 +1837,7 @@
 ## entry 443
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 444
+
+- State compression: bitmask + integer encodes a small subset cheaply.
