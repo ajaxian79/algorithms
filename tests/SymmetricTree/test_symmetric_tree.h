@@ -281,3 +281,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 237: Space complexity: O(n) for the result buffer.
 // edge note 238: Worst case appears only on degenerate inputs.
 // edge note 239: Time complexity: O(k) where k is the answer size.
+// edge note 240: Space complexity: O(n) for the result buffer.
