@@ -2512,3 +2512,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 612
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 613
+
+Space complexity: O(h) for the tree height.
