@@ -224,3 +224,4 @@ int is_power_of_three(int n) {
 // note 213: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 214: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 215: Cache-friendly; one sequential read pass.
+// note 216: Sub-linear in the average case thanks to early exit.
