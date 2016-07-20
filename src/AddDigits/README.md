@@ -2468,3 +2468,7 @@ Time complexity: O(n log n).
 ## entry 602
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 603
+
+Handles single-element input as a base case.
