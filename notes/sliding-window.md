@@ -1841,3 +1841,7 @@
 ## entry 444
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 445
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
