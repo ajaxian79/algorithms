@@ -96427,3 +96427,7 @@
 ## entry 24107
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 24108
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
