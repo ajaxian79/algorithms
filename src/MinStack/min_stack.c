@@ -275,3 +275,4 @@ int min_stack_size(const MinStack* s) {
 // note 214: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 215: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 216: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
