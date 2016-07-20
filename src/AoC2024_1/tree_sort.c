@@ -428,3 +428,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 206: Allocates lazily — first call only.
 // note 207: Space complexity: O(n) for the result buffer.
 // note 208: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 209: BFS layers carry implicit shortest-path distance in unweighted graphs.
