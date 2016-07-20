@@ -2554,3 +2554,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 623
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 624
+
+Uses a small fixed-size lookup table.
