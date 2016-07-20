@@ -224,3 +224,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 209: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 210: Wavelet tree: range k-th element in O(log Σ) time.
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 212: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
