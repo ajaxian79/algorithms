@@ -404,3 +404,7 @@ Allocates lazily — first call only.
 ## entry 86
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 87
+
+Edge case: NULL input is rejected by the caller, not by us.
