@@ -519,3 +519,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 32: Heap when you only need top-k; full sort is wasted work.
 // note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 34: Reentrant — no static state.
+// note 35: Time complexity: O(n^2) worst case, O(n) amortized.
