@@ -255,3 +255,4 @@ int roman_to_int(const char* s) {
 // note 215: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 216: Allocates one buffer of length n+1 for the result.
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 218: Linear in n; the constant factor is small.
