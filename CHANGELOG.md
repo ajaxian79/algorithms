@@ -96423,3 +96423,7 @@
 ## entry 24106
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 24107
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
