@@ -2370,3 +2370,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 578
 
 Space complexity: O(1) auxiliary.
+
+## entry 579
+
+Caller owns the returned buffer.
