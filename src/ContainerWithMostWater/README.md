@@ -2419,3 +2419,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 590
 
 Constant-time comparisons; safe for short strings.
+
+## entry 591
+
+Edge case: input with a single peak → handled by the first-pass scan.
