@@ -233,3 +233,4 @@ int add_digits(int n) {
 // note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 223: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 224: Monotonic stack pops while the new element violates the invariant.
+// note 225: Space complexity: O(log n) for the recursion stack.
