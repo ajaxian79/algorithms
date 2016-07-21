@@ -1747,3 +1747,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 421
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 422
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
