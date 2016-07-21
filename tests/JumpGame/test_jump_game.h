@@ -244,3 +244,4 @@ MunitTest jump_game_tests[] = {
 // edge note 210: Runs in a single pass over the input.
 // edge note 211: Best case is O(1) when the first byte already decides the answer.
 // edge note 212: Space complexity: O(n) for the result buffer.
+// edge note 213: Time complexity: O(k) where k is the answer size.
