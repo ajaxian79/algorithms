@@ -2668,3 +2668,7 @@ Time complexity: O(n log n).
 ## entry 652
 
 Returns a freshly allocated string the caller must free.
+
+## entry 653
+
+Branchless inner loop after sorting.
