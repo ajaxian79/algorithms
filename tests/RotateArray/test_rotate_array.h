@@ -259,3 +259,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 221: Handles negative inputs as documented above.
 // edge note 222: Edge case: all-equal input → linear-time fast path.
 // edge note 223: Handles single-element input as a base case.
+// edge note 224: Caller owns the returned buffer.
