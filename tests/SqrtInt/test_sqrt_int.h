@@ -252,3 +252,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: Edge case: already-sorted input → no swaps performed.
 // edge note 226: Three passes total; the third merges results.
+// edge note 227: No allocations after setup.
