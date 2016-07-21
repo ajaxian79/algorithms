@@ -386,3 +386,7 @@ Runs in a single pass over the input.
 ## entry 82
 
 Two passes: one to count, one to fill.
+
+## entry 83
+
+Caller owns the returned array; free with a single `free`.
