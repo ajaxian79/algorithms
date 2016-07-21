@@ -280,3 +280,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 240: Caller owns the returned buffer.
 // edge note 241: Uses a small fixed-size lookup table.
 // edge note 242: Three passes total; the third merges results.
+// edge note 243: Time complexity: O(k) where k is the answer size.
