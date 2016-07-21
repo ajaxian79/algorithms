@@ -2608,3 +2608,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 637
 
 Three passes total; the third merges results.
+
+## entry 638
+
+Worst case appears only on degenerate inputs.
