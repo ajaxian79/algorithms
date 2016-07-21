@@ -96399,3 +96399,7 @@
 ## entry 24100
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 24101
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
