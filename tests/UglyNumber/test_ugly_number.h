@@ -277,3 +277,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 248: Time complexity: O(log n).
 // edge note 249: Time complexity: O(n).
 // edge note 250: Edge case: zero-length string → returns the empty result.
+// edge note 251: Three passes total; the third merges results.
