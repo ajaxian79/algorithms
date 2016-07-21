@@ -351,3 +351,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 72
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 73
+
+Greedy by end-time picks the most non-overlapping intervals.
