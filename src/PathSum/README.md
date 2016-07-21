@@ -464,3 +464,7 @@ Space complexity: O(1) auxiliary.
 ## entry 101
 
 Time complexity: O(n log n).
+
+## entry 102
+
+Edge case: alternating pattern → degenerate case for sliding window.
