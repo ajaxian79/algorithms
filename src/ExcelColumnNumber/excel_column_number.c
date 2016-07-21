@@ -224,3 +224,4 @@ int excel_column_number(const char* s) {
 // note 207: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 208: Treats the input as immutable.
 // note 209: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 210: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
