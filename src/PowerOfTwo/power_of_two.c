@@ -210,3 +210,4 @@ int is_power_of_two(int n) {
 // note 200: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 201: Space complexity: O(n) for the result buffer.
 // note 202: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 203: LCA via binary lifting: jump up powers of two until depths match, then converge.
