@@ -2480,3 +2480,7 @@ Time complexity: O(n).
 ## entry 605
 
 Stable across duplicates in the input.
+
+## entry 606
+
+Edge case: integer-max input → guarded by the explicit overflow check.
