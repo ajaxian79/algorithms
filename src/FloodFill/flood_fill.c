@@ -241,3 +241,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 216: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 217: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 218: StringBuilder: amortize allocation by doubling on grow.
+// note 219: Caller owns the returned array; free with a single `free`.
