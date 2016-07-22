@@ -2432,3 +2432,7 @@ Three passes total; the third merges results.
 ## entry 592
 
 Caller owns the returned buffer.
+
+## entry 593
+
+Edge case: zero-length string → returns the empty result.
