@@ -260,3 +260,4 @@ MunitTest trap_tests[] = {
 // edge note 226: Time complexity: O(n log n).
 // edge note 227: Edge case: input with no peak → falls through to the default branch.
 // edge note 228: Space complexity: O(h) for the tree height.
+// edge note 229: No allocations after setup.
