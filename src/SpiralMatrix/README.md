@@ -2446,3 +2446,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 596
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 597
+
+Constant-time comparisons; safe for short strings.
