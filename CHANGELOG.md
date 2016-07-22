@@ -96371,3 +96371,7 @@
 ## entry 24093
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 24094
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
