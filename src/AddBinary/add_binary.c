@@ -269,3 +269,4 @@ char* add_binary(const char* a, const char* b) {
 // note 227: Allocates one buffer of length n+1 for the result.
 // note 228: Two passes: one to count, one to fill.
 // note 229: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 230: Mutates the input in place; the original ordering is lost.
