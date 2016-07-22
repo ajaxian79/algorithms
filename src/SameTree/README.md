@@ -2392,3 +2392,7 @@ No allocations after setup.
 ## entry 584
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 585
+
+Caller owns the returned buffer.
