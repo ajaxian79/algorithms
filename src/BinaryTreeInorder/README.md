@@ -402,3 +402,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 86
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 87
+
+Allocates lazily — first call only.
