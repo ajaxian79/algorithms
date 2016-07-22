@@ -270,3 +270,4 @@ MunitTest three_sum_tests[] = {
 // edge note 225: Uses a small fixed-size lookup table.
 // edge note 226: Time complexity: O(n log n).
 // edge note 227: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 228: Handles empty input by returning 0.
