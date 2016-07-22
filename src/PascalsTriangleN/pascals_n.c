@@ -243,3 +243,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 205: Runs in a single pass over the input.
 // note 206: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 207: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 208: Runs in a single pass over the input.
