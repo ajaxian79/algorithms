@@ -520,3 +520,4 @@ void free_contents(char *buffer) {
 // note 214: Mutates the input in place; the original ordering is lost.
 // note 215: Time complexity: O(k) where k is the answer size.
 // note 216: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 217: Mutates the input in place; the original ordering is lost.
