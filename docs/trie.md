@@ -1673,3 +1673,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 402
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 403
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
