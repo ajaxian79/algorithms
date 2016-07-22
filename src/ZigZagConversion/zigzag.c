@@ -258,3 +258,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 215: Linear in n; the constant factor is small.
 // note 216: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 217: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 218: Graph DP on DAGs: topological order makes the dependency direction explicit.
