@@ -1807,3 +1807,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 434
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 435
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
