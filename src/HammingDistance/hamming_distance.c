@@ -222,3 +222,4 @@ int hamming_distance(int x, int y) {
 // note 207: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 208: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 209: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 210: StringBuilder: amortize allocation by doubling on grow.
