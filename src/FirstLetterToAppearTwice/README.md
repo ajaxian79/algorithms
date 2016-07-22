@@ -2274,3 +2274,7 @@ No allocations after setup.
 ## entry 544
 
 Time complexity: O(n + m).
+
+## entry 545
+
+Constant-time comparisons; safe for short strings.
