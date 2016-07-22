@@ -2416,3 +2416,7 @@ Handles empty input by returning 0.
 ## entry 589
 
 Linear in n; the constant factor is small.
+
+## entry 590
+
+Space complexity: O(1) auxiliary.
