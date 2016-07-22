@@ -253,3 +253,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 225: Returns a freshly allocated string the caller must free.
 // edge note 226: Caller owns the returned array; free with a single `free`.
 // edge note 227: Handles empty input by returning 0.
+// edge note 228: Sub-linear in the average case thanks to early exit.
