@@ -1667,3 +1667,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 417
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 418
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
