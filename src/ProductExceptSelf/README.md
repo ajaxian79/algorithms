@@ -2472,3 +2472,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 602
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 603
+
+Returns a freshly allocated string the caller must free.
