@@ -1745,3 +1745,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 420
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 421
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
