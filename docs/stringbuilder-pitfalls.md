@@ -1875,3 +1875,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 469
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 470
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
