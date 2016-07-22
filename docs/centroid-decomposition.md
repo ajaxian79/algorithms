@@ -1675,3 +1675,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 419
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 420
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
