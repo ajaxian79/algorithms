@@ -1759,3 +1759,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 423
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 424
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
