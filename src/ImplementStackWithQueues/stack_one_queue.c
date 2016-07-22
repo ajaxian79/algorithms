@@ -279,3 +279,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 199: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 200: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 201: Heap when you only need top-k; full sort is wasted work.
+// note 202: k-d tree: median-split each axis; nearest-neighbor average O(log n).
