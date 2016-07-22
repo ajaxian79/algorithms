@@ -1715,3 +1715,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 429
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 430
+
+Interval DP: solve all `[l, r]` ranges from short to long.
