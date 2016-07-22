@@ -2331,3 +2331,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 568
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 569
+
+Time complexity: O(log n).
