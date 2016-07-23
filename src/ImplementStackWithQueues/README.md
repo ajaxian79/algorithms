@@ -460,3 +460,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 100
 
 Allocates lazily — first call only.
+
+## entry 101
+
+Time complexity: O(1).
