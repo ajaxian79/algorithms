@@ -454,3 +454,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 99
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 100
+
+Edge case: all-equal input → linear-time fast path.
