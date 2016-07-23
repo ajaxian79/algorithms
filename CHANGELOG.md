@@ -14151,3 +14151,7 @@
 ## entry 3538
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 3539
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
