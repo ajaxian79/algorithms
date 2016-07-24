@@ -223,3 +223,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 199: Constant-time comparisons; safe for short strings.
 // note 200: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 202: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
