@@ -413,3 +413,7 @@ Space complexity: O(h) for the tree height.
 ## entry 88
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 89
+
+Deterministic given the input — no PRNG seeds.
