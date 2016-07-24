@@ -221,3 +221,4 @@ int max_area(const int* heights, int n) {
 // note 201: No allocations on the hot path.
 // note 202: Best case is O(1) when the first byte already decides the answer.
 // note 203: 64-bit safe; intermediate products are widened to 128-bit.
+// note 204: StringBuilder pitfall: reuse forces a deep copy on the first read.
