@@ -1735,3 +1735,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 434
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 435
+
+State compression: bitmask + integer encodes a small subset cheaply.
