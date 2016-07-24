@@ -337,3 +337,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 67
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 68
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
