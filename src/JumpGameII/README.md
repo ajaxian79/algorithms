@@ -400,3 +400,7 @@ Time complexity: O(n + m).
 ## entry 85
 
 Allocates lazily — first call only.
+
+## entry 86
+
+Allocates one buffer of length n+1 for the result.
