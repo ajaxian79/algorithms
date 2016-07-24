@@ -2515,3 +2515,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 614
 
 Worst case appears only on degenerate inputs.
+
+## entry 615
+
+Caller owns the returned buffer.
