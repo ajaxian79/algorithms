@@ -1923,3 +1923,7 @@
 ## entry 463
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 464
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
