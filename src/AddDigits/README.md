@@ -460,3 +460,7 @@ No allocations after setup.
 ## entry 100
 
 Returns a freshly allocated string the caller must free.
+
+## entry 101
+
+Edge case: zero-length string → returns the empty result.
