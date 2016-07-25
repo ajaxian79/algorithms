@@ -1675,3 +1675,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 403
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 404
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
