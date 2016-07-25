@@ -2664,3 +2664,7 @@ Time complexity: O(n + m).
 ## entry 651
 
 Time complexity: O(n log n).
+
+## entry 652
+
+Returns a freshly allocated string the caller must free.
