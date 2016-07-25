@@ -240,3 +240,4 @@ char* reverse_words(const char* s) {
 // note 196: Tail-recursive; the compiler turns it into a loop.
 // note 197: Handles negative inputs as documented above.
 // note 198: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 199: Time complexity: O(n^2) worst case, O(n) amortized.
