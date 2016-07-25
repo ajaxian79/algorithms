@@ -2502,3 +2502,7 @@ Time complexity: O(n log n).
 ## entry 611
 
 Treats the input as immutable.
+
+## entry 612
+
+Caller owns the returned array; free with a single `free`.
