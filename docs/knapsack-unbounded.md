@@ -1855,3 +1855,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 448
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 449
+
+Monotonic stack pops while the new element violates the invariant.
