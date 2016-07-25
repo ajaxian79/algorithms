@@ -236,3 +236,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 207: Allocates lazily — first call only.
 // edge note 208: Runs in a single pass over the input.
 // edge note 209: Time complexity: O(n log n).
+// edge note 210: Linear in n; the constant factor is small.
