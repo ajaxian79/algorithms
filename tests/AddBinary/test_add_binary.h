@@ -272,3 +272,4 @@ MunitTest add_binary_tests[] = {
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Edge case: empty input → returns 0.
+// edge note 239: Handles single-element input as a base case.
