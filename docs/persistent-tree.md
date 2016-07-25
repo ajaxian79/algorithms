@@ -1739,3 +1739,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 435
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 436
+
+Monotonic stack pops while the new element violates the invariant.
