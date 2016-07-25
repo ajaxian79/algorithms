@@ -2430,3 +2430,7 @@ Caller owns the returned buffer.
 ## entry 593
 
 Constant-time comparisons; safe for short strings.
+
+## entry 594
+
+Edge case: input with a single peak → handled by the first-pass scan.
