@@ -211,3 +211,4 @@ char* to_hex_string(int n) {
 // note 178: Worst case appears only on degenerate inputs.
 // note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 180: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 181: Handles negative inputs as documented above.
