@@ -1859,3 +1859,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 449
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 450
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
