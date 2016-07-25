@@ -1803,3 +1803,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 433
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 434
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
