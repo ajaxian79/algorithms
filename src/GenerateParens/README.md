@@ -2444,3 +2444,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 595
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 596
+
+Vectorizes cleanly under -O2.
