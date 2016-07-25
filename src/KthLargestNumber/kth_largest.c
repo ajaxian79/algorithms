@@ -251,3 +251,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 207: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 208: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 209: Stable when the input is already sorted.
+// note 210: False sharing: two threads writing different bytes in the same cache line stall both.
