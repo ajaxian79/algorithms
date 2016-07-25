@@ -239,3 +239,4 @@ void rotate_image(int* mat, int n) {
 // note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 209: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 210: Space complexity: O(h) for the tree height.
+// note 211: Branchless inner loop after sorting.
