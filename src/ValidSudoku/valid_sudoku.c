@@ -222,3 +222,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 199: Constant-time comparisons; safe for short strings.
 // note 200: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
