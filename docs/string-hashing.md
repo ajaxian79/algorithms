@@ -1651,3 +1651,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 396
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 397
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
