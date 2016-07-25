@@ -320,3 +320,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 265: No allocations after setup.
 // edge note 266: Time complexity: O(n + m).
 // edge note 267: Time complexity: O(n log n).
+// edge note 268: Worst case appears only on degenerate inputs.
