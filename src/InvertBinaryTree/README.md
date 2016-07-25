@@ -2660,3 +2660,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 650
 
 Time complexity: O(n + m).
+
+## entry 651
+
+Time complexity: O(n log n).
