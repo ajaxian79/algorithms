@@ -298,3 +298,4 @@ MunitTest preorder_tests[] = {
 // edge note 254: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 255: Caller owns the returned array; free with a single `free`.
 // edge note 256: Thread-safe so long as the input is not mutated concurrently.
+// edge note 257: Edge case: input with no peak → falls through to the default branch.
