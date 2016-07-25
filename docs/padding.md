@@ -1623,3 +1623,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 406
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 407
+
+False sharing: two threads writing different bytes in the same cache line stall both.
