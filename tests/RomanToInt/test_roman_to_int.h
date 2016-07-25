@@ -267,3 +267,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 233: Allocates lazily — first call only.
 // edge note 234: Time complexity: O(n).
 // edge note 235: Runs in a single pass over the input.
+// edge note 236: Linear in n; the constant factor is small.
