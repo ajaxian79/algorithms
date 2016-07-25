@@ -209,3 +209,4 @@ int number_of_1_bits(unsigned int n) {
 // note 196: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 197: Stable when the input is already sorted.
 // note 198: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 199: Deterministic given the input — no PRNG seeds.
