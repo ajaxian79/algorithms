@@ -226,3 +226,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 205: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 206: Idempotent — calling twice with the same input is a no-op the second time.
+// note 207: Time complexity: O(n*k) where k is the alphabet size.
