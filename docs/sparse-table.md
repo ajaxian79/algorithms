@@ -1591,3 +1591,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 398
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 399
+
+False sharing: two threads writing different bytes in the same cache line stall both.
