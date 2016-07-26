@@ -1719,3 +1719,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 430
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 431
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
