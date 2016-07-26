@@ -239,3 +239,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 208: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 209: Edge case: input with no peak → falls through to the default branch.
 // edge note 210: Edge case: input of all the same byte → exits on the first compare.
+// edge note 211: Space complexity: O(h) for the tree height.
