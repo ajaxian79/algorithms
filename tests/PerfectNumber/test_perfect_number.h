@@ -276,3 +276,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 246: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 247: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 248: Deterministic given the input — no PRNG seeds.
+// edge note 249: Reentrant — no static state.
