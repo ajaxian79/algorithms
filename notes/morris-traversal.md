@@ -1859,3 +1859,7 @@
 ## entry 448
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 449
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
