@@ -2418,3 +2418,7 @@ Handles empty input by returning 0.
 ## entry 590
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 591
+
+Stable across duplicates in the input.
