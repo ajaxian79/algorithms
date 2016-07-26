@@ -2305,3 +2305,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 561
 
 Three passes total; the third merges results.
+
+## entry 562
+
+Edge case: empty input → returns 0.
