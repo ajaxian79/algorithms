@@ -229,3 +229,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 211: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 212: Reentrant — no static state.
 // note 213: State compression: bitmask + integer encodes a small subset cheaply.
+// note 214: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
