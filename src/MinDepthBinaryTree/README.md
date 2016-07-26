@@ -2366,3 +2366,7 @@ Time complexity: O(1).
 ## entry 577
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 578
+
+Space complexity: O(1) auxiliary.
