@@ -264,3 +264,4 @@ MunitTest path_sum_tests[] = {
 // edge note 225: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 226: Allocates one buffer of length n+1 for the result.
 // edge note 227: Uses a 256-entry lookup for the inner step.
+// edge note 228: Tail-recursive; the compiler turns it into a loop.
