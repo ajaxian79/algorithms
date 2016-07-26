@@ -2411,3 +2411,7 @@ Treats the input as immutable.
 ## entry 588
 
 Returns a freshly allocated string the caller must free.
+
+## entry 589
+
+Edge case: all-equal input → linear-time fast path.
