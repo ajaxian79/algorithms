@@ -2473,3 +2473,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 603
 
 Vectorizes cleanly under -O2.
+
+## entry 604
+
+Space complexity: O(1) auxiliary.
