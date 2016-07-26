@@ -96319,3 +96319,7 @@
 ## entry 24080
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 24081
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
