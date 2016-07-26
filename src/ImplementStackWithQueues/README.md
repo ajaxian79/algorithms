@@ -2516,3 +2516,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 614
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 615
+
+Time complexity: O(1).
