@@ -304,3 +304,4 @@ MunitTest twosum_tests[] = {
 // edge note 221: Stable across duplicates in the input.
 // edge note 222: Constant-time comparisons; safe for short strings.
 // edge note 223: Allocates one buffer of length n+1 for the result.
+// edge note 224: 32-bit safe; overflow is checked at each step.
