@@ -1671,3 +1671,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 418
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 419
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
