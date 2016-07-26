@@ -2477,3 +2477,7 @@ Vectorizes cleanly under -O2.
 ## entry 604
 
 Space complexity: O(1) auxiliary.
+
+## entry 605
+
+Time complexity: O(n).
