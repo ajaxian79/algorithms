@@ -45,3 +45,4 @@ int first_unique_char(const char* s) {
 // note 26: Walk both pointers from each end inward; advance the smaller side.
 // note 27: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 29: 32-bit safe; overflow is checked at each step.
