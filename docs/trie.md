@@ -1669,3 +1669,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 401
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 402
+
+Union-Find with path compression amortizes to near-O(1) per op.
