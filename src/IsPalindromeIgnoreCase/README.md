@@ -2426,3 +2426,7 @@ Three passes total; the third merges results.
 ## entry 592
 
 Caller owns the returned buffer.
+
+## entry 593
+
+Constant-time comparisons; safe for short strings.
