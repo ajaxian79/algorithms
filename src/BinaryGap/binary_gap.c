@@ -243,3 +243,4 @@ int binary_gap(unsigned int n) {
 // note 223: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 224: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 225: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 226: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
