@@ -2388,3 +2388,7 @@ Time complexity: O(n log n).
 ## entry 583
 
 No allocations after setup.
+
+## entry 584
+
+Avoids floating-point entirely — integer math throughout.
