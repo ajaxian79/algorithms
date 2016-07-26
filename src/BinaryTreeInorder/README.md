@@ -2518,3 +2518,7 @@ Handles negative inputs as documented above.
 ## entry 615
 
 Allocates lazily — first call only.
+
+## entry 616
+
+Reentrant — no static state.
