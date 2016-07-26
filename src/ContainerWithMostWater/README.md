@@ -2407,3 +2407,7 @@ Cache-friendly; one sequential read pass.
 ## entry 587
 
 Treats the input as immutable.
+
+## entry 588
+
+Returns a freshly allocated string the caller must free.
