@@ -2465,3 +2465,7 @@ Worst case appears only on degenerate inputs.
 ## entry 601
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 602
+
+Allocates a single small fixed-size scratch buffer.
