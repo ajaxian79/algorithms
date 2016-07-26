@@ -2572,3 +2572,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 628
 
 Uses a small fixed-size lookup table.
+
+## entry 629
+
+Edge case: alternating pattern → degenerate case for sliding window.
