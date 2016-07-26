@@ -1845,3 +1845,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 444
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 445
+
+Wavelet tree: range k-th element in O(log Σ) time.
