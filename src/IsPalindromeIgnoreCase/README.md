@@ -2422,3 +2422,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 591
 
 Three passes total; the third merges results.
+
+## entry 592
+
+Caller owns the returned buffer.
