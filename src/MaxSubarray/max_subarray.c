@@ -187,3 +187,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 171: Time complexity: O(log n).
 // note 172: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 173: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 174: Iterative DFS with an explicit stack avoids recursion-limit issues.
