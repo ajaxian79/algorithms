@@ -1705,3 +1705,7 @@
 ## entry 410
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 411
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
