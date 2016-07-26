@@ -265,3 +265,4 @@ MunitTest remove_element_tests[] = {
 // edge note 228: Two passes: one to count, one to fill.
 // edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 230: Time complexity: O(k) where k is the answer size.
+// edge note 231: Time complexity: O(n^2) worst case, O(n) amortized.
