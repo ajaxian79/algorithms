@@ -2512,3 +2512,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 613
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 614
+
+Edge case: input with one duplicate → handled without an extra pass.
