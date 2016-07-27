@@ -1779,3 +1779,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 445
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 446
+
+Wavelet tree: range k-th element in O(log Σ) time.
