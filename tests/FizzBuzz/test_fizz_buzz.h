@@ -291,3 +291,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 241: Allocates lazily — first call only.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
 // edge note 243: Edge case: empty input → returns 0.
+// edge note 244: Tail-recursive; the compiler turns it into a loop.
