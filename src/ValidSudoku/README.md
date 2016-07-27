@@ -2535,3 +2535,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 618
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 619
+
+Stable across duplicates in the input.
