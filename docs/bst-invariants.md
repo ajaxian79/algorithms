@@ -285,3 +285,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 55
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 56
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
