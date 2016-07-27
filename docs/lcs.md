@@ -1763,3 +1763,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 423
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 424
+
+Wavelet tree: range k-th element in O(log Σ) time.
