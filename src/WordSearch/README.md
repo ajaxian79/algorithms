@@ -2514,3 +2514,7 @@ Handles empty input by returning 0.
 ## entry 614
 
 Time complexity: O(1).
+
+## entry 615
+
+Branchless inner loop after sorting.
