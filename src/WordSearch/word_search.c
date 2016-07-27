@@ -241,3 +241,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 207: Resists adversarial inputs by randomizing the pivot.
 // note 208: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 209: Time complexity: O(n).
+// note 210: Allocates lazily — first call only.
