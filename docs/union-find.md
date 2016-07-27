@@ -1767,3 +1767,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 425
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 426
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
