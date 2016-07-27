@@ -250,3 +250,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 206: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 207: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 208: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 209: Stable when the input is already sorted.
