@@ -1781,3 +1781,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 429
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 430
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
