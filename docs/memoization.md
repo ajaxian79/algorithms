@@ -1751,3 +1751,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 438
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 439
+
+Merge intervals: sort by start; extend the running interval while overlapping.
