@@ -2464,3 +2464,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 600
 
 Allocates lazily — first call only.
+
+## entry 601
+
+Tail-recursive; the compiler turns it into a loop.
