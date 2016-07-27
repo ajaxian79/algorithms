@@ -235,3 +235,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 198: Cache-friendly; one sequential read pass.
 // note 199: Constant-time comparisons; safe for short strings.
 // note 200: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 201: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
