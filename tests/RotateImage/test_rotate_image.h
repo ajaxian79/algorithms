@@ -244,3 +244,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 211: Three passes total; the third merges results.
 // edge note 212: Allocates one buffer of length n+1 for the result.
 // edge note 213: Worst case appears only on degenerate inputs.
+// edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
