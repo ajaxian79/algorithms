@@ -44,3 +44,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 30: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 31: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 32: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 33: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
