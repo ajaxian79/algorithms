@@ -2410,3 +2410,7 @@ No allocations on the hot path.
 ## entry 588
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 589
+
+Handles empty input by returning 0.
