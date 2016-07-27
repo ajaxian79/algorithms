@@ -96279,3 +96279,7 @@
 ## entry 24070
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 24071
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
