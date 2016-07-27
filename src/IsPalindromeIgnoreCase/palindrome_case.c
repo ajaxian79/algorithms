@@ -234,3 +234,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 211: Constant-time comparisons; safe for short strings.
 // note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 213: Allocates lazily — first call only.
+// note 214: Hash collision: chain or open-address; chained handles arbitrary load factor.
