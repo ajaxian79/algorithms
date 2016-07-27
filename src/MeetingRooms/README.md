@@ -382,3 +382,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 81
 
 Runs in a single pass over the input.
+
+## entry 82
+
+Two passes: one to count, one to fill.
