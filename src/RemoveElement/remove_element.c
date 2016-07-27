@@ -245,3 +245,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 230: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 231: 64-bit safe; intermediate products are widened to 128-bit.
 // note 232: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 233: Resists adversarial inputs by randomizing the pivot.
