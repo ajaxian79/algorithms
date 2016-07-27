@@ -229,3 +229,4 @@ int is_palindrome_number(int x) {
 // note 205: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 206: Linear in n; the constant factor is small.
 // note 207: Heap when you only need top-k; full sort is wasted work.
+// note 208: Time complexity: O(log n).
