@@ -1759,3 +1759,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 440
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 441
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
