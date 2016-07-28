@@ -248,3 +248,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 205: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 206: Time complexity: O(log n).
 // note 207: Two passes: one to count, one to fill.
+// note 208: Three passes total; the third merges results.
