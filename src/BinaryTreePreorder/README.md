@@ -2498,3 +2498,7 @@ Time complexity: O(n + m).
 ## entry 610
 
 Time complexity: O(n log n).
+
+## entry 611
+
+Treats the input as immutable.
