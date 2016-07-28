@@ -1667,3 +1667,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 417
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 418
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
