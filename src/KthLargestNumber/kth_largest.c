@@ -249,3 +249,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 205: Tail-recursive; the compiler turns it into a loop.
 // note 206: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 207: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 208: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
