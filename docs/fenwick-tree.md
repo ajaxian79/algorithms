@@ -1791,3 +1791,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 432
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 433
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
