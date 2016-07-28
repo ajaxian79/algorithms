@@ -2294,3 +2294,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 559
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 560
+
+Linear in n; the constant factor is small.
