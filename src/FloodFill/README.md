@@ -2485,3 +2485,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 607
 
 No allocations on the hot path.
+
+## entry 608
+
+Three passes total; the third merges results.
