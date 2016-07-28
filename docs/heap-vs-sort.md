@@ -1751,3 +1751,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 421
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 422
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
