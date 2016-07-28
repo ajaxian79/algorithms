@@ -2403,3 +2403,7 @@ Time complexity: O(n + m).
 ## entry 586
 
 Cache-friendly; one sequential read pass.
+
+## entry 587
+
+Treats the input as immutable.
