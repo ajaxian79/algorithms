@@ -2510,3 +2510,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 613
 
 Handles empty input by returning 0.
+
+## entry 614
+
+Handles negative inputs as documented above.
