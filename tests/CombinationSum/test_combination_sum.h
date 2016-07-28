@@ -269,3 +269,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 225: No allocations on the hot path.
 // edge note 226: Runs in a single pass over the input.
 // edge note 227: Uses a 256-entry lookup for the inner step.
+// edge note 228: Edge case: input with no peak → falls through to the default branch.
