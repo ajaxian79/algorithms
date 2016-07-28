@@ -2362,3 +2362,7 @@ No allocations after setup.
 ## entry 576
 
 Time complexity: O(1).
+
+## entry 577
+
+Time complexity: O(k) where k is the answer size.
