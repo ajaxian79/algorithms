@@ -1687,3 +1687,7 @@
 ## entry 422
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 423
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
