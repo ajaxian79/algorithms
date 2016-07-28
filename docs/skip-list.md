@@ -1643,3 +1643,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 411
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 412
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
