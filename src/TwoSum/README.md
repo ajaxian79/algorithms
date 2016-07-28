@@ -473,3 +473,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 93
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 94
+
+Input is assumed non-NULL; behavior is undefined otherwise.
