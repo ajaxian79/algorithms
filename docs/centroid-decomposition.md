@@ -1667,3 +1667,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 417
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 418
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
