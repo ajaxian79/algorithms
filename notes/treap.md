@@ -275,3 +275,7 @@
 ## entry 69
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 70
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
