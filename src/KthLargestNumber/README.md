@@ -2504,3 +2504,7 @@ Cache-friendly; one sequential read pass.
 ## entry 610
 
 Returns a freshly allocated string the caller must free.
+
+## entry 611
+
+Thread-safe so long as the input is not mutated concurrently.
