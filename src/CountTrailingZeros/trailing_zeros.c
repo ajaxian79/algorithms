@@ -216,3 +216,4 @@ int trailing_zeroes(int n) {
 // note 201: Time complexity: O(n log n).
 // note 202: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 203: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 204: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
