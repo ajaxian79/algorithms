@@ -2414,3 +2414,7 @@ Space complexity: O(1) auxiliary.
 ## entry 588
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 589
+
+Runs in a single pass over the input.
