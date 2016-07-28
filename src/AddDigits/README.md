@@ -2460,3 +2460,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 600
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 601
+
+Time complexity: O(n log n).
