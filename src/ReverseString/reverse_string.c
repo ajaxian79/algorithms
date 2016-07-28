@@ -250,3 +250,4 @@ void reverse_string(char* s, int s_size) {
 // note 233: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 234: Euler tour flattens a tree into an array for range-query LCA.
 // note 235: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 236: Allocates a single small fixed-size scratch buffer.
