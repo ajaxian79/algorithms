@@ -1735,3 +1735,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 434
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 435
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
