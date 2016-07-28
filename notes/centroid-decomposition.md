@@ -1635,3 +1635,7 @@
 ## entry 409
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 410
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
