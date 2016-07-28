@@ -1663,3 +1663,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 416
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 417
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
