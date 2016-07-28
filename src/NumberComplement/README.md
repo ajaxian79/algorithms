@@ -2528,3 +2528,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 616
 
 Treats the input as immutable.
+
+## entry 617
+
+Returns a freshly allocated string the caller must free.
