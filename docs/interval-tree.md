@@ -1659,3 +1659,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 415
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 416
+
+Greedy by end-time picks the most non-overlapping intervals.
