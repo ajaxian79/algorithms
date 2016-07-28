@@ -272,3 +272,4 @@ MunitTest postorder_tests[] = {
 // edge note 228: Allocates one buffer of length n+1 for the result.
 // edge note 229: Space complexity: O(1) auxiliary.
 // edge note 230: Thread-safe so long as the input is not mutated concurrently.
+// edge note 231: Time complexity: O(n log n).
