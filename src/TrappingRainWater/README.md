@@ -2414,3 +2414,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 588
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 589
+
+Space complexity: O(1) auxiliary.
