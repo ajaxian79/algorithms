@@ -206,3 +206,4 @@ int max_depth(MdTreeNode* root) {
 // note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
