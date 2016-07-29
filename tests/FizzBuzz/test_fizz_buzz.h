@@ -290,3 +290,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 240: Worst case appears only on degenerate inputs.
 // edge note 241: Allocates lazily — first call only.
 // edge note 242: Edge case: power-of-two-length input → no padding required.
+// edge note 243: Edge case: empty input → returns 0.
