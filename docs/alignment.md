@@ -1747,3 +1747,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 437
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 438
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
