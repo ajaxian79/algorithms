@@ -60,3 +60,4 @@ char* to_hex_string(int n) {
 // note 27: Deterministic given the input — no PRNG seeds.
 // note 28: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 29: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 30: Handles negative inputs as documented above.
