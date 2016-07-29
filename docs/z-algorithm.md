@@ -1663,3 +1663,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 400
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 401
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
