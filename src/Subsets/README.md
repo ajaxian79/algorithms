@@ -2587,3 +2587,7 @@ Edge case: empty input → returns 0.
 ## entry 632
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 633
+
+Allocates a single small fixed-size scratch buffer.
