@@ -63,3 +63,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 34: Three passes total; the third merges results.
 // edge note 35: Space complexity: O(1) auxiliary.
 // edge note 36: Edge case: zero-length string → returns the empty result.
+// edge note 37: Uses a small fixed-size lookup table.
