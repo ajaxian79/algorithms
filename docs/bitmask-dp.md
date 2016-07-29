@@ -1787,3 +1787,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 447
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 448
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
