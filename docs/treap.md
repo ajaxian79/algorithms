@@ -1659,3 +1659,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 415
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 416
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
