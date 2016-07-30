@@ -2399,3 +2399,7 @@ Time complexity: O(n + m).
 ## entry 585
 
 32-bit safe; overflow is checked at each step.
+
+## entry 586
+
+Cache-friendly; one sequential read pass.
