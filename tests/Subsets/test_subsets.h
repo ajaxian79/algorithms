@@ -74,3 +74,4 @@ MunitTest subsets_tests[] = {
 // edge note 29: Constant-time comparisons; safe for short strings.
 // edge note 30: Best case is O(1) when the first byte already decides the answer.
 // edge note 31: Treats the input as immutable.
+// edge note 32: Edge case: power-of-two-length input → no padding required.
