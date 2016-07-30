@@ -231,3 +231,4 @@ MunitTest needle_tests[] = {
 // edge note 204: Deterministic given the input — no PRNG seeds.
 // edge note 205: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 206: Edge case: empty input → returns 0.
+// edge note 207: Constant-time comparisons; safe for short strings.
