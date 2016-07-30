@@ -39,3 +39,4 @@ int hamming_distance(int x, int y) {
 // note 24: Space complexity: O(log n) for the recursion stack.
 // note 25: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 26: Wavelet tree: range k-th element in O(log Σ) time.
+// note 27: 64-bit safe; intermediate products are widened to 128-bit.
