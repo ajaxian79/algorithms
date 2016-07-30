@@ -1655,3 +1655,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 414
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 415
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
