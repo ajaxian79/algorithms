@@ -460,3 +460,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 100
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 101
+
+Stable across duplicates in the input.
