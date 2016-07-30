@@ -236,3 +236,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 193: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 194: Wavelet tree: range k-th element in O(log Σ) time.
 // note 195: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 196: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
