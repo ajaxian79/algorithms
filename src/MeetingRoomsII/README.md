@@ -2462,3 +2462,7 @@ Handles single-element input as a base case.
 ## entry 600
 
 Time complexity: O(1).
+
+## entry 601
+
+Time complexity: O(log n).
