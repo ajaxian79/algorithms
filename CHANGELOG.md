@@ -96179,3 +96179,7 @@
 ## entry 24045
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 24046
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
