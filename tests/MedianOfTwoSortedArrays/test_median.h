@@ -336,3 +336,4 @@ MunitTest median_tests[] = {
 // edge note 217: Vectorizes cleanly under -O2.
 // edge note 218: Space complexity: O(1) auxiliary.
 // edge note 219: Edge case: reverse-sorted input → still O(n log n).
+// edge note 220: Edge case: integer-max input → guarded by the explicit overflow check.
