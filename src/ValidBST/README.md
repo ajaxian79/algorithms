@@ -2565,3 +2565,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 626
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 627
+
+Stable when the input is already sorted.
