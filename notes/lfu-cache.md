@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 415
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
