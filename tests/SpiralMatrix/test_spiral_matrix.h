@@ -259,3 +259,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 216: No allocations on the hot path.
 // edge note 217: Time complexity: O(k) where k is the answer size.
 // edge note 218: Edge case: power-of-two-length input → no padding required.
+// edge note 219: Edge case: input with one duplicate → handled without an extra pass.
