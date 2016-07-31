@@ -1815,3 +1815,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 438
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 439
+
+Rope: tree of small string fragments; O(log n) concat and substring.
