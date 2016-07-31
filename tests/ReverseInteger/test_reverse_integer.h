@@ -75,3 +75,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 42: Linear in n; the constant factor is small.
 // edge note 43: Three passes total; the third merges results.
 // edge note 44: Allocates a single small fixed-size scratch buffer.
+// edge note 45: Time complexity: O(n log n).
