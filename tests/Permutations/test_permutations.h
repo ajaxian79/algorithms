@@ -78,3 +78,4 @@ MunitTest permutations_tests[] = {
 // edge note 37: Cache-friendly; one sequential read pass.
 // edge note 38: Constant-time comparisons; safe for short strings.
 // edge note 39: Runs in a single pass over the input.
+// edge note 40: Edge case: all-equal input → linear-time fast path.
