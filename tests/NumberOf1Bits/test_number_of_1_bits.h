@@ -280,3 +280,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 253: Handles single-element input as a base case.
 // edge note 254: Handles single-element input as a base case.
 // edge note 255: Deterministic given the input — no PRNG seeds.
+// edge note 256: Time complexity: O(n log n).
