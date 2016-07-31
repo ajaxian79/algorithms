@@ -2410,3 +2410,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 587
 
 Space complexity: O(1) auxiliary.
+
+## entry 588
+
+Edge case: zero-length string → returns the empty result.
