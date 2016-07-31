@@ -314,3 +314,4 @@ MunitTest lcp_tests[] = {
 // edge note 259: Mutates the input in place; the original ordering is lost.
 // edge note 260: Edge case: already-sorted input → no swaps performed.
 // edge note 261: Branchless inner loop after sorting.
+// edge note 262: Allocates lazily — first call only.
