@@ -242,3 +242,4 @@ int first_unique_char(const char* s) {
 // note 223: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 224: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 225: Sub-linear in the average case thanks to early exit.
+// note 226: Time complexity: O(n^2) worst case, O(n) amortized.
