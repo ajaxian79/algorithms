@@ -1643,3 +1643,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 411
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 412
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
