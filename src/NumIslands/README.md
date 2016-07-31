@@ -2373,3 +2373,7 @@ Uses a small fixed-size lookup table.
 ## entry 578
 
 Handles negative inputs as documented above.
+
+## entry 579
+
+Time complexity: O(n + m).
