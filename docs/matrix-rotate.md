@@ -1741,3 +1741,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 419
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 420
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
