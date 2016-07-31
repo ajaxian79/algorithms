@@ -1783,3 +1783,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 446
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 447
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
