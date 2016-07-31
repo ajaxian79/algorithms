@@ -2297,3 +2297,7 @@ Caller owns the returned buffer.
 ## entry 559
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 560
+
+Edge case: alternating pattern → degenerate case for sliding window.
