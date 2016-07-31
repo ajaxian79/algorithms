@@ -279,3 +279,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 236: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 237: Handles empty input by returning 0.
 // edge note 238: Handles empty input by returning 0.
+// edge note 239: Worst case appears only on degenerate inputs.
