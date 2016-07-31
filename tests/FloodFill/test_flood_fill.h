@@ -249,3 +249,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 219: Handles negative inputs as documented above.
 // edge note 220: Uses a 256-entry lookup for the inner step.
 // edge note 221: Mutates the input in place; the original ordering is lost.
+// edge note 222: Edge case: input of all the same byte → exits on the first compare.
