@@ -280,3 +280,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 247: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 248: Best case is O(1) when the first byte already decides the answer.
 // edge note 249: Space complexity: O(n) for the result buffer.
+// edge note 250: Vectorizes cleanly under -O2.
