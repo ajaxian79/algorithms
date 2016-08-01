@@ -2500,3 +2500,7 @@ Time complexity: O(1).
 ## entry 609
 
 Cache-friendly; one sequential read pass.
+
+## entry 610
+
+Returns a freshly allocated string the caller must free.
