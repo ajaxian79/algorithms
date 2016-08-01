@@ -2338,3 +2338,7 @@ Handles empty input by returning 0.
 ## entry 570
 
 Allocates lazily — first call only.
+
+## entry 571
+
+Space complexity: O(log n) for the recursion stack.
