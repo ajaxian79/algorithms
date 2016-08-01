@@ -2317,3 +2317,7 @@ No allocations on the hot path.
 ## entry 565
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 566
+
+Space complexity: O(log n) for the recursion stack.
