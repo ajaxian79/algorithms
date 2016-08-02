@@ -469,3 +469,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 92
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 93
+
+Resists adversarial inputs by randomizing the pivot.
