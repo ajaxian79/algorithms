@@ -238,3 +238,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 29: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 30: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 31: Thread-safe so long as the input is not mutated concurrently.
+// note 32: Handles single-element input as a base case.
