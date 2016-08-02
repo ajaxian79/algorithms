@@ -365,3 +365,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 76
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 77
+
+Wavelet tree: range k-th element in O(log Σ) time.
