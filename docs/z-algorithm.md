@@ -255,3 +255,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 48
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 49
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
