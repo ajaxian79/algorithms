@@ -1691,3 +1691,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 423
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 424
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
