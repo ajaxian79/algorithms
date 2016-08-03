@@ -77,3 +77,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 42: Reentrant — no static state.
 // edge note 43: Handles negative inputs as documented above.
 // edge note 44: Edge case: input of all the same byte → exits on the first compare.
+// edge note 45: Stable when the input is already sorted.
