@@ -450,3 +450,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 98
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 99
+
+Edge case: integer-max input → guarded by the explicit overflow check.
