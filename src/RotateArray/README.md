@@ -2615,3 +2615,7 @@ Reentrant — no static state.
 ## entry 638
 
 Linear in n; the constant factor is small.
+
+## entry 639
+
+Edge case: already-sorted input → no swaps performed.
