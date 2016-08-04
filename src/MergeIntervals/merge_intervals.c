@@ -258,3 +258,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 209: 32-bit safe; overflow is checked at each step.
 // note 210: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 211: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 212: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
