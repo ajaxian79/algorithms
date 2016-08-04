@@ -2520,3 +2520,7 @@ Reentrant — no static state.
 ## entry 614
 
 Stable across duplicates in the input.
+
+## entry 615
+
+Edge case: input of all the same byte → exits on the first compare.
