@@ -1651,3 +1651,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 413
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 414
+
+Articulation points: same DFS as bridges, with a slightly different test.
