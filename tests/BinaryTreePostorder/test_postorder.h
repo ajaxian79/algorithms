@@ -78,3 +78,4 @@ MunitTest postorder_tests[] = {
 // edge note 34: Handles single-element input as a base case.
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: Linear in n; the constant factor is small.
+// edge note 37: Tail-recursive; the compiler turns it into a loop.
