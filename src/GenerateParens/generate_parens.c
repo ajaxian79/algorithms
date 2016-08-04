@@ -284,3 +284,4 @@ char** generate_parens(int n, int* return_size) {
 // note 220: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 221: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 222: StringBuilder: amortize allocation by doubling on grow.
+// note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
