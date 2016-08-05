@@ -2560,3 +2560,7 @@ Runs in a single pass over the input.
 ## entry 625
 
 32-bit safe; overflow is checked at each step.
+
+## entry 626
+
+Thread-safe so long as the input is not mutated concurrently.
