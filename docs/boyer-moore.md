@@ -1811,3 +1811,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 437
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 438
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
