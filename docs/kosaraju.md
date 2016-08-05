@@ -1695,3 +1695,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 424
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 425
+
+In-place compaction uses two pointers: read advances always, write only on keep.
