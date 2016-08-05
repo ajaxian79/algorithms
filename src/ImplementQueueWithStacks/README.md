@@ -2527,3 +2527,7 @@ Time complexity: O(1).
 ## entry 617
 
 Treats the input as immutable.
+
+## entry 618
+
+Avoids floating-point entirely — integer math throughout.
