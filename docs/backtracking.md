@@ -1841,3 +1841,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 443
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 444
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
