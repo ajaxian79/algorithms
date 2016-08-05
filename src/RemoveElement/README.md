@@ -2437,3 +2437,7 @@ Time complexity: O(n).
 ## entry 595
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 596
+
+Stable when the input is already sorted.
