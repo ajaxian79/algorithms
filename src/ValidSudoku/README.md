@@ -2531,3 +2531,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 617
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 618
+
+Edge case: all-equal input → linear-time fast path.
