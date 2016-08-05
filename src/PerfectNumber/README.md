@@ -2293,3 +2293,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 558
 
 Caller owns the returned buffer.
+
+## entry 559
+
+Edge case: integer-min input → guarded by the explicit underflow check.
