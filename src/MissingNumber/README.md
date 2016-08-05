@@ -2546,3 +2546,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 621
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 622
+
+Deterministic given the input — no PRNG seeds.
