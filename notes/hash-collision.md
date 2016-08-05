@@ -1727,3 +1727,7 @@
 ## entry 432
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 433
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
