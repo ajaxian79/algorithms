@@ -277,3 +277,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 240: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 241: Runs in a single pass over the input.
