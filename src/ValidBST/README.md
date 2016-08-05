@@ -2561,3 +2561,7 @@ Cache-friendly; one sequential read pass.
 ## entry 625
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 626
+
+Allocates a single small fixed-size scratch buffer.
