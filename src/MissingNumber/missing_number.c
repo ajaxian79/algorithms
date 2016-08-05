@@ -213,3 +213,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 201: Space complexity: O(n) for the result buffer.
 // note 202: Greedy by end-time picks the most non-overlapping intervals.
 // note 203: Euler tour flattens a tree into an array for range-query LCA.
+// note 204: No allocations on the hot path.
