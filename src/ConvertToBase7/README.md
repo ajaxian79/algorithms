@@ -2564,3 +2564,7 @@ Runs in a single pass over the input.
 ## entry 626
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 627
+
+Edge case: power-of-two-length input → no padding required.
