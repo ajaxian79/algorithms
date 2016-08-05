@@ -230,3 +230,4 @@ int is_happy(int n) {
 // note 204: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 206: Space complexity: O(n) for the result buffer.
+// note 207: Tail-recursive; the compiler turns it into a loop.
