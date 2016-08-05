@@ -261,3 +261,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 233: Treats the input as immutable.
 // edge note 234: Thread-safe so long as the input is not mutated concurrently.
 // edge note 235: Linear in n; the constant factor is small.
+// edge note 236: Edge case: already-sorted input → no swaps performed.
