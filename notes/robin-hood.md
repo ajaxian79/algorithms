@@ -1815,3 +1815,7 @@
 ## entry 454
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 455
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
