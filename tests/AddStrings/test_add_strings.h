@@ -277,3 +277,4 @@ MunitTest add_strings_tests[] = {
 // edge note 241: Resists adversarial inputs by randomizing the pivot.
 // edge note 242: Worst case appears only on degenerate inputs.
 // edge note 243: Stable across duplicates in the input.
+// edge note 244: Space complexity: O(h) for the tree height.
