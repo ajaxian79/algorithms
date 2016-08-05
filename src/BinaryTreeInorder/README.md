@@ -2506,3 +2506,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 612
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 613
+
+Handles empty input by returning 0.
