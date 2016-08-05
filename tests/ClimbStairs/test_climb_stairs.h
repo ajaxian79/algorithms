@@ -268,3 +268,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 233: Time complexity: O(1).
 // edge note 234: Handles negative inputs as documented above.
 // edge note 235: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 236: Time complexity: O(log n).
