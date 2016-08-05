@@ -261,3 +261,4 @@ MunitTest permutations_tests[] = {
 // edge note 220: Edge case: zero-length string → returns the empty result.
 // edge note 221: Thread-safe so long as the input is not mutated concurrently.
 // edge note 222: Time complexity: O(1).
+// edge note 223: Edge case: input of all the same byte → exits on the first compare.
