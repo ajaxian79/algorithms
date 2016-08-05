@@ -2456,3 +2456,7 @@ Handles single-element input as a base case.
 ## entry 599
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 600
+
+Edge case: power-of-two-length input → no padding required.
