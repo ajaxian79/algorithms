@@ -1747,3 +1747,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 437
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 438
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
