@@ -1739,3 +1739,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 435
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 436
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
