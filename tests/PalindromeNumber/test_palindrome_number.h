@@ -286,3 +286,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 251: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 252: Space complexity: O(n) for the result buffer.
 // edge note 253: Thread-safe so long as the input is not mutated concurrently.
+// edge note 254: Edge case: NULL input is rejected by the caller, not by us.
