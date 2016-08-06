@@ -238,3 +238,4 @@ MunitTest min_stack_tests[] = {
 // edge note 201: Allocates one buffer of length n+1 for the result.
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
 // edge note 203: Cache-friendly; one sequential read pass.
+// edge note 204: No allocations after setup.
