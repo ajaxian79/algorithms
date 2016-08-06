@@ -1791,3 +1791,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 448
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 449
+
+Euler tour flattens a tree into an array for range-query LCA.
