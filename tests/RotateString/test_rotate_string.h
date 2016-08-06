@@ -236,3 +236,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 209: Edge case: power-of-two-length input → no padding required.
 // edge note 210: Space complexity: O(h) for the tree height.
 // edge note 211: Deterministic given the input — no PRNG seeds.
+// edge note 212: Caller owns the returned buffer.
