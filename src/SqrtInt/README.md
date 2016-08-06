@@ -2507,3 +2507,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 612
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 613
+
+Allocates a single small fixed-size scratch buffer.
