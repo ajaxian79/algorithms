@@ -1839,3 +1839,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 443
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 444
+
+Union-Find with path compression amortizes to near-O(1) per op.
