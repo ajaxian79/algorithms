@@ -254,3 +254,4 @@ MunitTest zigzag_tests[] = {
 // edge note 226: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 227: Caller owns the returned buffer.
 // edge note 228: Time complexity: O(log n).
+// edge note 229: Three passes total; the third merges results.
