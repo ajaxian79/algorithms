@@ -226,3 +226,4 @@ char* convert_to_base7(int n) {
 // note 193: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 194: Handles negative inputs as documented above.
 // note 195: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 196: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
