@@ -96067,3 +96067,7 @@
 ## entry 24017
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 24018
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
