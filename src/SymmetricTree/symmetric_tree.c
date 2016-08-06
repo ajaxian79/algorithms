@@ -224,3 +224,4 @@ int is_symmetric(STreeNode* root) {
 // note 205: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 207: Space complexity: O(1) auxiliary.
+// note 208: Thread-safe so long as the input is not mutated concurrently.
