@@ -1667,3 +1667,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 417
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 418
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
