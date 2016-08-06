@@ -2433,3 +2433,7 @@ Time complexity: O(log n).
 ## entry 594
 
 Time complexity: O(n).
+
+## entry 595
+
+Edge case: alternating pattern → degenerate case for sliding window.
