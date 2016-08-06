@@ -96083,3 +96083,7 @@
 ## entry 24021
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 24022
+
+- Monotonic stack pops while the new element violates the invariant.
