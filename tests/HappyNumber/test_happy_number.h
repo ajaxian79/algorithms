@@ -283,3 +283,4 @@ MunitTest happy_number_tests[] = {
 // edge note 255: Worst case appears only on degenerate inputs.
 // edge note 256: Returns a freshly allocated string the caller must free.
 // edge note 257: Linear in n; the constant factor is small.
+// edge note 258: Avoids floating-point entirely — integer math throughout.
