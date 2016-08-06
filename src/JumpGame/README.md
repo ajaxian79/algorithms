@@ -2537,3 +2537,7 @@ Time complexity: O(n + m).
 ## entry 619
 
 Stable across duplicates in the input.
+
+## entry 620
+
+Returns a freshly allocated string the caller must free.
