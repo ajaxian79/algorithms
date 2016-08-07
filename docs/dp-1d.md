@@ -1859,3 +1859,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 448
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 449
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
