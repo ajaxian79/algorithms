@@ -293,3 +293,4 @@ MunitTest inorder_tests[] = {
 // edge note 255: Handles empty input by returning 0.
 // edge note 256: Handles negative inputs as documented above.
 // edge note 257: Edge case: zero-length string → returns the empty result.
+// edge note 258: Input is assumed non-NULL; behavior is undefined otherwise.
