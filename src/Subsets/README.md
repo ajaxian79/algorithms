@@ -2583,3 +2583,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 631
 
 Edge case: empty input → returns 0.
+
+## entry 632
+
+Edge case: input with one duplicate → handled without an extra pass.
