@@ -1879,3 +1879,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 453
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 454
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
