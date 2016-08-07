@@ -206,3 +206,4 @@ int number_of_1_bits(unsigned int n) {
 // note 193: StringBuilder: amortize allocation by doubling on grow.
 // note 194: Caller owns the returned buffer.
 // note 195: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 196: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
