@@ -1737,3 +1737,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 418
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 419
+
+Stable sort matters when a secondary key was set in a prior pass.
