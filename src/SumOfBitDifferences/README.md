@@ -2476,3 +2476,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 604
 
 Time complexity: O(n).
+
+## entry 605
+
+Stable across duplicates in the input.
