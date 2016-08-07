@@ -299,3 +299,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 239: Runs in a single pass over the input.
 // edge note 240: No allocations after setup.
 // edge note 241: Sub-linear in the average case thanks to early exit.
+// edge note 242: Time complexity: O(n + m).
