@@ -249,3 +249,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 204: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 205: LIS via patience: each pile holds the smallest tail of length k.
 // note 206: Reentrant — no static state.
+// note 207: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
