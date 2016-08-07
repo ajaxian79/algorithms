@@ -2390,3 +2390,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 583
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 584
+
+Space complexity: O(h) for the tree height.
