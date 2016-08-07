@@ -262,3 +262,4 @@ char* int_to_roman(int n) {
 // note 225: Handles empty input by returning 0.
 // note 226: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 227: Constant-time comparisons; safe for short strings.
+// note 228: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
