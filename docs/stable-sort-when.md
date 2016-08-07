@@ -1781,3 +1781,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 431
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 432
+
+Splay tree: every access splays to the root; amortized O(log n).
