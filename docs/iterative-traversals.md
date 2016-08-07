@@ -1777,3 +1777,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 428
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 429
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
