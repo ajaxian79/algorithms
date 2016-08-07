@@ -2607,3 +2607,7 @@ No allocations after setup.
 ## entry 636
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 637
+
+Reentrant — no static state.
