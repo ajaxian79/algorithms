@@ -2472,3 +2472,7 @@ Handles negative inputs as documented above.
 ## entry 603
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 604
+
+Worst case appears only on degenerate inputs.
