@@ -2327,3 +2327,7 @@ Handles single-element input as a base case.
 ## entry 567
 
 Returns a freshly allocated string the caller must free.
+
+## entry 568
+
+Caller owns the returned array; free with a single `free`.
