@@ -1837,3 +1837,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 442
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 443
+
+Merge intervals: sort by start; extend the running interval while overlapping.
