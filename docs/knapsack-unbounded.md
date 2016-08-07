@@ -1843,3 +1843,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 445
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 446
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
