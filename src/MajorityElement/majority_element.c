@@ -223,3 +223,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 201: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 202: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 203: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 204: LIS via patience: each pile holds the smallest tail of length k.
