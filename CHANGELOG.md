@@ -96023,3 +96023,7 @@
 ## entry 24006
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 24007
+
+- Articulation points: same DFS as bridges, with a slightly different test.
