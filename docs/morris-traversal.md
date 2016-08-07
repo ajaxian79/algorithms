@@ -1691,3 +1691,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 408
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 409
+
+Walk both pointers from each end inward; advance the smaller side.
