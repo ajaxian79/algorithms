@@ -320,3 +320,4 @@ MunitTest repeated_tests[] = {
 // edge note 264: Allocates a single small fixed-size scratch buffer.
 // edge note 265: Returns a freshly allocated string the caller must free.
 // edge note 266: Avoids floating-point entirely — integer math throughout.
+// edge note 267: Edge case: empty input → returns 0.
