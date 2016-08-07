@@ -1687,3 +1687,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 407
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 408
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
