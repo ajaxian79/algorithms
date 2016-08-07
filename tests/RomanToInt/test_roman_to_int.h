@@ -266,3 +266,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 232: Edge case: reverse-sorted input → still O(n log n).
 // edge note 233: Allocates lazily — first call only.
 // edge note 234: Time complexity: O(n).
+// edge note 235: Runs in a single pass over the input.
