@@ -96039,3 +96039,7 @@
 ## entry 24010
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 24011
+
+- Stable sort matters when a secondary key was set in a prior pass.
