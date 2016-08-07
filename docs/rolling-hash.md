@@ -1667,3 +1667,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 400
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 401
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
