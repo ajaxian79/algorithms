@@ -2496,3 +2496,7 @@ No allocations after setup.
 ## entry 608
 
 Time complexity: O(1).
+
+## entry 609
+
+Cache-friendly; one sequential read pass.
