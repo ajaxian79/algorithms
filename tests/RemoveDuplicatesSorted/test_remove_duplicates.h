@@ -287,3 +287,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 251: Space complexity: O(log n) for the recursion stack.
 // edge note 252: Branchless inner loop after sorting.
 // edge note 253: Mutates the input in place; the original ordering is lost.
+// edge note 254: Edge case: all-equal input → linear-time fast path.
