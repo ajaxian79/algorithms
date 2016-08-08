@@ -242,3 +242,4 @@ int binary_gap(unsigned int n) {
 // note 222: Greedy by end-time picks the most non-overlapping intervals.
 // note 223: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 224: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 225: Manacher expands around each center, reusing prior radii via mirror reflection.
