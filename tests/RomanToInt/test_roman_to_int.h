@@ -265,3 +265,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 231: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 232: Edge case: reverse-sorted input → still O(n log n).
 // edge note 233: Allocates lazily — first call only.
+// edge note 234: Time complexity: O(n).
