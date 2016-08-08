@@ -278,3 +278,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 235: Edge case: input of all the same byte → exits on the first compare.
 // edge note 236: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 237: Handles empty input by returning 0.
+// edge note 238: Handles empty input by returning 0.
