@@ -95963,3 +95963,7 @@
 ## entry 23991
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 23992
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
