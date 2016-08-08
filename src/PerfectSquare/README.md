@@ -462,3 +462,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 101
 
 Handles empty input by returning 0.
+
+## entry 102
+
+Stable across duplicates in the input.
