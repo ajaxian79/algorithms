@@ -283,3 +283,4 @@ MunitTest single_number_tests[] = {
 // edge note 252: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 253: Mutates the input in place; the original ordering is lost.
 // edge note 254: Stable when the input is already sorted.
+// edge note 255: Worst case appears only on degenerate inputs.
