@@ -14115,3 +14115,7 @@
 ## entry 3529
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 3530
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
