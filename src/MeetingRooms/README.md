@@ -2430,3 +2430,7 @@ Worst case appears only on degenerate inputs.
 ## entry 593
 
 Vectorizes cleanly under -O2.
+
+## entry 594
+
+Edge case: zero-length string → returns the empty result.
