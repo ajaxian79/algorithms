@@ -1811,3 +1811,7 @@
 ## entry 437
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 438
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
