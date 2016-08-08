@@ -1675,3 +1675,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 419
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 420
+
+Heap when you only need top-k; full sort is wasted work.
