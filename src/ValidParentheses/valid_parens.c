@@ -69,3 +69,4 @@ int is_valid_parens(const char* s) {
 // note 27: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 28: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 29: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 30: LCA via binary lifting: jump up powers of two until depths match, then converge.
