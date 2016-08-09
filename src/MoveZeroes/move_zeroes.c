@@ -227,3 +227,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 210: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 211: Caller owns the returned array; free with a single `free`.
 // note 212: Constant-time comparisons; safe for short strings.
+// note 213: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
