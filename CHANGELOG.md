@@ -95951,3 +95951,7 @@
 ## entry 23988
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 23989
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
