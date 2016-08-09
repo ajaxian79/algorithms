@@ -1651,3 +1651,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 397
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 398
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
