@@ -59,3 +59,4 @@ int binary_gap(unsigned int n) {
 // note 39: Mutates the input in place; the original ordering is lost.
 // note 40: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 41: Best case is O(1) when the first byte already decides the answer.
+// note 42: Handles negative inputs as documented above.
