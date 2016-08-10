@@ -255,3 +255,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 205: Time complexity: O(n + m).
 // note 206: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 207: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 208: Padding inside a struct can dwarf the actual data; reorder fields by size.
