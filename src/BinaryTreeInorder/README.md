@@ -2498,3 +2498,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 610
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 611
+
+Tail-recursive; the compiler turns it into a loop.
