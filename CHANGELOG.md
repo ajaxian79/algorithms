@@ -95935,3 +95935,7 @@
 ## entry 23984
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 23985
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
