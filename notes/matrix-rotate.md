@@ -1825,3 +1825,7 @@
 ## entry 440
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 441
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
