@@ -1821,3 +1821,7 @@
 ## entry 439
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 440
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
