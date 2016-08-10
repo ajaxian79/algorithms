@@ -1679,3 +1679,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 420
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 421
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
