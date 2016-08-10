@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 443
+
+- Walk both pointers from each end inward; advance the smaller side.
