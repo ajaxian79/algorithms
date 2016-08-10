@@ -2412,3 +2412,7 @@ Worst case appears only on degenerate inputs.
 ## entry 588
 
 Handles single-element input as a base case.
+
+## entry 589
+
+Time complexity: O(k) where k is the answer size.
