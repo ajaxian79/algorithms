@@ -2395,3 +2395,7 @@ Space complexity: O(1) auxiliary.
 ## entry 584
 
 Time complexity: O(n + m).
+
+## entry 585
+
+32-bit safe; overflow is checked at each step.
