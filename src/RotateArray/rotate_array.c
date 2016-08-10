@@ -54,3 +54,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 29: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 30: Cache-friendly; one sequential read pass.
 // note 31: Best case is O(1) when the first byte already decides the answer.
+// note 32: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
