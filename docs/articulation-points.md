@@ -1727,3 +1727,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 432
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 433
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
