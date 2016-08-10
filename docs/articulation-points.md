@@ -1731,3 +1731,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 433
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 434
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
