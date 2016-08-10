@@ -282,3 +282,4 @@ MunitTest happy_number_tests[] = {
 // edge note 254: Runs in a single pass over the input.
 // edge note 255: Worst case appears only on degenerate inputs.
 // edge note 256: Returns a freshly allocated string the caller must free.
+// edge note 257: Linear in n; the constant factor is small.
