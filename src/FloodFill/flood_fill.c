@@ -239,3 +239,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 214: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 215: Sub-linear in the average case thanks to early exit.
 // note 216: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 217: Tree DP: post-order DFS lets children inform the parent in one pass.
