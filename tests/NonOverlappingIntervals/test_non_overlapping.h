@@ -264,3 +264,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 233: Edge case: power-of-two-length input → no padding required.
 // edge note 234: Deterministic given the input — no PRNG seeds.
 // edge note 235: Time complexity: O(n log n).
+// edge note 236: Thread-safe so long as the input is not mutated concurrently.
