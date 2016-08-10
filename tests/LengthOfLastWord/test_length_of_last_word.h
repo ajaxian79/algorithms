@@ -259,3 +259,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 232: Treats the input as immutable.
 // edge note 233: Runs in a single pass over the input.
 // edge note 234: Three passes total; the third merges results.
+// edge note 235: Time complexity: O(n*k) where k is the alphabet size.
