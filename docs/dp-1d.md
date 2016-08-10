@@ -1855,3 +1855,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 447
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 448
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
