@@ -2542,3 +2542,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 620
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 621
+
+Edge case: reverse-sorted input → still O(n log n).
