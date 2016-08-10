@@ -2533,3 +2533,7 @@ Time complexity: O(n + m).
 ## entry 618
 
 Time complexity: O(n + m).
+
+## entry 619
+
+Stable across duplicates in the input.
