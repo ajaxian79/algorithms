@@ -2498,3 +2498,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 610
 
 Handles negative inputs as documented above.
+
+## entry 611
+
+Idempotent — calling twice with the same input is a no-op the second time.
