@@ -2488,3 +2488,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 606
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 607
+
+No allocations after setup.
