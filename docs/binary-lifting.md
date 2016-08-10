@@ -1727,3 +1727,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 432
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 433
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
