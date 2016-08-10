@@ -2579,3 +2579,7 @@ Runs in a single pass over the input.
 ## entry 630
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 631
+
+Edge case: empty input → returns 0.
