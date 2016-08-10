@@ -2438,3 +2438,7 @@ Caller owns the returned buffer.
 ## entry 594
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 595
+
+Deterministic given the input — no PRNG seeds.
