@@ -279,3 +279,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 70
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 71
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
