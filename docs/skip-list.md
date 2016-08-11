@@ -275,3 +275,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 69
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 70
+
+StringBuilder: amortize allocation by doubling on grow.
