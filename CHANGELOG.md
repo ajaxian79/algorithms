@@ -95903,3 +95903,7 @@
 ## entry 23976
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 23977
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
