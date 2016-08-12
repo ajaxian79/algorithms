@@ -2386,3 +2386,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 582
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 583
+
+Time complexity: O(k) where k is the answer size.
