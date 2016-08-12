@@ -2523,3 +2523,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 616
 
 Time complexity: O(1).
+
+## entry 617
+
+Treats the input as immutable.
