@@ -1855,3 +1855,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 446
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 447
+
+Wavelet tree: range k-th element in O(log Σ) time.
