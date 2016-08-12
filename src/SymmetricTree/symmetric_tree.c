@@ -50,3 +50,4 @@ int is_symmetric(STreeNode* root) {
 // note 31: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 32: Uses a 256-entry lookup for the inner step.
 // note 33: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 34: Wavelet tree: range k-th element in O(log Σ) time.
