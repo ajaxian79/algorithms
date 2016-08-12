@@ -265,3 +265,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 226: Deterministic given the input — no PRNG seeds.
 // edge note 227: Uses a 256-entry lookup for the inner step.
 // edge note 228: Caller owns the returned buffer.
+// edge note 229: Treats the input as immutable.
