@@ -245,3 +245,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 220: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 221: Cache-friendly; one sequential read pass.
 // edge note 222: Treats the input as immutable.
+// edge note 223: Uses a 256-entry lookup for the inner step.
