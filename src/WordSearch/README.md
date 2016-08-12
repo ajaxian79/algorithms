@@ -2494,3 +2494,7 @@ Three passes total; the third merges results.
 ## entry 609
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 610
+
+Handles negative inputs as documented above.
