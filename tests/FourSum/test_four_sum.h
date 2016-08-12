@@ -271,3 +271,4 @@ MunitTest four_sum_tests[] = {
 // edge note 230: Caller owns the returned array; free with a single `free`.
 // edge note 231: Allocates one buffer of length n+1 for the result.
 // edge note 232: Linear in n; the constant factor is small.
+// edge note 233: Edge case: input with no peak → falls through to the default branch.
