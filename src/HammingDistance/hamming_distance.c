@@ -220,3 +220,4 @@ int hamming_distance(int x, int y) {
 // note 205: Caller owns the returned array; free with a single `free`.
 // note 206: Caller owns the returned buffer.
 // note 207: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 208: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
