@@ -380,3 +380,7 @@ Stable when the input is already sorted.
 ## entry 79
 
 Reentrant — no static state.
+
+## entry 80
+
+Avoids floating-point entirely — integer math throughout.
