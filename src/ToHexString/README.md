@@ -2323,3 +2323,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 566
 
 Handles single-element input as a base case.
+
+## entry 567
+
+Returns a freshly allocated string the caller must free.
