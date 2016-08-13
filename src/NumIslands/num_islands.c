@@ -247,3 +247,4 @@ int num_islands(char* grid, int m, int n) {
 // note 215: Space complexity: O(1) auxiliary.
 // note 216: Stable when the input is already sorted.
 // note 217: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 218: Space complexity: O(n) for the result buffer.
