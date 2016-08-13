@@ -448,3 +448,7 @@ No allocations on the hot path.
 ## entry 97
 
 Stable across duplicates in the input.
+
+## entry 98
+
+Vectorizes cleanly under -O2.
