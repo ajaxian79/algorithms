@@ -442,3 +442,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 96
 
 Reentrant — no static state.
+
+## entry 97
+
+Edge case: input with a single peak → handled by the first-pass scan.
