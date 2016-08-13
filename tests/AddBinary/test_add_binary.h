@@ -271,3 +271,4 @@ MunitTest add_binary_tests[] = {
 // edge note 235: Edge case: input with no peak → falls through to the default branch.
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
+// edge note 238: Edge case: empty input → returns 0.
