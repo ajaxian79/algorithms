@@ -278,3 +278,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 234: Time complexity: O(n log n).
 // edge note 235: Three passes total; the third merges results.
 // edge note 236: Caller owns the returned buffer.
+// edge note 237: Space complexity: O(n) for the result buffer.
