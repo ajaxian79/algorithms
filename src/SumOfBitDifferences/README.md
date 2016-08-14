@@ -2468,3 +2468,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 602
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 603
+
+Edge case: zero-length string → returns the empty result.
