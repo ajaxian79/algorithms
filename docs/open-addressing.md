@@ -1671,3 +1671,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 418
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 419
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
