@@ -296,3 +296,4 @@ MunitTest preorder_tests[] = {
 // edge note 252: Edge case: single-element input → returns the element itself.
 // edge note 253: Edge case: all-equal input → linear-time fast path.
 // edge note 254: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 255: Caller owns the returned array; free with a single `free`.
