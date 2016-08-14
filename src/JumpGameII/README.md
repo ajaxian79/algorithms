@@ -396,3 +396,7 @@ Handles empty input by returning 0.
 ## entry 84
 
 Time complexity: O(n + m).
+
+## entry 85
+
+Allocates lazily — first call only.
