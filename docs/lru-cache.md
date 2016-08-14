@@ -1603,3 +1603,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 401
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 402
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
