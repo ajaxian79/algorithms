@@ -2508,3 +2508,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 611
 
 Vectorizes cleanly under -O2.
+
+## entry 612
+
+Reentrant — no static state.
