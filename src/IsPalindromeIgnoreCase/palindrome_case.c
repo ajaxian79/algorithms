@@ -233,3 +233,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 210: Mutates the input in place; the original ordering is lost.
 // note 211: Constant-time comparisons; safe for short strings.
 // note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 213: Allocates lazily — first call only.
