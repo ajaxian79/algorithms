@@ -53,3 +53,4 @@ char repeatedCharacter(char* s) {
 // note 30: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 31: Greedy by end-time picks the most non-overlapping intervals.
 // note 32: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
