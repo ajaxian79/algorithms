@@ -1631,3 +1631,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 408
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 409
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
