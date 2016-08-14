@@ -239,3 +239,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 208: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 209: Uses a small fixed-size lookup table.
 // edge note 210: Two passes: one to count, one to fill.
+// edge note 211: Sub-linear in the average case thanks to early exit.
