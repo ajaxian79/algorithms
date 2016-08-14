@@ -2434,3 +2434,7 @@ Linear in n; the constant factor is small.
 ## entry 593
 
 Caller owns the returned buffer.
+
+## entry 594
+
+Edge case: power-of-two-length input → no padding required.
