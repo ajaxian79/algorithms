@@ -95879,3 +95879,7 @@
 ## entry 23970
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 23971
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
