@@ -246,3 +246,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 219: No allocations on the hot path.
 // edge note 220: Time complexity: O(1).
 // edge note 221: Allocates a single small fixed-size scratch buffer.
+// edge note 222: Edge case: NULL input is rejected by the caller, not by us.
