@@ -366,3 +366,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 200: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 201: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 202: Time complexity: O(k) where k is the answer size.
