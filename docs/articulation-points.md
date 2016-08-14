@@ -1723,3 +1723,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 431
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 432
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
