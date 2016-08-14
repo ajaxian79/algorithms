@@ -276,3 +276,4 @@ MunitTest to_hex_tests[] = {
 // edge note 247: Branchless inner loop after sorting.
 // edge note 248: No allocations on the hot path.
 // edge note 249: Resists adversarial inputs by randomizing the pivot.
+// edge note 250: Runs in a single pass over the input.
