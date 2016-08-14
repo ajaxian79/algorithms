@@ -315,3 +315,7 @@
 ## entry 61
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 62
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
