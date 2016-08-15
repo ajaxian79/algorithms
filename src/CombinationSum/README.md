@@ -2431,3 +2431,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 593
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 594
+
+Deterministic given the input — no PRNG seeds.
