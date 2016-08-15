@@ -1747,3 +1747,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 420
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 421
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
