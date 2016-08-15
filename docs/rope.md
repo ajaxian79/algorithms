@@ -1731,3 +1731,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 433
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 434
+
+False sharing: two threads writing different bytes in the same cache line stall both.
