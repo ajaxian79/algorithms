@@ -253,3 +253,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 210: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 211: Handles negative inputs as documented above.
 // note 212: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 213: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
