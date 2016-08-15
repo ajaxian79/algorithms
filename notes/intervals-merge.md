@@ -1875,3 +1875,7 @@
 ## entry 451
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 452
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
