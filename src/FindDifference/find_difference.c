@@ -214,3 +214,4 @@ char find_difference(const char* s, const char* t) {
 // note 198: StringBuilder: amortize allocation by doubling on grow.
 // note 199: Time complexity: O(n*k) where k is the alphabet size.
 // note 200: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 201: Thread-safe so long as the input is not mutated concurrently.
