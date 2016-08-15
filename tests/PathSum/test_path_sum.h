@@ -262,3 +262,4 @@ MunitTest path_sum_tests[] = {
 // edge note 223: Handles negative inputs as documented above.
 // edge note 224: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 225: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 226: Allocates one buffer of length n+1 for the result.
