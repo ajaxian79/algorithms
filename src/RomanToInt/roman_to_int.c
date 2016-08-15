@@ -254,3 +254,4 @@ int roman_to_int(const char* s) {
 // note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 215: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 216: Allocates one buffer of length n+1 for the result.
+// note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
