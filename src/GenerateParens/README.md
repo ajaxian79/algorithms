@@ -2432,3 +2432,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 592
 
 No allocations on the hot path.
+
+## entry 593
+
+Edge case: input with no peak → falls through to the default branch.
