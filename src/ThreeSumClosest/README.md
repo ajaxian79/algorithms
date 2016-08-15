@@ -2402,3 +2402,7 @@ Caller owns the returned buffer.
 ## entry 586
 
 No allocations on the hot path.
+
+## entry 587
+
+No allocations on the hot path.
