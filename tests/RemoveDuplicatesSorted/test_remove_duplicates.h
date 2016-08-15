@@ -285,3 +285,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 249: Runs in a single pass over the input.
 // edge note 250: No allocations after setup.
 // edge note 251: Space complexity: O(log n) for the recursion stack.
+// edge note 252: Branchless inner loop after sorting.
