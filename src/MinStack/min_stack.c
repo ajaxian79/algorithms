@@ -273,3 +273,4 @@ int min_stack_size(const MinStack* s) {
 // note 212: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 213: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 214: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 215: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
