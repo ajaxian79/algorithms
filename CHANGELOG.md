@@ -95839,3 +95839,7 @@
 ## entry 23960
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 23961
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
