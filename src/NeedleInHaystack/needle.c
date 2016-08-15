@@ -243,3 +243,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 202: Worst case appears only on degenerate inputs.
 // note 203: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 204: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
