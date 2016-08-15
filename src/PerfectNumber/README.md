@@ -2285,3 +2285,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 556
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 557
+
+Uses a 256-entry lookup for the inner step.
