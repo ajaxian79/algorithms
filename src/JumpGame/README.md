@@ -2529,3 +2529,7 @@ Time complexity: O(1).
 ## entry 617
 
 Time complexity: O(n + m).
+
+## entry 618
+
+Time complexity: O(n + m).
