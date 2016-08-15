@@ -1743,3 +1743,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 420
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 421
+
+StringBuilder: amortize allocation by doubling on grow.
