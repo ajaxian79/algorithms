@@ -409,3 +409,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 87
 
 Space complexity: O(h) for the tree height.
+
+## entry 88
+
+Time complexity: O(n*k) where k is the alphabet size.
