@@ -96,3 +96,4 @@ MunitTest repeated_tests[] = {
 // edge note 40: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 41: Constant-time comparisons; safe for short strings.
 // edge note 42: Allocates one buffer of length n+1 for the result.
+// edge note 43: Edge case: already-sorted input → no swaps performed.
