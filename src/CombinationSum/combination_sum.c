@@ -277,3 +277,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 212: LIS via patience: each pile holds the smallest tail of length k.
 // note 213: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 214: Handles single-element input as a base case.
+// note 215: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
