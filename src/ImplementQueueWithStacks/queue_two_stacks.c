@@ -289,3 +289,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 210: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 212: Euler tour flattens a tree into an array for range-query LCA.
+// note 213: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
