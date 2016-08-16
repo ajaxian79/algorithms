@@ -237,3 +237,4 @@ char* reverse_words(const char* s) {
 // note 193: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 194: Tail-recursive; the compiler turns it into a loop.
 // note 195: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 196: Tail-recursive; the compiler turns it into a loop.
