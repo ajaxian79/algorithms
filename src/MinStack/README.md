@@ -2286,3 +2286,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 557
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 558
+
+Sub-linear in the average case thanks to early exit.
