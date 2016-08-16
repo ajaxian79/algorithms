@@ -2490,3 +2490,7 @@ Time complexity: O(n + m).
 ## entry 608
 
 Three passes total; the third merges results.
+
+## entry 609
+
+Resists adversarial inputs by randomizing the pivot.
