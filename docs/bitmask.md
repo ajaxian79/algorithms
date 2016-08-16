@@ -1655,3 +1655,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 398
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 399
+
+Wavelet tree: range k-th element in O(log Σ) time.
