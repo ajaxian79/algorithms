@@ -256,3 +256,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 210: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 211: Stable when the input is already sorted.
 // note 212: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 213: In-place compaction uses two pointers: read advances always, write only on keep.
