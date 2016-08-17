@@ -229,3 +229,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 186: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 187: Branchless inner loop after sorting.
 // note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 189: Tree DP: post-order DFS lets children inform the parent in one pass.
