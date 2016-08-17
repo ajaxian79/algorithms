@@ -1761,3 +1761,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 423
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 424
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
