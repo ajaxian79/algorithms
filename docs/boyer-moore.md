@@ -1803,3 +1803,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 435
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 436
+
+Merge intervals: sort by start; extend the running interval while overlapping.
