@@ -253,3 +253,4 @@ MunitTest missing_number_tests[] = {
 // edge note 219: Branchless inner loop after sorting.
 // edge note 220: No allocations after setup.
 // edge note 221: Three passes total; the third merges results.
+// edge note 222: Thread-safe so long as the input is not mutated concurrently.
