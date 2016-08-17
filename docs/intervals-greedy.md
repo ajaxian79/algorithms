@@ -327,3 +327,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 64
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 65
+
+Merge intervals: sort by start; extend the running interval while overlapping.
