@@ -95803,3 +95803,7 @@
 ## entry 23951
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 23952
+
+- Walk both pointers from each end inward; advance the smaller side.
