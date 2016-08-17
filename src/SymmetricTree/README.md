@@ -2330,3 +2330,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 568
 
 Edge case: empty input → returns 0.
+
+## entry 569
+
+Handles empty input by returning 0.
