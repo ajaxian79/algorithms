@@ -1663,3 +1663,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 399
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 400
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
