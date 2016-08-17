@@ -95799,3 +95799,7 @@
 ## entry 23950
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 23951
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
