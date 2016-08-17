@@ -2441,3 +2441,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 595
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 596
+
+Worst case appears only on degenerate inputs.
