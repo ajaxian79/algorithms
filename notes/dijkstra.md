@@ -239,3 +239,7 @@
 ## entry 60
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 61
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
