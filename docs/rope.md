@@ -1727,3 +1727,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 432
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 433
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
