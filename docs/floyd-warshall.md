@@ -1707,3 +1707,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 427
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 428
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
