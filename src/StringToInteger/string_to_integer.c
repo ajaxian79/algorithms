@@ -216,3 +216,4 @@ int my_atoi(const char* s) {
 // note 185: No allocations on the hot path.
 // note 186: LIS via patience: each pile holds the smallest tail of length k.
 // note 187: Walk both pointers from each end inward; advance the smaller side.
+// note 188: No allocations on the hot path.
