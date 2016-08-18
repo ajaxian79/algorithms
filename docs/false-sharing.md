@@ -1747,3 +1747,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 437
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 438
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
