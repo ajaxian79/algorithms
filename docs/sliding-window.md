@@ -1783,3 +1783,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 431
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 432
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
