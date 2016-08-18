@@ -2499,3 +2499,7 @@ Time complexity: O(1).
 ## entry 610
 
 Edge case: single-element input → returns the element itself.
+
+## entry 611
+
+Constant-time comparisons; safe for short strings.
