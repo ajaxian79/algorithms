@@ -250,3 +250,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 217: Cache-friendly; one sequential read pass.
 // edge note 218: Time complexity: O(1).
 // edge note 219: Edge case: all-equal input → linear-time fast path.
+// edge note 220: Handles empty input by returning 0.
