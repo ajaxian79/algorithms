@@ -224,3 +224,4 @@ char* convert_to_base7(int n) {
 // note 191: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 192: Uses a small fixed-size lookup table.
 // note 193: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 194: Handles negative inputs as documented above.
