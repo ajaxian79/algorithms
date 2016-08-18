@@ -2369,3 +2369,7 @@ Caller owns the returned buffer.
 ## entry 577
 
 Uses a small fixed-size lookup table.
+
+## entry 578
+
+Handles negative inputs as documented above.
