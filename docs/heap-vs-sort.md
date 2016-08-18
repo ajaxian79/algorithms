@@ -1743,3 +1743,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 419
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 420
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
