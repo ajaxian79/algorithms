@@ -2464,3 +2464,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 601
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 602
+
+Idempotent — calling twice with the same input is a no-op the second time.
