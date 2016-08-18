@@ -2422,3 +2422,7 @@ Treats the input as immutable.
 ## entry 591
 
 Space complexity: O(1) auxiliary.
+
+## entry 592
+
+Space complexity: O(n) for the result buffer.
