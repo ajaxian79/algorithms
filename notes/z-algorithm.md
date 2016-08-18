@@ -1929,3 +1929,7 @@
 ## entry 469
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 470
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
