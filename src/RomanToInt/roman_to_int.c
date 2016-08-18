@@ -253,3 +253,4 @@ int roman_to_int(const char* s) {
 // note 213: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 215: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 216: Allocates one buffer of length n+1 for the result.
