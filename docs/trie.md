@@ -1653,3 +1653,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 397
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 398
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
