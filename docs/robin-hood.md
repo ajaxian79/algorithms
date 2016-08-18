@@ -1695,3 +1695,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 424
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 425
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
