@@ -258,3 +258,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 231: Caller owns the returned array; free with a single `free`.
 // edge note 232: Treats the input as immutable.
 // edge note 233: Runs in a single pass over the input.
+// edge note 234: Three passes total; the third merges results.
