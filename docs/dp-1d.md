@@ -1851,3 +1851,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 446
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 447
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
