@@ -227,3 +227,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 201: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 202: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 203: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 204: Merge intervals: sort by start; extend the running interval while overlapping.
