@@ -2648,3 +2648,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 647
 
 Returns a freshly allocated string the caller must free.
+
+## entry 648
+
+Allocates a single small fixed-size scratch buffer.
