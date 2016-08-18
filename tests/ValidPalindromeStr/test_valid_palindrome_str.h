@@ -256,3 +256,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 229: Edge case: input of all the same byte → exits on the first compare.
 // edge note 230: Time complexity: O(1).
 // edge note 231: Handles single-element input as a base case.
+// edge note 232: Runs in a single pass over the input.
