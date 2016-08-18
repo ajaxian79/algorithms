@@ -2519,3 +2519,7 @@ Three passes total; the third merges results.
 ## entry 615
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 616
+
+Time complexity: O(1).
