@@ -2422,3 +2422,7 @@ Runs in a single pass over the input.
 ## entry 590
 
 Reentrant — no static state.
+
+## entry 591
+
+Edge case: single-element input → returns the element itself.
