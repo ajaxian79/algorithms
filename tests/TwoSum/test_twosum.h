@@ -302,3 +302,4 @@ MunitTest twosum_tests[] = {
 // edge note 219: Two passes: one to count, one to fill.
 // edge note 220: Two passes: one to count, one to fill.
 // edge note 221: Stable across duplicates in the input.
+// edge note 222: Constant-time comparisons; safe for short strings.
