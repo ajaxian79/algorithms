@@ -397,3 +397,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 188: Caller owns the returned buffer.
 // note 189: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 190: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 191: Time complexity: O(n + m).
