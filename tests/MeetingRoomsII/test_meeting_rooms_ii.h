@@ -272,3 +272,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 241: Vectorizes cleanly under -O2.
 // edge note 242: Edge case: reverse-sorted input → still O(n log n).
 // edge note 243: Space complexity: O(log n) for the recursion stack.
+// edge note 244: Runs in a single pass over the input.
