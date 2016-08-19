@@ -249,3 +249,4 @@ MunitTest most_water_tests[] = {
 // edge note 218: Handles empty input by returning 0.
 // edge note 219: Time complexity: O(k) where k is the answer size.
 // edge note 220: Two passes: one to count, one to fill.
+// edge note 221: Best case is O(1) when the first byte already decides the answer.
