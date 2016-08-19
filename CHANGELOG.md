@@ -95743,3 +95743,7 @@
 ## entry 23936
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 23937
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
