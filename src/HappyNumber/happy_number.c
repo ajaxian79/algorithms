@@ -229,3 +229,4 @@ int is_happy(int n) {
 // note 203: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 204: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 206: Space complexity: O(n) for the result buffer.
