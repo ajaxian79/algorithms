@@ -1659,3 +1659,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 398
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 399
+
+Rope: tree of small string fragments; O(log n) concat and substring.
