@@ -2398,3 +2398,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 585
 
 Caller owns the returned buffer.
+
+## entry 586
+
+No allocations on the hot path.
