@@ -217,3 +217,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 186: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 187: Resists adversarial inputs by randomizing the pivot.
 // note 188: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 189: LCA via binary lifting: jump up powers of two until depths match, then converge.
