@@ -277,3 +277,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 237: Resists adversarial inputs by randomizing the pivot.
 // edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 239: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 240: Caller owns the returned buffer.
