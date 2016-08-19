@@ -354,3 +354,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
 // note 219: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 221: Constant-time comparisons; safe for short strings.
