@@ -236,3 +236,4 @@ int min_depth(MnTreeNode* root) {
 // note 219: Allocates one buffer of length n+1 for the result.
 // note 220: No allocations after setup.
 // note 221: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 222: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
