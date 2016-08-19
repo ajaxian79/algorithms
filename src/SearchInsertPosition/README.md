@@ -2418,3 +2418,7 @@ Handles negative inputs as documented above.
 ## entry 590
 
 Treats the input as immutable.
+
+## entry 591
+
+Space complexity: O(1) auxiliary.
