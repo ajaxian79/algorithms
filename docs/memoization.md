@@ -1735,3 +1735,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 434
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 435
+
+Union-Find with path compression amortizes to near-O(1) per op.
