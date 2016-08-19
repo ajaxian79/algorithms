@@ -1925,3 +1925,7 @@
 ## entry 468
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 469
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
