@@ -1559,3 +1559,7 @@
 ## entry 390
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 391
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
