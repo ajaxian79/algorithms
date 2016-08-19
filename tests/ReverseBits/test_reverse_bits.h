@@ -246,3 +246,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 220: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 221: Treats the input as immutable.
 // edge note 222: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 223: Edge case: integer-max input → guarded by the explicit overflow check.
