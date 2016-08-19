@@ -1775,3 +1775,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 429
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 430
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
