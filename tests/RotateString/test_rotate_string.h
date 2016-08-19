@@ -58,3 +58,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 31: Tail-recursive; the compiler turns it into a loop.
 // edge note 32: Returns a freshly allocated string the caller must free.
 // edge note 33: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 34: Input is assumed non-NULL; behavior is undefined otherwise.
