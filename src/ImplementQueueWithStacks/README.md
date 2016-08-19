@@ -2515,3 +2515,7 @@ Handles single-element input as a base case.
 ## entry 614
 
 Three passes total; the third merges results.
+
+## entry 615
+
+Allocates a single small fixed-size scratch buffer.
