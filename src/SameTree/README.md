@@ -2380,3 +2380,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 581
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 582
+
+Time complexity: O(n log n).
