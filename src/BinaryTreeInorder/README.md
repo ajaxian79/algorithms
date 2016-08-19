@@ -2490,3 +2490,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 608
 
 Worst case appears only on degenerate inputs.
+
+## entry 609
+
+Time complexity: O(n*k) where k is the alphabet size.
