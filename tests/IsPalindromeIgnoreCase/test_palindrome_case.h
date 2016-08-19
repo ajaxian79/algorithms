@@ -258,3 +258,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 229: Vectorizes cleanly under -O2.
 // edge note 230: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 231: Handles empty input by returning 0.
+// edge note 232: Worst case appears only on degenerate inputs.
