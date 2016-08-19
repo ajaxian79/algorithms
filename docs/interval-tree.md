@@ -1647,3 +1647,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 412
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 413
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
