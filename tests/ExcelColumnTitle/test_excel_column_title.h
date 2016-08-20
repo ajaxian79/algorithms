@@ -222,3 +222,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 191: Handles negative inputs as documented above.
 // edge note 192: Worst case appears only on degenerate inputs.
+// edge note 193: Input is assumed non-NULL; behavior is undefined otherwise.
