@@ -2404,3 +2404,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 586
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 587
+
+Best case is O(1) when the first byte already decides the answer.
