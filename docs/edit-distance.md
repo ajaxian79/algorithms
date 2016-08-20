@@ -1723,3 +1723,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 413
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 414
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
