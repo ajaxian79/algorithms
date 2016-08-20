@@ -378,3 +378,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 79
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 80
+
+Input is assumed non-NULL; behavior is undefined otherwise.
