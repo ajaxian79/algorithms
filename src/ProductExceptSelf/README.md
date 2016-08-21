@@ -2452,3 +2452,7 @@ Three passes total; the third merges results.
 ## entry 597
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 598
+
+Time complexity: O(1).
