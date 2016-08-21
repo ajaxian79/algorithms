@@ -2322,3 +2322,7 @@ Time complexity: O(n + m).
 ## entry 565
 
 Treats the input as immutable.
+
+## entry 566
+
+Handles empty input by returning 0.
