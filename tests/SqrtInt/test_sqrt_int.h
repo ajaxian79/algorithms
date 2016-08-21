@@ -250,3 +250,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 222: Uses a small fixed-size lookup table.
 // edge note 223: Resists adversarial inputs by randomizing the pivot.
 // edge note 224: Edge case: zero-length string → returns the empty result.
+// edge note 225: Edge case: already-sorted input → no swaps performed.
