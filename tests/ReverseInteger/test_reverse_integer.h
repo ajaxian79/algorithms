@@ -278,3 +278,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 245: Time complexity: O(n log n).
 // edge note 246: Treats the input as immutable.
 // edge note 247: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 248: Best case is O(1) when the first byte already decides the answer.
