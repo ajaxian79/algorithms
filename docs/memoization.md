@@ -1731,3 +1731,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 433
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 434
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
