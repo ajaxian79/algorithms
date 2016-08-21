@@ -1787,3 +1787,7 @@
 ## entry 432
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 433
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
