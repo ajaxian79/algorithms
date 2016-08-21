@@ -233,3 +233,4 @@ char* excel_column_title(int n) {
 // note 203: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 204: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 205: Avoids floating-point entirely — integer math throughout.
+// note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
