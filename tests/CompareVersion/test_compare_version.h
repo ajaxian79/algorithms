@@ -270,3 +270,4 @@ MunitTest compare_version_tests[] = {
 // edge note 243: Two passes: one to count, one to fill.
 // edge note 244: Space complexity: O(n) for the result buffer.
 // edge note 245: Worst case appears only on degenerate inputs.
+// edge note 246: Edge case: input with one duplicate → handled without an extra pass.
