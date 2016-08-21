@@ -2484,3 +2484,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 605
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 606
+
+Idempotent — calling twice with the same input is a no-op the second time.
