@@ -237,3 +237,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 223: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 224: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 225: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 226: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
