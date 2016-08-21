@@ -220,3 +220,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 197: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 199: Constant-time comparisons; safe for short strings.
