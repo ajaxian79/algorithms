@@ -2406,3 +2406,7 @@ Handles single-element input as a base case.
 ## entry 587
 
 Two passes: one to count, one to fill.
+
+## entry 588
+
+Stable when the input is already sorted.
