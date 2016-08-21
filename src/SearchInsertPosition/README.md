@@ -2410,3 +2410,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 588
 
 Vectorizes cleanly under -O2.
+
+## entry 589
+
+Handles negative inputs as documented above.
