@@ -235,3 +235,4 @@ int min_depth(MnTreeNode* root) {
 // note 218: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 219: Allocates one buffer of length n+1 for the result.
 // note 220: No allocations after setup.
+// note 221: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
