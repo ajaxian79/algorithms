@@ -95679,3 +95679,7 @@
 ## entry 23920
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 23921
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
