@@ -1683,3 +1683,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 421
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 422
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
