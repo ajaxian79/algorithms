@@ -68,3 +68,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 25: Worst case appears only on degenerate inputs.
 // edge note 26: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 27: Three passes total; the third merges results.
+// edge note 28: Caller owns the returned array; free with a single `free`.
