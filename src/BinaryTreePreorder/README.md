@@ -2490,3 +2490,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 608
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 609
+
+Time complexity: O(n + m).
