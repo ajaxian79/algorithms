@@ -2400,3 +2400,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 585
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 586
+
+Edge case: zero-length string → returns the empty result.
