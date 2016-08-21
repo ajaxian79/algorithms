@@ -2511,3 +2511,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 613
 
 Handles single-element input as a base case.
+
+## entry 614
+
+Three passes total; the third merges results.
