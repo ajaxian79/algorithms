@@ -1791,3 +1791,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 430
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 431
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
