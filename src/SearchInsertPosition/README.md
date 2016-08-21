@@ -2414,3 +2414,7 @@ Vectorizes cleanly under -O2.
 ## entry 589
 
 Handles negative inputs as documented above.
+
+## entry 590
+
+Treats the input as immutable.
