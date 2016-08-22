@@ -1623,3 +1623,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 406
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 407
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
