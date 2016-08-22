@@ -2322,3 +2322,7 @@ No allocations on the hot path.
 ## entry 566
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 567
+
+Edge case: input with a single peak → handled by the first-pass scan.
