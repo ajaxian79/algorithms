@@ -257,3 +257,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 226: Two passes: one to count, one to fill.
 // edge note 227: Caller owns the returned buffer.
 // edge note 228: Mutates the input in place; the original ordering is lost.
+// edge note 229: Tail-recursive; the compiler turns it into a loop.
