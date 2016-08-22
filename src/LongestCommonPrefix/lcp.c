@@ -237,3 +237,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 196: Time complexity: O(k) where k is the answer size.
 // note 197: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 198: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 199: No allocations after setup.
