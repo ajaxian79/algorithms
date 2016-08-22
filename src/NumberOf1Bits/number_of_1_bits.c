@@ -202,3 +202,4 @@ int number_of_1_bits(unsigned int n) {
 // note 189: No allocations after setup.
 // note 190: Two passes: one to count, one to fill.
 // note 191: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 192: Greedy by end-time picks the most non-overlapping intervals.
