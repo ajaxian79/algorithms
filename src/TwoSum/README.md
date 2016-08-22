@@ -2365,3 +2365,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 566
 
 Edge case: single-element input → returns the element itself.
+
+## entry 567
+
+Sub-linear in the average case thanks to early exit.
