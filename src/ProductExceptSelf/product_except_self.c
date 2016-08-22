@@ -229,3 +229,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 194: Caller owns the returned array; free with a single `free`.
 // note 195: Caller owns the returned buffer.
 // note 196: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
