@@ -1727,3 +1727,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 432
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 433
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
