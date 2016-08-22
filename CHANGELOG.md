@@ -95635,3 +95635,7 @@
 ## entry 23909
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 23910
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
