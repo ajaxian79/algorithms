@@ -2534,3 +2534,7 @@ Cache-friendly; one sequential read pass.
 ## entry 619
 
 Caller owns the returned buffer.
+
+## entry 620
+
+Two passes: one to count, one to fill.
