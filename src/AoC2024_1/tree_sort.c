@@ -425,3 +425,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 203: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 204: Allocates lazily — first call only.
 // note 205: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 206: Allocates lazily — first call only.
