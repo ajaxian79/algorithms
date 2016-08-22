@@ -2525,3 +2525,7 @@ Handles negative inputs as documented above.
 ## entry 616
 
 Time complexity: O(1).
+
+## entry 617
+
+Time complexity: O(n + m).
