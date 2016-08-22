@@ -1787,3 +1787,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 447
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 448
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
