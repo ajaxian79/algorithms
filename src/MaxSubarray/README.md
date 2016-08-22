@@ -2546,3 +2546,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 622
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 623
+
+32-bit safe; overflow is checked at each step.
