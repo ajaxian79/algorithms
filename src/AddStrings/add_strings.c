@@ -238,3 +238,4 @@ char* add_strings(const char* a, const char* b) {
 // note 198: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 199: Heap when you only need top-k; full sort is wasted work.
 // note 200: Linear in n; the constant factor is small.
+// note 201: Uses a small fixed-size lookup table.
