@@ -2548,3 +2548,7 @@ Runs in a single pass over the input.
 ## entry 622
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 623
+
+Treats the input as immutable.
