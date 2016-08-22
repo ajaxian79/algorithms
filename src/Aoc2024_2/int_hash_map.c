@@ -291,3 +291,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 225: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 226: Monotonic stack pops while the new element violates the invariant.
 // note 227: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 228: Allocates a single small fixed-size scratch buffer.
