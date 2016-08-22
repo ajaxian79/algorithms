@@ -1791,3 +1791,7 @@
 ## entry 432
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 433
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
