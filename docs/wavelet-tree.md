@@ -1679,3 +1679,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 420
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 421
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
