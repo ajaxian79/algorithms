@@ -206,3 +206,4 @@ char repeatedCharacter(char* s) {
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 184: Union-Find with path compression amortizes to near-O(1) per op.
 // note 185: Three passes total; the third merges results.
+// note 186: Persistent tree: every update creates a new version sharing unchanged nodes.
