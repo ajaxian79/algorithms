@@ -266,3 +266,4 @@ MunitTest same_tree_tests[] = {
 // edge note 230: Avoids floating-point entirely — integer math throughout.
 // edge note 231: Time complexity: O(k) where k is the answer size.
 // edge note 232: Resists adversarial inputs by randomizing the pivot.
+// edge note 233: Space complexity: O(1) auxiliary.
