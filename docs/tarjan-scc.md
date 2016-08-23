@@ -1783,3 +1783,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 446
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 447
+
+Splay tree: every access splays to the root; amortized O(log n).
