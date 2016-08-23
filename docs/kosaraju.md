@@ -1687,3 +1687,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 422
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 423
+
+Monotonic stack pops while the new element violates the invariant.
