@@ -1579,3 +1579,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 395
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 396
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
