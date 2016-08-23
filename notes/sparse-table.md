@@ -1623,3 +1623,7 @@
 ## entry 406
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 407
+
+- Stable sort matters when a secondary key was set in a prior pass.
