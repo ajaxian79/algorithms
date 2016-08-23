@@ -1779,3 +1779,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 429
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 430
+
+Greedy by end-time picks the most non-overlapping intervals.
