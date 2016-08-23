@@ -273,3 +273,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 214: Worst case appears only on degenerate inputs.
 // note 215: Deterministic given the input — no PRNG seeds.
 // note 216: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 217: State compression: bitmask + integer encodes a small subset cheaply.
