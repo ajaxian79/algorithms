@@ -235,3 +235,4 @@ int is_ugly(int n) {
 // note 221: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 222: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 223: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 224: Returns a freshly allocated string the caller must free.
