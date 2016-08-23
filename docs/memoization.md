@@ -1723,3 +1723,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 431
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 432
+
+Walk both pointers from each end inward; advance the smaller side.
