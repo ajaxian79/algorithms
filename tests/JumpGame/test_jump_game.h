@@ -242,3 +242,4 @@ MunitTest jump_game_tests[] = {
 // edge note 208: Space complexity: O(log n) for the recursion stack.
 // edge note 209: Cache-friendly; one sequential read pass.
 // edge note 210: Runs in a single pass over the input.
+// edge note 211: Best case is O(1) when the first byte already decides the answer.
