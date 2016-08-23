@@ -2544,3 +2544,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 621
 
 Runs in a single pass over the input.
+
+## entry 622
+
+Edge case: all-equal input → linear-time fast path.
