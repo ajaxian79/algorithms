@@ -2507,3 +2507,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 612
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 613
+
+Handles single-element input as a base case.
