@@ -234,3 +234,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 202: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 203: Worst case appears only on degenerate inputs.
 // note 204: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 205: LIS via patience: each pile holds the smallest tail of length k.
