@@ -1575,3 +1575,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 394
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 395
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
