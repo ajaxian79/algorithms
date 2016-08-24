@@ -2396,3 +2396,7 @@ Three passes total; the third merges results.
 ## entry 584
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 585
+
+Thread-safe so long as the input is not mutated concurrently.
