@@ -246,3 +246,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 203: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 204: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 205: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 206: Time complexity: O(log n).
