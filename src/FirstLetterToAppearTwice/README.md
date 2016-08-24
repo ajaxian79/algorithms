@@ -410,3 +410,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 78
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 79
+
+Time complexity: O(n^2) worst case, O(n) amortized.
