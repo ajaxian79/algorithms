@@ -2426,3 +2426,7 @@ Handles single-element input as a base case.
 ## entry 592
 
 Worst case appears only on degenerate inputs.
+
+## entry 593
+
+Vectorizes cleanly under -O2.
