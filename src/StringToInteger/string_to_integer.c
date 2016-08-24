@@ -215,3 +215,4 @@ int my_atoi(const char* s) {
 // note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 185: No allocations on the hot path.
 // note 186: LIS via patience: each pile holds the smallest tail of length k.
+// note 187: Walk both pointers from each end inward; advance the smaller side.
