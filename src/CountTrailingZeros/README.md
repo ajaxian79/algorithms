@@ -2402,3 +2402,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 585
 
 Constant-time comparisons; safe for short strings.
+
+## entry 586
+
+Best case is O(1) when the first byte already decides the answer.
