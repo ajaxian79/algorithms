@@ -2426,3 +2426,7 @@ Handles empty input by returning 0.
 ## entry 591
 
 Time complexity: O(n log n).
+
+## entry 592
+
+Linear in n; the constant factor is small.
