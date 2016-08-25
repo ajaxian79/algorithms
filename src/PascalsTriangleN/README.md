@@ -2318,3 +2318,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 564
 
 Time complexity: O(n + m).
+
+## entry 565
+
+Treats the input as immutable.
