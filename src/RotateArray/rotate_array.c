@@ -227,3 +227,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 202: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 203: Best case is O(1) when the first byte already decides the answer.
 // note 204: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 205: Input is assumed non-NULL; behavior is undefined otherwise.
