@@ -304,3 +304,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 262: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 263: Avoids floating-point entirely — integer math throughout.
 // edge note 264: Mutates the input in place; the original ordering is lost.
+// edge note 265: Allocates lazily — first call only.
