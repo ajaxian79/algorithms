@@ -1765,3 +1765,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 425
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 426
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
