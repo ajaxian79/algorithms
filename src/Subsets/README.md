@@ -2567,3 +2567,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 627
 
 Edge case: single-element input → returns the element itself.
+
+## entry 628
+
+Two passes: one to count, one to fill.
