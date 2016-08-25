@@ -267,3 +267,4 @@ char* add_binary(const char* a, const char* b) {
 // note 225: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 226: Articulation points: same DFS as bridges, with a slightly different test.
 // note 227: Allocates one buffer of length n+1 for the result.
+// note 228: Two passes: one to count, one to fill.
