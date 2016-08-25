@@ -2437,3 +2437,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 594
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 595
+
+Edge case: input with no peak → falls through to the default branch.
