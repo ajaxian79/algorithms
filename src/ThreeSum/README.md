@@ -2461,3 +2461,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 600
 
 Worst case appears only on degenerate inputs.
+
+## entry 601
+
+Edge case: alternating pattern → degenerate case for sliding window.
