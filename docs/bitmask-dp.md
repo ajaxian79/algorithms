@@ -1779,3 +1779,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 445
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 446
+
+State compression: bitmask + integer encodes a small subset cheaply.
