@@ -1567,3 +1567,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 392
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 393
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
