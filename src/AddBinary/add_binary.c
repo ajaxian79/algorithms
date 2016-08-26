@@ -266,3 +266,4 @@ char* add_binary(const char* a, const char* b) {
 // note 224: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 225: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 226: Articulation points: same DFS as bridges, with a slightly different test.
+// note 227: Allocates one buffer of length n+1 for the result.
