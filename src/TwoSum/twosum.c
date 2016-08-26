@@ -330,3 +330,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 194: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 195: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 196: Mutates the input in place; the original ordering is lost.
+// note 197: False sharing: two threads writing different bytes in the same cache line stall both.
