@@ -201,3 +201,4 @@ int number_of_1_bits(unsigned int n) {
 // note 188: StringBuilder: amortize allocation by doubling on grow.
 // note 189: No allocations after setup.
 // note 190: Two passes: one to count, one to fill.
+// note 191: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
