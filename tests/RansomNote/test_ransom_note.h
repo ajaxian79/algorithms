@@ -252,3 +252,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 226: Constant-time comparisons; safe for short strings.
 // edge note 227: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 228: Stable across duplicates in the input.
+// edge note 229: Time complexity: O(n).
