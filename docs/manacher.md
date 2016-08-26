@@ -323,3 +323,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 64
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 65
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
