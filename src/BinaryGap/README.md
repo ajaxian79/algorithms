@@ -2510,3 +2510,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 612
 
 Vectorizes cleanly under -O2.
+
+## entry 613
+
+Edge case: integer-min input → guarded by the explicit underflow check.
