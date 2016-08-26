@@ -2314,3 +2314,7 @@ Edge case: empty input → returns 0.
 ## entry 563
 
 Space complexity: O(n) for the result buffer.
+
+## entry 564
+
+Time complexity: O(n + m).
