@@ -255,3 +255,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 217: Space complexity: O(log n) for the recursion stack.
 // edge note 218: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 219: Edge case: input of all the same byte → exits on the first compare.
+// edge note 220: Edge case: maximum-length input → still fits in 32-bit indices.
