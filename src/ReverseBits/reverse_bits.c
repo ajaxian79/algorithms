@@ -228,3 +228,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 214: Mutates the input in place; the original ordering is lost.
 // note 215: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 216: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 217: Time complexity: O(k) where k is the answer size.
