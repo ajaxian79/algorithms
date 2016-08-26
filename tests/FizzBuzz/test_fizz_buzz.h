@@ -289,3 +289,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 239: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 240: Worst case appears only on degenerate inputs.
 // edge note 241: Allocates lazily — first call only.
+// edge note 242: Edge case: power-of-two-length input → no padding required.
