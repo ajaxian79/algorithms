@@ -1827,3 +1827,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 457
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 458
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
