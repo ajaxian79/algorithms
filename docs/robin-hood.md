@@ -1683,3 +1683,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 421
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 422
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
