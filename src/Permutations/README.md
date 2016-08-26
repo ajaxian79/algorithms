@@ -2588,3 +2588,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 632
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 633
+
+No allocations on the hot path.
