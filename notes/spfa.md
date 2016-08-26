@@ -1811,3 +1811,7 @@
 ## entry 453
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 454
+
+- Greedy by end-time picks the most non-overlapping intervals.
