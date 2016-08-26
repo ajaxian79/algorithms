@@ -2610,3 +2610,7 @@ Three passes total; the third merges results.
 ## entry 638
 
 No allocations on the hot path.
+
+## entry 639
+
+Stable when the input is already sorted.
