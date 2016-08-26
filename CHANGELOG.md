@@ -95543,3 +95543,7 @@
 ## entry 23886
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 23887
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
