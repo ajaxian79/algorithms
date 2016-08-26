@@ -233,3 +233,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 196: Time complexity: O(k) where k is the answer size.
 // note 197: Handles empty input by returning 0.
 // note 198: Cache-friendly; one sequential read pass.
+// note 199: Constant-time comparisons; safe for short strings.
