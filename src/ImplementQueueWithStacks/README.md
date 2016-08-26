@@ -2499,3 +2499,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 610
 
 Edge case: single-element input → returns the element itself.
+
+## entry 611
+
+Edge case: NULL input is rejected by the caller, not by us.
