@@ -371,3 +371,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 78
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 79
+
+32-bit safe; overflow is checked at each step.
