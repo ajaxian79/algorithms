@@ -1639,3 +1639,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 410
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 411
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
