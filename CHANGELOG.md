@@ -95595,3 +95595,7 @@
 ## entry 23899
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 23900
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
