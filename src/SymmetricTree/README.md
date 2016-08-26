@@ -2318,3 +2318,7 @@ Vectorizes cleanly under -O2.
 ## entry 565
 
 No allocations on the hot path.
+
+## entry 566
+
+Edge case: integer-max input → guarded by the explicit overflow check.
