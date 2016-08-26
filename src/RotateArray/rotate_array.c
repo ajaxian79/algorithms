@@ -225,3 +225,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 200: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 202: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 203: Best case is O(1) when the first byte already decides the answer.
