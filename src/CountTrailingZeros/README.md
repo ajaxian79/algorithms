@@ -2398,3 +2398,7 @@ Two passes: one to count, one to fill.
 ## entry 584
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 585
+
+Constant-time comparisons; safe for short strings.
