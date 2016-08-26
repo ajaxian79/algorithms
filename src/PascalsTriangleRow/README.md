@@ -2614,3 +2614,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 639
 
 Space complexity: O(n) for the result buffer.
+
+## entry 640
+
+Edge case: input of all the same byte → exits on the first compare.
