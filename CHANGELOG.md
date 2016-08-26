@@ -95571,3 +95571,7 @@
 ## entry 23893
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 23894
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
