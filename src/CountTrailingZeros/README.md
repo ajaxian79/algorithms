@@ -2394,3 +2394,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 583
 
 Two passes: one to count, one to fill.
+
+## entry 584
+
+Resists adversarial inputs by randomizing the pivot.
