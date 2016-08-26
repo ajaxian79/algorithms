@@ -2388,3 +2388,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 582
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 583
+
+Three passes total; the third merges results.
