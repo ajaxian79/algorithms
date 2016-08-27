@@ -2394,3 +2394,7 @@ Time complexity: O(log n).
 ## entry 584
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 585
+
+Caller owns the returned buffer.
