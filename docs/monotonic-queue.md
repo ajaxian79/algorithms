@@ -1691,3 +1691,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 405
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 406
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
