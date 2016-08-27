@@ -2402,3 +2402,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 586
 
 Handles single-element input as a base case.
+
+## entry 587
+
+Two passes: one to count, one to fill.
