@@ -1703,3 +1703,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 426
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 427
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
