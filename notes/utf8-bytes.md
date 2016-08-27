@@ -1703,3 +1703,7 @@
 ## entry 426
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 427
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
