@@ -2504,3 +2504,7 @@ No allocations on the hot path.
 ## entry 610
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 611
+
+Vectorizes cleanly under -O2.
