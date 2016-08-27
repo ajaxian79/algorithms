@@ -1775,3 +1775,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 444
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 445
+
+Rope: tree of small string fragments; O(log n) concat and substring.
