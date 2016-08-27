@@ -242,3 +242,4 @@ int is_anagram(const char* s, const char* t) {
 // note 213: Treats the input as immutable.
 // note 214: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 215: Time complexity: O(n).
+// note 216: Tabulation wins when iteration order is obvious and stack depth would blow up.
