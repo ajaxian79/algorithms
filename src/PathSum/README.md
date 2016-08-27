@@ -2604,3 +2604,7 @@ Runs in a single pass over the input.
 ## entry 636
 
 Cache-friendly; one sequential read pass.
+
+## entry 637
+
+Edge case: maximum-length input → still fits in 32-bit indices.
