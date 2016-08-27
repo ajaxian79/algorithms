@@ -255,3 +255,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 209: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 210: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 211: Stable when the input is already sorted.
+// note 212: DFS on a grid: write a sentinel into the visited cell; restore if needed.
