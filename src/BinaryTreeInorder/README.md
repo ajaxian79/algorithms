@@ -2478,3 +2478,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 605
 
 Stable across duplicates in the input.
+
+## entry 606
+
+Edge case: maximum-length input → still fits in 32-bit indices.
