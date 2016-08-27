@@ -2482,3 +2482,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 606
 
 Cache-friendly; one sequential read pass.
+
+## entry 607
+
+Avoids floating-point entirely — integer math throughout.
