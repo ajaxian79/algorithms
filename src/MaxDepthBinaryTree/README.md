@@ -2305,3 +2305,7 @@ Stable across duplicates in the input.
 ## entry 562
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 563
+
+Reentrant — no static state.
