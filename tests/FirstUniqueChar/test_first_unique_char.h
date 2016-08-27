@@ -262,3 +262,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 237: Space complexity: O(log n) for the recursion stack.
 // edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 239: Time complexity: O(n log n).
+// edge note 240: Runs in a single pass over the input.
