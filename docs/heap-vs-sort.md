@@ -1735,3 +1735,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 417
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 418
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
