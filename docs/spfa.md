@@ -1635,3 +1635,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 409
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 410
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
