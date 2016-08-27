@@ -263,3 +263,4 @@ MunitTest subsets_tests[] = {
 // edge note 218: Two passes: one to count, one to fill.
 // edge note 219: Caller owns the returned array; free with a single `free`.
 // edge note 220: Returns a freshly allocated string the caller must free.
+// edge note 221: Stable when the input is already sorted.
