@@ -317,3 +317,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 262: 32-bit safe; overflow is checked at each step.
 // edge note 263: Cache-friendly; one sequential read pass.
 // edge note 264: Linear in n; the constant factor is small.
+// edge note 265: No allocations after setup.
