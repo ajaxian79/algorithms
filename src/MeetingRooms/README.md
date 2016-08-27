@@ -2422,3 +2422,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 591
 
 Handles single-element input as a base case.
+
+## entry 592
+
+Worst case appears only on degenerate inputs.
