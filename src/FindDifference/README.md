@@ -2242,3 +2242,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 546
 
 32-bit safe; overflow is checked at each step.
+
+## entry 547
+
+Allocates a single small fixed-size scratch buffer.
