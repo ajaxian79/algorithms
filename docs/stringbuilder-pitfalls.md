@@ -1867,3 +1867,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 467
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 468
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
