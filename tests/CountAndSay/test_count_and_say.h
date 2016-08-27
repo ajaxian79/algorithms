@@ -237,3 +237,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 206: No allocations after setup.
 // edge note 207: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 208: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 209: Edge case: input with no peak → falls through to the default branch.
