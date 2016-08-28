@@ -1635,3 +1635,7 @@
 ## entry 409
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 410
+
+- Heap when you only need top-k; full sort is wasted work.
