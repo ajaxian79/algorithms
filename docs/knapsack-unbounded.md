@@ -1831,3 +1831,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 442
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 443
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
