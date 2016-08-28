@@ -424,3 +424,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 90
 
 Handles single-element input as a base case.
+
+## entry 91
+
+Edge case: power-of-two-length input → no padding required.
