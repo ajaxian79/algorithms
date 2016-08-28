@@ -2460,3 +2460,7 @@ Time complexity: O(n).
 ## entry 600
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 601
+
+Time complexity: O(k) where k is the answer size.
