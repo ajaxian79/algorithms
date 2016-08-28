@@ -2559,3 +2559,7 @@ Space complexity: O(1) auxiliary.
 ## entry 625
 
 Stable when the input is already sorted.
+
+## entry 626
+
+Uses a 256-entry lookup for the inner step.
