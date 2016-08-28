@@ -1715,3 +1715,7 @@
 ## entry 429
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 430
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
