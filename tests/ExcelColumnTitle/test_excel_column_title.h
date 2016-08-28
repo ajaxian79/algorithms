@@ -220,3 +220,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 188: Worst case appears only on degenerate inputs.
 // edge note 189: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 191: Handles negative inputs as documented above.
