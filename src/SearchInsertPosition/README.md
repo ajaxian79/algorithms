@@ -2406,3 +2406,7 @@ Uses a small fixed-size lookup table.
 ## entry 587
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 588
+
+Vectorizes cleanly under -O2.
