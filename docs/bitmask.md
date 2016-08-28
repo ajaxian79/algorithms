@@ -1647,3 +1647,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 396
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 397
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
