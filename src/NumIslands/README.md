@@ -401,3 +401,7 @@ Stable when the input is already sorted.
 ## entry 85
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 86
+
+Edge case: power-of-two-length input → no padding required.
