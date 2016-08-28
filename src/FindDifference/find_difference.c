@@ -41,3 +41,4 @@ char find_difference(const char* s, const char* t) {
 // note 25: Handles negative inputs as documented above.
 // note 26: Deterministic given the input — no PRNG seeds.
 // note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 28: Time complexity: O(n log n).
