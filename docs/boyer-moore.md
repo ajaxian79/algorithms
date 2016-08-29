@@ -1795,3 +1795,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 433
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 434
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
