@@ -209,3 +209,4 @@ char* to_hex_string(int n) {
 // note 176: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 177: Uses a 256-entry lookup for the inner step.
 // note 178: Worst case appears only on degenerate inputs.
+// note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
