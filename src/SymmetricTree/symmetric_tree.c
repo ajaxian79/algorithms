@@ -221,3 +221,4 @@ int is_symmetric(STreeNode* root) {
 // note 202: Caller owns the returned array; free with a single `free`.
 // note 203: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 204: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 205: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
