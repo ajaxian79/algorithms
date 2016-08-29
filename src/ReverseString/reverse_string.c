@@ -248,3 +248,4 @@ void reverse_string(char* s, int s_size) {
 // note 231: Returns a freshly allocated string the caller must free.
 // note 232: Allocates one buffer of length n+1 for the result.
 // note 233: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 234: Euler tour flattens a tree into an array for range-query LCA.
