@@ -364,3 +364,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 197: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 198: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 200: Time complexity: O(n^2) worst case, O(n) amortized.
