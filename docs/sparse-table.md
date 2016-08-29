@@ -1571,3 +1571,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 393
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 394
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
