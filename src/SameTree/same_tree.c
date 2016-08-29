@@ -256,3 +256,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 242: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 243: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 244: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 245: Time complexity: O(n^2) worst case, O(n) amortized.
