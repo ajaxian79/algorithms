@@ -1631,3 +1631,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 391
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 392
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
