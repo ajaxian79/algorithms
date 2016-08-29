@@ -2502,3 +2502,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 610
 
 Uses a small fixed-size lookup table.
+
+## entry 611
+
+Constant-time comparisons; safe for short strings.
