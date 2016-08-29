@@ -219,3 +219,4 @@ int is_power_of_four(int n) {
 // note 206: Heap when you only need top-k; full sort is wasted work.
 // note 207: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 208: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 209: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
