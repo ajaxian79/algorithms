@@ -95483,3 +95483,7 @@
 ## entry 23871
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 23872
+
+- Stable sort matters when a secondary key was set in a prior pass.
