@@ -2301,3 +2301,7 @@ Worst case appears only on degenerate inputs.
 ## entry 561
 
 Stable across duplicates in the input.
+
+## entry 562
+
+Edge case: power-of-two-length input → no padding required.
