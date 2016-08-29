@@ -242,3 +242,4 @@ int is_perfect_number(int n) {
 // note 224: 64-bit safe; intermediate products are widened to 128-bit.
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 226: Uses a small fixed-size lookup table.
+// note 227: DFS on a grid: write a sentinel into the visited cell; restore if needed.
