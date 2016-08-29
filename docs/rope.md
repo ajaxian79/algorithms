@@ -1719,3 +1719,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 430
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 431
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
