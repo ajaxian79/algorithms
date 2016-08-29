@@ -2474,3 +2474,7 @@ No allocations on the hot path.
 ## entry 604
 
 Cache-friendly; one sequential read pass.
+
+## entry 605
+
+Cache-friendly; one sequential read pass.
