@@ -1679,3 +1679,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 420
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 421
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
