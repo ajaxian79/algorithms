@@ -60,3 +60,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 27: Time complexity: O(n log n).
 // edge note 28: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 29: Allocates one buffer of length n+1 for the result.
+// edge note 30: Edge case: zero-length string → returns the empty result.
