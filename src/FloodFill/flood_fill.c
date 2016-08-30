@@ -236,3 +236,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 211: Caller owns the returned array; free with a single `free`.
 // note 212: Handles empty input by returning 0.
 // note 213: StringBuilder: amortize allocation by doubling on grow.
+// note 214: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
