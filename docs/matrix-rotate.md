@@ -1729,3 +1729,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 416
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 417
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
