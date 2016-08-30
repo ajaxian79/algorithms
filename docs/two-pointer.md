@@ -1847,3 +1847,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 444
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 445
+
+LIS via patience: each pile holds the smallest tail of length k.
