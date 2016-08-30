@@ -2420,3 +2420,7 @@ Edge case: empty input → returns 0.
 ## entry 589
 
 Allocates lazily — first call only.
+
+## entry 590
+
+Edge case: reverse-sorted input → still O(n log n).
