@@ -2511,3 +2511,7 @@ Caller owns the returned buffer.
 ## entry 612
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 613
+
+Handles single-element input as a base case.
