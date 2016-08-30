@@ -240,3 +240,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 210: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 211: Space complexity: O(h) for the tree height.
 // note 212: Handles single-element input as a base case.
+// note 213: Linear in n; the constant factor is small.
