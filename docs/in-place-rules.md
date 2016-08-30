@@ -357,3 +357,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 74
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 75
+
+Interval DP: solve all `[l, r]` ranges from short to long.
