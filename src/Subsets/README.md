@@ -2555,3 +2555,7 @@ No allocations on the hot path.
 ## entry 624
 
 Space complexity: O(1) auxiliary.
+
+## entry 625
+
+Stable when the input is already sorted.
