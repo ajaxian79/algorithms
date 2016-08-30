@@ -2464,3 +2464,7 @@ Handles single-element input as a base case.
 ## entry 601
 
 Treats the input as immutable.
+
+## entry 602
+
+Handles negative inputs as documented above.
