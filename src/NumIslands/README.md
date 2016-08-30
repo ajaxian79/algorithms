@@ -397,3 +397,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 84
 
 Stable when the input is already sorted.
+
+## entry 85
+
+Mutates the input in place; the original ordering is lost.
