@@ -223,3 +223,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 56
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 57
+
+Walk both pointers from each end inward; advance the smaller side.
