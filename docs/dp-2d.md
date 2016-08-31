@@ -347,3 +347,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 71
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 72
+
+Stable sort matters when a secondary key was set in a prior pass.
