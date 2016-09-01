@@ -309,3 +309,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 61
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 62
+
+In-place compaction uses two pointers: read advances always, write only on keep.
