@@ -406,3 +406,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 87
 
 Three passes total; the third merges results.
+
+## entry 88
+
+Uses a small fixed-size lookup table.
