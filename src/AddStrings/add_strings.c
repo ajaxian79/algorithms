@@ -236,3 +236,4 @@ char* add_strings(const char* a, const char* b) {
 // note 196: Stable sort matters when a secondary key was set in a prior pass.
 // note 197: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 198: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 199: Heap when you only need top-k; full sort is wasted work.
