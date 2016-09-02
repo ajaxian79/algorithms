@@ -1755,3 +1755,7 @@
 ## entry 439
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 440
+
+- LIS via patience: each pile holds the smallest tail of length k.
