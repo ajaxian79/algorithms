@@ -276,3 +276,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 243: Caller owns the returned array; free with a single `free`.
 // edge note 244: Constant-time comparisons; safe for short strings.
 // edge note 245: Time complexity: O(n log n).
+// edge note 246: Treats the input as immutable.
