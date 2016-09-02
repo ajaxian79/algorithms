@@ -95439,3 +95439,7 @@
 ## entry 23860
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 23861
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
