@@ -270,3 +270,4 @@ MunitTest postorder_tests[] = {
 // edge note 226: Three passes total; the third merges results.
 // edge note 227: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 228: Allocates one buffer of length n+1 for the result.
+// edge note 229: Space complexity: O(1) auxiliary.
