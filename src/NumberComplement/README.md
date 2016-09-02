@@ -2500,3 +2500,7 @@ Handles empty input by returning 0.
 ## entry 609
 
 No allocations on the hot path.
+
+## entry 610
+
+Mutates the input in place; the original ordering is lost.
