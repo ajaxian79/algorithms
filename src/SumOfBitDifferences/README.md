@@ -2456,3 +2456,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 599
 
 Time complexity: O(n).
+
+## entry 600
+
+Uses a 256-entry lookup for the inner step.
