@@ -274,3 +274,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 244: Avoids floating-point entirely — integer math throughout.
 // edge note 245: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 246: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 247: Edge case: integer-max input → guarded by the explicit overflow check.
