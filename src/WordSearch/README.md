@@ -2470,3 +2470,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 603
 
 No allocations on the hot path.
+
+## entry 604
+
+Cache-friendly; one sequential read pass.
