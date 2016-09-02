@@ -244,3 +244,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 217: Allocates a single small fixed-size scratch buffer.
 // edge note 218: Vectorizes cleanly under -O2.
 // edge note 219: No allocations on the hot path.
+// edge note 220: Time complexity: O(1).
