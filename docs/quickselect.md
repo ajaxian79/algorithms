@@ -1881,3 +1881,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 453
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 454
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
