@@ -1683,3 +1683,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 421
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 422
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
