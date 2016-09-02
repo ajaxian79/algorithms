@@ -2402,3 +2402,7 @@ Stable across duplicates in the input.
 ## entry 586
 
 Uses a small fixed-size lookup table.
+
+## entry 587
+
+Avoids floating-point entirely — integer math throughout.
