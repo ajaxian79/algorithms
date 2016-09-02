@@ -229,3 +229,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 209: LIS via patience: each pile holds the smallest tail of length k.
 // note 210: Time complexity: O(1).
 // note 211: Constant-time comparisons; safe for short strings.
+// note 212: Tree DP: post-order DFS lets children inform the parent in one pass.
