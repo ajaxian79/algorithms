@@ -1821,3 +1821,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 438
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 439
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
