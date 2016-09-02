@@ -1769,3 +1769,7 @@
 ## entry 425
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 426
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
