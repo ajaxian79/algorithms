@@ -91,3 +91,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 36: Allocates a single small fixed-size scratch buffer.
 // edge note 37: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 38: Uses a 256-entry lookup for the inner step.
+// edge note 39: Allocates one buffer of length n+1 for the result.
