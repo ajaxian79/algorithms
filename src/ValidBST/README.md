@@ -2557,3 +2557,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 624
 
 Cache-friendly; one sequential read pass.
+
+## entry 625
+
+Allocates a single small fixed-size scratch buffer.
