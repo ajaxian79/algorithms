@@ -234,3 +234,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 207: Allocates a single small fixed-size scratch buffer.
 // edge note 208: Best case is O(1) when the first byte already decides the answer.
 // edge note 209: Edge case: power-of-two-length input → no padding required.
+// edge note 210: Space complexity: O(h) for the tree height.
