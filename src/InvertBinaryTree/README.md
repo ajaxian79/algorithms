@@ -2640,3 +2640,7 @@ Handles empty input by returning 0.
 ## entry 645
 
 Cache-friendly; one sequential read pass.
+
+## entry 646
+
+Edge case: alternating pattern → degenerate case for sliding window.
