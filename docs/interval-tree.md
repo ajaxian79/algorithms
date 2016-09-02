@@ -207,3 +207,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 52
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 53
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
