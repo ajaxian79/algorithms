@@ -1719,3 +1719,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 430
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 431
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
