@@ -270,3 +270,4 @@ MunitTest search_insert_tests[] = {
 // edge note 237: Linear in n; the constant factor is small.
 // edge note 238: Edge case: empty input → returns 0.
 // edge note 239: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 240: Uses a small fixed-size lookup table.
