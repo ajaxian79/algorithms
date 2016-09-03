@@ -1823,3 +1823,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 439
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 440
+
+Splay tree: every access splays to the root; amortized O(log n).
