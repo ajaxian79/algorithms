@@ -2419,3 +2419,7 @@ Reentrant — no static state.
 ## entry 590
 
 Space complexity: O(h) for the tree height.
+
+## entry 591
+
+Resists adversarial inputs by randomizing the pivot.
