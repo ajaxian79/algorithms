@@ -1761,3 +1761,7 @@
 ## entry 423
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 424
+
+- Euler tour flattens a tree into an array for range-query LCA.
