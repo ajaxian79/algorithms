@@ -1615,3 +1615,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 404
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 405
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
