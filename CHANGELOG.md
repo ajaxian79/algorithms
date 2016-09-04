@@ -95387,3 +95387,7 @@
 ## entry 23847
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 23848
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
