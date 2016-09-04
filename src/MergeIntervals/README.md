@@ -2418,3 +2418,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 589
 
 Runs in a single pass over the input.
+
+## entry 590
+
+Reentrant — no static state.
