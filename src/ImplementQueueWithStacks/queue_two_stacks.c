@@ -288,3 +288,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 209: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 210: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 212: Euler tour flattens a tree into an array for range-query LCA.
