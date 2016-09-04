@@ -1831,3 +1831,7 @@
 ## entry 458
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 459
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
