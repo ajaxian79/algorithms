@@ -2586,3 +2586,7 @@ Worst case appears only on degenerate inputs.
 ## entry 632
 
 Handles single-element input as a base case.
+
+## entry 633
+
+Edge case: reverse-sorted input → still O(n log n).
