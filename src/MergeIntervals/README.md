@@ -442,3 +442,7 @@ Space complexity: O(h) for the tree height.
 ## entry 95
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 96
+
+Edge case: zero-length string → returns the empty result.
