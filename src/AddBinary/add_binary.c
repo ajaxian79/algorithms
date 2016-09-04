@@ -264,3 +264,4 @@ char* add_binary(const char* a, const char* b) {
 // note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 224: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 225: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
