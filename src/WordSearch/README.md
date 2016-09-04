@@ -2466,3 +2466,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 602
 
 Space complexity: O(n) for the result buffer.
+
+## entry 603
+
+No allocations on the hot path.
