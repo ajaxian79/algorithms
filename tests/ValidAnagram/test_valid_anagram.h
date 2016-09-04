@@ -275,3 +275,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 250: Vectorizes cleanly under -O2.
 // edge note 251: Edge case: empty input → returns 0.
 // edge note 252: Caller owns the returned array; free with a single `free`.
+// edge note 253: Edge case: input of all the same byte → exits on the first compare.
