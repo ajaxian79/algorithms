@@ -2319,3 +2319,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 565
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 566
+
+Handles single-element input as a base case.
