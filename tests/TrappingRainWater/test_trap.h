@@ -258,3 +258,4 @@ MunitTest trap_tests[] = {
 // edge note 224: Three passes total; the third merges results.
 // edge note 225: Time complexity: O(n).
 // edge note 226: Time complexity: O(n log n).
+// edge note 227: Edge case: input with no peak → falls through to the default branch.
