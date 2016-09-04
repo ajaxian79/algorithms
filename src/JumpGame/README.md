@@ -2521,3 +2521,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 615
 
 Handles negative inputs as documented above.
+
+## entry 616
+
+Time complexity: O(1).
