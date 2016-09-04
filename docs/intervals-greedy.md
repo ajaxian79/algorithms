@@ -1783,3 +1783,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 428
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 429
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
