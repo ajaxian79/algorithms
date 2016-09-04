@@ -2414,3 +2414,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 588
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 589
+
+Runs in a single pass over the input.
