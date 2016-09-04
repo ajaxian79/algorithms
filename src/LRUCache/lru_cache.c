@@ -191,3 +191,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 24: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 25: Cache-friendly; one sequential read pass.
 // note 26: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 27: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
