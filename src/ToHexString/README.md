@@ -2315,3 +2315,7 @@ Stable when the input is already sorted.
 ## entry 564
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 565
+
+Uses a 256-entry lookup for the inner step.
