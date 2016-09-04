@@ -2538,3 +2538,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 619
 
 Returns a freshly allocated string the caller must free.
+
+## entry 620
+
+Avoids floating-point entirely — integer math throughout.
