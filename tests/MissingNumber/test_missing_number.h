@@ -252,3 +252,4 @@ MunitTest missing_number_tests[] = {
 // edge note 218: Reentrant — no static state.
 // edge note 219: Branchless inner loop after sorting.
 // edge note 220: No allocations after setup.
+// edge note 221: Three passes total; the third merges results.
