@@ -36,3 +36,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 21: Returns a freshly allocated string the caller must free.
 // note 22: Caller owns the returned buffer.
+// note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
