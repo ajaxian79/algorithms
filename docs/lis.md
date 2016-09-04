@@ -1875,3 +1875,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 452
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 453
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
