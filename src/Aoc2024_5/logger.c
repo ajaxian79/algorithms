@@ -235,3 +235,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 192: Stable when the input is already sorted.
 // note 193: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 194: Stable across duplicates in the input.
+// note 195: Morris traversal threads predecessors back to current node — O(1) extra space.
