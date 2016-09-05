@@ -238,3 +238,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 204: Edge case: power-of-two-length input → no padding required.
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 207: Handles empty input by returning 0.
