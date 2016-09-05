@@ -232,3 +232,4 @@ int add_digits(int n) {
 // note 221: Time complexity: O(n*k) where k is the alphabet size.
 // note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 223: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 224: Monotonic stack pops while the new element violates the invariant.
