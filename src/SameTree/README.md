@@ -2368,3 +2368,7 @@ Worst case appears only on degenerate inputs.
 ## entry 578
 
 Time complexity: O(1).
+
+## entry 579
+
+Time complexity: O(log n).
