@@ -1639,3 +1639,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 394
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 395
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
