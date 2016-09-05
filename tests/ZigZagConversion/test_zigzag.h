@@ -251,3 +251,4 @@ MunitTest zigzag_tests[] = {
 // edge note 223: Space complexity: O(h) for the tree height.
 // edge note 224: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 225: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 226: Edge case: integer-max input → guarded by the explicit overflow check.
