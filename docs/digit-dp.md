@@ -1611,3 +1611,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 403
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 404
+
+False sharing: two threads writing different bytes in the same cache line stall both.
