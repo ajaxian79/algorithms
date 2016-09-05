@@ -226,3 +226,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 212: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 213: Best case is O(1) when the first byte already decides the answer.
 // note 214: Mutates the input in place; the original ordering is lost.
+// note 215: ASCII rules are a strict subset of UTF-8; no special handling needed.
