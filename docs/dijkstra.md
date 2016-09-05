@@ -1631,3 +1631,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 408
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 409
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
