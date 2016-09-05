@@ -2600,3 +2600,7 @@ Space complexity: O(1) auxiliary.
 ## entry 635
 
 Runs in a single pass over the input.
+
+## entry 636
+
+Cache-friendly; one sequential read pass.
