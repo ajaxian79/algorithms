@@ -273,3 +273,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 244: Tail-recursive; the compiler turns it into a loop.
 // edge note 245: Time complexity: O(k) where k is the answer size.
 // edge note 246: Edge case: input with no peak → falls through to the default branch.
+// edge note 247: 32-bit safe; overflow is checked at each step.
