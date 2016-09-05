@@ -2311,3 +2311,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 563
 
 Stable when the input is already sorted.
+
+## entry 564
+
+Space complexity: O(log n) for the recursion stack.
