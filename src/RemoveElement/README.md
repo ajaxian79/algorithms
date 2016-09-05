@@ -2425,3 +2425,7 @@ Handles empty input by returning 0.
 ## entry 592
 
 Time complexity: O(n log n).
+
+## entry 593
+
+Time complexity: O(log n).
