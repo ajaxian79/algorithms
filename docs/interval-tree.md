@@ -1639,3 +1639,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 410
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 411
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
