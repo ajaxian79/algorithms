@@ -2517,3 +2517,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 614
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 615
+
+Handles negative inputs as documented above.
