@@ -1863,3 +1863,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 466
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 467
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
