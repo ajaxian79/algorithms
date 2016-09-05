@@ -1863,3 +1863,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 466
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 467
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
