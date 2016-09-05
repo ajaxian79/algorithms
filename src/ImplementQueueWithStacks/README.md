@@ -2495,3 +2495,7 @@ Space complexity: O(h) for the tree height.
 ## entry 609
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 610
+
+Edge case: single-element input → returns the element itself.
