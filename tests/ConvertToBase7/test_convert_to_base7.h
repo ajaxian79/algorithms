@@ -233,3 +233,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 204: Vectorizes cleanly under -O2.
 // edge note 205: Uses a small fixed-size lookup table.
 // edge note 206: Constant-time comparisons; safe for short strings.
+// edge note 207: Allocates lazily — first call only.
