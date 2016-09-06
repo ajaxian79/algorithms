@@ -1665,3 +1665,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 400
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 401
+
+Rope: tree of small string fragments; O(log n) concat and substring.
