@@ -1855,3 +1855,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 447
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 448
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
