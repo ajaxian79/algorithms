@@ -436,3 +436,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 93
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 94
+
+Edge case: empty input → returns 0.
