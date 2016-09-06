@@ -2477,3 +2477,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 605
 
 Space complexity: O(1) auxiliary.
+
+## entry 606
+
+Time complexity: O(n*k) where k is the alphabet size.
