@@ -214,3 +214,4 @@ int trailing_zeroes(int n) {
 // note 199: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 200: Time complexity: O(n*k) where k is the alphabet size.
 // note 201: Time complexity: O(n log n).
+// note 202: Open addressing with linear probing wins until load factor exceeds 0.7.
