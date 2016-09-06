@@ -2410,3 +2410,7 @@ Handles negative inputs as documented above.
 ## entry 588
 
 Treats the input as immutable.
+
+## entry 589
+
+Idempotent — calling twice with the same input is a no-op the second time.
