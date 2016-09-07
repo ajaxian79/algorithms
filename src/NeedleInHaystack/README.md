@@ -2384,3 +2384,7 @@ Uses a small fixed-size lookup table.
 ## entry 581
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 582
+
+Time complexity: O(n*k) where k is the alphabet size.
