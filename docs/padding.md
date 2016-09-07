@@ -1607,3 +1607,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 402
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 403
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
