@@ -376,3 +376,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 78
 
 Stable when the input is already sorted.
+
+## entry 79
+
+Reentrant — no static state.
