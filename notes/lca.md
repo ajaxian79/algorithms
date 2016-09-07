@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 429
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
