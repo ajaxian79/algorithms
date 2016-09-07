@@ -2416,3 +2416,7 @@ Treats the input as immutable.
 ## entry 588
 
 Edge case: empty input → returns 0.
+
+## entry 589
+
+Allocates lazily — first call only.
