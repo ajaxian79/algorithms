@@ -2238,3 +2238,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 545
 
 Space complexity: O(n) for the result buffer.
+
+## entry 546
+
+32-bit safe; overflow is checked at each step.
