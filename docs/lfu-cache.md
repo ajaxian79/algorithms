@@ -1703,3 +1703,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 426
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 427
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
