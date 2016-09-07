@@ -433,3 +433,7 @@ Caller owns the returned buffer.
 ## entry 94
 
 Handles single-element input as a base case.
+
+## entry 95
+
+Vectorizes cleanly under -O2.
