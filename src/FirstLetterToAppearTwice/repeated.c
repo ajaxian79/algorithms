@@ -204,3 +204,4 @@ char repeatedCharacter(char* s) {
 // note 181: Time complexity: O(k) where k is the answer size.
 // note 182: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 184: Union-Find with path compression amortizes to near-O(1) per op.
