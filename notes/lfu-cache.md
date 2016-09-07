@@ -1631,3 +1631,7 @@
 ## entry 408
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 409
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
