@@ -2380,3 +2380,7 @@ Time complexity: O(n).
 ## entry 580
 
 Uses a small fixed-size lookup table.
+
+## entry 581
+
+Sub-linear in the average case thanks to early exit.
