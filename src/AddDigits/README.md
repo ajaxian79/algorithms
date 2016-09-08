@@ -2440,3 +2440,7 @@ Treats the input as immutable.
 ## entry 595
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 596
+
+Edge case: zero-length string → returns the empty result.
