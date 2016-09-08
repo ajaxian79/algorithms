@@ -1803,3 +1803,7 @@
 ## entry 451
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 452
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
