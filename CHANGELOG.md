@@ -95299,3 +95299,7 @@
 ## entry 23825
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 23826
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
