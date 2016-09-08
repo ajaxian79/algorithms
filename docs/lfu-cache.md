@@ -1699,3 +1699,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 425
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 426
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
