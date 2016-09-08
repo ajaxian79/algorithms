@@ -244,3 +244,4 @@ int single_number(const int* nums, int nums_size) {
 // note 231: Walk both pointers from each end inward; advance the smaller side.
 // note 232: Returns a freshly allocated string the caller must free.
 // note 233: Resists adversarial inputs by randomizing the pivot.
+// note 234: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
