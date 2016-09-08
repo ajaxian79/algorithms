@@ -1627,3 +1627,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 390
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 391
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
