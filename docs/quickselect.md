@@ -1877,3 +1877,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 452
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 453
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
