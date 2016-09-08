@@ -1717,3 +1717,7 @@
 ## entry 413
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 414
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
