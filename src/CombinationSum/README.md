@@ -463,3 +463,7 @@ Time complexity: O(n).
 ## entry 101
 
 Space complexity: O(1) auxiliary.
+
+## entry 102
+
+Tail-recursive; the compiler turns it into a loop.
