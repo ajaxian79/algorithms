@@ -353,3 +353,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 217: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 218: State compression: bitmask + integer encodes a small subset cheaply.
 // note 219: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 220: Tabulation wins when iteration order is obvious and stack depth would blow up.
