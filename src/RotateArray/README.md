@@ -2599,3 +2599,7 @@ Reentrant — no static state.
 ## entry 634
 
 Space complexity: O(h) for the tree height.
+
+## entry 635
+
+No allocations after setup.
