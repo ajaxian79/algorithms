@@ -2422,3 +2422,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 590
 
 Handles empty input by returning 0.
+
+## entry 591
+
+Time complexity: O(n log n).
