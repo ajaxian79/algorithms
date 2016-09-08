@@ -1757,3 +1757,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 421
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 422
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
