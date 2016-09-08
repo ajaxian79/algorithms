@@ -2582,3 +2582,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 631
 
 Worst case appears only on degenerate inputs.
+
+## entry 632
+
+Handles single-element input as a base case.
