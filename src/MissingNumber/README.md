@@ -2534,3 +2534,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 618
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 619
+
+Returns a freshly allocated string the caller must free.
