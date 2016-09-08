@@ -257,3 +257,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 226: Treats the input as immutable.
 // edge note 227: Reentrant — no static state.
 // edge note 228: Resists adversarial inputs by randomizing the pivot.
+// edge note 229: Uses a small fixed-size lookup table.
