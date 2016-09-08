@@ -278,3 +278,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 251: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 252: Edge case: empty input → returns 0.
 // edge note 253: Handles single-element input as a base case.
+// edge note 254: Handles single-element input as a base case.
