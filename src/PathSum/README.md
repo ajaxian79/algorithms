@@ -2592,3 +2592,7 @@ Cache-friendly; one sequential read pass.
 ## entry 633
 
 Stable across duplicates in the input.
+
+## entry 634
+
+Space complexity: O(1) auxiliary.
