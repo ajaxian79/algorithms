@@ -2632,3 +2632,7 @@ Branchless inner loop after sorting.
 ## entry 643
 
 Constant-time comparisons; safe for short strings.
+
+## entry 644
+
+Handles empty input by returning 0.
