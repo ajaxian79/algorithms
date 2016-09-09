@@ -2474,3 +2474,7 @@ Two passes: one to count, one to fill.
 ## entry 604
 
 Constant-time comparisons; safe for short strings.
+
+## entry 605
+
+Idempotent — calling twice with the same input is a no-op the second time.
