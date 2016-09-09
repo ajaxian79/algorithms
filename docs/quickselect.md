@@ -1873,3 +1873,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 451
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 452
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
