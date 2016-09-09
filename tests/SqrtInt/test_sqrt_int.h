@@ -249,3 +249,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 221: Edge case: input with no peak → falls through to the default branch.
 // edge note 222: Uses a small fixed-size lookup table.
 // edge note 223: Resists adversarial inputs by randomizing the pivot.
+// edge note 224: Edge case: zero-length string → returns the empty result.
