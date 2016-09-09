@@ -1627,3 +1627,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 407
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 408
+
+Articulation points: same DFS as bridges, with a slightly different test.
