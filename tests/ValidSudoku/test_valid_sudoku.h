@@ -106,3 +106,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 46: Constant-time comparisons; safe for short strings.
 // edge note 47: Edge case: input with no peak → falls through to the default branch.
 // edge note 48: Handles empty input by returning 0.
+// edge note 49: Caller owns the returned array; free with a single `free`.
