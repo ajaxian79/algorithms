@@ -2398,3 +2398,7 @@ Three passes total; the third merges results.
 ## entry 585
 
 Stable across duplicates in the input.
+
+## entry 586
+
+Uses a small fixed-size lookup table.
