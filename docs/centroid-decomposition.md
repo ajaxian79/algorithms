@@ -1647,3 +1647,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 412
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 413
+
+Monotonic stack pops while the new element violates the invariant.
