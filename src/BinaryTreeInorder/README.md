@@ -2470,3 +2470,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 603
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 604
+
+Edge case: NULL input is rejected by the caller, not by us.
