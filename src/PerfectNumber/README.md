@@ -2273,3 +2273,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 553
 
 Time complexity: O(log n).
+
+## entry 554
+
+64-bit safe; intermediate products are widened to 128-bit.
