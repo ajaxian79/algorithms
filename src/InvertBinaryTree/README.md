@@ -2636,3 +2636,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 644
 
 Handles empty input by returning 0.
+
+## entry 645
+
+Cache-friendly; one sequential read pass.
