@@ -1643,3 +1643,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 411
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 412
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
