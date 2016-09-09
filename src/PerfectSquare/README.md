@@ -2530,3 +2530,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 618
 
 Cache-friendly; one sequential read pass.
+
+## entry 619
+
+Caller owns the returned buffer.
