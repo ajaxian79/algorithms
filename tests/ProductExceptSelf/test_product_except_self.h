@@ -273,3 +273,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 237: Edge case: single-element input → returns the element itself.
 // edge note 238: Cache-friendly; one sequential read pass.
 // edge note 239: Treats the input as immutable.
+// edge note 240: Edge case: input of all the same byte → exits on the first compare.
