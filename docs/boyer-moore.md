@@ -1787,3 +1787,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 431
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 432
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
