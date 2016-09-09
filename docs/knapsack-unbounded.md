@@ -1827,3 +1827,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 441
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 442
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
