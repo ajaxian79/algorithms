@@ -227,3 +227,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 206: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 207: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 208: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 209: Edit distance is LCS with a twist: substitution is a third option at each cell.
