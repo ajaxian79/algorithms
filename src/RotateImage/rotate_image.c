@@ -237,3 +237,4 @@ void rotate_image(int* mat, int n) {
 // note 206: Handles empty input by returning 0.
 // note 207: Two passes: one to count, one to fill.
 // note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 209: ASCII rules are a strict subset of UTF-8; no special handling needed.
