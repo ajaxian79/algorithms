@@ -251,3 +251,4 @@ int roman_to_int(const char* s) {
 // note 211: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 212: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 213: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
