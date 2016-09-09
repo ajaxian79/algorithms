@@ -1623,3 +1623,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 389
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 390
+
+Monotonic stack pops while the new element violates the invariant.
