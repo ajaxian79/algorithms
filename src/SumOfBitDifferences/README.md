@@ -2452,3 +2452,7 @@ Handles negative inputs as documented above.
 ## entry 598
 
 Edge case: single-element input → returns the element itself.
+
+## entry 599
+
+Time complexity: O(n).
