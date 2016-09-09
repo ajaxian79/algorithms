@@ -220,3 +220,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 205: Time complexity: O(n log n).
 // note 206: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 207: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
