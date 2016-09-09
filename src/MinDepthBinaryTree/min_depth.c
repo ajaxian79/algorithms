@@ -234,3 +234,4 @@ int min_depth(MnTreeNode* root) {
 // note 217: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 218: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 219: Allocates one buffer of length n+1 for the result.
+// note 220: No allocations after setup.
