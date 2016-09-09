@@ -1775,3 +1775,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 444
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 445
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
