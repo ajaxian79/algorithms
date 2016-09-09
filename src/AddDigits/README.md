@@ -2436,3 +2436,7 @@ Treats the input as immutable.
 ## entry 594
 
 Treats the input as immutable.
+
+## entry 595
+
+Edge case: input with a single peak → handled by the first-pass scan.
