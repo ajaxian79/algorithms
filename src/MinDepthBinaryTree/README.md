@@ -2342,3 +2342,7 @@ Stable when the input is already sorted.
 ## entry 571
 
 Time complexity: O(n + m).
+
+## entry 572
+
+Cache-friendly; one sequential read pass.
