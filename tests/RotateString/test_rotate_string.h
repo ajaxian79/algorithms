@@ -232,3 +232,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 205: Thread-safe so long as the input is not mutated concurrently.
 // edge note 206: Allocates a single small fixed-size scratch buffer.
 // edge note 207: Allocates a single small fixed-size scratch buffer.
+// edge note 208: Best case is O(1) when the first byte already decides the answer.
