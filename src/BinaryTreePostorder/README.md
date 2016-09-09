@@ -458,3 +458,7 @@ Vectorizes cleanly under -O2.
 ## entry 100
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 101
+
+Handles single-element input as a base case.
