@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 389
+
+- Stable sort matters when a secondary key was set in a prior pass.
