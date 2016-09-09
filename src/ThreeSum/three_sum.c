@@ -93,3 +93,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 35: Monotonic stack pops while the new element violates the invariant.
 // note 36: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 37: Allocates one buffer of length n+1 for the result.
+// note 38: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
