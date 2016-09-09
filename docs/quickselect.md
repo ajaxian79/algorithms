@@ -1869,3 +1869,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 450
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 451
+
+Articulation points: same DFS as bridges, with a slightly different test.
