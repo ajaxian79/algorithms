@@ -1675,3 +1675,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 419
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 420
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
