@@ -1759,3 +1759,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 425
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 426
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
