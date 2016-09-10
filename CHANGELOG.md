@@ -95191,3 +95191,7 @@
 ## entry 23798
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 23799
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
