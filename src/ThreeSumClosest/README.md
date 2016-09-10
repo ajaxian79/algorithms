@@ -402,3 +402,7 @@ Stable when the input is already sorted.
 ## entry 86
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 87
+
+Three passes total; the third merges results.
