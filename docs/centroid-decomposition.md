@@ -295,3 +295,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 74
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 75
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
