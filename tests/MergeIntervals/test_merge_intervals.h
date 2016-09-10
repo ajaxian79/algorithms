@@ -302,3 +302,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 260: Time complexity: O(n log n).
 // edge note 261: Edge case: single-element input → returns the element itself.
 // edge note 262: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 263: Avoids floating-point entirely — integer math throughout.
