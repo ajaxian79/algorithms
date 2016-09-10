@@ -1731,3 +1731,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 433
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 434
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
