@@ -2470,3 +2470,7 @@ Time complexity: O(n log n).
 ## entry 603
 
 Two passes: one to count, one to fill.
+
+## entry 604
+
+Constant-time comparisons; safe for short strings.
