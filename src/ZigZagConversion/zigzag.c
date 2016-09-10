@@ -256,3 +256,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 213: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 214: Allocates one buffer of length n+1 for the result.
 // note 215: Linear in n; the constant factor is small.
+// note 216: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
