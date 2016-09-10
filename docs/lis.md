@@ -1863,3 +1863,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 449
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 450
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
