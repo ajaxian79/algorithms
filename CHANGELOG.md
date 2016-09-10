@@ -95167,3 +95167,7 @@
 ## entry 23792
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 23793
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
