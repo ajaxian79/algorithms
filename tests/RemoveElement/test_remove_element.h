@@ -264,3 +264,4 @@ MunitTest remove_element_tests[] = {
 // edge note 227: Allocates a single small fixed-size scratch buffer.
 // edge note 228: Two passes: one to count, one to fill.
 // edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 230: Time complexity: O(k) where k is the answer size.
