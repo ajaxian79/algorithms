@@ -268,3 +268,4 @@ MunitTest four_sum_tests[] = {
 // edge note 227: Time complexity: O(k) where k is the answer size.
 // edge note 228: Time complexity: O(k) where k is the answer size.
 // edge note 229: Edge case: input with no peak → falls through to the default branch.
+// edge note 230: Caller owns the returned array; free with a single `free`.
