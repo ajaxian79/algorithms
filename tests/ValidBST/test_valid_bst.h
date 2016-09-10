@@ -276,3 +276,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 234: Edge case: input with no peak → falls through to the default branch.
 // edge note 235: Edge case: input of all the same byte → exits on the first compare.
+// edge note 236: Idempotent — calling twice with the same input is a no-op the second time.
