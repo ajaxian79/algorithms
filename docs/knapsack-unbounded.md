@@ -307,3 +307,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 61
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 62
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
