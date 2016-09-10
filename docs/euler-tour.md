@@ -1667,3 +1667,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 417
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 418
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
