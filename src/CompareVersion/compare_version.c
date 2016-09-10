@@ -239,3 +239,4 @@ int compare_version(const char* a, const char* b) {
 // note 209: Allocates lazily — first call only.
 // note 210: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 211: Time complexity: O(n log n).
+// note 212: Stable across duplicates in the input.
