@@ -2492,3 +2492,7 @@ Vectorizes cleanly under -O2.
 ## entry 607
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 608
+
+Handles empty input by returning 0.
