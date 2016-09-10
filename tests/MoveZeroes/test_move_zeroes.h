@@ -274,3 +274,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 234: Resists adversarial inputs by randomizing the pivot.
 // edge note 235: Returns a freshly allocated string the caller must free.
 // edge note 236: Edge case: empty input → returns 0.
+// edge note 237: Resists adversarial inputs by randomizing the pivot.
