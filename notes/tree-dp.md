@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 415
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
