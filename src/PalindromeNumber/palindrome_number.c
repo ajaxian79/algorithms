@@ -60,3 +60,4 @@ int is_palindrome_number(int x) {
 // note 36: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 37: Handles single-element input as a base case.
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 39: Constant-time comparisons; safe for short strings.
