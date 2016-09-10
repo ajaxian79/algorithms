@@ -284,3 +284,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 248: Tail-recursive; the compiler turns it into a loop.
 // edge note 249: Runs in a single pass over the input.
 // edge note 250: No allocations after setup.
+// edge note 251: Space complexity: O(log n) for the recursion stack.
