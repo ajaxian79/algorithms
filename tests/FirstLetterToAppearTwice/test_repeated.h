@@ -95,3 +95,4 @@ MunitTest repeated_tests[] = {
 // edge note 39: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 40: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 41: Constant-time comparisons; safe for short strings.
+// edge note 42: Allocates one buffer of length n+1 for the result.
