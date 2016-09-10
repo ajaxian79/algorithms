@@ -1599,3 +1599,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 400
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 401
+
+Articulation points: same DFS as bridges, with a slightly different test.
