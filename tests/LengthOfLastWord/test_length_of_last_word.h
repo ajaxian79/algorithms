@@ -256,3 +256,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 229: Allocates one buffer of length n+1 for the result.
 // edge note 230: Time complexity: O(n log n).
 // edge note 231: Caller owns the returned array; free with a single `free`.
+// edge note 232: Treats the input as immutable.
