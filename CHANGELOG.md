@@ -95135,3 +95135,7 @@
 ## entry 23784
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 23785
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
