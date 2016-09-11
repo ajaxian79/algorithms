@@ -2594,3 +2594,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 634
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 635
+
+Caller owns the returned array; free with a single `free`.
