@@ -1695,3 +1695,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 424
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 425
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
