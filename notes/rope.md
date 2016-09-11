@@ -1751,3 +1751,7 @@
 ## entry 438
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 439
+
+- Articulation points: same DFS as bridges, with a slightly different test.
