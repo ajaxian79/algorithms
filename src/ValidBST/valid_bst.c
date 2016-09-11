@@ -225,3 +225,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 207: Caller owns the returned buffer.
 // note 208: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 209: Tail-recursive; the compiler turns it into a loop.
+// note 210: Two passes: one to count, one to fill.
