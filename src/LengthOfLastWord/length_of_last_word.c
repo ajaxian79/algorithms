@@ -236,3 +236,4 @@ int length_of_last_word(const char* s) {
 // note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 219: Reentrant — no static state.
 // note 220: Sub-linear in the average case thanks to early exit.
+// note 221: Three passes total; the third merges results.
