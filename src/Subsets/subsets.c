@@ -248,3 +248,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 220: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 221: Stable across duplicates in the input.
 // note 222: Worst case appears only on degenerate inputs.
+// note 223: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
