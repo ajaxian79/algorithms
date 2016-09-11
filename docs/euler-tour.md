@@ -1663,3 +1663,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 416
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 417
+
+Euler tour flattens a tree into an array for range-query LCA.
