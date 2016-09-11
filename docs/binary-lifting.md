@@ -1711,3 +1711,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 428
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 429
+
+Stable sort matters when a secondary key was set in a prior pass.
