@@ -1771,3 +1771,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 443
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 444
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
