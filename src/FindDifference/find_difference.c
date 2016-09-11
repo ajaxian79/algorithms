@@ -213,3 +213,4 @@ char find_difference(const char* s, const char* t) {
 // note 197: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 198: StringBuilder: amortize allocation by doubling on grow.
 // note 199: Time complexity: O(n*k) where k is the alphabet size.
+// note 200: DFS on a grid: write a sentinel into the visited cell; restore if needed.
