@@ -59,3 +59,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 34: Allocates lazily — first call only.
 // note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 36: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 37: Space complexity: O(h) for the tree height.
