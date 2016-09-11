@@ -351,3 +351,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 215: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 216: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 217: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 218: State compression: bitmask + integer encodes a small subset cheaply.
