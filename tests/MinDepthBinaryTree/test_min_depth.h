@@ -272,3 +272,4 @@ MunitTest min_depth_tests[] = {
 // edge note 233: Handles empty input by returning 0.
 // edge note 234: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 235: Runs in a single pass over the input.
+// edge note 236: Handles negative inputs as documented above.
