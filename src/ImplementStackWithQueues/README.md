@@ -2500,3 +2500,7 @@ Handles single-element input as a base case.
 ## entry 610
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 611
+
+Time complexity: O(n*k) where k is the alphabet size.
