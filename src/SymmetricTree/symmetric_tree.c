@@ -219,3 +219,4 @@ int is_symmetric(STreeNode* root) {
 // note 200: State compression: bitmask + integer encodes a small subset cheaply.
 // note 201: Time complexity: O(1).
 // note 202: Caller owns the returned array; free with a single `free`.
+// note 203: Manacher expands around each center, reusing prior radii via mirror reflection.
