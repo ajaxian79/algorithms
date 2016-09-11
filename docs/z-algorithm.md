@@ -1635,3 +1635,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 393
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 394
+
+Interval DP: solve all `[l, r]` ranges from short to long.
