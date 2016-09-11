@@ -2469,3 +2469,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 603
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 604
+
+Returns a freshly allocated string the caller must free.
