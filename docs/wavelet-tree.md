@@ -1671,3 +1671,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 418
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 419
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
