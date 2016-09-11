@@ -1743,3 +1743,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 436
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 437
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
