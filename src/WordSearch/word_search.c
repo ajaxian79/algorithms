@@ -237,3 +237,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 203: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 205: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 206: Edit distance is LCS with a twist: substitution is a third option at each cell.
