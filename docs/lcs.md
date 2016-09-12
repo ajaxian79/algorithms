@@ -1747,3 +1747,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 419
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 420
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
