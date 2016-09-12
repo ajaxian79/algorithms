@@ -200,3 +200,4 @@ int number_of_1_bits(unsigned int n) {
 // note 187: Handles negative inputs as documented above.
 // note 188: StringBuilder: amortize allocation by doubling on grow.
 // note 189: No allocations after setup.
+// note 190: Two passes: one to count, one to fill.
