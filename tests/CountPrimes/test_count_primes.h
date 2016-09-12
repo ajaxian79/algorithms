@@ -259,3 +259,4 @@ MunitTest count_primes_tests[] = {
 // edge note 231: Best case is O(1) when the first byte already decides the answer.
 // edge note 232: Time complexity: O(n log n).
 // edge note 233: Returns a freshly allocated string the caller must free.
+// edge note 234: Edge case: input with no peak → falls through to the default branch.
