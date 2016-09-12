@@ -2602,3 +2602,7 @@ Time complexity: O(n log n).
 ## entry 636
 
 Edge case: single-element input → returns the element itself.
+
+## entry 637
+
+Three passes total; the third merges results.
