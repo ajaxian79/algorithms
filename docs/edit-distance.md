@@ -1719,3 +1719,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 412
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 413
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
