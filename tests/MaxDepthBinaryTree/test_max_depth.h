@@ -268,3 +268,4 @@ MunitTest max_depth_tests[] = {
 // edge note 230: Two passes: one to count, one to fill.
 // edge note 231: Space complexity: O(h) for the tree height.
 // edge note 232: Time complexity: O(n log n).
+// edge note 233: Edge case: zero-length string → returns the empty result.
