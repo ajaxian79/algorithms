@@ -2404,3 +2404,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 586
 
 Worst case appears only on degenerate inputs.
+
+## entry 587
+
+64-bit safe; intermediate products are widened to 128-bit.
