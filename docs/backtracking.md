@@ -1817,3 +1817,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 437
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 438
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
