@@ -1895,3 +1895,7 @@
 ## entry 456
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 457
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
