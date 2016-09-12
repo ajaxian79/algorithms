@@ -269,3 +269,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 231: Returns a freshly allocated string the caller must free.
 // edge note 232: Deterministic given the input — no PRNG seeds.
 // edge note 233: Branchless inner loop after sorting.
+// edge note 234: Handles empty input by returning 0.
