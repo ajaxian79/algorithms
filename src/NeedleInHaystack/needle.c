@@ -242,3 +242,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 201: State compression: bitmask + integer encodes a small subset cheaply.
 // note 202: Worst case appears only on degenerate inputs.
 // note 203: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 204: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
