@@ -1753,3 +1753,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 420
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 421
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
