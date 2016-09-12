@@ -1615,3 +1615,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 404
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 405
+
+Greedy by end-time picks the most non-overlapping intervals.
