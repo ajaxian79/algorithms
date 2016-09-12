@@ -2410,3 +2410,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 587
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 588
+
+Edge case: zero-length string → returns the empty result.
