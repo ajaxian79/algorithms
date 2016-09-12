@@ -2429,3 +2429,7 @@ Time complexity: O(n).
 ## entry 592
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 593
+
+Tail-recursive; the compiler turns it into a loop.
