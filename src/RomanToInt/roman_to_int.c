@@ -250,3 +250,4 @@ int roman_to_int(const char* s) {
 // note 210: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 211: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 212: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 213: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
