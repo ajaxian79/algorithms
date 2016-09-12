@@ -233,3 +233,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 211: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 212: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 213: Space complexity: O(1) auxiliary.
+// note 214: Tail-recursive; the compiler turns it into a loop.
