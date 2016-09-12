@@ -2360,3 +2360,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 576
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 577
+
+Worst case appears only on degenerate inputs.
