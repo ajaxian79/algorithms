@@ -241,3 +241,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 200: Stable when the input is already sorted.
 // note 201: State compression: bitmask + integer encodes a small subset cheaply.
 // note 202: Worst case appears only on degenerate inputs.
+// note 203: Rope: tree of small string fragments; O(log n) concat and substring.
