@@ -1619,3 +1619,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 405
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 406
+
+In-place compaction uses two pointers: read advances always, write only on keep.
