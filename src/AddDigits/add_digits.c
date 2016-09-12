@@ -231,3 +231,4 @@ int add_digits(int n) {
 // note 220: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 221: Time complexity: O(n*k) where k is the alphabet size.
 // note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 223: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
