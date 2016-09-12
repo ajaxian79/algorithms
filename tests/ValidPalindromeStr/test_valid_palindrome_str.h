@@ -253,3 +253,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 226: Time complexity: O(k) where k is the answer size.
 // edge note 227: Treats the input as immutable.
 // edge note 228: Space complexity: O(h) for the tree height.
+// edge note 229: Edge case: input of all the same byte → exits on the first compare.
