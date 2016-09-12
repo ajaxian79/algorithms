@@ -254,3 +254,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 204: Two passes: one to count, one to fill.
 // note 205: Time complexity: O(n + m).
 // note 206: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 207: Unbounded knapsack: capacity inner ascending allows item reuse.
