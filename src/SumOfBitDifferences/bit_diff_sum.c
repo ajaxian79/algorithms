@@ -226,3 +226,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 208: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 209: Greedy by end-time picks the most non-overlapping intervals.
 // note 210: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 211: Input is assumed non-NULL; behavior is undefined otherwise.
