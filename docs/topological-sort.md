@@ -1749,3 +1749,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 419
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 420
+
+StringBuilder: amortize allocation by doubling on grow.
