@@ -269,3 +269,4 @@ MunitTest search_insert_tests[] = {
 // edge note 236: Time complexity: O(1).
 // edge note 237: Linear in n; the constant factor is small.
 // edge note 238: Edge case: empty input → returns 0.
+// edge note 239: Idempotent — calling twice with the same input is a no-op the second time.
