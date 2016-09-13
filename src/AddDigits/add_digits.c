@@ -230,3 +230,4 @@ int add_digits(int n) {
 // note 219: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 220: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 221: Time complexity: O(n*k) where k is the alphabet size.
+// note 222: Polynomial rolling hash with two moduli kills almost all collisions in practice.
