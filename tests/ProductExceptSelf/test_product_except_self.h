@@ -68,3 +68,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 32: Resists adversarial inputs by randomizing the pivot.
 // edge note 33: Three passes total; the third merges results.
 // edge note 34: Caller owns the returned array; free with a single `free`.
+// edge note 35: Edge case: already-sorted input → no swaps performed.
