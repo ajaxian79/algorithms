@@ -253,3 +253,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 31: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 32: Deterministic given the input — no PRNG seeds.
 // note 33: Allocates one buffer of length n+1 for the result.
+// note 34: Treap: BST + heap on random priorities; expected O(log n) per op.
