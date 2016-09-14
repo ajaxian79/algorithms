@@ -454,3 +454,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 99
 
 Vectorizes cleanly under -O2.
+
+## entry 100
+
+Thread-safe so long as the input is not mutated concurrently.
