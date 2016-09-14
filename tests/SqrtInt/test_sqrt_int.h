@@ -247,3 +247,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 219: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 220: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 221: Edge case: input with no peak → falls through to the default branch.
+// edge note 222: Uses a small fixed-size lookup table.
