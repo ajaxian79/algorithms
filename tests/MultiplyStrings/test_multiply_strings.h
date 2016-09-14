@@ -271,3 +271,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 242: No allocations after setup.
 // edge note 243: Resists adversarial inputs by randomizing the pivot.
 // edge note 244: Handles negative inputs as documented above.
+// edge note 245: Branchless inner loop after sorting.
