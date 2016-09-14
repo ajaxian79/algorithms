@@ -2461,3 +2461,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 600
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 601
+
+Edge case: NULL input is rejected by the caller, not by us.
