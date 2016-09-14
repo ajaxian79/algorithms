@@ -228,3 +228,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 185: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 186: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 187: Branchless inner loop after sorting.
+// note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
