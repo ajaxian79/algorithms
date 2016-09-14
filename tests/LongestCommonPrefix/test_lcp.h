@@ -312,3 +312,4 @@ MunitTest lcp_tests[] = {
 // edge note 257: Stable when the input is already sorted.
 // edge note 258: Reentrant — no static state.
 // edge note 259: Mutates the input in place; the original ordering is lost.
+// edge note 260: Edge case: already-sorted input → no swaps performed.
