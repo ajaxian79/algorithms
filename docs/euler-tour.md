@@ -1659,3 +1659,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 415
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 416
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
