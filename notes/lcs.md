@@ -1795,3 +1795,7 @@
 ## entry 432
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 433
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
