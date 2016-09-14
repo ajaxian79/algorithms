@@ -1719,3 +1719,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 430
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 431
+
+StringBuilder: amortize allocation by doubling on grow.
