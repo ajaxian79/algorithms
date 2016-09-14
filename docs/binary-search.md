@@ -1877,3 +1877,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 453
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 454
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
