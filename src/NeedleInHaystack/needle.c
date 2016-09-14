@@ -240,3 +240,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 199: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 200: Stable when the input is already sorted.
 // note 201: State compression: bitmask + integer encodes a small subset cheaply.
+// note 202: Worst case appears only on degenerate inputs.
