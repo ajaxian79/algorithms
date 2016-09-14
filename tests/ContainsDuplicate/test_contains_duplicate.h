@@ -255,3 +255,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 212: Uses a small fixed-size lookup table.
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Edge case: single-element input → returns the element itself.
+// edge note 215: Edge case: integer-max input → guarded by the explicit overflow check.
