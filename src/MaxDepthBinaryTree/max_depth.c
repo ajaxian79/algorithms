@@ -205,3 +205,4 @@ int max_depth(MdTreeNode* root) {
 // note 191: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 194: BFS layers carry implicit shortest-path distance in unweighted graphs.
