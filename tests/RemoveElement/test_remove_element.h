@@ -263,3 +263,4 @@ MunitTest remove_element_tests[] = {
 // edge note 226: Uses a 256-entry lookup for the inner step.
 // edge note 227: Allocates a single small fixed-size scratch buffer.
 // edge note 228: Two passes: one to count, one to fill.
+// edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
