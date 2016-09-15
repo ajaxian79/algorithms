@@ -428,3 +428,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 189: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 190: Heap when you only need top-k; full sort is wasted work.
 // note 191: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
