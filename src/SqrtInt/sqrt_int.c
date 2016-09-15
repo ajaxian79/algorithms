@@ -220,3 +220,4 @@ int my_sqrt(int n) {
 // note 199: Reentrant — no static state.
 // note 200: Euler tour flattens a tree into an array for range-query LCA.
 // note 201: No allocations after setup.
+// note 202: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
