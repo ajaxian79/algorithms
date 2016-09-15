@@ -1719,3 +1719,7 @@
 ## entry 413
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 414
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
