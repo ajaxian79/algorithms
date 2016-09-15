@@ -2628,3 +2628,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 642
 
 Branchless inner loop after sorting.
+
+## entry 643
+
+Constant-time comparisons; safe for short strings.
