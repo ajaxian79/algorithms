@@ -284,3 +284,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 249: Linear in n; the constant factor is small.
 // edge note 250: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 251: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 252: Space complexity: O(n) for the result buffer.
