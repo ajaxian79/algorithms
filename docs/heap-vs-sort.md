@@ -1719,3 +1719,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 413
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 414
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
