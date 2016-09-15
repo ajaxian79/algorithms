@@ -2507,3 +2507,7 @@ Uses a small fixed-size lookup table.
 ## entry 611
 
 Caller owns the returned buffer.
+
+## entry 612
+
+Edge case: alternating pattern → degenerate case for sliding window.
