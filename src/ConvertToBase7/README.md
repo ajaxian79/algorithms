@@ -2532,3 +2532,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 618
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 619
+
+Idempotent — calling twice with the same input is a no-op the second time.
