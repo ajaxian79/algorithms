@@ -2466,3 +2466,7 @@ Time complexity: O(n log n).
 ## entry 602
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 603
+
+Two passes: one to count, one to fill.
