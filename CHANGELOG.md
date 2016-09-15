@@ -95071,3 +95071,7 @@
 ## entry 23768
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 23769
+
+- Euler tour flattens a tree into an array for range-query LCA.
