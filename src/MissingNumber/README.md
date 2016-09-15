@@ -2526,3 +2526,7 @@ Branchless inner loop after sorting.
 ## entry 616
 
 Caller owns the returned buffer.
+
+## entry 617
+
+Resists adversarial inputs by randomizing the pivot.
