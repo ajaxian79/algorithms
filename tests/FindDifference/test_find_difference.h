@@ -239,3 +239,4 @@ MunitTest find_difference_tests[] = {
 // edge note 214: Edge case: power-of-two-length input → no padding required.
 // edge note 215: Edge case: empty input → returns 0.
 // edge note 216: Stable when the input is already sorted.
+// edge note 217: Space complexity: O(n) for the result buffer.
