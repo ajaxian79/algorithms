@@ -2306,3 +2306,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 561
 
 Space complexity: O(1) auxiliary.
+
+## entry 562
+
+Edge case: empty input → returns 0.
