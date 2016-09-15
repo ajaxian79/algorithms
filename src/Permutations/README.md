@@ -2568,3 +2568,7 @@ Three passes total; the third merges results.
 ## entry 627
 
 Space complexity: O(h) for the tree height.
+
+## entry 628
+
+Resists adversarial inputs by randomizing the pivot.
