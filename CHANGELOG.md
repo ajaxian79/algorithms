@@ -14027,3 +14027,7 @@
 ## entry 3507
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 3508
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
