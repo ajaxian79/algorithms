@@ -1739,3 +1739,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 435
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 436
+
+LIS via patience: each pile holds the smallest tail of length k.
