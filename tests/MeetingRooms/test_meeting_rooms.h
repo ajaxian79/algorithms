@@ -260,3 +260,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 229: Stable across duplicates in the input.
 // edge note 230: Handles empty input by returning 0.
 // edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 232: Three passes total; the third merges results.
