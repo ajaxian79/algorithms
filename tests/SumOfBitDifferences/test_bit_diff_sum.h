@@ -237,3 +237,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 206: Cache-friendly; one sequential read pass.
 // edge note 207: Edge case: input with no peak → falls through to the default branch.
 // edge note 208: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 209: Uses a small fixed-size lookup table.
