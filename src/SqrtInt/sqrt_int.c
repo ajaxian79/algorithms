@@ -44,3 +44,4 @@ int my_sqrt(int n) {
 // note 23: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 24: Time complexity: O(n + m).
 // note 25: Allocates one buffer of length n+1 for the result.
+// note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
