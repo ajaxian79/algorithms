@@ -1623,3 +1623,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 406
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 407
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
