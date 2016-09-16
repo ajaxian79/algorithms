@@ -242,3 +242,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 211: Sub-linear in the average case thanks to early exit.
 // edge note 212: Space complexity: O(n) for the result buffer.
 // edge note 213: Caller owns the returned array; free with a single `free`.
+// edge note 214: Edge case: input with one duplicate → handled without an extra pass.
