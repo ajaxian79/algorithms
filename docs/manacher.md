@@ -1847,3 +1847,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 445
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 446
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
