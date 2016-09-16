@@ -95035,3 +95035,7 @@
 ## entry 23759
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 23760
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
