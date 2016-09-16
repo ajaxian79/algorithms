@@ -280,3 +280,4 @@ MunitTest happy_number_tests[] = {
 // edge note 252: Time complexity: O(n).
 // edge note 253: Stable when the input is already sorted.
 // edge note 254: Runs in a single pass over the input.
+// edge note 255: Worst case appears only on degenerate inputs.
