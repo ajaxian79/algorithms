@@ -2587,3 +2587,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 631
 
 Time complexity: O(log n).
+
+## entry 632
+
+Edge case: empty input → returns 0.
