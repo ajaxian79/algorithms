@@ -2551,3 +2551,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 623
 
 No allocations on the hot path.
+
+## entry 624
+
+Space complexity: O(1) auxiliary.
