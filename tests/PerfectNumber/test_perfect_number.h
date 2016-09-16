@@ -273,3 +273,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: Avoids floating-point entirely — integer math throughout.
 // edge note 245: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 246: Idempotent — calling twice with the same input is a no-op the second time.
