@@ -2398,3 +2398,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 584
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 585
+
+Space complexity: O(h) for the tree height.
