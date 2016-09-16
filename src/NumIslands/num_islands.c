@@ -65,3 +65,4 @@ int num_islands(char* grid, int m, int n) {
 // note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 34: Runs in a single pass over the input.
 // note 35: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 36: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
