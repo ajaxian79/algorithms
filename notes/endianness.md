@@ -1763,3 +1763,7 @@
 ## entry 441
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 442
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
