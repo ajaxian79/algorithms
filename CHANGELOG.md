@@ -95043,3 +95043,7 @@
 ## entry 23761
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 23762
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
