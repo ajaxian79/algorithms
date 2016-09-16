@@ -1635,3 +1635,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 393
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 394
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
