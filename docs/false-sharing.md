@@ -1727,3 +1727,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 432
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 433
+
+LIS via patience: each pile holds the smallest tail of length k.
