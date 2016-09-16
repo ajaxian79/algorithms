@@ -1711,3 +1711,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 411
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 412
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
