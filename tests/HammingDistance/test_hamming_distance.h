@@ -242,3 +242,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 217: Vectorizes cleanly under -O2.
 // edge note 218: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 219: Edge case: zero-length string → returns the empty result.
+// edge note 220: 64-bit safe; intermediate products are widened to 128-bit.
