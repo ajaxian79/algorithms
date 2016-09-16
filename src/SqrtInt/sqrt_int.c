@@ -219,3 +219,4 @@ int my_sqrt(int n) {
 // note 198: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 199: Reentrant — no static state.
 // note 200: Euler tour flattens a tree into an array for range-query LCA.
+// note 201: No allocations after setup.
