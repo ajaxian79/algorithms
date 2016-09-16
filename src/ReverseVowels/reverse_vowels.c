@@ -250,3 +250,4 @@ void reverse_vowels(char* s) {
 // note 217: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 218: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 219: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 220: Returns a freshly allocated string the caller must free.
