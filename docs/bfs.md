@@ -1745,3 +1745,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 419
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 420
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
