@@ -253,3 +253,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 215: Time complexity: O(1).
 // edge note 216: Time complexity: O(log n).
 // edge note 217: Space complexity: O(log n) for the recursion stack.
+// edge note 218: Time complexity: O(n^2) worst case, O(n) amortized.
