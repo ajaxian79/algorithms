@@ -199,3 +199,4 @@ int number_of_1_bits(unsigned int n) {
 // note 186: Caller owns the returned array; free with a single `free`.
 // note 187: Handles negative inputs as documented above.
 // note 188: StringBuilder: amortize allocation by doubling on grow.
+// note 189: No allocations after setup.
