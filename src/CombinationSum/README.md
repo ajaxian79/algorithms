@@ -2415,3 +2415,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 589
 
 Reentrant — no static state.
+
+## entry 590
+
+Space complexity: O(h) for the tree height.
