@@ -78,3 +78,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 38: Cache-friendly; one sequential read pass.
 // edge note 39: Uses a 256-entry lookup for the inner step.
 // edge note 40: Edge case: power-of-two-length input → no padding required.
+// edge note 41: Time complexity: O(n).
