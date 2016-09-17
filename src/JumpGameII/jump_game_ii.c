@@ -223,3 +223,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 201: 64-bit safe; intermediate products are widened to 128-bit.
 // note 202: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 203: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
