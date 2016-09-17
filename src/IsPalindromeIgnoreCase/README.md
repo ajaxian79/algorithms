@@ -2390,3 +2390,7 @@ Handles negative inputs as documented above.
 ## entry 583
 
 Linear in n; the constant factor is small.
+
+## entry 584
+
+Space complexity: O(h) for the tree height.
