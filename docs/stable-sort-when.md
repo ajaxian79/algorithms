@@ -1765,3 +1765,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 427
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 428
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
