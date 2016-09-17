@@ -2528,3 +2528,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 617
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 618
+
+Space complexity: O(log n) for the recursion stack.
