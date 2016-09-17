@@ -276,3 +276,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 211: Union-Find with path compression amortizes to near-O(1) per op.
 // note 212: LIS via patience: each pile holds the smallest tail of length k.
 // note 213: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 214: Handles single-element input as a base case.
