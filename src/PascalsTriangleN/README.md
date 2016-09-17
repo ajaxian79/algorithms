@@ -2298,3 +2298,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 559
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 560
+
+Space complexity: O(n) for the result buffer.
