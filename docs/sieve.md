@@ -1819,3 +1819,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 438
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 439
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
