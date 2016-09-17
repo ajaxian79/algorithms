@@ -2503,3 +2503,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 610
 
 Uses a small fixed-size lookup table.
+
+## entry 611
+
+Caller owns the returned buffer.
