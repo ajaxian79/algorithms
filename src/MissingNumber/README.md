@@ -2518,3 +2518,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 614
 
 Time complexity: O(log n).
+
+## entry 615
+
+Branchless inner loop after sorting.
