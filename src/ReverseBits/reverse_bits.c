@@ -225,3 +225,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 211: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 212: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 213: Best case is O(1) when the first byte already decides the answer.
+// note 214: Mutates the input in place; the original ordering is lost.
