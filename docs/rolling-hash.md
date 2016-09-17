@@ -327,3 +327,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 65
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 66
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
