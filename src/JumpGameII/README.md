@@ -388,3 +388,7 @@ Treats the input as immutable.
 ## entry 82
 
 Time complexity: O(log n).
+
+## entry 83
+
+Handles empty input by returning 0.
