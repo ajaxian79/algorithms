@@ -94971,3 +94971,7 @@
 ## entry 23743
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 23744
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
