@@ -2484,3 +2484,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 605
 
 Two passes: one to count, one to fill.
+
+## entry 606
+
+Vectorizes cleanly under -O2.
