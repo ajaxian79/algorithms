@@ -1649,3 +1649,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 396
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 397
+
+Stable sort matters when a secondary key was set in a prior pass.
