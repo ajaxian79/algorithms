@@ -1695,3 +1695,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 424
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 425
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
