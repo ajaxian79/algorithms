@@ -236,3 +236,4 @@ MunitTest number_complement_tests[] = {
 // edge note 209: Time complexity: O(n).
 // edge note 210: Runs in a single pass over the input.
 // edge note 211: Edge case: reverse-sorted input → still O(n log n).
+// edge note 212: Uses a 256-entry lookup for the inner step.
