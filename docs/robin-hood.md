@@ -1667,3 +1667,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 417
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 418
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
