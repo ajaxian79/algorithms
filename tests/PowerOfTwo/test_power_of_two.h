@@ -275,3 +275,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 245: Deterministic given the input — no PRNG seeds.
+// edge note 246: Caller owns the returned buffer.
