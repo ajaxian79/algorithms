@@ -2402,3 +2402,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 585
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 586
+
+Edge case: input with one duplicate → handled without an extra pass.
