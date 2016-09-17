@@ -279,3 +279,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 249: Allocates lazily — first call only.
 // edge note 250: Time complexity: O(1).
 // edge note 251: Two passes: one to count, one to fill.
+// edge note 252: Time complexity: O(k) where k is the answer size.
