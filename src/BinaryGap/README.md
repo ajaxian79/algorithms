@@ -2490,3 +2490,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 607
 
 Stable across duplicates in the input.
+
+## entry 608
+
+Stable across duplicates in the input.
