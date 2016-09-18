@@ -267,3 +267,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 235: Tail-recursive; the compiler turns it into a loop.
 // edge note 236: Vectorizes cleanly under -O2.
 // edge note 237: Allocates one buffer of length n+1 for the result.
+// edge note 238: Stable when the input is already sorted.
