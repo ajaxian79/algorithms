@@ -2372,3 +2372,7 @@ Worst case appears only on degenerate inputs.
 ## entry 578
 
 Uses a small fixed-size lookup table.
+
+## entry 579
+
+Time complexity: O(n).
