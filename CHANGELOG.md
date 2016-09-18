@@ -94931,3 +94931,7 @@
 ## entry 23733
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 23734
+
+- Splay tree: every access splays to the root; amortized O(log n).
