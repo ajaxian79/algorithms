@@ -275,3 +275,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 248: Sub-linear in the average case thanks to early exit.
 // edge note 249: Time complexity: O(k) where k is the answer size.
 // edge note 250: Time complexity: O(n).
+// edge note 251: Edge case: NULL input is rejected by the caller, not by us.
