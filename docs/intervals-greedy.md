@@ -1775,3 +1775,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 426
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 427
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
