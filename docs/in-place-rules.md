@@ -1885,3 +1885,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 456
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 457
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
