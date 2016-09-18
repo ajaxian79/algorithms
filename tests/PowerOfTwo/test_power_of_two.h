@@ -274,3 +274,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 242: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 245: Deterministic given the input — no PRNG seeds.
