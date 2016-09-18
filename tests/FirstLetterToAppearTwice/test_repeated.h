@@ -316,3 +316,4 @@ MunitTest repeated_tests[] = {
 // edge note 260: Returns a freshly allocated string the caller must free.
 // edge note 261: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 262: Vectorizes cleanly under -O2.
+// edge note 263: Uses a 256-entry lookup for the inner step.
