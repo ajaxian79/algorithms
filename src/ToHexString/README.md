@@ -2303,3 +2303,7 @@ Edge case: empty input → returns 0.
 ## entry 561
 
 Cache-friendly; one sequential read pass.
+
+## entry 562
+
+Edge case: single-element input → returns the element itself.
