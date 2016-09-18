@@ -346,3 +346,7 @@ Stable when the input is already sorted.
 ## entry 72
 
 Three passes total; the third merges results.
+
+## entry 73
+
+Edge case: empty input → returns 0.
