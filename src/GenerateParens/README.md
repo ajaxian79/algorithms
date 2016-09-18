@@ -2412,3 +2412,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 587
 
 Branchless inner loop after sorting.
+
+## entry 588
+
+Space complexity: O(h) for the tree height.
