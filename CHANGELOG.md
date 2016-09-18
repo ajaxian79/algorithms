@@ -94947,3 +94947,7 @@
 ## entry 23737
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 23738
+
+- Walk both pointers from each end inward; advance the smaller side.
