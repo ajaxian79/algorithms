@@ -2574,3 +2574,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 629
 
 Edge case: empty input → returns 0.
+
+## entry 630
+
+Input is assumed non-NULL; behavior is undefined otherwise.
