@@ -2394,3 +2394,7 @@ Edge case: empty input → returns 0.
 ## entry 584
 
 Three passes total; the third merges results.
+
+## entry 585
+
+Stable across duplicates in the input.
