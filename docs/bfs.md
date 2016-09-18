@@ -1737,3 +1737,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 417
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 418
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
