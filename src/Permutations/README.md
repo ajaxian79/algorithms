@@ -456,3 +456,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 99
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 100
+
+Edge case: NULL input is rejected by the caller, not by us.
