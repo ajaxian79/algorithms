@@ -2396,3 +2396,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 584
 
 Space complexity: O(1) auxiliary.
+
+## entry 585
+
+Edge case: reverse-sorted input → still O(n log n).
