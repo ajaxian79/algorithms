@@ -1679,3 +1679,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 420
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 421
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
