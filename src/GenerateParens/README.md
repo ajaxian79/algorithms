@@ -2416,3 +2416,7 @@ Branchless inner loop after sorting.
 ## entry 588
 
 Space complexity: O(h) for the tree height.
+
+## entry 589
+
+Edge case: input of all the same byte → exits on the first compare.
