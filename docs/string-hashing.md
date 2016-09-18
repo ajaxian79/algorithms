@@ -1619,3 +1619,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 388
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 389
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
