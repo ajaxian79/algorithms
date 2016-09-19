@@ -2480,3 +2480,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 604
 
 Constant-time comparisons; safe for short strings.
+
+## entry 605
+
+Two passes: one to count, one to fill.
