@@ -2505,3 +2505,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 611
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 612
+
+Space complexity: O(h) for the tree height.
