@@ -1805,3 +1805,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 434
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 435
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
