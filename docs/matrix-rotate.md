@@ -1725,3 +1725,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 415
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 416
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
