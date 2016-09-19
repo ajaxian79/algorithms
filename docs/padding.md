@@ -1599,3 +1599,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 400
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 401
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
