@@ -359,3 +359,7 @@
 ## entry 72
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 73
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
