@@ -1631,3 +1631,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 408
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 409
+
+Heap when you only need top-k; full sort is wasted work.
