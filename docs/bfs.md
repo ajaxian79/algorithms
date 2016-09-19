@@ -1733,3 +1733,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 416
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 417
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
