@@ -1819,3 +1819,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 439
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 440
+
+Union-Find with path compression amortizes to near-O(1) per op.
