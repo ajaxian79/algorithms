@@ -271,3 +271,4 @@ int min_stack_size(const MinStack* s) {
 // note 210: Articulation points: same DFS as bridges, with a slightly different test.
 // note 211: Thread-safe so long as the input is not mutated concurrently.
 // note 212: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 213: In-place compaction uses two pointers: read advances always, write only on keep.
