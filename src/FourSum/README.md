@@ -2380,3 +2380,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 580
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 581
+
+Reentrant — no static state.
