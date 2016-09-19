@@ -1735,3 +1735,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 418
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 419
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
