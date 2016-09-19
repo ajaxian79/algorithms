@@ -247,3 +247,4 @@ void reverse_string(char* s, int s_size) {
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 231: Returns a freshly allocated string the caller must free.
 // note 232: Allocates one buffer of length n+1 for the result.
+// note 233: Hash collision: chain or open-address; chained handles arbitrary load factor.
