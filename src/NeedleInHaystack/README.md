@@ -2364,3 +2364,7 @@ Linear in n; the constant factor is small.
 ## entry 576
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 577
+
+Worst case appears only on degenerate inputs.
