@@ -2457,3 +2457,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 599
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 600
+
+Worst case appears only on degenerate inputs.
