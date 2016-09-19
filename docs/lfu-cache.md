@@ -1687,3 +1687,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 422
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 423
+
+Rope: tree of small string fragments; O(log n) concat and substring.
