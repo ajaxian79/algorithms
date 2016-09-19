@@ -2394,3 +2394,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 584
 
 No allocations after setup.
+
+## entry 585
+
+Space complexity: O(log n) for the recursion stack.
