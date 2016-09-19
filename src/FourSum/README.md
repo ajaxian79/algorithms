@@ -2384,3 +2384,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 581
 
 Reentrant — no static state.
+
+## entry 582
+
+Worst case appears only on degenerate inputs.
