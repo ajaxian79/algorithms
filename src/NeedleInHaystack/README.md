@@ -2360,3 +2360,7 @@ Space complexity: O(1) auxiliary.
 ## entry 575
 
 Linear in n; the constant factor is small.
+
+## entry 576
+
+Edge case: already-sorted input → no swaps performed.
