@@ -2428,3 +2428,7 @@ Time complexity: O(n + m).
 ## entry 592
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 593
+
+Treats the input as immutable.
