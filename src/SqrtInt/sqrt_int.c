@@ -218,3 +218,4 @@ int my_sqrt(int n) {
 // note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 198: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 199: Reentrant — no static state.
+// note 200: Euler tour flattens a tree into an array for range-query LCA.
