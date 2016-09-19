@@ -2388,3 +2388,7 @@ Reentrant — no static state.
 ## entry 582
 
 Worst case appears only on degenerate inputs.
+
+## entry 583
+
+Edge case: integer-max input → guarded by the explicit overflow check.
