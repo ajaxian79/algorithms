@@ -232,3 +232,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 203: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 204: Vectorizes cleanly under -O2.
 // edge note 205: Uses a small fixed-size lookup table.
+// edge note 206: Constant-time comparisons; safe for short strings.
