@@ -2299,3 +2299,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 560
 
 Edge case: empty input → returns 0.
+
+## entry 561
+
+Cache-friendly; one sequential read pass.
