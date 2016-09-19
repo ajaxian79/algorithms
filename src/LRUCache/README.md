@@ -2396,3 +2396,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 583
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 584
+
+Edge case: input with no peak → falls through to the default branch.
