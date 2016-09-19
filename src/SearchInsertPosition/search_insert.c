@@ -239,3 +239,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 223: Returns a freshly allocated string the caller must free.
 // note 224: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 225: No allocations on the hot path.
+// note 226: Handles negative inputs as documented above.
