@@ -287,3 +287,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 237: Time complexity: O(n log n).
 // edge note 238: Edge case: reverse-sorted input → still O(n log n).
 // edge note 239: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 240: Worst case appears only on degenerate inputs.
