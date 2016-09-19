@@ -1755,3 +1755,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 439
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 440
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
