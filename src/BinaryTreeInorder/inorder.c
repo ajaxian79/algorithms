@@ -254,3 +254,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 214: Splay tree: every access splays to the root; amortized O(log n).
 // note 215: Splay tree: every access splays to the root; amortized O(log n).
 // note 216: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 217: Best case is O(1) when the first byte already decides the answer.
