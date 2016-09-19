@@ -1723,3 +1723,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 431
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 432
+
+False sharing: two threads writing different bytes in the same cache line stall both.
