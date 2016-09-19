@@ -242,3 +242,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 227: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 228: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 229: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 230: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
