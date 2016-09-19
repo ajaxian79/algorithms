@@ -1707,3 +1707,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 410
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 411
+
+Interval DP: solve all `[l, r]` ranges from short to long.
