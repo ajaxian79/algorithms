@@ -1771,3 +1771,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 443
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 444
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
