@@ -1703,3 +1703,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 410
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 411
+
+Wavelet tree: range k-th element in O(log Σ) time.
