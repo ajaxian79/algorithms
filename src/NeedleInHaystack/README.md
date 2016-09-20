@@ -2352,3 +2352,7 @@ Uses a small fixed-size lookup table.
 ## entry 573
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 574
+
+Space complexity: O(1) auxiliary.
