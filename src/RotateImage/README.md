@@ -2453,3 +2453,7 @@ Worst case appears only on degenerate inputs.
 ## entry 598
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 599
+
+Idempotent — calling twice with the same input is a no-op the second time.
