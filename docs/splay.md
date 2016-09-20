@@ -1619,3 +1619,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 405
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 406
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
