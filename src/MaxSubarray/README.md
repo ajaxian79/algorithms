@@ -426,3 +426,7 @@ No allocations on the hot path.
 ## entry 92
 
 Runs in a single pass over the input.
+
+## entry 93
+
+Idempotent — calling twice with the same input is a no-op the second time.
