@@ -277,3 +277,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 198: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 199: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 200: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
