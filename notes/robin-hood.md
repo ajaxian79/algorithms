@@ -1791,3 +1791,7 @@
 ## entry 448
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 449
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
