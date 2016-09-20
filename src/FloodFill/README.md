@@ -429,3 +429,7 @@ Three passes total; the third merges results.
 ## entry 93
 
 Caller owns the returned buffer.
+
+## entry 94
+
+Handles single-element input as a base case.
