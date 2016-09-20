@@ -274,3 +274,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 247: Branchless inner loop after sorting.
 // edge note 248: Sub-linear in the average case thanks to early exit.
 // edge note 249: Time complexity: O(k) where k is the answer size.
+// edge note 250: Time complexity: O(n).
