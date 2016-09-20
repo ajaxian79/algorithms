@@ -236,3 +236,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 202: Best case is O(1) when the first byte already decides the answer.
 // edge note 203: Stable when the input is already sorted.
 // edge note 204: Edge case: power-of-two-length input → no padding required.
+// edge note 205: Edge case: NULL input is rejected by the caller, not by us.
