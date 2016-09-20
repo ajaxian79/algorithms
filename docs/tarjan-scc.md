@@ -1763,3 +1763,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 441
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 442
+
+Greedy by end-time picks the most non-overlapping intervals.
