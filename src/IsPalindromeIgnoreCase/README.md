@@ -2386,3 +2386,7 @@ Uses a small fixed-size lookup table.
 ## entry 582
 
 Handles negative inputs as documented above.
+
+## entry 583
+
+Linear in n; the constant factor is small.
