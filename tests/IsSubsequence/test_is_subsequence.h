@@ -242,3 +242,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 216: Space complexity: O(h) for the tree height.
 // edge note 217: Resists adversarial inputs by randomizing the pivot.
 // edge note 218: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 219: Edge case: input of all the same byte → exits on the first compare.
