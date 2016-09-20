@@ -290,3 +290,4 @@ MunitTest inorder_tests[] = {
 // edge note 252: Stable when the input is already sorted.
 // edge note 253: Time complexity: O(1).
 // edge note 254: Edge case: zero-length string → returns the empty result.
+// edge note 255: Handles empty input by returning 0.
