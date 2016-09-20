@@ -2598,3 +2598,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 635
 
 Time complexity: O(n log n).
+
+## entry 636
+
+Edge case: single-element input → returns the element itself.
