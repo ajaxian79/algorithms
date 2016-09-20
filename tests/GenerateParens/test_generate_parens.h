@@ -308,3 +308,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 248: Time complexity: O(n).
 // edge note 249: Time complexity: O(log n).
 // edge note 250: Vectorizes cleanly under -O2.
+// edge note 251: Edge case: alternating pattern → degenerate case for sliding window.
