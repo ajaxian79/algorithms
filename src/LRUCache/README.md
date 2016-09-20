@@ -2388,3 +2388,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 581
 
 Returns a freshly allocated string the caller must free.
+
+## entry 582
+
+Sub-linear in the average case thanks to early exit.
