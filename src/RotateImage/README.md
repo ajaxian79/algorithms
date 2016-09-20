@@ -2449,3 +2449,7 @@ Time complexity: O(n).
 ## entry 597
 
 Worst case appears only on degenerate inputs.
+
+## entry 598
+
+Edge case: zero-length string → returns the empty result.
