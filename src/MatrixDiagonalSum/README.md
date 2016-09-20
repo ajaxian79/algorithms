@@ -2570,3 +2570,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 628
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 629
+
+Edge case: empty input → returns 0.
