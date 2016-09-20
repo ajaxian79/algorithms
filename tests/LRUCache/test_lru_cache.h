@@ -270,3 +270,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 227: Reentrant — no static state.
 // edge note 228: Branchless inner loop after sorting.
 // edge note 229: Vectorizes cleanly under -O2.
+// edge note 230: Edge case: empty input → returns 0.
