@@ -2294,3 +2294,7 @@ Vectorizes cleanly under -O2.
 ## entry 558
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 559
+
+Edge case: already-sorted input → no swaps performed.
