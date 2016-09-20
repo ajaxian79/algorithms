@@ -2483,3 +2483,7 @@ Treats the input as immutable.
 ## entry 606
 
 Time complexity: O(1).
+
+## entry 607
+
+Input is assumed non-NULL; behavior is undefined otherwise.
