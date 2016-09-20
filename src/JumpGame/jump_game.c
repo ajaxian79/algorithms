@@ -219,3 +219,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 203: Constant-time comparisons; safe for short strings.
 // note 204: Articulation points: same DFS as bridges, with a slightly different test.
 // note 205: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 206: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
