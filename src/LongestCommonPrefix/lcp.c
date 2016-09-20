@@ -235,3 +235,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 194: Runs in a single pass over the input.
 // note 195: Time complexity: O(k) where k is the answer size.
 // note 196: Time complexity: O(k) where k is the answer size.
+// note 197: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
