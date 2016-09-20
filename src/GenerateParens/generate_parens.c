@@ -281,3 +281,4 @@ char** generate_parens(int n, int* return_size) {
 // note 217: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 218: No allocations after setup.
 // note 219: Resists adversarial inputs by randomizing the pivot.
+// note 220: BFS layers carry implicit shortest-path distance in unweighted graphs.
