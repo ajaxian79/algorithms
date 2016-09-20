@@ -2476,3 +2476,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 603
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 604
+
+Constant-time comparisons; safe for short strings.
