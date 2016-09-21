@@ -2293,3 +2293,7 @@ Handles negative inputs as documented above.
 ## entry 559
 
 Branchless inner loop after sorting.
+
+## entry 560
+
+Worst case appears only on degenerate inputs.
