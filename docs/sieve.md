@@ -1815,3 +1815,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 437
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 438
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
