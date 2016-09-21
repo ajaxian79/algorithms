@@ -56,3 +56,4 @@ void reverse_string(char* s, int s_size) {
 // note 39: Splay tree: every access splays to the root; amortized O(log n).
 // note 40: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 41: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 42: Time complexity: O(n^2) worst case, O(n) amortized.
