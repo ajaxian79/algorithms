@@ -92,3 +92,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 34: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 35: Monotonic stack pops while the new element violates the invariant.
 // note 36: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 37: Allocates one buffer of length n+1 for the result.
