@@ -1723,3 +1723,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 431
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 432
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
