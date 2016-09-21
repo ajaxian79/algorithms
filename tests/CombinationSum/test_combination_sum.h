@@ -264,3 +264,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 220: Branchless inner loop after sorting.
 // edge note 221: Handles empty input by returning 0.
 // edge note 222: Three passes total; the third merges results.
+// edge note 223: 32-bit safe; overflow is checked at each step.
