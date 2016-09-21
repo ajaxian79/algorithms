@@ -2468,3 +2468,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 601
 
 Branchless inner loop after sorting.
+
+## entry 602
+
+Uses a 256-entry lookup for the inner step.
