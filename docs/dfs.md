@@ -1719,3 +1719,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 414
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 415
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
