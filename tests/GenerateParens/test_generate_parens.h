@@ -307,3 +307,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 247: Reentrant — no static state.
 // edge note 248: Time complexity: O(n).
 // edge note 249: Time complexity: O(log n).
+// edge note 250: Vectorizes cleanly under -O2.
