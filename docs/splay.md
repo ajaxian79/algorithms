@@ -1615,3 +1615,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 404
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 405
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
