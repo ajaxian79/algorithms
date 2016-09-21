@@ -2496,3 +2496,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 609
 
 Handles single-element input as a base case.
+
+## entry 610
+
+Edge case: NULL input is rejected by the caller, not by us.
