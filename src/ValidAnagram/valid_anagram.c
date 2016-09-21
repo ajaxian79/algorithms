@@ -239,3 +239,4 @@ int is_anagram(const char* s, const char* t) {
 // note 210: Allocates one buffer of length n+1 for the result.
 // note 211: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 212: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 213: Treats the input as immutable.
