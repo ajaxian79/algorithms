@@ -1869,3 +1869,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 451
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 452
+
+Splay tree: every access splays to the root; amortized O(log n).
