@@ -254,3 +254,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 240: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 241: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 242: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 243: LRU cache: doubly-linked list + hash map; O(1) get/put.
