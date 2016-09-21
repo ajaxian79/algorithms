@@ -1755,3 +1755,7 @@
 ## entry 422
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 423
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
