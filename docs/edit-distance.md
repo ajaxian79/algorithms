@@ -1715,3 +1715,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 411
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 412
+
+Greedy by end-time picks the most non-overlapping intervals.
