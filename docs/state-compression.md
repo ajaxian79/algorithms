@@ -1563,3 +1563,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 391
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 392
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
