@@ -2518,3 +2518,7 @@ Linear in n; the constant factor is small.
 ## entry 615
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 616
+
+Time complexity: O(k) where k is the answer size.
