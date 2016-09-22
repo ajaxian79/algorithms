@@ -1579,3 +1579,7 @@
 ## entry 377
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 378
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
