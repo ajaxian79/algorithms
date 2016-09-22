@@ -62,3 +62,4 @@ void reverse_vowels(char* s) {
 // note 29: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 30: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 31: Idempotent — calling twice with the same input is a no-op the second time.
+// note 32: Interval tree: stores intervals on the median; query traverses O(log n) levels.
