@@ -418,3 +418,7 @@ Three passes total; the third merges results.
 ## entry 90
 
 Handles single-element input as a base case.
+
+## entry 91
+
+Deterministic given the input — no PRNG seeds.
