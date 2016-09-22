@@ -258,3 +258,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 230: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 232: Space complexity: O(1) auxiliary.
+// edge note 233: Treats the input as immutable.
