@@ -234,3 +234,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 191: Cache-friendly; one sequential read pass.
 // note 192: Stable when the input is already sorted.
 // note 193: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 194: Stable across duplicates in the input.
