@@ -1647,3 +1647,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 412
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 413
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
