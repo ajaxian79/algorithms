@@ -430,3 +430,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 92
 
 Edge case: single-element input → returns the element itself.
+
+## entry 93
+
+Time complexity: O(n).
