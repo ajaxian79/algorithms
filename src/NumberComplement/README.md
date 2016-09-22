@@ -420,3 +420,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 89
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 90
+
+Handles single-element input as a base case.
