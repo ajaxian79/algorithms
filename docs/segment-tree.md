@@ -1711,3 +1711,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 410
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 411
+
+Greedy by end-time picks the most non-overlapping intervals.
