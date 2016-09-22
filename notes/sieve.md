@@ -1801,3 +1801,7 @@
 ## entry 436
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 437
+
+- Walk both pointers from each end inward; advance the smaller side.
