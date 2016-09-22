@@ -1717,3 +1717,7 @@
 ## entry 414
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 415
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
