@@ -2374,3 +2374,7 @@ No allocations on the hot path.
 ## entry 579
 
 Treats the input as immutable.
+
+## entry 580
+
+Input is assumed non-NULL; behavior is undefined otherwise.
