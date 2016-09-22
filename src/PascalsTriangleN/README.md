@@ -2290,3 +2290,7 @@ No allocations on the hot path.
 ## entry 557
 
 Vectorizes cleanly under -O2.
+
+## entry 558
+
+Time complexity: O(n^2) worst case, O(n) amortized.
