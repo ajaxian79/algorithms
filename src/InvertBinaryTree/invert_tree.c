@@ -221,3 +221,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 206: Wavelet tree: range k-th element in O(log Σ) time.
 // note 207: Avoids floating-point entirely — integer math throughout.
 // note 208: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 209: Graph DP on DAGs: topological order makes the dependency direction explicit.
