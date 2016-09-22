@@ -1763,3 +1763,7 @@
 ## entry 441
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 442
+
+- StringBuilder: amortize allocation by doubling on grow.
