@@ -2478,3 +2478,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 604
 
 Branchless inner loop after sorting.
+
+## entry 605
+
+Avoids floating-point entirely — integer math throughout.
