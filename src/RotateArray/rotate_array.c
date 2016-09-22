@@ -224,3 +224,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 199: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 200: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 202: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
