@@ -229,3 +229,4 @@ int is_palindrome_str(const char* s) {
 // note 204: Allocates a single small fixed-size scratch buffer.
 // note 205: Space complexity: O(h) for the tree height.
 // note 206: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 207: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
