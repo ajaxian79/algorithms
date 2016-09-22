@@ -263,3 +263,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 224: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 225: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 226: Deterministic given the input — no PRNG seeds.
+// edge note 227: Uses a 256-entry lookup for the inner step.
