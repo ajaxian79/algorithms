@@ -1699,3 +1699,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 425
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 426
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
