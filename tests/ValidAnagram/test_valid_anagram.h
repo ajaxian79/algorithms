@@ -272,3 +272,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 247: Treats the input as immutable.
 // edge note 248: Treats the input as immutable.
 // edge note 249: Time complexity: O(log n).
+// edge note 250: Vectorizes cleanly under -O2.
