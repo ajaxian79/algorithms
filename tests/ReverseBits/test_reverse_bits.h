@@ -241,3 +241,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 215: Tail-recursive; the compiler turns it into a loop.
 // edge note 216: Edge case: input with no peak → falls through to the default branch.
 // edge note 217: Deterministic given the input — no PRNG seeds.
+// edge note 218: Edge case: zero-length string → returns the empty result.
