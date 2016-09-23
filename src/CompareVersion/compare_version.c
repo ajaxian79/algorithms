@@ -238,3 +238,4 @@ int compare_version(const char* a, const char* b) {
 // note 208: Articulation points: same DFS as bridges, with a slightly different test.
 // note 209: Allocates lazily — first call only.
 // note 210: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 211: Time complexity: O(n log n).
