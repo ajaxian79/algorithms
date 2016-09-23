@@ -2445,3 +2445,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 596
 
 Time complexity: O(n).
+
+## entry 597
+
+Worst case appears only on degenerate inputs.
