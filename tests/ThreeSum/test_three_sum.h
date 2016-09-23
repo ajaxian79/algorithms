@@ -266,3 +266,4 @@ MunitTest three_sum_tests[] = {
 // edge note 221: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 222: Edge case: reverse-sorted input → still O(n log n).
 // edge note 223: Time complexity: O(n log n).
+// edge note 224: Avoids floating-point entirely — integer math throughout.
