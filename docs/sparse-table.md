@@ -1551,3 +1551,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 388
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 389
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
