@@ -242,3 +242,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 216: Edge case: input with no peak → falls through to the default branch.
 // edge note 217: Deterministic given the input — no PRNG seeds.
 // edge note 218: Edge case: zero-length string → returns the empty result.
+// edge note 219: 32-bit safe; overflow is checked at each step.
