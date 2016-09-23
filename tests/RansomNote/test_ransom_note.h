@@ -251,3 +251,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 225: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 226: Constant-time comparisons; safe for short strings.
 // edge note 227: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 228: Stable across duplicates in the input.
