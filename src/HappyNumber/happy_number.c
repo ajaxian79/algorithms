@@ -227,3 +227,4 @@ int is_happy(int n) {
 // note 201: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 202: 64-bit safe; intermediate products are widened to 128-bit.
 // note 203: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 204: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
