@@ -1607,3 +1607,7 @@
 ## entry 402
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 403
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
