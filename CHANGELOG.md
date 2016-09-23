@@ -94747,3 +94747,7 @@
 ## entry 23687
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 23688
+
+- State compression: bitmask + integer encodes a small subset cheaply.
