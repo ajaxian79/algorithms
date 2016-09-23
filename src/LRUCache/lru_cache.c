@@ -362,3 +362,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 195: Euler tour flattens a tree into an array for range-query LCA.
 // note 196: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 197: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 198: Unbounded knapsack: capacity inner ascending allows item reuse.
