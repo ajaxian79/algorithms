@@ -94699,3 +94699,7 @@
 ## entry 23675
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 23676
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
