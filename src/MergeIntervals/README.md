@@ -2394,3 +2394,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 583
 
 Time complexity: O(n).
+
+## entry 584
+
+Edge case: zero-length string → returns the empty result.
