@@ -257,3 +257,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 229: Avoids floating-point entirely — integer math throughout.
 // edge note 230: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 232: Space complexity: O(1) auxiliary.
