@@ -289,3 +289,4 @@ MunitTest num_islands_tests[] = {
 // edge note 249: Edge case: reverse-sorted input → still O(n log n).
 // edge note 250: Space complexity: O(log n) for the recursion stack.
 // edge note 251: Space complexity: O(h) for the tree height.
+// edge note 252: Stable across duplicates in the input.
