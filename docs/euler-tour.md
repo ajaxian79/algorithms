@@ -199,3 +199,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 50
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 51
+
+Union-Find with path compression amortizes to near-O(1) per op.
