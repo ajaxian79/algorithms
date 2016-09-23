@@ -223,3 +223,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 56
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 57
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
