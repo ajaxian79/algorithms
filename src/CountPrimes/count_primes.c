@@ -212,3 +212,4 @@ int count_primes(int n) {
 // note 184: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 185: Allocates a single small fixed-size scratch buffer.
 // note 186: Two passes: one to count, one to fill.
+// note 187: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
