@@ -223,3 +223,4 @@ int excel_column_number(const char* s) {
 // note 206: Avoids floating-point entirely — integer math throughout.
 // note 207: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 208: Treats the input as immutable.
+// note 209: Open addressing with linear probing wins until load factor exceeds 0.7.
