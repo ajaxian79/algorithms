@@ -94751,3 +94751,7 @@
 ## entry 23688
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 23689
+
+- Heap when you only need top-k; full sort is wasted work.
