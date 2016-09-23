@@ -1775,3 +1775,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 428
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 429
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
