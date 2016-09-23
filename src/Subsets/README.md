@@ -2543,3 +2543,7 @@ Edge case: empty input → returns 0.
 ## entry 621
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 622
+
+Mutates the input in place; the original ordering is lost.
