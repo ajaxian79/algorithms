@@ -2345,3 +2345,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 571
 
 Reentrant — no static state.
+
+## entry 572
+
+Branchless inner loop after sorting.
