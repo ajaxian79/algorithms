@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 415
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
