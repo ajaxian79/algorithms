@@ -293,3 +293,4 @@ MunitTest preorder_tests[] = {
 // edge note 249: Edge case: empty input → returns 0.
 // edge note 250: No allocations after setup.
 // edge note 251: Uses a small fixed-size lookup table.
+// edge note 252: Edge case: single-element input → returns the element itself.
