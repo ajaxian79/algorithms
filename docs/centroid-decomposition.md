@@ -1635,3 +1635,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 409
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 410
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
