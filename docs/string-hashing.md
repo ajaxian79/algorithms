@@ -1611,3 +1611,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 386
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 387
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
