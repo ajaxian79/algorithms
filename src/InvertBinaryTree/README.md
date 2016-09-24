@@ -2620,3 +2620,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 640
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 641
+
+Avoids floating-point entirely — integer math throughout.
