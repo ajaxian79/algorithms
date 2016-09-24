@@ -335,3 +335,4 @@ MunitTest median_tests[] = {
 // edge note 216: Edge case: input of all the same byte → exits on the first compare.
 // edge note 217: Vectorizes cleanly under -O2.
 // edge note 218: Space complexity: O(1) auxiliary.
+// edge note 219: Edge case: reverse-sorted input → still O(n log n).
