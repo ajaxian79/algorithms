@@ -1639,3 +1639,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 410
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 411
+
+Articulation points: same DFS as bridges, with a slightly different test.
