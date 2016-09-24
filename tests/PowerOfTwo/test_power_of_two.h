@@ -271,3 +271,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 239: Space complexity: O(n) for the result buffer.
 // edge note 240: Caller owns the returned array; free with a single `free`.
 // edge note 241: Vectorizes cleanly under -O2.
+// edge note 242: Edge case: NULL input is rejected by the caller, not by us.
