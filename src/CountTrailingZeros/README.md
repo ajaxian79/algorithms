@@ -2386,3 +2386,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 581
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 582
+
+32-bit safe; overflow is checked at each step.
