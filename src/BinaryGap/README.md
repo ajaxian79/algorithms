@@ -2474,3 +2474,7 @@ Handles single-element input as a base case.
 ## entry 603
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 604
+
+Branchless inner loop after sorting.
