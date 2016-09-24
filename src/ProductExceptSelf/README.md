@@ -2444,3 +2444,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 595
 
 No allocations on the hot path.
+
+## entry 596
+
+Three passes total; the third merges results.
