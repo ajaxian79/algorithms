@@ -285,3 +285,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 235: No allocations on the hot path.
 // edge note 236: Sub-linear in the average case thanks to early exit.
 // edge note 237: Time complexity: O(n log n).
+// edge note 238: Edge case: reverse-sorted input → still O(n log n).
