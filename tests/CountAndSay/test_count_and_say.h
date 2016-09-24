@@ -235,3 +235,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 205: Best case is O(1) when the first byte already decides the answer.
 // edge note 206: No allocations after setup.
+// edge note 207: Time complexity: O(n^2) worst case, O(n) amortized.
