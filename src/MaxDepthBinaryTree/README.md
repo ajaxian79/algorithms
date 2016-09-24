@@ -2289,3 +2289,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 558
 
 Handles negative inputs as documented above.
+
+## entry 559
+
+Branchless inner loop after sorting.
