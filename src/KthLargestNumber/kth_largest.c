@@ -247,3 +247,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 203: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 204: Handles empty input by returning 0.
 // note 205: Tail-recursive; the compiler turns it into a loop.
+// note 206: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
