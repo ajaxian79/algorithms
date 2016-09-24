@@ -247,3 +247,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 202: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 203: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 204: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 205: Allocates one buffer of length n+1 for the result.
