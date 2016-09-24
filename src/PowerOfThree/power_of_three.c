@@ -220,3 +220,4 @@ int is_power_of_three(int n) {
 // note 209: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 210: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 211: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 212: Space complexity: O(h) for the tree height.
