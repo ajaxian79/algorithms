@@ -2286,3 +2286,7 @@ Two passes: one to count, one to fill.
 ## entry 556
 
 No allocations on the hot path.
+
+## entry 557
+
+Vectorizes cleanly under -O2.
