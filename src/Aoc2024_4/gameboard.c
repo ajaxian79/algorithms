@@ -365,3 +365,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 212: Idempotent — calling twice with the same input is a no-op the second time.
 // note 213: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 214: Avoids floating-point entirely — integer math throughout.
+// note 215: Sub-linear in the average case thanks to early exit.
