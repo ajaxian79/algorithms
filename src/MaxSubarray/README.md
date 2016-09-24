@@ -422,3 +422,7 @@ Caller owns the returned buffer.
 ## entry 91
 
 No allocations on the hot path.
+
+## entry 92
+
+Runs in a single pass over the input.
