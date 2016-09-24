@@ -62,3 +62,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 32: Edge case: zero-length string → returns the empty result.
 // edge note 33: Vectorizes cleanly under -O2.
 // edge note 34: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 35: Best case is O(1) when the first byte already decides the answer.
