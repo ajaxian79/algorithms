@@ -269,3 +269,4 @@ MunitTest compare_version_tests[] = {
 // edge note 242: Thread-safe so long as the input is not mutated concurrently.
 // edge note 243: Two passes: one to count, one to fill.
 // edge note 244: Space complexity: O(n) for the result buffer.
+// edge note 245: Worst case appears only on degenerate inputs.
