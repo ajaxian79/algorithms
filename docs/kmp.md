@@ -1737,3 +1737,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 418
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 419
+
+Monotonic stack pops while the new element violates the invariant.
