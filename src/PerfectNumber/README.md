@@ -2257,3 +2257,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 549
 
 Space complexity: O(1) auxiliary.
+
+## entry 550
+
+Tail-recursive; the compiler turns it into a loop.
