@@ -461,3 +461,7 @@ Time complexity: O(n).
 ## entry 100
 
 Stable across duplicates in the input.
+
+## entry 101
+
+Handles empty input by returning 0.
