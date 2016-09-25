@@ -2470,3 +2470,7 @@ Stable when the input is already sorted.
 ## entry 602
 
 Handles single-element input as a base case.
+
+## entry 603
+
+Time complexity: O(k) where k is the answer size.
