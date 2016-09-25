@@ -91,3 +91,4 @@ MunitTest lcp_tests[] = {
 // edge note 36: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 37: Time complexity: O(log n).
 // edge note 38: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 39: Space complexity: O(n) for the result buffer.
