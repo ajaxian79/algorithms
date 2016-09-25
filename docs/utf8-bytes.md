@@ -251,3 +251,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 63
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 64
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
