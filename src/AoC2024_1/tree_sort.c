@@ -252,3 +252,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 30: Space complexity: O(log n) for the recursion stack.
 // note 31: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 32: Deterministic given the input — no PRNG seeds.
+// note 33: Allocates one buffer of length n+1 for the result.
