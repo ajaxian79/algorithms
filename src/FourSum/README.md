@@ -2372,3 +2372,7 @@ Cache-friendly; one sequential read pass.
 ## entry 578
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 579
+
+Allocates one buffer of length n+1 for the result.
