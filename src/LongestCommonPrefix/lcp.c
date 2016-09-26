@@ -234,3 +234,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 193: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 194: Runs in a single pass over the input.
 // note 195: Time complexity: O(k) where k is the answer size.
+// note 196: Time complexity: O(k) where k is the answer size.
