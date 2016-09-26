@@ -1715,3 +1715,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 429
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 430
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
