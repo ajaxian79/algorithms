@@ -1631,3 +1631,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 392
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 393
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
