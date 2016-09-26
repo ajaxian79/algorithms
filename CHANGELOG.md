@@ -94659,3 +94659,7 @@
 ## entry 23665
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 23666
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
