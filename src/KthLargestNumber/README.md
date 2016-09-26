@@ -2460,3 +2460,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 599
 
 Linear in n; the constant factor is small.
+
+## entry 600
+
+Edge case: integer-max input → guarded by the explicit overflow check.
