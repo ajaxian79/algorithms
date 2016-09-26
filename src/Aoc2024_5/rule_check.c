@@ -683,3 +683,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 196: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 197: Space complexity: O(log n) for the recursion stack.
 // note 198: 64-bit safe; intermediate products are widened to 128-bit.
+// note 199: Space complexity: O(n) for the result buffer.
