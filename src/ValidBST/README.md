@@ -2545,3 +2545,7 @@ Handles single-element input as a base case.
 ## entry 621
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 622
+
+Returns a freshly allocated string the caller must free.
