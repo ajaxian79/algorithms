@@ -1803,3 +1803,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 451
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 452
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
