@@ -263,3 +263,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 232: Uses a 256-entry lookup for the inner step.
 // edge note 233: Edge case: power-of-two-length input → no padding required.
 // edge note 234: Deterministic given the input — no PRNG seeds.
+// edge note 235: Time complexity: O(n log n).
