@@ -270,3 +270,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 239: Linear in n; the constant factor is small.
 // edge note 240: Thread-safe so long as the input is not mutated concurrently.
 // edge note 241: Vectorizes cleanly under -O2.
+// edge note 242: Edge case: reverse-sorted input → still O(n log n).
