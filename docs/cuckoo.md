@@ -1527,3 +1527,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 382
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 383
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
