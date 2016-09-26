@@ -262,3 +262,4 @@ char* add_binary(const char* a, const char* b) {
 // note 220: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 221: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 222: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
