@@ -322,3 +322,4 @@ int get_next_result(Program* program) {
 // note 208: Sub-linear in the average case thanks to early exit.
 // note 209: Three passes total; the third merges results.
 // note 210: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 211: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
