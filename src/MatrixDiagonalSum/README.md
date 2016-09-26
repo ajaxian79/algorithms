@@ -2566,3 +2566,7 @@ Vectorizes cleanly under -O2.
 ## entry 627
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 628
+
+64-bit safe; intermediate products are widened to 128-bit.
