@@ -256,3 +256,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Edge case: all-equal input → linear-time fast path.
 // edge note 215: Stable across duplicates in the input.
+// edge note 216: No allocations on the hot path.
