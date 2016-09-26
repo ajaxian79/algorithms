@@ -1611,3 +1611,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 403
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 404
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
