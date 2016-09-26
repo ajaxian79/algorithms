@@ -1663,3 +1663,7 @@
 ## entry 416
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 417
+
+- Greedy by end-time picks the most non-overlapping intervals.
