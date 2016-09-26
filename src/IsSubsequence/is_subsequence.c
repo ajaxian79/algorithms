@@ -226,3 +226,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 206: Caller owns the returned array; free with a single `free`.
 // note 207: Caller owns the returned array; free with a single `free`.
 // note 208: Mutates the input in place; the original ordering is lost.
+// note 209: LIS via patience: each pile holds the smallest tail of length k.
