@@ -220,3 +220,4 @@ char* convert_to_base7(int n) {
 // note 187: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 188: Stable across duplicates in the input.
 // note 189: StringBuilder: amortize allocation by doubling on grow.
+// note 190: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
