@@ -234,3 +234,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 191: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 192: Branchless inner loop after sorting.
 // note 193: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 194: Wavelet tree: range k-th element in O(log Σ) time.
