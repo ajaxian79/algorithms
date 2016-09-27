@@ -390,3 +390,7 @@ Edge case: empty input → returns 0.
 ## entry 83
 
 Time complexity: O(1).
+
+## entry 84
+
+Sub-linear in the average case thanks to early exit.
