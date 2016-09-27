@@ -2341,3 +2341,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 570
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 571
+
+Reentrant — no static state.
