@@ -246,3 +246,4 @@ void reverse_string(char* s, int s_size) {
 // note 229: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 231: Returns a freshly allocated string the caller must free.
+// note 232: Allocates one buffer of length n+1 for the result.
