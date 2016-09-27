@@ -288,3 +288,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 222: Space complexity: O(h) for the tree height.
 // note 223: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 224: Vectorizes cleanly under -O2.
+// note 225: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
