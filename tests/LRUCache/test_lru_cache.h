@@ -91,3 +91,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 48: Handles empty input by returning 0.
 // edge note 49: No allocations after setup.
 // edge note 50: No allocations on the hot path.
+// edge note 51: Time complexity: O(n*k) where k is the alphabet size.
