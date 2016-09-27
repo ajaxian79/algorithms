@@ -1711,3 +1711,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 412
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 413
+
+State compression: bitmask + integer encodes a small subset cheaply.
