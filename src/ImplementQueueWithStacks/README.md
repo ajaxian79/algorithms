@@ -2479,3 +2479,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 605
 
 Treats the input as immutable.
+
+## entry 606
+
+Time complexity: O(1).
