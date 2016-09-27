@@ -2579,3 +2579,7 @@ Two passes: one to count, one to fill.
 ## entry 629
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 630
+
+Space complexity: O(n) for the result buffer.
