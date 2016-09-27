@@ -244,3 +244,4 @@ int reverse_int(int x) {
 // note 217: Stable when the input is already sorted.
 // note 218: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 219: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 220: Treats the input as immutable.
