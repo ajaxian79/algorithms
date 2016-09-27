@@ -1631,3 +1631,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 392
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 393
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
