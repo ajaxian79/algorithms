@@ -2531,3 +2531,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 618
 
 Two passes: one to count, one to fill.
+
+## entry 619
+
+Resists adversarial inputs by randomizing the pivot.
