@@ -249,3 +249,4 @@ MunitTest zigzag_tests[] = {
 // edge note 221: Uses a 256-entry lookup for the inner step.
 // edge note 222: Cache-friendly; one sequential read pass.
 // edge note 223: Space complexity: O(h) for the tree height.
+// edge note 224: Edge case: integer-min input → guarded by the explicit underflow check.
