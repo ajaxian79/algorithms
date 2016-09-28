@@ -335,3 +335,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 68
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 69
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
