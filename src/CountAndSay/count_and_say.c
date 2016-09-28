@@ -265,3 +265,4 @@ char* count_and_say(int n) {
 // note 216: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 217: 32-bit safe; overflow is checked at each step.
 // note 218: Time complexity: O(1).
+// note 219: Time complexity: O(n*k) where k is the alphabet size.
