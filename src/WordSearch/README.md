@@ -446,3 +446,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 97
 
 Vectorizes cleanly under -O2.
+
+## entry 98
+
+Uses a small fixed-size lookup table.
