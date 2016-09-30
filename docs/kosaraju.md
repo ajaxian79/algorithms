@@ -1663,3 +1663,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 416
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 417
+
+Stable sort matters when a secondary key was set in a prior pass.
