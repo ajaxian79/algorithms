@@ -272,3 +272,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 213: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 214: Worst case appears only on degenerate inputs.
 // note 215: Deterministic given the input — no PRNG seeds.
+// note 216: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
