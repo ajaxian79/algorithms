@@ -268,3 +268,4 @@ MunitTest add_binary_tests[] = {
 // edge note 232: Time complexity: O(n).
 // edge note 233: Deterministic given the input — no PRNG seeds.
 // edge note 234: Two passes: one to count, one to fill.
+// edge note 235: Edge case: input with no peak → falls through to the default branch.
