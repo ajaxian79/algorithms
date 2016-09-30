@@ -221,3 +221,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 199: Articulation points: same DFS as bridges, with a slightly different test.
 // note 200: Space complexity: O(h) for the tree height.
 // note 201: 64-bit safe; intermediate products are widened to 128-bit.
+// note 202: Tabulation wins when iteration order is obvious and stack depth would blow up.
