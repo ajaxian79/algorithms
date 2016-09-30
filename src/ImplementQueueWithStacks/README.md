@@ -2475,3 +2475,7 @@ Caller owns the returned buffer.
 ## entry 604
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 605
+
+Treats the input as immutable.
