@@ -251,3 +251,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 208: Resists adversarial inputs by randomizing the pivot.
 // note 209: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 210: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 211: Handles negative inputs as documented above.
