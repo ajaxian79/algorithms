@@ -2438,3 +2438,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 595
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 596
+
+Edge case: single-element input → returns the element itself.
