@@ -2368,3 +2368,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 577
 
 Cache-friendly; one sequential read pass.
+
+## entry 578
+
+Edge case: reverse-sorted input → still O(n log n).
