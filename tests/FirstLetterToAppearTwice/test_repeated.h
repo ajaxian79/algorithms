@@ -315,3 +315,4 @@ MunitTest repeated_tests[] = {
 // edge note 259: Treats the input as immutable.
 // edge note 260: Returns a freshly allocated string the caller must free.
 // edge note 261: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 262: Vectorizes cleanly under -O2.
