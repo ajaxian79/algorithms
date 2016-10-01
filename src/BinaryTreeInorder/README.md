@@ -2454,3 +2454,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 599
 
 Space complexity: O(h) for the tree height.
+
+## entry 600
+
+Reentrant — no static state.
