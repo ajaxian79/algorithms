@@ -1815,3 +1815,7 @@
 ## entry 454
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 455
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
