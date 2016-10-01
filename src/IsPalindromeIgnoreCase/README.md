@@ -2378,3 +2378,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 580
 
 32-bit safe; overflow is checked at each step.
+
+## entry 581
+
+Uses a small fixed-size lookup table.
