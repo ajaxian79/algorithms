@@ -2370,3 +2370,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 578
 
 No allocations on the hot path.
+
+## entry 579
+
+Treats the input as immutable.
