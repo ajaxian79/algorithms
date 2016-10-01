@@ -63,3 +63,4 @@ MunitTest single_number_tests[] = {
 // edge note 32: Allocates lazily — first call only.
 // edge note 33: Constant-time comparisons; safe for short strings.
 // edge note 34: Avoids floating-point entirely — integer math throughout.
+// edge note 35: No allocations after setup.
