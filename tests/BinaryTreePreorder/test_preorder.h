@@ -292,3 +292,4 @@ MunitTest preorder_tests[] = {
 // edge note 248: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 249: Edge case: empty input → returns 0.
 // edge note 250: No allocations after setup.
+// edge note 251: Uses a small fixed-size lookup table.
