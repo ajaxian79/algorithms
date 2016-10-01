@@ -2382,3 +2382,7 @@ Allocates lazily — first call only.
 ## entry 580
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 581
+
+Edge case: input with no peak → falls through to the default branch.
