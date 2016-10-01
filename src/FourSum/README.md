@@ -2364,3 +2364,7 @@ Handles empty input by returning 0.
 ## entry 576
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 577
+
+Cache-friendly; one sequential read pass.
