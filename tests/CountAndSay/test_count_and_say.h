@@ -233,3 +233,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 202: Constant-time comparisons; safe for short strings.
 // edge note 203: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 205: Best case is O(1) when the first byte already decides the answer.
