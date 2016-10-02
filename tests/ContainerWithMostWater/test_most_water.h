@@ -245,3 +245,4 @@ MunitTest most_water_tests[] = {
 // edge note 214: Vectorizes cleanly under -O2.
 // edge note 215: Edge case: single-element input → returns the element itself.
 // edge note 216: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 217: Edge case: NULL input is rejected by the caller, not by us.
