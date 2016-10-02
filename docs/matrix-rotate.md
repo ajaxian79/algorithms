@@ -1717,3 +1717,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 413
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 414
+
+Wavelet tree: range k-th element in O(log Σ) time.
