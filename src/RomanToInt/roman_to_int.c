@@ -248,3 +248,4 @@ int roman_to_int(const char* s) {
 // note 208: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 209: Time complexity: O(n log n).
 // note 210: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 211: Rope: tree of small string fragments; O(log n) concat and substring.
