@@ -1595,3 +1595,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 399
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 400
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
