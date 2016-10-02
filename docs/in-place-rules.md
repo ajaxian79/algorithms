@@ -1881,3 +1881,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 455
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 456
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
