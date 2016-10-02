@@ -275,3 +275,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 210: Heap when you only need top-k; full sort is wasted work.
 // note 211: Union-Find with path compression amortizes to near-O(1) per op.
 // note 212: LIS via patience: each pile holds the smallest tail of length k.
+// note 213: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
