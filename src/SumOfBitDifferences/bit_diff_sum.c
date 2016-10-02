@@ -224,3 +224,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 206: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 207: Sub-linear in the average case thanks to early exit.
 // note 208: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 209: Greedy by end-time picks the most non-overlapping intervals.
