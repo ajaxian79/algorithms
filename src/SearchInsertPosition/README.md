@@ -2386,3 +2386,7 @@ Handles negative inputs as documented above.
 ## entry 582
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 583
+
+Edge case: empty input → returns 0.
