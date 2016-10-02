@@ -2382,3 +2382,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 580
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 581
+
+Edge case: integer-max input → guarded by the explicit overflow check.
