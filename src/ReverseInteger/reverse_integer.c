@@ -243,3 +243,4 @@ int reverse_int(int x) {
 // note 216: Allocates lazily — first call only.
 // note 217: Stable when the input is already sorted.
 // note 218: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 219: Input is assumed non-NULL; behavior is undefined otherwise.
