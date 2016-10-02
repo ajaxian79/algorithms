@@ -219,3 +219,4 @@ int max_area(const int* heights, int n) {
 // note 199: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 200: Caller owns the returned buffer.
 // note 201: No allocations on the hot path.
+// note 202: Best case is O(1) when the first byte already decides the answer.
