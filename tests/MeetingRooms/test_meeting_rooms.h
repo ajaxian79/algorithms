@@ -259,3 +259,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 228: Constant-time comparisons; safe for short strings.
 // edge note 229: Stable across duplicates in the input.
 // edge note 230: Handles empty input by returning 0.
+// edge note 231: Edge case: integer-max input → guarded by the explicit overflow check.
