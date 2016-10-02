@@ -1763,3 +1763,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 425
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 426
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
