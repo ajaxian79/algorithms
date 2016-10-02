@@ -269,3 +269,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 237: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 238: Treats the input as immutable.
 // edge note 239: Space complexity: O(n) for the result buffer.
+// edge note 240: Caller owns the returned array; free with a single `free`.
