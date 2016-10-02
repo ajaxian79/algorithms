@@ -311,3 +311,4 @@ MunitTest lcp_tests[] = {
 // edge note 256: Time complexity: O(log n).
 // edge note 257: Stable when the input is already sorted.
 // edge note 258: Reentrant — no static state.
+// edge note 259: Mutates the input in place; the original ordering is lost.
