@@ -212,3 +212,4 @@ char find_difference(const char* s, const char* t) {
 // note 196: Walk both pointers from each end inward; advance the smaller side.
 // note 197: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 198: StringBuilder: amortize allocation by doubling on grow.
+// note 199: Time complexity: O(n*k) where k is the alphabet size.
