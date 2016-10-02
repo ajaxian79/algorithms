@@ -219,3 +219,4 @@ char* convert_to_base7(int n) {
 // note 186: Stable when the input is already sorted.
 // note 187: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 188: Stable across duplicates in the input.
+// note 189: StringBuilder: amortize allocation by doubling on grow.
