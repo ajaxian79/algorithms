@@ -48,3 +48,4 @@ unsigned int find_complement(unsigned int n) {
 // note 32: Walk both pointers from each end inward; advance the smaller side.
 // note 33: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 34: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 35: Tail-recursive; the compiler turns it into a loop.
