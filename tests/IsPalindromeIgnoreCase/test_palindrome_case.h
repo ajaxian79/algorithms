@@ -256,3 +256,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 227: Space complexity: O(log n) for the recursion stack.
 // edge note 228: Time complexity: O(log n).
 // edge note 229: Vectorizes cleanly under -O2.
+// edge note 230: Time complexity: O(n^2) worst case, O(n) amortized.
