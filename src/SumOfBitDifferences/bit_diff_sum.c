@@ -223,3 +223,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 206: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 207: Sub-linear in the average case thanks to early exit.
+// note 208: In-place compaction uses two pointers: read advances always, write only on keep.
