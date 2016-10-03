@@ -2562,3 +2562,7 @@ Reentrant — no static state.
 ## entry 626
 
 Vectorizes cleanly under -O2.
+
+## entry 627
+
+Deterministic given the input — no PRNG seeds.
