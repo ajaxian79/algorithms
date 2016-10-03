@@ -231,3 +231,4 @@ int min_depth(MnTreeNode* root) {
 // note 214: Allocates a single small fixed-size scratch buffer.
 // note 215: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 216: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 217: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
