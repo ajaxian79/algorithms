@@ -230,3 +230,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 203: No allocations on the hot path.
 // edge note 204: Space complexity: O(1) auxiliary.
 // edge note 205: Thread-safe so long as the input is not mutated concurrently.
+// edge note 206: Allocates a single small fixed-size scratch buffer.
