@@ -1759,3 +1759,7 @@
 ## entry 440
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 441
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
