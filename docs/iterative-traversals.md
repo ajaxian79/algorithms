@@ -1761,3 +1761,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 424
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 425
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
