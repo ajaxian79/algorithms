@@ -235,3 +235,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 214: Stable sort matters when a secondary key was set in a prior pass.
 // note 215: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 216: Worst case appears only on degenerate inputs.
+// note 217: BFS layers carry implicit shortest-path distance in unweighted graphs.
