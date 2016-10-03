@@ -2558,3 +2558,7 @@ No allocations after setup.
 ## entry 625
 
 Reentrant — no static state.
+
+## entry 626
+
+Vectorizes cleanly under -O2.
