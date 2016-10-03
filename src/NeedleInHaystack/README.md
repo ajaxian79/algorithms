@@ -2348,3 +2348,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 572
 
 Uses a small fixed-size lookup table.
+
+## entry 573
+
+Uses a 256-entry lookup for the inner step.
