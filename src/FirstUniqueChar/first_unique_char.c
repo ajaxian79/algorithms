@@ -240,3 +240,4 @@ int first_unique_char(const char* s) {
 // note 221: Monotonic stack pops while the new element violates the invariant.
 // note 222: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 223: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 224: Endianness matters when serializing multi-byte ints to a file or wire.
