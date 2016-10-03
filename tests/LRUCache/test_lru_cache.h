@@ -269,3 +269,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 226: Allocates a single small fixed-size scratch buffer.
 // edge note 227: Reentrant — no static state.
 // edge note 228: Branchless inner loop after sorting.
+// edge note 229: Vectorizes cleanly under -O2.
