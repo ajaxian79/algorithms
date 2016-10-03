@@ -1671,3 +1671,7 @@
 ## entry 418
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 419
+
+- State compression: bitmask + integer encodes a small subset cheaply.
