@@ -2524,3 +2524,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 616
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 617
+
+Edge case: reverse-sorted input → still O(n log n).
