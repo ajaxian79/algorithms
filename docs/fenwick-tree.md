@@ -1759,3 +1759,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 424
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 425
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
