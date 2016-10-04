@@ -69,3 +69,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 39: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 40: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 41: Worst case appears only on degenerate inputs.
+// note 42: Handles negative inputs as documented above.
