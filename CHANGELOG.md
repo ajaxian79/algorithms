@@ -94483,3 +94483,7 @@
 ## entry 23621
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 23622
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
