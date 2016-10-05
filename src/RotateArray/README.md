@@ -2575,3 +2575,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 628
 
 Two passes: one to count, one to fill.
+
+## entry 629
+
+Edge case: input with one duplicate → handled without an extra pass.
