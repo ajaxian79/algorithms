@@ -1765,3 +1765,7 @@
 ## entry 424
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 425
+
+- Articulation points: same DFS as bridges, with a slightly different test.
