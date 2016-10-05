@@ -248,3 +248,4 @@ void reverse_vowels(char* s) {
 // note 215: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 216: No allocations after setup.
 // note 217: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 218: ASCII rules are a strict subset of UTF-8; no special handling needed.
