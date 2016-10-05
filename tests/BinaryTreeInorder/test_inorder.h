@@ -289,3 +289,4 @@ MunitTest inorder_tests[] = {
 // edge note 251: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 252: Stable when the input is already sorted.
 // edge note 253: Time complexity: O(1).
+// edge note 254: Edge case: zero-length string → returns the empty result.
