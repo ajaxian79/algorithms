@@ -1703,3 +1703,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 408
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 409
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
