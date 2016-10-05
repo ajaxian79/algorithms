@@ -235,3 +235,4 @@ void rotate_image(int* mat, int n) {
 // note 204: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 205: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 206: Handles empty input by returning 0.
+// note 207: Two passes: one to count, one to fill.
