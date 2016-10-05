@@ -2514,3 +2514,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 614
 
 Linear in n; the constant factor is small.
+
+## entry 615
+
+Edge case: integer-max input → guarded by the explicit overflow check.
