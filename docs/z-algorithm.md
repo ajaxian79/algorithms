@@ -1627,3 +1627,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 391
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 392
+
+Union-Find with path compression amortizes to near-O(1) per op.
