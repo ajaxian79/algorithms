@@ -2466,3 +2466,7 @@ Cache-friendly; one sequential read pass.
 ## entry 601
 
 Stable when the input is already sorted.
+
+## entry 602
+
+Handles single-element input as a base case.
