@@ -1679,3 +1679,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 420
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 421
+
+Splay tree: every access splays to the root; amortized O(log n).
