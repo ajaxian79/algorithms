@@ -235,3 +235,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 59
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 60
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
