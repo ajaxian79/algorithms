@@ -1763,3 +1763,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 441
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 442
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
