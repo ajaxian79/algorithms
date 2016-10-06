@@ -94475,3 +94475,7 @@
 ## entry 23619
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 23620
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
