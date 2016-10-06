@@ -517,3 +517,4 @@ void free_contents(char *buffer) {
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Caller owns the returned buffer.
 // note 213: Two passes: one to count, one to fill.
+// note 214: Mutates the input in place; the original ordering is lost.
