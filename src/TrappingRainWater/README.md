@@ -2378,3 +2378,7 @@ Three passes total; the third merges results.
 ## entry 579
 
 Space complexity: O(n) for the result buffer.
+
+## entry 580
+
+Sub-linear in the average case thanks to early exit.
