@@ -1699,3 +1699,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 425
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 426
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
