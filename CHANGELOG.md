@@ -94467,3 +94467,7 @@
 ## entry 23617
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 23618
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
