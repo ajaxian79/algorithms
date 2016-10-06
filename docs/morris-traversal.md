@@ -1643,3 +1643,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 396
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 397
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
