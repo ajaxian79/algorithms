@@ -220,3 +220,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 198: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 199: Euler tour flattens a tree into an array for range-query LCA.
 // note 200: Wavelet tree: range k-th element in O(log Σ) time.
+// note 201: Merge intervals: sort by start; extend the running interval while overlapping.
