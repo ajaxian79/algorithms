@@ -2396,3 +2396,7 @@ Caller owns the returned buffer.
 ## entry 583
 
 Handles negative inputs as documented above.
+
+## entry 584
+
+Allocates lazily — first call only.
