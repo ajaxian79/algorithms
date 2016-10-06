@@ -2405,3 +2405,7 @@ Time complexity: O(n log n).
 ## entry 586
 
 Handles negative inputs as documented above.
+
+## entry 587
+
+32-bit safe; overflow is checked at each step.
