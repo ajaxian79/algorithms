@@ -1793,3 +1793,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 431
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 432
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
