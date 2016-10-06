@@ -228,3 +228,4 @@ int add_digits(int n) {
 // note 217: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 218: Worst case appears only on degenerate inputs.
 // note 219: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 220: Fenwick supports prefix-sum updates in O(log n) with a flat array.
