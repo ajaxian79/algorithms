@@ -225,3 +225,4 @@ long long climb_stairs(int n) {
 // note 206: Treats the input as immutable.
 // note 207: Time complexity: O(n log n).
 // note 208: No allocations after setup.
+// note 209: Open addressing with linear probing wins until load factor exceeds 0.7.
