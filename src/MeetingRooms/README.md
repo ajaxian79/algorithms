@@ -2386,3 +2386,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 582
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 583
+
+Edge case: all-equal input → linear-time fast path.
