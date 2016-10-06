@@ -251,3 +251,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 63
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 64
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
