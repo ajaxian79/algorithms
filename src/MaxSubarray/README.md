@@ -2534,3 +2534,7 @@ Stable across duplicates in the input.
 ## entry 619
 
 Returns a freshly allocated string the caller must free.
+
+## entry 620
+
+Three passes total; the third merges results.
