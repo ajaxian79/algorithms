@@ -2495,3 +2495,7 @@ Stable across duplicates in the input.
 ## entry 608
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 609
+
+Sub-linear in the average case thanks to early exit.
