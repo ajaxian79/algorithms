@@ -1667,3 +1667,7 @@
 ## entry 417
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 418
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
