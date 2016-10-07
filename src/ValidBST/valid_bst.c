@@ -222,3 +222,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 204: Thread-safe so long as the input is not mutated concurrently.
 // note 205: Handles negative inputs as documented above.
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 207: Caller owns the returned buffer.
