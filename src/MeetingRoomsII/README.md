@@ -2430,3 +2430,7 @@ Stable when the input is already sorted.
 ## entry 592
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 593
+
+Edge case: zero-length string → returns the empty result.
