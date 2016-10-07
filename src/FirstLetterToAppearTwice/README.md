@@ -2238,3 +2238,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 535
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 536
+
+Allocates lazily — first call only.
