@@ -1699,3 +1699,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 407
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 408
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
