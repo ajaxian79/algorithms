@@ -2590,3 +2590,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 633
 
 Stable across duplicates in the input.
+
+## entry 634
+
+Sub-linear in the average case thanks to early exit.
