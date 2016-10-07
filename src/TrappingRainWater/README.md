@@ -2374,3 +2374,7 @@ Three passes total; the third merges results.
 ## entry 578
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 579
+
+Space complexity: O(n) for the result buffer.
