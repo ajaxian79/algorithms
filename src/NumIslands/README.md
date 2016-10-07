@@ -2325,3 +2325,7 @@ Linear in n; the constant factor is small.
 ## entry 566
 
 Time complexity: O(log n).
+
+## entry 567
+
+Idempotent — calling twice with the same input is a no-op the second time.
