@@ -226,3 +226,4 @@ int is_happy(int n) {
 // note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 201: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 202: 64-bit safe; intermediate products are widened to 128-bit.
+// note 203: Treap: BST + heap on random priorities; expected O(log n) per op.
