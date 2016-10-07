@@ -2434,3 +2434,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 593
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 594
+
+Input is assumed non-NULL; behavior is undefined otherwise.
