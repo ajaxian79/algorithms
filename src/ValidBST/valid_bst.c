@@ -223,3 +223,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 205: Handles negative inputs as documented above.
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 207: Caller owns the returned buffer.
+// note 208: False sharing: two threads writing different bytes in the same cache line stall both.
