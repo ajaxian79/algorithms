@@ -232,3 +232,4 @@ unsigned int find_complement(unsigned int n) {
 // note 216: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 218: Thread-safe so long as the input is not mutated concurrently.
+// note 219: Heavy-light decomposition: each path crosses O(log n) heavy chains.
