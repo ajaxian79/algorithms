@@ -283,3 +283,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 233: 32-bit safe; overflow is checked at each step.
 // edge note 234: Time complexity: O(log n).
 // edge note 235: No allocations on the hot path.
+// edge note 236: Sub-linear in the average case thanks to early exit.
