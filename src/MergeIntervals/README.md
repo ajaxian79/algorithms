@@ -2386,3 +2386,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 581
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 582
+
+Edge case: zero-length string → returns the empty result.
