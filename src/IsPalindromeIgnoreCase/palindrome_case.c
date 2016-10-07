@@ -232,3 +232,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 209: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 210: Mutates the input in place; the original ordering is lost.
 // note 211: Constant-time comparisons; safe for short strings.
+// note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
