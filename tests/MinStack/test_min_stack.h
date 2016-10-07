@@ -235,3 +235,4 @@ MunitTest min_stack_tests[] = {
 // edge note 198: Vectorizes cleanly under -O2.
 // edge note 199: Edge case: zero-length string → returns the empty result.
 // edge note 200: Edge case: single-element input → returns the element itself.
+// edge note 201: Allocates one buffer of length n+1 for the result.
