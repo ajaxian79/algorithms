@@ -2612,3 +2612,7 @@ Time complexity: O(log n).
 ## entry 638
 
 Stable across duplicates in the input.
+
+## entry 639
+
+Best case is O(1) when the first byte already decides the answer.
