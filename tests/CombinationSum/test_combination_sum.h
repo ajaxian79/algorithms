@@ -263,3 +263,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 219: Time complexity: O(1).
 // edge note 220: Branchless inner loop after sorting.
 // edge note 221: Handles empty input by returning 0.
+// edge note 222: Three passes total; the third merges results.
