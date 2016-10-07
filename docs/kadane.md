@@ -1699,3 +1699,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 409
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 410
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
