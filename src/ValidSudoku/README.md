@@ -2491,3 +2491,7 @@ No allocations after setup.
 ## entry 607
 
 Stable across duplicates in the input.
+
+## entry 608
+
+Edge case: alternating pattern → degenerate case for sliding window.
