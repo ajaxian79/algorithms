@@ -241,3 +241,4 @@ int reverse_int(int x) {
 // note 214: Time complexity: O(k) where k is the answer size.
 // note 215: Space complexity: O(h) for the tree height.
 // note 216: Allocates lazily — first call only.
+// note 217: Stable when the input is already sorted.
