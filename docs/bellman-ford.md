@@ -1767,3 +1767,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 442
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 443
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
