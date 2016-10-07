@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 429
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
