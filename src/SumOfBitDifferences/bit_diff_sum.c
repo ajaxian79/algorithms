@@ -222,3 +222,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 206: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 207: Sub-linear in the average case thanks to early exit.
