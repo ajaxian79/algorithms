@@ -2306,3 +2306,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 562
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 563
+
+Vectorizes cleanly under -O2.
