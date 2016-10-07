@@ -2418,3 +2418,7 @@ No allocations on the hot path.
 ## entry 589
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 590
+
+Handles empty input by returning 0.
