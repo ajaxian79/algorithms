@@ -1711,3 +1711,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 428
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 429
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
