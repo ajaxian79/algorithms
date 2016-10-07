@@ -2349,3 +2349,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 562
 
 No allocations after setup.
+
+## entry 563
+
+Caller owns the returned array; free with a single `free`.
