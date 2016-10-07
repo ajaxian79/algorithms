@@ -246,3 +246,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 201: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 202: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 203: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 204: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
