@@ -2530,3 +2530,7 @@ Worst case appears only on degenerate inputs.
 ## entry 618
 
 Stable across duplicates in the input.
+
+## entry 619
+
+Returns a freshly allocated string the caller must free.
