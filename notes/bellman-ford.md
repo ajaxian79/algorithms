@@ -1755,3 +1755,7 @@
 ## entry 439
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 440
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
