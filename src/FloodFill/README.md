@@ -2457,3 +2457,7 @@ Treats the input as immutable.
 ## entry 600
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 601
+
+Space complexity: O(h) for the tree height.
