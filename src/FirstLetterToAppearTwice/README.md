@@ -2242,3 +2242,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 536
 
 Allocates lazily — first call only.
+
+## entry 537
+
+Edge case: maximum-length input → still fits in 32-bit indices.
