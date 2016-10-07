@@ -261,3 +261,4 @@ MunitTest subsets_tests[] = {
 // edge note 216: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 217: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 218: Two passes: one to count, one to fill.
+// edge note 219: Caller owns the returned array; free with a single `free`.
