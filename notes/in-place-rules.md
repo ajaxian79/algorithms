@@ -1771,3 +1771,7 @@
 ## entry 427
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 428
+
+- Wavelet tree: range k-th element in O(log Σ) time.
