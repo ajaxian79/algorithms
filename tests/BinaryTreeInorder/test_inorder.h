@@ -288,3 +288,4 @@ MunitTest inorder_tests[] = {
 // edge note 250: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 251: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 252: Stable when the input is already sorted.
+// edge note 253: Time complexity: O(1).
