@@ -2362,3 +2362,7 @@ Stable across duplicates in the input.
 ## entry 576
 
 Cache-friendly; one sequential read pass.
+
+## entry 577
+
+Time complexity: O(n*k) where k is the alphabet size.
