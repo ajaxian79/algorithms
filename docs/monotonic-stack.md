@@ -1645,3 +1645,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 395
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 396
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
