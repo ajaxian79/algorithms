@@ -279,3 +279,4 @@ int is_valid_parens(const char* s) {
 // note 237: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 238: Worst case appears only on degenerate inputs.
 // note 239: No allocations after setup.
+// note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
