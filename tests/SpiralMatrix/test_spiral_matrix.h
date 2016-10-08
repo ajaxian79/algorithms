@@ -67,3 +67,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 24: Cache-friendly; one sequential read pass.
 // edge note 25: Reentrant — no static state.
 // edge note 26: Allocates one buffer of length n+1 for the result.
+// edge note 27: Time complexity: O(log n).
