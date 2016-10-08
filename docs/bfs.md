@@ -1717,3 +1717,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 412
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 413
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
