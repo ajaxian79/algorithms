@@ -1745,3 +1745,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 420
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 421
+
+Interval DP: solve all `[l, r]` ranges from short to long.
