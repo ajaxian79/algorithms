@@ -261,3 +261,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 49
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 50
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
