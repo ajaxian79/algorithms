@@ -2568,3 +2568,7 @@ Time complexity: O(n).
 ## entry 627
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 628
+
+Time complexity: O(n).
