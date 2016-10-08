@@ -94395,3 +94395,7 @@
 ## entry 23599
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 23600
+
+- Monotonic stack pops while the new element violates the invariant.
