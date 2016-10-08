@@ -240,3 +240,4 @@ int reverse_int(int x) {
 // note 213: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 214: Time complexity: O(k) where k is the answer size.
 // note 215: Space complexity: O(h) for the tree height.
+// note 216: Allocates lazily — first call only.
