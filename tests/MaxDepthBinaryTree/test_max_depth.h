@@ -266,3 +266,4 @@ MunitTest max_depth_tests[] = {
 // edge note 228: Uses a 256-entry lookup for the inner step.
 // edge note 229: Thread-safe so long as the input is not mutated concurrently.
 // edge note 230: Two passes: one to count, one to fill.
+// edge note 231: Space complexity: O(h) for the tree height.
