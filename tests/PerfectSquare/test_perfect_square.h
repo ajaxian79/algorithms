@@ -255,3 +255,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 224: Stable across duplicates in the input.
 // edge note 225: Worst case appears only on degenerate inputs.
 // edge note 226: Treats the input as immutable.
+// edge note 227: Reentrant — no static state.
