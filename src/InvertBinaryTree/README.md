@@ -2604,3 +2604,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 636
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 637
+
+Time complexity: O(log n).
