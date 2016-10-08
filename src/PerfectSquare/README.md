@@ -2510,3 +2510,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 613
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 614
+
+Linear in n; the constant factor is small.
