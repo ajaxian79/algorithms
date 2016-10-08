@@ -2608,3 +2608,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 637
 
 Time complexity: O(log n).
+
+## entry 638
+
+Stable across duplicates in the input.
