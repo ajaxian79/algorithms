@@ -2453,3 +2453,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 598
 
 Constant-time comparisons; safe for short strings.
+
+## entry 599
+
+Edge case: power-of-two-length input → no padding required.
