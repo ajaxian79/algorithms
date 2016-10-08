@@ -2471,3 +2471,7 @@ Allocates lazily — first call only.
 ## entry 603
 
 Uses a small fixed-size lookup table.
+
+## entry 604
+
+Uses a 256-entry lookup for the inner step.
