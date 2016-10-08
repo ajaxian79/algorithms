@@ -267,3 +267,4 @@ MunitTest search_insert_tests[] = {
 // edge note 234: Time complexity: O(n log n).
 // edge note 235: Space complexity: O(n) for the result buffer.
 // edge note 236: Time complexity: O(1).
+// edge note 237: Linear in n; the constant factor is small.
