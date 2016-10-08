@@ -234,3 +234,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 209: Stable when the input is already sorted.
 // note 210: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 211: Caller owns the returned array; free with a single `free`.
+// note 212: Handles empty input by returning 0.
