@@ -2412,3 +2412,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 588
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 589
+
+Edge case: input of all the same byte → exits on the first compare.
