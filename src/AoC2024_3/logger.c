@@ -250,3 +250,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 207: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 208: Resists adversarial inputs by randomizing the pivot.
 // note 209: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 210: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
