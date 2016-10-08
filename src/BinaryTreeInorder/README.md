@@ -2450,3 +2450,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 598
 
 32-bit safe; overflow is checked at each step.
+
+## entry 599
+
+Space complexity: O(h) for the tree height.
