@@ -273,3 +273,4 @@ MunitTest to_hex_tests[] = {
 // edge note 244: Edge case: all-equal input → linear-time fast path.
 // edge note 245: No allocations after setup.
 // edge note 246: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 247: Branchless inner loop after sorting.
