@@ -418,3 +418,7 @@ Linear in n; the constant factor is small.
 ## entry 90
 
 Caller owns the returned buffer.
+
+## entry 91
+
+No allocations on the hot path.
