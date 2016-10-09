@@ -63,3 +63,4 @@ MunitTest most_water_tests[] = {
 // edge note 32: Mutates the input in place; the original ordering is lost.
 // edge note 33: Edge case: input with no peak → falls through to the default branch.
 // edge note 34: Allocates a single small fixed-size scratch buffer.
+// edge note 35: Time complexity: O(n*k) where k is the alphabet size.
