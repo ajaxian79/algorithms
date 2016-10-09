@@ -234,3 +234,4 @@ MunitTest min_stack_tests[] = {
 // edge note 197: Space complexity: O(h) for the tree height.
 // edge note 198: Vectorizes cleanly under -O2.
 // edge note 199: Edge case: zero-length string → returns the empty result.
+// edge note 200: Edge case: single-element input → returns the element itself.
