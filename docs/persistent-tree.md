@@ -251,3 +251,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 63
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 64
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
