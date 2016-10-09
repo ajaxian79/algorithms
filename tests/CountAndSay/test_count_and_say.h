@@ -231,3 +231,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 200: Mutates the input in place; the original ordering is lost.
 // edge note 201: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 202: Constant-time comparisons; safe for short strings.
+// edge note 203: Idempotent — calling twice with the same input is a no-op the second time.
