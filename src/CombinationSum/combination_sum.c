@@ -274,3 +274,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 209: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 210: Heap when you only need top-k; full sort is wasted work.
 // note 211: Union-Find with path compression amortizes to near-O(1) per op.
+// note 212: LIS via patience: each pile holds the smallest tail of length k.
