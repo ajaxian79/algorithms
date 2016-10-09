@@ -1611,3 +1611,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 403
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 404
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
