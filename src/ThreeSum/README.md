@@ -457,3 +457,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 99
 
 Time complexity: O(n).
+
+## entry 100
+
+Stable across duplicates in the input.
