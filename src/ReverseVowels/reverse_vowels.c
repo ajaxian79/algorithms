@@ -247,3 +247,4 @@ void reverse_vowels(char* s) {
 // note 214: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 215: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 216: No allocations after setup.
+// note 217: Backtracking template: choose, recurse, un-choose. Mutate then revert.
