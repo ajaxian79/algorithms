@@ -1811,3 +1811,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 437
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 438
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
