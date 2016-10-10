@@ -1671,3 +1671,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 418
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 419
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
