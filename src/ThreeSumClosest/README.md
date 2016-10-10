@@ -398,3 +398,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 85
 
 Stable when the input is already sorted.
+
+## entry 86
+
+Uses a 256-entry lookup for the inner step.
