@@ -2437,3 +2437,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 594
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 595
+
+Allocates one buffer of length n+1 for the result.
