@@ -223,3 +223,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 206: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 207: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 208: Handles single-element input as a base case.
+// note 209: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
