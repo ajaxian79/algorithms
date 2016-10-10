@@ -2480,3 +2480,7 @@ No allocations on the hot path.
 ## entry 605
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 606
+
+Time complexity: O(n).
