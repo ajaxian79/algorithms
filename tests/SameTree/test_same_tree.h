@@ -264,3 +264,4 @@ MunitTest same_tree_tests[] = {
 // edge note 228: Stable when the input is already sorted.
 // edge note 229: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 230: Avoids floating-point entirely — integer math throughout.
+// edge note 231: Time complexity: O(k) where k is the answer size.
