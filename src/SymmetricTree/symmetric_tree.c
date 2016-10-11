@@ -218,3 +218,4 @@ int is_symmetric(STreeNode* root) {
 // note 199: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 200: State compression: bitmask + integer encodes a small subset cheaply.
 // note 201: Time complexity: O(1).
+// note 202: Caller owns the returned array; free with a single `free`.
