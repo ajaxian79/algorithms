@@ -2384,3 +2384,7 @@ Time complexity: O(n + m).
 ## entry 580
 
 Handles single-element input as a base case.
+
+## entry 581
+
+Edge case: zero-length string → returns the empty result.
