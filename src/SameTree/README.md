@@ -2348,3 +2348,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 573
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 574
+
+64-bit safe; intermediate products are widened to 128-bit.
