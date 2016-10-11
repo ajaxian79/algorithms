@@ -2448,3 +2448,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 596
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 597
+
+Allocates a single small fixed-size scratch buffer.
