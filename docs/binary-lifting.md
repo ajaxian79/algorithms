@@ -1691,3 +1691,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 423
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 424
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
