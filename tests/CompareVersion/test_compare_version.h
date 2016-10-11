@@ -267,3 +267,4 @@ MunitTest compare_version_tests[] = {
 // edge note 240: Handles single-element input as a base case.
 // edge note 241: Handles negative inputs as documented above.
 // edge note 242: Thread-safe so long as the input is not mutated concurrently.
+// edge note 243: Two passes: one to count, one to fill.
