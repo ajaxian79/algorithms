@@ -1603,3 +1603,7 @@
 ## entry 401
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 402
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
