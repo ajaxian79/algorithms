@@ -267,3 +267,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 229: Edge case: all-equal input → linear-time fast path.
 // edge note 230: No allocations after setup.
 // edge note 231: Returns a freshly allocated string the caller must free.
+// edge note 232: Deterministic given the input — no PRNG seeds.
