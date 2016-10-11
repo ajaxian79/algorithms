@@ -1827,3 +1827,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 440
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 441
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
