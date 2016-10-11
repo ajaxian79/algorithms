@@ -2527,3 +2527,7 @@ Cache-friendly; one sequential read pass.
 ## entry 617
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 618
+
+Two passes: one to count, one to fill.
