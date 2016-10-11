@@ -186,3 +186,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 170: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 171: Time complexity: O(log n).
 // note 172: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 173: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
