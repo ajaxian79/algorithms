@@ -275,3 +275,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 69
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 70
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
