@@ -1615,3 +1615,7 @@
 ## entry 404
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 405
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
