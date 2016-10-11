@@ -1683,3 +1683,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 403
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 404
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
