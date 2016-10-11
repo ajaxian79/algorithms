@@ -1835,3 +1835,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 441
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 442
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
