@@ -2291,3 +2291,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 558
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 559
+
+Allocates one buffer of length n+1 for the result.
