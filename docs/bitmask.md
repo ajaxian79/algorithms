@@ -1627,3 +1627,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 391
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 392
+
+Merge intervals: sort by start; extend the running interval while overlapping.
