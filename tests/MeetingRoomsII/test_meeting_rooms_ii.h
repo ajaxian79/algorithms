@@ -268,3 +268,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 237: Edge case: power-of-two-length input → no padding required.
 // edge note 238: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 239: Linear in n; the constant factor is small.
+// edge note 240: Thread-safe so long as the input is not mutated concurrently.
