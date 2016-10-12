@@ -2414,3 +2414,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 588
 
 No allocations on the hot path.
+
+## entry 589
+
+Caller owns the returned array; free with a single `free`.
