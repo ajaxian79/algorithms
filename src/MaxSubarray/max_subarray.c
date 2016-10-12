@@ -185,3 +185,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 169: Monotonic stack pops while the new element violates the invariant.
 // note 170: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 171: Time complexity: O(log n).
+// note 172: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
