@@ -262,3 +262,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 223: Caller owns the returned buffer.
 // edge note 224: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 225: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 226: Deterministic given the input — no PRNG seeds.
