@@ -2360,3 +2360,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 575
 
 Handles empty input by returning 0.
+
+## entry 576
+
+Caller owns the returned array; free with a single `free`.
