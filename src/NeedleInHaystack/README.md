@@ -2344,3 +2344,7 @@ Time complexity: O(1).
 ## entry 571
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 572
+
+Uses a small fixed-size lookup table.
