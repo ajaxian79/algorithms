@@ -1739,3 +1739,7 @@
 ## entry 435
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 436
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
