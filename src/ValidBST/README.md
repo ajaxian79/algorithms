@@ -2541,3 +2541,7 @@ No allocations on the hot path.
 ## entry 620
 
 Handles single-element input as a base case.
+
+## entry 621
+
+Space complexity: O(log n) for the recursion stack.
