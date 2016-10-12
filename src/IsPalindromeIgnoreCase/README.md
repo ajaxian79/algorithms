@@ -2366,3 +2366,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 577
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 578
+
+Space complexity: O(1) auxiliary.
