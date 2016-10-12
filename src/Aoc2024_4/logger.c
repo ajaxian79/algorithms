@@ -226,3 +226,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 183: Time complexity: O(n).
 // note 184: Best case is O(1) when the first byte already decides the answer.
 // note 185: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 186: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
