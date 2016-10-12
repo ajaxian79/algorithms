@@ -238,3 +238,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 208: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 209: 64-bit safe; intermediate products are widened to 128-bit.
 // note 210: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 211: Space complexity: O(h) for the tree height.
