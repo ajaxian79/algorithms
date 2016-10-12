@@ -2253,3 +2253,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 548
 
 Returns a freshly allocated string the caller must free.
+
+## entry 549
+
+Space complexity: O(1) auxiliary.
