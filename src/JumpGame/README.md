@@ -409,3 +409,7 @@ No allocations after setup.
 ## entry 87
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 88
+
+Two passes: one to count, one to fill.
