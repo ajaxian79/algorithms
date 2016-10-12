@@ -1807,3 +1807,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 436
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 437
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
