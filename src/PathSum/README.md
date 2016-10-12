@@ -2564,3 +2564,7 @@ Runs in a single pass over the input.
 ## entry 626
 
 Time complexity: O(n).
+
+## entry 627
+
+Edge case: integer-max input → guarded by the explicit overflow check.
