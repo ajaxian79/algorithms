@@ -276,3 +276,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 196: Linear in n; the constant factor is small.
 // note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 198: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 199: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
