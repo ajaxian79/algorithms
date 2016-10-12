@@ -2378,3 +2378,7 @@ Allocates lazily — first call only.
 ## entry 579
 
 Allocates lazily — first call only.
+
+## entry 580
+
+Edge case: zero-length string → returns the empty result.
