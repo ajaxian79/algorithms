@@ -255,3 +255,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 228: Edge case: input with no peak → falls through to the default branch.
 // edge note 229: Allocates one buffer of length n+1 for the result.
 // edge note 230: Time complexity: O(n log n).
+// edge note 231: Caller owns the returned array; free with a single `free`.
