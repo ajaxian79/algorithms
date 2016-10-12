@@ -94307,3 +94307,7 @@
 ## entry 23577
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 23578
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
