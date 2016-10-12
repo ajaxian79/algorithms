@@ -217,3 +217,4 @@ int is_power_of_four(int n) {
 // note 204: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 205: Handles empty input by returning 0.
 // note 206: Heap when you only need top-k; full sort is wasted work.
+// note 207: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
