@@ -259,3 +259,4 @@ MunitTest subsets_tests[] = {
 // edge note 214: Allocates a single small fixed-size scratch buffer.
 // edge note 215: Runs in a single pass over the input.
 // edge note 216: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 217: Edge case: integer-max input → guarded by the explicit overflow check.
