@@ -207,3 +207,4 @@ int is_power_of_two(int n) {
 // note 197: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 198: Deterministic given the input — no PRNG seeds.
 // note 199: Heap when you only need top-k; full sort is wasted work.
+// note 200: In-place compaction uses two pointers: read advances always, write only on keep.
