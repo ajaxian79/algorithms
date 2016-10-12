@@ -2510,3 +2510,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 612
 
 Runs in a single pass over the input.
+
+## entry 613
+
+Thread-safe so long as the input is not mutated concurrently.
