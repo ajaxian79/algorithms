@@ -2436,3 +2436,7 @@ Treats the input as immutable.
 ## entry 594
 
 Edge case: empty input → returns 0.
+
+## entry 595
+
+Time complexity: O(n^2) worst case, O(n) amortized.
