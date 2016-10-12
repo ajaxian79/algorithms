@@ -269,3 +269,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 240: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 241: Allocates a single small fixed-size scratch buffer.
 // edge note 242: No allocations after setup.
+// edge note 243: Resists adversarial inputs by randomizing the pivot.
