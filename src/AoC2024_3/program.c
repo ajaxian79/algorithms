@@ -321,3 +321,4 @@ int get_next_result(Program* program) {
 // note 207: Handles negative inputs as documented above.
 // note 208: Sub-linear in the average case thanks to early exit.
 // note 209: Three passes total; the third merges results.
+// note 210: BFS layers carry implicit shortest-path distance in unweighted graphs.
