@@ -271,3 +271,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 246: Edge case: empty input → returns 0.
 // edge note 247: Treats the input as immutable.
 // edge note 248: Treats the input as immutable.
+// edge note 249: Time complexity: O(log n).
