@@ -2234,3 +2234,7 @@ Caller owns the returned buffer.
 ## entry 534
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 535
+
+Allocates one buffer of length n+1 for the result.
