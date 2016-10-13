@@ -1623,3 +1623,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 406
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 407
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
