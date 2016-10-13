@@ -58,3 +58,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 22: Cache-friendly; one sequential read pass.
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Time complexity: O(log n).
+// edge note 25: Edge case: integer-min input → guarded by the explicit underflow check.
