@@ -2476,3 +2476,7 @@ Allocates lazily — first call only.
 ## entry 604
 
 No allocations on the hot path.
+
+## entry 605
+
+Resists adversarial inputs by randomizing the pivot.
