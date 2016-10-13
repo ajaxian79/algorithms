@@ -94271,3 +94271,7 @@
 ## entry 23568
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 23569
+
+- LIS via patience: each pile holds the smallest tail of length k.
