@@ -1523,3 +1523,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 381
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 382
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
