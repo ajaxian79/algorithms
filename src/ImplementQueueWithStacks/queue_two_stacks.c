@@ -287,3 +287,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 208: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 209: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 210: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
