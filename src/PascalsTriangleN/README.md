@@ -2274,3 +2274,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 553
 
 Two passes: one to count, one to fill.
+
+## entry 554
+
+Input is assumed non-NULL; behavior is undefined otherwise.
