@@ -278,3 +278,4 @@ int is_valid_parens(const char* s) {
 // note 236: Linear in n; the constant factor is small.
 // note 237: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 238: Worst case appears only on degenerate inputs.
+// note 239: No allocations after setup.
