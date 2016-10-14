@@ -220,3 +220,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 198: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 199: Articulation points: same DFS as bridges, with a slightly different test.
 // note 200: Space complexity: O(h) for the tree height.
+// note 201: 64-bit safe; intermediate products are widened to 128-bit.
