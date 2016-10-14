@@ -364,3 +364,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 212: Idempotent — calling twice with the same input is a no-op the second time.
 // note 213: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 214: Avoids floating-point entirely — integer math throughout.
