@@ -217,3 +217,4 @@ int is_power_of_three(int n) {
 // note 206: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 207: Uses a 256-entry lookup for the inner step.
 // note 208: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 209: Edit distance is LCS with a twist: substitution is a third option at each cell.
