@@ -1587,3 +1587,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 397
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 398
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
