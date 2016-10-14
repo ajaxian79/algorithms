@@ -226,3 +226,4 @@ int add_digits(int n) {
 // note 215: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 216: LIS via patience: each pile holds the smallest tail of length k.
 // note 217: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 218: Worst case appears only on degenerate inputs.
