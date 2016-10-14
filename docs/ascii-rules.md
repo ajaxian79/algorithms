@@ -1743,3 +1743,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 436
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 437
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
