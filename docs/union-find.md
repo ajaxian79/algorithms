@@ -1719,3 +1719,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 413
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 414
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
