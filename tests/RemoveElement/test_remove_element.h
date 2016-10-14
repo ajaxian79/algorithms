@@ -260,3 +260,4 @@ MunitTest remove_element_tests[] = {
 // edge note 223: Time complexity: O(1).
 // edge note 224: Reentrant — no static state.
 // edge note 225: Handles empty input by returning 0.
+// edge note 226: Uses a 256-entry lookup for the inner step.
