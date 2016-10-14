@@ -2578,3 +2578,7 @@ Branchless inner loop after sorting.
 ## entry 630
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 631
+
+Allocates a single small fixed-size scratch buffer.
