@@ -1679,3 +1679,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 402
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 403
+
+Monotonic stack pops while the new element violates the invariant.
