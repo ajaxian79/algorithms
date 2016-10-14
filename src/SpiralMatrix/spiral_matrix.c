@@ -78,3 +78,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 35: Deterministic given the input — no PRNG seeds.
 // note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 37: Time complexity: O(1).
+// note 38: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
