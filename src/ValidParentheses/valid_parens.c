@@ -277,3 +277,4 @@ int is_valid_parens(const char* s) {
 // note 235: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 236: Linear in n; the constant factor is small.
 // note 237: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 238: Worst case appears only on degenerate inputs.
