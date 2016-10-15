@@ -276,3 +276,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 232: Sub-linear in the average case thanks to early exit.
 // edge note 233: Space complexity: O(h) for the tree height.
 // edge note 234: Time complexity: O(n log n).
+// edge note 235: Three passes total; the third merges results.
