@@ -2449,3 +2449,7 @@ Space complexity: O(1) auxiliary.
 ## entry 597
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 598
+
+Constant-time comparisons; safe for short strings.
