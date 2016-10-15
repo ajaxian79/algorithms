@@ -1745,3 +1745,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 422
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 423
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
