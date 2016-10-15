@@ -1627,3 +1627,7 @@
 ## entry 407
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 408
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
