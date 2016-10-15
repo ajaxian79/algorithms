@@ -2574,3 +2574,7 @@ Treats the input as immutable.
 ## entry 629
 
 Branchless inner loop after sorting.
+
+## entry 630
+
+Edge case: power-of-two-length input → no padding required.
