@@ -272,3 +272,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 245: 32-bit safe; overflow is checked at each step.
 // edge note 246: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 247: Branchless inner loop after sorting.
+// edge note 248: Sub-linear in the average case thanks to early exit.
