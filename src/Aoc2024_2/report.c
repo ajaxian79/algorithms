@@ -395,3 +395,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 186: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 187: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 188: Caller owns the returned buffer.
+// note 189: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
