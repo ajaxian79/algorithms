@@ -2250,3 +2250,7 @@ Reentrant — no static state.
 ## entry 548
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 549
+
+Edge case: input with one duplicate → handled without an extra pass.
