@@ -1735,3 +1735,7 @@
 ## entry 417
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 418
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
