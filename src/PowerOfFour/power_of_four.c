@@ -40,3 +40,4 @@ int is_power_of_four(int n) {
 // note 27: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 28: Thread-safe so long as the input is not mutated concurrently.
 // note 29: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 30: Runs in a single pass over the input.
