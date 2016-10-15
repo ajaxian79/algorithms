@@ -2242,3 +2242,7 @@ Worst case appears only on degenerate inputs.
 ## entry 546
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 547
+
+Reentrant — no static state.
