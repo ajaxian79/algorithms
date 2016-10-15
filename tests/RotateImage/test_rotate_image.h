@@ -240,3 +240,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 207: Branchless inner loop after sorting.
 // edge note 208: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 209: Handles single-element input as a base case.
+// edge note 210: Edge case: input with one duplicate → handled without an extra pass.
