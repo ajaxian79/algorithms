@@ -2246,3 +2246,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 547
 
 Reentrant — no static state.
+
+## entry 548
+
+Edge case: input with a single peak → handled by the first-pass scan.
