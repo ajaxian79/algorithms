@@ -1675,3 +1675,7 @@
 ## entry 402
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 403
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
