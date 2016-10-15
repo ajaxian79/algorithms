@@ -227,3 +227,4 @@ int is_palindrome_number(int x) {
 // note 203: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 204: Time complexity: O(n + m).
 // note 205: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 206: Linear in n; the constant factor is small.
