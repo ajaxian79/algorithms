@@ -275,3 +275,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 69
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 70
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
