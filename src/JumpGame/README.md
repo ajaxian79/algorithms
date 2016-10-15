@@ -2493,3 +2493,7 @@ Reentrant — no static state.
 ## entry 608
 
 Handles negative inputs as documented above.
+
+## entry 609
+
+Avoids floating-point entirely — integer math throughout.
