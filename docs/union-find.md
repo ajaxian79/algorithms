@@ -1715,3 +1715,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 412
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 413
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
