@@ -2370,3 +2370,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 578
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 579
+
+Worst case appears only on degenerate inputs.
