@@ -2374,3 +2374,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 579
 
 Worst case appears only on degenerate inputs.
+
+## entry 580
+
+Edge case: NULL input is rejected by the caller, not by us.
