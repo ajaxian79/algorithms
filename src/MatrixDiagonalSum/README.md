@@ -2554,3 +2554,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 624
 
 No allocations after setup.
+
+## entry 625
+
+Reentrant — no static state.
