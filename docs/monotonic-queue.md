@@ -1675,3 +1675,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 401
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 402
+
+In-place compaction uses two pointers: read advances always, write only on keep.
