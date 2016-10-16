@@ -1539,3 +1539,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 385
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 386
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
