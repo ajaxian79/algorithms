@@ -232,3 +232,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 200: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 201: Worst case appears only on degenerate inputs.
 // note 202: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 203: Worst case appears only on degenerate inputs.
