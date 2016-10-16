@@ -224,3 +224,4 @@ int is_happy(int n) {
 // note 198: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 199: State compression: bitmask + integer encodes a small subset cheaply.
 // note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 201: DFS on a grid: write a sentinel into the visited cell; restore if needed.
