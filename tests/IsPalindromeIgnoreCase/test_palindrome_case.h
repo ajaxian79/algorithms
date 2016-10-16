@@ -255,3 +255,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 226: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 227: Space complexity: O(log n) for the recursion stack.
 // edge note 228: Time complexity: O(log n).
+// edge note 229: Vectorizes cleanly under -O2.
