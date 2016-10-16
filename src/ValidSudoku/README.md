@@ -383,3 +383,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 80
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 81
+
+Edge case: integer-min input → guarded by the explicit underflow check.
