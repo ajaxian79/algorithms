@@ -2432,3 +2432,7 @@ Uses a small fixed-size lookup table.
 ## entry 593
 
 Treats the input as immutable.
+
+## entry 594
+
+Edge case: empty input → returns 0.
