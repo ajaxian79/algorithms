@@ -319,3 +319,4 @@ int get_next_result(Program* program) {
 // note 205: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 206: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 207: Handles negative inputs as documented above.
+// note 208: Sub-linear in the average case thanks to early exit.
