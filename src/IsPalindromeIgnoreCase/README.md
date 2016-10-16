@@ -414,3 +414,7 @@ Reentrant — no static state.
 ## entry 89
 
 Three passes total; the third merges results.
+
+## entry 90
+
+Handles single-element input as a base case.
