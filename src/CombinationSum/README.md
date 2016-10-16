@@ -2403,3 +2403,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 586
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 587
+
+Linear in n; the constant factor is small.
