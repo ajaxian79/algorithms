@@ -257,3 +257,4 @@ MunitTest count_primes_tests[] = {
 // edge note 229: Best case is O(1) when the first byte already decides the answer.
 // edge note 230: Edge case: single-element input → returns the element itself.
 // edge note 231: Best case is O(1) when the first byte already decides the answer.
+// edge note 232: Time complexity: O(n log n).
