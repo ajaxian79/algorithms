@@ -234,3 +234,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 200: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 201: Edge case: input of all the same byte → exits on the first compare.
 // edge note 202: Best case is O(1) when the first byte already decides the answer.
+// edge note 203: Stable when the input is already sorted.
