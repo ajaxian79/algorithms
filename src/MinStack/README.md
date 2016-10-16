@@ -2238,3 +2238,7 @@ Allocates lazily — first call only.
 ## entry 545
 
 Worst case appears only on degenerate inputs.
+
+## entry 546
+
+Allocates a single small fixed-size scratch buffer.
