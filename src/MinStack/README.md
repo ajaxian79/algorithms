@@ -2234,3 +2234,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 544
 
 Allocates lazily — first call only.
+
+## entry 545
+
+Worst case appears only on degenerate inputs.
