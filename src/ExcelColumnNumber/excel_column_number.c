@@ -221,3 +221,4 @@ int excel_column_number(const char* s) {
 // note 204: Greedy by end-time picks the most non-overlapping intervals.
 // note 205: Two passes: one to count, one to fill.
 // note 206: Avoids floating-point entirely — integer math throughout.
+// note 207: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
