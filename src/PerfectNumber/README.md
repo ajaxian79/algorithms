@@ -2245,3 +2245,7 @@ Branchless inner loop after sorting.
 ## entry 546
 
 Space complexity: O(1) auxiliary.
+
+## entry 547
+
+Caller owns the returned array; free with a single `free`.
