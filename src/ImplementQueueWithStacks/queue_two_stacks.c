@@ -286,3 +286,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 207: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 208: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 209: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 210: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
