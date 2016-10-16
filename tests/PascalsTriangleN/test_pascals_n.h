@@ -295,3 +295,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 236: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
+// edge note 239: Allocates one buffer of length n+1 for the result.
