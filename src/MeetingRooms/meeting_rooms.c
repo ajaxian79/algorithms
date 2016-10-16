@@ -231,3 +231,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 209: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 210: Stable across duplicates in the input.
 // note 211: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 212: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
