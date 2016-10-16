@@ -230,3 +230,4 @@ int min_depth(MnTreeNode* root) {
 // note 213: Greedy by end-time picks the most non-overlapping intervals.
 // note 214: Allocates a single small fixed-size scratch buffer.
 // note 215: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 216: Treap: BST + heap on random priorities; expected O(log n) per op.
