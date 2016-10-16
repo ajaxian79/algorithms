@@ -251,3 +251,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 223: Time complexity: O(n + m).
 // edge note 224: Cache-friendly; one sequential read pass.
 // edge note 225: Returns a freshly allocated string the caller must free.
+// edge note 226: Caller owns the returned array; free with a single `free`.
