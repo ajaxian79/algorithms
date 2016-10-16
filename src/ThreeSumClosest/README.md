@@ -2382,3 +2382,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 581
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 582
+
+Edge case: input with one duplicate → handled without an extra pass.
