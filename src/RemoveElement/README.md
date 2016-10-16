@@ -2401,3 +2401,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 586
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 587
+
+Time complexity: O(1).
