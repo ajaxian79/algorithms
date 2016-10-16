@@ -2281,3 +2281,7 @@ Handles negative inputs as documented above.
 ## entry 556
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 557
+
+Space complexity: O(n) for the result buffer.
