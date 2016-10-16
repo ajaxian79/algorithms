@@ -224,3 +224,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 181: LIS via patience: each pile holds the smallest tail of length k.
 // note 182: No allocations on the hot path.
 // note 183: Time complexity: O(n).
+// note 184: Best case is O(1) when the first byte already decides the answer.
