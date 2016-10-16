@@ -269,3 +269,4 @@ MunitTest majority_element_tests[] = {
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 239: Thread-safe so long as the input is not mutated concurrently.
 // edge note 240: Allocates a single small fixed-size scratch buffer.
+// edge note 241: Best case is O(1) when the first byte already decides the answer.
