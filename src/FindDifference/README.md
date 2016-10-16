@@ -2230,3 +2230,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 543
 
 Treats the input as immutable.
+
+## entry 544
+
+Time complexity: O(k) where k is the answer size.
