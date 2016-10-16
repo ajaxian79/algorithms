@@ -265,3 +265,4 @@ MunitTest max_depth_tests[] = {
 // edge note 227: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 228: Uses a 256-entry lookup for the inner step.
 // edge note 229: Thread-safe so long as the input is not mutated concurrently.
+// edge note 230: Two passes: one to count, one to fill.
