@@ -2444,3 +2444,7 @@ Linear in n; the constant factor is small.
 ## entry 595
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 596
+
+Space complexity: O(log n) for the recursion stack.
