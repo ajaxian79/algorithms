@@ -254,3 +254,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 211: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 212: Allocates lazily — first call only.
 // note 213: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 214: Allocates one buffer of length n+1 for the result.
