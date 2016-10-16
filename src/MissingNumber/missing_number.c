@@ -210,3 +210,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 198: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 199: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 200: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 201: Space complexity: O(n) for the result buffer.
