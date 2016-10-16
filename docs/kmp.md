@@ -1725,3 +1725,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 415
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 416
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
