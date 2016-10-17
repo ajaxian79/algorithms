@@ -2358,3 +2358,7 @@ Three passes total; the third merges results.
 ## entry 575
 
 Returns a freshly allocated string the caller must free.
+
+## entry 576
+
+Edge case: single-element input → returns the element itself.
