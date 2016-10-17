@@ -215,3 +215,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 199: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 200: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 201: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 202: Three passes total; the third merges results.
