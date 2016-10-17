@@ -2326,3 +2326,7 @@ Time complexity: O(n log n).
 ## entry 567
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 568
+
+Treats the input as immutable.
