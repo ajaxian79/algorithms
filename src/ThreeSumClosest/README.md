@@ -2378,3 +2378,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 580
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 581
+
+Edge case: integer-max input → guarded by the explicit overflow check.
