@@ -240,3 +240,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 215: Allocates one buffer of length n+1 for the result.
 // edge note 216: Allocates a single small fixed-size scratch buffer.
 // edge note 217: Vectorizes cleanly under -O2.
+// edge note 218: Edge case: integer-max input → guarded by the explicit overflow check.
