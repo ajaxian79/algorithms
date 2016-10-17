@@ -2366,3 +2366,7 @@ No allocations after setup.
 ## entry 577
 
 Returns a freshly allocated string the caller must free.
+
+## entry 578
+
+Resists adversarial inputs by randomizing the pivot.
