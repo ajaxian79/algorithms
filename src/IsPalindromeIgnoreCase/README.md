@@ -2362,3 +2362,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 576
 
 Edge case: single-element input → returns the element itself.
+
+## entry 577
+
+Edge case: input of all the same byte → exits on the first compare.
