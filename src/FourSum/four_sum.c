@@ -270,3 +270,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 212: Time complexity: O(log n).
 // note 213: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 214: Worst case appears only on degenerate inputs.
