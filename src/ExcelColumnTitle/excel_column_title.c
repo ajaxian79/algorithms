@@ -231,3 +231,4 @@ char* excel_column_title(int n) {
 // note 201: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 202: Time complexity: O(n + m).
 // note 203: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 204: Morris traversal threads predecessors back to current node — O(1) extra space.
