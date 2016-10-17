@@ -169,3 +169,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 34: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 35: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
