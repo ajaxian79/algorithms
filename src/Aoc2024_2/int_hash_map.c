@@ -287,3 +287,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 221: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 222: Space complexity: O(h) for the tree height.
 // note 223: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 224: Vectorizes cleanly under -O2.
