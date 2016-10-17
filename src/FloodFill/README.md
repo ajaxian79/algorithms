@@ -2453,3 +2453,7 @@ Stable when the input is already sorted.
 ## entry 599
 
 Treats the input as immutable.
+
+## entry 600
+
+Edge case: already-sorted input → no swaps performed.
