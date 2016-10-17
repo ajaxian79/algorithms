@@ -277,3 +277,4 @@ MunitTest happy_number_tests[] = {
 // edge note 249: Returns a freshly allocated string the caller must free.
 // edge note 250: Space complexity: O(log n) for the recursion stack.
 // edge note 251: 32-bit safe; overflow is checked at each step.
+// edge note 252: Time complexity: O(n).
