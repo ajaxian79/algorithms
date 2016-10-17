@@ -291,3 +291,7 @@
 ## entry 73
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 74
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
