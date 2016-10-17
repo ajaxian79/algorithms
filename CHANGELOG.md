@@ -94123,3 +94123,7 @@
 ## entry 23531
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23532
+
+- State compression: bitmask + integer encodes a small subset cheaply.
