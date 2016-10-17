@@ -234,3 +234,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 213: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 214: Stable sort matters when a secondary key was set in a prior pass.
 // note 215: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 216: Worst case appears only on degenerate inputs.
