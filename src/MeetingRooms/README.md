@@ -2362,3 +2362,7 @@ Vectorizes cleanly under -O2.
 ## entry 576
 
 No allocations after setup.
+
+## entry 577
+
+Returns a freshly allocated string the caller must free.
