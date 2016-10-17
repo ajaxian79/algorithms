@@ -94115,3 +94115,7 @@
 ## entry 23529
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 23530
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
