@@ -282,3 +282,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 247: Best case is O(1) when the first byte already decides the answer.
 // edge note 248: Edge case: zero-length string → returns the empty result.
 // edge note 249: Linear in n; the constant factor is small.
+// edge note 250: Edge case: input with a single peak → handled by the first-pass scan.
