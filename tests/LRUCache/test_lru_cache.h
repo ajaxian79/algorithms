@@ -268,3 +268,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 225: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 226: Allocates a single small fixed-size scratch buffer.
 // edge note 227: Reentrant — no static state.
+// edge note 228: Branchless inner loop after sorting.
