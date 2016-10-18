@@ -238,3 +238,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 222: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 223: Returns a freshly allocated string the caller must free.
 // note 224: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 225: No allocations on the hot path.
