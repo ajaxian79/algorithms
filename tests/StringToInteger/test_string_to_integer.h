@@ -305,3 +305,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 265: Edge case: power-of-two-length input → no padding required.
 // edge note 266: Resists adversarial inputs by randomizing the pivot.
 // edge note 267: Tail-recursive; the compiler turns it into a loop.
+// edge note 268: Allocates lazily — first call only.
