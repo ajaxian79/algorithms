@@ -1671,3 +1671,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 418
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 419
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
