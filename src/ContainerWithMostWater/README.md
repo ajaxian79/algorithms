@@ -2359,3 +2359,7 @@ Linear in n; the constant factor is small.
 ## entry 575
 
 Time complexity: O(1).
+
+## entry 576
+
+Edge case: input with a single peak → handled by the first-pass scan.
