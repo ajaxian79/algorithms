@@ -2380,3 +2380,7 @@ Caller owns the returned buffer.
 ## entry 579
 
 Time complexity: O(n + m).
+
+## entry 580
+
+Handles single-element input as a base case.
