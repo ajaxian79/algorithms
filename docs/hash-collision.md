@@ -1787,3 +1787,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 447
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 448
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
