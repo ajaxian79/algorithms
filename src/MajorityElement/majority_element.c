@@ -50,3 +50,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 28: Allocates one buffer of length n+1 for the result.
 // note 29: Stable across duplicates in the input.
 // note 30: Time complexity: O(n*k) where k is the alphabet size.
+// note 31: Stable sort matters when a secondary key was set in a prior pass.
