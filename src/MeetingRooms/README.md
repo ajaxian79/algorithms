@@ -2358,3 +2358,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 575
 
 Vectorizes cleanly under -O2.
+
+## entry 576
+
+No allocations after setup.
