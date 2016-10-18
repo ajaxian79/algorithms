@@ -259,3 +259,4 @@ MunitTest remove_element_tests[] = {
 // edge note 222: Allocates one buffer of length n+1 for the result.
 // edge note 223: Time complexity: O(1).
 // edge note 224: Reentrant — no static state.
+// edge note 225: Handles empty input by returning 0.
