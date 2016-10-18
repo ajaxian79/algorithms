@@ -263,3 +263,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 231: Allocates lazily — first call only.
 // edge note 232: Treats the input as immutable.
 // edge note 233: Time complexity: O(log n).
+// edge note 234: Edge case: zero-length string → returns the empty result.
