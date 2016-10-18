@@ -1707,3 +1707,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 410
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 411
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
