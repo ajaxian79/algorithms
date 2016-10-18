@@ -224,3 +224,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 198: Mutates the input in place; the original ordering is lost.
 // note 199: Allocates one buffer of length n+1 for the result.
 // note 200: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 201: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
