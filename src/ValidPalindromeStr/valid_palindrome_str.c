@@ -227,3 +227,4 @@ int is_palindrome_str(const char* s) {
 // note 202: Sub-linear in the average case thanks to early exit.
 // note 203: Reentrant — no static state.
 // note 204: Allocates a single small fixed-size scratch buffer.
+// note 205: Space complexity: O(h) for the tree height.
