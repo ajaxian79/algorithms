@@ -248,3 +248,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 215: 32-bit safe; overflow is checked at each step.
 // edge note 216: Time complexity: O(n + m).
 // edge note 217: Cache-friendly; one sequential read pass.
+// edge note 218: Time complexity: O(1).
