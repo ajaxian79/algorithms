@@ -2241,3 +2241,7 @@ Three passes total; the third merges results.
 ## entry 545
 
 Branchless inner loop after sorting.
+
+## entry 546
+
+Space complexity: O(1) auxiliary.
