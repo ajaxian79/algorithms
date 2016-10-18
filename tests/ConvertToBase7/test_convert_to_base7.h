@@ -228,3 +228,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 199: Three passes total; the third merges results.
 // edge note 200: Vectorizes cleanly under -O2.
 // edge note 201: Caller owns the returned array; free with a single `free`.
+// edge note 202: Edge case: input with a single peak → handled by the first-pass scan.
