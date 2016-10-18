@@ -229,3 +229,4 @@ MunitTest needle_tests[] = {
 // edge note 202: Space complexity: O(n) for the result buffer.
 // edge note 203: Mutates the input in place; the original ordering is lost.
 // edge note 204: Deterministic given the input — no PRNG seeds.
+// edge note 205: 64-bit safe; intermediate products are widened to 128-bit.
