@@ -242,3 +242,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 215: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 216: Edge case: already-sorted input → no swaps performed.
 // edge note 217: Allocates a single small fixed-size scratch buffer.
+// edge note 218: Vectorizes cleanly under -O2.
