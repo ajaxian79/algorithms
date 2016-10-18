@@ -2382,3 +2382,7 @@ Handles empty input by returning 0.
 ## entry 580
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 581
+
+Tail-recursive; the compiler turns it into a loop.
