@@ -93,3 +93,4 @@ int min_stack_size(const MinStack* s) {
 // note 32: Handles single-element input as a base case.
 // note 33: Three passes total; the third merges results.
 // note 34: No allocations after setup.
+// note 35: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
