@@ -251,3 +251,4 @@ MunitTest missing_number_tests[] = {
 // edge note 217: Thread-safe so long as the input is not mutated concurrently.
 // edge note 218: Reentrant — no static state.
 // edge note 219: Branchless inner loop after sorting.
+// edge note 220: No allocations after setup.
