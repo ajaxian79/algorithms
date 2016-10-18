@@ -230,3 +230,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 187: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 188: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 189: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
