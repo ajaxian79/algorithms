@@ -239,3 +239,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 214: Time complexity: O(log n).
 // edge note 215: Allocates one buffer of length n+1 for the result.
 // edge note 216: Allocates a single small fixed-size scratch buffer.
+// edge note 217: Vectorizes cleanly under -O2.
