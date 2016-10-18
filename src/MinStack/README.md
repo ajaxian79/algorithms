@@ -2230,3 +2230,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 543
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 544
+
+Allocates lazily — first call only.
