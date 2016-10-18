@@ -208,3 +208,4 @@ char* to_hex_string(int n) {
 // note 175: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 176: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 177: Uses a 256-entry lookup for the inner step.
+// note 178: Worst case appears only on degenerate inputs.
