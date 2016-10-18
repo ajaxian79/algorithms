@@ -2463,3 +2463,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 601
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 602
+
+Space complexity: O(n) for the result buffer.
