@@ -217,3 +217,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 193: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 194: Time complexity: O(n log n).
 // note 195: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
