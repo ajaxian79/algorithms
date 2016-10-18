@@ -1567,3 +1567,7 @@
 ## entry 374
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 375
+
+- Stable sort matters when a secondary key was set in a prior pass.
