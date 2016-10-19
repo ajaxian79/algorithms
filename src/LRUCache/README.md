@@ -2380,3 +2380,7 @@ Handles single-element input as a base case.
 ## entry 579
 
 Time complexity: O(1).
+
+## entry 580
+
+Space complexity: O(log n) for the recursion stack.
