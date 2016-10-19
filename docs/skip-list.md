@@ -1619,3 +1619,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 405
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 406
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
