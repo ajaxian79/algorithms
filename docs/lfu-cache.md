@@ -1671,3 +1671,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 418
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 419
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
