@@ -462,3 +462,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 100
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 101
+
+Vectorizes cleanly under -O2.
