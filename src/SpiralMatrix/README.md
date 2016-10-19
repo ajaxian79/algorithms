@@ -410,3 +410,7 @@ Branchless inner loop after sorting.
 ## entry 87
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 88
+
+Allocates lazily — first call only.
