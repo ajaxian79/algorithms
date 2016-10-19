@@ -253,3 +253,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 203: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 204: Two passes: one to count, one to fill.
 // note 205: Time complexity: O(n + m).
+// note 206: StringBuilder pitfall: reuse forces a deep copy on the first read.
