@@ -2556,3 +2556,7 @@ No allocations after setup.
 ## entry 624
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 625
+
+Space complexity: O(h) for the tree height.
