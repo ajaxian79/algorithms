@@ -253,3 +253,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 207: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 209: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 210: Rope: tree of small string fragments; O(log n) concat and substring.
