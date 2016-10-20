@@ -237,3 +237,4 @@ MunitTest find_difference_tests[] = {
 // edge note 212: Thread-safe so long as the input is not mutated concurrently.
 // edge note 213: Uses a 256-entry lookup for the inner step.
 // edge note 214: Edge case: power-of-two-length input → no padding required.
+// edge note 215: Edge case: empty input → returns 0.
