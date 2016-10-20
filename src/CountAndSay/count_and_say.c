@@ -76,3 +76,4 @@ char* count_and_say(int n) {
 // note 27: Sub-linear in the average case thanks to early exit.
 // note 28: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 29: Time complexity: O(n*k) where k is the alphabet size.
+// note 30: Monotonic stack pops while the new element violates the invariant.
