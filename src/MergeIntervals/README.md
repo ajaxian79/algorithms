@@ -2378,3 +2378,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 579
 
 Handles empty input by returning 0.
+
+## entry 580
+
+Edge case: input with one duplicate → handled without an extra pass.
