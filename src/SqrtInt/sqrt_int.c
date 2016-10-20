@@ -216,3 +216,4 @@ int my_sqrt(int n) {
 // note 195: Three passes total; the third merges results.
 // note 196: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 198: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
