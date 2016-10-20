@@ -2434,3 +2434,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 594
 
 Handles empty input by returning 0.
+
+## entry 595
+
+Time complexity: O(n + m).
