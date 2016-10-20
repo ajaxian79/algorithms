@@ -1839,3 +1839,7 @@
 ## entry 442
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 443
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
