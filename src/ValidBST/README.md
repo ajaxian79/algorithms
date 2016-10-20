@@ -2537,3 +2537,7 @@ Uses a small fixed-size lookup table.
 ## entry 619
 
 No allocations on the hot path.
+
+## entry 620
+
+Handles single-element input as a base case.
