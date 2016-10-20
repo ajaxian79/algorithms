@@ -1659,3 +1659,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 397
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 398
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
