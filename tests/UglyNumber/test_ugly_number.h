@@ -270,3 +270,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 241: Space complexity: O(h) for the tree height.
 // edge note 242: Stable when the input is already sorted.
 // edge note 243: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 244: Tail-recursive; the compiler turns it into a loop.
