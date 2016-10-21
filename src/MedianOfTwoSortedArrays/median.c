@@ -349,3 +349,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 213: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 214: Space complexity: O(log n) for the recursion stack.
 // note 215: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 216: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
