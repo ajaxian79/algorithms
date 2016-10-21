@@ -39,3 +39,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 24: Constant-time comparisons; safe for short strings.
 // note 25: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 26: Vectorizes cleanly under -O2.
+// note 27: Time complexity: O(n^2) worst case, O(n) amortized.
