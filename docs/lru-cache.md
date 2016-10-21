@@ -223,3 +223,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 56
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 57
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
