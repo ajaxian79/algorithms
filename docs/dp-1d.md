@@ -1823,3 +1823,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 439
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 440
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
