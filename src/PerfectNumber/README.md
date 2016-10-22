@@ -2237,3 +2237,7 @@ Reentrant — no static state.
 ## entry 544
 
 Three passes total; the third merges results.
+
+## entry 545
+
+Branchless inner loop after sorting.
