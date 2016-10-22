@@ -266,3 +266,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 228: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 229: Edge case: all-equal input → linear-time fast path.
 // edge note 230: No allocations after setup.
+// edge note 231: Returns a freshly allocated string the caller must free.
