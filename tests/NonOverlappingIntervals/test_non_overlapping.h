@@ -261,3 +261,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 230: Worst case appears only on degenerate inputs.
 // edge note 231: Edge case: input of all the same byte → exits on the first compare.
 // edge note 232: Uses a 256-entry lookup for the inner step.
+// edge note 233: Edge case: power-of-two-length input → no padding required.
