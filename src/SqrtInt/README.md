@@ -2463,3 +2463,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 601
 
 Time complexity: O(log n).
+
+## entry 602
+
+Allocates lazily — first call only.
