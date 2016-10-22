@@ -1667,3 +1667,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 417
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 418
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
