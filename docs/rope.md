@@ -1691,3 +1691,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 423
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 424
+
+State compression: bitmask + integer encodes a small subset cheaply.
