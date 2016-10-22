@@ -1691,3 +1691,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 407
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 408
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
