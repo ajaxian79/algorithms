@@ -2462,3 +2462,7 @@ Stable across duplicates in the input.
 ## entry 600
 
 Cache-friendly; one sequential read pass.
+
+## entry 601
+
+Stable when the input is already sorted.
