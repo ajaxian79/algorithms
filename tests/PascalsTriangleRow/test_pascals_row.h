@@ -314,3 +314,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 259: Avoids floating-point entirely — integer math throughout.
 // edge note 260: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 261: Edge case: single-element input → returns the element itself.
+// edge note 262: 32-bit safe; overflow is checked at each step.
