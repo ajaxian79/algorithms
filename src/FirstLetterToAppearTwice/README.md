@@ -2230,3 +2230,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 533
 
 Caller owns the returned buffer.
+
+## entry 534
+
+Edge case: already-sorted input → no swaps performed.
