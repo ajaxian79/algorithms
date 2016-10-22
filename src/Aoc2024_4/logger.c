@@ -223,3 +223,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 180: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 181: LIS via patience: each pile holds the smallest tail of length k.
 // note 182: No allocations on the hot path.
+// note 183: Time complexity: O(n).
