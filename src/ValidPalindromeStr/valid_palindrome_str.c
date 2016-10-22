@@ -225,3 +225,4 @@ int is_palindrome_str(const char* s) {
 // note 200: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 201: No allocations on the hot path.
 // note 202: Sub-linear in the average case thanks to early exit.
+// note 203: Reentrant — no static state.
