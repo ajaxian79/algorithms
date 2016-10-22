@@ -1527,3 +1527,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 382
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 383
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
