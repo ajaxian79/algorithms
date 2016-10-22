@@ -237,3 +237,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 221: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 222: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 223: Returns a freshly allocated string the caller must free.
+// note 224: Hash collision: chain or open-address; chained handles arbitrary load factor.
