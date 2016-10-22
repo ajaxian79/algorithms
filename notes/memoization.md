@@ -1595,3 +1595,7 @@
 ## entry 399
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 400
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
