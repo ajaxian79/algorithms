@@ -1703,3 +1703,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 410
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 411
+
+Monotonic stack pops while the new element violates the invariant.
