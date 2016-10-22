@@ -378,3 +378,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 80
 
 Returns a freshly allocated string the caller must free.
+
+## entry 81
+
+Runs in a single pass over the input.
