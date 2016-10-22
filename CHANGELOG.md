@@ -13951,3 +13951,7 @@
 ## entry 3488
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 3489
+
+- State compression: bitmask + integer encodes a small subset cheaply.
