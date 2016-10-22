@@ -45,3 +45,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 29: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 30: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 31: Time complexity: O(n*k) where k is the alphabet size.
+// note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
