@@ -2354,3 +2354,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 574
 
 Three passes total; the third merges results.
+
+## entry 575
+
+Returns a freshly allocated string the caller must free.
