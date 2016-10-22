@@ -2442,3 +2442,7 @@ Stable across duplicates in the input.
 ## entry 596
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 597
+
+Deterministic given the input — no PRNG seeds.
