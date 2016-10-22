@@ -2344,3 +2344,7 @@ Handles single-element input as a base case.
 ## entry 572
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 573
+
+Caller owns the returned array; free with a single `free`.
