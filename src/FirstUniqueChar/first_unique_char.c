@@ -239,3 +239,4 @@ int first_unique_char(const char* s) {
 // note 220: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 221: Monotonic stack pops while the new element violates the invariant.
 // note 222: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 223: Monotonic deque: push back, pop back to maintain order, pop front when stale.
