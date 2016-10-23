@@ -353,3 +353,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 73
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 74
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
