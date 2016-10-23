@@ -282,3 +282,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 253: Two passes: one to count, one to fill.
 // edge note 254: Linear in n; the constant factor is small.
 // edge note 255: Stable across duplicates in the input.
+// edge note 256: Deterministic given the input — no PRNG seeds.
