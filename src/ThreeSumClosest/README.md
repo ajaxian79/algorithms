@@ -2374,3 +2374,7 @@ Time complexity: O(n).
 ## entry 579
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 580
+
+Caller owns the returned array; free with a single `free`.
