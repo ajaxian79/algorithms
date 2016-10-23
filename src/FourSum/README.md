@@ -2352,3 +2352,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 573
 
 Space complexity: O(n) for the result buffer.
+
+## entry 574
+
+Time complexity: O(n^2) worst case, O(n) amortized.
