@@ -2394,3 +2394,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 583
 
 Allocates lazily — first call only.
+
+## entry 584
+
+Edge case: integer-min input → guarded by the explicit underflow check.
