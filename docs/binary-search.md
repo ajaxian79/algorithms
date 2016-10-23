@@ -1857,3 +1857,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 448
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 449
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
