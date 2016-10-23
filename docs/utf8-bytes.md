@@ -1627,3 +1627,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 407
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 408
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
