@@ -2438,3 +2438,7 @@ Worst case appears only on degenerate inputs.
 ## entry 595
 
 Stable across duplicates in the input.
+
+## entry 596
+
+Space complexity: O(log n) for the recursion stack.
