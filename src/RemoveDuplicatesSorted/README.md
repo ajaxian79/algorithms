@@ -2570,3 +2570,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 628
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 629
+
+Time complexity: O(n log n).
