@@ -2520,3 +2520,7 @@ Handles empty input by returning 0.
 ## entry 615
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 616
+
+Allocates a single small fixed-size scratch buffer.
