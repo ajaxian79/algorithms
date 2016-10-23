@@ -2374,3 +2374,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 578
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 579
+
+Handles empty input by returning 0.
