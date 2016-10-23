@@ -421,3 +421,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 199: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 200: Allocates lazily — first call only.
 // note 201: Time complexity: O(1).
+// note 202: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
