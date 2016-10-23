@@ -2376,3 +2376,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 578
 
 Handles single-element input as a base case.
+
+## entry 579
+
+Time complexity: O(1).
