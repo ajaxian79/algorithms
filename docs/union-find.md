@@ -299,3 +299,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 58
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 59
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
