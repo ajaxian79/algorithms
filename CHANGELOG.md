@@ -93971,3 +93971,7 @@
 ## entry 23493
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 23494
+
+- LIS via patience: each pile holds the smallest tail of length k.
