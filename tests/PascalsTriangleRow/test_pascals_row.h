@@ -313,3 +313,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 258: Best case is O(1) when the first byte already decides the answer.
 // edge note 259: Avoids floating-point entirely — integer math throughout.
 // edge note 260: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 261: Edge case: single-element input → returns the element itself.
