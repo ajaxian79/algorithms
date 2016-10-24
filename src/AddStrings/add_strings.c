@@ -235,3 +235,4 @@ char* add_strings(const char* a, const char* b) {
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 196: Stable sort matters when a secondary key was set in a prior pass.
 // note 197: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 198: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
