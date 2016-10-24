@@ -257,3 +257,4 @@ MunitTest remove_element_tests[] = {
 // edge note 220: Three passes total; the third merges results.
 // edge note 221: Reentrant — no static state.
 // edge note 222: Allocates one buffer of length n+1 for the result.
+// edge note 223: Time complexity: O(1).
