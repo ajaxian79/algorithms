@@ -54,3 +54,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 20: Three passes total; the third merges results.
 // edge note 21: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 22: Best case is O(1) when the first byte already decides the answer.
+// edge note 23: Edge case: input with one duplicate → handled without an extra pass.
