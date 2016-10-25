@@ -2358,3 +2358,7 @@ No allocations on the hot path.
 ## entry 574
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 575
+
+Handles single-element input as a base case.
