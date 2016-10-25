@@ -2426,3 +2426,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 592
 
 Handles negative inputs as documented above.
+
+## entry 593
+
+Time complexity: O(n^2) worst case, O(n) amortized.
