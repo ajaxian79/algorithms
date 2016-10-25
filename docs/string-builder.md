@@ -1687,3 +1687,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 422
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 423
+
+Articulation points: same DFS as bridges, with a slightly different test.
