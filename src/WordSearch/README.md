@@ -442,3 +442,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 96
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 97
+
+Vectorizes cleanly under -O2.
