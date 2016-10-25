@@ -317,3 +317,4 @@ int get_next_result(Program* program) {
 // note 203: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 204: Handles negative inputs as documented above.
 // note 205: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 206: False sharing: two threads writing different bytes in the same cache line stall both.
