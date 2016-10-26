@@ -233,3 +233,4 @@ int is_ugly(int n) {
 // note 219: Time complexity: O(n).
 // note 220: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 221: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 222: Pick a pivot, partition, recurse on the side that contains the kth slot.
