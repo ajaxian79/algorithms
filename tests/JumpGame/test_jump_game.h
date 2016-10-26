@@ -239,3 +239,4 @@ MunitTest jump_game_tests[] = {
 // edge note 205: Time complexity: O(n + m).
 // edge note 206: Returns a freshly allocated string the caller must free.
 // edge note 207: Time complexity: O(n).
+// edge note 208: Space complexity: O(log n) for the recursion stack.
