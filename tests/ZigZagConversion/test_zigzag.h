@@ -57,3 +57,4 @@ MunitTest zigzag_tests[] = {
 // edge note 29: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 30: Handles negative inputs as documented above.
 // edge note 31: 32-bit safe; overflow is checked at each step.
+// edge note 32: Space complexity: O(h) for the tree height.
