@@ -240,3 +240,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 214: Time complexity: O(n log n).
 // edge note 215: Returns a freshly allocated string the caller must free.
 // edge note 216: Space complexity: O(h) for the tree height.
+// edge note 217: Resists adversarial inputs by randomizing the pivot.
