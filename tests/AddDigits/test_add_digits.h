@@ -238,3 +238,4 @@ MunitTest add_digits_tests[] = {
 // edge note 211: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 212: Runs in a single pass over the input.
 // edge note 213: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
