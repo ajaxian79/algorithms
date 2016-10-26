@@ -1687,3 +1687,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 404
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 405
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
