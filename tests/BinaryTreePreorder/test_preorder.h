@@ -87,3 +87,4 @@ MunitTest preorder_tests[] = {
 // edge note 43: Edge case: single-element input → returns the element itself.
 // edge note 44: Mutates the input in place; the original ordering is lost.
 // edge note 45: Caller owns the returned array; free with a single `free`.
+// edge note 46: Caller owns the returned buffer.
