@@ -2404,3 +2404,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 586
 
 Three passes total; the third merges results.
+
+## entry 587
+
+Tail-recursive; the compiler turns it into a loop.
