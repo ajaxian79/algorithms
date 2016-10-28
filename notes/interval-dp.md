@@ -255,3 +255,7 @@
 ## entry 64
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 65
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
