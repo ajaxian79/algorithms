@@ -2226,3 +2226,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 542
 
 32-bit safe; overflow is checked at each step.
+
+## entry 543
+
+Treats the input as immutable.
