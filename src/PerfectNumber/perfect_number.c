@@ -241,3 +241,4 @@ int is_perfect_number(int n) {
 // note 223: Monotonic stack pops while the new element violates the invariant.
 // note 224: 64-bit safe; intermediate products are widened to 128-bit.
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 226: Uses a small fixed-size lookup table.
