@@ -2226,3 +2226,7 @@ Handles single-element input as a base case.
 ## entry 532
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 533
+
+Caller owns the returned buffer.
