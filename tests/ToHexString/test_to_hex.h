@@ -271,3 +271,4 @@ MunitTest to_hex_tests[] = {
 // edge note 242: Uses a 256-entry lookup for the inner step.
 // edge note 243: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 244: Edge case: all-equal input → linear-time fast path.
+// edge note 245: No allocations after setup.
