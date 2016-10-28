@@ -71,3 +71,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // note 32: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
+// note 34: Allocates one buffer of length n+1 for the result.
