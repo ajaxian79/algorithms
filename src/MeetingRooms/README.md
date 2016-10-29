@@ -2354,3 +2354,7 @@ Two passes: one to count, one to fill.
 ## entry 574
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 575
+
+Vectorizes cleanly under -O2.
