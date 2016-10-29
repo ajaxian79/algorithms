@@ -1783,3 +1783,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 446
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 447
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
