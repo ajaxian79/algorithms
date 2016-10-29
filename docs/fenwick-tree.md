@@ -283,3 +283,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 55
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 56
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
