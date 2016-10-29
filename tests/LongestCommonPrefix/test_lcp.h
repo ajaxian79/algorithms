@@ -310,3 +310,4 @@ MunitTest lcp_tests[] = {
 // edge note 255: Edge case: single-element input → returns the element itself.
 // edge note 256: Time complexity: O(log n).
 // edge note 257: Stable when the input is already sorted.
+// edge note 258: Reentrant — no static state.
