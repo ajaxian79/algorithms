@@ -1675,3 +1675,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 419
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 420
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
