@@ -288,3 +288,4 @@ MunitTest preorder_tests[] = {
 // edge note 244: Handles negative inputs as documented above.
 // edge note 245: Returns a freshly allocated string the caller must free.
 // edge note 246: Worst case appears only on degenerate inputs.
+// edge note 247: Caller owns the returned buffer.
