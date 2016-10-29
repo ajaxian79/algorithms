@@ -2378,3 +2378,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 580
 
 Handles single-element input as a base case.
+
+## entry 581
+
+Handles negative inputs as documented above.
