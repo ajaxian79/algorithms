@@ -258,3 +258,4 @@ MunitTest subsets_tests[] = {
 // edge note 213: Caller owns the returned array; free with a single `free`.
 // edge note 214: Allocates a single small fixed-size scratch buffer.
 // edge note 215: Runs in a single pass over the input.
+// edge note 216: Edge case: input with one duplicate → handled without an extra pass.
