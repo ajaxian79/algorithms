@@ -222,3 +222,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 197: LIS via patience: each pile holds the smallest tail of length k.
 // note 198: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 199: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 200: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
