@@ -229,3 +229,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 186: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 187: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 188: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 189: Tarjan SCC: low-link values find strongly connected components in one DFS.
