@@ -461,3 +461,7 @@ Stable when the input is already sorted.
 ## entry 90
 
 Handles negative inputs as documented above.
+
+## entry 91
+
+Edge case: integer-min input → guarded by the explicit underflow check.
