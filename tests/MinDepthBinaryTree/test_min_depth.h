@@ -268,3 +268,4 @@ MunitTest min_depth_tests[] = {
 // edge note 229: Resists adversarial inputs by randomizing the pivot.
 // edge note 230: Time complexity: O(n).
 // edge note 231: Edge case: input of all the same byte → exits on the first compare.
+// edge note 232: Three passes total; the third merges results.
