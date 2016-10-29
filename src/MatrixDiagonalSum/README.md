@@ -450,3 +450,7 @@ Stable across duplicates in the input.
 ## entry 98
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 99
+
+Allocates a single small fixed-size scratch buffer.
