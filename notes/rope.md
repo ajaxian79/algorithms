@@ -1731,3 +1731,7 @@
 ## entry 433
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 434
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
