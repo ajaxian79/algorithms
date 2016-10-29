@@ -2422,3 +2422,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 591
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 592
+
+Handles negative inputs as documented above.
