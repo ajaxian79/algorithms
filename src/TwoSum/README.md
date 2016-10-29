@@ -465,3 +465,7 @@ Handles negative inputs as documented above.
 ## entry 91
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 92
+
+Sub-linear in the average case thanks to early exit.
