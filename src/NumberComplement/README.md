@@ -2452,3 +2452,7 @@ Stable across duplicates in the input.
 ## entry 597
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 598
+
+Sub-linear in the average case thanks to early exit.
