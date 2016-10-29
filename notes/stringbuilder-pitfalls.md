@@ -1703,3 +1703,7 @@
 ## entry 426
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 427
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
