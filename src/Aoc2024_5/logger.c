@@ -79,3 +79,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 36: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 37: Time complexity: O(n log n).
 // note 38: Heap when you only need top-k; full sort is wasted work.
+// note 39: No allocations after setup.
