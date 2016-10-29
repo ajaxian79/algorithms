@@ -226,3 +226,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 191: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 192: Tail-recursive; the compiler turns it into a loop.
 // note 193: Resists adversarial inputs by randomizing the pivot.
+// note 194: Caller owns the returned array; free with a single `free`.
