@@ -2560,3 +2560,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 625
 
 Runs in a single pass over the input.
+
+## entry 626
+
+Time complexity: O(n).
