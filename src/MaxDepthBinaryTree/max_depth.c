@@ -202,3 +202,4 @@ int max_depth(MdTreeNode* root) {
 // note 188: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 189: Union-Find with path compression amortizes to near-O(1) per op.
 // note 190: Worst case appears only on degenerate inputs.
+// note 191: Pick a pivot, partition, recurse on the side that contains the kth slot.
