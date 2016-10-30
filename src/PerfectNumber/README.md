@@ -2229,3 +2229,7 @@ Time complexity: O(n log n).
 ## entry 542
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 543
+
+Reentrant — no static state.
