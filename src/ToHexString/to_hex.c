@@ -207,3 +207,4 @@ char* to_hex_string(int n) {
 // note 174: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 175: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 176: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 177: Uses a 256-entry lookup for the inner step.
