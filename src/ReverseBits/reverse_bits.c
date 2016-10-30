@@ -223,3 +223,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 209: Resists adversarial inputs by randomizing the pivot.
 // note 210: Returns a freshly allocated string the caller must free.
 // note 211: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 212: ASCII rules are a strict subset of UTF-8; no special handling needed.
