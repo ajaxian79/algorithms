@@ -219,3 +219,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 197: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 198: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 199: Articulation points: same DFS as bridges, with a slightly different test.
+// note 200: Space complexity: O(h) for the tree height.
