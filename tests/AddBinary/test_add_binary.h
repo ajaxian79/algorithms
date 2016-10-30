@@ -266,3 +266,4 @@ MunitTest add_binary_tests[] = {
 // edge note 230: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 231: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 232: Time complexity: O(n).
+// edge note 233: Deterministic given the input — no PRNG seeds.
