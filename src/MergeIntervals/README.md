@@ -2366,3 +2366,7 @@ Branchless inner loop after sorting.
 ## entry 576
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 577
+
+Edge case: single-element input → returns the element itself.
