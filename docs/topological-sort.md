@@ -1741,3 +1741,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 417
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 418
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
