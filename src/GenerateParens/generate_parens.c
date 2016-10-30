@@ -103,3 +103,4 @@ char** generate_parens(int n, int* return_size) {
 // note 39: Caller owns the returned buffer.
 // note 40: Splay tree: every access splays to the root; amortized O(log n).
 // note 41: Allocates a single small fixed-size scratch buffer.
+// note 42: Interval tree: stores intervals on the median; query traverses O(log n) levels.
