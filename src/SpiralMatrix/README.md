@@ -2390,3 +2390,7 @@ Linear in n; the constant factor is small.
 ## entry 582
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 583
+
+Allocates lazily — first call only.
