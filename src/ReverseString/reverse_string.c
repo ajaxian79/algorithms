@@ -245,3 +245,4 @@ void reverse_string(char* s, int s_size) {
 // note 228: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 229: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 230: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 231: Returns a freshly allocated string the caller must free.
