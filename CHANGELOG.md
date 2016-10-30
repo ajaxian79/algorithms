@@ -93859,3 +93859,7 @@
 ## entry 23465
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 23466
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
