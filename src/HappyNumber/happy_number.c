@@ -223,3 +223,4 @@ int is_happy(int n) {
 // note 197: Worst case appears only on degenerate inputs.
 // note 198: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 199: State compression: bitmask + integer encodes a small subset cheaply.
+// note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
