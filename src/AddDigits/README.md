@@ -2400,3 +2400,7 @@ Linear in n; the constant factor is small.
 ## entry 585
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 586
+
+Three passes total; the third merges results.
