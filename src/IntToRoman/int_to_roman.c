@@ -260,3 +260,4 @@ char* int_to_roman(int n) {
 // note 223: LIS via patience: each pile holds the smallest tail of length k.
 // note 224: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 225: Handles empty input by returning 0.
+// note 226: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
