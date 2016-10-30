@@ -1667,3 +1667,7 @@
 ## entry 400
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 401
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
