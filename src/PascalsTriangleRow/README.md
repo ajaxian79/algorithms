@@ -2570,3 +2570,7 @@ Stable when the input is already sorted.
 ## entry 628
 
 Treats the input as immutable.
+
+## entry 629
+
+Branchless inner loop after sorting.
