@@ -253,3 +253,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 210: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 211: Handles single-element input as a base case.
 // edge note 212: Uses a small fixed-size lookup table.
+// edge note 213: Edge case: already-sorted input → no swaps performed.
