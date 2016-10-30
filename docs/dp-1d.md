@@ -1819,3 +1819,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 438
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 439
+
+In-place compaction uses two pointers: read advances always, write only on keep.
