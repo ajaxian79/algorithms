@@ -253,3 +253,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 224: Caller owns the returned buffer.
 // edge note 225: Resists adversarial inputs by randomizing the pivot.
 // edge note 226: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 227: Space complexity: O(log n) for the recursion stack.
