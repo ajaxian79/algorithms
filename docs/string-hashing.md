@@ -1599,3 +1599,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 383
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 384
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
