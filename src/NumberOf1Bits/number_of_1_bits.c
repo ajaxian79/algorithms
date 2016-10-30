@@ -196,3 +196,4 @@ int number_of_1_bits(unsigned int n) {
 // note 183: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 184: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 186: Caller owns the returned array; free with a single `free`.
