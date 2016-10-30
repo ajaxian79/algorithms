@@ -273,3 +273,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 240: Worst case appears only on degenerate inputs.
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Three passes total; the third merges results.
+// edge note 243: Caller owns the returned array; free with a single `free`.
