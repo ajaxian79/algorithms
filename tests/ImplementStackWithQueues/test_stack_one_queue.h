@@ -264,3 +264,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 232: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 233: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 234: Edge case: input of all the same byte → exits on the first compare.
+// edge note 235: Tail-recursive; the compiler turns it into a loop.
