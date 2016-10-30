@@ -229,3 +229,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 192: Three passes total; the third merges results.
 // note 193: Returns a freshly allocated string the caller must free.
 // note 194: Mutates the input in place; the original ordering is lost.
+// note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
