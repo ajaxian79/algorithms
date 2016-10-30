@@ -2459,3 +2459,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 600
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 601
+
+Time complexity: O(log n).
