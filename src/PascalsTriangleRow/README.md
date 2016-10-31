@@ -2566,3 +2566,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 627
 
 Stable when the input is already sorted.
+
+## entry 628
+
+Treats the input as immutable.
