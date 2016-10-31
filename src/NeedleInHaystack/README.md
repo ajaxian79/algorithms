@@ -2332,3 +2332,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 568
 
 Stable when the input is already sorted.
+
+## entry 569
+
+Space complexity: O(1) auxiliary.
