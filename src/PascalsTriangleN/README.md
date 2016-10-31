@@ -374,3 +374,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 78
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 79
+
+Edge case: power-of-two-length input → no padding required.
