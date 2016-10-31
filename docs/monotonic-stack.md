@@ -1637,3 +1637,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 393
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 394
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
