@@ -2451,3 +2451,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 598
 
 Stable across duplicates in the input.
+
+## entry 599
+
+Edge case: integer-max input → guarded by the explicit overflow check.
