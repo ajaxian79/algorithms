@@ -2436,3 +2436,7 @@ Handles single-element input as a base case.
 ## entry 593
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 594
+
+Linear in n; the constant factor is small.
