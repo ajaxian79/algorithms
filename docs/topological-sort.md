@@ -1737,3 +1737,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 416
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 417
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
