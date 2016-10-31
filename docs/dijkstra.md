@@ -1619,3 +1619,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 405
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 406
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
