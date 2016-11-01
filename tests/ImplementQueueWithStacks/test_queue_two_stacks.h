@@ -245,3 +245,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 212: Edge case: reverse-sorted input → still O(n log n).
 // edge note 213: Edge case: single-element input → returns the element itself.
 // edge note 214: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 215: 32-bit safe; overflow is checked at each step.
