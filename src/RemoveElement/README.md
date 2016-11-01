@@ -2397,3 +2397,7 @@ Stable when the input is already sorted.
 ## entry 585
 
 Returns a freshly allocated string the caller must free.
+
+## entry 586
+
+Input is assumed non-NULL; behavior is undefined otherwise.
