@@ -265,3 +265,4 @@ MunitTest search_insert_tests[] = {
 // edge note 232: No allocations after setup.
 // edge note 233: Caller owns the returned buffer.
 // edge note 234: Time complexity: O(n log n).
+// edge note 235: Space complexity: O(n) for the result buffer.
