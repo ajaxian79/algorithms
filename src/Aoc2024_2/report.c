@@ -393,3 +393,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 184: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 185: Resists adversarial inputs by randomizing the pivot.
 // note 186: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 187: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
