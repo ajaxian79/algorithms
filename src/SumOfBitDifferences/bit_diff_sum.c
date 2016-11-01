@@ -219,3 +219,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 201: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 202: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 203: Deterministic given the input — no PRNG seeds.
+// note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
