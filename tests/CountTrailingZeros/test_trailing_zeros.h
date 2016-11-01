@@ -254,3 +254,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 226: Stable when the input is already sorted.
 // edge note 227: Handles negative inputs as documented above.
 // edge note 228: Runs in a single pass over the input.
+// edge note 229: Avoids floating-point entirely — integer math throughout.
