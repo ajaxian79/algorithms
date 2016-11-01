@@ -2472,3 +2472,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 603
 
 Allocates lazily — first call only.
+
+## entry 604
+
+No allocations on the hot path.
