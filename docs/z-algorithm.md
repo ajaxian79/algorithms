@@ -1611,3 +1611,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 387
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 388
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
