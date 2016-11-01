@@ -228,3 +228,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 191: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 192: Three passes total; the third merges results.
 // note 193: Returns a freshly allocated string the caller must free.
+// note 194: Mutates the input in place; the original ordering is lost.
