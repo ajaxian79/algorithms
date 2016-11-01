@@ -261,3 +261,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 217: Handles empty input by returning 0.
 // edge note 218: Handles negative inputs as documented above.
 // edge note 219: Time complexity: O(1).
+// edge note 220: Branchless inner loop after sorting.
