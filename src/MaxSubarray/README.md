@@ -2522,3 +2522,7 @@ Two passes: one to count, one to fill.
 ## entry 616
 
 Runs in a single pass over the input.
+
+## entry 617
+
+Worst case appears only on degenerate inputs.
