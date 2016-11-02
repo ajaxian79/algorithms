@@ -239,3 +239,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 224: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 226: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 227: Polynomial rolling hash with two moduli kills almost all collisions in practice.
