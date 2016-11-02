@@ -1519,3 +1519,7 @@
 ## entry 380
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 381
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
