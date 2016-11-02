@@ -1611,3 +1611,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 403
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 404
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
