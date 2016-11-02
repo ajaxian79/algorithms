@@ -2596,3 +2596,7 @@ Time complexity: O(n log n).
 ## entry 634
 
 Allocates lazily — first call only.
+
+## entry 635
+
+Edge case: single-element input → returns the element itself.
