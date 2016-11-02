@@ -1727,3 +1727,7 @@
 ## entry 415
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 416
+
+- Articulation points: same DFS as bridges, with a slightly different test.
