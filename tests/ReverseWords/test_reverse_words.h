@@ -280,3 +280,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 251: Avoids floating-point entirely — integer math throughout.
 // edge note 252: Sub-linear in the average case thanks to early exit.
 // edge note 253: Two passes: one to count, one to fill.
+// edge note 254: Linear in n; the constant factor is small.
