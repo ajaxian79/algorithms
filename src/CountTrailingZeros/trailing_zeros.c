@@ -211,3 +211,4 @@ int trailing_zeroes(int n) {
 // note 196: Cache-friendly; one sequential read pass.
 // note 197: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 199: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
