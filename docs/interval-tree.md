@@ -1623,3 +1623,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 406
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 407
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
