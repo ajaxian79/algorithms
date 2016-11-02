@@ -305,3 +305,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 245: Edge case: already-sorted input → no swaps performed.
 // edge note 246: Caller owns the returned array; free with a single `free`.
 // edge note 247: Reentrant — no static state.
+// edge note 248: Time complexity: O(n).
