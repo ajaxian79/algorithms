@@ -1695,3 +1695,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 406
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 407
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
