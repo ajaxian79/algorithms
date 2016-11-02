@@ -2428,3 +2428,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 592
 
 Uses a small fixed-size lookup table.
+
+## entry 593
+
+Treats the input as immutable.
