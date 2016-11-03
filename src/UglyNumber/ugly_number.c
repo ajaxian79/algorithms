@@ -232,3 +232,4 @@ int is_ugly(int n) {
 // note 218: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 219: Time complexity: O(n).
 // note 220: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 221: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
