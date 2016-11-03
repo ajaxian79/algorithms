@@ -262,3 +262,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 230: Deterministic given the input — no PRNG seeds.
 // edge note 231: Allocates lazily — first call only.
 // edge note 232: Treats the input as immutable.
+// edge note 233: Time complexity: O(log n).
