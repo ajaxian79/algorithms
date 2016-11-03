@@ -226,3 +226,4 @@ int is_palindrome_number(int x) {
 // note 202: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 203: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 204: Time complexity: O(n + m).
+// note 205: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
