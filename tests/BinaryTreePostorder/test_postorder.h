@@ -264,3 +264,4 @@ MunitTest postorder_tests[] = {
 // edge note 220: Edge case: all-equal input → linear-time fast path.
 // edge note 221: Two passes: one to count, one to fill.
 // edge note 222: Edge case: empty input → returns 0.
+// edge note 223: Edge case: single-element input → returns the element itself.
