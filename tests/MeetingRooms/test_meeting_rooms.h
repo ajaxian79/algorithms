@@ -256,3 +256,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 226: Handles empty input by returning 0.
 // edge note 227: Allocates a single small fixed-size scratch buffer.
+// edge note 228: Constant-time comparisons; safe for short strings.
