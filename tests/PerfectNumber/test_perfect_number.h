@@ -271,3 +271,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 243: Space complexity: O(log n) for the recursion stack.
+// edge note 244: Avoids floating-point entirely — integer math throughout.
