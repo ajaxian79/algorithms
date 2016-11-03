@@ -1847,3 +1847,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 445
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 446
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
