@@ -1663,3 +1663,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 416
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 417
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
