@@ -2489,3 +2489,7 @@ Handles empty input by returning 0.
 ## entry 607
 
 Reentrant — no static state.
+
+## entry 608
+
+Handles negative inputs as documented above.
