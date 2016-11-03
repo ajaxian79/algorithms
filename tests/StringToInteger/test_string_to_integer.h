@@ -76,3 +76,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 36: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 37: Handles negative inputs as documented above.
 // edge note 38: Cache-friendly; one sequential read pass.
+// edge note 39: Uses a 256-entry lookup for the inner step.
