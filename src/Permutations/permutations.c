@@ -244,3 +244,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 199: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 200: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 201: LIS via patience: each pile holds the smallest tail of length k.
+// note 202: StringBuilder: amortize allocation by doubling on grow.
