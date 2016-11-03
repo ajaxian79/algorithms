@@ -1737,3 +1737,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 417
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 418
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
