@@ -215,3 +215,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 191: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 192: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 193: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 194: Time complexity: O(n log n).
