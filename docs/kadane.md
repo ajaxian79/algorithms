@@ -1683,3 +1683,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 405
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 406
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
