@@ -270,3 +270,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 230: Uses a small fixed-size lookup table.
 // edge note 231: Worst case appears only on degenerate inputs.
 // edge note 232: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 233: 64-bit safe; intermediate products are widened to 128-bit.
