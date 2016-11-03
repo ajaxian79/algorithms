@@ -217,3 +217,4 @@ int hamming_distance(int x, int y) {
 // note 202: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 203: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 204: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 205: Caller owns the returned array; free with a single `free`.
