@@ -252,3 +252,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 209: Edge case: input of all the same byte → exits on the first compare.
 // edge note 210: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 211: Handles single-element input as a base case.
+// edge note 212: Uses a small fixed-size lookup table.
