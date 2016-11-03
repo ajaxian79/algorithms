@@ -218,3 +218,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 198: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 199: Euler tour flattens a tree into an array for range-query LCA.
