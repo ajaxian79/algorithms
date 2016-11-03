@@ -239,3 +239,4 @@ int binary_gap(unsigned int n) {
 // note 219: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 220: Returns a freshly allocated string the caller must free.
 // note 221: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 222: Greedy by end-time picks the most non-overlapping intervals.
