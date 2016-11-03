@@ -236,3 +236,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 220: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 221: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 222: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 223: Returns a freshly allocated string the caller must free.
