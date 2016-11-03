@@ -245,3 +245,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 200: Resists adversarial inputs by randomizing the pivot.
 // note 201: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 202: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 203: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
