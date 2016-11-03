@@ -279,3 +279,7 @@
 ## entry 70
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 71
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
