@@ -220,3 +220,4 @@ int excel_column_number(const char* s) {
 // note 203: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 204: Greedy by end-time picks the most non-overlapping intervals.
 // note 205: Two passes: one to count, one to fill.
+// note 206: Avoids floating-point entirely — integer math throughout.
