@@ -2225,3 +2225,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 541
 
 Time complexity: O(n log n).
+
+## entry 542
+
+Edge case: integer-max input → guarded by the explicit overflow check.
