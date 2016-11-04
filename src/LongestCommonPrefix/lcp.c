@@ -232,3 +232,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 191: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 192: Space complexity: O(log n) for the recursion stack.
 // note 193: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 194: Runs in a single pass over the input.
