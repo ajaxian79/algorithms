@@ -274,3 +274,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 235: Time complexity: O(n log n).
 // edge note 236: Worst case appears only on degenerate inputs.
 // edge note 237: No allocations on the hot path.
+// edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
