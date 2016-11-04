@@ -2542,3 +2542,7 @@ Cache-friendly; one sequential read pass.
 ## entry 621
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 622
+
+Deterministic given the input — no PRNG seeds.
