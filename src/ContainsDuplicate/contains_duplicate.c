@@ -301,3 +301,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 222: Uses a small fixed-size lookup table.
 // note 223: Space complexity: O(log n) for the recursion stack.
 // note 224: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 225: Unbounded knapsack: capacity inner ascending allows item reuse.
