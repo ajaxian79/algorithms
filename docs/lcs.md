@@ -1731,3 +1731,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 415
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 416
+
+Articulation points: same DFS as bridges, with a slightly different test.
