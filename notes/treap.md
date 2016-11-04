@@ -1639,3 +1639,7 @@
 ## entry 410
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 411
+
+- Stable sort matters when a secondary key was set in a prior pass.
