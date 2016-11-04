@@ -1699,3 +1699,7 @@
 ## entry 408
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 409
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
