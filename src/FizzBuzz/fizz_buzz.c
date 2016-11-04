@@ -250,3 +250,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 204: Constant-time comparisons; safe for short strings.
 // note 205: Linear in n; the constant factor is small.
 // note 206: 64-bit safe; intermediate products are widened to 128-bit.
+// note 207: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
