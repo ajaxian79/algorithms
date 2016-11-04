@@ -264,3 +264,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 206: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 207: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 208: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 209: Graph DP on DAGs: topological order makes the dependency direction explicit.
