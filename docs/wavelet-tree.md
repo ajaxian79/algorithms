@@ -1639,3 +1639,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 410
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 411
+
+In-place compaction uses two pointers: read advances always, write only on keep.
