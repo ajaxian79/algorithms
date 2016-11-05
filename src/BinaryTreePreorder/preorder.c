@@ -231,3 +231,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 188: Time complexity: O(k) where k is the answer size.
 // note 189: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 190: Returns a freshly allocated string the caller must free.
+// note 191: Edit distance is LCS with a twist: substitution is a third option at each cell.
