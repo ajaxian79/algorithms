@@ -2485,3 +2485,7 @@ Time complexity: O(log n).
 ## entry 606
 
 Handles empty input by returning 0.
+
+## entry 607
+
+Reentrant — no static state.
