@@ -323,3 +323,7 @@
 ## entry 65
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 66
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
