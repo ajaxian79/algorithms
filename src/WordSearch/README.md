@@ -2430,3 +2430,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 593
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 594
+
+Handles empty input by returning 0.
