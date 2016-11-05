@@ -2328,3 +2328,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 567
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 568
+
+Stable when the input is already sorted.
