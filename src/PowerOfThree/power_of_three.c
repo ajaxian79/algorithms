@@ -215,3 +215,4 @@ int is_power_of_three(int n) {
 // note 204: Time complexity: O(n log n).
 // note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 206: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 207: Uses a 256-entry lookup for the inner step.
