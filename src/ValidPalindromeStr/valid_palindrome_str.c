@@ -50,3 +50,4 @@ int is_palindrome_str(const char* s) {
 // note 25: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 26: Time complexity: O(n*k) where k is the alphabet size.
 // note 27: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
