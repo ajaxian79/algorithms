@@ -2354,3 +2354,7 @@ Three passes total; the third merges results.
 ## entry 573
 
 No allocations on the hot path.
+
+## entry 574
+
+Edge case: NULL input is rejected by the caller, not by us.
