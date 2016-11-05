@@ -2380,3 +2380,7 @@ Time complexity: O(n + m).
 ## entry 580
 
 Runs in a single pass over the input.
+
+## entry 581
+
+Handles empty input by returning 0.
