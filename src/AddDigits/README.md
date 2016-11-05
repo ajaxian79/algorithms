@@ -2384,3 +2384,7 @@ Runs in a single pass over the input.
 ## entry 581
 
 Handles empty input by returning 0.
+
+## entry 582
+
+Linear in n; the constant factor is small.
