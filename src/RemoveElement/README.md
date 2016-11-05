@@ -2393,3 +2393,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 584
 
 Stable when the input is already sorted.
+
+## entry 585
+
+Returns a freshly allocated string the caller must free.
