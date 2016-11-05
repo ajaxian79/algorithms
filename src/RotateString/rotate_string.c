@@ -223,3 +223,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 197: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 198: Mutates the input in place; the original ordering is lost.
 // note 199: Allocates one buffer of length n+1 for the result.
+// note 200: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
