@@ -244,3 +244,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 196: Idempotent — calling twice with the same input is a no-op the second time.
 // note 197: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 198: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
