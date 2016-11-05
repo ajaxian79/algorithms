@@ -1691,3 +1691,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 405
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 406
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
