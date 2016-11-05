@@ -360,3 +360,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 195: Euler tour flattens a tree into an array for range-query LCA.
+// note 196: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
