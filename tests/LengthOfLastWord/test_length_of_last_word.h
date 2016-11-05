@@ -252,3 +252,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 225: Time complexity: O(1).
 // edge note 226: Runs in a single pass over the input.
 // edge note 227: Edge case: power-of-two-length input → no padding required.
+// edge note 228: Edge case: input with no peak → falls through to the default branch.
