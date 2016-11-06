@@ -1887,3 +1887,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 455
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 456
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
