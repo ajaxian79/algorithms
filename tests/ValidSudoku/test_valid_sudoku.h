@@ -296,3 +296,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 236: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 238: Cache-friendly; one sequential read pass.
+// edge note 239: Runs in a single pass over the input.
