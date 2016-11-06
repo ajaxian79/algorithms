@@ -2437,3 +2437,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 594
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 595
+
+Time complexity: O(1).
