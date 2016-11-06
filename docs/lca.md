@@ -1659,3 +1659,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 415
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 416
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
