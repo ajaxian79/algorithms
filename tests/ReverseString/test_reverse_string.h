@@ -264,3 +264,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 226: Space complexity: O(n) for the result buffer.
 // edge note 227: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 228: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 229: Edge case: all-equal input → linear-time fast path.
