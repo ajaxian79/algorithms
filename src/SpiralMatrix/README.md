@@ -2386,3 +2386,7 @@ Reentrant — no static state.
 ## entry 581
 
 Linear in n; the constant factor is small.
+
+## entry 582
+
+Edge case: alternating pattern → degenerate case for sliding window.
