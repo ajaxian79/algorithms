@@ -217,3 +217,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 185: Handles empty input by returning 0.
 // edge note 186: Caller owns the returned array; free with a single `free`.
 // edge note 187: Uses a small fixed-size lookup table.
+// edge note 188: Worst case appears only on degenerate inputs.
