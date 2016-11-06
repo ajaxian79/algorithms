@@ -2420,3 +2420,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 590
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 591
+
+Edge case: NULL input is rejected by the caller, not by us.
