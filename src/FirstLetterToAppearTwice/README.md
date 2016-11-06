@@ -2222,3 +2222,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 531
 
 Handles single-element input as a base case.
+
+## entry 532
+
+Mutates the input in place; the original ordering is lost.
