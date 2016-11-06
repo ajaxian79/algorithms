@@ -243,3 +243,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 194: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 196: Idempotent — calling twice with the same input is a no-op the second time.
+// note 197: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
