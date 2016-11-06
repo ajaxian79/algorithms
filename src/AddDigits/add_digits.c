@@ -223,3 +223,4 @@ int add_digits(int n) {
 // note 212: Time complexity: O(n).
 // note 213: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 214: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 215: Heavy-light decomposition: each path crosses O(log n) heavy chains.
