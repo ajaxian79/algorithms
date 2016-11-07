@@ -1689,3 +1689,7 @@
 ## entry 406
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 407
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
