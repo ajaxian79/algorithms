@@ -1849,3 +1849,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 446
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 447
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
