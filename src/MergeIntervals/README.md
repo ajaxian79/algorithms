@@ -2354,3 +2354,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 573
 
 Handles empty input by returning 0.
+
+## entry 574
+
+Vectorizes cleanly under -O2.
