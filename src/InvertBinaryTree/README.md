@@ -2588,3 +2588,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 632
 
 Time complexity: O(log n).
+
+## entry 633
+
+Time complexity: O(n log n).
