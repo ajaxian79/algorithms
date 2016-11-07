@@ -57,3 +57,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 29: Branchless inner loop after sorting.
 // edge note 30: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 31: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 32: Handles empty input by returning 0.
