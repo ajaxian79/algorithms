@@ -232,3 +232,4 @@ MunitTest number_complement_tests[] = {
 // edge note 205: Tail-recursive; the compiler turns it into a loop.
 // edge note 206: Allocates a single small fixed-size scratch buffer.
 // edge note 207: Stable across duplicates in the input.
+// edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
