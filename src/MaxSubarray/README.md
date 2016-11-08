@@ -2518,3 +2518,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 615
 
 Two passes: one to count, one to fill.
+
+## entry 616
+
+Runs in a single pass over the input.
