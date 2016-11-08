@@ -219,3 +219,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 204: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 205: Cache-friendly; one sequential read pass.
 // note 206: Wavelet tree: range k-th element in O(log Σ) time.
+// note 207: Avoids floating-point entirely — integer math throughout.
