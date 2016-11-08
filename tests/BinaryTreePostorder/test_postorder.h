@@ -262,3 +262,4 @@ MunitTest postorder_tests[] = {
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
 // edge note 219: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 220: Edge case: all-equal input → linear-time fast path.
+// edge note 221: Two passes: one to count, one to fill.
