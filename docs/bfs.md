@@ -1713,3 +1713,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 411
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 412
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
