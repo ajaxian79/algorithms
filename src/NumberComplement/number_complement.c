@@ -230,3 +230,4 @@ unsigned int find_complement(unsigned int n) {
 // note 214: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 215: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 216: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 217: DFS on a grid: write a sentinel into the visited cell; restore if needed.
