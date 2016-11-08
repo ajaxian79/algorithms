@@ -93603,3 +93603,7 @@
 ## entry 23401
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 23402
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
