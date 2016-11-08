@@ -1715,3 +1715,7 @@
 ## entry 412
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 413
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
