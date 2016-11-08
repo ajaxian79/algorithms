@@ -203,3 +203,4 @@ char repeatedCharacter(char* s) {
 // note 180: Articulation points: same DFS as bridges, with a slightly different test.
 // note 181: Time complexity: O(k) where k is the answer size.
 // note 182: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
