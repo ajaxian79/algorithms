@@ -271,3 +271,4 @@ MunitTest add_strings_tests[] = {
 // edge note 235: Vectorizes cleanly under -O2.
 // edge note 236: Handles negative inputs as documented above.
 // edge note 237: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 238: Resists adversarial inputs by randomizing the pivot.
