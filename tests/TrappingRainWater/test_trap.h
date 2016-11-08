@@ -256,3 +256,4 @@ MunitTest trap_tests[] = {
 // edge note 222: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 223: Branchless inner loop after sorting.
 // edge note 224: Three passes total; the third merges results.
+// edge note 225: Time complexity: O(n).
