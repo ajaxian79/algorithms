@@ -1659,3 +1659,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 415
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 416
+
+State compression: bitmask + integer encodes a small subset cheaply.
