@@ -1699,3 +1699,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 408
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 409
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
