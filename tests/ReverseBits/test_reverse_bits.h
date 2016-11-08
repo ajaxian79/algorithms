@@ -238,3 +238,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 212: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 213: Vectorizes cleanly under -O2.
 // edge note 214: No allocations on the hot path.
+// edge note 215: Tail-recursive; the compiler turns it into a loop.
