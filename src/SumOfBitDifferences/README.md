@@ -2416,3 +2416,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 589
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 590
+
+Uses a 256-entry lookup for the inner step.
