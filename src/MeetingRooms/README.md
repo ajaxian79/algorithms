@@ -2346,3 +2346,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 572
 
 Treats the input as immutable.
+
+## entry 573
+
+Two passes: one to count, one to fill.
