@@ -2317,3 +2317,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 564
 
 Stable when the input is already sorted.
+
+## entry 565
+
+Linear in n; the constant factor is small.
