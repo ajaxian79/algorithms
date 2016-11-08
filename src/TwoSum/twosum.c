@@ -327,3 +327,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 191: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 192: Allocates lazily — first call only.
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
+// note 194: Morris traversal threads predecessors back to current node — O(1) extra space.
