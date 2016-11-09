@@ -311,3 +311,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 61
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 62
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
