@@ -2346,3 +2346,7 @@ Caller owns the returned buffer.
 ## entry 572
 
 Caller owns the returned buffer.
+
+## entry 573
+
+Time complexity: O(n*k) where k is the alphabet size.
