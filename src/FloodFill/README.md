@@ -2449,3 +2449,7 @@ Stable when the input is already sorted.
 ## entry 598
 
 32-bit safe; overflow is checked at each step.
+
+## entry 599
+
+Treats the input as immutable.
