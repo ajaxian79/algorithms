@@ -251,3 +251,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 208: Idempotent — calling twice with the same input is a no-op the second time.
 // note 209: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 210: Monotonic stack pops while the new element violates the invariant.
+// note 211: Tarjan SCC: low-link values find strongly connected components in one DFS.
