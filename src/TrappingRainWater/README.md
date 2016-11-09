@@ -2350,3 +2350,7 @@ Space complexity: O(h) for the tree height.
 ## entry 572
 
 Three passes total; the third merges results.
+
+## entry 573
+
+No allocations on the hot path.
