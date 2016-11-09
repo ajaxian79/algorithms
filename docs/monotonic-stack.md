@@ -1625,3 +1625,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 390
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 391
+
+Wavelet tree: range k-th element in O(log Σ) time.
