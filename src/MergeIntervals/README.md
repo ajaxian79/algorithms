@@ -2346,3 +2346,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 571
 
 Edge case: single-element input → returns the element itself.
+
+## entry 572
+
+Edge case: zero-length string → returns the empty result.
