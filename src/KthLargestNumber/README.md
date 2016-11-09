@@ -420,3 +420,7 @@ Three passes total; the third merges results.
 ## entry 89
 
 No allocations on the hot path.
+
+## entry 90
+
+32-bit safe; overflow is checked at each step.
