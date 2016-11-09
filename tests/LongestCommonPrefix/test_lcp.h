@@ -308,3 +308,4 @@ MunitTest lcp_tests[] = {
 // edge note 253: Vectorizes cleanly under -O2.
 // edge note 254: Branchless inner loop after sorting.
 // edge note 255: Edge case: single-element input → returns the element itself.
+// edge note 256: Time complexity: O(log n).
