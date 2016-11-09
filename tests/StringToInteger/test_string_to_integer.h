@@ -303,3 +303,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 263: Edge case: already-sorted input → no swaps performed.
 // edge note 264: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 265: Edge case: power-of-two-length input → no padding required.
+// edge note 266: Resists adversarial inputs by randomizing the pivot.
