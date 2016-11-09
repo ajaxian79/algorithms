@@ -1759,3 +1759,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 440
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 441
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
