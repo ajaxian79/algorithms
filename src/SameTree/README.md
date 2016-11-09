@@ -2336,3 +2336,7 @@ Three passes total; the third merges results.
 ## entry 570
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 571
+
+Handles single-element input as a base case.
