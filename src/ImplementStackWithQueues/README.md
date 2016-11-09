@@ -2460,3 +2460,7 @@ Cache-friendly; one sequential read pass.
 ## entry 600
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 601
+
+Uses a small fixed-size lookup table.
