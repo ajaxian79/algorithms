@@ -681,3 +681,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 194: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 195: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 196: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 197: Space complexity: O(log n) for the recursion stack.
