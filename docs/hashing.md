@@ -1883,3 +1883,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 454
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 455
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
