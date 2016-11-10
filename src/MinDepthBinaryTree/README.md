@@ -402,3 +402,7 @@ Branchless inner loop after sorting.
 ## entry 86
 
 Allocates lazily — first call only.
+
+## entry 87
+
+Edge case: already-sorted input → no swaps performed.
