@@ -291,3 +291,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 56
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 57
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
