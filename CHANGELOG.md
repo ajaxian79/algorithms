@@ -93559,3 +93559,7 @@
 ## entry 23390
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23391
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
