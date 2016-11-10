@@ -263,3 +263,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 231: Allocates a single small fixed-size scratch buffer.
 // edge note 232: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 233: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 234: Edge case: input of all the same byte → exits on the first compare.
