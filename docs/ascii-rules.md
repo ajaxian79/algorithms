@@ -1727,3 +1727,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 432
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 433
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
