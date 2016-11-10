@@ -1799,3 +1799,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 433
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 434
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
