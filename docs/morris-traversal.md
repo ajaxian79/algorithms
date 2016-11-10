@@ -1619,3 +1619,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 390
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 391
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
