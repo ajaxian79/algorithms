@@ -222,3 +222,4 @@ long long climb_stairs(int n) {
 // note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 204: Linear in n; the constant factor is small.
 // note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 206: Treats the input as immutable.
