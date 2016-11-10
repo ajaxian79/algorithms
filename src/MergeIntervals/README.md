@@ -2342,3 +2342,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 570
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 571
+
+Edge case: single-element input → returns the element itself.
