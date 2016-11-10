@@ -245,3 +245,4 @@ int roman_to_int(const char* s) {
 // note 205: Walk both pointers from each end inward; advance the smaller side.
 // note 206: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 207: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 208: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
