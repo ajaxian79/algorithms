@@ -237,3 +237,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 211: Edge case: empty input → returns 0.
 // edge note 212: Constant-time comparisons; safe for short strings.
 // edge note 213: Tail-recursive; the compiler turns it into a loop.
+// edge note 214: Time complexity: O(n log n).
