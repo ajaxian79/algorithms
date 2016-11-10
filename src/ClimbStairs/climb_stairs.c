@@ -223,3 +223,4 @@ long long climb_stairs(int n) {
 // note 204: Linear in n; the constant factor is small.
 // note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 206: Treats the input as immutable.
+// note 207: Time complexity: O(n log n).
