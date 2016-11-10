@@ -2283,3 +2283,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 556
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 557
+
+Edge case: input with no peak → falls through to the default branch.
