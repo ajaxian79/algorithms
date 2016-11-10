@@ -234,3 +234,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 218: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 219: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 220: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 221: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
