@@ -2324,3 +2324,7 @@ Handles negative inputs as documented above.
 ## entry 566
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 567
+
+Edge case: zero-length string → returns the empty result.
