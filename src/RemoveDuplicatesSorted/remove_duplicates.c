@@ -217,3 +217,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 201: Linear in n; the constant factor is small.
 // note 202: 32-bit safe; overflow is checked at each step.
 // note 203: No allocations after setup.
+// note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
