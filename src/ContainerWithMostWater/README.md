@@ -2355,3 +2355,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 574
 
 Linear in n; the constant factor is small.
+
+## entry 575
+
+Time complexity: O(1).
