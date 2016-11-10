@@ -2534,3 +2534,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 619
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 620
+
+Cache-friendly; one sequential read pass.
