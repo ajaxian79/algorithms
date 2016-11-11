@@ -298,3 +298,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 256: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 257: Caller owns the returned array; free with a single `free`.
 // edge note 258: No allocations after setup.
+// edge note 259: Handles empty input by returning 0.
