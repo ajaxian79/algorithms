@@ -1567,3 +1567,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 392
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 393
+
+Euler tour flattens a tree into an array for range-query LCA.
