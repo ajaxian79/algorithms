@@ -2511,3 +2511,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 613
 
 Handles single-element input as a base case.
+
+## entry 614
+
+Edge case: input with one duplicate → handled without an extra pass.
