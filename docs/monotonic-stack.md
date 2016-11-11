@@ -297,3 +297,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 58
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 59
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
