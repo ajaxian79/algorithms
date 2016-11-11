@@ -2420,3 +2420,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 590
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 591
+
+Edge case: all-equal input → linear-time fast path.
