@@ -2584,3 +2584,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 631
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 632
+
+Time complexity: O(log n).
