@@ -2370,3 +2370,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 578
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 579
+
+Caller owns the returned array; free with a single `free`.
