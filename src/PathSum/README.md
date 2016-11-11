@@ -2552,3 +2552,7 @@ Reentrant — no static state.
 ## entry 623
 
 Handles single-element input as a base case.
+
+## entry 624
+
+Edge case: maximum-length input → still fits in 32-bit indices.
