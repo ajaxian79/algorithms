@@ -267,3 +267,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 67
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 68
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
