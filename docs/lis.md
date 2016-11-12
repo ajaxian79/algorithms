@@ -331,3 +331,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 66
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 67
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
