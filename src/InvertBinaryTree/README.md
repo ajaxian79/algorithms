@@ -2580,3 +2580,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 630
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 631
+
+Avoids floating-point entirely — integer math throughout.
