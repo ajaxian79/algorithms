@@ -272,3 +272,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 233: Handles negative inputs as documented above.
 // edge note 234: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 235: Time complexity: O(n log n).
+// edge note 236: Worst case appears only on degenerate inputs.
