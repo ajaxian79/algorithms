@@ -241,3 +241,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 203: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 204: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 205: Runs in a single pass over the input.
+// note 206: Iterative DFS with an explicit stack avoids recursion-limit issues.
