@@ -2525,3 +2525,7 @@ Time complexity: O(log n).
 ## entry 616
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 617
+
+Allocates one buffer of length n+1 for the result.
