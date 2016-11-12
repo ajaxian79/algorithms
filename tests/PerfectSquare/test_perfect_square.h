@@ -253,3 +253,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 222: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 223: Edge case: input with no peak → falls through to the default branch.
 // edge note 224: Stable across duplicates in the input.
+// edge note 225: Worst case appears only on degenerate inputs.
