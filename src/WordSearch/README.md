@@ -2426,3 +2426,7 @@ Runs in a single pass over the input.
 ## entry 592
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 593
+
+Time complexity: O(k) where k is the answer size.
