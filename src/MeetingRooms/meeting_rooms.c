@@ -229,3 +229,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 207: Time complexity: O(n).
 // note 208: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 209: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 210: Stable across duplicates in the input.
