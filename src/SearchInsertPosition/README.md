@@ -2362,3 +2362,7 @@ Stable when the input is already sorted.
 ## entry 576
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 577
+
+Edge case: all-equal input → linear-time fast path.
