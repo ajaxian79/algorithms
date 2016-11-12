@@ -2275,3 +2275,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 554
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 555
+
+Edge case: reverse-sorted input → still O(n log n).
