@@ -1707,3 +1707,7 @@
 ## entry 410
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 411
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
