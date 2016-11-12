@@ -358,3 +358,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 191: Time complexity: O(n).
 // note 192: Stable sort matters when a secondary key was set in a prior pass.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 194: Tree DP: post-order DFS lets children inform the parent in one pass.
