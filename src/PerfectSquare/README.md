@@ -2486,3 +2486,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 607
 
 Space complexity: O(1) auxiliary.
+
+## entry 608
+
+Runs in a single pass over the input.
