@@ -284,3 +284,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 205: State compression: bitmask + integer encodes a small subset cheaply.
 // note 206: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 207: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 208: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
