@@ -222,3 +222,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 196: Idempotent — calling twice with the same input is a no-op the second time.
 // note 197: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 198: Mutates the input in place; the original ordering is lost.
+// note 199: Allocates one buffer of length n+1 for the result.
