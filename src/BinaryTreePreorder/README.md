@@ -2414,3 +2414,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 589
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 590
+
+Caller owns the returned array; free with a single `free`.
