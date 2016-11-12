@@ -252,3 +252,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 224: Two passes: one to count, one to fill.
 // edge note 225: Caller owns the returned array; free with a single `free`.
 // edge note 226: Stable when the input is already sorted.
+// edge note 227: Handles negative inputs as documented above.
