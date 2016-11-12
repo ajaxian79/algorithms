@@ -2548,3 +2548,7 @@ Branchless inner loop after sorting.
 ## entry 622
 
 Reentrant — no static state.
+
+## entry 623
+
+Handles single-element input as a base case.
