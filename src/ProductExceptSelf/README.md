@@ -2428,3 +2428,7 @@ Time complexity: O(log n).
 ## entry 591
 
 Edge case: single-element input → returns the element itself.
+
+## entry 592
+
+Allocates one buffer of length n+1 for the result.
