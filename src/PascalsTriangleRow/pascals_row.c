@@ -236,3 +236,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 206: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 207: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 208: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 209: 64-bit safe; intermediate products are widened to 128-bit.
