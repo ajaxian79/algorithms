@@ -1635,3 +1635,7 @@
 ## entry 409
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 410
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
