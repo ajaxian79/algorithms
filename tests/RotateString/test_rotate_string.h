@@ -229,3 +229,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 202: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 203: No allocations on the hot path.
 // edge note 204: Space complexity: O(1) auxiliary.
+// edge note 205: Thread-safe so long as the input is not mutated concurrently.
