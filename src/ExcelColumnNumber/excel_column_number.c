@@ -218,3 +218,4 @@ int excel_column_number(const char* s) {
 // note 201: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 202: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 203: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 204: Greedy by end-time picks the most non-overlapping intervals.
