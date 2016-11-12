@@ -2273,3 +2273,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 554
 
 Handles empty input by returning 0.
+
+## entry 555
+
+Handles negative inputs as documented above.
