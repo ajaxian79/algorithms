@@ -2463,3 +2463,7 @@ Vectorizes cleanly under -O2.
 ## entry 600
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 601
+
+Branchless inner loop after sorting.
