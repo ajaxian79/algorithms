@@ -93531,3 +93531,7 @@
 ## entry 23383
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 23384
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
