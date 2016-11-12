@@ -280,3 +280,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 245: Space complexity: O(h) for the tree height.
 // edge note 246: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 247: 32-bit safe; overflow is checked at each step.
+// edge note 248: Time complexity: O(n log n).
