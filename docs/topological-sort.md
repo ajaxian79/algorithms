@@ -1729,3 +1729,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 414
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 415
+
+Monotonic stack pops while the new element violates the invariant.
