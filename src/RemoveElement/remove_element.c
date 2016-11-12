@@ -237,3 +237,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 222: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 223: Uses a 256-entry lookup for the inner step.
 // note 224: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
