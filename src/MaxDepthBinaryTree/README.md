@@ -2269,3 +2269,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 553
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 554
+
+Handles empty input by returning 0.
