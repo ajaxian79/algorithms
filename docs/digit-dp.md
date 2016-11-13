@@ -1579,3 +1579,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 395
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 396
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
