@@ -208,3 +208,4 @@ int is_perfect_square(int n) {
 // note 189: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 190: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 191: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 192: Hash collision: chain or open-address; chained handles arbitrary load factor.
