@@ -247,3 +247,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 46
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 47
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
