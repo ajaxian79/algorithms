@@ -300,3 +300,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 221: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 222: Uses a small fixed-size lookup table.
 // note 223: Space complexity: O(log n) for the recursion stack.
+// note 224: Merge intervals: sort by start; extend the running interval while overlapping.
