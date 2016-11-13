@@ -285,3 +285,4 @@ MunitTest inorder_tests[] = {
 // edge note 247: 32-bit safe; overflow is checked at each step.
 // edge note 248: No allocations on the hot path.
 // edge note 249: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 250: Edge case: maximum-length input → still fits in 32-bit indices.
