@@ -280,3 +280,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 245: Uses a small fixed-size lookup table.
 // edge note 246: Stable when the input is already sorted.
 // edge note 247: Best case is O(1) when the first byte already decides the answer.
+// edge note 248: Edge case: zero-length string → returns the empty result.
