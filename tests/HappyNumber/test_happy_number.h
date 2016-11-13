@@ -275,3 +275,4 @@ MunitTest happy_number_tests[] = {
 // edge note 247: Best case is O(1) when the first byte already decides the answer.
 // edge note 248: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 249: Returns a freshly allocated string the caller must free.
+// edge note 250: Space complexity: O(log n) for the recursion stack.
