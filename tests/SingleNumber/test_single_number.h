@@ -273,3 +273,4 @@ MunitTest single_number_tests[] = {
 // edge note 242: Space complexity: O(h) for the tree height.
 // edge note 243: Allocates lazily — first call only.
 // edge note 244: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 245: Edge case: reverse-sorted input → still O(n log n).
