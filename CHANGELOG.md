@@ -93491,3 +93491,7 @@
 ## entry 23373
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 23374
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
