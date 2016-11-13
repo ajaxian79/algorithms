@@ -236,3 +236,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 210: No allocations on the hot path.
 // edge note 211: Edge case: empty input → returns 0.
 // edge note 212: Constant-time comparisons; safe for short strings.
+// edge note 213: Tail-recursive; the compiler turns it into a loop.
