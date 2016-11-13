@@ -347,3 +347,7 @@
 ## entry 69
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 70
+
+- StringBuilder: amortize allocation by doubling on grow.
