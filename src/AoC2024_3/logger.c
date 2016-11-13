@@ -249,3 +249,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 206: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 207: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 208: Resists adversarial inputs by randomizing the pivot.
+// note 209: Tabulation wins when iteration order is obvious and stack depth would blow up.
