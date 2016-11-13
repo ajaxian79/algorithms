@@ -2336,3 +2336,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 569
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 570
+
+Time complexity: O(n + m).
