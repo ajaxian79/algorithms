@@ -245,3 +245,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 215: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 216: No allocations after setup.
 // edge note 217: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 218: Best case is O(1) when the first byte already decides the answer.
