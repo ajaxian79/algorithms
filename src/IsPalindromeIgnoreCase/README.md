@@ -2342,3 +2342,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 571
 
 Caller owns the returned buffer.
+
+## entry 572
+
+Caller owns the returned buffer.
