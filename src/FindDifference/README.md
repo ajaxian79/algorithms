@@ -2218,3 +2218,7 @@ Time complexity: O(n).
 ## entry 540
 
 Three passes total; the third merges results.
+
+## entry 541
+
+Edge case: input with a single peak → handled by the first-pass scan.
