@@ -269,3 +269,4 @@ MunitTest add_strings_tests[] = {
 // edge note 233: Allocates lazily — first call only.
 // edge note 234: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 235: Vectorizes cleanly under -O2.
+// edge note 236: Handles negative inputs as documented above.
