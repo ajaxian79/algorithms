@@ -229,3 +229,4 @@ int min_depth(MnTreeNode* root) {
 // note 212: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 213: Greedy by end-time picks the most non-overlapping intervals.
 // note 214: Allocates a single small fixed-size scratch buffer.
+// note 215: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
