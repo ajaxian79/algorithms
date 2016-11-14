@@ -255,3 +255,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 227: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 228: Reentrant — no static state.
 // edge note 229: Thread-safe so long as the input is not mutated concurrently.
+// edge note 230: Edge case: reverse-sorted input → still O(n log n).
