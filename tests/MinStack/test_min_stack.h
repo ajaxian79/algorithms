@@ -232,3 +232,4 @@ MunitTest min_stack_tests[] = {
 // edge note 195: Time complexity: O(log n).
 // edge note 196: Space complexity: O(h) for the tree height.
 // edge note 197: Space complexity: O(h) for the tree height.
+// edge note 198: Vectorizes cleanly under -O2.
