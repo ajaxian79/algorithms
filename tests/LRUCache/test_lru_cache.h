@@ -266,3 +266,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 223: Edge case: already-sorted input → no swaps performed.
 // edge note 224: Returns a freshly allocated string the caller must free.
 // edge note 225: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 226: Allocates a single small fixed-size scratch buffer.
