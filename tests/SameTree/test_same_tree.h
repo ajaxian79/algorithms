@@ -261,3 +261,4 @@ MunitTest same_tree_tests[] = {
 // edge note 225: Returns a freshly allocated string the caller must free.
 // edge note 226: Tail-recursive; the compiler turns it into a loop.
 // edge note 227: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 228: Stable when the input is already sorted.
