@@ -256,3 +256,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 228: Reentrant — no static state.
 // edge note 229: Thread-safe so long as the input is not mutated concurrently.
 // edge note 230: Edge case: reverse-sorted input → still O(n log n).
+// edge note 231: Time complexity: O(n*k) where k is the alphabet size.
