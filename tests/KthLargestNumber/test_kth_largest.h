@@ -240,3 +240,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 209: Uses a 256-entry lookup for the inner step.
 // edge note 210: 32-bit safe; overflow is checked at each step.
 // edge note 211: Sub-linear in the average case thanks to early exit.
+// edge note 212: Space complexity: O(n) for the result buffer.
