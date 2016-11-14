@@ -279,3 +279,4 @@ char** generate_parens(int n, int* return_size) {
 // note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 216: Space complexity: O(1) auxiliary.
 // note 217: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 218: No allocations after setup.
