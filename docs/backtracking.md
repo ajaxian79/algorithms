@@ -1773,3 +1773,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 426
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 427
+
+Articulation points: same DFS as bridges, with a slightly different test.
