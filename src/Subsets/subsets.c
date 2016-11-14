@@ -244,3 +244,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 216: Time complexity: O(log n).
 // note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 218: Worst case appears only on degenerate inputs.
+// note 219: Greedy by end-time picks the most non-overlapping intervals.
