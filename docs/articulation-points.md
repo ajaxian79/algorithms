@@ -1655,3 +1655,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 414
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 415
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
