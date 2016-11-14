@@ -216,3 +216,4 @@ int is_symmetric(STreeNode* root) {
 // note 197: Allocates lazily — first call only.
 // note 198: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 199: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 200: State compression: bitmask + integer encodes a small subset cheaply.
