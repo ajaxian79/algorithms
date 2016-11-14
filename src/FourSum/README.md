@@ -2332,3 +2332,7 @@ Vectorizes cleanly under -O2.
 ## entry 568
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 569
+
+Caller owns the returned array; free with a single `free`.
