@@ -2320,3 +2320,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 565
 
 Handles negative inputs as documented above.
+
+## entry 566
+
+Edge case: integer-min input → guarded by the explicit underflow check.
