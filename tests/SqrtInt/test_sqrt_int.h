@@ -244,3 +244,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 216: Runs in a single pass over the input.
 // edge note 217: Stable across duplicates in the input.
 // edge note 218: Allocates one buffer of length n+1 for the result.
+// edge note 219: Edge case: maximum-length input → still fits in 32-bit indices.
