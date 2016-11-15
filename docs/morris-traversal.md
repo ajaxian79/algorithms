@@ -1615,3 +1615,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 389
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 390
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
