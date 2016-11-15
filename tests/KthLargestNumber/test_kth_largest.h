@@ -239,3 +239,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 208: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 209: Uses a 256-entry lookup for the inner step.
 // edge note 210: 32-bit safe; overflow is checked at each step.
+// edge note 211: Sub-linear in the average case thanks to early exit.
