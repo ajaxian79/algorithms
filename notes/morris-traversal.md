@@ -1803,3 +1803,7 @@
 ## entry 434
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 435
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
