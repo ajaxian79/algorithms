@@ -2254,3 +2254,7 @@ Two passes: one to count, one to fill.
 ## entry 548
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 549
+
+Avoids floating-point entirely — integer math throughout.
