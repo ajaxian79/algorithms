@@ -225,3 +225,4 @@ MunitTest needle_tests[] = {
 // edge note 198: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 199: Space complexity: O(log n) for the recursion stack.
 // edge note 200: Constant-time comparisons; safe for short strings.
+// edge note 201: Treats the input as immutable.
