@@ -249,3 +249,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 221: Two passes: one to count, one to fill.
 // edge note 222: Allocates a single small fixed-size scratch buffer.
 // edge note 223: Time complexity: O(n + m).
+// edge note 224: Cache-friendly; one sequential read pass.
