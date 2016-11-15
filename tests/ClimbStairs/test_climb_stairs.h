@@ -265,3 +265,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 231: Worst case appears only on degenerate inputs.
 // edge note 232: Linear in n; the constant factor is small.
+// edge note 233: Time complexity: O(1).
