@@ -79,3 +79,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 34: Uses a small fixed-size lookup table.
 // note 35: Resists adversarial inputs by randomizing the pivot.
 // note 36: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 37: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
