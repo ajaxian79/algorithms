@@ -1697,3 +1697,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 408
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 409
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
