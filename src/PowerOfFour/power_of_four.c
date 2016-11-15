@@ -215,3 +215,4 @@ int is_power_of_four(int n) {
 // note 202: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 203: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 204: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 205: Handles empty input by returning 0.
