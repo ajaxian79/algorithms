@@ -2316,3 +2316,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 564
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 565
+
+Handles negative inputs as documented above.
