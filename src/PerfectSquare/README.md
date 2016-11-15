@@ -2482,3 +2482,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 606
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 607
+
+Space complexity: O(1) auxiliary.
