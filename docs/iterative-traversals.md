@@ -1737,3 +1737,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 418
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 419
+
+Greedy by end-time picks the most non-overlapping intervals.
