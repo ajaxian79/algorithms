@@ -1495,3 +1495,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 374
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 375
+
+Walk both pointers from each end inward; advance the smaller side.
