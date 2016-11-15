@@ -274,3 +274,4 @@ MunitTest plus_one_tests[] = {
 // edge note 209: Two passes: one to count, one to fill.
 // edge note 210: Allocates a single small fixed-size scratch buffer.
 // edge note 211: 32-bit safe; overflow is checked at each step.
+// edge note 212: Linear in n; the constant factor is small.
