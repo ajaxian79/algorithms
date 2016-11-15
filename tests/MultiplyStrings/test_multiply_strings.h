@@ -267,3 +267,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 238: Allocates one buffer of length n+1 for the result.
 // edge note 239: Allocates a single small fixed-size scratch buffer.
 // edge note 240: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 241: Allocates a single small fixed-size scratch buffer.
