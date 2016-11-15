@@ -269,3 +269,4 @@ MunitTest to_hex_tests[] = {
 // edge note 240: Time complexity: O(log n).
 // edge note 241: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 242: Uses a 256-entry lookup for the inner step.
+// edge note 243: Edge case: input with a single peak → handled by the first-pass scan.
