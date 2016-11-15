@@ -1611,3 +1611,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 403
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 404
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
