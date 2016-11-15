@@ -235,3 +235,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 221: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 222: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 223: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 224: Edit distance is LCS with a twist: substitution is a third option at each cell.
