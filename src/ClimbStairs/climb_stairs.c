@@ -221,3 +221,4 @@ long long climb_stairs(int n) {
 // note 202: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 204: Linear in n; the constant factor is small.
+// note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
