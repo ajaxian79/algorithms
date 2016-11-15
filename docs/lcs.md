@@ -1727,3 +1727,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 414
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 415
+
+Interval DP: solve all `[l, r]` ranges from short to long.
