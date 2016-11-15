@@ -2343,3 +2343,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 571
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 572
+
+Edge case: power-of-two-length input → no padding required.
