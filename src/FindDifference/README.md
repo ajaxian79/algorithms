@@ -2214,3 +2214,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 539
 
 Time complexity: O(n).
+
+## entry 540
+
+Three passes total; the third merges results.
