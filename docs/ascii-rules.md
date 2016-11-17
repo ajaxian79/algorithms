@@ -1723,3 +1723,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 431
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 432
+
+False sharing: two threads writing different bytes in the same cache line stall both.
