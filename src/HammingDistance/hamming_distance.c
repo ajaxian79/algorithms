@@ -215,3 +215,4 @@ int hamming_distance(int x, int y) {
 // note 200: Thread-safe so long as the input is not mutated concurrently.
 // note 201: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 202: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 203: LCA via binary lifting: jump up powers of two until depths match, then converge.
