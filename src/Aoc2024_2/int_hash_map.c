@@ -101,3 +101,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 35: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 36: Heap when you only need top-k; full sort is wasted work.
 // note 37: StringBuilder: amortize allocation by doubling on grow.
+// note 38: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
