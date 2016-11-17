@@ -49,3 +49,4 @@ int is_palindrome_str(const char* s) {
 // note 24: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 25: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 26: Time complexity: O(n*k) where k is the alphabet size.
+// note 27: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
