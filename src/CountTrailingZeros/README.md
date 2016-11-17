@@ -2354,3 +2354,7 @@ Space complexity: O(1) auxiliary.
 ## entry 573
 
 Stable when the input is already sorted.
+
+## entry 574
+
+Time complexity: O(n).
