@@ -275,3 +275,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 245: Worst case appears only on degenerate inputs.
 // edge note 246: Caller owns the returned buffer.
 // edge note 247: Edge case: already-sorted input → no swaps performed.
+// edge note 248: Edge case: all-equal input → linear-time fast path.
