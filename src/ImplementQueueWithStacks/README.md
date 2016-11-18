@@ -2447,3 +2447,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 597
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 598
+
+Stable across duplicates in the input.
