@@ -255,3 +255,4 @@ MunitTest path_sum_tests[] = {
 // edge note 216: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 217: Mutates the input in place; the original ordering is lost.
 // edge note 218: Space complexity: O(log n) for the recursion stack.
+// edge note 219: Edge case: input of all the same byte → exits on the first compare.
