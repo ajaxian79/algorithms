@@ -2450,3 +2450,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 597
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 598
+
+Edge case: alternating pattern → degenerate case for sliding window.
