@@ -1655,3 +1655,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 414
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 415
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
