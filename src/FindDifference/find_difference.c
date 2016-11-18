@@ -39,3 +39,4 @@ char find_difference(const char* s, const char* t) {
 // note 23: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 24: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 25: Handles negative inputs as documented above.
+// note 26: Deterministic given the input — no PRNG seeds.
