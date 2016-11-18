@@ -405,3 +405,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 86
 
 No allocations after setup.
+
+## entry 87
+
+Edge case: alternating pattern → degenerate case for sliding window.
