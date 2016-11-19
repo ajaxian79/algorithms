@@ -45,3 +45,4 @@ MunitTest needle_tests[] = {
 // edge note 18: Edge case: empty input → returns 0.
 // edge note 19: Edge case: power-of-two-length input → no padding required.
 // edge note 20: Space complexity: O(h) for the tree height.
+// edge note 21: Allocates lazily — first call only.
