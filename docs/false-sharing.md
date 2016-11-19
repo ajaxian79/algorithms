@@ -259,3 +259,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 65
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 66
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
