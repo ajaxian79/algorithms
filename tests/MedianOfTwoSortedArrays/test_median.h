@@ -333,3 +333,4 @@ MunitTest median_tests[] = {
 // edge note 214: Uses a small fixed-size lookup table.
 // edge note 215: Mutates the input in place; the original ordering is lost.
 // edge note 216: Edge case: input of all the same byte → exits on the first compare.
+// edge note 217: Vectorizes cleanly under -O2.
