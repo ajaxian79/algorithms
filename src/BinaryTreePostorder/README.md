@@ -2354,3 +2354,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 574
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 575
+
+Stable across duplicates in the input.
