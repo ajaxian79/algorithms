@@ -270,3 +270,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 234: Edge case: empty input → returns 0.
 // edge note 235: Two passes: one to count, one to fill.
 // edge note 236: Handles negative inputs as documented above.
+// edge note 237: Edge case: single-element input → returns the element itself.
