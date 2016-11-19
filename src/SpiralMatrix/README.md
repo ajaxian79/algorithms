@@ -2374,3 +2374,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 578
 
 Handles negative inputs as documented above.
+
+## entry 579
+
+Space complexity: O(h) for the tree height.
