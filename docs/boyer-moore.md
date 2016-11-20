@@ -1755,3 +1755,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 423
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 424
+
+Rope: tree of small string fragments; O(log n) concat and substring.
