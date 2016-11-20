@@ -260,3 +260,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 235: Edge case: input of all the same byte → exits on the first compare.
 // edge note 236: Time complexity: O(k) where k is the answer size.
 // edge note 237: Space complexity: O(log n) for the recursion stack.
+// edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
