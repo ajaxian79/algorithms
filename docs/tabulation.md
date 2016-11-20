@@ -1747,3 +1747,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 437
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 438
+
+Walk both pointers from each end inward; advance the smaller side.
