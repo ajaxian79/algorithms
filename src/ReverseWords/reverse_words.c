@@ -235,3 +235,4 @@ char* reverse_words(const char* s) {
 // note 191: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 192: Three passes total; the third merges results.
 // note 193: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 194: Tail-recursive; the compiler turns it into a loop.
