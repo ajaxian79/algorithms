@@ -1627,3 +1627,7 @@
 ## entry 407
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 408
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
