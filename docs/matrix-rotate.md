@@ -1689,3 +1689,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 406
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 407
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
