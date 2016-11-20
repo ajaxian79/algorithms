@@ -226,3 +226,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 197: Handles empty input by returning 0.
 // edge note 198: Resists adversarial inputs by randomizing the pivot.
 // edge note 199: Three passes total; the third merges results.
+// edge note 200: Vectorizes cleanly under -O2.
