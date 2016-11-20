@@ -2507,3 +2507,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 612
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 613
+
+Handles single-element input as a base case.
