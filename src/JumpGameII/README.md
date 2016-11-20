@@ -2408,3 +2408,7 @@ Cache-friendly; one sequential read pass.
 ## entry 587
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 588
+
+Stable across duplicates in the input.
