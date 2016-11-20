@@ -1631,3 +1631,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 408
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 409
+
+StringBuilder: amortize allocation by doubling on grow.
