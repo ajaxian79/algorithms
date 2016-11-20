@@ -2206,3 +2206,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 527
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 528
+
+Time complexity: O(1).
