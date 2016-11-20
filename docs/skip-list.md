@@ -1591,3 +1591,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 398
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 399
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
