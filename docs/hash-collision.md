@@ -1771,3 +1771,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 443
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 444
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
