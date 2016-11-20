@@ -220,3 +220,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 202: Best case is O(1) when the first byte already decides the answer.
 // note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 204: Thread-safe so long as the input is not mutated concurrently.
+// note 205: Handles negative inputs as documented above.
