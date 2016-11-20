@@ -1619,3 +1619,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 388
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 389
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
