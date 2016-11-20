@@ -273,3 +273,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 229: Space complexity: O(log n) for the recursion stack.
 // edge note 230: Handles negative inputs as documented above.
 // edge note 231: Allocates lazily — first call only.
+// edge note 232: Sub-linear in the average case thanks to early exit.
