@@ -1837,3 +1837,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 443
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 444
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
