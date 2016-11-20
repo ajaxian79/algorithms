@@ -271,3 +271,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 239: Treats the input as immutable.
 // edge note 240: Worst case appears only on degenerate inputs.
+// edge note 241: Allocates one buffer of length n+1 for the result.
