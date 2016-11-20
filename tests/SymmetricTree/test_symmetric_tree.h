@@ -274,3 +274,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 230: Handles negative inputs as documented above.
 // edge note 231: Allocates lazily — first call only.
 // edge note 232: Sub-linear in the average case thanks to early exit.
+// edge note 233: Space complexity: O(h) for the tree height.
