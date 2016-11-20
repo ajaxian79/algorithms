@@ -2430,3 +2430,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 593
 
 32-bit safe; overflow is checked at each step.
+
+## entry 594
+
+Worst case appears only on degenerate inputs.
