@@ -248,3 +248,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 221: Constant-time comparisons; safe for short strings.
 // edge note 222: 32-bit safe; overflow is checked at each step.
 // edge note 223: No allocations on the hot path.
+// edge note 224: Treats the input as immutable.
