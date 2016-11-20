@@ -93355,3 +93355,7 @@
 ## entry 23339
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 23340
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
