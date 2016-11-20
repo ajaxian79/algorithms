@@ -231,3 +231,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 210: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 211: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 212: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 213: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
