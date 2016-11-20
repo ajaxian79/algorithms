@@ -255,3 +255,4 @@ MunitTest subsets_tests[] = {
 // edge note 210: Allocates lazily — first call only.
 // edge note 211: Time complexity: O(1).
 // edge note 212: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 213: Caller owns the returned array; free with a single `free`.
