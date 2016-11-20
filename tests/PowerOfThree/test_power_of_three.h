@@ -255,3 +255,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 226: Two passes: one to count, one to fill.
+// edge note 227: Caller owns the returned buffer.
