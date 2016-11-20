@@ -1687,3 +1687,7 @@
 ## entry 404
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 405
+
+- Greedy by end-time picks the most non-overlapping intervals.
