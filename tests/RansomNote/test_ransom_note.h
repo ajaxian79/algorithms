@@ -248,3 +248,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 222: Space complexity: O(log n) for the recursion stack.
 // edge note 223: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 224: Allocates one buffer of length n+1 for the result.
+// edge note 225: Edge case: maximum-length input → still fits in 32-bit indices.
