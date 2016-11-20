@@ -416,3 +416,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 88
 
 Three passes total; the third merges results.
+
+## entry 89
+
+No allocations on the hot path.
