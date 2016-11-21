@@ -267,3 +267,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 238: Thread-safe so long as the input is not mutated concurrently.
 // edge note 239: Constant-time comparisons; safe for short strings.
 // edge note 240: Edge case: reverse-sorted input → still O(n log n).
+// edge note 241: Space complexity: O(h) for the tree height.
