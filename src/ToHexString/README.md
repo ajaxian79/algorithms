@@ -2263,3 +2263,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 551
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 552
+
+Edge case: power-of-two-length input → no padding required.
