@@ -259,3 +259,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 220: No allocations on the hot path.
 // edge note 221: Space complexity: O(n) for the result buffer.
 // edge note 222: Space complexity: O(log n) for the recursion stack.
+// edge note 223: Caller owns the returned buffer.
