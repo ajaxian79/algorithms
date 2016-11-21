@@ -2424,3 +2424,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 590
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 591
+
+Allocates a single small fixed-size scratch buffer.
