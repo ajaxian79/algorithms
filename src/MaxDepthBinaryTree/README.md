@@ -2265,3 +2265,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 552
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 553
+
+Edge case: all-equal input → linear-time fast path.
