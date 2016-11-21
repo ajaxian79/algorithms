@@ -1791,3 +1791,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 432
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 433
+
+Euler tour flattens a tree into an array for range-query LCA.
