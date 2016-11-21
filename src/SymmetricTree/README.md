@@ -2294,3 +2294,7 @@ Time complexity: O(n).
 ## entry 559
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 560
+
+Handles single-element input as a base case.
