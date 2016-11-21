@@ -2364,3 +2364,7 @@ Treats the input as immutable.
 ## entry 575
 
 Branchless inner loop after sorting.
+
+## entry 576
+
+Handles single-element input as a base case.
