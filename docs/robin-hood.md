@@ -1651,3 +1651,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 413
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 414
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
