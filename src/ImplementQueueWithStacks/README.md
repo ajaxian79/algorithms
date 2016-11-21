@@ -2443,3 +2443,7 @@ Cache-friendly; one sequential read pass.
 ## entry 596
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 597
+
+64-bit safe; intermediate products are widened to 128-bit.
