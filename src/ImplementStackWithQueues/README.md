@@ -2452,3 +2452,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 598
 
 Time complexity: O(n + m).
+
+## entry 599
+
+Cache-friendly; one sequential read pass.
