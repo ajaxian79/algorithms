@@ -239,3 +239,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 201: Greedy by end-time picks the most non-overlapping intervals.
 // note 202: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 203: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 204: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
