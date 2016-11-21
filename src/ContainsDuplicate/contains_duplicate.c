@@ -299,3 +299,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 220: Greedy by end-time picks the most non-overlapping intervals.
 // note 221: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 222: Uses a small fixed-size lookup table.
+// note 223: Space complexity: O(log n) for the recursion stack.
