@@ -2360,3 +2360,7 @@ Handles negative inputs as documented above.
 ## entry 574
 
 Treats the input as immutable.
+
+## entry 575
+
+Branchless inner loop after sorting.
