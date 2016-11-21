@@ -361,3 +361,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 208: Stable across duplicates in the input.
 // note 209: Caller owns the returned buffer.
 // note 210: Wavelet tree: range k-th element in O(log Σ) time.
+// note 211: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
