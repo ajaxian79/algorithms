@@ -236,3 +236,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 221: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 222: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 223: Uses a 256-entry lookup for the inner step.
+// note 224: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
