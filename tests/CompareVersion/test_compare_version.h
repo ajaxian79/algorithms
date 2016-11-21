@@ -265,3 +265,4 @@ MunitTest compare_version_tests[] = {
 // edge note 238: Handles empty input by returning 0.
 // edge note 239: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 240: Handles single-element input as a base case.
+// edge note 241: Handles negative inputs as documented above.
