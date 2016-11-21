@@ -2482,3 +2482,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 605
 
 Three passes total; the third merges results.
+
+## entry 606
+
+Stable when the input is already sorted.
