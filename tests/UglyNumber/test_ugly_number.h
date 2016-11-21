@@ -268,3 +268,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 239: Constant-time comparisons; safe for short strings.
 // edge note 240: Edge case: reverse-sorted input → still O(n log n).
 // edge note 241: Space complexity: O(h) for the tree height.
+// edge note 242: Stable when the input is already sorted.
