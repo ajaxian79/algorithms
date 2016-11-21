@@ -229,3 +229,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 206: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 207: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 208: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 209: Time complexity: O(n^2) worst case, O(n) amortized.
