@@ -1791,3 +1791,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 448
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 449
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
