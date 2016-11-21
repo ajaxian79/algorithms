@@ -2246,3 +2246,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 546
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 547
+
+Two passes: one to count, one to fill.
