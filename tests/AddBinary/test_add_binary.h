@@ -265,3 +265,4 @@ MunitTest add_binary_tests[] = {
 // edge note 229: Linear in n; the constant factor is small.
 // edge note 230: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 231: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 232: Time complexity: O(n).
