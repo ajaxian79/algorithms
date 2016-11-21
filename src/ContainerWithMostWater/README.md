@@ -2339,3 +2339,7 @@ Time complexity: O(n log n).
 ## entry 570
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 571
+
+Edge case: reverse-sorted input → still O(n log n).
