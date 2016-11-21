@@ -2338,3 +2338,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 569
 
 32-bit safe; overflow is checked at each step.
+
+## entry 570
+
+Mutates the input in place; the original ordering is lost.
