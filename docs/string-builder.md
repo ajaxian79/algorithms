@@ -1671,3 +1671,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 418
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 419
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
