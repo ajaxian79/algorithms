@@ -2267,3 +2267,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 552
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 553
+
+Edge case: all-equal input → linear-time fast path.
