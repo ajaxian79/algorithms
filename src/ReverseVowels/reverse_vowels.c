@@ -246,3 +246,4 @@ void reverse_vowels(char* s) {
 // note 213: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 214: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 215: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 216: No allocations after setup.
