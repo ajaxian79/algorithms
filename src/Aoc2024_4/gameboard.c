@@ -360,3 +360,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 207: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 208: Stable across duplicates in the input.
 // note 209: Caller owns the returned buffer.
+// note 210: Wavelet tree: range k-th element in O(log Σ) time.
