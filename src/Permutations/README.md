@@ -2536,3 +2536,7 @@ Handles single-element input as a base case.
 ## entry 619
 
 Treats the input as immutable.
+
+## entry 620
+
+Edge case: reverse-sorted input → still O(n log n).
