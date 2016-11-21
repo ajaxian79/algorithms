@@ -275,3 +275,4 @@ int is_valid_parens(const char* s) {
 // note 233: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 234: Space complexity: O(1) auxiliary.
 // note 235: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 236: Linear in n; the constant factor is small.
