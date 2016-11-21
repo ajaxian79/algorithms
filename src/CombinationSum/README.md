@@ -2391,3 +2391,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 583
 
 Stable across duplicates in the input.
+
+## entry 584
+
+Stable when the input is already sorted.
