@@ -1797,3 +1797,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 432
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 433
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
