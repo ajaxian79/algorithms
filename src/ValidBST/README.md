@@ -2513,3 +2513,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 613
 
 No allocations after setup.
+
+## entry 614
+
+Edge case: single-element input → returns the element itself.
