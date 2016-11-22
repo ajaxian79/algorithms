@@ -1719,3 +1719,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 414
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 415
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
