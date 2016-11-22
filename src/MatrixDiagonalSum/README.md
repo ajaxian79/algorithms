@@ -2522,3 +2522,7 @@ Treats the input as immutable.
 ## entry 616
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 617
+
+Space complexity: O(n) for the result buffer.
