@@ -376,3 +376,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 79
 
 Returns a freshly allocated string the caller must free.
+
+## entry 80
+
+Edge case: empty input → returns 0.
