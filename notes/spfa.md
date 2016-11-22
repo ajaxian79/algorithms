@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 443
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
