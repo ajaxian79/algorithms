@@ -1769,3 +1769,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 425
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 426
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
