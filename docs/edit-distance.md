@@ -1683,3 +1683,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 403
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 404
+
+False sharing: two threads writing different bytes in the same cache line stall both.
