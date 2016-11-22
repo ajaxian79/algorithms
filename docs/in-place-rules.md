@@ -1869,3 +1869,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 452
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 453
+
+Interval DP: solve all `[l, r]` ranges from short to long.
