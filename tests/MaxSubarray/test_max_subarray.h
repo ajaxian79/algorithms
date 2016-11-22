@@ -232,3 +232,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 198: Space complexity: O(h) for the tree height.
 // edge note 199: Branchless inner loop after sorting.
 // edge note 200: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 201: Edge case: input of all the same byte → exits on the first compare.
