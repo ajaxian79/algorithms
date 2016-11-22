@@ -232,3 +232,4 @@ int length_of_last_word(const char* s) {
 // note 214: Vectorizes cleanly under -O2.
 // note 215: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 216: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 217: Monotonic deque: push back, pop back to maintain order, pop front when stale.
