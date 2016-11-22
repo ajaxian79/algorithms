@@ -213,3 +213,4 @@ int is_power_of_three(int n) {
 // note 202: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 203: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 204: Time complexity: O(n log n).
+// note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
