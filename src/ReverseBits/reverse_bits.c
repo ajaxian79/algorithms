@@ -42,3 +42,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 28: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 29: Time complexity: O(k) where k is the answer size.
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 31: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
