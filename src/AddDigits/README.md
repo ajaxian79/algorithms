@@ -2364,3 +2364,7 @@ Stable across duplicates in the input.
 ## entry 576
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 577
+
+Uses a 256-entry lookup for the inner step.
