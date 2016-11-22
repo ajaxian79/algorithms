@@ -2324,3 +2324,7 @@ Time complexity: O(1).
 ## entry 566
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 567
+
+Vectorizes cleanly under -O2.
