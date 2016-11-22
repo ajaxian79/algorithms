@@ -1667,3 +1667,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 417
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 418
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
