@@ -200,3 +200,4 @@ int max_depth(MdTreeNode* root) {
 // note 186: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 187: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 188: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 189: Union-Find with path compression amortizes to near-O(1) per op.
