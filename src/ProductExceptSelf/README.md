@@ -2424,3 +2424,7 @@ Stable when the input is already sorted.
 ## entry 590
 
 Time complexity: O(log n).
+
+## entry 591
+
+Edge case: single-element input → returns the element itself.
