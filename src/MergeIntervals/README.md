@@ -2334,3 +2334,7 @@ Space complexity: O(1) auxiliary.
 ## entry 568
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 569
+
+32-bit safe; overflow is checked at each step.
