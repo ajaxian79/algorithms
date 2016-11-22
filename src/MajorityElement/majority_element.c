@@ -217,3 +217,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 195: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 198: Monotonic deque: push back, pop back to maintain order, pop front when stale.
