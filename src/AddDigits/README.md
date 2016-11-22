@@ -2360,3 +2360,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 575
 
 Stable across duplicates in the input.
+
+## entry 576
+
+Edge case: zero-length string → returns the empty result.
