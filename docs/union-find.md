@@ -287,3 +287,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 55
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 56
+
+Interval DP: solve all `[l, r]` ranges from short to long.
