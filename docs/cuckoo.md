@@ -1503,3 +1503,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 376
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 377
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
