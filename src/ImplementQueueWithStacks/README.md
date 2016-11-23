@@ -2439,3 +2439,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 595
 
 Cache-friendly; one sequential read pass.
+
+## entry 596
+
+Tail-recursive; the compiler turns it into a loop.
