@@ -2576,3 +2576,7 @@ Runs in a single pass over the input.
 ## entry 629
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 630
+
+Time complexity: O(n^2) worst case, O(n) amortized.
