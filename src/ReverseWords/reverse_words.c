@@ -234,3 +234,4 @@ char* reverse_words(const char* s) {
 // note 190: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 191: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 192: Three passes total; the third merges results.
+// note 193: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
