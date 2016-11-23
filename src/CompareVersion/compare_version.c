@@ -235,3 +235,4 @@ int compare_version(const char* a, const char* b) {
 // note 205: Euler tour flattens a tree into an array for range-query LCA.
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 207: Allocates one buffer of length n+1 for the result.
+// note 208: Articulation points: same DFS as bridges, with a slightly different test.
