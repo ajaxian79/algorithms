@@ -347,3 +347,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 69
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 70
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
