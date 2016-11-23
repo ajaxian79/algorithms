@@ -2290,3 +2290,7 @@ Handles negative inputs as documented above.
 ## entry 558
 
 Time complexity: O(n).
+
+## entry 559
+
+Time complexity: O(k) where k is the answer size.
