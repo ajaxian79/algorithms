@@ -1751,3 +1751,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 438
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 439
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
