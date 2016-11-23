@@ -2373,3 +2373,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 578
 
 Caller owns the returned buffer.
+
+## entry 579
+
+Edge case: input with a single peak → handled by the first-pass scan.
