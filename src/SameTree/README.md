@@ -2328,3 +2328,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 568
 
 Treats the input as immutable.
+
+## entry 569
+
+Three passes total; the third merges results.
