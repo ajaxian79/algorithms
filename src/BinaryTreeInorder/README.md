@@ -394,3 +394,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 84
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 85
+
+64-bit safe; intermediate products are widened to 128-bit.
