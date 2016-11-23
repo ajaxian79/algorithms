@@ -2209,3 +2209,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 537
 
 No allocations after setup.
+
+## entry 538
+
+Space complexity: O(n) for the result buffer.
