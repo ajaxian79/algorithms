@@ -2416,3 +2416,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 588
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 589
+
+Stable when the input is already sorted.
