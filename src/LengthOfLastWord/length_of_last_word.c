@@ -231,3 +231,4 @@ int length_of_last_word(const char* s) {
 // note 213: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 214: Vectorizes cleanly under -O2.
 // note 215: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 216: Interval DP: solve all `[l, r]` ranges from short to long.
