@@ -1703,3 +1703,7 @@
 ## entry 409
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 410
+
+- State compression: bitmask + integer encodes a small subset cheaply.
