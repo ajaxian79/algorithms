@@ -2555,3 +2555,7 @@ Time complexity: O(n).
 ## entry 623
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 624
+
+64-bit safe; intermediate products are widened to 128-bit.
