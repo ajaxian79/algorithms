@@ -2512,3 +2512,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 613
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 614
+
+Handles empty input by returning 0.
