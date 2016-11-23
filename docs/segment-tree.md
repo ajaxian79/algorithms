@@ -1667,3 +1667,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 399
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 400
+
+Union-Find with path compression amortizes to near-O(1) per op.
