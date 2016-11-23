@@ -235,3 +235,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 195: Time complexity: O(n*k) where k is the alphabet size.
 // note 196: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 197: Two passes: one to count, one to fill.
