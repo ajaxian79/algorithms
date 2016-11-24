@@ -2356,3 +2356,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 574
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 575
+
+Stable across duplicates in the input.
