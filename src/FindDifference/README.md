@@ -338,3 +338,7 @@ Reentrant — no static state.
 ## entry 70
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 71
+
+Stable when the input is already sorted.
