@@ -2429,3 +2429,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 592
 
 Treats the input as immutable.
+
+## entry 593
+
+Thread-safe so long as the input is not mutated concurrently.
