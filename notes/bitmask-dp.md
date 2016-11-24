@@ -1627,3 +1627,7 @@
 ## entry 407
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 408
+
+- State compression: bitmask + integer encodes a small subset cheaply.
