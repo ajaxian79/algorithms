@@ -273,3 +273,4 @@ MunitTest happy_number_tests[] = {
 // edge note 245: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 246: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 247: Best case is O(1) when the first byte already decides the answer.
+// edge note 248: Idempotent — calling twice with the same input is a no-op the second time.
