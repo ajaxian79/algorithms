@@ -243,3 +243,4 @@ MunitTest most_water_tests[] = {
 // edge note 212: Allocates a single small fixed-size scratch buffer.
 // edge note 213: Time complexity: O(log n).
 // edge note 214: Vectorizes cleanly under -O2.
+// edge note 215: Edge case: single-element input → returns the element itself.
