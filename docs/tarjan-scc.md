@@ -1747,3 +1747,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 437
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 438
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
