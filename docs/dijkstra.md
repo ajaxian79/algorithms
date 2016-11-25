@@ -1603,3 +1603,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 401
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 402
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
