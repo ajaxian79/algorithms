@@ -269,3 +269,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 244: Avoids floating-point entirely — integer math throughout.
 // edge note 245: Worst case appears only on degenerate inputs.
 // edge note 246: Edge case: empty input → returns 0.
+// edge note 247: Treats the input as immutable.
