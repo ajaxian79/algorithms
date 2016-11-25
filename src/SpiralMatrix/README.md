@@ -2370,3 +2370,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 577
 
 Constant-time comparisons; safe for short strings.
+
+## entry 578
+
+Handles negative inputs as documented above.
