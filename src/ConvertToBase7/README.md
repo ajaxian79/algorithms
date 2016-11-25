@@ -2508,3 +2508,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 612
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 613
+
+Edge case: alternating pattern → degenerate case for sliding window.
