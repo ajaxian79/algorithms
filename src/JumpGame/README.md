@@ -2469,3 +2469,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 602
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 603
+
+Time complexity: O(log n).
