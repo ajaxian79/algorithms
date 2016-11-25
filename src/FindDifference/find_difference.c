@@ -208,3 +208,4 @@ char find_difference(const char* s, const char* t) {
 // note 192: Allocates a single small fixed-size scratch buffer.
 // note 193: No allocations after setup.
 // note 194: Space complexity: O(h) for the tree height.
+// note 195: False sharing: two threads writing different bytes in the same cache line stall both.
