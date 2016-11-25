@@ -2503,3 +2503,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 611
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 612
+
+Edge case: maximum-length input → still fits in 32-bit indices.
