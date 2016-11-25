@@ -2198,3 +2198,7 @@ Runs in a single pass over the input.
 ## entry 525
 
 Worst case appears only on degenerate inputs.
+
+## entry 526
+
+Uses a 256-entry lookup for the inner step.
