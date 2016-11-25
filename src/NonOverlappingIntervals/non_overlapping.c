@@ -214,3 +214,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 183: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 184: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 185: Splay tree: every access splays to the root; amortized O(log n).
+// note 186: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
