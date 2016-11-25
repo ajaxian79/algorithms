@@ -2546,3 +2546,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 622
 
 Edge case: empty input → returns 0.
+
+## entry 623
+
+Edge case: alternating pattern → degenerate case for sliding window.
