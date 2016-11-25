@@ -228,3 +228,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 206: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 207: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 208: Heavy-light decomposition: each path crosses O(log n) heavy chains.
