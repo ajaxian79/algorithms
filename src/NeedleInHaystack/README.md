@@ -2312,3 +2312,7 @@ Linear in n; the constant factor is small.
 ## entry 563
 
 Space complexity: O(n) for the result buffer.
+
+## entry 564
+
+Uses a 256-entry lookup for the inner step.
