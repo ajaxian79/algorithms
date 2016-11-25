@@ -1767,3 +1767,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 442
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 443
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
