@@ -2406,3 +2406,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 586
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 587
+
+Time complexity: O(k) where k is the answer size.
