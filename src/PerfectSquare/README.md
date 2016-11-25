@@ -2474,3 +2474,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 604
 
 Constant-time comparisons; safe for short strings.
+
+## entry 605
+
+Thread-safe so long as the input is not mutated concurrently.
