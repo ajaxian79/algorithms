@@ -263,3 +263,4 @@ MunitTest four_sum_tests[] = {
 // edge note 222: Allocates one buffer of length n+1 for the result.
 // edge note 223: Time complexity: O(n).
 // edge note 224: Allocates lazily — first call only.
+// edge note 225: Allocates one buffer of length n+1 for the result.
