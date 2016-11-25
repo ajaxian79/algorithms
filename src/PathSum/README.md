@@ -2536,3 +2536,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 619
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 620
+
+Sub-linear in the average case thanks to early exit.
