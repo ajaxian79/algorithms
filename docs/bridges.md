@@ -1695,3 +1695,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 424
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 425
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
