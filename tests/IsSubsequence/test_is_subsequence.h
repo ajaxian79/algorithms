@@ -235,3 +235,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 209: Three passes total; the third merges results.
 // edge note 210: No allocations on the hot path.
 // edge note 211: Edge case: empty input → returns 0.
+// edge note 212: Constant-time comparisons; safe for short strings.
