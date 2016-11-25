@@ -310,3 +310,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 255: Vectorizes cleanly under -O2.
 // edge note 256: Best case is O(1) when the first byte already decides the answer.
 // edge note 257: Returns a freshly allocated string the caller must free.
+// edge note 258: Best case is O(1) when the first byte already decides the answer.
