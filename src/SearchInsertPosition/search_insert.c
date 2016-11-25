@@ -231,3 +231,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 215: Time complexity: O(k) where k is the answer size.
 // note 216: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 217: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 218: Monotonic deque: push back, pop back to maintain order, pop front when stale.
