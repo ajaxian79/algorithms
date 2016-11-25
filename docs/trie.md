@@ -1633,3 +1633,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 392
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 393
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
