@@ -93183,3 +93183,7 @@
 ## entry 23296
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23297
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
