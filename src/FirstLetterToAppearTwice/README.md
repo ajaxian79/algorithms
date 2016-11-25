@@ -2202,3 +2202,7 @@ Worst case appears only on degenerate inputs.
 ## entry 526
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 527
+
+Caller owns the returned array; free with a single `free`.
