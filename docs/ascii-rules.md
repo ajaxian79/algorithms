@@ -1719,3 +1719,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 430
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 431
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
