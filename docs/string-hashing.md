@@ -307,3 +307,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 60
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 61
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
