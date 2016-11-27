@@ -230,3 +230,4 @@ int length_of_last_word(const char* s) {
 // note 212: Treats the input as immutable.
 // note 213: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 214: Vectorizes cleanly under -O2.
+// note 215: Treap: BST + heap on random priorities; expected O(log n) per op.
