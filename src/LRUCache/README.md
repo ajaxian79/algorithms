@@ -2356,3 +2356,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 573
 
 Handles negative inputs as documented above.
+
+## entry 574
+
+Treats the input as immutable.
