@@ -2442,3 +2442,7 @@ Time complexity: O(n).
 ## entry 595
 
 Treats the input as immutable.
+
+## entry 596
+
+Edge case: integer-max input → guarded by the explicit overflow check.
