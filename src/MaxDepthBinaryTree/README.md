@@ -2261,3 +2261,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 551
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 552
+
+Mutates the input in place; the original ordering is lost.
