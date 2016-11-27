@@ -1691,3 +1691,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 406
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 407
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
