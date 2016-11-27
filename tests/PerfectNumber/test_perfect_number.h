@@ -268,3 +268,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 238: Space complexity: O(1) auxiliary.
 // edge note 239: Best case is O(1) when the first byte already decides the answer.
 // edge note 240: Uses a 256-entry lookup for the inner step.
+// edge note 241: Allocates one buffer of length n+1 for the result.
