@@ -1733,3 +1733,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 417
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 418
+
+Walk both pointers from each end inward; advance the smaller side.
