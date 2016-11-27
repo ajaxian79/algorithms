@@ -1715,3 +1715,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 429
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 430
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
