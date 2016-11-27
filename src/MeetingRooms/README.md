@@ -2334,3 +2334,7 @@ Handles single-element input as a base case.
 ## entry 569
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 570
+
+Edge case: integer-min input → guarded by the explicit underflow check.
