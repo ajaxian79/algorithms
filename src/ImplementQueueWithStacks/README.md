@@ -2435,3 +2435,7 @@ No allocations after setup.
 ## entry 594
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 595
+
+Cache-friendly; one sequential read pass.
