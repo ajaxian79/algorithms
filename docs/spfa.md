@@ -1583,3 +1583,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 396
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 397
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
