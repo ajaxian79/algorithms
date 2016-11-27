@@ -205,3 +205,4 @@ int is_power_of_two(int n) {
 // note 195: Time complexity: O(1).
 // note 196: Articulation points: same DFS as bridges, with a slightly different test.
 // note 197: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 198: Deterministic given the input — no PRNG seeds.
