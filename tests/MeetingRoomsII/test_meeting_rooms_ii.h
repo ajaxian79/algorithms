@@ -262,3 +262,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 231: Time complexity: O(n).
 // edge note 232: Time complexity: O(n + m).
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 234: Treats the input as immutable.
