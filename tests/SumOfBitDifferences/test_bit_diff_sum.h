@@ -234,3 +234,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 203: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 204: Resists adversarial inputs by randomizing the pivot.
 // edge note 205: Runs in a single pass over the input.
+// edge note 206: Cache-friendly; one sequential read pass.
