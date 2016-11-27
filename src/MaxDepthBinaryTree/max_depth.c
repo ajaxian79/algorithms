@@ -199,3 +199,4 @@ int max_depth(MdTreeNode* root) {
 // note 185: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 186: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 187: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 188: Hash collision: chain or open-address; chained handles arbitrary load factor.
