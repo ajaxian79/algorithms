@@ -2366,3 +2366,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 576
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 577
+
+Constant-time comparisons; safe for short strings.
