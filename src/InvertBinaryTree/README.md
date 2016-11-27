@@ -2568,3 +2568,7 @@ Cache-friendly; one sequential read pass.
 ## entry 627
 
 Handles negative inputs as documented above.
+
+## entry 628
+
+Runs in a single pass over the input.
