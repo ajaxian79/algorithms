@@ -272,3 +272,4 @@ MunitTest plus_one_tests[] = {
 // edge note 207: Space complexity: O(1) auxiliary.
 // edge note 208: Edge case: zero-length string → returns the empty result.
 // edge note 209: Two passes: one to count, one to fill.
+// edge note 210: Allocates a single small fixed-size scratch buffer.
