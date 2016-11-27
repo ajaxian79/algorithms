@@ -215,3 +215,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 193: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 194: Time complexity: O(n).
 // note 195: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
