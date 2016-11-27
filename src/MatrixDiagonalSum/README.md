@@ -2518,3 +2518,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 615
 
 Treats the input as immutable.
+
+## entry 616
+
+Edge case: reverse-sorted input → still O(n log n).
