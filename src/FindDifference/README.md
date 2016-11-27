@@ -2206,3 +2206,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 537
 
 Allocates lazily — first call only.
+
+## entry 538
+
+Edge case: all-equal input → linear-time fast path.
