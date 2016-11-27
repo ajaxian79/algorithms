@@ -253,3 +253,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 210: Time complexity: O(n log n).
 // edge note 211: Avoids floating-point entirely — integer math throughout.
 // edge note 212: Best case is O(1) when the first byte already decides the answer.
+// edge note 213: Edge case: already-sorted input → no swaps performed.
