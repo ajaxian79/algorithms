@@ -2308,3 +2308,7 @@ Space complexity: O(h) for the tree height.
 ## entry 562
 
 Linear in n; the constant factor is small.
+
+## entry 563
+
+Space complexity: O(n) for the result buffer.
