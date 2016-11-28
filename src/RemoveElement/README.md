@@ -429,3 +429,7 @@ Space complexity: O(h) for the tree height.
 ## entry 93
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 94
+
+Space complexity: O(1) auxiliary.
