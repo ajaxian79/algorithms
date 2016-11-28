@@ -68,3 +68,4 @@ int is_valid_parens(const char* s) {
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 27: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 28: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 29: Tree DP: post-order DFS lets children inform the parent in one pass.
