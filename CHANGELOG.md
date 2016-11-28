@@ -93063,3 +93063,7 @@
 ## entry 23266
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 23267
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
