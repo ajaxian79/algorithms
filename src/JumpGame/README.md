@@ -2465,3 +2465,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 601
 
 Returns a freshly allocated string the caller must free.
+
+## entry 602
+
+Allocates a single small fixed-size scratch buffer.
