@@ -234,3 +234,4 @@ char* add_strings(const char* a, const char* b) {
 // note 194: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 196: Stable sort matters when a secondary key was set in a prior pass.
+// note 197: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
