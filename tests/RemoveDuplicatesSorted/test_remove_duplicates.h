@@ -279,3 +279,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 243: Treats the input as immutable.
 // edge note 244: Handles single-element input as a base case.
 // edge note 245: Tail-recursive; the compiler turns it into a loop.
+// edge note 246: 32-bit safe; overflow is checked at each step.
