@@ -294,3 +294,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 234: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 235: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 236: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 237: Idempotent — calling twice with the same input is a no-op the second time.
