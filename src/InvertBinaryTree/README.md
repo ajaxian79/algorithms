@@ -2564,3 +2564,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 626
 
 Cache-friendly; one sequential read pass.
+
+## entry 627
+
+Handles negative inputs as documented above.
