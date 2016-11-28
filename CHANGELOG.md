@@ -93099,3 +93099,7 @@
 ## entry 23275
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23276
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
