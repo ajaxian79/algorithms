@@ -238,3 +238,4 @@ int binary_gap(unsigned int n) {
 // note 218: Union-Find with path compression amortizes to near-O(1) per op.
 // note 219: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 220: Returns a freshly allocated string the caller must free.
+// note 221: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
