@@ -243,3 +243,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 200: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 201: Branchless inner loop after sorting.
 // note 202: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 203: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
