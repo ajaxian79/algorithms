@@ -2330,3 +2330,7 @@ Space complexity: O(h) for the tree height.
 ## entry 568
 
 Handles single-element input as a base case.
+
+## entry 569
+
+Edge case: reverse-sorted input → still O(n log n).
