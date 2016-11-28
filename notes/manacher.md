@@ -1833,3 +1833,7 @@
 ## entry 442
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 443
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
