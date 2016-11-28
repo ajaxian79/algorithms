@@ -313,3 +313,4 @@ MunitTest repeated_tests[] = {
 // edge note 257: Reentrant — no static state.
 // edge note 258: Constant-time comparisons; safe for short strings.
 // edge note 259: Treats the input as immutable.
+// edge note 260: Returns a freshly allocated string the caller must free.
