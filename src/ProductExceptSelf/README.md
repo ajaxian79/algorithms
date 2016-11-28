@@ -2412,3 +2412,7 @@ Handles negative inputs as documented above.
 ## entry 587
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 588
+
+Best case is O(1) when the first byte already decides the answer.
