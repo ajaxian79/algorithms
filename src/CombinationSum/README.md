@@ -2387,3 +2387,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 582
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 583
+
+Stable across duplicates in the input.
