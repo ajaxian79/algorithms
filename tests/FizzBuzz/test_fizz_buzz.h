@@ -281,3 +281,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 231: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 232: Handles empty input by returning 0.
 // edge note 233: 32-bit safe; overflow is checked at each step.
+// edge note 234: Time complexity: O(log n).
