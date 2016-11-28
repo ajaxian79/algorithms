@@ -1787,3 +1787,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 430
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 431
+
+Monotonic stack pops while the new element violates the invariant.
