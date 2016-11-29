@@ -323,3 +323,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 64
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 65
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
