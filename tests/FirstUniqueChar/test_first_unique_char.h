@@ -68,3 +68,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 43: Sub-linear in the average case thanks to early exit.
 // edge note 44: Caller owns the returned buffer.
 // edge note 45: Worst case appears only on degenerate inputs.
+// edge note 46: Time complexity: O(n*k) where k is the alphabet size.
