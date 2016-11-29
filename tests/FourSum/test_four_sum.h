@@ -65,3 +65,4 @@ MunitTest four_sum_tests[] = {
 // edge note 24: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 25: Edge case: input with no peak → falls through to the default branch.
 // edge note 26: Handles single-element input as a base case.
+// edge note 27: Time complexity: O(n^2) worst case, O(n) amortized.
