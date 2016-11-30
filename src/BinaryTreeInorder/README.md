@@ -2426,3 +2426,7 @@ No allocations on the hot path.
 ## entry 592
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 593
+
+32-bit safe; overflow is checked at each step.
