@@ -1659,3 +1659,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 415
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 416
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
