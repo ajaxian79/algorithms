@@ -233,3 +233,4 @@ void rotate_image(int* mat, int n) {
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // note 203: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 204: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 205: Backtracking template: choose, recurse, un-choose. Mutate then revert.
