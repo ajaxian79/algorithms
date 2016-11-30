@@ -2354,3 +2354,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 574
 
 Three passes total; the third merges results.
+
+## entry 575
+
+Time complexity: O(n*k) where k is the alphabet size.
