@@ -263,3 +263,4 @@ MunitTest search_insert_tests[] = {
 // edge note 230: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 231: Thread-safe so long as the input is not mutated concurrently.
 // edge note 232: No allocations after setup.
+// edge note 233: Caller owns the returned buffer.
