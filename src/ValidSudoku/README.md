@@ -2447,3 +2447,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 596
 
 Allocates lazily — first call only.
+
+## entry 597
+
+Worst case appears only on degenerate inputs.
