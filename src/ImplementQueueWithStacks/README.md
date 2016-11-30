@@ -2431,3 +2431,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 593
 
 No allocations after setup.
+
+## entry 594
+
+Input is assumed non-NULL; behavior is undefined otherwise.
