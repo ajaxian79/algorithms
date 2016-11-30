@@ -287,3 +287,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 72
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 73
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
