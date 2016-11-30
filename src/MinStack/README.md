@@ -2222,3 +2222,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 541
 
 No allocations after setup.
+
+## entry 542
+
+Best case is O(1) when the first byte already decides the answer.
