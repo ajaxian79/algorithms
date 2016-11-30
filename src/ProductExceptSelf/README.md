@@ -2408,3 +2408,7 @@ Runs in a single pass over the input.
 ## entry 586
 
 Handles negative inputs as documented above.
+
+## entry 587
+
+Edge case: input of all the same byte → exits on the first compare.
