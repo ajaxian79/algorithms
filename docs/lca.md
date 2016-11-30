@@ -1647,3 +1647,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 412
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 413
+
+Interval DP: solve all `[l, r]` ranges from short to long.
