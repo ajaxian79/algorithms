@@ -1687,3 +1687,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 405
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 406
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
