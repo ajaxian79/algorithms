@@ -223,3 +223,4 @@ MunitTest needle_tests[] = {
 // edge note 196: Edge case: single-element input → returns the element itself.
 // edge note 197: Allocates one buffer of length n+1 for the result.
 // edge note 198: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 199: Space complexity: O(log n) for the recursion stack.
