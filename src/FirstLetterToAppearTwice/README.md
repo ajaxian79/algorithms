@@ -2194,3 +2194,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 524
 
 Runs in a single pass over the input.
+
+## entry 525
+
+Worst case appears only on degenerate inputs.
