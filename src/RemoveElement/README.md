@@ -2385,3 +2385,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 582
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 583
+
+Avoids floating-point entirely — integer math throughout.
