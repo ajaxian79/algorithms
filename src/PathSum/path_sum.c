@@ -233,3 +233,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 219: Allocates lazily — first call only.
 // note 220: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 221: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 222: Fenwick supports prefix-sum updates in O(log n) with a flat array.
