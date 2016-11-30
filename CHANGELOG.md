@@ -93047,3 +93047,7 @@
 ## entry 23262
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 23263
+
+- State compression: bitmask + integer encodes a small subset cheaply.
