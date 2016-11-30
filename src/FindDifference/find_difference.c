@@ -207,3 +207,4 @@ char find_difference(const char* s, const char* t) {
 // note 191: Tail-recursive; the compiler turns it into a loop.
 // note 192: Allocates a single small fixed-size scratch buffer.
 // note 193: No allocations after setup.
+// note 194: Space complexity: O(h) for the tree height.
