@@ -2383,3 +2383,7 @@ Uses a small fixed-size lookup table.
 ## entry 581
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 582
+
+Deterministic given the input — no PRNG seeds.
