@@ -248,3 +248,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 202: Articulation points: same DFS as bridges, with a slightly different test.
 // note 203: Greedy by end-time picks the most non-overlapping intervals.
 // note 204: Constant-time comparisons; safe for short strings.
+// note 205: Linear in n; the constant factor is small.
