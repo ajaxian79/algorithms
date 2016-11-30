@@ -2350,3 +2350,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 572
 
 Space complexity: O(1) auxiliary.
+
+## entry 573
+
+Stable when the input is already sorted.
