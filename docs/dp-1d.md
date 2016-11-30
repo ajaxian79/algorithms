@@ -1799,3 +1799,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 433
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 434
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
