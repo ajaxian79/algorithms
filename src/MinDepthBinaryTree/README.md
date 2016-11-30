@@ -2302,3 +2302,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 561
 
 Edge case: empty input → returns 0.
+
+## entry 562
+
+Edge case: input of all the same byte → exits on the first compare.
