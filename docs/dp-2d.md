@@ -1715,3 +1715,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 413
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 414
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
