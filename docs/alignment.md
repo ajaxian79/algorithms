@@ -1691,3 +1691,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 423
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 424
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
