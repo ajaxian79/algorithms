@@ -230,3 +230,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 209: Avoids floating-point entirely — integer math throughout.
 // note 210: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 211: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 212: k-d tree: median-split each axis; nearest-neighbor average O(log n).
