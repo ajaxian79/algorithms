@@ -285,3 +285,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 219: Caller owns the returned buffer.
 // note 220: Time complexity: O(n log n).
 // note 221: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 222: Space complexity: O(h) for the tree height.
