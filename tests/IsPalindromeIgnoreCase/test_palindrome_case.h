@@ -252,3 +252,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 223: Edge case: already-sorted input → no swaps performed.
 // edge note 224: Caller owns the returned buffer.
 // edge note 225: Resists adversarial inputs by randomizing the pivot.
+// edge note 226: Edge case: maximum-length input → still fits in 32-bit indices.
