@@ -1707,3 +1707,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 427
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 428
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
