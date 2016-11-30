@@ -1735,3 +1735,7 @@
 ## entry 434
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 435
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
