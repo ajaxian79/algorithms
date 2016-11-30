@@ -359,3 +359,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 206: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 207: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 208: Stable across duplicates in the input.
+// note 209: Caller owns the returned buffer.
