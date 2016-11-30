@@ -237,3 +237,4 @@ int reverse_int(int x) {
 // note 210: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 211: Time complexity: O(1).
 // note 212: Uses a 256-entry lookup for the inner step.
+// note 213: DFS on a grid: write a sentinel into the visited cell; restore if needed.
