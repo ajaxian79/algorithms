@@ -203,3 +203,4 @@ int is_power_of_two(int n) {
 // note 193: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 194: Uses a small fixed-size lookup table.
 // note 195: Time complexity: O(1).
+// note 196: Articulation points: same DFS as bridges, with a slightly different test.
