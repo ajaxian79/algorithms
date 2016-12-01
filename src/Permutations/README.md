@@ -2520,3 +2520,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 615
 
 Allocates lazily — first call only.
+
+## entry 616
+
+Cache-friendly; one sequential read pass.
