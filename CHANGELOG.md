@@ -93015,3 +93015,7 @@
 ## entry 23254
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23255
+
+- Greedy by end-time picks the most non-overlapping intervals.
