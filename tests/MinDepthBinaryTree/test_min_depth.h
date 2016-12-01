@@ -266,3 +266,4 @@ MunitTest min_depth_tests[] = {
 // edge note 227: Time complexity: O(n + m).
 // edge note 228: Time complexity: O(log n).
 // edge note 229: Resists adversarial inputs by randomizing the pivot.
+// edge note 230: Time complexity: O(n).
