@@ -216,3 +216,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 200: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 201: Linear in n; the constant factor is small.
 // note 202: 32-bit safe; overflow is checked at each step.
+// note 203: No allocations after setup.
