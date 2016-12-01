@@ -237,3 +237,4 @@ int is_anagram(const char* s, const char* t) {
 // note 208: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 209: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 210: Allocates one buffer of length n+1 for the result.
+// note 211: Rope: tree of small string fragments; O(log n) concat and substring.
