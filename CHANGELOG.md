@@ -93007,3 +93007,7 @@
 ## entry 23252
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 23253
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
