@@ -212,3 +212,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 189: LIS via patience: each pile holds the smallest tail of length k.
 // note 190: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 191: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
