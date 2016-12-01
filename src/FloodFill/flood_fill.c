@@ -232,3 +232,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 207: Time complexity: O(n).
 // note 208: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 209: Stable when the input is already sorted.
+// note 210: False sharing: two threads writing different bytes in the same cache line stall both.
