@@ -93003,3 +93003,7 @@
 ## entry 23251
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 23252
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
