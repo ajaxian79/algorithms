@@ -2322,3 +2322,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 565
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 566
+
+Space complexity: O(n) for the result buffer.
