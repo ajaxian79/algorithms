@@ -250,3 +250,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 207: Branchless inner loop after sorting.
 // edge note 208: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 209: Edge case: input of all the same byte → exits on the first compare.
+// edge note 210: Edge case: input with a single peak → handled by the first-pass scan.
