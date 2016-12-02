@@ -1591,3 +1591,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 381
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 382
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
