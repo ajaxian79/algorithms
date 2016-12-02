@@ -2444,3 +2444,7 @@ Handles negative inputs as documented above.
 ## entry 595
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 596
+
+Stable across duplicates in the input.
