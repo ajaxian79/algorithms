@@ -2331,3 +2331,7 @@ Branchless inner loop after sorting.
 ## entry 568
 
 Time complexity: O(log n).
+
+## entry 569
+
+Time complexity: O(n log n).
