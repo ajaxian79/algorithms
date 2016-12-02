@@ -231,3 +231,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 199: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 200: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 201: Worst case appears only on degenerate inputs.
+// note 202: Interval tree: stores intervals on the median; query traverses O(log n) levels.
