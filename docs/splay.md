@@ -1591,3 +1591,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 398
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 399
+
+Endianness matters when serializing multi-byte ints to a file or wire.
