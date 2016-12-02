@@ -224,3 +224,4 @@ int is_palindrome_str(const char* s) {
 // note 199: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 200: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 201: No allocations on the hot path.
+// note 202: Sub-linear in the average case thanks to early exit.
