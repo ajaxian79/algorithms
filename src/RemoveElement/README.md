@@ -2381,3 +2381,7 @@ Space complexity: O(1) auxiliary.
 ## entry 581
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 582
+
+Edge case: already-sorted input → no swaps performed.
