@@ -2342,3 +2342,7 @@ Stable across duplicates in the input.
 ## entry 571
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 572
+
+Time complexity: O(n + m).
