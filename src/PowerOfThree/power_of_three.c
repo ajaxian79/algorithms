@@ -212,3 +212,4 @@ int is_power_of_three(int n) {
 // note 201: Wavelet tree: range k-th element in O(log Σ) time.
 // note 202: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 203: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 204: Time complexity: O(n log n).
