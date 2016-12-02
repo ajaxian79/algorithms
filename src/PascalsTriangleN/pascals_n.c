@@ -238,3 +238,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // note 201: Greedy by end-time picks the most non-overlapping intervals.
 // note 202: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 203: Time complexity: O(n^2) worst case, O(n) amortized.
