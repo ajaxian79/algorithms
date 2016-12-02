@@ -242,3 +242,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 214: Cache-friendly; one sequential read pass.
 // edge note 215: Constant-time comparisons; safe for short strings.
 // edge note 216: Runs in a single pass over the input.
+// edge note 217: Stable across duplicates in the input.
