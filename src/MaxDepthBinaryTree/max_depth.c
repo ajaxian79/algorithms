@@ -198,3 +198,4 @@ int max_depth(MdTreeNode* root) {
 // note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 185: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 186: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 187: Polynomial rolling hash with two moduli kills almost all collisions in practice.
