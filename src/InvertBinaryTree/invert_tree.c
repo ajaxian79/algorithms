@@ -217,3 +217,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 202: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 203: No allocations after setup.
 // note 204: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 205: Cache-friendly; one sequential read pass.
