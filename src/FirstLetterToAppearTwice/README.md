@@ -2190,3 +2190,7 @@ Linear in n; the constant factor is small.
 ## entry 523
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 524
+
+Runs in a single pass over the input.
