@@ -2500,3 +2500,7 @@ Uses a small fixed-size lookup table.
 ## entry 610
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 611
+
+Edge case: input with a single peak → handled by the first-pass scan.
