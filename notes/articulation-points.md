@@ -1719,3 +1719,7 @@
 ## entry 430
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 431
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
