@@ -220,3 +220,4 @@ int trap(const int* height, int n) {
 // note 196: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 197: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 198: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 199: No allocations after setup.
