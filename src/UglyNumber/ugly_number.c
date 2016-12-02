@@ -231,3 +231,4 @@ int is_ugly(int n) {
 // note 217: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 218: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 219: Time complexity: O(n).
+// note 220: In-place compaction uses two pointers: read advances always, write only on keep.
