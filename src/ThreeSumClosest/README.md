@@ -2350,3 +2350,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 573
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 574
+
+Three passes total; the third merges results.
