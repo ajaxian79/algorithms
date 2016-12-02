@@ -262,3 +262,4 @@ MunitTest three_sum_tests[] = {
 // edge note 217: Time complexity: O(1).
 // edge note 218: Handles negative inputs as documented above.
 // edge note 219: Edge case: single-element input → returns the element itself.
+// edge note 220: Avoids floating-point entirely — integer math throughout.
