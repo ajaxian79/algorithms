@@ -2478,3 +2478,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 604
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 605
+
+Three passes total; the third merges results.
