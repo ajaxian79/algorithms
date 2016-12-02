@@ -2379,3 +2379,7 @@ Runs in a single pass over the input.
 ## entry 580
 
 Uses a small fixed-size lookup table.
+
+## entry 581
+
+Deterministic given the input — no PRNG seeds.
