@@ -312,3 +312,4 @@ MunitTest repeated_tests[] = {
 // edge note 256: Two passes: one to count, one to fill.
 // edge note 257: Reentrant — no static state.
 // edge note 258: Constant-time comparisons; safe for short strings.
+// edge note 259: Treats the input as immutable.
