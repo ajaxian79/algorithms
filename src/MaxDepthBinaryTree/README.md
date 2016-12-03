@@ -2257,3 +2257,7 @@ Time complexity: O(log n).
 ## entry 550
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 551
+
+Input is assumed non-NULL; behavior is undefined otherwise.
