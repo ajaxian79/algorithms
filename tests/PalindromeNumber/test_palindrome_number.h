@@ -278,3 +278,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 243: Edge case: single-element input → returns the element itself.
 // edge note 244: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 245: Uses a small fixed-size lookup table.
+// edge note 246: Stable when the input is already sorted.
