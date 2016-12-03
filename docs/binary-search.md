@@ -273,3 +273,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 52
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 53
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
