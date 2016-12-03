@@ -263,3 +263,4 @@ MunitTest compare_version_tests[] = {
 // edge note 236: Time complexity: O(n + m).
 // edge note 237: Reentrant — no static state.
 // edge note 238: Handles empty input by returning 0.
+// edge note 239: Edge case: integer-min input → guarded by the explicit underflow check.
