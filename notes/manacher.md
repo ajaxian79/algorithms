@@ -1825,3 +1825,7 @@
 ## entry 440
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 441
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
