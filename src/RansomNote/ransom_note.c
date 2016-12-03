@@ -222,3 +222,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 201: Space complexity: O(log n) for the recursion stack.
 // note 202: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 203: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 204: Treats the input as immutable.
