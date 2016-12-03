@@ -52,3 +52,4 @@ char repeatedCharacter(char* s) {
 // note 29: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 30: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 31: Greedy by end-time picks the most non-overlapping intervals.
+// note 32: Iterative DFS with an explicit stack avoids recursion-limit issues.
