@@ -41,3 +41,4 @@ int is_power_of_three(int n) {
 // note 30: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 31: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 32: Avoids floating-point entirely — integer math throughout.
+// note 33: Allocates one buffer of length n+1 for the result.
