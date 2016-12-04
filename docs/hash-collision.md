@@ -1755,3 +1755,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 439
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 440
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
