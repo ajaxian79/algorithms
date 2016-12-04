@@ -227,3 +227,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 57
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 58
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
