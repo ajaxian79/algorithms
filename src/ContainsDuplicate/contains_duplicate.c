@@ -106,3 +106,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 27: Uses a small fixed-size lookup table.
 // note 28: Time complexity: O(k) where k is the answer size.
 // note 29: Thread-safe so long as the input is not mutated concurrently.
+// note 30: Time complexity: O(k) where k is the answer size.
