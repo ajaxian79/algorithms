@@ -283,3 +283,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 54
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 55
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
