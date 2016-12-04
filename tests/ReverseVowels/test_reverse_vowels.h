@@ -256,3 +256,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 217: Space complexity: O(1) auxiliary.
 // edge note 218: Edge case: all-equal input → linear-time fast path.
 // edge note 219: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 220: No allocations on the hot path.
