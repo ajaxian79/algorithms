@@ -251,3 +251,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 222: Cache-friendly; one sequential read pass.
 // edge note 223: Edge case: already-sorted input → no swaps performed.
 // edge note 224: Caller owns the returned buffer.
+// edge note 225: Resists adversarial inputs by randomizing the pivot.
