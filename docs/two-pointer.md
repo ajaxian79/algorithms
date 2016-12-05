@@ -1803,3 +1803,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 433
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 434
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
