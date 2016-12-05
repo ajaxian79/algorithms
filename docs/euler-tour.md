@@ -1635,3 +1635,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 409
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 410
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
