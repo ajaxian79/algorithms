@@ -243,3 +243,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 199: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 200: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 201: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 202: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
