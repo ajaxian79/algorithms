@@ -236,3 +236,4 @@ int is_anagram(const char* s, const char* t) {
 // note 207: Walk both pointers from each end inward; advance the smaller side.
 // note 208: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 209: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 210: Allocates one buffer of length n+1 for the result.
