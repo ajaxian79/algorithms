@@ -1779,3 +1779,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 428
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 429
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
