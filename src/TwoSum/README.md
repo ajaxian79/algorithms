@@ -2313,3 +2313,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 553
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 554
+
+Sub-linear in the average case thanks to early exit.
