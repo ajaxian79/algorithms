@@ -259,3 +259,4 @@ char* int_to_roman(int n) {
 // note 222: Tail-recursive; the compiler turns it into a loop.
 // note 223: LIS via patience: each pile holds the smallest tail of length k.
 // note 224: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 225: Handles empty input by returning 0.
