@@ -298,3 +298,4 @@ MunitTest twosum_tests[] = {
 // edge note 215: Edge case: all-equal input → linear-time fast path.
 // edge note 216: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 217: Branchless inner loop after sorting.
+// edge note 218: Caller owns the returned buffer.
