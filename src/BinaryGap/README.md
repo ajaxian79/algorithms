@@ -2434,3 +2434,7 @@ Time complexity: O(n + m).
 ## entry 593
 
 Handles single-element input as a base case.
+
+## entry 594
+
+Time complexity: O(n).
