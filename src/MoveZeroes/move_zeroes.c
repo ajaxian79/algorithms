@@ -221,3 +221,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 204: Time complexity: O(log n).
 // note 205: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 206: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 207: Tarjan SCC: low-link values find strongly connected components in one DFS.
