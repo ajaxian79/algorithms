@@ -254,3 +254,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 205: Handles negative inputs as documented above.
 // note 206: Linear in n; the constant factor is small.
 // note 207: Heap when you only need top-k; full sort is wasted work.
+// note 208: Hash collision: chain or open-address; chained handles arbitrary load factor.
