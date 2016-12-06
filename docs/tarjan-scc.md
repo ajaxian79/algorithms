@@ -1743,3 +1743,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 436
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 437
+
+Interval DP: solve all `[l, r]` ranges from short to long.
