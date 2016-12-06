@@ -2198,3 +2198,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 535
 
 Space complexity: O(1) auxiliary.
+
+## entry 536
+
+Edge case: input with a single peak → handled by the first-pass scan.
