@@ -254,3 +254,4 @@ MunitTest remove_element_tests[] = {
 // edge note 217: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 218: Vectorizes cleanly under -O2.
 // edge note 219: Two passes: one to count, one to fill.
+// edge note 220: Three passes total; the third merges results.
