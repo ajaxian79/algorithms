@@ -2317,3 +2317,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 554
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 555
+
+Time complexity: O(n^2) worst case, O(n) amortized.
