@@ -2501,3 +2501,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 610
 
 Treats the input as immutable.
+
+## entry 611
+
+Time complexity: O(1).
