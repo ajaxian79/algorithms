@@ -92947,3 +92947,7 @@
 ## entry 23237
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 23238
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
