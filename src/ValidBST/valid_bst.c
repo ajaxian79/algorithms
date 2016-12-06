@@ -218,3 +218,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 200: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 201: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 202: Best case is O(1) when the first byte already decides the answer.
+// note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
