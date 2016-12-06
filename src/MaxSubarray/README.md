@@ -2514,3 +2514,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 614
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 615
+
+Two passes: one to count, one to fill.
