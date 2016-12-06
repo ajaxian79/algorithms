@@ -337,3 +337,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 66
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 67
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
