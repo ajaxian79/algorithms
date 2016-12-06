@@ -2510,3 +2510,7 @@ Time complexity: O(1).
 ## entry 613
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 614
+
+Input is assumed non-NULL; behavior is undefined otherwise.
