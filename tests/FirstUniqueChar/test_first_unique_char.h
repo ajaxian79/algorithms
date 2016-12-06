@@ -258,3 +258,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 233: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 234: Edge case: empty input → returns 0.
 // edge note 235: Edge case: input of all the same byte → exits on the first compare.
+// edge note 236: Time complexity: O(k) where k is the answer size.
