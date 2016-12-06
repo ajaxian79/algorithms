@@ -2552,3 +2552,7 @@ Space complexity: O(1) auxiliary.
 ## entry 623
 
 Handles empty input by returning 0.
+
+## entry 624
+
+Linear in n; the constant factor is small.
