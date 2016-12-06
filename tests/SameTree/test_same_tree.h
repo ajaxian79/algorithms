@@ -259,3 +259,4 @@ MunitTest same_tree_tests[] = {
 // edge note 223: Handles empty input by returning 0.
 // edge note 224: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 225: Returns a freshly allocated string the caller must free.
+// edge note 226: Tail-recursive; the compiler turns it into a loop.
