@@ -58,3 +58,4 @@ int is_happy(int n) {
 // note 32: Worst case appears only on degenerate inputs.
 // note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 34: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 35: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
