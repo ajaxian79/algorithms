@@ -92927,3 +92927,7 @@
 ## entry 23232
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 23233
+
+- Greedy by end-time picks the most non-overlapping intervals.
