@@ -236,3 +236,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Allocates lazily — first call only.
 // edge note 213: Edge case: input with no peak → falls through to the default branch.
+// edge note 214: Time complexity: O(log n).
