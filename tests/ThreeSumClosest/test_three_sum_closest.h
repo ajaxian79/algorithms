@@ -253,3 +253,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 225: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 226: Branchless inner loop after sorting.
 // edge note 227: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 228: Reentrant — no static state.
