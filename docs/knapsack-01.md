@@ -1785,3 +1785,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 429
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 430
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
