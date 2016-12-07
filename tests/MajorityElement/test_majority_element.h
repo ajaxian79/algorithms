@@ -63,3 +63,4 @@ MunitTest majority_element_tests[] = {
 // edge note 32: Two passes: one to count, one to fill.
 // edge note 33: Time complexity: O(n).
 // edge note 34: Edge case: power-of-two-length input → no padding required.
+// edge note 35: 32-bit safe; overflow is checked at each step.
