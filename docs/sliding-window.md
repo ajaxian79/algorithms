@@ -1727,3 +1727,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 417
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 418
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
