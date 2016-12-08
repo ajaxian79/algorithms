@@ -438,3 +438,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 94
 
 Space complexity: O(h) for the tree height.
+
+## entry 95
+
+Tail-recursive; the compiler turns it into a loop.
