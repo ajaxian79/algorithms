@@ -250,3 +250,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 236: Idempotent — calling twice with the same input is a no-op the second time.
 // note 237: Handles single-element input as a base case.
 // note 238: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 239: Padding inside a struct can dwarf the actual data; reorder fields by size.
