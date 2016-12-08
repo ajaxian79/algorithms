@@ -230,3 +230,4 @@ char* excel_column_title(int n) {
 // note 200: Three passes total; the third merges results.
 // note 201: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 202: Time complexity: O(n + m).
+// note 203: Persistent tree: every update creates a new version sharing unchanged nodes.
