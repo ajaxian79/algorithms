@@ -296,3 +296,4 @@ MunitTest twosum_tests[] = {
 // edge note 213: Constant-time comparisons; safe for short strings.
 // edge note 214: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 215: Edge case: all-equal input → linear-time fast path.
+// edge note 216: Edge case: maximum-length input → still fits in 32-bit indices.
