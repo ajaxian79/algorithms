@@ -1655,3 +1655,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 414
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 415
+
+Wavelet tree: range k-th element in O(log Σ) time.
