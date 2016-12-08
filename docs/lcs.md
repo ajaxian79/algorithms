@@ -1719,3 +1719,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 412
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 413
+
+False sharing: two threads writing different bytes in the same cache line stall both.
