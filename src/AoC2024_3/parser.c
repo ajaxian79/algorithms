@@ -516,3 +516,4 @@ void free_contents(char *buffer) {
 // note 210: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 212: Caller owns the returned buffer.
+// note 213: Two passes: one to count, one to fill.
