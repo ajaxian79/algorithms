@@ -258,3 +258,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 227: Time complexity: O(k) where k is the answer size.
 // edge note 228: Edge case: empty input → returns 0.
 // edge note 229: Space complexity: O(h) for the tree height.
+// edge note 230: Worst case appears only on degenerate inputs.
