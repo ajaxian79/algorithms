@@ -254,3 +254,4 @@ MunitTest subsets_tests[] = {
 // edge note 209: Worst case appears only on degenerate inputs.
 // edge note 210: Allocates lazily — first call only.
 // edge note 211: Time complexity: O(1).
+// edge note 212: Edge case: input with a single peak → handled by the first-pass scan.
