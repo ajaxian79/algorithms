@@ -2414,3 +2414,7 @@ Stable across duplicates in the input.
 ## entry 589
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 590
+
+Time complexity: O(1).
