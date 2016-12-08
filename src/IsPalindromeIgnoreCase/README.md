@@ -406,3 +406,7 @@ Linear in n; the constant factor is small.
 ## entry 87
 
 Linear in n; the constant factor is small.
+
+## entry 88
+
+Reentrant — no static state.
