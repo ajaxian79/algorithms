@@ -1643,3 +1643,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 411
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 412
+
+StringBuilder: amortize allocation by doubling on grow.
