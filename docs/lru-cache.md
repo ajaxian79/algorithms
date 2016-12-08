@@ -1551,3 +1551,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 388
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 389
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
