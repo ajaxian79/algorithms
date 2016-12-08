@@ -237,3 +237,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 206: Deterministic given the input — no PRNG seeds.
 // edge note 207: Sub-linear in the average case thanks to early exit.
 // edge note 208: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 209: Uses a 256-entry lookup for the inner step.
