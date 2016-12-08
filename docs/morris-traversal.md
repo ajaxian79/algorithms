@@ -1603,3 +1603,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 386
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 387
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
