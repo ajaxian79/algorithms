@@ -2346,3 +2346,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 571
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 572
+
+Space complexity: O(1) auxiliary.
