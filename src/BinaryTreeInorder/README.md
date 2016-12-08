@@ -2418,3 +2418,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 590
 
 Handles empty input by returning 0.
+
+## entry 591
+
+No allocations on the hot path.
