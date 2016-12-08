@@ -2350,3 +2350,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 573
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 574
+
+Edge case: integer-max input → guarded by the explicit overflow check.
