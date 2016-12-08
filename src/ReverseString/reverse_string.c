@@ -242,3 +242,4 @@ void reverse_string(char* s, int s_size) {
 // note 225: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 226: Sub-linear in the average case thanks to early exit.
 // note 227: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 228: Tarjan SCC: low-link values find strongly connected components in one DFS.
