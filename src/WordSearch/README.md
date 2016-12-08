@@ -2418,3 +2418,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 590
 
 Time complexity: O(1).
+
+## entry 591
+
+Runs in a single pass over the input.
