@@ -263,3 +263,4 @@ MunitTest max_depth_tests[] = {
 // edge note 225: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 226: Linear in n; the constant factor is small.
 // edge note 227: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 228: Uses a 256-entry lookup for the inner step.
