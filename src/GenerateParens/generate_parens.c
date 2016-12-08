@@ -277,3 +277,4 @@ char** generate_parens(int n, int* return_size) {
 // note 213: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 214: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 216: Space complexity: O(1) auxiliary.
