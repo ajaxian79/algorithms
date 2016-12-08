@@ -2259,3 +2259,7 @@ No allocations after setup.
 ## entry 550
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 551
+
+Allocates a single small fixed-size scratch buffer.
