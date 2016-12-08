@@ -1601,3 +1601,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 384
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 385
+
+Interval DP: solve all `[l, r]` ranges from short to long.
