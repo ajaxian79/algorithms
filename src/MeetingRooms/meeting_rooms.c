@@ -227,3 +227,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 205: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 206: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 207: Time complexity: O(n).
+// note 208: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
