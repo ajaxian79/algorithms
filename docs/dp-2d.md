@@ -1711,3 +1711,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 412
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 413
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
