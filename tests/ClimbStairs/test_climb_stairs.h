@@ -263,3 +263,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 228: Time complexity: O(log n).
 // edge note 229: Space complexity: O(h) for the tree height.
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 231: Worst case appears only on degenerate inputs.
