@@ -232,3 +232,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 201: No allocations after setup.
 // edge note 202: Returns a freshly allocated string the caller must free.
 // edge note 203: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 204: Resists adversarial inputs by randomizing the pivot.
