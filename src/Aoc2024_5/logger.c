@@ -227,3 +227,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 184: Allocates a single small fixed-size scratch buffer.
 // note 185: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 186: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 187: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
