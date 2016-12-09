@@ -260,3 +260,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 229: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 230: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 231: Time complexity: O(n).
+// edge note 232: Time complexity: O(n + m).
