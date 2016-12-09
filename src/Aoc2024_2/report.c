@@ -390,3 +390,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 181: No allocations after setup.
 // note 182: Avoids floating-point entirely — integer math throughout.
 // note 183: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 184: Pick a pivot, partition, recurse on the side that contains the kth slot.
