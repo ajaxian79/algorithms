@@ -409,3 +409,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 87
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 88
+
+Edge case: power-of-two-length input → no padding required.
