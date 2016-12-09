@@ -269,3 +269,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 51
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 52
+
+Endianness matters when serializing multi-byte ints to a file or wire.
