@@ -271,3 +271,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 206: Runs in a single pass over the input.
 // note 207: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 208: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 209: Persistent tree: every update creates a new version sharing unchanged nodes.
