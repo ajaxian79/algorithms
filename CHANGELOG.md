@@ -92907,3 +92907,7 @@
 ## entry 23227
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 23228
+
+- Heap when you only need top-k; full sort is wasted work.
