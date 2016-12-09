@@ -2352,3 +2352,7 @@ Runs in a single pass over the input.
 ## entry 573
 
 Returns a freshly allocated string the caller must free.
+
+## entry 574
+
+Avoids floating-point entirely — integer math throughout.
