@@ -242,3 +242,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 197: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 198: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 199: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 200: Resists adversarial inputs by randomizing the pivot.
