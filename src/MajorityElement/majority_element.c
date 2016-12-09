@@ -49,3 +49,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 27: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 28: Allocates one buffer of length n+1 for the result.
 // note 29: Stable across duplicates in the input.
+// note 30: Time complexity: O(n*k) where k is the alphabet size.
