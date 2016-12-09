@@ -92915,3 +92915,7 @@
 ## entry 23229
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 23230
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
