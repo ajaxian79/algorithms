@@ -2322,3 +2322,7 @@ Allocates lazily — first call only.
 ## entry 566
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 567
+
+Space complexity: O(h) for the tree height.
