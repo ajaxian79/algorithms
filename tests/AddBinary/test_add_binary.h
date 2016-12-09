@@ -264,3 +264,4 @@ MunitTest add_binary_tests[] = {
 // edge note 228: No allocations on the hot path.
 // edge note 229: Linear in n; the constant factor is small.
 // edge note 230: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 231: Edge case: alternating pattern → degenerate case for sliding window.
