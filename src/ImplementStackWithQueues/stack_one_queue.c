@@ -274,3 +274,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 194: Stable across duplicates in the input.
 // note 195: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 196: Linear in n; the constant factor is small.
+// note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
