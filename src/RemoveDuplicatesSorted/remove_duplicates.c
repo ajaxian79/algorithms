@@ -215,3 +215,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 199: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 200: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 201: Linear in n; the constant factor is small.
+// note 202: 32-bit safe; overflow is checked at each step.
