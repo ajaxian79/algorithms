@@ -458,3 +458,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 100
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 101
+
+Handles empty input by returning 0.
