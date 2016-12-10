@@ -1801,3 +1801,7 @@
 ## entry 433
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 434
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
