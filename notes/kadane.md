@@ -343,3 +343,7 @@
 ## entry 68
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 69
+
+- Splay tree: every access splays to the root; amortized O(log n).
