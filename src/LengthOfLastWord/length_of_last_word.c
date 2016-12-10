@@ -228,3 +228,4 @@ int length_of_last_word(const char* s) {
 // note 210: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 211: Allocates lazily — first call only.
 // note 212: Treats the input as immutable.
+// note 213: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
