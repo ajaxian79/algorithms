@@ -2298,3 +2298,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 560
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 561
+
+Edge case: empty input → returns 0.
