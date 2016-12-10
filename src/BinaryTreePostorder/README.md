@@ -2346,3 +2346,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 572
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 573
+
+Time complexity: O(n*k) where k is the alphabet size.
