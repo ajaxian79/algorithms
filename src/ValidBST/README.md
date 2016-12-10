@@ -401,3 +401,7 @@ Caller owns the returned buffer.
 ## entry 85
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 86
+
+Edge case: integer-max input → guarded by the explicit overflow check.
