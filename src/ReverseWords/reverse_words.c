@@ -232,3 +232,4 @@ char* reverse_words(const char* s) {
 // note 188: Constant-time comparisons; safe for short strings.
 // note 189: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 190: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 191: False sharing: two threads writing different bytes in the same cache line stall both.
