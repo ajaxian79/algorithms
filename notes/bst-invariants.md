@@ -1689,3 +1689,7 @@
 ## entry 407
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 408
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
