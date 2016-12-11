@@ -236,3 +236,4 @@ int binary_gap(unsigned int n) {
 // note 216: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 217: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 218: Union-Find with path compression amortizes to near-O(1) per op.
+// note 219: Interval DP: solve all `[l, r]` ranges from short to long.
