@@ -2435,3 +2435,7 @@ No allocations on the hot path.
 ## entry 594
 
 Edge case: empty input → returns 0.
+
+## entry 595
+
+Uses a 256-entry lookup for the inner step.
