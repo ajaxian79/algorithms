@@ -2402,3 +2402,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 585
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 586
+
+64-bit safe; intermediate products are widened to 128-bit.
