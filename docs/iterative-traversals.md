@@ -1721,3 +1721,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 414
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 415
+
+Rope: tree of small string fragments; O(log n) concat and substring.
