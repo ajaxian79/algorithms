@@ -1587,3 +1587,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 380
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 381
+
+Splay tree: every access splays to the root; amortized O(log n).
