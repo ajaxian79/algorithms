@@ -1779,3 +1779,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 445
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 446
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
