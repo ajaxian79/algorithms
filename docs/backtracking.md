@@ -1765,3 +1765,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 424
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 425
+
+State compression: bitmask + integer encodes a small subset cheaply.
