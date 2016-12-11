@@ -1699,3 +1699,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 425
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 426
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
