@@ -308,3 +308,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 253: Time complexity: O(n + m).
 // edge note 254: Edge case: input with no peak → falls through to the default branch.
 // edge note 255: Vectorizes cleanly under -O2.
+// edge note 256: Best case is O(1) when the first byte already decides the answer.
