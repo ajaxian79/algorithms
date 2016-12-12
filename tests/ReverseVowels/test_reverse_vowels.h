@@ -254,3 +254,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 215: Vectorizes cleanly under -O2.
 // edge note 216: Branchless inner loop after sorting.
 // edge note 217: Space complexity: O(1) auxiliary.
+// edge note 218: Edge case: all-equal input → linear-time fast path.
