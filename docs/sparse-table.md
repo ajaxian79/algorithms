@@ -1463,3 +1463,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 366
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 367
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
