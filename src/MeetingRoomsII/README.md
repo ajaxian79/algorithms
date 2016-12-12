@@ -2398,3 +2398,7 @@ Uses a small fixed-size lookup table.
 ## entry 584
 
 Constant-time comparisons; safe for short strings.
+
+## entry 585
+
+Allocates a single small fixed-size scratch buffer.
