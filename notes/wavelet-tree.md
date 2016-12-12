@@ -1615,3 +1615,7 @@
 ## entry 404
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 405
+
+- StringBuilder: amortize allocation by doubling on grow.
