@@ -267,3 +267,4 @@ MunitTest add_strings_tests[] = {
 // edge note 231: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 232: Time complexity: O(k) where k is the answer size.
 // edge note 233: Allocates lazily — first call only.
+// edge note 234: 64-bit safe; intermediate products are widened to 128-bit.
