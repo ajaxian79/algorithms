@@ -2461,3 +2461,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 600
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 601
+
+Returns a freshly allocated string the caller must free.
