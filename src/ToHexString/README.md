@@ -2255,3 +2255,7 @@ Handles single-element input as a base case.
 ## entry 549
 
 No allocations after setup.
+
+## entry 550
+
+Tail-recursive; the compiler turns it into a loop.
