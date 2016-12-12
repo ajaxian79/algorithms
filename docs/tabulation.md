@@ -1739,3 +1739,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 435
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 436
+
+Interval DP: solve all `[l, r]` ranges from short to long.
