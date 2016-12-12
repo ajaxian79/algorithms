@@ -2294,3 +2294,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 559
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 560
+
+Time complexity: O(n*k) where k is the alphabet size.
