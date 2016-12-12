@@ -2342,3 +2342,7 @@ Stable when the input is already sorted.
 ## entry 571
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 572
+
+Mutates the input in place; the original ordering is lost.
