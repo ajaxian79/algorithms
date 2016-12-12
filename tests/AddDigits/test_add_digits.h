@@ -235,3 +235,4 @@ MunitTest add_digits_tests[] = {
 // edge note 208: Time complexity: O(n + m).
 // edge note 209: Edge case: all-equal input → linear-time fast path.
 // edge note 210: 32-bit safe; overflow is checked at each step.
+// edge note 211: Edge case: NULL input is rejected by the caller, not by us.
