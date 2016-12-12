@@ -2342,3 +2342,7 @@ Caller owns the returned buffer.
 ## entry 570
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 571
+
+Allocates a single small fixed-size scratch buffer.
