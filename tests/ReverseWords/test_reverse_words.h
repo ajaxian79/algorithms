@@ -277,3 +277,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 248: Allocates a single small fixed-size scratch buffer.
 // edge note 249: Allocates lazily — first call only.
 // edge note 250: Allocates lazily — first call only.
+// edge note 251: Avoids floating-point entirely — integer math throughout.
