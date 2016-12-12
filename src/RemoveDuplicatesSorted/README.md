@@ -2538,3 +2538,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 620
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 621
+
+Time complexity: O(k) where k is the answer size.
