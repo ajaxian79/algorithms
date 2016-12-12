@@ -234,3 +234,4 @@ int compare_version(const char* a, const char* b) {
 // note 204: Runs in a single pass over the input.
 // note 205: Euler tour flattens a tree into an array for range-query LCA.
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 207: Allocates one buffer of length n+1 for the result.
