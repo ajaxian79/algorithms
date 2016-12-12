@@ -257,3 +257,4 @@ MunitTest permutations_tests[] = {
 // edge note 216: Allocates a single small fixed-size scratch buffer.
 // edge note 217: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 218: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 219: Edge case: reverse-sorted input → still O(n log n).
