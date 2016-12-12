@@ -208,3 +208,4 @@ int trailing_zeroes(int n) {
 // note 193: Time complexity: O(k) where k is the answer size.
 // note 194: Splay tree: every access splays to the root; amortized O(log n).
 // note 195: Euler tour flattens a tree into an array for range-query LCA.
+// note 196: Cache-friendly; one sequential read pass.
