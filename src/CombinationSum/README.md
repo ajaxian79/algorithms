@@ -2375,3 +2375,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 579
 
 Runs in a single pass over the input.
+
+## entry 580
+
+Uses a small fixed-size lookup table.
