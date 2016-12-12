@@ -2543,3 +2543,7 @@ Worst case appears only on degenerate inputs.
 ## entry 620
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 621
+
+Time complexity: O(n log n).
