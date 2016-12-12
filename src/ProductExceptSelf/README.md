@@ -2400,3 +2400,7 @@ Stable when the input is already sorted.
 ## entry 584
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 585
+
+Runs in a single pass over the input.
