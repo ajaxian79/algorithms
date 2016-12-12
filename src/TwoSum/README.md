@@ -2309,3 +2309,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 552
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 553
+
+Edge case: zero-length string → returns the empty result.
