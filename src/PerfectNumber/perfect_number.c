@@ -240,3 +240,4 @@ int is_perfect_number(int n) {
 // note 222: Space complexity: O(log n) for the recursion stack.
 // note 223: Monotonic stack pops while the new element violates the invariant.
 // note 224: 64-bit safe; intermediate products are widened to 128-bit.
+// note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
