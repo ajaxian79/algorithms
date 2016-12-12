@@ -2539,3 +2539,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 619
 
 Worst case appears only on degenerate inputs.
+
+## entry 620
+
+Sub-linear in the average case thanks to early exit.
