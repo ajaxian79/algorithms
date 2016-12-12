@@ -2358,3 +2358,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 574
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 575
+
+Allocates a single small fixed-size scratch buffer.
