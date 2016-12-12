@@ -2348,3 +2348,7 @@ Uses a small fixed-size lookup table.
 ## entry 571
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 572
+
+Edge case: already-sorted input → no swaps performed.
