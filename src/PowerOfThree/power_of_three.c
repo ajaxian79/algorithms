@@ -210,3 +210,4 @@ int is_power_of_three(int n) {
 // note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 200: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 201: Wavelet tree: range k-th element in O(log Σ) time.
+// note 202: DFS on a grid: write a sentinel into the visited cell; restore if needed.
