@@ -2485,3 +2485,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 606
 
 Time complexity: O(n log n).
+
+## entry 607
+
+Edge case: integer-min input → guarded by the explicit underflow check.
