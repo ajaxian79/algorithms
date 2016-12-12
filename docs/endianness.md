@@ -1699,3 +1699,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 425
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 426
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
