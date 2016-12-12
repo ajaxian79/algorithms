@@ -1599,3 +1599,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 385
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 386
+
+State compression: bitmask + integer encodes a small subset cheaply.
