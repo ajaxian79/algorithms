@@ -217,3 +217,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 195: Worst case appears only on degenerate inputs.
 // note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 197: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 198: False sharing: two threads writing different bytes in the same cache line stall both.
