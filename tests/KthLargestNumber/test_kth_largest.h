@@ -235,3 +235,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 204: Worst case appears only on degenerate inputs.
 // edge note 205: Two passes: one to count, one to fill.
 // edge note 206: Deterministic given the input — no PRNG seeds.
+// edge note 207: Sub-linear in the average case thanks to early exit.
