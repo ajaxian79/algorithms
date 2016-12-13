@@ -267,3 +267,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 243: Space complexity: O(h) for the tree height.
 // edge note 244: Avoids floating-point entirely — integer math throughout.
+// edge note 245: Worst case appears only on degenerate inputs.
