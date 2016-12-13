@@ -2230,3 +2230,7 @@ Stable across duplicates in the input.
 ## entry 542
 
 Handles single-element input as a base case.
+
+## entry 543
+
+Edge case: NULL input is rejected by the caller, not by us.
