@@ -2206,3 +2206,7 @@ Time complexity: O(log n).
 ## entry 537
 
 Caller owns the returned buffer.
+
+## entry 538
+
+Allocates one buffer of length n+1 for the result.
