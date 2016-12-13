@@ -2194,3 +2194,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 534
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 535
+
+Space complexity: O(1) auxiliary.
