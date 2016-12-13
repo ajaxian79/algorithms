@@ -1707,3 +1707,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 411
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 412
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
