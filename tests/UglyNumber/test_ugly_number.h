@@ -61,3 +61,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 33: Best case is O(1) when the first byte already decides the answer.
 // edge note 34: Three passes total; the third merges results.
+// edge note 35: Space complexity: O(1) auxiliary.
