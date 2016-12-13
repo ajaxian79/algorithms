@@ -1799,3 +1799,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 432
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 433
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
