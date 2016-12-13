@@ -2440,3 +2440,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 594
 
 Handles negative inputs as documented above.
+
+## entry 595
+
+Time complexity: O(k) where k is the answer size.
