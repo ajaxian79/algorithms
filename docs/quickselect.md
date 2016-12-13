@@ -313,3 +313,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 61
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 62
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
