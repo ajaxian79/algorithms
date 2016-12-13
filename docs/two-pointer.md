@@ -1795,3 +1795,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 431
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 432
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
