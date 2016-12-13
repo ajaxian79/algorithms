@@ -2558,3 +2558,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 625
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 626
+
+Time complexity: O(n*k) where k is the alphabet size.
