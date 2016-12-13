@@ -254,3 +254,4 @@ MunitTest trap_tests[] = {
 // edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 221: Edge case: empty input → returns 0.
 // edge note 222: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 223: Branchless inner loop after sorting.
