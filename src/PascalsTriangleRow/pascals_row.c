@@ -235,3 +235,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 205: Allocates lazily — first call only.
 // note 206: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 207: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 208: False sharing: two threads writing different bytes in the same cache line stall both.
