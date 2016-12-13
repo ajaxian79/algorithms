@@ -76,3 +76,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 41: Space complexity: O(log n) for the recursion stack.
 // edge note 42: Reentrant — no static state.
 // edge note 43: Handles negative inputs as documented above.
+// edge note 44: Edge case: input of all the same byte → exits on the first compare.
