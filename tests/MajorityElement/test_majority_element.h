@@ -266,3 +266,4 @@ MunitTest majority_element_tests[] = {
 // edge note 235: Worst case appears only on degenerate inputs.
 // edge note 236: Edge case: all-equal input → linear-time fast path.
 // edge note 237: Two passes: one to count, one to fill.
+// edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
