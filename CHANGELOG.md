@@ -92799,3 +92799,7 @@
 ## entry 23200
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 23201
+
+- Splay tree: every access splays to the root; amortized O(log n).
