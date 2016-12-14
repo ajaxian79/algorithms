@@ -236,3 +236,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 203: Stable when the input is already sorted.
 // edge note 204: Three passes total; the third merges results.
 // edge note 205: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 206: Space complexity: O(h) for the tree height.
