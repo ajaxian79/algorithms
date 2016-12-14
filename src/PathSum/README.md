@@ -2528,3 +2528,7 @@ Two passes: one to count, one to fill.
 ## entry 617
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 618
+
+Edge case: input with a single peak → handled by the first-pass scan.
