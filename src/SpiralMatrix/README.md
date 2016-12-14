@@ -406,3 +406,7 @@ Stable across duplicates in the input.
 ## entry 86
 
 Branchless inner loop after sorting.
+
+## entry 87
+
+Resists adversarial inputs by randomizing the pivot.
