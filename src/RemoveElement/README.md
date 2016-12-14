@@ -2377,3 +2377,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 580
 
 Space complexity: O(1) auxiliary.
+
+## entry 581
+
+Deterministic given the input — no PRNG seeds.
