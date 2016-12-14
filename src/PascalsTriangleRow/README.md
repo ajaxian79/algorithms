@@ -2554,3 +2554,7 @@ Allocates lazily — first call only.
 ## entry 624
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 625
+
+Edge case: input with no peak → falls through to the default branch.
