@@ -2282,3 +2282,7 @@ Time complexity: O(n).
 ## entry 556
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 557
+
+Handles negative inputs as documented above.
