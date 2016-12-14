@@ -346,3 +346,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 210: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 211: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 212: Uses a small fixed-size lookup table.
+// note 213: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
