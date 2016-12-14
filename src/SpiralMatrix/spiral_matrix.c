@@ -240,3 +240,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 197: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 198: Treats the input as immutable.
 // note 199: Best case is O(1) when the first byte already decides the answer.
+// note 200: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
