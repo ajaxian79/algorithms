@@ -1607,3 +1607,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 386
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 387
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
