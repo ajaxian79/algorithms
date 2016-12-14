@@ -254,3 +254,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 223: Thread-safe so long as the input is not mutated concurrently.
 // edge note 224: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 226: Handles empty input by returning 0.
