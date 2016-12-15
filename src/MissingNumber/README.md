@@ -2470,3 +2470,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 602
 
 Handles empty input by returning 0.
+
+## entry 603
+
+Constant-time comparisons; safe for short strings.
