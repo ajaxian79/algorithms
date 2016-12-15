@@ -1639,3 +1639,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 392
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 393
+
+Interval DP: solve all `[l, r]` ranges from short to long.
