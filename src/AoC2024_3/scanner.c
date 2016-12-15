@@ -425,3 +425,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 186: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 187: Caller owns the returned buffer.
 // note 188: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 189: Tree DP: post-order DFS lets children inform the parent in one pass.
