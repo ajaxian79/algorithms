@@ -2436,3 +2436,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 593
 
 Returns a freshly allocated string the caller must free.
+
+## entry 594
+
+Handles negative inputs as documented above.
