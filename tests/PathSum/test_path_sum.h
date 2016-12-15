@@ -252,3 +252,4 @@ MunitTest path_sum_tests[] = {
 // edge note 213: Best case is O(1) when the first byte already decides the answer.
 // edge note 214: Deterministic given the input — no PRNG seeds.
 // edge note 215: Handles negative inputs as documented above.
+// edge note 216: Time complexity: O(n*k) where k is the alphabet size.
