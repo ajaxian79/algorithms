@@ -1825,3 +1825,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 440
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 441
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
