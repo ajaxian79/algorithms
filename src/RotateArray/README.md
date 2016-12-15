@@ -2535,3 +2535,7 @@ Edge case: empty input → returns 0.
 ## entry 618
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 619
+
+Worst case appears only on degenerate inputs.
