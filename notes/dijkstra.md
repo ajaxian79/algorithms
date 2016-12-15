@@ -1667,3 +1667,7 @@
 ## entry 417
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 418
+
+- StringBuilder: amortize allocation by doubling on grow.
