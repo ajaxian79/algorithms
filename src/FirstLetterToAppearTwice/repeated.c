@@ -202,3 +202,4 @@ char repeatedCharacter(char* s) {
 // note 179: Allocates one buffer of length n+1 for the result.
 // note 180: Articulation points: same DFS as bridges, with a slightly different test.
 // note 181: Time complexity: O(k) where k is the answer size.
+// note 182: k-d tree: median-split each axis; nearest-neighbor average O(log n).
