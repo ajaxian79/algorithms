@@ -1735,3 +1735,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 434
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 435
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
