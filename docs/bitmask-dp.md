@@ -1739,3 +1739,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 435
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 436
+
+LIS via patience: each pile holds the smallest tail of length k.
