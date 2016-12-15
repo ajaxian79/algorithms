@@ -232,3 +232,4 @@ void rotate_image(int* mat, int n) {
 // note 201: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // note 203: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 204: LCA via binary lifting: jump up powers of two until depths match, then converge.
