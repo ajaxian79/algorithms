@@ -1593,3 +1593,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 382
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 383
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
