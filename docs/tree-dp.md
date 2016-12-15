@@ -1803,3 +1803,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 451
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 452
+
+State compression: bitmask + integer encodes a small subset cheaply.
