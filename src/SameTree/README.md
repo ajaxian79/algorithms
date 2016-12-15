@@ -2316,3 +2316,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 565
 
 Time complexity: O(n).
+
+## entry 566
+
+Edge case: input of all the same byte → exits on the first compare.
