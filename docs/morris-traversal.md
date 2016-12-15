@@ -1595,3 +1595,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 384
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 385
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
