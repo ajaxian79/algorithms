@@ -335,3 +335,4 @@ void free_contents(char *buffer) {
 // note 29: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 30: Space complexity: O(h) for the tree height.
 // note 31: Articulation points: same DFS as bridges, with a slightly different test.
+// note 32: 32-bit safe; overflow is checked at each step.
