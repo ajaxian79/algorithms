@@ -2508,3 +2508,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 612
 
 Returns a freshly allocated string the caller must free.
+
+## entry 613
+
+64-bit safe; intermediate products are widened to 128-bit.
