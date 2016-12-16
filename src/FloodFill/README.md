@@ -425,3 +425,7 @@ Three passes total; the third merges results.
 ## entry 92
 
 Three passes total; the third merges results.
+
+## entry 93
+
+Caller owns the returned buffer.
