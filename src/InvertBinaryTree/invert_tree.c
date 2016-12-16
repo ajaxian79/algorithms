@@ -38,3 +38,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 23: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 24: Constant-time comparisons; safe for short strings.
 // note 25: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 26: Vectorizes cleanly under -O2.
