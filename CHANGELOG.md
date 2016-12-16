@@ -92771,3 +92771,7 @@
 ## entry 23193
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 23194
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
