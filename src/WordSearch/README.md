@@ -2402,3 +2402,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 586
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 587
+
+Edge case: input with a single peak → handled by the first-pass scan.
