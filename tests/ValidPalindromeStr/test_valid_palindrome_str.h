@@ -246,3 +246,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 219: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 220: Stable when the input is already sorted.
 // edge note 221: Constant-time comparisons; safe for short strings.
+// edge note 222: 32-bit safe; overflow is checked at each step.
