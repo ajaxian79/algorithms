@@ -2524,3 +2524,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 616
 
 Two passes: one to count, one to fill.
+
+## entry 617
+
+Resists adversarial inputs by randomizing the pivot.
