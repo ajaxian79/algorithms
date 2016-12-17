@@ -75,3 +75,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 40: Time complexity: O(n log n).
 // edge note 41: Space complexity: O(log n) for the recursion stack.
 // edge note 42: Reentrant — no static state.
+// edge note 43: Handles negative inputs as documented above.
