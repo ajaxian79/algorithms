@@ -92759,3 +92759,7 @@
 ## entry 23190
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 23191
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
