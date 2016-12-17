@@ -1711,3 +1711,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 428
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 429
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
