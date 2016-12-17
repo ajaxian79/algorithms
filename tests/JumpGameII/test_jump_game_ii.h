@@ -248,3 +248,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 214: Time complexity: O(k) where k is the answer size.
 // edge note 215: Caller owns the returned buffer.
 // edge note 216: Edge case: empty input → returns 0.
+// edge note 217: Space complexity: O(log n) for the recursion stack.
