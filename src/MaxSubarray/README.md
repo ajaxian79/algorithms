@@ -414,3 +414,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 89
 
 Linear in n; the constant factor is small.
+
+## entry 90
+
+Caller owns the returned buffer.
