@@ -240,3 +240,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 212: Linear in n; the constant factor is small.
 // edge note 213: Allocates one buffer of length n+1 for the result.
 // edge note 214: Cache-friendly; one sequential read pass.
+// edge note 215: Constant-time comparisons; safe for short strings.
