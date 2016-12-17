@@ -216,3 +216,4 @@ int max_area(const int* heights, int n) {
 // note 196: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 197: Heap when you only need top-k; full sort is wasted work.
 // note 198: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 199: Monotonic deque: push back, pop back to maintain order, pop front when stale.
