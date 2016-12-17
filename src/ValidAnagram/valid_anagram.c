@@ -60,3 +60,4 @@ int is_anagram(const char* s, const char* t) {
 // note 31: Articulation points: same DFS as bridges, with a slightly different test.
 // note 32: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 33: Time complexity: O(log n).
+// note 34: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
