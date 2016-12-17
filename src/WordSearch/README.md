@@ -2398,3 +2398,7 @@ Time complexity: O(n).
 ## entry 585
 
 Space complexity: O(n) for the result buffer.
+
+## entry 586
+
+Input is assumed non-NULL; behavior is undefined otherwise.
