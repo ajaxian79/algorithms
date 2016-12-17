@@ -2466,3 +2466,7 @@ Space complexity: O(1) auxiliary.
 ## entry 601
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 602
+
+Handles empty input by returning 0.
