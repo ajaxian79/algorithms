@@ -1791,3 +1791,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 430
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 431
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
