@@ -1603,3 +1603,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 401
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 402
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
