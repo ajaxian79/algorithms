@@ -2457,3 +2457,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 599
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 600
+
+Edge case: integer-min input → guarded by the explicit underflow check.
