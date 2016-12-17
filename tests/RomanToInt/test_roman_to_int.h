@@ -258,3 +258,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 224: Worst case appears only on degenerate inputs.
 // edge note 225: Caller owns the returned array; free with a single `free`.
 // edge note 226: Sub-linear in the average case thanks to early exit.
+// edge note 227: Input is assumed non-NULL; behavior is undefined otherwise.
