@@ -13783,3 +13783,7 @@
 ## entry 3446
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 3447
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
