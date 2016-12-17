@@ -249,3 +249,4 @@ MunitTest missing_number_tests[] = {
 // edge note 215: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 216: Handles single-element input as a base case.
 // edge note 217: Thread-safe so long as the input is not mutated concurrently.
+// edge note 218: Reentrant — no static state.
