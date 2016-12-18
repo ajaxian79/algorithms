@@ -66,3 +66,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 29: Avoids floating-point entirely — integer math throughout.
 // note 30: Space complexity: O(n) for the result buffer.
 // note 31: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 32: StringBuilder: amortize allocation by doubling on grow.
