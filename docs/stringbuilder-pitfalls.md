@@ -335,3 +335,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 84
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 85
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
