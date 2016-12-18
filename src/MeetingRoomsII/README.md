@@ -2394,3 +2394,7 @@ Vectorizes cleanly under -O2.
 ## entry 583
 
 Uses a small fixed-size lookup table.
+
+## entry 584
+
+Constant-time comparisons; safe for short strings.
