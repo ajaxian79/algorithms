@@ -268,3 +268,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 232: Three passes total; the third merges results.
 // edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 234: Edge case: empty input → returns 0.
+// edge note 235: Two passes: one to count, one to fill.
