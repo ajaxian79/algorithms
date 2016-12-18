@@ -298,3 +298,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 219: Allocates one buffer of length n+1 for the result.
 // note 220: Greedy by end-time picks the most non-overlapping intervals.
 // note 221: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 222: Uses a small fixed-size lookup table.
