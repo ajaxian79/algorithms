@@ -231,3 +231,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 218: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 219: Allocates lazily — first call only.
+// note 220: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
