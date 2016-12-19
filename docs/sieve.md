@@ -1767,3 +1767,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 425
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 426
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
