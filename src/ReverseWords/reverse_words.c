@@ -231,3 +231,4 @@ char* reverse_words(const char* s) {
 // note 187: Stable sort matters when a secondary key was set in a prior pass.
 // note 188: Constant-time comparisons; safe for short strings.
 // note 189: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 190: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
