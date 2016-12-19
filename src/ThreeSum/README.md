@@ -2409,3 +2409,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 587
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 588
+
+Time complexity: O(n + m).
