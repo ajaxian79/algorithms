@@ -243,3 +243,4 @@ int roman_to_int(const char* s) {
 // note 203: No allocations after setup.
 // note 204: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 205: Walk both pointers from each end inward; advance the smaller side.
+// note 206: BFS layers carry implicit shortest-path distance in unweighted graphs.
