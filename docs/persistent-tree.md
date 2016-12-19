@@ -1691,3 +1691,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 423
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 424
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
