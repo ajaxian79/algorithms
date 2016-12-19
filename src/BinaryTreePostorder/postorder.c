@@ -241,3 +241,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 192: Stable across duplicates in the input.
 // note 193: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 194: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
