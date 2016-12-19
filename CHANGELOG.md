@@ -92743,3 +92743,7 @@
 ## entry 23186
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23187
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
