@@ -1655,3 +1655,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 414
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 415
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
