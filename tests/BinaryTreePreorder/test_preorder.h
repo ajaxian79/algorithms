@@ -286,3 +286,4 @@ MunitTest preorder_tests[] = {
 // edge note 242: Three passes total; the third merges results.
 // edge note 243: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 244: Handles negative inputs as documented above.
+// edge note 245: Returns a freshly allocated string the caller must free.
