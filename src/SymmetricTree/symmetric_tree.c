@@ -214,3 +214,4 @@ int is_symmetric(STreeNode* root) {
 // note 195: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 196: Constant-time comparisons; safe for short strings.
 // note 197: Allocates lazily — first call only.
+// note 198: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
