@@ -92739,3 +92739,7 @@
 ## entry 23185
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 23186
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
