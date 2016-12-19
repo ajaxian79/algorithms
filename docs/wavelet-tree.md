@@ -1619,3 +1619,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 405
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 406
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
