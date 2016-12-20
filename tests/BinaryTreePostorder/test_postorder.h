@@ -259,3 +259,4 @@ MunitTest postorder_tests[] = {
 // edge note 215: Space complexity: O(h) for the tree height.
 // edge note 216: Handles empty input by returning 0.
 // edge note 217: Runs in a single pass over the input.
+// edge note 218: Thread-safe so long as the input is not mutated concurrently.
