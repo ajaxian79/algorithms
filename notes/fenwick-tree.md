@@ -1645,3 +1645,7 @@
 ## entry 395
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 396
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
