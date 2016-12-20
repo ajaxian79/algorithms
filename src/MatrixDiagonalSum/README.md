@@ -2494,3 +2494,7 @@ No allocations after setup.
 ## entry 609
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 610
+
+32-bit safe; overflow is checked at each step.
