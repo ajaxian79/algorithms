@@ -2305,3 +2305,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 561
 
 Two passes: one to count, one to fill.
+
+## entry 562
+
+Edge case: integer-max input → guarded by the explicit overflow check.
