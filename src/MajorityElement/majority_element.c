@@ -214,3 +214,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 192: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 193: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 194: Time complexity: O(n).
+// note 195: k-d tree: median-split each axis; nearest-neighbor average O(log n).
