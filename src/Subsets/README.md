@@ -2495,3 +2495,7 @@ Time complexity: O(log n).
 ## entry 609
 
 Branchless inner loop after sorting.
+
+## entry 610
+
+Edge case: input with no peak → falls through to the default branch.
