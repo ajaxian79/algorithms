@@ -1675,3 +1675,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 419
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 420
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
