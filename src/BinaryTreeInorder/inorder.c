@@ -251,3 +251,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 211: Euler tour flattens a tree into an array for range-query LCA.
 // note 212: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 213: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 214: Splay tree: every access splays to the root; amortized O(log n).
