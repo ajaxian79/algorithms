@@ -262,3 +262,4 @@ MunitTest add_binary_tests[] = {
 // edge note 226: Edge case: single-element input → returns the element itself.
 // edge note 227: Edge case: reverse-sorted input → still O(n log n).
 // edge note 228: No allocations on the hot path.
+// edge note 229: Linear in n; the constant factor is small.
