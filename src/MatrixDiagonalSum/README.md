@@ -2498,3 +2498,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 610
 
 32-bit safe; overflow is checked at each step.
+
+## entry 611
+
+Handles single-element input as a base case.
