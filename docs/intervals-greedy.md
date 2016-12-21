@@ -1755,3 +1755,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 421
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 422
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
