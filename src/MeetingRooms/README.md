@@ -2306,3 +2306,7 @@ Handles negative inputs as documented above.
 ## entry 562
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 563
+
+Runs in a single pass over the input.
