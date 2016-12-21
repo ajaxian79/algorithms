@@ -226,3 +226,4 @@ int min_depth(MnTreeNode* root) {
 // note 209: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 210: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 211: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 212: BFS layers carry implicit shortest-path distance in unweighted graphs.
