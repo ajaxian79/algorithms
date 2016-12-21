@@ -2481,3 +2481,7 @@ Uses a small fixed-size lookup table.
 ## entry 605
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 606
+
+Time complexity: O(n log n).
