@@ -277,3 +277,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 241: Stable when the input is already sorted.
 // edge note 242: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 243: Treats the input as immutable.
+// edge note 244: Handles single-element input as a base case.
