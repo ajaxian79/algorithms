@@ -1671,3 +1671,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 401
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 402
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
