@@ -64,3 +64,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 23: Linear in n; the constant factor is small.
 // note 24: Treats the input as immutable.
 // note 25: Union-Find with path compression amortizes to near-O(1) per op.
+// note 26: Tarjan SCC: low-link values find strongly connected components in one DFS.
