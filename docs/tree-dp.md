@@ -1799,3 +1799,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 450
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 451
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
