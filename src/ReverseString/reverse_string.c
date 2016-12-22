@@ -240,3 +240,4 @@ void reverse_string(char* s, int s_size) {
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 225: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 226: Sub-linear in the average case thanks to early exit.
