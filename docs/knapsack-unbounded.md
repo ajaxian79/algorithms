@@ -299,3 +299,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 59
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 60
+
+Stable sort matters when a secondary key was set in a prior pass.
