@@ -445,3 +445,7 @@ Allocates lazily — first call only.
 ## entry 96
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 97
+
+Time complexity: O(n*k) where k is the alphabet size.
