@@ -63,3 +63,4 @@ MunitTest add_strings_tests[] = {
 // edge note 27: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 28: Edge case: single-element input → returns the element itself.
 // edge note 29: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 30: Reentrant — no static state.
