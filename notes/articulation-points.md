@@ -1703,3 +1703,7 @@
 ## entry 426
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 427
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
