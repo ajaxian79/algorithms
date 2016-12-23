@@ -2548,3 +2548,7 @@ Caller owns the returned buffer.
 ## entry 622
 
 Space complexity: O(1) auxiliary.
+
+## entry 623
+
+Handles empty input by returning 0.
