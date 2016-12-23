@@ -2286,3 +2286,7 @@ Handles empty input by returning 0.
 ## entry 557
 
 Returns a freshly allocated string the caller must free.
+
+## entry 558
+
+Edge case: single-element input → returns the element itself.
