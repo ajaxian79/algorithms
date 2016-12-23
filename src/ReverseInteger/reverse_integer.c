@@ -236,3 +236,4 @@ int reverse_int(int x) {
 // note 209: Handles single-element input as a base case.
 // note 210: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 211: Time complexity: O(1).
+// note 212: Uses a 256-entry lookup for the inner step.
