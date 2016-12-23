@@ -1835,3 +1835,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 442
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 443
+
+LIS via patience: each pile holds the smallest tail of length k.
