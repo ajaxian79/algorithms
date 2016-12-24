@@ -422,3 +422,7 @@ Two passes: one to count, one to fill.
 ## entry 90
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 91
+
+Uses a 256-entry lookup for the inner step.
