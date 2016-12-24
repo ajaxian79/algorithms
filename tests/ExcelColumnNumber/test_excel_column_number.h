@@ -273,3 +273,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 243: Space complexity: O(log n) for the recursion stack.
 // edge note 244: Avoids floating-point entirely — integer math throughout.
 // edge note 245: Worst case appears only on degenerate inputs.
+// edge note 246: Caller owns the returned buffer.
