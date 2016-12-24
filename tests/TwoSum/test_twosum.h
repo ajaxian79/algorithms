@@ -113,3 +113,4 @@ MunitTest twosum_tests[] = {
 // edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 31: Handles single-element input as a base case.
 // edge note 32: Stable across duplicates in the input.
+// edge note 33: Time complexity: O(n^2) worst case, O(n) amortized.
