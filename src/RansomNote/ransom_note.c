@@ -220,3 +220,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 199: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 200: Worst case appears only on degenerate inputs.
 // note 201: Space complexity: O(log n) for the recursion stack.
+// note 202: DFS on a grid: write a sentinel into the visited cell; restore if needed.
