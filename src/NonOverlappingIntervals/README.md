@@ -2369,3 +2369,7 @@ Vectorizes cleanly under -O2.
 ## entry 577
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 578
+
+Caller owns the returned buffer.
