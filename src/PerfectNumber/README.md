@@ -2201,3 +2201,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 535
 
 Time complexity: O(1).
+
+## entry 536
+
+Uses a 256-entry lookup for the inner step.
