@@ -285,3 +285,4 @@ MunitTest num_islands_tests[] = {
 // edge note 245: Space complexity: O(log n) for the recursion stack.
 // edge note 246: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 247: Edge case: all-equal input → linear-time fast path.
+// edge note 248: Sub-linear in the average case thanks to early exit.
