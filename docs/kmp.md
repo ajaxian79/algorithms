@@ -1697,3 +1697,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 408
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 409
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
