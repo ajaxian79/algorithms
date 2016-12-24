@@ -92687,3 +92687,7 @@
 ## entry 23172
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 23173
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
