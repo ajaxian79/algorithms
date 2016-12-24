@@ -88,3 +88,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 33: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 36: Allocates a single small fixed-size scratch buffer.
