@@ -363,3 +363,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 73
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 74
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
