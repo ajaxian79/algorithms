@@ -1587,3 +1587,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 397
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 398
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
