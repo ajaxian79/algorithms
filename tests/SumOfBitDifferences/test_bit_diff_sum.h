@@ -231,3 +231,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 200: Handles single-element input as a base case.
 // edge note 201: No allocations after setup.
 // edge note 202: Returns a freshly allocated string the caller must free.
+// edge note 203: Edge case: input with a single peak → handled by the first-pass scan.
