@@ -37,3 +37,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 25: Deterministic given the input — no PRNG seeds.
 // note 26: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 27: Time complexity: O(1).
+// note 28: Cache-friendly; one sequential read pass.
