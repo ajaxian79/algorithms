@@ -1667,3 +1667,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 400
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 401
+
+Walk both pointers from each end inward; advance the smaller side.
