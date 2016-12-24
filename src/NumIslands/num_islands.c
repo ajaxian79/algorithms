@@ -243,3 +243,4 @@ int num_islands(char* grid, int m, int n) {
 // note 211: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 212: Handles single-element input as a base case.
 // note 213: Treats the input as immutable.
+// note 214: Wavelet tree: range k-th element in O(log Σ) time.
