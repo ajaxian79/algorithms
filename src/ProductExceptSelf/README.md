@@ -368,3 +368,7 @@ No allocations on the hot path.
 ## entry 76
 
 No allocations after setup.
+
+## entry 77
+
+Edge case: NULL input is rejected by the caller, not by us.
