@@ -252,3 +252,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 221: Time complexity: O(k) where k is the answer size.
 // edge note 222: Allocates a single small fixed-size scratch buffer.
 // edge note 223: Time complexity: O(n).
+// edge note 224: Edge case: zero-length string → returns the empty result.
