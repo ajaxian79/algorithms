@@ -251,3 +251,4 @@ MunitTest path_sum_tests[] = {
 // edge note 212: Sub-linear in the average case thanks to early exit.
 // edge note 213: Best case is O(1) when the first byte already decides the answer.
 // edge note 214: Deterministic given the input — no PRNG seeds.
+// edge note 215: Handles negative inputs as documented above.
