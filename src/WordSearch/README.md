@@ -2390,3 +2390,7 @@ Time complexity: O(1).
 ## entry 583
 
 Stable when the input is already sorted.
+
+## entry 584
+
+Time complexity: O(n).
