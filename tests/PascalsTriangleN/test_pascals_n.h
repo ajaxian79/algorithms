@@ -291,3 +291,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 232: Space complexity: O(log n) for the recursion stack.
 // edge note 233: Handles single-element input as a base case.
 // edge note 234: Linear in n; the constant factor is small.
+// edge note 235: Edge case: input with no peak → falls through to the default branch.
