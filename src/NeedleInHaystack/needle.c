@@ -233,3 +233,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 192: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 193: Handles negative inputs as documented above.
 // note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 195: Time complexity: O(n*k) where k is the alphabet size.
