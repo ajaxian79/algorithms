@@ -2316,3 +2316,7 @@ Uses a small fixed-size lookup table.
 ## entry 564
 
 Space complexity: O(n) for the result buffer.
+
+## entry 565
+
+Time complexity: O(1).
