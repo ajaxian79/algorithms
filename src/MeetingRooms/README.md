@@ -2302,3 +2302,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 561
 
 Handles negative inputs as documented above.
+
+## entry 562
+
+Thread-safe so long as the input is not mutated concurrently.
