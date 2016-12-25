@@ -2477,3 +2477,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 604
 
 Uses a small fixed-size lookup table.
+
+## entry 605
+
+Edge case: all-equal input → linear-time fast path.
