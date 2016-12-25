@@ -1677,3 +1677,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 403
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 404
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
