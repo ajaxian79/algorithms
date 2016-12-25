@@ -2414,3 +2414,7 @@ Handles negative inputs as documented above.
 ## entry 589
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 590
+
+Handles empty input by returning 0.
