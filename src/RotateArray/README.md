@@ -2531,3 +2531,7 @@ Linear in n; the constant factor is small.
 ## entry 617
 
 Edge case: empty input → returns 0.
+
+## entry 618
+
+Edge case: NULL input is rejected by the caller, not by us.
