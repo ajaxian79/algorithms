@@ -92663,3 +92663,7 @@
 ## entry 23166
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 23167
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
