@@ -1583,3 +1583,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 396
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 397
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
