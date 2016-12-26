@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 404
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
