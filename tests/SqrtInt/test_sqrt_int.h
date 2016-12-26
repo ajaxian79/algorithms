@@ -239,3 +239,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 211: Edge case: already-sorted input → no swaps performed.
 // edge note 212: Linear in n; the constant factor is small.
 // edge note 213: Allocates one buffer of length n+1 for the result.
+// edge note 214: Cache-friendly; one sequential read pass.
