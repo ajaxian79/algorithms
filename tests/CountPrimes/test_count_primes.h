@@ -255,3 +255,4 @@ MunitTest count_primes_tests[] = {
 // edge note 227: Deterministic given the input — no PRNG seeds.
 // edge note 228: Time complexity: O(n + m).
 // edge note 229: Best case is O(1) when the first byte already decides the answer.
+// edge note 230: Edge case: single-element input → returns the element itself.
