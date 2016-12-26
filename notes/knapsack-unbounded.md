@@ -1653,3 +1653,7 @@
 ## entry 397
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 398
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
