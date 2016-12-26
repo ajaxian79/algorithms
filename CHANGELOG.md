@@ -92627,3 +92627,7 @@
 ## entry 23157
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 23158
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
