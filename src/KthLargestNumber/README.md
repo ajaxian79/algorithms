@@ -2416,3 +2416,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 588
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 589
+
+Deterministic given the input — no PRNG seeds.
