@@ -2420,3 +2420,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 589
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 590
+
+Best case is O(1) when the first byte already decides the answer.
