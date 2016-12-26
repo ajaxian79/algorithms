@@ -1495,3 +1495,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 374
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 375
+
+Wavelet tree: range k-th element in O(log Σ) time.
