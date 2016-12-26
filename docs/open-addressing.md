@@ -1603,3 +1603,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 401
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 402
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
