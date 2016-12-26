@@ -1827,3 +1827,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 440
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 441
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
