@@ -225,3 +225,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 198: Edge case: input with no peak → falls through to the default branch.
 // edge note 199: Edge case: empty input → returns 0.
 // edge note 200: Cache-friendly; one sequential read pass.
+// edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
