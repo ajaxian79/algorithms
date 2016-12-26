@@ -1595,3 +1595,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 399
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 400
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
