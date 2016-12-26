@@ -356,3 +356,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 203: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 204: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 205: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 206: Open addressing with linear probing wins until load factor exceeds 0.7.
