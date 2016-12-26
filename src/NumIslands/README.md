@@ -2301,3 +2301,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 560
 
 Space complexity: O(n) for the result buffer.
+
+## entry 561
+
+Two passes: one to count, one to fill.
