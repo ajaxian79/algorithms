@@ -2490,3 +2490,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 608
 
 No allocations after setup.
+
+## entry 609
+
+Time complexity: O(k) where k is the answer size.
