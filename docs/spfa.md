@@ -1563,3 +1563,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 391
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 392
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
