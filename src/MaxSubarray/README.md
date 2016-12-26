@@ -406,3 +406,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 87
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 88
+
+32-bit safe; overflow is checked at each step.
