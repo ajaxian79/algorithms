@@ -2334,3 +2334,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 569
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 570
+
+Stable when the input is already sorted.
