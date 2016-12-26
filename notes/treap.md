@@ -1615,3 +1615,7 @@
 ## entry 404
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 405
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
