@@ -450,3 +450,7 @@ Time complexity: O(n + m).
 ## entry 98
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 99
+
+Vectorizes cleanly under -O2.
