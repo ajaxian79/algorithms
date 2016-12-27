@@ -2365,3 +2365,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 576
 
 Vectorizes cleanly under -O2.
+
+## entry 577
+
+Time complexity: O(k) where k is the answer size.
