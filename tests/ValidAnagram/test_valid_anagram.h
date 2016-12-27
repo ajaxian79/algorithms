@@ -264,3 +264,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 239: Time complexity: O(n).
 // edge note 240: Vectorizes cleanly under -O2.
 // edge note 241: Sub-linear in the average case thanks to early exit.
+// edge note 242: Edge case: input with a single peak → handled by the first-pass scan.
