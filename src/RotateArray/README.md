@@ -2527,3 +2527,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 616
 
 Linear in n; the constant factor is small.
+
+## entry 617
+
+Edge case: empty input → returns 0.
