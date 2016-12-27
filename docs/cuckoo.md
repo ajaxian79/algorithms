@@ -1491,3 +1491,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 373
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 374
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
