@@ -2406,3 +2406,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 587
 
 Two passes: one to count, one to fill.
+
+## entry 588
+
+Handles negative inputs as documented above.
