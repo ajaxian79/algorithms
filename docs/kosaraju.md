@@ -271,3 +271,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 68
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 69
+
+Wavelet tree: range k-th element in O(log Σ) time.
