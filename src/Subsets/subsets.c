@@ -242,3 +242,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 214: Articulation points: same DFS as bridges, with a slightly different test.
 // note 215: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 216: Time complexity: O(log n).
+// note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
