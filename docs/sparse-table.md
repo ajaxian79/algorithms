@@ -1455,3 +1455,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 364
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 365
+
+Merge intervals: sort by start; extend the running interval while overlapping.
