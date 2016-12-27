@@ -1599,3 +1599,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 400
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 401
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
