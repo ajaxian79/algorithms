@@ -274,3 +274,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 231: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 232: Handles single-element input as a base case.
 // edge note 233: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 234: Edge case: input with no peak → falls through to the default branch.
