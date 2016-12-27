@@ -1671,3 +1671,7 @@
 ## entry 418
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 419
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
