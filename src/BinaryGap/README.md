@@ -2422,3 +2422,7 @@ Time complexity: O(1).
 ## entry 590
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 591
+
+Edge case: empty input → returns 0.
