@@ -478,3 +478,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 104
 
 Time complexity: O(n log n).
+
+## entry 105
+
+Edge case: input with one duplicate → handled without an extra pass.
