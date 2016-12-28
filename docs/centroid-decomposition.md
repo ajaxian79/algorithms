@@ -1591,3 +1591,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 398
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 399
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
