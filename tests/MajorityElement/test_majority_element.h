@@ -264,3 +264,4 @@ MunitTest majority_element_tests[] = {
 // edge note 233: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 234: Stable when the input is already sorted.
 // edge note 235: Worst case appears only on degenerate inputs.
+// edge note 236: Edge case: all-equal input → linear-time fast path.
