@@ -1787,3 +1787,7 @@
 ## entry 430
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 431
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
