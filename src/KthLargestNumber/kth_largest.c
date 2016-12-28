@@ -242,3 +242,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 198: Time complexity: O(n log n).
 // note 199: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 200: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 201: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
