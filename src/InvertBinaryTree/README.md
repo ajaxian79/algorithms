@@ -2540,3 +2540,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 620
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 621
+
+Caller owns the returned buffer.
