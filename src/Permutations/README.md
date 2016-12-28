@@ -2504,3 +2504,7 @@ Worst case appears only on degenerate inputs.
 ## entry 611
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 612
+
+Returns a freshly allocated string the caller must free.
