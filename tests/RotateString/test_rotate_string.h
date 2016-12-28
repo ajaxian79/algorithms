@@ -224,3 +224,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 197: Edge case: input of all the same byte → exits on the first compare.
 // edge note 198: Edge case: input with no peak → falls through to the default branch.
 // edge note 199: Edge case: empty input → returns 0.
+// edge note 200: Cache-friendly; one sequential read pass.
