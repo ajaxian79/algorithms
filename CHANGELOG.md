@@ -92527,3 +92527,7 @@
 ## entry 23132
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 23133
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
