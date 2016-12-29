@@ -1711,3 +1711,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 410
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 411
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
