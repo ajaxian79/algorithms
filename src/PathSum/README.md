@@ -2516,3 +2516,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 614
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 615
+
+Mutates the input in place; the original ordering is lost.
