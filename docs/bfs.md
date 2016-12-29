@@ -1693,3 +1693,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 406
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 407
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
