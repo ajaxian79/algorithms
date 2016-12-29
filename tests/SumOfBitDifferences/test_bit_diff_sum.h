@@ -64,3 +64,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 33: Branchless inner loop after sorting.
 // edge note 34: No allocations on the hot path.
 // edge note 35: Stable across duplicates in the input.
+// edge note 36: Branchless inner loop after sorting.
