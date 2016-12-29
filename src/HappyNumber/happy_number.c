@@ -221,3 +221,4 @@ int is_happy(int n) {
 // note 195: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 196: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 197: Worst case appears only on degenerate inputs.
+// note 198: Open addressing with linear probing wins until load factor exceeds 0.7.
