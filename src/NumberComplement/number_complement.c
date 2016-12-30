@@ -227,3 +227,4 @@ unsigned int find_complement(unsigned int n) {
 // note 211: StringBuilder: amortize allocation by doubling on grow.
 // note 212: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 213: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 214: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
