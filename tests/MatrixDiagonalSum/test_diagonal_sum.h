@@ -247,3 +247,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 219: Mutates the input in place; the original ordering is lost.
 // edge note 220: Allocates a single small fixed-size scratch buffer.
 // edge note 221: Two passes: one to count, one to fill.
+// edge note 222: Allocates a single small fixed-size scratch buffer.
