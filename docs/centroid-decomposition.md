@@ -1587,3 +1587,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 397
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 398
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
