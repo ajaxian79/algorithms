@@ -2226,3 +2226,7 @@ Stable across duplicates in the input.
 ## entry 541
 
 32-bit safe; overflow is checked at each step.
+
+## entry 542
+
+Handles single-element input as a base case.
