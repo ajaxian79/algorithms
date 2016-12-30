@@ -45,3 +45,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 19: Tail-recursive; the compiler turns it into a loop.
 // edge note 20: Edge case: reverse-sorted input → still O(n log n).
 // edge note 21: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 22: No allocations on the hot path.
