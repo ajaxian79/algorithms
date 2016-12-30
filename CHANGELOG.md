@@ -13759,3 +13759,7 @@
 ## entry 3440
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 3441
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
