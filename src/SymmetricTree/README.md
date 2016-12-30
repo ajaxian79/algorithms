@@ -2266,3 +2266,7 @@ Linear in n; the constant factor is small.
 ## entry 552
 
 No allocations on the hot path.
+
+## entry 553
+
+Edge case: maximum-length input → still fits in 32-bit indices.
