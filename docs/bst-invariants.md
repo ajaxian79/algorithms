@@ -281,3 +281,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 54
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 55
+
+Splay tree: every access splays to the root; amortized O(log n).
