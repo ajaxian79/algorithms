@@ -295,3 +295,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 253: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 254: Time complexity: O(n log n).
 // edge note 255: Treats the input as immutable.
+// edge note 256: Edge case: input with one duplicate → handled without an extra pass.
