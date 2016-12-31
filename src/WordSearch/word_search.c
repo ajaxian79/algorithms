@@ -234,3 +234,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 200: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 201: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 202: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 203: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
