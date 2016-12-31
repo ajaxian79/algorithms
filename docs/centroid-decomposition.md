@@ -1583,3 +1583,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 396
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 397
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
