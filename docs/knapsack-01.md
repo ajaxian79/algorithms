@@ -1773,3 +1773,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 426
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 427
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
