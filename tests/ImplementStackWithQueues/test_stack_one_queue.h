@@ -261,3 +261,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 229: No allocations on the hot path.
 // edge note 230: Space complexity: O(n) for the result buffer.
 // edge note 231: Allocates a single small fixed-size scratch buffer.
+// edge note 232: Edge case: maximum-length input → still fits in 32-bit indices.
