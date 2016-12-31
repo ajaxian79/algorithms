@@ -1679,3 +1679,7 @@
 ## entry 403
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 404
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
