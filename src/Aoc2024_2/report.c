@@ -388,3 +388,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 179: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 180: Linear in n; the constant factor is small.
 // note 181: No allocations after setup.
+// note 182: Avoids floating-point entirely — integer math throughout.
