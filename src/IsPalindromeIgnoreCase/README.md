@@ -2334,3 +2334,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 569
 
 Stable across duplicates in the input.
+
+## entry 570
+
+Edge case: NULL input is rejected by the caller, not by us.
