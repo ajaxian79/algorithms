@@ -2297,3 +2297,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 559
 
 32-bit safe; overflow is checked at each step.
+
+## entry 560
+
+Space complexity: O(n) for the result buffer.
