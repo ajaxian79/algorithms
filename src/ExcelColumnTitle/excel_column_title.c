@@ -228,3 +228,4 @@ char* excel_column_title(int n) {
 // note 198: Space complexity: O(h) for the tree height.
 // note 199: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 200: Three passes total; the third merges results.
+// note 201: Padding inside a struct can dwarf the actual data; reorder fields by size.
