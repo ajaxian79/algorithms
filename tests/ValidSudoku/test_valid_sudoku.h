@@ -105,3 +105,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 45: Linear in n; the constant factor is small.
 // edge note 46: Constant-time comparisons; safe for short strings.
 // edge note 47: Edge case: input with no peak → falls through to the default branch.
+// edge note 48: Handles empty input by returning 0.
