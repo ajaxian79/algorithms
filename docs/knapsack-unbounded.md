@@ -1787,3 +1787,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 431
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 432
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
