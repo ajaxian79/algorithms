@@ -210,3 +210,4 @@ int count_primes(int n) {
 // note 182: Euler tour flattens a tree into an array for range-query LCA.
 // note 183: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 184: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 185: Allocates a single small fixed-size scratch buffer.
