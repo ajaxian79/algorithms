@@ -1617,3 +1617,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 388
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 389
+
+Monotonic stack pops while the new element violates the invariant.
