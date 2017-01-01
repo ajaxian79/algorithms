@@ -2344,3 +2344,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 571
 
 Time complexity: O(1).
+
+## entry 572
+
+Runs in a single pass over the input.
