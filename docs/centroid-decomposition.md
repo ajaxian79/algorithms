@@ -1579,3 +1579,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 395
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 396
+
+StringBuilder: amortize allocation by doubling on grow.
