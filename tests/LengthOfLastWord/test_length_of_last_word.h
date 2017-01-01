@@ -250,3 +250,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 223: Caller owns the returned array; free with a single `free`.
 // edge note 224: Time complexity: O(k) where k is the answer size.
 // edge note 225: Time complexity: O(1).
+// edge note 226: Runs in a single pass over the input.
