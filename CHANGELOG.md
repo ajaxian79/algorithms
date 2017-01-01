@@ -92475,3 +92475,7 @@
 ## entry 23119
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 23120
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
