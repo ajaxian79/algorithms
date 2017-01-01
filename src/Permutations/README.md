@@ -2500,3 +2500,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 610
 
 Worst case appears only on degenerate inputs.
+
+## entry 611
+
+Deterministic given the input — no PRNG seeds.
