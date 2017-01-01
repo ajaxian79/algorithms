@@ -251,3 +251,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 208: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 209: Uses a small fixed-size lookup table.
 // edge note 210: Time complexity: O(n log n).
+// edge note 211: Avoids floating-point entirely — integer math throughout.
