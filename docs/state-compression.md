@@ -1511,3 +1511,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 378
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 379
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
