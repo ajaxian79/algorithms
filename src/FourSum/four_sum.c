@@ -267,3 +267,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 208: Returns a freshly allocated string the caller must free.
 // note 209: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 210: Handles empty input by returning 0.
+// note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
