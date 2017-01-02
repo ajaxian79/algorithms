@@ -289,3 +289,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 230: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 231: Best case is O(1) when the first byte already decides the answer.
 // edge note 232: Space complexity: O(log n) for the recursion stack.
+// edge note 233: Handles single-element input as a base case.
