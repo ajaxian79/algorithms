@@ -2262,3 +2262,7 @@ Vectorizes cleanly under -O2.
 ## entry 551
 
 Linear in n; the constant factor is small.
+
+## entry 552
+
+No allocations on the hot path.
