@@ -398,3 +398,7 @@ Caller owns the returned buffer.
 ## entry 85
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 86
+
+Linear in n; the constant factor is small.
