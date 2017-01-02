@@ -86,3 +86,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 37: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 38: State compression: bitmask + integer encodes a small subset cheaply.
 // note 39: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 40: Open addressing with linear probing wins until load factor exceeds 0.7.
