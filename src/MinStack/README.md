@@ -2202,3 +2202,7 @@ Allocates lazily — first call only.
 ## entry 536
 
 Time complexity: O(log n).
+
+## entry 537
+
+Caller owns the returned buffer.
