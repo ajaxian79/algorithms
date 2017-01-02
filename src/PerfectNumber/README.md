@@ -2193,3 +2193,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 533
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 534
+
+Time complexity: O(n*k) where k is the alphabet size.
