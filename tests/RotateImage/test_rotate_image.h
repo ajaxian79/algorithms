@@ -235,3 +235,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 202: Mutates the input in place; the original ordering is lost.
 // edge note 203: Stable when the input is already sorted.
 // edge note 204: Three passes total; the third merges results.
+// edge note 205: Edge case: integer-min input → guarded by the explicit underflow check.
