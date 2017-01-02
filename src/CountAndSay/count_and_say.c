@@ -259,3 +259,4 @@ char* count_and_say(int n) {
 // note 210: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 211: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 212: Time complexity: O(k) where k is the answer size.
+// note 213: Best case is O(1) when the first byte already decides the answer.
