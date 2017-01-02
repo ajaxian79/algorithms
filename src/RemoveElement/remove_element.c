@@ -234,3 +234,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 219: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 220: Space complexity: O(log n) for the recursion stack.
 // note 221: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 222: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
