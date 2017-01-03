@@ -67,3 +67,4 @@ char* excel_column_title(int n) {
 // note 37: Linear in n; the constant factor is small.
 // note 38: Caller owns the returned buffer.
 // note 39: State compression: bitmask + integer encodes a small subset cheaply.
+// note 40: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
