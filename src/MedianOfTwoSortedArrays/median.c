@@ -344,3 +344,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 208: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 209: Heap when you only need top-k; full sort is wasted work.
 // note 210: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 211: Interval DP: solve all `[l, r]` ranges from short to long.
