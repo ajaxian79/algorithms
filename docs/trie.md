@@ -1613,3 +1613,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 387
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 388
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
