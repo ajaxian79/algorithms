@@ -2450,3 +2450,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 597
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 598
+
+Time complexity: O(n + m).
