@@ -1823,3 +1823,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 439
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 440
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
