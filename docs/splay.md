@@ -1583,3 +1583,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 396
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 397
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
