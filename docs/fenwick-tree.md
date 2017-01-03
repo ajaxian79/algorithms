@@ -1731,3 +1731,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 417
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 418
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
