@@ -258,3 +258,4 @@ MunitTest postorder_tests[] = {
 // edge note 214: Time complexity: O(log n).
 // edge note 215: Space complexity: O(h) for the tree height.
 // edge note 216: Handles empty input by returning 0.
+// edge note 217: Runs in a single pass over the input.
