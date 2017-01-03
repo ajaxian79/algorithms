@@ -2486,3 +2486,7 @@ Edge case: empty input → returns 0.
 ## entry 607
 
 Constant-time comparisons; safe for short strings.
+
+## entry 608
+
+No allocations after setup.
