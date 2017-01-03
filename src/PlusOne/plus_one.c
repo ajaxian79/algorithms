@@ -225,3 +225,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 189: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 191: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
