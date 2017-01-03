@@ -270,3 +270,4 @@ MunitTest happy_number_tests[] = {
 // edge note 242: No allocations after setup.
 // edge note 243: Returns a freshly allocated string the caller must free.
 // edge note 244: Allocates lazily — first call only.
+// edge note 245: Time complexity: O(n^2) worst case, O(n) amortized.
