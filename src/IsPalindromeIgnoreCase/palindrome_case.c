@@ -226,3 +226,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 203: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 204: Thread-safe so long as the input is not mutated concurrently.
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 206: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
