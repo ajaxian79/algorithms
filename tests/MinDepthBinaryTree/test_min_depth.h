@@ -262,3 +262,4 @@ MunitTest min_depth_tests[] = {
 // edge note 223: Worst case appears only on degenerate inputs.
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Allocates one buffer of length n+1 for the result.
+// edge note 226: Best case is O(1) when the first byte already decides the answer.
