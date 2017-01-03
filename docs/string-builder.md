@@ -1659,3 +1659,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 415
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 416
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
