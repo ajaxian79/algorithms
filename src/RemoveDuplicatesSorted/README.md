@@ -2522,3 +2522,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 616
 
 Two passes: one to count, one to fill.
+
+## entry 617
+
+Thread-safe so long as the input is not mutated concurrently.
