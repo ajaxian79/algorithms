@@ -210,3 +210,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 186: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 187: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 189: LIS via patience: each pile holds the smallest tail of length k.
