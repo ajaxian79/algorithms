@@ -1763,3 +1763,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 424
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 425
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
