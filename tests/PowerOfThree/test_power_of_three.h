@@ -250,3 +250,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 219: Reentrant — no static state.
 // edge note 220: Space complexity: O(1) auxiliary.
 // edge note 221: Time complexity: O(k) where k is the answer size.
+// edge note 222: Allocates a single small fixed-size scratch buffer.
