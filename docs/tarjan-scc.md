@@ -1739,3 +1739,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 435
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 436
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
