@@ -1771,3 +1771,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 443
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 444
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
