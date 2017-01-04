@@ -2344,3 +2344,7 @@ Time complexity: O(1).
 ## entry 570
 
 Uses a small fixed-size lookup table.
+
+## entry 571
+
+Edge case: power-of-two-length input → no padding required.
