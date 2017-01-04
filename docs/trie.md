@@ -1605,3 +1605,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 385
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 386
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
