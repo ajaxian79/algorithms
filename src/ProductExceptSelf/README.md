@@ -2392,3 +2392,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 582
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 583
+
+Stable when the input is already sorted.
