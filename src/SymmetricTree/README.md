@@ -2250,3 +2250,7 @@ Handles negative inputs as documented above.
 ## entry 548
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 549
+
+Space complexity: O(h) for the tree height.
