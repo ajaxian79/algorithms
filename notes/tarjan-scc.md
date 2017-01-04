@@ -1619,3 +1619,7 @@
 ## entry 405
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 406
+
+- StringBuilder: amortize allocation by doubling on grow.
