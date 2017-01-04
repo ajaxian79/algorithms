@@ -266,3 +266,4 @@ MunitTest add_strings_tests[] = {
 // edge note 230: Vectorizes cleanly under -O2.
 // edge note 231: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 232: Time complexity: O(k) where k is the answer size.
+// edge note 233: Allocates lazily — first call only.
