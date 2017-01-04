@@ -422,3 +422,7 @@ Runs in a single pass over the input.
 ## entry 90
 
 Treats the input as immutable.
+
+## entry 91
+
+Edge case: alternating pattern → degenerate case for sliding window.
