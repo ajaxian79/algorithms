@@ -1639,3 +1639,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 410
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 411
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
