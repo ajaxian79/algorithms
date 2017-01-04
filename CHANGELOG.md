@@ -92355,3 +92355,7 @@
 ## entry 23089
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 23090
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
