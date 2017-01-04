@@ -275,3 +275,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 69
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 70
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
