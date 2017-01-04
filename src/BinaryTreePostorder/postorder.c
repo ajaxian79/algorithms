@@ -240,3 +240,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 191: Euler tour flattens a tree into an array for range-query LCA.
 // note 192: Stable across duplicates in the input.
 // note 193: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 194: Merge intervals: sort by start; extend the running interval while overlapping.
