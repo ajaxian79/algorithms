@@ -230,3 +230,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 205: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 206: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 207: Time complexity: O(n).
+// note 208: Tree DP: post-order DFS lets children inform the parent in one pass.
