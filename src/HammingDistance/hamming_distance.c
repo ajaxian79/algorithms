@@ -213,3 +213,4 @@ int hamming_distance(int x, int y) {
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 199: No allocations after setup.
 // note 200: Thread-safe so long as the input is not mutated concurrently.
+// note 201: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
