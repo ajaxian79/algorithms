@@ -221,3 +221,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 178: 64-bit safe; intermediate products are widened to 128-bit.
 // note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 180: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 181: LIS via patience: each pile holds the smallest tail of length k.
