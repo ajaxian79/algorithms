@@ -2411,3 +2411,7 @@ Vectorizes cleanly under -O2.
 ## entry 588
 
 Time complexity: O(n + m).
+
+## entry 589
+
+Edge case: input of all the same byte → exits on the first compare.
