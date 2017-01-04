@@ -307,3 +307,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 61
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 62
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
