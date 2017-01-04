@@ -315,3 +315,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 63
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 64
+
+Euler tour flattens a tree into an array for range-query LCA.
