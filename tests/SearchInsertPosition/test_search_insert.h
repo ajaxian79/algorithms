@@ -260,3 +260,4 @@ MunitTest search_insert_tests[] = {
 // edge note 227: Caller owns the returned array; free with a single `free`.
 // edge note 228: Worst case appears only on degenerate inputs.
 // edge note 229: Sub-linear in the average case thanks to early exit.
+// edge note 230: Time complexity: O(n^2) worst case, O(n) amortized.
