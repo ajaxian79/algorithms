@@ -263,3 +263,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 238: Worst case appears only on degenerate inputs.
 // edge note 239: Time complexity: O(n).
 // edge note 240: Vectorizes cleanly under -O2.
+// edge note 241: Sub-linear in the average case thanks to early exit.
