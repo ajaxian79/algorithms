@@ -220,3 +220,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 177: Idempotent — calling twice with the same input is a no-op the second time.
 // note 178: 64-bit safe; intermediate products are widened to 128-bit.
 // note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 180: k-d tree: median-split each axis; nearest-neighbor average O(log n).
