@@ -2340,3 +2340,7 @@ Vectorizes cleanly under -O2.
 ## entry 569
 
 32-bit safe; overflow is checked at each step.
+
+## entry 570
+
+Cache-friendly; one sequential read pass.
