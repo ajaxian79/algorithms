@@ -261,3 +261,4 @@ MunitTest add_binary_tests[] = {
 // edge note 225: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 226: Edge case: single-element input → returns the element itself.
 // edge note 227: Edge case: reverse-sorted input → still O(n log n).
+// edge note 228: No allocations on the hot path.
