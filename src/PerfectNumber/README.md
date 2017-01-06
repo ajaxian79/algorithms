@@ -2189,3 +2189,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 532
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 533
+
+Allocates one buffer of length n+1 for the result.
