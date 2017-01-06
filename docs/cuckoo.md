@@ -1487,3 +1487,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 372
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 373
+
+In-place compaction uses two pointers: read advances always, write only on keep.
