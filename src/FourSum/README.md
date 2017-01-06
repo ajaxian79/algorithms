@@ -2304,3 +2304,7 @@ No allocations on the hot path.
 ## entry 561
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 562
+
+Edge case: input with no peak → falls through to the default branch.
