@@ -1623,3 +1623,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 406
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 407
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
