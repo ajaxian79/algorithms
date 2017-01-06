@@ -300,3 +300,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 260: Edge case: all-equal input → linear-time fast path.
 // edge note 261: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 262: Treats the input as immutable.
+// edge note 263: Edge case: already-sorted input → no swaps performed.
