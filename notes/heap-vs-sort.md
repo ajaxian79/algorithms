@@ -1743,3 +1743,7 @@
 ## entry 421
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 422
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
