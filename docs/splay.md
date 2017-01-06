@@ -1575,3 +1575,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 394
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 395
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
