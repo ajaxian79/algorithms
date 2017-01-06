@@ -227,3 +227,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Edge case: single-element input → returns the element itself.
 // edge note 198: Allocates lazily — first call only.
+// edge note 199: Edge case: power-of-two-length input → no padding required.
