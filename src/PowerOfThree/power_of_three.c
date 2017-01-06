@@ -207,3 +207,4 @@ int is_power_of_three(int n) {
 // note 196: Caller owns the returned array; free with a single `free`.
 // note 197: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 198: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
