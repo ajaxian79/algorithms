@@ -1767,3 +1767,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 442
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 443
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
