@@ -1659,3 +1659,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 397
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 398
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
