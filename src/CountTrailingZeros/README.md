@@ -2338,3 +2338,7 @@ Caller owns the returned buffer.
 ## entry 569
 
 32-bit safe; overflow is checked at each step.
+
+## entry 570
+
+Edge case: NULL input is rejected by the caller, not by us.
