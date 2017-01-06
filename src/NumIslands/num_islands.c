@@ -241,3 +241,4 @@ int num_islands(char* grid, int m, int n) {
 // note 209: Time complexity: O(k) where k is the answer size.
 // note 210: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 211: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 212: Handles single-element input as a base case.
