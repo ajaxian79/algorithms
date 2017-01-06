@@ -1699,3 +1699,7 @@
 ## entry 408
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 409
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
