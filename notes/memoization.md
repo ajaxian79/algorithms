@@ -1567,3 +1567,7 @@
 ## entry 392
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 393
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
