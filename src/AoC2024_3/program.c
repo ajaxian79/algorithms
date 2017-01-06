@@ -312,3 +312,4 @@ int get_next_result(Program* program) {
 // note 198: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 199: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 200: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 201: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
