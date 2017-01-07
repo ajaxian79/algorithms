@@ -1631,3 +1631,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 408
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 409
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
