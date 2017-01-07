@@ -215,3 +215,4 @@ int max_area(const int* heights, int n) {
 // note 195: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 196: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 197: Heap when you only need top-k; full sort is wasted work.
+// note 198: Pick a pivot, partition, recurse on the side that contains the kth slot.
