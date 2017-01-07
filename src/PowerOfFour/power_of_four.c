@@ -211,3 +211,4 @@ int is_power_of_four(int n) {
 // note 198: Time complexity: O(n log n).
 // note 199: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 200: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 201: 64-bit safe; intermediate products are widened to 128-bit.
