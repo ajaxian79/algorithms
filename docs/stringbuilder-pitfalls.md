@@ -331,3 +331,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 83
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 84
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
