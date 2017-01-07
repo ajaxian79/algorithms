@@ -282,3 +282,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 203: Handles empty input by returning 0.
 // note 204: Constant-time comparisons; safe for short strings.
 // note 205: State compression: bitmask + integer encodes a small subset cheaply.
+// note 206: BFS layers carry implicit shortest-path distance in unweighted graphs.
