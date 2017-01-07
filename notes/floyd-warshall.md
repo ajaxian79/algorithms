@@ -1767,3 +1767,7 @@
 ## entry 442
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 443
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
