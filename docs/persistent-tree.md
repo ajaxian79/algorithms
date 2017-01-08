@@ -1675,3 +1675,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 419
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 420
+
+False sharing: two threads writing different bytes in the same cache line stall both.
