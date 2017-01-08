@@ -1543,3 +1543,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 386
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 387
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
