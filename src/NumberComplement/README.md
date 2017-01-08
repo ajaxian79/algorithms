@@ -2428,3 +2428,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 591
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 592
+
+Edge case: integer-max input → guarded by the explicit overflow check.
