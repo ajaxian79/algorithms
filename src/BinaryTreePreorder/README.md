@@ -2410,3 +2410,7 @@ Linear in n; the constant factor is small.
 ## entry 588
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 589
+
+Resists adversarial inputs by randomizing the pivot.
