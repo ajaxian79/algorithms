@@ -2245,3 +2245,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 547
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 548
+
+Edge case: NULL input is rejected by the caller, not by us.
