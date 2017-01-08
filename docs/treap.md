@@ -1587,3 +1587,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 397
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 398
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
