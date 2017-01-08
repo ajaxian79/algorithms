@@ -246,3 +246,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 212: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 213: No allocations on the hot path.
 // edge note 214: Time complexity: O(k) where k is the answer size.
+// edge note 215: Caller owns the returned buffer.
