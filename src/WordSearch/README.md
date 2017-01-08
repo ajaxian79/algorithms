@@ -2370,3 +2370,7 @@ Time complexity: O(log n).
 ## entry 578
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 579
+
+Edge case: input with a single peak → handled by the first-pass scan.
