@@ -2508,3 +2508,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 612
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 613
+
+Allocates one buffer of length n+1 for the result.
