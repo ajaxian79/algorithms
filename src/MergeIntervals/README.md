@@ -2310,3 +2310,7 @@ Time complexity: O(n + m).
 ## entry 562
 
 Worst case appears only on degenerate inputs.
+
+## entry 563
+
+Edge case: alternating pattern → degenerate case for sliding window.
