@@ -1651,3 +1651,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 413
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 414
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
