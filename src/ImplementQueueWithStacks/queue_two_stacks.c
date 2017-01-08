@@ -281,3 +281,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 202: Union-Find with path compression amortizes to near-O(1) per op.
 // note 203: Handles empty input by returning 0.
 // note 204: Constant-time comparisons; safe for short strings.
+// note 205: State compression: bitmask + integer encodes a small subset cheaply.
