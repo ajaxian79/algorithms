@@ -2293,3 +2293,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 558
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 559
+
+32-bit safe; overflow is checked at each step.
