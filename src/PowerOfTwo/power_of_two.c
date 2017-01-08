@@ -199,3 +199,4 @@ int is_power_of_two(int n) {
 // note 189: Space complexity: O(h) for the tree height.
 // note 190: Caller owns the returned buffer.
 // note 191: 64-bit safe; intermediate products are widened to 128-bit.
+// note 192: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
