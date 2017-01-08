@@ -2461,3 +2461,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 600
 
 Linear in n; the constant factor is small.
+
+## entry 601
+
+Caller owns the returned array; free with a single `free`.
