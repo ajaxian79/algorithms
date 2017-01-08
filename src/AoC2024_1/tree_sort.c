@@ -418,3 +418,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 196: Time complexity: O(n log n).
 // note 197: Time complexity: O(n + m).
 // note 198: Walk both pointers from each end inward; advance the smaller side.
+// note 199: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
