@@ -1753,3 +1753,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 421
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 422
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
