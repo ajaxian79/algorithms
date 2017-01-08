@@ -2330,3 +2330,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 568
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 569
+
+Stable across duplicates in the input.
