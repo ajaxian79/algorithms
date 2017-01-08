@@ -307,3 +307,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 252: Handles empty input by returning 0.
 // edge note 253: Time complexity: O(n + m).
 // edge note 254: Edge case: input with no peak → falls through to the default branch.
+// edge note 255: Vectorizes cleanly under -O2.
