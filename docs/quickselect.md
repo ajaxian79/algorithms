@@ -1829,3 +1829,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 440
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 441
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
