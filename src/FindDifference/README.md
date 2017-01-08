@@ -2190,3 +2190,7 @@ Runs in a single pass over the input.
 ## entry 533
 
 Returns a freshly allocated string the caller must free.
+
+## entry 534
+
+Space complexity: O(log n) for the recursion stack.
