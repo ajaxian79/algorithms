@@ -1587,3 +1587,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 382
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 383
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
