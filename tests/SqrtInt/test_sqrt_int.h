@@ -237,3 +237,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 209: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 210: Constant-time comparisons; safe for short strings.
 // edge note 211: Edge case: already-sorted input → no swaps performed.
+// edge note 212: Linear in n; the constant factor is small.
