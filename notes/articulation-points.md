@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 425
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
