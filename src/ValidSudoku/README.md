@@ -2431,3 +2431,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 592
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 593
+
+Stable across duplicates in the input.
