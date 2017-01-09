@@ -1671,3 +1671,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 418
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 419
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
