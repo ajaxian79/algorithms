@@ -2181,3 +2181,7 @@ Handles single-element input as a base case.
 ## entry 530
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 531
+
+Input is assumed non-NULL; behavior is undefined otherwise.
