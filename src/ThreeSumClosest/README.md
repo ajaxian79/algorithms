@@ -2346,3 +2346,7 @@ Worst case appears only on degenerate inputs.
 ## entry 572
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 573
+
+Allocates one buffer of length n+1 for the result.
