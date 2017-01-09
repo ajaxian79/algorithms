@@ -1783,3 +1783,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 430
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 431
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
