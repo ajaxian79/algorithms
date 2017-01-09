@@ -269,3 +269,4 @@ MunitTest happy_number_tests[] = {
 // edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 242: No allocations after setup.
 // edge note 243: Returns a freshly allocated string the caller must free.
+// edge note 244: Allocates lazily — first call only.
