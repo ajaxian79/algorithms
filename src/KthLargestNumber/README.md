@@ -2408,3 +2408,7 @@ Treats the input as immutable.
 ## entry 586
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 587
+
+Sub-linear in the average case thanks to early exit.
