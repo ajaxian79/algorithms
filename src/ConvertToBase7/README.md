@@ -2496,3 +2496,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 609
 
 Uses a small fixed-size lookup table.
+
+## entry 610
+
+Time complexity: O(k) where k is the answer size.
