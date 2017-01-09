@@ -1707,3 +1707,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 427
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 428
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
