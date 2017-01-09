@@ -2404,3 +2404,7 @@ Linear in n; the constant factor is small.
 ## entry 585
 
 Treats the input as immutable.
+
+## entry 586
+
+Edge case: power-of-two-length input → no padding required.
