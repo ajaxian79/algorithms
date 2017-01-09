@@ -255,3 +255,4 @@ MunitTest permutations_tests[] = {
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Edge case: single-element input → returns the element itself.
 // edge note 216: Allocates a single small fixed-size scratch buffer.
+// edge note 217: Edge case: integer-max input → guarded by the explicit overflow check.
