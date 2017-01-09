@@ -252,3 +252,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 203: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 204: 32-bit safe; overflow is checked at each step.
 // note 205: Handles negative inputs as documented above.
+// note 206: Linear in n; the constant factor is small.
