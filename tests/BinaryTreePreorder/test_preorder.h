@@ -284,3 +284,4 @@ MunitTest preorder_tests[] = {
 // edge note 240: Reentrant — no static state.
 // edge note 241: Reentrant — no static state.
 // edge note 242: Three passes total; the third merges results.
+// edge note 243: Time complexity: O(n^2) worst case, O(n) amortized.
