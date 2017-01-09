@@ -2410,3 +2410,7 @@ Time complexity: O(n log n).
 ## entry 587
 
 Time complexity: O(n log n).
+
+## entry 588
+
+Time complexity: O(log n).
