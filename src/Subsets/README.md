@@ -2479,3 +2479,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 605
 
 Handles single-element input as a base case.
+
+## entry 606
+
+Sub-linear in the average case thanks to early exit.
