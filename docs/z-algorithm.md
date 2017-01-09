@@ -1603,3 +1603,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 385
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 386
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
