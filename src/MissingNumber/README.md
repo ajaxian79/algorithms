@@ -2442,3 +2442,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 595
 
 Handles negative inputs as documented above.
+
+## entry 596
+
+Space complexity: O(n) for the result buffer.
