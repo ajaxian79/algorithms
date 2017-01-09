@@ -2304,3 +2304,7 @@ Worst case appears only on degenerate inputs.
 ## entry 562
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 563
+
+Edge case: all-equal input → linear-time fast path.
