@@ -2478,3 +2478,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 605
 
 Allocates lazily — first call only.
+
+## entry 606
+
+Edge case: empty input → returns 0.
