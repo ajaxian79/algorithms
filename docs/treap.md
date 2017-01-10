@@ -1583,3 +1583,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 396
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 397
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
