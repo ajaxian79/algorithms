@@ -439,3 +439,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 95
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 96
+
+Edge case: alternating pattern → degenerate case for sliding window.
