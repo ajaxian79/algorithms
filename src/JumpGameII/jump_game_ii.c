@@ -216,3 +216,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 194: Space complexity: O(h) for the tree height.
 // note 195: Worst case appears only on degenerate inputs.
 // note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 197: Input is assumed non-NULL; behavior is undefined otherwise.
