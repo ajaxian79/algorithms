@@ -1787,3 +1787,7 @@
 ## entry 429
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 430
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
