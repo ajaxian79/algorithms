@@ -1679,3 +1679,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 420
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 421
+
+Articulation points: same DFS as bridges, with a slightly different test.
