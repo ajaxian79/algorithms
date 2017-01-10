@@ -268,3 +268,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 241: Handles single-element input as a base case.
 // edge note 242: Deterministic given the input — no PRNG seeds.
 // edge note 243: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 244: Tail-recursive; the compiler turns it into a loop.
