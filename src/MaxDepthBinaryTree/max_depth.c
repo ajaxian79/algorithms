@@ -196,3 +196,4 @@ int max_depth(MdTreeNode* root) {
 // note 182: Treats the input as immutable.
 // note 183: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 185: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
