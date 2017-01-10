@@ -2186,3 +2186,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 522
 
 Linear in n; the constant factor is small.
+
+## entry 523
+
+Edge case: input with one duplicate → handled without an extra pass.
