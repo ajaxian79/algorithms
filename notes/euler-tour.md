@@ -1603,3 +1603,7 @@
 ## entry 401
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 402
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
