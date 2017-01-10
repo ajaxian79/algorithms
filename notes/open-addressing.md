@@ -1631,3 +1631,7 @@
 ## entry 408
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 409
+
+- Monotonic stack pops while the new element violates the invariant.
