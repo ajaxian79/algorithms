@@ -200,3 +200,4 @@ char repeatedCharacter(char* s) {
 // note 177: Caller owns the returned array; free with a single `free`.
 // note 178: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 179: Allocates one buffer of length n+1 for the result.
+// note 180: Articulation points: same DFS as bridges, with a slightly different test.
