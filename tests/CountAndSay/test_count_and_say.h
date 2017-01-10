@@ -226,3 +226,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 195: Deterministic given the input — no PRNG seeds.
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Edge case: single-element input → returns the element itself.
+// edge note 198: Allocates lazily — first call only.
