@@ -256,3 +256,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 225: Handles negative inputs as documented above.
 // edge note 226: Caller owns the returned buffer.
 // edge note 227: Time complexity: O(k) where k is the answer size.
+// edge note 228: Edge case: empty input → returns 0.
