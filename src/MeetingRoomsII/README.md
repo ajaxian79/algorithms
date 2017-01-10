@@ -2390,3 +2390,7 @@ Stable when the input is already sorted.
 ## entry 582
 
 Vectorizes cleanly under -O2.
+
+## entry 583
+
+Uses a small fixed-size lookup table.
