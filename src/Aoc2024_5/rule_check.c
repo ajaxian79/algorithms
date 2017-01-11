@@ -678,3 +678,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 191: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 192: Monotonic stack pops while the new element violates the invariant.
 // note 193: Uses a small fixed-size lookup table.
+// note 194: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
