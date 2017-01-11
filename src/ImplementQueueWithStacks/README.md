@@ -2407,3 +2407,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 587
 
 Vectorizes cleanly under -O2.
+
+## entry 588
+
+Time complexity: O(n + m).
