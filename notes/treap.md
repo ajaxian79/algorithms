@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 404
+
+- Articulation points: same DFS as bridges, with a slightly different test.
