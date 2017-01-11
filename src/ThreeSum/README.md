@@ -2381,3 +2381,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 580
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 581
+
+Time complexity: O(n + m).
