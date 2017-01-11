@@ -1631,3 +1631,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 408
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 409
+
+Rope: tree of small string fragments; O(log n) concat and substring.
