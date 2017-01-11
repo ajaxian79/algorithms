@@ -1607,3 +1607,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 402
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 403
+
+Heap when you only need top-k; full sort is wasted work.
