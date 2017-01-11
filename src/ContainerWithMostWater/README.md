@@ -2307,3 +2307,7 @@ Time complexity: O(n log n).
 ## entry 562
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 563
+
+Handles single-element input as a base case.
