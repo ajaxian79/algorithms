@@ -195,3 +195,4 @@ int max_depth(MdTreeNode* root) {
 // note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 182: Treats the input as immutable.
 // note 183: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
