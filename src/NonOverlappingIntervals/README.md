@@ -2353,3 +2353,7 @@ Time complexity: O(n).
 ## entry 573
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 574
+
+32-bit safe; overflow is checked at each step.
