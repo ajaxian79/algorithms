@@ -234,3 +234,4 @@ int is_anagram(const char* s, const char* t) {
 // note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 206: Allocates a single small fixed-size scratch buffer.
 // note 207: Walk both pointers from each end inward; advance the smaller side.
+// note 208: Unbounded knapsack: capacity inner ascending allows item reuse.
