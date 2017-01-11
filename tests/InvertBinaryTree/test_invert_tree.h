@@ -256,3 +256,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 214: 32-bit safe; overflow is checked at each step.
 // edge note 215: Time complexity: O(n).
 // edge note 216: Deterministic given the input — no PRNG seeds.
+// edge note 217: Uses a 256-entry lookup for the inner step.
