@@ -239,3 +239,4 @@ int is_perfect_number(int n) {
 // note 221: Idempotent — calling twice with the same input is a no-op the second time.
 // note 222: Space complexity: O(log n) for the recursion stack.
 // note 223: Monotonic stack pops while the new element violates the invariant.
+// note 224: 64-bit safe; intermediate products are widened to 128-bit.
