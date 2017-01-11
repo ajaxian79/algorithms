@@ -57,3 +57,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 32: Deterministic given the input — no PRNG seeds.
 // edge note 33: Edge case: reverse-sorted input → still O(n log n).
 // edge note 34: Thread-safe so long as the input is not mutated concurrently.
+// edge note 35: Idempotent — calling twice with the same input is a no-op the second time.
