@@ -1783,3 +1783,7 @@
 ## entry 428
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 429
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
