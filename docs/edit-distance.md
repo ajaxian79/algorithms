@@ -1663,3 +1663,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 398
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 399
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
