@@ -2242,3 +2242,7 @@ Handles empty input by returning 0.
 ## entry 546
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 547
+
+Handles negative inputs as documented above.
