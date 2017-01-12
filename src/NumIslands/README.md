@@ -2289,3 +2289,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 557
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 558
+
+Edge case: already-sorted input → no swaps performed.
