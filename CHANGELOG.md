@@ -92223,3 +92223,7 @@
 ## entry 23056
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 23057
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
