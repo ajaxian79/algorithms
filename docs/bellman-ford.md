@@ -1707,3 +1707,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 427
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 428
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
