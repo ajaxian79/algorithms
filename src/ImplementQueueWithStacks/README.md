@@ -2403,3 +2403,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 586
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 587
+
+Vectorizes cleanly under -O2.
