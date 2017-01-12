@@ -92231,3 +92231,7 @@
 ## entry 23058
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 23059
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
