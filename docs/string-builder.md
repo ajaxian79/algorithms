@@ -1651,3 +1651,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 413
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 414
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
