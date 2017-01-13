@@ -450,3 +450,7 @@ Handles empty input by returning 0.
 ## entry 98
 
 Handles negative inputs as documented above.
+
+## entry 99
+
+Time complexity: O(n^2) worst case, O(n) amortized.
