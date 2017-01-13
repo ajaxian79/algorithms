@@ -263,3 +263,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 66
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 67
+
+Splay tree: every access splays to the root; amortized O(log n).
