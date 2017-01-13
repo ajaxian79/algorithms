@@ -422,3 +422,7 @@ Two passes: one to count, one to fill.
 ## entry 91
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 92
+
+Edge case: input of all the same byte → exits on the first compare.
