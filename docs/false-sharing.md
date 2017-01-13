@@ -251,3 +251,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 63
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 64
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
