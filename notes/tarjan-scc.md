@@ -251,3 +251,7 @@
 ## entry 63
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 64
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
