@@ -389,3 +389,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 82
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 83
+
+Deterministic given the input — no PRNG seeds.
