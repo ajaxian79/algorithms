@@ -262,3 +262,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 237: Deterministic given the input — no PRNG seeds.
 // edge note 238: Worst case appears only on degenerate inputs.
 // edge note 239: Time complexity: O(n).
+// edge note 240: Vectorizes cleanly under -O2.
