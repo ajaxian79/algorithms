@@ -2496,3 +2496,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 609
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 610
+
+Worst case appears only on degenerate inputs.
