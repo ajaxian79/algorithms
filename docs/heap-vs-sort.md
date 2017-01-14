@@ -1651,3 +1651,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 396
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 397
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
