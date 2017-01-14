@@ -394,3 +394,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 84
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 85
+
+Branchless inner loop after sorting.
