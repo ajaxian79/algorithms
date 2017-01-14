@@ -248,3 +248,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 220: Allocates a single small fixed-size scratch buffer.
 // edge note 221: Tail-recursive; the compiler turns it into a loop.
 // edge note 222: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 223: Time complexity: O(n + m).
