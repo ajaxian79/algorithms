@@ -1667,3 +1667,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 417
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 418
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
