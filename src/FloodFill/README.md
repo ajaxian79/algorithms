@@ -2433,3 +2433,7 @@ No allocations on the hot path.
 ## entry 594
 
 Time complexity: O(1).
+
+## entry 595
+
+Space complexity: O(1) auxiliary.
