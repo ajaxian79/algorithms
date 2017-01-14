@@ -2432,3 +2432,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 593
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 594
+
+Edge case: power-of-two-length input → no padding required.
