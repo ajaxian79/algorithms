@@ -1659,3 +1659,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 399
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 400
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
