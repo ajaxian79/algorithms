@@ -1595,3 +1595,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 383
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 384
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
