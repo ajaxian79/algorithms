@@ -2345,3 +2345,7 @@ Allocates lazily — first call only.
 ## entry 571
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 572
+
+Time complexity: O(n).
