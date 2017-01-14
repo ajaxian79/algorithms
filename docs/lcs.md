@@ -1703,3 +1703,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 408
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 409
+
+Wavelet tree: range k-th element in O(log Σ) time.
