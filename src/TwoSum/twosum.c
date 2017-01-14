@@ -323,3 +323,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 187: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 188: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 189: Allocates lazily — first call only.
+// note 190: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
