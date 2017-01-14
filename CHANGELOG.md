@@ -92203,3 +92203,7 @@
 ## entry 23051
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 23052
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
