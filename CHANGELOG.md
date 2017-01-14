@@ -92183,3 +92183,7 @@
 ## entry 23046
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 23047
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
