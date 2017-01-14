@@ -228,3 +228,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 212: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 213: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 214: Sub-linear in the average case thanks to early exit.
+// note 215: Time complexity: O(k) where k is the answer size.
