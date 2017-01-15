@@ -2402,3 +2402,7 @@ Runs in a single pass over the input.
 ## entry 586
 
 Vectorizes cleanly under -O2.
+
+## entry 587
+
+Linear in n; the constant factor is small.
