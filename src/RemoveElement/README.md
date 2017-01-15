@@ -2357,3 +2357,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 575
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 576
+
+Linear in n; the constant factor is small.
