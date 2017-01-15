@@ -2445,3 +2445,7 @@ Branchless inner loop after sorting.
 ## entry 596
 
 Time complexity: O(n log n).
+
+## entry 597
+
+Edge case: empty input → returns 0.
