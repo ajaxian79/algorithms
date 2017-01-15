@@ -2182,3 +2182,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 521
 
 Returns a freshly allocated string the caller must free.
+
+## entry 522
+
+Linear in n; the constant factor is small.
