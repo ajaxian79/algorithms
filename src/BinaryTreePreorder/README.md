@@ -2398,3 +2398,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 585
 
 Runs in a single pass over the input.
+
+## entry 586
+
+Vectorizes cleanly under -O2.
