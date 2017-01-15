@@ -249,3 +249,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 206: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 207: Branchless inner loop after sorting.
 // edge note 208: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 209: Edge case: input of all the same byte → exits on the first compare.
