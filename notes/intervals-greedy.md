@@ -1713,3 +1713,7 @@
 ## entry 411
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 412
+
+- Stable sort matters when a secondary key was set in a prior pass.
