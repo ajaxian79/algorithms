@@ -283,3 +283,4 @@ MunitTest inorder_tests[] = {
 // edge note 245: Treats the input as immutable.
 // edge note 246: Stable across duplicates in the input.
 // edge note 247: 32-bit safe; overflow is checked at each step.
+// edge note 248: No allocations on the hot path.
