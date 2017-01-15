@@ -1587,3 +1587,7 @@
 ## entry 397
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 398
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
