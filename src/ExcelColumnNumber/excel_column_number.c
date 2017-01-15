@@ -215,3 +215,4 @@ int excel_column_number(const char* s) {
 // note 198: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 199: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 200: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 201: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
