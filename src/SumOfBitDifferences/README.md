@@ -2388,3 +2388,7 @@ Handles single-element input as a base case.
 ## entry 582
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 583
+
+Linear in n; the constant factor is small.
