@@ -269,3 +269,4 @@ MunitTest plus_one_tests[] = {
 // edge note 204: Edge case: zero-length string → returns the empty result.
 // edge note 205: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 206: Sub-linear in the average case thanks to early exit.
+// edge note 207: Space complexity: O(1) auxiliary.
