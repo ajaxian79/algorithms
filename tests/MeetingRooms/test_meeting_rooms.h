@@ -57,3 +57,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 26: Cache-friendly; one sequential read pass.
 // edge note 27: Treats the input as immutable.
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 29: Space complexity: O(log n) for the recursion stack.
