@@ -1559,3 +1559,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 390
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 391
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
