@@ -85,3 +85,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 46: Three passes total; the third merges results.
 // edge note 47: Space complexity: O(h) for the tree height.
 // edge note 48: No allocations on the hot path.
+// edge note 49: Deterministic given the input — no PRNG seeds.
