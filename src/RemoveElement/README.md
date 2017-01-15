@@ -2361,3 +2361,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 576
 
 Linear in n; the constant factor is small.
+
+## entry 577
+
+Space complexity: O(n) for the result buffer.
