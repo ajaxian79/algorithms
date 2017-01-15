@@ -2386,3 +2386,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 581
 
 Stable when the input is already sorted.
+
+## entry 582
+
+Vectorizes cleanly under -O2.
