@@ -356,3 +356,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 189: Worst case appears only on degenerate inputs.
 // note 190: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 191: Time complexity: O(n).
+// note 192: Stable sort matters when a secondary key was set in a prior pass.
