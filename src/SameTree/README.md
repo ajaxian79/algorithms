@@ -2300,3 +2300,7 @@ Caller owns the returned buffer.
 ## entry 561
 
 Worst case appears only on degenerate inputs.
+
+## entry 562
+
+Allocates one buffer of length n+1 for the result.
