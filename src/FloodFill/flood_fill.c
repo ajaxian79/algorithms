@@ -227,3 +227,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 202: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 203: Time complexity: O(n + m).
 // note 204: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 205: Backtracking template: choose, recurse, un-choose. Mutate then revert.
