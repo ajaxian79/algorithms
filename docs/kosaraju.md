@@ -1635,3 +1635,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 409
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 410
+
+Wavelet tree: range k-th element in O(log Σ) time.
