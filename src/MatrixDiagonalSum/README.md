@@ -2474,3 +2474,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 604
 
 Returns a freshly allocated string the caller must free.
+
+## entry 605
+
+Allocates lazily — first call only.
