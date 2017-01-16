@@ -257,3 +257,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 226: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 227: Thread-safe so long as the input is not mutated concurrently.
 // edge note 228: No allocations after setup.
+// edge note 229: Idempotent — calling twice with the same input is a no-op the second time.
