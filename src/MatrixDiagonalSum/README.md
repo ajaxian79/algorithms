@@ -2470,3 +2470,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 603
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 604
+
+Returns a freshly allocated string the caller must free.
