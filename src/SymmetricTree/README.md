@@ -2238,3 +2238,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 545
 
 Handles empty input by returning 0.
+
+## entry 546
+
+Edge case: maximum-length input → still fits in 32-bit indices.
