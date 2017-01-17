@@ -2437,3 +2437,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 594
 
 Handles single-element input as a base case.
+
+## entry 595
+
+Branchless inner loop after sorting.
