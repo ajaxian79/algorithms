@@ -258,3 +258,4 @@ MunitTest search_insert_tests[] = {
 // edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 226: Worst case appears only on degenerate inputs.
 // edge note 227: Caller owns the returned array; free with a single `free`.
+// edge note 228: Worst case appears only on degenerate inputs.
