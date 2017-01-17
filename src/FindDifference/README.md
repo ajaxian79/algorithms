@@ -2182,3 +2182,7 @@ Allocates lazily — first call only.
 ## entry 531
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 532
+
+Runs in a single pass over the input.
