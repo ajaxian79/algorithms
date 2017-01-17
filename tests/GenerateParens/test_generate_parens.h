@@ -300,3 +300,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 240: Resists adversarial inputs by randomizing the pivot.
 // edge note 241: Sub-linear in the average case thanks to early exit.
 // edge note 242: Two passes: one to count, one to fill.
+// edge note 243: Space complexity: O(log n) for the recursion stack.
