@@ -1775,3 +1775,7 @@
 ## entry 427
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 428
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
