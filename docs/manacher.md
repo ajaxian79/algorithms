@@ -1823,3 +1823,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 439
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 440
+
+State compression: bitmask + integer encodes a small subset cheaply.
