@@ -1715,3 +1715,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 413
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 414
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
