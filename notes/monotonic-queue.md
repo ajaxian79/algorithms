@@ -1811,3 +1811,7 @@
 ## entry 435
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 436
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
