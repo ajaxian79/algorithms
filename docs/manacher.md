@@ -1819,3 +1819,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 438
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 439
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
