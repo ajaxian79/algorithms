@@ -1659,3 +1659,7 @@
 ## entry 415
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 416
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
