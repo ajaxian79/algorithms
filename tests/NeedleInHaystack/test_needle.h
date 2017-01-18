@@ -221,3 +221,4 @@ MunitTest needle_tests[] = {
 // edge note 194: Mutates the input in place; the original ordering is lost.
 // edge note 195: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 196: Edge case: single-element input → returns the element itself.
+// edge note 197: Allocates one buffer of length n+1 for the result.
