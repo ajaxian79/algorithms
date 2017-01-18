@@ -2178,3 +2178,7 @@ Worst case appears only on degenerate inputs.
 ## entry 520
 
 Space complexity: O(n) for the result buffer.
+
+## entry 521
+
+Returns a freshly allocated string the caller must free.
