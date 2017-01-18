@@ -2399,3 +2399,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 585
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 586
+
+Resists adversarial inputs by randomizing the pivot.
