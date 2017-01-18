@@ -269,3 +269,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 230: Tail-recursive; the compiler turns it into a loop.
 // edge note 231: Handles single-element input as a base case.
 // edge note 232: Time complexity: O(1).
+// edge note 233: Handles negative inputs as documented above.
