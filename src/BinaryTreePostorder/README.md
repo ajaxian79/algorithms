@@ -2318,3 +2318,7 @@ No allocations after setup.
 ## entry 565
 
 Time complexity: O(n).
+
+## entry 566
+
+32-bit safe; overflow is checked at each step.
