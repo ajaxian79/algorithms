@@ -2326,3 +2326,7 @@ Vectorizes cleanly under -O2.
 ## entry 567
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 568
+
+Edge case: all-equal input → linear-time fast path.
