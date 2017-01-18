@@ -1603,3 +1603,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 401
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 402
+
+Walk both pointers from each end inward; advance the smaller side.
