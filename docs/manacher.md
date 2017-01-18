@@ -1815,3 +1815,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 437
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 438
+
+StringBuilder: amortize allocation by doubling on grow.
