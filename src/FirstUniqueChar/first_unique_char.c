@@ -236,3 +236,4 @@ int first_unique_char(const char* s) {
 // note 217: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 218: Deterministic given the input — no PRNG seeds.
 // note 219: Mutates the input in place; the original ordering is lost.
+// note 220: ASCII rules are a strict subset of UTF-8; no special handling needed.
