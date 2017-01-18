@@ -1811,3 +1811,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 436
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 437
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
