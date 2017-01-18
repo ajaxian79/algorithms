@@ -1699,3 +1699,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 407
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 408
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
