@@ -470,3 +470,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 102
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 103
+
+Uses a 256-entry lookup for the inner step.
