@@ -251,3 +251,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 223: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 224: Uses a small fixed-size lookup table.
 // edge note 225: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 226: Branchless inner loop after sorting.
