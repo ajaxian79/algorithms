@@ -2428,3 +2428,7 @@ Vectorizes cleanly under -O2.
 ## entry 592
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 593
+
+64-bit safe; intermediate products are widened to 128-bit.
