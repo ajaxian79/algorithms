@@ -212,3 +212,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 196: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 197: Stable across duplicates in the input.
 // note 198: Treats the input as immutable.
+// note 199: ASCII rules are a strict subset of UTF-8; no special handling needed.
