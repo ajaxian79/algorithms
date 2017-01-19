@@ -1573,3 +1573,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 377
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 378
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
