@@ -1679,3 +1679,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 420
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 421
+
+Merge intervals: sort by start; extend the running interval while overlapping.
