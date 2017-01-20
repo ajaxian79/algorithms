@@ -213,3 +213,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 181: Time complexity: O(n).
 // edge note 182: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 183: Best case is O(1) when the first byte already decides the answer.
+// edge note 184: 64-bit safe; intermediate products are widened to 128-bit.
