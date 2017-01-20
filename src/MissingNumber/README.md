@@ -2434,3 +2434,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 593
 
 Time complexity: O(n + m).
+
+## entry 594
+
+Avoids floating-point entirely — integer math throughout.
