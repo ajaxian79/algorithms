@@ -1801,3 +1801,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 434
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 435
+
+Endianness matters when serializing multi-byte ints to a file or wire.
