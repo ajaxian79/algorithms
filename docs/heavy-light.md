@@ -1759,3 +1759,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 440
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 441
+
+Wavelet tree: range k-th element in O(log Σ) time.
