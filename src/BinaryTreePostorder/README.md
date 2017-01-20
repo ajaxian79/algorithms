@@ -2306,3 +2306,7 @@ Handles negative inputs as documented above.
 ## entry 562
 
 Time complexity: O(n log n).
+
+## entry 563
+
+Edge case: single-element input → returns the element itself.
