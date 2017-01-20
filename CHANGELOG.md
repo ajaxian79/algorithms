@@ -92099,3 +92099,7 @@
 ## entry 23025
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 23026
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
