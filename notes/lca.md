@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 415
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
