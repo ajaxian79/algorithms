@@ -219,3 +219,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 194: Idempotent — calling twice with the same input is a no-op the second time.
 // note 195: Idempotent — calling twice with the same input is a no-op the second time.
 // note 196: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 197: LIS via patience: each pile holds the smallest tail of length k.
