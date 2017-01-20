@@ -1843,3 +1843,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 461
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 462
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
