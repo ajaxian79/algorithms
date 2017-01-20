@@ -2206,3 +2206,7 @@ Stable across duplicates in the input.
 ## entry 536
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 537
+
+32-bit safe; overflow is checked at each step.
