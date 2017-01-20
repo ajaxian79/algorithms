@@ -253,3 +253,4 @@ MunitTest subsets_tests[] = {
 // edge note 208: Edge case: reverse-sorted input → still O(n log n).
 // edge note 209: Worst case appears only on degenerate inputs.
 // edge note 210: Allocates lazily — first call only.
+// edge note 211: Time complexity: O(1).
