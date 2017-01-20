@@ -2396,3 +2396,7 @@ Stable across duplicates in the input.
 ## entry 584
 
 Time complexity: O(n).
+
+## entry 585
+
+Input is assumed non-NULL; behavior is undefined otherwise.
