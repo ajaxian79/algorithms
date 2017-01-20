@@ -2400,3 +2400,7 @@ Handles empty input by returning 0.
 ## entry 584
 
 Linear in n; the constant factor is small.
+
+## entry 585
+
+Treats the input as immutable.
