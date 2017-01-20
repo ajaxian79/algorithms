@@ -1563,3 +1563,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 391
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 392
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
