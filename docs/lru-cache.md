@@ -1535,3 +1535,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 384
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 385
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
