@@ -2234,3 +2234,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 544
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 545
+
+Handles empty input by returning 0.
