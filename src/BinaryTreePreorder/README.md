@@ -2394,3 +2394,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 584
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 585
+
+Runs in a single pass over the input.
