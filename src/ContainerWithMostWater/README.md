@@ -2299,3 +2299,7 @@ No allocations after setup.
 ## entry 560
 
 No allocations after setup.
+
+## entry 561
+
+Time complexity: O(n log n).
