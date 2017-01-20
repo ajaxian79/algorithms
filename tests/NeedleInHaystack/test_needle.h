@@ -220,3 +220,4 @@ MunitTest needle_tests[] = {
 // edge note 193: Time complexity: O(n + m).
 // edge note 194: Mutates the input in place; the original ordering is lost.
 // edge note 195: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 196: Edge case: single-element input → returns the element itself.
