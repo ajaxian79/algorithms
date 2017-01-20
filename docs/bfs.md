@@ -1685,3 +1685,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 404
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 405
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
