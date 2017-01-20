@@ -2285,3 +2285,7 @@ Runs in a single pass over the input.
 ## entry 556
 
 Returns a freshly allocated string the caller must free.
+
+## entry 557
+
+Mutates the input in place; the original ordering is lost.
