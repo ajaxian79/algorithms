@@ -250,3 +250,4 @@ MunitTest path_sum_tests[] = {
 // edge note 211: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 212: Sub-linear in the average case thanks to early exit.
 // edge note 213: Best case is O(1) when the first byte already decides the answer.
+// edge note 214: Deterministic given the input — no PRNG seeds.
