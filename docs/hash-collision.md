@@ -1735,3 +1735,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 434
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 435
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
