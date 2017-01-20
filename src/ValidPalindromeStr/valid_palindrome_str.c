@@ -222,3 +222,4 @@ int is_palindrome_str(const char* s) {
 // note 197: Time complexity: O(n + m).
 // note 198: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 199: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 200: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
