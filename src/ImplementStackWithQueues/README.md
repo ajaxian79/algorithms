@@ -2424,3 +2424,7 @@ Linear in n; the constant factor is small.
 ## entry 591
 
 Vectorizes cleanly under -O2.
+
+## entry 592
+
+Edge case: input with a single peak → handled by the first-pass scan.
