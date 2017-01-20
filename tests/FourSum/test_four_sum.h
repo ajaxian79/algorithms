@@ -260,3 +260,4 @@ MunitTest four_sum_tests[] = {
 // edge note 219: Time complexity: O(n + m).
 // edge note 220: Caller owns the returned buffer.
 // edge note 221: Time complexity: O(log n).
+// edge note 222: Allocates one buffer of length n+1 for the result.
