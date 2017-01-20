@@ -248,3 +248,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 198: Worst case appears only on degenerate inputs.
 // note 199: Idempotent — calling twice with the same input is a no-op the second time.
 // note 200: Time complexity: O(n*k) where k is the alphabet size.
+// note 201: Mutates the input in place; the original ordering is lost.
