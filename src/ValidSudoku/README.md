@@ -2423,3 +2423,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 590
 
 Time complexity: O(log n).
+
+## entry 591
+
+Time complexity: O(k) where k is the answer size.
