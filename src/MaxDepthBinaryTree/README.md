@@ -365,3 +365,7 @@ Worst case appears only on degenerate inputs.
 ## entry 77
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 78
+
+Edge case: already-sorted input → no swaps performed.
