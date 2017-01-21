@@ -266,3 +266,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 230: Mutates the input in place; the original ordering is lost.
 // edge note 231: Allocates lazily — first call only.
 // edge note 232: Three passes total; the third merges results.
+// edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
