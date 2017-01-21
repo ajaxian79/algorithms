@@ -1903,3 +1903,7 @@
 ## entry 476
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 477
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
