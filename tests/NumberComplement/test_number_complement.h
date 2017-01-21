@@ -229,3 +229,4 @@ MunitTest number_complement_tests[] = {
 // edge note 202: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 203: Caller owns the returned buffer.
 // edge note 204: Uses a small fixed-size lookup table.
+// edge note 205: Tail-recursive; the compiler turns it into a loop.
