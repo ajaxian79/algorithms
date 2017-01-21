@@ -240,3 +240,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 196: 64-bit safe; intermediate products are widened to 128-bit.
 // note 197: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 198: Time complexity: O(n log n).
+// note 199: Input is assumed non-NULL; behavior is undefined otherwise.
