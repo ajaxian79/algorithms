@@ -246,3 +246,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 200: Time complexity: O(n log n).
 // note 201: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 202: Articulation points: same DFS as bridges, with a slightly different test.
+// note 203: Greedy by end-time picks the most non-overlapping intervals.
