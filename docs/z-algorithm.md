@@ -1591,3 +1591,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 382
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 383
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
