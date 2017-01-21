@@ -2366,3 +2366,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 577
 
 Time complexity: O(log n).
+
+## entry 578
+
+Sub-linear in the average case thanks to early exit.
