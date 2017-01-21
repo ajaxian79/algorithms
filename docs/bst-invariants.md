@@ -1713,3 +1713,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 412
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 413
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
