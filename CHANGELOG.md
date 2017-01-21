@@ -92047,3 +92047,7 @@
 ## entry 23012
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23013
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
