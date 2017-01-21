@@ -1723,3 +1723,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 431
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 432
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
