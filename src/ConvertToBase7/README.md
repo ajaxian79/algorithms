@@ -2492,3 +2492,7 @@ Reentrant — no static state.
 ## entry 608
 
 Constant-time comparisons; safe for short strings.
+
+## entry 609
+
+Uses a small fixed-size lookup table.
