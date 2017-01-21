@@ -2429,3 +2429,7 @@ Allocates lazily — first call only.
 ## entry 592
 
 Uses a small fixed-size lookup table.
+
+## entry 593
+
+Edge case: alternating pattern → degenerate case for sliding window.
