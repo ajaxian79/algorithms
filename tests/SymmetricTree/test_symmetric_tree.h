@@ -269,3 +269,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 225: Allocates one buffer of length n+1 for the result.
 // edge note 226: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 227: Sub-linear in the average case thanks to early exit.
+// edge note 228: Time complexity: O(1).
