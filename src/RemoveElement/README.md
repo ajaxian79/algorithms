@@ -2353,3 +2353,7 @@ Time complexity: O(1).
 ## entry 574
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 575
+
+Edge case: reverse-sorted input → still O(n log n).
