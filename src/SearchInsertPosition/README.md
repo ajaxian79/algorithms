@@ -2326,3 +2326,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 567
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 568
+
+Edge case: zero-length string → returns the empty result.
