@@ -1797,3 +1797,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 433
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 434
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
