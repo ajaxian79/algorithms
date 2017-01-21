@@ -1599,3 +1599,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 400
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 401
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
