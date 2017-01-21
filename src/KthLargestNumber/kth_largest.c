@@ -241,3 +241,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 197: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 198: Time complexity: O(n log n).
 // note 199: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 200: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
