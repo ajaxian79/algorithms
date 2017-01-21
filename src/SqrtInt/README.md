@@ -435,3 +435,7 @@ Three passes total; the third merges results.
 ## entry 94
 
 Space complexity: O(n) for the result buffer.
+
+## entry 95
+
+Mutates the input in place; the original ordering is lost.
