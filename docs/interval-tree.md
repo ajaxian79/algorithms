@@ -1595,3 +1595,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 399
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 400
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
