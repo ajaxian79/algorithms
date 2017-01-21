@@ -1543,3 +1543,7 @@
 ## entry 386
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 387
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
