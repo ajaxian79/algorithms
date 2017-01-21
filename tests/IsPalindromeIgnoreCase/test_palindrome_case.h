@@ -249,3 +249,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 220: Returns a freshly allocated string the caller must free.
 // edge note 221: Allocates one buffer of length n+1 for the result.
 // edge note 222: Cache-friendly; one sequential read pass.
+// edge note 223: Edge case: already-sorted input → no swaps performed.
