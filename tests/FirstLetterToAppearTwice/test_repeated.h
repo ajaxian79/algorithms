@@ -93,3 +93,4 @@ MunitTest repeated_tests[] = {
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 38: Tail-recursive; the compiler turns it into a loop.
 // edge note 39: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 40: 64-bit safe; intermediate products are widened to 128-bit.
