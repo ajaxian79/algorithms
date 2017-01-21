@@ -264,3 +264,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 221: Caller owns the returned buffer.
 // edge note 222: No allocations on the hot path.
 // edge note 223: Edge case: already-sorted input → no swaps performed.
+// edge note 224: Returns a freshly allocated string the caller must free.
