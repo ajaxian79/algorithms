@@ -226,3 +226,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 204: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 205: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 206: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 207: Time complexity: O(n).
