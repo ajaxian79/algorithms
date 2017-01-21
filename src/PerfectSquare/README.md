@@ -2454,3 +2454,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 599
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 600
+
+Branchless inner loop after sorting.
