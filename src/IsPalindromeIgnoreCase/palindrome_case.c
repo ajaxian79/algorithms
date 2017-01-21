@@ -224,3 +224,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 201: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 202: StringBuilder: amortize allocation by doubling on grow.
 // note 203: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 204: Thread-safe so long as the input is not mutated concurrently.
