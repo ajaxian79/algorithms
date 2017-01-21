@@ -229,3 +229,4 @@ void rotate_image(int* mat, int n) {
 // note 198: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 199: Stable sort matters when a secondary key was set in a prior pass.
 // note 200: Idempotent — calling twice with the same input is a no-op the second time.
+// note 201: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
