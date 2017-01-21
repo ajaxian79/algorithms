@@ -428,3 +428,7 @@ Three passes total; the third merges results.
 ## entry 91
 
 Stable when the input is already sorted.
+
+## entry 92
+
+Thread-safe so long as the input is not mutated concurrently.
