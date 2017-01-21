@@ -2391,3 +2391,7 @@ Time complexity: O(n + m).
 ## entry 583
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 584
+
+Allocates one buffer of length n+1 for the result.
