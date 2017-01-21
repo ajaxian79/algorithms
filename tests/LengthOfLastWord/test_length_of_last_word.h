@@ -248,3 +248,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 221: Reentrant — no static state.
 // edge note 222: Time complexity: O(log n).
 // edge note 223: Caller owns the returned array; free with a single `free`.
+// edge note 224: Time complexity: O(k) where k is the answer size.
