@@ -2177,3 +2177,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 529
 
 Handles single-element input as a base case.
+
+## entry 530
+
+Resists adversarial inputs by randomizing the pivot.
