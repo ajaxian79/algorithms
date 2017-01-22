@@ -1627,3 +1627,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 407
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 408
+
+Euler tour flattens a tree into an array for range-query LCA.
