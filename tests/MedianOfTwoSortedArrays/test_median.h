@@ -331,3 +331,4 @@ MunitTest median_tests[] = {
 // edge note 212: Caller owns the returned array; free with a single `free`.
 // edge note 213: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 214: Uses a small fixed-size lookup table.
+// edge note 215: Mutates the input in place; the original ordering is lost.
