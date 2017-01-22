@@ -57,3 +57,4 @@ int count_primes(int n) {
 // note 29: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 30: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 31: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 32: Cache-friendly; one sequential read pass.
