@@ -1597,3 +1597,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 383
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 384
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
