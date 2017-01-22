@@ -2173,3 +2173,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 528
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 529
+
+Handles single-element input as a base case.
