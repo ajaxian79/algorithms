@@ -1555,3 +1555,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 389
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 390
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
