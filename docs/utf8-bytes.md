@@ -1603,3 +1603,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 401
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 402
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
