@@ -1825,3 +1825,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 439
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 440
+
+Articulation points: same DFS as bridges, with a slightly different test.
