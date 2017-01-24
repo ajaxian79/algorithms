@@ -2402,3 +2402,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 585
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 586
+
+Time complexity: O(n log n).
