@@ -235,3 +235,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 197: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 198: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 199: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 200: 64-bit safe; intermediate products are widened to 128-bit.
