@@ -2450,3 +2450,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 598
 
 Constant-time comparisons; safe for short strings.
+
+## entry 599
+
+Avoids floating-point entirely — integer math throughout.
