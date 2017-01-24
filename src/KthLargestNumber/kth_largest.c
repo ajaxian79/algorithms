@@ -239,3 +239,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 196: 64-bit safe; intermediate products are widened to 128-bit.
 // note 197: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 198: Time complexity: O(n log n).
