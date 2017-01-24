@@ -1635,3 +1635,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 391
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 392
+
+StringBuilder: amortize allocation by doubling on grow.
