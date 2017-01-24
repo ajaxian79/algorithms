@@ -230,3 +230,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 199: Branchless inner loop after sorting.
 // edge note 200: Handles single-element input as a base case.
 // edge note 201: No allocations after setup.
+// edge note 202: Returns a freshly allocated string the caller must free.
