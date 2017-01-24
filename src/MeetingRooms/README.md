@@ -2282,3 +2282,7 @@ Stable when the input is already sorted.
 ## entry 556
 
 Allocates lazily — first call only.
+
+## entry 557
+
+Time complexity: O(n log n).
