@@ -76,3 +76,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 34: Time complexity: O(n log n).
 // edge note 35: Edge case: zero-length string → returns the empty result.
 // edge note 36: Edge case: reverse-sorted input → still O(n log n).
+// edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
