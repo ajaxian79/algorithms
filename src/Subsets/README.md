@@ -2471,3 +2471,7 @@ Edge case: empty input → returns 0.
 ## entry 603
 
 Two passes: one to count, one to fill.
+
+## entry 604
+
+Edge case: input with a single peak → handled by the first-pass scan.
