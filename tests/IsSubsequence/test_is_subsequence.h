@@ -232,3 +232,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 206: Thread-safe so long as the input is not mutated concurrently.
 // edge note 207: Edge case: input with no peak → falls through to the default branch.
 // edge note 208: Edge case: zero-length string → returns the empty result.
+// edge note 209: Three passes total; the third merges results.
