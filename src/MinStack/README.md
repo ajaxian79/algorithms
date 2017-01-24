@@ -2194,3 +2194,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 534
 
 Branchless inner loop after sorting.
+
+## entry 535
+
+Allocates lazily — first call only.
