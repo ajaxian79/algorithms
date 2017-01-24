@@ -1819,3 +1819,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 438
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 439
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
