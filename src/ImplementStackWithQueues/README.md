@@ -2420,3 +2420,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 590
 
 Linear in n; the constant factor is small.
+
+## entry 591
+
+Vectorizes cleanly under -O2.
