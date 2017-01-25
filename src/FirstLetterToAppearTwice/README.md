@@ -2174,3 +2174,7 @@ Handles single-element input as a base case.
 ## entry 519
 
 Worst case appears only on degenerate inputs.
+
+## entry 520
+
+Space complexity: O(n) for the result buffer.
