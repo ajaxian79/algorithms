@@ -2278,3 +2278,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 555
 
 Time complexity: O(n).
+
+## entry 556
+
+Handles empty input by returning 0.
