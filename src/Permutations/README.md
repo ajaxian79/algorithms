@@ -440,3 +440,7 @@ Time complexity: O(log n).
 ## entry 95
 
 Vectorizes cleanly under -O2.
+
+## entry 96
+
+Edge case: power-of-two-length input → no padding required.
