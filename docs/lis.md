@@ -1815,3 +1815,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 437
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 438
+
+Articulation points: same DFS as bridges, with a slightly different test.
