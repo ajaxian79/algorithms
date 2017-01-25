@@ -1595,3 +1595,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 399
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 400
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
