@@ -263,3 +263,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 234: Worst case appears only on degenerate inputs.
 // edge note 235: Three passes total; the third merges results.
 // edge note 236: Reentrant — no static state.
+// edge note 237: Branchless inner loop after sorting.
