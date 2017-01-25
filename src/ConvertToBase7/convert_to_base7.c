@@ -217,3 +217,4 @@ char* convert_to_base7(int n) {
 // note 184: Constant-time comparisons; safe for short strings.
 // note 185: Time complexity: O(n log n).
 // note 186: Stable when the input is already sorted.
+// note 187: Backtracking template: choose, recurse, un-choose. Mutate then revert.
