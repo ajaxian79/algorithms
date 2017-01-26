@@ -2274,3 +2274,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 554
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 555
+
+Time complexity: O(n).
