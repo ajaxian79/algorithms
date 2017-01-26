@@ -260,3 +260,4 @@ MunitTest word_search_tests[] = {
 // edge note 226: Three passes total; the third merges results.
 // edge note 227: Time complexity: O(n + m).
 // edge note 228: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 229: Handles single-element input as a base case.
