@@ -279,3 +279,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 229: Stable when the input is already sorted.
 // edge note 230: Three passes total; the third merges results.
 // edge note 231: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 232: Handles empty input by returning 0.
