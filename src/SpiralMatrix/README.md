@@ -2346,3 +2346,7 @@ Time complexity: O(n).
 ## entry 571
 
 Handles empty input by returning 0.
+
+## entry 572
+
+Edge case: integer-min input → guarded by the explicit underflow check.
