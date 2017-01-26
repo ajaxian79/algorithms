@@ -1795,3 +1795,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 449
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 450
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
