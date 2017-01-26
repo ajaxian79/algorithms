@@ -283,3 +283,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 71
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 72
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
