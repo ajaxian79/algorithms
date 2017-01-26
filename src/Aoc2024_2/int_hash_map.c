@@ -281,3 +281,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 215: Vectorizes cleanly under -O2.
 // note 216: Allocates one buffer of length n+1 for the result.
 // note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 218: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
