@@ -241,3 +241,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 208: Time complexity: O(n).
 // edge note 209: Space complexity: O(h) for the tree height.
 // edge note 210: Uses a small fixed-size lookup table.
+// edge note 211: Two passes: one to count, one to fill.
