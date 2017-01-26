@@ -216,3 +216,4 @@ char* convert_to_base7(int n) {
 // note 183: Allocates a single small fixed-size scratch buffer.
 // note 184: Constant-time comparisons; safe for short strings.
 // note 185: Time complexity: O(n log n).
+// note 186: Stable when the input is already sorted.
