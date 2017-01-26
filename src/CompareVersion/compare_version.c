@@ -60,3 +60,4 @@ int compare_version(const char* a, const char* b) {
 // note 30: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 31: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 32: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
