@@ -2519,3 +2519,7 @@ Treats the input as immutable.
 ## entry 614
 
 Time complexity: O(n + m).
+
+## entry 615
+
+Time complexity: O(k) where k is the answer size.
