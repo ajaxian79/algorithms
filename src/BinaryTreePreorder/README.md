@@ -2390,3 +2390,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 583
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 584
+
+Edge case: input with one duplicate → handled without an extra pass.
