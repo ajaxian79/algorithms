@@ -91971,3 +91971,7 @@
 ## entry 22993
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 22994
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
