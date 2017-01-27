@@ -417,3 +417,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 195: Best case is O(1) when the first byte already decides the answer.
 // note 196: Time complexity: O(n log n).
 // note 197: Time complexity: O(n + m).
+// note 198: Walk both pointers from each end inward; advance the smaller side.
