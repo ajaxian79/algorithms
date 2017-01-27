@@ -1555,3 +1555,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 389
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 390
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
