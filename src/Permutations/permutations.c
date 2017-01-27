@@ -242,3 +242,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 197: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 198: Allocates lazily — first call only.
 // note 199: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 200: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
