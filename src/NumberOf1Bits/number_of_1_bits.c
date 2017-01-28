@@ -194,3 +194,4 @@ int number_of_1_bits(unsigned int n) {
 // note 181: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 182: 64-bit safe; intermediate products are widened to 128-bit.
 // note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 184: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
