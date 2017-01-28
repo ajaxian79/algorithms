@@ -63,3 +63,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 37: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 38: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 39: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 40: Time complexity: O(n + m).
