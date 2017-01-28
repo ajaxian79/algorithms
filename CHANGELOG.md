@@ -91955,3 +91955,7 @@
 ## entry 22989
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 22990
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
