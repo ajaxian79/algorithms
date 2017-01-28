@@ -2388,3 +2388,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 582
 
 Caller owns the returned buffer.
+
+## entry 583
+
+Stable across duplicates in the input.
