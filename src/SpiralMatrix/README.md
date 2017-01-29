@@ -402,3 +402,7 @@ No allocations on the hot path.
 ## entry 85
 
 Stable across duplicates in the input.
+
+## entry 86
+
+Branchless inner loop after sorting.
