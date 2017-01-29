@@ -335,3 +335,7 @@
 ## entry 66
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 67
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
