@@ -1599,3 +1599,7 @@
 ## entry 400
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 401
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
