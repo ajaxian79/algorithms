@@ -1619,3 +1619,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 405
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 406
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
