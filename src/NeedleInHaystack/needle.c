@@ -232,3 +232,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 191: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 192: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 193: Handles negative inputs as documented above.
+// note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
