@@ -222,3 +222,4 @@ int add_digits(int n) {
 // note 211: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 212: Time complexity: O(n).
 // note 213: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 214: In-place compaction uses two pointers: read advances always, write only on keep.
