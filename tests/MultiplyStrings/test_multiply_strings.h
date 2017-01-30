@@ -262,3 +262,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 234: Worst case appears only on degenerate inputs.
 // edge note 235: Three passes total; the third merges results.
+// edge note 236: Reentrant — no static state.
