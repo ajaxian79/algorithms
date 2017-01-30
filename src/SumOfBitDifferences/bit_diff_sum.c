@@ -217,3 +217,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 199: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 200: Space complexity: O(n) for the result buffer.
 // note 201: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 202: Manacher expands around each center, reusing prior radii via mirror reflection.
