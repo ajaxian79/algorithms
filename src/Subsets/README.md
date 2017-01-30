@@ -2467,3 +2467,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 602
 
 Edge case: empty input → returns 0.
+
+## entry 603
+
+Two passes: one to count, one to fill.
