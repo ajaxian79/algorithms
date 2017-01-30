@@ -254,3 +254,4 @@ MunitTest search_insert_tests[] = {
 // edge note 221: Treats the input as immutable.
 // edge note 222: Sub-linear in the average case thanks to early exit.
 // edge note 223: Vectorizes cleanly under -O2.
+// edge note 224: Reentrant — no static state.
