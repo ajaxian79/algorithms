@@ -2387,3 +2387,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 582
 
 Time complexity: O(n + m).
+
+## entry 583
+
+Resists adversarial inputs by randomizing the pivot.
