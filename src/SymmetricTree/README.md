@@ -2230,3 +2230,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 543
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 544
+
+Allocates a single small fixed-size scratch buffer.
