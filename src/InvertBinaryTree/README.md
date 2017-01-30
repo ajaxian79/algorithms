@@ -2524,3 +2524,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 616
 
 Stable across duplicates in the input.
+
+## entry 617
+
+Thread-safe so long as the input is not mutated concurrently.
