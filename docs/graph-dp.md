@@ -1671,3 +1671,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 418
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 419
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
