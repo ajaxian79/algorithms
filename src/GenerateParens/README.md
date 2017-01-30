@@ -2332,3 +2332,7 @@ Runs in a single pass over the input.
 ## entry 567
 
 Caller owns the returned buffer.
+
+## entry 568
+
+Vectorizes cleanly under -O2.
