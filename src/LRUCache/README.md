@@ -2336,3 +2336,7 @@ Handles empty input by returning 0.
 ## entry 568
 
 Handles single-element input as a base case.
+
+## entry 569
+
+Time complexity: O(1).
