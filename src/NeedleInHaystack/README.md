@@ -2264,3 +2264,7 @@ Cache-friendly; one sequential read pass.
 ## entry 551
 
 Returns a freshly allocated string the caller must free.
+
+## entry 552
+
+Handles empty input by returning 0.
