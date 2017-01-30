@@ -264,3 +264,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 232: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 233: Deterministic given the input — no PRNG seeds.
 // edge note 234: No allocations after setup.
+// edge note 235: Treats the input as immutable.
