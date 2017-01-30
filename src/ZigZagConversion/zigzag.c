@@ -248,3 +248,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 205: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 206: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 207: Reentrant — no static state.
+// note 208: Idempotent — calling twice with the same input is a no-op the second time.
