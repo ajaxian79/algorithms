@@ -2488,3 +2488,7 @@ Caller owns the returned buffer.
 ## entry 607
 
 Reentrant — no static state.
+
+## entry 608
+
+Constant-time comparisons; safe for short strings.
