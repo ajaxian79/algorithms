@@ -1775,3 +1775,7 @@
 ## entry 444
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 445
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
