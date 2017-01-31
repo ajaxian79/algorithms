@@ -205,3 +205,4 @@ int is_power_of_three(int n) {
 // note 194: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 195: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 196: Caller owns the returned array; free with a single `free`.
+// note 197: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
