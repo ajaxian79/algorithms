@@ -1691,3 +1691,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 423
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 424
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
