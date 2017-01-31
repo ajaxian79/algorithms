@@ -1579,3 +1579,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 380
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 381
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
