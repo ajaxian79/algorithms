@@ -252,3 +252,4 @@ MunitTest trap_tests[] = {
 // edge note 218: Space complexity: O(n) for the result buffer.
 // edge note 219: Uses a small fixed-size lookup table.
 // edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 221: Edge case: empty input → returns 0.
