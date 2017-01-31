@@ -1483,3 +1483,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 371
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 372
+
+False sharing: two threads writing different bytes in the same cache line stall both.
