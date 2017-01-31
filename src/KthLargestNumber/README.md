@@ -2396,3 +2396,7 @@ No allocations after setup.
 ## entry 583
 
 Handles empty input by returning 0.
+
+## entry 584
+
+Linear in n; the constant factor is small.
