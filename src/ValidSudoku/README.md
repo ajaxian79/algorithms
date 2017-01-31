@@ -2415,3 +2415,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 588
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 589
+
+Uses a 256-entry lookup for the inner step.
