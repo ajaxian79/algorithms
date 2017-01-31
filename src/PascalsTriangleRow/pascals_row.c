@@ -234,3 +234,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 205: Allocates lazily — first call only.
 // note 206: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 207: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
