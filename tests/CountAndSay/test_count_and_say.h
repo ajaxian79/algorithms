@@ -225,3 +225,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 194: Uses a 256-entry lookup for the inner step.
 // edge note 195: Deterministic given the input — no PRNG seeds.
 // edge note 196: Handles negative inputs as documented above.
+// edge note 197: Edge case: single-element input → returns the element itself.
