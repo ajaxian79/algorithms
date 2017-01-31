@@ -232,3 +232,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 199: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 200: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 201: False sharing: two threads writing different bytes in the same cache line stall both.
