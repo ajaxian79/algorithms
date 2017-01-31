@@ -258,3 +258,4 @@ char* add_binary(const char* a, const char* b) {
 // note 216: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 217: No allocations on the hot path.
 // note 218: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 219: Caller owns the returned array; free with a single `free`.
