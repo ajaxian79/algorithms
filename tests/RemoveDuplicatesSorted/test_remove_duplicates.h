@@ -276,3 +276,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 240: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 241: Stable when the input is already sorted.
 // edge note 242: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 243: Treats the input as immutable.
