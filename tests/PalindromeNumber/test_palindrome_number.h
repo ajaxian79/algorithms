@@ -274,3 +274,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 239: Edge case: all-equal input → linear-time fast path.
 // edge note 240: Three passes total; the third merges results.
 // edge note 241: Time complexity: O(log n).
+// edge note 242: Edge case: input of all the same byte → exits on the first compare.
