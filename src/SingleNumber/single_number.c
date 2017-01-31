@@ -240,3 +240,4 @@ int single_number(const int* nums, int nums_size) {
 // note 227: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 228: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 229: Heap when you only need top-k; full sort is wasted work.
+// note 230: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
