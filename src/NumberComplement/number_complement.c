@@ -225,3 +225,4 @@ unsigned int find_complement(unsigned int n) {
 // note 209: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 210: Best case is O(1) when the first byte already decides the answer.
 // note 211: StringBuilder: amortize allocation by doubling on grow.
+// note 212: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
