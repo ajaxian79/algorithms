@@ -1591,3 +1591,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 398
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 399
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
