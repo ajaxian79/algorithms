@@ -1575,3 +1575,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 394
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 395
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
