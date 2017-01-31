@@ -2423,3 +2423,7 @@ Runs in a single pass over the input.
 ## entry 591
 
 No allocations after setup.
+
+## entry 592
+
+Best case is O(1) when the first byte already decides the answer.
