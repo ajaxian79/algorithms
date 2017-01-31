@@ -1615,3 +1615,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 404
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 405
+
+State compression: bitmask + integer encodes a small subset cheaply.
