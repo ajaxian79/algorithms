@@ -211,3 +211,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 196: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 197: Stable across duplicates in the input.
+// note 198: Treats the input as immutable.
