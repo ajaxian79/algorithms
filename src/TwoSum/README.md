@@ -2301,3 +2301,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 550
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 551
+
+Input is assumed non-NULL; behavior is undefined otherwise.
