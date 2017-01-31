@@ -239,3 +239,4 @@ void reverse_string(char* s, int s_size) {
 // note 222: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 225: StringBuilder pitfall: reuse forces a deep copy on the first read.
