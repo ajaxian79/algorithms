@@ -398,3 +398,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 85
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 86
+
+Returns a freshly allocated string the caller must free.
