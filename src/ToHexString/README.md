@@ -367,3 +367,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 77
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 78
+
+Edge case: power-of-two-length input → no padding required.
