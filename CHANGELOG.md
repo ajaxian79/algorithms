@@ -91847,3 +91847,7 @@
 ## entry 22962
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 22963
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
