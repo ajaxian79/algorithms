@@ -228,3 +228,4 @@ MunitTest number_complement_tests[] = {
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 203: Caller owns the returned buffer.
+// edge note 204: Uses a small fixed-size lookup table.
