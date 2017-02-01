@@ -13659,3 +13659,7 @@
 ## entry 3415
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 3416
+
+- Euler tour flattens a tree into an array for range-query LCA.
