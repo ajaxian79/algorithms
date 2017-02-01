@@ -225,3 +225,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 203: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 204: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 205: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 206: Persistent tree: every update creates a new version sharing unchanged nodes.
