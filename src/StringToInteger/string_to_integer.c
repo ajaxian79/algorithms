@@ -210,3 +210,4 @@ int my_atoi(const char* s) {
 // note 179: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 180: Three passes total; the third merges results.
 // note 181: Reentrant — no static state.
+// note 182: Splay tree: every access splays to the root; amortized O(log n).
