@@ -224,3 +224,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 187: Handles single-element input as a base case.
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 189: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
