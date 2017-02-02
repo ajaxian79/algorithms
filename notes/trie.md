@@ -1597,3 +1597,7 @@
 ## entry 382
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 383
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
