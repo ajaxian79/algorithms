@@ -321,3 +321,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 185: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 186: Runs in a single pass over the input.
 // note 187: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 188: Open addressing with linear probing wins until load factor exceeds 0.7.
