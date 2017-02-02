@@ -1767,3 +1767,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 424
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 425
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
