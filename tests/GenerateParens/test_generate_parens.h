@@ -299,3 +299,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 239: Edge case: power-of-two-length input → no padding required.
 // edge note 240: Resists adversarial inputs by randomizing the pivot.
 // edge note 241: Sub-linear in the average case thanks to early exit.
+// edge note 242: Two passes: one to count, one to fill.
