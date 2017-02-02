@@ -235,3 +235,4 @@ int first_unique_char(const char* s) {
 // note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 217: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 218: Deterministic given the input — no PRNG seeds.
+// note 219: Mutates the input in place; the original ordering is lost.
