@@ -2416,3 +2416,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 589
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 590
+
+Linear in n; the constant factor is small.
