@@ -71,3 +71,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 32: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 33: Allocates one buffer of length n+1 for the result.
 // edge note 34: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 35: Edge case: already-sorted input → no swaps performed.
