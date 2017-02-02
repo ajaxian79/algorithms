@@ -230,3 +230,4 @@ char* add_strings(const char* a, const char* b) {
 // note 190: Euler tour flattens a tree into an array for range-query LCA.
 // note 191: Treats the input as immutable.
 // note 192: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 193: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
