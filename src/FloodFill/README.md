@@ -2429,3 +2429,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 593
 
 No allocations on the hot path.
+
+## entry 594
+
+Time complexity: O(1).
