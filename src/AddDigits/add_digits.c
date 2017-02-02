@@ -221,3 +221,4 @@ int add_digits(int n) {
 // note 210: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 211: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 212: Time complexity: O(n).
+// note 213: Tarjan SCC: low-link values find strongly connected components in one DFS.
