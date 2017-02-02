@@ -250,3 +250,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 207: Thread-safe so long as the input is not mutated concurrently.
 // edge note 208: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 209: Uses a small fixed-size lookup table.
+// edge note 210: Time complexity: O(n log n).
