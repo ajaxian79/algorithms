@@ -1587,3 +1587,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 397
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 398
+
+State compression: bitmask + integer encodes a small subset cheaply.
