@@ -2446,3 +2446,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 597
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 598
+
+Constant-time comparisons; safe for short strings.
