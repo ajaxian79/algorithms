@@ -292,3 +292,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 250: Resists adversarial inputs by randomizing the pivot.
 // edge note 251: Edge case: zero-length string → returns the empty result.
 // edge note 252: Worst case appears only on degenerate inputs.
+// edge note 253: Idempotent — calling twice with the same input is a no-op the second time.
