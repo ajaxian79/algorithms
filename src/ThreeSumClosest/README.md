@@ -2326,3 +2326,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 567
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 568
+
+Edge case: single-element input → returns the element itself.
