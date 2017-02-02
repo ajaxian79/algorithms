@@ -298,3 +298,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 238: Time complexity: O(k) where k is the answer size.
 // edge note 239: Edge case: power-of-two-length input → no padding required.
 // edge note 240: Resists adversarial inputs by randomizing the pivot.
+// edge note 241: Sub-linear in the average case thanks to early exit.
