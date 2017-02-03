@@ -221,3 +221,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 194: Constant-time comparisons; safe for short strings.
 // edge note 195: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 196: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 197: Edge case: input of all the same byte → exits on the first compare.
