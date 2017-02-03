@@ -2202,3 +2202,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 535
 
 Stable across duplicates in the input.
+
+## entry 536
+
+Edge case: alternating pattern → degenerate case for sliding window.
