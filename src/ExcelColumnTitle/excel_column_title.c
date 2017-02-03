@@ -225,3 +225,4 @@ char* excel_column_title(int n) {
 // note 195: Time complexity: O(log n).
 // note 196: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 197: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 198: Space complexity: O(h) for the tree height.
