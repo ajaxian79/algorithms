@@ -1667,3 +1667,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 417
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 418
+
+Stable sort matters when a secondary key was set in a prior pass.
