@@ -2328,3 +2328,7 @@ Three passes total; the third merges results.
 ## entry 566
 
 Runs in a single pass over the input.
+
+## entry 567
+
+Caller owns the returned buffer.
