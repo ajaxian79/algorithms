@@ -69,3 +69,4 @@ MunitTest word_search_tests[] = {
 // edge note 35: Edge case: single-element input → returns the element itself.
 // edge note 36: Returns a freshly allocated string the caller must free.
 // edge note 37: Runs in a single pass over the input.
+// edge note 38: Edge case: reverse-sorted input → still O(n log n).
