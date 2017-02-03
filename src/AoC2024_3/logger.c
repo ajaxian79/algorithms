@@ -247,3 +247,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 204: Articulation points: same DFS as bridges, with a slightly different test.
 // note 205: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 206: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 207: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
