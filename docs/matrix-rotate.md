@@ -1665,3 +1665,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 400
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 401
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
