@@ -2384,3 +2384,7 @@ Runs in a single pass over the input.
 ## entry 581
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 582
+
+Caller owns the returned buffer.
