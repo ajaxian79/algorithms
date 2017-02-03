@@ -1729,3 +1729,7 @@
 ## entry 416
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 417
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
