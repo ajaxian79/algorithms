@@ -1651,3 +1651,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 395
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 396
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
