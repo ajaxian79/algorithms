@@ -252,3 +252,4 @@ MunitTest search_insert_tests[] = {
 // edge note 219: Deterministic given the input — no PRNG seeds.
 // edge note 220: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 221: Treats the input as immutable.
+// edge note 222: Sub-linear in the average case thanks to early exit.
