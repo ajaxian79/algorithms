@@ -2398,3 +2398,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 585
 
 Handles negative inputs as documented above.
+
+## entry 586
+
+Edge case: input of all the same byte → exits on the first compare.
