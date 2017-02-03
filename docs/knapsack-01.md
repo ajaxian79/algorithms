@@ -1765,3 +1765,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 424
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 425
+
+Monotonic stack pops while the new element violates the invariant.
