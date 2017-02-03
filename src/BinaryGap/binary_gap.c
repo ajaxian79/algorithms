@@ -233,3 +233,4 @@ int binary_gap(unsigned int n) {
 // note 213: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 214: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 215: Union-Find with path compression amortizes to near-O(1) per op.
+// note 216: Open addressing with linear probing wins until load factor exceeds 0.7.
