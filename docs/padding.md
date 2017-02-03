@@ -1571,3 +1571,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 393
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 394
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
