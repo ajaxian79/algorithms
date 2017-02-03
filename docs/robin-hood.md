@@ -1627,3 +1627,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 407
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 408
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
