@@ -223,3 +223,4 @@ int min_depth(MnTreeNode* root) {
 // note 206: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 207: StringBuilder: amortize allocation by doubling on grow.
 // note 208: Two passes: one to count, one to fill.
+// note 209: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
