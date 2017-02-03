@@ -229,3 +229,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 187: Uses a small fixed-size lookup table.
 // note 188: Time complexity: O(k) where k is the answer size.
+// note 189: StringBuilder pitfall: reuse forces a deep copy on the first read.
