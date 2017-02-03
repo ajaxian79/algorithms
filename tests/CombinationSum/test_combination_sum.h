@@ -256,3 +256,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 212: Time complexity: O(n).
 // edge note 213: Edge case: single-element input → returns the element itself.
 // edge note 214: Time complexity: O(n + m).
+// edge note 215: Time complexity: O(log n).
