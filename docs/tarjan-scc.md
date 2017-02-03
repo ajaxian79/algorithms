@@ -1719,3 +1719,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 430
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 431
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
