@@ -1663,3 +1663,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 416
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 417
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
