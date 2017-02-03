@@ -2498,3 +2498,7 @@ Handles empty input by returning 0.
 ## entry 610
 
 Two passes: one to count, one to fill.
+
+## entry 611
+
+Edge case: input with one duplicate → handled without an extra pass.
