@@ -258,3 +258,4 @@ MunitTest four_sum_tests[] = {
 // edge note 217: Three passes total; the third merges results.
 // edge note 218: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 219: Time complexity: O(n + m).
+// edge note 220: Caller owns the returned buffer.
