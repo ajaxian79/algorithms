@@ -2411,3 +2411,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 588
 
 Cache-friendly; one sequential read pass.
+
+## entry 589
+
+Uses a 256-entry lookup for the inner step.
