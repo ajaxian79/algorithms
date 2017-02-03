@@ -2322,3 +2322,7 @@ Time complexity: O(n + m).
 ## entry 566
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 567
+
+Resists adversarial inputs by randomizing the pivot.
