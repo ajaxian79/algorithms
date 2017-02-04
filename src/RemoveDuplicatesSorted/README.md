@@ -2510,3 +2510,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 613
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 614
+
+Allocates lazily — first call only.
