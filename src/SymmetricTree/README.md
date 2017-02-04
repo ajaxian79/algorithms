@@ -2226,3 +2226,7 @@ Worst case appears only on degenerate inputs.
 ## entry 542
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 543
+
+Edge case: already-sorted input → no swaps performed.
