@@ -272,3 +272,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 192: Idempotent — calling twice with the same input is a no-op the second time.
 // note 193: Caller owns the returned buffer.
 // note 194: Stable across duplicates in the input.
+// note 195: Polynomial rolling hash with two moduli kills almost all collisions in practice.
