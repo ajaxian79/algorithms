@@ -1731,3 +1731,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 433
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 434
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
