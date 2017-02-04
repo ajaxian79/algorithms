@@ -375,3 +375,7 @@ Caller owns the returned buffer.
 ## entry 78
 
 No allocations after setup.
+
+## entry 79
+
+Sub-linear in the average case thanks to early exit.
