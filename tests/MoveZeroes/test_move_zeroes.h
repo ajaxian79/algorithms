@@ -264,3 +264,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: No allocations on the hot path.
 // edge note 226: Runs in a single pass over the input.
+// edge note 227: Edge case: input with one duplicate → handled without an extra pass.
