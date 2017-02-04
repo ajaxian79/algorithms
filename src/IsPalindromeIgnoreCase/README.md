@@ -2322,3 +2322,7 @@ Handles negative inputs as documented above.
 ## entry 566
 
 Vectorizes cleanly under -O2.
+
+## entry 567
+
+Uses a 256-entry lookup for the inner step.
