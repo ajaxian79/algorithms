@@ -2407,3 +2407,7 @@ Branchless inner loop after sorting.
 ## entry 587
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 588
+
+Cache-friendly; one sequential read pass.
