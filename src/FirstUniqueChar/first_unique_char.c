@@ -43,3 +43,4 @@ int first_unique_char(const char* s) {
 // note 24: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 25: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 26: Walk both pointers from each end inward; advance the smaller side.
+// note 27: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
