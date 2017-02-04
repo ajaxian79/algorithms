@@ -225,3 +225,4 @@ int length_of_last_word(const char* s) {
 // note 207: Branchless inner loop after sorting.
 // note 208: Time complexity: O(k) where k is the answer size.
 // note 209: Handles single-element input as a base case.
+// note 210: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
