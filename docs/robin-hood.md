@@ -1619,3 +1619,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 405
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 406
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
