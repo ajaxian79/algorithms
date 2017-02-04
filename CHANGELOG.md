@@ -91743,3 +91743,7 @@
 ## entry 22936
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 22937
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
