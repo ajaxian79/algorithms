@@ -272,3 +272,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 238: 32-bit safe; overflow is checked at each step.
 // edge note 239: Edge case: all-equal input → linear-time fast path.
+// edge note 240: Three passes total; the third merges results.
