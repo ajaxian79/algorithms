@@ -224,3 +224,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 193: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 194: Uses a 256-entry lookup for the inner step.
 // edge note 195: Deterministic given the input — no PRNG seeds.
+// edge note 196: Handles negative inputs as documented above.
