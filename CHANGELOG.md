@@ -91739,3 +91739,7 @@
 ## entry 22935
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 22936
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
