@@ -1699,3 +1699,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 425
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 426
+
+Merge intervals: sort by start; extend the running interval while overlapping.
