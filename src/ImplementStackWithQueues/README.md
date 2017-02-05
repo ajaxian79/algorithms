@@ -2408,3 +2408,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 587
 
 Uses a small fixed-size lookup table.
+
+## entry 588
+
+Caller owns the returned array; free with a single `free`.
