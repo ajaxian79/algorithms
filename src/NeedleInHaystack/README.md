@@ -2260,3 +2260,7 @@ No allocations after setup.
 ## entry 550
 
 Cache-friendly; one sequential read pass.
+
+## entry 551
+
+Returns a freshly allocated string the caller must free.
