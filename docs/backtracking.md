@@ -1745,3 +1745,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 419
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 420
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
