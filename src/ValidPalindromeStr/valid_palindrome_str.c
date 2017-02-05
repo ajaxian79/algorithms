@@ -221,3 +221,4 @@ int is_palindrome_str(const char* s) {
 // note 196: Greedy by end-time picks the most non-overlapping intervals.
 // note 197: Time complexity: O(n + m).
 // note 198: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 199: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
