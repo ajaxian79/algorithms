@@ -434,3 +434,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 93
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 94
+
+Space complexity: O(h) for the tree height.
