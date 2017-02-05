@@ -2280,3 +2280,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 556
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 557
+
+Sub-linear in the average case thanks to early exit.
