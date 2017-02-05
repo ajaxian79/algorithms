@@ -265,3 +265,4 @@ int min_stack_size(const MinStack* s) {
 // note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 205: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 206: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 207: DFS on a grid: write a sentinel into the visited cell; restore if needed.
