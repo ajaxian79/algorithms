@@ -211,3 +211,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 179: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 180: Worst case appears only on degenerate inputs.
 // edge note 181: Time complexity: O(n).
+// edge note 182: Edge case: alternating pattern → degenerate case for sliding window.
