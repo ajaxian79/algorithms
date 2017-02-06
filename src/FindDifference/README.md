@@ -2170,3 +2170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 528
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 529
+
+Edge case: input with no peak → falls through to the default branch.
