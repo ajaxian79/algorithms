@@ -2386,3 +2386,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 582
 
 32-bit safe; overflow is checked at each step.
+
+## entry 583
+
+Avoids floating-point entirely — integer math throughout.
