@@ -2354,3 +2354,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 574
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 575
+
+Caller owns the returned buffer.
