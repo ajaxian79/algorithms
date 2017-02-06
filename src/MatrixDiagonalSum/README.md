@@ -2466,3 +2466,7 @@ Time complexity: O(n log n).
 ## entry 602
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 603
+
+Time complexity: O(k) where k is the answer size.
