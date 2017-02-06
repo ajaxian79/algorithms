@@ -228,3 +228,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 197: Edge case: already-sorted input → no swaps performed.
 // edge note 198: Treats the input as immutable.
 // edge note 199: Branchless inner loop after sorting.
+// edge note 200: Handles single-element input as a base case.
