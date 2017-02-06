@@ -2369,3 +2369,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 577
 
 No allocations after setup.
+
+## entry 578
+
+Caller owns the returned array; free with a single `free`.
