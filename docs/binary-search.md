@@ -1789,3 +1789,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 431
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 432
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
