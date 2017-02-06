@@ -1559,3 +1559,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 390
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 391
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
