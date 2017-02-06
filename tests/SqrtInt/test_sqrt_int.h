@@ -234,3 +234,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 206: Sub-linear in the average case thanks to early exit.
 // edge note 207: Thread-safe so long as the input is not mutated concurrently.
 // edge note 208: Handles negative inputs as documented above.
+// edge note 209: Idempotent — calling twice with the same input is a no-op the second time.
