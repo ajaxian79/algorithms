@@ -1705,3 +1705,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 410
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 411
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
