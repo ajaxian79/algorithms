@@ -386,3 +386,7 @@ Three passes total; the third merges results.
 ## entry 82
 
 Edge case: empty input → returns 0.
+
+## entry 83
+
+Time complexity: O(1).
