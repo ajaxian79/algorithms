@@ -2318,3 +2318,7 @@ Stable across duplicates in the input.
 ## entry 564
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 565
+
+Avoids floating-point entirely — integer math throughout.
