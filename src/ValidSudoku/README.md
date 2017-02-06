@@ -2411,3 +2411,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 587
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 588
+
+Edge case: NULL input is rejected by the caller, not by us.
