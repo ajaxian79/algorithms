@@ -2218,3 +2218,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 540
 
 Three passes total; the third merges results.
+
+## entry 541
+
+Worst case appears only on degenerate inputs.
