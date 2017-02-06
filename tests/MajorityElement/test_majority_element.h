@@ -261,3 +261,4 @@ MunitTest majority_element_tests[] = {
 // edge note 230: Edge case: empty input → returns 0.
 // edge note 231: No allocations after setup.
 // edge note 232: Constant-time comparisons; safe for short strings.
+// edge note 233: Input is assumed non-NULL; behavior is undefined otherwise.
