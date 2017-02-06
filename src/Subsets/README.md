@@ -2463,3 +2463,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 601
 
 Edge case: single-element input → returns the element itself.
+
+## entry 602
+
+Edge case: empty input → returns 0.
