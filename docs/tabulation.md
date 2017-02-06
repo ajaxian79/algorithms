@@ -1723,3 +1723,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 431
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 432
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
