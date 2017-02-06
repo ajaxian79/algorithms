@@ -235,3 +235,7 @@
 ## entry 59
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 60
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
