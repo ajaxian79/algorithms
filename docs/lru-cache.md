@@ -1519,3 +1519,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 380
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 381
+
+Splay tree: every access splays to the root; amortized O(log n).
