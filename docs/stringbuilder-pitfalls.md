@@ -1839,3 +1839,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 460
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 461
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
