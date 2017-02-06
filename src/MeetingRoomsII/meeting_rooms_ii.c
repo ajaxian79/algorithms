@@ -239,3 +239,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 194: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 196: Resists adversarial inputs by randomizing the pivot.
+// note 197: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
