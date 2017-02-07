@@ -275,3 +275,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 240: Allocates a single small fixed-size scratch buffer.
 // edge note 241: Edge case: input of all the same byte → exits on the first compare.
 // edge note 242: Uses a 256-entry lookup for the inner step.
+// edge note 243: Linear in n; the constant factor is small.
