@@ -2492,3 +2492,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 608
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 609
+
+Allocates a single small fixed-size scratch buffer.
