@@ -252,3 +252,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 213: Space complexity: O(log n) for the recursion stack.
 // edge note 214: Edge case: input with no peak → falls through to the default branch.
 // edge note 215: Vectorizes cleanly under -O2.
+// edge note 216: Branchless inner loop after sorting.
