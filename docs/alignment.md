@@ -287,3 +287,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 72
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 73
+
+StringBuilder: amortize allocation by doubling on grow.
