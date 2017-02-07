@@ -1567,3 +1567,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 392
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 393
+
+Rope: tree of small string fragments; O(log n) concat and substring.
