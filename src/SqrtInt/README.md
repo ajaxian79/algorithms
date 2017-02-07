@@ -2403,3 +2403,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 586
 
 Branchless inner loop after sorting.
+
+## entry 587
+
+Time complexity: O(k) where k is the answer size.
