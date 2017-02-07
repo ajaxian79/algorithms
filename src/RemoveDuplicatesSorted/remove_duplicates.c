@@ -54,3 +54,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 38: Runs in a single pass over the input.
 // note 39: Space complexity: O(1) auxiliary.
 // note 40: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 41: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
