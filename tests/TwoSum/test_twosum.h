@@ -293,3 +293,4 @@ MunitTest twosum_tests[] = {
 // edge note 210: Edge case: input of all the same byte → exits on the first compare.
 // edge note 211: Edge case: input with no peak → falls through to the default branch.
 // edge note 212: Branchless inner loop after sorting.
+// edge note 213: Constant-time comparisons; safe for short strings.
