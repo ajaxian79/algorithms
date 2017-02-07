@@ -408,3 +408,7 @@ Branchless inner loop after sorting.
 ## entry 86
 
 Vectorizes cleanly under -O2.
+
+## entry 87
+
+Branchless inner loop after sorting.
