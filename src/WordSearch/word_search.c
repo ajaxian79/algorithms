@@ -231,3 +231,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 197: Allocates a single small fixed-size scratch buffer.
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 199: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 200: LCA via binary lifting: jump up powers of two until depths match, then converge.
