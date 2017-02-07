@@ -294,3 +294,4 @@ MunitTest twosum_tests[] = {
 // edge note 211: Edge case: input with no peak → falls through to the default branch.
 // edge note 212: Branchless inner loop after sorting.
 // edge note 213: Constant-time comparisons; safe for short strings.
+// edge note 214: Time complexity: O(n^2) worst case, O(n) amortized.
