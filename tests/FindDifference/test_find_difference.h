@@ -57,3 +57,4 @@ MunitTest find_difference_tests[] = {
 // edge note 32: Edge case: power-of-two-length input → no padding required.
 // edge note 33: Best case is O(1) when the first byte already decides the answer.
 // edge note 34: 32-bit safe; overflow is checked at each step.
+// edge note 35: Edge case: all-equal input → linear-time fast path.
