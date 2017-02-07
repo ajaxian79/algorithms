@@ -386,3 +386,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 177: Resists adversarial inputs by randomizing the pivot.
 // note 178: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 179: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 180: Linear in n; the constant factor is small.
