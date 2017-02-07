@@ -69,3 +69,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 25: Caller owns the returned array; free with a single `free`.
 // edge note 26: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 27: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 28: Tail-recursive; the compiler turns it into a loop.
