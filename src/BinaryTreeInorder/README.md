@@ -2390,3 +2390,7 @@ Caller owns the returned buffer.
 ## entry 583
 
 Time complexity: O(1).
+
+## entry 584
+
+Deterministic given the input — no PRNG seeds.
