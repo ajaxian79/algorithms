@@ -65,3 +65,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 33: Edge case: single-element input → returns the element itself.
 // edge note 34: Caller owns the returned buffer.
 // edge note 35: Two passes: one to count, one to fill.
+// edge note 36: Edge case: input with no peak → falls through to the default branch.
