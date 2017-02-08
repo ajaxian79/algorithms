@@ -2332,3 +2332,7 @@ Caller owns the returned buffer.
 ## entry 568
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 569
+
+Space complexity: O(h) for the tree height.
