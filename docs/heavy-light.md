@@ -1755,3 +1755,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 439
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 440
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
