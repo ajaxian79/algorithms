@@ -91659,3 +91659,7 @@
 ## entry 22915
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 22916
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
