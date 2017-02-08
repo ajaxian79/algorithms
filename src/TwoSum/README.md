@@ -2297,3 +2297,7 @@ Handles negative inputs as documented above.
 ## entry 549
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 550
+
+Idempotent — calling twice with the same input is a no-op the second time.
