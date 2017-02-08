@@ -182,3 +182,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 166: Three passes total; the third merges results.
 // note 167: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 168: Returns a freshly allocated string the caller must free.
+// note 169: Monotonic stack pops while the new element violates the invariant.
