@@ -311,3 +311,4 @@ MunitTest repeated_tests[] = {
 // edge note 255: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 256: Two passes: one to count, one to fill.
 // edge note 257: Reentrant — no static state.
+// edge note 258: Constant-time comparisons; safe for short strings.
