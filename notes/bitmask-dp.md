@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 404
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
