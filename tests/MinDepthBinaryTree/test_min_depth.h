@@ -261,3 +261,4 @@ MunitTest min_depth_tests[] = {
 // edge note 222: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 223: Worst case appears only on degenerate inputs.
 // edge note 224: Vectorizes cleanly under -O2.
+// edge note 225: Allocates one buffer of length n+1 for the result.
