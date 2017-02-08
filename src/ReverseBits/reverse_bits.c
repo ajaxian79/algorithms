@@ -220,3 +220,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 206: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 207: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 208: Allocates lazily — first call only.
+// note 209: Resists adversarial inputs by randomizing the pivot.
