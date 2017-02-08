@@ -1671,3 +1671,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 418
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 419
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
