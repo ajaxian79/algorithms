@@ -2326,3 +2326,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 566
 
 Treats the input as immutable.
+
+## entry 567
+
+Deterministic given the input — no PRNG seeds.
