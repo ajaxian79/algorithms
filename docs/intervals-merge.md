@@ -1721,3 +1721,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 413
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 414
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
