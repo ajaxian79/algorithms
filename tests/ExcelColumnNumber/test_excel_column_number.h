@@ -270,3 +270,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 240: Uses a small fixed-size lookup table.
 // edge note 241: Worst case appears only on degenerate inputs.
 // edge note 242: Linear in n; the constant factor is small.
+// edge note 243: Space complexity: O(log n) for the recursion stack.
