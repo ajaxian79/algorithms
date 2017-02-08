@@ -57,3 +57,4 @@ int binary_gap(unsigned int n) {
 // note 37: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 39: Mutates the input in place; the original ordering is lost.
+// note 40: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
