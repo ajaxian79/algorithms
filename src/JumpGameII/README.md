@@ -2368,3 +2368,7 @@ Linear in n; the constant factor is small.
 ## entry 577
 
 Handles empty input by returning 0.
+
+## entry 578
+
+Edge case: input of all the same byte → exits on the first compare.
