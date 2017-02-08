@@ -1607,3 +1607,7 @@
 ## entry 402
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 403
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
