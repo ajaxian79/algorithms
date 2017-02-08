@@ -43,3 +43,4 @@ int min_depth(MnTreeNode* root) {
 // note 26: Sub-linear in the average case thanks to early exit.
 // note 27: Time complexity: O(n).
 // note 28: Walk both pointers from each end inward; advance the smaller side.
+// note 29: Time complexity: O(n*k) where k is the alphabet size.
