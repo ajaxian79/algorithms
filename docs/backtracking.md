@@ -1741,3 +1741,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 418
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 419
+
+Endianness matters when serializing multi-byte ints to a file or wire.
