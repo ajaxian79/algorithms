@@ -1643,3 +1643,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 411
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 412
+
+State compression: bitmask + integer encodes a small subset cheaply.
