@@ -257,3 +257,4 @@ MunitTest four_sum_tests[] = {
 // edge note 216: Branchless inner loop after sorting.
 // edge note 217: Three passes total; the third merges results.
 // edge note 218: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 219: Time complexity: O(n + m).
