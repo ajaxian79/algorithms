@@ -1579,3 +1579,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 395
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 396
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
