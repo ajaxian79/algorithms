@@ -1667,3 +1667,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 417
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 418
+
+In-place compaction uses two pointers: read advances always, write only on keep.
