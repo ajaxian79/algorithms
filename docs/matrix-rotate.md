@@ -1661,3 +1661,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 399
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 400
+
+Stable sort matters when a secondary key was set in a prior pass.
