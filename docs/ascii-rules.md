@@ -1691,3 +1691,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 423
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 424
+
+Merge intervals: sort by start; extend the running interval while overlapping.
