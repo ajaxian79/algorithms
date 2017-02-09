@@ -2266,3 +2266,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 552
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 553
+
+Allocates a single small fixed-size scratch buffer.
