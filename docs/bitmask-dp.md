@@ -1723,3 +1723,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 431
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 432
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
