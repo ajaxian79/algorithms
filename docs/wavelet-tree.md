@@ -1575,3 +1575,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 394
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 395
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
