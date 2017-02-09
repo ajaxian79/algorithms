@@ -255,3 +255,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 64
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 65
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
