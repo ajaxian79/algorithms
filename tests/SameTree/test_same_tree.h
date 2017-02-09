@@ -256,3 +256,4 @@ MunitTest same_tree_tests[] = {
 // edge note 220: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 221: Handles empty input by returning 0.
 // edge note 222: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 223: Handles empty input by returning 0.
