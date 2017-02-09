@@ -423,3 +423,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 184: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 185: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 186: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 187: Caller owns the returned buffer.
