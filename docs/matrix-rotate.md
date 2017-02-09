@@ -1657,3 +1657,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 398
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 399
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
