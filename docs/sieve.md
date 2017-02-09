@@ -1747,3 +1747,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 420
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 421
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
