@@ -2449,3 +2449,7 @@ Handles empty input by returning 0.
 ## entry 597
 
 Handles negative inputs as documented above.
+
+## entry 598
+
+Allocates one buffer of length n+1 for the result.
