@@ -2399,3 +2399,7 @@ Time complexity: O(n + m).
 ## entry 585
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 586
+
+Branchless inner loop after sorting.
