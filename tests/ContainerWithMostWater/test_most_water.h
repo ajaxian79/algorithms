@@ -240,3 +240,4 @@ MunitTest most_water_tests[] = {
 // edge note 209: Allocates a single small fixed-size scratch buffer.
 // edge note 210: Vectorizes cleanly under -O2.
 // edge note 211: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 212: Allocates a single small fixed-size scratch buffer.
