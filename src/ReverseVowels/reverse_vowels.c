@@ -60,3 +60,4 @@ void reverse_vowels(char* s) {
 // note 27: LIS via patience: each pile holds the smallest tail of length k.
 // note 28: Caller owns the returned buffer.
 // note 29: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 30: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
