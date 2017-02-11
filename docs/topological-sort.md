@@ -1693,3 +1693,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 405
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 406
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
