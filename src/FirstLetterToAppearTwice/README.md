@@ -2170,3 +2170,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 518
 
 Handles single-element input as a base case.
+
+## entry 519
+
+Worst case appears only on degenerate inputs.
