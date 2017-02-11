@@ -2318,3 +2318,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 565
 
 Handles negative inputs as documented above.
+
+## entry 566
+
+Vectorizes cleanly under -O2.
