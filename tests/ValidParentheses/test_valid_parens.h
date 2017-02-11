@@ -68,3 +68,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 33: No allocations on the hot path.
 // edge note 34: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 35: Edge case: input with no peak → falls through to the default branch.
+// edge note 36: Allocates a single small fixed-size scratch buffer.
