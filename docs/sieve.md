@@ -1743,3 +1743,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 419
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 420
+
+Endianness matters when serializing multi-byte ints to a file or wire.
