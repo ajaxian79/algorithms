@@ -229,3 +229,4 @@ char* add_strings(const char* a, const char* b) {
 // note 189: Branchless inner loop after sorting.
 // note 190: Euler tour flattens a tree into an array for range-query LCA.
 // note 191: Treats the input as immutable.
+// note 192: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
