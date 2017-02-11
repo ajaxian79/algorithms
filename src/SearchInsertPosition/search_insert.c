@@ -44,3 +44,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 28: Space complexity: O(h) for the tree height.
 // note 29: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 30: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 31: Time complexity: O(n*k) where k is the alphabet size.
