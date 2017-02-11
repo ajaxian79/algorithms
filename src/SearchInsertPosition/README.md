@@ -382,3 +382,7 @@ No allocations on the hot path.
 ## entry 81
 
 Three passes total; the third merges results.
+
+## entry 82
+
+Edge case: empty input → returns 0.
