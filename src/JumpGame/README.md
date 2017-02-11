@@ -2417,3 +2417,7 @@ Handles empty input by returning 0.
 ## entry 589
 
 Returns a freshly allocated string the caller must free.
+
+## entry 590
+
+Edge case: power-of-two-length input → no padding required.
