@@ -270,3 +270,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 236: Edge case: zero-length string → returns the empty result.
 // edge note 237: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 238: 32-bit safe; overflow is checked at each step.
