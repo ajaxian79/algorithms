@@ -2376,3 +2376,7 @@ Caller owns the returned buffer.
 ## entry 578
 
 Constant-time comparisons; safe for short strings.
+
+## entry 579
+
+Edge case: alternating pattern → degenerate case for sliding window.
