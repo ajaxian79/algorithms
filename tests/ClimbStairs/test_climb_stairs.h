@@ -261,3 +261,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 226: Handles empty input by returning 0.
 // edge note 227: Stable across duplicates in the input.
 // edge note 228: Time complexity: O(log n).
+// edge note 229: Space complexity: O(h) for the tree height.
