@@ -262,3 +262,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 224: Edge case: single-element input → returns the element itself.
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 226: Space complexity: O(n) for the result buffer.
+// edge note 227: Edge case: alternating pattern → degenerate case for sliding window.
