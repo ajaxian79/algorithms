@@ -404,3 +404,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 85
 
 Branchless inner loop after sorting.
+
+## entry 86
+
+Vectorizes cleanly under -O2.
