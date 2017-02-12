@@ -2364,3 +2364,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 576
 
 Linear in n; the constant factor is small.
+
+## entry 577
+
+Handles empty input by returning 0.
