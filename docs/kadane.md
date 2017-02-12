@@ -295,3 +295,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 58
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 59
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
