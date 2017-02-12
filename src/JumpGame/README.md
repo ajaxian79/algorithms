@@ -2413,3 +2413,7 @@ Stable across duplicates in the input.
 ## entry 588
 
 Handles empty input by returning 0.
+
+## entry 589
+
+Returns a freshly allocated string the caller must free.
