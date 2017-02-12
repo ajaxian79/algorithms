@@ -1689,3 +1689,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 404
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 405
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
