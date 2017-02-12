@@ -2350,3 +2350,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 573
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 574
+
+64-bit safe; intermediate products are widened to 128-bit.
