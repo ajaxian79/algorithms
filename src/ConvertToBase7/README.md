@@ -2484,3 +2484,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 606
 
 Caller owns the returned buffer.
+
+## entry 607
+
+Reentrant — no static state.
