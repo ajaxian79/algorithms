@@ -1799,3 +1799,7 @@
 ## entry 432
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 433
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
