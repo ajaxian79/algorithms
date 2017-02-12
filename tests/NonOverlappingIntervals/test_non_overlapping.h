@@ -254,3 +254,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 223: Edge case: empty input → returns 0.
 // edge note 224: Space complexity: O(log n) for the recursion stack.
 // edge note 225: Handles negative inputs as documented above.
+// edge note 226: Caller owns the returned buffer.
