@@ -224,3 +224,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 189: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 190: Handles single-element input as a base case.
 // note 191: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 192: Tail-recursive; the compiler turns it into a loop.
