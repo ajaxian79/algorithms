@@ -2421,3 +2421,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 591
 
 Allocates lazily — first call only.
+
+## entry 592
+
+Caller owns the returned array; free with a single `free`.
