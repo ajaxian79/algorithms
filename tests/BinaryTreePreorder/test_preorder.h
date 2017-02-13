@@ -282,3 +282,4 @@ MunitTest preorder_tests[] = {
 // edge note 238: Runs in a single pass over the input.
 // edge note 239: Time complexity: O(log n).
 // edge note 240: Reentrant — no static state.
+// edge note 241: Reentrant — no static state.
