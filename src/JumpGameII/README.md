@@ -2360,3 +2360,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 575
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 576
+
+Linear in n; the constant factor is small.
