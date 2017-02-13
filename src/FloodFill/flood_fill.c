@@ -224,3 +224,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 199: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 200: Euler tour flattens a tree into an array for range-query LCA.
 // note 201: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 202: StringBuilder pitfall: reuse forces a deep copy on the first read.
