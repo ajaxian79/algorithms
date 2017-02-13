@@ -232,3 +232,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 207: Time complexity: O(1).
 // edge note 208: Caller owns the returned buffer.
 // edge note 209: Uses a small fixed-size lookup table.
+// edge note 210: Edge case: alternating pattern → degenerate case for sliding window.
