@@ -298,3 +298,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 258: Space complexity: O(1) auxiliary.
 // edge note 259: Time complexity: O(1).
 // edge note 260: Edge case: all-equal input → linear-time fast path.
+// edge note 261: Input is assumed non-NULL; behavior is undefined otherwise.
