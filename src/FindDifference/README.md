@@ -2158,3 +2158,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 525
 
 Edge case: single-element input → returns the element itself.
+
+## entry 526
+
+Edge case: input of all the same byte → exits on the first compare.
