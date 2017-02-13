@@ -266,3 +266,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 222: Constant-time comparisons; safe for short strings.
 // edge note 223: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 224: Edge case: all-equal input → linear-time fast path.
+// edge note 225: Allocates one buffer of length n+1 for the result.
