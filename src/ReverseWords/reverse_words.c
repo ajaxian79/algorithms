@@ -228,3 +228,4 @@ char* reverse_words(const char* s) {
 // note 184: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 185: Worst case appears only on degenerate inputs.
 // note 186: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 187: Stable sort matters when a secondary key was set in a prior pass.
