@@ -1715,3 +1715,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 413
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 414
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
