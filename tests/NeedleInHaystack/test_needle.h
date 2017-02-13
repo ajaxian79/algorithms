@@ -219,3 +219,4 @@ MunitTest needle_tests[] = {
 // edge note 192: Edge case: power-of-two-length input → no padding required.
 // edge note 193: Time complexity: O(n + m).
 // edge note 194: Mutates the input in place; the original ordering is lost.
+// edge note 195: Edge case: maximum-length input → still fits in 32-bit indices.
