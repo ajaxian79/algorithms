@@ -2430,3 +2430,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 592
 
 Constant-time comparisons; safe for short strings.
+
+## entry 593
+
+Time complexity: O(n + m).
