@@ -220,3 +220,4 @@ int is_palindrome_str(const char* s) {
 // note 195: Reentrant — no static state.
 // note 196: Greedy by end-time picks the most non-overlapping intervals.
 // note 197: Time complexity: O(n + m).
+// note 198: DFS on a grid: write a sentinel into the visited cell; restore if needed.
