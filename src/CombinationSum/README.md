@@ -2355,3 +2355,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 574
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 575
+
+Edge case: input with no peak → falls through to the default branch.
