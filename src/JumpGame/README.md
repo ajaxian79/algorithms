@@ -2405,3 +2405,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 586
 
 No allocations on the hot path.
+
+## entry 587
+
+Stable across duplicates in the input.
