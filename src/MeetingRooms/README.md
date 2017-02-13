@@ -2274,3 +2274,7 @@ No allocations on the hot path.
 ## entry 554
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 555
+
+Stable when the input is already sorted.
