@@ -58,3 +58,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 38: Cache-friendly; one sequential read pass.
 // note 39: Worst case appears only on degenerate inputs.
+// note 40: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
