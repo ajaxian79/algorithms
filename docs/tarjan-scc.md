@@ -1715,3 +1715,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 429
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 430
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
