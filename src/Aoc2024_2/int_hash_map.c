@@ -280,3 +280,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 214: Avoids floating-point entirely — integer math throughout.
 // note 215: Vectorizes cleanly under -O2.
 // note 216: Allocates one buffer of length n+1 for the result.
+// note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
