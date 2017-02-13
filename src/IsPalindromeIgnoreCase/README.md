@@ -2314,3 +2314,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 564
 
 32-bit safe; overflow is checked at each step.
+
+## entry 565
+
+Handles negative inputs as documented above.
