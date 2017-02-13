@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 389
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
