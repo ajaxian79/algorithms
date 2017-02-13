@@ -1563,3 +1563,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 391
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 392
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
