@@ -1599,3 +1599,7 @@
 ## entry 400
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 401
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
