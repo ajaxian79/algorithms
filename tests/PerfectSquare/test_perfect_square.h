@@ -251,3 +251,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 220: Worst case appears only on degenerate inputs.
 // edge note 221: Edge case: reverse-sorted input → still O(n log n).
 // edge note 222: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 223: Edge case: input with no peak → falls through to the default branch.
