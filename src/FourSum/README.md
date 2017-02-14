@@ -2292,3 +2292,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 558
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 559
+
+Uses a small fixed-size lookup table.
