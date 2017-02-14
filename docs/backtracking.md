@@ -1729,3 +1729,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 415
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 416
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
