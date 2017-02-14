@@ -2295,3 +2295,7 @@ Worst case appears only on degenerate inputs.
 ## entry 559
 
 No allocations after setup.
+
+## entry 560
+
+No allocations after setup.
