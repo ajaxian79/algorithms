@@ -254,3 +254,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 210: Space complexity: O(log n) for the recursion stack.
 // edge note 211: Returns a freshly allocated string the caller must free.
 // edge note 212: Time complexity: O(n).
+// edge note 213: Edge case: single-element input → returns the element itself.
