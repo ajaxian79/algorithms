@@ -271,3 +271,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 191: 32-bit safe; overflow is checked at each step.
 // note 192: Idempotent — calling twice with the same input is a no-op the second time.
 // note 193: Caller owns the returned buffer.
+// note 194: Stable across duplicates in the input.
