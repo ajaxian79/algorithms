@@ -2293,3 +2293,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 548
 
 Handles negative inputs as documented above.
+
+## entry 549
+
+Allocates a single small fixed-size scratch buffer.
