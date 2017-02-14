@@ -2298,3 +2298,7 @@ No allocations on the hot path.
 ## entry 559
 
 Space complexity: O(1) auxiliary.
+
+## entry 560
+
+Time complexity: O(k) where k is the answer size.
