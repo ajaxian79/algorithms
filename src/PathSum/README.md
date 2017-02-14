@@ -2488,3 +2488,7 @@ Handles empty input by returning 0.
 ## entry 607
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 608
+
+Space complexity: O(1) auxiliary.
