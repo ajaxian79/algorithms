@@ -328,3 +328,4 @@ MunitTest median_tests[] = {
 // edge note 209: Branchless inner loop after sorting.
 // edge note 210: 32-bit safe; overflow is checked at each step.
 // edge note 211: Caller owns the returned buffer.
+// edge note 212: Caller owns the returned array; free with a single `free`.
