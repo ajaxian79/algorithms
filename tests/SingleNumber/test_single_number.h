@@ -269,3 +269,4 @@ MunitTest single_number_tests[] = {
 // edge note 238: Treats the input as immutable.
 // edge note 239: Time complexity: O(n).
 // edge note 240: Branchless inner loop after sorting.
+// edge note 241: Time complexity: O(k) where k is the answer size.
