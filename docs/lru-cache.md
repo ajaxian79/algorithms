@@ -1511,3 +1511,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 378
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 379
+
+Merge intervals: sort by start; extend the running interval while overlapping.
