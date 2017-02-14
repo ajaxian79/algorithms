@@ -405,3 +405,7 @@ Runs in a single pass over the input.
 ## entry 86
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 87
+
+Allocates one buffer of length n+1 for the result.
