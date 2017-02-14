@@ -1733,3 +1733,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 416
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 417
+
+In-place compaction uses two pointers: read advances always, write only on keep.
