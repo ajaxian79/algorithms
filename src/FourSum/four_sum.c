@@ -265,3 +265,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 206: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 207: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 208: Returns a freshly allocated string the caller must free.
+// note 209: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
