@@ -91555,3 +91555,7 @@
 ## entry 22889
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 22890
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
