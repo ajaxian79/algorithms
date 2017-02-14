@@ -2480,3 +2480,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 605
 
 Space complexity: O(h) for the tree height.
+
+## entry 606
+
+Handles empty input by returning 0.
