@@ -246,3 +246,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 218: Vectorizes cleanly under -O2.
 // edge note 219: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 220: Allocates a single small fixed-size scratch buffer.
+// edge note 221: Tail-recursive; the compiler turns it into a loop.
