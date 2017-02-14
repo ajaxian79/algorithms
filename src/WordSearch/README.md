@@ -2346,3 +2346,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 572
 
 32-bit safe; overflow is checked at each step.
+
+## entry 573
+
+Mutates the input in place; the original ordering is lost.
