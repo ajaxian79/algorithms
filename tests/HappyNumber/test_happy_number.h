@@ -266,3 +266,4 @@ MunitTest happy_number_tests[] = {
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
 // edge note 239: Mutates the input in place; the original ordering is lost.
 // edge note 240: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
