@@ -2401,3 +2401,7 @@ Time complexity: O(n).
 ## entry 585
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 586
+
+No allocations on the hot path.
