@@ -2330,3 +2330,7 @@ Three passes total; the third merges results.
 ## entry 567
 
 32-bit safe; overflow is checked at each step.
+
+## entry 568
+
+Deterministic given the input — no PRNG seeds.
