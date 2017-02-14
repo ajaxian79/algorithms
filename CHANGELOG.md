@@ -91535,3 +91535,7 @@
 ## entry 22884
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 22885
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
