@@ -271,3 +271,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 68
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 69
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
