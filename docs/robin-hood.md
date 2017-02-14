@@ -1607,3 +1607,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 402
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 403
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
