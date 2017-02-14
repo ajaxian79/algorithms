@@ -254,3 +254,4 @@ MunitTest permutations_tests[] = {
 // edge note 213: Time complexity: O(n log n).
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Edge case: single-element input → returns the element itself.
+// edge note 216: Allocates a single small fixed-size scratch buffer.
