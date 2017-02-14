@@ -2158,3 +2158,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 515
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 516
+
+Allocates one buffer of length n+1 for the result.
