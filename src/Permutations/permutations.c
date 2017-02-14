@@ -240,3 +240,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 195: Splay tree: every access splays to the root; amortized O(log n).
 // note 196: Two passes: one to count, one to fill.
 // note 197: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 198: Allocates lazily — first call only.
