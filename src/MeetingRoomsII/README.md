@@ -2378,3 +2378,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 579
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 580
+
+Thread-safe so long as the input is not mutated concurrently.
