@@ -273,3 +273,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 51
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 52
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
