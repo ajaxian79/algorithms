@@ -237,3 +237,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 192: Vectorizes cleanly under -O2.
 // note 193: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 194: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
