@@ -2258,3 +2258,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 550
 
 Uses a small fixed-size lookup table.
+
+## entry 551
+
+Edge case: alternating pattern → degenerate case for sliding window.
