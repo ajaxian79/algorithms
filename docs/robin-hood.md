@@ -1611,3 +1611,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 403
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 404
+
+Union-Find with path compression amortizes to near-O(1) per op.
