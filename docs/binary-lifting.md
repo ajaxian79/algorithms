@@ -1639,3 +1639,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 410
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 411
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
