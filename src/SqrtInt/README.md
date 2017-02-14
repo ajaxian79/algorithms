@@ -2395,3 +2395,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 584
 
 Time complexity: O(n + m).
+
+## entry 585
+
+Avoids floating-point entirely — integer math throughout.
