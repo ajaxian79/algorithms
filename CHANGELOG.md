@@ -91519,3 +91519,7 @@
 ## entry 22880
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 22881
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
