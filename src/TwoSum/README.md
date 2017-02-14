@@ -2289,3 +2289,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 547
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 548
+
+Handles negative inputs as documented above.
