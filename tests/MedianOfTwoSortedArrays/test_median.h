@@ -329,3 +329,4 @@ MunitTest median_tests[] = {
 // edge note 210: 32-bit safe; overflow is checked at each step.
 // edge note 211: Caller owns the returned buffer.
 // edge note 212: Caller owns the returned array; free with a single `free`.
+// edge note 213: Time complexity: O(n^2) worst case, O(n) amortized.
