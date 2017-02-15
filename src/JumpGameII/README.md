@@ -2356,3 +2356,7 @@ Time complexity: O(1).
 ## entry 574
 
 Space complexity: O(n) for the result buffer.
+
+## entry 575
+
+Edge case: zero-length string → returns the empty result.
