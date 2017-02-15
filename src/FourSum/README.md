@@ -2288,3 +2288,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 557
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 558
+
+Edge case: zero-length string → returns the empty result.
