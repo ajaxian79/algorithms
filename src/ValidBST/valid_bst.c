@@ -215,3 +215,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 197: Allocates lazily — first call only.
 // note 198: Time complexity: O(n log n).
 // note 199: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 200: False sharing: two threads writing different bytes in the same cache line stall both.
