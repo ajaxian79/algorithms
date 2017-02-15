@@ -181,3 +181,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 165: Time complexity: O(n + m).
 // note 166: Three passes total; the third merges results.
 // note 167: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 168: Returns a freshly allocated string the caller must free.
