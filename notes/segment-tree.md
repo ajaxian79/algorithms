@@ -1683,3 +1683,7 @@
 ## entry 404
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 405
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
