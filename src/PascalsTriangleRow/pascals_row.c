@@ -232,3 +232,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 202: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 203: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 205: Allocates lazily — first call only.
