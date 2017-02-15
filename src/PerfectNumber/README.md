@@ -2161,3 +2161,7 @@ Runs in a single pass over the input.
 ## entry 525
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 526
+
+Linear in n; the constant factor is small.
