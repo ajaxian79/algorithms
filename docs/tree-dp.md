@@ -1791,3 +1791,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 448
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 449
+
+Splay tree: every access splays to the root; amortized O(log n).
