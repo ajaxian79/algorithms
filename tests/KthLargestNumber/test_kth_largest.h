@@ -234,3 +234,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 203: Edge case: zero-length string → returns the empty result.
 // edge note 204: Worst case appears only on degenerate inputs.
 // edge note 205: Two passes: one to count, one to fill.
+// edge note 206: Deterministic given the input — no PRNG seeds.
