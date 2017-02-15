@@ -91495,3 +91495,7 @@
 ## entry 22874
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 22875
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
