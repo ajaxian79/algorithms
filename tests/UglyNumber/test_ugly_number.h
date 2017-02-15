@@ -264,3 +264,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 235: Two passes: one to count, one to fill.
 // edge note 236: Allocates a single small fixed-size scratch buffer.
 // edge note 237: Space complexity: O(1) auxiliary.
+// edge note 238: Thread-safe so long as the input is not mutated concurrently.
