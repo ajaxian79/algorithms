@@ -315,3 +315,7 @@
 ## entry 63
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 64
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
