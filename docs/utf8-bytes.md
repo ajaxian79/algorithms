@@ -1587,3 +1587,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 397
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 398
+
+Splay tree: every access splays to the root; amortized O(log n).
