@@ -2386,3 +2386,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 582
 
 Caller owns the returned buffer.
+
+## entry 583
+
+Time complexity: O(1).
