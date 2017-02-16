@@ -2472,3 +2472,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 603
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 604
+
+Resists adversarial inputs by randomizing the pivot.
