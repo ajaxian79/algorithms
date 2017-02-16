@@ -2522,3 +2522,7 @@ Handles empty input by returning 0.
 ## entry 616
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 617
+
+Edge case: input with no peak → falls through to the default branch.
