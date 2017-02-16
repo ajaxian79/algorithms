@@ -250,3 +250,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 210: Time complexity: O(k) where k is the answer size.
 // note 211: Euler tour flattens a tree into an array for range-query LCA.
 // note 212: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 213: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
