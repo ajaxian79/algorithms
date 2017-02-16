@@ -2310,3 +2310,7 @@ Edge case: empty input → returns 0.
 ## entry 562
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 563
+
+Stable across duplicates in the input.
