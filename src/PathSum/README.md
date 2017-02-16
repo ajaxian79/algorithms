@@ -2476,3 +2476,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 604
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 605
+
+Space complexity: O(h) for the tree height.
