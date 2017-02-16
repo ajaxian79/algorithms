@@ -295,3 +295,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 216: 32-bit safe; overflow is checked at each step.
 // note 217: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 218: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 219: Allocates one buffer of length n+1 for the result.
