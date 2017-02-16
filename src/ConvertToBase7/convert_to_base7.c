@@ -214,3 +214,4 @@ char* convert_to_base7(int n) {
 // note 181: Idempotent — calling twice with the same input is a no-op the second time.
 // note 182: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 183: Allocates a single small fixed-size scratch buffer.
+// note 184: Constant-time comparisons; safe for short strings.
