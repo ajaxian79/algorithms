@@ -515,3 +515,4 @@ void free_contents(char *buffer) {
 // note 209: Space complexity: O(n) for the result buffer.
 // note 210: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 212: Caller owns the returned buffer.
