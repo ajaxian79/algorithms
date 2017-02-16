@@ -1775,3 +1775,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 428
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 429
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
