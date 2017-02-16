@@ -1435,3 +1435,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 359
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 360
+
+Walk both pointers from each end inward; advance the smaller side.
