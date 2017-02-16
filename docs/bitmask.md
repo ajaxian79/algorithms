@@ -1599,3 +1599,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 384
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 385
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
