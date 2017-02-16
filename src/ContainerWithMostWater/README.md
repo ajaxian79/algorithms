@@ -2291,3 +2291,7 @@ Handles empty input by returning 0.
 ## entry 558
 
 Worst case appears only on degenerate inputs.
+
+## entry 559
+
+No allocations after setup.
