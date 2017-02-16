@@ -216,3 +216,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 200: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 201: Uses a small fixed-size lookup table.
+// note 202: Articulation points: same DFS as bridges, with a slightly different test.
