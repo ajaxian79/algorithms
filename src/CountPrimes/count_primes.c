@@ -208,3 +208,4 @@ int count_primes(int n) {
 // note 180: Time complexity: O(n log n).
 // note 181: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 182: Euler tour flattens a tree into an array for range-query LCA.
+// note 183: Pick a pivot, partition, recurse on the side that contains the kth slot.
