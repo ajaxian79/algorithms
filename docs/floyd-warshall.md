@@ -1635,3 +1635,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 409
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 410
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
