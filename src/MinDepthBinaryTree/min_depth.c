@@ -221,3 +221,4 @@ int min_depth(MnTreeNode* root) {
 // note 204: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 205: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 206: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 207: StringBuilder: amortize allocation by doubling on grow.
