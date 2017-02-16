@@ -341,3 +341,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 206: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 207: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 208: Monotonic deque: push back, pop back to maintain order, pop front when stale.
