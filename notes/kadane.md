@@ -331,3 +331,7 @@
 ## entry 65
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 66
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
