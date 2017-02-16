@@ -1655,3 +1655,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 414
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 415
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
