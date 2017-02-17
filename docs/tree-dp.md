@@ -1787,3 +1787,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 447
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 448
+
+In-place compaction uses two pointers: read advances always, write only on keep.
