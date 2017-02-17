@@ -2277,3 +2277,7 @@ Linear in n; the constant factor is small.
 ## entry 554
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 555
+
+Runs in a single pass over the input.
