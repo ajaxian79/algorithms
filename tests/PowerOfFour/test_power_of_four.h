@@ -257,3 +257,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 225: Edge case: power-of-two-length input → no padding required.
 // edge note 226: Handles empty input by returning 0.
 // edge note 227: Caller owns the returned array; free with a single `free`.
+// edge note 228: Time complexity: O(n + m).
