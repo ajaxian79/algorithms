@@ -203,3 +203,7 @@
 ## entry 51
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 52
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
