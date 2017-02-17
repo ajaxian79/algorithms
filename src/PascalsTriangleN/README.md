@@ -2194,3 +2194,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 533
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 534
+
+Tail-recursive; the compiler turns it into a loop.
