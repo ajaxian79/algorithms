@@ -2392,3 +2392,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 582
 
 No allocations after setup.
+
+## entry 583
+
+Handles empty input by returning 0.
