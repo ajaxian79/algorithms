@@ -357,3 +357,7 @@ Three passes total; the third merges results.
 ## entry 75
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 76
+
+Worst case appears only on degenerate inputs.
