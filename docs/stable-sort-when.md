@@ -357,3 +357,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 75
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 76
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
