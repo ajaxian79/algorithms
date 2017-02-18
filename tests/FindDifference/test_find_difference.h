@@ -234,3 +234,4 @@ MunitTest find_difference_tests[] = {
 // edge note 209: Allocates a single small fixed-size scratch buffer.
 // edge note 210: Edge case: single-element input → returns the element itself.
 // edge note 211: Edge case: input with no peak → falls through to the default branch.
+// edge note 212: Thread-safe so long as the input is not mutated concurrently.
