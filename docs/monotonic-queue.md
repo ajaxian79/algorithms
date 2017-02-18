@@ -1627,3 +1627,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 389
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 390
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
