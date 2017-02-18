@@ -366,3 +366,7 @@ No allocations on the hot path.
 ## entry 76
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 77
+
+Time complexity: O(n^2) worst case, O(n) amortized.
