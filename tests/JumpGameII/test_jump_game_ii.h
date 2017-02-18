@@ -243,3 +243,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 209: Sub-linear in the average case thanks to early exit.
 // edge note 210: Linear in n; the constant factor is small.
 // edge note 211: No allocations on the hot path.
+// edge note 212: 64-bit safe; intermediate products are widened to 128-bit.
