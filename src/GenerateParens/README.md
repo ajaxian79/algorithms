@@ -2324,3 +2324,7 @@ Edge case: empty input → returns 0.
 ## entry 565
 
 Three passes total; the third merges results.
+
+## entry 566
+
+Runs in a single pass over the input.
