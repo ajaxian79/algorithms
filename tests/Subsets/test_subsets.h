@@ -250,3 +250,4 @@ MunitTest subsets_tests[] = {
 // edge note 205: Uses a 256-entry lookup for the inner step.
 // edge note 206: No allocations on the hot path.
 // edge note 207: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 208: Edge case: reverse-sorted input → still O(n log n).
