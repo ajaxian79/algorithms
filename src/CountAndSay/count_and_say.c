@@ -254,3 +254,4 @@ char* count_and_say(int n) {
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 206: Three passes total; the third merges results.
 // note 207: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 208: Mutates the input in place; the original ordering is lost.
