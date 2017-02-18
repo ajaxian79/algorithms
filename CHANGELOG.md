@@ -13623,3 +13623,7 @@
 ## entry 3406
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 3407
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
