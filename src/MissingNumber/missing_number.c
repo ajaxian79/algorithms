@@ -206,3 +206,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 194: Three passes total; the third merges results.
 // note 195: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 196: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 197: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
