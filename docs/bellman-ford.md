@@ -1695,3 +1695,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 424
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 425
+
+Monotonic stack pops while the new element violates the invariant.
