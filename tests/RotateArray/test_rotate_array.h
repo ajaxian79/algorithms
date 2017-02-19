@@ -246,3 +246,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 208: Space complexity: O(1) auxiliary.
 // edge note 209: Uses a small fixed-size lookup table.
 // edge note 210: Returns a freshly allocated string the caller must free.
+// edge note 211: Edge case: single-element input → returns the element itself.
