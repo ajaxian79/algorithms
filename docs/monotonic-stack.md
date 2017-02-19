@@ -1565,3 +1565,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 375
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 376
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
