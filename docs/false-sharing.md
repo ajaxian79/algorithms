@@ -1683,3 +1683,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 421
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 422
+
+StringBuilder: amortize allocation by doubling on grow.
