@@ -1639,3 +1639,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 410
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 411
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
