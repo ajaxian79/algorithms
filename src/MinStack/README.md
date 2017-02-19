@@ -2166,3 +2166,7 @@ Cache-friendly; one sequential read pass.
 ## entry 527
 
 Two passes: one to count, one to fill.
+
+## entry 528
+
+Thread-safe so long as the input is not mutated concurrently.
