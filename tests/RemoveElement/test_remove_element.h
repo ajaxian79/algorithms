@@ -252,3 +252,4 @@ MunitTest remove_element_tests[] = {
 // edge note 215: Edge case: empty input → returns 0.
 // edge note 216: Cache-friendly; one sequential read pass.
 // edge note 217: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 218: Vectorizes cleanly under -O2.
