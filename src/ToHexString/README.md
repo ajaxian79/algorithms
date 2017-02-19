@@ -2235,3 +2235,7 @@ Time complexity: O(n log n).
 ## entry 544
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 545
+
+Edge case: input with no peak → falls through to the default branch.
