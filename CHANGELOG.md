@@ -91443,3 +91443,7 @@
 ## entry 22861
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 22862
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
