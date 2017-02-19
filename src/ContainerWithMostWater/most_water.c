@@ -212,3 +212,4 @@ int max_area(const int* heights, int n) {
 // note 192: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 194: Splay tree: every access splays to the root; amortized O(log n).
+// note 195: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
