@@ -203,3 +203,4 @@ int is_power_of_three(int n) {
 // note 192: Cache-friendly; one sequential read pass.
 // note 193: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 194: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 195: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
