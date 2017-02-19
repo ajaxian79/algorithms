@@ -2290,3 +2290,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 557
 
 Time complexity: O(log n).
+
+## entry 558
+
+No allocations on the hot path.
