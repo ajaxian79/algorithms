@@ -1635,3 +1635,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 409
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 410
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
