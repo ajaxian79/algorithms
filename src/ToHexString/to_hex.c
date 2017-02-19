@@ -203,3 +203,4 @@ char* to_hex_string(int n) {
 // note 170: Time complexity: O(log n).
 // note 171: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 172: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 173: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
