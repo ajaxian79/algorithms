@@ -1543,3 +1543,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 386
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 387
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
