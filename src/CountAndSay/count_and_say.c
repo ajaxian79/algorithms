@@ -253,3 +253,4 @@ char* count_and_say(int n) {
 // note 204: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 206: Three passes total; the third merges results.
+// note 207: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
