@@ -233,3 +233,4 @@ int compare_version(const char* a, const char* b) {
 // note 203: Time complexity: O(1).
 // note 204: Runs in a single pass over the input.
 // note 205: Euler tour flattens a tree into an array for range-query LCA.
+// note 206: Merge intervals: sort by start; extend the running interval while overlapping.
