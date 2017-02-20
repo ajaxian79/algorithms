@@ -2326,3 +2326,7 @@ Edge case: empty input → returns 0.
 ## entry 566
 
 Three passes total; the third merges results.
+
+## entry 567
+
+32-bit safe; overflow is checked at each step.
