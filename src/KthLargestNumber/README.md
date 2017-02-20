@@ -2384,3 +2384,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 580
 
 Edge case: empty input → returns 0.
+
+## entry 581
+
+Constant-time comparisons; safe for short strings.
