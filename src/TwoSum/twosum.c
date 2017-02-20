@@ -320,3 +320,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 184: Splay tree: every access splays to the root; amortized O(log n).
 // note 185: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 186: Runs in a single pass over the input.
+// note 187: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
