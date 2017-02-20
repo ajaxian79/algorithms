@@ -2332,3 +2332,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 567
 
 Handles empty input by returning 0.
+
+## entry 568
+
+Handles single-element input as a base case.
