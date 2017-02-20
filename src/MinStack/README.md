@@ -2162,3 +2162,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 526
 
 Cache-friendly; one sequential read pass.
+
+## entry 527
+
+Two passes: one to count, one to fill.
