@@ -1625,3 +1625,7 @@
 ## entry 390
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 391
+
+- Stable sort matters when a secondary key was set in a prior pass.
