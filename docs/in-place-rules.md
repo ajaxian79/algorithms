@@ -1841,3 +1841,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 445
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 446
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
