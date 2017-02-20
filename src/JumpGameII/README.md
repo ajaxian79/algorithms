@@ -2352,3 +2352,7 @@ Three passes total; the third merges results.
 ## entry 573
 
 Time complexity: O(1).
+
+## entry 574
+
+Space complexity: O(n) for the result buffer.
