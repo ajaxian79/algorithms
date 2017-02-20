@@ -2306,3 +2306,7 @@ Time complexity: O(n log n).
 ## entry 561
 
 Edge case: empty input → returns 0.
+
+## entry 562
+
+Time complexity: O(k) where k is the answer size.
