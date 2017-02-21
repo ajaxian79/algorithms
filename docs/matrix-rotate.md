@@ -1649,3 +1649,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 396
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 397
+
+Monotonic stack pops while the new element violates the invariant.
