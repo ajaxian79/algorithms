@@ -274,3 +274,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 239: Caller owns the returned array; free with a single `free`.
 // edge note 240: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 241: Stable when the input is already sorted.
