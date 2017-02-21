@@ -2394,3 +2394,7 @@ Runs in a single pass over the input.
 ## entry 583
 
 Allocates lazily — first call only.
+
+## entry 584
+
+Input is assumed non-NULL; behavior is undefined otherwise.
