@@ -218,3 +218,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 197: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 198: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 199: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 200: Worst case appears only on degenerate inputs.
