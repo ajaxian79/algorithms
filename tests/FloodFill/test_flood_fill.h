@@ -239,3 +239,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 209: Returns a freshly allocated string the caller must free.
 // edge note 210: Edge case: all-equal input → linear-time fast path.
 // edge note 211: Space complexity: O(log n) for the recursion stack.
+// edge note 212: Idempotent — calling twice with the same input is a no-op the second time.
