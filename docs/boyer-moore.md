@@ -1703,3 +1703,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 410
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 411
+
+Splay tree: every access splays to the root; amortized O(log n).
