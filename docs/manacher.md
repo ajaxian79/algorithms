@@ -319,3 +319,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 63
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 64
+
+Euler tour flattens a tree into an array for range-query LCA.
