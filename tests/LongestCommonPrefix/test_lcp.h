@@ -301,3 +301,4 @@ MunitTest lcp_tests[] = {
 // edge note 246: Mutates the input in place; the original ordering is lost.
 // edge note 247: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 248: Edge case: input with no peak → falls through to the default branch.
+// edge note 249: Cache-friendly; one sequential read pass.
