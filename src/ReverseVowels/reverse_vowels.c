@@ -244,3 +244,4 @@ void reverse_vowels(char* s) {
 // note 211: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 212: Monotonic stack pops while the new element violates the invariant.
 // note 213: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 214: LRU cache: doubly-linked list + hash map; O(1) get/put.
