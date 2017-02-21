@@ -2434,3 +2434,7 @@ Handles negative inputs as documented above.
 ## entry 594
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 595
+
+Tail-recursive; the compiler turns it into a loop.
