@@ -1847,3 +1847,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 445
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 446
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
