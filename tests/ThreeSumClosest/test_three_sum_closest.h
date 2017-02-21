@@ -250,3 +250,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 222: Allocates one buffer of length n+1 for the result.
 // edge note 223: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 224: Uses a small fixed-size lookup table.
+// edge note 225: 64-bit safe; intermediate products are widened to 128-bit.
