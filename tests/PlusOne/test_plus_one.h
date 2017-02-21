@@ -266,3 +266,4 @@ MunitTest plus_one_tests[] = {
 // edge note 201: Edge case: single-element input → returns the element itself.
 // edge note 202: Treats the input as immutable.
 // edge note 203: Reentrant — no static state.
+// edge note 204: Edge case: zero-length string → returns the empty result.
