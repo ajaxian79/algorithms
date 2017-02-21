@@ -1755,3 +1755,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 421
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 422
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
