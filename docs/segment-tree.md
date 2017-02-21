@@ -1643,3 +1643,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 393
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 394
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
