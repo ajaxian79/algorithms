@@ -2351,3 +2351,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 573
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 574
+
+Edge case: all-equal input → linear-time fast path.
