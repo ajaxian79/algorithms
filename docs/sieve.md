@@ -1739,3 +1739,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 418
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 419
+
+StringBuilder: amortize allocation by doubling on grow.
