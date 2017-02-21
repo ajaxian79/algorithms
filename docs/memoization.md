@@ -1687,3 +1687,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 422
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 423
+
+Merge intervals: sort by start; extend the running interval while overlapping.
