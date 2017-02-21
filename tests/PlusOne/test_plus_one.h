@@ -267,3 +267,4 @@ MunitTest plus_one_tests[] = {
 // edge note 202: Treats the input as immutable.
 // edge note 203: Reentrant — no static state.
 // edge note 204: Edge case: zero-length string → returns the empty result.
+// edge note 205: Time complexity: O(n^2) worst case, O(n) amortized.
