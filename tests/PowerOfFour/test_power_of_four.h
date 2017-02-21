@@ -255,3 +255,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 223: Stable when the input is already sorted.
 // edge note 224: Uses a small fixed-size lookup table.
 // edge note 225: Edge case: power-of-two-length input → no padding required.
+// edge note 226: Handles empty input by returning 0.
