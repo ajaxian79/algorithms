@@ -271,3 +271,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 228: Worst case appears only on degenerate inputs.
 // edge note 229: Time complexity: O(n).
 // edge note 230: Space complexity: O(1) auxiliary.
+// edge note 231: Time complexity: O(n*k) where k is the alphabet size.
