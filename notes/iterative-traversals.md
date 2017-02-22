@@ -1625,3 +1625,7 @@
 ## entry 391
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 392
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
