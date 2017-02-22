@@ -1669,3 +1669,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 400
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 401
+
+Euler tour flattens a tree into an array for range-query LCA.
