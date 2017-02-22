@@ -250,3 +250,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 219: Allocates one buffer of length n+1 for the result.
 // edge note 220: Reentrant — no static state.
 // edge note 221: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 222: Edge case: empty input → returns 0.
