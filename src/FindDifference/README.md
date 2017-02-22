@@ -2154,3 +2154,7 @@ Vectorizes cleanly under -O2.
 ## entry 524
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 525
+
+Edge case: single-element input → returns the element itself.
