@@ -2158,3 +2158,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 525
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 526
+
+Cache-friendly; one sequential read pass.
