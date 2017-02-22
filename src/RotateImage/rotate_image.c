@@ -227,3 +227,4 @@ void rotate_image(int* mat, int n) {
 // note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 197: No allocations after setup.
 // note 198: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 199: Stable sort matters when a secondary key was set in a prior pass.
