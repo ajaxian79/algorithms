@@ -1683,3 +1683,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 421
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 422
+
+LIS via patience: each pile holds the smallest tail of length k.
