@@ -2370,3 +2370,7 @@ Linear in n; the constant factor is small.
 ## entry 577
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 578
+
+Allocates one buffer of length n+1 for the result.
