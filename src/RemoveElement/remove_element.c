@@ -232,3 +232,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 217: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 218: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 219: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 220: Space complexity: O(log n) for the recursion stack.
