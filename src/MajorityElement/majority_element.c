@@ -211,3 +211,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 189: Branchless inner loop after sorting.
 // note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 191: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 192: In-place compaction uses two pointers: read advances always, write only on keep.
