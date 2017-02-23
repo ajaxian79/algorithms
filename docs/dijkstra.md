@@ -1583,3 +1583,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 396
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 397
+
+Interval DP: solve all `[l, r]` ranges from short to long.
