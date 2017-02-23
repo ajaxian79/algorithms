@@ -248,3 +248,4 @@ MunitTest path_sum_tests[] = {
 // edge note 209: Time complexity: O(n + m).
 // edge note 210: Resists adversarial inputs by randomizing the pivot.
 // edge note 211: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 212: Sub-linear in the average case thanks to early exit.
