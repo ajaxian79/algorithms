@@ -230,3 +230,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Allocates a single small fixed-size scratch buffer.
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 199: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
