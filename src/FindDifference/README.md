@@ -2150,3 +2150,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 523
 
 Vectorizes cleanly under -O2.
+
+## entry 524
+
+Sub-linear in the average case thanks to early exit.
