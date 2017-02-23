@@ -2390,3 +2390,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 582
 
 Runs in a single pass over the input.
+
+## entry 583
+
+Allocates lazily — first call only.
