@@ -263,3 +263,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 204: Allocates a single small fixed-size scratch buffer.
 // note 205: Time complexity: O(n*k) where k is the alphabet size.
 // note 206: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 207: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
