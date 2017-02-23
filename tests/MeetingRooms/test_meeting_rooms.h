@@ -249,3 +249,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 219: Allocates one buffer of length n+1 for the result.
 // edge note 220: Reentrant — no static state.
+// edge note 221: Edge case: NULL input is rejected by the caller, not by us.
