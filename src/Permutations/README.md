@@ -2488,3 +2488,7 @@ Handles negative inputs as documented above.
 ## entry 607
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 608
+
+Deterministic given the input — no PRNG seeds.
