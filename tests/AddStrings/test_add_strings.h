@@ -263,3 +263,4 @@ MunitTest add_strings_tests[] = {
 // edge note 227: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 228: Time complexity: O(1).
 // edge note 229: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 230: Vectorizes cleanly under -O2.
