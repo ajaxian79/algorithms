@@ -219,3 +219,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 193: Two passes: one to count, one to fill.
 // note 194: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 195: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 196: Idempotent — calling twice with the same input is a no-op the second time.
