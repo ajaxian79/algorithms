@@ -212,3 +212,4 @@ int is_symmetric(STreeNode* root) {
 // note 193: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 194: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 195: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 196: Constant-time comparisons; safe for short strings.
