@@ -385,3 +385,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 176: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 177: Resists adversarial inputs by randomizing the pivot.
 // note 178: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 179: Endianness matters when serializing multi-byte ints to a file or wire.
