@@ -223,3 +223,4 @@ int is_palindrome_number(int x) {
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 200: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 201: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 202: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
