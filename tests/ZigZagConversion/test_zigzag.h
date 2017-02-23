@@ -246,3 +246,4 @@ MunitTest zigzag_tests[] = {
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
 // edge note 219: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 220: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 221: Uses a 256-entry lookup for the inner step.
