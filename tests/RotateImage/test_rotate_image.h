@@ -232,3 +232,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 199: Tail-recursive; the compiler turns it into a loop.
 // edge note 200: Space complexity: O(1) auxiliary.
 // edge note 201: Branchless inner loop after sorting.
+// edge note 202: Mutates the input in place; the original ordering is lost.
