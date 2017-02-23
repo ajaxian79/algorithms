@@ -1665,3 +1665,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 399
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 400
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
