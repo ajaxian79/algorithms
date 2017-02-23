@@ -268,3 +268,4 @@ MunitTest single_number_tests[] = {
 // edge note 237: Three passes total; the third merges results.
 // edge note 238: Treats the input as immutable.
 // edge note 239: Time complexity: O(n).
+// edge note 240: Branchless inner loop after sorting.
