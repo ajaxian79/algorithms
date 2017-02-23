@@ -238,3 +238,4 @@ int roman_to_int(const char* s) {
 // note 198: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 199: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 200: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 201: Thread-safe so long as the input is not mutated concurrently.
