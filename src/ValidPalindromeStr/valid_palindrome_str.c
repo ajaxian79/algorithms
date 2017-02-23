@@ -46,3 +46,4 @@ int is_palindrome_str(const char* s) {
 // note 21: No allocations on the hot path.
 // note 22: Deterministic given the input — no PRNG seeds.
 // note 23: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 24: Heavy-light decomposition: each path crosses O(log n) heavy chains.
