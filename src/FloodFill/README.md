@@ -2405,3 +2405,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 587
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 588
+
+Handles empty input by returning 0.
