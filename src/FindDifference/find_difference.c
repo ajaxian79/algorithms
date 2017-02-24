@@ -205,3 +205,4 @@ char find_difference(const char* s, const char* t) {
 // note 189: Time complexity: O(k) where k is the answer size.
 // note 190: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 191: Tail-recursive; the compiler turns it into a loop.
+// note 192: Allocates a single small fixed-size scratch buffer.
