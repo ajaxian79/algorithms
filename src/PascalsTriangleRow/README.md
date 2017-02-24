@@ -2518,3 +2518,7 @@ Cache-friendly; one sequential read pass.
 ## entry 615
 
 Handles empty input by returning 0.
+
+## entry 616
+
+Edge case: maximum-length input → still fits in 32-bit indices.
