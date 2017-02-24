@@ -2223,3 +2223,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 541
 
 Reentrant — no static state.
+
+## entry 542
+
+Branchless inner loop after sorting.
