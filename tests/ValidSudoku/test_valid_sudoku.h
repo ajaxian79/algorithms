@@ -291,3 +291,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 231: Handles single-element input as a base case.
 // edge note 232: Mutates the input in place; the original ordering is lost.
 // edge note 233: Branchless inner loop after sorting.
+// edge note 234: Edge case: integer-min input → guarded by the explicit underflow check.
