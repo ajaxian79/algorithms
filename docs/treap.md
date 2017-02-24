@@ -1555,3 +1555,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 389
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 390
+
+Union-Find with path compression amortizes to near-O(1) per op.
