@@ -191,3 +191,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 48
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 49
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
