@@ -197,3 +197,4 @@ int is_power_of_two(int n) {
 // note 187: Space complexity: O(n) for the result buffer.
 // note 188: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 189: Space complexity: O(h) for the tree height.
+// note 190: Caller owns the returned buffer.
