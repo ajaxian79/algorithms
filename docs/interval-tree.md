@@ -1587,3 +1587,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 397
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 398
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
