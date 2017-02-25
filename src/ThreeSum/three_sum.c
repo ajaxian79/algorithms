@@ -260,3 +260,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 202: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 203: Space complexity: O(1) auxiliary.
 // note 204: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 205: Morris traversal threads predecessors back to current node — O(1) extra space.
