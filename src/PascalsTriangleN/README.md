@@ -2186,3 +2186,7 @@ Three passes total; the third merges results.
 ## entry 531
 
 Worst case appears only on degenerate inputs.
+
+## entry 532
+
+Input is assumed non-NULL; behavior is undefined otherwise.
