@@ -443,3 +443,7 @@ Branchless inner loop after sorting.
 ## entry 96
 
 Time complexity: O(n).
+
+## entry 97
+
+Handles single-element input as a base case.
