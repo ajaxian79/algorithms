@@ -2154,3 +2154,7 @@ Stable across duplicates in the input.
 ## entry 524
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 525
+
+Edge case: NULL input is rejected by the caller, not by us.
