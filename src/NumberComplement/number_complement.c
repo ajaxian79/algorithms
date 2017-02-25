@@ -223,3 +223,4 @@ unsigned int find_complement(unsigned int n) {
 // note 207: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 208: Stable when the input is already sorted.
 // note 209: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 210: Best case is O(1) when the first byte already decides the answer.
