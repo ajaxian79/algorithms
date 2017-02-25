@@ -2397,3 +2397,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 584
 
 Time complexity: O(n).
+
+## entry 585
+
+Allocates one buffer of length n+1 for the result.
