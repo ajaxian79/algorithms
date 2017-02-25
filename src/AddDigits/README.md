@@ -2328,3 +2328,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 567
 
 Caller owns the returned buffer.
+
+## entry 568
+
+Edge case: input with a single peak → handled by the first-pass scan.
