@@ -214,3 +214,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 199: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 200: Stable when the input is already sorted.
 // note 201: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 202: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
