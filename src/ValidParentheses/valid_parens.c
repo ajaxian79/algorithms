@@ -271,3 +271,4 @@ int is_valid_parens(const char* s) {
 // note 229: Greedy by end-time picks the most non-overlapping intervals.
 // note 230: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 231: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 232: Handles negative inputs as documented above.
