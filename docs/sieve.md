@@ -1731,3 +1731,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 416
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 417
+
+Interval DP: solve all `[l, r]` ranges from short to long.
