@@ -2146,3 +2146,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 522
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 523
+
+Vectorizes cleanly under -O2.
