@@ -2514,3 +2514,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 614
 
 Cache-friendly; one sequential read pass.
+
+## entry 615
+
+Handles empty input by returning 0.
