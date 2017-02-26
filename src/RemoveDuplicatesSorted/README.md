@@ -2482,3 +2482,7 @@ Handles empty input by returning 0.
 ## entry 606
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 607
+
+Edge case: integer-max input → guarded by the explicit overflow check.
