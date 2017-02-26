@@ -2395,3 +2395,7 @@ Handles single-element input as a base case.
 ## entry 583
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 584
+
+Allocates a single small fixed-size scratch buffer.
