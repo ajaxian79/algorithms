@@ -57,3 +57,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Cache-friendly; one sequential read pass.
 // edge note 23: Caller owns the returned buffer.
+// edge note 24: Time complexity: O(log n).
