@@ -269,3 +269,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 236: Avoids floating-point entirely — integer math throughout.
 // edge note 237: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 239: Treats the input as immutable.
