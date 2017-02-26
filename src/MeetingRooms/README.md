@@ -2270,3 +2270,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 553
 
 No allocations on the hot path.
+
+## entry 554
+
+Edge case: zero-length string → returns the empty result.
