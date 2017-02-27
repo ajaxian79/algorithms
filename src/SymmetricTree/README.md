@@ -2214,3 +2214,7 @@ Stable across duplicates in the input.
 ## entry 539
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 540
+
+Three passes total; the third merges results.
