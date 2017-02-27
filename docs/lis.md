@@ -1803,3 +1803,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 434
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 435
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
