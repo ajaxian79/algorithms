@@ -1799,3 +1799,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 433
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 434
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
