@@ -2381,3 +2381,7 @@ Allocates lazily — first call only.
 ## entry 580
 
 Edge case: empty input → returns 0.
+
+## entry 581
+
+Edge case: input of all the same byte → exits on the first compare.
