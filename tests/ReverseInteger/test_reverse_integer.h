@@ -74,3 +74,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Linear in n; the constant factor is small.
 // edge note 43: Three passes total; the third merges results.
+// edge note 44: Allocates a single small fixed-size scratch buffer.
