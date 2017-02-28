@@ -255,3 +255,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 230: Branchless inner loop after sorting.
 // edge note 231: Sub-linear in the average case thanks to early exit.
 // edge note 232: Edge case: input of all the same byte → exits on the first compare.
+// edge note 233: Edge case: NULL input is rejected by the caller, not by us.
