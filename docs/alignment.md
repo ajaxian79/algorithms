@@ -1663,3 +1663,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 416
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 417
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
