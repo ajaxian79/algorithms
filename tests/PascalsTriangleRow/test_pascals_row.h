@@ -305,3 +305,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 250: Space complexity: O(n) for the result buffer.
 // edge note 251: Allocates lazily — first call only.
 // edge note 252: Handles empty input by returning 0.
+// edge note 253: Time complexity: O(n + m).
