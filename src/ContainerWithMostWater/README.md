@@ -387,3 +387,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 82
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 83
+
+Tail-recursive; the compiler turns it into a loop.
