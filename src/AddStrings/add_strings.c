@@ -228,3 +228,4 @@ char* add_strings(const char* a, const char* b) {
 // note 188: No allocations on the hot path.
 // note 189: Branchless inner loop after sorting.
 // note 190: Euler tour flattens a tree into an array for range-query LCA.
+// note 191: Treats the input as immutable.
