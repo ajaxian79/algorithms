@@ -251,3 +251,4 @@ MunitTest count_primes_tests[] = {
 // edge note 223: Edge case: empty input → returns 0.
 // edge note 224: Uses a small fixed-size lookup table.
 // edge note 225: Handles empty input by returning 0.
+// edge note 226: Handles empty input by returning 0.
