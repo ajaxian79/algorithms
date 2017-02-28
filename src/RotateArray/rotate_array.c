@@ -53,3 +53,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 28: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 29: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 30: Cache-friendly; one sequential read pass.
+// note 31: Best case is O(1) when the first byte already decides the answer.
