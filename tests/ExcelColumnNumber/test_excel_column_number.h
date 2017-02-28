@@ -269,3 +269,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 239: Mutates the input in place; the original ordering is lost.
 // edge note 240: Uses a small fixed-size lookup table.
 // edge note 241: Worst case appears only on degenerate inputs.
+// edge note 242: Linear in n; the constant factor is small.
