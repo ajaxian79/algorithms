@@ -2150,3 +2150,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 513
 
 Caller owns the returned buffer.
+
+## entry 514
+
+Edge case: all-equal input → linear-time fast path.
