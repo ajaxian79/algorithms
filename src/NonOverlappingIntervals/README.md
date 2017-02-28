@@ -2333,3 +2333,7 @@ Cache-friendly; one sequential read pass.
 ## entry 568
 
 Constant-time comparisons; safe for short strings.
+
+## entry 569
+
+Edge case: input with one duplicate → handled without an extra pass.
