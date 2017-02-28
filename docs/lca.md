@@ -1603,3 +1603,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 401
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 402
+
+False sharing: two threads writing different bytes in the same cache line stall both.
