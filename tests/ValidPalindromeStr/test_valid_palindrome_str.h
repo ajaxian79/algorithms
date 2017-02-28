@@ -243,3 +243,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 216: Constant-time comparisons; safe for short strings.
 // edge note 217: Branchless inner loop after sorting.
 // edge note 218: Time complexity: O(log n).
+// edge note 219: Edge case: integer-min input → guarded by the explicit underflow check.
