@@ -415,3 +415,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 89
 
 Handles single-element input as a base case.
+
+## entry 90
+
+Allocates a single small fixed-size scratch buffer.
