@@ -1591,3 +1591,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 382
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 383
+
+Rope: tree of small string fragments; O(log n) concat and substring.
