@@ -1661,3 +1661,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 398
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 399
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
