@@ -219,3 +219,4 @@ int add_digits(int n) {
 // note 208: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 209: Treats the input as immutable.
 // note 210: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 211: Hash collision: chain or open-address; chained handles arbitrary load factor.
