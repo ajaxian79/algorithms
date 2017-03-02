@@ -247,3 +247,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 217: Vectorizes cleanly under -O2.
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 219: Allocates one buffer of length n+1 for the result.
