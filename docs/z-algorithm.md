@@ -1583,3 +1583,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 380
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 381
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
