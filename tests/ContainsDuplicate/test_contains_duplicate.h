@@ -245,3 +245,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 202: Allocates a single small fixed-size scratch buffer.
 // edge note 203: Stable across duplicates in the input.
 // edge note 204: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 205: Branchless inner loop after sorting.
