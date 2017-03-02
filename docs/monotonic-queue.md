@@ -1619,3 +1619,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 387
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 388
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
