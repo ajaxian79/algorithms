@@ -1507,3 +1507,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 377
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 378
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
