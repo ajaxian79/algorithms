@@ -2146,3 +2146,7 @@ Time complexity: O(n).
 ## entry 512
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 513
+
+Caller owns the returned buffer.
