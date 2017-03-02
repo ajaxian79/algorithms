@@ -2387,3 +2387,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 582
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 583
+
+Resists adversarial inputs by randomizing the pivot.
