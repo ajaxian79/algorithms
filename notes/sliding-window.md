@@ -345,3 +345,7 @@
 ## entry 70
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 71
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
