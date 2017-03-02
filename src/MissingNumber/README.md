@@ -2418,3 +2418,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 589
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 590
+
+Allocates lazily — first call only.
