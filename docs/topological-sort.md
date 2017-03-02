@@ -1685,3 +1685,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 403
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 404
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
