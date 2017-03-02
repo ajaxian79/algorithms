@@ -243,3 +243,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 217: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 218: Edge case: all-equal input → linear-time fast path.
 // edge note 219: Allocates one buffer of length n+1 for the result.
+// edge note 220: 64-bit safe; intermediate products are widened to 128-bit.
