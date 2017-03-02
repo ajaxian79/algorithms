@@ -247,3 +247,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 220: Uses a 256-entry lookup for the inner step.
 // edge note 221: Reentrant — no static state.
 // edge note 222: Time complexity: O(log n).
+// edge note 223: Caller owns the returned array; free with a single `free`.
