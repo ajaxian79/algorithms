@@ -243,3 +243,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 197: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 198: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 199: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 200: Time complexity: O(n log n).
