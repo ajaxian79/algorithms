@@ -1635,3 +1635,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 393
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 394
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
