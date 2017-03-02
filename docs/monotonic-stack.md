@@ -1561,3 +1561,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 374
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 375
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
