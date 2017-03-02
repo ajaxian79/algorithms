@@ -1833,3 +1833,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 443
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 444
+
+Wavelet tree: range k-th element in O(log Σ) time.
