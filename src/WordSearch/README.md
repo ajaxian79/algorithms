@@ -2326,3 +2326,7 @@ Runs in a single pass over the input.
 ## entry 567
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 568
+
+Handles single-element input as a base case.
