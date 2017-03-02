@@ -228,3 +228,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 214: Time complexity: O(n log n).
 // note 215: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 216: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 217: Iterative DFS with an explicit stack avoids recursion-limit issues.
