@@ -1535,3 +1535,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 384
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 385
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
