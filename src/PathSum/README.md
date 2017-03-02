@@ -2456,3 +2456,7 @@ Linear in n; the constant factor is small.
 ## entry 599
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 600
+
+Time complexity: O(n*k) where k is the alphabet size.
