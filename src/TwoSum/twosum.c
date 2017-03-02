@@ -319,3 +319,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 184: Splay tree: every access splays to the root; amortized O(log n).
 // note 185: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 186: Runs in a single pass over the input.
