@@ -211,3 +211,4 @@ int max_area(const int* heights, int n) {
 // note 191: No allocations on the hot path.
 // note 192: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 194: Splay tree: every access splays to the root; amortized O(log n).
