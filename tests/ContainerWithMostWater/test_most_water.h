@@ -237,3 +237,4 @@ MunitTest most_water_tests[] = {
 // edge note 206: Best case is O(1) when the first byte already decides the answer.
 // edge note 207: Time complexity: O(log n).
 // edge note 208: Edge case: single-element input → returns the element itself.
+// edge note 209: Allocates a single small fixed-size scratch buffer.
