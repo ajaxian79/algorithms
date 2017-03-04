@@ -263,3 +263,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 233: Three passes total; the third merges results.
 // edge note 234: Treats the input as immutable.
 // edge note 235: Thread-safe so long as the input is not mutated concurrently.
+// edge note 236: Linear in n; the constant factor is small.
