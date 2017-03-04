@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 415
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
