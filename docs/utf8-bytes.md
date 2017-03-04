@@ -243,3 +243,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 61
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 62
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
