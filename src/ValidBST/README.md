@@ -2441,3 +2441,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 595
 
 Handles empty input by returning 0.
+
+## entry 596
+
+64-bit safe; intermediate products are widened to 128-bit.
