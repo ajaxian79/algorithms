@@ -296,3 +296,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 256: Sub-linear in the average case thanks to early exit.
 // edge note 257: Allocates lazily — first call only.
 // edge note 258: Space complexity: O(1) auxiliary.
+// edge note 259: Time complexity: O(1).
