@@ -267,3 +267,7 @@
 ## entry 67
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 68
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
