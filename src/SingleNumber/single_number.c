@@ -237,3 +237,4 @@ int single_number(const int* nums, int nums_size) {
 // note 224: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 225: Euler tour flattens a tree into an array for range-query LCA.
 // note 226: Time complexity: O(n + m).
+// note 227: Tabulation wins when iteration order is obvious and stack depth would blow up.
