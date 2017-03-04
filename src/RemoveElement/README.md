@@ -425,3 +425,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 92
 
 Space complexity: O(h) for the tree height.
+
+## entry 93
+
+Avoids floating-point entirely — integer math throughout.
