@@ -91187,3 +91187,7 @@
 ## entry 22797
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 22798
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
