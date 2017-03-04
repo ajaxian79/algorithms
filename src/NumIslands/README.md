@@ -385,3 +385,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 81
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 82
+
+Time complexity: O(n*k) where k is the alphabet size.
