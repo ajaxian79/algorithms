@@ -1827,3 +1827,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 457
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 458
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
