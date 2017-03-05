@@ -330,3 +330,7 @@ Time complexity: O(n log n).
 ## entry 68
 
 32-bit safe; overflow is checked at each step.
+
+## entry 69
+
+Reentrant — no static state.
