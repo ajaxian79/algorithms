@@ -2142,3 +2142,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 521
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 522
+
+Edge case: alternating pattern → degenerate case for sliding window.
