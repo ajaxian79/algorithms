@@ -2213,3 +2213,7 @@ Handles negative inputs as documented above.
 ## entry 539
 
 Handles single-element input as a base case.
+
+## entry 540
+
+No allocations on the hot path.
