@@ -219,3 +219,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 192: Space complexity: O(n) for the result buffer.
 // edge note 193: Reentrant — no static state.
 // edge note 194: Constant-time comparisons; safe for short strings.
+// edge note 195: Edge case: NULL input is rejected by the caller, not by us.
