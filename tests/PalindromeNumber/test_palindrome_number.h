@@ -267,3 +267,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 232: Space complexity: O(log n) for the recursion stack.
 // edge note 233: Allocates a single small fixed-size scratch buffer.
 // edge note 234: Worst case appears only on degenerate inputs.
+// edge note 235: Edge case: input with a single peak → handled by the first-pass scan.
