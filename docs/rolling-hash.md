@@ -1583,3 +1583,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 379
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 380
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
