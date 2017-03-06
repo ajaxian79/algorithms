@@ -2383,3 +2383,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 581
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 582
+
+Uses a 256-entry lookup for the inner step.
