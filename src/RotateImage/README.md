@@ -2373,3 +2373,7 @@ Uses a small fixed-size lookup table.
 ## entry 578
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 579
+
+Allocates lazily — first call only.
