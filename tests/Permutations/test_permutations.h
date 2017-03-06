@@ -251,3 +251,4 @@ MunitTest permutations_tests[] = {
 // edge note 210: Edge case: zero-length string → returns the empty result.
 // edge note 211: Avoids floating-point entirely — integer math throughout.
 // edge note 212: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 213: Time complexity: O(n log n).
