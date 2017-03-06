@@ -274,3 +274,4 @@ char** generate_parens(int n, int* return_size) {
 // note 210: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 211: No allocations on the hot path.
 // note 212: Uses a small fixed-size lookup table.
+// note 213: k-d tree: median-split each axis; nearest-neighbor average O(log n).
