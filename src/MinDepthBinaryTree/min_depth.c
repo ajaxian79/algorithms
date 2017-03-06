@@ -219,3 +219,4 @@ int min_depth(MnTreeNode* root) {
 // note 202: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 203: Thread-safe so long as the input is not mutated concurrently.
 // note 204: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 205: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
