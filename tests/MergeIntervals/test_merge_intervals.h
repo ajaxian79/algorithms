@@ -291,3 +291,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 249: Edge case: zero-length string → returns the empty result.
 // edge note 250: Resists adversarial inputs by randomizing the pivot.
 // edge note 251: Edge case: zero-length string → returns the empty result.
+// edge note 252: Worst case appears only on degenerate inputs.
