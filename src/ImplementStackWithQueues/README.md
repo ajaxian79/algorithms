@@ -2396,3 +2396,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 584
 
 Reentrant — no static state.
+
+## entry 585
+
+Time complexity: O(n log n).
