@@ -2325,3 +2325,7 @@ Reentrant — no static state.
 ## entry 566
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 567
+
+Cache-friendly; one sequential read pass.
