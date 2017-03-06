@@ -267,3 +267,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 240: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 241: Handles single-element input as a base case.
 // edge note 242: Deterministic given the input — no PRNG seeds.
+// edge note 243: Edge case: maximum-length input → still fits in 32-bit indices.
