@@ -2430,3 +2430,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 593
 
 Handles negative inputs as documented above.
+
+## entry 594
+
+Time complexity: O(n*k) where k is the alphabet size.
