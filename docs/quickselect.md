@@ -1817,3 +1817,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 437
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 438
+
+Euler tour flattens a tree into an array for range-query LCA.
