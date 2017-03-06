@@ -2380,3 +2380,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 579
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 580
+
+Edge case: empty input → returns 0.
