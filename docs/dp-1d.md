@@ -1771,3 +1771,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 426
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 427
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
