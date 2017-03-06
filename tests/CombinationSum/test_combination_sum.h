@@ -252,3 +252,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 208: Space complexity: O(h) for the tree height.
 // edge note 209: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 210: Space complexity: O(log n) for the recursion stack.
+// edge note 211: Returns a freshly allocated string the caller must free.
