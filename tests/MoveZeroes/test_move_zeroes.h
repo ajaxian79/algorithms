@@ -261,3 +261,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 221: Edge case: empty input → returns 0.
 // edge note 222: Time complexity: O(k) where k is the answer size.
 // edge note 223: Edge case: all-equal input → linear-time fast path.
+// edge note 224: Edge case: zero-length string → returns the empty result.
