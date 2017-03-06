@@ -2510,3 +2510,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 613
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 614
+
+Cache-friendly; one sequential read pass.
