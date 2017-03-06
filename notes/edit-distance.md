@@ -1685,3 +1685,7 @@
 ## entry 403
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 404
+
+- Splay tree: every access splays to the root; amortized O(log n).
