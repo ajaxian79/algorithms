@@ -233,3 +233,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 202: Allocates a single small fixed-size scratch buffer.
 // edge note 203: Edge case: zero-length string → returns the empty result.
 // edge note 204: Worst case appears only on degenerate inputs.
+// edge note 205: Two passes: one to count, one to fill.
