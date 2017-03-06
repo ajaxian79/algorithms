@@ -2268,3 +2268,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 553
 
 No allocations after setup.
+
+## entry 554
+
+Edge case: input of all the same byte → exits on the first compare.
