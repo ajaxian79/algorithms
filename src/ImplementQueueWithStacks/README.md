@@ -2379,3 +2379,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 580
 
 Branchless inner loop after sorting.
+
+## entry 581
+
+Edge case: zero-length string → returns the empty result.
