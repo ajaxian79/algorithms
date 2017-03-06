@@ -1583,3 +1583,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 396
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 397
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
