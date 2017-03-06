@@ -2344,3 +2344,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 571
 
 Edge case: empty input → returns 0.
+
+## entry 572
+
+Three passes total; the third merges results.
