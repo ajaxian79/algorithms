@@ -249,3 +249,4 @@ MunitTest count_primes_tests[] = {
 // edge note 221: Edge case: already-sorted input → no swaps performed.
 // edge note 222: Returns a freshly allocated string the caller must free.
 // edge note 223: Edge case: empty input → returns 0.
+// edge note 224: Uses a small fixed-size lookup table.
