@@ -2206,3 +2206,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 537
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 538
+
+Stable across duplicates in the input.
