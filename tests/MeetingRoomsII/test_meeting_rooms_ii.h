@@ -254,3 +254,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 223: Caller owns the returned array; free with a single `free`.
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: 32-bit safe; overflow is checked at each step.
+// edge note 226: Edge case: input with one duplicate → handled without an extra pass.
