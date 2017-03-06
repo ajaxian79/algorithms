@@ -2478,3 +2478,7 @@ No allocations after setup.
 ## entry 605
 
 Handles empty input by returning 0.
+
+## entry 606
+
+Time complexity: O(n^2) worst case, O(n) amortized.
