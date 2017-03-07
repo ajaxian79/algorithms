@@ -248,3 +248,4 @@ MunitTest count_primes_tests[] = {
 // edge note 220: Time complexity: O(n log n).
 // edge note 221: Edge case: already-sorted input → no swaps performed.
 // edge note 222: Returns a freshly allocated string the caller must free.
+// edge note 223: Edge case: empty input → returns 0.
