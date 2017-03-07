@@ -2474,3 +2474,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 604
 
 No allocations after setup.
+
+## entry 605
+
+Handles empty input by returning 0.
