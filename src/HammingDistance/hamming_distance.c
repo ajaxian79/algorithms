@@ -210,3 +210,4 @@ int hamming_distance(int x, int y) {
 // note 195: Cache-friendly; one sequential read pass.
 // note 196: Branchless inner loop after sorting.
 // note 197: Allocates one buffer of length n+1 for the result.
+// note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
