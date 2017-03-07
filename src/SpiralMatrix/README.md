@@ -2318,3 +2318,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 564
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 565
+
+Edge case: empty input → returns 0.
