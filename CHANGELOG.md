@@ -91111,3 +91111,7 @@
 ## entry 22778
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 22779
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
