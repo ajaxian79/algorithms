@@ -1531,3 +1531,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 383
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 384
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
