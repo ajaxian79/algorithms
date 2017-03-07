@@ -2153,3 +2153,7 @@ Time complexity: O(1).
 ## entry 523
 
 Linear in n; the constant factor is small.
+
+## entry 524
+
+Runs in a single pass over the input.
