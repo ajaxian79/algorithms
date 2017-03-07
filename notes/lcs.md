@@ -1699,3 +1699,7 @@
 ## entry 408
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 409
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
