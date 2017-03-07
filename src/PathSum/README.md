@@ -2452,3 +2452,7 @@ Time complexity: O(n + m).
 ## entry 598
 
 Linear in n; the constant factor is small.
+
+## entry 599
+
+Idempotent — calling twice with the same input is a no-op the second time.
