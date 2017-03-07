@@ -2392,3 +2392,7 @@ Time complexity: O(log n).
 ## entry 583
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 584
+
+Reentrant — no static state.
