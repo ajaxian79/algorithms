@@ -209,3 +209,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 187: Linear in n; the constant factor is small.
 // note 188: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 189: Branchless inner loop after sorting.
+// note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
