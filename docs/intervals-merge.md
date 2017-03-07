@@ -1713,3 +1713,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 411
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 412
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
