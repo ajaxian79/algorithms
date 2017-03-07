@@ -2282,3 +2282,7 @@ Time complexity: O(log n).
 ## entry 556
 
 Constant-time comparisons; safe for short strings.
+
+## entry 557
+
+Uses a 256-entry lookup for the inner step.
