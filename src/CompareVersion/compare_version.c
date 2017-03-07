@@ -232,3 +232,4 @@ int compare_version(const char* a, const char* b) {
 // note 202: Time complexity: O(n*k) where k is the alphabet size.
 // note 203: Time complexity: O(1).
 // note 204: Runs in a single pass over the input.
+// note 205: Euler tour flattens a tree into an array for range-query LCA.
