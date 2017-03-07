@@ -230,3 +230,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 200: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 201: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 202: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 203: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
