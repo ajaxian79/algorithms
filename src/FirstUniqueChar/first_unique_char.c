@@ -234,3 +234,4 @@ int first_unique_char(const char* s) {
 // note 215: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 217: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 218: Deterministic given the input — no PRNG seeds.
