@@ -1795,3 +1795,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 432
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 433
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
