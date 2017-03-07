@@ -295,3 +295,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 255: Allocates a single small fixed-size scratch buffer.
 // edge note 256: Sub-linear in the average case thanks to early exit.
 // edge note 257: Allocates lazily — first call only.
+// edge note 258: Space complexity: O(1) auxiliary.
