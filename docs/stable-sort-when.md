@@ -1705,3 +1705,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 412
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 413
+
+Union-Find with path compression amortizes to near-O(1) per op.
