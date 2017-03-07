@@ -1767,3 +1767,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 426
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 427
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
