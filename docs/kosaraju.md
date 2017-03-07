@@ -1623,3 +1623,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 406
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 407
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
