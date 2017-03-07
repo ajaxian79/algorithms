@@ -1703,3 +1703,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 410
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 411
+
+Monotonic stack pops while the new element violates the invariant.
