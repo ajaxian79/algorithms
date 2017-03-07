@@ -2414,3 +2414,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 588
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 589
+
+Edge case: input of all the same byte → exits on the first compare.
