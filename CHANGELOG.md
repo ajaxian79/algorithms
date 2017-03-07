@@ -91115,3 +91115,7 @@
 ## entry 22779
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 22780
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
