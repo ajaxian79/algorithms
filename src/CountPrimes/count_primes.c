@@ -207,3 +207,4 @@ int count_primes(int n) {
 // note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 180: Time complexity: O(n log n).
 // note 181: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 182: Euler tour flattens a tree into an array for range-query LCA.
