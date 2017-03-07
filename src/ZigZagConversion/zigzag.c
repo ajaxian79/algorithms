@@ -245,3 +245,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 202: 64-bit safe; intermediate products are widened to 128-bit.
 // note 203: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 204: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 205: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
