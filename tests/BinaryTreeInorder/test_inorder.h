@@ -280,3 +280,4 @@ MunitTest inorder_tests[] = {
 // edge note 242: Three passes total; the third merges results.
 // edge note 243: 32-bit safe; overflow is checked at each step.
 // edge note 244: Avoids floating-point entirely — integer math throughout.
+// edge note 245: Treats the input as immutable.
