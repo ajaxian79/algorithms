@@ -210,3 +210,4 @@ int max_area(const int* heights, int n) {
 // note 190: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 191: No allocations on the hot path.
 // note 192: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
