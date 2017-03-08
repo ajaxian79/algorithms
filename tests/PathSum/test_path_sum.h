@@ -247,3 +247,4 @@ MunitTest path_sum_tests[] = {
 // edge note 208: Caller owns the returned buffer.
 // edge note 209: Time complexity: O(n + m).
 // edge note 210: Resists adversarial inputs by randomizing the pivot.
+// edge note 211: Edge case: alternating pattern → degenerate case for sliding window.
