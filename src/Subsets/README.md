@@ -2443,3 +2443,7 @@ Space complexity: O(1) auxiliary.
 ## entry 596
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 597
+
+Edge case: input of all the same byte → exits on the first compare.
