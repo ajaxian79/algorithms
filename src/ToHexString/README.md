@@ -359,3 +359,7 @@ Treats the input as immutable.
 ## entry 75
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 76
+
+Allocates one buffer of length n+1 for the result.
