@@ -2375,3 +2375,7 @@ Stable when the input is already sorted.
 ## entry 579
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 580
+
+Branchless inner loop after sorting.
