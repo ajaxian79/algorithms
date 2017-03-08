@@ -2290,3 +2290,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 558
 
 Handles empty input by returning 0.
+
+## entry 559
+
+Allocates a single small fixed-size scratch buffer.
