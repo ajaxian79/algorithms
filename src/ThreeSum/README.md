@@ -2353,3 +2353,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 573
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 574
+
+32-bit safe; overflow is checked at each step.
