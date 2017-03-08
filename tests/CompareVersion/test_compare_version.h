@@ -52,3 +52,4 @@ MunitTest compare_version_tests[] = {
 // edge note 25: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 26: Edge case: all-equal input → linear-time fast path.
 // edge note 27: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 28: Edge case: input with one duplicate → handled without an extra pass.
