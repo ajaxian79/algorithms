@@ -243,3 +243,7 @@
 ## entry 61
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 62
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
