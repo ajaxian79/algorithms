@@ -91063,3 +91063,7 @@
 ## entry 22766
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 22767
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
