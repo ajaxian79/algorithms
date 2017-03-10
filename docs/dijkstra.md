@@ -1579,3 +1579,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 395
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 396
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
