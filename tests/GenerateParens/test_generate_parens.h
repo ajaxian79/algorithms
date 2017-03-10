@@ -296,3 +296,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 236: Thread-safe so long as the input is not mutated concurrently.
 // edge note 237: Tail-recursive; the compiler turns it into a loop.
 // edge note 238: Time complexity: O(k) where k is the answer size.
+// edge note 239: Edge case: power-of-two-length input → no padding required.
