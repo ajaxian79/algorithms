@@ -2382,3 +2382,7 @@ Uses a small fixed-size lookup table.
 ## entry 581
 
 Returns a freshly allocated string the caller must free.
+
+## entry 582
+
+Caller owns the returned buffer.
