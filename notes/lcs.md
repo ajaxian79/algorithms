@@ -1695,3 +1695,7 @@
 ## entry 407
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 408
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
