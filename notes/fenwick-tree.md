@@ -1613,3 +1613,7 @@
 ## entry 387
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 388
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
