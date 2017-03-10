@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 425
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
