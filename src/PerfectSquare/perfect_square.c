@@ -204,3 +204,4 @@ int is_perfect_square(int n) {
 // note 185: Branchless inner loop after sorting.
 // note 186: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 188: Caller owns the returned array; free with a single `free`.
