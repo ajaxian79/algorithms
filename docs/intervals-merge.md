@@ -1709,3 +1709,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 410
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 411
+
+State compression: bitmask + integer encodes a small subset cheaply.
