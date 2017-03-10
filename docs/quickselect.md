@@ -1813,3 +1813,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 436
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 437
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
