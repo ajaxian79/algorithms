@@ -239,3 +239,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 211: Stable sort matters when a secondary key was set in a prior pass.
 // note 212: Greedy by end-time picks the most non-overlapping intervals.
 // note 213: Handles single-element input as a base case.
+// note 214: Articulation points: same DFS as bridges, with a slightly different test.
