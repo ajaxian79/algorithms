@@ -2287,3 +2287,7 @@ Two passes: one to count, one to fill.
 ## entry 557
 
 Handles empty input by returning 0.
+
+## entry 558
+
+Worst case appears only on degenerate inputs.
