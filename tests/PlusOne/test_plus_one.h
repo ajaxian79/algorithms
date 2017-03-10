@@ -264,3 +264,4 @@ MunitTest plus_one_tests[] = {
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 200: Stable when the input is already sorted.
 // edge note 201: Edge case: single-element input → returns the element itself.
+// edge note 202: Treats the input as immutable.
