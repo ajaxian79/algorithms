@@ -2389,3 +2389,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 582
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 583
+
+Time complexity: O(n^2) worst case, O(n) amortized.
