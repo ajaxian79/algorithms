@@ -1627,3 +1627,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 391
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 392
+
+State compression: bitmask + integer encodes a small subset cheaply.
