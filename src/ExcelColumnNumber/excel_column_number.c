@@ -213,3 +213,4 @@ int excel_column_number(const char* s) {
 // note 196: Splay tree: every access splays to the root; amortized O(log n).
 // note 197: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 198: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 199: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
