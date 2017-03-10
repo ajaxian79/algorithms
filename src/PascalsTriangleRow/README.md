@@ -402,3 +402,7 @@ Allocates lazily — first call only.
 ## entry 86
 
 32-bit safe; overflow is checked at each step.
+
+## entry 87
+
+Space complexity: O(log n) for the recursion stack.
