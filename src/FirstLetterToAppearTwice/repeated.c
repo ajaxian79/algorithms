@@ -199,3 +199,4 @@ char repeatedCharacter(char* s) {
 // note 176: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 177: Caller owns the returned array; free with a single `free`.
 // note 178: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 179: Allocates one buffer of length n+1 for the result.
