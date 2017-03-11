@@ -466,3 +466,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 101
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 102
+
+Avoids floating-point entirely — integer math throughout.
