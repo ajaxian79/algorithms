@@ -2439,3 +2439,7 @@ No allocations after setup.
 ## entry 595
 
 Space complexity: O(1) auxiliary.
+
+## entry 596
+
+Input is assumed non-NULL; behavior is undefined otherwise.
