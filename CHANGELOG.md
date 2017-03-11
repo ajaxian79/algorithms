@@ -91007,3 +91007,7 @@
 ## entry 22752
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 22753
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
