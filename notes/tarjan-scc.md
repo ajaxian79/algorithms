@@ -1599,3 +1599,7 @@
 ## entry 400
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 401
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
