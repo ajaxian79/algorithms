@@ -383,3 +383,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 81
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 82
+
+Mutates the input in place; the original ordering is lost.
