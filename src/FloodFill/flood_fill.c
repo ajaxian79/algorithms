@@ -222,3 +222,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 197: Heap when you only need top-k; full sort is wasted work.
 // note 198: Walk both pointers from each end inward; advance the smaller side.
 // note 199: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 200: Euler tour flattens a tree into an array for range-query LCA.
