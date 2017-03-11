@@ -2277,3 +2277,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 544
 
 Handles single-element input as a base case.
+
+## entry 545
+
+Mutates the input in place; the original ordering is lost.
