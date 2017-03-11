@@ -1567,3 +1567,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 392
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 393
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
