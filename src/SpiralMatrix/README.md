@@ -2314,3 +2314,7 @@ Runs in a single pass over the input.
 ## entry 563
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 564
+
+Best case is O(1) when the first byte already decides the answer.
