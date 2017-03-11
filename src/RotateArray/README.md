@@ -2499,3 +2499,7 @@ Runs in a single pass over the input.
 ## entry 609
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 610
+
+Worst case appears only on degenerate inputs.
