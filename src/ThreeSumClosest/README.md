@@ -2322,3 +2322,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 566
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 567
+
+Avoids floating-point entirely — integer math throughout.
