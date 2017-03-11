@@ -2283,3 +2283,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 556
 
 Two passes: one to count, one to fill.
+
+## entry 557
+
+Handles empty input by returning 0.
