@@ -1657,3 +1657,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 397
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 398
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
