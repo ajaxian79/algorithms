@@ -235,3 +235,4 @@ MunitTest jump_game_tests[] = {
 // edge note 201: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 202: Time complexity: O(log n).
 // edge note 203: Edge case: input with no peak → falls through to the default branch.
+// edge note 204: 32-bit safe; overflow is checked at each step.
