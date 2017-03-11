@@ -1727,3 +1727,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 432
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 433
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
