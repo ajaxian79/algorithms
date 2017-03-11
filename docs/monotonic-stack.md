@@ -1553,3 +1553,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 372
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 373
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
