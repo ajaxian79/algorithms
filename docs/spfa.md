@@ -1523,3 +1523,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 381
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 382
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
