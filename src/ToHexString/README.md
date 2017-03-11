@@ -355,3 +355,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 74
 
 Treats the input as immutable.
+
+## entry 75
+
+Edge case: all-equal input → linear-time fast path.
