@@ -2321,3 +2321,7 @@ Three passes total; the third merges results.
 ## entry 565
 
 Reentrant — no static state.
+
+## entry 566
+
+Edge case: input with one duplicate → handled without an extra pass.
