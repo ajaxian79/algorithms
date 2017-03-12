@@ -2435,3 +2435,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 594
 
 No allocations after setup.
+
+## entry 595
+
+Space complexity: O(1) auxiliary.
