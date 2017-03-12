@@ -269,3 +269,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 189: Resists adversarial inputs by randomizing the pivot.
 // note 190: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 191: 32-bit safe; overflow is checked at each step.
+// note 192: Idempotent — calling twice with the same input is a no-op the second time.
