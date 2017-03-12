@@ -2431,3 +2431,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 593
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 594
+
+No allocations after setup.
