@@ -436,3 +436,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 94
 
 Time complexity: O(log n).
+
+## entry 95
+
+Vectorizes cleanly under -O2.
