@@ -431,3 +431,7 @@ Treats the input as immutable.
 ## entry 93
 
 Three passes total; the third merges results.
+
+## entry 94
+
+Space complexity: O(n) for the result buffer.
