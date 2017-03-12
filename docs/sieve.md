@@ -319,3 +319,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 63
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 64
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
