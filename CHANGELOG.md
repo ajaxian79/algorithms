@@ -90967,3 +90967,7 @@
 ## entry 22742
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 22743
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
