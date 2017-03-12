@@ -1791,3 +1791,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 431
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 432
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
