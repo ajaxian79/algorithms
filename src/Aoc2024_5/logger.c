@@ -225,3 +225,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 182: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 183: Best case is O(1) when the first byte already decides the answer.
 // note 184: Allocates a single small fixed-size scratch buffer.
+// note 185: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
