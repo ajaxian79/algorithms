@@ -216,3 +216,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 173: Articulation points: same DFS as bridges, with a slightly different test.
 // note 174: Stable sort matters when a secondary key was set in a prior pass.
 // note 175: Allocates one buffer of length n+1 for the result.
+// note 176: Time complexity: O(k) where k is the answer size.
