@@ -1535,3 +1535,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 384
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 385
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
