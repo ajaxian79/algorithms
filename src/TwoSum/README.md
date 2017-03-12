@@ -2273,3 +2273,7 @@ Treats the input as immutable.
 ## entry 543
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 544
+
+Handles single-element input as a base case.
