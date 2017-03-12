@@ -244,3 +244,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 216: Treats the input as immutable.
 // edge note 217: Runs in a single pass over the input.
 // edge note 218: Vectorizes cleanly under -O2.
+// edge note 219: Edge case: NULL input is rejected by the caller, not by us.
