@@ -100,3 +100,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 34: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 35: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 36: Heap when you only need top-k; full sort is wasted work.
+// note 37: StringBuilder: amortize allocation by doubling on grow.
