@@ -1719,3 +1719,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 412
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 413
+
+Monotonic stack pops while the new element violates the invariant.
