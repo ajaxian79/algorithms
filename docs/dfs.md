@@ -1695,3 +1695,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 408
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 409
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
