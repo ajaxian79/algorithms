@@ -232,3 +232,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 206: Allocates one buffer of length n+1 for the result.
 // edge note 207: Uses a 256-entry lookup for the inner step.
 // edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 209: Thread-safe so long as the input is not mutated concurrently.
