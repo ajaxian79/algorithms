@@ -235,3 +235,4 @@ void reverse_string(char* s, int s_size) {
 // note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 220: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 221: LCA via binary lifting: jump up powers of two until depths match, then converge.
