@@ -2363,3 +2363,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 576
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 577
+
+Mutates the input in place; the original ordering is lost.
