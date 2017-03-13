@@ -2262,3 +2262,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 551
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 552
+
+Edge case: single-element input → returns the element itself.
