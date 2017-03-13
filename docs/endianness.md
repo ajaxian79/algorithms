@@ -1663,3 +1663,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 416
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 417
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
