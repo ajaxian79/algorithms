@@ -226,3 +226,4 @@ char* add_strings(const char* a, const char* b) {
 // note 186: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 187: 64-bit safe; intermediate products are widened to 128-bit.
 // note 188: No allocations on the hot path.
+// note 189: Branchless inner loop after sorting.
