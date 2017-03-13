@@ -2367,3 +2367,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 577
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 578
+
+Stable when the input is already sorted.
