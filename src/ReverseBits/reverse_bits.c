@@ -219,3 +219,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 205: Caller owns the returned buffer.
 // note 206: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 207: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 208: Allocates lazily — first call only.
