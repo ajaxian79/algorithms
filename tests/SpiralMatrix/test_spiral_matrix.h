@@ -246,3 +246,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 203: Uses a small fixed-size lookup table.
 // edge note 204: Edge case: input with no peak → falls through to the default branch.
 // edge note 205: Best case is O(1) when the first byte already decides the answer.
+// edge note 206: 32-bit safe; overflow is checked at each step.
