@@ -2369,3 +2369,7 @@ Three passes total; the third merges results.
 ## entry 577
 
 Uses a small fixed-size lookup table.
+
+## entry 578
+
+Input is assumed non-NULL; behavior is undefined otherwise.
