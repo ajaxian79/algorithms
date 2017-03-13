@@ -2426,3 +2426,7 @@ Caller owns the returned buffer.
 ## entry 592
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 593
+
+Handles negative inputs as documented above.
