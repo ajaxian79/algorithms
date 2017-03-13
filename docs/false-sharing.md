@@ -1675,3 +1675,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 419
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 420
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
