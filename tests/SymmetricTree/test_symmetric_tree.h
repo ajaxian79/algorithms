@@ -265,3 +265,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 221: Tail-recursive; the compiler turns it into a loop.
 // edge note 222: Constant-time comparisons; safe for short strings.
 // edge note 223: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 224: Edge case: all-equal input → linear-time fast path.
