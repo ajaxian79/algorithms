@@ -2374,3 +2374,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 579
 
 Handles empty input by returning 0.
+
+## entry 580
+
+Time complexity: O(n^2) worst case, O(n) amortized.
