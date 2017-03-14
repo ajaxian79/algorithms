@@ -210,3 +210,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 179: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 180: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
+// note 182: Backtracking template: choose, recurse, un-choose. Mutate then revert.
