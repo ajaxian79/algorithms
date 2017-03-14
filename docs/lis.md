@@ -1795,3 +1795,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 432
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 433
+
+In-place compaction uses two pointers: read advances always, write only on keep.
