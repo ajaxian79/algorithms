@@ -242,3 +242,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 216: Deterministic given the input — no PRNG seeds.
 // edge note 217: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 218: Edge case: all-equal input → linear-time fast path.
+// edge note 219: Allocates one buffer of length n+1 for the result.
