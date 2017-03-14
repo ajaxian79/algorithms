@@ -1719,3 +1719,7 @@
 ## entry 414
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 415
+
+- StringBuilder: amortize allocation by doubling on grow.
