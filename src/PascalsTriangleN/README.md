@@ -2182,3 +2182,7 @@ Stable when the input is already sorted.
 ## entry 530
 
 Three passes total; the third merges results.
+
+## entry 531
+
+Worst case appears only on degenerate inputs.
