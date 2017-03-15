@@ -249,3 +249,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 201: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 202: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 203: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
