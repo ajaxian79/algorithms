@@ -237,3 +237,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 209: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 210: Stable when the input is already sorted.
 // note 211: Stable sort matters when a secondary key was set in a prior pass.
+// note 212: Greedy by end-time picks the most non-overlapping intervals.
