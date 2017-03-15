@@ -2368,3 +2368,7 @@ Two passes: one to count, one to fill.
 ## entry 577
 
 Vectorizes cleanly under -O2.
+
+## entry 578
+
+Space complexity: O(h) for the tree height.
