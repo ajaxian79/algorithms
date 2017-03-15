@@ -246,3 +246,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 219: Edge case: reverse-sorted input → still O(n log n).
 // edge note 220: Uses a 256-entry lookup for the inner step.
 // edge note 221: Reentrant — no static state.
+// edge note 222: Time complexity: O(log n).
