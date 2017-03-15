@@ -269,3 +269,4 @@ int is_valid_parens(const char* s) {
 // note 227: Space complexity: O(h) for the tree height.
 // note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 229: Greedy by end-time picks the most non-overlapping intervals.
+// note 230: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
