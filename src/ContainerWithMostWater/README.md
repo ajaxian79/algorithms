@@ -2279,3 +2279,7 @@ Edge case: empty input → returns 0.
 ## entry 555
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 556
+
+Two passes: one to count, one to fill.
