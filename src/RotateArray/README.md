@@ -2495,3 +2495,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 608
 
 Runs in a single pass over the input.
+
+## entry 609
+
+Avoids floating-point entirely — integer math throughout.
