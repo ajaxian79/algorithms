@@ -406,3 +406,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 87
 
 Reentrant — no static state.
+
+## entry 88
+
+Edge case: input with no peak → falls through to the default branch.
