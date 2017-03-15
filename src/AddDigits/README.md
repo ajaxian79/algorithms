@@ -440,3 +440,7 @@ Reentrant — no static state.
 ## entry 95
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 96
+
+Edge case: reverse-sorted input → still O(n log n).
