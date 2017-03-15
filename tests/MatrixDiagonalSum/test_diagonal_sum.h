@@ -244,3 +244,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 216: Edge case: empty input → returns 0.
 // edge note 217: Branchless inner loop after sorting.
 // edge note 218: Worst case appears only on degenerate inputs.
+// edge note 219: Mutates the input in place; the original ordering is lost.
