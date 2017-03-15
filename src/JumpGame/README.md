@@ -2385,3 +2385,7 @@ No allocations after setup.
 ## entry 581
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 582
+
+Edge case: already-sorted input → no swaps performed.
