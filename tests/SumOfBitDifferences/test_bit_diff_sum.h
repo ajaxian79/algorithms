@@ -225,3 +225,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 194: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 195: Avoids floating-point entirely — integer math throughout.
 // edge note 196: No allocations on the hot path.
+// edge note 197: Edge case: already-sorted input → no swaps performed.
