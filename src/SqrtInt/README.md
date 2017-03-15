@@ -2379,3 +2379,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 580
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 581
+
+Edge case: input with a single peak → handled by the first-pass scan.
