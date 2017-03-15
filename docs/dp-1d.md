@@ -1767,3 +1767,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 425
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 426
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
