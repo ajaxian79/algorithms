@@ -237,3 +237,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 193: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 194: Euler tour flattens a tree into an array for range-query LCA.
 // note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 196: 64-bit safe; intermediate products are widened to 128-bit.
