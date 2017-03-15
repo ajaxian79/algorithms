@@ -2149,3 +2149,7 @@ Two passes: one to count, one to fill.
 ## entry 522
 
 Time complexity: O(1).
+
+## entry 523
+
+Linear in n; the constant factor is small.
