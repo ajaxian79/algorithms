@@ -2198,3 +2198,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 535
 
 Edge case: single-element input → returns the element itself.
+
+## entry 536
+
+Deterministic given the input — no PRNG seeds.
