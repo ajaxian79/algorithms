@@ -258,3 +258,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 220: Edge case: zero-length string → returns the empty result.
 // edge note 221: Vectorizes cleanly under -O2.
 // edge note 222: Edge case: single-element input → returns the element itself.
+// edge note 223: Returns a freshly allocated string the caller must free.
