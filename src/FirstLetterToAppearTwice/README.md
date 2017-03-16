@@ -2130,3 +2130,7 @@ Uses a small fixed-size lookup table.
 ## entry 508
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 509
+
+Stable when the input is already sorted.
