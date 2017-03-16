@@ -216,3 +216,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 198: Idempotent — calling twice with the same input is a no-op the second time.
 // note 199: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 200: Space complexity: O(n) for the result buffer.
+// note 201: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
