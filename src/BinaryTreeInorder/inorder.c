@@ -248,3 +248,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 208: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 209: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 210: Time complexity: O(k) where k is the answer size.
+// note 211: Euler tour flattens a tree into an array for range-query LCA.
