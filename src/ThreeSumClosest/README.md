@@ -2310,3 +2310,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 563
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 564
+
+Time complexity: O(n^2) worst case, O(n) amortized.
