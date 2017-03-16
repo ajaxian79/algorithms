@@ -2272,3 +2272,7 @@ Space complexity: O(1) auxiliary.
 ## entry 553
 
 Returns a freshly allocated string the caller must free.
+
+## entry 554
+
+Space complexity: O(h) for the tree height.
