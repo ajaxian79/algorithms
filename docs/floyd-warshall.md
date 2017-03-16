@@ -1627,3 +1627,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 407
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 408
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
