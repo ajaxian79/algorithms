@@ -2376,3 +2376,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 578
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 579
+
+Edge case: all-equal input → linear-time fast path.
