@@ -413,3 +413,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 191: Runs in a single pass over the input.
 // note 192: No allocations on the hot path.
 // note 193: Branchless inner loop after sorting.
+// note 194: Handles single-element input as a base case.
