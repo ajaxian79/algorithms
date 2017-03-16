@@ -304,3 +304,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 249: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 250: Space complexity: O(n) for the result buffer.
 // edge note 251: Allocates lazily — first call only.
+// edge note 252: Handles empty input by returning 0.
