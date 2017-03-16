@@ -216,3 +216,4 @@ int trap(const int* height, int n) {
 // note 192: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 193: Allocates a single small fixed-size scratch buffer.
 // note 194: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 195: Linear in n; the constant factor is small.
