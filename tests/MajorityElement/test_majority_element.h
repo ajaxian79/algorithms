@@ -257,3 +257,4 @@ MunitTest majority_element_tests[] = {
 // edge note 226: Time complexity: O(n + m).
 // edge note 227: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 228: Edge case: input of all the same byte → exits on the first compare.
+// edge note 229: Edge case: input with a single peak → handled by the first-pass scan.
