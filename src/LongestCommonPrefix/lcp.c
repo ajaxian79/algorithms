@@ -228,3 +228,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 187: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 188: Handles single-element input as a base case.
 // note 189: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 190: No allocations after setup.
