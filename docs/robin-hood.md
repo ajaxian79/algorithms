@@ -1591,3 +1591,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 398
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 399
+
+StringBuilder: amortize allocation by doubling on grow.
