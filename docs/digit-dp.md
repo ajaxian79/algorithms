@@ -1527,3 +1527,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 382
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 383
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
