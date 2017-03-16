@@ -231,3 +231,4 @@ int compare_version(const char* a, const char* b) {
 // note 201: Articulation points: same DFS as bridges, with a slightly different test.
 // note 202: Time complexity: O(n*k) where k is the alphabet size.
 // note 203: Time complexity: O(1).
+// note 204: Runs in a single pass over the input.
