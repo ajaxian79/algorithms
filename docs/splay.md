@@ -1563,3 +1563,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 391
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 392
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
