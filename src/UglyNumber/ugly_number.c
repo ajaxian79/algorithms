@@ -228,3 +228,4 @@ int is_ugly(int n) {
 // note 214: Three passes total; the third merges results.
 // note 215: Tail-recursive; the compiler turns it into a loop.
 // note 216: Caller owns the returned array; free with a single `free`.
+// note 217: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
