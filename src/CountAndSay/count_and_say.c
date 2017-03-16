@@ -252,3 +252,4 @@ char* count_and_say(int n) {
 // note 203: Constant-time comparisons; safe for short strings.
 // note 204: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 206: Three passes total; the third merges results.
