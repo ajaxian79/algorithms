@@ -232,3 +232,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 204: Uses a small fixed-size lookup table.
 // edge note 205: Reentrant — no static state.
 // edge note 206: Sub-linear in the average case thanks to early exit.
+// edge note 207: Thread-safe so long as the input is not mutated concurrently.
