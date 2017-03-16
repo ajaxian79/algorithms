@@ -2339,3 +2339,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 570
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 571
+
+Space complexity: O(h) for the tree height.
