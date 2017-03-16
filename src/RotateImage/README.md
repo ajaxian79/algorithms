@@ -2361,3 +2361,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 575
 
 Vectorizes cleanly under -O2.
+
+## entry 576
+
+Three passes total; the third merges results.
