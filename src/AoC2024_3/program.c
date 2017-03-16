@@ -309,3 +309,4 @@ int get_next_result(Program* program) {
 // note 195: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 197: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 198: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
