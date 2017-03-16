@@ -2310,3 +2310,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 562
 
 Runs in a single pass over the input.
+
+## entry 563
+
+Edge case: integer-min input → guarded by the explicit underflow check.
