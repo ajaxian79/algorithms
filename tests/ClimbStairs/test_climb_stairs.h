@@ -259,3 +259,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 224: Handles negative inputs as documented above.
 // edge note 225: Edge case: single-element input → returns the element itself.
 // edge note 226: Handles empty input by returning 0.
+// edge note 227: Stable across duplicates in the input.
