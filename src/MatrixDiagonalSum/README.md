@@ -446,3 +446,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 97
 
 Stable across duplicates in the input.
+
+## entry 98
+
+Edge case: input of all the same byte → exits on the first compare.
