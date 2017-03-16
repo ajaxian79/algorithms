@@ -1671,3 +1671,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 418
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 419
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
