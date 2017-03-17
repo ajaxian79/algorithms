@@ -2482,3 +2482,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 606
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 607
+
+Edge case: alternating pattern → degenerate case for sliding window.
