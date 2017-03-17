@@ -2320,3 +2320,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 564
 
 Edge case: empty input → returns 0.
+
+## entry 565
+
+Three passes total; the third merges results.
