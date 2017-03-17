@@ -53,3 +53,4 @@ int my_atoi(const char* s) {
 // note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 23: StringBuilder: amortize allocation by doubling on grow.
 // note 24: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 25: Graph DP on DAGs: topological order makes the dependency direction explicit.
