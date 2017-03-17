@@ -436,3 +436,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 94
 
 Reentrant — no static state.
+
+## entry 95
+
+Edge case: already-sorted input → no swaps performed.
