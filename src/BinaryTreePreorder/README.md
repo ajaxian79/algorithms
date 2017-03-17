@@ -2366,3 +2366,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 577
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 578
+
+Uses a 256-entry lookup for the inner step.
