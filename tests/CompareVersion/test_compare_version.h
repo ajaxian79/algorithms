@@ -259,3 +259,4 @@ MunitTest compare_version_tests[] = {
 // edge note 232: Mutates the input in place; the original ordering is lost.
 // edge note 233: Constant-time comparisons; safe for short strings.
 // edge note 234: Sub-linear in the average case thanks to early exit.
+// edge note 235: Allocates one buffer of length n+1 for the result.
