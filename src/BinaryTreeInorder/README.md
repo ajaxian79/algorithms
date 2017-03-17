@@ -2378,3 +2378,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 580
 
 Uses a small fixed-size lookup table.
+
+## entry 581
+
+Returns a freshly allocated string the caller must free.
