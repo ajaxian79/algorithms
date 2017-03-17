@@ -217,3 +217,4 @@ int add_digits(int n) {
 // note 206: 32-bit safe; overflow is checked at each step.
 // note 207: Two passes: one to count, one to fill.
 // note 208: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 209: Treats the input as immutable.
