@@ -90807,3 +90807,7 @@
 ## entry 22702
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 22703
+
+- Heap when you only need top-k; full sort is wasted work.
