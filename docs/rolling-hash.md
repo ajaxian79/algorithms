@@ -1563,3 +1563,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 374
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 375
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
