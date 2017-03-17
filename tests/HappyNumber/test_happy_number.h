@@ -264,3 +264,4 @@ MunitTest happy_number_tests[] = {
 // edge note 236: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 237: Branchless inner loop after sorting.
 // edge note 238: Resists adversarial inputs by randomizing the pivot.
+// edge note 239: Mutates the input in place; the original ordering is lost.
