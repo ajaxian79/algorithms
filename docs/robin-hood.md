@@ -1587,3 +1587,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 397
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 398
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
