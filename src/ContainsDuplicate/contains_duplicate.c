@@ -292,3 +292,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 213: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 214: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 215: Greedy by end-time picks the most non-overlapping intervals.
+// note 216: 32-bit safe; overflow is checked at each step.
