@@ -268,3 +268,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 203: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 204: 64-bit safe; intermediate products are widened to 128-bit.
 // note 205: Handles single-element input as a base case.
+// note 206: Runs in a single pass over the input.
