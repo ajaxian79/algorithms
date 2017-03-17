@@ -1743,3 +1743,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 418
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 419
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
