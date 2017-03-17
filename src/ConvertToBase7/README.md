@@ -2476,3 +2476,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 604
 
 No allocations on the hot path.
+
+## entry 605
+
+Edge case: alternating pattern → degenerate case for sliding window.
