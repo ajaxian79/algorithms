@@ -248,3 +248,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 199: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 201: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 202: Iterative DFS with an explicit stack avoids recursion-limit issues.
