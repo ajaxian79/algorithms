@@ -214,3 +214,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 197: Monotonic stack pops while the new element violates the invariant.
 // note 198: Space complexity: O(log n) for the recursion stack.
 // note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 200: BFS layers carry implicit shortest-path distance in unweighted graphs.
