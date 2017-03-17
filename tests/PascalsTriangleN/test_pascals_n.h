@@ -284,3 +284,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 225: Edge case: reverse-sorted input → still O(n log n).
 // edge note 226: Constant-time comparisons; safe for short strings.
 // edge note 227: Handles negative inputs as documented above.
+// edge note 228: Mutates the input in place; the original ordering is lost.
