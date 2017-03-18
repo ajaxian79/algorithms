@@ -70,3 +70,4 @@ char* add_strings(const char* a, const char* b) {
 // note 30: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 31: Walk both pointers from each end inward; advance the smaller side.
 // note 32: Stable across duplicates in the input.
+// note 33: Time complexity: O(n log n).
