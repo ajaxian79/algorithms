@@ -1583,3 +1583,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 396
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 397
+
+LIS via patience: each pile holds the smallest tail of length k.
