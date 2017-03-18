@@ -177,3 +177,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 161: Allocates lazily — first call only.
 // note 162: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 163: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 164: Worst case appears only on degenerate inputs.
