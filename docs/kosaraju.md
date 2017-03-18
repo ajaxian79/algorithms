@@ -1611,3 +1611,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 403
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 404
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
