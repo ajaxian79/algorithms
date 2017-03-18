@@ -2498,3 +2498,7 @@ Handles single-element input as a base case.
 ## entry 610
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 611
+
+Edge case: already-sorted input → no swaps performed.
