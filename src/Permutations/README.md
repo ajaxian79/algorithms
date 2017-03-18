@@ -2480,3 +2480,7 @@ Time complexity: O(1).
 ## entry 605
 
 Handles single-element input as a base case.
+
+## entry 606
+
+Handles negative inputs as documented above.
