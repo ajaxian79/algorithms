@@ -1559,3 +1559,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 390
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 391
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
