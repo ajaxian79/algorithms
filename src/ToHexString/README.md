@@ -2215,3 +2215,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 539
 
 32-bit safe; overflow is checked at each step.
+
+## entry 540
+
+Edge case: input with one duplicate → handled without an extra pass.
