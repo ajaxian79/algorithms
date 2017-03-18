@@ -2207,3 +2207,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 537
 
 Stable when the input is already sorted.
+
+## entry 538
+
+Edge case: all-equal input → linear-time fast path.
