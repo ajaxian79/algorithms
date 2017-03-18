@@ -2427,3 +2427,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 592
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 593
+
+Edge case: input of all the same byte → exits on the first compare.
