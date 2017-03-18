@@ -1519,3 +1519,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 380
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 381
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
