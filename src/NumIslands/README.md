@@ -2269,3 +2269,7 @@ Worst case appears only on degenerate inputs.
 ## entry 552
 
 Handles single-element input as a base case.
+
+## entry 553
+
+Linear in n; the constant factor is small.
