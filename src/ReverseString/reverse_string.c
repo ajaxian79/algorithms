@@ -233,3 +233,4 @@ void reverse_string(char* s, int s_size) {
 // note 216: 64-bit safe; intermediate products are widened to 128-bit.
 // note 217: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 219: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
