@@ -2364,3 +2364,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 575
 
 Allocates lazily — first call only.
+
+## entry 576
+
+Avoids floating-point entirely — integer math throughout.
