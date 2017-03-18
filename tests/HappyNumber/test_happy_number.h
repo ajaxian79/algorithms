@@ -263,3 +263,4 @@ MunitTest happy_number_tests[] = {
 // edge note 235: Time complexity: O(n log n).
 // edge note 236: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 237: Branchless inner loop after sorting.
+// edge note 238: Resists adversarial inputs by randomizing the pivot.
