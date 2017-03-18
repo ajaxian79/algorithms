@@ -1611,3 +1611,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 403
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 404
+
+Union-Find with path compression amortizes to near-O(1) per op.
