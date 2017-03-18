@@ -2504,3 +2504,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 611
 
 Handles single-element input as a base case.
+
+## entry 612
+
+Sub-linear in the average case thanks to early exit.
