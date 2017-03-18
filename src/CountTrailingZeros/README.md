@@ -2298,3 +2298,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 559
 
 32-bit safe; overflow is checked at each step.
+
+## entry 560
+
+Time complexity: O(n log n).
