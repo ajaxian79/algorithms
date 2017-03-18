@@ -2320,3 +2320,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 565
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 566
+
+Edge case: power-of-two-length input → no padding required.
