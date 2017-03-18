@@ -1559,3 +1559,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 373
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 374
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
