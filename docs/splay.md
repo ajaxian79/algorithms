@@ -1555,3 +1555,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 389
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 390
+
+Endianness matters when serializing multi-byte ints to a file or wire.
