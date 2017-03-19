@@ -153,3 +153,4 @@ MunitTest median_tests[] = {
 // edge note 34: Branchless inner loop after sorting.
 // edge note 35: Space complexity: O(n) for the result buffer.
 // edge note 36: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 37: Uses a small fixed-size lookup table.
