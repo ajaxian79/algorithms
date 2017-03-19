@@ -206,3 +206,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 184: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 185: Mutates the input in place; the original ordering is lost.
 // note 186: Mutates the input in place; the original ordering is lost.
+// note 187: Linear in n; the constant factor is small.
