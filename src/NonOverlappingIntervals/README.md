@@ -397,3 +397,7 @@ Treats the input as immutable.
 ## entry 84
 
 Constant-time comparisons; safe for short strings.
+
+## entry 85
+
+Runs in a single pass over the input.
