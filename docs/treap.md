@@ -1543,3 +1543,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 386
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 387
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
