@@ -225,3 +225,4 @@ MunitTest number_complement_tests[] = {
 // edge note 198: Time complexity: O(k) where k is the answer size.
 // edge note 199: Edge case: already-sorted input → no swaps performed.
 // edge note 200: Branchless inner loop after sorting.
+// edge note 201: Handles negative inputs as documented above.
