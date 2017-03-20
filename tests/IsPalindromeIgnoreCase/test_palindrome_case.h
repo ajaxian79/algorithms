@@ -246,3 +246,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 217: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 218: Time complexity: O(n log n).
 // edge note 219: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 220: Returns a freshly allocated string the caller must free.
