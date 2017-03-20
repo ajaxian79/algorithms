@@ -2313,3 +2313,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 563
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 564
+
+Three passes total; the third merges results.
