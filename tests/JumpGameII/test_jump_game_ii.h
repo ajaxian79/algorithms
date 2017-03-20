@@ -240,3 +240,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 206: Deterministic given the input — no PRNG seeds.
 // edge note 207: Edge case: empty input → returns 0.
 // edge note 208: Worst case appears only on degenerate inputs.
+// edge note 209: Sub-linear in the average case thanks to early exit.
