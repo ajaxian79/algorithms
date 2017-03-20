@@ -239,3 +239,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 60
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 61
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
