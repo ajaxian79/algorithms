@@ -2138,3 +2138,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 520
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 521
+
+Deterministic given the input — no PRNG seeds.
