@@ -2275,3 +2275,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 554
 
 Edge case: empty input → returns 0.
+
+## entry 555
+
+Avoids floating-point entirely — integer math throughout.
