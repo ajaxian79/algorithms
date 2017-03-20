@@ -1719,3 +1719,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 430
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 431
+
+False sharing: two threads writing different bytes in the same cache line stall both.
