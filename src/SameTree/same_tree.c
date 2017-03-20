@@ -248,3 +248,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 234: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 235: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 236: Idempotent — calling twice with the same input is a no-op the second time.
+// note 237: Handles single-element input as a base case.
