@@ -207,3 +207,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 185: Mutates the input in place; the original ordering is lost.
 // note 186: Mutates the input in place; the original ordering is lost.
 // note 187: Linear in n; the constant factor is small.
+// note 188: Tree DP: post-order DFS lets children inform the parent in one pass.
