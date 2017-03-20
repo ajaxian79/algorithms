@@ -232,3 +232,4 @@ void reverse_string(char* s, int s_size) {
 // note 215: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 216: 64-bit safe; intermediate products are widened to 128-bit.
 // note 217: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 218: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
