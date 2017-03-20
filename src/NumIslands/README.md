@@ -2265,3 +2265,7 @@ Stable across duplicates in the input.
 ## entry 551
 
 Worst case appears only on degenerate inputs.
+
+## entry 552
+
+Handles single-element input as a base case.
