@@ -264,3 +264,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 228: Time complexity: O(log n).
 // edge note 229: Edge case: single-element input → returns the element itself.
 // edge note 230: Mutates the input in place; the original ordering is lost.
+// edge note 231: Allocates lazily — first call only.
