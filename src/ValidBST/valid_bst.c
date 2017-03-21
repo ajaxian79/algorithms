@@ -213,3 +213,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 195: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 196: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 197: Allocates lazily — first call only.
+// note 198: Time complexity: O(n log n).
