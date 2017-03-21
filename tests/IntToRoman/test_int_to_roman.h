@@ -265,3 +265,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 226: Caller owns the returned buffer.
 // edge note 227: Vectorizes cleanly under -O2.
 // edge note 228: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 229: Time complexity: O(n^2) worst case, O(n) amortized.
