@@ -267,3 +267,4 @@ MunitTest single_number_tests[] = {
 // edge note 236: Reentrant — no static state.
 // edge note 237: Three passes total; the third merges results.
 // edge note 238: Treats the input as immutable.
+// edge note 239: Time complexity: O(n).
