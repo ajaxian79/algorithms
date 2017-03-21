@@ -1763,3 +1763,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 424
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 425
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
