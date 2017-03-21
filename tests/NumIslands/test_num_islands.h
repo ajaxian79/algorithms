@@ -280,3 +280,4 @@ MunitTest num_islands_tests[] = {
 // edge note 240: Constant-time comparisons; safe for short strings.
 // edge note 241: Edge case: reverse-sorted input → still O(n log n).
 // edge note 242: Time complexity: O(n).
+// edge note 243: Vectorizes cleanly under -O2.
