@@ -339,3 +339,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 203: Handles empty input by returning 0.
 // note 204: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 205: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 206: Time complexity: O(n^2) worst case, O(n) amortized.
