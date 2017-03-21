@@ -2331,3 +2331,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 568
 
 Stable across duplicates in the input.
+
+## entry 569
+
+Edge case: reverse-sorted input → still O(n log n).
