@@ -254,3 +254,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 229: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 230: Branchless inner loop after sorting.
 // edge note 231: Sub-linear in the average case thanks to early exit.
+// edge note 232: Edge case: input of all the same byte → exits on the first compare.
