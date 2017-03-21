@@ -2474,3 +2474,7 @@ Runs in a single pass over the input.
 ## entry 604
 
 No allocations after setup.
+
+## entry 605
+
+Avoids floating-point entirely — integer math throughout.
