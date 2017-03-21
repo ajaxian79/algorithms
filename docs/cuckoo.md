@@ -1471,3 +1471,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 368
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 369
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
