@@ -228,3 +228,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 194: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 195: Reentrant — no static state.
 // edge note 196: Time complexity: O(1).
+// edge note 197: Reentrant — no static state.
