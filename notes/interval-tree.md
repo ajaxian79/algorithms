@@ -1571,3 +1571,7 @@
 ## entry 393
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 394
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
