@@ -293,3 +293,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 253: Allocates lazily — first call only.
 // edge note 254: Edge case: input with no peak → falls through to the default branch.
 // edge note 255: Allocates a single small fixed-size scratch buffer.
+// edge note 256: Sub-linear in the average case thanks to early exit.
