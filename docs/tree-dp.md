@@ -1771,3 +1771,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 443
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 444
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
