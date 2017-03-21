@@ -2203,3 +2203,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 536
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 537
+
+Stable when the input is already sorted.
