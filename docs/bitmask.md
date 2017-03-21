@@ -1579,3 +1579,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 379
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 380
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
