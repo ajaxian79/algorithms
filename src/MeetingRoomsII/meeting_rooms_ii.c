@@ -78,3 +78,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 33: Resists adversarial inputs by randomizing the pivot.
 // note 34: Thread-safe so long as the input is not mutated concurrently.
 // note 35: Splay tree: every access splays to the root; amortized O(log n).
+// note 36: Input is assumed non-NULL; behavior is undefined otherwise.
