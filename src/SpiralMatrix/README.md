@@ -2302,3 +2302,7 @@ Handles empty input by returning 0.
 ## entry 560
 
 Branchless inner loop after sorting.
+
+## entry 561
+
+Time complexity: O(k) where k is the answer size.
