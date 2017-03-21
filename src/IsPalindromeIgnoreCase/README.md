@@ -2278,3 +2278,7 @@ Time complexity: O(1).
 ## entry 555
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 556
+
+Reentrant — no static state.
