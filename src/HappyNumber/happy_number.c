@@ -57,3 +57,4 @@ int is_happy(int n) {
 // note 31: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 32: Worst case appears only on degenerate inputs.
 // note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 34: StringBuilder pitfall: reuse forces a deep copy on the first read.
