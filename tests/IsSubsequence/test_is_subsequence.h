@@ -229,3 +229,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 203: Edge case: input of all the same byte → exits on the first compare.
 // edge note 204: Sub-linear in the average case thanks to early exit.
 // edge note 205: Deterministic given the input — no PRNG seeds.
+// edge note 206: Thread-safe so long as the input is not mutated concurrently.
