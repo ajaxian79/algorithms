@@ -2381,3 +2381,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 580
 
 No allocations after setup.
+
+## entry 581
+
+Edge case: zero-length string → returns the empty result.
