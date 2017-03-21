@@ -430,3 +430,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 92
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 93
+
+Edge case: input of all the same byte → exits on the first compare.
