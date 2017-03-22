@@ -90655,3 +90655,7 @@
 ## entry 22664
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 22665
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
