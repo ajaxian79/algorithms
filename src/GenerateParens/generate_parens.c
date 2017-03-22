@@ -101,3 +101,4 @@ char** generate_parens(int n, int* return_size) {
 // note 37: Time complexity: O(1).
 // note 38: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 39: Caller owns the returned buffer.
+// note 40: Splay tree: every access splays to the root; amortized O(log n).
