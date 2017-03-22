@@ -1575,3 +1575,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 378
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 379
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
