@@ -1519,3 +1519,7 @@
 ## entry 380
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 381
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
