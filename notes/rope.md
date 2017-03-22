@@ -247,3 +247,7 @@
 ## entry 62
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 63
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
