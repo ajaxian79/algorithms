@@ -2423,3 +2423,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 591
 
 Space complexity: O(n) for the result buffer.
+
+## entry 592
+
+Deterministic given the input — no PRNG seeds.
