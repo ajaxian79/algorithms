@@ -51,3 +51,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 24: Caller owns the returned buffer.
 // edge note 25: Caller owns the returned buffer.
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
+// edge note 27: Uses a small fixed-size lookup table.
