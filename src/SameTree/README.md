@@ -2260,3 +2260,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 551
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 552
+
+Avoids floating-point entirely — integer math throughout.
