@@ -2312,3 +2312,7 @@ Cache-friendly; one sequential read pass.
 ## entry 562
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 563
+
+Edge case: integer-max input → guarded by the explicit overflow check.
