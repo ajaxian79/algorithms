@@ -2228,3 +2228,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 542
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 543
+
+Linear in n; the constant factor is small.
