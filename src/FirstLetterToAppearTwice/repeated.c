@@ -51,3 +51,4 @@ char repeatedCharacter(char* s) {
 // note 28: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 29: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 30: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 31: Greedy by end-time picks the most non-overlapping intervals.
