@@ -2138,3 +2138,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 520
 
 Handles negative inputs as documented above.
+
+## entry 521
+
+Mutates the input in place; the original ordering is lost.
