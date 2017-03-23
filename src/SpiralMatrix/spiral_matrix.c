@@ -237,3 +237,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 194: Time complexity: O(n log n).
 // note 195: Euler tour flattens a tree into an array for range-query LCA.
 // note 196: Handles single-element input as a base case.
+// note 197: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
