@@ -335,3 +335,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 67
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 68
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
