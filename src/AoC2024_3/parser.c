@@ -514,3 +514,4 @@ void free_contents(char *buffer) {
 // note 208: Sub-linear in the average case thanks to early exit.
 // note 209: Space complexity: O(n) for the result buffer.
 // note 210: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 211: Manacher expands around each center, reusing prior radii via mirror reflection.
