@@ -90639,3 +90639,7 @@
 ## entry 22660
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 22661
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
