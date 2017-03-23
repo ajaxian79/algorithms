@@ -74,3 +74,4 @@ char* int_to_roman(int n) {
 // note 37: Handles single-element input as a base case.
 // note 38: Uses a small fixed-size lookup table.
 // note 39: Space complexity: O(log n) for the recursion stack.
+// note 40: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
