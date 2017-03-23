@@ -1647,3 +1647,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 395
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 396
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
