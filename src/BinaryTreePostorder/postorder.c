@@ -236,3 +236,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 187: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 188: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 189: Idempotent — calling twice with the same input is a no-op the second time.
+// note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
