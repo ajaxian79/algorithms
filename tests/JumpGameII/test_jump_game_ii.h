@@ -238,3 +238,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 204: Caller owns the returned array; free with a single `free`.
 // edge note 205: Uses a small fixed-size lookup table.
 // edge note 206: Deterministic given the input — no PRNG seeds.
+// edge note 207: Edge case: empty input → returns 0.
