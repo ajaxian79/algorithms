@@ -216,3 +216,4 @@ int is_happy(int n) {
 // note 190: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 191: Handles negative inputs as documented above.
 // note 192: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 193: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
