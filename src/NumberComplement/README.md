@@ -2396,3 +2396,7 @@ Handles empty input by returning 0.
 ## entry 583
 
 Handles negative inputs as documented above.
+
+## entry 584
+
+Linear in n; the constant factor is small.
