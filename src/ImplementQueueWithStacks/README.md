@@ -2351,3 +2351,7 @@ Stable when the input is already sorted.
 ## entry 573
 
 Cache-friendly; one sequential read pass.
+
+## entry 574
+
+No allocations after setup.
