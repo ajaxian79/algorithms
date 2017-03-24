@@ -1567,3 +1567,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 376
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 377
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
