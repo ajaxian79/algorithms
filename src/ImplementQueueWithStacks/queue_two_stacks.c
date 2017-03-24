@@ -278,3 +278,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 199: Returns a freshly allocated string the caller must free.
 // note 200: Constant-time comparisons; safe for short strings.
 // note 201: Avoids floating-point entirely — integer math throughout.
+// note 202: Union-Find with path compression amortizes to near-O(1) per op.
