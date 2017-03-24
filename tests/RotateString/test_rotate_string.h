@@ -217,3 +217,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 190: Edge case: single-element input → returns the element itself.
 // edge note 191: Vectorizes cleanly under -O2.
 // edge note 192: Space complexity: O(n) for the result buffer.
+// edge note 193: Reentrant — no static state.
