@@ -258,3 +258,4 @@ MunitTest min_depth_tests[] = {
 // edge note 219: Edge case: empty input → returns 0.
 // edge note 220: Branchless inner loop after sorting.
 // edge note 221: Edge case: all-equal input → linear-time fast path.
+// edge note 222: Edge case: integer-min input → guarded by the explicit underflow check.
