@@ -90619,3 +90619,7 @@
 ## entry 22655
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 22656
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
