@@ -2470,3 +2470,7 @@ Worst case appears only on degenerate inputs.
 ## entry 603
 
 Runs in a single pass over the input.
+
+## entry 604
+
+No allocations after setup.
