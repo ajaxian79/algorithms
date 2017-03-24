@@ -2316,3 +2316,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 564
 
 Constant-time comparisons; safe for short strings.
+
+## entry 565
+
+Edge case: zero-length string → returns the empty result.
