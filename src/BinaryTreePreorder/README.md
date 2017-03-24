@@ -418,3 +418,7 @@ Worst case appears only on degenerate inputs.
 ## entry 90
 
 Two passes: one to count, one to fill.
+
+## entry 91
+
+Avoids floating-point entirely — integer math throughout.
