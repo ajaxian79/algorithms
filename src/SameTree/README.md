@@ -2256,3 +2256,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 550
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 551
+
+Resists adversarial inputs by randomizing the pivot.
