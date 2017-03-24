@@ -432,3 +432,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 93
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 94
+
+Time complexity: O(log n).
