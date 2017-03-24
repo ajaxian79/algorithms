@@ -90603,3 +90603,7 @@
 ## entry 22651
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 22652
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
