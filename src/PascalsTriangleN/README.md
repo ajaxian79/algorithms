@@ -2170,3 +2170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 527
 
 Edge case: empty input → returns 0.
+
+## entry 528
+
+Edge case: integer-min input → guarded by the explicit underflow check.
