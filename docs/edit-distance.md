@@ -1643,3 +1643,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 393
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 394
+
+Euler tour flattens a tree into an array for range-query LCA.
