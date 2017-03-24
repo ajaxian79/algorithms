@@ -446,3 +446,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 97
 
 Handles empty input by returning 0.
+
+## entry 98
+
+Handles negative inputs as documented above.
