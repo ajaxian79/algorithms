@@ -1575,3 +1575,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 394
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 395
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
