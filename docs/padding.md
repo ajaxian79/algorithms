@@ -1551,3 +1551,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 388
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 389
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
