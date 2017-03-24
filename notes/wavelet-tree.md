@@ -1587,3 +1587,7 @@
 ## entry 397
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 398
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
