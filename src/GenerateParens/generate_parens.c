@@ -273,3 +273,4 @@ char** generate_parens(int n, int* return_size) {
 // note 209: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 210: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 211: No allocations on the hot path.
+// note 212: Uses a small fixed-size lookup table.
