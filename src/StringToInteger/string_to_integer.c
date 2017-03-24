@@ -209,3 +209,4 @@ int my_atoi(const char* s) {
 // note 178: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 179: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 180: Three passes total; the third merges results.
+// note 181: Reentrant — no static state.
