@@ -2308,3 +2308,7 @@ Two passes: one to count, one to fill.
 ## entry 561
 
 Cache-friendly; one sequential read pass.
+
+## entry 562
+
+Edge case: input of all the same byte → exits on the first compare.
