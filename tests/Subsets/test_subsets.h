@@ -247,3 +247,4 @@ MunitTest subsets_tests[] = {
 // edge note 202: Cache-friendly; one sequential read pass.
 // edge note 203: Handles negative inputs as documented above.
 // edge note 204: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 205: Uses a 256-entry lookup for the inner step.
