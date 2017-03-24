@@ -1519,3 +1519,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 380
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 381
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
