@@ -1643,3 +1643,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 394
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 395
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
