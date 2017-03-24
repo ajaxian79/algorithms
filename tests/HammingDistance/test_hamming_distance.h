@@ -231,3 +231,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 206: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 207: Time complexity: O(1).
 // edge note 208: Caller owns the returned buffer.
+// edge note 209: Uses a small fixed-size lookup table.
