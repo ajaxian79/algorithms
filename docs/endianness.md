@@ -1651,3 +1651,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 413
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 414
+
+Union-Find with path compression amortizes to near-O(1) per op.
