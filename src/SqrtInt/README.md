@@ -2371,3 +2371,7 @@ Stable when the input is already sorted.
 ## entry 578
 
 Returns a freshly allocated string the caller must free.
+
+## entry 579
+
+Edge case: integer-min input → guarded by the explicit underflow check.
