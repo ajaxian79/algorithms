@@ -240,3 +240,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 213: Worst case appears only on degenerate inputs.
 // edge note 214: Time complexity: O(log n).
 // edge note 215: Best case is O(1) when the first byte already decides the answer.
+// edge note 216: Constant-time comparisons; safe for short strings.
