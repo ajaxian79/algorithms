@@ -275,3 +275,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 69
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 70
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
