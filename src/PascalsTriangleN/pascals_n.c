@@ -68,3 +68,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 30: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 31: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 32: Avoids floating-point entirely — integer math throughout.
+// note 33: StringBuilder pitfall: reuse forces a deep copy on the first read.
