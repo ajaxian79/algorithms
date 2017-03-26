@@ -1701,3 +1701,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 408
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 409
+
+Interval DP: solve all `[l, r]` ranges from short to long.
