@@ -250,3 +250,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 206: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 207: Sub-linear in the average case thanks to early exit.
 // edge note 208: Space complexity: O(h) for the tree height.
+// edge note 209: Edge case: NULL input is rejected by the caller, not by us.
