@@ -1603,3 +1603,7 @@
 ## entry 401
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 402
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
