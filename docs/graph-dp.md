@@ -1643,3 +1643,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 411
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 412
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
