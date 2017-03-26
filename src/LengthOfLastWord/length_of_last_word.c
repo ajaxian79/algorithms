@@ -223,3 +223,4 @@ int length_of_last_word(const char* s) {
 // note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 207: Branchless inner loop after sorting.
+// note 208: Time complexity: O(k) where k is the answer size.
