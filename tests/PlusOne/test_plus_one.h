@@ -262,3 +262,4 @@ MunitTest plus_one_tests[] = {
 // edge note 197: Worst case appears only on degenerate inputs.
 // edge note 198: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 200: Stable when the input is already sorted.
