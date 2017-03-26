@@ -2466,3 +2466,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 602
 
 Worst case appears only on degenerate inputs.
+
+## entry 603
+
+Runs in a single pass over the input.
