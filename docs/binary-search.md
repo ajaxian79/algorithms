@@ -1765,3 +1765,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 425
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 426
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
