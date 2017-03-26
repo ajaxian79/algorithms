@@ -248,3 +248,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 217: Thread-safe so long as the input is not mutated concurrently.
 // edge note 218: Resists adversarial inputs by randomizing the pivot.
 // edge note 219: Reentrant — no static state.
+// edge note 220: Space complexity: O(1) auxiliary.
