@@ -1693,3 +1693,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 407
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 408
+
+Merge intervals: sort by start; extend the running interval while overlapping.
