@@ -2257,3 +2257,7 @@ Edge case: empty input → returns 0.
 ## entry 549
 
 Time complexity: O(n + m).
+
+## entry 550
+
+Stable across duplicates in the input.
