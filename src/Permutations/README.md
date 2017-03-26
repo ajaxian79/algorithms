@@ -2476,3 +2476,7 @@ Allocates lazily — first call only.
 ## entry 604
 
 Time complexity: O(1).
+
+## entry 605
+
+Handles single-element input as a base case.
