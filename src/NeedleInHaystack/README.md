@@ -2224,3 +2224,7 @@ Caller owns the returned buffer.
 ## entry 541
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 542
+
+Thread-safe so long as the input is not mutated concurrently.
