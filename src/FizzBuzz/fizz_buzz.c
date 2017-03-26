@@ -240,3 +240,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 194: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 196: Treats the input as immutable.
+// note 197: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
