@@ -1819,3 +1819,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 438
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 439
+
+Splay tree: every access splays to the root; amortized O(log n).
