@@ -353,3 +353,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 200: Linear in n; the constant factor is small.
 // note 201: Articulation points: same DFS as bridges, with a slightly different test.
 // note 202: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 203: Persistent tree: every update creates a new version sharing unchanged nodes.
