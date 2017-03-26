@@ -2494,3 +2494,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 609
 
 Handles single-element input as a base case.
+
+## entry 610
+
+Edge case: input with one duplicate → handled without an extra pass.
