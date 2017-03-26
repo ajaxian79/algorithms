@@ -2261,3 +2261,7 @@ Time complexity: O(n + m).
 ## entry 550
 
 Stable across duplicates in the input.
+
+## entry 551
+
+Worst case appears only on degenerate inputs.
