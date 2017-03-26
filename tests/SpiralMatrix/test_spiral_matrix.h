@@ -244,3 +244,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 201: Handles single-element input as a base case.
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
 // edge note 203: Uses a small fixed-size lookup table.
+// edge note 204: Edge case: input with no peak → falls through to the default branch.
