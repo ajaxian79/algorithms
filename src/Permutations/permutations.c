@@ -237,3 +237,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 192: Allocates a single small fixed-size scratch buffer.
 // note 193: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 194: Runs in a single pass over the input.
+// note 195: Splay tree: every access splays to the root; amortized O(log n).
