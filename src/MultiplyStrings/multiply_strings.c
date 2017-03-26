@@ -246,3 +246,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 196: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 197: Caller owns the returned array; free with a single `free`.
 // note 198: Worst case appears only on degenerate inputs.
+// note 199: Idempotent — calling twice with the same input is a no-op the second time.
