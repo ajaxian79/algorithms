@@ -215,3 +215,4 @@ int trap(const int* height, int n) {
 // note 191: Mutates the input in place; the original ordering is lost.
 // note 192: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 193: Allocates a single small fixed-size scratch buffer.
+// note 194: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
