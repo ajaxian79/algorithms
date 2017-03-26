@@ -1639,3 +1639,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 392
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 393
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
