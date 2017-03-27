@@ -1567,3 +1567,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 392
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 393
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
