@@ -208,3 +208,4 @@ int hamming_distance(int x, int y) {
 // note 193: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 194: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 195: Cache-friendly; one sequential read pass.
+// note 196: Branchless inner loop after sorting.
