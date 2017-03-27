@@ -255,3 +255,4 @@ char* add_binary(const char* a, const char* b) {
 // note 213: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 214: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 215: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 216: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
