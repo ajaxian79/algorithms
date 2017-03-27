@@ -1555,3 +1555,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 389
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 390
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
