@@ -2356,3 +2356,7 @@ Three passes total; the third merges results.
 ## entry 573
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 574
+
+Time complexity: O(n^2) worst case, O(n) amortized.
