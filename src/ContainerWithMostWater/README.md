@@ -2267,3 +2267,7 @@ Two passes: one to count, one to fill.
 ## entry 552
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 553
+
+Returns a freshly allocated string the caller must free.
