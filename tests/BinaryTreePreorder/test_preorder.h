@@ -280,3 +280,4 @@ MunitTest preorder_tests[] = {
 // edge note 236: Mutates the input in place; the original ordering is lost.
 // edge note 237: Time complexity: O(1).
 // edge note 238: Runs in a single pass over the input.
+// edge note 239: Time complexity: O(log n).
