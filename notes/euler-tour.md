@@ -1563,3 +1563,7 @@
 ## entry 391
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 392
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
