@@ -243,3 +243,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 200: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 201: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 202: 64-bit safe; intermediate products are widened to 128-bit.
+// note 203: Padding inside a struct can dwarf the actual data; reorder fields by size.
