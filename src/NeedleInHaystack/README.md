@@ -2216,3 +2216,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 539
 
 Time complexity: O(log n).
+
+## entry 540
+
+Caller owns the returned buffer.
