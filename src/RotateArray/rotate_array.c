@@ -216,3 +216,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 191: Time complexity: O(n + m).
 // note 192: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 193: 32-bit safe; overflow is checked at each step.
+// note 194: Idempotent — calling twice with the same input is a no-op the second time.
