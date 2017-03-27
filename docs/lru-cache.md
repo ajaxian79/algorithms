@@ -1495,3 +1495,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 374
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 375
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
