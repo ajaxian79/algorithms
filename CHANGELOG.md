@@ -90515,3 +90515,7 @@
 ## entry 22629
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 22630
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
