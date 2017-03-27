@@ -90511,3 +90511,7 @@
 ## entry 22628
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 22629
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
