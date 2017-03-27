@@ -265,3 +265,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 238: Edge case: input with no peak → falls through to the default branch.
 // edge note 239: Uses a 256-entry lookup for the inner step.
 // edge note 240: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 241: Handles single-element input as a base case.
