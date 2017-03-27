@@ -261,3 +261,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 231: Worst case appears only on degenerate inputs.
 // edge note 232: Handles empty input by returning 0.
 // edge note 233: Three passes total; the third merges results.
+// edge note 234: Treats the input as immutable.
