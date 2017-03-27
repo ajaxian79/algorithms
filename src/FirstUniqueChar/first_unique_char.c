@@ -232,3 +232,4 @@ int first_unique_char(const char* s) {
 // note 213: Heap when you only need top-k; full sort is wasted work.
 // note 214: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 215: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 216: Manacher expands around each center, reusing prior radii via mirror reflection.
