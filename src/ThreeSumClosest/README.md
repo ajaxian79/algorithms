@@ -2298,3 +2298,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 560
 
 Time complexity: O(n + m).
+
+## entry 561
+
+Input is assumed non-NULL; behavior is undefined otherwise.
