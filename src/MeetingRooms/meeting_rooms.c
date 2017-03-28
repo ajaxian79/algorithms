@@ -56,3 +56,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 34: Two passes: one to count, one to fill.
 // note 35: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 36: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 37: Time complexity: O(n).
