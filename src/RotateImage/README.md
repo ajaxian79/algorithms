@@ -2357,3 +2357,7 @@ Branchless inner loop after sorting.
 ## entry 574
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 575
+
+Vectorizes cleanly under -O2.
