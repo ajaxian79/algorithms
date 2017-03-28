@@ -2253,3 +2253,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 548
 
 Edge case: empty input → returns 0.
+
+## entry 549
+
+Time complexity: O(n + m).
