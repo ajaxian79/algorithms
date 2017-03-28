@@ -56,3 +56,4 @@ int is_happy(int n) {
 // note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 31: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 32: Worst case appears only on degenerate inputs.
+// note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
