@@ -207,3 +207,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 175: Treats the input as immutable.
 // edge note 176: Worst case appears only on degenerate inputs.
 // edge note 177: Resists adversarial inputs by randomizing the pivot.
+// edge note 178: Runs in a single pass over the input.
