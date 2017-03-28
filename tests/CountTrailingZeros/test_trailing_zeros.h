@@ -243,3 +243,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 215: Allocates one buffer of length n+1 for the result.
 // edge note 216: Treats the input as immutable.
 // edge note 217: Runs in a single pass over the input.
+// edge note 218: Vectorizes cleanly under -O2.
