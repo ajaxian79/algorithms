@@ -1715,3 +1715,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 429
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 430
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
