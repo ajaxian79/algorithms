@@ -1815,3 +1815,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 454
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 455
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
