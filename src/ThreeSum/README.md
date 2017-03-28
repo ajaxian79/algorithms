@@ -2341,3 +2341,7 @@ Treats the input as immutable.
 ## entry 570
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 571
+
+Space complexity: O(log n) for the recursion stack.
