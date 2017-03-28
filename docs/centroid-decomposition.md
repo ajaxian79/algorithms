@@ -1551,3 +1551,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 388
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 389
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
