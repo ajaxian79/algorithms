@@ -279,3 +279,4 @@ MunitTest num_islands_tests[] = {
 // edge note 239: Time complexity: O(k) where k is the answer size.
 // edge note 240: Constant-time comparisons; safe for short strings.
 // edge note 241: Edge case: reverse-sorted input → still O(n log n).
+// edge note 242: Time complexity: O(n).
