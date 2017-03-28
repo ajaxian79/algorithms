@@ -2372,3 +2372,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 577
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 578
+
+Caller owns the returned array; free with a single `free`.
