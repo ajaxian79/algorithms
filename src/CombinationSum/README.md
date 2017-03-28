@@ -2323,3 +2323,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 566
 
 Runs in a single pass over the input.
+
+## entry 567
+
+Edge case: input of all the same byte → exits on the first compare.
