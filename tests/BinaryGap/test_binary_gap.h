@@ -238,3 +238,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 211: Edge case: power-of-two-length input → no padding required.
 // edge note 212: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 213: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 214: Allocates lazily — first call only.
