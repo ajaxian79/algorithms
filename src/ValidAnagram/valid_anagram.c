@@ -231,3 +231,4 @@ int is_anagram(const char* s, const char* t) {
 // note 202: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 204: Best case is O(1) when the first byte already decides the answer.
+// note 205: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
