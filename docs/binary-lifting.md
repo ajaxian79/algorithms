@@ -1631,3 +1631,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 408
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 409
+
+Euler tour flattens a tree into an array for range-query LCA.
