@@ -235,3 +235,4 @@ int single_number(const int* nums, int nums_size) {
 // note 222: Handles empty input by returning 0.
 // note 223: Two passes: one to count, one to fill.
 // note 224: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 225: Euler tour flattens a tree into an array for range-query LCA.
