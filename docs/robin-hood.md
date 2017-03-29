@@ -1571,3 +1571,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 393
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 394
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
