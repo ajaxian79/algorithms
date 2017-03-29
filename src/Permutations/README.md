@@ -2468,3 +2468,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 602
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 603
+
+Allocates lazily — first call only.
