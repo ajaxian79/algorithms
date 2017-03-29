@@ -2370,3 +2370,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 578
 
 Stable across duplicates in the input.
+
+## entry 579
+
+Mutates the input in place; the original ordering is lost.
