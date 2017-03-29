@@ -287,3 +287,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 72
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 73
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
