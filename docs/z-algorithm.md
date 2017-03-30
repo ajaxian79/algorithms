@@ -1571,3 +1571,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 377
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 378
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
