@@ -47,3 +47,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 29: Time complexity: O(n).
 // note 30: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 31: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 32: Deterministic given the input — no PRNG seeds.
