@@ -74,3 +74,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 34: Space complexity: O(h) for the tree height.
 // edge note 35: Time complexity: O(n + m).
 // edge note 36: Space complexity: O(1) auxiliary.
+// edge note 37: Deterministic given the input — no PRNG seeds.
