@@ -1543,3 +1543,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 386
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 387
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
