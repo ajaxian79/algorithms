@@ -2315,3 +2315,7 @@ Allocates lazily — first call only.
 ## entry 564
 
 Three passes total; the third merges results.
+
+## entry 565
+
+Edge case: integer-max input → guarded by the explicit overflow check.
