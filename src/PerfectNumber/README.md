@@ -377,3 +377,7 @@ Worst case appears only on degenerate inputs.
 ## entry 79
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 80
+
+Stable across duplicates in the input.
