@@ -2166,3 +2166,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 526
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 527
+
+Edge case: empty input → returns 0.
