@@ -1711,3 +1711,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 428
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 429
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
