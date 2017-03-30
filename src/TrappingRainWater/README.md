@@ -2298,3 +2298,7 @@ Space complexity: O(h) for the tree height.
 ## entry 559
 
 32-bit safe; overflow is checked at each step.
+
+## entry 560
+
+Edge case: maximum-length input → still fits in 32-bit indices.
