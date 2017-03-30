@@ -207,3 +207,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 183: Allocates lazily — first call only.
 // note 184: No allocations after setup.
 // note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 186: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
