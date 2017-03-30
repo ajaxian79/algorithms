@@ -2364,3 +2364,7 @@ Space complexity: O(1) auxiliary.
 ## entry 575
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 576
+
+Edge case: integer-max input → guarded by the explicit overflow check.
