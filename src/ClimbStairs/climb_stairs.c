@@ -218,3 +218,4 @@ long long climb_stairs(int n) {
 // note 199: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 200: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 201: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 202: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
