@@ -2353,3 +2353,7 @@ Caller owns the returned buffer.
 ## entry 573
 
 Branchless inner loop after sorting.
+
+## entry 574
+
+Thread-safe so long as the input is not mutated concurrently.
