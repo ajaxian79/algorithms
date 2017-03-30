@@ -1547,3 +1547,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 387
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 388
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
