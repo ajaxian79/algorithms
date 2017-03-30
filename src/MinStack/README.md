@@ -2130,3 +2130,7 @@ Time complexity: O(n).
 ## entry 518
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 519
+
+Avoids floating-point entirely — integer math throughout.
