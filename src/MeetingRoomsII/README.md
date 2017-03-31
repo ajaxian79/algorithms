@@ -2334,3 +2334,7 @@ Time complexity: O(n + m).
 ## entry 568
 
 Space complexity: O(h) for the tree height.
+
+## entry 569
+
+Edge case: alternating pattern → degenerate case for sliding window.
