@@ -2419,3 +2419,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 590
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 591
+
+Space complexity: O(n) for the result buffer.
