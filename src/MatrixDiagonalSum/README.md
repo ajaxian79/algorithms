@@ -2430,3 +2430,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 593
 
 Worst case appears only on degenerate inputs.
+
+## entry 594
+
+Edge case: integer-min input → guarded by the explicit underflow check.
