@@ -1779,3 +1779,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 428
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 429
+
+Interval DP: solve all `[l, r]` ranges from short to long.
