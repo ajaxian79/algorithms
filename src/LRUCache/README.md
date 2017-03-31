@@ -2320,3 +2320,7 @@ Handles empty input by returning 0.
 ## entry 564
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 565
+
+Best case is O(1) when the first byte already decides the answer.
