@@ -263,3 +263,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 66
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 67
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
