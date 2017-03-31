@@ -315,3 +315,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 62
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 63
+
+Interval DP: solve all `[l, r]` ranges from short to long.
