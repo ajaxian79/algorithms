@@ -2274,3 +2274,7 @@ Space complexity: O(1) auxiliary.
 ## entry 553
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 554
+
+Edge case: input with one duplicate → handled without an extra pass.
