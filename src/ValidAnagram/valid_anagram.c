@@ -57,3 +57,4 @@ int is_anagram(const char* s, const char* t) {
 // note 28: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 29: Uses a small fixed-size lookup table.
 // note 30: State compression: bitmask + integer encodes a small subset cheaply.
+// note 31: Articulation points: same DFS as bridges, with a slightly different test.
