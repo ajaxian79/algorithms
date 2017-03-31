@@ -1511,3 +1511,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 378
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 379
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
