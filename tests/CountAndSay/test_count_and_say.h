@@ -221,3 +221,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 190: Constant-time comparisons; safe for short strings.
 // edge note 191: Time complexity: O(k) where k is the answer size.
 // edge note 192: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 193: 64-bit safe; intermediate products are widened to 128-bit.
