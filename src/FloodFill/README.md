@@ -2389,3 +2389,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 583
 
 No allocations on the hot path.
+
+## entry 584
+
+Edge case: power-of-two-length input → no padding required.
