@@ -2426,3 +2426,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 592
 
 Returns a freshly allocated string the caller must free.
+
+## entry 593
+
+Worst case appears only on degenerate inputs.
