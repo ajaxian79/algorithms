@@ -225,3 +225,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 184: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 185: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 186: Stable across duplicates in the input.
+// note 187: Edit distance is LCS with a twist: substitution is a third option at each cell.
