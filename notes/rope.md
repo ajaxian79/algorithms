@@ -1663,3 +1663,7 @@
 ## entry 416
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 417
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
