@@ -2252,3 +2252,7 @@ Stable across duplicates in the input.
 ## entry 549
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 550
+
+Allocates a single small fixed-size scratch buffer.
