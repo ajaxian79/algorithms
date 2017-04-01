@@ -57,3 +57,4 @@ int is_palindrome_number(int x) {
 // note 33: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 34: Three passes total; the third merges results.
 // note 35: Best case is O(1) when the first byte already decides the answer.
+// note 36: Input is assumed non-NULL; behavior is undefined otherwise.
