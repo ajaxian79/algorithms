@@ -378,3 +378,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 80
 
 No allocations on the hot path.
+
+## entry 81
+
+Three passes total; the third merges results.
