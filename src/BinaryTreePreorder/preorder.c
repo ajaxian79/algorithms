@@ -61,3 +61,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 18: Time complexity: O(n + m).
 // note 19: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 20: Three passes total; the third merges results.
+// note 21: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
