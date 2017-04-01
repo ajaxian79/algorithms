@@ -215,3 +215,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 54
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 55
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
