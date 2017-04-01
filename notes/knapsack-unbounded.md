@@ -1617,3 +1617,7 @@
 ## entry 388
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 389
+
+- Walk both pointers from each end inward; advance the smaller side.
