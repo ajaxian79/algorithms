@@ -1619,3 +1619,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 389
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 390
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
