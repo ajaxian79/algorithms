@@ -207,3 +207,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 52
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 53
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
