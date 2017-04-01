@@ -236,3 +236,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 193: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 194: Time complexity: O(n log n).
 // note 195: Euler tour flattens a tree into an array for range-query LCA.
+// note 196: Handles single-element input as a base case.
