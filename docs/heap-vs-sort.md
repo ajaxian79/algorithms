@@ -1631,3 +1631,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 391
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 392
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
