@@ -2300,3 +2300,7 @@ Time complexity: O(log n).
 ## entry 559
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 560
+
+Two passes: one to count, one to fill.
