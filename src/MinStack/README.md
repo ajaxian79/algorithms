@@ -2126,3 +2126,7 @@ Time complexity: O(n).
 ## entry 517
 
 Time complexity: O(n).
+
+## entry 518
+
+64-bit safe; intermediate products are widened to 128-bit.
