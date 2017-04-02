@@ -1651,3 +1651,7 @@
 ## entry 413
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 414
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
