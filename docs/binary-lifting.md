@@ -1627,3 +1627,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 407
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 408
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
