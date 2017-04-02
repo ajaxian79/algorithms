@@ -255,3 +255,4 @@ MunitTest majority_element_tests[] = {
 // edge note 224: Edge case: all-equal input → linear-time fast path.
 // edge note 225: Time complexity: O(1).
 // edge note 226: Time complexity: O(n + m).
+// edge note 227: Edge case: input with a single peak → handled by the first-pass scan.
