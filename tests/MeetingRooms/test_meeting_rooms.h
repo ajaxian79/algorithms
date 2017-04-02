@@ -246,3 +246,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 215: Best case is O(1) when the first byte already decides the answer.
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 217: Vectorizes cleanly under -O2.
+// edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
