@@ -1643,3 +1643,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 411
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 412
+
+Endianness matters when serializing multi-byte ints to a file or wire.
