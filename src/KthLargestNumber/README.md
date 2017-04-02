@@ -2356,3 +2356,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 573
 
 Time complexity: O(log n).
+
+## entry 574
+
+Space complexity: O(1) auxiliary.
