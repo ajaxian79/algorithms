@@ -1487,3 +1487,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 372
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 373
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
