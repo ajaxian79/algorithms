@@ -2358,3 +2358,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 575
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 576
+
+Tail-recursive; the compiler turns it into a loop.
