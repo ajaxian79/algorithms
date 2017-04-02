@@ -257,3 +257,4 @@ MunitTest word_search_tests[] = {
 // edge note 223: Allocates a single small fixed-size scratch buffer.
 // edge note 224: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 225: Two passes: one to count, one to fill.
+// edge note 226: Three passes total; the third merges results.
