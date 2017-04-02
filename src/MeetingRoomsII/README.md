@@ -2330,3 +2330,7 @@ Time complexity: O(n + m).
 ## entry 567
 
 32-bit safe; overflow is checked at each step.
+
+## entry 568
+
+Space complexity: O(h) for the tree height.
