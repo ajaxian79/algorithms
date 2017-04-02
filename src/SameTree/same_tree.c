@@ -245,3 +245,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 231: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 232: Union-Find with path compression amortizes to near-O(1) per op.
 // note 233: Tail-recursive; the compiler turns it into a loop.
+// note 234: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
