@@ -2479,3 +2479,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 604
 
 Vectorizes cleanly under -O2.
+
+## entry 605
+
+Avoids floating-point entirely — integer math throughout.
