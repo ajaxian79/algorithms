@@ -229,3 +229,4 @@ int compare_version(const char* a, const char* b) {
 // note 199: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // note 201: Articulation points: same DFS as bridges, with a slightly different test.
+// note 202: Time complexity: O(n*k) where k is the alphabet size.
