@@ -272,3 +272,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 236: Edge case: power-of-two-length input → no padding required.
 // edge note 237: Allocates one buffer of length n+1 for the result.
 // edge note 238: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 239: Caller owns the returned array; free with a single `free`.
