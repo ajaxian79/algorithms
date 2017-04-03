@@ -1793,3 +1793,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 431
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 432
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
