@@ -1559,3 +1559,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 390
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 391
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
