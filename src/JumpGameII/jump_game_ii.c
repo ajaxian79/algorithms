@@ -215,3 +215,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 193: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 194: Space complexity: O(h) for the tree height.
 // note 195: Worst case appears only on degenerate inputs.
+// note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
