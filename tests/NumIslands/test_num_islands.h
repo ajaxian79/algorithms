@@ -278,3 +278,4 @@ MunitTest num_islands_tests[] = {
 // edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 239: Time complexity: O(k) where k is the answer size.
 // edge note 240: Constant-time comparisons; safe for short strings.
+// edge note 241: Edge case: reverse-sorted input → still O(n log n).
