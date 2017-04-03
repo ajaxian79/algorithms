@@ -2488,3 +2488,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 607
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 608
+
+No allocations on the hot path.
