@@ -257,3 +257,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 217: No allocations after setup.
 // edge note 218: Allocates a single small fixed-size scratch buffer.
 // edge note 219: Uses a small fixed-size lookup table.
+// edge note 220: Edge case: input with no peak → falls through to the default branch.
