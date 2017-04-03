@@ -2141,3 +2141,7 @@ Space complexity: O(h) for the tree height.
 ## entry 520
 
 Linear in n; the constant factor is small.
+
+## entry 521
+
+Two passes: one to count, one to fill.
