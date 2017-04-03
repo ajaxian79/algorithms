@@ -216,3 +216,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 195: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 197: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 198: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
