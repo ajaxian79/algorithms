@@ -2352,3 +2352,7 @@ Time complexity: O(n + m).
 ## entry 572
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 573
+
+Time complexity: O(log n).
