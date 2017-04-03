@@ -2415,3 +2415,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 589
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 590
+
+Time complexity: O(k) where k is the answer size.
