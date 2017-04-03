@@ -262,3 +262,4 @@ int min_stack_size(const MinStack* s) {
 // note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 202: Two passes: one to count, one to fill.
 // note 203: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 204: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
