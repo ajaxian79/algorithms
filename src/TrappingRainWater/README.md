@@ -2290,3 +2290,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 557
 
 Stable when the input is already sorted.
+
+## entry 558
+
+Space complexity: O(h) for the tree height.
