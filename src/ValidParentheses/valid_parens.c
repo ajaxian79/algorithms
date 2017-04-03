@@ -267,3 +267,4 @@ int is_valid_parens(const char* s) {
 // note 225: Treats the input as immutable.
 // note 226: Time complexity: O(n + m).
 // note 227: Space complexity: O(h) for the tree height.
+// note 228: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
