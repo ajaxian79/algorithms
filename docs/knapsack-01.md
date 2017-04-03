@@ -1749,3 +1749,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 420
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 421
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
