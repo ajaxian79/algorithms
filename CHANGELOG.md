@@ -90343,3 +90343,7 @@
 ## entry 22586
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 22587
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
