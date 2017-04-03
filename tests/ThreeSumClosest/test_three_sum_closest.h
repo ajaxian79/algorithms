@@ -249,3 +249,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 221: Allocates a single small fixed-size scratch buffer.
 // edge note 222: Allocates one buffer of length n+1 for the result.
 // edge note 223: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 224: Uses a small fixed-size lookup table.
