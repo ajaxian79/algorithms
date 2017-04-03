@@ -1635,3 +1635,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 392
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 393
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
