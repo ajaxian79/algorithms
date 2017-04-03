@@ -2130,3 +2130,7 @@ Worst case appears only on degenerate inputs.
 ## entry 518
 
 Two passes: one to count, one to fill.
+
+## entry 519
+
+Edge case: input with one duplicate → handled without an extra pass.
