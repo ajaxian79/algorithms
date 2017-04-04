@@ -220,3 +220,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 200: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 203: False sharing: two threads writing different bytes in the same cache line stall both.
