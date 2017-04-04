@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 429
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
