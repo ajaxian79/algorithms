@@ -2462,3 +2462,7 @@ Time complexity: O(n + m).
 ## entry 601
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 602
+
+Worst case appears only on degenerate inputs.
