@@ -2249,3 +2249,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 547
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 548
+
+Edge case: empty input → returns 0.
