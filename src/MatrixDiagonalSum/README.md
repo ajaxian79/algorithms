@@ -2422,3 +2422,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 591
 
 Edge case: single-element input → returns the element itself.
+
+## entry 592
+
+Returns a freshly allocated string the caller must free.
