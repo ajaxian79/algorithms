@@ -256,3 +256,4 @@ MunitTest word_search_tests[] = {
 // edge note 222: Edge case: input of all the same byte → exits on the first compare.
 // edge note 223: Allocates a single small fixed-size scratch buffer.
 // edge note 224: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 225: Two passes: one to count, one to fill.
