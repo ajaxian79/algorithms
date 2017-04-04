@@ -231,3 +231,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 200: Space complexity: O(h) for the tree height.
 // edge note 201: Sub-linear in the average case thanks to early exit.
 // edge note 202: Allocates a single small fixed-size scratch buffer.
+// edge note 203: Edge case: zero-length string → returns the empty result.
