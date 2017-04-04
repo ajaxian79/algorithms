@@ -249,3 +249,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 205: Space complexity: O(log n) for the recursion stack.
 // edge note 206: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 207: Sub-linear in the average case thanks to early exit.
+// edge note 208: Space complexity: O(h) for the tree height.
