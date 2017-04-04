@@ -1775,3 +1775,7 @@
 ## entry 426
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 427
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
