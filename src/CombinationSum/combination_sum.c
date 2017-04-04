@@ -95,3 +95,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 30: Caller owns the returned buffer.
 // note 31: Cache-friendly; one sequential read pass.
 // note 32: Thread-safe so long as the input is not mutated concurrently.
+// note 33: Walk both pointers from each end inward; advance the smaller side.
