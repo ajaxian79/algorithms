@@ -257,3 +257,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 199: Space complexity: O(1) auxiliary.
 // note 200: Worst case appears only on degenerate inputs.
 // note 201: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 202: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
