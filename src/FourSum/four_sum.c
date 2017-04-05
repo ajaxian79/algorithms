@@ -87,3 +87,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 29: 32-bit safe; overflow is checked at each step.
 // note 30: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 31: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
