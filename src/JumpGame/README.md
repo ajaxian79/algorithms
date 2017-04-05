@@ -2373,3 +2373,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 578
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 579
+
+Time complexity: O(n^2) worst case, O(n) amortized.
