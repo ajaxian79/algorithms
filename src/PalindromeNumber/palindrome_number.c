@@ -221,3 +221,4 @@ int is_palindrome_number(int x) {
 // note 197: Time complexity: O(log n).
 // note 198: Runs in a single pass over the input.
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 200: Edit distance is LCS with a twist: substitution is a third option at each cell.
