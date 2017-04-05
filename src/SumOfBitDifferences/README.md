@@ -2356,3 +2356,7 @@ Reentrant — no static state.
 ## entry 574
 
 Linear in n; the constant factor is small.
+
+## entry 575
+
+Mutates the input in place; the original ordering is lost.
