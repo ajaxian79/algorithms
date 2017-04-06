@@ -2471,3 +2471,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 602
 
 Handles empty input by returning 0.
+
+## entry 603
+
+Edge case: input with one duplicate → handled without an extra pass.
