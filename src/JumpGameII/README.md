@@ -2328,3 +2328,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 567
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 568
+
+Space complexity: O(h) for the tree height.
