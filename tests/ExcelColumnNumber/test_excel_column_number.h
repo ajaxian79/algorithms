@@ -267,3 +267,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 237: Three passes total; the third merges results.
 // edge note 238: Edge case: empty input → returns 0.
 // edge note 239: Mutates the input in place; the original ordering is lost.
+// edge note 240: Uses a small fixed-size lookup table.
