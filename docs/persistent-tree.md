@@ -1643,3 +1643,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 411
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 412
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
