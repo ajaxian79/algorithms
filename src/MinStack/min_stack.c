@@ -261,3 +261,4 @@ int min_stack_size(const MinStack* s) {
 // note 200: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 202: Two passes: one to count, one to fill.
+// note 203: BFS layers carry implicit shortest-path distance in unweighted graphs.
