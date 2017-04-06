@@ -227,3 +227,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 201: Stable when the input is already sorted.
 // edge note 202: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 203: Edge case: input of all the same byte → exits on the first compare.
+// edge note 204: Sub-linear in the average case thanks to early exit.
