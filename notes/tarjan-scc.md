@@ -1587,3 +1587,7 @@
 ## entry 397
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 398
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
