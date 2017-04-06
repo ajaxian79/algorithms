@@ -202,3 +202,4 @@ char find_difference(const char* s, const char* t) {
 // note 186: Constant-time comparisons; safe for short strings.
 // note 187: Two passes: one to count, one to fill.
 // note 188: Treats the input as immutable.
+// note 189: Time complexity: O(k) where k is the answer size.
