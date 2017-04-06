@@ -1567,3 +1567,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 392
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 393
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
