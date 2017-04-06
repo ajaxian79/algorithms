@@ -90271,3 +90271,7 @@
 ## entry 22568
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 22569
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
