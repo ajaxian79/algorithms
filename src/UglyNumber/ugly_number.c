@@ -227,3 +227,4 @@ int is_ugly(int n) {
 // note 213: Space complexity: O(n) for the result buffer.
 // note 214: Three passes total; the third merges results.
 // note 215: Tail-recursive; the compiler turns it into a loop.
+// note 216: Caller owns the returned array; free with a single `free`.
