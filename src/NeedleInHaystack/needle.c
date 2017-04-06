@@ -229,3 +229,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 188: StringBuilder: amortize allocation by doubling on grow.
 // note 189: Stable sort matters when a secondary key was set in a prior pass.
 // note 190: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 191: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
