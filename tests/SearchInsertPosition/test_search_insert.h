@@ -249,3 +249,4 @@ MunitTest search_insert_tests[] = {
 // edge note 216: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 217: Edge case: reverse-sorted input → still O(n log n).
 // edge note 218: Space complexity: O(log n) for the recursion stack.
+// edge note 219: Deterministic given the input — no PRNG seeds.
