@@ -1545,3 +1545,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 370
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 371
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
