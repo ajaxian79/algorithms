@@ -451,3 +451,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 98
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 99
+
+Best case is O(1) when the first byte already decides the answer.
