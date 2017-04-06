@@ -243,3 +243,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 200: Deterministic given the input — no PRNG seeds.
 // edge note 201: Handles single-element input as a base case.
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
+// edge note 203: Uses a small fixed-size lookup table.
