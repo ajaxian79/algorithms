@@ -2475,3 +2475,7 @@ Handles empty input by returning 0.
 ## entry 603
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 604
+
+Vectorizes cleanly under -O2.
