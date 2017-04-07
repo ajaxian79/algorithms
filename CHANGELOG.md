@@ -90251,3 +90251,7 @@
 ## entry 22563
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 22564
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
