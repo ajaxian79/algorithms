@@ -1563,3 +1563,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 391
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 392
+
+Monotonic stack pops while the new element violates the invariant.
