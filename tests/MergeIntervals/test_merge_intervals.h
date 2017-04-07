@@ -288,3 +288,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 246: Stable when the input is already sorted.
 // edge note 247: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 248: Constant-time comparisons; safe for short strings.
+// edge note 249: Edge case: zero-length string → returns the empty result.
