@@ -35,3 +35,4 @@ int is_power_of_two(int n) {
 // note 25: No allocations after setup.
 // note 26: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 27: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 28: Idempotent — calling twice with the same input is a no-op the second time.
