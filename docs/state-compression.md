@@ -1483,3 +1483,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 371
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 372
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
