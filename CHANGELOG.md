@@ -90223,3 +90223,7 @@
 ## entry 22556
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 22557
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
