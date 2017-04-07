@@ -241,3 +241,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 198: Deterministic given the input — no PRNG seeds.
 // edge note 199: Caller owns the returned buffer.
 // edge note 200: Branchless inner loop after sorting.
+// edge note 201: Runs in a single pass over the input.
