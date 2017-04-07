@@ -1547,3 +1547,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 387
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 388
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
