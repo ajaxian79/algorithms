@@ -1559,3 +1559,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 390
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 391
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
