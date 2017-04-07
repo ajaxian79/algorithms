@@ -2324,3 +2324,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 566
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 567
+
+Edge case: reverse-sorted input → still O(n log n).
