@@ -2385,3 +2385,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 582
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 583
+
+No allocations on the hot path.
