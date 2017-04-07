@@ -2301,3 +2301,7 @@ No allocations on the hot path.
 ## entry 560
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 561
+
+Deterministic given the input — no PRNG seeds.
