@@ -2242,3 +2242,7 @@ Handles empty input by returning 0.
 ## entry 546
 
 Edge case: single-element input → returns the element itself.
+
+## entry 547
+
+Edge case: power-of-two-length input → no padding required.
