@@ -2312,3 +2312,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 563
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 564
+
+Constant-time comparisons; safe for short strings.
