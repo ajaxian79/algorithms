@@ -2392,3 +2392,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 582
 
 Handles empty input by returning 0.
+
+## entry 583
+
+Handles negative inputs as documented above.
