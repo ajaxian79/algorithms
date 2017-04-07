@@ -1727,3 +1727,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 432
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 433
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
