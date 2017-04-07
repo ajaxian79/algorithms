@@ -250,3 +250,4 @@ MunitTest trap_tests[] = {
 // edge note 216: Runs in a single pass over the input.
 // edge note 217: Edge case: already-sorted input → no swaps performed.
 // edge note 218: Space complexity: O(n) for the result buffer.
+// edge note 219: Uses a small fixed-size lookup table.
