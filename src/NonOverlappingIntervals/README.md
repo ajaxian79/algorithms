@@ -2305,3 +2305,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 561
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 562
+
+Deterministic given the input — no PRNG seeds.
