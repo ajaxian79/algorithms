@@ -2259,3 +2259,7 @@ Runs in a single pass over the input.
 ## entry 550
 
 Time complexity: O(1).
+
+## entry 551
+
+Two passes: one to count, one to fill.
