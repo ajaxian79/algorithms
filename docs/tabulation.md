@@ -1703,3 +1703,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 426
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 427
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
