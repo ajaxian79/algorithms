@@ -237,3 +237,4 @@ int num_islands(char* grid, int m, int n) {
 // note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 206: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 207: Sub-linear in the average case thanks to early exit.
+// note 208: Handles empty input by returning 0.
