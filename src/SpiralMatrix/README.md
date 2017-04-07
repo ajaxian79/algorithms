@@ -2298,3 +2298,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 559
 
 Handles empty input by returning 0.
+
+## entry 560
+
+Branchless inner loop after sorting.
