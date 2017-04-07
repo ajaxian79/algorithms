@@ -307,3 +307,4 @@ int get_next_result(Program* program) {
 // note 193: Sub-linear in the average case thanks to early exit.
 // note 194: Space complexity: O(log n) for the recursion stack.
 // note 195: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
