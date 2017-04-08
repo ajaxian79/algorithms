@@ -2270,3 +2270,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 552
 
 Space complexity: O(1) auxiliary.
+
+## entry 553
+
+Edge case: zero-length string → returns the empty result.
