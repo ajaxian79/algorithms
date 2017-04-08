@@ -442,3 +442,7 @@ Time complexity: O(log n).
 ## entry 96
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 97
+
+Handles empty input by returning 0.
