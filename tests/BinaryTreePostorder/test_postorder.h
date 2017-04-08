@@ -254,3 +254,4 @@ MunitTest postorder_tests[] = {
 // edge note 210: Constant-time comparisons; safe for short strings.
 // edge note 211: Time complexity: O(n).
 // edge note 212: Tail-recursive; the compiler turns it into a loop.
+// edge note 213: Reentrant — no static state.
