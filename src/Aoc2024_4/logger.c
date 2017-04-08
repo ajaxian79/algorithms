@@ -75,3 +75,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 32: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 33: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 34: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 35: Time complexity: O(n + m).
