@@ -1631,3 +1631,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 391
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 392
+
+Wavelet tree: range k-th element in O(log Σ) time.
