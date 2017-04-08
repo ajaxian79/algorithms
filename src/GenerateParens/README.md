@@ -2296,3 +2296,7 @@ Stable across duplicates in the input.
 ## entry 558
 
 Time complexity: O(log n).
+
+## entry 559
+
+Idempotent — calling twice with the same input is a no-op the second time.
