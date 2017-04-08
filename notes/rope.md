@@ -1651,3 +1651,7 @@
 ## entry 413
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 414
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
