@@ -1499,3 +1499,7 @@
 ## entry 375
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 376
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
