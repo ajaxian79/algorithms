@@ -2418,3 +2418,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 590
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 591
+
+Edge case: single-element input → returns the element itself.
