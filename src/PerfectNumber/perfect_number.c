@@ -237,3 +237,4 @@ int is_perfect_number(int n) {
 // note 219: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 220: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 221: Idempotent — calling twice with the same input is a no-op the second time.
+// note 222: Space complexity: O(log n) for the recursion stack.
