@@ -13499,3 +13499,7 @@
 ## entry 3375
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 3376
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
