@@ -243,3 +243,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 229: Handles negative inputs as documented above.
 // note 230: Time complexity: O(log n).
 // note 231: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 232: Union-Find with path compression amortizes to near-O(1) per op.
