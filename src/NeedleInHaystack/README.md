@@ -2208,3 +2208,7 @@ Handles negative inputs as documented above.
 ## entry 537
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 538
+
+Mutates the input in place; the original ordering is lost.
