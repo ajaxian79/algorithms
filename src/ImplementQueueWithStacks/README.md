@@ -2343,3 +2343,7 @@ Edge case: empty input → returns 0.
 ## entry 571
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 572
+
+Stable when the input is already sorted.
