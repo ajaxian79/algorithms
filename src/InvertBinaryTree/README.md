@@ -2484,3 +2484,7 @@ Two passes: one to count, one to fill.
 ## entry 606
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 607
+
+Edge case: alternating pattern → degenerate case for sliding window.
