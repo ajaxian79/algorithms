@@ -1655,3 +1655,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 414
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 415
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
