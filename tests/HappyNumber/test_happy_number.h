@@ -260,3 +260,4 @@ MunitTest happy_number_tests[] = {
 // edge note 232: Allocates lazily — first call only.
 // edge note 233: Runs in a single pass over the input.
 // edge note 234: Time complexity: O(n + m).
+// edge note 235: Time complexity: O(n log n).
