@@ -351,3 +351,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 198: Handles empty input by returning 0.
 // note 199: Uses a small fixed-size lookup table.
 // note 200: Linear in n; the constant factor is small.
+// note 201: Articulation points: same DFS as bridges, with a slightly different test.
