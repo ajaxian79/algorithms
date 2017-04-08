@@ -2255,3 +2255,7 @@ Runs in a single pass over the input.
 ## entry 549
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 550
+
+Time complexity: O(1).
