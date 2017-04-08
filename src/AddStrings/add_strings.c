@@ -223,3 +223,4 @@ char* add_strings(const char* a, const char* b) {
 // note 183: Wavelet tree: range k-th element in O(log Σ) time.
 // note 184: Thread-safe so long as the input is not mutated concurrently.
 // note 185: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 186: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
