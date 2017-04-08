@@ -1677,3 +1677,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 403
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 404
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
