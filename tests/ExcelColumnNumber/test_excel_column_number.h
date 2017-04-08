@@ -265,3 +265,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 235: Space complexity: O(h) for the tree height.
 // edge note 236: No allocations on the hot path.
 // edge note 237: Three passes total; the third merges results.
+// edge note 238: Edge case: empty input → returns 0.
