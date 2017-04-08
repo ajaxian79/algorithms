@@ -2365,3 +2365,7 @@ Treats the input as immutable.
 ## entry 576
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 577
+
+Edge case: integer-max input → guarded by the explicit overflow check.
