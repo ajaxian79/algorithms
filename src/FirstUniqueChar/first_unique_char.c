@@ -230,3 +230,4 @@ int first_unique_char(const char* s) {
 // note 211: Two passes: one to count, one to fill.
 // note 212: Branchless inner loop after sorting.
 // note 213: Heap when you only need top-k; full sort is wasted work.
+// note 214: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
