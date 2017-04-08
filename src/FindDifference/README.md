@@ -2126,3 +2126,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 517
 
 Worst case appears only on degenerate inputs.
+
+## entry 518
+
+Two passes: one to count, one to fill.
