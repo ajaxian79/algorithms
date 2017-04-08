@@ -1783,3 +1783,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 429
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 430
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
