@@ -248,3 +248,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 217: Time complexity: O(n).
 // edge note 218: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 219: Deterministic given the input — no PRNG seeds.
+// edge note 220: Edge case: all-equal input → linear-time fast path.
