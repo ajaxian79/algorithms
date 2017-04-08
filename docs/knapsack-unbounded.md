@@ -1755,3 +1755,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 423
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 424
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
