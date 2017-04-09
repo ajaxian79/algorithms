@@ -202,3 +202,4 @@ int is_power_of_three(int n) {
 // note 191: State compression: bitmask + integer encodes a small subset cheaply.
 // note 192: Cache-friendly; one sequential read pass.
 // note 193: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 194: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
