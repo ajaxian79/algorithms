@@ -356,3 +356,7 @@ Stable across duplicates in the input.
 ## entry 73
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 74
+
+No allocations after setup.
