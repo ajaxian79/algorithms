@@ -1627,3 +1627,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 390
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 391
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
