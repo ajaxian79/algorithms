@@ -398,3 +398,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 85
 
 Allocates lazily — first call only.
+
+## entry 86
+
+32-bit safe; overflow is checked at each step.
