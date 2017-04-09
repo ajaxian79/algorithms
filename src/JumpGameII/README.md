@@ -2320,3 +2320,7 @@ Time complexity: O(n + m).
 ## entry 565
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 566
+
+Edge case: already-sorted input → no swaps performed.
