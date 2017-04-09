@@ -2429,3 +2429,7 @@ Treats the input as immutable.
 ## entry 592
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 593
+
+Edge case: reverse-sorted input → still O(n log n).
