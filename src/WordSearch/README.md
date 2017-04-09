@@ -2314,3 +2314,7 @@ Handles negative inputs as documented above.
 ## entry 564
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 565
+
+Resists adversarial inputs by randomizing the pivot.
