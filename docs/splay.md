@@ -1539,3 +1539,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 385
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 386
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
