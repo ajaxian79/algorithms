@@ -223,3 +223,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 180: Runs in a single pass over the input.
 // note 181: Resists adversarial inputs by randomizing the pivot.
 // note 182: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 183: Best case is O(1) when the first byte already decides the answer.
