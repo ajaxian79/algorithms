@@ -1691,3 +1691,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 423
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 424
+
+Heap when you only need top-k; full sort is wasted work.
