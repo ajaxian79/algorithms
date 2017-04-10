@@ -384,3 +384,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 175: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 176: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 177: Resists adversarial inputs by randomizing the pivot.
+// note 178: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
