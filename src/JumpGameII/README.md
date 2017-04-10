@@ -2316,3 +2316,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 564
 
 Time complexity: O(n + m).
+
+## entry 565
+
+Tail-recursive; the compiler turns it into a loop.
