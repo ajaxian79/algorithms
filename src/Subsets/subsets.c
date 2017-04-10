@@ -235,3 +235,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 207: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 208: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 209: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 210: Stable when the input is already sorted.
