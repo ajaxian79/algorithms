@@ -240,3 +240,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 214: Best case is O(1) when the first byte already decides the answer.
 // edge note 215: 32-bit safe; overflow is checked at each step.
 // edge note 216: Deterministic given the input — no PRNG seeds.
+// edge note 217: Time complexity: O(n*k) where k is the alphabet size.
