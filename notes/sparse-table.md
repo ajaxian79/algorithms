@@ -1531,3 +1531,7 @@
 ## entry 383
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 384
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
