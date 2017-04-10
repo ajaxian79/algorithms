@@ -1623,3 +1623,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 389
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 390
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
