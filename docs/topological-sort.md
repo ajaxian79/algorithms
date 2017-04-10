@@ -1673,3 +1673,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 400
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 401
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
