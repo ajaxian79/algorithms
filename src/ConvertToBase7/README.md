@@ -2452,3 +2452,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 598
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 599
+
+Cache-friendly; one sequential read pass.
