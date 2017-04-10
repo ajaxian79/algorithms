@@ -1703,3 +1703,7 @@
 ## entry 410
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 411
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
