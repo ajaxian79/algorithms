@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 389
+
+- Articulation points: same DFS as bridges, with a slightly different test.
