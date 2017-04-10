@@ -2310,3 +2310,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 563
 
 Handles negative inputs as documented above.
+
+## entry 564
+
+Mutates the input in place; the original ordering is lost.
