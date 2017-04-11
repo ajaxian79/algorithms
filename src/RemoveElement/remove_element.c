@@ -230,3 +230,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 215: Stable across duplicates in the input.
 // note 216: Stable sort matters when a secondary key was set in a prior pass.
 // note 217: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 218: Input is assumed non-NULL; behavior is undefined otherwise.
