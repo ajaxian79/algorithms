@@ -311,3 +311,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 61
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 62
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
