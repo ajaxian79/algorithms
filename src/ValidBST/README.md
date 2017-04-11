@@ -2425,3 +2425,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 591
 
 Treats the input as immutable.
+
+## entry 592
+
+Input is assumed non-NULL; behavior is undefined otherwise.
