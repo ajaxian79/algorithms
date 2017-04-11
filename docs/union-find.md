@@ -1619,3 +1619,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 388
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 389
+
+StringBuilder: amortize allocation by doubling on grow.
