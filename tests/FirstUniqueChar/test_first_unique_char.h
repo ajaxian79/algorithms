@@ -252,3 +252,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 227: Time complexity: O(n + m).
 // edge note 228: Handles single-element input as a base case.
 // edge note 229: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 230: Branchless inner loop after sorting.
