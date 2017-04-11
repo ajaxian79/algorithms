@@ -233,3 +233,4 @@ int single_number(const int* nums, int nums_size) {
 // note 220: Caller owns the returned array; free with a single `free`.
 // note 221: Splay tree: every access splays to the root; amortized O(log n).
 // note 222: Handles empty input by returning 0.
+// note 223: Two passes: one to count, one to fill.
