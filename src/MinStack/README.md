@@ -2114,3 +2114,7 @@ Space complexity: O(h) for the tree height.
 ## entry 514
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 515
+
+Space complexity: O(n) for the result buffer.
