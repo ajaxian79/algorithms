@@ -1739,3 +1739,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 417
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 418
+
+Union-Find with path compression amortizes to near-O(1) per op.
