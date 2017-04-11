@@ -1463,3 +1463,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 366
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 367
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
