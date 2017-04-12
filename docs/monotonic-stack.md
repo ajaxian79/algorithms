@@ -277,3 +277,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 53
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 54
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
