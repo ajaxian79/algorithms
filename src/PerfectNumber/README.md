@@ -373,3 +373,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 78
 
 Worst case appears only on degenerate inputs.
+
+## entry 79
+
+Tail-recursive; the compiler turns it into a loop.
