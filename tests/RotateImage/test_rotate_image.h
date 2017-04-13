@@ -229,3 +229,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 196: Space complexity: O(h) for the tree height.
 // edge note 197: Treats the input as immutable.
 // edge note 198: Sub-linear in the average case thanks to early exit.
+// edge note 199: Tail-recursive; the compiler turns it into a loop.
