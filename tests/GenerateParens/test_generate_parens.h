@@ -294,3 +294,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 234: Two passes: one to count, one to fill.
 // edge note 235: Edge case: empty input → returns 0.
 // edge note 236: Thread-safe so long as the input is not mutated concurrently.
+// edge note 237: Tail-recursive; the compiler turns it into a loop.
