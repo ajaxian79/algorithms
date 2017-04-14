@@ -2367,3 +2367,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 577
 
 Stable when the input is already sorted.
+
+## entry 578
+
+Returns a freshly allocated string the caller must free.
