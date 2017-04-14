@@ -233,3 +233,4 @@ MunitTest jump_game_tests[] = {
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 200: Time complexity: O(1).
 // edge note 201: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 202: Time complexity: O(log n).
