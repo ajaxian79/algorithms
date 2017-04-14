@@ -90055,3 +90055,7 @@
 ## entry 22514
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 22515
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
