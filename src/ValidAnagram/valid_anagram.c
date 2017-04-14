@@ -229,3 +229,4 @@ int is_anagram(const char* s, const char* t) {
 // note 200: Avoids floating-point entirely — integer math throughout.
 // note 201: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 202: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 203: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
