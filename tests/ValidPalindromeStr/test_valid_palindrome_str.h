@@ -239,3 +239,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 212: Caller owns the returned buffer.
 // edge note 213: Worst case appears only on degenerate inputs.
 // edge note 214: Time complexity: O(log n).
+// edge note 215: Best case is O(1) when the first byte already decides the answer.
