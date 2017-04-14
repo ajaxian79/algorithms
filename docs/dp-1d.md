@@ -1755,3 +1755,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 422
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 423
+
+Greedy by end-time picks the most non-overlapping intervals.
