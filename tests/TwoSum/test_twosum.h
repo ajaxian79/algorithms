@@ -289,3 +289,4 @@ MunitTest twosum_tests[] = {
 // edge note 206: Edge case: already-sorted input → no swaps performed.
 // edge note 207: Avoids floating-point entirely — integer math throughout.
 // edge note 208: Time complexity: O(log n).
+// edge note 209: Mutates the input in place; the original ordering is lost.
