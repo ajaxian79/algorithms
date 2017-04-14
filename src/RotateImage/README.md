@@ -2345,3 +2345,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 571
 
 Branchless inner loop after sorting.
+
+## entry 572
+
+Caller owns the returned buffer.
