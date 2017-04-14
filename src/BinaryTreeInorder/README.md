@@ -2362,3 +2362,7 @@ Two passes: one to count, one to fill.
 ## entry 576
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 577
+
+Avoids floating-point entirely — integer math throughout.
