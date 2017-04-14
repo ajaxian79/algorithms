@@ -292,3 +292,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 252: Best case is O(1) when the first byte already decides the answer.
 // edge note 253: Allocates lazily — first call only.
 // edge note 254: Edge case: input with no peak → falls through to the default branch.
+// edge note 255: Allocates a single small fixed-size scratch buffer.
