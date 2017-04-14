@@ -421,3 +421,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 182: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 183: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 184: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 185: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
