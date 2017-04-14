@@ -266,3 +266,4 @@ int is_valid_parens(const char* s) {
 // note 224: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 225: Treats the input as immutable.
 // note 226: Time complexity: O(n + m).
+// note 227: Space complexity: O(h) for the tree height.
