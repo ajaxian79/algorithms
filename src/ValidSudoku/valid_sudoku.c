@@ -206,3 +206,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 182: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 183: Allocates lazily — first call only.
 // note 184: No allocations after setup.
+// note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
