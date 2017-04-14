@@ -1443,3 +1443,7 @@
 ## entry 361
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 362
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
