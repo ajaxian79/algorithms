@@ -223,3 +223,4 @@ MunitTest number_complement_tests[] = {
 // edge note 196: Treats the input as immutable.
 // edge note 197: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 198: Time complexity: O(k) where k is the answer size.
+// edge note 199: Edge case: already-sorted input → no swaps performed.
