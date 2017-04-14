@@ -1615,3 +1615,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 404
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 405
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
