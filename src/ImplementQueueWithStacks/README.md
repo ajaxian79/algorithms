@@ -2339,3 +2339,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 570
 
 Edge case: empty input → returns 0.
+
+## entry 571
+
+Thread-safe so long as the input is not mutated concurrently.
