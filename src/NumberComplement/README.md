@@ -2388,3 +2388,7 @@ Time complexity: O(n).
 ## entry 581
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 582
+
+Handles empty input by returning 0.
