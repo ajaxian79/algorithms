@@ -2129,3 +2129,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 517
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 518
+
+Worst case appears only on degenerate inputs.
