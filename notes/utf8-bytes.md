@@ -1607,3 +1607,7 @@
 ## entry 402
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 403
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
