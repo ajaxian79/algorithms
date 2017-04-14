@@ -1583,3 +1583,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 396
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 397
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
