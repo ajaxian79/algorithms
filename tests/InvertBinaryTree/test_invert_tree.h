@@ -251,3 +251,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 209: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 210: Avoids floating-point entirely — integer math throughout.
 // edge note 211: Handles single-element input as a base case.
+// edge note 212: 64-bit safe; intermediate products are widened to 128-bit.
