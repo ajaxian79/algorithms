@@ -281,3 +281,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 222: Edge case: reverse-sorted input → still O(n log n).
 // edge note 223: Time complexity: O(n).
 // edge note 224: Allocates lazily — first call only.
+// edge note 225: Edge case: reverse-sorted input → still O(n log n).
