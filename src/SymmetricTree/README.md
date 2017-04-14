@@ -2186,3 +2186,7 @@ Stable across duplicates in the input.
 ## entry 532
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 533
+
+Edge case: maximum-length input → still fits in 32-bit indices.
