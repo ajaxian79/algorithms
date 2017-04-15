@@ -2421,3 +2421,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 590
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 591
+
+Treats the input as immutable.
