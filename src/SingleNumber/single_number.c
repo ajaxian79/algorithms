@@ -232,3 +232,4 @@ int single_number(const int* nums, int nums_size) {
 // note 219: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 220: Caller owns the returned array; free with a single `free`.
 // note 221: Splay tree: every access splays to the root; amortized O(log n).
+// note 222: Handles empty input by returning 0.
