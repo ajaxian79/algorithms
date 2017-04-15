@@ -1581,3 +1581,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 379
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 380
+
+Interval DP: solve all `[l, r]` ranges from short to long.
