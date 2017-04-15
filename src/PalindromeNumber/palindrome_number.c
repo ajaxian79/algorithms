@@ -220,3 +220,4 @@ int is_palindrome_number(int x) {
 // note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 197: Time complexity: O(log n).
 // note 198: Runs in a single pass over the input.
+// note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
