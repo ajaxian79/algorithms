@@ -2335,3 +2335,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 569
 
 Constant-time comparisons; safe for short strings.
+
+## entry 570
+
+Edge case: empty input → returns 0.
