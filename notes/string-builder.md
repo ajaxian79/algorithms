@@ -1671,3 +1671,7 @@
 ## entry 418
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 419
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
