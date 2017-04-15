@@ -2270,3 +2270,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 553
 
 Caller owns the returned buffer.
+
+## entry 554
+
+Time complexity: O(1).
