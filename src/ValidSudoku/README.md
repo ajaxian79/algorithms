@@ -2379,3 +2379,7 @@ Time complexity: O(n).
 ## entry 579
 
 Edge case: single-element input → returns the element itself.
+
+## entry 580
+
+Edge case: already-sorted input → no swaps performed.
