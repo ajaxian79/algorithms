@@ -1667,3 +1667,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 417
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 418
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
