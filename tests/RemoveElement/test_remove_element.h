@@ -248,3 +248,4 @@ MunitTest remove_element_tests[] = {
 // edge note 211: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 212: Stable across duplicates in the input.
 // edge note 213: 32-bit safe; overflow is checked at each step.
+// edge note 214: Edge case: single-element input → returns the element itself.
