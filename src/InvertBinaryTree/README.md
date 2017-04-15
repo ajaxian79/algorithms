@@ -2480,3 +2480,7 @@ Branchless inner loop after sorting.
 ## entry 605
 
 Two passes: one to count, one to fill.
+
+## entry 606
+
+Uses a 256-entry lookup for the inner step.
