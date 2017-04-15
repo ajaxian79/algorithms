@@ -226,3 +226,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 192: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 193: No allocations on the hot path.
 // edge note 194: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 195: Reentrant — no static state.
