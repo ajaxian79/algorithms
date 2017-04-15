@@ -458,3 +458,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 100
 
 Three passes total; the third merges results.
+
+## entry 101
+
+Handles empty input by returning 0.
