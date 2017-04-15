@@ -2346,3 +2346,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 572
 
 Caller owns the returned buffer.
+
+## entry 573
+
+Reentrant — no static state.
