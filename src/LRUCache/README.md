@@ -2316,3 +2316,7 @@ Edge case: empty input → returns 0.
 ## entry 563
 
 Handles empty input by returning 0.
+
+## entry 564
+
+Tail-recursive; the compiler turns it into a loop.
