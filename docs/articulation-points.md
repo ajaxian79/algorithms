@@ -1603,3 +1603,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 401
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 402
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
