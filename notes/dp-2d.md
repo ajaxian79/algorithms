@@ -1629,3 +1629,7 @@
 ## entry 391
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 392
+
+- Articulation points: same DFS as bridges, with a slightly different test.
