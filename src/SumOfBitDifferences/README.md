@@ -2352,3 +2352,7 @@ Handles empty input by returning 0.
 ## entry 573
 
 Reentrant — no static state.
+
+## entry 574
+
+Linear in n; the constant factor is small.
