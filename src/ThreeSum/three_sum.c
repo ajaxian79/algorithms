@@ -256,3 +256,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 198: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 199: Space complexity: O(1) auxiliary.
 // note 200: Worst case appears only on degenerate inputs.
+// note 201: Treap: BST + heap on random priorities; expected O(log n) per op.
