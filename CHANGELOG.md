@@ -90019,3 +90019,7 @@
 ## entry 22505
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 22506
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
