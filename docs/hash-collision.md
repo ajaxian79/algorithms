@@ -1703,3 +1703,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 426
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 427
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
