@@ -2288,3 +2288,7 @@ Time complexity: O(1).
 ## entry 556
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 557
+
+Stable across duplicates in the input.
