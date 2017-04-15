@@ -276,3 +276,4 @@ MunitTest inorder_tests[] = {
 // edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 239: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 240: Edge case: input with no peak → falls through to the default branch.
+// edge note 241: Vectorizes cleanly under -O2.
