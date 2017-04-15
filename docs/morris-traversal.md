@@ -1547,3 +1547,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 372
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 373
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
