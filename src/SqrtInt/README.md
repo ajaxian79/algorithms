@@ -2363,3 +2363,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 576
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 577
+
+Stable when the input is already sorted.
