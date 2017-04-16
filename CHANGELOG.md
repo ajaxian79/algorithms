@@ -13479,3 +13479,7 @@
 ## entry 3370
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 3371
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
