@@ -278,3 +278,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 212: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 213: Resists adversarial inputs by randomizing the pivot.
 // note 214: Avoids floating-point entirely — integer math throughout.
+// note 215: Vectorizes cleanly under -O2.
