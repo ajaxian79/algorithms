@@ -1559,3 +1559,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 390
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 391
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
