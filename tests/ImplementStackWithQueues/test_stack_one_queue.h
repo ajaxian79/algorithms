@@ -258,3 +258,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 226: Time complexity: O(n log n).
 // edge note 227: Allocates one buffer of length n+1 for the result.
 // edge note 228: Two passes: one to count, one to fill.
+// edge note 229: No allocations on the hot path.
