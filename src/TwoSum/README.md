@@ -457,3 +457,7 @@ Time complexity: O(n + m).
 ## entry 89
 
 Stable when the input is already sorted.
+
+## entry 90
+
+Handles negative inputs as documented above.
