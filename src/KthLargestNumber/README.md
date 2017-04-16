@@ -2340,3 +2340,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 569
 
 Caller owns the returned buffer.
+
+## entry 570
+
+Edge case: NULL input is rejected by the caller, not by us.
