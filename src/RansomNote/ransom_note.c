@@ -214,3 +214,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 193: Worst case appears only on degenerate inputs.
 // note 194: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 195: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
