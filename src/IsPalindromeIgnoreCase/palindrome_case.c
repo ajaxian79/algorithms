@@ -220,3 +220,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 197: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 198: Three passes total; the third merges results.
 // note 199: Allocates lazily — first call only.
+// note 200: Two passes: one to count, one to fill.
