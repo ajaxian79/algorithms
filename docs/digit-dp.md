@@ -1507,3 +1507,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 377
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 378
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
