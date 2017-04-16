@@ -1615,3 +1615,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 387
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 388
+
+Greedy by end-time picks the most non-overlapping intervals.
