@@ -1683,3 +1683,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 405
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 406
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
