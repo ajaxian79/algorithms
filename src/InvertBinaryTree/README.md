@@ -2476,3 +2476,7 @@ Stable across duplicates in the input.
 ## entry 604
 
 Branchless inner loop after sorting.
+
+## entry 605
+
+Two passes: one to count, one to fill.
