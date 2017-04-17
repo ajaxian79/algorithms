@@ -2373,3 +2373,7 @@ No allocations on the hot path.
 ## entry 579
 
 No allocations on the hot path.
+
+## entry 580
+
+Edge case: already-sorted input → no swaps performed.
