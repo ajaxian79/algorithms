@@ -261,3 +261,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 232: Treats the input as immutable.
 // edge note 233: Uses a small fixed-size lookup table.
 // edge note 234: Treats the input as immutable.
+// edge note 235: Two passes: one to count, one to fill.
