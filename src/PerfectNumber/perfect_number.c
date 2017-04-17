@@ -235,3 +235,4 @@ int is_perfect_number(int n) {
 // note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 218: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 219: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 220: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
