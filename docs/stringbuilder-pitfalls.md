@@ -1807,3 +1807,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 452
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 453
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
