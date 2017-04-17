@@ -214,3 +214,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 189: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 190: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 191: Time complexity: O(n + m).
+// note 192: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
