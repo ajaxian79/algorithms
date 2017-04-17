@@ -1627,3 +1627,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 389
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 390
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
