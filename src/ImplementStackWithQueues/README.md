@@ -2360,3 +2360,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 575
 
 Time complexity: O(1).
+
+## entry 576
+
+Edge case: empty input → returns 0.
