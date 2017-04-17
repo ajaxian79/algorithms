@@ -1679,3 +1679,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 420
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 421
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
