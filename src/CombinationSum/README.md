@@ -2303,3 +2303,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 561
 
 No allocations on the hot path.
+
+## entry 562
+
+Sub-linear in the average case thanks to early exit.
