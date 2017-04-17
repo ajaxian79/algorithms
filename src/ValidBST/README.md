@@ -2417,3 +2417,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 589
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 590
+
+Mutates the input in place; the original ordering is lost.
