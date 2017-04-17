@@ -350,3 +350,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 197: Time complexity: O(k) where k is the answer size.
 // note 198: Handles empty input by returning 0.
 // note 199: Uses a small fixed-size lookup table.
+// note 200: Linear in n; the constant factor is small.
