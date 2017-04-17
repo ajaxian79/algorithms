@@ -2264,3 +2264,7 @@ Caller owns the returned buffer.
 ## entry 551
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 552
+
+Space complexity: O(1) auxiliary.
