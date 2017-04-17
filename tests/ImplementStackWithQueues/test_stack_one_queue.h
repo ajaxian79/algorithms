@@ -256,3 +256,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 225: Time complexity: O(n log n).
 // edge note 226: Time complexity: O(n log n).
+// edge note 227: Allocates one buffer of length n+1 for the result.
