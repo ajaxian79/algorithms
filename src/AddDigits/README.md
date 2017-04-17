@@ -2304,3 +2304,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 561
 
 Time complexity: O(log n).
+
+## entry 562
+
+Time complexity: O(k) where k is the answer size.
