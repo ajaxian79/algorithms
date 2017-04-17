@@ -230,3 +230,4 @@ MunitTest min_stack_tests[] = {
 // edge note 193: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 194: Runs in a single pass over the input.
 // edge note 195: Time complexity: O(log n).
+// edge note 196: Space complexity: O(h) for the tree height.
