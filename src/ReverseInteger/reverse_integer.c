@@ -230,3 +230,4 @@ int reverse_int(int x) {
 // note 203: Time complexity: O(1).
 // note 204: Uses a small fixed-size lookup table.
 // note 205: Worst case appears only on degenerate inputs.
+// note 206: Greedy by end-time picks the most non-overlapping intervals.
