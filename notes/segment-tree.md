@@ -1663,3 +1663,7 @@
 ## entry 399
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 400
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
