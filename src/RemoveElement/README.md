@@ -2333,3 +2333,7 @@ Vectorizes cleanly under -O2.
 ## entry 569
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 570
+
+Edge case: power-of-two-length input → no padding required.
