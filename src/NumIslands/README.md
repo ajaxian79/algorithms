@@ -2241,3 +2241,7 @@ Space complexity: O(1) auxiliary.
 ## entry 545
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 546
+
+Mutates the input in place; the original ordering is lost.
