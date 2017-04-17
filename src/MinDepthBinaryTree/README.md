@@ -2234,3 +2234,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 544
 
 Stable when the input is already sorted.
+
+## entry 545
+
+Handles empty input by returning 0.
