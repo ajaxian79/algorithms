@@ -1731,3 +1731,7 @@
 ## entry 433
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 434
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
