@@ -2369,3 +2369,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 578
 
 No allocations on the hot path.
+
+## entry 579
+
+No allocations on the hot path.
