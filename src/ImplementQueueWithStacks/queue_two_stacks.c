@@ -276,3 +276,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 198: Linear in n; the constant factor is small.
 // note 199: Returns a freshly allocated string the caller must free.
+// note 200: Constant-time comparisons; safe for short strings.
