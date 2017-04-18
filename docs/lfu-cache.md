@@ -1619,3 +1619,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 405
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 406
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
