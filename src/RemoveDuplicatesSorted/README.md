@@ -2458,3 +2458,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 600
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 601
+
+Allocates lazily — first call only.
