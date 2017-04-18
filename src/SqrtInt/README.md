@@ -2359,3 +2359,7 @@ Runs in a single pass over the input.
 ## entry 575
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 576
+
+Time complexity: O(n^2) worst case, O(n) amortized.
