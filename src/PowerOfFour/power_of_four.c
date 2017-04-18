@@ -204,3 +204,4 @@ int is_power_of_four(int n) {
 // note 191: Idempotent — calling twice with the same input is a no-op the second time.
 // note 192: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 193: Runs in a single pass over the input.
+// note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
