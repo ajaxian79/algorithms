@@ -236,3 +236,4 @@ int roman_to_int(const char* s) {
 // note 196: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 198: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 199: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
