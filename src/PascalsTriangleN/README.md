@@ -358,3 +358,7 @@ Handles single-element input as a base case.
 ## entry 74
 
 Reentrant — no static state.
+
+## entry 75
+
+No allocations on the hot path.
