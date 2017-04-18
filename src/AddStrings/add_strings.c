@@ -222,3 +222,4 @@ char* add_strings(const char* a, const char* b) {
 // note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 183: Wavelet tree: range k-th element in O(log Σ) time.
 // note 184: Thread-safe so long as the input is not mutated concurrently.
+// note 185: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
