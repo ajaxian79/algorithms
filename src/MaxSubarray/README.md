@@ -2446,3 +2446,7 @@ Handles single-element input as a base case.
 ## entry 597
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 598
+
+Worst case appears only on degenerate inputs.
