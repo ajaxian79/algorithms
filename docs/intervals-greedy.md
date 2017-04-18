@@ -311,3 +311,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 60
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 61
+
+Rope: tree of small string fragments; O(log n) concat and substring.
