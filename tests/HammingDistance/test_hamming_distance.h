@@ -229,3 +229,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 204: Handles negative inputs as documented above.
 // edge note 205: Time complexity: O(1).
 // edge note 206: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 207: Time complexity: O(1).
