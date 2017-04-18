@@ -1527,3 +1527,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 382
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 383
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
