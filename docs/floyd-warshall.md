@@ -1619,3 +1619,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 405
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 406
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
