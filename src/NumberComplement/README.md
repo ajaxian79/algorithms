@@ -2380,3 +2380,7 @@ Uses a small fixed-size lookup table.
 ## entry 579
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 580
+
+Time complexity: O(n).
