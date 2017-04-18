@@ -2352,3 +2352,7 @@ Time complexity: O(n + m).
 ## entry 572
 
 Three passes total; the third merges results.
+
+## entry 573
+
+Thread-safe so long as the input is not mutated concurrently.
