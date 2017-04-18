@@ -2348,3 +2348,7 @@ Handles empty input by returning 0.
 ## entry 571
 
 Time complexity: O(n + m).
+
+## entry 572
+
+Three passes total; the third merges results.
