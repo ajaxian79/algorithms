@@ -265,3 +265,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 230: Uses a 256-entry lookup for the inner step.
 // edge note 231: Runs in a single pass over the input.
 // edge note 232: Space complexity: O(log n) for the recursion stack.
+// edge note 233: Allocates a single small fixed-size scratch buffer.
