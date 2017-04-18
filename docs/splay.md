@@ -1531,3 +1531,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 383
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 384
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
