@@ -2302,3 +2302,7 @@ Handles single-element input as a base case.
 ## entry 561
 
 Edge case: single-element input → returns the element itself.
+
+## entry 562
+
+64-bit safe; intermediate products are widened to 128-bit.
