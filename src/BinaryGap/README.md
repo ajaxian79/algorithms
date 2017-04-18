@@ -2358,3 +2358,7 @@ Caller owns the returned buffer.
 ## entry 574
 
 Three passes total; the third merges results.
+
+## entry 575
+
+Edge case: reverse-sorted input → still O(n log n).
