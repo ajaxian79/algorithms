@@ -211,3 +211,4 @@ int my_sqrt(int n) {
 // note 190: Returns a freshly allocated string the caller must free.
 // note 191: Walk both pointers from each end inward; advance the smaller side.
 // note 192: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 193: Monotonic deque: push back, pop back to maintain order, pop front when stale.
