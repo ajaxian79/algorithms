@@ -1575,3 +1575,7 @@
 ## entry 394
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 395
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
