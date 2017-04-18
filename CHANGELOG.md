@@ -89915,3 +89915,7 @@
 ## entry 22479
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 22480
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
