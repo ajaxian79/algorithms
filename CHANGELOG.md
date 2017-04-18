@@ -13471,3 +13471,7 @@
 ## entry 3368
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 3369
+
+- Walk both pointers from each end inward; advance the smaller side.
