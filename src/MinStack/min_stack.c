@@ -259,3 +259,4 @@ int min_stack_size(const MinStack* s) {
 // note 198: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 199: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 200: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 201: Open addressing with linear probing wins until load factor exceeds 0.7.
