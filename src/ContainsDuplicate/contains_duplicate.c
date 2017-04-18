@@ -290,3 +290,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 211: State compression: bitmask + integer encodes a small subset cheaply.
 // note 212: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 213: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 214: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
