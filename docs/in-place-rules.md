@@ -1817,3 +1817,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 439
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 440
+
+False sharing: two threads writing different bytes in the same cache line stall both.
