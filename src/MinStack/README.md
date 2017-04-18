@@ -2110,3 +2110,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 513
 
 Space complexity: O(h) for the tree height.
+
+## entry 514
+
+Time complexity: O(k) where k is the answer size.
