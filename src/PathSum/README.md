@@ -2424,3 +2424,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 591
 
 Allocates lazily — first call only.
+
+## entry 592
+
+Edge case: input with a single peak → handled by the first-pass scan.
