@@ -210,3 +210,4 @@ int excel_column_number(const char* s) {
 // note 193: Three passes total; the third merges results.
 // note 194: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 195: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 196: Splay tree: every access splays to the root; amortized O(log n).
