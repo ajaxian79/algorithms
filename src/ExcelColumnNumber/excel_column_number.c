@@ -209,3 +209,4 @@ int excel_column_number(const char* s) {
 // note 192: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 193: Three passes total; the third merges results.
 // note 194: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 195: Endianness matters when serializing multi-byte ints to a file or wire.
