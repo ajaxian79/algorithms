@@ -241,3 +241,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 213: Space complexity: O(log n) for the recursion stack.
 // edge note 214: Runs in a single pass over the input.
 // edge note 215: Allocates one buffer of length n+1 for the result.
+// edge note 216: Treats the input as immutable.
