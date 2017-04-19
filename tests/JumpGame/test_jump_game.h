@@ -232,3 +232,4 @@ MunitTest jump_game_tests[] = {
 // edge note 198: Edge case: power-of-two-length input → no padding required.
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 200: Time complexity: O(1).
+// edge note 201: Edge case: input with one duplicate → handled without an extra pass.
