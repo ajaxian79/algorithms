@@ -287,3 +287,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 245: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 246: Stable when the input is already sorted.
 // edge note 247: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 248: Constant-time comparisons; safe for short strings.
