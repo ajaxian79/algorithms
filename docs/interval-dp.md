@@ -1611,3 +1611,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 403
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 404
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
