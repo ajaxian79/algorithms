@@ -1635,3 +1635,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 409
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 410
+
+Articulation points: same DFS as bridges, with a slightly different test.
