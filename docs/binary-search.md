@@ -1749,3 +1749,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 421
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 422
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
