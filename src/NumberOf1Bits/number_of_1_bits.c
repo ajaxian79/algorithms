@@ -190,3 +190,4 @@ int number_of_1_bits(unsigned int n) {
 // note 177: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 178: Time complexity: O(n + m).
 // note 179: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 180: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
