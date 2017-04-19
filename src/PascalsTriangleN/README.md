@@ -2158,3 +2158,7 @@ Handles empty input by returning 0.
 ## entry 524
 
 Allocates lazily — first call only.
+
+## entry 525
+
+Mutates the input in place; the original ordering is lost.
