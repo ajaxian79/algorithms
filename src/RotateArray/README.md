@@ -2463,3 +2463,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 600
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 601
+
+Edge case: NULL input is rejected by the caller, not by us.
