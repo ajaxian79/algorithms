@@ -1527,3 +1527,7 @@
 ## entry 382
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 383
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
