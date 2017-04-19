@@ -1779,3 +1779,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 428
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 429
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
