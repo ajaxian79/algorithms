@@ -2298,3 +2298,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 560
 
 Handles single-element input as a base case.
+
+## entry 561
+
+Edge case: single-element input → returns the element itself.
