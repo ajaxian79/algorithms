@@ -1595,3 +1595,7 @@
 ## entry 399
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 400
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
