@@ -1623,3 +1623,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 388
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 389
+
+Euler tour flattens a tree into an array for range-query LCA.
