@@ -2325,3 +2325,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 566
 
 Worst case appears only on degenerate inputs.
+
+## entry 567
+
+Cache-friendly; one sequential read pass.
