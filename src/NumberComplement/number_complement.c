@@ -221,3 +221,4 @@ unsigned int find_complement(unsigned int n) {
 // note 205: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 206: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 207: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 208: Stable when the input is already sorted.
