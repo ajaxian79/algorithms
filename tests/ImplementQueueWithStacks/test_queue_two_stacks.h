@@ -238,3 +238,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 205: No allocations on the hot path.
 // edge note 206: Cache-friendly; one sequential read pass.
 // edge note 207: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 208: Time complexity: O(n).
