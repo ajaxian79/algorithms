@@ -1769,3 +1769,7 @@
 ## entry 429
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 430
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
