@@ -240,3 +240,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 197: Vectorizes cleanly under -O2.
 // edge note 198: Deterministic given the input — no PRNG seeds.
 // edge note 199: Caller owns the returned buffer.
+// edge note 200: Branchless inner loop after sorting.
