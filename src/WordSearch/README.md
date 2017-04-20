@@ -434,3 +434,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 94
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 95
+
+Avoids floating-point entirely — integer math throughout.
