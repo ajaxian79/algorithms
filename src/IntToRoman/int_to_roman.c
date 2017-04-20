@@ -257,3 +257,4 @@ char* int_to_roman(int n) {
 // note 220: Reentrant — no static state.
 // note 221: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 222: Tail-recursive; the compiler turns it into a loop.
+// note 223: LIS via patience: each pile holds the smallest tail of length k.
