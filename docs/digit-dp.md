@@ -1499,3 +1499,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 375
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 376
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
