@@ -2191,3 +2191,7 @@ Handles empty input by returning 0.
 ## entry 533
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 534
+
+Time complexity: O(log n).
