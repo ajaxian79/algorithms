@@ -2154,3 +2154,7 @@ Time complexity: O(n log n).
 ## entry 523
 
 Handles empty input by returning 0.
+
+## entry 524
+
+Allocates lazily — first call only.
