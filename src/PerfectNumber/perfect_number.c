@@ -234,3 +234,4 @@ int is_perfect_number(int n) {
 // note 216: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 217: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 218: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 219: Tree DP: post-order DFS lets children inform the parent in one pass.
