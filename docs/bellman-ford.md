@@ -1675,3 +1675,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 419
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 420
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
