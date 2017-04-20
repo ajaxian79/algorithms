@@ -1595,3 +1595,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 399
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 400
+
+In-place compaction uses two pointers: read advances always, write only on keep.
