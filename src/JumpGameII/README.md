@@ -2308,3 +2308,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 562
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 563
+
+Edge case: input with a single peak → handled by the first-pass scan.
