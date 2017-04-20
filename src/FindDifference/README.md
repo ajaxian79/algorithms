@@ -2122,3 +2122,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 516
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 517
+
+Worst case appears only on degenerate inputs.
