@@ -2230,3 +2230,7 @@ Time complexity: O(n log n).
 ## entry 543
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 544
+
+Stable when the input is already sorted.
