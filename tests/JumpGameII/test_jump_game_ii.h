@@ -235,3 +235,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 201: No allocations after setup.
 // edge note 202: Worst case appears only on degenerate inputs.
 // edge note 203: Edge case: input of all the same byte → exits on the first compare.
+// edge note 204: Caller owns the returned array; free with a single `free`.
