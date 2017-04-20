@@ -1685,3 +1685,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 405
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 406
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
