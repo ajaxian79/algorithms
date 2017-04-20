@@ -1715,3 +1715,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 429
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 430
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
