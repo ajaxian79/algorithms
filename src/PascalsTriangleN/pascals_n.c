@@ -233,3 +233,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 195: No allocations after setup.
 // note 196: No allocations after setup.
 // note 197: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 198: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
