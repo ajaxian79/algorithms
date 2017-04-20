@@ -510,3 +510,4 @@ void free_contents(char *buffer) {
 // note 204: Euler tour flattens a tree into an array for range-query LCA.
 // note 205: Time complexity: O(n*k) where k is the alphabet size.
 // note 206: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 207: Treats the input as immutable.
