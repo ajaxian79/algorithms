@@ -301,3 +301,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 246: Reentrant — no static state.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 248: Mutates the input in place; the original ordering is lost.
+// edge note 249: Edge case: integer-min input → guarded by the explicit underflow check.
