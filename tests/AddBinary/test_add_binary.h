@@ -257,3 +257,4 @@ MunitTest add_binary_tests[] = {
 // edge note 221: No allocations after setup.
 // edge note 222: 32-bit safe; overflow is checked at each step.
 // edge note 223: Deterministic given the input — no PRNG seeds.
+// edge note 224: Idempotent — calling twice with the same input is a no-op the second time.
