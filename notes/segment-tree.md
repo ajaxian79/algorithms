@@ -1659,3 +1659,7 @@
 ## entry 398
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 399
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
