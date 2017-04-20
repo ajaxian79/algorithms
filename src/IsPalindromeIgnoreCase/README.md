@@ -2266,3 +2266,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 552
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 553
+
+Caller owns the returned buffer.
