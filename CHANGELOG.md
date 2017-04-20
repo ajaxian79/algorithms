@@ -89859,3 +89859,7 @@
 ## entry 22465
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 22466
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
