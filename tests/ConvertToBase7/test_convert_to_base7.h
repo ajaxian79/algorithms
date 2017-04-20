@@ -218,3 +218,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 189: Edge case: single-element input → returns the element itself.
 // edge note 190: Thread-safe so long as the input is not mutated concurrently.
 // edge note 191: Mutates the input in place; the original ordering is lost.
+// edge note 192: Stable across duplicates in the input.
