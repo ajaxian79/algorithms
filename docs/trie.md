@@ -1577,3 +1577,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 378
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 379
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
