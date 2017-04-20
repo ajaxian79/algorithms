@@ -2312,3 +2312,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 562
 
 Edge case: empty input → returns 0.
+
+## entry 563
+
+Handles empty input by returning 0.
