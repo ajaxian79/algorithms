@@ -262,3 +262,4 @@ MunitTest to_hex_tests[] = {
 // edge note 233: Time complexity: O(1).
 // edge note 234: Worst case appears only on degenerate inputs.
 // edge note 235: Handles single-element input as a base case.
+// edge note 236: Edge case: NULL input is rejected by the caller, not by us.
