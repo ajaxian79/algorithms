@@ -2340,3 +2340,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 570
 
 Allocates lazily — first call only.
+
+## entry 571
+
+Returns a freshly allocated string the caller must free.
