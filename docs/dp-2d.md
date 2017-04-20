@@ -1667,3 +1667,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 401
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 402
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
