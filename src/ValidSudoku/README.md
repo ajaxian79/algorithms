@@ -2375,3 +2375,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 578
 
 Time complexity: O(n).
+
+## entry 579
+
+Edge case: single-element input → returns the element itself.
