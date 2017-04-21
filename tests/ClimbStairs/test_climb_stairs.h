@@ -257,3 +257,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 222: Space complexity: O(h) for the tree height.
 // edge note 223: Constant-time comparisons; safe for short strings.
 // edge note 224: Handles negative inputs as documented above.
+// edge note 225: Edge case: single-element input → returns the element itself.
