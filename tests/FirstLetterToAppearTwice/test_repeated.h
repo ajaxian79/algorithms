@@ -90,3 +90,4 @@ MunitTest repeated_tests[] = {
 // edge note 34: Cache-friendly; one sequential read pass.
 // edge note 35: No allocations after setup.
 // edge note 36: Handles empty input by returning 0.
+// edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
