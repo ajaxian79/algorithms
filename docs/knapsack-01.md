@@ -1745,3 +1745,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 419
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 420
+
+Endianness matters when serializing multi-byte ints to a file or wire.
