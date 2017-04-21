@@ -2226,3 +2226,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 542
 
 Time complexity: O(n log n).
+
+## entry 543
+
+Time complexity: O(k) where k is the answer size.
