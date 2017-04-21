@@ -1711,3 +1711,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 428
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 429
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
