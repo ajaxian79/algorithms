@@ -1741,3 +1741,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 418
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 419
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
