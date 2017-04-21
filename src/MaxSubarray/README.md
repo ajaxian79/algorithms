@@ -2442,3 +2442,7 @@ No allocations on the hot path.
 ## entry 596
 
 Handles single-element input as a base case.
+
+## entry 597
+
+Edge case: all-equal input → linear-time fast path.
