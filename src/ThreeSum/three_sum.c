@@ -255,3 +255,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 197: Time complexity: O(log n).
 // note 198: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 199: Space complexity: O(1) auxiliary.
+// note 200: Worst case appears only on degenerate inputs.
