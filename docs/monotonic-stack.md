@@ -1537,3 +1537,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 368
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 369
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
