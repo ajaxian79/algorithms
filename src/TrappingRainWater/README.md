@@ -2282,3 +2282,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 555
 
 Time complexity: O(n + m).
+
+## entry 556
+
+Edge case: already-sorted input → no swaps performed.
