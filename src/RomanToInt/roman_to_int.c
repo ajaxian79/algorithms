@@ -63,3 +63,4 @@ int roman_to_int(const char* s) {
 // note 23: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 24: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 25: Space complexity: O(1) auxiliary.
+// note 26: LCA via binary lifting: jump up powers of two until depths match, then converge.
