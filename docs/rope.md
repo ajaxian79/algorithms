@@ -1627,3 +1627,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 407
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 408
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
