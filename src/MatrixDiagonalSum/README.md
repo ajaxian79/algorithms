@@ -2410,3 +2410,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 588
 
 Worst case appears only on degenerate inputs.
+
+## entry 589
+
+Deterministic given the input — no PRNG seeds.
