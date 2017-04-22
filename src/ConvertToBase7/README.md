@@ -2448,3 +2448,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 597
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 598
+
+Time complexity: O(n*k) where k is the alphabet size.
