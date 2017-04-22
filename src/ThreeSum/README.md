@@ -2313,3 +2313,7 @@ Space complexity: O(h) for the tree height.
 ## entry 563
 
 Edge case: single-element input → returns the element itself.
+
+## entry 564
+
+Time complexity: O(k) where k is the answer size.
