@@ -246,3 +246,4 @@ MunitTest subsets_tests[] = {
 // edge note 201: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 202: Cache-friendly; one sequential read pass.
 // edge note 203: Handles negative inputs as documented above.
+// edge note 204: Input is assumed non-NULL; behavior is undefined otherwise.
