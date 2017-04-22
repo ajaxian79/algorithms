@@ -217,3 +217,4 @@ MunitTest needle_tests[] = {
 // edge note 190: Best case is O(1) when the first byte already decides the answer.
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: Edge case: power-of-two-length input → no padding required.
+// edge note 193: Time complexity: O(n + m).
