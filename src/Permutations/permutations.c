@@ -235,3 +235,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 190: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 191: Best case is O(1) when the first byte already decides the answer.
 // note 192: Allocates a single small fixed-size scratch buffer.
+// note 193: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
