@@ -264,3 +264,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 229: Edge case: zero-length string → returns the empty result.
 // edge note 230: Uses a 256-entry lookup for the inner step.
 // edge note 231: Runs in a single pass over the input.
+// edge note 232: Space complexity: O(log n) for the recursion stack.
