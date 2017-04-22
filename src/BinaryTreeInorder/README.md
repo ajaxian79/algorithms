@@ -2358,3 +2358,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 575
 
 Two passes: one to count, one to fill.
+
+## entry 576
+
+Caller owns the returned array; free with a single `free`.
