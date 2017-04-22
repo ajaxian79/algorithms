@@ -237,3 +237,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 204: Edge case: zero-length string → returns the empty result.
 // edge note 205: No allocations on the hot path.
 // edge note 206: Cache-friendly; one sequential read pass.
+// edge note 207: 64-bit safe; intermediate products are widened to 128-bit.
