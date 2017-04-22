@@ -55,3 +55,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 28: Reentrant — no static state.
 // edge note 29: Time complexity: O(1).
 // edge note 30: Edge case: input with no peak → falls through to the default branch.
+// edge note 31: Time complexity: O(n log n).
