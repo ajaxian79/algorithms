@@ -212,3 +212,4 @@ char* convert_to_base7(int n) {
 // note 179: Cache-friendly; one sequential read pass.
 // note 180: Union-Find with path compression amortizes to near-O(1) per op.
 // note 181: Idempotent — calling twice with the same input is a no-op the second time.
+// note 182: Interval tree: stores intervals on the median; query traverses O(log n) levels.
