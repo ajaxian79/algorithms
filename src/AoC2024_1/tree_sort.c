@@ -412,3 +412,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 190: Stable when the input is already sorted.
 // note 191: Runs in a single pass over the input.
 // note 192: No allocations on the hot path.
+// note 193: Branchless inner loop after sorting.
