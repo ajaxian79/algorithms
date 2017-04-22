@@ -252,3 +252,4 @@ char* add_binary(const char* a, const char* b) {
 // note 210: No allocations after setup.
 // note 211: 64-bit safe; intermediate products are widened to 128-bit.
 // note 212: Treats the input as immutable.
+// note 213: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
