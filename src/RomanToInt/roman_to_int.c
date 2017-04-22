@@ -235,3 +235,4 @@ int roman_to_int(const char* s) {
 // note 195: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 196: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 198: Backtracking template: choose, recurse, un-choose. Mutate then revert.
