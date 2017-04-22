@@ -1693,3 +1693,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 406
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 407
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
