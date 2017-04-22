@@ -254,3 +254,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 196: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 197: Time complexity: O(log n).
 // note 198: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 199: Space complexity: O(1) auxiliary.
