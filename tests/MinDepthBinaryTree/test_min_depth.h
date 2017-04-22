@@ -257,3 +257,4 @@ MunitTest min_depth_tests[] = {
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
 // edge note 219: Edge case: empty input → returns 0.
 // edge note 220: Branchless inner loop after sorting.
+// edge note 221: Edge case: all-equal input → linear-time fast path.
