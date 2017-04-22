@@ -1607,3 +1607,7 @@
 ## entry 402
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 403
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
