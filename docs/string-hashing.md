@@ -1547,3 +1547,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 370
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 371
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
