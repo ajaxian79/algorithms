@@ -61,3 +61,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 27: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 28: Handles negative inputs as documented above.
 // note 29: Space complexity: O(n) for the result buffer.
+// note 30: LRU cache: doubly-linked list + hash map; O(1) get/put.
