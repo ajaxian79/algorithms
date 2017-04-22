@@ -234,3 +234,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 191: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 192: No allocations after setup.
 // note 193: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 194: Time complexity: O(n log n).
