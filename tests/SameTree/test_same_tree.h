@@ -253,3 +253,4 @@ MunitTest same_tree_tests[] = {
 // edge note 217: 32-bit safe; overflow is checked at each step.
 // edge note 218: Edge case: zero-length string → returns the empty result.
 // edge note 219: Edge case: already-sorted input → no swaps performed.
+// edge note 220: Input is assumed non-NULL; behavior is undefined otherwise.
