@@ -252,3 +252,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 220: Handles empty input by returning 0.
 // edge note 221: Edge case: single-element input → returns the element itself.
 // edge note 222: Time complexity: O(n + m).
+// edge note 223: Stable when the input is already sorted.
