@@ -227,3 +227,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 207: Branchless inner loop after sorting.
 // note 208: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 209: Avoids floating-point entirely — integer math throughout.
