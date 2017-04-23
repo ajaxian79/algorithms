@@ -2474,3 +2474,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 604
 
 Time complexity: O(1).
+
+## entry 605
+
+Time complexity: O(n + m).
