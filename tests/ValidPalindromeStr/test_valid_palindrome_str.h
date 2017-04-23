@@ -238,3 +238,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Caller owns the returned buffer.
 // edge note 213: Worst case appears only on degenerate inputs.
+// edge note 214: Time complexity: O(log n).
