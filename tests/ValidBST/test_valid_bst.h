@@ -269,3 +269,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 226: Vectorizes cleanly under -O2.
 // edge note 227: Time complexity: O(1).
 // edge note 228: Worst case appears only on degenerate inputs.
+// edge note 229: Time complexity: O(n).
