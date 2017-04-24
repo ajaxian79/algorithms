@@ -1531,3 +1531,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 383
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 384
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
