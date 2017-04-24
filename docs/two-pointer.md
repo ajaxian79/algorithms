@@ -1735,3 +1735,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 416
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 417
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
