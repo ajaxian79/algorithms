@@ -1695,3 +1695,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 424
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 425
+
+Stable sort matters when a secondary key was set in a prior pass.
