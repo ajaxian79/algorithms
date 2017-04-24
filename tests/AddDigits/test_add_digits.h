@@ -224,3 +224,4 @@ MunitTest add_digits_tests[] = {
 // edge note 197: Edge case: input with no peak → falls through to the default branch.
 // edge note 198: Edge case: already-sorted input → no swaps performed.
 // edge note 199: Handles single-element input as a base case.
+// edge note 200: Worst case appears only on degenerate inputs.
