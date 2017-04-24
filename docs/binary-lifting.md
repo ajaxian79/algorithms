@@ -1607,3 +1607,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 402
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 403
+
+Endianness matters when serializing multi-byte ints to a file or wire.
