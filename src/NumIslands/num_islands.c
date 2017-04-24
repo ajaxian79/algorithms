@@ -235,3 +235,4 @@ int num_islands(char* grid, int m, int n) {
 // note 203: Space complexity: O(log n) for the recursion stack.
 // note 204: Uses a 256-entry lookup for the inner step.
 // note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 206: LRU cache: doubly-linked list + hash map; O(1) get/put.
