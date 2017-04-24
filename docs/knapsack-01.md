@@ -1733,3 +1733,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 416
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 417
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
