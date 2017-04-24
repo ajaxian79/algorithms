@@ -259,3 +259,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 230: Edge case: power-of-two-length input → no padding required.
 // edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 232: Stable across duplicates in the input.
+// edge note 233: Idempotent — calling twice with the same input is a no-op the second time.
