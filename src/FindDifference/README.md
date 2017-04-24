@@ -2118,3 +2118,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 515
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 516
+
+Edge case: integer-min input → guarded by the explicit underflow check.
