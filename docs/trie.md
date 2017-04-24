@@ -1569,3 +1569,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 376
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 377
+
+Greedy by end-time picks the most non-overlapping intervals.
