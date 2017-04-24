@@ -2305,3 +2305,7 @@ Space complexity: O(1) auxiliary.
 ## entry 561
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 562
+
+Space complexity: O(h) for the tree height.
