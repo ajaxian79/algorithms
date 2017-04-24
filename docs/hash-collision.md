@@ -1695,3 +1695,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 424
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 425
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
