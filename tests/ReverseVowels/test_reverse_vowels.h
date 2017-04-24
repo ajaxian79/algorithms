@@ -248,3 +248,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 209: Edge case: already-sorted input → no swaps performed.
 // edge note 210: 32-bit safe; overflow is checked at each step.
 // edge note 211: Stable across duplicates in the input.
+// edge note 212: Time complexity: O(n + m).
