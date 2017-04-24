@@ -2466,3 +2466,7 @@ Branchless inner loop after sorting.
 ## entry 602
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 603
+
+Time complexity: O(n*k) where k is the alphabet size.
