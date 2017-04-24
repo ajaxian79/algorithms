@@ -303,3 +303,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 60
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 61
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
