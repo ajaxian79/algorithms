@@ -1623,3 +1623,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 406
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 407
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
