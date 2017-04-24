@@ -226,3 +226,4 @@ char* reverse_words(const char* s) {
 // note 182: Best case is O(1) when the first byte already decides the answer.
 // note 183: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 184: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 185: Worst case appears only on degenerate inputs.
