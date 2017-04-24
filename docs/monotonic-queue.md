@@ -1607,3 +1607,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 384
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 385
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
