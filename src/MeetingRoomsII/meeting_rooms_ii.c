@@ -232,3 +232,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 188: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 189: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 190: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
