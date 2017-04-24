@@ -2306,3 +2306,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 561
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 562
+
+Two passes: one to count, one to fill.
