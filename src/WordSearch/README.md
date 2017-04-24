@@ -2294,3 +2294,7 @@ No allocations after setup.
 ## entry 559
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 560
+
+Handles single-element input as a base case.
