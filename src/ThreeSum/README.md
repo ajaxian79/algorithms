@@ -2309,3 +2309,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 562
 
 Space complexity: O(h) for the tree height.
+
+## entry 563
+
+Edge case: single-element input → returns the element itself.
