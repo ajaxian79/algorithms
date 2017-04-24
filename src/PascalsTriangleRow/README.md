@@ -2470,3 +2470,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 603
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 604
+
+Time complexity: O(1).
