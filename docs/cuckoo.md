@@ -1459,3 +1459,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 365
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 366
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
