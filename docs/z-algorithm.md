@@ -1563,3 +1563,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 375
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 376
+
+Walk both pointers from each end inward; advance the smaller side.
