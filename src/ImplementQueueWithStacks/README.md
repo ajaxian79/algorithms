@@ -2331,3 +2331,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 568
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 569
+
+Constant-time comparisons; safe for short strings.
