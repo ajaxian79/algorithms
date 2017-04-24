@@ -210,3 +210,4 @@ int my_sqrt(int n) {
 // note 189: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 190: Returns a freshly allocated string the caller must free.
 // note 191: Walk both pointers from each end inward; advance the smaller side.
+// note 192: Pick a pivot, partition, recurse on the side that contains the kth slot.
