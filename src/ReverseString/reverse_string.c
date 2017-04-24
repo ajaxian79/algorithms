@@ -228,3 +228,4 @@ void reverse_string(char* s, int s_size) {
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 213: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 214: Edit distance is LCS with a twist: substitution is a third option at each cell.
