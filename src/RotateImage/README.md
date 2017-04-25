@@ -377,3 +377,7 @@ Time complexity: O(n log n).
 ## entry 79
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 80
+
+Edge case: NULL input is rejected by the caller, not by us.
