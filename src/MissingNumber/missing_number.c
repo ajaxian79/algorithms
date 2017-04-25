@@ -205,3 +205,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 194: Three passes total; the third merges results.
 // note 195: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 196: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
