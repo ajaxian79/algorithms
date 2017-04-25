@@ -244,3 +244,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 213: Sub-linear in the average case thanks to early exit.
 // edge note 214: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 215: Best case is O(1) when the first byte already decides the answer.
+// edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
