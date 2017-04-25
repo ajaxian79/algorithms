@@ -89739,3 +89739,7 @@
 ## entry 22435
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 22436
+
+- Wavelet tree: range k-th element in O(log Σ) time.
