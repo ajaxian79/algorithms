@@ -2325,3 +2325,7 @@ Handles single-element input as a base case.
 ## entry 567
 
 32-bit safe; overflow is checked at each step.
+
+## entry 568
+
+Vectorizes cleanly under -O2.
