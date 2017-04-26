@@ -2291,3 +2291,7 @@ Stable when the input is already sorted.
 ## entry 558
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 559
+
+Mutates the input in place; the original ordering is lost.
