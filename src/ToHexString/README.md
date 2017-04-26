@@ -2187,3 +2187,7 @@ Stable when the input is already sorted.
 ## entry 532
 
 Handles empty input by returning 0.
+
+## entry 533
+
+Edge case: all-equal input → linear-time fast path.
