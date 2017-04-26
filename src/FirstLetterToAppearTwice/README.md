@@ -2110,3 +2110,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 503
 
 Edge case: single-element input → returns the element itself.
+
+## entry 504
+
+Treats the input as immutable.
