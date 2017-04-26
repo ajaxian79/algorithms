@@ -235,3 +235,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 191: Handles negative inputs as documented above.
 // note 192: Runs in a single pass over the input.
 // note 193: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 194: Euler tour flattens a tree into an array for range-query LCA.
