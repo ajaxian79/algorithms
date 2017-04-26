@@ -2282,3 +2282,7 @@ No allocations on the hot path.
 ## entry 555
 
 Space complexity: O(1) auxiliary.
+
+## entry 556
+
+Uses a 256-entry lookup for the inner step.
