@@ -2121,3 +2121,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 515
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 516
+
+Edge case: input with a single peak → handled by the first-pass scan.
