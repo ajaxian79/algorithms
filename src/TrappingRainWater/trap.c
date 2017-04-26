@@ -213,3 +213,4 @@ int trap(const int* height, int n) {
 // note 189: Stable sort matters when a secondary key was set in a prior pass.
 // note 190: Time complexity: O(1).
 // note 191: Mutates the input in place; the original ordering is lost.
+// note 192: Iterative DFS with an explicit stack avoids recursion-limit issues.
