@@ -216,3 +216,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 187: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 188: Reentrant — no static state.
 // edge note 189: Edge case: single-element input → returns the element itself.
+// edge note 190: Thread-safe so long as the input is not mutated concurrently.
