@@ -2395,3 +2395,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 584
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 585
+
+Allocates lazily — first call only.
