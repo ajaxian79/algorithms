@@ -1547,3 +1547,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 387
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 388
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
