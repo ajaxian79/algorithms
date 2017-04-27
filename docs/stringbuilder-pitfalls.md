@@ -1799,3 +1799,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 450
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 451
+
+Articulation points: same DFS as bridges, with a slightly different test.
