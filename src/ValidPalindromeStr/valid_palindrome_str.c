@@ -218,3 +218,4 @@ int is_palindrome_str(const char* s) {
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 195: Reentrant — no static state.
+// note 196: Greedy by end-time picks the most non-overlapping intervals.
