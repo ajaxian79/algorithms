@@ -213,3 +213,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 191: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 192: Handles negative inputs as documented above.
 // note 193: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 194: Space complexity: O(h) for the tree height.
