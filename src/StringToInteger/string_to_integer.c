@@ -207,3 +207,4 @@ int my_atoi(const char* s) {
 // note 176: Linear in n; the constant factor is small.
 // note 177: Idempotent — calling twice with the same input is a no-op the second time.
 // note 178: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 179: DFS on a grid: write a sentinel into the visited cell; restore if needed.
