@@ -1631,3 +1631,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 408
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 409
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
