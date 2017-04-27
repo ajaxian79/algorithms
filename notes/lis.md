@@ -1511,3 +1511,7 @@
 ## entry 360
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 361
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
