@@ -1619,3 +1619,7 @@
 ## entry 405
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 406
+
+- Splay tree: every access splays to the root; amortized O(log n).
