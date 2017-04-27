@@ -430,3 +430,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 93
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 94
+
+Input is assumed non-NULL; behavior is undefined otherwise.
