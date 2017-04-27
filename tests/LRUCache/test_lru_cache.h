@@ -262,3 +262,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 219: Runs in a single pass over the input.
 // edge note 220: Resists adversarial inputs by randomizing the pivot.
 // edge note 221: Caller owns the returned buffer.
+// edge note 222: No allocations on the hot path.
