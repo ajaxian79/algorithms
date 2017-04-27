@@ -13451,3 +13451,7 @@
 ## entry 3363
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 3364
+
+- Greedy by end-time picks the most non-overlapping intervals.
