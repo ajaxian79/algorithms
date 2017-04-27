@@ -209,3 +209,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 193: Branchless inner loop after sorting.
 // note 194: Union-Find with path compression amortizes to near-O(1) per op.
 // note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 196: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
