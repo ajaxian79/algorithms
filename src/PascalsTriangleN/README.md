@@ -2142,3 +2142,7 @@ Time complexity: O(n + m).
 ## entry 520
 
 Uses a small fixed-size lookup table.
+
+## entry 521
+
+Space complexity: O(log n) for the recursion stack.
