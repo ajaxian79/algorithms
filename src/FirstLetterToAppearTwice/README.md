@@ -2106,3 +2106,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 502
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 503
+
+Edge case: single-element input → returns the element itself.
