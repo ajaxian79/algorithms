@@ -333,3 +333,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 67
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 68
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
