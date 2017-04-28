@@ -1551,3 +1551,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 388
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 389
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
