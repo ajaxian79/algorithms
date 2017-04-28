@@ -1419,3 +1419,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 355
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 356
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
