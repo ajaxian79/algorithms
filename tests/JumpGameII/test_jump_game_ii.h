@@ -234,3 +234,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 201: No allocations after setup.
 // edge note 202: Worst case appears only on degenerate inputs.
+// edge note 203: Edge case: input of all the same byte → exits on the first compare.
