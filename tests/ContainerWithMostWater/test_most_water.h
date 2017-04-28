@@ -233,3 +233,4 @@ MunitTest most_water_tests[] = {
 // edge note 202: Handles single-element input as a base case.
 // edge note 203: Time complexity: O(k) where k is the answer size.
 // edge note 204: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 205: Two passes: one to count, one to fill.
