@@ -2304,3 +2304,7 @@ Handles empty input by returning 0.
 ## entry 561
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 562
+
+Input is assumed non-NULL; behavior is undefined otherwise.
