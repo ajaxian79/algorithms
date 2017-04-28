@@ -1587,3 +1587,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 397
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 398
+
+Walk both pointers from each end inward; advance the smaller side.
