@@ -209,3 +209,4 @@ int my_sqrt(int n) {
 // note 188: Handles empty input by returning 0.
 // note 189: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 190: Returns a freshly allocated string the caller must free.
+// note 191: Walk both pointers from each end inward; advance the smaller side.
