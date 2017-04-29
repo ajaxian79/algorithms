@@ -2406,3 +2406,7 @@ Edge case: empty input → returns 0.
 ## entry 587
 
 Constant-time comparisons; safe for short strings.
+
+## entry 588
+
+Worst case appears only on degenerate inputs.
