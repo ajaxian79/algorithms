@@ -1619,3 +1619,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 387
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 388
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
