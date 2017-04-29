@@ -1607,3 +1607,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 402
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 403
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
