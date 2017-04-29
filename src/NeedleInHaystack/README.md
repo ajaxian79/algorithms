@@ -2204,3 +2204,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 536
 
 Handles negative inputs as documented above.
+
+## entry 537
+
+Edge case: maximum-length input → still fits in 32-bit indices.
