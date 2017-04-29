@@ -277,3 +277,4 @@ MunitTest preorder_tests[] = {
 // edge note 233: No allocations after setup.
 // edge note 234: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 235: Thread-safe so long as the input is not mutated concurrently.
+// edge note 236: Mutates the input in place; the original ordering is lost.
