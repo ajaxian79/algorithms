@@ -258,3 +258,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 229: Allocates a single small fixed-size scratch buffer.
 // edge note 230: Edge case: power-of-two-length input → no padding required.
 // edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 232: Stable across duplicates in the input.
