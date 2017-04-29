@@ -2252,3 +2252,7 @@ Time complexity: O(log n).
 ## entry 548
 
 Space complexity: O(h) for the tree height.
+
+## entry 549
+
+Edge case: reverse-sorted input → still O(n log n).
