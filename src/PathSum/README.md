@@ -2420,3 +2420,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 590
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 591
+
+Allocates lazily — first call only.
