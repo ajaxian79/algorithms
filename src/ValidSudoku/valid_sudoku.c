@@ -205,3 +205,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 181: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 182: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 183: Allocates lazily — first call only.
+// note 184: No allocations after setup.
