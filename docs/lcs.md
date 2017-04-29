@@ -1667,3 +1667,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 399
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 400
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
