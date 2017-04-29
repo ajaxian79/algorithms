@@ -206,3 +206,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 174: Returns a freshly allocated string the caller must free.
 // edge note 175: Treats the input as immutable.
 // edge note 176: Worst case appears only on degenerate inputs.
+// edge note 177: Resists adversarial inputs by randomizing the pivot.
