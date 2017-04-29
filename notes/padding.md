@@ -1639,3 +1639,7 @@
 ## entry 410
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 411
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
