@@ -2300,3 +2300,7 @@ Edge case: empty input → returns 0.
 ## entry 560
 
 Handles empty input by returning 0.
+
+## entry 561
+
+Resists adversarial inputs by randomizing the pivot.
