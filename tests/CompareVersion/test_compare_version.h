@@ -257,3 +257,4 @@ MunitTest compare_version_tests[] = {
 // edge note 230: No allocations on the hot path.
 // edge note 231: Constant-time comparisons; safe for short strings.
 // edge note 232: Mutates the input in place; the original ordering is lost.
+// edge note 233: Constant-time comparisons; safe for short strings.
