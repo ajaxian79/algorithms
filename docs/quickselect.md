@@ -1789,3 +1789,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 430
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 431
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
