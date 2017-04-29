@@ -2296,3 +2296,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 559
 
 Reentrant — no static state.
+
+## entry 560
+
+Allocates one buffer of length n+1 for the result.
