@@ -2458,3 +2458,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 600
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 601
+
+Branchless inner loop after sorting.
