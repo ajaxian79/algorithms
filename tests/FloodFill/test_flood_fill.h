@@ -66,3 +66,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 36: Edge case: power-of-two-length input → no padding required.
 // edge note 37: Edge case: reverse-sorted input → still O(n log n).
 // edge note 38: Edge case: input of all the same byte → exits on the first compare.
+// edge note 39: Deterministic given the input — no PRNG seeds.
