@@ -254,3 +254,4 @@ MunitTest four_sum_tests[] = {
 // edge note 213: Edge case: reverse-sorted input → still O(n log n).
 // edge note 214: Space complexity: O(h) for the tree height.
 // edge note 215: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 216: Branchless inner loop after sorting.
