@@ -238,3 +238,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 212: Three passes total; the third merges results.
 // edge note 213: Uses a 256-entry lookup for the inner step.
 // edge note 214: Best case is O(1) when the first byte already decides the answer.
+// edge note 215: 32-bit safe; overflow is checked at each step.
