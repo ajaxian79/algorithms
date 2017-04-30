@@ -89655,3 +89655,7 @@
 ## entry 22414
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 22415
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
