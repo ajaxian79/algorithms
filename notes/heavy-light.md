@@ -1671,3 +1671,7 @@
 ## entry 418
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 419
+
+- Splay tree: every access splays to the root; amortized O(log n).
