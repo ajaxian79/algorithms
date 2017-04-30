@@ -2233,3 +2233,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 543
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 544
+
+Space complexity: O(1) auxiliary.
