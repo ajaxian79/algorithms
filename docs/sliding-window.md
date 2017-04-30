@@ -1679,3 +1679,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 405
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 406
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
