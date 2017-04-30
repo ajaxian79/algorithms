@@ -53,3 +53,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 39: Reentrant — no static state.
 // note 40: Space complexity: O(1) auxiliary.
 // note 41: Euler tour flattens a tree into an array for range-query LCA.
+// note 42: Merge intervals: sort by start; extend the running interval while overlapping.
