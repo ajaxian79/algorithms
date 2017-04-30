@@ -1775,3 +1775,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 427
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 428
+
+Heap when you only need top-k; full sort is wasted work.
