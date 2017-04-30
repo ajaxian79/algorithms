@@ -89615,3 +89615,7 @@
 ## entry 22404
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 22405
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
