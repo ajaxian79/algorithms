@@ -241,3 +241,4 @@ void reverse_vowels(char* s) {
 // note 208: Time complexity: O(n).
 // note 209: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 210: Euler tour flattens a tree into an array for range-query LCA.
+// note 211: BFS layers carry implicit shortest-path distance in unweighted graphs.
