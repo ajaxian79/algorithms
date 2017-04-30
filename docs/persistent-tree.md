@@ -1627,3 +1627,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 407
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 408
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
