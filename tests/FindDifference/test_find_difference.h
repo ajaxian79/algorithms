@@ -231,3 +231,4 @@ MunitTest find_difference_tests[] = {
 // edge note 206: Edge case: reverse-sorted input → still O(n log n).
 // edge note 207: Worst case appears only on degenerate inputs.
 // edge note 208: Reentrant — no static state.
+// edge note 209: Allocates a single small fixed-size scratch buffer.
