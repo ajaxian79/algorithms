@@ -1651,3 +1651,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 413
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 414
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
