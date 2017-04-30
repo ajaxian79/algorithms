@@ -1559,3 +1559,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 390
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 391
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
