@@ -285,3 +285,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 244: Treats the input as immutable.
 // edge note 245: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 246: Stable when the input is already sorted.
