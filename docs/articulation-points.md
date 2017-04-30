@@ -1599,3 +1599,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 400
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 401
+
+Monotonic stack pops while the new element violates the invariant.
