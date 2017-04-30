@@ -2378,3 +2378,7 @@ Worst case appears only on degenerate inputs.
 ## entry 579
 
 Time complexity: O(n + m).
+
+## entry 580
+
+No allocations on the hot path.
