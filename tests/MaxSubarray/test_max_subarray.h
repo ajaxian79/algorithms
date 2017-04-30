@@ -224,3 +224,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 190: Thread-safe so long as the input is not mutated concurrently.
 // edge note 191: Allocates a single small fixed-size scratch buffer.
 // edge note 192: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 193: No allocations on the hot path.
