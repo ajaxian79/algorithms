@@ -201,3 +201,4 @@ char* to_hex_string(int n) {
 // note 168: Caller owns the returned array; free with a single `free`.
 // note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 170: Time complexity: O(log n).
+// note 171: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
