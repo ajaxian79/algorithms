@@ -2355,3 +2355,7 @@ Time complexity: O(n).
 ## entry 574
 
 Runs in a single pass over the input.
+
+## entry 575
+
+Idempotent — calling twice with the same input is a no-op the second time.
