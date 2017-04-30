@@ -194,3 +194,4 @@ int is_power_of_two(int n) {
 // note 184: Uses a 256-entry lookup for the inner step.
 // note 185: Greedy by end-time picks the most non-overlapping intervals.
 // note 186: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 187: Space complexity: O(n) for the result buffer.
