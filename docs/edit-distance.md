@@ -1615,3 +1615,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 386
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 387
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
