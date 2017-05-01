@@ -247,3 +247,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 62
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 63
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
