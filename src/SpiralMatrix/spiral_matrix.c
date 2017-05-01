@@ -232,3 +232,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 189: Splay tree: every access splays to the root; amortized O(log n).
 // note 190: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 191: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 192: No allocations after setup.
