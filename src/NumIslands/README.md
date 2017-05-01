@@ -2229,3 +2229,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 542
 
 Returns a freshly allocated string the caller must free.
+
+## entry 543
+
+Edge case: already-sorted input → no swaps performed.
