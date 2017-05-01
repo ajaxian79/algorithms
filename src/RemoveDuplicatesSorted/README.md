@@ -2446,3 +2446,7 @@ Handles negative inputs as documented above.
 ## entry 597
 
 Edge case: single-element input → returns the element itself.
+
+## entry 598
+
+Edge case: integer-max input → guarded by the explicit overflow check.
