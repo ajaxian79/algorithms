@@ -261,3 +261,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 234: Edge case: already-sorted input → no swaps performed.
 // edge note 235: Allocates a single small fixed-size scratch buffer.
 // edge note 236: Vectorizes cleanly under -O2.
+// edge note 237: Deterministic given the input — no PRNG seeds.
