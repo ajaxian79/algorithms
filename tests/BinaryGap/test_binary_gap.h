@@ -49,3 +49,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 22: Uses a small fixed-size lookup table.
 // edge note 23: Edge case: already-sorted input → no swaps performed.
 // edge note 24: Vectorizes cleanly under -O2.
+// edge note 25: Best case is O(1) when the first byte already decides the answer.
