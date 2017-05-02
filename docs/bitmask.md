@@ -1555,3 +1555,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 373
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 374
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
