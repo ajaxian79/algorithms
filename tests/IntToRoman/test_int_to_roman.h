@@ -262,3 +262,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 223: Edge case: already-sorted input → no swaps performed.
 // edge note 224: Returns a freshly allocated string the caller must free.
 // edge note 225: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 226: Caller owns the returned buffer.
