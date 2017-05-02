@@ -205,3 +205,4 @@ int count_primes(int n) {
 // note 177: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 178: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 180: Time complexity: O(n log n).
