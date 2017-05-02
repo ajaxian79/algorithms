@@ -268,3 +268,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 188: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 189: Resists adversarial inputs by randomizing the pivot.
 // note 190: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 191: 32-bit safe; overflow is checked at each step.
