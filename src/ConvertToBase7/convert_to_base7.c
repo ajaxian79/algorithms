@@ -210,3 +210,4 @@ char* convert_to_base7(int n) {
 // note 177: Allocates one buffer of length n+1 for the result.
 // note 178: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 179: Cache-friendly; one sequential read pass.
+// note 180: Union-Find with path compression amortizes to near-O(1) per op.
