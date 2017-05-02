@@ -2361,3 +2361,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 576
 
 Handles single-element input as a base case.
+
+## entry 577
+
+Edge case: input with no peak → falls through to the default branch.
