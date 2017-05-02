@@ -2353,3 +2353,7 @@ No allocations after setup.
 ## entry 573
 
 Handles empty input by returning 0.
+
+## entry 574
+
+Treats the input as immutable.
