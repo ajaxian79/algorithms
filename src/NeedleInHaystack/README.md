@@ -2200,3 +2200,7 @@ Time complexity: O(n + m).
 ## entry 535
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 536
+
+Handles negative inputs as documented above.
