@@ -372,3 +372,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 78
 
 32-bit safe; overflow is checked at each step.
+
+## entry 79
+
+Returns a freshly allocated string the caller must free.
