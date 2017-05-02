@@ -2440,3 +2440,7 @@ Time complexity: O(n).
 ## entry 595
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 596
+
+Edge case: maximum-length input → still fits in 32-bit indices.
