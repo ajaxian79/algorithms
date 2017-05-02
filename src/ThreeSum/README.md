@@ -437,3 +437,7 @@ Handles empty input by returning 0.
 ## entry 94
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 95
+
+Allocates lazily — first call only.
