@@ -370,3 +370,7 @@ Handles empty input by returning 0.
 ## entry 77
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 78
+
+Two passes: one to count, one to fill.
