@@ -1639,3 +1639,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 410
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 411
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
