@@ -2325,3 +2325,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 566
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 567
+
+Space complexity: O(h) for the tree height.
