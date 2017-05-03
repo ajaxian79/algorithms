@@ -89563,3 +89563,7 @@
 ## entry 22391
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 22392
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
