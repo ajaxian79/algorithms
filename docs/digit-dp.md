@@ -227,3 +227,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 57
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 58
+
+Heap when you only need top-k; full sort is wasted work.
