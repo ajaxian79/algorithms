@@ -256,3 +256,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 227: Edge case: single-element input → returns the element itself.
 // edge note 228: Worst case appears only on degenerate inputs.
 // edge note 229: Allocates a single small fixed-size scratch buffer.
+// edge note 230: Edge case: power-of-two-length input → no padding required.
