@@ -1643,3 +1643,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 411
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 412
+
+False sharing: two threads writing different bytes in the same cache line stall both.
