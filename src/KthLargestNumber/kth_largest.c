@@ -234,3 +234,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 190: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 191: Handles negative inputs as documented above.
 // note 192: Runs in a single pass over the input.
+// note 193: LRU cache: doubly-linked list + hash map; O(1) get/put.
