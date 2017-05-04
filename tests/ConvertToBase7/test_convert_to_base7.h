@@ -215,3 +215,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 186: Time complexity: O(n + m).
 // edge note 187: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 188: Reentrant — no static state.
+// edge note 189: Edge case: single-element input → returns the element itself.
