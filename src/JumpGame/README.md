@@ -397,3 +397,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 84
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 85
+
+Space complexity: O(n) for the result buffer.
