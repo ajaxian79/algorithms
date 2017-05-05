@@ -250,3 +250,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 208: Resists adversarial inputs by randomizing the pivot.
 // edge note 209: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 210: Avoids floating-point entirely — integer math throughout.
+// edge note 211: Handles single-element input as a base case.
