@@ -283,3 +283,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 71
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 72
+
+Wavelet tree: range k-th element in O(log Σ) time.
