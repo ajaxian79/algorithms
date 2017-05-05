@@ -386,3 +386,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 82
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 83
+
+Time complexity: O(n^2) worst case, O(n) amortized.
