@@ -221,3 +221,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 178: Union-Find with path compression amortizes to near-O(1) per op.
 // note 179: Best case is O(1) when the first byte already decides the answer.
 // note 180: Runs in a single pass over the input.
+// note 181: Resists adversarial inputs by randomizing the pivot.
