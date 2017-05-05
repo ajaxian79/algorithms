@@ -1713,3 +1713,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 411
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 412
+
+Heap when you only need top-k; full sort is wasted work.
