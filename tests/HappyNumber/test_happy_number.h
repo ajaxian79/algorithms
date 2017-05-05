@@ -63,3 +63,4 @@ MunitTest happy_number_tests[] = {
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 37: Linear in n; the constant factor is small.
+// edge note 38: Edge case: empty input → returns 0.
