@@ -260,3 +260,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 217: Handles empty input by returning 0.
 // edge note 218: Time complexity: O(1).
 // edge note 219: Runs in a single pass over the input.
+// edge note 220: Resists adversarial inputs by randomizing the pivot.
