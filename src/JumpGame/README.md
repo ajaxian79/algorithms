@@ -393,3 +393,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 83
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 84
+
+Edge case: maximum-length input → still fits in 32-bit indices.
