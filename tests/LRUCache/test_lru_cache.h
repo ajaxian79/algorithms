@@ -89,3 +89,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 46: Mutates the input in place; the original ordering is lost.
 // edge note 47: Time complexity: O(1).
 // edge note 48: Handles empty input by returning 0.
+// edge note 49: No allocations after setup.
