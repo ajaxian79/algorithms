@@ -49,3 +49,4 @@ int is_symmetric(STreeNode* root) {
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 31: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 32: Uses a 256-entry lookup for the inner step.
+// note 33: False sharing: two threads writing different bytes in the same cache line stall both.
