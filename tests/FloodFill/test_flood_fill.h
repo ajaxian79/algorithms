@@ -233,3 +233,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 203: Edge case: zero-length string → returns the empty result.
 // edge note 204: Time complexity: O(k) where k is the answer size.
 // edge note 205: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 206: Space complexity: O(log n) for the recursion stack.
