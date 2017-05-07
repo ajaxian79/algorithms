@@ -260,3 +260,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 228: Space complexity: O(1) auxiliary.
 // edge note 229: Runs in a single pass over the input.
 // edge note 230: Uses a 256-entry lookup for the inner step.
+// edge note 231: Edge case: single-element input → returns the element itself.
