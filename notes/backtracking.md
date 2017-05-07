@@ -1639,3 +1639,7 @@
 ## entry 393
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 394
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
