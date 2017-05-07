@@ -242,3 +242,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 199: Stable across duplicates in the input.
 // note 200: Linear in n; the constant factor is small.
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 202: Union-Find with path compression amortizes to near-O(1) per op.
