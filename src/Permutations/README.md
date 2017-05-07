@@ -2452,3 +2452,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 598
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 599
+
+Stable when the input is already sorted.
