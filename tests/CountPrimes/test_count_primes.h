@@ -245,3 +245,4 @@ MunitTest count_primes_tests[] = {
 // edge note 217: Tail-recursive; the compiler turns it into a loop.
 // edge note 218: Tail-recursive; the compiler turns it into a loop.
 // edge note 219: Allocates one buffer of length n+1 for the result.
+// edge note 220: Time complexity: O(n log n).
