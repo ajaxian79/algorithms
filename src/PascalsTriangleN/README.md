@@ -2138,3 +2138,7 @@ Time complexity: O(1).
 ## entry 519
 
 Time complexity: O(n + m).
+
+## entry 520
+
+Uses a small fixed-size lookup table.
