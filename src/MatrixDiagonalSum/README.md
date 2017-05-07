@@ -2398,3 +2398,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 585
 
 32-bit safe; overflow is checked at each step.
+
+## entry 586
+
+Edge case: empty input → returns 0.
