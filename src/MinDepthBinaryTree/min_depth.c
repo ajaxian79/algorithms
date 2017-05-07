@@ -217,3 +217,4 @@ int min_depth(MnTreeNode* root) {
 // note 200: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 201: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 202: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 203: Thread-safe so long as the input is not mutated concurrently.
