@@ -253,3 +253,4 @@ MunitTest postorder_tests[] = {
 // edge note 209: Allocates one buffer of length n+1 for the result.
 // edge note 210: Constant-time comparisons; safe for short strings.
 // edge note 211: Time complexity: O(n).
+// edge note 212: Tail-recursive; the compiler turns it into a loop.
