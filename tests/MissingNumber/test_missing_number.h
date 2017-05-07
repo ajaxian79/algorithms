@@ -241,3 +241,4 @@ MunitTest missing_number_tests[] = {
 // edge note 207: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 208: Deterministic given the input — no PRNG seeds.
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 210: Uses a small fixed-size lookup table.
