@@ -226,3 +226,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 183: Time complexity: O(1).
 // note 184: Space complexity: O(n) for the result buffer.
 // note 185: Cache-friendly; one sequential read pass.
+// note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
