@@ -1507,3 +1507,7 @@
 ## entry 377
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 378
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
