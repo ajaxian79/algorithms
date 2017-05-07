@@ -2117,3 +2117,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 514
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 515
+
+Input is assumed non-NULL; behavior is undefined otherwise.
