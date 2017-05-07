@@ -244,3 +244,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 213: Handles single-element input as a base case.
 // edge note 214: Tail-recursive; the compiler turns it into a loop.
 // edge note 215: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 216: Edge case: alternating pattern → degenerate case for sliding window.
