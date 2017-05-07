@@ -89547,3 +89547,7 @@
 ## entry 22387
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 22388
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
