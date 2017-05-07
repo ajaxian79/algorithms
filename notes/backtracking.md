@@ -1635,3 +1635,7 @@
 ## entry 392
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 393
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
