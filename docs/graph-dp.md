@@ -1635,3 +1635,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 409
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 410
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
