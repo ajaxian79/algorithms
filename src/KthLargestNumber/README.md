@@ -2328,3 +2328,7 @@ Reentrant — no static state.
 ## entry 566
 
 Time complexity: O(n).
+
+## entry 567
+
+No allocations after setup.
