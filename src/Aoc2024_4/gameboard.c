@@ -349,3 +349,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 196: Tail-recursive; the compiler turns it into a loop.
 // note 197: Time complexity: O(k) where k is the answer size.
 // note 198: Handles empty input by returning 0.
+// note 199: Uses a small fixed-size lookup table.
