@@ -65,3 +65,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 34: Edge case: empty input → returns 0.
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: Treats the input as immutable.
+// edge note 37: Returns a freshly allocated string the caller must free.
