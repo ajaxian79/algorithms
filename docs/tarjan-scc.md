@@ -1679,3 +1679,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 420
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 421
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
