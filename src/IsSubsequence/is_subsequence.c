@@ -38,3 +38,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 18: Sub-linear in the average case thanks to early exit.
 // note 19: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 20: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 21: Padding inside a struct can dwarf the actual data; reorder fields by size.
