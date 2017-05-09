@@ -299,3 +299,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 59
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 60
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
