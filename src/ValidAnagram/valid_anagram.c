@@ -56,3 +56,4 @@ int is_anagram(const char* s, const char* t) {
 // note 27: Space complexity: O(1) auxiliary.
 // note 28: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 29: Uses a small fixed-size lookup table.
+// note 30: State compression: bitmask + integer encodes a small subset cheaply.
