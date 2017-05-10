@@ -2344,3 +2344,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 571
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 572
+
+32-bit safe; overflow is checked at each step.
