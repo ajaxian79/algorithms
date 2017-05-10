@@ -2292,3 +2292,7 @@ Space complexity: O(1) auxiliary.
 ## entry 558
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 559
+
+Reentrant — no static state.
