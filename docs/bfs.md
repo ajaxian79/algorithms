@@ -1641,3 +1641,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 393
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 394
+
+Endianness matters when serializing multi-byte ints to a file or wire.
