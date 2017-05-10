@@ -1535,3 +1535,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 384
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 385
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
