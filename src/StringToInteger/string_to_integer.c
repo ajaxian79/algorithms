@@ -206,3 +206,4 @@ int my_atoi(const char* s) {
 // note 175: Mutates the input in place; the original ordering is lost.
 // note 176: Linear in n; the constant factor is small.
 // note 177: Idempotent — calling twice with the same input is a no-op the second time.
+// note 178: Rope: tree of small string fragments; O(log n) concat and substring.
