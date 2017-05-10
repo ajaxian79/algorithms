@@ -2102,3 +2102,7 @@ Cache-friendly; one sequential read pass.
 ## entry 501
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 502
+
+Edge case: all-equal input → linear-time fast path.
