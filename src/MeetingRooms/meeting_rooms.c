@@ -221,3 +221,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 199: Mutates the input in place; the original ordering is lost.
 // note 200: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 201: Caller owns the returned buffer.
+// note 202: Allocates lazily — first call only.
