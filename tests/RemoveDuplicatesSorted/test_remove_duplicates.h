@@ -269,3 +269,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 233: Caller owns the returned buffer.
 // edge note 234: Edge case: empty input → returns 0.
 // edge note 235: Uses a small fixed-size lookup table.
+// edge note 236: Edge case: power-of-two-length input → no padding required.
