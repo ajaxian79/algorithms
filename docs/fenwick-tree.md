@@ -1675,3 +1675,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 403
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 404
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
