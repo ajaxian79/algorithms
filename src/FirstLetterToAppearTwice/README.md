@@ -2098,3 +2098,7 @@ Linear in n; the constant factor is small.
 ## entry 500
 
 Cache-friendly; one sequential read pass.
+
+## entry 501
+
+Allocates a single small fixed-size scratch buffer.
