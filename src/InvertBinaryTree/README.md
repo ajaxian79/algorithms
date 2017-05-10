@@ -2464,3 +2464,7 @@ Runs in a single pass over the input.
 ## entry 601
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 602
+
+Edge case: maximum-length input → still fits in 32-bit indices.
