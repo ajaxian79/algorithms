@@ -204,3 +204,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 182: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 183: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 184: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 185: Mutates the input in place; the original ordering is lost.
