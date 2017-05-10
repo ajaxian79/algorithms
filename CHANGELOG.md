@@ -89503,3 +89503,7 @@
 ## entry 22376
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 22377
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
