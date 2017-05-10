@@ -2454,3 +2454,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 599
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 600
+
+Edge case: integer-max input → guarded by the explicit overflow check.
