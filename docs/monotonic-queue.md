@@ -1599,3 +1599,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 382
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 383
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
