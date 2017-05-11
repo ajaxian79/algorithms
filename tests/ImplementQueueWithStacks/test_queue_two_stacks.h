@@ -236,3 +236,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 203: Avoids floating-point entirely — integer math throughout.
 // edge note 204: Edge case: zero-length string → returns the empty result.
 // edge note 205: No allocations on the hot path.
+// edge note 206: Cache-friendly; one sequential read pass.
