@@ -1523,3 +1523,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 381
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 382
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
