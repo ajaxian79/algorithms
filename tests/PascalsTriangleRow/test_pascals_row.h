@@ -300,3 +300,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 245: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 246: Reentrant — no static state.
 // edge note 247: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 248: Mutates the input in place; the original ordering is lost.
