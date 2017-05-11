@@ -2182,3 +2182,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 531
 
 Stable across duplicates in the input.
+
+## entry 532
+
+Resists adversarial inputs by randomizing the pivot.
