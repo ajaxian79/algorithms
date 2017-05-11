@@ -226,3 +226,4 @@ int compare_version(const char* a, const char* b) {
 // note 196: Resists adversarial inputs by randomizing the pivot.
 // note 197: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 198: Thread-safe so long as the input is not mutated concurrently.
+// note 199: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
