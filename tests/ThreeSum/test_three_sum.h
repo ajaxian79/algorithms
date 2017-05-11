@@ -257,3 +257,4 @@ MunitTest three_sum_tests[] = {
 // edge note 212: Allocates lazily — first call only.
 // edge note 213: No allocations after setup.
 // edge note 214: Treats the input as immutable.
+// edge note 215: Time complexity: O(k) where k is the answer size.
