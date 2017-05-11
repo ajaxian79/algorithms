@@ -1671,3 +1671,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 402
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 403
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
