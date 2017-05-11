@@ -2340,3 +2340,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 570
 
 Constant-time comparisons; safe for short strings.
+
+## entry 571
+
+Edge case: integer-max input → guarded by the explicit overflow check.
