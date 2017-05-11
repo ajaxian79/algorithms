@@ -89419,3 +89419,7 @@
 ## entry 22355
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 22356
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
