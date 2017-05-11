@@ -316,3 +316,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 180: Linear in n; the constant factor is small.
 // note 181: Time complexity: O(n log n).
 // note 182: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
