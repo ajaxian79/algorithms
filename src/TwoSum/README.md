@@ -2249,3 +2249,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 537
 
 Handles negative inputs as documented above.
+
+## entry 538
+
+Vectorizes cleanly under -O2.
