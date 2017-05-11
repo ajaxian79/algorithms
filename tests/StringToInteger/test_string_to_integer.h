@@ -290,3 +290,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 250: Time complexity: O(log n).
 // edge note 251: Time complexity: O(k) where k is the answer size.
 // edge note 252: Best case is O(1) when the first byte already decides the answer.
+// edge note 253: Allocates lazily — first call only.
