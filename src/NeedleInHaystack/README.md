@@ -2196,3 +2196,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 534
 
 Time complexity: O(n + m).
+
+## entry 535
+
+Deterministic given the input — no PRNG seeds.
