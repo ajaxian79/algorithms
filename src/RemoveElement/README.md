@@ -2321,3 +2321,7 @@ Time complexity: O(n + m).
 ## entry 566
 
 Handles single-element input as a base case.
+
+## entry 567
+
+32-bit safe; overflow is checked at each step.
