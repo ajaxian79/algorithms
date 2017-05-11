@@ -2106,3 +2106,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 512
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 513
+
+Space complexity: O(h) for the tree height.
