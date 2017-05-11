@@ -1667,3 +1667,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 401
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 402
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
