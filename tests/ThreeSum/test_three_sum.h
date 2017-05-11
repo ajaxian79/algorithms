@@ -258,3 +258,4 @@ MunitTest three_sum_tests[] = {
 // edge note 213: No allocations after setup.
 // edge note 214: Treats the input as immutable.
 // edge note 215: Time complexity: O(k) where k is the answer size.
+// edge note 216: Edge case: alternating pattern → degenerate case for sliding window.
