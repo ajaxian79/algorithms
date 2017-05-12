@@ -2346,3 +2346,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 571
 
 Handles single-element input as a base case.
+
+## entry 572
+
+Edge case: integer-min input → guarded by the explicit underflow check.
