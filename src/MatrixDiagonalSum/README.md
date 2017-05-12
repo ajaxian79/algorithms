@@ -2394,3 +2394,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 584
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 585
+
+32-bit safe; overflow is checked at each step.
