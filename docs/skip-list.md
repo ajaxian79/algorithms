@@ -251,3 +251,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 63
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 64
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
