@@ -2342,3 +2342,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 570
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 571
+
+Handles single-element input as a base case.
