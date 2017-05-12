@@ -1751,3 +1751,7 @@
 ## entry 420
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 421
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
