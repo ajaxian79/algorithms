@@ -1715,3 +1715,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 412
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 413
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
