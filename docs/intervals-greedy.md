@@ -1695,3 +1695,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 406
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 407
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
