@@ -2284,3 +2284,7 @@ Time complexity: O(n).
 ## entry 556
 
 Returns a freshly allocated string the caller must free.
+
+## entry 557
+
+Space complexity: O(1) auxiliary.
