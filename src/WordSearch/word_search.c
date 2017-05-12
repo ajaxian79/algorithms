@@ -228,3 +228,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 194: Time complexity: O(1).
 // note 195: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 197: Allocates a single small fixed-size scratch buffer.
