@@ -1795,3 +1795,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 449
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 450
+
+False sharing: two threads writing different bytes in the same cache line stall both.
