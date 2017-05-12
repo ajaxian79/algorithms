@@ -2179,3 +2179,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 530
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 531
+
+Stable when the input is already sorted.
