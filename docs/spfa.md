@@ -1503,3 +1503,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 376
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 377
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
