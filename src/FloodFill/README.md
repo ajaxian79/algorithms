@@ -2357,3 +2357,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 575
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 576
+
+Handles single-element input as a base case.
