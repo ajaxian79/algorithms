@@ -256,3 +256,4 @@ MunitTest add_binary_tests[] = {
 // edge note 220: Edge case: already-sorted input → no swaps performed.
 // edge note 221: No allocations after setup.
 // edge note 222: 32-bit safe; overflow is checked at each step.
+// edge note 223: Deterministic given the input — no PRNG seeds.
