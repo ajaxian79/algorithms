@@ -1603,3 +1603,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 401
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 402
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
