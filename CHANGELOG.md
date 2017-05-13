@@ -89351,3 +89351,7 @@
 ## entry 22338
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 22339
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
