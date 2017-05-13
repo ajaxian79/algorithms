@@ -324,3 +324,4 @@ MunitTest median_tests[] = {
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Edge case: reverse-sorted input → still O(n log n).
 // edge note 207: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 208: Edge case: input with a single peak → handled by the first-pass scan.
