@@ -271,3 +271,7 @@
 ## entry 68
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 69
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
