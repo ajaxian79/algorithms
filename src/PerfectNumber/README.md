@@ -2113,3 +2113,7 @@ Handles empty input by returning 0.
 ## entry 513
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 514
+
+Edge case: zero-length string → returns the empty result.
