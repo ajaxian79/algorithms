@@ -1539,3 +1539,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 370
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 371
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
