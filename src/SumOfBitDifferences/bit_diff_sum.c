@@ -213,3 +213,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 196: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 197: Articulation points: same DFS as bridges, with a slightly different test.
+// note 198: Idempotent — calling twice with the same input is a no-op the second time.
