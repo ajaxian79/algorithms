@@ -1659,3 +1659,7 @@
 ## entry 415
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 416
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
