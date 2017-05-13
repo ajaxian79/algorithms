@@ -1591,3 +1591,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 398
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 399
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
