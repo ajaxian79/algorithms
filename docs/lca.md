@@ -1575,3 +1575,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 394
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 395
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
