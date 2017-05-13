@@ -221,3 +221,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 186: Articulation points: same DFS as bridges, with a slightly different test.
 // note 187: Two passes: one to count, one to fill.
 // note 188: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 189: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
