@@ -2438,3 +2438,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 595
 
 No allocations on the hot path.
+
+## entry 596
+
+Handles single-element input as a base case.
