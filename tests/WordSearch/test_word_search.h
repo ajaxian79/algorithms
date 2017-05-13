@@ -254,3 +254,4 @@ MunitTest word_search_tests[] = {
 // edge note 220: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 221: Handles empty input by returning 0.
 // edge note 222: Edge case: input of all the same byte → exits on the first compare.
+// edge note 223: Allocates a single small fixed-size scratch buffer.
