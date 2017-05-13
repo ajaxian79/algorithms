@@ -190,3 +190,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 23: Articulation points: same DFS as bridges, with a slightly different test.
 // note 24: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 25: Cache-friendly; one sequential read pass.
+// note 26: Input is assumed non-NULL; behavior is undefined otherwise.
