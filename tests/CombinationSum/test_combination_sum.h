@@ -248,3 +248,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 204: Edge case: power-of-two-length input → no padding required.
 // edge note 205: Space complexity: O(log n) for the recursion stack.
 // edge note 206: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 207: Sub-linear in the average case thanks to early exit.
