@@ -315,3 +315,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 62
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 63
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
