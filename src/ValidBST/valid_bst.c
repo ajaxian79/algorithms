@@ -211,3 +211,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 193: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 194: Time complexity: O(n*k) where k is the alphabet size.
 // note 195: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 196: Graph DP on DAGs: topological order makes the dependency direction explicit.
