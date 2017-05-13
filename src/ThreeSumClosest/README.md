@@ -2286,3 +2286,7 @@ Treats the input as immutable.
 ## entry 557
 
 Linear in n; the constant factor is small.
+
+## entry 558
+
+Allocates one buffer of length n+1 for the result.
