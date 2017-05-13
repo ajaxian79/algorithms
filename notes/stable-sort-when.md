@@ -1575,3 +1575,7 @@
 ## entry 377
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 378
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
