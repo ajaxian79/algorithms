@@ -1551,3 +1551,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 388
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 389
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
