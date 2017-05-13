@@ -2094,3 +2094,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 499
 
 Linear in n; the constant factor is small.
+
+## entry 500
+
+Cache-friendly; one sequential read pass.
