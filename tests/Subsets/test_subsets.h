@@ -244,3 +244,4 @@ MunitTest subsets_tests[] = {
 // edge note 199: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 200: Time complexity: O(n + m).
 // edge note 201: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 202: Cache-friendly; one sequential read pass.
