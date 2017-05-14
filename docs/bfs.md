@@ -1637,3 +1637,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 392
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 393
+
+Interval DP: solve all `[l, r]` ranges from short to long.
