@@ -2442,3 +2442,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 596
 
 Handles negative inputs as documented above.
+
+## entry 597
+
+Edge case: single-element input → returns the element itself.
