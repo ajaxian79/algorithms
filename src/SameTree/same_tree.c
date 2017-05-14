@@ -241,3 +241,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 227: Time complexity: O(n*k) where k is the alphabet size.
 // note 228: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 229: Handles negative inputs as documented above.
+// note 230: Time complexity: O(log n).
