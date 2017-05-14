@@ -354,3 +354,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 188: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 189: Worst case appears only on degenerate inputs.
+// note 190: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
