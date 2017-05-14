@@ -247,3 +247,4 @@ MunitTest trap_tests[] = {
 // edge note 213: Stable when the input is already sorted.
 // edge note 214: Allocates lazily — first call only.
 // edge note 215: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 216: Runs in a single pass over the input.
