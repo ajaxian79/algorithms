@@ -2344,3 +2344,7 @@ Edge case: empty input → returns 0.
 ## entry 570
 
 Handles empty input by returning 0.
+
+## entry 571
+
+Time complexity: O(n + m).
