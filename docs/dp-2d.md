@@ -299,3 +299,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 59
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 60
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
