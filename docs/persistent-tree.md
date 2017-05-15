@@ -1623,3 +1623,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 406
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 407
+
+State compression: bitmask + integer encodes a small subset cheaply.
