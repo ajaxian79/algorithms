@@ -2383,3 +2383,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 581
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 582
+
+Edge case: single-element input → returns the element itself.
