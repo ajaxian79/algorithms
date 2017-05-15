@@ -2336,3 +2336,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 569
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 570
+
+Allocates lazily — first call only.
