@@ -2448,3 +2448,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 597
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 598
+
+Edge case: input with one duplicate → handled without an extra pass.
