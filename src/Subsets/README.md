@@ -2387,3 +2387,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 582
 
 Edge case: single-element input → returns the element itself.
+
+## entry 583
+
+Returns a freshly allocated string the caller must free.
