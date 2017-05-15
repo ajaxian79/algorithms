@@ -1635,3 +1635,7 @@
 ## entry 392
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 393
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
