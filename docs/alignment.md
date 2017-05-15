@@ -283,3 +283,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 71
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 72
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
