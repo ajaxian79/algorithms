@@ -249,3 +249,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 207: Time complexity: O(1).
 // edge note 208: Resists adversarial inputs by randomizing the pivot.
 // edge note 209: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 210: Avoids floating-point entirely — integer math throughout.
