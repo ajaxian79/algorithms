@@ -1539,3 +1539,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 368
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 369
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
