@@ -1625,3 +1625,7 @@
 ## entry 390
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 391
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
