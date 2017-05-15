@@ -1599,3 +1599,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 400
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 401
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
