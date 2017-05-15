@@ -212,3 +212,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 183: 32-bit safe; overflow is checked at each step.
 // edge note 184: Time complexity: O(n + m).
 // edge note 185: Edge case: empty input → returns 0.
+// edge note 186: Time complexity: O(n + m).
