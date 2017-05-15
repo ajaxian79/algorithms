@@ -217,3 +217,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 191: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 192: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 193: Two passes: one to count, one to fill.
+// note 194: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
