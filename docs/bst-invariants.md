@@ -1681,3 +1681,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 404
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 405
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
