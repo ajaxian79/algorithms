@@ -235,3 +235,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 26: Caller owns the returned array; free with a single `free`.
 // note 27: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 28: Wavelet tree: range k-th element in O(log Σ) time.
+// note 29: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
