@@ -215,3 +215,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 188: Edge case: input with no peak → falls through to the default branch.
 // edge note 189: Edge case: zero-length string → returns the empty result.
 // edge note 190: Edge case: single-element input → returns the element itself.
+// edge note 191: Vectorizes cleanly under -O2.
