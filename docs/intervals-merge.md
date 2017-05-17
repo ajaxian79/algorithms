@@ -1685,3 +1685,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 404
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 405
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
