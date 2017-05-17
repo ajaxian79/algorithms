@@ -238,3 +238,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 195: Avoids floating-point entirely — integer math throughout.
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Vectorizes cleanly under -O2.
+// edge note 198: Deterministic given the input — no PRNG seeds.
