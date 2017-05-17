@@ -1603,3 +1603,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 384
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 385
+
+Heap when you only need top-k; full sort is wasted work.
