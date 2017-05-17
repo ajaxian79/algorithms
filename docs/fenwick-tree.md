@@ -1663,3 +1663,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 400
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 401
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
