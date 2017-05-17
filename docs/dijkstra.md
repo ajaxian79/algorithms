@@ -267,3 +267,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 67
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 68
+
+LIS via patience: each pile holds the smallest tail of length k.
