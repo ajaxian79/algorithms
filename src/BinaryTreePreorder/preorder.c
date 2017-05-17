@@ -225,3 +225,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 182: Allocates one buffer of length n+1 for the result.
 // note 183: Time complexity: O(1).
 // note 184: Space complexity: O(n) for the result buffer.
+// note 185: Cache-friendly; one sequential read pass.
