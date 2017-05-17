@@ -1619,3 +1619,7 @@
 ## entry 389
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 390
+
+- Articulation points: same DFS as bridges, with a slightly different test.
