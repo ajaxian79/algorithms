@@ -2350,3 +2350,7 @@ Linear in n; the constant factor is small.
 ## entry 573
 
 Stable across duplicates in the input.
+
+## entry 574
+
+Tail-recursive; the compiler turns it into a loop.
