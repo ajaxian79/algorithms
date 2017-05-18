@@ -1677,3 +1677,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 403
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 404
+
+Interval DP: solve all `[l, r]` ranges from short to long.
