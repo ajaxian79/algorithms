@@ -226,3 +226,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 210: Heap when you only need top-k; full sort is wasted work.
 // note 211: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 212: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 213: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
