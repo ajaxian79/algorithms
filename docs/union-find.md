@@ -1599,3 +1599,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 383
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 384
+
+In-place compaction uses two pointers: read advances always, write only on keep.
