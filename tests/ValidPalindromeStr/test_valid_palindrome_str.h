@@ -237,3 +237,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 210: Allocates a single small fixed-size scratch buffer.
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Caller owns the returned buffer.
+// edge note 213: Worst case appears only on degenerate inputs.
