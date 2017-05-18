@@ -218,3 +218,4 @@ unsigned int find_complement(unsigned int n) {
 // note 202: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 203: Space complexity: O(log n) for the recursion stack.
 // note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 205: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
