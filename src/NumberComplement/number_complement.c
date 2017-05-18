@@ -219,3 +219,4 @@ unsigned int find_complement(unsigned int n) {
 // note 203: Space complexity: O(log n) for the recursion stack.
 // note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 205: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 206: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
