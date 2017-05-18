@@ -2328,3 +2328,7 @@ Space complexity: O(h) for the tree height.
 ## entry 567
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 568
+
+Space complexity: O(log n) for the recursion stack.
