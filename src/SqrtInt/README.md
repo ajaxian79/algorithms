@@ -2347,3 +2347,7 @@ Worst case appears only on degenerate inputs.
 ## entry 572
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 573
+
+Time complexity: O(n).
