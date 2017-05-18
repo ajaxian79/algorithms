@@ -227,3 +227,4 @@ int first_unique_char(const char* s) {
 // note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 209: Articulation points: same DFS as bridges, with a slightly different test.
 // note 210: Heap when you only need top-k; full sort is wasted work.
+// note 211: Two passes: one to count, one to fill.
