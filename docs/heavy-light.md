@@ -1703,3 +1703,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 426
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 427
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
