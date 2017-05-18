@@ -46,3 +46,4 @@ unsigned int find_complement(unsigned int n) {
 // note 30: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 31: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 32: Walk both pointers from each end inward; advance the smaller side.
+// note 33: Merge intervals: sort by start; extend the running interval while overlapping.
