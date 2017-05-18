@@ -234,3 +234,4 @@ int roman_to_int(const char* s) {
 // note 194: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 195: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 196: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
