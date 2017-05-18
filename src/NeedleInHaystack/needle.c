@@ -226,3 +226,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 185: Branchless inner loop after sorting.
 // note 186: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 187: Deterministic given the input — no PRNG seeds.
+// note 188: StringBuilder: amortize allocation by doubling on grow.
