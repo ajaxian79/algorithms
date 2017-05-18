@@ -251,3 +251,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 219: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 220: Handles empty input by returning 0.
 // edge note 221: Edge case: single-element input → returns the element itself.
+// edge note 222: Time complexity: O(n + m).
