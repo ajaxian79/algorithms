@@ -1683,3 +1683,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 421
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 422
+
+False sharing: two threads writing different bytes in the same cache line stall both.
