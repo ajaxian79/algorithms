@@ -1471,3 +1471,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 368
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 369
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
