@@ -295,3 +295,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 58
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 59
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
