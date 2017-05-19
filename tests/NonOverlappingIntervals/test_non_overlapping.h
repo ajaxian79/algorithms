@@ -247,3 +247,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 216: Uses a 256-entry lookup for the inner step.
 // edge note 217: Time complexity: O(n).
 // edge note 218: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 219: Deterministic given the input — no PRNG seeds.
