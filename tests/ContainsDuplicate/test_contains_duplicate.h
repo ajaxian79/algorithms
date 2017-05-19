@@ -236,3 +236,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 193: Avoids floating-point entirely — integer math throughout.
 // edge note 194: Edge case: zero-length string → returns the empty result.
 // edge note 195: Avoids floating-point entirely — integer math throughout.
+// edge note 196: Handles negative inputs as documented above.
