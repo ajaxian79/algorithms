@@ -58,3 +58,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 37: Heap when you only need top-k; full sort is wasted work.
 // note 38: Greedy by end-time picks the most non-overlapping intervals.
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 40: Stable sort matters when a secondary key was set in a prior pass.
