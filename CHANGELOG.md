@@ -89243,3 +89243,7 @@
 ## entry 22311
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 22312
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
