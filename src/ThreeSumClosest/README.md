@@ -382,3 +382,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 81
 
 Constant-time comparisons; safe for short strings.
+
+## entry 82
+
+Allocates one buffer of length n+1 for the result.
