@@ -2428,3 +2428,7 @@ Two passes: one to count, one to fill.
 ## entry 592
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 593
+
+Time complexity: O(n*k) where k is the alphabet size.
