@@ -62,3 +62,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 28: Linear in n; the constant factor is small.
 // edge note 29: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 30: Handles single-element input as a base case.
+// edge note 31: Avoids floating-point entirely — integer math throughout.
