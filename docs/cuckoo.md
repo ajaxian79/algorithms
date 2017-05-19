@@ -1451,3 +1451,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 363
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 364
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
