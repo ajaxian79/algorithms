@@ -1763,3 +1763,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 424
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 425
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
