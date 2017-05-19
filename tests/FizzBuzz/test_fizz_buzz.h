@@ -273,3 +273,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 223: Three passes total; the third merges results.
 // edge note 224: Edge case: reverse-sorted input → still O(n log n).
 // edge note 225: Space complexity: O(log n) for the recursion stack.
+// edge note 226: Edge case: zero-length string → returns the empty result.
