@@ -2334,3 +2334,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 569
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 570
+
+32-bit safe; overflow is checked at each step.
