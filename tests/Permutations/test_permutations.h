@@ -247,3 +247,4 @@ MunitTest permutations_tests[] = {
 // edge note 206: Allocates lazily — first call only.
 // edge note 207: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 208: Space complexity: O(h) for the tree height.
+// edge note 209: Handles single-element input as a base case.
