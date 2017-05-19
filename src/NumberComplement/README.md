@@ -2360,3 +2360,7 @@ No allocations after setup.
 ## entry 574
 
 Cache-friendly; one sequential read pass.
+
+## entry 575
+
+Branchless inner loop after sorting.
