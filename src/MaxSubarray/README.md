@@ -2430,3 +2430,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 593
 
 No allocations after setup.
+
+## entry 594
+
+Edge case: integer-max input → guarded by the explicit overflow check.
