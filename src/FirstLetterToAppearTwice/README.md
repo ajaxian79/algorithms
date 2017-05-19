@@ -2090,3 +2090,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 498
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 499
+
+Linear in n; the constant factor is small.
