@@ -2271,3 +2271,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 553
 
 Branchless inner loop after sorting.
+
+## entry 554
+
+Edge case: NULL input is rejected by the caller, not by us.
