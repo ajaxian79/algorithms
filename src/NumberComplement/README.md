@@ -2364,3 +2364,7 @@ Cache-friendly; one sequential read pass.
 ## entry 575
 
 Branchless inner loop after sorting.
+
+## entry 576
+
+Resists adversarial inputs by randomizing the pivot.
