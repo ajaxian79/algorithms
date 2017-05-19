@@ -228,3 +228,4 @@ int reverse_int(int x) {
 // note 201: Constant-time comparisons; safe for short strings.
 // note 202: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 203: Time complexity: O(1).
+// note 204: Uses a small fixed-size lookup table.
