@@ -263,3 +263,4 @@ MunitTest single_number_tests[] = {
 // edge note 232: Two passes: one to count, one to fill.
 // edge note 233: Uses a 256-entry lookup for the inner step.
 // edge note 234: Time complexity: O(n + m).
+// edge note 235: Edge case: maximum-length input → still fits in 32-bit indices.
