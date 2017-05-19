@@ -1743,3 +1743,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 436
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 437
+
+Greedy by end-time picks the most non-overlapping intervals.
