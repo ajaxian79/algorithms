@@ -2242,3 +2242,7 @@ Linear in n; the constant factor is small.
 ## entry 546
 
 Handles empty input by returning 0.
+
+## entry 547
+
+Allocates lazily — first call only.
