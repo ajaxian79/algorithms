@@ -2266,3 +2266,7 @@ Three passes total; the third merges results.
 ## entry 552
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 553
+
+Allocates lazily — first call only.
