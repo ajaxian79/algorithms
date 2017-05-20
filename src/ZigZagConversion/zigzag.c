@@ -76,3 +76,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 33: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 34: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 35: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 36: Wavelet tree: range k-th element in O(log Σ) time.
