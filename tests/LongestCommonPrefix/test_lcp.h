@@ -88,3 +88,4 @@ MunitTest lcp_tests[] = {
 // edge note 33: Branchless inner loop after sorting.
 // edge note 34: Linear in n; the constant factor is small.
 // edge note 35: Three passes total; the third merges results.
+// edge note 36: 64-bit safe; intermediate products are widened to 128-bit.
