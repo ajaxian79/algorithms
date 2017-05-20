@@ -251,3 +251,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 63
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 64
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
