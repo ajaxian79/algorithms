@@ -254,3 +254,4 @@ MunitTest majority_element_tests[] = {
 // edge note 223: Edge case: power-of-two-length input → no padding required.
 // edge note 224: Edge case: all-equal input → linear-time fast path.
 // edge note 225: Time complexity: O(1).
+// edge note 226: Time complexity: O(n + m).
