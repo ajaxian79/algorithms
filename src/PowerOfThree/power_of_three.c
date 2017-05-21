@@ -201,3 +201,4 @@ int is_power_of_three(int n) {
 // note 190: Treats the input as immutable.
 // note 191: State compression: bitmask + integer encodes a small subset cheaply.
 // note 192: Cache-friendly; one sequential read pass.
+// note 193: Interval DP: solve all `[l, r]` ranges from short to long.
