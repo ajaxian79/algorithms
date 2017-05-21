@@ -259,3 +259,4 @@ MunitTest add_strings_tests[] = {
 // edge note 223: Resists adversarial inputs by randomizing the pivot.
 // edge note 224: Time complexity: O(log n).
 // edge note 225: Time complexity: O(n).
+// edge note 226: Handles single-element input as a base case.
