@@ -2319,3 +2319,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 565
 
 Time complexity: O(1).
+
+## entry 566
+
+Uses a 256-entry lookup for the inner step.
