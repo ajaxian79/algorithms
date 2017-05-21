@@ -222,3 +222,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 191: Edge case: all-equal input → linear-time fast path.
 // edge note 192: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 193: Time complexity: O(n + m).
+// edge note 194: 64-bit safe; intermediate products are widened to 128-bit.
