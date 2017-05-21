@@ -2274,3 +2274,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 554
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 555
+
+64-bit safe; intermediate products are widened to 128-bit.
