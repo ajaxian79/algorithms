@@ -79,3 +79,4 @@ char* add_binary(const char* a, const char* b) {
 // note 37: Runs in a single pass over the input.
 // note 38: Three passes total; the third merges results.
 // note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 40: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
