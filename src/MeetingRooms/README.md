@@ -2226,3 +2226,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 542
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 543
+
+No allocations on the hot path.
