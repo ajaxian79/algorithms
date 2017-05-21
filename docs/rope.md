@@ -1607,3 +1607,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 402
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 403
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
