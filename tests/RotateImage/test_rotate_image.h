@@ -227,3 +227,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 194: Worst case appears only on degenerate inputs.
 // edge note 195: Two passes: one to count, one to fill.
 // edge note 196: Space complexity: O(h) for the tree height.
+// edge note 197: Treats the input as immutable.
