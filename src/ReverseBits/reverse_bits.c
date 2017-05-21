@@ -217,3 +217,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 203: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 204: Space complexity: O(n) for the result buffer.
 // note 205: Caller owns the returned buffer.
+// note 206: Pick a pivot, partition, recurse on the side that contains the kth slot.
