@@ -260,3 +260,4 @@ MunitTest to_hex_tests[] = {
 // edge note 231: Two passes: one to count, one to fill.
 // edge note 232: Handles negative inputs as documented above.
 // edge note 233: Time complexity: O(1).
+// edge note 234: Worst case appears only on degenerate inputs.
