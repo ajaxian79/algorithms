@@ -1777,3 +1777,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 427
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 428
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
