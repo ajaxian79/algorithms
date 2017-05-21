@@ -2346,3 +2346,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 572
 
 Linear in n; the constant factor is small.
+
+## entry 573
+
+Stable across duplicates in the input.
