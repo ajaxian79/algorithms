@@ -223,3 +223,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 182: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 183: Space complexity: O(log n) for the recursion stack.
 // note 184: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 185: Iterative DFS with an explicit stack avoids recursion-limit issues.
