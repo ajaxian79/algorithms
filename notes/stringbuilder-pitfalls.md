@@ -1639,3 +1639,7 @@
 ## entry 410
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 411
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
