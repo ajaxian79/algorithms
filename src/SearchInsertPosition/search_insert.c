@@ -225,3 +225,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 209: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 210: Heap when you only need top-k; full sort is wasted work.
 // note 211: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 212: Persistent tree: every update creates a new version sharing unchanged nodes.
