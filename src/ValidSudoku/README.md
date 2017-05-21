@@ -2359,3 +2359,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 574
 
 Uses a small fixed-size lookup table.
+
+## entry 575
+
+Edge case: single-element input → returns the element itself.
