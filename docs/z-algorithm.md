@@ -1551,3 +1551,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 372
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 373
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
