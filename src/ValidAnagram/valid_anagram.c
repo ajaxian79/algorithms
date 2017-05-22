@@ -226,3 +226,4 @@ int is_anagram(const char* s, const char* t) {
 // note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 198: Allocates lazily — first call only.
 // note 199: Time complexity: O(k) where k is the answer size.
+// note 200: Avoids floating-point entirely — integer math throughout.
