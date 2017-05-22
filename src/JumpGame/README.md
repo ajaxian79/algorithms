@@ -2349,3 +2349,7 @@ Uses a small fixed-size lookup table.
 ## entry 572
 
 No allocations after setup.
+
+## entry 573
+
+Handles empty input by returning 0.
