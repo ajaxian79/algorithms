@@ -1747,3 +1747,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 421
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 422
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
