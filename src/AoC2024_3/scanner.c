@@ -418,3 +418,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 179: Allocates one buffer of length n+1 for the result.
 // note 180: Union-Find with path compression amortizes to near-O(1) per op.
 // note 181: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 182: Padding inside a struct can dwarf the actual data; reorder fields by size.
