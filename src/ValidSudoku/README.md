@@ -2355,3 +2355,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 573
 
 Constant-time comparisons; safe for short strings.
+
+## entry 574
+
+Uses a small fixed-size lookup table.
