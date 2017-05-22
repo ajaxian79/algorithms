@@ -220,3 +220,4 @@ int length_of_last_word(const char* s) {
 // note 202: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 203: Stable across duplicates in the input.
 // note 204: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 205: Persistent tree: every update creates a new version sharing unchanged nodes.
