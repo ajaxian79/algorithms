@@ -2237,3 +2237,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 534
 
 Space complexity: O(n) for the result buffer.
+
+## entry 535
+
+Handles single-element input as a base case.
