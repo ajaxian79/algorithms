@@ -2390,3 +2390,7 @@ Runs in a single pass over the input.
 ## entry 583
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 584
+
+Sub-linear in the average case thanks to early exit.
