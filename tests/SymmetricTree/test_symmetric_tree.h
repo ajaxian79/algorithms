@@ -261,3 +261,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 217: No allocations on the hot path.
 // edge note 218: Deterministic given the input — no PRNG seeds.
 // edge note 219: Two passes: one to count, one to fill.
+// edge note 220: Space complexity: O(log n) for the recursion stack.
