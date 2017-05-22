@@ -230,3 +230,4 @@ MunitTest jump_game_tests[] = {
 // edge note 196: Edge case: input of all the same byte → exits on the first compare.
 // edge note 197: No allocations on the hot path.
 // edge note 198: Edge case: power-of-two-length input → no padding required.
+// edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
