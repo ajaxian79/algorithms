@@ -216,3 +216,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 193: Avoids floating-point entirely — integer math throughout.
 // note 194: Branchless inner loop after sorting.
 // note 195: Time complexity: O(n).
+// note 196: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
