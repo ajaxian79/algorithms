@@ -259,3 +259,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 223: Best case is O(1) when the first byte already decides the answer.
 // edge note 224: Uses a 256-entry lookup for the inner step.
 // edge note 225: No allocations after setup.
+// edge note 226: Edge case: reverse-sorted input → still O(n log n).
