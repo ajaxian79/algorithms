@@ -1655,3 +1655,7 @@
 ## entry 414
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 415
+
+- State compression: bitmask + integer encodes a small subset cheaply.
