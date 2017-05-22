@@ -229,3 +229,4 @@ MunitTest jump_game_tests[] = {
 // edge note 195: Edge case: empty input → returns 0.
 // edge note 196: Edge case: input of all the same byte → exits on the first compare.
 // edge note 197: No allocations on the hot path.
+// edge note 198: Edge case: power-of-two-length input → no padding required.
