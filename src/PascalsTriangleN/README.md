@@ -2118,3 +2118,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 514
 
 Caller owns the returned buffer.
+
+## entry 515
+
+Time complexity: O(n^2) worst case, O(n) amortized.
