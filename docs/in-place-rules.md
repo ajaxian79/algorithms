@@ -1789,3 +1789,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 432
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 433
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
