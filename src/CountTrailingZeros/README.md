@@ -2274,3 +2274,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 553
 
 32-bit safe; overflow is checked at each step.
+
+## entry 554
+
+Edge case: integer-max input → guarded by the explicit overflow check.
