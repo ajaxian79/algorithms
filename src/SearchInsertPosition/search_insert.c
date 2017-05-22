@@ -223,3 +223,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 207: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 209: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 210: Heap when you only need top-k; full sort is wasted work.
