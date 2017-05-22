@@ -203,3 +203,4 @@ int count_primes(int n) {
 // note 175: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 176: Avoids floating-point entirely — integer math throughout.
 // note 177: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 178: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
