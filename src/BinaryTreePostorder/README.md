@@ -2234,3 +2234,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 544
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 545
+
+Linear in n; the constant factor is small.
