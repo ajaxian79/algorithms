@@ -1681,3 +1681,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 403
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 404
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
