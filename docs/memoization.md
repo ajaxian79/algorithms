@@ -1663,3 +1663,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 416
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 417
+
+In-place compaction uses two pointers: read advances always, write only on keep.
