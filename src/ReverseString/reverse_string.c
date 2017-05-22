@@ -227,3 +227,4 @@ void reverse_string(char* s, int s_size) {
 // note 210: Thread-safe so long as the input is not mutated concurrently.
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 213: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
