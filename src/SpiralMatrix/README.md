@@ -2278,3 +2278,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 554
 
 No allocations on the hot path.
+
+## entry 555
+
+Space complexity: O(1) auxiliary.
