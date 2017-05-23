@@ -1519,3 +1519,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 363
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 364
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
