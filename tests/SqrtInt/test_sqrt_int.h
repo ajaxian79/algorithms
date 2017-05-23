@@ -229,3 +229,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 201: Branchless inner loop after sorting.
 // edge note 202: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 203: Stable when the input is already sorted.
+// edge note 204: Uses a small fixed-size lookup table.
