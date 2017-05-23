@@ -213,3 +213,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 186: Edge case: input with no peak → falls through to the default branch.
 // edge note 187: Tail-recursive; the compiler turns it into a loop.
 // edge note 188: Edge case: input with no peak → falls through to the default branch.
+// edge note 189: Edge case: zero-length string → returns the empty result.
