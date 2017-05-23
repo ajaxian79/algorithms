@@ -2225,3 +2225,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 541
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 542
+
+Returns a freshly allocated string the caller must free.
