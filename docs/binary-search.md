@@ -1729,3 +1729,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 416
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 417
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
