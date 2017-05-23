@@ -243,3 +243,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 216: Reentrant — no static state.
 // edge note 217: Handles negative inputs as documented above.
 // edge note 218: Edge case: already-sorted input → no swaps performed.
+// edge note 219: Edge case: reverse-sorted input → still O(n log n).
