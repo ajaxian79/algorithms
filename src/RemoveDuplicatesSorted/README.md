@@ -398,3 +398,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 85
 
 Allocates lazily — first call only.
+
+## entry 86
+
+Thread-safe so long as the input is not mutated concurrently.
