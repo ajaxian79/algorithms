@@ -1543,3 +1543,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 369
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 370
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
