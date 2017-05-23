@@ -323,3 +323,4 @@ MunitTest median_tests[] = {
 // edge note 204: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Edge case: reverse-sorted input → still O(n log n).
+// edge note 207: Edge case: NULL input is rejected by the caller, not by us.
