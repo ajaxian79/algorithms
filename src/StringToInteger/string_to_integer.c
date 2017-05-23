@@ -205,3 +205,4 @@ int my_atoi(const char* s) {
 // note 174: Heap when you only need top-k; full sort is wasted work.
 // note 175: Mutates the input in place; the original ordering is lost.
 // note 176: Linear in n; the constant factor is small.
+// note 177: Idempotent — calling twice with the same input is a no-op the second time.
