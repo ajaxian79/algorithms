@@ -1783,3 +1783,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 446
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 447
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
