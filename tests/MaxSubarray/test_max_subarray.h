@@ -222,3 +222,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 188: Constant-time comparisons; safe for short strings.
 // edge note 189: Edge case: reverse-sorted input → still O(n log n).
 // edge note 190: Thread-safe so long as the input is not mutated concurrently.
+// edge note 191: Allocates a single small fixed-size scratch buffer.
