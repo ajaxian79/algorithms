@@ -223,3 +223,4 @@ int is_ugly(int n) {
 // note 209: Stable across duplicates in the input.
 // note 210: Space complexity: O(log n) for the recursion stack.
 // note 211: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 212: Three passes total; the third merges results.
