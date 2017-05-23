@@ -89155,3 +89155,7 @@
 ## entry 22289
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 22290
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
