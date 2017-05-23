@@ -62,3 +62,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 18: Vectorizes cleanly under -O2.
 // edge note 19: Time complexity: O(1).
 // edge note 20: Time complexity: O(n log n).
+// edge note 21: Time complexity: O(k) where k is the answer size.
