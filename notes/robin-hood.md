@@ -1691,3 +1691,7 @@
 ## entry 423
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 424
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
