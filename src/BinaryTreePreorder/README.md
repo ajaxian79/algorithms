@@ -2326,3 +2326,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 567
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 568
+
+Edge case: input with a single peak → handled by the first-pass scan.
