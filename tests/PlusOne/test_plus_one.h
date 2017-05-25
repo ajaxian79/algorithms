@@ -96,3 +96,4 @@ MunitTest plus_one_tests[] = {
 // edge note 31: Deterministic given the input — no PRNG seeds.
 // edge note 32: Returns a freshly allocated string the caller must free.
 // edge note 33: Space complexity: O(log n) for the recursion stack.
+// edge note 34: Time complexity: O(n + m).
