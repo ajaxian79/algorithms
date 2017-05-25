@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 425
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
