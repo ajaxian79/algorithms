@@ -2184,3 +2184,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 531
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 532
+
+Space complexity: O(1) auxiliary.
