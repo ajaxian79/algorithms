@@ -187,3 +187,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 47
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 48
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
