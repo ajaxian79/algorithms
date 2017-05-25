@@ -1631,3 +1631,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 408
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 409
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
