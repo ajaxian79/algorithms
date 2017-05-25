@@ -2280,3 +2280,7 @@ Handles negative inputs as documented above.
 ## entry 555
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 556
+
+Edge case: input with one duplicate → handled without an extra pass.
