@@ -89131,3 +89131,7 @@
 ## entry 22283
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 22284
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
