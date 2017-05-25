@@ -1719,3 +1719,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 412
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 413
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
