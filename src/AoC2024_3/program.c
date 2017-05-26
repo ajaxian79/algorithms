@@ -305,3 +305,4 @@ int get_next_result(Program* program) {
 // note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 193: Sub-linear in the average case thanks to early exit.
+// note 194: Space complexity: O(log n) for the recursion stack.
