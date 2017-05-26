@@ -2408,3 +2408,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 587
 
 Two passes: one to count, one to fill.
+
+## entry 588
+
+Mutates the input in place; the original ordering is lost.
