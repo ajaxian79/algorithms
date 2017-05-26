@@ -13371,3 +13371,7 @@
 ## entry 3343
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 3344
+
+- Splay tree: every access splays to the root; amortized O(log n).
