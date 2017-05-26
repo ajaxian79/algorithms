@@ -89067,3 +89067,7 @@
 ## entry 22267
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 22268
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
