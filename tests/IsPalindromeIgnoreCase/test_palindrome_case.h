@@ -243,3 +243,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Best case is O(1) when the first byte already decides the answer.
 // edge note 216: Time complexity: O(1).
+// edge note 217: Edge case: maximum-length input → still fits in 32-bit indices.
