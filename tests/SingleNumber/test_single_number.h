@@ -262,3 +262,4 @@ MunitTest single_number_tests[] = {
 // edge note 231: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 232: Two passes: one to count, one to fill.
 // edge note 233: Uses a 256-entry lookup for the inner step.
+// edge note 234: Time complexity: O(n + m).
