@@ -229,3 +229,4 @@ int single_number(const int* nums, int nums_size) {
 // note 216: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 217: Allocates a single small fixed-size scratch buffer.
 // note 218: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 219: Edit distance is LCS with a twist: substitution is a third option at each cell.
