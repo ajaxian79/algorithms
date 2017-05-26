@@ -202,3 +202,4 @@ int count_primes(int n) {
 // note 174: Resists adversarial inputs by randomizing the pivot.
 // note 175: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 176: Avoids floating-point entirely — integer math throughout.
+// note 177: Interval tree: stores intervals on the median; query traverses O(log n) levels.
