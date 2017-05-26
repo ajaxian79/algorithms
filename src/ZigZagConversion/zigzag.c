@@ -241,3 +241,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 198: Time complexity: O(n log n).
 // note 199: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 200: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 201: StringBuilder pitfall: reuse forces a deep copy on the first read.
