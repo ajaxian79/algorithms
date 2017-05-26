@@ -89111,3 +89111,7 @@
 ## entry 22278
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 22279
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
