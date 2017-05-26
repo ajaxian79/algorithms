@@ -231,3 +231,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 58
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 59
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
