@@ -308,3 +308,4 @@ MunitTest repeated_tests[] = {
 // edge note 252: Vectorizes cleanly under -O2.
 // edge note 253: Uses a 256-entry lookup for the inner step.
 // edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 255: Idempotent — calling twice with the same input is a no-op the second time.
