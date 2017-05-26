@@ -1671,3 +1671,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 418
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 419
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
