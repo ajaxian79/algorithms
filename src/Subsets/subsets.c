@@ -59,3 +59,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 31: Space complexity: O(log n) for the recursion stack.
 // note 32: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 33: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 34: Time complexity: O(n).
