@@ -307,3 +307,4 @@ MunitTest repeated_tests[] = {
 // edge note 251: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 252: Vectorizes cleanly under -O2.
 // edge note 253: Uses a 256-entry lookup for the inner step.
+// edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
