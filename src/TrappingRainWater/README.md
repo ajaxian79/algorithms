@@ -2266,3 +2266,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 551
 
 Edge case: empty input → returns 0.
+
+## entry 552
+
+Time complexity: O(n*k) where k is the alphabet size.
