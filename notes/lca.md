@@ -1591,3 +1591,7 @@
 ## entry 398
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 399
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
