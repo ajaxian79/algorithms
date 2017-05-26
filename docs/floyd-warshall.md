@@ -1607,3 +1607,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 402
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 403
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
