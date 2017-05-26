@@ -1679,3 +1679,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 420
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 421
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
