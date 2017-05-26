@@ -1627,3 +1627,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 389
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 390
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
