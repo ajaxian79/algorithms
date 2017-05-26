@@ -1617,3 +1617,7 @@
 ## entry 389
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 390
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
