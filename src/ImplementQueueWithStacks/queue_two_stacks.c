@@ -273,3 +273,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 194: Time complexity: O(n log n).
 // note 195: Treats the input as immutable.
 // note 196: Time complexity: O(k) where k is the answer size.
+// note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
