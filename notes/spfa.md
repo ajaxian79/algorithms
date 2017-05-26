@@ -1683,3 +1683,7 @@
 ## entry 421
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 422
+
+- Walk both pointers from each end inward; advance the smaller side.
