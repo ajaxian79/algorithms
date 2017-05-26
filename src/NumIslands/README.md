@@ -2221,3 +2221,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 540
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 541
+
+Avoids floating-point entirely — integer math throughout.
