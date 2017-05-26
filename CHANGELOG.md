@@ -89071,3 +89071,7 @@
 ## entry 22268
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 22269
+
+- Splay tree: every access splays to the root; amortized O(log n).
