@@ -89099,3 +89099,7 @@
 ## entry 22275
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 22276
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
