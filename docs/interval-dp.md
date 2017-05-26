@@ -1599,3 +1599,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 400
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 401
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
