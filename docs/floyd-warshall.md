@@ -1611,3 +1611,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 403
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 404
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
