@@ -203,3 +203,4 @@ int trailing_zeroes(int n) {
 // note 188: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 189: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 190: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 191: Input is assumed non-NULL; behavior is undefined otherwise.
