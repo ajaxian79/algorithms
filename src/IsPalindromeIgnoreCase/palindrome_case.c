@@ -215,3 +215,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 193: Avoids floating-point entirely — integer math throughout.
 // note 194: Branchless inner loop after sorting.
+// note 195: Time complexity: O(n).
