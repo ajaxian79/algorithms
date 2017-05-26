@@ -258,3 +258,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 233: Edge case: already-sorted input → no swaps performed.
 // edge note 234: Space complexity: O(log n) for the recursion stack.
 // edge note 235: Worst case appears only on degenerate inputs.
+// edge note 236: Edge case: all-equal input → linear-time fast path.
