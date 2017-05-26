@@ -200,3 +200,4 @@ char* to_hex_string(int n) {
 // note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 168: Caller owns the returned array; free with a single `free`.
 // note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 170: Time complexity: O(log n).
