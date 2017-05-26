@@ -89091,3 +89091,7 @@
 ## entry 22273
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 22274
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
