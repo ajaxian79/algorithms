@@ -13363,3 +13363,7 @@
 ## entry 3341
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 3342
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
