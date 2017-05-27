@@ -2342,3 +2342,7 @@ Vectorizes cleanly under -O2.
 ## entry 571
 
 Returns a freshly allocated string the caller must free.
+
+## entry 572
+
+Linear in n; the constant factor is small.
