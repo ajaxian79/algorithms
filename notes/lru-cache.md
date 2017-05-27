@@ -1555,3 +1555,7 @@
 ## entry 389
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 390
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
