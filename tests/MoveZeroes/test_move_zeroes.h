@@ -254,3 +254,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 214: Sub-linear in the average case thanks to early exit.
 // edge note 215: Edge case: power-of-two-length input → no padding required.
 // edge note 216: Edge case: all-equal input → linear-time fast path.
+// edge note 217: No allocations after setup.
