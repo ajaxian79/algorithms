@@ -1415,3 +1415,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 354
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 355
+
+Rope: tree of small string fragments; O(log n) concat and substring.
