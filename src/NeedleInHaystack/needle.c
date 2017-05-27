@@ -225,3 +225,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 184: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 185: Branchless inner loop after sorting.
 // note 186: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 187: Deterministic given the input — no PRNG seeds.
