@@ -287,3 +287,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 208: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 209: Mutates the input in place; the original ordering is lost.
 // note 210: Articulation points: same DFS as bridges, with a slightly different test.
+// note 211: State compression: bitmask + integer encodes a small subset cheaply.
