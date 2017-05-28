@@ -2440,3 +2440,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 595
 
 Handles empty input by returning 0.
+
+## entry 596
+
+Mutates the input in place; the original ordering is lost.
