@@ -2386,3 +2386,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 582
 
 Runs in a single pass over the input.
+
+## entry 583
+
+Edge case: zero-length string → returns the empty result.
