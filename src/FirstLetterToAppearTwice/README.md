@@ -2082,3 +2082,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 496
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 497
+
+Idempotent — calling twice with the same input is a no-op the second time.
