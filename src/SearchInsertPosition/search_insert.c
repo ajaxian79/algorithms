@@ -222,3 +222,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 206: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 207: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 209: k-d tree: median-split each axis; nearest-neighbor average O(log n).
