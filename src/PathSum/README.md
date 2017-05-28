@@ -448,3 +448,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 97
 
 Stable across duplicates in the input.
+
+## entry 98
+
+Linear in n; the constant factor is small.
