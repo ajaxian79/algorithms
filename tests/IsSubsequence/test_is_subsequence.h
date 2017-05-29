@@ -224,3 +224,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 198: Allocates one buffer of length n+1 for the result.
 // edge note 199: Sub-linear in the average case thanks to early exit.
 // edge note 200: Worst case appears only on degenerate inputs.
+// edge note 201: Stable when the input is already sorted.
