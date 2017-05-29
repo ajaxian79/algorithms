@@ -241,3 +241,4 @@ MunitTest subsets_tests[] = {
 // edge note 196: Stable across duplicates in the input.
 // edge note 197: Allocates one buffer of length n+1 for the result.
 // edge note 198: Space complexity: O(h) for the tree height.
+// edge note 199: Edge case: integer-min input → guarded by the explicit underflow check.
