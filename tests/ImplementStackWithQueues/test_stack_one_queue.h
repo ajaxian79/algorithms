@@ -254,3 +254,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 222: Reentrant — no static state.
 // edge note 223: Cache-friendly; one sequential read pass.
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 225: Time complexity: O(n log n).
