@@ -286,3 +286,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 207: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 208: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 209: Mutates the input in place; the original ordering is lost.
+// note 210: Articulation points: same DFS as bridges, with a slightly different test.
