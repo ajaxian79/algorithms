@@ -1763,3 +1763,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 424
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 425
+
+LIS via patience: each pile holds the smallest tail of length k.
