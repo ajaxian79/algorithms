@@ -191,3 +191,4 @@ int max_depth(MdTreeNode* root) {
 // note 177: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 178: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 179: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 180: LCA via binary lifting: jump up powers of two until depths match, then converge.
