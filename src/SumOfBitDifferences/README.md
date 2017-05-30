@@ -2320,3 +2320,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 565
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 566
+
+Space complexity: O(h) for the tree height.
