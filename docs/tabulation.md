@@ -1679,3 +1679,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 420
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 421
+
+Walk both pointers from each end inward; advance the smaller side.
