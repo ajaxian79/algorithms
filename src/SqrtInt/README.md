@@ -2343,3 +2343,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 571
 
 Worst case appears only on degenerate inputs.
+
+## entry 572
+
+Edge case: integer-min input → guarded by the explicit underflow check.
