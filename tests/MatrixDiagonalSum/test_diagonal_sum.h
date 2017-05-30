@@ -241,3 +241,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 213: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 214: Space complexity: O(h) for the tree height.
 // edge note 215: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 216: Edge case: empty input → returns 0.
