@@ -2234,3 +2234,7 @@ Branchless inner loop after sorting.
 ## entry 544
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 545
+
+Edge case: input with one duplicate → handled without an extra pass.
