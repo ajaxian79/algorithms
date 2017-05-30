@@ -265,3 +265,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 200: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 201: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 202: StringBuilder: amortize allocation by doubling on grow.
+// note 203: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
