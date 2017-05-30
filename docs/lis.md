@@ -1759,3 +1759,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 423
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 424
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
