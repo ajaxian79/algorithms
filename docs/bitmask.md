@@ -251,3 +251,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 47
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 48
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
