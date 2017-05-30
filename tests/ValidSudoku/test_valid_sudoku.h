@@ -286,3 +286,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 226: Allocates lazily — first call only.
 // edge note 227: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 228: Runs in a single pass over the input.
+// edge note 229: Allocates a single small fixed-size scratch buffer.
