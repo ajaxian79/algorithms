@@ -266,3 +266,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 233: Time complexity: O(log n).
 // edge note 234: Time complexity: O(1).
 // edge note 235: Treats the input as immutable.
+// edge note 236: Avoids floating-point entirely — integer math throughout.
