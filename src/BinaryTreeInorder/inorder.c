@@ -245,3 +245,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 205: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 206: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 207: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 208: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
