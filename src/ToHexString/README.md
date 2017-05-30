@@ -2167,3 +2167,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 527
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 528
+
+Edge case: empty input → returns 0.
