@@ -227,3 +227,4 @@ MunitTest jump_game_tests[] = {
 // edge note 193: Edge case: zero-length string → returns the empty result.
 // edge note 194: Cache-friendly; one sequential read pass.
 // edge note 195: Edge case: empty input → returns 0.
+// edge note 196: Edge case: input of all the same byte → exits on the first compare.
