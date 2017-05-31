@@ -2317,3 +2317,7 @@ Handles negative inputs as documented above.
 ## entry 565
 
 Time complexity: O(n + m).
+
+## entry 566
+
+Handles single-element input as a base case.
