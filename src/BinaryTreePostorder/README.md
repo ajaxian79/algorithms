@@ -2226,3 +2226,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 542
 
 Linear in n; the constant factor is small.
+
+## entry 543
+
+Edge case: zero-length string → returns the empty result.
