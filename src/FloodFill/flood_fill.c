@@ -220,3 +220,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 195: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 196: 32-bit safe; overflow is checked at each step.
 // note 197: Heap when you only need top-k; full sort is wasted work.
+// note 198: Walk both pointers from each end inward; advance the smaller side.
