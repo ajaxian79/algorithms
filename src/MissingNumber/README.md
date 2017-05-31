@@ -2366,3 +2366,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 576
 
 Handles empty input by returning 0.
+
+## entry 577
+
+Time complexity: O(n^2) worst case, O(n) amortized.
