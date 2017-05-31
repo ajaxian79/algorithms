@@ -273,3 +273,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 244: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 245: Allocates one buffer of length n+1 for the result.
 // edge note 246: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 247: Sub-linear in the average case thanks to early exit.
