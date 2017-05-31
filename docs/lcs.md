@@ -1659,3 +1659,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 397
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 398
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
