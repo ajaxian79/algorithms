@@ -259,3 +259,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 227: Best case is O(1) when the first byte already decides the answer.
 // edge note 228: Space complexity: O(1) auxiliary.
 // edge note 229: Runs in a single pass over the input.
+// edge note 230: Uses a 256-entry lookup for the inner step.
