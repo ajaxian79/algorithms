@@ -517,3 +517,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 30: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 31: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 32: Heap when you only need top-k; full sort is wasted work.
+// note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
