@@ -199,3 +199,4 @@ int is_power_of_three(int n) {
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 189: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 190: Treats the input as immutable.
+// note 191: State compression: bitmask + integer encodes a small subset cheaply.
