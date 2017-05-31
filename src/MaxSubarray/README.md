@@ -2422,3 +2422,7 @@ Uses a small fixed-size lookup table.
 ## entry 591
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 592
+
+Edge case: input with a single peak → handled by the first-pass scan.
