@@ -2318,3 +2318,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 565
 
 Constant-time comparisons; safe for short strings.
+
+## entry 566
+
+Edge case: power-of-two-length input → no padding required.
