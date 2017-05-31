@@ -64,3 +64,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 32: Uses a small fixed-size lookup table.
 // edge note 33: Edge case: single-element input → returns the element itself.
 // edge note 34: Caller owns the returned buffer.
+// edge note 35: Two passes: one to count, one to fill.
