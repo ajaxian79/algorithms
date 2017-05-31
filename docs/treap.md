@@ -1515,3 +1515,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 379
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 380
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
