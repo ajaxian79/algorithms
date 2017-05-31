@@ -1683,3 +1683,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 403
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 404
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
