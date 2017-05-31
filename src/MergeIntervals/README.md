@@ -2262,3 +2262,7 @@ Handles empty input by returning 0.
 ## entry 550
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 551
+
+Space complexity: O(n) for the result buffer.
