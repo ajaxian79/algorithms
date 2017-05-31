@@ -1615,3 +1615,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 404
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 405
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
