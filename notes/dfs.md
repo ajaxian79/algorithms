@@ -1607,3 +1607,7 @@
 ## entry 386
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 387
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
