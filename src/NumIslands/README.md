@@ -2213,3 +2213,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 538
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 539
+
+Edge case: zero-length string → returns the empty result.
