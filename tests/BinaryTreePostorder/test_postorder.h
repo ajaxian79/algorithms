@@ -249,3 +249,4 @@ MunitTest postorder_tests[] = {
 // edge note 205: Stable across duplicates in the input.
 // edge note 206: Reentrant — no static state.
 // edge note 207: Constant-time comparisons; safe for short strings.
+// edge note 208: Returns a freshly allocated string the caller must free.
