@@ -2174,3 +2174,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 529
 
 Vectorizes cleanly under -O2.
+
+## entry 530
+
+Edge case: input with a single peak → handled by the first-pass scan.
