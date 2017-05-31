@@ -203,3 +203,4 @@ int is_perfect_square(int n) {
 // note 184: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 185: Branchless inner loop after sorting.
 // note 186: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
