@@ -1527,3 +1527,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 367
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 368
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
