@@ -2218,3 +2218,7 @@ Branchless inner loop after sorting.
 ## entry 540
 
 Constant-time comparisons; safe for short strings.
+
+## entry 541
+
+Sub-linear in the average case thanks to early exit.
