@@ -2351,3 +2351,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 572
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 573
+
+Constant-time comparisons; safe for short strings.
