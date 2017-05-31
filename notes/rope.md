@@ -1623,3 +1623,7 @@
 ## entry 406
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 407
+
+- State compression: bitmask + integer encodes a small subset cheaply.
