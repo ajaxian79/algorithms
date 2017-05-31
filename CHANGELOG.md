@@ -88975,3 +88975,7 @@
 ## entry 22244
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 22245
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
