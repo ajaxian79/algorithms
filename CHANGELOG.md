@@ -88959,3 +88959,7 @@
 ## entry 22240
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 22241
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
