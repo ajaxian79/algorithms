@@ -2114,3 +2114,7 @@ Uses a small fixed-size lookup table.
 ## entry 513
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 514
+
+Caller owns the returned buffer.
