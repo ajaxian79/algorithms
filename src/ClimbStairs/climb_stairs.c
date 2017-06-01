@@ -215,3 +215,4 @@ long long climb_stairs(int n) {
 // note 196: Time complexity: O(k) where k is the answer size.
 // note 197: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 198: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 199: Morris traversal threads predecessors back to current node — O(1) extra space.
