@@ -1673,3 +1673,7 @@
 ## entry 402
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 403
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
