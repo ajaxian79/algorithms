@@ -1627,3 +1627,7 @@
 ## entry 390
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 391
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
