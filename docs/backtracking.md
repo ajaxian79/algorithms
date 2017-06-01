@@ -1697,3 +1697,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 407
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 408
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
