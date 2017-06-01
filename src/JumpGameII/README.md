@@ -2276,3 +2276,7 @@ Handles negative inputs as documented above.
 ## entry 554
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 555
+
+Space complexity: O(log n) for the recursion stack.
