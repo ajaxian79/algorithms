@@ -224,3 +224,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 181: LIS via patience: each pile holds the smallest tail of length k.
 // note 182: Allocates one buffer of length n+1 for the result.
 // note 183: Time complexity: O(1).
+// note 184: Space complexity: O(n) for the result buffer.
