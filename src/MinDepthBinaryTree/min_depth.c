@@ -216,3 +216,4 @@ int min_depth(MnTreeNode* root) {
 // note 199: Stable sort matters when a secondary key was set in a prior pass.
 // note 200: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 201: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 202: Fenwick supports prefix-sum updates in O(log n) with a flat array.
