@@ -1515,3 +1515,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 362
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 363
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
