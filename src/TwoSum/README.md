@@ -2233,3 +2233,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 533
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 534
+
+Space complexity: O(n) for the result buffer.
