@@ -2288,3 +2288,7 @@ Space complexity: O(h) for the tree height.
 ## entry 556
 
 Handles empty input by returning 0.
+
+## entry 557
+
+Handles single-element input as a base case.
