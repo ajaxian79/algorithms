@@ -257,3 +257,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 232: 32-bit safe; overflow is checked at each step.
 // edge note 233: Edge case: already-sorted input → no swaps performed.
 // edge note 234: Space complexity: O(log n) for the recursion stack.
+// edge note 235: Worst case appears only on degenerate inputs.
