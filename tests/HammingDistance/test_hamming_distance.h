@@ -226,3 +226,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 201: Mutates the input in place; the original ordering is lost.
 // edge note 202: Reentrant — no static state.
 // edge note 203: Allocates a single small fixed-size scratch buffer.
+// edge note 204: Handles negative inputs as documented above.
