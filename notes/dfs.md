@@ -1603,3 +1603,7 @@
 ## entry 385
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 386
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
