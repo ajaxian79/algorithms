@@ -1535,3 +1535,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 384
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 385
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
