@@ -2244,3 +2244,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 546
 
 Space complexity: O(h) for the tree height.
+
+## entry 547
+
+Time complexity: O(log n).
