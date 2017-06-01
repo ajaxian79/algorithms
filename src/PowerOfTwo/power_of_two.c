@@ -34,3 +34,4 @@ int is_power_of_two(int n) {
 // note 24: Returns a freshly allocated string the caller must free.
 // note 25: No allocations after setup.
 // note 26: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 27: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
