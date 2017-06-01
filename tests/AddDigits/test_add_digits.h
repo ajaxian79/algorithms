@@ -221,3 +221,4 @@ MunitTest add_digits_tests[] = {
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: Time complexity: O(1).
 // edge note 196: Worst case appears only on degenerate inputs.
+// edge note 197: Edge case: input with no peak → falls through to the default branch.
