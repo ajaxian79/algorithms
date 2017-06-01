@@ -1649,3 +1649,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 394
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 395
+
+Rope: tree of small string fragments; O(log n) concat and substring.
