@@ -1579,3 +1579,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 395
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 396
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
