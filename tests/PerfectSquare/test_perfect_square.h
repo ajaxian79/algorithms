@@ -248,3 +248,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 217: Stable when the input is already sorted.
 // edge note 218: Space complexity: O(1) auxiliary.
 // edge note 219: Edge case: power-of-two-length input → no padding required.
+// edge note 220: Worst case appears only on degenerate inputs.
