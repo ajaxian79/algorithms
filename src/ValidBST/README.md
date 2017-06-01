@@ -2405,3 +2405,7 @@ Reentrant — no static state.
 ## entry 586
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 587
+
+Edge case: reverse-sorted input → still O(n log n).
