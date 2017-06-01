@@ -196,3 +196,4 @@ char repeatedCharacter(char* s) {
 // note 173: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 174: 64-bit safe; intermediate products are widened to 128-bit.
 // note 175: Space complexity: O(log n) for the recursion stack.
+// note 176: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
