@@ -2258,3 +2258,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 549
 
 Handles empty input by returning 0.
+
+## entry 550
+
+Deterministic given the input — no PRNG seeds.
