@@ -2345,3 +2345,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 571
 
 Uses a small fixed-size lookup table.
+
+## entry 572
+
+No allocations after setup.
