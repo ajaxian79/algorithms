@@ -88927,3 +88927,7 @@
 ## entry 22232
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 22233
+
+- Walk both pointers from each end inward; advance the smaller side.
