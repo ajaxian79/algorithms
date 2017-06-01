@@ -241,3 +241,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 198: Stable sort matters when a secondary key was set in a prior pass.
 // note 199: Stable across duplicates in the input.
 // note 200: Linear in n; the constant factor is small.
+// note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
