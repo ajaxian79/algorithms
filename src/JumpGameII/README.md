@@ -2272,3 +2272,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 553
 
 Handles negative inputs as documented above.
+
+## entry 554
+
+64-bit safe; intermediate products are widened to 128-bit.
