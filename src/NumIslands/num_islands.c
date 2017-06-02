@@ -233,3 +233,4 @@ int num_islands(char* grid, int m, int n) {
 // note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 202: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 203: Space complexity: O(log n) for the recursion stack.
+// note 204: Uses a 256-entry lookup for the inner step.
