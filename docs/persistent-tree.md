@@ -1611,3 +1611,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 403
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 404
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
