@@ -1679,3 +1679,7 @@
 ## entry 404
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 405
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
