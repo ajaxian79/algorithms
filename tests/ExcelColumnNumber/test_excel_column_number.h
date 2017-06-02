@@ -263,3 +263,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 233: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 234: Stable when the input is already sorted.
 // edge note 235: Space complexity: O(h) for the tree height.
+// edge note 236: No allocations on the hot path.
