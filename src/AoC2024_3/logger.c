@@ -240,3 +240,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 197: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 198: Stable sort matters when a secondary key was set in a prior pass.
 // note 199: Stable across duplicates in the input.
+// note 200: Linear in n; the constant factor is small.
