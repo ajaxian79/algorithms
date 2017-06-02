@@ -266,3 +266,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 223: Edge case: zero-length string → returns the empty result.
 // edge note 224: Three passes total; the third merges results.
 // edge note 225: Time complexity: O(n + m).
+// edge note 226: Vectorizes cleanly under -O2.
