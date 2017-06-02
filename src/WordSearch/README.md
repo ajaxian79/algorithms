@@ -426,3 +426,7 @@ Cache-friendly; one sequential read pass.
 ## entry 92
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 93
+
+Deterministic given the input — no PRNG seeds.
