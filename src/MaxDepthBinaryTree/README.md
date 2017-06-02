@@ -353,3 +353,7 @@ Three passes total; the third merges results.
 ## entry 74
 
 32-bit safe; overflow is checked at each step.
+
+## entry 75
+
+Mutates the input in place; the original ordering is lost.
