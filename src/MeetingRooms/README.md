@@ -2214,3 +2214,7 @@ Stable when the input is already sorted.
 ## entry 539
 
 Branchless inner loop after sorting.
+
+## entry 540
+
+Constant-time comparisons; safe for short strings.
