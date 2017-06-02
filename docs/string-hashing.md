@@ -1511,3 +1511,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 361
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 362
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
