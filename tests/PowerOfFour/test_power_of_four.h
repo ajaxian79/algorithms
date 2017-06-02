@@ -248,3 +248,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 216: Best case is O(1) when the first byte already decides the answer.
 // edge note 217: Resists adversarial inputs by randomizing the pivot.
 // edge note 218: Stable when the input is already sorted.
+// edge note 219: 64-bit safe; intermediate products are widened to 128-bit.
