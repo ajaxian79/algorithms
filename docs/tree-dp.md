@@ -1735,3 +1735,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 434
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 435
+
+Euler tour flattens a tree into an array for range-query LCA.
