@@ -2272,3 +2272,7 @@ Three passes total; the third merges results.
 ## entry 553
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 554
+
+Edge case: maximum-length input → still fits in 32-bit indices.
