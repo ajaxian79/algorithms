@@ -382,3 +382,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 173: Time complexity: O(log n).
 // note 174: Sub-linear in the average case thanks to early exit.
 // note 175: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 176: Manacher expands around each center, reusing prior radii via mirror reflection.
