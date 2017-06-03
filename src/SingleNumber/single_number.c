@@ -228,3 +228,4 @@ int single_number(const int* nums, int nums_size) {
 // note 215: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 216: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 217: Allocates a single small fixed-size scratch buffer.
+// note 218: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
