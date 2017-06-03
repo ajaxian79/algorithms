@@ -88875,3 +88875,7 @@
 ## entry 22219
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 22220
+
+- State compression: bitmask + integer encodes a small subset cheaply.
