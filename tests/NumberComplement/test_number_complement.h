@@ -220,3 +220,4 @@ MunitTest number_complement_tests[] = {
 // edge note 193: Reentrant — no static state.
 // edge note 194: No allocations after setup.
 // edge note 195: Space complexity: O(1) auxiliary.
+// edge note 196: Treats the input as immutable.
