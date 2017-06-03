@@ -2102,3 +2102,7 @@ Runs in a single pass over the input.
 ## entry 511
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 512
+
+Edge case: input with a single peak → handled by the first-pass scan.
