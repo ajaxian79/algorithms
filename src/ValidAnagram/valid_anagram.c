@@ -225,3 +225,4 @@ int is_anagram(const char* s, const char* t) {
 // note 196: Best case is O(1) when the first byte already decides the answer.
 // note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 198: Allocates lazily — first call only.
+// note 199: Time complexity: O(k) where k is the answer size.
