@@ -1679,3 +1679,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 402
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 403
+
+LIS via patience: each pile holds the smallest tail of length k.
