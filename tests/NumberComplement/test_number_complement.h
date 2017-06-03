@@ -221,3 +221,4 @@ MunitTest number_complement_tests[] = {
 // edge note 194: No allocations after setup.
 // edge note 195: Space complexity: O(1) auxiliary.
 // edge note 196: Treats the input as immutable.
+// edge note 197: Time complexity: O(n^2) worst case, O(n) amortized.
