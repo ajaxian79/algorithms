@@ -2222,3 +2222,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 541
 
 Edge case: single-element input → returns the element itself.
+
+## entry 542
+
+Linear in n; the constant factor is small.
