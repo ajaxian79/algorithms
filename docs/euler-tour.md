@@ -179,3 +179,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 45
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 46
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
