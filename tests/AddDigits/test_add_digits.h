@@ -220,3 +220,4 @@ MunitTest add_digits_tests[] = {
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: Time complexity: O(1).
+// edge note 196: Worst case appears only on degenerate inputs.
