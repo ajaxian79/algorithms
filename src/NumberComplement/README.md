@@ -2348,3 +2348,7 @@ Stable across duplicates in the input.
 ## entry 571
 
 Handles single-element input as a base case.
+
+## entry 572
+
+Edge case: integer-max input → guarded by the explicit overflow check.
