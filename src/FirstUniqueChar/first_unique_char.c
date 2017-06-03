@@ -226,3 +226,4 @@ int first_unique_char(const char* s) {
 // note 207: Time complexity: O(k) where k is the answer size.
 // note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 209: Articulation points: same DFS as bridges, with a slightly different test.
+// note 210: Heap when you only need top-k; full sort is wasted work.
