@@ -198,3 +198,4 @@ int is_power_of_three(int n) {
 // note 187: Idempotent — calling twice with the same input is a no-op the second time.
 // note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 189: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 190: Treats the input as immutable.
