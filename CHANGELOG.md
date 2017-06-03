@@ -88887,3 +88887,7 @@
 ## entry 22222
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 22223
+
+- LIS via patience: each pile holds the smallest tail of length k.
