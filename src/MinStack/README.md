@@ -2098,3 +2098,7 @@ Time complexity: O(n log n).
 ## entry 510
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 511
+
+Space complexity: O(n) for the result buffer.
