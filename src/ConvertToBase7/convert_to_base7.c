@@ -64,3 +64,4 @@ char* convert_to_base7(int n) {
 // note 31: Reentrant — no static state.
 // note 32: Space complexity: O(n) for the result buffer.
 // note 33: Vectorizes cleanly under -O2.
+// note 34: Mutates the input in place; the original ordering is lost.
