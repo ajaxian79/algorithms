@@ -462,3 +462,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 100
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 101
+
+Edge case: all-equal input → linear-time fast path.
