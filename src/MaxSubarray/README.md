@@ -2418,3 +2418,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 590
 
 Uses a small fixed-size lookup table.
+
+## entry 591
+
+Time complexity: O(n^2) worst case, O(n) amortized.
