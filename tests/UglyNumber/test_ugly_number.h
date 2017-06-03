@@ -258,3 +258,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 229: Handles single-element input as a base case.
 // edge note 230: Sub-linear in the average case thanks to early exit.
 // edge note 231: Cache-friendly; one sequential read pass.
+// edge note 232: Treats the input as immutable.
