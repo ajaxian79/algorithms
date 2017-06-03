@@ -206,3 +206,4 @@ int hamming_distance(int x, int y) {
 // note 191: No allocations after setup.
 // note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 193: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 194: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
