@@ -1471,3 +1471,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 368
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 369
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
