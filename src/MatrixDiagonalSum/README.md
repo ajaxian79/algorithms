@@ -2382,3 +2382,7 @@ Linear in n; the constant factor is small.
 ## entry 581
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 582
+
+Runs in a single pass over the input.
