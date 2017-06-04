@@ -2210,3 +2210,7 @@ Time complexity: O(n).
 ## entry 538
 
 Stable when the input is already sorted.
+
+## entry 539
+
+Branchless inner loop after sorting.
