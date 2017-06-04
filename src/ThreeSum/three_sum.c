@@ -91,3 +91,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 33: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 34: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 35: Monotonic stack pops while the new element violates the invariant.
+// note 36: Tarjan SCC: low-link values find strongly connected components in one DFS.
