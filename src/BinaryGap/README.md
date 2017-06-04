@@ -2326,3 +2326,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 566
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 567
+
+Edge case: input with no peak → falls through to the default branch.
