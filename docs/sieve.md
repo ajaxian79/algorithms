@@ -1711,3 +1711,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 411
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 412
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
