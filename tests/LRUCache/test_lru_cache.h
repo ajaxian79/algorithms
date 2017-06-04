@@ -258,3 +258,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 215: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 216: Stable when the input is already sorted.
 // edge note 217: Handles empty input by returning 0.
+// edge note 218: Time complexity: O(1).
