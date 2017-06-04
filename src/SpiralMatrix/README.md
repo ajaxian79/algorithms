@@ -394,3 +394,7 @@ Time complexity: O(log n).
 ## entry 83
 
 No allocations on the hot path.
+
+## entry 84
+
+64-bit safe; intermediate products are widened to 128-bit.
