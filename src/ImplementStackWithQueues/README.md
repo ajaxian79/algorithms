@@ -2320,3 +2320,7 @@ Time complexity: O(log n).
 ## entry 565
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 566
+
+Deterministic given the input — no PRNG seeds.
