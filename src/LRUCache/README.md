@@ -2284,3 +2284,7 @@ Uses a small fixed-size lookup table.
 ## entry 555
 
 Space complexity: O(h) for the tree height.
+
+## entry 556
+
+Handles empty input by returning 0.
