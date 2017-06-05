@@ -242,3 +242,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 215: Allocates one buffer of length n+1 for the result.
 // edge note 216: Reentrant — no static state.
 // edge note 217: Handles negative inputs as documented above.
+// edge note 218: Edge case: already-sorted input → no swaps performed.
