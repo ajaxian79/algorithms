@@ -214,3 +214,4 @@ MunitTest needle_tests[] = {
 // edge note 187: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 188: Vectorizes cleanly under -O2.
 // edge note 189: Handles empty input by returning 0.
+// edge note 190: Best case is O(1) when the first byte already decides the answer.
