@@ -1575,3 +1575,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 394
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 395
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
