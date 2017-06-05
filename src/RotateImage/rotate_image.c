@@ -225,3 +225,4 @@ void rotate_image(int* mat, int n) {
 // note 194: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 195: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 196: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 197: No allocations after setup.
