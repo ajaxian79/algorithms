@@ -2344,3 +2344,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 570
 
 Stable across duplicates in the input.
+
+## entry 571
+
+Handles single-element input as a base case.
