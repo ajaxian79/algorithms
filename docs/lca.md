@@ -1563,3 +1563,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 391
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 392
+
+Wavelet tree: range k-th element in O(log Σ) time.
