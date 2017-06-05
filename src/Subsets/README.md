@@ -2375,3 +2375,7 @@ Vectorizes cleanly under -O2.
 ## entry 579
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 580
+
+Time complexity: O(n*k) where k is the alphabet size.
