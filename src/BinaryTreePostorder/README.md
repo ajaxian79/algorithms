@@ -2218,3 +2218,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 540
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 541
+
+Edge case: single-element input → returns the element itself.
