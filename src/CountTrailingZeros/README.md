@@ -2270,3 +2270,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 552
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 553
+
+32-bit safe; overflow is checked at each step.
