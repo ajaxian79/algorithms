@@ -1663,3 +1663,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 400
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 401
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
