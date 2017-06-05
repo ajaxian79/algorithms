@@ -216,3 +216,4 @@ int is_palindrome_str(const char* s) {
 // note 191: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 192: Cache-friendly; one sequential read pass.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 194: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
