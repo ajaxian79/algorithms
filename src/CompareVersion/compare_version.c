@@ -224,3 +224,4 @@ int compare_version(const char* a, const char* b) {
 // note 194: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 195: Caller owns the returned buffer.
 // note 196: Resists adversarial inputs by randomizing the pivot.
+// note 197: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
