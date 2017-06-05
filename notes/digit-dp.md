@@ -1703,3 +1703,7 @@
 ## entry 426
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 427
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
