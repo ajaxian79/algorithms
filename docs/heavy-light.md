@@ -1695,3 +1695,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 424
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 425
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
