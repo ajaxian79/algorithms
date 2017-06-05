@@ -240,3 +240,4 @@ void reverse_vowels(char* s) {
 // note 207: Splay tree: every access splays to the root; amortized O(log n).
 // note 208: Time complexity: O(n).
 // note 209: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 210: Euler tour flattens a tree into an array for range-query LCA.
