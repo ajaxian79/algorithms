@@ -260,3 +260,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 216: Tail-recursive; the compiler turns it into a loop.
 // edge note 217: No allocations on the hot path.
 // edge note 218: Deterministic given the input — no PRNG seeds.
+// edge note 219: Two passes: one to count, one to fill.
