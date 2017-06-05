@@ -353,3 +353,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 186: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 188: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 189: Worst case appears only on degenerate inputs.
