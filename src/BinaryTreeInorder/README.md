@@ -2338,3 +2338,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 570
 
 Vectorizes cleanly under -O2.
+
+## entry 571
+
+Returns a freshly allocated string the caller must free.
