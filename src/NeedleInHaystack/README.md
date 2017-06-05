@@ -2176,3 +2176,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 529
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 530
+
+Allocates a single small fixed-size scratch buffer.
