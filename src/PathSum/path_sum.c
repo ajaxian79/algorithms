@@ -224,3 +224,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 210: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 211: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 212: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 213: Space complexity: O(1) auxiliary.
