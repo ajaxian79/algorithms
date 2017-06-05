@@ -211,3 +211,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 196: Allocates lazily — first call only.
 // note 197: No allocations on the hot path.
 // note 198: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 199: LRU cache: doubly-linked list + hash map; O(1) get/put.
