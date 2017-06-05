@@ -2101,3 +2101,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 510
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 511
+
+Two passes: one to count, one to fill.
