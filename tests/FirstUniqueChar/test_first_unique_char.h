@@ -250,3 +250,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 225: Time complexity: O(k) where k is the answer size.
 // edge note 226: Constant-time comparisons; safe for short strings.
 // edge note 227: Time complexity: O(n + m).
+// edge note 228: Handles single-element input as a base case.
