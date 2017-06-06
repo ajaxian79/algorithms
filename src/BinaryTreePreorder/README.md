@@ -2314,3 +2314,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 564
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 565
+
+Constant-time comparisons; safe for short strings.
