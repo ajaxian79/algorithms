@@ -321,3 +321,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 62
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 63
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
