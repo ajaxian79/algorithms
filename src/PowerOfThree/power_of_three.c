@@ -196,3 +196,4 @@ int is_power_of_three(int n) {
 // note 185: Euler tour flattens a tree into an array for range-query LCA.
 // note 186: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 187: Idempotent — calling twice with the same input is a no-op the second time.
+// note 188: Tarjan SCC: low-link values find strongly connected components in one DFS.
