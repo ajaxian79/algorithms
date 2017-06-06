@@ -238,3 +238,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 195: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 196: Tail-recursive; the compiler turns it into a loop.
 // note 197: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 198: Stable sort matters when a secondary key was set in a prior pass.
