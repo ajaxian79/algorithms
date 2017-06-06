@@ -284,3 +284,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 242: Resists adversarial inputs by randomizing the pivot.
 // edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 244: Treats the input as immutable.
+// edge note 245: Edge case: integer-max input → guarded by the explicit overflow check.
