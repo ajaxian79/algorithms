@@ -237,3 +237,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 194: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 195: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 196: Tail-recursive; the compiler turns it into a loop.
+// note 197: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
