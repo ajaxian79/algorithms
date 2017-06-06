@@ -458,3 +458,7 @@ Two passes: one to count, one to fill.
 ## entry 99
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 100
+
+Resists adversarial inputs by randomizing the pivot.
