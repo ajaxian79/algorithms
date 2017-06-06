@@ -88823,3 +88823,7 @@
 ## entry 22206
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 22207
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
