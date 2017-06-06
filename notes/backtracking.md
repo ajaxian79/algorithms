@@ -1623,3 +1623,7 @@
 ## entry 389
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 390
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
