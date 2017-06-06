@@ -283,3 +283,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 207: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
