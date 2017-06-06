@@ -1603,3 +1603,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 401
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 402
+
+Euler tour flattens a tree into an array for range-query LCA.
