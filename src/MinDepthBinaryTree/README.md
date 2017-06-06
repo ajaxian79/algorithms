@@ -2218,3 +2218,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 540
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 541
+
+Deterministic given the input — no PRNG seeds.
