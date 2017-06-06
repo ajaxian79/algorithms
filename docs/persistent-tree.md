@@ -1607,3 +1607,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 402
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 403
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
