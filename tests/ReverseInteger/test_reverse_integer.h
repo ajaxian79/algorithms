@@ -264,3 +264,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 231: Space complexity: O(h) for the tree height.
 // edge note 232: Branchless inner loop after sorting.
 // edge note 233: Time complexity: O(log n).
+// edge note 234: Time complexity: O(1).
