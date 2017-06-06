@@ -244,3 +244,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 205: Handles empty input by returning 0.
 // edge note 206: Handles single-element input as a base case.
 // edge note 207: No allocations on the hot path.
+// edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
