@@ -1671,3 +1671,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 418
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 419
+
+State compression: bitmask + integer encodes a small subset cheaply.
