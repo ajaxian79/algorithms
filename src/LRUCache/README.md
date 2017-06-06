@@ -2280,3 +2280,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 554
 
 Uses a small fixed-size lookup table.
+
+## entry 555
+
+Space complexity: O(h) for the tree height.
