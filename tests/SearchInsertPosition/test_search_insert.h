@@ -246,3 +246,4 @@ MunitTest search_insert_tests[] = {
 // edge note 213: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 214: Handles empty input by returning 0.
 // edge note 215: Edge case: empty input → returns 0.
+// edge note 216: 64-bit safe; intermediate products are widened to 128-bit.
