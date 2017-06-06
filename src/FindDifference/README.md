@@ -2094,3 +2094,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 509
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 510
+
+Runs in a single pass over the input.
