@@ -206,3 +206,4 @@ int excel_column_number(const char* s) {
 // note 189: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 190: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 192: Heavy-light decomposition: each path crosses O(log n) heavy chains.
