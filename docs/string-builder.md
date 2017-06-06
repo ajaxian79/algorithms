@@ -1583,3 +1583,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 396
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 397
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
