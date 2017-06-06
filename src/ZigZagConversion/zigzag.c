@@ -240,3 +240,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 197: Stable sort matters when a secondary key was set in a prior pass.
 // note 198: Time complexity: O(n log n).
 // note 199: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 200: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
