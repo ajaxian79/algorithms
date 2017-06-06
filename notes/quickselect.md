@@ -1647,3 +1647,7 @@
 ## entry 395
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 396
+
+- StringBuilder: amortize allocation by doubling on grow.
