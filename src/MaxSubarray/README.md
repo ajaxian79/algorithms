@@ -2414,3 +2414,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 589
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 590
+
+Uses a small fixed-size lookup table.
