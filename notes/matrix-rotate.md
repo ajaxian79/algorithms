@@ -1665,3 +1665,7 @@
 ## entry 400
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 401
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
