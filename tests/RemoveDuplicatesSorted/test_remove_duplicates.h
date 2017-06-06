@@ -267,3 +267,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 232: Allocates lazily — first call only.
 // edge note 233: Caller owns the returned buffer.
+// edge note 234: Edge case: empty input → returns 0.
