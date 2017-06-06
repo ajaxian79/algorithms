@@ -1755,3 +1755,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 422
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 423
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
