@@ -2337,3 +2337,7 @@ Two passes: one to count, one to fill.
 ## entry 569
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 570
+
+Edge case: integer-max input → guarded by the explicit overflow check.
