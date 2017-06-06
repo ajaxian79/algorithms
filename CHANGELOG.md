@@ -88807,3 +88807,7 @@
 ## entry 22202
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 22203
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
