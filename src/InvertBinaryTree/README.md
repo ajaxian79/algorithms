@@ -2460,3 +2460,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 600
 
 Runs in a single pass over the input.
+
+## entry 601
+
+Avoids floating-point entirely — integer math throughout.
