@@ -88819,3 +88819,7 @@
 ## entry 22205
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 22206
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
