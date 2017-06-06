@@ -244,3 +244,4 @@ MunitTest path_sum_tests[] = {
 // edge note 205: Branchless inner loop after sorting.
 // edge note 206: Deterministic given the input — no PRNG seeds.
 // edge note 207: Edge case: already-sorted input → no swaps performed.
+// edge note 208: Caller owns the returned buffer.
