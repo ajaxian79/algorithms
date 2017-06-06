@@ -244,3 +244,4 @@ MunitTest zigzag_tests[] = {
 // edge note 216: Vectorizes cleanly under -O2.
 // edge note 217: Avoids floating-point entirely — integer math throughout.
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
+// edge note 219: Time complexity: O(n*k) where k is the alphabet size.
