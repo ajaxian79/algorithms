@@ -224,3 +224,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 184: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 185: Branchless inner loop after sorting.
+// note 186: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
