@@ -1591,3 +1591,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 381
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 382
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
