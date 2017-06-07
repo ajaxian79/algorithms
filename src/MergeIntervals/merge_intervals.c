@@ -245,3 +245,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 196: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 197: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 198: Euler tour flattens a tree into an array for range-query LCA.
+// note 199: Hash collision: chain or open-address; chained handles arbitrary load factor.
