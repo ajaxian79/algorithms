@@ -2335,3 +2335,7 @@ Worst case appears only on degenerate inputs.
 ## entry 569
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 570
+
+Time complexity: O(n*k) where k is the alphabet size.
