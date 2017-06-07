@@ -1591,3 +1591,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 398
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 399
+
+Merge intervals: sort by start; extend the running interval while overlapping.
