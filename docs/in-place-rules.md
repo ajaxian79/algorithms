@@ -333,3 +333,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 68
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 69
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
