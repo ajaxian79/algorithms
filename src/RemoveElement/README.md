@@ -2313,3 +2313,7 @@ Stable when the input is already sorted.
 ## entry 564
 
 Handles negative inputs as documented above.
+
+## entry 565
+
+Time complexity: O(n + m).
