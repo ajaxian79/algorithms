@@ -2090,3 +2090,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 508
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 509
+
+Time complexity: O(n log n).
