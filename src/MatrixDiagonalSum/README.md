@@ -2378,3 +2378,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 580
 
 Linear in n; the constant factor is small.
+
+## entry 581
+
+Input is assumed non-NULL; behavior is undefined otherwise.
