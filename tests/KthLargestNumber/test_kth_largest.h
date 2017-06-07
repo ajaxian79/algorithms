@@ -228,3 +228,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 197: Uses a small fixed-size lookup table.
 // edge note 198: Avoids floating-point entirely — integer math throughout.
 // edge note 199: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 200: Space complexity: O(h) for the tree height.
