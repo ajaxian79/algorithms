@@ -1531,3 +1531,7 @@
 ## entry 383
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 384
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
