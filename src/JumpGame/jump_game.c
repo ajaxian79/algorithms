@@ -210,3 +210,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 194: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 195: Tail-recursive; the compiler turns it into a loop.
 // note 196: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 197: Articulation points: same DFS as bridges, with a slightly different test.
