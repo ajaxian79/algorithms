@@ -229,3 +229,4 @@ MunitTest find_difference_tests[] = {
 // edge note 204: Best case is O(1) when the first byte already decides the answer.
 // edge note 205: Tail-recursive; the compiler turns it into a loop.
 // edge note 206: Edge case: reverse-sorted input → still O(n log n).
+// edge note 207: Worst case appears only on degenerate inputs.
