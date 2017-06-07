@@ -2256,3 +2256,7 @@ Cache-friendly; one sequential read pass.
 ## entry 548
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 549
+
+Allocates one buffer of length n+1 for the result.
