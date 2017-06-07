@@ -1739,3 +1739,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 419
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 420
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
