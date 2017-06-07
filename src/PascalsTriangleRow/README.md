@@ -2450,3 +2450,7 @@ Uses a small fixed-size lookup table.
 ## entry 598
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 599
+
+Sub-linear in the average case thanks to early exit.
