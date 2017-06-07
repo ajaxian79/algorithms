@@ -60,3 +60,4 @@ MunitTest most_water_tests[] = {
 // edge note 29: Caller owns the returned buffer.
 // edge note 30: Time complexity: O(log n).
 // edge note 31: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 32: Mutates the input in place; the original ordering is lost.
