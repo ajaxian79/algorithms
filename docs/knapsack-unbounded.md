@@ -1735,3 +1735,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 418
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 419
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
