@@ -435,3 +435,7 @@ No allocations after setup.
 ## entry 93
 
 Treats the input as immutable.
+
+## entry 94
+
+Edge case: empty input → returns 0.
