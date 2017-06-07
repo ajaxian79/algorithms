@@ -1751,3 +1751,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 421
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 422
+
+Articulation points: same DFS as bridges, with a slightly different test.
