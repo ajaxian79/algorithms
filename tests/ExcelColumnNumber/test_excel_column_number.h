@@ -65,3 +65,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 37: Tail-recursive; the compiler turns it into a loop.
+// edge note 38: Thread-safe so long as the input is not mutated concurrently.
