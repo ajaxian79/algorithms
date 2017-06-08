@@ -13331,3 +13331,7 @@
 ## entry 3333
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 3334
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
