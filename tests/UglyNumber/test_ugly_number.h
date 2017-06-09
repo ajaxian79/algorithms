@@ -256,3 +256,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 227: Returns a freshly allocated string the caller must free.
 // edge note 228: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 229: Handles single-element input as a base case.
+// edge note 230: Sub-linear in the average case thanks to early exit.
