@@ -2371,3 +2371,7 @@ Reentrant — no static state.
 ## entry 578
 
 Vectorizes cleanly under -O2.
+
+## entry 579
+
+Caller owns the returned array; free with a single `free`.
