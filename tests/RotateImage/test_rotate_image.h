@@ -226,3 +226,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 193: Edge case: input of all the same byte → exits on the first compare.
 // edge note 194: Worst case appears only on degenerate inputs.
 // edge note 195: Two passes: one to count, one to fill.
+// edge note 196: Space complexity: O(h) for the tree height.
