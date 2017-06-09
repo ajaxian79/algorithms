@@ -1525,3 +1525,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 365
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 366
+
+Stable sort matters when a secondary key was set in a prior pass.
