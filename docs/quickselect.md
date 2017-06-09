@@ -1773,3 +1773,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 426
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 427
+
+StringBuilder: amortize allocation by doubling on grow.
