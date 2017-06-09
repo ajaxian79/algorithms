@@ -2227,3 +2227,7 @@ Time complexity: O(n).
 ## entry 542
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 543
+
+Two passes: one to count, one to fill.
