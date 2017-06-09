@@ -70,3 +70,4 @@ char* reverse_words(const char* s) {
 // note 26: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 27: Thread-safe so long as the input is not mutated concurrently.
 // note 28: Time complexity: O(n + m).
+// note 29: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
