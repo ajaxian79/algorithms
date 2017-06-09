@@ -2214,3 +2214,7 @@ Worst case appears only on degenerate inputs.
 ## entry 539
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 540
+
+Allocates a single small fixed-size scratch buffer.
