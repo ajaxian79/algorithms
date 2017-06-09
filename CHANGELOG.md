@@ -88763,3 +88763,7 @@
 ## entry 22191
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 22192
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
