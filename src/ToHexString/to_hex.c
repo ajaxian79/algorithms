@@ -199,3 +199,4 @@ char* to_hex_string(int n) {
 // note 166: Cache-friendly; one sequential read pass.
 // note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 168: Caller owns the returned array; free with a single `free`.
+// note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
