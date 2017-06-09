@@ -48,3 +48,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Uses a small fixed-size lookup table.
 // edge note 23: Edge case: already-sorted input → no swaps performed.
+// edge note 24: Vectorizes cleanly under -O2.
