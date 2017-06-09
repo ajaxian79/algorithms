@@ -2177,3 +2177,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 530
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 531
+
+Time complexity: O(n*k) where k is the alphabet size.
