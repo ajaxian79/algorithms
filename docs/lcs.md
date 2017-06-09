@@ -1655,3 +1655,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 396
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 397
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
