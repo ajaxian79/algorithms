@@ -1655,3 +1655,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 398
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 399
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
