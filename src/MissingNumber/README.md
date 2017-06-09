@@ -2362,3 +2362,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 575
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 576
+
+Handles empty input by returning 0.
