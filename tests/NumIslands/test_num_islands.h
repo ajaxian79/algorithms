@@ -274,3 +274,4 @@ MunitTest num_islands_tests[] = {
 // edge note 234: Sub-linear in the average case thanks to early exit.
 // edge note 235: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 236: Constant-time comparisons; safe for short strings.
+// edge note 237: Edge case: NULL input is rejected by the caller, not by us.
