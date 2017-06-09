@@ -1775,3 +1775,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 444
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 445
+
+Interval DP: solve all `[l, r]` ranges from short to long.
