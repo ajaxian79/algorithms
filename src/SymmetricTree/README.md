@@ -438,3 +438,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 95
 
 Time complexity: O(log n).
+
+## entry 96
+
+Tail-recursive; the compiler turns it into a loop.
