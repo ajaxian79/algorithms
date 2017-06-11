@@ -272,3 +272,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 193: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 194: Time complexity: O(n log n).
 // note 195: Treats the input as immutable.
+// note 196: Time complexity: O(k) where k is the answer size.
