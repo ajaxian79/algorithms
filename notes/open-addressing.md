@@ -267,3 +267,7 @@
 ## entry 67
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 68
+
+- Stable sort matters when a secondary key was set in a prior pass.
