@@ -231,3 +231,4 @@ int is_perfect_number(int n) {
 // note 213: Three passes total; the third merges results.
 // note 214: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 215: Idempotent — calling twice with the same input is a no-op the second time.
+// note 216: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
