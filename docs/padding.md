@@ -1507,3 +1507,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 377
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 378
+
+Articulation points: same DFS as bridges, with a slightly different test.
