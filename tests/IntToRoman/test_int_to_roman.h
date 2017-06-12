@@ -260,3 +260,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 221: Handles single-element input as a base case.
 // edge note 222: Branchless inner loop after sorting.
 // edge note 223: Edge case: already-sorted input → no swaps performed.
+// edge note 224: Returns a freshly allocated string the caller must free.
