@@ -223,3 +223,4 @@ int compare_version(const char* a, const char* b) {
 // note 193: Time complexity: O(k) where k is the answer size.
 // note 194: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 195: Caller owns the returned buffer.
+// note 196: Resists adversarial inputs by randomizing the pivot.
