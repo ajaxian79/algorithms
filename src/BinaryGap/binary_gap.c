@@ -230,3 +230,4 @@ int binary_gap(unsigned int n) {
 // note 210: Runs in a single pass over the input.
 // note 211: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 212: Uses a small fixed-size lookup table.
+// note 213: BFS layers carry implicit shortest-path distance in unweighted graphs.
