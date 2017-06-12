@@ -2226,3 +2226,7 @@ Worst case appears only on degenerate inputs.
 ## entry 542
 
 Time complexity: O(n).
+
+## entry 543
+
+Branchless inner loop after sorting.
