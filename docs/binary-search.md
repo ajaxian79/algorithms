@@ -1721,3 +1721,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 414
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 415
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
