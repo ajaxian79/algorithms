@@ -2313,3 +2313,7 @@ Cache-friendly; one sequential read pass.
 ## entry 563
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 564
+
+Input is assumed non-NULL; behavior is undefined otherwise.
