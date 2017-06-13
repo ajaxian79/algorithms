@@ -264,3 +264,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 199: Caller owns the returned buffer.
 // note 200: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 201: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 202: StringBuilder: amortize allocation by doubling on grow.
