@@ -2090,3 +2090,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 508
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 509
+
+64-bit safe; intermediate products are widened to 128-bit.
