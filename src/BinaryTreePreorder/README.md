@@ -2310,3 +2310,7 @@ Vectorizes cleanly under -O2.
 ## entry 563
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 564
+
+Sub-linear in the average case thanks to early exit.
