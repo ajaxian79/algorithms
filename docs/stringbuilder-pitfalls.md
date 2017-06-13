@@ -315,3 +315,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 79
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 80
+
+In-place compaction uses two pointers: read advances always, write only on keep.
