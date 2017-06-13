@@ -221,3 +221,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 187: Space complexity: O(log n) for the recursion stack.
 // edge note 188: Constant-time comparisons; safe for short strings.
 // edge note 189: Edge case: reverse-sorted input → still O(n log n).
+// edge note 190: Thread-safe so long as the input is not mutated concurrently.
