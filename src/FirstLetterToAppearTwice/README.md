@@ -402,3 +402,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 76
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 77
+
+Sub-linear in the average case thanks to early exit.
