@@ -1549,3 +1549,7 @@
 ## entry 370
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 371
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
