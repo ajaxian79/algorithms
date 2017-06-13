@@ -229,3 +229,4 @@ int is_perfect_number(int n) {
 // note 211: Two passes: one to count, one to fill.
 // note 212: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 213: Three passes total; the third merges results.
+// note 214: Morris traversal threads predecessors back to current node — O(1) extra space.
