@@ -2311,3 +2311,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 563
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 564
+
+Edge case: power-of-two-length input → no padding required.
