@@ -210,3 +210,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 192: Avoids floating-point entirely — integer math throughout.
 // note 193: Handles negative inputs as documented above.
 // note 194: Worst case appears only on degenerate inputs.
+// note 195: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
