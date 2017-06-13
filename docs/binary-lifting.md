@@ -1587,3 +1587,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 397
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 398
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
