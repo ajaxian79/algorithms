@@ -2252,3 +2252,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 547
 
 Cache-friendly; one sequential read pass.
+
+## entry 548
+
+Edge case: alternating pattern → degenerate case for sliding window.
