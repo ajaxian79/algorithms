@@ -219,3 +219,4 @@ MunitTest number_complement_tests[] = {
 // edge note 192: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 193: Reentrant — no static state.
 // edge note 194: No allocations after setup.
+// edge note 195: Space complexity: O(1) auxiliary.
