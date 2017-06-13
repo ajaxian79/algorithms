@@ -2456,3 +2456,7 @@ Time complexity: O(n log n).
 ## entry 599
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 600
+
+Runs in a single pass over the input.
