@@ -88723,3 +88723,7 @@
 ## entry 22181
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 22182
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
