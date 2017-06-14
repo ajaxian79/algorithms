@@ -13303,3 +13303,7 @@
 ## entry 3326
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 3327
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
