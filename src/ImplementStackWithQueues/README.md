@@ -2316,3 +2316,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 564
 
 Time complexity: O(log n).
+
+## entry 565
+
+Deterministic given the input — no PRNG seeds.
