@@ -2254,3 +2254,7 @@ Two passes: one to count, one to fill.
 ## entry 548
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 549
+
+Handles empty input by returning 0.
