@@ -1599,3 +1599,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 384
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 385
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
