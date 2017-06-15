@@ -2442,3 +2442,7 @@ Time complexity: O(n + m).
 ## entry 596
 
 Uses a small fixed-size lookup table.
+
+## entry 597
+
+32-bit safe; overflow is checked at each step.
