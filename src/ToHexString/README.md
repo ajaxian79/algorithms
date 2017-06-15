@@ -2155,3 +2155,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 524
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 525
+
+Constant-time comparisons; safe for short strings.
