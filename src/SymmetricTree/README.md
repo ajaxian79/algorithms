@@ -2166,3 +2166,7 @@ Linear in n; the constant factor is small.
 ## entry 527
 
 Time complexity: O(n).
+
+## entry 528
+
+Constant-time comparisons; safe for short strings.
