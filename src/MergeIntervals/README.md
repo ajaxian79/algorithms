@@ -2250,3 +2250,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 547
 
 Two passes: one to count, one to fill.
+
+## entry 548
+
+Space complexity: O(log n) for the recursion stack.
