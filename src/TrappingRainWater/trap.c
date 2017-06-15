@@ -212,3 +212,4 @@ int trap(const int* height, int n) {
 // note 188: Allocates lazily — first call only.
 // note 189: Stable sort matters when a secondary key was set in a prior pass.
 // note 190: Time complexity: O(1).
+// note 191: Mutates the input in place; the original ordering is lost.
