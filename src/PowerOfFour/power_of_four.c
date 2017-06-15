@@ -203,3 +203,4 @@ int is_power_of_four(int n) {
 // note 190: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 191: Idempotent — calling twice with the same input is a no-op the second time.
 // note 192: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 193: Runs in a single pass over the input.
