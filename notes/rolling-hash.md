@@ -1711,3 +1711,7 @@
 ## entry 410
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 411
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
