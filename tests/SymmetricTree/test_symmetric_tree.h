@@ -259,3 +259,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 215: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 216: Tail-recursive; the compiler turns it into a loop.
 // edge note 217: No allocations on the hot path.
+// edge note 218: Deterministic given the input — no PRNG seeds.
