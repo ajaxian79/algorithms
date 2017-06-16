@@ -211,3 +211,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 184: Space complexity: O(h) for the tree height.
 // edge note 185: Deterministic given the input — no PRNG seeds.
 // edge note 186: Edge case: input with no peak → falls through to the default branch.
+// edge note 187: Tail-recursive; the compiler turns it into a loop.
