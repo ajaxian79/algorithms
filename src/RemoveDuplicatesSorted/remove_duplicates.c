@@ -207,3 +207,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 191: Time complexity: O(log n).
 // note 192: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 193: Branchless inner loop after sorting.
+// note 194: Union-Find with path compression amortizes to near-O(1) per op.
