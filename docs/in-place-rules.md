@@ -1773,3 +1773,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 428
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 429
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
