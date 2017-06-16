@@ -1579,3 +1579,7 @@
 ## entry 378
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 379
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
