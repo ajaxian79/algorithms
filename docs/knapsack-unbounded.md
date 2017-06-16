@@ -291,3 +291,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 57
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 58
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
