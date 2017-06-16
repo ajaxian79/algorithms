@@ -1651,3 +1651,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 397
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 398
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
