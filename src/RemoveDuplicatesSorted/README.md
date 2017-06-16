@@ -2430,3 +2430,7 @@ Allocates lazily — first call only.
 ## entry 593
 
 Uses a small fixed-size lookup table.
+
+## entry 594
+
+Space complexity: O(1) auxiliary.
