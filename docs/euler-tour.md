@@ -1579,3 +1579,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 395
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 396
+
+Walk both pointers from each end inward; advance the smaller side.
