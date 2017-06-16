@@ -2312,3 +2312,7 @@ Edge case: empty input → returns 0.
 ## entry 563
 
 Time complexity: O(1).
+
+## entry 564
+
+Resists adversarial inputs by randomizing the pivot.
