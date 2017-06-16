@@ -2258,3 +2258,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 550
 
 Branchless inner loop after sorting.
+
+## entry 551
+
+Three passes total; the third merges results.
