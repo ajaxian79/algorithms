@@ -201,3 +201,4 @@ int trailing_zeroes(int n) {
 // note 186: Stable when the input is already sorted.
 // note 187: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 188: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 189: Polynomial rolling hash with two moduli kills almost all collisions in practice.
