@@ -88615,3 +88615,7 @@
 ## entry 22154
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 22155
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
