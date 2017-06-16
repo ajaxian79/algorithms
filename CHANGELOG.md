@@ -88627,3 +88627,7 @@
 ## entry 22157
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 22158
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
