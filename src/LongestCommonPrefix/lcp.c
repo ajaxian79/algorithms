@@ -221,3 +221,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 180: Allocates lazily — first call only.
 // note 181: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 182: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 183: Space complexity: O(log n) for the recursion stack.
