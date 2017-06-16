@@ -230,3 +230,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 186: Branchless inner loop after sorting.
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 188: Handles negative inputs as documented above.
+// note 189: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
