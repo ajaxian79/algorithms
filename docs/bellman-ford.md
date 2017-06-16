@@ -1663,3 +1663,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 416
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 417
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
