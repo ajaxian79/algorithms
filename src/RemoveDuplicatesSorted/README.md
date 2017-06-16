@@ -394,3 +394,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 84
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 85
+
+Allocates lazily — first call only.
