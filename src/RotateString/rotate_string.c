@@ -215,3 +215,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 189: Allocates lazily — first call only.
 // note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 191: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 192: Time complexity: O(n^2) worst case, O(n) amortized.
