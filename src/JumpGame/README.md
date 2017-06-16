@@ -2333,3 +2333,7 @@ Time complexity: O(n).
 ## entry 568
 
 Two passes: one to count, one to fill.
+
+## entry 569
+
+Time complexity: O(k) where k is the answer size.
