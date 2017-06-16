@@ -69,3 +69,4 @@ MunitTest same_tree_tests[] = {
 // edge note 33: Time complexity: O(1).
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: No allocations after setup.
+// edge note 36: Resists adversarial inputs by randomizing the pivot.
