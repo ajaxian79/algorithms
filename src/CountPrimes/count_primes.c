@@ -201,3 +201,4 @@ int count_primes(int n) {
 // note 173: Runs in a single pass over the input.
 // note 174: Resists adversarial inputs by randomizing the pivot.
 // note 175: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 176: Avoids floating-point entirely — integer math throughout.
