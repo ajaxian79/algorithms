@@ -314,3 +314,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 178: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 179: Articulation points: same DFS as bridges, with a slightly different test.
 // note 180: Linear in n; the constant factor is small.
+// note 181: Time complexity: O(n log n).
