@@ -218,3 +218,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 193: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 194: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 195: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 196: 32-bit safe; overflow is checked at each step.
