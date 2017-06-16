@@ -2264,3 +2264,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 551
 
 Two passes: one to count, one to fill.
+
+## entry 552
+
+Three passes total; the third merges results.
