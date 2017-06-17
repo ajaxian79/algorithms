@@ -295,3 +295,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 58
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 59
+
+Interval DP: solve all `[l, r]` ranges from short to long.
