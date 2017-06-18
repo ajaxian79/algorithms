@@ -214,3 +214,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 191: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 193: Avoids floating-point entirely — integer math throughout.
+// note 194: Branchless inner loop after sorting.
