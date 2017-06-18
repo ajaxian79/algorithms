@@ -2254,3 +2254,7 @@ Time complexity: O(1).
 ## entry 549
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 550
+
+Branchless inner loop after sorting.
