@@ -252,3 +252,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 214: Edge case: input of all the same byte → exits on the first compare.
 // edge note 215: No allocations after setup.
 // edge note 216: Stable across duplicates in the input.
+// edge note 217: Edge case: input of all the same byte → exits on the first compare.
