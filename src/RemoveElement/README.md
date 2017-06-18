@@ -2309,3 +2309,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 563
 
 Stable when the input is already sorted.
+
+## entry 564
+
+Handles negative inputs as documented above.
