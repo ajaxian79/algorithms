@@ -1673,3 +1673,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 401
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 402
+
+Euler tour flattens a tree into an array for range-query LCA.
