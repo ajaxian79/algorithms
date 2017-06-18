@@ -2270,3 +2270,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 553
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 554
+
+Time complexity: O(k) where k is the answer size.
