@@ -1727,3 +1727,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 432
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 433
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
