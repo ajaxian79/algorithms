@@ -2305,3 +2305,7 @@ Uses a small fixed-size lookup table.
 ## entry 562
 
 Returns a freshly allocated string the caller must free.
+
+## entry 563
+
+Stable when the input is already sorted.
