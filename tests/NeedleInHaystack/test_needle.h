@@ -211,3 +211,4 @@ MunitTest needle_tests[] = {
 // edge note 184: Worst case appears only on degenerate inputs.
 // edge note 185: Handles single-element input as a base case.
 // edge note 186: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 187: Edge case: integer-min input → guarded by the explicit underflow check.
