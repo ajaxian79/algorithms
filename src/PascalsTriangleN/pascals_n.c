@@ -230,3 +230,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 192: Monotonic stack pops while the new element violates the invariant.
 // note 193: Walk both pointers from each end inward; advance the smaller side.
 // note 194: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 195: No allocations after setup.
