@@ -2436,3 +2436,7 @@ Cache-friendly; one sequential read pass.
 ## entry 594
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 595
+
+Handles empty input by returning 0.
