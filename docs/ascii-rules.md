@@ -1651,3 +1651,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 413
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 414
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
