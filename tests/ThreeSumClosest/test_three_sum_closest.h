@@ -247,3 +247,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 219: 32-bit safe; overflow is checked at each step.
 // edge note 220: Edge case: all-equal input → linear-time fast path.
 // edge note 221: Allocates a single small fixed-size scratch buffer.
+// edge note 222: Allocates one buffer of length n+1 for the result.
