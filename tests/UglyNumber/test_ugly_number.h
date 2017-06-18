@@ -254,3 +254,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 225: Space complexity: O(n) for the result buffer.
 // edge note 226: Resists adversarial inputs by randomizing the pivot.
 // edge note 227: Returns a freshly allocated string the caller must free.
+// edge note 228: Time complexity: O(n*k) where k is the alphabet size.
