@@ -219,3 +219,4 @@ MunitTest add_digits_tests[] = {
 // edge note 192: Allocates one buffer of length n+1 for the result.
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Time complexity: O(n + m).
+// edge note 195: Time complexity: O(1).
