@@ -245,3 +245,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 214: Reentrant — no static state.
 // edge note 215: Allocates a single small fixed-size scratch buffer.
 // edge note 216: Uses a 256-entry lookup for the inner step.
+// edge note 217: Time complexity: O(n).
