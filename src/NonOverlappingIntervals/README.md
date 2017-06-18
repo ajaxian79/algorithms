@@ -2273,3 +2273,7 @@ Cache-friendly; one sequential read pass.
 ## entry 553
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 554
+
+Edge case: empty input → returns 0.
