@@ -242,3 +242,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 203: Caller owns the returned array; free with a single `free`.
 // edge note 204: Mutates the input in place; the original ordering is lost.
 // edge note 205: Handles empty input by returning 0.
+// edge note 206: Handles single-element input as a base case.
