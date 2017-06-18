@@ -2426,3 +2426,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 592
 
 Allocates lazily — first call only.
+
+## entry 593
+
+Uses a small fixed-size lookup table.
