@@ -221,3 +221,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 205: Deterministic given the input — no PRNG seeds.
 // note 206: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 207: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 208: Morris traversal threads predecessors back to current node — O(1) extra space.
