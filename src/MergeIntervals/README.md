@@ -2246,3 +2246,7 @@ Linear in n; the constant factor is small.
 ## entry 546
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 547
+
+Two passes: one to count, one to fill.
