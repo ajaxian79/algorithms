@@ -228,3 +228,4 @@ MunitTest min_stack_tests[] = {
 // edge note 191: 32-bit safe; overflow is checked at each step.
 // edge note 192: Handles single-element input as a base case.
 // edge note 193: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 194: Runs in a single pass over the input.
