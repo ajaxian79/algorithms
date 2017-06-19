@@ -224,3 +224,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 191: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 192: Edge case: all-equal input → linear-time fast path.
 // edge note 193: Edge case: input of all the same byte → exits on the first compare.
+// edge note 194: Worst case appears only on degenerate inputs.
