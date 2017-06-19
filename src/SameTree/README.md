@@ -2220,3 +2220,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 541
 
 Uses a small fixed-size lookup table.
+
+## entry 542
+
+No allocations on the hot path.
