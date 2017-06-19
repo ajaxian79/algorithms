@@ -2309,3 +2309,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 562
 
 Cache-friendly; one sequential read pass.
+
+## entry 563
+
+Edge case: already-sorted input → no swaps performed.
