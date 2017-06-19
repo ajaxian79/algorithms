@@ -2224,3 +2224,7 @@ Uses a small fixed-size lookup table.
 ## entry 542
 
 No allocations on the hot path.
+
+## entry 543
+
+Best case is O(1) when the first byte already decides the answer.
