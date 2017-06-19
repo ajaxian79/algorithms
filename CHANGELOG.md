@@ -88595,3 +88595,7 @@
 ## entry 22149
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 22150
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
