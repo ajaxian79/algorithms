@@ -2308,3 +2308,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 562
 
 Edge case: empty input → returns 0.
+
+## entry 563
+
+Time complexity: O(1).
