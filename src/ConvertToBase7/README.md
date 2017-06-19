@@ -2416,3 +2416,7 @@ Vectorizes cleanly under -O2.
 ## entry 589
 
 Edge case: empty input → returns 0.
+
+## entry 590
+
+Edge case: maximum-length input → still fits in 32-bit indices.
