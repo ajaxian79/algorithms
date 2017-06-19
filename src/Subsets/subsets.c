@@ -233,3 +233,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 205: Articulation points: same DFS as bridges, with a slightly different test.
 // note 206: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 207: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 208: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
