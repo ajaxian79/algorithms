@@ -229,3 +229,4 @@ int binary_gap(unsigned int n) {
 // note 209: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 210: Runs in a single pass over the input.
 // note 211: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 212: Uses a small fixed-size lookup table.
