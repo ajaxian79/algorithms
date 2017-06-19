@@ -2306,3 +2306,7 @@ Caller owns the returned buffer.
 ## entry 561
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 562
+
+Edge case: empty input → returns 0.
