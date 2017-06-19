@@ -2301,3 +2301,7 @@ Time complexity: O(1).
 ## entry 561
 
 Uses a small fixed-size lookup table.
+
+## entry 562
+
+Returns a freshly allocated string the caller must free.
