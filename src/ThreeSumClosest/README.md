@@ -2266,3 +2266,7 @@ Linear in n; the constant factor is small.
 ## entry 552
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 553
+
+Tail-recursive; the compiler turns it into a loop.
