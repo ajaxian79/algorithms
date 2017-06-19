@@ -219,3 +219,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 188: Branchless inner loop after sorting.
 // edge note 189: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 190: Constant-time comparisons; safe for short strings.
+// edge note 191: Time complexity: O(k) where k is the answer size.
