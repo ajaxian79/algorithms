@@ -2327,3 +2327,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 567
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 568
+
+Worst case appears only on degenerate inputs.
