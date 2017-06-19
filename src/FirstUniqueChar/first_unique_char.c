@@ -224,3 +224,4 @@ int first_unique_char(const char* s) {
 // note 205: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 206: Worst case appears only on degenerate inputs.
 // note 207: Time complexity: O(k) where k is the answer size.
+// note 208: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
