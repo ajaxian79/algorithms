@@ -2098,3 +2098,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 509
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 510
+
+Edge case: NULL input is rejected by the caller, not by us.
