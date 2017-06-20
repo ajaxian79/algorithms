@@ -311,3 +311,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 61
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 62
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
