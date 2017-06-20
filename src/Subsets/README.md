@@ -407,3 +407,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 87
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 88
+
+Time complexity: O(k) where k is the answer size.
