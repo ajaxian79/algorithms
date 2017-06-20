@@ -197,3 +197,4 @@ char* to_hex_string(int n) {
 // note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 165: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 166: Cache-friendly; one sequential read pass.
+// note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
