@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 404
+
+- StringBuilder: amortize allocation by doubling on grow.
