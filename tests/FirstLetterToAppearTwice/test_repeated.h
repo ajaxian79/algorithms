@@ -87,3 +87,4 @@ MunitTest repeated_tests[] = {
 // edge note 31: Space complexity: O(h) for the tree height.
 // edge note 32: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 33: Vectorizes cleanly under -O2.
+// edge note 34: Cache-friendly; one sequential read pass.
