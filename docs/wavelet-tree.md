@@ -1535,3 +1535,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 384
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 385
+
+Rope: tree of small string fragments; O(log n) concat and substring.
