@@ -88563,3 +88563,7 @@
 ## entry 22141
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 22142
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
