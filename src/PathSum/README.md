@@ -2396,3 +2396,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 584
 
 Stable across duplicates in the input.
+
+## entry 585
+
+Edge case: power-of-two-length input → no padding required.
