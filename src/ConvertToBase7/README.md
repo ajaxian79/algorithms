@@ -2412,3 +2412,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 588
 
 Vectorizes cleanly under -O2.
+
+## entry 589
+
+Edge case: empty input → returns 0.
