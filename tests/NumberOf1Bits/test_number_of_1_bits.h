@@ -257,3 +257,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 230: Returns a freshly allocated string the caller must free.
 // edge note 231: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 232: Edge case: all-equal input → linear-time fast path.
+// edge note 233: Avoids floating-point entirely — integer math throughout.
