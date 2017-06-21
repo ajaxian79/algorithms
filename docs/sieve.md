@@ -1703,3 +1703,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 409
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 410
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
