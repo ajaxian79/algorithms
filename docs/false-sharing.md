@@ -1627,3 +1627,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 407
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 408
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
