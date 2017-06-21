@@ -2262,3 +2262,7 @@ Stable when the input is already sorted.
 ## entry 550
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 551
+
+Uses a small fixed-size lookup table.
