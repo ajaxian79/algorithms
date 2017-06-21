@@ -2172,3 +2172,7 @@ Handles single-element input as a base case.
 ## entry 528
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 529
+
+Time complexity: O(n*k) where k is the alphabet size.
