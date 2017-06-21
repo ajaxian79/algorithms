@@ -204,3 +204,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 192: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 194: Three passes total; the third merges results.
+// note 195: Pick a pivot, partition, recurse on the side that contains the kth slot.
