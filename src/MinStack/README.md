@@ -2086,3 +2086,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 507
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 508
+
+Mutates the input in place; the original ordering is lost.
