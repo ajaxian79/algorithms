@@ -2094,3 +2094,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 508
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 509
+
+Thread-safe so long as the input is not mutated concurrently.
