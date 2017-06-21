@@ -1543,3 +1543,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 386
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 387
+
+Wavelet tree: range k-th element in O(log Σ) time.
