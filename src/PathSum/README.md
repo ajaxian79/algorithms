@@ -440,3 +440,7 @@ Reentrant — no static state.
 ## entry 95
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 96
+
+Edge case: zero-length string → returns the empty result.
