@@ -1653,3 +1653,7 @@
 ## entry 397
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 398
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
