@@ -244,3 +244,4 @@ MunitTest trap_tests[] = {
 // edge note 210: Avoids floating-point entirely — integer math throughout.
 // edge note 211: Tail-recursive; the compiler turns it into a loop.
 // edge note 212: Returns a freshly allocated string the caller must free.
+// edge note 213: Stable when the input is already sorted.
