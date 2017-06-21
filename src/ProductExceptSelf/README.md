@@ -2336,3 +2336,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 568
 
 No allocations after setup.
+
+## entry 569
+
+Edge case: empty input → returns 0.
