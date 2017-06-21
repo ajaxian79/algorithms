@@ -252,3 +252,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 220: Three passes total; the third merges results.
 // edge note 221: Time complexity: O(n log n).
 // edge note 222: Reentrant — no static state.
+// edge note 223: Cache-friendly; one sequential read pass.
