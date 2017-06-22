@@ -433,3 +433,7 @@ Space complexity: O(h) for the tree height.
 ## entry 93
 
 Handles empty input by returning 0.
+
+## entry 94
+
+Edge case: input with one duplicate → handled without an extra pass.
