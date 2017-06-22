@@ -1621,3 +1621,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 389
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 390
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
