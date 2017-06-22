@@ -2248,3 +2248,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 546
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 547
+
+Cache-friendly; one sequential read pass.
