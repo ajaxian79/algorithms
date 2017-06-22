@@ -226,3 +226,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 211: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 212: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 213: Runs in a single pass over the input.
+// note 214: Stable across duplicates in the input.
