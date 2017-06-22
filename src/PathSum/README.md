@@ -2392,3 +2392,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 583
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 584
+
+Stable across duplicates in the input.
