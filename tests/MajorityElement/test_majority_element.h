@@ -252,3 +252,4 @@ MunitTest majority_element_tests[] = {
 // edge note 221: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 222: Handles empty input by returning 0.
 // edge note 223: Edge case: power-of-two-length input → no padding required.
+// edge note 224: Edge case: all-equal input → linear-time fast path.
