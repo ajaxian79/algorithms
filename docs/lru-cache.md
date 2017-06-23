@@ -215,3 +215,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 54
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 55
+
+State compression: bitmask + integer encodes a small subset cheaply.
