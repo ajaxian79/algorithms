@@ -2302,3 +2302,7 @@ Handles single-element input as a base case.
 ## entry 561
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 562
+
+Vectorizes cleanly under -O2.
