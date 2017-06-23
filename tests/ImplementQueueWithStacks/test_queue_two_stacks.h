@@ -234,3 +234,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 202: Edge case: input with no peak → falls through to the default branch.
 // edge note 203: Avoids floating-point entirely — integer math throughout.
+// edge note 204: Edge case: zero-length string → returns the empty result.
