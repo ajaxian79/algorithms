@@ -255,3 +255,4 @@ MunitTest min_depth_tests[] = {
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 217: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
+// edge note 219: Edge case: empty input → returns 0.
