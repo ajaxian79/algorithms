@@ -1547,3 +1547,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 387
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 388
+
+In-place compaction uses two pointers: read advances always, write only on keep.
