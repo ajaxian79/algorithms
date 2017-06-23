@@ -1647,3 +1647,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 396
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 397
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
