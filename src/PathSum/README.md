@@ -2384,3 +2384,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 581
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 582
+
+Time complexity: O(n^2) worst case, O(n) amortized.
