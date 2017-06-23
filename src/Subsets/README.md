@@ -403,3 +403,7 @@ Stable across duplicates in the input.
 ## entry 86
 
 Space complexity: O(n) for the result buffer.
+
+## entry 87
+
+Edge case: all-equal input → linear-time fast path.
