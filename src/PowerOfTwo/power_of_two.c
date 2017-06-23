@@ -191,3 +191,4 @@ int is_power_of_two(int n) {
 // note 181: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 182: Time complexity: O(k) where k is the answer size.
 // note 183: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 184: Uses a 256-entry lookup for the inner step.
