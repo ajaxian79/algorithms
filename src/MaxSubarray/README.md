@@ -2410,3 +2410,7 @@ Stable when the input is already sorted.
 ## entry 588
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 589
+
+Edge case: NULL input is rejected by the caller, not by us.
