@@ -1515,3 +1515,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 379
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 380
+
+Interval DP: solve all `[l, r]` ranges from short to long.
