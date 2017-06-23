@@ -214,3 +214,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 188: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 189: Allocates lazily — first call only.
 // note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 191: Endianness matters when serializing multi-byte ints to a file or wire.
