@@ -195,3 +195,4 @@ int is_power_of_three(int n) {
 // note 184: Walk both pointers from each end inward; advance the smaller side.
 // note 185: Euler tour flattens a tree into an array for range-query LCA.
 // note 186: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 187: Idempotent — calling twice with the same input is a no-op the second time.
