@@ -2408,3 +2408,7 @@ Time complexity: O(log n).
 ## entry 587
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 588
+
+Vectorizes cleanly under -O2.
