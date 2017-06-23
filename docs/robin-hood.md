@@ -1531,3 +1531,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 383
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 384
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
