@@ -1587,3 +1587,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 397
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 398
+
+Merge intervals: sort by start; extend the running interval while overlapping.
