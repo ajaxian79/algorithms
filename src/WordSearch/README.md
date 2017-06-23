@@ -2262,3 +2262,7 @@ Handles negative inputs as documented above.
 ## entry 551
 
 Treats the input as immutable.
+
+## entry 552
+
+Time complexity: O(n^2) worst case, O(n) amortized.
