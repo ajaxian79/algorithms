@@ -2404,3 +2404,7 @@ Caller owns the returned buffer.
 ## entry 586
 
 Time complexity: O(log n).
+
+## entry 587
+
+Time complexity: O(n*k) where k is the alphabet size.
