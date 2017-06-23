@@ -235,3 +235,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 209: Space complexity: O(h) for the tree height.
 // edge note 210: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 211: Edge case: power-of-two-length input → no padding required.
