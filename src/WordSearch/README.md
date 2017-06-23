@@ -2258,3 +2258,7 @@ Two passes: one to count, one to fill.
 ## entry 550
 
 Handles negative inputs as documented above.
+
+## entry 551
+
+Treats the input as immutable.
