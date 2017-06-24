@@ -1731,3 +1731,7 @@
 ## entry 415
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 416
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
