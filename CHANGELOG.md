@@ -88507,3 +88507,7 @@
 ## entry 22127
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 22128
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
