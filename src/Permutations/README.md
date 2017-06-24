@@ -424,3 +424,7 @@ No allocations after setup.
 ## entry 91
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 92
+
+Uses a 256-entry lookup for the inner step.
