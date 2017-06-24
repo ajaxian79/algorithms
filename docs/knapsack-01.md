@@ -357,3 +357,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 72
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 73
+
+In-place compaction uses two pointers: read advances always, write only on keep.
