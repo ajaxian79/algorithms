@@ -2240,3 +2240,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 545
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 546
+
+Space complexity: O(h) for the tree height.
