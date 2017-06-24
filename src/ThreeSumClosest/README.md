@@ -2258,3 +2258,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 550
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 551
+
+Linear in n; the constant factor is small.
