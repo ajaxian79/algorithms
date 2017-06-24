@@ -1579,3 +1579,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 395
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 396
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
