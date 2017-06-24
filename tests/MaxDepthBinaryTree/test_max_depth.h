@@ -257,3 +257,4 @@ MunitTest max_depth_tests[] = {
 // edge note 219: Caller owns the returned buffer.
 // edge note 220: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 221: Allocates a single small fixed-size scratch buffer.
+// edge note 222: Idempotent — calling twice with the same input is a no-op the second time.
