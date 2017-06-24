@@ -2304,3 +2304,7 @@ No allocations after setup.
 ## entry 560
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 561
+
+Edge case: single-element input → returns the element itself.
