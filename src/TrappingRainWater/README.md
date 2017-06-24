@@ -2250,3 +2250,7 @@ Two passes: one to count, one to fill.
 ## entry 547
 
 Linear in n; the constant factor is small.
+
+## entry 548
+
+Time complexity: O(k) where k is the answer size.
