@@ -1567,3 +1567,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 374
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 375
+
+State compression: bitmask + integer encodes a small subset cheaply.
