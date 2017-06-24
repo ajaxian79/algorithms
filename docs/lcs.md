@@ -1647,3 +1647,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 394
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 395
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
