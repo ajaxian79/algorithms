@@ -235,3 +235,7 @@
 ## entry 59
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 60
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
