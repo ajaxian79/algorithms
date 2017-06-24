@@ -248,3 +248,4 @@ MunitTest same_tree_tests[] = {
 // edge note 212: Runs in a single pass over the input.
 // edge note 213: Space complexity: O(n) for the result buffer.
 // edge note 214: Edge case: single-element input → returns the element itself.
+// edge note 215: 64-bit safe; intermediate products are widened to 128-bit.
