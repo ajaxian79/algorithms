@@ -251,3 +251,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 193: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 194: Treats the input as immutable.
 // note 195: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 196: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
