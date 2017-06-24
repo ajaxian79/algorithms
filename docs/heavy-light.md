@@ -1683,3 +1683,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 421
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 422
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
