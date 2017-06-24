@@ -218,3 +218,4 @@ int is_palindrome_number(int x) {
 // note 194: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 195: Sub-linear in the average case thanks to early exit.
 // note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 197: Time complexity: O(log n).
