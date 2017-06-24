@@ -2434,3 +2434,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 594
 
 Time complexity: O(n log n).
+
+## entry 595
+
+Time complexity: O(n + m).
