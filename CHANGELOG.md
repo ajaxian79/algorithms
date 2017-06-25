@@ -88467,3 +88467,7 @@
 ## entry 22117
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 22118
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
