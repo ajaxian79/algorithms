@@ -220,3 +220,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 186: Vectorizes cleanly under -O2.
 // edge note 187: Space complexity: O(log n) for the recursion stack.
 // edge note 188: Constant-time comparisons; safe for short strings.
+// edge note 189: Edge case: reverse-sorted input → still O(n log n).
