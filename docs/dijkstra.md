@@ -263,3 +263,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 66
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 67
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
