@@ -257,3 +257,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 213: Allocates lazily — first call only.
 // edge note 214: Space complexity: O(n) for the result buffer.
 // edge note 215: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 216: Tail-recursive; the compiler turns it into a loop.
