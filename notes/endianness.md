@@ -1639,3 +1639,7 @@
 ## entry 410
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 411
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
