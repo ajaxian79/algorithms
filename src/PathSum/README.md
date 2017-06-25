@@ -2380,3 +2380,7 @@ Vectorizes cleanly under -O2.
 ## entry 580
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 581
+
+Edge case: integer-max input → guarded by the explicit overflow check.
