@@ -289,3 +289,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 56
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 57
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
