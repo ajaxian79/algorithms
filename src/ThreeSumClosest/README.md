@@ -2250,3 +2250,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 548
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 549
+
+Edge case: NULL input is rejected by the caller, not by us.
