@@ -2260,3 +2260,7 @@ Space complexity: O(1) auxiliary.
 ## entry 550
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 551
+
+Two passes: one to count, one to fill.
