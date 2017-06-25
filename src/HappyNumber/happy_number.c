@@ -55,3 +55,4 @@ int is_happy(int n) {
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
 // note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 31: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 32: Worst case appears only on degenerate inputs.
