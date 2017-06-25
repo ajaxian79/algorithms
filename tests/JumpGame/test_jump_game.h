@@ -225,3 +225,4 @@ MunitTest jump_game_tests[] = {
 // edge note 191: Stable across duplicates in the input.
 // edge note 192: Resists adversarial inputs by randomizing the pivot.
 // edge note 193: Edge case: zero-length string → returns the empty result.
+// edge note 194: Cache-friendly; one sequential read pass.
