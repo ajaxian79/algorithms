@@ -2223,3 +2223,7 @@ Worst case appears only on degenerate inputs.
 ## entry 541
 
 Time complexity: O(n).
+
+## entry 542
+
+Allocates one buffer of length n+1 for the result.
