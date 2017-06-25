@@ -2444,3 +2444,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 596
 
 Time complexity: O(log n).
+
+## entry 597
+
+Edge case: maximum-length input → still fits in 32-bit indices.
