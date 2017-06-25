@@ -1623,3 +1623,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 406
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 407
+
+LIS via patience: each pile holds the smallest tail of length k.
