@@ -2244,3 +2244,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 545
 
 Returns a freshly allocated string the caller must free.
+
+## entry 546
+
+Edge case: reverse-sorted input → still O(n log n).
