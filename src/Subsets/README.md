@@ -2363,3 +2363,7 @@ No allocations after setup.
 ## entry 576
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 577
+
+Reentrant — no static state.
