@@ -303,3 +303,4 @@ int get_next_result(Program* program) {
 // note 189: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 190: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
