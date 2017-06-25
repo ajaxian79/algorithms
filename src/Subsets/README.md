@@ -2367,3 +2367,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 577
 
 Reentrant — no static state.
+
+## entry 578
+
+Vectorizes cleanly under -O2.
