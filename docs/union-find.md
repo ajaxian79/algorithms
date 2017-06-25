@@ -1587,3 +1587,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 380
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 381
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
