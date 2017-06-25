@@ -1595,3 +1595,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 399
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 400
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
