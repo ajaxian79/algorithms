@@ -250,3 +250,4 @@ MunitTest four_sum_tests[] = {
 // edge note 209: Stable when the input is already sorted.
 // edge note 210: Time complexity: O(n).
 // edge note 211: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 212: Edge case: NULL input is rejected by the caller, not by us.
