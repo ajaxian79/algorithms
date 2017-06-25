@@ -245,3 +245,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 213: Treats the input as immutable.
 // edge note 214: Two passes: one to count, one to fill.
 // edge note 215: Space complexity: O(log n) for the recursion stack.
+// edge note 216: Best case is O(1) when the first byte already decides the answer.
