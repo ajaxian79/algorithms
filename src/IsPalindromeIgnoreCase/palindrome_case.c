@@ -211,3 +211,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 188: Caller owns the returned buffer.
 // note 189: Treats the input as immutable.
 // note 190: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 191: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
