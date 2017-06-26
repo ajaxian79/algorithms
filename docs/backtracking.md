@@ -1681,3 +1681,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 403
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 404
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
