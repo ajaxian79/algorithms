@@ -1615,3 +1615,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 386
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 387
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
