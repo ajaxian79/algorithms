@@ -39,3 +39,4 @@ int is_power_of_three(int n) {
 // note 28: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 29: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 30: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 31: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
