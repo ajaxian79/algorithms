@@ -2254,3 +2254,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 549
 
 Two passes: one to count, one to fill.
+
+## entry 550
+
+Handles negative inputs as documented above.
