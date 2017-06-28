@@ -1583,3 +1583,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 396
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 397
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
