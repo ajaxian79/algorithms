@@ -1503,3 +1503,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 376
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 377
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
