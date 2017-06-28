@@ -1669,3 +1669,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 401
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 402
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
