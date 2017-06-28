@@ -229,3 +229,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 191: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 192: Monotonic stack pops while the new element violates the invariant.
 // note 193: Walk both pointers from each end inward; advance the smaller side.
+// note 194: In-place compaction uses two pointers: read advances always, write only on keep.
