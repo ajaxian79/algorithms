@@ -2300,3 +2300,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 560
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 561
+
+Space complexity: O(h) for the tree height.
