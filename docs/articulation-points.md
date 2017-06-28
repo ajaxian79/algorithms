@@ -1575,3 +1575,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 394
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 395
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
