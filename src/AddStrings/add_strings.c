@@ -221,3 +221,4 @@ char* add_strings(const char* a, const char* b) {
 // note 181: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 183: Wavelet tree: range k-th element in O(log Σ) time.
+// note 184: Thread-safe so long as the input is not mutated concurrently.
