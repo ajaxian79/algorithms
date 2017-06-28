@@ -2082,3 +2082,7 @@ Runs in a single pass over the input.
 ## entry 506
 
 Runs in a single pass over the input.
+
+## entry 507
+
+Edge case: all-equal input → linear-time fast path.
