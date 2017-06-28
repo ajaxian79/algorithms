@@ -1619,3 +1619,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 405
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 406
+
+LIS via patience: each pile holds the smallest tail of length k.
