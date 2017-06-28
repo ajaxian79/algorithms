@@ -2359,3 +2359,7 @@ Worst case appears only on degenerate inputs.
 ## entry 575
 
 No allocations after setup.
+
+## entry 576
+
+Avoids floating-point entirely — integer math throughout.
