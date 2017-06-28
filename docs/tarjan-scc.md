@@ -1655,3 +1655,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 414
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 415
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
