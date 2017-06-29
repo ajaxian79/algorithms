@@ -2297,3 +2297,7 @@ Three passes total; the third merges results.
 ## entry 560
 
 Time complexity: O(1).
+
+## entry 561
+
+Uses a small fixed-size lookup table.
