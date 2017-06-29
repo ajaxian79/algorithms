@@ -2158,3 +2158,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 525
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 526
+
+Linear in n; the constant factor is small.
