@@ -2259,3 +2259,7 @@ Handles single-element input as a base case.
 ## entry 550
 
 No allocations after setup.
+
+## entry 551
+
+Thread-safe so long as the input is not mutated concurrently.
