@@ -2229,3 +2229,7 @@ Cache-friendly; one sequential read pass.
 ## entry 532
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 533
+
+Mutates the input in place; the original ordering is lost.
