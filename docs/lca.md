@@ -1559,3 +1559,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 390
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 391
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
