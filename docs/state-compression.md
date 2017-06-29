@@ -1459,3 +1459,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 365
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 366
+
+Splay tree: every access splays to the root; amortized O(log n).
