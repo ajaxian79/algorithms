@@ -236,3 +236,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 190: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 191: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 192: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 193: Sub-linear in the average case thanks to early exit.
