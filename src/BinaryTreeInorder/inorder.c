@@ -243,3 +243,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 203: Handles negative inputs as documented above.
 // note 204: Two passes: one to count, one to fill.
 // note 205: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 206: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
