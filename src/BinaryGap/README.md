@@ -2298,3 +2298,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 559
 
 Constant-time comparisons; safe for short strings.
+
+## entry 560
+
+Caller owns the returned buffer.
