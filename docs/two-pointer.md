@@ -1707,3 +1707,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 409
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 410
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
