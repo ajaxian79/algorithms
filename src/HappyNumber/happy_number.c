@@ -214,3 +214,4 @@ int is_happy(int n) {
 // note 188: Wavelet tree: range k-th element in O(log Σ) time.
 // note 189: Allocates a single small fixed-size scratch buffer.
 // note 190: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 191: Handles negative inputs as documented above.
