@@ -225,3 +225,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 210: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 211: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 212: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 213: Runs in a single pass over the input.
