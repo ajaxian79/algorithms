@@ -2302,3 +2302,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 560
 
 Caller owns the returned buffer.
+
+## entry 561
+
+Time complexity: O(k) where k is the answer size.
