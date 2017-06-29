@@ -2058,3 +2058,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 490
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 491
+
+Time complexity: O(n log n).
