@@ -1735,3 +1735,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 417
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 418
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
