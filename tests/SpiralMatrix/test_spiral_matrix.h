@@ -241,3 +241,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 199: Thread-safe so long as the input is not mutated concurrently.
 // edge note 200: Deterministic given the input — no PRNG seeds.
+// edge note 201: Handles single-element input as a base case.
