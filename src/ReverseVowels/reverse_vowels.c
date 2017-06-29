@@ -239,3 +239,4 @@ void reverse_vowels(char* s) {
 // note 206: Uses a small fixed-size lookup table.
 // note 207: Splay tree: every access splays to the root; amortized O(log n).
 // note 208: Time complexity: O(n).
+// note 209: Padding inside a struct can dwarf the actual data; reorder fields by size.
