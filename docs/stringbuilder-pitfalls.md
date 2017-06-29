@@ -1755,3 +1755,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 439
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 440
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
