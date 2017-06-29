@@ -287,3 +287,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 247: Stable when the input is already sorted.
 // edge note 248: Space complexity: O(n) for the result buffer.
 // edge note 249: Space complexity: O(h) for the tree height.
+// edge note 250: Time complexity: O(log n).
