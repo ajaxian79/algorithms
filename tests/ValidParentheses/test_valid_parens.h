@@ -270,3 +270,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 235: 32-bit safe; overflow is checked at each step.
 // edge note 236: Vectorizes cleanly under -O2.
 // edge note 237: Sub-linear in the average case thanks to early exit.
+// edge note 238: Edge case: input with no peak → falls through to the default branch.
