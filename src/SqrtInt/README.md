@@ -2323,3 +2323,7 @@ Allocates lazily — first call only.
 ## entry 566
 
 Constant-time comparisons; safe for short strings.
+
+## entry 567
+
+Idempotent — calling twice with the same input is a no-op the second time.
