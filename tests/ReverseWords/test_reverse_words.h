@@ -271,3 +271,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 242: Space complexity: O(log n) for the recursion stack.
 // edge note 243: Edge case: zero-length string → returns the empty result.
 // edge note 244: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 245: Allocates one buffer of length n+1 for the result.
