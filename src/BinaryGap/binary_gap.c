@@ -228,3 +228,4 @@ int binary_gap(unsigned int n) {
 // note 208: 32-bit safe; overflow is checked at each step.
 // note 209: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 210: Runs in a single pass over the input.
+// note 211: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
