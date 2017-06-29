@@ -2250,3 +2250,7 @@ Handles single-element input as a base case.
 ## entry 548
 
 Time complexity: O(1).
+
+## entry 549
+
+Uses a 256-entry lookup for the inner step.
