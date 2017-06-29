@@ -2392,3 +2392,7 @@ No allocations on the hot path.
 ## entry 583
 
 Space complexity: O(h) for the tree height.
+
+## entry 584
+
+Space complexity: O(log n) for the recursion stack.
