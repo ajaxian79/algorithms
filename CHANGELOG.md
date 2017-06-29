@@ -88403,3 +88403,7 @@
 ## entry 22101
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 22102
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
