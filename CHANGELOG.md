@@ -88407,3 +88407,7 @@
 ## entry 22102
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 22103
+
+- StringBuilder: amortize allocation by doubling on grow.
