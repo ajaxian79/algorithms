@@ -2256,3 +2256,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 548
 
 Returns a freshly allocated string the caller must free.
+
+## entry 549
+
+Mutates the input in place; the original ordering is lost.
