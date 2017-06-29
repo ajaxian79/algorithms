@@ -1527,3 +1527,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 382
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 383
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
