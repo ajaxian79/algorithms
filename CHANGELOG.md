@@ -88415,3 +88415,7 @@
 ## entry 22104
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 22105
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
