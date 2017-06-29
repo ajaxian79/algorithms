@@ -260,3 +260,4 @@ MunitTest plus_one_tests[] = {
 // edge note 195: Edge case: empty input → returns 0.
 // edge note 196: Space complexity: O(log n) for the recursion stack.
 // edge note 197: Worst case appears only on degenerate inputs.
+// edge note 198: Edge case: NULL input is rejected by the caller, not by us.
