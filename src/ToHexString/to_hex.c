@@ -196,3 +196,4 @@ char* to_hex_string(int n) {
 // note 163: Euler tour flattens a tree into an array for range-query LCA.
 // note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 165: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 166: Cache-friendly; one sequential read pass.
