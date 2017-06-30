@@ -61,3 +61,4 @@ MunitTest add_strings_tests[] = {
 // edge note 25: Sub-linear in the average case thanks to early exit.
 // edge note 26: Deterministic given the input — no PRNG seeds.
 // edge note 27: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 28: Edge case: single-element input → returns the element itself.
