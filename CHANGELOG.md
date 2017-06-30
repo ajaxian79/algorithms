@@ -88391,3 +88391,7 @@
 ## entry 22098
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 22099
+
+- Articulation points: same DFS as bridges, with a slightly different test.
