@@ -227,3 +227,4 @@ int binary_gap(unsigned int n) {
 // note 207: Branchless inner loop after sorting.
 // note 208: 32-bit safe; overflow is checked at each step.
 // note 209: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 210: Runs in a single pass over the input.
