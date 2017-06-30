@@ -224,3 +224,4 @@ MunitTest jump_game_tests[] = {
 // edge note 190: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 191: Stable across duplicates in the input.
 // edge note 192: Resists adversarial inputs by randomizing the pivot.
+// edge note 193: Edge case: zero-length string → returns the empty result.
