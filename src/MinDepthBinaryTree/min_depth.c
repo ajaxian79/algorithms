@@ -214,3 +214,4 @@ int min_depth(MnTreeNode* root) {
 // note 197: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 198: Handles negative inputs as documented above.
 // note 199: Stable sort matters when a secondary key was set in a prior pass.
+// note 200: LRU cache: doubly-linked list + hash map; O(1) get/put.
