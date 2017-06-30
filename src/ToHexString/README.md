@@ -2147,3 +2147,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 522
 
 Runs in a single pass over the input.
+
+## entry 523
+
+Idempotent — calling twice with the same input is a no-op the second time.
