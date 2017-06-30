@@ -1663,3 +1663,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 416
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 417
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
