@@ -232,3 +232,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 189: Worst case appears only on degenerate inputs.
 // edge note 190: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 191: Uses a small fixed-size lookup table.
+// edge note 192: Edge case: single-element input → returns the element itself.
