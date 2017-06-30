@@ -214,3 +214,4 @@ unsigned int find_complement(unsigned int n) {
 // note 198: Handles negative inputs as documented above.
 // note 199: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 200: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 201: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
