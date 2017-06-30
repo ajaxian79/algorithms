@@ -2078,3 +2078,7 @@ Handles empty input by returning 0.
 ## entry 505
 
 Linear in n; the constant factor is small.
+
+## entry 506
+
+Returns a freshly allocated string the caller must free.
