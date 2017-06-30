@@ -2261,3 +2261,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 550
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 551
+
+Edge case: all-equal input → linear-time fast path.
