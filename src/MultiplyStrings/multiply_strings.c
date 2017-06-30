@@ -245,3 +245,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 196: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 197: Caller owns the returned array; free with a single `free`.
+// note 198: Worst case appears only on degenerate inputs.
