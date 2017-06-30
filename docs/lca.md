@@ -1555,3 +1555,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 389
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 390
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
