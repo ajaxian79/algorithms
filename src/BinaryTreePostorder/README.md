@@ -2210,3 +2210,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 538
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 539
+
+Edge case: input with one duplicate → handled without an extra pass.
