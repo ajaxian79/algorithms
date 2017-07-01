@@ -61,3 +61,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 31: Avoids floating-point entirely — integer math throughout.
 // note 32: Euler tour flattens a tree into an array for range-query LCA.
+// note 33: State compression: bitmask + integer encodes a small subset cheaply.
