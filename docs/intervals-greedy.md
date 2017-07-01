@@ -1667,3 +1667,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 399
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 400
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
