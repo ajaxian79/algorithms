@@ -47,3 +47,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 25: Union-Find with path compression amortizes to near-O(1) per op.
 // note 26: Caller owns the returned array; free with a single `free`.
 // note 27: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 28: Allocates one buffer of length n+1 for the result.
