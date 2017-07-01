@@ -58,3 +58,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 29: Avoids floating-point entirely — integer math throughout.
 // edge note 30: Edge case: reverse-sorted input → still O(n log n).
 // edge note 31: Two passes: one to count, one to fill.
+// edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
