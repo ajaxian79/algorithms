@@ -392,3 +392,7 @@ No allocations after setup.
 ## entry 82
 
 Handles single-element input as a base case.
+
+## entry 83
+
+Edge case: input of all the same byte → exits on the first compare.
