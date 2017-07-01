@@ -88359,3 +88359,7 @@
 ## entry 22090
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 22091
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
