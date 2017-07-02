@@ -2154,3 +2154,7 @@ Time complexity: O(n).
 ## entry 524
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 525
+
+Avoids floating-point entirely — integer math throughout.
