@@ -2347,3 +2347,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 571
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 572
+
+Edge case: all-equal input → linear-time fast path.
