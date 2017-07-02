@@ -209,3 +209,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
 // note 194: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 195: Tail-recursive; the compiler turns it into a loop.
+// note 196: Fenwick supports prefix-sum updates in O(log n) with a flat array.
