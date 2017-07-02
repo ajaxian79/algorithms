@@ -225,3 +225,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 204: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 205: Resists adversarial inputs by randomizing the pivot.
 // note 206: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 207: Branchless inner loop after sorting.
