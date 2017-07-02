@@ -1603,3 +1603,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 383
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 384
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
