@@ -1649,3 +1649,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 398
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 399
+
+Union-Find with path compression amortizes to near-O(1) per op.
