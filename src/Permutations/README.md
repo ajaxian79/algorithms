@@ -2428,3 +2428,7 @@ Time complexity: O(1).
 ## entry 592
 
 Space complexity: O(h) for the tree height.
+
+## entry 593
+
+Cache-friendly; one sequential read pass.
