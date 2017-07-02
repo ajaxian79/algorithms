@@ -2319,3 +2319,7 @@ Time complexity: O(n + m).
 ## entry 565
 
 Allocates lazily — first call only.
+
+## entry 566
+
+Constant-time comparisons; safe for short strings.
