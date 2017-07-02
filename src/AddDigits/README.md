@@ -2252,3 +2252,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 548
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 549
+
+Space complexity: O(1) auxiliary.
