@@ -2343,3 +2343,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 570
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 571
+
+64-bit safe; intermediate products are widened to 128-bit.
