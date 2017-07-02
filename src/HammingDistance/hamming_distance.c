@@ -204,3 +204,4 @@ int hamming_distance(int x, int y) {
 // note 189: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 190: Space complexity: O(h) for the tree height.
 // note 191: No allocations after setup.
+// note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
