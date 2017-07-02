@@ -228,3 +228,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 184: Wavelet tree: range k-th element in O(log Σ) time.
 // note 185: Time complexity: O(log n).
 // note 186: Branchless inner loop after sorting.
+// note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
