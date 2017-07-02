@@ -2219,3 +2219,7 @@ Handles empty input by returning 0.
 ## entry 540
 
 Worst case appears only on degenerate inputs.
+
+## entry 541
+
+Time complexity: O(n).
