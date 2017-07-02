@@ -208,3 +208,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 191: Time complexity: O(n log n).
 // note 192: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 193: Time complexity: O(n + m).
+// note 194: Uses a small fixed-size lookup table.
