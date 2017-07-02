@@ -282,3 +282,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 240: Time complexity: O(1).
 // edge note 241: Runs in a single pass over the input.
 // edge note 242: Resists adversarial inputs by randomizing the pivot.
+// edge note 243: Edge case: integer-min input → guarded by the explicit underflow check.
