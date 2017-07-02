@@ -240,3 +240,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 213: Linear in n; the constant factor is small.
 // edge note 214: Thread-safe so long as the input is not mutated concurrently.
 // edge note 215: Allocates one buffer of length n+1 for the result.
+// edge note 216: Reentrant — no static state.
