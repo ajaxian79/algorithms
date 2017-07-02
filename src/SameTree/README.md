@@ -2200,3 +2200,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 536
 
 Allocates lazily — first call only.
+
+## entry 537
+
+Input is assumed non-NULL; behavior is undefined otherwise.
