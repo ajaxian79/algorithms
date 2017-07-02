@@ -190,3 +190,4 @@ int is_power_of_two(int n) {
 // note 180: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 181: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 182: Time complexity: O(k) where k is the answer size.
+// note 183: Rope: tree of small string fragments; O(log n) concat and substring.
