@@ -1535,3 +1535,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 384
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 385
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
