@@ -2143,3 +2143,7 @@ Treats the input as immutable.
 ## entry 521
 
 Constant-time comparisons; safe for short strings.
+
+## entry 522
+
+Runs in a single pass over the input.
