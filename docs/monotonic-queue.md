@@ -1559,3 +1559,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 372
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 373
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
