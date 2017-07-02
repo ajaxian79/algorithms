@@ -211,3 +211,4 @@ int trap(const int* height, int n) {
 // note 187: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 188: Allocates lazily — first call only.
 // note 189: Stable sort matters when a secondary key was set in a prior pass.
+// note 190: Time complexity: O(1).
