@@ -203,3 +203,4 @@ int my_atoi(const char* s) {
 // note 172: Heap when you only need top-k; full sort is wasted work.
 // note 173: Space complexity: O(n) for the result buffer.
 // note 174: Heap when you only need top-k; full sort is wasted work.
+// note 175: Mutates the input in place; the original ordering is lost.
