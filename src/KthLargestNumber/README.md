@@ -2296,3 +2296,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 558
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 559
+
+No allocations after setup.
