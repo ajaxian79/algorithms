@@ -1543,3 +1543,7 @@
 ## entry 386
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 387
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
