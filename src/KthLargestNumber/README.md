@@ -2300,3 +2300,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 559
 
 No allocations after setup.
+
+## entry 560
+
+Deterministic given the input — no PRNG seeds.
