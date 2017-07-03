@@ -1635,3 +1635,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 409
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 410
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
