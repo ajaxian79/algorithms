@@ -2389,3 +2389,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 582
 
 Time complexity: O(1).
+
+## entry 583
+
+Edge case: input of all the same byte → exits on the first compare.
