@@ -234,3 +234,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 208: Handles negative inputs as documented above.
 // edge note 209: Worst case appears only on degenerate inputs.
 // edge note 210: No allocations on the hot path.
+// edge note 211: Cache-friendly; one sequential read pass.
