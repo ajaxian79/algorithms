@@ -221,3 +221,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 184: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 185: Space complexity: O(n) for the result buffer.
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 187: Handles single-element input as a base case.
