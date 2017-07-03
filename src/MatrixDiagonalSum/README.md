@@ -2362,3 +2362,7 @@ Reentrant — no static state.
 ## entry 576
 
 Edge case: single-element input → returns the element itself.
+
+## entry 577
+
+Time complexity: O(log n).
