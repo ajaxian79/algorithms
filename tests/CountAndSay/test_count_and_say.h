@@ -217,3 +217,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 186: Caller owns the returned array; free with a single `free`.
 // edge note 187: Time complexity: O(n + m).
 // edge note 188: Branchless inner loop after sorting.
+// edge note 189: Edge case: maximum-length input → still fits in 32-bit indices.
