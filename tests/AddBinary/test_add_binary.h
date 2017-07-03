@@ -251,3 +251,4 @@ MunitTest add_binary_tests[] = {
 // edge note 215: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 216: Thread-safe so long as the input is not mutated concurrently.
 // edge note 217: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 218: Edge case: input with one duplicate → handled without an extra pass.
