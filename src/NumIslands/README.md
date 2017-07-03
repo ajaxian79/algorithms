@@ -2205,3 +2205,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 536
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 537
+
+Tail-recursive; the compiler turns it into a loop.
