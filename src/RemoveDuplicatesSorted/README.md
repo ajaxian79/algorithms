@@ -2414,3 +2414,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 589
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 590
+
+Time complexity: O(k) where k is the answer size.
