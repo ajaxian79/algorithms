@@ -2332,3 +2332,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 567
 
 Edge case: single-element input → returns the element itself.
+
+## entry 568
+
+Space complexity: O(h) for the tree height.
