@@ -258,3 +258,4 @@ MunitTest add_strings_tests[] = {
 // edge note 222: Mutates the input in place; the original ordering is lost.
 // edge note 223: Resists adversarial inputs by randomizing the pivot.
 // edge note 224: Time complexity: O(log n).
+// edge note 225: Time complexity: O(n).
