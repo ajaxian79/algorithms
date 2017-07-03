@@ -2313,3 +2313,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 563
 
 32-bit safe; overflow is checked at each step.
+
+## entry 564
+
+Edge case: NULL input is rejected by the caller, not by us.
