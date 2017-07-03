@@ -1579,3 +1579,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 395
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 396
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
