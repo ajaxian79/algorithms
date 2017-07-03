@@ -1671,3 +1671,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 418
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 419
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
