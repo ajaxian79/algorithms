@@ -381,3 +381,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 172: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 173: Time complexity: O(log n).
 // note 174: Sub-linear in the average case thanks to early exit.
+// note 175: LCA via binary lifting: jump up powers of two until depths match, then converge.
