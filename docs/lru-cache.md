@@ -1439,3 +1439,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 360
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 361
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
