@@ -223,3 +223,4 @@ char* reverse_words(const char* s) {
 // note 179: Thread-safe so long as the input is not mutated concurrently.
 // note 180: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 181: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 182: Best case is O(1) when the first byte already decides the answer.
