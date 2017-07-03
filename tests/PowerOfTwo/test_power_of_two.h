@@ -257,3 +257,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 225: Edge case: input of all the same byte → exits on the first compare.
 // edge note 226: Two passes: one to count, one to fill.
 // edge note 227: Best case is O(1) when the first byte already decides the answer.
+// edge note 228: Space complexity: O(1) auxiliary.
