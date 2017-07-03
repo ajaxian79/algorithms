@@ -223,3 +223,4 @@ int reverse_int(int x) {
 // note 196: Caller owns the returned buffer.
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 198: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 199: Edit distance is LCS with a twist: substitution is a third option at each cell.
