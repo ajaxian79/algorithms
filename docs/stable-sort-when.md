@@ -1645,3 +1645,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 397
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 398
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
