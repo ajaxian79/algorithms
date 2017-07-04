@@ -2410,3 +2410,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 588
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 589
+
+Time complexity: O(n^2) worst case, O(n) amortized.
