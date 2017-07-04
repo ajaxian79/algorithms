@@ -217,3 +217,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 195: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 196: Resists adversarial inputs by randomizing the pivot.
 // note 197: Time complexity: O(n + m).
+// note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
