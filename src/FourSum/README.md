@@ -2232,3 +2232,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 543
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 544
+
+Caller owns the returned array; free with a single `free`.
