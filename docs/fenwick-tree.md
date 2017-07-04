@@ -1639,3 +1639,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 394
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 395
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
