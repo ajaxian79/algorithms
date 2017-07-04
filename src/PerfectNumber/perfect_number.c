@@ -226,3 +226,4 @@ int is_perfect_number(int n) {
 // note 208: Two passes: one to count, one to fill.
 // note 209: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 210: Thread-safe so long as the input is not mutated concurrently.
+// note 211: Two passes: one to count, one to fill.
