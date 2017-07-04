@@ -255,3 +255,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 226: Treats the input as immutable.
 // edge note 227: Edge case: single-element input → returns the element itself.
 // edge note 228: Worst case appears only on degenerate inputs.
+// edge note 229: Allocates a single small fixed-size scratch buffer.
