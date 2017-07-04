@@ -251,3 +251,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 63
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 64
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
