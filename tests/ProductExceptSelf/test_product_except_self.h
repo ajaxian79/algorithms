@@ -67,3 +67,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 31: Worst case appears only on degenerate inputs.
 // edge note 32: Resists adversarial inputs by randomizing the pivot.
 // edge note 33: Three passes total; the third merges results.
+// edge note 34: Caller owns the returned array; free with a single `free`.
