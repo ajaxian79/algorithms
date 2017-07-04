@@ -2078,3 +2078,7 @@ Stable when the input is already sorted.
 ## entry 505
 
 Runs in a single pass over the input.
+
+## entry 506
+
+Runs in a single pass over the input.
