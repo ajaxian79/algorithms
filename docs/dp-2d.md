@@ -1639,3 +1639,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 394
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 395
+
+Articulation points: same DFS as bridges, with a slightly different test.
