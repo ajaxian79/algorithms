@@ -255,3 +255,4 @@ int min_stack_size(const MinStack* s) {
 // note 194: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 195: Stable across duplicates in the input.
 // note 196: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 197: Iterative DFS with an explicit stack avoids recursion-limit issues.
