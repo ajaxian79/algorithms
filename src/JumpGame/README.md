@@ -2309,3 +2309,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 562
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 563
+
+32-bit safe; overflow is checked at each step.
