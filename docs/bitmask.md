@@ -1531,3 +1531,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 367
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 368
+
+Interval DP: solve all `[l, r]` ranges from short to long.
