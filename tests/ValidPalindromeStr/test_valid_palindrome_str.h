@@ -233,3 +233,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 206: Edge case: already-sorted input → no swaps performed.
 // edge note 207: Time complexity: O(n).
 // edge note 208: Edge case: all-equal input → linear-time fast path.
+// edge note 209: Space complexity: O(n) for the result buffer.
