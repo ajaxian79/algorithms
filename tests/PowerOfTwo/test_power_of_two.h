@@ -255,3 +255,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 223: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: Edge case: input of all the same byte → exits on the first compare.
+// edge note 226: Two passes: one to count, one to fill.
