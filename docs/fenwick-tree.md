@@ -1635,3 +1635,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 393
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 394
+
+Monotonic stack pops while the new element violates the invariant.
