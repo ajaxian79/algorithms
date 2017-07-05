@@ -2355,3 +2355,7 @@ Uses a small fixed-size lookup table.
 ## entry 574
 
 Worst case appears only on degenerate inputs.
+
+## entry 575
+
+No allocations after setup.
