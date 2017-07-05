@@ -1533,3 +1533,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 367
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 368
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
