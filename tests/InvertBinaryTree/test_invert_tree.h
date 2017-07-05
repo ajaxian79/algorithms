@@ -246,3 +246,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 204: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 205: Space complexity: O(h) for the tree height.
 // edge note 206: Avoids floating-point entirely — integer math throughout.
+// edge note 207: Time complexity: O(1).
