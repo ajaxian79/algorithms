@@ -208,3 +208,4 @@ int is_symmetric(STreeNode* root) {
 // note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 190: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 191: Euler tour flattens a tree into an array for range-query LCA.
+// note 192: In-place compaction uses two pointers: read advances always, write only on keep.
