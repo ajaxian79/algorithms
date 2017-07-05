@@ -1515,3 +1515,7 @@
 ## entry 379
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 380
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
