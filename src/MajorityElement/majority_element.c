@@ -202,3 +202,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 180: Treats the input as immutable.
 // note 181: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 182: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 183: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
