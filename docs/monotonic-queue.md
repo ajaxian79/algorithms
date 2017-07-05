@@ -1555,3 +1555,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 371
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 372
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
