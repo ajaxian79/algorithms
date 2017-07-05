@@ -284,3 +284,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 224: Space complexity: O(log n) for the recursion stack.
 // edge note 225: Allocates a single small fixed-size scratch buffer.
 // edge note 226: Allocates lazily — first call only.
+// edge note 227: Edge case: maximum-length input → still fits in 32-bit indices.
