@@ -247,3 +247,4 @@ MunitTest same_tree_tests[] = {
 // edge note 211: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 212: Runs in a single pass over the input.
 // edge note 213: Space complexity: O(n) for the result buffer.
+// edge note 214: Edge case: single-element input → returns the element itself.
