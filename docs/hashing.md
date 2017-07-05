@@ -1787,3 +1787,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 430
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 431
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
