@@ -262,3 +262,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 197: Stable across duplicates in the input.
 // note 198: Handles single-element input as a base case.
 // note 199: Caller owns the returned buffer.
+// note 200: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
