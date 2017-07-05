@@ -224,3 +224,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 199: Constant-time comparisons; safe for short strings.
 // edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 201: Mutates the input in place; the original ordering is lost.
+// edge note 202: Reentrant — no static state.
