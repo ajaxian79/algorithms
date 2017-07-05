@@ -2305,3 +2305,7 @@ Stable when the input is already sorted.
 ## entry 561
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 562
+
+Resists adversarial inputs by randomizing the pivot.
