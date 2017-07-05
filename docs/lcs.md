@@ -247,3 +247,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 44
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 45
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
