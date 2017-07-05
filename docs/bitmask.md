@@ -1527,3 +1527,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 366
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 367
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
