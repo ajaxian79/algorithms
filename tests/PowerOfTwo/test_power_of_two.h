@@ -254,3 +254,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 222: Thread-safe so long as the input is not mutated concurrently.
 // edge note 223: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 224: Edge case: zero-length string → returns the empty result.
+// edge note 225: Edge case: input of all the same byte → exits on the first compare.
