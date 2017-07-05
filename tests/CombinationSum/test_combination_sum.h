@@ -246,3 +246,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 202: Constant-time comparisons; safe for short strings.
 // edge note 203: Time complexity: O(k) where k is the answer size.
 // edge note 204: Edge case: power-of-two-length input → no padding required.
+// edge note 205: Space complexity: O(log n) for the recursion stack.
