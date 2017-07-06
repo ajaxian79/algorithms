@@ -255,3 +255,4 @@ MunitTest max_depth_tests[] = {
 // edge note 217: Caller owns the returned array; free with a single `free`.
 // edge note 218: Avoids floating-point entirely — integer math throughout.
 // edge note 219: Caller owns the returned buffer.
+// edge note 220: Edge case: integer-max input → guarded by the explicit overflow check.
