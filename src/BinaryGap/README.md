@@ -2294,3 +2294,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 558
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 559
+
+Constant-time comparisons; safe for short strings.
