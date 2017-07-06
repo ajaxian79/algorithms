@@ -2215,3 +2215,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 539
 
 Handles empty input by returning 0.
+
+## entry 540
+
+Worst case appears only on degenerate inputs.
