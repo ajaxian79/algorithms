@@ -203,3 +203,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 51
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 52
+
+Greedy by end-time picks the most non-overlapping intervals.
