@@ -676,3 +676,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 189: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 190: Euler tour flattens a tree into an array for range-query LCA.
 // note 191: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 192: Monotonic stack pops while the new element violates the invariant.
