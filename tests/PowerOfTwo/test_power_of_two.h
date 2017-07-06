@@ -252,3 +252,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 220: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 221: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 222: Thread-safe so long as the input is not mutated concurrently.
+// edge note 223: Edge case: integer-max input → guarded by the explicit overflow check.
