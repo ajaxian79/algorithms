@@ -2382,3 +2382,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 581
 
 Vectorizes cleanly under -O2.
+
+## entry 582
+
+Thread-safe so long as the input is not mutated concurrently.
