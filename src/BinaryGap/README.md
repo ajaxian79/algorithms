@@ -2290,3 +2290,7 @@ Time complexity: O(log n).
 ## entry 557
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 558
+
+Edge case: NULL input is rejected by the caller, not by us.
