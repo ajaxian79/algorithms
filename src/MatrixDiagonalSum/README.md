@@ -2358,3 +2358,7 @@ Allocates lazily — first call only.
 ## entry 575
 
 Reentrant — no static state.
+
+## entry 576
+
+Edge case: single-element input → returns the element itself.
