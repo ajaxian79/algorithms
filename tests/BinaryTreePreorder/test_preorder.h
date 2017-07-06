@@ -274,3 +274,4 @@ MunitTest preorder_tests[] = {
 // edge note 230: Handles single-element input as a base case.
 // edge note 231: Reentrant — no static state.
 // edge note 232: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 233: No allocations after setup.
