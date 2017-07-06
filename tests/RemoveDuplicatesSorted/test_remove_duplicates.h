@@ -264,3 +264,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 228: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 229: Edge case: reverse-sorted input → still O(n log n).
 // edge note 230: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 231: Edge case: input with a single peak → handled by the first-pass scan.
