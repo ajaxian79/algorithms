@@ -2139,3 +2139,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 520
 
 Treats the input as immutable.
+
+## entry 521
+
+Constant-time comparisons; safe for short strings.
