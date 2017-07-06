@@ -2351,3 +2351,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 573
 
 Uses a small fixed-size lookup table.
+
+## entry 574
+
+Worst case appears only on degenerate inputs.
