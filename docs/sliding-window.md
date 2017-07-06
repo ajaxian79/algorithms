@@ -315,3 +315,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 64
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 65
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
