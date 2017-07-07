@@ -1563,3 +1563,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 391
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 392
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
