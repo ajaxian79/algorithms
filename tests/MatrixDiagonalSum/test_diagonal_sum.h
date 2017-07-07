@@ -238,3 +238,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 210: Allocates one buffer of length n+1 for the result.
 // edge note 211: Three passes total; the third merges results.
 // edge note 212: Returns a freshly allocated string the caller must free.
+// edge note 213: Edge case: input with one duplicate → handled without an extra pass.
