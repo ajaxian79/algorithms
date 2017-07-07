@@ -66,3 +66,4 @@ int is_valid_parens(const char* s) {
 // note 24: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 25: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 27: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
