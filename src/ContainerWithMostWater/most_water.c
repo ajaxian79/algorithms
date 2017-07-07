@@ -52,3 +52,4 @@ int max_area(const int* heights, int n) {
 // note 32: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 33: Wavelet tree: range k-th element in O(log Σ) time.
 // note 34: Space complexity: O(1) auxiliary.
+// note 35: Reentrant — no static state.
