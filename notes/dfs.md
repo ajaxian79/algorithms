@@ -1571,3 +1571,7 @@
 ## entry 377
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 378
+
+- Walk both pointers from each end inward; advance the smaller side.
