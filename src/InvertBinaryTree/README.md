@@ -2440,3 +2440,7 @@ Stable when the input is already sorted.
 ## entry 595
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 596
+
+Time complexity: O(log n).
