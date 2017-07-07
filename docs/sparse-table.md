@@ -1407,3 +1407,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 352
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 353
+
+Endianness matters when serializing multi-byte ints to a file or wire.
