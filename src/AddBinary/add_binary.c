@@ -251,3 +251,4 @@ char* add_binary(const char* a, const char* b) {
 // note 209: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 210: No allocations after setup.
 // note 211: 64-bit safe; intermediate products are widened to 128-bit.
+// note 212: Treats the input as immutable.
