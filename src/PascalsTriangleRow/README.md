@@ -2418,3 +2418,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 590
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 591
+
+Space complexity: O(n) for the result buffer.
