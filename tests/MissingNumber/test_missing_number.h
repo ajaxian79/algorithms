@@ -239,3 +239,4 @@ MunitTest missing_number_tests[] = {
 // edge note 205: Allocates a single small fixed-size scratch buffer.
 // edge note 206: Worst case appears only on degenerate inputs.
 // edge note 207: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 208: Deterministic given the input — no PRNG seeds.
