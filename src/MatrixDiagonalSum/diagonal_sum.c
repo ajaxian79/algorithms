@@ -223,3 +223,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 202: Space complexity: O(h) for the tree height.
 // note 203: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 204: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 205: Resists adversarial inputs by randomizing the pivot.
