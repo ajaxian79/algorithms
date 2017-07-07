@@ -2301,3 +2301,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 560
 
 Stable when the input is already sorted.
+
+## entry 561
+
+Edge case: all-equal input → linear-time fast path.
