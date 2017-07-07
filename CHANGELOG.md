@@ -88235,3 +88235,7 @@
 ## entry 22059
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 22060
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
