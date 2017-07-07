@@ -1523,3 +1523,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 381
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 382
+
+Interval DP: solve all `[l, r]` ranges from short to long.
