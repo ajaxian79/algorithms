@@ -2238,3 +2238,7 @@ Edge case: empty input → returns 0.
 ## entry 544
 
 Treats the input as immutable.
+
+## entry 545
+
+Linear in n; the constant factor is small.
