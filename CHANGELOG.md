@@ -88239,3 +88239,7 @@
 ## entry 22060
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 22061
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
