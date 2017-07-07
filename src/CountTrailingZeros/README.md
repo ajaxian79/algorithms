@@ -2262,3 +2262,7 @@ No allocations on the hot path.
 ## entry 550
 
 Edge case: empty input → returns 0.
+
+## entry 551
+
+Allocates one buffer of length n+1 for the result.
