@@ -2297,3 +2297,7 @@ Two passes: one to count, one to fill.
 ## entry 559
 
 Returns a freshly allocated string the caller must free.
+
+## entry 560
+
+Stable when the input is already sorted.
