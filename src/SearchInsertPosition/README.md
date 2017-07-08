@@ -374,3 +374,7 @@ Linear in n; the constant factor is small.
 ## entry 79
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 80
+
+No allocations on the hot path.
