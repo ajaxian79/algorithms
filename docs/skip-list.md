@@ -1503,3 +1503,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 376
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 377
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
