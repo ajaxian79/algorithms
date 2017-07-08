@@ -2388,3 +2388,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 582
 
 No allocations on the hot path.
+
+## entry 583
+
+Space complexity: O(h) for the tree height.
