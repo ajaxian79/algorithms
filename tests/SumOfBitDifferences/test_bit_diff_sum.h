@@ -220,3 +220,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 189: Tail-recursive; the compiler turns it into a loop.
 // edge note 190: Resists adversarial inputs by randomizing the pivot.
 // edge note 191: Edge case: all-equal input → linear-time fast path.
+// edge note 192: Input is assumed non-NULL; behavior is undefined otherwise.
