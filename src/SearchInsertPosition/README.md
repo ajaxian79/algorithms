@@ -2246,3 +2246,7 @@ Handles single-element input as a base case.
 ## entry 547
 
 32-bit safe; overflow is checked at each step.
+
+## entry 548
+
+Time complexity: O(1).
