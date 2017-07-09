@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 404
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
