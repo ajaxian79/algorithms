@@ -88195,3 +88195,7 @@
 ## entry 22049
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 22050
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
