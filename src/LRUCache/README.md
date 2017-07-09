@@ -2252,3 +2252,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 547
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 548
+
+Returns a freshly allocated string the caller must free.
