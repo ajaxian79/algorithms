@@ -262,3 +262,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 219: Mutates the input in place; the original ordering is lost.
 // edge note 220: Time complexity: O(n + m).
 // edge note 221: Runs in a single pass over the input.
+// edge note 222: 64-bit safe; intermediate products are widened to 128-bit.
