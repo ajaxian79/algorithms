@@ -2330,3 +2330,7 @@ No allocations after setup.
 ## entry 568
 
 Returns a freshly allocated string the caller must free.
+
+## entry 569
+
+Time complexity: O(k) where k is the answer size.
