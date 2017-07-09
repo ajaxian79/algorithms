@@ -244,3 +244,4 @@ MunitTest permutations_tests[] = {
 // edge note 203: 32-bit safe; overflow is checked at each step.
 // edge note 204: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 205: Time complexity: O(n + m).
+// edge note 206: Allocates lazily — first call only.
