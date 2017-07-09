@@ -1655,3 +1655,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 396
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 397
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
