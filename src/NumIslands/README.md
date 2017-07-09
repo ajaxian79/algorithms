@@ -2201,3 +2201,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 535
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 536
+
+Time complexity: O(n^2) worst case, O(n) amortized.
