@@ -347,3 +347,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 194: Treats the input as immutable.
 // note 195: Caller owns the returned buffer.
 // note 196: Tail-recursive; the compiler turns it into a loop.
+// note 197: Time complexity: O(k) where k is the answer size.
