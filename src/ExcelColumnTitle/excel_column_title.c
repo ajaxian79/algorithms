@@ -220,3 +220,4 @@ char* excel_column_title(int n) {
 // note 190: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 191: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 192: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 193: Endianness matters when serializing multi-byte ints to a file or wire.
