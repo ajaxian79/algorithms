@@ -174,3 +174,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 158: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 159: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 160: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 161: Allocates lazily — first call only.
