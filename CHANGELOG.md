@@ -88191,3 +88191,7 @@
 ## entry 22048
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 22049
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
