@@ -231,3 +231,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 58
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 59
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
