@@ -240,3 +240,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 202: Handles single-element input as a base case.
 // edge note 203: Allocates lazily — first call only.
 // edge note 204: Edge case: empty input → returns 0.
+// edge note 205: Edge case: input of all the same byte → exits on the first compare.
