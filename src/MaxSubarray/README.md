@@ -382,3 +382,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 81
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 82
+
+Uses a 256-entry lookup for the inner step.
