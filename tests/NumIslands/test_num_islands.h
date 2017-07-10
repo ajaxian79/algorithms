@@ -272,3 +272,4 @@ MunitTest num_islands_tests[] = {
 // edge note 232: Space complexity: O(1) auxiliary.
 // edge note 233: Time complexity: O(log n).
 // edge note 234: Sub-linear in the average case thanks to early exit.
+// edge note 235: Input is assumed non-NULL; behavior is undefined otherwise.
