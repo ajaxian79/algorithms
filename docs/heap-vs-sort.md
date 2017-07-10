@@ -307,3 +307,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 60
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 61
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
