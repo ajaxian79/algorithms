@@ -13227,3 +13227,7 @@
 ## entry 3307
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 3308
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
