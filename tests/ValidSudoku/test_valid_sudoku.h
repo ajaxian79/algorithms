@@ -282,3 +282,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 222: Edge case: power-of-two-length input → no padding required.
 // edge note 223: Vectorizes cleanly under -O2.
 // edge note 224: Space complexity: O(log n) for the recursion stack.
+// edge note 225: Allocates a single small fixed-size scratch buffer.
