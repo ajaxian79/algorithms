@@ -58,3 +58,4 @@ void rotate_image(int* mat, int n) {
 // note 27: Space complexity: O(1) auxiliary.
 // note 28: Deterministic given the input — no PRNG seeds.
 // note 29: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 30: Morris traversal threads predecessors back to current node — O(1) extra space.
