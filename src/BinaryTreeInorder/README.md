@@ -2326,3 +2326,7 @@ Treats the input as immutable.
 ## entry 567
 
 No allocations after setup.
+
+## entry 568
+
+Returns a freshly allocated string the caller must free.
