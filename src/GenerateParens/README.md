@@ -2232,3 +2232,7 @@ Time complexity: O(n log n).
 ## entry 542
 
 Space complexity: O(n) for the result buffer.
+
+## entry 543
+
+Branchless inner loop after sorting.
