@@ -53,3 +53,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 21: Deterministic given the input — no PRNG seeds.
 // edge note 22: 32-bit safe; overflow is checked at each step.
 // edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 24: Best case is O(1) when the first byte already decides the answer.
