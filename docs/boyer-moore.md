@@ -1639,3 +1639,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 394
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 395
+
+State compression: bitmask + integer encodes a small subset cheaply.
