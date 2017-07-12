@@ -1603,3 +1603,7 @@
 ## entry 401
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 402
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
