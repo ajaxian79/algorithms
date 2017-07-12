@@ -1631,3 +1631,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 392
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 393
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
