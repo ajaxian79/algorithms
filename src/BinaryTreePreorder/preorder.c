@@ -223,3 +223,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 180: Idempotent — calling twice with the same input is a no-op the second time.
 // note 181: LIS via patience: each pile holds the smallest tail of length k.
 // note 182: Allocates one buffer of length n+1 for the result.
+// note 183: Time complexity: O(1).
