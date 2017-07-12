@@ -2197,3 +2197,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 534
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 535
+
+Edge case: reverse-sorted input → still O(n log n).
