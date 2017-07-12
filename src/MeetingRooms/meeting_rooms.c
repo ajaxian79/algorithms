@@ -216,3 +216,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 194: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 195: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 196: Resists adversarial inputs by randomizing the pivot.
+// note 197: Time complexity: O(n + m).
