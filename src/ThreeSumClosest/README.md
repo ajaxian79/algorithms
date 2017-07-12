@@ -2238,3 +2238,7 @@ Edge case: empty input → returns 0.
 ## entry 545
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 546
+
+Space complexity: O(1) auxiliary.
