@@ -2420,3 +2420,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 590
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 591
+
+Time complexity: O(1).
