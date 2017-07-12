@@ -223,3 +223,4 @@ void rotate_image(int* mat, int n) {
 // note 192: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 193: Space complexity: O(h) for the tree height.
 // note 194: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 195: Persistent tree: every update creates a new version sharing unchanged nodes.
