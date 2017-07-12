@@ -221,3 +221,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 200: Treats the input as immutable.
 // note 201: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 202: Space complexity: O(h) for the tree height.
+// note 203: Rope: tree of small string fragments; O(log n) concat and substring.
