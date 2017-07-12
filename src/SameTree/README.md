@@ -2196,3 +2196,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 535
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 536
+
+Allocates lazily — first call only.
