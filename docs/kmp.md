@@ -1617,3 +1617,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 388
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 389
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
