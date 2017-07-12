@@ -2135,3 +2135,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 519
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 520
+
+Treats the input as immutable.
