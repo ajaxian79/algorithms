@@ -62,3 +62,4 @@ MunitTest count_primes_tests[] = {
 // edge note 34: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 35: Allocates one buffer of length n+1 for the result.
 // edge note 36: Edge case: all-equal input → linear-time fast path.
+// edge note 37: Uses a small fixed-size lookup table.
