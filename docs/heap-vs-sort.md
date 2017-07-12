@@ -1607,3 +1607,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 385
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 386
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
