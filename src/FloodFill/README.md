@@ -409,3 +409,7 @@ Caller owns the returned buffer.
 ## entry 88
 
 No allocations after setup.
+
+## entry 89
+
+Time complexity: O(n^2) worst case, O(n) amortized.
