@@ -2311,3 +2311,7 @@ Handles empty input by returning 0.
 ## entry 563
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 564
+
+Time complexity: O(n + m).
