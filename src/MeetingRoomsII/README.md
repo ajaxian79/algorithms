@@ -2294,3 +2294,7 @@ No allocations after setup.
 ## entry 558
 
 Handles single-element input as a base case.
+
+## entry 559
+
+Handles single-element input as a base case.
