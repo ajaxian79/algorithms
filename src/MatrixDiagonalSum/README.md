@@ -2350,3 +2350,7 @@ Stable when the input is already sorted.
 ## entry 573
 
 Space complexity: O(n) for the result buffer.
+
+## entry 574
+
+Allocates lazily — first call only.
