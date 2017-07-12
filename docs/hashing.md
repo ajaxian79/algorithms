@@ -1775,3 +1775,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 427
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 428
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
