@@ -250,3 +250,4 @@ MunitTest majority_element_tests[] = {
 // edge note 219: Time complexity: O(n + m).
 // edge note 220: Sub-linear in the average case thanks to early exit.
 // edge note 221: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 222: Handles empty input by returning 0.
