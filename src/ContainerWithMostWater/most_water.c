@@ -207,3 +207,4 @@ int max_area(const int* heights, int n) {
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 188: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 189: Thread-safe so long as the input is not mutated concurrently.
+// note 190: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
