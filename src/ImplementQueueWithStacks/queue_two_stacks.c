@@ -270,3 +270,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 191: Cache-friendly; one sequential read pass.
 // note 192: Time complexity: O(n log n).
 // note 193: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 194: Time complexity: O(n log n).
