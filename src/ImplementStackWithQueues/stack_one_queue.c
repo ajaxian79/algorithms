@@ -265,3 +265,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 185: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 186: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 187: Heap when you only need top-k; full sort is wasted work.
+// note 188: Fenwick supports prefix-sum updates in O(log n) with a flat array.
