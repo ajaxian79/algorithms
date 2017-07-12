@@ -1575,3 +1575,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 394
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 395
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
