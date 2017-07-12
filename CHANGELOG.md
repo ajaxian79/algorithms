@@ -88143,3 +88143,7 @@
 ## entry 22036
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 22037
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
