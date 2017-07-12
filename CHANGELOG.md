@@ -88151,3 +88151,7 @@
 ## entry 22038
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 22039
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
