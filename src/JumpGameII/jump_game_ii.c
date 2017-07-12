@@ -211,3 +211,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 189: Time complexity: O(n + m).
 // note 190: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 191: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 192: Handles negative inputs as documented above.
