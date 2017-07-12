@@ -1475,3 +1475,7 @@
 ## entry 369
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 370
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
