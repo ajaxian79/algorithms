@@ -1691,3 +1691,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 406
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 407
+
+State compression: bitmask + integer encodes a small subset cheaply.
