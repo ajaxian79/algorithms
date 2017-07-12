@@ -2248,3 +2248,7 @@ Uses a small fixed-size lookup table.
 ## entry 546
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 547
+
+Resists adversarial inputs by randomizing the pivot.
