@@ -1771,3 +1771,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 426
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 427
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
