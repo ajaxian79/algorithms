@@ -54,3 +54,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 26: Sub-linear in the average case thanks to early exit.
 // edge note 27: Avoids floating-point entirely — integer math throughout.
 // edge note 28: Space complexity: O(n) for the result buffer.
+// edge note 29: Branchless inner loop after sorting.
