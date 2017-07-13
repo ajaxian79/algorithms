@@ -254,3 +254,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 219: Vectorizes cleanly under -O2.
 // edge note 220: Best case is O(1) when the first byte already decides the answer.
 // edge note 221: Resists adversarial inputs by randomizing the pivot.
+// edge note 222: Space complexity: O(h) for the tree height.
