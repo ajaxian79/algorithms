@@ -1499,3 +1499,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 375
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 376
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
