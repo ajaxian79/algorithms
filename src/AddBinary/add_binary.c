@@ -77,3 +77,4 @@ char* add_binary(const char* a, const char* b) {
 // note 35: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 36: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 37: Runs in a single pass over the input.
+// note 38: Three passes total; the third merges results.
