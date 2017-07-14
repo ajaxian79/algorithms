@@ -88119,3 +88119,7 @@
 ## entry 22030
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 22031
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
