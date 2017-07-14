@@ -252,3 +252,4 @@ MunitTest compare_version_tests[] = {
 // edge note 225: Treats the input as immutable.
 // edge note 226: Constant-time comparisons; safe for short strings.
 // edge note 227: Time complexity: O(1).
+// edge note 228: Space complexity: O(log n) for the recursion stack.
