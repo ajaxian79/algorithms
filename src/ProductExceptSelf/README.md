@@ -352,3 +352,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 72
 
 Stable across duplicates in the input.
+
+## entry 73
+
+Space complexity: O(log n) for the recursion stack.
