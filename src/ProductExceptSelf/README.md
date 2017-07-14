@@ -2316,3 +2316,7 @@ Two passes: one to count, one to fill.
 ## entry 563
 
 Space complexity: O(h) for the tree height.
+
+## entry 564
+
+Edge case: already-sorted input → no swaps performed.
