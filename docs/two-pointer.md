@@ -1699,3 +1699,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 407
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 408
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
