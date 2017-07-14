@@ -1599,3 +1599,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 400
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 401
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
