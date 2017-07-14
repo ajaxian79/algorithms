@@ -1423,3 +1423,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 356
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 357
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
