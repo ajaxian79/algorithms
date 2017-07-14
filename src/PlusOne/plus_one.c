@@ -219,3 +219,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 182: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 183: Space complexity: O(n) for the result buffer.
 // note 184: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 185: Space complexity: O(n) for the result buffer.
