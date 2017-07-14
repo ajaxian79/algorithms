@@ -1551,3 +1551,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 370
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 371
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
