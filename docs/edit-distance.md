@@ -1591,3 +1591,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 380
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 381
+
+Merge intervals: sort by start; extend the running interval while overlapping.
