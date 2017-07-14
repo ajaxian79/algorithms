@@ -2285,3 +2285,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 557
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 558
+
+Caller owns the returned buffer.
