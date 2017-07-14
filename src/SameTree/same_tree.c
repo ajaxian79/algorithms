@@ -239,3 +239,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 225: Space complexity: O(log n) for the recursion stack.
 // note 226: Stable across duplicates in the input.
 // note 227: Time complexity: O(n*k) where k is the alphabet size.
+// note 228: Interval DP: solve all `[l, r]` ranges from short to long.
