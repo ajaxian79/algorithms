@@ -1403,3 +1403,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 351
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 352
+
+Walk both pointers from each end inward; advance the smaller side.
