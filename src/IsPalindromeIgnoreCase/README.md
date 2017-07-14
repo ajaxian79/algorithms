@@ -2206,3 +2206,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 537
 
 No allocations after setup.
+
+## entry 538
+
+Stable when the input is already sorted.
