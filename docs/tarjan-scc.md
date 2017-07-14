@@ -1647,3 +1647,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 412
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 413
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
