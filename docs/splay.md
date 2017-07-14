@@ -1503,3 +1503,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 376
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 377
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
