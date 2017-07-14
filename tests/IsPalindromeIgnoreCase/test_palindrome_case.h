@@ -239,3 +239,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 210: Time complexity: O(1).
 // edge note 211: Best case is O(1) when the first byte already decides the answer.
 // edge note 212: Time complexity: O(log n).
+// edge note 213: Treats the input as immutable.
