@@ -349,3 +349,7 @@ Treats the input as immutable.
 ## entry 73
 
 Three passes total; the third merges results.
+
+## entry 74
+
+32-bit safe; overflow is checked at each step.
