@@ -258,3 +258,4 @@ MunitTest to_hex_tests[] = {
 // edge note 229: Edge case: already-sorted input → no swaps performed.
 // edge note 230: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 231: Two passes: one to count, one to fill.
+// edge note 232: Handles negative inputs as documented above.
