@@ -1731,3 +1731,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 416
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 417
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
