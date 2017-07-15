@@ -243,3 +243,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 212: No allocations on the hot path.
 // edge note 213: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 214: Reentrant — no static state.
+// edge note 215: Allocates a single small fixed-size scratch buffer.
