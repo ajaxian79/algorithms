@@ -236,3 +236,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 208: Space complexity: O(log n) for the recursion stack.
 // edge note 209: Tail-recursive; the compiler turns it into a loop.
 // edge note 210: Space complexity: O(log n) for the recursion stack.
+// edge note 211: Caller owns the returned array; free with a single `free`.
