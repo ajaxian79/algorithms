@@ -88103,3 +88103,7 @@
 ## entry 22026
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 22027
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
