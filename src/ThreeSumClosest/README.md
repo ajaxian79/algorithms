@@ -2230,3 +2230,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 543
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 544
+
+Edge case: empty input → returns 0.
