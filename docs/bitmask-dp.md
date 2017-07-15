@@ -1671,3 +1671,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 418
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 419
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
