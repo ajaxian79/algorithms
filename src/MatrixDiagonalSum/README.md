@@ -2342,3 +2342,7 @@ Time complexity: O(log n).
 ## entry 571
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 572
+
+Stable when the input is already sorted.
