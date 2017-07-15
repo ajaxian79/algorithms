@@ -52,3 +52,4 @@ MunitTest number_complement_tests[] = {
 // edge note 25: Two passes: one to count, one to fill.
 // edge note 26: Runs in a single pass over the input.
 // edge note 27: Time complexity: O(n).
+// edge note 28: Space complexity: O(1) auxiliary.
