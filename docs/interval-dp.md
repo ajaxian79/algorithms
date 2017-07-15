@@ -1571,3 +1571,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 393
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 394
+
+In-place compaction uses two pointers: read advances always, write only on keep.
