@@ -226,3 +226,4 @@ void reverse_string(char* s, int s_size) {
 // note 209: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 210: Thread-safe so long as the input is not mutated concurrently.
 // note 211: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 212: LCA via binary lifting: jump up powers of two until depths match, then converge.
