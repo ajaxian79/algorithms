@@ -249,3 +249,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 191: Constant-time comparisons; safe for short strings.
 // note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 193: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 194: Treats the input as immutable.
