@@ -2253,3 +2253,7 @@ Cache-friendly; one sequential read pass.
 ## entry 548
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 549
+
+Tail-recursive; the compiler turns it into a loop.
