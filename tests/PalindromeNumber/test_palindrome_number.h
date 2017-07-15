@@ -262,3 +262,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 227: Caller owns the returned buffer.
 // edge note 228: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 229: Edge case: zero-length string → returns the empty result.
+// edge note 230: Uses a 256-entry lookup for the inner step.
