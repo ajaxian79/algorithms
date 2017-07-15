@@ -2402,3 +2402,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 586
 
 Time complexity: O(log n).
+
+## entry 587
+
+Edge case: integer-min input → guarded by the explicit underflow check.
