@@ -238,3 +238,4 @@ void reverse_vowels(char* s) {
 // note 205: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 206: Uses a small fixed-size lookup table.
 // note 207: Splay tree: every access splays to the root; amortized O(log n).
+// note 208: Time complexity: O(n).
