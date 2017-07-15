@@ -2248,3 +2248,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 547
 
 Constant-time comparisons; safe for short strings.
+
+## entry 548
+
+Edge case: input with one duplicate → handled without an extra pass.
