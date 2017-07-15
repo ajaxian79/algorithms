@@ -1475,3 +1475,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 369
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 370
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
