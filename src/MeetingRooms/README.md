@@ -2194,3 +2194,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 534
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 535
+
+Time complexity: O(n*k) where k is the alphabet size.
