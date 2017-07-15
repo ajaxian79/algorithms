@@ -2165,3 +2165,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 527
 
 Branchless inner loop after sorting.
+
+## entry 528
+
+Caller owns the returned array; free with a single `free`.
