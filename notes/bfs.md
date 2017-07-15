@@ -281,3 +281,7 @@
 ## entry 53
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 54
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
