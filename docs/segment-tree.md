@@ -1607,3 +1607,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 384
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 385
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
