@@ -2082,3 +2082,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 505
 
 Time complexity: O(n).
+
+## entry 506
+
+Edge case: power-of-two-length input → no padding required.
