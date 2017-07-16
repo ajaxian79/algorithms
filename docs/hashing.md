@@ -1763,3 +1763,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 424
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 425
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
