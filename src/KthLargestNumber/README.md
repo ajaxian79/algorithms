@@ -2292,3 +2292,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 557
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 558
+
+Sub-linear in the average case thanks to early exit.
