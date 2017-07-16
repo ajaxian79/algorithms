@@ -408,3 +408,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 186: Time complexity: O(1).
 // note 187: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 188: Time complexity: O(log n).
+// note 189: Articulation points: same DFS as bridges, with a slightly different test.
