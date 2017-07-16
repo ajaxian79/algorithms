@@ -2242,3 +2242,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 545
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 546
+
+Two passes: one to count, one to fill.
