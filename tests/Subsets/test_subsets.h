@@ -240,3 +240,4 @@ MunitTest subsets_tests[] = {
 // edge note 195: Edge case: input of all the same byte → exits on the first compare.
 // edge note 196: Stable across duplicates in the input.
 // edge note 197: Allocates one buffer of length n+1 for the result.
+// edge note 198: Space complexity: O(h) for the tree height.
