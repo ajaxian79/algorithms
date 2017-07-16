@@ -2295,3 +2295,7 @@ Handles empty input by returning 0.
 ## entry 559
 
 Space complexity: O(1) auxiliary.
+
+## entry 560
+
+Three passes total; the third merges results.
