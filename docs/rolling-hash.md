@@ -1523,3 +1523,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 364
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 365
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
