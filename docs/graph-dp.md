@@ -1611,3 +1611,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 403
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 404
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
