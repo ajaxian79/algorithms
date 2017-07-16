@@ -2249,3 +2249,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 547
 
 Cache-friendly; one sequential read pass.
+
+## entry 548
+
+Resists adversarial inputs by randomizing the pivot.
