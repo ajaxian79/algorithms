@@ -1567,3 +1567,7 @@
 ## entry 376
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 377
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
