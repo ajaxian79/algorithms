@@ -1687,3 +1687,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 405
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 406
+
+Stable sort matters when a secondary key was set in a prior pass.
