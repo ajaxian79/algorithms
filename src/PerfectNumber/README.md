@@ -369,3 +369,7 @@ Caller owns the returned buffer.
 ## entry 77
 
 Edge case: single-element input → returns the element itself.
+
+## entry 78
+
+Worst case appears only on degenerate inputs.
