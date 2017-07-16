@@ -1519,3 +1519,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 365
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 366
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
