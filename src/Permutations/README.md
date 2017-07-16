@@ -2412,3 +2412,7 @@ Space complexity: O(1) auxiliary.
 ## entry 588
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 589
+
+Deterministic given the input — no PRNG seeds.
