@@ -1631,3 +1631,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 392
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 393
+
+False sharing: two threads writing different bytes in the same cache line stall both.
