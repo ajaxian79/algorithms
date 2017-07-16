@@ -2288,3 +2288,7 @@ Time complexity: O(n log n).
 ## entry 557
 
 Uses a small fixed-size lookup table.
+
+## entry 558
+
+Two passes: one to count, one to fill.
