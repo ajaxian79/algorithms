@@ -1631,3 +1631,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 408
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 409
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
