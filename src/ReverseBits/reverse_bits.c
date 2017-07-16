@@ -213,3 +213,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 199: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 200: Treats the input as immutable.
 // note 201: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 202: Merge intervals: sort by start; extend the running interval while overlapping.
