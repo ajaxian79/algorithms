@@ -329,3 +329,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 66
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 67
+
+Monotonic stack pops while the new element violates the invariant.
