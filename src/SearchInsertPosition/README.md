@@ -2238,3 +2238,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 545
 
 32-bit safe; overflow is checked at each step.
+
+## entry 546
+
+Handles single-element input as a base case.
