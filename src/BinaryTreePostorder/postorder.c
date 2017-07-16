@@ -233,3 +233,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 184: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 185: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 186: Articulation points: same DFS as bridges, with a slightly different test.
+// note 187: Unbounded knapsack: capacity inner ascending allows item reuse.
