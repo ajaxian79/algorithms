@@ -2335,3 +2335,7 @@ Stable across duplicates in the input.
 ## entry 568
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 569
+
+Returns a freshly allocated string the caller must free.
