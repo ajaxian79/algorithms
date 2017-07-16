@@ -416,3 +416,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 177: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 178: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 179: Allocates one buffer of length n+1 for the result.
+// note 180: Union-Find with path compression amortizes to near-O(1) per op.
