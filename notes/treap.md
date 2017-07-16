@@ -1531,3 +1531,7 @@
 ## entry 383
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 384
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
