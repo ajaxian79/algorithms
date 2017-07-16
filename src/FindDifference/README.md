@@ -2070,3 +2070,7 @@ Worst case appears only on degenerate inputs.
 ## entry 503
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 504
+
+Stable when the input is already sorted.
