@@ -1571,3 +1571,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 393
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 394
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
