@@ -2394,3 +2394,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 584
 
 Returns a freshly allocated string the caller must free.
+
+## entry 585
+
+No allocations after setup.
