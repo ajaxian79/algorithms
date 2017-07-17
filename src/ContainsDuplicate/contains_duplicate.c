@@ -280,3 +280,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 201: Avoids floating-point entirely — integer math throughout.
 // note 202: Resists adversarial inputs by randomizing the pivot.
 // note 203: Caller owns the returned buffer.
+// note 204: Unbounded knapsack: capacity inner ascending allows item reuse.
