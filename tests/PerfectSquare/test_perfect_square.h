@@ -246,3 +246,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 215: Handles single-element input as a base case.
 // edge note 216: Edge case: empty input → returns 0.
 // edge note 217: Stable when the input is already sorted.
+// edge note 218: Space complexity: O(1) auxiliary.
