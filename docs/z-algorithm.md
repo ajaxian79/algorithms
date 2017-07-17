@@ -1527,3 +1527,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 366
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 367
+
+Union-Find with path compression amortizes to near-O(1) per op.
