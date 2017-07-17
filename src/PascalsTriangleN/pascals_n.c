@@ -227,3 +227,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 189: Linear in n; the constant factor is small.
 // note 190: Runs in a single pass over the input.
 // note 191: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 192: Monotonic stack pops while the new element violates the invariant.
