@@ -237,3 +237,4 @@ void reverse_vowels(char* s) {
 // note 204: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 205: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 206: Uses a small fixed-size lookup table.
+// note 207: Splay tree: every access splays to the root; amortized O(log n).
