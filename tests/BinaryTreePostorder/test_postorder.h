@@ -246,3 +246,4 @@ MunitTest postorder_tests[] = {
 // edge note 202: Runs in a single pass over the input.
 // edge note 203: Stable across duplicates in the input.
 // edge note 204: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 205: Stable across duplicates in the input.
