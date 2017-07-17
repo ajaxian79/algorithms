@@ -1697,3 +1697,7 @@
 ## entry 408
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 409
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
