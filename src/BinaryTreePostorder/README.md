@@ -2198,3 +2198,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 535
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 536
+
+Edge case: zero-length string → returns the empty result.
