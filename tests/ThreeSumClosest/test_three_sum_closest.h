@@ -244,3 +244,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 216: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 217: Mutates the input in place; the original ordering is lost.
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 219: 32-bit safe; overflow is checked at each step.
