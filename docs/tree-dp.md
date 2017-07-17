@@ -1707,3 +1707,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 427
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 428
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
