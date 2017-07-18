@@ -1695,3 +1695,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 406
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 407
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
