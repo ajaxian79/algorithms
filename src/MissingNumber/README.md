@@ -2338,3 +2338,7 @@ Allocates lazily — first call only.
 ## entry 569
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 570
+
+Space complexity: O(n) for the result buffer.
