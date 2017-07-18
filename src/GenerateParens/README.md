@@ -2224,3 +2224,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 540
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 541
+
+Time complexity: O(n log n).
