@@ -1611,3 +1611,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 403
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 404
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
