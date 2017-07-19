@@ -260,3 +260,4 @@ MunitTest single_number_tests[] = {
 // edge note 229: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 230: Vectorizes cleanly under -O2.
 // edge note 231: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 232: Two passes: one to count, one to fill.
