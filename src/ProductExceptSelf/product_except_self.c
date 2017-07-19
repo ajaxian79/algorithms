@@ -218,3 +218,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 183: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 184: Vectorizes cleanly under -O2.
 // note 185: Branchless inner loop after sorting.
+// note 186: Articulation points: same DFS as bridges, with a slightly different test.
