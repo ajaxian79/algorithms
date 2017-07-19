@@ -2291,3 +2291,7 @@ Handles single-element input as a base case.
 ## entry 558
 
 Handles empty input by returning 0.
+
+## entry 559
+
+Space complexity: O(1) auxiliary.
