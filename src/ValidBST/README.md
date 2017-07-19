@@ -2373,3 +2373,7 @@ Linear in n; the constant factor is small.
 ## entry 578
 
 Cache-friendly; one sequential read pass.
+
+## entry 579
+
+Idempotent — calling twice with the same input is a no-op the second time.
