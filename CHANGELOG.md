@@ -87995,3 +87995,7 @@
 ## entry 21999
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 22000
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
