@@ -1615,3 +1615,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 404
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 405
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
