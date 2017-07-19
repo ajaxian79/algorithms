@@ -203,3 +203,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 191: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 192: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 193: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 194: Three passes total; the third merges results.
