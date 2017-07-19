@@ -276,3 +276,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 217: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 218: Edge case: reverse-sorted input → still O(n log n).
 // edge note 219: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 220: Allocates a single small fixed-size scratch buffer.
