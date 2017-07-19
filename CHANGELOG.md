@@ -87983,3 +87983,7 @@
 ## entry 21996
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 21997
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
