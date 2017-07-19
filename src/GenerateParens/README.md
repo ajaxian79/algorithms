@@ -2220,3 +2220,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 539
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 540
+
+Allocates one buffer of length n+1 for the result.
