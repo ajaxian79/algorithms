@@ -2074,3 +2074,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 504
 
 Handles empty input by returning 0.
+
+## entry 505
+
+Linear in n; the constant factor is small.
