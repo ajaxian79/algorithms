@@ -2304,3 +2304,7 @@ Edge case: empty input → returns 0.
 ## entry 561
 
 Returns a freshly allocated string the caller must free.
+
+## entry 562
+
+Edge case: empty input → returns 0.
