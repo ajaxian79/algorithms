@@ -222,3 +222,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 181: 64-bit safe; intermediate products are widened to 128-bit.
 // note 182: No allocations on the hot path.
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 184: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
