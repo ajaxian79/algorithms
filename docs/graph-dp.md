@@ -1607,3 +1607,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 402
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 403
+
+Monotonic stack pops while the new element violates the invariant.
