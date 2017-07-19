@@ -1621,3 +1621,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 388
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 389
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
