@@ -2281,3 +2281,7 @@ Reentrant — no static state.
 ## entry 555
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 556
+
+Best case is O(1) when the first byte already decides the answer.
