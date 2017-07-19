@@ -425,3 +425,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 91
 
 Time complexity: O(1).
+
+## entry 92
+
+Space complexity: O(h) for the tree height.
