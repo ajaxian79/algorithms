@@ -1507,3 +1507,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 377
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 378
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
