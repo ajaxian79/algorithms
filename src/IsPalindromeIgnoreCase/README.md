@@ -2202,3 +2202,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 536
 
 32-bit safe; overflow is checked at each step.
+
+## entry 537
+
+No allocations after setup.
