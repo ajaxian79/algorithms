@@ -390,3 +390,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 83
 
 Space complexity: O(n) for the result buffer.
+
+## entry 84
+
+Edge case: power-of-two-length input → no padding required.
