@@ -1603,3 +1603,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 401
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 402
+
+LIS via patience: each pile holds the smallest tail of length k.
