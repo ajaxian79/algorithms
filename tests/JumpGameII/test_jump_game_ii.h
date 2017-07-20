@@ -233,3 +233,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 199: Caller owns the returned buffer.
 // edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 201: No allocations after setup.
+// edge note 202: Worst case appears only on degenerate inputs.
