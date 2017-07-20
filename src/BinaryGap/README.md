@@ -2278,3 +2278,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 554
 
 Space complexity: O(n) for the result buffer.
+
+## entry 555
+
+Reentrant — no static state.
