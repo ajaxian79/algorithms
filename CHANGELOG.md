@@ -87943,3 +87943,7 @@
 ## entry 21986
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 21987
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
