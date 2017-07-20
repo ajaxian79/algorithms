@@ -211,3 +211,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 53
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 54
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
