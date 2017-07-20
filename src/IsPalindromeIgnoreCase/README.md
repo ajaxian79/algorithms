@@ -2198,3 +2198,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 535
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 536
+
+32-bit safe; overflow is checked at each step.
