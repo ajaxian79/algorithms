@@ -261,3 +261,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 226: No allocations after setup.
 // edge note 227: Caller owns the returned buffer.
 // edge note 228: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 229: Edge case: zero-length string → returns the empty result.
