@@ -355,3 +355,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 71
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 72
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
