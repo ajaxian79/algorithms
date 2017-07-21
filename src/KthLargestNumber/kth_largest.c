@@ -69,3 +69,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 25: Walk both pointers from each end inward; advance the smaller side.
 // note 26: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 27: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
