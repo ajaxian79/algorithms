@@ -1613,3 +1613,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 387
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 388
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
