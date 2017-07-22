@@ -1613,3 +1613,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 387
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 388
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
