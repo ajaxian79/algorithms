@@ -2046,3 +2046,7 @@ Vectorizes cleanly under -O2.
 ## entry 487
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 488
+
+Uses a 256-entry lookup for the inner step.
