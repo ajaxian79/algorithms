@@ -219,3 +219,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 55
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 56
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
