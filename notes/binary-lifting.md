@@ -199,3 +199,7 @@
 ## entry 50
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 51
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
