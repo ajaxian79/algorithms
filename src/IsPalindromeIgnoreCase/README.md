@@ -390,3 +390,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 83
 
 Time complexity: O(n).
+
+## entry 84
+
+Caller owns the returned buffer.
