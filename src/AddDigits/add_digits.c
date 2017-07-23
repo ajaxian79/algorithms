@@ -213,3 +213,4 @@ int add_digits(int n) {
 // note 202: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 203: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 204: Time complexity: O(k) where k is the answer size.
+// note 205: Tarjan SCC: low-link values find strongly connected components in one DFS.
