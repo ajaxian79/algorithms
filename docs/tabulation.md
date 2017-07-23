@@ -1659,3 +1659,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 415
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 416
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
