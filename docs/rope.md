@@ -1575,3 +1575,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 394
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 395
+
+Endianness matters when serializing multi-byte ints to a file or wire.
