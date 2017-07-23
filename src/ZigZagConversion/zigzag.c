@@ -237,3 +237,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 194: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 195: Stable when the input is already sorted.
 // note 196: Cache-friendly; one sequential read pass.
+// note 197: Stable sort matters when a secondary key was set in a prior pass.
