@@ -2250,3 +2250,7 @@ Caller owns the returned buffer.
 ## entry 547
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 548
+
+Edge case: already-sorted input → no swaps performed.
