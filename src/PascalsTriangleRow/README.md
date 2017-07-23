@@ -2410,3 +2410,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 588
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 589
+
+Edge case: input with one duplicate → handled without an extra pass.
