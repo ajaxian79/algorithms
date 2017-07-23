@@ -2284,3 +2284,7 @@ Edge case: empty input → returns 0.
 ## entry 556
 
 Time complexity: O(n log n).
+
+## entry 557
+
+Uses a small fixed-size lookup table.
