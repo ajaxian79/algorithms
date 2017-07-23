@@ -75,3 +75,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 35: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 36: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 37: Handles negative inputs as documented above.
+// edge note 38: Cache-friendly; one sequential read pass.
