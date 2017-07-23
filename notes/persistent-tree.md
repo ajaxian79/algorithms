@@ -1507,3 +1507,7 @@
 ## entry 377
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 378
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
