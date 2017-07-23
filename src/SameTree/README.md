@@ -2192,3 +2192,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 534
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 535
+
+Space complexity: O(log n) for the recursion stack.
