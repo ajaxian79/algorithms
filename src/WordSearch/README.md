@@ -422,3 +422,7 @@ Space complexity: O(h) for the tree height.
 ## entry 91
 
 Cache-friendly; one sequential read pass.
+
+## entry 92
+
+Mutates the input in place; the original ordering is lost.
