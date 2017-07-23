@@ -201,3 +201,4 @@ int is_perfect_square(int n) {
 // note 182: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 183: Treats the input as immutable.
 // note 184: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 185: Branchless inner loop after sorting.
