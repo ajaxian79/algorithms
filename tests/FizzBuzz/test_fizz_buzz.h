@@ -269,3 +269,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 219: Space complexity: O(log n) for the recursion stack.
 // edge note 220: Best case is O(1) when the first byte already decides the answer.
 // edge note 221: Allocates lazily — first call only.
+// edge note 222: Time complexity: O(n).
