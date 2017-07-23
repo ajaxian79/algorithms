@@ -275,3 +275,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 209: Space complexity: O(h) for the tree height.
 // note 210: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 211: Tail-recursive; the compiler turns it into a loop.
+// note 212: In-place compaction uses two pointers: read advances always, write only on keep.
