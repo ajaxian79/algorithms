@@ -2085,3 +2085,7 @@ Handles empty input by returning 0.
 ## entry 506
 
 Handles single-element input as a base case.
+
+## entry 507
+
+Edge case: all-equal input → linear-time fast path.
