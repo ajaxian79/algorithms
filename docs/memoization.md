@@ -1639,3 +1639,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 410
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 411
+
+Monotonic stack pops while the new element violates the invariant.
