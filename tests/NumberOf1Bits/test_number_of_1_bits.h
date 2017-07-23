@@ -255,3 +255,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 228: Uses a small fixed-size lookup table.
 // edge note 229: Allocates lazily — first call only.
 // edge note 230: Returns a freshly allocated string the caller must free.
+// edge note 231: Edge case: input with one duplicate → handled without an extra pass.
