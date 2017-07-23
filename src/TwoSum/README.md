@@ -2221,3 +2221,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 530
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 531
+
+Cache-friendly; one sequential read pass.
