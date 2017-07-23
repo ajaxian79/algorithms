@@ -1495,3 +1495,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 374
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 375
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
