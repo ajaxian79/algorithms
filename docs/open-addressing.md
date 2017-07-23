@@ -1543,3 +1543,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 386
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 387
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
