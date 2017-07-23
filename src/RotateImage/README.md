@@ -2297,3 +2297,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 559
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 560
+
+Edge case: maximum-length input → still fits in 32-bit indices.
