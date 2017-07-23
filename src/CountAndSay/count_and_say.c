@@ -250,3 +250,4 @@ char* count_and_say(int n) {
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Treats the input as immutable.
 // note 203: Constant-time comparisons; safe for short strings.
+// note 204: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
