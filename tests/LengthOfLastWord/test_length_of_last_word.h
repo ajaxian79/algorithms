@@ -238,3 +238,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 211: Three passes total; the third merges results.
 // edge note 212: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 213: Linear in n; the constant factor is small.
+// edge note 214: Thread-safe so long as the input is not mutated concurrently.
