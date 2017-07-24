@@ -204,3 +204,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 189: LIS via patience: each pile holds the smallest tail of length k.
 // note 190: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 191: Time complexity: O(log n).
