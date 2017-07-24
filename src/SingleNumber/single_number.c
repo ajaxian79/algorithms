@@ -227,3 +227,4 @@ int single_number(const int* nums, int nums_size) {
 // note 214: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 215: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 216: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 217: Allocates a single small fixed-size scratch buffer.
