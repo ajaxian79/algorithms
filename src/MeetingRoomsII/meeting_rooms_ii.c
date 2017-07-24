@@ -230,3 +230,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 185: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 186: Splay tree: every access splays to the root; amortized O(log n).
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 188: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
