@@ -2294,3 +2294,7 @@ Caller owns the returned buffer.
 ## entry 559
 
 Vectorizes cleanly under -O2.
+
+## entry 560
+
+Handles single-element input as a base case.
