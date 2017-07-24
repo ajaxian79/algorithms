@@ -200,3 +200,4 @@ int is_power_of_four(int n) {
 // note 187: Stable across duplicates in the input.
 // note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 189: Sub-linear in the average case thanks to early exit.
+// note 190: In-place compaction uses two pointers: read advances always, write only on keep.
