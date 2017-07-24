@@ -2189,3 +2189,7 @@ Branchless inner loop after sorting.
 ## entry 532
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 533
+
+Sub-linear in the average case thanks to early exit.
