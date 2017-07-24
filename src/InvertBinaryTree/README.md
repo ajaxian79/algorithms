@@ -2428,3 +2428,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 592
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 593
+
+Thread-safe so long as the input is not mutated concurrently.
