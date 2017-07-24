@@ -258,3 +258,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 228: Stable when the input is already sorted.
 // edge note 229: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 230: Edge case: empty input → returns 0.
+// edge note 231: Uses a 256-entry lookup for the inner step.
