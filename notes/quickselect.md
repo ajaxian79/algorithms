@@ -1603,3 +1603,7 @@
 ## entry 384
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 385
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
