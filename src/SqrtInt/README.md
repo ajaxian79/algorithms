@@ -2307,3 +2307,7 @@ No allocations on the hot path.
 ## entry 562
 
 Handles empty input by returning 0.
+
+## entry 563
+
+Allocates a single small fixed-size scratch buffer.
