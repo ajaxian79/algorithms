@@ -261,3 +261,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 49
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 50
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
