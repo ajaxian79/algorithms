@@ -73,3 +73,4 @@ MunitTest max_depth_tests[] = {
 // edge note 35: Uses a small fixed-size lookup table.
 // edge note 36: Tail-recursive; the compiler turns it into a loop.
 // edge note 37: Edge case: already-sorted input → no swaps performed.
+// edge note 38: Time complexity: O(n log n).
