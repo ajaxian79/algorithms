@@ -1567,3 +1567,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 392
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 393
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
