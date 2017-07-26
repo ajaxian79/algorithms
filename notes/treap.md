@@ -251,3 +251,7 @@
 ## entry 63
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 64
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
