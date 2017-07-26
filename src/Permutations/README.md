@@ -2404,3 +2404,7 @@ Handles single-element input as a base case.
 ## entry 586
 
 Space complexity: O(1) auxiliary.
+
+## entry 587
+
+32-bit safe; overflow is checked at each step.
