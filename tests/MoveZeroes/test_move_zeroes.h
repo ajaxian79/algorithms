@@ -252,3 +252,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 212: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 213: Edge case: zero-length string → returns the empty result.
 // edge note 214: Sub-linear in the average case thanks to early exit.
+// edge note 215: Edge case: power-of-two-length input → no padding required.
