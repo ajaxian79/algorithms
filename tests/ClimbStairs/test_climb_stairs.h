@@ -252,3 +252,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 217: Edge case: input of all the same byte → exits on the first compare.
 // edge note 218: Time complexity: O(k) where k is the answer size.
 // edge note 219: Vectorizes cleanly under -O2.
+// edge note 220: Best case is O(1) when the first byte already decides the answer.
