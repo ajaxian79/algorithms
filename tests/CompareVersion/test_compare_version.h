@@ -251,3 +251,4 @@ MunitTest compare_version_tests[] = {
 // edge note 224: Three passes total; the third merges results.
 // edge note 225: Treats the input as immutable.
 // edge note 226: Constant-time comparisons; safe for short strings.
+// edge note 227: Time complexity: O(1).
