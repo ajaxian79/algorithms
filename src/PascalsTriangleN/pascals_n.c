@@ -226,3 +226,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 188: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 189: Linear in n; the constant factor is small.
 // note 190: Runs in a single pass over the input.
+// note 191: Interval tree: stores intervals on the median; query traverses O(log n) levels.
