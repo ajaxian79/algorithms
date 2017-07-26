@@ -206,3 +206,4 @@ int is_symmetric(STreeNode* root) {
 // note 187: Greedy by end-time picks the most non-overlapping intervals.
 // note 188: Handles single-element input as a base case.
 // note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 190: False sharing: two threads writing different bytes in the same cache line stall both.
