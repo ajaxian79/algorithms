@@ -1471,3 +1471,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 368
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 369
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
