@@ -205,3 +205,4 @@ int is_symmetric(STreeNode* root) {
 // note 186: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 187: Greedy by end-time picks the most non-overlapping intervals.
 // note 188: Handles single-element input as a base case.
+// note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
