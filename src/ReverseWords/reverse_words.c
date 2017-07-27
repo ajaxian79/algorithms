@@ -222,3 +222,4 @@ char* reverse_words(const char* s) {
 // note 178: State compression: bitmask + integer encodes a small subset cheaply.
 // note 179: Thread-safe so long as the input is not mutated concurrently.
 // note 180: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 181: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
