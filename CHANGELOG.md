@@ -87835,3 +87835,7 @@
 ## entry 21959
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 21960
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
