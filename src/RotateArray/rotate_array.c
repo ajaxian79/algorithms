@@ -212,3 +212,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 187: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 189: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 190: Pick a pivot, partition, recurse on the side that contains the kth slot.
