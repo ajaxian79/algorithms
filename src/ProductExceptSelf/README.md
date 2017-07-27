@@ -2312,3 +2312,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 562
 
 Two passes: one to count, one to fill.
+
+## entry 563
+
+Space complexity: O(h) for the tree height.
