@@ -87843,3 +87843,7 @@
 ## entry 21961
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 21962
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
