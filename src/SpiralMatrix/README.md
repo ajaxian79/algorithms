@@ -2246,3 +2246,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 546
 
 Caller owns the returned buffer.
+
+## entry 547
+
+Idempotent — calling twice with the same input is a no-op the second time.
