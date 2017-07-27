@@ -188,3 +188,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 21: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 22: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 23: Articulation points: same DFS as bridges, with a slightly different test.
+// note 24: Iterative DFS with an explicit stack avoids recursion-limit issues.
