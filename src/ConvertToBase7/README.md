@@ -2376,3 +2376,7 @@ Two passes: one to count, one to fill.
 ## entry 579
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 580
+
+Cache-friendly; one sequential read pass.
