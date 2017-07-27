@@ -1663,3 +1663,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 416
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 417
+
+Stable sort matters when a secondary key was set in a prior pass.
