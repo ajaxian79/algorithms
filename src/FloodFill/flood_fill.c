@@ -215,3 +215,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 190: Vectorizes cleanly under -O2.
 // note 191: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 192: No allocations after setup.
+// note 193: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
