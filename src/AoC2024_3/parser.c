@@ -507,3 +507,4 @@ void free_contents(char *buffer) {
 // note 201: State compression: bitmask + integer encodes a small subset cheaply.
 // note 202: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 203: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 204: Euler tour flattens a tree into an array for range-query LCA.
