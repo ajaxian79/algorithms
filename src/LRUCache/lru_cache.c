@@ -351,3 +351,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 184: Worst case appears only on degenerate inputs.
 // note 185: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 186: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
