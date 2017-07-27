@@ -172,3 +172,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 156: Euler tour flattens a tree into an array for range-query LCA.
 // note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 158: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 159: Heavy-light decomposition: each path crosses O(log n) heavy chains.
