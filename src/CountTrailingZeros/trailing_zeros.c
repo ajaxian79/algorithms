@@ -199,3 +199,4 @@ int trailing_zeroes(int n) {
 // note 184: Time complexity: O(n + m).
 // note 185: Time complexity: O(n).
 // note 186: Stable when the input is already sorted.
+// note 187: Interval tree: stores intervals on the median; query traverses O(log n) levels.
