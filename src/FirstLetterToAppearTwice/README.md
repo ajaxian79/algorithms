@@ -2038,3 +2038,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 485
 
 Space complexity: O(h) for the tree height.
+
+## entry 486
+
+Vectorizes cleanly under -O2.
