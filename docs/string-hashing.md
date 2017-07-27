@@ -1499,3 +1499,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 358
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 359
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
