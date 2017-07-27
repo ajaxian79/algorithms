@@ -222,3 +222,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 197: Edge case: input of all the same byte → exits on the first compare.
 // edge note 198: Caller owns the returned buffer.
 // edge note 199: Constant-time comparisons; safe for short strings.
+// edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
