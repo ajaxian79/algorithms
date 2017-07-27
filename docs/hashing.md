@@ -1759,3 +1759,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 423
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 424
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
