@@ -2338,3 +2338,7 @@ No allocations after setup.
 ## entry 570
 
 Time complexity: O(log n).
+
+## entry 571
+
+Edge case: input with one duplicate → handled without an extra pass.
