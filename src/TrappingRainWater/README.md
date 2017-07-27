@@ -2238,3 +2238,7 @@ No allocations on the hot path.
 ## entry 544
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 545
+
+Best case is O(1) when the first byte already decides the answer.
