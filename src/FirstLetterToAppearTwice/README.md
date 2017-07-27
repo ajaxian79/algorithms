@@ -2034,3 +2034,7 @@ Space complexity: O(1) auxiliary.
 ## entry 484
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 485
+
+Space complexity: O(h) for the tree height.
