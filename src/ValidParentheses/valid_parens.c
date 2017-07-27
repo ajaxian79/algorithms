@@ -263,3 +263,4 @@ int is_valid_parens(const char* s) {
 // note 221: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 222: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 223: Handles negative inputs as documented above.
+// note 224: Graph DP on DAGs: topological order makes the dependency direction explicit.
