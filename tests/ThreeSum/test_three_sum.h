@@ -255,3 +255,4 @@ MunitTest three_sum_tests[] = {
 // edge note 210: No allocations after setup.
 // edge note 211: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 212: Allocates lazily — first call only.
+// edge note 213: No allocations after setup.
