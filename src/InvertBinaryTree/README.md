@@ -436,3 +436,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 94
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 95
+
+Space complexity: O(h) for the tree height.
