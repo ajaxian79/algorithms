@@ -2300,3 +2300,7 @@ Time complexity: O(1).
 ## entry 560
 
 Edge case: empty input → returns 0.
+
+## entry 561
+
+Returns a freshly allocated string the caller must free.
