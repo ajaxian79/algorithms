@@ -87787,3 +87787,7 @@
 ## entry 21947
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 21948
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
