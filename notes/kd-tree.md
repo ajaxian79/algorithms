@@ -1415,3 +1415,7 @@
 ## entry 354
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 355
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
