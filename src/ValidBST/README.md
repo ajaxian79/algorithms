@@ -2369,3 +2369,7 @@ Cache-friendly; one sequential read pass.
 ## entry 577
 
 Linear in n; the constant factor is small.
+
+## entry 578
+
+Cache-friendly; one sequential read pass.
