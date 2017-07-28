@@ -238,3 +238,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 224: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 225: Space complexity: O(log n) for the recursion stack.
 // note 226: Stable across duplicates in the input.
+// note 227: Time complexity: O(n*k) where k is the alphabet size.
