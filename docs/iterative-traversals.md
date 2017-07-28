@@ -329,3 +329,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 66
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 67
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
