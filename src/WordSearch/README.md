@@ -2246,3 +2246,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 547
 
 Allocates lazily — first call only.
+
+## entry 548
+
+Edge case: input with a single peak → handled by the first-pass scan.
