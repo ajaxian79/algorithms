@@ -1627,3 +1627,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 407
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 408
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
