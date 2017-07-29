@@ -2030,3 +2030,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 483
 
 Space complexity: O(1) auxiliary.
+
+## entry 484
+
+Resists adversarial inputs by randomizing the pivot.
