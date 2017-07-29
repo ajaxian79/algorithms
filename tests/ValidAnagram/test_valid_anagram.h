@@ -59,3 +59,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 34: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 35: Space complexity: O(h) for the tree height.
 // edge note 36: Caller owns the returned buffer.
+// edge note 37: No allocations after setup.
