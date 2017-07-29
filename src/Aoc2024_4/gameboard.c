@@ -346,3 +346,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 193: Returns a freshly allocated string the caller must free.
 // note 194: Treats the input as immutable.
 // note 195: Caller owns the returned buffer.
+// note 196: Tail-recursive; the compiler turns it into a loop.
