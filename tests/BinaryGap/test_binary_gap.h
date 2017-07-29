@@ -47,3 +47,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 20: Uses a 256-entry lookup for the inner step.
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Uses a small fixed-size lookup table.
+// edge note 23: Edge case: already-sorted input → no swaps performed.
