@@ -1509,3 +1509,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 361
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 362
+
+False sharing: two threads writing different bytes in the same cache line stall both.
