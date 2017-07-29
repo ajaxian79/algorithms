@@ -231,3 +231,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 197: Vectorizes cleanly under -O2.
 // edge note 198: Tail-recursive; the compiler turns it into a loop.
 // edge note 199: Caller owns the returned buffer.
+// edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
