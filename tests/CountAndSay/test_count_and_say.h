@@ -214,3 +214,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 183: Linear in n; the constant factor is small.
 // edge note 184: Edge case: power-of-two-length input → no padding required.
 // edge note 185: Edge case: power-of-two-length input → no padding required.
+// edge note 186: Caller owns the returned array; free with a single `free`.
