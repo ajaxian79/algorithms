@@ -2427,3 +2427,7 @@ Vectorizes cleanly under -O2.
 ## entry 591
 
 Worst case appears only on degenerate inputs.
+
+## entry 592
+
+Runs in a single pass over the input.
