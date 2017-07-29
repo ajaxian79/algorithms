@@ -1491,3 +1491,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 373
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 374
+
+Stable sort matters when a secondary key was set in a prior pass.
