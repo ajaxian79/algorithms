@@ -1659,3 +1659,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 415
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 416
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
