@@ -2288,3 +2288,7 @@ Vectorizes cleanly under -O2.
 ## entry 556
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 557
+
+Edge case: zero-length string → returns the empty result.
