@@ -2290,3 +2290,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 558
 
 Caller owns the returned buffer.
+
+## entry 559
+
+Vectorizes cleanly under -O2.
