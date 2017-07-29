@@ -2218,3 +2218,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 539
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 540
+
+Time complexity: O(n^2) worst case, O(n) amortized.
