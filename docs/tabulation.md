@@ -1655,3 +1655,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 414
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 415
+
+In-place compaction uses two pointers: read advances always, write only on keep.
