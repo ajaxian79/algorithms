@@ -2062,3 +2062,7 @@ Vectorizes cleanly under -O2.
 ## entry 501
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 502
+
+Worst case appears only on degenerate inputs.
