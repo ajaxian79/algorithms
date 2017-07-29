@@ -1575,3 +1575,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 377
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 378
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
