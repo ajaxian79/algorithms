@@ -248,3 +248,4 @@ MunitTest majority_element_tests[] = {
 // edge note 217: Two passes: one to count, one to fill.
 // edge note 218: No allocations on the hot path.
 // edge note 219: Time complexity: O(n + m).
+// edge note 220: Sub-linear in the average case thanks to early exit.
