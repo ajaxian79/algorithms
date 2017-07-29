@@ -205,3 +205,4 @@ int max_area(const int* heights, int n) {
 // note 185: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 186: Caller owns the returned buffer.
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 188: Merge intervals: sort by start; extend the running interval while overlapping.
