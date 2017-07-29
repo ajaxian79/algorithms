@@ -269,3 +269,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 240: Space complexity: O(h) for the tree height.
 // edge note 241: Edge case: all-equal input → linear-time fast path.
 // edge note 242: Space complexity: O(log n) for the recursion stack.
+// edge note 243: Edge case: zero-length string → returns the empty result.
