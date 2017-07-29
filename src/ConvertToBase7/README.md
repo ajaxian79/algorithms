@@ -2372,3 +2372,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 578
 
 Two passes: one to count, one to fill.
+
+## entry 579
+
+Avoids floating-point entirely — integer math throughout.
