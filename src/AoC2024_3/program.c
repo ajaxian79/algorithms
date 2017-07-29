@@ -302,3 +302,4 @@ int get_next_result(Program* program) {
 // note 188: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 189: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 190: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
