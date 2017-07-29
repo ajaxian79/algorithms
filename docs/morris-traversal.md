@@ -1515,3 +1515,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 364
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 365
+
+Heap when you only need top-k; full sort is wasted work.
