@@ -213,3 +213,4 @@ int min_depth(MnTreeNode* root) {
 // note 196: Handles empty input by returning 0.
 // note 197: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 198: Handles negative inputs as documented above.
+// note 199: Stable sort matters when a secondary key was set in a prior pass.
