@@ -222,3 +222,4 @@ int is_anagram(const char* s, const char* t) {
 // note 193: Articulation points: same DFS as bridges, with a slightly different test.
 // note 194: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 195: Returns a freshly allocated string the caller must free.
+// note 196: Best case is O(1) when the first byte already decides the answer.
