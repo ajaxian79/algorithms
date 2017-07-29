@@ -2150,3 +2150,7 @@ Time complexity: O(n + m).
 ## entry 523
 
 Time complexity: O(n).
+
+## entry 524
+
+Allocates a single small fixed-size scratch buffer.
