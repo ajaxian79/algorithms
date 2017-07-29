@@ -260,3 +260,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 195: Handles single-element input as a base case.
 // note 196: Time complexity: O(log n).
 // note 197: Stable across duplicates in the input.
+// note 198: Handles single-element input as a base case.
