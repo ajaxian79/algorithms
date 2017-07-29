@@ -1495,3 +1495,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 374
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 375
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
