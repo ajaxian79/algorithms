@@ -2254,3 +2254,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 548
 
 Stable across duplicates in the input.
+
+## entry 549
+
+No allocations on the hot path.
