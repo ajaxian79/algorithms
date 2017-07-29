@@ -2293,3 +2293,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 558
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 559
+
+Edge case: reverse-sorted input → still O(n log n).
