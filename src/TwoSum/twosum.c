@@ -309,3 +309,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 173: Stable across duplicates in the input.
 // note 174: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 175: Time complexity: O(1).
+// note 176: Allocates one buffer of length n+1 for the result.
