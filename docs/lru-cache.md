@@ -1427,3 +1427,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 357
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 358
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
