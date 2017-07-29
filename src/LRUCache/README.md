@@ -420,3 +420,7 @@ Branchless inner loop after sorting.
 ## entry 89
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 90
+
+Three passes total; the third merges results.
