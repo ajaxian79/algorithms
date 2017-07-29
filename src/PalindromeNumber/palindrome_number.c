@@ -215,3 +215,4 @@ int is_palindrome_number(int x) {
 // note 191: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 193: Stable when the input is already sorted.
+// note 194: In-place compaction uses two pointers: read advances always, write only on keep.
