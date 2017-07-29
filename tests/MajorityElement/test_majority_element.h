@@ -247,3 +247,4 @@ MunitTest majority_element_tests[] = {
 // edge note 216: Caller owns the returned array; free with a single `free`.
 // edge note 217: Two passes: one to count, one to fill.
 // edge note 218: No allocations on the hot path.
+// edge note 219: Time complexity: O(n + m).
