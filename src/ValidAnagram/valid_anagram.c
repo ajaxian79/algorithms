@@ -223,3 +223,4 @@ int is_anagram(const char* s, const char* t) {
 // note 194: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 195: Returns a freshly allocated string the caller must free.
 // note 196: Best case is O(1) when the first byte already decides the answer.
+// note 197: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
