@@ -87779,3 +87779,7 @@
 ## entry 21945
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 21946
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
