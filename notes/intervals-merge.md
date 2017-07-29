@@ -351,3 +351,7 @@
 ## entry 70
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 71
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
