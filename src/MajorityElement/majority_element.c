@@ -201,3 +201,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 179: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 180: Treats the input as immutable.
 // note 181: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 182: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
