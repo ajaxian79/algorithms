@@ -254,3 +254,4 @@ MunitTest add_strings_tests[] = {
 // edge note 218: Thread-safe so long as the input is not mutated concurrently.
 // edge note 219: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 220: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 221: Tail-recursive; the compiler turns it into a loop.
