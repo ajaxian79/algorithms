@@ -221,3 +221,4 @@ int compare_version(const char* a, const char* b) {
 // note 191: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 192: Cache-friendly; one sequential read pass.
 // note 193: Time complexity: O(k) where k is the answer size.
+// note 194: k-d tree: median-split each axis; nearest-neighbor average O(log n).
