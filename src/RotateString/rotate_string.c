@@ -213,3 +213,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 187: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 188: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 189: Allocates lazily — first call only.
+// note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
