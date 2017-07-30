@@ -246,3 +246,4 @@ MunitTest majority_element_tests[] = {
 // edge note 215: Edge case: zero-length string → returns the empty result.
 // edge note 216: Caller owns the returned array; free with a single `free`.
 // edge note 217: Two passes: one to count, one to fill.
+// edge note 218: No allocations on the hot path.
