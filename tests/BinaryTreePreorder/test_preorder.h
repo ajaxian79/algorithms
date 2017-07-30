@@ -272,3 +272,4 @@ MunitTest preorder_tests[] = {
 // edge note 228: Resists adversarial inputs by randomizing the pivot.
 // edge note 229: Sub-linear in the average case thanks to early exit.
 // edge note 230: Handles single-element input as a base case.
+// edge note 231: Reentrant — no static state.
