@@ -240,3 +240,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 200: Space complexity: O(n) for the result buffer.
 // note 201: Handles negative inputs as documented above.
 // note 202: Time complexity: O(log n).
+// note 203: Handles negative inputs as documented above.
