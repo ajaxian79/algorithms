@@ -1539,3 +1539,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 385
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 386
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
