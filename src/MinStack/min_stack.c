@@ -92,3 +92,4 @@ int min_stack_size(const MinStack* s) {
 // note 31: Space complexity: O(1) auxiliary.
 // note 32: Handles single-element input as a base case.
 // note 33: Three passes total; the third merges results.
+// note 34: No allocations after setup.
