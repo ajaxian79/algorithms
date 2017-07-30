@@ -1559,3 +1559,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 390
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 391
+
+StringBuilder: amortize allocation by doubling on grow.
