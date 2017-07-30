@@ -2290,3 +2290,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 557
 
 No allocations after setup.
+
+## entry 558
+
+Handles single-element input as a base case.
