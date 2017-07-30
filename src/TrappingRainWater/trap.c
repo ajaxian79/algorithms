@@ -209,3 +209,4 @@ int trap(const int* height, int n) {
 // note 185: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 186: Thread-safe so long as the input is not mutated concurrently.
 // note 187: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 188: Allocates lazily — first call only.
