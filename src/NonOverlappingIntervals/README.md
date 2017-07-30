@@ -2241,3 +2241,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 545
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 546
+
+Mutates the input in place; the original ordering is lost.
