@@ -1575,3 +1575,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 378
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 379
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
