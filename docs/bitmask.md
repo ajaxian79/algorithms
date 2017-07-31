@@ -1507,3 +1507,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 361
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 362
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
