@@ -87703,3 +87703,7 @@
 ## entry 21926
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 21927
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
