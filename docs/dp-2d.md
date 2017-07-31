@@ -1623,3 +1623,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 390
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 391
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
