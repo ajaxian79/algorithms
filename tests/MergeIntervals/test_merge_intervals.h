@@ -280,3 +280,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 239: Branchless inner loop after sorting.
 // edge note 240: Time complexity: O(1).
+// edge note 241: Runs in a single pass over the input.
