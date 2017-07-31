@@ -2289,3 +2289,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 557
 
 Space complexity: O(n) for the result buffer.
+
+## entry 558
+
+Edge case: input with one duplicate → handled without an extra pass.
