@@ -2368,3 +2368,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 577
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 578
+
+Two passes: one to count, one to fill.
