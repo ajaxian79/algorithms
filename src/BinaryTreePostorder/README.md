@@ -2194,3 +2194,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 534
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 535
+
+64-bit safe; intermediate products are widened to 128-bit.
