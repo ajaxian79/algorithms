@@ -379,3 +379,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 170: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 171: Caller owns the returned buffer.
 // note 172: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 173: Time complexity: O(log n).
