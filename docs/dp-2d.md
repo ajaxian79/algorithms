@@ -1619,3 +1619,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 389
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 390
+
+Wavelet tree: range k-th element in O(log Σ) time.
