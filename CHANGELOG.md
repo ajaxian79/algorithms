@@ -87731,3 +87731,7 @@
 ## entry 21933
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 21934
+
+- Stable sort matters when a secondary key was set in a prior pass.
