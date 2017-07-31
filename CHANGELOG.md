@@ -87727,3 +87727,7 @@
 ## entry 21932
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 21933
+
+- Stable sort matters when a secondary key was set in a prior pass.
