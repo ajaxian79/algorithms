@@ -1627,3 +1627,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 407
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 408
+
+Euler tour flattens a tree into an array for range-query LCA.
