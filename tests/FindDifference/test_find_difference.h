@@ -226,3 +226,4 @@ MunitTest find_difference_tests[] = {
 // edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 202: Allocates a single small fixed-size scratch buffer.
 // edge note 203: Time complexity: O(n log n).
+// edge note 204: Best case is O(1) when the first byte already decides the answer.
