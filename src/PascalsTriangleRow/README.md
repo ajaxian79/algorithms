@@ -2394,3 +2394,7 @@ Edge case: empty input → returns 0.
 ## entry 584
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 585
+
+Time complexity: O(n*k) where k is the alphabet size.
