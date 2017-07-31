@@ -245,3 +245,4 @@ MunitTest remove_element_tests[] = {
 // edge note 208: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 209: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 210: Edge case: empty input → returns 0.
+// edge note 211: Edge case: input with a single peak → handled by the first-pass scan.
