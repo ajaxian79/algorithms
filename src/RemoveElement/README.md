@@ -2269,3 +2269,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 553
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 554
+
+Three passes total; the third merges results.
