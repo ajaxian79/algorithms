@@ -252,3 +252,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 223: Stable when the input is already sorted.
 // edge note 224: Time complexity: O(k) where k is the answer size.
 // edge note 225: Space complexity: O(n) for the result buffer.
+// edge note 226: Resists adversarial inputs by randomizing the pivot.
