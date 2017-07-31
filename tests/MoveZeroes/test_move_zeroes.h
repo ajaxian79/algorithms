@@ -250,3 +250,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 210: Tail-recursive; the compiler turns it into a loop.
 // edge note 211: Two passes: one to count, one to fill.
 // edge note 212: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 213: Edge case: zero-length string → returns the empty result.
