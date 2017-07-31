@@ -1675,3 +1675,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 402
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 403
+
+Greedy by end-time picks the most non-overlapping intervals.
