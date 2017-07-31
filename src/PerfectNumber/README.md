@@ -2081,3 +2081,7 @@ Time complexity: O(n).
 ## entry 505
 
 Handles empty input by returning 0.
+
+## entry 506
+
+Handles single-element input as a base case.
