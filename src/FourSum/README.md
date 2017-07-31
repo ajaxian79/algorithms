@@ -2224,3 +2224,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 541
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 542
+
+Edge case: reverse-sorted input → still O(n log n).
