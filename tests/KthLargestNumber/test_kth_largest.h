@@ -227,3 +227,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 196: Worst case appears only on degenerate inputs.
 // edge note 197: Uses a small fixed-size lookup table.
 // edge note 198: Avoids floating-point entirely — integer math throughout.
+// edge note 199: 64-bit safe; intermediate products are widened to 128-bit.
