@@ -2164,3 +2164,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 526
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 527
+
+Handles single-element input as a base case.
