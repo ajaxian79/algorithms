@@ -1519,3 +1519,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 380
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 381
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
