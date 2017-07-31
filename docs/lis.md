@@ -1715,3 +1715,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 412
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 413
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
