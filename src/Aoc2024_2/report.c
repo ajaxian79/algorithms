@@ -380,3 +380,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 171: Caller owns the returned buffer.
 // note 172: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 173: Time complexity: O(log n).
+// note 174: Sub-linear in the average case thanks to early exit.
