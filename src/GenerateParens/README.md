@@ -2216,3 +2216,7 @@ Space complexity: O(h) for the tree height.
 ## entry 538
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 539
+
+Deterministic given the input — no PRNG seeds.
