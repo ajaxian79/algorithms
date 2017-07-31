@@ -2182,3 +2182,7 @@ No allocations on the hot path.
 ## entry 531
 
 Time complexity: O(1).
+
+## entry 532
+
+Space complexity: O(h) for the tree height.
