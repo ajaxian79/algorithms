@@ -208,3 +208,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 185: Time complexity: O(n log n).
 // note 186: Vectorizes cleanly under -O2.
 // note 187: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 188: Caller owns the returned buffer.
