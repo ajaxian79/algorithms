@@ -2280,3 +2280,7 @@ Stable when the input is already sorted.
 ## entry 555
 
 Edge case: empty input → returns 0.
+
+## entry 556
+
+Time complexity: O(n log n).
