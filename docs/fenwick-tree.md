@@ -1619,3 +1619,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 389
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 390
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
