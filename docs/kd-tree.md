@@ -1647,3 +1647,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 412
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 413
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
