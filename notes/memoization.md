@@ -211,3 +211,7 @@
 ## entry 53
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 54
+
+- Union-Find with path compression amortizes to near-O(1) per op.
