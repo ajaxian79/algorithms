@@ -1623,3 +1623,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 406
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 407
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
