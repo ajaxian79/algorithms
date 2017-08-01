@@ -220,3 +220,4 @@ int compare_version(const char* a, const char* b) {
 // note 190: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 191: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 192: Cache-friendly; one sequential read pass.
+// note 193: Time complexity: O(k) where k is the answer size.
