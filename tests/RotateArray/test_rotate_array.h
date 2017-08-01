@@ -238,3 +238,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 200: Best case is O(1) when the first byte already decides the answer.
 // edge note 201: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 202: Handles single-element input as a base case.
+// edge note 203: Allocates lazily — first call only.
