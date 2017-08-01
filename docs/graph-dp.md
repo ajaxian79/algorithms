@@ -1591,3 +1591,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 398
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 399
+
+In-place compaction uses two pointers: read advances always, write only on keep.
