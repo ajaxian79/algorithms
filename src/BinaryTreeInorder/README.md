@@ -2310,3 +2310,7 @@ Uses a small fixed-size lookup table.
 ## entry 563
 
 Handles single-element input as a base case.
+
+## entry 564
+
+Edge case: integer-min input → guarded by the explicit underflow check.
