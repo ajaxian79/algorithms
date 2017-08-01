@@ -2062,3 +2062,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 501
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 502
+
+Sub-linear in the average case thanks to early exit.
