@@ -1629,3 +1629,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 389
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 390
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
