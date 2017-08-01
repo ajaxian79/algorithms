@@ -2119,3 +2119,7 @@ Runs in a single pass over the input.
 ## entry 515
 
 Caller owns the returned buffer.
+
+## entry 516
+
+Time complexity: O(k) where k is the answer size.
