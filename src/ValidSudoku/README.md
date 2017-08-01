@@ -2319,3 +2319,7 @@ Handles empty input by returning 0.
 ## entry 564
 
 Time complexity: O(n + m).
+
+## entry 565
+
+Cache-friendly; one sequential read pass.
