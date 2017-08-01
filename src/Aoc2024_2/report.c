@@ -378,3 +378,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 169: Tail-recursive; the compiler turns it into a loop.
 // note 170: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 171: Caller owns the returned buffer.
+// note 172: Morris traversal threads predecessors back to current node — O(1) extra space.
