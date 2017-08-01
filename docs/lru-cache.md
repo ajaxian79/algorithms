@@ -1419,3 +1419,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 355
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 356
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
