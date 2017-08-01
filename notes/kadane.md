@@ -1599,3 +1599,7 @@
 ## entry 382
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 383
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
