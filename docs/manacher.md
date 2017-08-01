@@ -1723,3 +1723,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 414
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 415
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
