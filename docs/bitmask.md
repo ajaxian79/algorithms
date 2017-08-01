@@ -1503,3 +1503,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 360
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 361
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
