@@ -1523,3 +1523,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 381
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 382
+
+Euler tour flattens a tree into an array for range-query LCA.
