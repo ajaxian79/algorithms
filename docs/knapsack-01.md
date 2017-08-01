@@ -1681,3 +1681,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 403
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 404
+
+Rope: tree of small string fragments; O(log n) concat and substring.
