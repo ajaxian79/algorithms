@@ -2293,3 +2293,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 558
 
 Two passes: one to count, one to fill.
+
+## entry 559
+
+Returns a freshly allocated string the caller must free.
