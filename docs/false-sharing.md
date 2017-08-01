@@ -1595,3 +1595,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 399
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 400
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
