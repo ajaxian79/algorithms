@@ -87671,3 +87671,7 @@
 ## entry 21918
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 21919
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
