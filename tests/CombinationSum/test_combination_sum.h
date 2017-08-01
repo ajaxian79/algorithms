@@ -244,3 +244,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 201: Time complexity: O(n + m).
 // edge note 202: Constant-time comparisons; safe for short strings.
+// edge note 203: Time complexity: O(k) where k is the answer size.
