@@ -225,3 +225,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 191: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 192: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 193: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 194: Time complexity: O(1).
