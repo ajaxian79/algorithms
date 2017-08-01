@@ -1605,3 +1605,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 385
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 386
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
