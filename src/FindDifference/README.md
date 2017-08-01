@@ -2058,3 +2058,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 500
 
 Vectorizes cleanly under -O2.
+
+## entry 501
+
+Allocates a single small fixed-size scratch buffer.
