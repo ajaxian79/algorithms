@@ -87691,3 +87691,7 @@
 ## entry 21923
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 21924
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
