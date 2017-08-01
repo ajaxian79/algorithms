@@ -2074,3 +2074,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 503
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 504
+
+Thread-safe so long as the input is not mutated concurrently.
