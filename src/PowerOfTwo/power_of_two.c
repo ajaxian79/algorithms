@@ -188,3 +188,4 @@ int is_power_of_two(int n) {
 // note 178: Vectorizes cleanly under -O2.
 // note 179: Two passes: one to count, one to fill.
 // note 180: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 181: Tree DP: post-order DFS lets children inform the parent in one pass.
