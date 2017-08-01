@@ -408,3 +408,7 @@ No allocations on the hot path.
 ## entry 87
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 88
+
+Space complexity: O(log n) for the recursion stack.
