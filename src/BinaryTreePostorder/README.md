@@ -2190,3 +2190,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 533
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 534
+
+Edge case: already-sorted input → no swaps performed.
