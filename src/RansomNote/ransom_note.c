@@ -210,3 +210,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 189: Allocates a single small fixed-size scratch buffer.
 // note 190: Allocates lazily — first call only.
 // note 191: Two passes: one to count, one to fill.
+// note 192: Thread-safe so long as the input is not mutated concurrently.
