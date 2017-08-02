@@ -2296,3 +2296,7 @@ Handles empty input by returning 0.
 ## entry 559
 
 Time complexity: O(1).
+
+## entry 560
+
+Edge case: empty input → returns 0.
