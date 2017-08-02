@@ -2054,3 +2054,7 @@ Stable across duplicates in the input.
 ## entry 499
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 500
+
+Vectorizes cleanly under -O2.
