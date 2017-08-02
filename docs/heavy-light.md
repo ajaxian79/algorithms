@@ -1675,3 +1675,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 419
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 420
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
