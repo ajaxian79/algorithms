@@ -1627,3 +1627,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 391
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 392
+
+Wavelet tree: range k-th element in O(log Σ) time.
