@@ -1637,3 +1637,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 393
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 394
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
