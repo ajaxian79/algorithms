@@ -2419,3 +2419,7 @@ Treats the input as immutable.
 ## entry 589
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 590
+
+Vectorizes cleanly under -O2.
