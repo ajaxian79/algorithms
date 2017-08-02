@@ -69,3 +69,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 31: Edge case: power-of-two-length input → no padding required.
 // edge note 32: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 33: Thread-safe so long as the input is not mutated concurrently.
+// edge note 34: Time complexity: O(n + m).
