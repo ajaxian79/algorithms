@@ -87623,3 +87623,7 @@
 ## entry 21906
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 21907
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
