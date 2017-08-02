@@ -2400,3 +2400,7 @@ Branchless inner loop after sorting.
 ## entry 585
 
 Handles single-element input as a base case.
+
+## entry 586
+
+Space complexity: O(1) auxiliary.
