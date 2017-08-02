@@ -2236,3 +2236,7 @@ Handles empty input by returning 0.
 ## entry 544
 
 Uses a small fixed-size lookup table.
+
+## entry 545
+
+Deterministic given the input — no PRNG seeds.
