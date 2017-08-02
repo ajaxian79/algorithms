@@ -222,3 +222,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 196: Constant-time comparisons; safe for short strings.
 // edge note 197: Handles empty input by returning 0.
 // edge note 198: Allocates one buffer of length n+1 for the result.
+// edge note 199: Sub-linear in the average case thanks to early exit.
