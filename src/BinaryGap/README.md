@@ -2266,3 +2266,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 551
 
 Returns a freshly allocated string the caller must free.
+
+## entry 552
+
+Edge case: empty input → returns 0.
