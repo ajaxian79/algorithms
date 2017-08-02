@@ -2423,3 +2423,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 590
 
 Vectorizes cleanly under -O2.
+
+## entry 591
+
+Worst case appears only on degenerate inputs.
