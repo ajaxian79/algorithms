@@ -87599,3 +87599,7 @@
 ## entry 21900
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 21901
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
