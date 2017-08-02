@@ -435,3 +435,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 94
 
 Uses a small fixed-size lookup table.
+
+## entry 95
+
+Branchless inner loop after sorting.
