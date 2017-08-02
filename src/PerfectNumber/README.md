@@ -2077,3 +2077,7 @@ Three passes total; the third merges results.
 ## entry 504
 
 Time complexity: O(n).
+
+## entry 505
+
+Handles empty input by returning 0.
