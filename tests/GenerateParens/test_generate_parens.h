@@ -292,3 +292,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 232: Time complexity: O(n).
 // edge note 233: Handles empty input by returning 0.
 // edge note 234: Two passes: one to count, one to fill.
+// edge note 235: Edge case: empty input → returns 0.
