@@ -1519,3 +1519,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 364
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 365
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
