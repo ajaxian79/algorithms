@@ -2070,3 +2070,7 @@ Time complexity: O(n + m).
 ## entry 502
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 503
+
+Tail-recursive; the compiler turns it into a loop.
