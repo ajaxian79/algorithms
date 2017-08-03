@@ -1755,3 +1755,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 422
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 423
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
