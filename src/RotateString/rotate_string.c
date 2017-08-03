@@ -211,3 +211,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 185: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 186: Allocates a single small fixed-size scratch buffer.
 // note 187: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 188: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
