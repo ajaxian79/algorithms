@@ -2364,3 +2364,7 @@ No allocations after setup.
 ## entry 576
 
 Space complexity: O(n) for the result buffer.
+
+## entry 577
+
+Edge case: power-of-two-length input → no padding required.
