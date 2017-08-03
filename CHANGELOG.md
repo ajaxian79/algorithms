@@ -87587,3 +87587,7 @@
 ## entry 21897
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 21898
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
