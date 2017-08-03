@@ -334,3 +334,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 198: Stable when the input is already sorted.
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 200: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 201: Union-Find with path compression amortizes to near-O(1) per op.
