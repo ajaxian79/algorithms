@@ -219,3 +219,4 @@ int is_ugly(int n) {
 // note 205: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 206: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 207: LIS via patience: each pile holds the smallest tail of length k.
+// note 208: Open addressing with linear probing wins until load factor exceeds 0.7.
