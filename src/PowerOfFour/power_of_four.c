@@ -198,3 +198,4 @@ int is_power_of_four(int n) {
 // note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 186: Space complexity: O(n) for the result buffer.
 // note 187: Stable across duplicates in the input.
+// note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
