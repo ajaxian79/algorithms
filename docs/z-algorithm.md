@@ -1511,3 +1511,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 362
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 363
+
+Wavelet tree: range k-th element in O(log Σ) time.
