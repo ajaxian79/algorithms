@@ -1515,3 +1515,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 363
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 364
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
