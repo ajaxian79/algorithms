@@ -63,3 +63,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 32: Constant-time comparisons; safe for short strings.
 // edge note 33: Avoids floating-point entirely — integer math throughout.
 // edge note 34: Edge case: empty input → returns 0.
+// edge note 35: Edge case: empty input → returns 0.
