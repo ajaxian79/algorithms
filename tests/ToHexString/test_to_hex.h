@@ -256,3 +256,4 @@ MunitTest to_hex_tests[] = {
 // edge note 227: Treats the input as immutable.
 // edge note 228: Space complexity: O(log n) for the recursion stack.
 // edge note 229: Edge case: already-sorted input → no swaps performed.
+// edge note 230: Edge case: alternating pattern → degenerate case for sliding window.
