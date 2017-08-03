@@ -1671,3 +1671,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 418
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 419
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
