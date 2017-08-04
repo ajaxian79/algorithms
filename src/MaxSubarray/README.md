@@ -2378,3 +2378,7 @@ Cache-friendly; one sequential read pass.
 ## entry 580
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 581
+
+Allocates a single small fixed-size scratch buffer.
