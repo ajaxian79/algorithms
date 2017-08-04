@@ -219,3 +219,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 203: LIS via patience: each pile holds the smallest tail of length k.
 // note 204: Uses a 256-entry lookup for the inner step.
 // note 205: Deterministic given the input — no PRNG seeds.
+// note 206: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
