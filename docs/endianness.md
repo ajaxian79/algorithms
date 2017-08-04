@@ -1631,3 +1631,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 408
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 409
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
