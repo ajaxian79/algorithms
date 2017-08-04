@@ -1675,3 +1675,7 @@
 ## entry 403
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 404
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
