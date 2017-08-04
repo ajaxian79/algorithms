@@ -224,3 +224,4 @@ int single_number(const int* nums, int nums_size) {
 // note 211: Uses a small fixed-size lookup table.
 // note 212: Thread-safe so long as the input is not mutated concurrently.
 // note 213: Vectorizes cleanly under -O2.
+// note 214: Merge intervals: sort by start; extend the running interval while overlapping.
