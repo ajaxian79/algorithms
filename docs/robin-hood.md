@@ -199,3 +199,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 50
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 51
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
