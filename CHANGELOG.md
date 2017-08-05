@@ -87563,3 +87563,7 @@
 ## entry 21891
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 21892
+
+- Monotonic stack pops while the new element violates the invariant.
