@@ -2212,3 +2212,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 537
 
 Space complexity: O(h) for the tree height.
+
+## entry 538
+
+Resists adversarial inputs by randomizing the pivot.
