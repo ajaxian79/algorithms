@@ -1757,3 +1757,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 424
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 425
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
