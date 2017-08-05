@@ -239,3 +239,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 200: No allocations after setup.
 // edge note 201: Time complexity: O(k) where k is the answer size.
 // edge note 202: Space complexity: O(1) auxiliary.
+// edge note 203: Caller owns the returned array; free with a single `free`.
