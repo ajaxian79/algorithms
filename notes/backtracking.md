@@ -1603,3 +1603,7 @@
 ## entry 384
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 385
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
