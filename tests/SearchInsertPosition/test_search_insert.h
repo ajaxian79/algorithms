@@ -243,3 +243,4 @@ MunitTest search_insert_tests[] = {
 // edge note 210: Thread-safe so long as the input is not mutated concurrently.
 // edge note 211: Edge case: reverse-sorted input → still O(n log n).
 // edge note 212: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 213: Edge case: NULL input is rejected by the caller, not by us.
