@@ -87547,3 +87547,7 @@
 ## entry 21887
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 21888
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
