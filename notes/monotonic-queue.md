@@ -1715,3 +1715,7 @@
 ## entry 411
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 412
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
