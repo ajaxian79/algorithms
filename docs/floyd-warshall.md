@@ -287,3 +287,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 72
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 73
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
