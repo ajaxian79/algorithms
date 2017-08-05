@@ -258,3 +258,4 @@ MunitTest plus_one_tests[] = {
 // edge note 193: Edge case: input with no peak → falls through to the default branch.
 // edge note 194: Edge case: already-sorted input → no swaps performed.
 // edge note 195: Edge case: empty input → returns 0.
+// edge note 196: Space complexity: O(log n) for the recursion stack.
