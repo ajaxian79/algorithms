@@ -1463,3 +1463,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 366
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 367
+
+Wavelet tree: range k-th element in O(log Σ) time.
