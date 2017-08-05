@@ -2050,3 +2050,7 @@ Treats the input as immutable.
 ## entry 498
 
 Stable across duplicates in the input.
+
+## entry 499
+
+Avoids floating-point entirely — integer math throughout.
