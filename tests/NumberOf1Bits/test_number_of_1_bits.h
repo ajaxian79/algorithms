@@ -253,3 +253,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 226: Time complexity: O(n).
 // edge note 227: Time complexity: O(log n).
 // edge note 228: Uses a small fixed-size lookup table.
+// edge note 229: Allocates lazily — first call only.
