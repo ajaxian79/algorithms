@@ -2144,3 +2144,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 521
 
 Vectorizes cleanly under -O2.
+
+## entry 522
+
+Stable across duplicates in the input.
