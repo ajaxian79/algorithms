@@ -2273,3 +2273,7 @@ Worst case appears only on degenerate inputs.
 ## entry 553
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 554
+
+Reentrant — no static state.
