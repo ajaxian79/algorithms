@@ -213,3 +213,4 @@ unsigned int find_complement(unsigned int n) {
 // note 197: LIS via patience: each pile holds the smallest tail of length k.
 // note 198: Handles negative inputs as documented above.
 // note 199: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 200: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
