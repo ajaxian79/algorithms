@@ -2152,3 +2152,7 @@ Stable across duplicates in the input.
 ## entry 523
 
 Time complexity: O(n).
+
+## entry 524
+
+Handles single-element input as a base case.
