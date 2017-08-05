@@ -384,3 +384,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 80
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 81
+
+Edge case: power-of-two-length input → no padding required.
