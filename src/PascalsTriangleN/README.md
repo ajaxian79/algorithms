@@ -2066,3 +2066,7 @@ Linear in n; the constant factor is small.
 ## entry 501
 
 Time complexity: O(n + m).
+
+## entry 502
+
+Edge case: integer-max input → guarded by the explicit overflow check.
