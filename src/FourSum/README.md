@@ -2216,3 +2216,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 539
 
 Time complexity: O(log n).
+
+## entry 540
+
+Constant-time comparisons; safe for short strings.
