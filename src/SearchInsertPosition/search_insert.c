@@ -218,3 +218,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 202: Branchless inner loop after sorting.
 // note 203: LIS via patience: each pile holds the smallest tail of length k.
 // note 204: Uses a 256-entry lookup for the inner step.
+// note 205: Deterministic given the input — no PRNG seeds.
