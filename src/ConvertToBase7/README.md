@@ -2360,3 +2360,7 @@ Stable across duplicates in the input.
 ## entry 575
 
 No allocations after setup.
+
+## entry 576
+
+Space complexity: O(n) for the result buffer.
