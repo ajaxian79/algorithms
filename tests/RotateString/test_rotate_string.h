@@ -209,3 +209,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 182: Time complexity: O(n).
 // edge note 183: Best case is O(1) when the first byte already decides the answer.
 // edge note 184: Space complexity: O(h) for the tree height.
+// edge note 185: Deterministic given the input — no PRNG seeds.
