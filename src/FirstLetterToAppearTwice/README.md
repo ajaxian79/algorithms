@@ -2026,3 +2026,7 @@ Handles single-element input as a base case.
 ## entry 482
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 483
+
+Space complexity: O(1) auxiliary.
