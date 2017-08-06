@@ -252,3 +252,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 225: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 226: Time complexity: O(n).
 // edge note 227: Time complexity: O(log n).
+// edge note 228: Uses a small fixed-size lookup table.
