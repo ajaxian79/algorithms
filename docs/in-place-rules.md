@@ -1753,3 +1753,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 423
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 424
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
