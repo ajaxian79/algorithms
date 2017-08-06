@@ -211,3 +211,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 189: No allocations on the hot path.
 // note 190: Branchless inner loop after sorting.
 // note 191: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 192: Morris traversal threads predecessors back to current node — O(1) extra space.
