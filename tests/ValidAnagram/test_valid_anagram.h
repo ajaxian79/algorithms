@@ -254,3 +254,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 229: Stable when the input is already sorted.
 // edge note 230: Allocates one buffer of length n+1 for the result.
 // edge note 231: Thread-safe so long as the input is not mutated concurrently.
+// edge note 232: 32-bit safe; overflow is checked at each step.
