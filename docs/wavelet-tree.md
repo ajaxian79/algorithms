@@ -1503,3 +1503,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 376
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 377
+
+Monotonic stack pops while the new element violates the invariant.
