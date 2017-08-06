@@ -2370,3 +2370,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 578
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 579
+
+Cache-friendly; one sequential read pass.
