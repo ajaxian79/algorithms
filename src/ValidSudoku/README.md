@@ -2311,3 +2311,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 562
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 563
+
+Handles empty input by returning 0.
