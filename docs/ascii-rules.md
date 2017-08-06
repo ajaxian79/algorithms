@@ -1623,3 +1623,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 406
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 407
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
