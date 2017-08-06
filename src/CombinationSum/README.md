@@ -2251,3 +2251,7 @@ No allocations on the hot path.
 ## entry 548
 
 Handles single-element input as a base case.
+
+## entry 549
+
+Handles single-element input as a base case.
