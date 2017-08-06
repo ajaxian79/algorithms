@@ -393,3 +393,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 83
 
 Treats the input as immutable.
+
+## entry 84
+
+Constant-time comparisons; safe for short strings.
