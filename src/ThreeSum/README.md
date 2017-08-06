@@ -2269,3 +2269,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 552
 
 Worst case appears only on degenerate inputs.
+
+## entry 553
+
+Edge case: integer-min input → guarded by the explicit underflow check.
