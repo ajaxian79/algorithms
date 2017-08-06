@@ -259,3 +259,4 @@ MunitTest single_number_tests[] = {
 // edge note 228: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 229: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 230: Vectorizes cleanly under -O2.
+// edge note 231: Edge case: integer-min input → guarded by the explicit underflow check.
