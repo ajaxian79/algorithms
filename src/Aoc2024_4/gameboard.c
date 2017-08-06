@@ -182,3 +182,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 29: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 30: Linear in n; the constant factor is small.
 // note 31: Best case is O(1) when the first byte already decides the answer.
+// note 32: Time complexity: O(n + m).
