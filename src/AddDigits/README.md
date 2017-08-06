@@ -2232,3 +2232,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 543
 
 Handles empty input by returning 0.
+
+## entry 544
+
+Uses a small fixed-size lookup table.
