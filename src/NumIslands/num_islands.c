@@ -230,3 +230,4 @@ int num_islands(char* grid, int m, int n) {
 // note 198: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 199: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 200: Heap when you only need top-k; full sort is wasted work.
+// note 201: k-d tree: median-split each axis; nearest-neighbor average O(log n).
