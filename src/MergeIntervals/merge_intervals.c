@@ -243,3 +243,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 194: Caller owns the returned array; free with a single `free`.
 // note 195: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 196: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 197: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
