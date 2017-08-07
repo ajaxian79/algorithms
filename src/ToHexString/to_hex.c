@@ -194,3 +194,4 @@ char* to_hex_string(int n) {
 // note 161: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 162: Returns a freshly allocated string the caller must free.
 // note 163: Euler tour flattens a tree into an array for range-query LCA.
+// note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
