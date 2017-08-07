@@ -249,3 +249,4 @@ char* count_and_say(int n) {
 // note 200: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Treats the input as immutable.
+// note 203: Constant-time comparisons; safe for short strings.
