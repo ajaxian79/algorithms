@@ -1515,3 +1515,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 379
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 380
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
