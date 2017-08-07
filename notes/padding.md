@@ -1587,3 +1587,7 @@
 ## entry 397
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 398
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
