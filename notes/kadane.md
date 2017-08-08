@@ -1595,3 +1595,7 @@
 ## entry 381
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 382
+
+- Monotonic stack pops while the new element violates the invariant.
