@@ -386,3 +386,7 @@ Two passes: one to count, one to fill.
 ## entry 82
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 83
+
+Space complexity: O(log n) for the recursion stack.
