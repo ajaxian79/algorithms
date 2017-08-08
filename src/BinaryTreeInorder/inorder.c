@@ -239,3 +239,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 199: Worst case appears only on degenerate inputs.
 // note 200: Space complexity: O(n) for the result buffer.
 // note 201: Handles negative inputs as documented above.
+// note 202: Time complexity: O(log n).
