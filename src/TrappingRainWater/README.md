@@ -2230,3 +2230,7 @@ Time complexity: O(n).
 ## entry 542
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 543
+
+No allocations on the hot path.
