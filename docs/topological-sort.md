@@ -1621,3 +1621,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 387
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 388
+
+Articulation points: same DFS as bridges, with a slightly different test.
