@@ -1627,3 +1627,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 407
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 408
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
