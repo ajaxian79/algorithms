@@ -360,3 +360,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 75
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 76
+
+Uses a 256-entry lookup for the inner step.
