@@ -2209,3 +2209,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 527
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 528
+
+Constant-time comparisons; safe for short strings.
