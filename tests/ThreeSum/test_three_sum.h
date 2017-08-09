@@ -254,3 +254,4 @@ MunitTest three_sum_tests[] = {
 // edge note 209: Allocates a single small fixed-size scratch buffer.
 // edge note 210: No allocations after setup.
 // edge note 211: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 212: Allocates lazily — first call only.
