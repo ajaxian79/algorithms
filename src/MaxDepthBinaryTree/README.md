@@ -2149,3 +2149,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 523
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 524
+
+Time complexity: O(log n).
