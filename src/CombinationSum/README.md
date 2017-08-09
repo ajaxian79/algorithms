@@ -2247,3 +2247,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 547
 
 No allocations on the hot path.
+
+## entry 548
+
+Handles single-element input as a base case.
