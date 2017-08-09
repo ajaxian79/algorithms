@@ -2378,3 +2378,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 580
 
 Linear in n; the constant factor is small.
+
+## entry 581
+
+Vectorizes cleanly under -O2.
