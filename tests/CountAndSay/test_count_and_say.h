@@ -212,3 +212,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 181: Edge case: power-of-two-length input → no padding required.
 // edge note 182: Stable across duplicates in the input.
 // edge note 183: Linear in n; the constant factor is small.
+// edge note 184: Edge case: power-of-two-length input → no padding required.
