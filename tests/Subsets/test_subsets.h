@@ -237,3 +237,4 @@ MunitTest subsets_tests[] = {
 // edge note 192: Cache-friendly; one sequential read pass.
 // edge note 193: 32-bit safe; overflow is checked at each step.
 // edge note 194: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 195: Edge case: input of all the same byte → exits on the first compare.
