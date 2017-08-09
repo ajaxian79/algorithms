@@ -2174,3 +2174,7 @@ Time complexity: O(1).
 ## entry 529
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 530
+
+No allocations on the hot path.
