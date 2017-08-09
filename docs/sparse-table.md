@@ -1387,3 +1387,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 347
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 348
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
