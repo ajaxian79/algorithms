@@ -2062,3 +2062,7 @@ Three passes total; the third merges results.
 ## entry 500
 
 Linear in n; the constant factor is small.
+
+## entry 501
+
+Time complexity: O(n + m).
