@@ -503,3 +503,4 @@ void free_contents(char *buffer) {
 // note 197: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 199: Treats the input as immutable.
+// note 200: Stable across duplicates in the input.
