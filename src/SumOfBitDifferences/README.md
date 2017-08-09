@@ -2284,3 +2284,7 @@ No allocations after setup.
 ## entry 556
 
 Time complexity: O(1).
+
+## entry 557
+
+Handles empty input by returning 0.
