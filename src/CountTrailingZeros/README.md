@@ -2250,3 +2250,7 @@ Uses a small fixed-size lookup table.
 ## entry 547
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 548
+
+Stable across duplicates in the input.
