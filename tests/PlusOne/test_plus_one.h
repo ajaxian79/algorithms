@@ -256,3 +256,4 @@ MunitTest plus_one_tests[] = {
 // edge note 191: Time complexity: O(log n).
 // edge note 192: Edge case: zero-length string → returns the empty result.
 // edge note 193: Edge case: input with no peak → falls through to the default branch.
+// edge note 194: Edge case: already-sorted input → no swaps performed.
