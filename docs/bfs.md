@@ -1609,3 +1609,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 385
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 386
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
