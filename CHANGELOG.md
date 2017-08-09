@@ -87443,3 +87443,7 @@
 ## entry 21861
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 21862
+
+- Splay tree: every access splays to the root; amortized O(log n).
