@@ -2186,3 +2186,7 @@ Two passes: one to count, one to fill.
 ## entry 532
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 533
+
+Idempotent — calling twice with the same input is a no-op the second time.
