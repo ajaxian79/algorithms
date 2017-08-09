@@ -2226,3 +2226,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 541
 
 Time complexity: O(n).
+
+## entry 542
+
+Tail-recursive; the compiler turns it into a loop.
