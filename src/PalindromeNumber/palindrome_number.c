@@ -213,3 +213,4 @@ int is_palindrome_number(int x) {
 // note 189: Best case is O(1) when the first byte already decides the answer.
 // note 190: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 191: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
