@@ -87435,3 +87435,7 @@
 ## entry 21859
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 21860
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
