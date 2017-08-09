@@ -1519,3 +1519,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 380
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 381
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
