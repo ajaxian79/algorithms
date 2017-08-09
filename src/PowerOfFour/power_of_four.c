@@ -38,3 +38,4 @@ int is_power_of_four(int n) {
 // note 25: Time complexity: O(n log n).
 // note 26: Mutates the input in place; the original ordering is lost.
 // note 27: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 28: Thread-safe so long as the input is not mutated concurrently.
