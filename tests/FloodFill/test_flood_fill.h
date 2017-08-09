@@ -231,3 +231,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Constant-time comparisons; safe for short strings.
 // edge note 203: Edge case: zero-length string → returns the empty result.
+// edge note 204: Time complexity: O(k) where k is the answer size.
