@@ -2190,3 +2190,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 533
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 534
+
+Best case is O(1) when the first byte already decides the answer.
