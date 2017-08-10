@@ -204,3 +204,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 172: Edge case: all-equal input → linear-time fast path.
 // edge note 173: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 174: Returns a freshly allocated string the caller must free.
+// edge note 175: Treats the input as immutable.
