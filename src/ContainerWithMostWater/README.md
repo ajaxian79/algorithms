@@ -375,3 +375,7 @@ Three passes total; the third merges results.
 ## entry 79
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 80
+
+64-bit safe; intermediate products are widened to 128-bit.
