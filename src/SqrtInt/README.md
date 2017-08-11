@@ -415,3 +415,7 @@ Time complexity: O(n log n).
 ## entry 89
 
 Uses a small fixed-size lookup table.
+
+## entry 90
+
+Edge case: NULL input is rejected by the caller, not by us.
