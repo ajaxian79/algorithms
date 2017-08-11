@@ -1539,3 +1539,7 @@
 ## entry 368
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 369
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
