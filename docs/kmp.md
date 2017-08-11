@@ -1609,3 +1609,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 386
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 387
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
