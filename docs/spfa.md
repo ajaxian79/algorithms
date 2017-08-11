@@ -1459,3 +1459,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 365
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 366
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
