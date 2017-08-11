@@ -2268,3 +2268,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 552
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 553
+
+Time complexity: O(1).
