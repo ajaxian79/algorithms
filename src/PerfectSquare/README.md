@@ -2370,3 +2370,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 578
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 579
+
+Time complexity: O(n^2) worst case, O(n) amortized.
