@@ -2228,3 +2228,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 542
 
 Constant-time comparisons; safe for short strings.
+
+## entry 543
+
+Handles empty input by returning 0.
