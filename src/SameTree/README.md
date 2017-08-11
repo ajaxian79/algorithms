@@ -2180,3 +2180,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 531
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 532
+
+Resists adversarial inputs by randomizing the pivot.
