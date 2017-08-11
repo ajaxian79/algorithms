@@ -2186,3 +2186,7 @@ Stable across duplicates in the input.
 ## entry 532
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 533
+
+Allocates one buffer of length n+1 for the result.
