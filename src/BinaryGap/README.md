@@ -2262,3 +2262,7 @@ Time complexity: O(n + m).
 ## entry 550
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 551
+
+Returns a freshly allocated string the caller must free.
