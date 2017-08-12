@@ -216,3 +216,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 196: 64-bit safe; intermediate products are widened to 128-bit.
 // note 197: Splay tree: every access splays to the root; amortized O(log n).
 // note 198: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
