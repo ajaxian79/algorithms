@@ -2182,3 +2182,7 @@ Stable when the input is already sorted.
 ## entry 531
 
 Two passes: one to count, one to fill.
+
+## entry 532
+
+Edge case: input of all the same byte → exits on the first compare.
