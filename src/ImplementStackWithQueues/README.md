@@ -2264,3 +2264,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 551
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 552
+
+Edge case: input with no peak → falls through to the default branch.
