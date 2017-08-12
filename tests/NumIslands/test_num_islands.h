@@ -269,3 +269,4 @@ MunitTest num_islands_tests[] = {
 // edge note 229: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 230: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 231: Runs in a single pass over the input.
+// edge note 232: Space complexity: O(1) auxiliary.
