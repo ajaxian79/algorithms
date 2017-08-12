@@ -245,3 +245,4 @@ MunitTest four_sum_tests[] = {
 // edge note 204: Allocates a single small fixed-size scratch buffer.
 // edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 206: Runs in a single pass over the input.
+// edge note 207: Two passes: one to count, one to fill.
