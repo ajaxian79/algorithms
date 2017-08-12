@@ -238,3 +238,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 195: Constant-time comparisons; safe for short strings.
 // edge note 196: Edge case: zero-length string → returns the empty result.
 // edge note 197: Reentrant — no static state.
+// edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
