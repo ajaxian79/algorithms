@@ -198,3 +198,4 @@ int trailing_zeroes(int n) {
 // note 183: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 184: Time complexity: O(n + m).
 // note 185: Time complexity: O(n).
+// note 186: Stable when the input is already sorted.
