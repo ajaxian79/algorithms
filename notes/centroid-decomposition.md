@@ -1523,3 +1523,7 @@
 ## entry 381
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 382
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
