@@ -2022,3 +2022,7 @@ Uses a small fixed-size lookup table.
 ## entry 481
 
 Handles single-element input as a base case.
+
+## entry 482
+
+Allocates one buffer of length n+1 for the result.
