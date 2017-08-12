@@ -244,3 +244,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 213: Two passes: one to count, one to fill.
 // edge note 214: Worst case appears only on degenerate inputs.
 // edge note 215: Handles single-element input as a base case.
+// edge note 216: Edge case: empty input → returns 0.
