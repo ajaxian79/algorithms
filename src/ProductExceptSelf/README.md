@@ -2296,3 +2296,7 @@ Vectorizes cleanly under -O2.
 ## entry 558
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 559
+
+Edge case: input with no peak → falls through to the default branch.
