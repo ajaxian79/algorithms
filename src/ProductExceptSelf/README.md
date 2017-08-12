@@ -2292,3 +2292,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 557
 
 Vectorizes cleanly under -O2.
+
+## entry 558
+
+Edge case: input with a single peak → handled by the first-pass scan.
