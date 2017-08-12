@@ -2284,3 +2284,7 @@ Handles negative inputs as documented above.
 ## entry 555
 
 Vectorizes cleanly under -O2.
+
+## entry 556
+
+Time complexity: O(n*k) where k is the alphabet size.
