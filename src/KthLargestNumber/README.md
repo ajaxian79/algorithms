@@ -2280,3 +2280,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 554
 
 Handles negative inputs as documented above.
+
+## entry 555
+
+Vectorizes cleanly under -O2.
