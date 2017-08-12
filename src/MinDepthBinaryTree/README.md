@@ -2186,3 +2186,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 532
 
 Cache-friendly; one sequential read pass.
+
+## entry 533
+
+Caller owns the returned array; free with a single `free`.
