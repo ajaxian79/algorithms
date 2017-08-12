@@ -2238,3 +2238,7 @@ Handles empty input by returning 0.
 ## entry 545
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 546
+
+Time complexity: O(n*k) where k is the alphabet size.
