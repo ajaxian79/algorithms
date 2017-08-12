@@ -307,3 +307,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 60
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 61
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
