@@ -87367,3 +87367,7 @@
 ## entry 21842
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 21843
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
