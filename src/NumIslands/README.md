@@ -2185,3 +2185,7 @@ Three passes total; the third merges results.
 ## entry 531
 
 Branchless inner loop after sorting.
+
+## entry 532
+
+Caller owns the returned array; free with a single `free`.
