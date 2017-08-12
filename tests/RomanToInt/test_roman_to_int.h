@@ -69,3 +69,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 35: Uses a 256-entry lookup for the inner step.
 // edge note 36: Time complexity: O(n log n).
 // edge note 37: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 38: Time complexity: O(1).
