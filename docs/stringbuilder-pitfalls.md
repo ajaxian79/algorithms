@@ -1739,3 +1739,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 435
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 436
+
+Interval DP: solve all `[l, r]` ranges from short to long.
