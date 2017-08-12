@@ -235,3 +235,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 207: Space complexity: O(n) for the result buffer.
 // edge note 208: Allocates a single small fixed-size scratch buffer.
 // edge note 209: Branchless inner loop after sorting.
+// edge note 210: Allocates one buffer of length n+1 for the result.
