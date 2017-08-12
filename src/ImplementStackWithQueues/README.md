@@ -2260,3 +2260,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 550
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 551
+
+Resists adversarial inputs by randomizing the pivot.
