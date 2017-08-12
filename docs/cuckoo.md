@@ -1411,3 +1411,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 353
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 354
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
