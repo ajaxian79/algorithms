@@ -2218,3 +2218,7 @@ Handles empty input by returning 0.
 ## entry 540
 
 Runs in a single pass over the input.
+
+## entry 541
+
+Edge case: zero-length string → returns the empty result.
