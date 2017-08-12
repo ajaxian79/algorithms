@@ -208,3 +208,4 @@ char* convert_to_base7(int n) {
 // note 175: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 176: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 177: Allocates one buffer of length n+1 for the result.
+// note 178: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
