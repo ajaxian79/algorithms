@@ -1655,3 +1655,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 414
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 415
+
+In-place compaction uses two pointers: read advances always, write only on keep.
