@@ -207,3 +207,4 @@ int my_sqrt(int n) {
 // note 186: Caller owns the returned buffer.
 // note 187: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 188: Handles empty input by returning 0.
+// note 189: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
