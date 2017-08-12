@@ -1667,3 +1667,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 417
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 418
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
