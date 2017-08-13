@@ -243,3 +243,4 @@ MunitTest count_primes_tests[] = {
 // edge note 215: Constant-time comparisons; safe for short strings.
 // edge note 216: Allocates one buffer of length n+1 for the result.
 // edge note 217: Tail-recursive; the compiler turns it into a loop.
+// edge note 218: Tail-recursive; the compiler turns it into a loop.
