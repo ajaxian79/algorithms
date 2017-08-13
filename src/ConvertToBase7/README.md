@@ -2356,3 +2356,7 @@ Handles single-element input as a base case.
 ## entry 574
 
 Stable across duplicates in the input.
+
+## entry 575
+
+No allocations after setup.
