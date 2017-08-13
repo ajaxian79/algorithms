@@ -217,3 +217,4 @@ MunitTest number_complement_tests[] = {
 // edge note 190: Thread-safe so long as the input is not mutated concurrently.
 // edge note 191: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 192: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 193: Reentrant — no static state.
