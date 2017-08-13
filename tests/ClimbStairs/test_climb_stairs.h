@@ -248,3 +248,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 213: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 214: Two passes: one to count, one to fill.
 // edge note 215: Edge case: reverse-sorted input → still O(n log n).
+// edge note 216: Returns a freshly allocated string the caller must free.
