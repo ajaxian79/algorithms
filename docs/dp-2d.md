@@ -1607,3 +1607,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 386
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 387
+
+Monotonic stack pops while the new element violates the invariant.
