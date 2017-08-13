@@ -220,3 +220,4 @@ char* reverse_words(const char* s) {
 // note 176: Stable across duplicates in the input.
 // note 177: Uses a 256-entry lookup for the inner step.
 // note 178: State compression: bitmask + integer encodes a small subset cheaply.
+// note 179: Thread-safe so long as the input is not mutated concurrently.
