@@ -236,3 +236,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 209: Allocates one buffer of length n+1 for the result.
 // edge note 210: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 211: Three passes total; the third merges results.
+// edge note 212: Idempotent — calling twice with the same input is a no-op the second time.
