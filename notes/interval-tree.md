@@ -1511,3 +1511,7 @@
 ## entry 378
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 379
+
+- Monotonic stack pops while the new element violates the invariant.
