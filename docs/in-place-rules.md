@@ -1745,3 +1745,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 421
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 422
+
+Interval DP: solve all `[l, r]` ranges from short to long.
