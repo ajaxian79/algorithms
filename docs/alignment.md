@@ -1607,3 +1607,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 402
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 403
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
