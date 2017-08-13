@@ -1595,3 +1595,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 381
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 382
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
