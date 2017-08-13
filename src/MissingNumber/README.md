@@ -2330,3 +2330,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 567
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 568
+
+Allocates lazily — first call only.
