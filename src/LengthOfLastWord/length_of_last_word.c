@@ -218,3 +218,4 @@ int length_of_last_word(const char* s) {
 // note 200: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 201: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 202: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 203: Stable across duplicates in the input.
