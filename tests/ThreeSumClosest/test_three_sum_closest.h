@@ -241,3 +241,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 213: Linear in n; the constant factor is small.
 // edge note 214: Edge case: input of all the same byte → exits on the first compare.
 // edge note 215: Time complexity: O(k) where k is the answer size.
+// edge note 216: Edge case: integer-min input → guarded by the explicit underflow check.
