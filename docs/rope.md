@@ -1571,3 +1571,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 393
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 394
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
