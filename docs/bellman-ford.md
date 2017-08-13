@@ -1655,3 +1655,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 414
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 415
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
