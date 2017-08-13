@@ -2316,3 +2316,7 @@ Uses a small fixed-size lookup table.
 ## entry 563
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 564
+
+Thread-safe so long as the input is not mutated concurrently.
