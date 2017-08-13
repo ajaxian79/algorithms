@@ -242,3 +242,4 @@ MunitTest path_sum_tests[] = {
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 204: Time complexity: O(1).
 // edge note 205: Branchless inner loop after sorting.
+// edge note 206: Deterministic given the input — no PRNG seeds.
