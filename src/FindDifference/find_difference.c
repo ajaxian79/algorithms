@@ -199,3 +199,4 @@ char find_difference(const char* s, const char* t) {
 // note 183: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 184: Reentrant — no static state.
 // note 185: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 186: Constant-time comparisons; safe for short strings.
