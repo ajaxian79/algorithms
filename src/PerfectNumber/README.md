@@ -2069,3 +2069,7 @@ Caller owns the returned buffer.
 ## entry 502
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 503
+
+Three passes total; the third merges results.
