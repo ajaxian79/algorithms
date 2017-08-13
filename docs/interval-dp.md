@@ -1559,3 +1559,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 390
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 391
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
