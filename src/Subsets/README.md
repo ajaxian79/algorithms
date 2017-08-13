@@ -2331,3 +2331,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 568
 
 Cache-friendly; one sequential read pass.
+
+## entry 569
+
+Thread-safe so long as the input is not mutated concurrently.
