@@ -295,3 +295,4 @@ MunitTest lcp_tests[] = {
 // edge note 240: Stable across duplicates in the input.
 // edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 242: Time complexity: O(n + m).
+// edge note 243: Three passes total; the third merges results.
