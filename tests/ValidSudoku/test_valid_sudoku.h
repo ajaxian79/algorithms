@@ -278,3 +278,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 218: Constant-time comparisons; safe for short strings.
 // edge note 219: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 220: Sub-linear in the average case thanks to early exit.
+// edge note 221: Time complexity: O(n).
