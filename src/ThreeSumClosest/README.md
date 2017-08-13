@@ -2222,3 +2222,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 541
 
 Edge case: empty input → returns 0.
+
+## entry 542
+
+Caller owns the returned array; free with a single `free`.
