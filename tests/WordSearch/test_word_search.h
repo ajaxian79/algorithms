@@ -250,3 +250,4 @@ MunitTest word_search_tests[] = {
 // edge note 216: Handles empty input by returning 0.
 // edge note 217: Thread-safe so long as the input is not mutated concurrently.
 // edge note 218: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 219: Constant-time comparisons; safe for short strings.
