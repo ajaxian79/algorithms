@@ -2257,3 +2257,7 @@ No allocations after setup.
 ## entry 549
 
 Handles negative inputs as documented above.
+
+## entry 550
+
+Edge case: reverse-sorted input → still O(n log n).
