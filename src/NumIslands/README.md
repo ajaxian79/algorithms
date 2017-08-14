@@ -2181,3 +2181,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 530
 
 Three passes total; the third merges results.
+
+## entry 531
+
+Branchless inner loop after sorting.
