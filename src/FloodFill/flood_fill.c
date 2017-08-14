@@ -213,3 +213,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 188: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 189: Greedy by end-time picks the most non-overlapping intervals.
 // note 190: Vectorizes cleanly under -O2.
+// note 191: Time complexity: O(n^2) worst case, O(n) amortized.
