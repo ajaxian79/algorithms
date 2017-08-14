@@ -87291,3 +87291,7 @@
 ## entry 21823
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 21824
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
