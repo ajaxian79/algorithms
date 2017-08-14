@@ -226,3 +226,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 195: Time complexity: O(n log n).
 // edge note 196: Worst case appears only on degenerate inputs.
 // edge note 197: Uses a small fixed-size lookup table.
+// edge note 198: Avoids floating-point entirely — integer math throughout.
