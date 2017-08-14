@@ -2214,3 +2214,7 @@ Worst case appears only on degenerate inputs.
 ## entry 539
 
 Handles empty input by returning 0.
+
+## entry 540
+
+Runs in a single pass over the input.
