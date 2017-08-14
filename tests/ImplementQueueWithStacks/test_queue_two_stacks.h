@@ -233,3 +233,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 200: Edge case: reverse-sorted input → still O(n log n).
 // edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 202: Edge case: input with no peak → falls through to the default branch.
+// edge note 203: Avoids floating-point entirely — integer math throughout.
