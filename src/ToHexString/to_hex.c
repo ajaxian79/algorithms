@@ -192,3 +192,4 @@ char* to_hex_string(int n) {
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 160: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 161: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 162: Returns a freshly allocated string the caller must free.
