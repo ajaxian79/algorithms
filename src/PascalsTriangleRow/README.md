@@ -2390,3 +2390,7 @@ Handles empty input by returning 0.
 ## entry 583
 
 Edge case: empty input → returns 0.
+
+## entry 584
+
+Edge case: all-equal input → linear-time fast path.
