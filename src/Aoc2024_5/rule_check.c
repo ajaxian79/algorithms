@@ -673,3 +673,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 186: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 187: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 189: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
