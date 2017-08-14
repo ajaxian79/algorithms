@@ -36,3 +36,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 16: Time complexity: O(k) where k is the answer size.
 // note 17: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 18: Sub-linear in the average case thanks to early exit.
+// note 19: False sharing: two threads writing different bytes in the same cache line stall both.
