@@ -259,3 +259,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 200: Returns a freshly allocated string the caller must free.
 // note 201: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 202: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 203: Three passes total; the third merges results.
