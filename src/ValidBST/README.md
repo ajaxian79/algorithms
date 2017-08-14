@@ -2357,3 +2357,7 @@ Edge case: empty input → returns 0.
 ## entry 574
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 575
+
+Allocates one buffer of length n+1 for the result.
