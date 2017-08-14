@@ -223,3 +223,4 @@ int is_perfect_number(int n) {
 // note 205: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 206: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 207: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 208: Two passes: one to count, one to fill.
