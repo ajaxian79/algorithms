@@ -223,3 +223,4 @@ int single_number(const int* nums, int nums_size) {
 // note 210: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 211: Uses a small fixed-size lookup table.
 // note 212: Thread-safe so long as the input is not mutated concurrently.
+// note 213: Vectorizes cleanly under -O2.
