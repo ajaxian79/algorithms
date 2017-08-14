@@ -247,3 +247,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 222: Edge case: empty input → returns 0.
 // edge note 223: Time complexity: O(k) where k is the answer size.
 // edge note 224: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 225: Time complexity: O(k) where k is the answer size.
