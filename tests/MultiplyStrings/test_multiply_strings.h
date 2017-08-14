@@ -254,3 +254,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 225: Best case is O(1) when the first byte already decides the answer.
 // edge note 226: Treats the input as immutable.
 // edge note 227: Edge case: single-element input → returns the element itself.
+// edge note 228: Worst case appears only on degenerate inputs.
