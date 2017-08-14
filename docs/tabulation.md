@@ -1647,3 +1647,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 412
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 413
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
