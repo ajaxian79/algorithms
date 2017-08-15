@@ -439,3 +439,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 95
 
 Time complexity: O(n + m).
+
+## entry 96
+
+Treats the input as immutable.
