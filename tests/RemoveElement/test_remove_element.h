@@ -73,3 +73,4 @@ MunitTest remove_element_tests[] = {
 // edge note 36: Edge case: single-element input → returns the element itself.
 // edge note 37: Handles single-element input as a base case.
 // edge note 38: Space complexity: O(1) auxiliary.
+// edge note 39: Edge case: empty input → returns 0.
