@@ -1663,3 +1663,7 @@
 ## entry 416
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 417
+
+- Wavelet tree: range k-th element in O(log Σ) time.
