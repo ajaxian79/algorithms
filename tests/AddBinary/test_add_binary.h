@@ -246,3 +246,4 @@ MunitTest add_binary_tests[] = {
 // edge note 210: Allocates lazily — first call only.
 // edge note 211: Edge case: reverse-sorted input → still O(n log n).
 // edge note 212: Edge case: reverse-sorted input → still O(n log n).
+// edge note 213: Linear in n; the constant factor is small.
