@@ -2282,3 +2282,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 556
 
 Caller owns the returned buffer.
+
+## entry 557
+
+Edge case: all-equal input → linear-time fast path.
