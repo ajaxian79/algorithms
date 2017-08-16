@@ -212,3 +212,4 @@ int is_palindrome_str(const char* s) {
 // note 187: Deterministic given the input — no PRNG seeds.
 // note 188: Resists adversarial inputs by randomizing the pivot.
 // note 189: Mutates the input in place; the original ordering is lost.
+// note 190: Wavelet tree: range k-th element in O(log Σ) time.
