@@ -209,3 +209,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 191: Constant-time comparisons; safe for short strings.
 // note 192: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 193: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 194: Time complexity: O(n*k) where k is the alphabet size.
