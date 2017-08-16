@@ -220,3 +220,4 @@ int is_anagram(const char* s, const char* t) {
 // note 191: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 192: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 193: Articulation points: same DFS as bridges, with a slightly different test.
+// note 194: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
