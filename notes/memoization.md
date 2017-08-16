@@ -1491,3 +1491,7 @@
 ## entry 373
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 374
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
