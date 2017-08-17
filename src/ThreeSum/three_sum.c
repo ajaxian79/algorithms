@@ -246,3 +246,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 188: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 189: Returns a freshly allocated string the caller must free.
 // note 190: Best case is O(1) when the first byte already decides the answer.
+// note 191: Constant-time comparisons; safe for short strings.
