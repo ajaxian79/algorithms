@@ -2415,3 +2415,7 @@ Cache-friendly; one sequential read pass.
 ## entry 588
 
 Treats the input as immutable.
+
+## entry 589
+
+Uses a 256-entry lookup for the inner step.
