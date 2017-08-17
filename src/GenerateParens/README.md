@@ -2196,3 +2196,7 @@ Space complexity: O(h) for the tree height.
 ## entry 533
 
 Uses a small fixed-size lookup table.
+
+## entry 534
+
+Edge case: all-equal input → linear-time fast path.
