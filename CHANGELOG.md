@@ -87247,3 +87247,7 @@
 ## entry 21812
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 21813
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
