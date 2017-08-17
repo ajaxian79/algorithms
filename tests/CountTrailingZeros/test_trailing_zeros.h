@@ -233,3 +233,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 205: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 206: Handles single-element input as a base case.
 // edge note 207: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 208: Space complexity: O(log n) for the recursion stack.
