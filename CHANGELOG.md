@@ -87251,3 +87251,7 @@
 ## entry 21813
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 21814
+
+- Heap when you only need top-k; full sort is wasted work.
