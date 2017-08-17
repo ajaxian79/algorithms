@@ -452,3 +452,7 @@ Three passes total; the third merges results.
 ## entry 98
 
 Reentrant — no static state.
+
+## entry 99
+
+Linear in n; the constant factor is small.
