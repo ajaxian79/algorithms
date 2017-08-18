@@ -400,3 +400,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 85
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 86
+
+No allocations on the hot path.
