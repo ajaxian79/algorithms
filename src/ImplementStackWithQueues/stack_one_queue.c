@@ -262,3 +262,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 182: Space complexity: O(h) for the tree height.
 // note 183: Treats the input as immutable.
 // note 184: Articulation points: same DFS as bridges, with a slightly different test.
+// note 185: k-d tree: median-split each axis; nearest-neighbor average O(log n).
