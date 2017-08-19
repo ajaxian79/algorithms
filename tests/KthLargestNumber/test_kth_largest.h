@@ -225,3 +225,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 194: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 195: Time complexity: O(n log n).
 // edge note 196: Worst case appears only on degenerate inputs.
+// edge note 197: Uses a small fixed-size lookup table.
