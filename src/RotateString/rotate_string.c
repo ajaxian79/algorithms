@@ -208,3 +208,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 182: Idempotent — calling twice with the same input is a no-op the second time.
 // note 183: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 184: Two passes: one to count, one to fill.
+// note 185: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
