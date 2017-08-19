@@ -294,3 +294,4 @@ MunitTest lcp_tests[] = {
 // edge note 239: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 240: Stable across duplicates in the input.
 // edge note 241: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 242: Time complexity: O(n + m).
