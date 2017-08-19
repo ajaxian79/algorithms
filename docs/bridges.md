@@ -1611,3 +1611,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 403
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 404
+
+In-place compaction uses two pointers: read advances always, write only on keep.
