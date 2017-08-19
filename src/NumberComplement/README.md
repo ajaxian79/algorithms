@@ -2312,3 +2312,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 562
 
 Uses a small fixed-size lookup table.
+
+## entry 563
+
+Edge case: NULL input is rejected by the caller, not by us.
