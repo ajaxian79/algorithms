@@ -267,3 +267,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 238: Time complexity: O(log n).
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 240: Space complexity: O(h) for the tree height.
+// edge note 241: Edge case: all-equal input → linear-time fast path.
