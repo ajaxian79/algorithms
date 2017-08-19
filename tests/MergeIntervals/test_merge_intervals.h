@@ -279,3 +279,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 237: Caller owns the returned array; free with a single `free`.
 // edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 239: Branchless inner loop after sorting.
+// edge note 240: Time complexity: O(1).
