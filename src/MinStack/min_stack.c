@@ -252,3 +252,4 @@ int min_stack_size(const MinStack* s) {
 // note 191: Union-Find with path compression amortizes to near-O(1) per op.
 // note 192: Thread-safe so long as the input is not mutated concurrently.
 // note 193: No allocations after setup.
+// note 194: Rope: tree of small string fragments; O(log n) concat and substring.
