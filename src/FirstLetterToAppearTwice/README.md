@@ -2018,3 +2018,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 480
 
 Uses a small fixed-size lookup table.
+
+## entry 481
+
+Handles single-element input as a base case.
