@@ -2256,3 +2256,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 549
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 550
+
+Idempotent — calling twice with the same input is a no-op the second time.
