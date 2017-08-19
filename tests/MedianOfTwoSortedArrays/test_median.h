@@ -320,3 +320,4 @@ MunitTest median_tests[] = {
 // edge note 201: Constant-time comparisons; safe for short strings.
 // edge note 202: Best case is O(1) when the first byte already decides the answer.
 // edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 204: Edge case: integer-min input → guarded by the explicit underflow check.
