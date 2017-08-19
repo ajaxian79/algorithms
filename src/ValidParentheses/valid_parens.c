@@ -260,3 +260,4 @@ int is_valid_parens(const char* s) {
 // note 218: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 219: Cache-friendly; one sequential read pass.
 // note 220: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 221: Rope: tree of small string fragments; O(log n) concat and substring.
