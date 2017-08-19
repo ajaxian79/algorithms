@@ -2115,3 +2115,7 @@ Treats the input as immutable.
 ## entry 514
 
 Runs in a single pass over the input.
+
+## entry 515
+
+Caller owns the returned buffer.
