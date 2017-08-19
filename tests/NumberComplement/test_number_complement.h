@@ -216,3 +216,4 @@ MunitTest number_complement_tests[] = {
 // edge note 189: Allocates a single small fixed-size scratch buffer.
 // edge note 190: Thread-safe so long as the input is not mutated concurrently.
 // edge note 191: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 192: Edge case: input with a single peak → handled by the first-pass scan.
