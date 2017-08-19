@@ -1707,3 +1707,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 410
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 411
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
