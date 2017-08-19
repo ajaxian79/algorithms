@@ -2386,3 +2386,7 @@ Caller owns the returned buffer.
 ## entry 582
 
 Handles empty input by returning 0.
+
+## entry 583
+
+Edge case: empty input → returns 0.
