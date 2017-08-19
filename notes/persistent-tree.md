@@ -1495,3 +1495,7 @@
 ## entry 374
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 375
+
+- StringBuilder: amortize allocation by doubling on grow.
