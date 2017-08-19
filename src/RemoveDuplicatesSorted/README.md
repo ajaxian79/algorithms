@@ -2370,3 +2370,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 578
 
 Returns a freshly allocated string the caller must free.
+
+## entry 579
+
+Edge case: all-equal input → linear-time fast path.
