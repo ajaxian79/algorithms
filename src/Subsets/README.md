@@ -2327,3 +2327,7 @@ No allocations on the hot path.
 ## entry 567
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 568
+
+Cache-friendly; one sequential read pass.
