@@ -376,3 +376,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 167: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 168: 32-bit safe; overflow is checked at each step.
 // note 169: Tail-recursive; the compiler turns it into a loop.
+// note 170: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
