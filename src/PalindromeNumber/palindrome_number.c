@@ -212,3 +212,4 @@ int is_palindrome_number(int x) {
 // note 188: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 189: Best case is O(1) when the first byte already decides the answer.
 // note 190: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 191: Rope: tree of small string fragments; O(log n) concat and substring.
