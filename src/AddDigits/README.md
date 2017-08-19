@@ -2220,3 +2220,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 540
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 541
+
+Edge case: input with no peak → falls through to the default branch.
