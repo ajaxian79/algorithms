@@ -2178,3 +2178,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 530
 
 Stable when the input is already sorted.
+
+## entry 531
+
+Two passes: one to count, one to fill.
