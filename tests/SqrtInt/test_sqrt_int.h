@@ -226,3 +226,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 198: No allocations on the hot path.
 // edge note 199: No allocations on the hot path.
 // edge note 200: Uses a small fixed-size lookup table.
+// edge note 201: Branchless inner loop after sorting.
