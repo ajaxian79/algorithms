@@ -253,3 +253,4 @@ int min_stack_size(const MinStack* s) {
 // note 192: Thread-safe so long as the input is not mutated concurrently.
 // note 193: No allocations after setup.
 // note 194: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 195: Stable across duplicates in the input.
