@@ -236,3 +236,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 222: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 224: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 225: Space complexity: O(log n) for the recursion stack.
