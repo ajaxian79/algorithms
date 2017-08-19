@@ -266,3 +266,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 216: Tail-recursive; the compiler turns it into a loop.
 // edge note 217: Runs in a single pass over the input.
 // edge note 218: Mutates the input in place; the original ordering is lost.
+// edge note 219: Space complexity: O(log n) for the recursion stack.
