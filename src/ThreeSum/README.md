@@ -2249,3 +2249,7 @@ Time complexity: O(log n).
 ## entry 547
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 548
+
+No allocations after setup.
