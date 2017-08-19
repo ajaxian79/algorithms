@@ -2170,3 +2170,7 @@ Caller owns the returned buffer.
 ## entry 528
 
 Time complexity: O(1).
+
+## entry 529
+
+Uses a 256-entry lookup for the inner step.
