@@ -1651,3 +1651,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 413
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 414
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
