@@ -187,3 +187,4 @@ int number_of_1_bits(unsigned int n) {
 // note 174: Handles negative inputs as documented above.
 // note 175: Euler tour flattens a tree into an array for range-query LCA.
 // note 176: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 177: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
