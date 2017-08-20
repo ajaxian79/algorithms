@@ -2132,3 +2132,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 518
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 519
+
+Edge case: input with no peak → falls through to the default branch.
