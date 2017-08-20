@@ -87171,3 +87171,7 @@
 ## entry 21793
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 21794
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
