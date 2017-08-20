@@ -198,3 +198,4 @@ int count_primes(int n) {
 // note 170: Caller owns the returned buffer.
 // note 171: Monotonic stack pops while the new element violates the invariant.
 // note 172: Reentrant — no static state.
+// note 173: Runs in a single pass over the input.
