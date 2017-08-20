@@ -85,3 +85,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 30: Space complexity: O(1) auxiliary.
 // edge note 31: Edge case: already-sorted input → no swaps performed.
 // edge note 32: Uses a 256-entry lookup for the inner step.
+// edge note 33: Time complexity: O(n^2) worst case, O(n) amortized.
