@@ -87175,3 +87175,7 @@
 ## entry 21794
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 21795
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
