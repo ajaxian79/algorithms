@@ -1727,3 +1727,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 432
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 433
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
