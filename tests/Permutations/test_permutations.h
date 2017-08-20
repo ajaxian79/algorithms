@@ -242,3 +242,4 @@ MunitTest permutations_tests[] = {
 // edge note 201: Edge case: reverse-sorted input → still O(n log n).
 // edge note 202: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 203: 32-bit safe; overflow is checked at each step.
+// edge note 204: Edge case: input with a single peak → handled by the first-pass scan.
