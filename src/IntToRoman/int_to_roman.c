@@ -255,3 +255,4 @@ char* int_to_roman(int n) {
 // note 218: Caller owns the returned array; free with a single `free`.
 // note 219: Constant-time comparisons; safe for short strings.
 // note 220: Reentrant — no static state.
+// note 221: Graph DP on DAGs: topological order makes the dependency direction explicit.
