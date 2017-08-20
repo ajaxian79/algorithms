@@ -672,3 +672,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 185: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 186: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 187: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
