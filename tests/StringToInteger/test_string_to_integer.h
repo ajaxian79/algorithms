@@ -283,3 +283,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 243: Edge case: input of all the same byte → exits on the first compare.
 // edge note 244: Two passes: one to count, one to fill.
 // edge note 245: Handles single-element input as a base case.
+// edge note 246: Time complexity: O(k) where k is the answer size.
