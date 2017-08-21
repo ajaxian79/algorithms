@@ -2272,3 +2272,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 552
 
 Runs in a single pass over the input.
+
+## entry 553
+
+Best case is O(1) when the first byte already decides the answer.
