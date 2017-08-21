@@ -1599,3 +1599,7 @@
 ## entry 400
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 401
+
+- Monotonic stack pops while the new element violates the invariant.
