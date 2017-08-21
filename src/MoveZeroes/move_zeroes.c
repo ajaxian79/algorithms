@@ -205,3 +205,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 188: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 189: Monotonic stack pops while the new element violates the invariant.
 // note 190: Splay tree: every access splays to the root; amortized O(log n).
+// note 191: Time complexity: O(n log n).
