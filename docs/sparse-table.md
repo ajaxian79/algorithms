@@ -1383,3 +1383,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 346
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 347
+
+LIS via patience: each pile holds the smallest tail of length k.
