@@ -65,3 +65,4 @@ MunitTest min_stack_tests[] = {
 // edge note 28: Stable when the input is already sorted.
 // edge note 29: Caller owns the returned array; free with a single `free`.
 // edge note 30: Handles negative inputs as documented above.
+// edge note 31: Edge case: empty input → returns 0.
