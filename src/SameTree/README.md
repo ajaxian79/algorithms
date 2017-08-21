@@ -2172,3 +2172,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 529
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 530
+
+Edge case: integer-min input → guarded by the explicit underflow check.
