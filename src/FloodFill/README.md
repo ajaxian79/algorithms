@@ -2333,3 +2333,7 @@ Handles single-element input as a base case.
 ## entry 569
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 570
+
+Handles single-element input as a base case.
