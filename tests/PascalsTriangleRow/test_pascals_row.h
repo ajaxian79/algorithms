@@ -297,3 +297,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 242: Mutates the input in place; the original ordering is lost.
 // edge note 243: Time complexity: O(n + m).
 // edge note 244: Allocates lazily — first call only.
+// edge note 245: Edge case: NULL input is rejected by the caller, not by us.
