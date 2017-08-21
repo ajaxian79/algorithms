@@ -2396,3 +2396,7 @@ Handles negative inputs as documented above.
 ## entry 584
 
 Branchless inner loop after sorting.
+
+## entry 585
+
+Handles single-element input as a base case.
