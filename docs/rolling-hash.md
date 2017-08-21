@@ -307,3 +307,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 60
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 61
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
