@@ -221,3 +221,4 @@ MunitTest jump_game_tests[] = {
 // edge note 187: Time complexity: O(1).
 // edge note 188: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 189: Handles negative inputs as documented above.
+// edge note 190: Input is assumed non-NULL; behavior is undefined otherwise.
