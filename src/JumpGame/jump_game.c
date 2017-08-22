@@ -205,3 +205,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 189: Time complexity: O(n log n).
 // note 190: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 191: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 192: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
