@@ -2329,3 +2329,7 @@ Time complexity: O(n).
 ## entry 568
 
 Handles single-element input as a base case.
+
+## entry 569
+
+Avoids floating-point entirely — integer math throughout.
