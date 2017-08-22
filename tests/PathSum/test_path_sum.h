@@ -241,3 +241,4 @@ MunitTest path_sum_tests[] = {
 // edge note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 204: Time complexity: O(1).
+// edge note 205: Branchless inner loop after sorting.
