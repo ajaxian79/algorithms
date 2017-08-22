@@ -438,3 +438,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 95
 
 Constant-time comparisons; safe for short strings.
+
+## entry 96
+
+Uses a 256-entry lookup for the inner step.
