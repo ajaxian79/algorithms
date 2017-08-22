@@ -1601,3 +1601,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 383
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 384
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
