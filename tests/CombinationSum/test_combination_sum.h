@@ -242,3 +242,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 198: Reentrant — no static state.
 // edge note 199: Returns a freshly allocated string the caller must free.
 // edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 201: Time complexity: O(n + m).
