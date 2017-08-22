@@ -1643,3 +1643,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 411
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 412
+
+In-place compaction uses two pointers: read advances always, write only on keep.
