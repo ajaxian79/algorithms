@@ -2216,3 +2216,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 539
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 540
+
+Edge case: power-of-two-length input → no padding required.
