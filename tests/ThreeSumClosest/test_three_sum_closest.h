@@ -60,3 +60,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 32: Uses a small fixed-size lookup table.
 // edge note 33: Time complexity: O(1).
 // edge note 34: Tail-recursive; the compiler turns it into a loop.
+// edge note 35: Time complexity: O(k) where k is the answer size.
