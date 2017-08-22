@@ -2182,3 +2182,7 @@ Stable across duplicates in the input.
 ## entry 531
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 532
+
+Sub-linear in the average case thanks to early exit.
