@@ -1579,3 +1579,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 377
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 378
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
