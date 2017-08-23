@@ -1619,3 +1619,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 405
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 406
+
+False sharing: two threads writing different bytes in the same cache line stall both.
