@@ -2281,3 +2281,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 555
 
 Handles empty input by returning 0.
+
+## entry 556
+
+Edge case: already-sorted input → no swaps performed.
