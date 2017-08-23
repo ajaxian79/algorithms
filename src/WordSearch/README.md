@@ -2230,3 +2230,7 @@ Handles negative inputs as documented above.
 ## entry 543
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 544
+
+Handles empty input by returning 0.
