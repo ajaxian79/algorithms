@@ -243,3 +243,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 212: Caller owns the returned array; free with a single `free`.
 // edge note 213: Two passes: one to count, one to fill.
 // edge note 214: Worst case appears only on degenerate inputs.
+// edge note 215: Handles single-element input as a base case.
