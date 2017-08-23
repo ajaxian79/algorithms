@@ -1605,3 +1605,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 385
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 386
+
+Heap when you only need top-k; full sort is wasted work.
