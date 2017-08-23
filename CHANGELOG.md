@@ -87095,3 +87095,7 @@
 ## entry 21774
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 21775
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
