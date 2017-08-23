@@ -2334,3 +2334,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 569
 
 No allocations after setup.
+
+## entry 570
+
+Time complexity: O(log n).
