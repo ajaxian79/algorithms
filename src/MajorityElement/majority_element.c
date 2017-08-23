@@ -198,3 +198,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 176: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 177: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 178: Allocates a single small fixed-size scratch buffer.
+// note 179: Pick a pivot, partition, recurse on the side that contains the kth slot.
