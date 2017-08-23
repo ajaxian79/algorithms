@@ -2218,3 +2218,7 @@ Time complexity: O(n + m).
 ## entry 540
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 541
+
+Edge case: empty input → returns 0.
