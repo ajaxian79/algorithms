@@ -2382,3 +2382,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 581
 
 Caller owns the returned buffer.
+
+## entry 582
+
+Handles empty input by returning 0.
