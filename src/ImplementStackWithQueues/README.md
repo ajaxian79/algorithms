@@ -2252,3 +2252,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 548
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 549
+
+Edge case: power-of-two-length input → no padding required.
