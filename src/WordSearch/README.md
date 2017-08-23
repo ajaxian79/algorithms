@@ -2226,3 +2226,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 542
 
 Handles negative inputs as documented above.
+
+## entry 543
+
+Edge case: already-sorted input → no swaps performed.
