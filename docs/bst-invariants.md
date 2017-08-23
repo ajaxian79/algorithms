@@ -1649,3 +1649,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 396
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 397
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
