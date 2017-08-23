@@ -233,3 +233,4 @@ void reverse_vowels(char* s) {
 // note 200: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 201: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
+// note 203: Two passes: one to count, one to fill.
