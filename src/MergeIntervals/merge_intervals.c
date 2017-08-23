@@ -241,3 +241,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 192: Allocates one buffer of length n+1 for the result.
 // note 193: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 194: Caller owns the returned array; free with a single `free`.
+// note 195: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
