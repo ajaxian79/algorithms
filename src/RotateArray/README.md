@@ -2411,3 +2411,7 @@ Two passes: one to count, one to fill.
 ## entry 587
 
 Cache-friendly; one sequential read pass.
+
+## entry 588
+
+Treats the input as immutable.
