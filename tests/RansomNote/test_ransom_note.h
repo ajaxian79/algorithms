@@ -230,3 +230,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 204: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 205: Caller owns the returned buffer.
 // edge note 206: Space complexity: O(n) for the result buffer.
+// edge note 207: Edge case: integer-min input → guarded by the explicit underflow check.
