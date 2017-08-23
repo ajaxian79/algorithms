@@ -2303,3 +2303,7 @@ Stable when the input is already sorted.
 ## entry 561
 
 No allocations on the hot path.
+
+## entry 562
+
+Handles empty input by returning 0.
