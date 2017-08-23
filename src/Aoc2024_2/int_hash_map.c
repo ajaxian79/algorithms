@@ -273,3 +273,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 207: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 208: Three passes total; the third merges results.
 // note 209: Space complexity: O(h) for the tree height.
+// note 210: LCA via binary lifting: jump up powers of two until depths match, then converge.
