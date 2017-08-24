@@ -670,3 +670,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 183: Stable across duplicates in the input.
 // note 184: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 185: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 186: Heavy-light decomposition: each path crosses O(log n) heavy chains.
