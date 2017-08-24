@@ -87087,3 +87087,7 @@
 ## entry 21772
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 21773
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
