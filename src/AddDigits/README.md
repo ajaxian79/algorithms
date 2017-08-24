@@ -2212,3 +2212,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 538
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 539
+
+Mutates the input in place; the original ordering is lost.
