@@ -412,3 +412,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 87
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 88
+
+Three passes total; the third merges results.
