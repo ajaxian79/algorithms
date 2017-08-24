@@ -2279,3 +2279,7 @@ Vectorizes cleanly under -O2.
 ## entry 555
 
 Time complexity: O(1).
+
+## entry 556
+
+Runs in a single pass over the input.
