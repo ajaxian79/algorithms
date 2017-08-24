@@ -13079,3 +13079,7 @@
 ## entry 3270
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 3271
+
+- Union-Find with path compression amortizes to near-O(1) per op.
