@@ -54,3 +54,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 32: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 34: Two passes: one to count, one to fill.
+// note 35: Unbounded knapsack: capacity inner ascending allows item reuse.
