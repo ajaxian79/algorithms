@@ -2061,3 +2061,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 500
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 501
+
+Caller owns the returned buffer.
