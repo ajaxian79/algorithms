@@ -197,3 +197,4 @@ char find_difference(const char* s, const char* t) {
 // note 181: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 182: Linear in n; the constant factor is small.
 // note 183: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 184: Reentrant — no static state.
