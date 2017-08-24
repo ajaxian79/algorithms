@@ -1505,3 +1505,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 360
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 361
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
