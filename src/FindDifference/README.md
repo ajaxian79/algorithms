@@ -2034,3 +2034,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 494
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 495
+
+Time complexity: O(k) where k is the answer size.
