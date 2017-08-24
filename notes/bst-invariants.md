@@ -1589,3 +1589,7 @@
 ## entry 382
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 383
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
