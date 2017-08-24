@@ -2038,3 +2038,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 495
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 496
+
+Time complexity: O(n^2) worst case, O(n) amortized.
