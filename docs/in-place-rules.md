@@ -1741,3 +1741,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 420
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 421
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
