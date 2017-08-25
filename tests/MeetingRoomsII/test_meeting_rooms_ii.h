@@ -249,3 +249,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 218: Constant-time comparisons; safe for short strings.
 // edge note 219: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 220: Cache-friendly; one sequential read pass.
+// edge note 221: Edge case: single-element input → returns the element itself.
