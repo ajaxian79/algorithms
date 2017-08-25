@@ -396,3 +396,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 84
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 85
+
+Space complexity: O(log n) for the recursion stack.
