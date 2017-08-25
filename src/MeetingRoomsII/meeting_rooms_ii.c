@@ -226,3 +226,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 181: Vectorizes cleanly under -O2.
 // note 182: Time complexity: O(n*k) where k is the alphabet size.
 // note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 184: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
