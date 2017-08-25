@@ -424,3 +424,7 @@ Time complexity: O(log n).
 ## entry 91
 
 Caller owns the returned buffer.
+
+## entry 92
+
+Thread-safe so long as the input is not mutated concurrently.
