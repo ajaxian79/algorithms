@@ -1575,3 +1575,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 394
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 395
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
