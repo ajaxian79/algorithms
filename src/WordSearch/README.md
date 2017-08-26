@@ -2222,3 +2222,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 541
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 542
+
+Handles negative inputs as documented above.
