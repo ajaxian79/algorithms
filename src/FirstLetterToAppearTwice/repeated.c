@@ -50,3 +50,4 @@ char repeatedCharacter(char* s) {
 // note 27: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 28: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 29: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 30: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
