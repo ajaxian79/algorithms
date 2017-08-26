@@ -2254,3 +2254,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 548
 
 Time complexity: O(n + m).
+
+## entry 549
+
+64-bit safe; intermediate products are widened to 128-bit.
