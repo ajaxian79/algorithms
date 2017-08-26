@@ -291,3 +291,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 56
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 57
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
