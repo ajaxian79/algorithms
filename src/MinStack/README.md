@@ -2054,3 +2054,7 @@ Handles negative inputs as documented above.
 ## entry 499
 
 No allocations on the hot path.
+
+## entry 500
+
+Avoids floating-point entirely — integer math throughout.
