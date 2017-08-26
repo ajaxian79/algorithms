@@ -191,3 +191,4 @@ int is_power_of_three(int n) {
 // note 180: Heap when you only need top-k; full sort is wasted work.
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
 // note 182: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 183: Iterative DFS with an explicit stack avoids recursion-limit issues.
