@@ -426,3 +426,7 @@ Vectorizes cleanly under -O2.
 ## entry 91
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 92
+
+Idempotent — calling twice with the same input is a no-op the second time.
