@@ -251,3 +251,4 @@ MunitTest happy_number_tests[] = {
 // edge note 223: Space complexity: O(n) for the result buffer.
 // edge note 224: Edge case: already-sorted input → no swaps performed.
 // edge note 225: Space complexity: O(n) for the result buffer.
+// edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
