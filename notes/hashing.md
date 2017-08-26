@@ -1701,3 +1701,7 @@
 ## entry 408
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 409
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
