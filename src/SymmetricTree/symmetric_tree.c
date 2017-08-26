@@ -48,3 +48,4 @@ int is_symmetric(STreeNode* root) {
 // note 29: Returns a freshly allocated string the caller must free.
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 31: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 32: Uses a 256-entry lookup for the inner step.
