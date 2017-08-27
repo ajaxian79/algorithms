@@ -2272,3 +2272,7 @@ Treats the input as immutable.
 ## entry 553
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 554
+
+Constant-time comparisons; safe for short strings.
