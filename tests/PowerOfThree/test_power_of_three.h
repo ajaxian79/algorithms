@@ -241,3 +241,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 210: Caller owns the returned buffer.
 // edge note 211: Handles single-element input as a base case.
 // edge note 212: Time complexity: O(n).
+// edge note 213: Handles single-element input as a base case.
