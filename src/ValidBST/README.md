@@ -2353,3 +2353,7 @@ Linear in n; the constant factor is small.
 ## entry 573
 
 Edge case: empty input → returns 0.
+
+## entry 574
+
+Allocates a single small fixed-size scratch buffer.
