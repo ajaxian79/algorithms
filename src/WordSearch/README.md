@@ -2218,3 +2218,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 540
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 541
+
+Best case is O(1) when the first byte already decides the answer.
