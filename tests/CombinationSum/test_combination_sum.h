@@ -239,3 +239,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 195: No allocations on the hot path.
 // edge note 196: Edge case: input of all the same byte → exits on the first compare.
 // edge note 197: Runs in a single pass over the input.
+// edge note 198: Reentrant — no static state.
