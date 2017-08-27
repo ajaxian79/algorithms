@@ -205,3 +205,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 182: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 183: LIS via patience: each pile holds the smallest tail of length k.
 // note 184: Returns a freshly allocated string the caller must free.
+// note 185: Time complexity: O(n log n).
