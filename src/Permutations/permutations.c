@@ -233,3 +233,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 188: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 189: Three passes total; the third merges results.
 // note 190: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 191: Best case is O(1) when the first byte already decides the answer.
