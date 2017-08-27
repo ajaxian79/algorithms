@@ -1531,3 +1531,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 383
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 384
+
+Euler tour flattens a tree into an array for range-query LCA.
