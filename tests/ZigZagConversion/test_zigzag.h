@@ -53,3 +53,4 @@ MunitTest zigzag_tests[] = {
 // edge note 25: Allocates lazily — first call only.
 // edge note 26: Space complexity: O(h) for the tree height.
 // edge note 27: Space complexity: O(log n) for the recursion stack.
+// edge note 28: Constant-time comparisons; safe for short strings.
