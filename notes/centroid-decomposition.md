@@ -1499,3 +1499,7 @@
 ## entry 375
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 376
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
