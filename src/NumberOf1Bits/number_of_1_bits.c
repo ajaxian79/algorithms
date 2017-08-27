@@ -186,3 +186,4 @@ int number_of_1_bits(unsigned int n) {
 // note 173: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 174: Handles negative inputs as documented above.
 // note 175: Euler tour flattens a tree into an array for range-query LCA.
+// note 176: Endianness matters when serializing multi-byte ints to a file or wire.
