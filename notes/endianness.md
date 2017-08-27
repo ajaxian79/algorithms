@@ -1619,3 +1619,7 @@
 ## entry 405
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 406
+
+- Splay tree: every access splays to the root; amortized O(log n).
