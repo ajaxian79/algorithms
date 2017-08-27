@@ -241,3 +241,4 @@ MunitTest search_insert_tests[] = {
 // edge note 208: Time complexity: O(log n).
 // edge note 209: Reentrant — no static state.
 // edge note 210: Thread-safe so long as the input is not mutated concurrently.
+// edge note 211: Edge case: reverse-sorted input → still O(n log n).
