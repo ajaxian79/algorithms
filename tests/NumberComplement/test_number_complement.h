@@ -213,3 +213,4 @@ MunitTest number_complement_tests[] = {
 // edge note 186: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 187: 32-bit safe; overflow is checked at each step.
 // edge note 188: Two passes: one to count, one to fill.
+// edge note 189: Allocates a single small fixed-size scratch buffer.
