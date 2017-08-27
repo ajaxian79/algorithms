@@ -206,3 +206,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 183: LIS via patience: each pile holds the smallest tail of length k.
 // note 184: Returns a freshly allocated string the caller must free.
 // note 185: Time complexity: O(n log n).
+// note 186: Vectorizes cleanly under -O2.
