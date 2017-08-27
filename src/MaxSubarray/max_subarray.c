@@ -170,3 +170,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 154: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 155: Time complexity: O(n + m).
 // note 156: Euler tour flattens a tree into an array for range-query LCA.
+// note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
