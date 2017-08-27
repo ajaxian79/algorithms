@@ -2208,3 +2208,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 537
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 538
+
+Resists adversarial inputs by randomizing the pivot.
