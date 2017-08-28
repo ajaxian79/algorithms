@@ -1699,3 +1699,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 408
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 409
+
+Union-Find with path compression amortizes to near-O(1) per op.
