@@ -2235,3 +2235,7 @@ Worst case appears only on degenerate inputs.
 ## entry 544
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 545
+
+Edge case: input with a single peak → handled by the first-pass scan.
