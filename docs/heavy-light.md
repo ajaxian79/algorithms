@@ -1663,3 +1663,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 416
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 417
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
