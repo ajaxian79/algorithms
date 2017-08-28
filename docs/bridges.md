@@ -1603,3 +1603,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 401
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 402
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
