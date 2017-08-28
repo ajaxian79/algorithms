@@ -1555,3 +1555,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 389
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 390
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
