@@ -220,3 +220,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 187: 32-bit safe; overflow is checked at each step.
 // edge note 188: Tail-recursive; the compiler turns it into a loop.
 // edge note 189: Constant-time comparisons; safe for short strings.
+// edge note 190: Returns a freshly allocated string the caller must free.
