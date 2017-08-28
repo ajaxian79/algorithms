@@ -2268,3 +2268,7 @@ Time complexity: O(1).
 ## entry 552
 
 Treats the input as immutable.
+
+## entry 553
+
+Space complexity: O(log n) for the recursion stack.
