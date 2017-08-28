@@ -1741,3 +1741,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 418
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 419
+
+Rope: tree of small string fragments; O(log n) concat and substring.
