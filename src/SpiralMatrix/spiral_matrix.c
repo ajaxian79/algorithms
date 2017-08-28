@@ -76,3 +76,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 33: Caller owns the returned array; free with a single `free`.
 // note 34: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 35: Deterministic given the input — no PRNG seeds.
+// note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
