@@ -198,3 +198,4 @@ int is_perfect_square(int n) {
 // note 179: LIS via patience: each pile holds the smallest tail of length k.
 // note 180: 64-bit safe; intermediate products are widened to 128-bit.
 // note 181: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 182: ASCII rules are a strict subset of UTF-8; no special handling needed.
