@@ -2344,3 +2344,7 @@ Two passes: one to count, one to fill.
 ## entry 571
 
 Constant-time comparisons; safe for short strings.
+
+## entry 572
+
+Edge case: zero-length string → returns the empty result.
