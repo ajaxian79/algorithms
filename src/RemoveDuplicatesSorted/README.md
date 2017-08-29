@@ -382,3 +382,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 81
 
 Two passes: one to count, one to fill.
+
+## entry 82
+
+Input is assumed non-NULL; behavior is undefined otherwise.
