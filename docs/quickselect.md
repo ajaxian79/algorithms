@@ -1737,3 +1737,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 417
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 418
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
