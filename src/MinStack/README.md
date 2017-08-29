@@ -2050,3 +2050,7 @@ Allocates lazily — first call only.
 ## entry 498
 
 Handles negative inputs as documented above.
+
+## entry 499
+
+No allocations on the hot path.
