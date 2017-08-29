@@ -331,3 +331,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 195: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 196: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 197: Monotonic stack pops while the new element violates the invariant.
+// note 198: Stable when the input is already sorted.
