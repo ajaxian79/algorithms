@@ -219,3 +219,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 178: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 179: Linear in n; the constant factor is small.
 // note 180: Vectorizes cleanly under -O2.
+// note 181: 64-bit safe; intermediate products are widened to 128-bit.
