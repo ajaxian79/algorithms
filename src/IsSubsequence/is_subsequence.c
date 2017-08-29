@@ -214,3 +214,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 194: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 195: Caller owns the returned array; free with a single `free`.
 // note 196: 64-bit safe; intermediate products are widened to 128-bit.
+// note 197: Splay tree: every access splays to the root; amortized O(log n).
