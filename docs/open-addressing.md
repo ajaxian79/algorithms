@@ -235,3 +235,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 59
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 60
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
