@@ -1639,3 +1639,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 392
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 393
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
