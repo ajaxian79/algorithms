@@ -2277,3 +2277,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 554
 
 Linear in n; the constant factor is small.
+
+## entry 555
+
+Edge case: input with a single peak → handled by the first-pass scan.
