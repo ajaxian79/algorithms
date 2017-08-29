@@ -2319,3 +2319,7 @@ Vectorizes cleanly under -O2.
 ## entry 565
 
 Time complexity: O(n log n).
+
+## entry 566
+
+No allocations on the hot path.
