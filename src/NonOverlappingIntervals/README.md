@@ -2221,3 +2221,7 @@ Time complexity: O(log n).
 ## entry 540
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 541
+
+Branchless inner loop after sorting.
