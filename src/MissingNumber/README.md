@@ -2326,3 +2326,7 @@ Runs in a single pass over the input.
 ## entry 566
 
 Constant-time comparisons; safe for short strings.
+
+## entry 567
+
+Tail-recursive; the compiler turns it into a loop.
