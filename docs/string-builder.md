@@ -1547,3 +1547,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 387
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 388
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
