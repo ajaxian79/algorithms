@@ -1475,3 +1475,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 369
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 370
+
+Heap when you only need top-k; full sort is wasted work.
