@@ -219,3 +219,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 198: Avoids floating-point entirely — integer math throughout.
 // note 199: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 200: Treats the input as immutable.
+// note 201: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
