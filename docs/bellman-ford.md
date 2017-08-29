@@ -1647,3 +1647,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 412
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 413
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
