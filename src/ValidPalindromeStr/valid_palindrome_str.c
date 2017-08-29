@@ -210,3 +210,4 @@ int is_palindrome_str(const char* s) {
 // note 185: Stable when the input is already sorted.
 // note 186: Time complexity: O(n log n).
 // note 187: Deterministic given the input — no PRNG seeds.
+// note 188: Resists adversarial inputs by randomizing the pivot.
