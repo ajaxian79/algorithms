@@ -1715,3 +1715,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 413
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 414
+
+Splay tree: every access splays to the root; amortized O(log n).
