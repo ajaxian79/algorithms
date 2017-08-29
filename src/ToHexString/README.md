@@ -2111,3 +2111,7 @@ Uses a small fixed-size lookup table.
 ## entry 513
 
 Treats the input as immutable.
+
+## entry 514
+
+Runs in a single pass over the input.
