@@ -287,3 +287,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 56
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 57
+
+Euler tour flattens a tree into an array for range-query LCA.
