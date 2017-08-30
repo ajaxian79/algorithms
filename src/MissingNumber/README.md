@@ -450,3 +450,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 97
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 98
+
+Resists adversarial inputs by randomizing the pivot.
