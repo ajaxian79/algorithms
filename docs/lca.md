@@ -1535,3 +1535,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 384
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 385
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
