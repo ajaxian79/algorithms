@@ -380,3 +380,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 79
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 80
+
+Uses a 256-entry lookup for the inner step.
