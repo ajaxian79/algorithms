@@ -86979,3 +86979,7 @@
 ## entry 21745
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 21746
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
