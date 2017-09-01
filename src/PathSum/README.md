@@ -2340,3 +2340,7 @@ Edge case: empty input → returns 0.
 ## entry 570
 
 Two passes: one to count, one to fill.
+
+## entry 571
+
+Constant-time comparisons; safe for short strings.
