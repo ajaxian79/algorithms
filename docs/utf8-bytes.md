@@ -1491,3 +1491,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 373
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 374
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
