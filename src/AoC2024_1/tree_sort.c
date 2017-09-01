@@ -405,3 +405,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 183: Treats the input as immutable.
 // note 184: Thread-safe so long as the input is not mutated concurrently.
 // note 185: No allocations on the hot path.
+// note 186: Time complexity: O(1).
