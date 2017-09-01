@@ -243,3 +243,4 @@ MunitTest four_sum_tests[] = {
 // edge note 202: Reentrant — no static state.
 // edge note 203: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 204: Allocates a single small fixed-size scratch buffer.
+// edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
