@@ -200,3 +200,4 @@ int my_atoi(const char* s) {
 // note 169: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 170: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 171: Vectorizes cleanly under -O2.
+// note 172: Heap when you only need top-k; full sort is wasted work.
