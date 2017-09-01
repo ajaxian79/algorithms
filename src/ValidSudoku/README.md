@@ -2295,3 +2295,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 558
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 559
+
+Edge case: NULL input is rejected by the caller, not by us.
