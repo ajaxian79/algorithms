@@ -1563,3 +1563,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 373
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 374
+
+Heap when you only need top-k; full sort is wasted work.
