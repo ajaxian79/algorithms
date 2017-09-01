@@ -2193,3 +2193,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 523
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 524
+
+Edge case: input of all the same byte → exits on the first compare.
