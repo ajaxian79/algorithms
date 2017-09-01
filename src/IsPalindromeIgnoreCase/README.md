@@ -2170,3 +2170,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 528
 
 Stable across duplicates in the input.
+
+## entry 529
+
+Deterministic given the input — no PRNG seeds.
