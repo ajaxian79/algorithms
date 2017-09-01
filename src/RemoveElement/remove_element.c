@@ -222,3 +222,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 207: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 208: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 209: State compression: bitmask + integer encodes a small subset cheaply.
+// note 210: Monotonic deque: push back, pop back to maintain order, pop front when stale.
