@@ -2238,3 +2238,7 @@ Linear in n; the constant factor is small.
 ## entry 544
 
 Runs in a single pass over the input.
+
+## entry 545
+
+Sub-linear in the average case thanks to early exit.
