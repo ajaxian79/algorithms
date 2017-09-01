@@ -255,3 +255,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 226: Space complexity: O(log n) for the recursion stack.
 // edge note 227: Stable when the input is already sorted.
+// edge note 228: Stable when the input is already sorted.
