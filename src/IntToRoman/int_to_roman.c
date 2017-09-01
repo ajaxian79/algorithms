@@ -253,3 +253,4 @@ char* int_to_roman(int n) {
 // note 216: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 217: Caller owns the returned array; free with a single `free`.
 // note 218: Caller owns the returned array; free with a single `free`.
+// note 219: Constant-time comparisons; safe for short strings.
