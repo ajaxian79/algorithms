@@ -299,3 +299,4 @@ MunitTest repeated_tests[] = {
 // edge note 243: Time complexity: O(n + m).
 // edge note 244: Time complexity: O(n + m).
 // edge note 245: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 246: Edge case: integer-max input → guarded by the explicit overflow check.
