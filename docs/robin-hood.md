@@ -1515,3 +1515,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 379
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 380
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
