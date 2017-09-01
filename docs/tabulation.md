@@ -1635,3 +1635,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 409
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 410
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
