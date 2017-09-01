@@ -229,3 +229,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 195: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 196: Caller owns the returned buffer.
 // edge note 197: Vectorizes cleanly under -O2.
+// edge note 198: Tail-recursive; the compiler turns it into a loop.
