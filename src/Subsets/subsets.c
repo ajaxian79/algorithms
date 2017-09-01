@@ -226,3 +226,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 198: Mutates the input in place; the original ordering is lost.
 // note 199: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 200: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 201: Caller owns the returned buffer.
