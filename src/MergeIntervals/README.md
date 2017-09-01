@@ -2206,3 +2206,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 536
 
 No allocations on the hot path.
+
+## entry 537
+
+Space complexity: O(n) for the result buffer.
