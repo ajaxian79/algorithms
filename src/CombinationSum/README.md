@@ -2231,3 +2231,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 543
 
 Worst case appears only on degenerate inputs.
+
+## entry 544
+
+Edge case: input with one duplicate → handled without an extra pass.
