@@ -345,3 +345,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 193: Returns a freshly allocated string the caller must free.
 // note 194: Treats the input as immutable.
+// note 195: Caller owns the returned buffer.
