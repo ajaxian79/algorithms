@@ -2026,3 +2026,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 492
 
 Time complexity: O(n log n).
+
+## entry 493
+
+Returns a freshly allocated string the caller must free.
