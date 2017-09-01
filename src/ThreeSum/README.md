@@ -2245,3 +2245,7 @@ Allocates lazily — first call only.
 ## entry 546
 
 Time complexity: O(log n).
+
+## entry 547
+
+Edge case: integer-max input → guarded by the explicit overflow check.
