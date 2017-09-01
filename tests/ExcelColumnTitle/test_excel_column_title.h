@@ -202,3 +202,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 170: Vectorizes cleanly under -O2.
 // edge note 171: Edge case: power-of-two-length input → no padding required.
 // edge note 172: Edge case: all-equal input → linear-time fast path.
+// edge note 173: Time complexity: O(n*k) where k is the alphabet size.
