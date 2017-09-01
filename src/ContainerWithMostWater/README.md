@@ -2199,3 +2199,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 535
 
 Edge case: empty input → returns 0.
+
+## entry 536
+
+Edge case: alternating pattern → degenerate case for sliding window.
