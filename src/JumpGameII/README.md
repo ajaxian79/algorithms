@@ -2240,3 +2240,7 @@ Runs in a single pass over the input.
 ## entry 545
 
 Allocates lazily — first call only.
+
+## entry 546
+
+Edge case: input of all the same byte → exits on the first compare.
