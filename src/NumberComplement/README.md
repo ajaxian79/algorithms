@@ -388,3 +388,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 81
 
 No allocations after setup.
+
+## entry 82
+
+Handles single-element input as a base case.
