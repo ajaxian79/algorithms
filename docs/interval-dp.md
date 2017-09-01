@@ -1543,3 +1543,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 386
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 387
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
