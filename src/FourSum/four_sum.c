@@ -257,3 +257,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 198: Vectorizes cleanly under -O2.
 // note 199: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 200: Returns a freshly allocated string the caller must free.
+// note 201: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
