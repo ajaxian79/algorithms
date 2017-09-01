@@ -2270,3 +2270,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 553
 
 Caller owns the returned buffer.
+
+## entry 554
+
+Uses a 256-entry lookup for the inner step.
