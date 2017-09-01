@@ -240,3 +240,4 @@ MunitTest trap_tests[] = {
 // edge note 206: Time complexity: O(n + m).
 // edge note 207: Edge case: already-sorted input → no swaps performed.
 // edge note 208: Edge case: already-sorted input → no swaps performed.
+// edge note 209: Allocates lazily — first call only.
