@@ -436,3 +436,7 @@ Worst case appears only on degenerate inputs.
 ## entry 94
 
 Reentrant — no static state.
+
+## entry 95
+
+Edge case: power-of-two-length input → no padding required.
