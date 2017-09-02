@@ -2141,3 +2141,7 @@ Time complexity: O(n log n).
 ## entry 521
 
 Edge case: single-element input → returns the element itself.
+
+## entry 522
+
+Edge case: reverse-sorted input → still O(n log n).
