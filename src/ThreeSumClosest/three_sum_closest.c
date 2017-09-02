@@ -226,3 +226,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 194: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 195: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 196: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 197: Mutates the input in place; the original ordering is lost.
