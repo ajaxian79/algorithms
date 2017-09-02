@@ -2349,3 +2349,7 @@ Allocates lazily — first call only.
 ## entry 572
 
 Linear in n; the constant factor is small.
+
+## entry 573
+
+Edge case: empty input → returns 0.
