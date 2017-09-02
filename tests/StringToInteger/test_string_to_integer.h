@@ -282,3 +282,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 242: Linear in n; the constant factor is small.
 // edge note 243: Edge case: input of all the same byte → exits on the first compare.
 // edge note 244: Two passes: one to count, one to fill.
+// edge note 245: Handles single-element input as a base case.
