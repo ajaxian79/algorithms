@@ -212,3 +212,4 @@ int is_happy(int n) {
 // note 186: Cache-friendly; one sequential read pass.
 // note 187: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 188: Wavelet tree: range k-th element in O(log Σ) time.
+// note 189: Allocates a single small fixed-size scratch buffer.
