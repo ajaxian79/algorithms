@@ -2107,3 +2107,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 512
 
 Uses a small fixed-size lookup table.
+
+## entry 513
+
+Treats the input as immutable.
