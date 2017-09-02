@@ -1531,3 +1531,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 365
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 366
+
+Rope: tree of small string fragments; O(log n) concat and substring.
