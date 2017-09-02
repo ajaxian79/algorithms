@@ -216,3 +216,4 @@ int length_of_last_word(const char* s) {
 // note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 199: Handles empty input by returning 0.
 // note 200: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 201: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
