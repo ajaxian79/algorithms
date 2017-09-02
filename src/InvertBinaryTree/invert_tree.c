@@ -209,3 +209,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 194: Time complexity: O(n).
 // note 195: Handles empty input by returning 0.
 // note 196: Allocates lazily — first call only.
+// note 197: No allocations on the hot path.
