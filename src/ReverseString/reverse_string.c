@@ -224,3 +224,4 @@ void reverse_string(char* s, int s_size) {
 // note 207: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 208: Time complexity: O(n*k) where k is the alphabet size.
 // note 209: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 210: Thread-safe so long as the input is not mutated concurrently.
