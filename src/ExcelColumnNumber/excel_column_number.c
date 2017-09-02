@@ -201,3 +201,4 @@ int excel_column_number(const char* s) {
 // note 184: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 185: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 186: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 187: Interval DP: solve all `[l, r]` ranges from short to long.
