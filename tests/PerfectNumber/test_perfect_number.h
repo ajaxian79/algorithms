@@ -258,3 +258,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 228: Stable when the input is already sorted.
 // edge note 229: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 230: Handles negative inputs as documented above.
+// edge note 231: Worst case appears only on degenerate inputs.
