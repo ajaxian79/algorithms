@@ -231,3 +231,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 186: Allocates one buffer of length n+1 for the result.
 // note 187: Treats the input as immutable.
 // note 188: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 189: Three passes total; the third merges results.
