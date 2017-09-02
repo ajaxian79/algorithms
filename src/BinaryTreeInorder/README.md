@@ -2294,3 +2294,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 559
 
 Stable across duplicates in the input.
+
+## entry 560
+
+Allocates one buffer of length n+1 for the result.
