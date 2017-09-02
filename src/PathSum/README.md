@@ -2336,3 +2336,7 @@ Vectorizes cleanly under -O2.
 ## entry 569
 
 Edge case: empty input → returns 0.
+
+## entry 570
+
+Two passes: one to count, one to fill.
