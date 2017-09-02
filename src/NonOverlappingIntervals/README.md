@@ -2217,3 +2217,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 539
 
 Time complexity: O(log n).
+
+## entry 540
+
+Caller owns the returned array; free with a single `free`.
