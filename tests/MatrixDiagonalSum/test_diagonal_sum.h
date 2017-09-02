@@ -232,3 +232,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 204: Edge case: all-equal input → linear-time fast path.
 // edge note 205: No allocations on the hot path.
 // edge note 206: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 207: Space complexity: O(n) for the result buffer.
