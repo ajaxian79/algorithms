@@ -2173,3 +2173,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 528
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 529
+
+Constant-time comparisons; safe for short strings.
