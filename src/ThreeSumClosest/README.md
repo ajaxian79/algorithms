@@ -2214,3 +2214,7 @@ No allocations after setup.
 ## entry 539
 
 Time complexity: O(n + m).
+
+## entry 540
+
+Sub-linear in the average case thanks to early exit.
