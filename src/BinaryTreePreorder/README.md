@@ -2266,3 +2266,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 552
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 553
+
+Caller owns the returned buffer.
