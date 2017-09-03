@@ -2236,3 +2236,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 544
 
 Runs in a single pass over the input.
+
+## entry 545
+
+Allocates lazily — first call only.
