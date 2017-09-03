@@ -201,3 +201,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 169: Caller owns the returned buffer.
 // edge note 170: Vectorizes cleanly under -O2.
 // edge note 171: Edge case: power-of-two-length input → no padding required.
+// edge note 172: Edge case: all-equal input → linear-time fast path.
