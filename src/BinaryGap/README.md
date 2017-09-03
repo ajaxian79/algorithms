@@ -2250,3 +2250,7 @@ Stable when the input is already sorted.
 ## entry 547
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 548
+
+Time complexity: O(n + m).
