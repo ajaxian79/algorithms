@@ -2345,3 +2345,7 @@ Time complexity: O(n + m).
 ## entry 571
 
 Allocates lazily — first call only.
+
+## entry 572
+
+Linear in n; the constant factor is small.
