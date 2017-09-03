@@ -1555,3 +1555,7 @@
 ## entry 389
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 390
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
