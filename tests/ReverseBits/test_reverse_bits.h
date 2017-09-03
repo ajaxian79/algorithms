@@ -227,3 +227,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 201: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 202: Handles negative inputs as documented above.
 // edge note 203: Stable across duplicates in the input.
+// edge note 204: Sub-linear in the average case thanks to early exit.
