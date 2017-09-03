@@ -2202,3 +2202,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 536
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 537
+
+Three passes total; the third merges results.
