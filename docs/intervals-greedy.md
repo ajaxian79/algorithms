@@ -1631,3 +1631,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 390
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 391
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
