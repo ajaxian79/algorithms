@@ -200,3 +200,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 188: Two passes: one to count, one to fill.
 // note 189: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 190: Space complexity: O(h) for the tree height.
+// note 191: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
