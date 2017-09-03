@@ -211,3 +211,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 53
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 54
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
