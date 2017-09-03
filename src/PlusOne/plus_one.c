@@ -217,3 +217,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 181: Space complexity: O(n) for the result buffer.
 // note 182: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 183: Space complexity: O(n) for the result buffer.
