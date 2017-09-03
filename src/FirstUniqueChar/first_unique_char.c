@@ -223,3 +223,4 @@ int first_unique_char(const char* s) {
 // note 204: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 205: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 206: Worst case appears only on degenerate inputs.
+// note 207: Time complexity: O(k) where k is the answer size.
