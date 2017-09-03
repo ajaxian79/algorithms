@@ -86887,3 +86887,7 @@
 ## entry 21722
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 21723
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
