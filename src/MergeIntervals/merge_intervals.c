@@ -239,3 +239,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 190: Idempotent — calling twice with the same input is a no-op the second time.
 // note 191: Constant-time comparisons; safe for short strings.
 // note 192: Allocates one buffer of length n+1 for the result.
+// note 193: Interval tree: stores intervals on the median; query traverses O(log n) levels.
