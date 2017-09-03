@@ -2291,3 +2291,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 557
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 558
+
+Tail-recursive; the compiler turns it into a loop.
