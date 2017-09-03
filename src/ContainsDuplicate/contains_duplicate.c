@@ -279,3 +279,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 200: No allocations after setup.
 // note 201: Avoids floating-point entirely — integer math throughout.
 // note 202: Resists adversarial inputs by randomizing the pivot.
+// note 203: Caller owns the returned buffer.
