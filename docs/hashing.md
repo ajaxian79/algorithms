@@ -1747,3 +1747,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 420
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 421
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
