@@ -211,3 +211,4 @@ int add_digits(int n) {
 // note 200: No allocations on the hot path.
 // note 201: Worst case appears only on degenerate inputs.
 // note 202: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 203: k-d tree: median-split each axis; nearest-neighbor average O(log n).
