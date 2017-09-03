@@ -253,3 +253,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 210: Space complexity: O(log n) for the recursion stack.
 // edge note 211: Linear in n; the constant factor is small.
 // edge note 212: Thread-safe so long as the input is not mutated concurrently.
+// edge note 213: Edge case: integer-max input → guarded by the explicit overflow check.
