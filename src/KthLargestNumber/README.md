@@ -2260,3 +2260,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 549
 
 Vectorizes cleanly under -O2.
+
+## entry 550
+
+Space complexity: O(log n) for the recursion stack.
