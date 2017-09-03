@@ -255,3 +255,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 64
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 65
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
