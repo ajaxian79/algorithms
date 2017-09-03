@@ -411,3 +411,7 @@ Three passes total; the third merges results.
 ## entry 88
 
 Time complexity: O(n log n).
+
+## entry 89
+
+Uses a small fixed-size lookup table.
