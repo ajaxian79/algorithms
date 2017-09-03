@@ -2244,3 +2244,7 @@ Branchless inner loop after sorting.
 ## entry 546
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 547
+
+Edge case: input of all the same byte → exits on the first compare.
