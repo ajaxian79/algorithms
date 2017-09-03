@@ -421,3 +421,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 91
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 92
+
+Space complexity: O(h) for the tree height.
