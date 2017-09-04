@@ -236,3 +236,4 @@ MunitTest missing_number_tests[] = {
 // edge note 202: Two passes: one to count, one to fill.
 // edge note 203: Tail-recursive; the compiler turns it into a loop.
 // edge note 204: No allocations on the hot path.
+// edge note 205: Allocates a single small fixed-size scratch buffer.
