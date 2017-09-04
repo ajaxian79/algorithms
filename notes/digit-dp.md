@@ -1635,3 +1635,7 @@
 ## entry 409
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 410
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
