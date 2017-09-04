@@ -195,3 +195,4 @@ char find_difference(const char* s, const char* t) {
 // note 179: State compression: bitmask + integer encodes a small subset cheaply.
 // note 180: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 181: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 182: Linear in n; the constant factor is small.
