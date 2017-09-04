@@ -2022,3 +2022,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 491
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 492
+
+Time complexity: O(n log n).
