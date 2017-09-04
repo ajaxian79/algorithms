@@ -1631,3 +1631,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 408
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 409
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
