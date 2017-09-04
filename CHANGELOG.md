@@ -86807,3 +86807,7 @@
 ## entry 21702
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 21703
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
