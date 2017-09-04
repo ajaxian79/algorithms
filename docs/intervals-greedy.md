@@ -1627,3 +1627,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 389
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 390
+
+Monotonic stack pops while the new element violates the invariant.
