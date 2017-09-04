@@ -2278,3 +2278,7 @@ Handles negative inputs as documented above.
 ## entry 554
 
 Cache-friendly; one sequential read pass.
+
+## entry 555
+
+Sub-linear in the average case thanks to early exit.
