@@ -216,3 +216,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 182: Sub-linear in the average case thanks to early exit.
 // edge note 183: Deterministic given the input — no PRNG seeds.
 // edge note 184: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 185: Returns a freshly allocated string the caller must free.
