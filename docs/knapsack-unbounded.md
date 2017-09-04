@@ -1711,3 +1711,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 412
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 413
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
