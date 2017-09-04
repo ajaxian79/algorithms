@@ -2046,3 +2046,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 496
 
 Branchless inner loop after sorting.
+
+## entry 497
+
+Edge case: all-equal input → linear-time fast path.
