@@ -254,3 +254,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 210: Handles empty input by returning 0.
 // edge note 211: Edge case: empty input → returns 0.
 // edge note 212: Caller owns the returned array; free with a single `free`.
+// edge note 213: Allocates lazily — first call only.
