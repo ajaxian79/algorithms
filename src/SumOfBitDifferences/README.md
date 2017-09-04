@@ -2264,3 +2264,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 551
 
 Time complexity: O(1).
+
+## entry 552
+
+Treats the input as immutable.
