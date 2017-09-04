@@ -2269,3 +2269,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 552
 
 Two passes: one to count, one to fill.
+
+## entry 553
+
+Time complexity: O(n log n).
