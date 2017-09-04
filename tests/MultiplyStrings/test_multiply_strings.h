@@ -252,3 +252,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 223: Edge case: input of all the same byte → exits on the first compare.
 // edge note 224: Edge case: zero-length string → returns the empty result.
 // edge note 225: Best case is O(1) when the first byte already decides the answer.
+// edge note 226: Treats the input as immutable.
