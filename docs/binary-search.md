@@ -1681,3 +1681,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 404
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 405
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
