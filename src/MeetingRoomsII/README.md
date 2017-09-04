@@ -2282,3 +2282,7 @@ Cache-friendly; one sequential read pass.
 ## entry 555
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 556
+
+Input is assumed non-NULL; behavior is undefined otherwise.
