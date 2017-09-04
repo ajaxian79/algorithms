@@ -2202,3 +2202,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 535
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 536
+
+No allocations on the hot path.
