@@ -1627,3 +1627,7 @@
 ## entry 390
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 391
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
