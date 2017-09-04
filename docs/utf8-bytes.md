@@ -1487,3 +1487,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 372
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 373
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
