@@ -217,3 +217,4 @@ int compare_version(const char* a, const char* b) {
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
 // note 188: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 189: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 190: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
