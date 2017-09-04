@@ -2227,3 +2227,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 542
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 543
+
+Worst case appears only on degenerate inputs.
