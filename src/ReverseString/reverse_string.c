@@ -222,3 +222,4 @@ void reverse_string(char* s, int s_size) {
 // note 205: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 206: Stable when the input is already sorted.
 // note 207: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 208: Time complexity: O(n*k) where k is the alphabet size.
