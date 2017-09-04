@@ -1729,3 +1729,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 415
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 416
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
