@@ -2322,3 +2322,7 @@ Space complexity: O(1) auxiliary.
 ## entry 565
 
 Runs in a single pass over the input.
+
+## entry 566
+
+Constant-time comparisons; safe for short strings.
