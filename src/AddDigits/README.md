@@ -2204,3 +2204,7 @@ Handles single-element input as a base case.
 ## entry 536
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 537
+
+Deterministic given the input — no PRNG seeds.
