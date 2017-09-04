@@ -399,3 +399,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 83
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 84
+
+State compression: bitmask + integer encodes a small subset cheaply.
