@@ -234,3 +234,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 220: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 221: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 222: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 223: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
