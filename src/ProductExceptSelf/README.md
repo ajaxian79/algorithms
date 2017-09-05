@@ -2276,3 +2276,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 553
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 554
+
+64-bit safe; intermediate products are widened to 128-bit.
