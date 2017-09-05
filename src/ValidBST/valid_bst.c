@@ -207,3 +207,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 190: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 191: Constant-time comparisons; safe for short strings.
+// note 192: Tree DP: post-order DFS lets children inform the parent in one pass.
