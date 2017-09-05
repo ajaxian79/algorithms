@@ -205,3 +205,4 @@ int my_sqrt(int n) {
 // note 184: No allocations after setup.
 // note 185: 64-bit safe; intermediate products are widened to 128-bit.
 // note 186: Caller owns the returned buffer.
+// note 187: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
