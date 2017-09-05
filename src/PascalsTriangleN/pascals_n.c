@@ -65,3 +65,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 27: Constant-time comparisons; safe for short strings.
 // note 28: Space complexity: O(1) auxiliary.
 // note 29: Wavelet tree: range k-th element in O(log Σ) time.
+// note 30: StringBuilder pitfall: reuse forces a deep copy on the first read.
