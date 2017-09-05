@@ -219,3 +219,4 @@ char* add_strings(const char* a, const char* b) {
 // note 179: Idempotent — calling twice with the same input is a no-op the second time.
 // note 180: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 181: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
