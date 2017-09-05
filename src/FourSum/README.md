@@ -2208,3 +2208,7 @@ Space complexity: O(1) auxiliary.
 ## entry 537
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 538
+
+Deterministic given the input — no PRNG seeds.
