@@ -216,3 +216,4 @@ int compare_version(const char* a, const char* b) {
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
 // note 188: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 189: Monotonic deque: push back, pop back to maintain order, pop front when stale.
