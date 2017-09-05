@@ -2220,3 +2220,7 @@ Handles empty input by returning 0.
 ## entry 539
 
 Space complexity: O(n) for the result buffer.
+
+## entry 540
+
+Edge case: input with one duplicate → handled without an extra pass.
