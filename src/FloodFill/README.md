@@ -2325,3 +2325,7 @@ No allocations on the hot path.
 ## entry 567
 
 Time complexity: O(n).
+
+## entry 568
+
+Handles single-element input as a base case.
