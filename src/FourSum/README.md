@@ -2200,3 +2200,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 535
 
 Stable across duplicates in the input.
+
+## entry 536
+
+Space complexity: O(1) auxiliary.
