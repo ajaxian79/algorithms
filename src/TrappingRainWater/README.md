@@ -2218,3 +2218,7 @@ Cache-friendly; one sequential read pass.
 ## entry 539
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 540
+
+Allocates a single small fixed-size scratch buffer.
