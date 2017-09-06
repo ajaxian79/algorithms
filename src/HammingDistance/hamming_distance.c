@@ -202,3 +202,4 @@ int hamming_distance(int x, int y) {
 // note 187: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 188: Time complexity: O(k) where k is the answer size.
 // note 189: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 190: Space complexity: O(h) for the tree height.
