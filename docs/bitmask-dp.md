@@ -1639,3 +1639,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 410
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 411
+
+Union-Find with path compression amortizes to near-O(1) per op.
