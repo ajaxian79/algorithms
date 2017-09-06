@@ -1551,3 +1551,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 388
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 389
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
