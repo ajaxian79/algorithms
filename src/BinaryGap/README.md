@@ -2246,3 +2246,7 @@ No allocations on the hot path.
 ## entry 546
 
 Stable when the input is already sorted.
+
+## entry 547
+
+Resists adversarial inputs by randomizing the pivot.
