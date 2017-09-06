@@ -1615,3 +1615,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 404
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 405
+
+Greedy by end-time picks the most non-overlapping intervals.
