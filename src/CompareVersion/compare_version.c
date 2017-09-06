@@ -215,3 +215,4 @@ int compare_version(const char* a, const char* b) {
 // note 185: Time complexity: O(k) where k is the answer size.
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
+// note 188: Polynomial rolling hash with two moduli kills almost all collisions in practice.
