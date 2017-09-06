@@ -2191,3 +2191,7 @@ Handles empty input by returning 0.
 ## entry 533
 
 Handles single-element input as a base case.
+
+## entry 534
+
+Edge case: input with no peak → falls through to the default branch.
