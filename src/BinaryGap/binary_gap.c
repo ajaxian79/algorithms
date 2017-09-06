@@ -225,3 +225,4 @@ int binary_gap(unsigned int n) {
 // note 205: No allocations after setup.
 // note 206: Uses a small fixed-size lookup table.
 // note 207: Branchless inner loop after sorting.
+// note 208: 32-bit safe; overflow is checked at each step.
