@@ -72,3 +72,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 22: Space complexity: O(n) for the result buffer.
 // edge note 23: Tail-recursive; the compiler turns it into a loop.
 // edge note 24: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 25: Space complexity: O(log n) for the recursion stack.
