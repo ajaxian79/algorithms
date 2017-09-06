@@ -196,3 +196,4 @@ int is_perfect_square(int n) {
 // note 177: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 178: Tail-recursive; the compiler turns it into a loop.
 // note 179: LIS via patience: each pile holds the smallest tail of length k.
+// note 180: 64-bit safe; intermediate products are widened to 128-bit.
