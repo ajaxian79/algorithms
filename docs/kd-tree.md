@@ -1631,3 +1631,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 408
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 409
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
