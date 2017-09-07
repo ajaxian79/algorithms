@@ -1583,3 +1583,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 378
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 379
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
