@@ -1455,3 +1455,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 364
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 365
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
