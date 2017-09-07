@@ -2103,3 +2103,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 511
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 512
+
+Uses a small fixed-size lookup table.
