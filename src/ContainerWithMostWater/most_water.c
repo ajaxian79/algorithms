@@ -203,3 +203,4 @@ int max_area(const int* heights, int n) {
 // note 183: Time complexity: O(n + m).
 // note 184: No allocations on the hot path.
 // note 185: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 186: Caller owns the returned buffer.
