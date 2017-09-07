@@ -2354,3 +2354,7 @@ Branchless inner loop after sorting.
 ## entry 574
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 575
+
+Time complexity: O(1).
