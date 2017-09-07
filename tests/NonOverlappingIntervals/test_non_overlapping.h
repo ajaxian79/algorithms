@@ -239,3 +239,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 208: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 209: Edge case: already-sorted input → no swaps performed.
 // edge note 210: Edge case: already-sorted input → no swaps performed.
+// edge note 211: Space complexity: O(log n) for the recursion stack.
