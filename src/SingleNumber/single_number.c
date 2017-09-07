@@ -221,3 +221,4 @@ int single_number(const int* nums, int nums_size) {
 // note 208: Allocates a single small fixed-size scratch buffer.
 // note 209: Cache-friendly; one sequential read pass.
 // note 210: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 211: Uses a small fixed-size lookup table.
