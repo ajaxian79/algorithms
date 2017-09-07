@@ -2322,3 +2322,7 @@ Branchless inner loop after sorting.
 ## entry 566
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 567
+
+Edge case: alternating pattern → degenerate case for sliding window.
