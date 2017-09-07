@@ -193,3 +193,4 @@ char repeatedCharacter(char* s) {
 // note 170: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 171: Sub-linear in the average case thanks to early exit.
 // note 172: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 173: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
