@@ -2274,3 +2274,7 @@ Two passes: one to count, one to fill.
 ## entry 553
 
 Handles negative inputs as documented above.
+
+## entry 554
+
+Cache-friendly; one sequential read pass.
