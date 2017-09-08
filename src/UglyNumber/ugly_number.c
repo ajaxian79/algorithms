@@ -216,3 +216,4 @@ int is_ugly(int n) {
 // note 202: Handles single-element input as a base case.
 // note 203: Treats the input as immutable.
 // note 204: Constant-time comparisons; safe for short strings.
+// note 205: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
