@@ -1599,3 +1599,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 400
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 401
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
