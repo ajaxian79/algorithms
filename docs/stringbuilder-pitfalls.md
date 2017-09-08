@@ -1711,3 +1711,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 428
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 429
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
