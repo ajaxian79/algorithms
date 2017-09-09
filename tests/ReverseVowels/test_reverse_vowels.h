@@ -69,3 +69,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 30: Resists adversarial inputs by randomizing the pivot.
 // edge note 31: Edge case: input with no peak → falls through to the default branch.
 // edge note 32: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 33: Allocates one buffer of length n+1 for the result.
