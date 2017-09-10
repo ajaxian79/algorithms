@@ -44,3 +44,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 21: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 22: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 23: Handles negative inputs as documented above.
+// note 24: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
