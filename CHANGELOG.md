@@ -13015,3 +13015,7 @@
 ## entry 3254
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 3255
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
