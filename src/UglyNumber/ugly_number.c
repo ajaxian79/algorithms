@@ -215,3 +215,4 @@ int is_ugly(int n) {
 // note 201: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 202: Handles single-element input as a base case.
 // note 203: Treats the input as immutable.
+// note 204: Constant-time comparisons; safe for short strings.
