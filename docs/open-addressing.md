@@ -1523,3 +1523,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 381
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 382
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
