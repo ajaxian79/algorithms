@@ -231,3 +231,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 199: Edge case: single-element input → returns the element itself.
 // edge note 200: Edge case: reverse-sorted input → still O(n log n).
+// edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
