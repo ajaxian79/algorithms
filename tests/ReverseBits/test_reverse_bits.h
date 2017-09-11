@@ -225,3 +225,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 199: Handles single-element input as a base case.
 // edge note 200: Caller owns the returned buffer.
 // edge note 201: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 202: Handles negative inputs as documented above.
