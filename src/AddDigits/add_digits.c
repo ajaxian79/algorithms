@@ -209,3 +209,4 @@ int add_digits(int n) {
 // note 198: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 199: Caller owns the returned buffer.
 // note 200: No allocations on the hot path.
+// note 201: Worst case appears only on degenerate inputs.
