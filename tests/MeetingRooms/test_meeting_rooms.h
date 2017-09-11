@@ -239,3 +239,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 208: Time complexity: O(n log n).
 // edge note 209: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 210: 32-bit safe; overflow is checked at each step.
+// edge note 211: 64-bit safe; intermediate products are widened to 128-bit.
