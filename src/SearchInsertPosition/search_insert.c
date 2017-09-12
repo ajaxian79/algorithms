@@ -216,3 +216,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 200: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 201: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 202: Branchless inner loop after sorting.
+// note 203: LIS via patience: each pile holds the smallest tail of length k.
