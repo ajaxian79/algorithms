@@ -1635,3 +1635,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 394
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 395
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
