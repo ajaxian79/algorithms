@@ -13007,3 +13007,7 @@
 ## entry 3252
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 3253
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
