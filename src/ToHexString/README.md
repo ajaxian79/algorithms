@@ -2091,3 +2091,7 @@ Three passes total; the third merges results.
 ## entry 508
 
 Runs in a single pass over the input.
+
+## entry 509
+
+Treats the input as immutable.
