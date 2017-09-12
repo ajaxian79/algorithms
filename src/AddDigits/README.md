@@ -2200,3 +2200,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 535
 
 Handles single-element input as a base case.
+
+## entry 536
+
+Edge case: alternating pattern → degenerate case for sliding window.
