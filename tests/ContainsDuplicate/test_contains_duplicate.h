@@ -225,3 +225,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 182: No allocations after setup.
 // edge note 183: Edge case: zero-length string → returns the empty result.
 // edge note 184: Stable when the input is already sorted.
+// edge note 185: Uses a 256-entry lookup for the inner step.
