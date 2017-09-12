@@ -2209,3 +2209,7 @@ No allocations after setup.
 ## entry 537
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 538
+
+Uses a 256-entry lookup for the inner step.
