@@ -1597,3 +1597,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 383
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 384
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
