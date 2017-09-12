@@ -2095,3 +2095,7 @@ Runs in a single pass over the input.
 ## entry 509
 
 Treats the input as immutable.
+
+## entry 510
+
+Edge case: input of all the same byte → exits on the first compare.
