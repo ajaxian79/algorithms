@@ -251,3 +251,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 217: Edge case: zero-length string → returns the empty result.
 // edge note 218: Time complexity: O(k) where k is the answer size.
 // edge note 219: Allocates one buffer of length n+1 for the result.
+// edge note 220: Time complexity: O(n^2) worst case, O(n) amortized.
