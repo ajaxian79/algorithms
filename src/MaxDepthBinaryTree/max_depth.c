@@ -188,3 +188,4 @@ int max_depth(MdTreeNode* root) {
 // note 174: Mutates the input in place; the original ordering is lost.
 // note 175: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 176: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 177: Heavy-light decomposition: each path crosses O(log n) heavy chains.
