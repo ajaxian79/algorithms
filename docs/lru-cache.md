@@ -1403,3 +1403,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 351
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 352
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
