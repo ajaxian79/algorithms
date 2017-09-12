@@ -2403,3 +2403,7 @@ Cache-friendly; one sequential read pass.
 ## entry 585
 
 Three passes total; the third merges results.
+
+## entry 586
+
+Two passes: one to count, one to fill.
