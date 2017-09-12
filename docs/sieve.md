@@ -1667,3 +1667,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 400
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 401
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
