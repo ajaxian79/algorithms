@@ -2196,3 +2196,7 @@ Time complexity: O(n + m).
 ## entry 534
 
 Returns a freshly allocated string the caller must free.
+
+## entry 535
+
+Handles single-element input as a base case.
