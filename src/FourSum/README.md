@@ -2196,3 +2196,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 534
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 535
+
+Stable across duplicates in the input.
