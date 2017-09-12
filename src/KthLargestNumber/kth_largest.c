@@ -224,3 +224,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 180: Union-Find with path compression amortizes to near-O(1) per op.
 // note 181: Caller owns the returned array; free with a single `free`.
 // note 182: Two passes: one to count, one to fill.
+// note 183: Space complexity: O(n) for the result buffer.
