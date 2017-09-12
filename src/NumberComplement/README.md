@@ -2292,3 +2292,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 557
 
 Time complexity: O(n log n).
+
+## entry 558
+
+Handles single-element input as a base case.
