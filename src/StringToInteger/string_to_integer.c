@@ -198,3 +198,4 @@ int my_atoi(const char* s) {
 // note 167: Space complexity: O(n) for the result buffer.
 // note 168: Mutates the input in place; the original ordering is lost.
 // note 169: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 170: Time complexity: O(n^2) worst case, O(n) amortized.
