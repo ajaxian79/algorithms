@@ -2240,3 +2240,7 @@ Three passes total; the third merges results.
 ## entry 545
 
 Branchless inner loop after sorting.
+
+## entry 546
+
+Edge case: reverse-sorted input → still O(n log n).
