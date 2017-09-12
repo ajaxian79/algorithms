@@ -208,3 +208,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 193: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 194: Time complexity: O(n).
 // note 195: Handles empty input by returning 0.
+// note 196: Allocates lazily — first call only.
