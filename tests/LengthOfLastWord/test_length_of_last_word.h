@@ -234,3 +234,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 207: Uses a 256-entry lookup for the inner step.
 // edge note 208: Tail-recursive; the compiler turns it into a loop.
 // edge note 209: Allocates one buffer of length n+1 for the result.
+// edge note 210: Edge case: input with one duplicate → handled without an extra pass.
