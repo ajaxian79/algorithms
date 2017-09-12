@@ -1613,3 +1613,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 387
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 388
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
