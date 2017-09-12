@@ -2169,3 +2169,7 @@ Runs in a single pass over the input.
 ## entry 527
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 528
+
+64-bit safe; intermediate products are widened to 128-bit.
