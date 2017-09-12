@@ -1593,3 +1593,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 382
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 383
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
