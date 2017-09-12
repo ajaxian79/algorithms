@@ -1581,3 +1581,7 @@
 ## entry 379
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 380
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
