@@ -354,3 +354,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 73
 
 Handles single-element input as a base case.
+
+## entry 74
+
+Reentrant — no static state.
