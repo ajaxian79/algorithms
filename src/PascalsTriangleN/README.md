@@ -2042,3 +2042,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 495
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 496
+
+Branchless inner loop after sorting.
