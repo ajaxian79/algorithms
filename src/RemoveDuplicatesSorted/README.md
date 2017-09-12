@@ -2362,3 +2362,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 576
 
 No allocations after setup.
+
+## entry 577
+
+Edge case: input of all the same byte → exits on the first compare.
