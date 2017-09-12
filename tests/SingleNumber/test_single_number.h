@@ -256,3 +256,4 @@ MunitTest single_number_tests[] = {
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 226: Caller owns the returned buffer.
 // edge note 227: Time complexity: O(n).
+// edge note 228: Idempotent — calling twice with the same input is a no-op the second time.
