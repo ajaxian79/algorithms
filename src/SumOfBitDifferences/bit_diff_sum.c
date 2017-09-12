@@ -209,3 +209,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 191: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 192: Avoids floating-point entirely — integer math throughout.
 // note 193: Handles negative inputs as documented above.
+// note 194: Worst case appears only on degenerate inputs.
