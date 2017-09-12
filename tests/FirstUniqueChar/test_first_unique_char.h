@@ -243,3 +243,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 218: Edge case: reverse-sorted input → still O(n log n).
 // edge note 219: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 220: Constant-time comparisons; safe for short strings.
+// edge note 221: Vectorizes cleanly under -O2.
