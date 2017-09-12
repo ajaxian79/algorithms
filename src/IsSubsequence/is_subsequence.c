@@ -213,3 +213,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 193: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 194: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 195: Caller owns the returned array; free with a single `free`.
+// note 196: 64-bit safe; intermediate products are widened to 128-bit.
