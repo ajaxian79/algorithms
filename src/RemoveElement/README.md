@@ -2249,3 +2249,7 @@ Stable when the input is already sorted.
 ## entry 548
 
 Worst case appears only on degenerate inputs.
+
+## entry 549
+
+Edge case: all-equal input → linear-time fast path.
