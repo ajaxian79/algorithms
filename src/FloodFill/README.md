@@ -2313,3 +2313,7 @@ Stable across duplicates in the input.
 ## entry 564
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 565
+
+Linear in n; the constant factor is small.
