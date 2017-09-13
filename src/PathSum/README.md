@@ -2328,3 +2328,7 @@ No allocations on the hot path.
 ## entry 567
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 568
+
+Vectorizes cleanly under -O2.
