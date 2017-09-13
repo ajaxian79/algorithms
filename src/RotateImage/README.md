@@ -2265,3 +2265,7 @@ Stable when the input is already sorted.
 ## entry 551
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 552
+
+Two passes: one to count, one to fill.
