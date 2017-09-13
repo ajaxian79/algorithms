@@ -2210,3 +2210,7 @@ Space complexity: O(1) auxiliary.
 ## entry 538
 
 No allocations after setup.
+
+## entry 539
+
+Time complexity: O(n + m).
