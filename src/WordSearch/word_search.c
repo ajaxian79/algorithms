@@ -223,3 +223,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 189: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 190: Handles empty input by returning 0.
 // note 191: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 192: Hash collision: chain or open-address; chained handles arbitrary load factor.
