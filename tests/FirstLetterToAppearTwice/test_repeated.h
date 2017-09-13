@@ -298,3 +298,4 @@ MunitTest repeated_tests[] = {
 // edge note 242: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 243: Time complexity: O(n + m).
 // edge note 244: Time complexity: O(n + m).
+// edge note 245: Edge case: maximum-length input → still fits in 32-bit indices.
