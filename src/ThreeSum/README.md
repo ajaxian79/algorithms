@@ -2241,3 +2241,7 @@ Allocates lazily — first call only.
 ## entry 545
 
 Allocates lazily — first call only.
+
+## entry 546
+
+Time complexity: O(log n).
