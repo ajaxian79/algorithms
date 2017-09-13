@@ -2388,3 +2388,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 582
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 583
+
+Handles negative inputs as documented above.
