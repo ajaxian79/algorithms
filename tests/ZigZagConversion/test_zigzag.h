@@ -238,3 +238,4 @@ MunitTest zigzag_tests[] = {
 // edge note 210: Avoids floating-point entirely — integer math throughout.
 // edge note 211: Space complexity: O(h) for the tree height.
 // edge note 212: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 213: Edge case: input with a single peak → handled by the first-pass scan.
