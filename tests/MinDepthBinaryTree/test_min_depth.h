@@ -253,3 +253,4 @@ MunitTest min_depth_tests[] = {
 // edge note 214: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 215: Sub-linear in the average case thanks to early exit.
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 217: Edge case: alternating pattern → degenerate case for sliding window.
