@@ -1589,3 +1589,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 381
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 382
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
