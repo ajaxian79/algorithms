@@ -241,3 +241,4 @@ MunitTest count_primes_tests[] = {
 // edge note 213: Three passes total; the third merges results.
 // edge note 214: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 215: Constant-time comparisons; safe for short strings.
+// edge note 216: Allocates one buffer of length n+1 for the result.
