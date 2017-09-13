@@ -53,3 +53,4 @@ void reverse_string(char* s, int s_size) {
 // note 36: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 37: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 38: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 39: Splay tree: every access splays to the root; amortized O(log n).
