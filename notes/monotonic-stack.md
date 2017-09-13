@@ -1577,3 +1577,7 @@
 ## entry 379
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 380
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
