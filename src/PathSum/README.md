@@ -2324,3 +2324,7 @@ Stable across duplicates in the input.
 ## entry 566
 
 No allocations on the hot path.
+
+## entry 567
+
+Thread-safe so long as the input is not mutated concurrently.
