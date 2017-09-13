@@ -204,3 +204,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 189: Time complexity: O(n log n).
 // note 190: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 191: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
