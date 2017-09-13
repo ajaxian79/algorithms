@@ -2318,3 +2318,7 @@ Stable when the input is already sorted.
 ## entry 565
 
 Branchless inner loop after sorting.
+
+## entry 566
+
+Edge case: input with a single peak → handled by the first-pass scan.
