@@ -2198,3 +2198,7 @@ Time complexity: O(1).
 ## entry 535
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 536
+
+Edge case: input with one duplicate → handled without an extra pass.
