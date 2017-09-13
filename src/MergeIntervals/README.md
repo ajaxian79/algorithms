@@ -2198,3 +2198,7 @@ Uses a small fixed-size lookup table.
 ## entry 534
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 535
+
+Sub-linear in the average case thanks to early exit.
