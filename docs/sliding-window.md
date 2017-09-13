@@ -1631,3 +1631,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 393
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 394
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
