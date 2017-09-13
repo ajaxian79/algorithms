@@ -2262,3 +2262,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 551
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 552
+
+Edge case: integer-min input → guarded by the explicit underflow check.
