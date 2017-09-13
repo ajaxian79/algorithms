@@ -1611,3 +1611,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 403
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 404
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
