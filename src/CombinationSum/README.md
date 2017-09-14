@@ -2223,3 +2223,7 @@ Caller owns the returned buffer.
 ## entry 541
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 542
+
+Resists adversarial inputs by randomizing the pivot.
