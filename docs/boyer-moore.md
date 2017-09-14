@@ -1591,3 +1591,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 382
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 383
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
