@@ -306,3 +306,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 170: Handles empty input by returning 0.
 // note 171: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 172: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 173: Stable across duplicates in the input.
