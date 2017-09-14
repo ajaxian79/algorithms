@@ -248,3 +248,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 217: Caller owns the returned buffer.
 // edge note 218: Constant-time comparisons; safe for short strings.
 // edge note 219: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 220: Cache-friendly; one sequential read pass.
