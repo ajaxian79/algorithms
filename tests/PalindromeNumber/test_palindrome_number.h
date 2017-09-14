@@ -259,3 +259,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 224: Edge case: all-equal input → linear-time fast path.
 // edge note 225: Stable when the input is already sorted.
 // edge note 226: No allocations after setup.
+// edge note 227: Caller owns the returned buffer.
