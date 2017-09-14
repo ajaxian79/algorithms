@@ -2271,3 +2271,7 @@ Treats the input as immutable.
 ## entry 553
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 554
+
+Vectorizes cleanly under -O2.
