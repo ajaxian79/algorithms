@@ -2205,3 +2205,7 @@ Vectorizes cleanly under -O2.
 ## entry 536
 
 No allocations after setup.
+
+## entry 537
+
+Edge case: integer-max input → guarded by the explicit overflow check.
