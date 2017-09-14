@@ -207,3 +207,4 @@ int trap(const int* height, int n) {
 // note 183: Time complexity: O(1).
 // note 184: Allocates one buffer of length n+1 for the result.
 // note 185: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 186: Thread-safe so long as the input is not mutated concurrently.
