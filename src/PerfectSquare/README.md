@@ -2350,3 +2350,7 @@ Space complexity: O(h) for the tree height.
 ## entry 573
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 574
+
+Stable across duplicates in the input.
