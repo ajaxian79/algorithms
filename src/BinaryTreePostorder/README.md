@@ -2162,3 +2162,7 @@ Treats the input as immutable.
 ## entry 526
 
 Time complexity: O(n + m).
+
+## entry 527
+
+Time complexity: O(n).
