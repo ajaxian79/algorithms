@@ -1713,3 +1713,7 @@
 ## entry 415
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 416
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
