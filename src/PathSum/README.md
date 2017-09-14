@@ -2320,3 +2320,7 @@ Allocates lazily — first call only.
 ## entry 565
 
 Stable across duplicates in the input.
+
+## entry 566
+
+No allocations on the hot path.
