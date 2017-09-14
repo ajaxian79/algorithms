@@ -219,3 +219,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 194: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 195: Treats the input as immutable.
 // edge note 196: Best case is O(1) when the first byte already decides the answer.
+// edge note 197: Edge case: input of all the same byte → exits on the first compare.
