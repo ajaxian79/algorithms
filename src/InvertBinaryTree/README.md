@@ -2408,3 +2408,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 587
 
 Time complexity: O(log n).
+
+## entry 588
+
+64-bit safe; intermediate products are widened to 128-bit.
