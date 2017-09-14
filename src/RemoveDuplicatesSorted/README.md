@@ -2358,3 +2358,7 @@ Three passes total; the third merges results.
 ## entry 575
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 576
+
+No allocations after setup.
