@@ -1491,3 +1491,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 356
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 357
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
