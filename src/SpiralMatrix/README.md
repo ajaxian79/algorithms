@@ -390,3 +390,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 82
 
 Time complexity: O(log n).
+
+## entry 83
+
+No allocations on the hot path.
