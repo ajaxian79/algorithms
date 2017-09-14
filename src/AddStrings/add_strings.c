@@ -218,3 +218,4 @@ char* add_strings(const char* a, const char* b) {
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 179: Idempotent — calling twice with the same input is a no-op the second time.
 // note 180: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 181: k-d tree: median-split each axis; nearest-neighbor average O(log n).
