@@ -1619,3 +1619,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 405
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 406
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
