@@ -325,3 +325,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 64
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 65
+
+Interval DP: solve all `[l, r]` ranges from short to long.
