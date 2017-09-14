@@ -2166,3 +2166,7 @@ Time complexity: O(n).
 ## entry 527
 
 32-bit safe; overflow is checked at each step.
+
+## entry 528
+
+Allocates one buffer of length n+1 for the result.
