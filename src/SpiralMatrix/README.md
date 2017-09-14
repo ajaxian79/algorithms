@@ -2230,3 +2230,7 @@ Runs in a single pass over the input.
 ## entry 542
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 543
+
+Edge case: alternating pattern → degenerate case for sliding window.
