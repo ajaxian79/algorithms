@@ -2214,3 +2214,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 538
 
 Cache-friendly; one sequential read pass.
+
+## entry 539
+
+Resists adversarial inputs by randomizing the pivot.
