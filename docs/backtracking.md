@@ -1649,3 +1649,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 395
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 396
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
