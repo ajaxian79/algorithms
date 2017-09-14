@@ -267,3 +267,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 232: Edge case: reverse-sorted input → still O(n log n).
 // edge note 233: Space complexity: O(1) auxiliary.
 // edge note 234: Mutates the input in place; the original ordering is lost.
+// edge note 235: 32-bit safe; overflow is checked at each step.
