@@ -2181,3 +2181,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 520
 
 Cache-friendly; one sequential read pass.
+
+## entry 521
+
+Thread-safe so long as the input is not mutated concurrently.
