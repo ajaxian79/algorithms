@@ -247,3 +247,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 207: Sub-linear in the average case thanks to early exit.
 // edge note 208: Best case is O(1) when the first byte already decides the answer.
 // edge note 209: Stable across duplicates in the input.
+// edge note 210: Tail-recursive; the compiler turns it into a loop.
