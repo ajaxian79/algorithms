@@ -1597,3 +1597,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 383
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 384
+
+Endianness matters when serializing multi-byte ints to a file or wire.
