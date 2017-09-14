@@ -2354,3 +2354,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 574
 
 Stable across duplicates in the input.
+
+## entry 575
+
+64-bit safe; intermediate products are widened to 128-bit.
