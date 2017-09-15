@@ -85,3 +85,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 26: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 27: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 29: 32-bit safe; overflow is checked at each step.
