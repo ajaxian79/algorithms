@@ -1645,3 +1645,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 394
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 395
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
