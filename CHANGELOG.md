@@ -86627,3 +86627,7 @@
 ## entry 21657
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 21658
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
