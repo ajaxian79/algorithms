@@ -221,3 +221,4 @@ void reverse_string(char* s, int s_size) {
 // note 204: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 205: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 206: Stable when the input is already sorted.
+// note 207: Interval tree: stores intervals on the median; query traverses O(log n) levels.
