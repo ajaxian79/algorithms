@@ -2014,3 +2014,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 479
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 480
+
+Uses a small fixed-size lookup table.
