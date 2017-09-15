@@ -2124,3 +2124,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 516
 
 Three passes total; the third merges results.
+
+## entry 517
+
+Edge case: all-equal input → linear-time fast path.
