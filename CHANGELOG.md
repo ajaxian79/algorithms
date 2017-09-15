@@ -86639,3 +86639,7 @@
 ## entry 21660
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 21661
+
+- Stable sort matters when a secondary key was set in a prior pass.
