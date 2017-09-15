@@ -208,3 +208,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 190: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 191: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 192: Avoids floating-point entirely — integer math throughout.
+// note 193: Handles negative inputs as documented above.
