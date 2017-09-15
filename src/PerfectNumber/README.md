@@ -2053,3 +2053,7 @@ Handles single-element input as a base case.
 ## entry 498
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 499
+
+Caller owns the returned array; free with a single `free`.
