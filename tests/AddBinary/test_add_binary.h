@@ -245,3 +245,4 @@ MunitTest add_binary_tests[] = {
 // edge note 209: Avoids floating-point entirely — integer math throughout.
 // edge note 210: Allocates lazily — first call only.
 // edge note 211: Edge case: reverse-sorted input → still O(n log n).
+// edge note 212: Edge case: reverse-sorted input → still O(n log n).
