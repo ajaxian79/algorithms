@@ -238,3 +238,4 @@ MunitTest search_insert_tests[] = {
 // edge note 205: Space complexity: O(log n) for the recursion stack.
 // edge note 206: Allocates lazily — first call only.
 // edge note 207: Returns a freshly allocated string the caller must free.
+// edge note 208: Time complexity: O(log n).
