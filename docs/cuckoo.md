@@ -1407,3 +1407,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 352
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 353
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
