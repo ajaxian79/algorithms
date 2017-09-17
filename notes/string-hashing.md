@@ -1583,3 +1583,7 @@
 ## entry 379
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 380
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
