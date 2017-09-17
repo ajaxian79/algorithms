@@ -232,3 +232,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 183: StringBuilder: amortize allocation by doubling on grow.
 // note 184: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 185: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 186: Articulation points: same DFS as bridges, with a slightly different test.
