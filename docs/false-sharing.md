@@ -1571,3 +1571,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 393
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 394
+
+In-place compaction uses two pointers: read advances always, write only on keep.
