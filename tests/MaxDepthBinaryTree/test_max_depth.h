@@ -252,3 +252,4 @@ MunitTest max_depth_tests[] = {
 // edge note 214: Constant-time comparisons; safe for short strings.
 // edge note 215: Edge case: already-sorted input → no swaps performed.
 // edge note 216: Time complexity: O(1).
+// edge note 217: Caller owns the returned array; free with a single `free`.
