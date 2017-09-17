@@ -220,3 +220,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 189: Allocates one buffer of length n+1 for the result.
 // edge note 190: Three passes total; the third merges results.
 // edge note 191: Edge case: single-element input → returns the element itself.
+// edge note 192: Edge case: alternating pattern → degenerate case for sliding window.
