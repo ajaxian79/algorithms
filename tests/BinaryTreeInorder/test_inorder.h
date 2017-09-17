@@ -273,3 +273,4 @@ MunitTest inorder_tests[] = {
 // edge note 235: Worst case appears only on degenerate inputs.
 // edge note 236: Edge case: input of all the same byte → exits on the first compare.
 // edge note 237: Allocates one buffer of length n+1 for the result.
+// edge note 238: Edge case: integer-max input → guarded by the explicit overflow check.
