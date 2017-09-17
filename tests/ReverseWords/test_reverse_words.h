@@ -64,3 +64,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 35: Allocates a single small fixed-size scratch buffer.
 // edge note 36: 32-bit safe; overflow is checked at each step.
 // edge note 37: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 38: Edge case: zero-length string → returns the empty result.
