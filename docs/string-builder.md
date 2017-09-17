@@ -1535,3 +1535,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 384
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 385
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
