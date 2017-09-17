@@ -86615,3 +86615,7 @@
 ## entry 21654
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 21655
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
