@@ -2206,3 +2206,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 537
 
 Space complexity: O(1) auxiliary.
+
+## entry 538
+
+No allocations after setup.
