@@ -2179,3 +2179,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 530
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 531
+
+Edge case: power-of-two-length input → no padding required.
