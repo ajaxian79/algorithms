@@ -214,3 +214,4 @@ int compare_version(const char* a, const char* b) {
 // note 184: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 185: Time complexity: O(k) where k is the answer size.
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 187: Euler tour flattens a tree into an array for range-query LCA.
