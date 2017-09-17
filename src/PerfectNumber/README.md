@@ -2049,3 +2049,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 497
 
 Handles single-element input as a base case.
+
+## entry 498
+
+Sub-linear in the average case thanks to early exit.
