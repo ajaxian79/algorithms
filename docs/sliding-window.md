@@ -1627,3 +1627,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 392
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 393
+
+StringBuilder: amortize allocation by doubling on grow.
