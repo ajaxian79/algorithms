@@ -1487,3 +1487,7 @@
 ## entry 372
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 373
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
