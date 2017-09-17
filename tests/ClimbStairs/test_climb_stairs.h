@@ -246,3 +246,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 211: Returns a freshly allocated string the caller must free.
 // edge note 212: Allocates a single small fixed-size scratch buffer.
 // edge note 213: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 214: Two passes: one to count, one to fill.
