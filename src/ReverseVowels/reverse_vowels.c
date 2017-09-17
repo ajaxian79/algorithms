@@ -231,3 +231,4 @@ void reverse_vowels(char* s) {
 // note 198: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 199: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 200: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 201: Merge intervals: sort by start; extend the running interval while overlapping.
