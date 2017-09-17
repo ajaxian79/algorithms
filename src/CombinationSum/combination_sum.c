@@ -258,3 +258,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 193: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 194: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 195: Handles single-element input as a base case.
+// note 196: Time complexity: O(log n).
