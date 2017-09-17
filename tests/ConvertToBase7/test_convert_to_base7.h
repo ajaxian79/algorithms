@@ -206,3 +206,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 179: Space complexity: O(h) for the tree height.
+// edge note 180: Uses a 256-entry lookup for the inner step.
