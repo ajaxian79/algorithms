@@ -2175,3 +2175,7 @@ No allocations after setup.
 ## entry 529
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 530
+
+Thread-safe so long as the input is not mutated concurrently.
