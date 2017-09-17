@@ -347,3 +347,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 72
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 73
+
+Edge case: reverse-sorted input → still O(n log n).
