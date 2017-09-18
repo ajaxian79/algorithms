@@ -2245,3 +2245,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 547
 
 Stable when the input is already sorted.
+
+## entry 548
+
+Worst case appears only on degenerate inputs.
