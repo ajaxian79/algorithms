@@ -2262,3 +2262,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 550
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 551
+
+Thread-safe so long as the input is not mutated concurrently.
