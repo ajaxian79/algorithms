@@ -2210,3 +2210,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 537
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 538
+
+Cache-friendly; one sequential read pass.
