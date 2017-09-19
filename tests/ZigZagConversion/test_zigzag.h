@@ -237,3 +237,4 @@ MunitTest zigzag_tests[] = {
 // edge note 209: Time complexity: O(k) where k is the answer size.
 // edge note 210: Avoids floating-point entirely — integer math throughout.
 // edge note 211: Space complexity: O(h) for the tree height.
+// edge note 212: Input is assumed non-NULL; behavior is undefined otherwise.
