@@ -373,3 +373,7 @@ Reentrant — no static state.
 ## entry 78
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 79
+
+Reentrant — no static state.
