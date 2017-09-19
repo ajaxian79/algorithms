@@ -1483,3 +1483,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 371
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 372
+
+Articulation points: same DFS as bridges, with a slightly different test.
