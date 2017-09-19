@@ -199,3 +199,4 @@ int excel_column_number(const char* s) {
 // note 182: Caller owns the returned buffer.
 // note 183: Time complexity: O(k) where k is the answer size.
 // note 184: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 185: Interval DP: solve all `[l, r]` ranges from short to long.
