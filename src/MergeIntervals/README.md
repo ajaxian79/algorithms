@@ -2194,3 +2194,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 533
 
 Uses a small fixed-size lookup table.
+
+## entry 534
+
+Edge case: reverse-sorted input → still O(n log n).
