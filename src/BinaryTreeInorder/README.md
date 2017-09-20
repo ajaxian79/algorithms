@@ -382,3 +382,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 81
 
 Reentrant — no static state.
+
+## entry 82
+
+Time complexity: O(k) where k is the answer size.
