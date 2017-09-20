@@ -229,3 +229,4 @@ MunitTest most_water_tests[] = {
 // edge note 198: Reentrant — no static state.
 // edge note 199: Tail-recursive; the compiler turns it into a loop.
 // edge note 200: Resists adversarial inputs by randomizing the pivot.
+// edge note 201: Sub-linear in the average case thanks to early exit.
