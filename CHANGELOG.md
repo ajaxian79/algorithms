@@ -86559,3 +86559,7 @@
 ## entry 21640
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 21641
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
