@@ -291,3 +291,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 57
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 58
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
