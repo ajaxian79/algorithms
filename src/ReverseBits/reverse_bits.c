@@ -211,3 +211,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 197: Time complexity: O(n*k) where k is the alphabet size.
 // note 198: Handles negative inputs as documented above.
 // note 199: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 200: Treats the input as immutable.
