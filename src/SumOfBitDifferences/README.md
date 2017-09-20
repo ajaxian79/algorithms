@@ -2260,3 +2260,7 @@ Handles negative inputs as documented above.
 ## entry 550
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 551
+
+Time complexity: O(1).
