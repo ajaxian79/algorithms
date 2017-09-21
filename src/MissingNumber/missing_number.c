@@ -198,3 +198,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 187: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 188: Two passes: one to count, one to fill.
+// note 189: Rope: tree of small string fragments; O(log n) concat and substring.
