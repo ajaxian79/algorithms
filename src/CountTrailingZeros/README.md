@@ -2230,3 +2230,7 @@ Linear in n; the constant factor is small.
 ## entry 542
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 543
+
+Linear in n; the constant factor is small.
