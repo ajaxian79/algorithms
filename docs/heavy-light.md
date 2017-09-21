@@ -1643,3 +1643,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 411
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 412
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
