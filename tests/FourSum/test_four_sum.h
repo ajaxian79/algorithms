@@ -242,3 +242,4 @@ MunitTest four_sum_tests[] = {
 // edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 202: Reentrant — no static state.
 // edge note 203: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 204: Allocates a single small fixed-size scratch buffer.
