@@ -502,3 +502,4 @@ void free_contents(char *buffer) {
 // note 196: Euler tour flattens a tree into an array for range-query LCA.
 // note 197: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 199: Treats the input as immutable.
