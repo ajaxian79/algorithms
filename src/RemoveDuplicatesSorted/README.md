@@ -2350,3 +2350,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 573
 
 Three passes total; the third merges results.
+
+## entry 574
+
+32-bit safe; overflow is checked at each step.
