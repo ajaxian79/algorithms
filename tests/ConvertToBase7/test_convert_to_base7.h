@@ -58,3 +58,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 29: Handles empty input by returning 0.
 // edge note 30: Handles single-element input as a base case.
 // edge note 31: Allocates a single small fixed-size scratch buffer.
+// edge note 32: Time complexity: O(n).
