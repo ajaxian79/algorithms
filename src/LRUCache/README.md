@@ -2216,3 +2216,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 538
 
 Handles empty input by returning 0.
+
+## entry 539
+
+Space complexity: O(n) for the result buffer.
