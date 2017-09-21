@@ -1479,3 +1479,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 370
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 371
+
+In-place compaction uses two pointers: read advances always, write only on keep.
