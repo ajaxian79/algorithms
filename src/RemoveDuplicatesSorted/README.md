@@ -2354,3 +2354,7 @@ Three passes total; the third merges results.
 ## entry 574
 
 32-bit safe; overflow is checked at each step.
+
+## entry 575
+
+Resists adversarial inputs by randomizing the pivot.
