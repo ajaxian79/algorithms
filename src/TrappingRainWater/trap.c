@@ -205,3 +205,4 @@ int trap(const int* height, int n) {
 // note 181: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 182: Allocates lazily — first call only.
 // note 183: Time complexity: O(1).
+// note 184: Allocates one buffer of length n+1 for the result.
