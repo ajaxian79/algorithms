@@ -1671,3 +1671,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 400
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 401
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
