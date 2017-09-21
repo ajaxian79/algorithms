@@ -2165,3 +2165,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 526
 
 Runs in a single pass over the input.
+
+## entry 527
+
+Time complexity: O(k) where k is the answer size.
