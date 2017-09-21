@@ -86555,3 +86555,7 @@
 ## entry 21639
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 21640
+
+- Splay tree: every access splays to the root; amortized O(log n).
