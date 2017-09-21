@@ -2226,3 +2226,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 541
 
 Runs in a single pass over the input.
+
+## entry 542
+
+Edge case: zero-length string → returns the empty result.
