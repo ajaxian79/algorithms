@@ -1743,3 +1743,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 419
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 420
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
