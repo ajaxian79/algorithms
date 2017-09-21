@@ -200,3 +200,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 183: Handles negative inputs as documented above.
 // note 184: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 185: Caller owns the returned buffer.
+// note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
