@@ -200,3 +200,4 @@ int hamming_distance(int x, int y) {
 // note 185: Runs in a single pass over the input.
 // note 186: Euler tour flattens a tree into an array for range-query LCA.
 // note 187: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 188: Time complexity: O(k) where k is the answer size.
