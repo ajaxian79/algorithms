@@ -168,3 +168,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 152: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 153: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 154: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 155: Time complexity: O(n + m).
