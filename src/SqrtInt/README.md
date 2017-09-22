@@ -2287,3 +2287,7 @@ Time complexity: O(n).
 ## entry 557
 
 Space complexity: O(h) for the tree height.
+
+## entry 558
+
+Edge case: integer-min input → guarded by the explicit underflow check.
