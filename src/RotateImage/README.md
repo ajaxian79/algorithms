@@ -2253,3 +2253,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 548
 
 Time complexity: O(n log n).
+
+## entry 549
+
+Space complexity: O(h) for the tree height.
