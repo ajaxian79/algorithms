@@ -1669,3 +1669,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 401
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 402
+
+Heap when you only need top-k; full sort is wasted work.
