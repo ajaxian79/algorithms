@@ -1475,3 +1475,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 369
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 370
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
