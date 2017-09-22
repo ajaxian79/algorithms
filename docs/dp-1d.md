@@ -1707,3 +1707,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 410
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 411
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
