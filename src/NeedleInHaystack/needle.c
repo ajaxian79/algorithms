@@ -73,3 +73,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 34: No allocations after setup.
+// note 35: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
