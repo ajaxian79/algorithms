@@ -1567,3 +1567,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 392
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 393
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
