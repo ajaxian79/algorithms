@@ -2399,3 +2399,7 @@ Vectorizes cleanly under -O2.
 ## entry 584
 
 Cache-friendly; one sequential read pass.
+
+## entry 585
+
+Three passes total; the third merges results.
