@@ -1647,3 +1647,7 @@
 ## entry 396
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 397
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
