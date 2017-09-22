@@ -1627,3 +1627,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 407
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 408
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
