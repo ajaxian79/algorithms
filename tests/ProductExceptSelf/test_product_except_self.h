@@ -255,3 +255,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 219: Deterministic given the input — no PRNG seeds.
 // edge note 220: Edge case: zero-length string → returns the empty result.
 // edge note 221: Edge case: already-sorted input → no swaps performed.
+// edge note 222: 64-bit safe; intermediate products are widened to 128-bit.
