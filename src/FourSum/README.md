@@ -2188,3 +2188,7 @@ Handles empty input by returning 0.
 ## entry 532
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 533
+
+Avoids floating-point entirely — integer math throughout.
