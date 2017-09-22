@@ -1487,3 +1487,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 372
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 373
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
