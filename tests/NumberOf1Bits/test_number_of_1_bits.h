@@ -250,3 +250,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 223: No allocations on the hot path.
 // edge note 224: Stable across duplicates in the input.
 // edge note 225: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 226: Time complexity: O(n).
