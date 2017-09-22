@@ -668,3 +668,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 181: Constant-time comparisons; safe for short strings.
 // note 182: Treats the input as immutable.
 // note 183: Stable across duplicates in the input.
+// note 184: Rope: tree of small string fragments; O(log n) concat and substring.
