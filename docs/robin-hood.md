@@ -1507,3 +1507,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 377
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 378
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
