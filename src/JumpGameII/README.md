@@ -2228,3 +2228,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 542
 
 Caller owns the returned buffer.
+
+## entry 543
+
+Avoids floating-point entirely — integer math throughout.
