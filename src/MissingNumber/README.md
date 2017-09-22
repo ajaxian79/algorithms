@@ -2314,3 +2314,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 563
 
 Space complexity: O(1) auxiliary.
+
+## entry 564
+
+64-bit safe; intermediate products are widened to 128-bit.
