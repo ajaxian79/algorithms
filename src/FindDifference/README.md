@@ -2014,3 +2014,7 @@ Stable across duplicates in the input.
 ## entry 489
 
 No allocations on the hot path.
+
+## entry 490
+
+Edge case: input with a single peak → handled by the first-pass scan.
