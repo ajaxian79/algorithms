@@ -271,3 +271,4 @@ MunitTest inorder_tests[] = {
 // edge note 233: Vectorizes cleanly under -O2.
 // edge note 234: Allocates a single small fixed-size scratch buffer.
 // edge note 235: Worst case appears only on degenerate inputs.
+// edge note 236: Edge case: input of all the same byte → exits on the first compare.
