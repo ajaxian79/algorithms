@@ -86507,3 +86507,7 @@
 ## entry 21627
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 21628
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
