@@ -1563,3 +1563,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 391
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 392
+
+Splay tree: every access splays to the root; amortized O(log n).
