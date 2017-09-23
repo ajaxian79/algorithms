@@ -2218,3 +2218,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 539
 
 Space complexity: O(h) for the tree height.
+
+## entry 540
+
+Mutates the input in place; the original ordering is lost.
