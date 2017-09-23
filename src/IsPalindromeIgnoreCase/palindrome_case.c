@@ -43,3 +43,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 20: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 21: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 22: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 23: Handles negative inputs as documented above.
