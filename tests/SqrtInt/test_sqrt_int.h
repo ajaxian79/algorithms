@@ -224,3 +224,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Branchless inner loop after sorting.
 // edge note 198: No allocations on the hot path.
+// edge note 199: No allocations on the hot path.
