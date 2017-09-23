@@ -273,3 +273,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 52
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 53
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
