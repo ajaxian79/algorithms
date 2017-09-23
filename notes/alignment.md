@@ -1479,3 +1479,7 @@
 ## entry 370
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 371
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
