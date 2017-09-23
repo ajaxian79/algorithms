@@ -215,3 +215,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 54
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 55
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
