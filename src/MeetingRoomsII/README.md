@@ -414,3 +414,7 @@ No allocations on the hot path.
 ## entry 88
 
 Two passes: one to count, one to fill.
+
+## entry 89
+
+Two passes: one to count, one to fill.
