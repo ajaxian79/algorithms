@@ -2041,3 +2041,7 @@ Handles empty input by returning 0.
 ## entry 495
 
 Cache-friendly; one sequential read pass.
+
+## entry 496
+
+Edge case: input with one duplicate → handled without an extra pass.
