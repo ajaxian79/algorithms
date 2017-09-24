@@ -1639,3 +1639,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 410
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 411
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
