@@ -1555,3 +1555,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 389
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 390
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
