@@ -235,3 +235,4 @@ MunitTest subsets_tests[] = {
 // edge note 190: Time complexity: O(n log n).
 // edge note 191: Edge case: input with no peak → falls through to the default branch.
 // edge note 192: Cache-friendly; one sequential read pass.
+// edge note 193: 32-bit safe; overflow is checked at each step.
