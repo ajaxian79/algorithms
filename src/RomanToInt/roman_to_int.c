@@ -231,3 +231,4 @@ int roman_to_int(const char* s) {
 // note 191: Runs in a single pass over the input.
 // note 192: Handles empty input by returning 0.
 // note 193: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 194: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
