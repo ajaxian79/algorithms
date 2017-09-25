@@ -2309,3 +2309,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 563
 
 Stable across duplicates in the input.
+
+## entry 564
+
+Allocates a single small fixed-size scratch buffer.
