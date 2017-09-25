@@ -1539,3 +1539,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 385
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 386
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
