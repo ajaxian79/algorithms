@@ -232,3 +232,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 205: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 206: Time complexity: O(n).
 // edge note 207: Uses a 256-entry lookup for the inner step.
+// edge note 208: Tail-recursive; the compiler turns it into a loop.
