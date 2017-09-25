@@ -2224,3 +2224,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 541
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 542
+
+Caller owns the returned buffer.
