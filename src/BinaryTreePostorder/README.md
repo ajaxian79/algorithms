@@ -2154,3 +2154,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 524
 
 Constant-time comparisons; safe for short strings.
+
+## entry 525
+
+Treats the input as immutable.
