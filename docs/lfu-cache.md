@@ -1543,3 +1543,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 386
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 387
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
