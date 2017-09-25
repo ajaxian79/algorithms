@@ -1607,3 +1607,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 402
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 403
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
