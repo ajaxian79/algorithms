@@ -271,3 +271,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 205: Two passes: one to count, one to fill.
 // note 206: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 207: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 208: Three passes total; the third merges results.
