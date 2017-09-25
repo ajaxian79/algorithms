@@ -228,3 +228,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 198: Cache-friendly; one sequential read pass.
 // edge note 199: No allocations after setup.
 // edge note 200: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 201: Handles negative inputs as documented above.
