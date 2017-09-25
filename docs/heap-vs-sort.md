@@ -1579,3 +1579,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 378
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 379
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
