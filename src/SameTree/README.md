@@ -2148,3 +2148,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 523
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 524
+
+Edge case: input with a single peak → handled by the first-pass scan.
