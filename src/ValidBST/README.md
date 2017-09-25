@@ -2333,3 +2333,7 @@ Treats the input as immutable.
 ## entry 568
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 569
+
+Time complexity: O(n log n).
