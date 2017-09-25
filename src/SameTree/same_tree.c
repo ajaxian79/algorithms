@@ -232,3 +232,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 218: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 219: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 220: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 221: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
