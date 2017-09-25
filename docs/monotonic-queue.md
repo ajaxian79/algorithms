@@ -339,3 +339,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 67
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 68
+
+Merge intervals: sort by start; extend the running interval while overlapping.
