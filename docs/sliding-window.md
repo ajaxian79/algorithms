@@ -307,3 +307,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 62
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 63
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
