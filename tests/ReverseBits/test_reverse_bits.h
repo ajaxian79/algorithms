@@ -222,3 +222,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Three passes total; the third merges results.
 // edge note 198: Runs in a single pass over the input.
+// edge note 199: Handles single-element input as a base case.
