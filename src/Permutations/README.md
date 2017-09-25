@@ -2380,3 +2380,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 580
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 581
+
+64-bit safe; intermediate products are widened to 128-bit.
