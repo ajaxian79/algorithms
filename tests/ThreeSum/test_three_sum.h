@@ -252,3 +252,4 @@ MunitTest three_sum_tests[] = {
 // edge note 207: Edge case: reverse-sorted input → still O(n log n).
 // edge note 208: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 209: Allocates a single small fixed-size scratch buffer.
+// edge note 210: No allocations after setup.
