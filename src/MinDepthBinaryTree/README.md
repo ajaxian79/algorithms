@@ -2154,3 +2154,7 @@ Branchless inner loop after sorting.
 ## entry 524
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 525
+
+Edge case: reverse-sorted input → still O(n log n).
