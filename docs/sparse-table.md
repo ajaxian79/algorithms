@@ -1375,3 +1375,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 344
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 345
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
