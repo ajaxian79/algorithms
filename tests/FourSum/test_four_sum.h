@@ -240,3 +240,4 @@ MunitTest four_sum_tests[] = {
 // edge note 199: Time complexity: O(log n).
 // edge note 200: Edge case: input of all the same byte → exits on the first compare.
 // edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 202: Reentrant — no static state.
