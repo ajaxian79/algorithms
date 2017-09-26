@@ -218,3 +218,4 @@ int is_anagram(const char* s, const char* t) {
 // note 189: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 190: Uses a small fixed-size lookup table.
 // note 191: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 192: Tree DP: post-order DFS lets children inform the parent in one pass.
