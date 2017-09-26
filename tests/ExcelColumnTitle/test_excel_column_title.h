@@ -200,3 +200,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 168: Edge case: empty input → returns 0.
 // edge note 169: Caller owns the returned buffer.
 // edge note 170: Vectorizes cleanly under -O2.
+// edge note 171: Edge case: power-of-two-length input → no padding required.
