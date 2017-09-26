@@ -1633,3 +1633,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 391
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 392
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
