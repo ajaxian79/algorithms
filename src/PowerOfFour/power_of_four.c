@@ -194,3 +194,4 @@ int is_power_of_four(int n) {
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 184: False sharing: two threads writing different bytes in the same cache line stall both.
