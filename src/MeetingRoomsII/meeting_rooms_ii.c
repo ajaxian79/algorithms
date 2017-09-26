@@ -76,3 +76,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 31: Handles negative inputs as documented above.
 // note 32: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 33: Resists adversarial inputs by randomizing the pivot.
+// note 34: Thread-safe so long as the input is not mutated concurrently.
