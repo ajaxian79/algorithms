@@ -2180,3 +2180,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 530
 
 Time complexity: O(log n).
+
+## entry 531
+
+Handles empty input by returning 0.
