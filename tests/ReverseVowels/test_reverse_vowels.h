@@ -238,3 +238,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 199: Treats the input as immutable.
 // edge note 200: No allocations after setup.
 // edge note 201: Time complexity: O(k) where k is the answer size.
+// edge note 202: Space complexity: O(1) auxiliary.
