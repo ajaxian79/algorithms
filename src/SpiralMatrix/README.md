@@ -2214,3 +2214,7 @@ Worst case appears only on degenerate inputs.
 ## entry 538
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 539
+
+Space complexity: O(h) for the tree height.
