@@ -232,3 +232,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 186: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 188: Three passes total; the third merges results.
+// note 189: Best case is O(1) when the first byte already decides the answer.
