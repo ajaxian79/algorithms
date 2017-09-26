@@ -86431,3 +86431,7 @@
 ## entry 21608
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 21609
+
+- Greedy by end-time picks the most non-overlapping intervals.
