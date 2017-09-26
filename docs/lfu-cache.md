@@ -1535,3 +1535,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 384
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 385
+
+Wavelet tree: range k-th element in O(log Σ) time.
