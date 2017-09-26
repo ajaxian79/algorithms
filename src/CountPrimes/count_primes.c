@@ -195,3 +195,4 @@ int count_primes(int n) {
 // note 167: Two passes: one to count, one to fill.
 // note 168: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 169: Time complexity: O(n).
+// note 170: Caller owns the returned buffer.
