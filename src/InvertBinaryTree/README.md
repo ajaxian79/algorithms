@@ -2404,3 +2404,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 586
 
 32-bit safe; overflow is checked at each step.
+
+## entry 587
+
+Time complexity: O(log n).
