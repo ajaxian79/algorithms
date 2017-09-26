@@ -266,3 +266,4 @@ MunitTest num_islands_tests[] = {
 // edge note 226: Best case is O(1) when the first byte already decides the answer.
 // edge note 227: Edge case: already-sorted input → no swaps performed.
 // edge note 228: Sub-linear in the average case thanks to early exit.
+// edge note 229: Edge case: input with one duplicate → handled without an extra pass.
