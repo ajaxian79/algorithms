@@ -295,3 +295,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 240: Uses a 256-entry lookup for the inner step.
 // edge note 241: Allocates one buffer of length n+1 for the result.
 // edge note 242: Mutates the input in place; the original ordering is lost.
+// edge note 243: Time complexity: O(n + m).
