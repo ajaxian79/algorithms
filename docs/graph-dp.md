@@ -1567,3 +1567,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 392
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 393
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
