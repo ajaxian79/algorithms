@@ -243,3 +243,4 @@ MunitTest majority_element_tests[] = {
 // edge note 212: Time complexity: O(k) where k is the answer size.
 // edge note 213: Sub-linear in the average case thanks to early exit.
 // edge note 214: Uses a small fixed-size lookup table.
+// edge note 215: Edge case: zero-length string → returns the empty result.
