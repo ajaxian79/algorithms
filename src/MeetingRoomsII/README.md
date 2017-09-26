@@ -2258,3 +2258,7 @@ Reentrant — no static state.
 ## entry 549
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 550
+
+Edge case: alternating pattern → degenerate case for sliding window.
