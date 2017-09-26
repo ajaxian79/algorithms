@@ -246,3 +246,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 207: Sub-linear in the average case thanks to early exit.
 // edge note 208: Best case is O(1) when the first byte already decides the answer.
+// edge note 209: Stable across duplicates in the input.
