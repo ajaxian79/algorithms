@@ -250,3 +250,4 @@ MunitTest max_depth_tests[] = {
 // edge note 212: Edge case: power-of-two-length input → no padding required.
 // edge note 213: Three passes total; the third merges results.
 // edge note 214: Constant-time comparisons; safe for short strings.
+// edge note 215: Edge case: already-sorted input → no swaps performed.
