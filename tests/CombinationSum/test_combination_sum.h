@@ -236,3 +236,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 192: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 193: Stable when the input is already sorted.
 // edge note 194: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 195: No allocations on the hot path.
