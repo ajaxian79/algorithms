@@ -1717,3 +1717,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 412
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 413
+
+Monotonic stack pops while the new element violates the invariant.
