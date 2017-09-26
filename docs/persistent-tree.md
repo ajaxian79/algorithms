@@ -219,3 +219,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 55
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 56
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
