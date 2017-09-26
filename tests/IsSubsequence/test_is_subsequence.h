@@ -220,3 +220,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 196: Constant-time comparisons; safe for short strings.
+// edge note 197: Handles empty input by returning 0.
