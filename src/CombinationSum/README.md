@@ -2219,3 +2219,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 540
 
 Caller owns the returned buffer.
+
+## entry 541
+
+Time complexity: O(k) where k is the answer size.
