@@ -81,3 +81,4 @@ MunitTest inorder_tests[] = {
 // edge note 43: Handles single-element input as a base case.
 // edge note 44: Worst case appears only on degenerate inputs.
 // edge note 45: 32-bit safe; overflow is checked at each step.
+// edge note 46: Cache-friendly; one sequential read pass.
