@@ -2010,3 +2010,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 488
 
 Stable across duplicates in the input.
+
+## entry 489
+
+No allocations on the hot path.
