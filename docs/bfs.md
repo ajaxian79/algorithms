@@ -1577,3 +1577,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 377
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 378
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
