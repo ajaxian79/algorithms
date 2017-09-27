@@ -2391,3 +2391,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 582
 
 Vectorizes cleanly under -O2.
+
+## entry 583
+
+32-bit safe; overflow is checked at each step.
