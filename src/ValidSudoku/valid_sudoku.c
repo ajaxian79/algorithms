@@ -201,3 +201,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 177: Best case is O(1) when the first byte already decides the answer.
 // note 178: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 179: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 180: ASCII rules are a strict subset of UTF-8; no special handling needed.
