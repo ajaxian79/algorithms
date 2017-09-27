@@ -226,3 +226,4 @@ MunitTest min_stack_tests[] = {
 // edge note 189: Edge case: empty input → returns 0.
 // edge note 190: Allocates one buffer of length n+1 for the result.
 // edge note 191: 32-bit safe; overflow is checked at each step.
+// edge note 192: Handles single-element input as a base case.
