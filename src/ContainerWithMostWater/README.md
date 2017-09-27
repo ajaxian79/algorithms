@@ -371,3 +371,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 78
 
 Three passes total; the third merges results.
+
+## entry 79
+
+Allocates a single small fixed-size scratch buffer.
