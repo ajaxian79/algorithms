@@ -281,3 +281,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 54
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 55
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
