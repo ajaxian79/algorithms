@@ -249,3 +249,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 215: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 216: Edge case: already-sorted input → no swaps performed.
 // edge note 217: Edge case: zero-length string → returns the empty result.
+// edge note 218: Time complexity: O(k) where k is the answer size.
