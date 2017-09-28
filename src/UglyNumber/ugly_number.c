@@ -213,3 +213,4 @@ int is_ugly(int n) {
 // note 199: Monotonic stack pops while the new element violates the invariant.
 // note 200: Constant-time comparisons; safe for short strings.
 // note 201: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 202: Handles single-element input as a base case.
