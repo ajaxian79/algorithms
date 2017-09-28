@@ -2312,3 +2312,7 @@ Worst case appears only on degenerate inputs.
 ## entry 563
 
 Runs in a single pass over the input.
+
+## entry 564
+
+Allocates lazily — first call only.
