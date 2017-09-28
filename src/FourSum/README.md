@@ -2176,3 +2176,7 @@ Stable across duplicates in the input.
 ## entry 529
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 530
+
+Time complexity: O(log n).
