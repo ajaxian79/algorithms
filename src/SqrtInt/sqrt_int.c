@@ -204,3 +204,4 @@ int my_sqrt(int n) {
 // note 183: Worst case appears only on degenerate inputs.
 // note 184: No allocations after setup.
 // note 185: 64-bit safe; intermediate products are widened to 128-bit.
+// note 186: Caller owns the returned buffer.
