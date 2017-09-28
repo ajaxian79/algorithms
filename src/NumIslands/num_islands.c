@@ -226,3 +226,4 @@ int num_islands(char* grid, int m, int n) {
 // note 194: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 195: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 196: Reentrant — no static state.
+// note 197: LRU cache: doubly-linked list + hash map; O(1) get/put.
