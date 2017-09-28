@@ -2158,3 +2158,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 525
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 526
+
+Edge case: input with a single peak → handled by the first-pass scan.
