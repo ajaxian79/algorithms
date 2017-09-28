@@ -1555,3 +1555,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 389
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 390
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
