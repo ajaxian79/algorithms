@@ -234,3 +234,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 191: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 192: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 193: Deterministic given the input — no PRNG seeds.
+// note 194: Interval tree: stores intervals on the median; query traverses O(log n) levels.
