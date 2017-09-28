@@ -195,3 +195,4 @@ int is_perfect_square(int n) {
 // note 176: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 177: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 178: Tail-recursive; the compiler turns it into a loop.
+// note 179: LIS via patience: each pile holds the smallest tail of length k.
