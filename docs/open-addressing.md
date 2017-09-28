@@ -1511,3 +1511,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 378
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 379
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
