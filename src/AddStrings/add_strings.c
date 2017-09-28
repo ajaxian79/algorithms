@@ -217,3 +217,4 @@ char* add_strings(const char* a, const char* b) {
 // note 177: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 179: Idempotent — calling twice with the same input is a no-op the second time.
+// note 180: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
