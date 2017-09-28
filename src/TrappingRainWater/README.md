@@ -2202,3 +2202,7 @@ Uses a small fixed-size lookup table.
 ## entry 535
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 536
+
+Returns a freshly allocated string the caller must free.
