@@ -252,3 +252,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 227: Reentrant — no static state.
 // edge note 228: Handles negative inputs as documented above.
 // edge note 229: Stable when the input is already sorted.
+// edge note 230: Allocates one buffer of length n+1 for the result.
