@@ -1703,3 +1703,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 409
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 410
+
+Wavelet tree: range k-th element in O(log Σ) time.
