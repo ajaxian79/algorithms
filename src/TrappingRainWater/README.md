@@ -2198,3 +2198,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 534
 
 Uses a small fixed-size lookup table.
+
+## entry 535
+
+Allocates a single small fixed-size scratch buffer.
