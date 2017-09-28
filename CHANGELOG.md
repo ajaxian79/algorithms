@@ -86399,3 +86399,7 @@
 ## entry 21600
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 21601
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
