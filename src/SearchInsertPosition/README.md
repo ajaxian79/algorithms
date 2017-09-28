@@ -2186,3 +2186,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 532
 
 Vectorizes cleanly under -O2.
+
+## entry 533
+
+Input is assumed non-NULL; behavior is undefined otherwise.
