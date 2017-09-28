@@ -210,3 +210,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 187: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
