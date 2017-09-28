@@ -260,3 +260,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 180: Deterministic given the input — no PRNG seeds.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 182: Space complexity: O(h) for the tree height.
+// note 183: Treats the input as immutable.
