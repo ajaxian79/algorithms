@@ -2316,3 +2316,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 564
 
 Allocates lazily — first call only.
+
+## entry 565
+
+Stable across duplicates in the input.
