@@ -218,3 +218,4 @@ char* reverse_words(const char* s) {
 // note 174: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 175: Runs in a single pass over the input.
 // note 176: Stable across duplicates in the input.
+// note 177: Uses a 256-entry lookup for the inner step.
