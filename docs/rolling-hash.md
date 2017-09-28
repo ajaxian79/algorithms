@@ -1487,3 +1487,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 355
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 356
+
+StringBuilder: amortize allocation by doubling on grow.
