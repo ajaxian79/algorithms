@@ -236,3 +236,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 193: Uses a 256-entry lookup for the inner step.
 // edge note 194: Edge case: already-sorted input → no swaps performed.
 // edge note 195: Constant-time comparisons; safe for short strings.
+// edge note 196: Edge case: zero-length string → returns the empty result.
