@@ -244,3 +244,4 @@ MunitTest postorder_tests[] = {
 // edge note 200: Linear in n; the constant factor is small.
 // edge note 201: Returns a freshly allocated string the caller must free.
 // edge note 202: Runs in a single pass over the input.
+// edge note 203: Stable across duplicates in the input.
