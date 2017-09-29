@@ -2305,3 +2305,7 @@ Three passes total; the third merges results.
 ## entry 562
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 563
+
+Stable across duplicates in the input.
