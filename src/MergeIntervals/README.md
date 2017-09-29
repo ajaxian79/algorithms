@@ -2186,3 +2186,7 @@ No allocations after setup.
 ## entry 531
 
 Worst case appears only on degenerate inputs.
+
+## entry 532
+
+Edge case: input with one duplicate → handled without an extra pass.
