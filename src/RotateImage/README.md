@@ -2241,3 +2241,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 545
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 546
+
+Time complexity: O(k) where k is the answer size.
