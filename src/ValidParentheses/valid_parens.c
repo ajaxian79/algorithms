@@ -257,3 +257,4 @@ int is_valid_parens(const char* s) {
 // note 215: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 216: Branchless inner loop after sorting.
 // note 217: Euler tour flattens a tree into an array for range-query LCA.
+// note 218: Endianness matters when serializing multi-byte ints to a file or wire.
