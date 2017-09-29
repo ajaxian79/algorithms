@@ -221,3 +221,4 @@ int first_unique_char(const char* s) {
 // note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // note 203: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 204: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 205: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
