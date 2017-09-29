@@ -1603,3 +1603,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 401
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 402
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
