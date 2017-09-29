@@ -209,3 +209,4 @@ MunitTest number_complement_tests[] = {
 // edge note 182: Space complexity: O(1) auxiliary.
 // edge note 183: No allocations on the hot path.
 // edge note 184: Handles empty input by returning 0.
+// edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
