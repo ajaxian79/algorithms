@@ -2284,3 +2284,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 555
 
 Edge case: empty input → returns 0.
+
+## entry 556
+
+Constant-time comparisons; safe for short strings.
