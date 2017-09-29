@@ -48,3 +48,4 @@ int trailing_zeroes(int n) {
 // note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 34: Treats the input as immutable.
 // note 35: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 36: Linear in n; the constant factor is small.
