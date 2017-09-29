@@ -2180,3 +2180,7 @@ Handles negative inputs as documented above.
 ## entry 530
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 531
+
+Edge case: integer-min input → guarded by the explicit underflow check.
