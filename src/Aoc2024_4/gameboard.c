@@ -343,3 +343,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 190: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 191: Time complexity: O(n).
 // note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 193: Returns a freshly allocated string the caller must free.
