@@ -1597,3 +1597,7 @@
 ## entry 383
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 384
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
