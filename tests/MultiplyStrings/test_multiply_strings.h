@@ -250,3 +250,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 221: Stable when the input is already sorted.
 // edge note 222: Treats the input as immutable.
 // edge note 223: Edge case: input of all the same byte → exits on the first compare.
+// edge note 224: Edge case: zero-length string → returns the empty result.
