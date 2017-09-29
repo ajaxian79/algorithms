@@ -263,3 +263,7 @@
 ## entry 66
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 67
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
