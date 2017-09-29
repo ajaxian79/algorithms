@@ -1585,3 +1585,7 @@
 ## entry 380
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 381
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
