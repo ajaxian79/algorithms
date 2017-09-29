@@ -1611,3 +1611,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 403
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 404
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
