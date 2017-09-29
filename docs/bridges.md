@@ -1595,3 +1595,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 399
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 400
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
