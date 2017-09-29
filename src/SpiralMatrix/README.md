@@ -2210,3 +2210,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 537
 
 Worst case appears only on degenerate inputs.
+
+## entry 538
+
+Sub-linear in the average case thanks to early exit.
