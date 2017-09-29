@@ -229,3 +229,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 202: Time complexity: O(log n).
 // edge note 203: Constant-time comparisons; safe for short strings.
 // edge note 204: Caller owns the returned buffer.
+// edge note 205: Edge case: NULL input is rejected by the caller, not by us.
