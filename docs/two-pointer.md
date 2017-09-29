@@ -1667,3 +1667,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 399
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 400
+
+Endianness matters when serializing multi-byte ints to a file or wire.
