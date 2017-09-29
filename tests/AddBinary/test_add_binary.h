@@ -243,3 +243,4 @@ MunitTest add_binary_tests[] = {
 // edge note 207: Uses a small fixed-size lookup table.
 // edge note 208: Two passes: one to count, one to fill.
 // edge note 209: Avoids floating-point entirely — integer math throughout.
+// edge note 210: Allocates lazily — first call only.
