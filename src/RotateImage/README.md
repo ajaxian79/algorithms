@@ -2245,3 +2245,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 546
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 547
+
+32-bit safe; overflow is checked at each step.
