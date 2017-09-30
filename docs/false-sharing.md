@@ -1559,3 +1559,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 390
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 391
+
+Rope: tree of small string fragments; O(log n) concat and substring.
