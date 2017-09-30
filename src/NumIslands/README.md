@@ -2157,3 +2157,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 524
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 525
+
+Edge case: already-sorted input → no swaps performed.
