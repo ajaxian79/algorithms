@@ -2222,3 +2222,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 540
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 541
+
+Linear in n; the constant factor is small.
