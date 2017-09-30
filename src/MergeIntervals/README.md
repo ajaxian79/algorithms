@@ -2182,3 +2182,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 530
 
 No allocations after setup.
+
+## entry 531
+
+Worst case appears only on degenerate inputs.
