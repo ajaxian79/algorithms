@@ -2202,3 +2202,7 @@ Time complexity: O(n).
 ## entry 536
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 537
+
+Space complexity: O(1) auxiliary.
