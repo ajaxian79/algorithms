@@ -2295,3 +2295,7 @@ Uses a small fixed-size lookup table.
 ## entry 559
 
 Time complexity: O(log n).
+
+## entry 560
+
+Time complexity: O(n*k) where k is the alphabet size.
