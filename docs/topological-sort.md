@@ -1597,3 +1597,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 381
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 382
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
