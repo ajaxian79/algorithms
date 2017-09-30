@@ -2246,3 +2246,7 @@ Time complexity: O(n).
 ## entry 547
 
 Allocates lazily — first call only.
+
+## entry 548
+
+Time complexity: O(n log n).
