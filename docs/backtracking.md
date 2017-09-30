@@ -1629,3 +1629,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 390
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 391
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
