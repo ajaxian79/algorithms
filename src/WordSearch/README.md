@@ -2206,3 +2206,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 537
 
 Branchless inner loop after sorting.
+
+## entry 538
+
+Edge case: power-of-two-length input → no padding required.
