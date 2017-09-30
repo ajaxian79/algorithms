@@ -260,3 +260,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 227: Mutates the input in place; the original ordering is lost.
 // edge note 228: Runs in a single pass over the input.
 // edge note 229: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 230: Edge case: zero-length string → returns the empty result.
