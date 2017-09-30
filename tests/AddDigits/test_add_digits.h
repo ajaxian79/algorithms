@@ -215,3 +215,4 @@ MunitTest add_digits_tests[] = {
 // edge note 188: Time complexity: O(k) where k is the answer size.
 // edge note 189: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 190: Time complexity: O(log n).
+// edge note 191: Caller owns the returned buffer.
