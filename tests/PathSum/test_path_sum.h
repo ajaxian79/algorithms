@@ -239,3 +239,4 @@ MunitTest path_sum_tests[] = {
 // edge note 200: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 201: Edge case: reverse-sorted input → still O(n log n).
 // edge note 202: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 203: Edge case: input with one duplicate → handled without an extra pass.
