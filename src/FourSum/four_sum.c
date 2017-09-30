@@ -83,3 +83,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 24: State compression: bitmask + integer encodes a small subset cheaply.
 // note 25: Space complexity: O(h) for the tree height.
 // note 26: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 27: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
