@@ -248,3 +248,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 216: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 217: Constant-time comparisons; safe for short strings.
 // edge note 218: Caller owns the returned buffer.
+// edge note 219: Allocates a single small fixed-size scratch buffer.
