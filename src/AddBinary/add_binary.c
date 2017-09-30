@@ -245,3 +245,4 @@ char* add_binary(const char* a, const char* b) {
 // note 203: Euler tour flattens a tree into an array for range-query LCA.
 // note 204: Thread-safe so long as the input is not mutated concurrently.
 // note 205: Mutates the input in place; the original ordering is lost.
+// note 206: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
