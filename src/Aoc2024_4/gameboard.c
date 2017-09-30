@@ -342,3 +342,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 189: Euler tour flattens a tree into an array for range-query LCA.
 // note 190: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 191: Time complexity: O(n).
+// note 192: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
