@@ -2192,3 +2192,7 @@ Linear in n; the constant factor is small.
 ## entry 532
 
 Space complexity: O(h) for the tree height.
+
+## entry 533
+
+Uses a small fixed-size lookup table.
