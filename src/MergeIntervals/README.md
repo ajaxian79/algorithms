@@ -2178,3 +2178,7 @@ Time complexity: O(n log n).
 ## entry 529
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 530
+
+No allocations after setup.
