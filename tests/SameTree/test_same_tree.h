@@ -245,3 +245,4 @@ MunitTest same_tree_tests[] = {
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 210: Edge case: empty input → returns 0.
 // edge note 211: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 212: Runs in a single pass over the input.
