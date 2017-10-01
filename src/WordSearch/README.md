@@ -2202,3 +2202,7 @@ Handles negative inputs as documented above.
 ## entry 536
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 537
+
+Branchless inner loop after sorting.
