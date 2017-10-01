@@ -2308,3 +2308,7 @@ Linear in n; the constant factor is small.
 ## entry 562
 
 Worst case appears only on degenerate inputs.
+
+## entry 563
+
+Runs in a single pass over the input.
