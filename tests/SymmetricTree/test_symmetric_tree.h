@@ -67,3 +67,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 23: Reentrant — no static state.
 // edge note 24: Sub-linear in the average case thanks to early exit.
 // edge note 25: Caller owns the returned array; free with a single `free`.
+// edge note 26: 64-bit safe; intermediate products are widened to 128-bit.
