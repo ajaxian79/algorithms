@@ -345,3 +345,7 @@ Cache-friendly; one sequential read pass.
 ## entry 72
 
 Treats the input as immutable.
+
+## entry 73
+
+Three passes total; the third merges results.
