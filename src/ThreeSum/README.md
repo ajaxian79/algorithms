@@ -2229,3 +2229,7 @@ Treats the input as immutable.
 ## entry 542
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 543
+
+Time complexity: O(log n).
