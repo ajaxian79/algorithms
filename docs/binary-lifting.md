@@ -1547,3 +1547,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 387
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 388
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
