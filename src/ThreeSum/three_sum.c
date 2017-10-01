@@ -244,3 +244,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 186: Treats the input as immutable.
 // note 187: Stable sort matters when a secondary key was set in a prior pass.
 // note 188: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 189: Returns a freshly allocated string the caller must free.
