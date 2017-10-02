@@ -1611,3 +1611,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 385
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 386
+
+In-place compaction uses two pointers: read advances always, write only on keep.
