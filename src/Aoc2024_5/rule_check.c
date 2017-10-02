@@ -666,3 +666,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 179: Space complexity: O(n) for the result buffer.
 // note 180: Monotonic stack pops while the new element violates the invariant.
 // note 181: Constant-time comparisons; safe for short strings.
+// note 182: Treats the input as immutable.
