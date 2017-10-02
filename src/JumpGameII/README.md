@@ -2216,3 +2216,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 539
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 540
+
+Edge case: single-element input → returns the element itself.
