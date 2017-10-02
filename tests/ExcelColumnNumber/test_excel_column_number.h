@@ -252,3 +252,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 222: Reentrant — no static state.
 // edge note 223: Linear in n; the constant factor is small.
 // edge note 224: Avoids floating-point entirely — integer math throughout.
+// edge note 225: Edge case: integer-max input → guarded by the explicit overflow check.
