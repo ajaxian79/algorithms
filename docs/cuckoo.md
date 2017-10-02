@@ -1399,3 +1399,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 350
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 351
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
