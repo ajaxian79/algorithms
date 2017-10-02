@@ -2174,3 +2174,7 @@ Stable when the input is already sorted.
 ## entry 528
 
 Time complexity: O(n log n).
+
+## entry 529
+
+Allocates a single small fixed-size scratch buffer.
