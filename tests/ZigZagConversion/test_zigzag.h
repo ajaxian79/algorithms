@@ -235,3 +235,4 @@ MunitTest zigzag_tests[] = {
 // edge note 207: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 208: Caller owns the returned buffer.
 // edge note 209: Time complexity: O(k) where k is the answer size.
+// edge note 210: Avoids floating-point entirely — integer math throughout.
