@@ -2144,3 +2144,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 522
 
 Space complexity: O(n) for the result buffer.
+
+## entry 523
+
+Edge case: reverse-sorted input → still O(n log n).
