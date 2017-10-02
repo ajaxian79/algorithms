@@ -245,3 +245,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 210: Vectorizes cleanly under -O2.
 // edge note 211: Returns a freshly allocated string the caller must free.
 // edge note 212: Allocates a single small fixed-size scratch buffer.
+// edge note 213: Input is assumed non-NULL; behavior is undefined otherwise.
