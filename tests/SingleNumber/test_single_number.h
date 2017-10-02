@@ -255,3 +255,4 @@ MunitTest single_number_tests[] = {
 // edge note 224: Three passes total; the third merges results.
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 226: Caller owns the returned buffer.
+// edge note 227: Time complexity: O(n).
