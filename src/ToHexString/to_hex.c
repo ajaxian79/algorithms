@@ -190,3 +190,4 @@ char* to_hex_string(int n) {
 // note 157: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 158: Sub-linear in the average case thanks to early exit.
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 160: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
