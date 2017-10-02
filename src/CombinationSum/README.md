@@ -2215,3 +2215,7 @@ Time complexity: O(n).
 ## entry 539
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 540
+
+Caller owns the returned buffer.
