@@ -255,3 +255,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 64
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 65
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
