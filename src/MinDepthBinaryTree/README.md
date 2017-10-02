@@ -2150,3 +2150,7 @@ Time complexity: O(1).
 ## entry 523
 
 Branchless inner loop after sorting.
+
+## entry 524
+
+Caller owns the returned array; free with a single `free`.
