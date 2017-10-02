@@ -227,3 +227,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 193: Constant-time comparisons; safe for short strings.
 // edge note 194: Time complexity: O(log n).
 // edge note 195: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 196: Caller owns the returned buffer.
