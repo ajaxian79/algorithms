@@ -349,3 +349,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 182: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 183: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 184: Worst case appears only on degenerate inputs.
+// note 185: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
