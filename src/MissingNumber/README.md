@@ -2310,3 +2310,7 @@ Caller owns the returned buffer.
 ## entry 562
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 563
+
+Space complexity: O(1) auxiliary.
