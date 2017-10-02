@@ -2150,3 +2150,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 523
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 524
+
+Sub-linear in the average case thanks to early exit.
