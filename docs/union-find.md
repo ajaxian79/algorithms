@@ -1535,3 +1535,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 367
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 368
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
