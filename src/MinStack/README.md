@@ -2030,3 +2030,7 @@ Branchless inner loop after sorting.
 ## entry 493
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 494
+
+Time complexity: O(n).
