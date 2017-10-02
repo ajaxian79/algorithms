@@ -2261,3 +2261,7 @@ Uses a small fixed-size lookup table.
 ## entry 550
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 551
+
+Space complexity: O(h) for the tree height.
