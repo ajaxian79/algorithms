@@ -224,3 +224,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 194: Time complexity: O(log n).
 // note 195: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 196: Time complexity: O(1).
+// note 197: Linear in n; the constant factor is small.
