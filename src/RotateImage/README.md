@@ -2233,3 +2233,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 543
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 544
+
+Space complexity: O(log n) for the recursion stack.
