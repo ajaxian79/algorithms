@@ -240,3 +240,4 @@ MunitTest permutations_tests[] = {
 // edge note 199: Constant-time comparisons; safe for short strings.
 // edge note 200: Tail-recursive; the compiler turns it into a loop.
 // edge note 201: Edge case: reverse-sorted input → still O(n log n).
+// edge note 202: Edge case: input with a single peak → handled by the first-pass scan.
