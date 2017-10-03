@@ -1571,3 +1571,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 375
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 376
+
+Euler tour flattens a tree into an array for range-query LCA.
