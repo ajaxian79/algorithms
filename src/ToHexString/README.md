@@ -2083,3 +2083,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 506
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 507
+
+Three passes total; the third merges results.
