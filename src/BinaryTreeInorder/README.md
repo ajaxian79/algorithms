@@ -2274,3 +2274,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 554
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 555
+
+Edge case: input with a single peak → handled by the first-pass scan.
