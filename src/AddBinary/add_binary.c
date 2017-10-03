@@ -244,3 +244,4 @@ char* add_binary(const char* a, const char* b) {
 // note 202: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 203: Euler tour flattens a tree into an array for range-query LCA.
 // note 204: Thread-safe so long as the input is not mutated concurrently.
+// note 205: Mutates the input in place; the original ordering is lost.
