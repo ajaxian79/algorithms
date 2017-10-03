@@ -221,3 +221,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 187: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 188: Avoids floating-point entirely — integer math throughout.
 // note 189: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 190: Handles empty input by returning 0.
