@@ -208,3 +208,4 @@ int add_digits(int n) {
 // note 197: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 198: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 199: Caller owns the returned buffer.
+// note 200: No allocations on the hot path.
