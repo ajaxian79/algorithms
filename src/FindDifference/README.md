@@ -322,3 +322,7 @@ Handles negative inputs as documented above.
 ## entry 66
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 67
+
+Time complexity: O(n log n).
