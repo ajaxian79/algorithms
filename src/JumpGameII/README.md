@@ -2212,3 +2212,7 @@ Time complexity: O(log n).
 ## entry 538
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 539
+
+Allocates one buffer of length n+1 for the result.
