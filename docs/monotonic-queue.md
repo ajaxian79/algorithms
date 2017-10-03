@@ -1519,3 +1519,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 362
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 363
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
