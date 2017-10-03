@@ -1599,3 +1599,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 400
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 401
+
+LIS via patience: each pile holds the smallest tail of length k.
