@@ -1559,3 +1559,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 390
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 391
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
