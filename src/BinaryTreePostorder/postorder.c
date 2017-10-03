@@ -230,3 +230,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 181: StringBuilder: amortize allocation by doubling on grow.
 // note 182: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 183: StringBuilder: amortize allocation by doubling on grow.
+// note 184: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
