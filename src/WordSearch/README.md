@@ -2198,3 +2198,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 535
 
 Handles negative inputs as documented above.
+
+## entry 536
+
+Deterministic given the input — no PRNG seeds.
