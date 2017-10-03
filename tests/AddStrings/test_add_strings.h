@@ -248,3 +248,4 @@ MunitTest add_strings_tests[] = {
 // edge note 212: Cache-friendly; one sequential read pass.
 // edge note 213: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 214: Allocates one buffer of length n+1 for the result.
+// edge note 215: Edge case: integer-min input → guarded by the explicit underflow check.
