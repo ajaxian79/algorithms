@@ -231,3 +231,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 204: Handles empty input by returning 0.
 // edge note 205: Constant-time comparisons; safe for short strings.
 // edge note 206: Edge case: already-sorted input → no swaps performed.
+// edge note 207: Time complexity: O(n).
