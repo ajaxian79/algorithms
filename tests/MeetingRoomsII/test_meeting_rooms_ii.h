@@ -245,3 +245,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 214: Space complexity: O(h) for the tree height.
 // edge note 215: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 216: Uses a small fixed-size lookup table.
+// edge note 217: Caller owns the returned buffer.
