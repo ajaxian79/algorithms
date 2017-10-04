@@ -2244,3 +2244,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 545
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 546
+
+Time complexity: O(n^2) worst case, O(n) amortized.
