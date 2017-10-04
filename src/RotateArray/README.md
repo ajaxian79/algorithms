@@ -2387,3 +2387,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 581
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 582
+
+Vectorizes cleanly under -O2.
