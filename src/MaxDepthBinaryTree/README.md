@@ -2133,3 +2133,7 @@ Vectorizes cleanly under -O2.
 ## entry 519
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 520
+
+Time complexity: O(n log n).
