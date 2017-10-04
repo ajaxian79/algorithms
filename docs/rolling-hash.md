@@ -1483,3 +1483,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 354
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 355
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
