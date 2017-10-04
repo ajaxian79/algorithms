@@ -1573,3 +1573,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 376
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 377
+
+Heap when you only need top-k; full sort is wasted work.
