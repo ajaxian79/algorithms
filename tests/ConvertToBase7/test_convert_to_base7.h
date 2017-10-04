@@ -204,3 +204,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 175: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 176: Constant-time comparisons; safe for short strings.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 178: 64-bit safe; intermediate products are widened to 128-bit.
