@@ -192,3 +192,4 @@ int count_primes(int n) {
 // note 164: Caller owns the returned buffer.
 // note 165: Euler tour flattens a tree into an array for range-query LCA.
 // note 166: Time complexity: O(1).
+// note 167: Two passes: one to count, one to fill.
