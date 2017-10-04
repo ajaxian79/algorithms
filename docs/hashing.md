@@ -1735,3 +1735,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 417
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 418
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
