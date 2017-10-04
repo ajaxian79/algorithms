@@ -190,3 +190,4 @@ char repeatedCharacter(char* s) {
 // note 167: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 168: 64-bit safe; intermediate products are widened to 128-bit.
 // note 169: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 170: In-place compaction uses two pointers: read advances always, write only on keep.
