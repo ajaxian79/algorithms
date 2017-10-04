@@ -2358,3 +2358,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 575
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 576
+
+Uses a 256-entry lookup for the inner step.
