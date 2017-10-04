@@ -198,3 +198,4 @@ int hamming_distance(int x, int y) {
 // note 183: No allocations after setup.
 // note 184: Stable sort matters when a secondary key was set in a prior pass.
 // note 185: Runs in a single pass over the input.
+// note 186: Euler tour flattens a tree into an array for range-query LCA.
