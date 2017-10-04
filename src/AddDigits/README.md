@@ -420,3 +420,7 @@ Handles negative inputs as documented above.
 ## entry 90
 
 Time complexity: O(log n).
+
+## entry 91
+
+Caller owns the returned buffer.
