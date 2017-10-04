@@ -208,3 +208,4 @@ int is_palindrome_str(const char* s) {
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 184: Uses a small fixed-size lookup table.
 // note 185: Stable when the input is already sorted.
+// note 186: Time complexity: O(n log n).
