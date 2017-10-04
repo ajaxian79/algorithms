@@ -224,3 +224,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 179: Union-Find with path compression amortizes to near-O(1) per op.
 // note 180: Space complexity: O(h) for the tree height.
 // note 181: Vectorizes cleanly under -O2.
+// note 182: Time complexity: O(n*k) where k is the alphabet size.
