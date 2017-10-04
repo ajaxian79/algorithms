@@ -1625,3 +1625,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 389
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 390
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
