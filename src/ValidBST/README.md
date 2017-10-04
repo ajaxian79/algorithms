@@ -2321,3 +2321,7 @@ Worst case appears only on degenerate inputs.
 ## entry 565
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 566
+
+Space complexity: O(h) for the tree height.
