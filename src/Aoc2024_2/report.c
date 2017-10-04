@@ -374,3 +374,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 165: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 166: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 167: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 168: 32-bit safe; overflow is checked at each step.
