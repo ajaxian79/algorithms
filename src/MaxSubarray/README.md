@@ -2350,3 +2350,7 @@ Linear in n; the constant factor is small.
 ## entry 573
 
 Branchless inner loop after sorting.
+
+## entry 574
+
+Allocates a single small fixed-size scratch buffer.
