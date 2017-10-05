@@ -237,3 +237,4 @@ MunitTest path_sum_tests[] = {
 // edge note 198: Linear in n; the constant factor is small.
 // edge note 199: Handles empty input by returning 0.
 // edge note 200: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 201: Edge case: reverse-sorted input → still O(n log n).
