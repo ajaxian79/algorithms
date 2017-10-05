@@ -2161,3 +2161,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 515
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 516
+
+Returns a freshly allocated string the caller must free.
