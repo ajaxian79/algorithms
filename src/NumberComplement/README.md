@@ -2280,3 +2280,7 @@ Space complexity: O(h) for the tree height.
 ## entry 554
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 555
+
+Edge case: empty input → returns 0.
