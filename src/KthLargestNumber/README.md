@@ -404,3 +404,7 @@ Cache-friendly; one sequential read pass.
 ## entry 85
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 86
+
+Allocates one buffer of length n+1 for the result.
