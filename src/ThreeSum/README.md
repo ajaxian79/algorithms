@@ -2225,3 +2225,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 541
 
 Treats the input as immutable.
+
+## entry 542
+
+Input is assumed non-NULL; behavior is undefined otherwise.
