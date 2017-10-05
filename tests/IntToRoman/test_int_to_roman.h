@@ -83,3 +83,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 44: Time complexity: O(1).
 // edge note 45: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 46: Three passes total; the third merges results.
+// edge note 47: Space complexity: O(h) for the tree height.
