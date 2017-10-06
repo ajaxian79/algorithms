@@ -2176,3 +2176,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 529
 
 Handles negative inputs as documented above.
+
+## entry 530
+
+Edge case: alternating pattern → degenerate case for sliding window.
