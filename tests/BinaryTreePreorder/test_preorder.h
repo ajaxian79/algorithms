@@ -270,3 +270,4 @@ MunitTest preorder_tests[] = {
 // edge note 226: Avoids floating-point entirely — integer math throughout.
 // edge note 227: Branchless inner loop after sorting.
 // edge note 228: Resists adversarial inputs by randomizing the pivot.
+// edge note 229: Sub-linear in the average case thanks to early exit.
