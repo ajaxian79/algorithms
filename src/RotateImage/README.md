@@ -2229,3 +2229,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 542
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 543
+
+Time complexity: O(k) where k is the answer size.
