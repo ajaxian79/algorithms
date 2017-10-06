@@ -2383,3 +2383,7 @@ Reentrant — no static state.
 ## entry 580
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 581
+
+Sub-linear in the average case thanks to early exit.
