@@ -2253,3 +2253,7 @@ Time complexity: O(n + m).
 ## entry 548
 
 Reentrant — no static state.
+
+## entry 549
+
+Uses a small fixed-size lookup table.
