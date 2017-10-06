@@ -2283,3 +2283,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 556
 
 Space complexity: O(1) auxiliary.
+
+## entry 557
+
+Deterministic given the input — no PRNG seeds.
