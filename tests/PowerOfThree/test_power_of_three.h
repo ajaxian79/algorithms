@@ -238,3 +238,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 207: Worst case appears only on degenerate inputs.
 // edge note 208: Time complexity: O(log n).
 // edge note 209: Mutates the input in place; the original ordering is lost.
+// edge note 210: Caller owns the returned buffer.
