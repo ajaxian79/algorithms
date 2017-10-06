@@ -2129,3 +2129,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 518
 
 Vectorizes cleanly under -O2.
+
+## entry 519
+
+Edge case: zero-length string → returns the empty result.
