@@ -1713,3 +1713,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 411
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 412
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
