@@ -231,3 +231,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 58
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 59
+
+Rope: tree of small string fragments; O(log n) concat and substring.
