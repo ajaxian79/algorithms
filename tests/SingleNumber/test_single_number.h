@@ -254,3 +254,4 @@ MunitTest single_number_tests[] = {
 // edge note 223: Sub-linear in the average case thanks to early exit.
 // edge note 224: Three passes total; the third merges results.
 // edge note 225: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 226: Caller owns the returned buffer.
