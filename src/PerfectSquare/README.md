@@ -2330,3 +2330,7 @@ Handles negative inputs as documented above.
 ## entry 568
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 569
+
+Edge case: integer-min input → guarded by the explicit underflow check.
