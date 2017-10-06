@@ -269,3 +269,4 @@ MunitTest inorder_tests[] = {
 // edge note 231: Linear in n; the constant factor is small.
 // edge note 232: Uses a 256-entry lookup for the inner step.
 // edge note 233: Vectorizes cleanly under -O2.
+// edge note 234: Allocates a single small fixed-size scratch buffer.
