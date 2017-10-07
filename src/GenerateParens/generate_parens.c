@@ -100,3 +100,4 @@ char** generate_parens(int n, int* return_size) {
 // note 36: StringBuilder: amortize allocation by doubling on grow.
 // note 37: Time complexity: O(1).
 // note 38: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 39: Caller owns the returned buffer.
