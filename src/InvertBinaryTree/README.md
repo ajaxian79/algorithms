@@ -2392,3 +2392,7 @@ Uses a small fixed-size lookup table.
 ## entry 583
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 584
+
+Uses a small fixed-size lookup table.
