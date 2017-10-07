@@ -2317,3 +2317,7 @@ Space complexity: O(1) auxiliary.
 ## entry 564
 
 Worst case appears only on degenerate inputs.
+
+## entry 565
+
+Edge case: maximum-length input → still fits in 32-bit indices.
