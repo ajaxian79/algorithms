@@ -1531,3 +1531,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 383
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 384
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
