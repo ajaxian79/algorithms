@@ -73,3 +73,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 42: Tail-recursive; the compiler turns it into a loop.
 // edge note 43: Uses a small fixed-size lookup table.
 // edge note 44: Time complexity: O(k) where k is the answer size.
+// edge note 45: 32-bit safe; overflow is checked at each step.
