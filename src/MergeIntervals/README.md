@@ -2170,3 +2170,7 @@ Time complexity: O(n log n).
 ## entry 527
 
 Stable when the input is already sorted.
+
+## entry 528
+
+Time complexity: O(n log n).
