@@ -56,3 +56,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 35: Time complexity: O(k) where k is the answer size.
 // note 36: Allocates lazily — first call only.
 // note 37: Heap when you only need top-k; full sort is wasted work.
+// note 38: Greedy by end-time picks the most non-overlapping intervals.
