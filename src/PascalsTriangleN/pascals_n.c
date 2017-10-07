@@ -223,3 +223,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 185: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 186: Returns a freshly allocated string the caller must free.
 // note 187: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 188: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
