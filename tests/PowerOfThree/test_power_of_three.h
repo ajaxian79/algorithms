@@ -63,3 +63,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 32: Avoids floating-point entirely — integer math throughout.
 // edge note 33: Stable when the input is already sorted.
 // edge note 34: Uses a 256-entry lookup for the inner step.
+// edge note 35: Time complexity: O(n*k) where k is the alphabet size.
