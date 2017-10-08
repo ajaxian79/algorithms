@@ -422,3 +422,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 90
 
 Vectorizes cleanly under -O2.
+
+## entry 91
+
+Sub-linear in the average case thanks to early exit.
