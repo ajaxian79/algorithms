@@ -2313,3 +2313,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 563
 
 Space complexity: O(1) auxiliary.
+
+## entry 564
+
+Worst case appears only on degenerate inputs.
