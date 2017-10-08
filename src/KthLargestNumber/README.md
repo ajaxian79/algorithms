@@ -400,3 +400,7 @@ Two passes: one to count, one to fill.
 ## entry 84
 
 Cache-friendly; one sequential read pass.
+
+## entry 85
+
+Tail-recursive; the compiler turns it into a loop.
