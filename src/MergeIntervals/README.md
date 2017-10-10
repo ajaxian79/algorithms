@@ -2166,3 +2166,7 @@ Time complexity: O(n + m).
 ## entry 526
 
 Time complexity: O(n log n).
+
+## entry 527
+
+Stable when the input is already sorted.
