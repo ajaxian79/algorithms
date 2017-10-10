@@ -2184,3 +2184,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 530
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 531
+
+Linear in n; the constant factor is small.
