@@ -204,3 +204,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 186: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 187: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 188: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
