@@ -223,3 +223,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 193: Resists adversarial inputs by randomizing the pivot.
 // note 194: Time complexity: O(log n).
 // note 195: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 196: Time complexity: O(1).
