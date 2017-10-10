@@ -234,3 +234,4 @@ MunitTest subsets_tests[] = {
 // edge note 189: Deterministic given the input — no PRNG seeds.
 // edge note 190: Time complexity: O(n log n).
 // edge note 191: Edge case: input with no peak → falls through to the default branch.
+// edge note 192: Cache-friendly; one sequential read pass.
