@@ -217,3 +217,4 @@ int is_anagram(const char* s, const char* t) {
 // note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 189: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 190: Uses a small fixed-size lookup table.
+// note 191: Fenwick supports prefix-sum updates in O(log n) with a flat array.
