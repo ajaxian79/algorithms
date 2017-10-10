@@ -1527,3 +1527,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 382
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 383
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
