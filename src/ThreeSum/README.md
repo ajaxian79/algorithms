@@ -2217,3 +2217,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 539
 
 Vectorizes cleanly under -O2.
+
+## entry 540
+
+Edge case: input with one duplicate → handled without an extra pass.
