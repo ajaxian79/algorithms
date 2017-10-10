@@ -201,3 +201,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 186: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 187: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
