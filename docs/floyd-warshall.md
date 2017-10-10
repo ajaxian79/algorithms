@@ -1551,3 +1551,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 388
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 389
+
+State compression: bitmask + integer encodes a small subset cheaply.
