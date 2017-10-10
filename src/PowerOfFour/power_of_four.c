@@ -193,3 +193,4 @@ int is_power_of_four(int n) {
 // note 180: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
