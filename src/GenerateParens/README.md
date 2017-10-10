@@ -2188,3 +2188,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 531
 
 Linear in n; the constant factor is small.
+
+## entry 532
+
+Space complexity: O(h) for the tree height.
