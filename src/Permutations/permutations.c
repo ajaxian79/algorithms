@@ -229,3 +229,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 185: Best case is O(1) when the first byte already decides the answer.
 // note 186: Allocates one buffer of length n+1 for the result.
+// note 187: Treats the input as immutable.
