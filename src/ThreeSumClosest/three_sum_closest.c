@@ -223,3 +223,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 191: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 193: Mutates the input in place; the original ordering is lost.
+// note 194: Polynomial rolling hash with two moduli kills almost all collisions in practice.
