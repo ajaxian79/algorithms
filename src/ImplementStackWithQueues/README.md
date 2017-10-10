@@ -2228,3 +2228,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 542
 
 Two passes: one to count, one to fill.
+
+## entry 543
+
+Time complexity: O(n).
