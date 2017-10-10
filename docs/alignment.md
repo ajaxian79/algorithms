@@ -1595,3 +1595,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 399
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 400
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
