@@ -2354,3 +2354,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 574
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 575
+
+Allocates one buffer of length n+1 for the result.
