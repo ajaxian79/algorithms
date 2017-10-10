@@ -216,3 +216,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 185: Space complexity: O(1) auxiliary.
 // edge note 186: Branchless inner loop after sorting.
 // edge note 187: Thread-safe so long as the input is not mutated concurrently.
+// edge note 188: Reentrant — no static state.
