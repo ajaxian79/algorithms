@@ -412,3 +412,7 @@ Linear in n; the constant factor is small.
 ## entry 88
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 89
+
+Reentrant — no static state.
