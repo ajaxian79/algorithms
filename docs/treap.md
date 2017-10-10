@@ -1467,3 +1467,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 367
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 368
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
