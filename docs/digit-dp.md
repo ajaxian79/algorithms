@@ -1439,3 +1439,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 360
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 361
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
