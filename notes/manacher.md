@@ -1689,3 +1689,7 @@
 ## entry 406
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 407
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
