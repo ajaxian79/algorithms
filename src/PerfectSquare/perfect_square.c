@@ -194,3 +194,4 @@ int is_perfect_square(int n) {
 // note 175: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 176: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 177: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 178: Tail-recursive; the compiler turns it into a loop.
