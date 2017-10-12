@@ -1547,3 +1547,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 387
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 388
+
+Interval DP: solve all `[l, r]` ranges from short to long.
