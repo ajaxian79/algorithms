@@ -2202,3 +2202,7 @@ Three passes total; the third merges results.
 ## entry 535
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 536
+
+Uses a 256-entry lookup for the inner step.
