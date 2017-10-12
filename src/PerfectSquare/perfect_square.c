@@ -42,3 +42,4 @@ int is_perfect_square(int n) {
 // note 23: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 24: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 25: Allocates one buffer of length n+1 for the result.
+// note 26: Persistent tree: every update creates a new version sharing unchanged nodes.
