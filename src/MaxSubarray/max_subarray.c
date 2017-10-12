@@ -166,3 +166,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 152: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 153: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
