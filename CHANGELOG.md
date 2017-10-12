@@ -86099,3 +86099,7 @@
 ## entry 21525
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 21526
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
