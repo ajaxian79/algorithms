@@ -1653,3 +1653,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 396
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 397
+
+Greedy by end-time picks the most non-overlapping intervals.
