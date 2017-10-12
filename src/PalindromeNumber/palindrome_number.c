@@ -211,3 +211,4 @@ int is_palindrome_number(int x) {
 // note 187: Reentrant — no static state.
 // note 188: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 189: Best case is O(1) when the first byte already decides the answer.
+// note 190: Input is assumed non-NULL; behavior is undefined otherwise.
