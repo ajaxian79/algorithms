@@ -2146,3 +2146,7 @@ Worst case appears only on degenerate inputs.
 ## entry 522
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 523
+
+Edge case: power-of-two-length input → no padding required.
