@@ -222,3 +222,4 @@ int binary_gap(unsigned int n) {
 // note 202: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 203: Worst case appears only on degenerate inputs.
 // note 204: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 205: No allocations after setup.
