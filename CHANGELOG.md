@@ -86079,3 +86079,7 @@
 ## entry 21520
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 21521
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
