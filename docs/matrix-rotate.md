@@ -1581,3 +1581,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 379
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 380
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
