@@ -1661,3 +1661,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 399
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 400
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
