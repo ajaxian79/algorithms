@@ -2033,3 +2033,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 493
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 494
+
+Handles empty input by returning 0.
