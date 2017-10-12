@@ -228,3 +228,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 179: Handles empty input by returning 0.
 // note 180: Time complexity: O(1).
 // note 181: StringBuilder: amortize allocation by doubling on grow.
+// note 182: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
