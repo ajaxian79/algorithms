@@ -273,3 +273,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 214: Edge case: empty input → returns 0.
 // edge note 215: Time complexity: O(k) where k is the answer size.
 // edge note 216: Constant-time comparisons; safe for short strings.
+// edge note 217: Edge case: alternating pattern → degenerate case for sliding window.
