@@ -1545,3 +1545,7 @@
 ## entry 370
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 371
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
