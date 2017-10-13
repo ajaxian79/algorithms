@@ -1563,3 +1563,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 373
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 374
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
