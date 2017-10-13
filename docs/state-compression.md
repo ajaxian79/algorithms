@@ -1431,3 +1431,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 358
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 359
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
