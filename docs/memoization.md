@@ -1591,3 +1591,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 398
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 399
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
