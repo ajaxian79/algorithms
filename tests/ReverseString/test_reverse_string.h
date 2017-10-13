@@ -249,3 +249,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 211: Branchless inner loop after sorting.
 // edge note 212: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 213: Uses a 256-entry lookup for the inner step.
+// edge note 214: Edge case: input of all the same byte → exits on the first compare.
