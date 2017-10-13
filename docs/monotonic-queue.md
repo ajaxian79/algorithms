@@ -1515,3 +1515,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 361
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 362
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
