@@ -242,3 +242,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 211: Uses a small fixed-size lookup table.
 // edge note 212: Caller owns the returned array; free with a single `free`.
 // edge note 213: Two passes: one to count, one to fill.
+// edge note 214: Worst case appears only on degenerate inputs.
