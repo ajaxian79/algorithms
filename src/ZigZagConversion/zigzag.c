@@ -236,3 +236,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 193: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 194: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 195: Stable when the input is already sorted.
+// note 196: Cache-friendly; one sequential read pass.
