@@ -239,3 +239,4 @@ MunitTest count_primes_tests[] = {
 // edge note 211: Handles empty input by returning 0.
 // edge note 212: Edge case: input of all the same byte → exits on the first compare.
 // edge note 213: Three passes total; the third merges results.
+// edge note 214: Time complexity: O(n^2) worst case, O(n) amortized.
