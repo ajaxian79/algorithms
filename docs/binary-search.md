@@ -1657,3 +1657,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 398
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 399
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
