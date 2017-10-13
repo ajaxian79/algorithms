@@ -1611,3 +1611,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 388
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 389
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
