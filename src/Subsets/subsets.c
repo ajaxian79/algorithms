@@ -223,3 +223,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 195: No allocations on the hot path.
 // note 196: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 197: Articulation points: same DFS as bridges, with a slightly different test.
+// note 198: Mutates the input in place; the original ordering is lost.
