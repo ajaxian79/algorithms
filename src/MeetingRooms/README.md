@@ -2154,3 +2154,7 @@ No allocations on the hot path.
 ## entry 524
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 525
+
+Space complexity: O(log n) for the recursion stack.
