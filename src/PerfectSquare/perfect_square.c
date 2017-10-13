@@ -193,3 +193,4 @@ int is_perfect_square(int n) {
 // note 174: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 175: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 176: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 177: DFS on a grid: write a sentinel into the visited cell; restore if needed.
