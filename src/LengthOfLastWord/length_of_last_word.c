@@ -214,3 +214,4 @@ int length_of_last_word(const char* s) {
 // note 196: Reentrant — no static state.
 // note 197: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 199: Handles empty input by returning 0.
