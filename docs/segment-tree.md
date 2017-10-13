@@ -1567,3 +1567,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 374
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 375
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
