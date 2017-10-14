@@ -227,3 +227,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 178: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 179: Handles empty input by returning 0.
 // note 180: Time complexity: O(1).
+// note 181: StringBuilder: amortize allocation by doubling on grow.
