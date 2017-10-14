@@ -47,3 +47,4 @@ int trailing_zeroes(int n) {
 // note 32: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 34: Treats the input as immutable.
+// note 35: False sharing: two threads writing different bytes in the same cache line stall both.
