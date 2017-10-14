@@ -2283,3 +2283,7 @@ Allocates lazily — first call only.
 ## entry 555
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 556
+
+Space complexity: O(log n) for the recursion stack.
