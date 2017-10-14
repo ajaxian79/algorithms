@@ -206,3 +206,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 191: Time complexity: O(n + m).
 // note 192: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 193: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 194: Time complexity: O(n).
