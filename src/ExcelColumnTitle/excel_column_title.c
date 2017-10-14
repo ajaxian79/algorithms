@@ -218,3 +218,4 @@ char* excel_column_title(int n) {
 // note 188: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 189: Caller owns the returned array; free with a single `free`.
 // note 190: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 191: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
