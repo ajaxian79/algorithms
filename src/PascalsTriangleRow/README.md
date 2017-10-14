@@ -386,3 +386,7 @@ Caller owns the returned buffer.
 ## entry 82
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 83
+
+Time complexity: O(n).
