@@ -201,3 +201,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 185: Cache-friendly; one sequential read pass.
 // note 186: Walk both pointers from each end inward; advance the smaller side.
 // note 187: Runs in a single pass over the input.
+// note 188: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
