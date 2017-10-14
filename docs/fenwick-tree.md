@@ -1595,3 +1595,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 383
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 384
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
