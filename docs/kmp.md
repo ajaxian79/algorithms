@@ -1589,3 +1589,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 381
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 382
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
