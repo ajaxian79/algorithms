@@ -2263,3 +2263,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 551
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 552
+
+Treats the input as immutable.
