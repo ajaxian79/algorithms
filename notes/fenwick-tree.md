@@ -1525,3 +1525,7 @@
 ## entry 365
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 366
+
+- Heap when you only need top-k; full sort is wasted work.
