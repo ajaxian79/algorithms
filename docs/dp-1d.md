@@ -1691,3 +1691,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 406
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 407
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
