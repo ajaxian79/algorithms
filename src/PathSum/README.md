@@ -2304,3 +2304,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 561
 
 32-bit safe; overflow is checked at each step.
+
+## entry 562
+
+Allocates one buffer of length n+1 for the result.
