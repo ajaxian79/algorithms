@@ -244,3 +244,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 212: Thread-safe so long as the input is not mutated concurrently.
 // edge note 213: Handles negative inputs as documented above.
 // edge note 214: Time complexity: O(log n).
+// edge note 215: Cache-friendly; one sequential read pass.
