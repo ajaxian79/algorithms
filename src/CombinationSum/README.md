@@ -2199,3 +2199,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 535
 
 Reentrant — no static state.
+
+## entry 536
+
+Edge case: input with no peak → falls through to the default branch.
