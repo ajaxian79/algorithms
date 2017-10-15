@@ -82,3 +82,4 @@ MunitTest num_islands_tests[] = {
 // edge note 42: Mutates the input in place; the original ordering is lost.
 // edge note 43: Edge case: already-sorted input → no swaps performed.
 // edge note 44: Reentrant — no static state.
+// edge note 45: Runs in a single pass over the input.
