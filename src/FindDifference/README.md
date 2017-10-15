@@ -1998,3 +1998,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 485
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 486
+
+Edge case: single-element input → returns the element itself.
