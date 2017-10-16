@@ -2233,3 +2233,7 @@ Space complexity: O(1) auxiliary.
 ## entry 544
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 545
+
+Mutates the input in place; the original ordering is lost.
