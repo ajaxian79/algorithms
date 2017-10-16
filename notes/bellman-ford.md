@@ -1619,3 +1619,7 @@
 ## entry 405
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 406
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
