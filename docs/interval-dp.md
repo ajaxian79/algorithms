@@ -1523,3 +1523,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 381
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 382
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
