@@ -255,3 +255,4 @@ int is_valid_parens(const char* s) {
 // note 213: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 214: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 215: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 216: Branchless inner loop after sorting.
