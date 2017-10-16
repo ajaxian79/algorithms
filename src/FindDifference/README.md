@@ -1994,3 +1994,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 484
 
 32-bit safe; overflow is checked at each step.
+
+## entry 485
+
+Edge case: reverse-sorted input → still O(n log n).
