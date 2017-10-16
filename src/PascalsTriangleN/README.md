@@ -2026,3 +2026,7 @@ Reentrant — no static state.
 ## entry 491
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 492
+
+Space complexity: O(h) for the tree height.
