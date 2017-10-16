@@ -1619,3 +1619,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 405
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 406
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
