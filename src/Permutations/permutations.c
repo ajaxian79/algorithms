@@ -227,3 +227,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 182: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 185: Best case is O(1) when the first byte already decides the answer.
