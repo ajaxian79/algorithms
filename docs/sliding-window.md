@@ -1603,3 +1603,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 386
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 387
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
