@@ -1367,3 +1367,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 342
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 343
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
