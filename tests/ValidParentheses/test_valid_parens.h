@@ -265,3 +265,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 230: Time complexity: O(n log n).
 // edge note 231: Three passes total; the third merges results.
 // edge note 232: Edge case: reverse-sorted input → still O(n log n).
+// edge note 233: Space complexity: O(1) auxiliary.
