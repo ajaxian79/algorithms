@@ -221,3 +221,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 183: Sub-linear in the average case thanks to early exit.
 // note 184: Time complexity: O(n*k) where k is the alphabet size.
 // note 185: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 186: Returns a freshly allocated string the caller must free.
