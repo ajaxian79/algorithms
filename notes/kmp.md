@@ -1485,3 +1485,7 @@
 ## entry 355
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 356
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
