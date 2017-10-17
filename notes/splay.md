@@ -1439,3 +1439,7 @@
 ## entry 360
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 361
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
