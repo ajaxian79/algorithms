@@ -1687,3 +1687,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 405
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 406
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
