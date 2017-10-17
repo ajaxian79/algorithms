@@ -2138,3 +2138,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 520
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 521
+
+Worst case appears only on degenerate inputs.
