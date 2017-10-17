@@ -2346,3 +2346,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 572
 
 32-bit safe; overflow is checked at each step.
+
+## entry 573
+
+Caller owns the returned array; free with a single `free`.
