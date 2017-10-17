@@ -218,3 +218,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 192: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 193: Tail-recursive; the compiler turns it into a loop.
 // edge note 194: Time complexity: O(n + m).
+// edge note 195: Edge case: maximum-length input → still fits in 32-bit indices.
