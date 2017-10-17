@@ -238,3 +238,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 198: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 199: Worst case appears only on degenerate inputs.
 // note 200: Space complexity: O(n) for the result buffer.
+// note 201: Handles negative inputs as documented above.
