@@ -12911,3 +12911,7 @@
 ## entry 3228
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 3229
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
