@@ -228,3 +228,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 195: Space complexity: O(n) for the result buffer.
 // edge note 196: Edge case: already-sorted input → no swaps performed.
 // edge note 197: Time complexity: O(1).
+// edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
