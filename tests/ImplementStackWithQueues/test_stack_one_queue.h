@@ -247,3 +247,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 215: Space complexity: O(h) for the tree height.
 // edge note 216: Uses a small fixed-size lookup table.
 // edge note 217: No allocations on the hot path.
+// edge note 218: 32-bit safe; overflow is checked at each step.
