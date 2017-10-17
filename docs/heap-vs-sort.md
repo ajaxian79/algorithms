@@ -1563,3 +1563,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 374
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 375
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
