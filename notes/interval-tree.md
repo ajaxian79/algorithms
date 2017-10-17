@@ -1483,3 +1483,7 @@
 ## entry 371
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 372
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
