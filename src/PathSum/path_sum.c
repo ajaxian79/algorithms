@@ -216,3 +216,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 202: Caller owns the returned buffer.
 // note 203: Handles negative inputs as documented above.
 // note 204: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 205: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
