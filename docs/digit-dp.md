@@ -1435,3 +1435,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 359
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 360
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
