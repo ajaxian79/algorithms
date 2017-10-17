@@ -378,3 +378,7 @@ Allocates lazily — first call only.
 ## entry 80
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 81
+
+Reentrant — no static state.
