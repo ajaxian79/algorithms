@@ -2342,3 +2342,7 @@ Uses a small fixed-size lookup table.
 ## entry 571
 
 Returns a freshly allocated string the caller must free.
+
+## entry 572
+
+32-bit safe; overflow is checked at each step.
