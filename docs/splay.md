@@ -1479,3 +1479,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 370
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 371
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
