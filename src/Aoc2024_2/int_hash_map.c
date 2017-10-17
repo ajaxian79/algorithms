@@ -269,3 +269,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 203: Wavelet tree: range k-th element in O(log Σ) time.
 // note 204: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 205: Two passes: one to count, one to fill.
+// note 206: Persistent tree: every update creates a new version sharing unchanged nodes.
