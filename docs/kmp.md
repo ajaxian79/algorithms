@@ -1581,3 +1581,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 379
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 380
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
