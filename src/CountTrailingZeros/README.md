@@ -2210,3 +2210,7 @@ Time complexity: O(n).
 ## entry 537
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 538
+
+Edge case: input with one duplicate → handled without an extra pass.
