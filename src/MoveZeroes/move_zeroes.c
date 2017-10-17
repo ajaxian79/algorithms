@@ -198,3 +198,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 181: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 182: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 183: Handles negative inputs as documented above.
+// note 184: In-place compaction uses two pointers: read advances always, write only on keep.
