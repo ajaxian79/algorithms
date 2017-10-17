@@ -2388,3 +2388,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 582
 
 Uses a small fixed-size lookup table.
+
+## entry 583
+
+Time complexity: O(n*k) where k is the alphabet size.
