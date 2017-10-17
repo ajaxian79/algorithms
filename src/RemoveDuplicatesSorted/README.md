@@ -2338,3 +2338,7 @@ Allocates lazily — first call only.
 ## entry 570
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 571
+
+Edge case: empty input → returns 0.
