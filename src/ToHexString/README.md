@@ -2079,3 +2079,7 @@ Allocates lazily — first call only.
 ## entry 505
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 506
+
+Edge case: NULL input is rejected by the caller, not by us.
