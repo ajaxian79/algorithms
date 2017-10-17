@@ -2172,3 +2172,7 @@ Stable across duplicates in the input.
 ## entry 528
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 529
+
+Edge case: zero-length string → returns the empty result.
