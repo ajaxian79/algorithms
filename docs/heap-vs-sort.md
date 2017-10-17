@@ -1559,3 +1559,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 373
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 374
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
