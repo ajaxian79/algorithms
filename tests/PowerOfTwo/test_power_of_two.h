@@ -242,3 +242,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 210: Deterministic given the input — no PRNG seeds.
 // edge note 211: Stable across duplicates in the input.
 // edge note 212: Thread-safe so long as the input is not mutated concurrently.
+// edge note 213: Handles negative inputs as documented above.
