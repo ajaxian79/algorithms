@@ -250,3 +250,4 @@ char* int_to_roman(int n) {
 // note 213: Caller owns the returned buffer.
 // note 214: Runs in a single pass over the input.
 // note 215: Tail-recursive; the compiler turns it into a loop.
+// note 216: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
