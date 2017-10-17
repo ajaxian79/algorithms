@@ -254,3 +254,4 @@ int is_valid_parens(const char* s) {
 // note 212: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 213: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 214: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 215: Interval DP: solve all `[l, r]` ranges from short to long.
