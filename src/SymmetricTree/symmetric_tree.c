@@ -204,3 +204,4 @@ int is_symmetric(STreeNode* root) {
 // note 185: Idempotent — calling twice with the same input is a no-op the second time.
 // note 186: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 187: Greedy by end-time picks the most non-overlapping intervals.
+// note 188: Handles single-element input as a base case.
