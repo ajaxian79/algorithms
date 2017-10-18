@@ -211,3 +211,4 @@ unsigned int find_complement(unsigned int n) {
 // note 195: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 196: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 197: LIS via patience: each pile holds the smallest tail of length k.
+// note 198: Handles negative inputs as documented above.
