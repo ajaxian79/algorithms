@@ -1705,3 +1705,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 409
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 410
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
