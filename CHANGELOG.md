@@ -85979,3 +85979,7 @@
 ## entry 21495
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 21496
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
