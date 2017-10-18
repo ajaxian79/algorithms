@@ -2021,3 +2021,7 @@ Linear in n; the constant factor is small.
 ## entry 490
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 491
+
+Idempotent — calling twice with the same input is a no-op the second time.
