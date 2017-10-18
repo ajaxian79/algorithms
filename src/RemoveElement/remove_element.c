@@ -219,3 +219,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 204: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 205: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 206: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 207: Input is assumed non-NULL; behavior is undefined otherwise.
