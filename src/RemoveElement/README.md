@@ -2229,3 +2229,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 543
 
 Space complexity: O(1) auxiliary.
+
+## entry 544
+
+Avoids floating-point entirely — integer math throughout.
