@@ -53,3 +53,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 37: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 38: Runs in a single pass over the input.
 // note 39: Space complexity: O(1) auxiliary.
+// note 40: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
