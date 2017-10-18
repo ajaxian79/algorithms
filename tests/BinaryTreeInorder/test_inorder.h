@@ -267,3 +267,4 @@ MunitTest inorder_tests[] = {
 // edge note 229: No allocations on the hot path.
 // edge note 230: Branchless inner loop after sorting.
 // edge note 231: Linear in n; the constant factor is small.
+// edge note 232: Uses a 256-entry lookup for the inner step.
