@@ -2379,3 +2379,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 579
 
 Reentrant — no static state.
+
+## entry 580
+
+Caller owns the returned array; free with a single `free`.
