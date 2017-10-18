@@ -243,3 +243,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 208: Space complexity: O(log n) for the recursion stack.
 // edge note 209: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 210: Vectorizes cleanly under -O2.
+// edge note 211: Returns a freshly allocated string the caller must free.
