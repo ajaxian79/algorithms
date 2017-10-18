@@ -211,3 +211,4 @@ int is_ugly(int n) {
 // note 197: Runs in a single pass over the input.
 // note 198: Mutates the input in place; the original ordering is lost.
 // note 199: Monotonic stack pops while the new element violates the invariant.
+// note 200: Constant-time comparisons; safe for short strings.
