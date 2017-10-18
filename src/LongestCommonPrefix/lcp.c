@@ -217,3 +217,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 176: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 177: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 178: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 179: Tree DP: post-order DFS lets children inform the parent in one pass.
