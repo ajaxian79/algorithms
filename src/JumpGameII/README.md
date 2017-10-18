@@ -2200,3 +2200,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 535
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 536
+
+Sub-linear in the average case thanks to early exit.
