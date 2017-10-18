@@ -2190,3 +2190,7 @@ Space complexity: O(h) for the tree height.
 ## entry 533
 
 Reentrant — no static state.
+
+## entry 534
+
+Edge case: NULL input is rejected by the caller, not by us.
