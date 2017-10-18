@@ -363,3 +363,7 @@ Two passes: one to count, one to fill.
 ## entry 75
 
 Runs in a single pass over the input.
+
+## entry 76
+
+Sub-linear in the average case thanks to early exit.
