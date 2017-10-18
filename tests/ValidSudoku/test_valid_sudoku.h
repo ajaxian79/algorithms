@@ -103,3 +103,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 43: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 44: Vectorizes cleanly under -O2.
 // edge note 45: Linear in n; the constant factor is small.
+// edge note 46: Constant-time comparisons; safe for short strings.
