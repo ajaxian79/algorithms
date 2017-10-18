@@ -2201,3 +2201,7 @@ Worst case appears only on degenerate inputs.
 ## entry 535
 
 Vectorizes cleanly under -O2.
+
+## entry 536
+
+No allocations after setup.
