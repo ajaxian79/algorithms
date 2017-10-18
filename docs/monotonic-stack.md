@@ -1497,3 +1497,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 358
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 359
+
+Walk both pointers from each end inward; advance the smaller side.
