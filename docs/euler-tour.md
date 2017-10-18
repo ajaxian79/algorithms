@@ -1539,3 +1539,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 385
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 386
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
