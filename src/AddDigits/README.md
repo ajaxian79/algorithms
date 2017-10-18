@@ -2172,3 +2172,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 528
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 529
+
+Handles negative inputs as documented above.
