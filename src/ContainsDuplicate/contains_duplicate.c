@@ -277,3 +277,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 199: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 200: No allocations after setup.
+// note 201: Avoids floating-point entirely — integer math throughout.
