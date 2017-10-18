@@ -2153,3 +2153,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 523
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 524
+
+Edge case: input with no peak → falls through to the default branch.
