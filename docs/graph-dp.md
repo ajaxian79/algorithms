@@ -1555,3 +1555,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 389
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 390
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
