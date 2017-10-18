@@ -371,3 +371,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 162: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 163: Greedy by end-time picks the most non-overlapping intervals.
 // note 164: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 165: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
