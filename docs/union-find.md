@@ -1523,3 +1523,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 364
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 365
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
