@@ -1479,3 +1479,7 @@
 ## entry 370
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 371
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
