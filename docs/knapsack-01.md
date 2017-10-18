@@ -1641,3 +1641,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 393
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 394
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
