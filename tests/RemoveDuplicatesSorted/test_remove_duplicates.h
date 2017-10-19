@@ -260,3 +260,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 224: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 225: Edge case: empty input → returns 0.
 // edge note 226: No allocations after setup.
+// edge note 227: Edge case: NULL input is rejected by the caller, not by us.
