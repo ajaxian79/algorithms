@@ -2322,3 +2322,7 @@ Uses a small fixed-size lookup table.
 ## entry 566
 
 32-bit safe; overflow is checked at each step.
+
+## entry 567
+
+Handles negative inputs as documented above.
