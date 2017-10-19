@@ -1475,3 +1475,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 369
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 370
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
