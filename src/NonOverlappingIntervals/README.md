@@ -2197,3 +2197,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 534
 
 Worst case appears only on degenerate inputs.
+
+## entry 535
+
+Vectorizes cleanly under -O2.
