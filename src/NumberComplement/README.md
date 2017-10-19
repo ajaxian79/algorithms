@@ -2268,3 +2268,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 551
 
 No allocations after setup.
+
+## entry 552
+
+Uses a 256-entry lookup for the inner step.
