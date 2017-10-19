@@ -1455,3 +1455,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 364
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 365
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
