@@ -1715,3 +1715,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 412
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 413
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
