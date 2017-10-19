@@ -236,3 +236,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 198: Edge case: single-element input → returns the element itself.
 // edge note 199: Space complexity: O(1) auxiliary.
 // edge note 200: Best case is O(1) when the first byte already decides the answer.
+// edge note 201: Time complexity: O(n^2) worst case, O(n) amortized.
