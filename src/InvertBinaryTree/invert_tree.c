@@ -205,3 +205,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 190: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 191: Time complexity: O(n + m).
 // note 192: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 193: Interval tree: stores intervals on the median; query traverses O(log n) levels.
