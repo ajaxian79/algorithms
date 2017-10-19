@@ -1503,3 +1503,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 361
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 362
+
+Rope: tree of small string fragments; O(log n) concat and substring.
