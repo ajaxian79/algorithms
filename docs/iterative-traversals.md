@@ -1605,3 +1605,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 385
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 386
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
