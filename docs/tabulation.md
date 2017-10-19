@@ -1623,3 +1623,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 406
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 407
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
