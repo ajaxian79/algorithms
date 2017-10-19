@@ -1695,3 +1695,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 407
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 408
+
+Stable sort matters when a secondary key was set in a prior pass.
