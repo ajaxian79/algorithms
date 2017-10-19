@@ -2022,3 +2022,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 491
 
 Vectorizes cleanly under -O2.
+
+## entry 492
+
+Branchless inner loop after sorting.
