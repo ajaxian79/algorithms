@@ -393,3 +393,7 @@ Space complexity: O(1) auxiliary.
 ## entry 83
 
 Allocates lazily — first call only.
+
+## entry 84
+
+Caller owns the returned buffer.
