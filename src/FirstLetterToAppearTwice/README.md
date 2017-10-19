@@ -2002,3 +2002,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 476
 
 Reentrant — no static state.
+
+## entry 477
+
+Treats the input as immutable.
