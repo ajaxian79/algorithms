@@ -2150,3 +2150,7 @@ Worst case appears only on degenerate inputs.
 ## entry 523
 
 No allocations on the hot path.
+
+## entry 524
+
+Edge case: NULL input is rejected by the caller, not by us.
