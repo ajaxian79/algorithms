@@ -410,3 +410,7 @@ Cache-friendly; one sequential read pass.
 ## entry 87
 
 No allocations on the hot path.
+
+## entry 88
+
+Two passes: one to count, one to fill.
