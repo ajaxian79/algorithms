@@ -275,3 +275,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 215: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 216: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 217: Caller owns the returned array; free with a single `free`.
+// edge note 218: Constant-time comparisons; safe for short strings.
