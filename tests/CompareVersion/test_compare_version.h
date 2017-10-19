@@ -249,3 +249,4 @@ MunitTest compare_version_tests[] = {
 // edge note 222: Space complexity: O(log n) for the recursion stack.
 // edge note 223: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 224: Three passes total; the third merges results.
+// edge note 225: Treats the input as immutable.
