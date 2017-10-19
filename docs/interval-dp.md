@@ -279,3 +279,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 70
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 71
+
+Interval DP: solve all `[l, r]` ranges from short to long.
