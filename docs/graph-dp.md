@@ -1551,3 +1551,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 388
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 389
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
