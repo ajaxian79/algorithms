@@ -215,3 +215,4 @@ char* add_strings(const char* a, const char* b) {
 // note 175: Allocates lazily — first call only.
 // note 176: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 177: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
