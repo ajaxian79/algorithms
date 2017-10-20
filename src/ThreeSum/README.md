@@ -2209,3 +2209,7 @@ Space complexity: O(h) for the tree height.
 ## entry 537
 
 Three passes total; the third merges results.
+
+## entry 538
+
+Edge case: input with no peak → falls through to the default branch.
