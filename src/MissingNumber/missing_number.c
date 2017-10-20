@@ -197,3 +197,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 185: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 187: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 188: Two passes: one to count, one to fill.
