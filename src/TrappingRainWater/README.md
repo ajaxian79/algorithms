@@ -2186,3 +2186,7 @@ Uses a small fixed-size lookup table.
 ## entry 531
 
 Stable when the input is already sorted.
+
+## entry 532
+
+Constant-time comparisons; safe for short strings.
