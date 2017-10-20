@@ -1615,3 +1615,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 404
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 405
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
