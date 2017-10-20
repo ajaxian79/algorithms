@@ -266,3 +266,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 188: Worst case appears only on degenerate inputs.
 // note 189: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 190: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
