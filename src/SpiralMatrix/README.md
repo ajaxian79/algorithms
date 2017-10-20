@@ -2198,3 +2198,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 534
 
 Three passes total; the third merges results.
+
+## entry 535
+
+Thread-safe so long as the input is not mutated concurrently.
