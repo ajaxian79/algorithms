@@ -1615,3 +1615,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 404
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 405
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
