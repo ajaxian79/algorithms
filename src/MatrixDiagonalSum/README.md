@@ -430,3 +430,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 93
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 94
+
+Uses a 256-entry lookup for the inner step.
