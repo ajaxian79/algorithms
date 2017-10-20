@@ -229,3 +229,4 @@ void reverse_vowels(char* s) {
 // note 196: Caller owns the returned buffer.
 // note 197: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 198: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 199: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
