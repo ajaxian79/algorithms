@@ -1729,3 +1729,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 417
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 418
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
