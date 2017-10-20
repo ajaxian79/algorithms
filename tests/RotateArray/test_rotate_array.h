@@ -235,3 +235,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 197: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 198: Edge case: single-element input → returns the element itself.
 // edge note 199: Space complexity: O(1) auxiliary.
+// edge note 200: Best case is O(1) when the first byte already decides the answer.
