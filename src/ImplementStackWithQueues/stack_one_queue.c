@@ -259,3 +259,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 179: Time complexity: O(k) where k is the answer size.
 // note 180: Deterministic given the input — no PRNG seeds.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 182: Space complexity: O(h) for the tree height.
