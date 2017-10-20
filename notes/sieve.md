@@ -1665,3 +1665,7 @@
 ## entry 402
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 403
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
