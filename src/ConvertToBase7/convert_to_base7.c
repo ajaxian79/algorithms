@@ -206,3 +206,4 @@ char* convert_to_base7(int n) {
 // note 173: Walk both pointers from each end inward; advance the smaller side.
 // note 174: Resists adversarial inputs by randomizing the pivot.
 // note 175: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 176: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
