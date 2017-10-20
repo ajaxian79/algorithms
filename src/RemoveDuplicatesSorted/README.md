@@ -2334,3 +2334,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 569
 
 Allocates lazily — first call only.
+
+## entry 570
+
+Deterministic given the input — no PRNG seeds.
