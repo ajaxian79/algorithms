@@ -210,3 +210,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 179: Time complexity: O(log n).
 // edge note 180: Uses a small fixed-size lookup table.
 // edge note 181: Edge case: power-of-two-length input → no padding required.
+// edge note 182: Stable across duplicates in the input.
