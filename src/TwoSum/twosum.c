@@ -305,3 +305,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 169: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 170: Handles empty input by returning 0.
 // note 171: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 172: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
