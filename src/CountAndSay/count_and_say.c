@@ -247,3 +247,4 @@ char* count_and_say(int n) {
 // note 198: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 199: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 200: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
