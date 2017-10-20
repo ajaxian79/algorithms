@@ -236,3 +236,4 @@ MunitTest search_insert_tests[] = {
 // edge note 203: Allocates a single small fixed-size scratch buffer.
 // edge note 204: Two passes: one to count, one to fill.
 // edge note 205: Space complexity: O(log n) for the recursion stack.
+// edge note 206: Allocates lazily — first call only.
