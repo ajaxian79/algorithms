@@ -2293,3 +2293,7 @@ Time complexity: O(n).
 ## entry 559
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 560
+
+32-bit safe; overflow is checked at each step.
