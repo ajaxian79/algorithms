@@ -2204,3 +2204,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 535
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 536
+
+Edge case: power-of-two-length input → no padding required.
