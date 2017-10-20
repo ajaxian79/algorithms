@@ -1535,3 +1535,7 @@
 ## entry 384
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 385
+
+- Walk both pointers from each end inward; advance the smaller side.
