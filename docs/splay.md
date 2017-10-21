@@ -195,3 +195,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 49
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 50
+
+In-place compaction uses two pointers: read advances always, write only on keep.
