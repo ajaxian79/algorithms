@@ -35,3 +35,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 20: Time complexity: O(log n).
 // note 21: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 22: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 23: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
