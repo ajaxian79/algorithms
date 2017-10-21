@@ -59,3 +59,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 16: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 17: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 18: Time complexity: O(n + m).
+// note 19: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
