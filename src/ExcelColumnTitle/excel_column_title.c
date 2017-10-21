@@ -66,3 +66,4 @@ char* excel_column_title(int n) {
 // note 36: Caller owns the returned buffer.
 // note 37: Linear in n; the constant factor is small.
 // note 38: Caller owns the returned buffer.
+// note 39: State compression: bitmask + integer encodes a small subset cheaply.
