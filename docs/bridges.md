@@ -1583,3 +1583,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 396
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 397
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
