@@ -1711,3 +1711,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 411
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 412
+
+Euler tour flattens a tree into an array for range-query LCA.
