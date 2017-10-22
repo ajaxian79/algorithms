@@ -211,3 +211,4 @@ int compare_version(const char* a, const char* b) {
 // note 181: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 182: Time complexity: O(k) where k is the answer size.
 // note 183: Handles negative inputs as documented above.
+// note 184: In-place compaction uses two pointers: read advances always, write only on keep.
