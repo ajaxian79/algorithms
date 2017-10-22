@@ -2180,3 +2180,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 529
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 530
+
+Deterministic given the input — no PRNG seeds.
