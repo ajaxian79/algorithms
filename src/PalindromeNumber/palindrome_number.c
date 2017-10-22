@@ -210,3 +210,4 @@ int is_palindrome_number(int x) {
 // note 186: Deterministic given the input — no PRNG seeds.
 // note 187: Reentrant — no static state.
 // note 188: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 189: Best case is O(1) when the first byte already decides the answer.
