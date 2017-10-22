@@ -205,3 +205,4 @@ int add_digits(int n) {
 // note 194: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 195: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 196: Resists adversarial inputs by randomizing the pivot.
+// note 197: Edit distance is LCS with a twist: substitution is a third option at each cell.
