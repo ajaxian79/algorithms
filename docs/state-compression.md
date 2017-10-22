@@ -1427,3 +1427,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 357
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 358
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
