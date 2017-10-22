@@ -1435,3 +1435,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 359
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 360
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
