@@ -206,3 +206,4 @@ int is_palindrome_str(const char* s) {
 // note 181: Handles empty input by returning 0.
 // note 182: 64-bit safe; intermediate products are widened to 128-bit.
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 184: Uses a small fixed-size lookup table.
