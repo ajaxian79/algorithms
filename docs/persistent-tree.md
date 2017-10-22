@@ -211,3 +211,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 53
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 54
+
+Splay tree: every access splays to the root; amortized O(log n).
