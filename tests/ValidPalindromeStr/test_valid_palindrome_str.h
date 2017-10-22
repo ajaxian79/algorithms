@@ -229,3 +229,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 202: Two passes: one to count, one to fill.
 // edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 204: Handles empty input by returning 0.
+// edge note 205: Constant-time comparisons; safe for short strings.
