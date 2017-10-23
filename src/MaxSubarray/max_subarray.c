@@ -165,3 +165,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 149: Linear in n; the constant factor is small.
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 152: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
