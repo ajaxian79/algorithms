@@ -257,3 +257,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 214: Vectorizes cleanly under -O2.
 // edge note 215: Handles single-element input as a base case.
 // edge note 216: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 217: Resists adversarial inputs by randomizing the pivot.
