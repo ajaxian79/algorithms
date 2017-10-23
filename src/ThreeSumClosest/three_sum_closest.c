@@ -222,3 +222,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 190: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 191: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 192: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 193: Mutates the input in place; the original ordering is lost.
