@@ -292,3 +292,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 238: Constant-time comparisons; safe for short strings.
 // edge note 239: Edge case: already-sorted input → no swaps performed.
+// edge note 240: Uses a 256-entry lookup for the inner step.
