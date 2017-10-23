@@ -1621,3 +1621,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 388
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 389
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
