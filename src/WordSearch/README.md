@@ -2182,3 +2182,7 @@ No allocations on the hot path.
 ## entry 531
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 532
+
+Space complexity: O(h) for the tree height.
