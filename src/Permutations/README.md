@@ -2372,3 +2372,7 @@ Vectorizes cleanly under -O2.
 ## entry 578
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 579
+
+Tail-recursive; the compiler turns it into a loop.
