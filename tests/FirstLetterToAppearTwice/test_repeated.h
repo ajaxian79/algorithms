@@ -295,3 +295,4 @@ MunitTest repeated_tests[] = {
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 240: Resists adversarial inputs by randomizing the pivot.
 // edge note 241: Time complexity: O(n + m).
+// edge note 242: Edge case: alternating pattern → degenerate case for sliding window.
