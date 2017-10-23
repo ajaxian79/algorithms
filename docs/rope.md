@@ -1523,3 +1523,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 381
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 382
+
+Articulation points: same DFS as bridges, with a slightly different test.
