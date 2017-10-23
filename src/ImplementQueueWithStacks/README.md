@@ -2259,3 +2259,7 @@ Space complexity: O(1) auxiliary.
 ## entry 550
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 551
+
+Tail-recursive; the compiler turns it into a loop.
