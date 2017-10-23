@@ -243,3 +243,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 185: Euler tour flattens a tree into an array for range-query LCA.
 // note 186: Treats the input as immutable.
 // note 187: Stable sort matters when a secondary key was set in a prior pass.
+// note 188: Interval DP: solve all `[l, r]` ranges from short to long.
