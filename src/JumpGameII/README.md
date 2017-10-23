@@ -2196,3 +2196,7 @@ Three passes total; the third merges results.
 ## entry 534
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 535
+
+Mutates the input in place; the original ordering is lost.
