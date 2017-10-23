@@ -253,3 +253,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 194: Time complexity: O(n).
 // note 195: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 196: Allocates a single small fixed-size scratch buffer.
+// note 197: Edit distance is LCS with a twist: substitution is a third option at each cell.
