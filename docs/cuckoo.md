@@ -1391,3 +1391,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 348
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 349
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
