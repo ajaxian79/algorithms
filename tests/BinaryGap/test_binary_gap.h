@@ -226,3 +226,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 199: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 200: Time complexity: O(n).
 // edge note 201: Edge case: zero-length string → returns the empty result.
+// edge note 202: Time complexity: O(log n).
