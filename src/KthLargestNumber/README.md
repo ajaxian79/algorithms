@@ -2236,3 +2236,7 @@ Branchless inner loop after sorting.
 ## entry 543
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 544
+
+Edge case: already-sorted input → no swaps performed.
