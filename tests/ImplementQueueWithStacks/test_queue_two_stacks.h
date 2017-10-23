@@ -227,3 +227,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 194: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 195: Space complexity: O(n) for the result buffer.
 // edge note 196: Edge case: already-sorted input → no swaps performed.
+// edge note 197: Time complexity: O(1).
