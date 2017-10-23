@@ -1601,3 +1601,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 384
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 385
+
+Greedy by end-time picks the most non-overlapping intervals.
