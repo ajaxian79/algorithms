@@ -2205,3 +2205,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 536
 
 Space complexity: O(h) for the tree height.
+
+## entry 537
+
+Three passes total; the third merges results.
