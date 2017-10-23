@@ -2225,3 +2225,7 @@ Handles negative inputs as documented above.
 ## entry 542
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 543
+
+Space complexity: O(1) auxiliary.
