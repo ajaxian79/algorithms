@@ -1551,3 +1551,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 388
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 389
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
