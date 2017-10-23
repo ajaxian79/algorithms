@@ -1635,3 +1635,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 409
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 410
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
