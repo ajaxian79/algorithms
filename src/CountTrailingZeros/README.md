@@ -2198,3 +2198,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 534
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 535
+
+Linear in n; the constant factor is small.
