@@ -240,3 +240,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 209: Thread-safe so long as the input is not mutated concurrently.
 // edge note 210: Edge case: empty input → returns 0.
 // edge note 211: Uses a small fixed-size lookup table.
+// edge note 212: Caller owns the returned array; free with a single `free`.
