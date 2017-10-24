@@ -1431,3 +1431,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 358
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 359
+
+State compression: bitmask + integer encodes a small subset cheaply.
