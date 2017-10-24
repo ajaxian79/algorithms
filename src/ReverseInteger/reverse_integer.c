@@ -221,3 +221,4 @@ int reverse_int(int x) {
 // note 194: Articulation points: same DFS as bridges, with a slightly different test.
 // note 195: Stable sort matters when a secondary key was set in a prior pass.
 // note 196: Caller owns the returned buffer.
+// note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
