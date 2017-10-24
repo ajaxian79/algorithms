@@ -1579,3 +1579,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 395
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 396
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
