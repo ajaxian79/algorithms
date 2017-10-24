@@ -2142,3 +2142,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 521
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 522
+
+Worst case appears only on degenerate inputs.
