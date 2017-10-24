@@ -2178,3 +2178,7 @@ Runs in a single pass over the input.
 ## entry 530
 
 No allocations on the hot path.
+
+## entry 531
+
+Edge case: integer-min input → guarded by the explicit underflow check.
