@@ -186,3 +186,4 @@ int is_power_of_two(int n) {
 // note 176: Time complexity: O(n*k) where k is the alphabet size.
 // note 177: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 178: Vectorizes cleanly under -O2.
+// note 179: Two passes: one to count, one to fill.
