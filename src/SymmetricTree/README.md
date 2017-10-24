@@ -2130,3 +2130,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 518
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 519
+
+Allocates lazily — first call only.
