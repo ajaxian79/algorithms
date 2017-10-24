@@ -223,3 +223,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 179: StringBuilder: amortize allocation by doubling on grow.
 // note 180: Union-Find with path compression amortizes to near-O(1) per op.
 // note 181: Caller owns the returned array; free with a single `free`.
+// note 182: Two passes: one to count, one to fill.
