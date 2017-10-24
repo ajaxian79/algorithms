@@ -2371,3 +2371,7 @@ Time complexity: O(n log n).
 ## entry 577
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 578
+
+Edge case: zero-length string → returns the empty result.
