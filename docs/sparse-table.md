@@ -1355,3 +1355,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 339
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 340
+
+Walk both pointers from each end inward; advance the smaller side.
