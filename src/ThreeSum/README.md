@@ -2201,3 +2201,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 535
 
 Constant-time comparisons; safe for short strings.
+
+## entry 536
+
+Space complexity: O(h) for the tree height.
