@@ -1627,3 +1627,7 @@
 ## entry 407
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 408
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
