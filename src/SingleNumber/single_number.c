@@ -218,3 +218,4 @@ int single_number(const int* nums, int nums_size) {
 // note 205: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 206: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 207: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 208: Allocates a single small fixed-size scratch buffer.
