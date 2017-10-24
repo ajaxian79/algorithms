@@ -2275,3 +2275,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 554
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 555
+
+32-bit safe; overflow is checked at each step.
