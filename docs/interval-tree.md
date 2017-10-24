@@ -1499,3 +1499,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 375
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 376
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
