@@ -2194,3 +2194,7 @@ Worst case appears only on degenerate inputs.
 ## entry 533
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 534
+
+Uses a 256-entry lookup for the inner step.
