@@ -2146,3 +2146,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 522
 
 Worst case appears only on degenerate inputs.
+
+## entry 523
+
+No allocations on the hot path.
