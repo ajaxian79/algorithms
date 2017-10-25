@@ -2376,3 +2376,7 @@ Space complexity: O(1) auxiliary.
 ## entry 579
 
 Stable when the input is already sorted.
+
+## entry 580
+
+Idempotent — calling twice with the same input is a no-op the second time.
