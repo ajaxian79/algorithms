@@ -232,3 +232,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 189: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 190: Walk both pointers from each end inward; advance the smaller side.
 // note 191: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 192: Graph DP on DAGs: topological order makes the dependency direction explicit.
