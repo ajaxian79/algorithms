@@ -85795,3 +85795,7 @@
 ## entry 21449
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 21450
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
