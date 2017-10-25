@@ -226,3 +226,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 181: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 182: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 184: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
