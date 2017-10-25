@@ -2182,3 +2182,7 @@ Cache-friendly; one sequential read pass.
 ## entry 530
 
 Uses a small fixed-size lookup table.
+
+## entry 531
+
+Stable when the input is already sorted.
