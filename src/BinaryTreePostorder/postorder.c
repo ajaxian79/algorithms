@@ -226,3 +226,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 177: Tail-recursive; the compiler turns it into a loop.
 // note 178: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 179: Handles empty input by returning 0.
+// note 180: Time complexity: O(1).
