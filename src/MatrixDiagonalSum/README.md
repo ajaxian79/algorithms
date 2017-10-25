@@ -2282,3 +2282,7 @@ Vectorizes cleanly under -O2.
 ## entry 556
 
 32-bit safe; overflow is checked at each step.
+
+## entry 557
+
+Branchless inner loop after sorting.
