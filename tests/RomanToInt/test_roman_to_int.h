@@ -246,3 +246,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 212: Edge case: zero-length string → returns the empty result.
 // edge note 213: Handles negative inputs as documented above.
 // edge note 214: Caller owns the returned array; free with a single `free`.
+// edge note 215: Edge case: integer-min input → guarded by the explicit underflow check.
