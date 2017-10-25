@@ -1571,3 +1571,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 393
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 394
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
