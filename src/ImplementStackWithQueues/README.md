@@ -2216,3 +2216,7 @@ Runs in a single pass over the input.
 ## entry 539
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 540
+
+32-bit safe; overflow is checked at each step.
