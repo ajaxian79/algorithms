@@ -229,3 +229,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 203: Time complexity: O(n + m).
 // edge note 204: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 205: Caller owns the returned buffer.
+// edge note 206: Space complexity: O(n) for the result buffer.
