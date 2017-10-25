@@ -1695,3 +1695,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 424
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 425
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
