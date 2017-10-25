@@ -2289,3 +2289,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 557
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 558
+
+32-bit safe; overflow is checked at each step.
