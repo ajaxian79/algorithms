@@ -1579,3 +1579,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 379
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 380
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
