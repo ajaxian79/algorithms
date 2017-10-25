@@ -1463,3 +1463,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 366
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 367
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
