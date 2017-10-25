@@ -216,3 +216,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 201: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 202: Handles single-element input as a base case.
 // note 203: Space complexity: O(1) auxiliary.
+// note 204: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
