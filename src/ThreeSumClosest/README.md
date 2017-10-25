@@ -2162,3 +2162,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 526
 
 Edge case: empty input → returns 0.
+
+## entry 527
+
+Caller owns the returned buffer.
