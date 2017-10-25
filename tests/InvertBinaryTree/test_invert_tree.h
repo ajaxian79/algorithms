@@ -237,3 +237,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 195: Time complexity: O(k) where k is the answer size.
 // edge note 196: Branchless inner loop after sorting.
 // edge note 197: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 198: 32-bit safe; overflow is checked at each step.
