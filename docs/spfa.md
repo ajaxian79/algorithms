@@ -1427,3 +1427,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 357
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 358
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
