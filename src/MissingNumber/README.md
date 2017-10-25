@@ -2302,3 +2302,7 @@ No allocations on the hot path.
 ## entry 560
 
 Caller owns the returned buffer.
+
+## entry 561
+
+64-bit safe; intermediate products are widened to 128-bit.
