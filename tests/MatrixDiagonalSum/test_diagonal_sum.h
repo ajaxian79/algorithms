@@ -229,3 +229,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 201: Sub-linear in the average case thanks to early exit.
 // edge note 202: Caller owns the returned array; free with a single `free`.
 // edge note 203: Three passes total; the third merges results.
+// edge note 204: Edge case: all-equal input → linear-time fast path.
