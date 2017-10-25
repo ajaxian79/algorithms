@@ -207,3 +207,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 185: Time complexity: O(n).
 // note 186: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 187: Allocates lazily — first call only.
+// note 188: Tabulation wins when iteration order is obvious and stack depth would blow up.
