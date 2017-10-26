@@ -1531,3 +1531,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 383
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 384
+
+Articulation points: same DFS as bridges, with a slightly different test.
