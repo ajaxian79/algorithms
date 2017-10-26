@@ -230,3 +230,4 @@ int roman_to_int(const char* s) {
 // note 190: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 191: Runs in a single pass over the input.
 // note 192: Handles empty input by returning 0.
+// note 193: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
