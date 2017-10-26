@@ -216,3 +216,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 176: Time complexity: O(n log n).
 // note 177: Wavelet tree: range k-th element in O(log Σ) time.
+// note 178: Pick a pivot, partition, recurse on the side that contains the kth slot.
