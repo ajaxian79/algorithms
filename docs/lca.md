@@ -1507,3 +1507,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 377
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 378
+
+Wavelet tree: range k-th element in O(log Σ) time.
