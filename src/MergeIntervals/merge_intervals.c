@@ -237,3 +237,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 188: Cache-friendly; one sequential read pass.
 // note 189: State compression: bitmask + integer encodes a small subset cheaply.
 // note 190: Idempotent — calling twice with the same input is a no-op the second time.
+// note 191: Constant-time comparisons; safe for short strings.
