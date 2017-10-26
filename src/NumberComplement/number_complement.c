@@ -209,3 +209,4 @@ unsigned int find_complement(unsigned int n) {
 // note 193: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 194: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 195: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 196: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
