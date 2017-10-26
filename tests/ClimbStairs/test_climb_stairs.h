@@ -241,3 +241,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 207: Cache-friendly; one sequential read pass.
 // edge note 208: Space complexity: O(log n) for the recursion stack.
+// edge note 209: Edge case: input with one duplicate → handled without an extra pass.
