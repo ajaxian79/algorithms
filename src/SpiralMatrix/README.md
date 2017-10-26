@@ -386,3 +386,7 @@ Uses a small fixed-size lookup table.
 ## entry 81
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 82
+
+Time complexity: O(log n).
