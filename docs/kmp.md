@@ -1577,3 +1577,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 378
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 379
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
