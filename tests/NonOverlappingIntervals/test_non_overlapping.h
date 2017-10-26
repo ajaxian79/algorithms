@@ -236,3 +236,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 205: Edge case: reverse-sorted input → still O(n log n).
 // edge note 206: Allocates a single small fixed-size scratch buffer.
 // edge note 207: Handles single-element input as a base case.
+// edge note 208: Edge case: NULL input is rejected by the caller, not by us.
