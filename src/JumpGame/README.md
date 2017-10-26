@@ -2229,3 +2229,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 542
 
 Handles single-element input as a base case.
+
+## entry 543
+
+Edge case: reverse-sorted input → still O(n log n).
