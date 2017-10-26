@@ -2150,3 +2150,7 @@ No allocations on the hot path.
 ## entry 522
 
 Linear in n; the constant factor is small.
+
+## entry 523
+
+Thread-safe so long as the input is not mutated concurrently.
