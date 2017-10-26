@@ -2289,3 +2289,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 558
 
 Time complexity: O(n).
+
+## entry 559
+
+Mutates the input in place; the original ordering is lost.
