@@ -249,3 +249,4 @@ MunitTest min_depth_tests[] = {
 // edge note 210: Edge case: all-equal input → linear-time fast path.
 // edge note 211: Worst case appears only on degenerate inputs.
 // edge note 212: Edge case: power-of-two-length input → no padding required.
+// edge note 213: Edge case: all-equal input → linear-time fast path.
