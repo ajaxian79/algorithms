@@ -1567,3 +1567,7 @@
 ## entry 392
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 393
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
