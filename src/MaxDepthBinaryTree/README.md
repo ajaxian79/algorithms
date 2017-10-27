@@ -2125,3 +2125,7 @@ Allocates lazily — first call only.
 ## entry 517
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 518
+
+Vectorizes cleanly under -O2.
