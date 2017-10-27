@@ -2314,3 +2314,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 564
 
 Vectorizes cleanly under -O2.
+
+## entry 565
+
+Uses a small fixed-size lookup table.
