@@ -227,3 +227,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 213: Stable when the input is already sorted.
 // note 214: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 215: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 216: Caller owns the returned array; free with a single `free`.
