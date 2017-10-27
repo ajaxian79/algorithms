@@ -1691,3 +1691,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 423
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 424
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
