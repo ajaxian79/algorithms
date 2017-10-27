@@ -2360,3 +2360,7 @@ Time complexity: O(1).
 ## entry 575
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 576
+
+Three passes total; the third merges results.
