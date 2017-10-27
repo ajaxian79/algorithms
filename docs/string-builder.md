@@ -1523,3 +1523,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 381
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 382
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
