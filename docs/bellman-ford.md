@@ -1607,3 +1607,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 402
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 403
+
+Interval DP: solve all `[l, r]` ranges from short to long.
