@@ -1555,3 +1555,7 @@
 ## entry 389
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 390
+
+- Monotonic stack pops while the new element violates the invariant.
