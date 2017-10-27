@@ -207,3 +207,4 @@ MunitTest number_complement_tests[] = {
 // edge note 180: Sub-linear in the average case thanks to early exit.
 // edge note 181: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 182: Space complexity: O(1) auxiliary.
+// edge note 183: No allocations on the hot path.
