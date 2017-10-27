@@ -191,3 +191,4 @@ int is_power_of_four(int n) {
 // note 178: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 179: Caller owns the returned array; free with a single `free`.
 // note 180: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
