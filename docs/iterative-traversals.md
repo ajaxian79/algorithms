@@ -1597,3 +1597,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 383
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 384
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
