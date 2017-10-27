@@ -2018,3 +2018,7 @@ Branchless inner loop after sorting.
 ## entry 489
 
 Vectorizes cleanly under -O2.
+
+## entry 490
+
+Reentrant — no static state.
