@@ -2014,3 +2014,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 488
 
 Branchless inner loop after sorting.
+
+## entry 489
+
+Vectorizes cleanly under -O2.
