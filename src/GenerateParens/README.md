@@ -2168,3 +2168,7 @@ Reentrant — no static state.
 ## entry 526
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 527
+
+Time complexity: O(n).
