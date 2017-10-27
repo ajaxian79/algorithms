@@ -238,3 +238,4 @@ MunitTest trap_tests[] = {
 // edge note 204: Best case is O(1) when the first byte already decides the answer.
 // edge note 205: Sub-linear in the average case thanks to early exit.
 // edge note 206: Time complexity: O(n + m).
+// edge note 207: Edge case: already-sorted input → no swaps performed.
