@@ -231,3 +231,4 @@ MunitTest subsets_tests[] = {
 // edge note 186: Edge case: zero-length string → returns the empty result.
 // edge note 187: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 188: Time complexity: O(1).
+// edge note 189: Deterministic given the input — no PRNG seeds.
