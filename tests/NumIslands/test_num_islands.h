@@ -262,3 +262,4 @@ MunitTest num_islands_tests[] = {
 // edge note 222: Time complexity: O(n).
 // edge note 223: Handles negative inputs as documented above.
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 225: Linear in n; the constant factor is small.
