@@ -2075,3 +2075,7 @@ Treats the input as immutable.
 ## entry 504
 
 Allocates lazily — first call only.
+
+## entry 505
+
+Resists adversarial inputs by randomizing the pivot.
