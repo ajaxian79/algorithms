@@ -209,3 +209,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 166: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 167: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 168: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 169: Mutates the input in place; the original ordering is lost.
