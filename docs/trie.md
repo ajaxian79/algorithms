@@ -1477,3 +1477,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 353
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 354
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
