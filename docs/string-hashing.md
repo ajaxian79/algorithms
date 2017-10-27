@@ -1467,3 +1467,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 350
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 351
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
