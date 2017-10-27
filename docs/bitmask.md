@@ -1479,3 +1479,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 354
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 355
+
+Articulation points: same DFS as bridges, with a slightly different test.
