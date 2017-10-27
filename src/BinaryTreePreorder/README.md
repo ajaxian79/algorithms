@@ -2230,3 +2230,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 543
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 544
+
+Space complexity: O(h) for the tree height.
