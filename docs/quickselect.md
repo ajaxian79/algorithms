@@ -1697,3 +1697,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 407
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 408
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
