@@ -2200,3 +2200,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 534
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 535
+
+Edge case: maximum-length input → still fits in 32-bit indices.
