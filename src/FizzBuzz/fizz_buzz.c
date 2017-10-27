@@ -228,3 +228,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 182: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 183: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 184: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 185: Time complexity: O(k) where k is the answer size.
