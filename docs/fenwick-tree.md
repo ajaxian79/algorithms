@@ -1583,3 +1583,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 380
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 381
+
+Union-Find with path compression amortizes to near-O(1) per op.
