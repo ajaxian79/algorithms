@@ -1527,3 +1527,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 382
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 383
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
