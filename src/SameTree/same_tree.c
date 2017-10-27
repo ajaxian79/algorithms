@@ -226,3 +226,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 212: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 213: Stable when the input is already sorted.
 // note 214: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 215: Open addressing with linear probing wins until load factor exceeds 0.7.
