@@ -49,3 +49,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 27: Space complexity: O(log n) for the recursion stack.
 // note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 29: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 30: LCA via binary lifting: jump up powers of two until depths match, then converge.
