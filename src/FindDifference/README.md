@@ -1986,3 +1986,7 @@ Time complexity: O(log n).
 ## entry 482
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 483
+
+32-bit safe; overflow is checked at each step.
