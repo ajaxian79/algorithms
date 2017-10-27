@@ -216,3 +216,4 @@ int is_anagram(const char* s, const char* t) {
 // note 187: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 188: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 189: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 190: Uses a small fixed-size lookup table.
