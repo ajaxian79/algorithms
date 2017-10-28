@@ -2281,3 +2281,7 @@ Stable when the input is already sorted.
 ## entry 555
 
 Runs in a single pass over the input.
+
+## entry 556
+
+Space complexity: O(log n) for the recursion stack.
