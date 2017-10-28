@@ -2238,3 +2238,7 @@ No allocations after setup.
 ## entry 544
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 545
+
+No allocations on the hot path.
