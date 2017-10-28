@@ -2334,3 +2334,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 569
 
 Branchless inner loop after sorting.
+
+## entry 570
+
+Uses a small fixed-size lookup table.
