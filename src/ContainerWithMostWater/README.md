@@ -2151,3 +2151,7 @@ Stable when the input is already sorted.
 ## entry 523
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 524
+
+No allocations after setup.
