@@ -1485,3 +1485,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 355
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 356
+
+Union-Find with path compression amortizes to near-O(1) per op.
