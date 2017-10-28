@@ -223,3 +223,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 195: Constant-time comparisons; safe for short strings.
 // edge note 196: Handles negative inputs as documented above.
 // edge note 197: Branchless inner loop after sorting.
+// edge note 198: No allocations on the hot path.
