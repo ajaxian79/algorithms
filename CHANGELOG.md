@@ -85695,3 +85695,7 @@
 ## entry 21424
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 21425
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
