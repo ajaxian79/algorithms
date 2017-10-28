@@ -2138,3 +2138,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 520
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 521
+
+Best case is O(1) when the first byte already decides the answer.
