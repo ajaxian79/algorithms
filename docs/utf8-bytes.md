@@ -1447,3 +1447,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 362
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 363
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
