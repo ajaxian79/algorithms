@@ -426,3 +426,7 @@ Branchless inner loop after sorting.
 ## entry 92
 
 Stable when the input is already sorted.
+
+## entry 93
+
+Edge case: NULL input is rejected by the caller, not by us.
