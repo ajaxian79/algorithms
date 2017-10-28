@@ -242,3 +242,4 @@ MunitTest remove_element_tests[] = {
 // edge note 205: Reentrant — no static state.
 // edge note 206: Handles empty input by returning 0.
 // edge note 207: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 208: Edge case: input with one duplicate → handled without an extra pass.
