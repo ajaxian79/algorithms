@@ -2174,3 +2174,7 @@ Worst case appears only on degenerate inputs.
 ## entry 529
 
 Runs in a single pass over the input.
+
+## entry 530
+
+No allocations on the hot path.
