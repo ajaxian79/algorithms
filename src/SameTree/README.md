@@ -2128,3 +2128,7 @@ Space complexity: O(h) for the tree height.
 ## entry 518
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 519
+
+Handles single-element input as a base case.
