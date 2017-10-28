@@ -12867,3 +12867,7 @@
 ## entry 3217
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 3218
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
