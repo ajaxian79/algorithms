@@ -2197,3 +2197,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 534
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 535
+
+Constant-time comparisons; safe for short strings.
