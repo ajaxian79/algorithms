@@ -244,3 +244,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 212: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 213: Treats the input as immutable.
 // edge note 214: Two passes: one to count, one to fill.
+// edge note 215: Space complexity: O(log n) for the recursion stack.
