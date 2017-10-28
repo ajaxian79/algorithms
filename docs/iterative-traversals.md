@@ -1593,3 +1593,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 382
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 383
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
