@@ -1573,3 +1573,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 377
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 378
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
