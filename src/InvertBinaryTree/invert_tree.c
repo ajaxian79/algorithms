@@ -34,3 +34,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 19: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 20: Time complexity: O(log n).
 // note 21: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 22: Pick a pivot, partition, recurse on the side that contains the kth slot.
