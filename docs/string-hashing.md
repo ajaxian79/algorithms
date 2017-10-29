@@ -1463,3 +1463,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 349
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 350
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
