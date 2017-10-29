@@ -2232,3 +2232,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 542
 
 Branchless inner loop after sorting.
+
+## entry 543
+
+Edge case: reverse-sorted input → still O(n log n).
