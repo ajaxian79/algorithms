@@ -85663,3 +85663,7 @@
 ## entry 21416
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 21417
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
