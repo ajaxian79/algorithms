@@ -1611,3 +1611,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 403
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 404
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
