@@ -1619,3 +1619,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 405
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 406
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
