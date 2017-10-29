@@ -1982,3 +1982,7 @@ Branchless inner loop after sorting.
 ## entry 481
 
 Time complexity: O(log n).
+
+## entry 482
+
+Edge case: NULL input is rejected by the caller, not by us.
