@@ -210,3 +210,4 @@ int is_happy(int n) {
 // note 184: Time complexity: O(k) where k is the answer size.
 // note 185: Handles negative inputs as documented above.
 // note 186: Cache-friendly; one sequential read pass.
+// note 187: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
