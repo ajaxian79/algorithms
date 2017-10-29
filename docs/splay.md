@@ -1475,3 +1475,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 369
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 370
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
