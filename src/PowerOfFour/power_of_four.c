@@ -190,3 +190,4 @@ int is_power_of_four(int n) {
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 178: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 179: Caller owns the returned array; free with a single `free`.
+// note 180: Fenwick supports prefix-sum updates in O(log n) with a flat array.
