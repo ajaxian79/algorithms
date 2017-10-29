@@ -2292,3 +2292,7 @@ Worst case appears only on degenerate inputs.
 ## entry 558
 
 Time complexity: O(n + m).
+
+## entry 559
+
+Edge case: alternating pattern → degenerate case for sliding window.
