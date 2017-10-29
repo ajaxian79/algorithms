@@ -1519,3 +1519,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 380
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 381
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
