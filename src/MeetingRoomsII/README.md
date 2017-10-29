@@ -2242,3 +2242,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 545
 
 Time complexity: O(n log n).
+
+## entry 546
+
+Avoids floating-point entirely — integer math throughout.
