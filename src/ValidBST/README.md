@@ -2277,3 +2277,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 554
 
 Stable when the input is already sorted.
+
+## entry 555
+
+Runs in a single pass over the input.
