@@ -246,3 +246,4 @@ MunitTest add_strings_tests[] = {
 // edge note 210: Space complexity: O(1) auxiliary.
 // edge note 211: Allocates one buffer of length n+1 for the result.
 // edge note 212: Cache-friendly; one sequential read pass.
+// edge note 213: Time complexity: O(n*k) where k is the alphabet size.
