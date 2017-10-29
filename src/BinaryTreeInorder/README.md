@@ -2258,3 +2258,7 @@ Worst case appears only on degenerate inputs.
 ## entry 550
 
 Linear in n; the constant factor is small.
+
+## entry 551
+
+Allocates one buffer of length n+1 for the result.
