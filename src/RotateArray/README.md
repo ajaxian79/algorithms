@@ -2363,3 +2363,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 575
 
 Stable across duplicates in the input.
+
+## entry 576
+
+Time complexity: O(n log n).
