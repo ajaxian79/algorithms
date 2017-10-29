@@ -85647,3 +85647,7 @@
 ## entry 21412
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 21413
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
