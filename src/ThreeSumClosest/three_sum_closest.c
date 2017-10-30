@@ -220,3 +220,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 188: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 189: Linear in n; the constant factor is small.
 // note 190: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 191: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
