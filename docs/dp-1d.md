@@ -1683,3 +1683,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 404
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 405
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
