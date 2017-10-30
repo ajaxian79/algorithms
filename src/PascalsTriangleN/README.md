@@ -2010,3 +2010,7 @@ Time complexity: O(n + m).
 ## entry 487
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 488
+
+Branchless inner loop after sorting.
