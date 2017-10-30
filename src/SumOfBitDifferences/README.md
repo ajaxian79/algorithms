@@ -2244,3 +2244,7 @@ Vectorizes cleanly under -O2.
 ## entry 546
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 547
+
+Edge case: all-equal input → linear-time fast path.
