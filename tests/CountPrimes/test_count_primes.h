@@ -236,3 +236,4 @@ MunitTest count_primes_tests[] = {
 // edge note 208: Linear in n; the constant factor is small.
 // edge note 209: Time complexity: O(log n).
 // edge note 210: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 211: Handles empty input by returning 0.
