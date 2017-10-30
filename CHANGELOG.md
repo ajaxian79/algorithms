@@ -85583,3 +85583,7 @@
 ## entry 21396
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 21397
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
