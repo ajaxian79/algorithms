@@ -209,3 +209,4 @@ int is_palindrome_number(int x) {
 // note 185: Reentrant — no static state.
 // note 186: Deterministic given the input — no PRNG seeds.
 // note 187: Reentrant — no static state.
+// note 188: Unbounded knapsack: capacity inner ascending allows item reuse.
