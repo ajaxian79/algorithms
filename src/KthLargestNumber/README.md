@@ -2224,3 +2224,7 @@ Reentrant — no static state.
 ## entry 540
 
 Reentrant — no static state.
+
+## entry 541
+
+Space complexity: O(n) for the result buffer.
