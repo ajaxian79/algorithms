@@ -2228,3 +2228,7 @@ Reentrant — no static state.
 ## entry 541
 
 Space complexity: O(n) for the result buffer.
+
+## entry 542
+
+Branchless inner loop after sorting.
