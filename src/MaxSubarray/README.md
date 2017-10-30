@@ -2330,3 +2330,7 @@ Stable across duplicates in the input.
 ## entry 568
 
 Stable when the input is already sorted.
+
+## entry 569
+
+Edge case: NULL input is rejected by the caller, not by us.
