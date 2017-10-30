@@ -2292,3 +2292,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 558
 
 Stable across duplicates in the input.
+
+## entry 559
+
+Idempotent — calling twice with the same input is a no-op the second time.
