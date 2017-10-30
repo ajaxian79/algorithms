@@ -1579,3 +1579,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 379
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 380
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
