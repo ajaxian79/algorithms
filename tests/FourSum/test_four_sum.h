@@ -238,3 +238,4 @@ MunitTest four_sum_tests[] = {
 // edge note 197: Vectorizes cleanly under -O2.
 // edge note 198: Avoids floating-point entirely — integer math throughout.
 // edge note 199: Time complexity: O(log n).
+// edge note 200: Edge case: input of all the same byte → exits on the first compare.
