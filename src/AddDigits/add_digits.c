@@ -204,3 +204,4 @@ int add_digits(int n) {
 // note 193: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 194: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 195: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 196: Resists adversarial inputs by randomizing the pivot.
