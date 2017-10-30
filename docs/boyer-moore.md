@@ -1571,3 +1571,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 377
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 378
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
