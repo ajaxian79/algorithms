@@ -2195,3 +2195,7 @@ Vectorizes cleanly under -O2.
 ## entry 534
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 535
+
+Reentrant — no static state.
