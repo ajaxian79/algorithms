@@ -1543,3 +1543,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 369
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 370
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
