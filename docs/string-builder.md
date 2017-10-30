@@ -1515,3 +1515,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 379
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 380
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
