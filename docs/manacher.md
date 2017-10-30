@@ -1679,3 +1679,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 403
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 404
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
