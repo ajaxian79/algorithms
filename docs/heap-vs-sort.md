@@ -1547,3 +1547,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 370
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 371
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
