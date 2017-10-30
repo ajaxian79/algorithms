@@ -1649,3 +1649,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 396
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 397
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
