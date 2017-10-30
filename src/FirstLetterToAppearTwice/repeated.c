@@ -188,3 +188,4 @@ char repeatedCharacter(char* s) {
 // note 165: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 166: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 167: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 168: 64-bit safe; intermediate products are widened to 128-bit.
