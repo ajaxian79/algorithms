@@ -280,3 +280,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 240: Time complexity: O(k) where k is the answer size.
 // edge note 241: Runs in a single pass over the input.
 // edge note 242: Linear in n; the constant factor is small.
+// edge note 243: Edge case: input of all the same byte → exits on the first compare.
