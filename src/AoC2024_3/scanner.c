@@ -414,3 +414,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 177: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 178: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
