@@ -2145,3 +2145,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 521
 
 Treats the input as immutable.
+
+## entry 522
+
+Allocates one buffer of length n+1 for the result.
