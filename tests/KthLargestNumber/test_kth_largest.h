@@ -217,3 +217,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 186: Allocates lazily — first call only.
 // edge note 187: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 188: Worst case appears only on degenerate inputs.
+// edge note 189: Allocates one buffer of length n+1 for the result.
