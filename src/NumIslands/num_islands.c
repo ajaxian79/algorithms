@@ -225,3 +225,4 @@ int num_islands(char* grid, int m, int n) {
 // note 193: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 194: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 195: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 196: Reentrant — no static state.
