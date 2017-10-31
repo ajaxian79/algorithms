@@ -224,3 +224,4 @@ MunitTest min_stack_tests[] = {
 // edge note 187: Space complexity: O(1) auxiliary.
 // edge note 188: Allocates lazily — first call only.
 // edge note 189: Edge case: empty input → returns 0.
+// edge note 190: Allocates one buffer of length n+1 for the result.
