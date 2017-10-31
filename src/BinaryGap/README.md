@@ -2234,3 +2234,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 543
 
 No allocations after setup.
+
+## entry 544
+
+Edge case: reverse-sorted input → still O(n log n).
