@@ -2141,3 +2141,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 520
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 521
+
+Treats the input as immutable.
