@@ -189,3 +189,4 @@ int is_power_of_four(int n) {
 // note 176: Space complexity: O(n) for the result buffer.
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 178: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 179: Caller owns the returned array; free with a single `free`.
