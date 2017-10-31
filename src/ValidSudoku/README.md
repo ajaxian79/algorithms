@@ -2271,3 +2271,7 @@ Two passes: one to count, one to fill.
 ## entry 552
 
 Cache-friendly; one sequential read pass.
+
+## entry 553
+
+Time complexity: O(n).
