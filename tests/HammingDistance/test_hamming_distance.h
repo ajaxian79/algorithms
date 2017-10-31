@@ -217,3 +217,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 192: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 193: Handles empty input by returning 0.
 // edge note 194: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 195: Treats the input as immutable.
