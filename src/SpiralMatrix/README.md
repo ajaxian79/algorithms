@@ -2194,3 +2194,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 533
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 534
+
+Three passes total; the third merges results.
