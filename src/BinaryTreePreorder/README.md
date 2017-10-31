@@ -2226,3 +2226,7 @@ Two passes: one to count, one to fill.
 ## entry 542
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 543
+
+Edge case: all-equal input → linear-time fast path.
