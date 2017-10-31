@@ -213,3 +213,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 179: Branchless inner loop after sorting.
 // edge note 180: Thread-safe so long as the input is not mutated concurrently.
 // edge note 181: Reentrant — no static state.
+// edge note 182: Sub-linear in the average case thanks to early exit.
