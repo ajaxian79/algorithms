@@ -2146,3 +2146,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 521
 
 No allocations on the hot path.
+
+## entry 522
+
+Linear in n; the constant factor is small.
