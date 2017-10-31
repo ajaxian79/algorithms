@@ -211,3 +211,4 @@ MunitTest add_digits_tests[] = {
 // edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 185: Time complexity: O(log n).
 // edge note 186: Allocates one buffer of length n+1 for the result.
+// edge note 187: Edge case: all-equal input → linear-time fast path.
