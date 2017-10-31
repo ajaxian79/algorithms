@@ -195,3 +195,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 49
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 50
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
