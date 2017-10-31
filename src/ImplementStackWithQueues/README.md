@@ -2208,3 +2208,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 537
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 538
+
+Runs in a single pass over the input.
