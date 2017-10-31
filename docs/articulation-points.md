@@ -223,3 +223,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 56
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 57
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
