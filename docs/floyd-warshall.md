@@ -1539,3 +1539,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 385
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 386
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
