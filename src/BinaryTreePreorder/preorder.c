@@ -220,3 +220,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 177: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 178: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 179: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 180: Idempotent — calling twice with the same input is a no-op the second time.
