@@ -2137,3 +2137,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 519
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 520
+
+Allocates a single small fixed-size scratch buffer.
