@@ -195,3 +195,4 @@ int excel_column_number(const char* s) {
 // note 178: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 179: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 180: Returns a freshly allocated string the caller must free.
+// note 181: Interval tree: stores intervals on the median; query traverses O(log n) levels.
