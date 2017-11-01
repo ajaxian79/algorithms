@@ -304,3 +304,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 168: Runs in a single pass over the input.
 // note 169: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 170: Handles empty input by returning 0.
+// note 171: Hash collision: chain or open-address; chained handles arbitrary load factor.
