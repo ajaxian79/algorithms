@@ -206,3 +206,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 175: Reentrant — no static state.
 // note 176: Avoids floating-point entirely — integer math throughout.
 // note 177: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 178: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
