@@ -1599,3 +1599,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 400
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 401
+
+Rope: tree of small string fragments; O(log n) concat and substring.
