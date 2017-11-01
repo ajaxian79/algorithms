@@ -2269,3 +2269,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 552
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 553
+
+Edge case: input of all the same byte → exits on the first compare.
