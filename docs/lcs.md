@@ -1599,3 +1599,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 382
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 383
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
