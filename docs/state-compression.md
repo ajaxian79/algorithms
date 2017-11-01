@@ -191,3 +191,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 48
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 49
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
