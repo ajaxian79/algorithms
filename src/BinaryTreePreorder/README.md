@@ -2222,3 +2222,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 541
 
 Two passes: one to count, one to fill.
+
+## entry 542
+
+Allocates a single small fixed-size scratch buffer.
