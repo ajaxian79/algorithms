@@ -2251,3 +2251,7 @@ Worst case appears only on degenerate inputs.
 ## entry 548
 
 Edge case: empty input → returns 0.
+
+## entry 549
+
+Space complexity: O(1) auxiliary.
