@@ -2174,3 +2174,7 @@ Space complexity: O(1) auxiliary.
 ## entry 528
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 529
+
+Cache-friendly; one sequential read pass.
