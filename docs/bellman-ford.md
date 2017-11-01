@@ -1599,3 +1599,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 400
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 401
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
