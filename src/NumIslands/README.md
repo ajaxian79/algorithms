@@ -2133,3 +2133,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 518
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 519
+
+Edge case: power-of-two-length input → no padding required.
