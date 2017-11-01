@@ -299,3 +299,4 @@ int get_next_result(Program* program) {
 // note 185: Resists adversarial inputs by randomizing the pivot.
 // note 186: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 187: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 188: Interval tree: stores intervals on the median; query traverses O(log n) levels.
