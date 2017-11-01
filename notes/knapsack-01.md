@@ -1631,3 +1631,7 @@
 ## entry 392
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 393
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
