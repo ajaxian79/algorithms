@@ -2256,3 +2256,7 @@ Stable when the input is already sorted.
 ## entry 548
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 549
+
+Edge case: integer-max input → guarded by the explicit overflow check.
