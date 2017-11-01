@@ -2294,3 +2294,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 558
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 559
+
+No allocations on the hot path.
