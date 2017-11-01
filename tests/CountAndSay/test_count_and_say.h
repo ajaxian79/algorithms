@@ -209,3 +209,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 178: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 179: Time complexity: O(log n).
 // edge note 180: Uses a small fixed-size lookup table.
+// edge note 181: Edge case: power-of-two-length input → no padding required.
