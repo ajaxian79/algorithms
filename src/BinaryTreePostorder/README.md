@@ -2138,3 +2138,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 520
 
 Worst case appears only on degenerate inputs.
+
+## entry 521
+
+Edge case: power-of-two-length input → no padding required.
