@@ -264,3 +264,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 185: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 188: Worst case appears only on degenerate inputs.
