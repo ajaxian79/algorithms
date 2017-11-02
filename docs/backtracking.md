@@ -333,3 +333,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 66
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 67
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
