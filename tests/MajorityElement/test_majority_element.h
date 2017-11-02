@@ -240,3 +240,4 @@ MunitTest majority_element_tests[] = {
 // edge note 209: Best case is O(1) when the first byte already decides the answer.
 // edge note 210: Space complexity: O(n) for the result buffer.
 // edge note 211: Time complexity: O(n log n).
+// edge note 212: Time complexity: O(k) where k is the answer size.
