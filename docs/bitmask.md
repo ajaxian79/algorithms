@@ -1475,3 +1475,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 353
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 354
+
+In-place compaction uses two pointers: read advances always, write only on keep.
