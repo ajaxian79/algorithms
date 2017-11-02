@@ -1567,3 +1567,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 376
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 377
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
