@@ -2071,3 +2071,7 @@ Time complexity: O(n log n).
 ## entry 503
 
 Treats the input as immutable.
+
+## entry 504
+
+Allocates lazily — first call only.
