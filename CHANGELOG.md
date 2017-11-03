@@ -85523,3 +85523,7 @@
 ## entry 21381
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 21382
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
