@@ -229,3 +229,4 @@ int roman_to_int(const char* s) {
 // note 189: State compression: bitmask + integer encodes a small subset cheaply.
 // note 190: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 191: Runs in a single pass over the input.
+// note 192: Handles empty input by returning 0.
