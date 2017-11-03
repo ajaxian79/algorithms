@@ -2246,3 +2246,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 547
 
 Time complexity: O(1).
+
+## entry 548
+
+Tail-recursive; the compiler turns it into a loop.
