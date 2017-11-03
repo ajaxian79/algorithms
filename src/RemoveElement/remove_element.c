@@ -215,3 +215,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 200: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 201: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 202: Handles single-element input as a base case.
+// note 203: Space complexity: O(1) auxiliary.
