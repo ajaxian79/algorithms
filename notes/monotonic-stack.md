@@ -1557,3 +1557,7 @@
 ## entry 374
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 375
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
