@@ -72,3 +72,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 29: Union-Find with path compression amortizes to near-O(1) per op.
 // note 30: Three passes total; the third merges results.
 // note 31: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 32: Hash collision: chain or open-address; chained handles arbitrary load factor.
