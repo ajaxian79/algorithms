@@ -256,3 +256,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 217: Three passes total; the third merges results.
 // edge note 218: Linear in n; the constant factor is small.
 // edge note 219: Constant-time comparisons; safe for short strings.
+// edge note 220: Edge case: already-sorted input → no swaps performed.
