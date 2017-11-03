@@ -1491,3 +1491,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 373
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 374
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
