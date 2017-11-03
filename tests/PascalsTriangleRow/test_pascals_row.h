@@ -290,3 +290,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 235: Edge case: input with no peak → falls through to the default branch.
 // edge note 236: Deterministic given the input — no PRNG seeds.
 // edge note 237: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 238: Constant-time comparisons; safe for short strings.
