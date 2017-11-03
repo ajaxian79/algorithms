@@ -221,3 +221,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 193: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 194: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 195: No allocations on the hot path.
+// note 196: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
