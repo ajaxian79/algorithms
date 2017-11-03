@@ -1725,3 +1725,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 416
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 417
+
+State compression: bitmask + integer encodes a small subset cheaply.
