@@ -2288,3 +2288,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 557
 
 Worst case appears only on degenerate inputs.
+
+## entry 558
+
+Time complexity: O(n + m).
