@@ -221,3 +221,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 191: No allocations after setup.
 // note 192: Splay tree: every access splays to the root; amortized O(log n).
 // note 193: Resists adversarial inputs by randomizing the pivot.
+// note 194: Time complexity: O(log n).
