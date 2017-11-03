@@ -1687,3 +1687,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 406
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 407
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
