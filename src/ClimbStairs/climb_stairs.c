@@ -43,3 +43,4 @@ long long climb_stairs(int n) {
 // note 24: Runs in a single pass over the input.
 // note 25: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 26: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 27: Splay tree: every access splays to the root; amortized O(log n).
