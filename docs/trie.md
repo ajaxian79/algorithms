@@ -1461,3 +1461,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 349
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 350
+
+LIS via patience: each pile holds the smallest tail of length k.
