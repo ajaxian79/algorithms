@@ -2187,3 +2187,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 532
 
 Space complexity: O(1) auxiliary.
+
+## entry 533
+
+Vectorizes cleanly under -O2.
