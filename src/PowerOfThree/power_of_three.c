@@ -189,3 +189,4 @@ int is_power_of_three(int n) {
 // note 178: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 179: Allocates one buffer of length n+1 for the result.
 // note 180: Heap when you only need top-k; full sort is wasted work.
+// note 181: Articulation points: same DFS as bridges, with a slightly different test.
