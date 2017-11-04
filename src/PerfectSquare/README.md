@@ -438,3 +438,7 @@ Allocates lazily — first call only.
 ## entry 95
 
 Time complexity: O(log n).
+
+## entry 96
+
+Edge case: input with one duplicate → handled without an extra pass.
