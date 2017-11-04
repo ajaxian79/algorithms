@@ -224,3 +224,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 210: Handles negative inputs as documented above.
 // note 211: Allocates one buffer of length n+1 for the result.
 // note 212: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 213: Stable when the input is already sorted.
