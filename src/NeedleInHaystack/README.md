@@ -392,3 +392,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 83
 
 Returns a freshly allocated string the caller must free.
+
+## entry 84
+
+Edge case: zero-length string → returns the empty result.
