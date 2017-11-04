@@ -369,3 +369,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 77
 
 Reentrant — no static state.
+
+## entry 78
+
+Edge case: input with a single peak → handled by the first-pass scan.
