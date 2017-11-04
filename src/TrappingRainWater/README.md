@@ -2170,3 +2170,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 527
 
 Space complexity: O(1) auxiliary.
+
+## entry 528
+
+Time complexity: O(n^2) worst case, O(n) amortized.
