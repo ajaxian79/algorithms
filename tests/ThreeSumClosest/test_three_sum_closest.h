@@ -238,3 +238,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 210: Allocates one buffer of length n+1 for the result.
 // edge note 211: Time complexity: O(n).
 // edge note 212: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 213: Linear in n; the constant factor is small.
