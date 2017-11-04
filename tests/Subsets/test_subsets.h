@@ -71,3 +71,4 @@ MunitTest subsets_tests[] = {
 // edge note 26: Space complexity: O(1) auxiliary.
 // edge note 27: Allocates a single small fixed-size scratch buffer.
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 29: Constant-time comparisons; safe for short strings.
