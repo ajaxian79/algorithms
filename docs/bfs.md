@@ -313,3 +313,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 61
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 62
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
