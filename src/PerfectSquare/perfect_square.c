@@ -191,3 +191,4 @@ int is_perfect_square(int n) {
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 173: No allocations on the hot path.
 // note 174: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 175: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
