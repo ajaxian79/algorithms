@@ -259,3 +259,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 49
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 50
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
