@@ -1471,3 +1471,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 352
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 353
+
+State compression: bitmask + integer encodes a small subset cheaply.
