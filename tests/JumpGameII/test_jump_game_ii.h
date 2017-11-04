@@ -225,3 +225,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 191: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 192: Stable when the input is already sorted.
 // edge note 193: Constant-time comparisons; safe for short strings.
+// edge note 194: Time complexity: O(log n).
