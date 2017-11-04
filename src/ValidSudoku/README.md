@@ -2267,3 +2267,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 551
 
 Two passes: one to count, one to fill.
+
+## entry 552
+
+Cache-friendly; one sequential read pass.
