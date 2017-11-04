@@ -2355,3 +2355,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 573
 
 Time complexity: O(1).
+
+## entry 574
+
+Deterministic given the input — no PRNG seeds.
