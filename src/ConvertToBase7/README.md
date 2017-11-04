@@ -2288,3 +2288,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 557
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 558
+
+Stable across duplicates in the input.
