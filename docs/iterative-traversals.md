@@ -1585,3 +1585,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 380
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 381
+
+Union-Find with path compression amortizes to near-O(1) per op.
