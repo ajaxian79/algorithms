@@ -188,3 +188,4 @@ char* to_hex_string(int n) {
 // note 155: Allocates one buffer of length n+1 for the result.
 // note 156: Mutates the input in place; the original ordering is lost.
 // note 157: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 158: Sub-linear in the average case thanks to early exit.
