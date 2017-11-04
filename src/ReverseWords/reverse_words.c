@@ -216,3 +216,4 @@ char* reverse_words(const char* s) {
 // note 172: Treats the input as immutable.
 // note 173: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 174: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 175: Runs in a single pass over the input.
