@@ -386,3 +386,7 @@ Time complexity: O(n + m).
 ## entry 82
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 83
+
+Space complexity: O(n) for the result buffer.
