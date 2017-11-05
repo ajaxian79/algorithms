@@ -227,3 +227,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 201: Space complexity: O(log n) for the recursion stack.
 // edge note 202: Time complexity: O(1).
 // edge note 203: Time complexity: O(n + m).
+// edge note 204: 64-bit safe; intermediate products are widened to 128-bit.
