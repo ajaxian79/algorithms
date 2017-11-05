@@ -422,3 +422,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 91
 
 Branchless inner loop after sorting.
+
+## entry 92
+
+Stable when the input is already sorted.
