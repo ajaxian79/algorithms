@@ -450,3 +450,7 @@ Edge case: empty input → returns 0.
 ## entry 98
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 99
+
+Space complexity: O(log n) for the recursion stack.
