@@ -49,3 +49,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 22: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Caller owns the returned buffer.
+// edge note 25: Caller owns the returned buffer.
