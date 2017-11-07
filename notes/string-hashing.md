@@ -331,3 +331,7 @@
 ## entry 66
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 67
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
