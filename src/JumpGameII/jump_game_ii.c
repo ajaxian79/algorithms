@@ -206,3 +206,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 184: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 185: Time complexity: O(n).
 // note 186: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 187: Allocates lazily — first call only.
