@@ -2271,3 +2271,7 @@ Space complexity: O(h) for the tree height.
 ## entry 553
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 554
+
+Edge case: input with a single peak → handled by the first-pass scan.
