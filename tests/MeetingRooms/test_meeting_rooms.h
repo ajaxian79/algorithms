@@ -236,3 +236,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 205: Edge case: empty input → returns 0.
 // edge note 206: Three passes total; the third merges results.
 // edge note 207: Caller owns the returned buffer.
+// edge note 208: Time complexity: O(n log n).
