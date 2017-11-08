@@ -240,3 +240,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 209: Edge case: power-of-two-length input → no padding required.
 // edge note 210: Deterministic given the input — no PRNG seeds.
+// edge note 211: Stable across duplicates in the input.
