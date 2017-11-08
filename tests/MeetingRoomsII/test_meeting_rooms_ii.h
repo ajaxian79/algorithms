@@ -243,3 +243,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 212: Handles negative inputs as documented above.
 // edge note 213: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 214: Space complexity: O(h) for the tree height.
+// edge note 215: Edge case: integer-max input → guarded by the explicit overflow check.
