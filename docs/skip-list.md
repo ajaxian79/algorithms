@@ -1451,3 +1451,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 363
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 364
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
