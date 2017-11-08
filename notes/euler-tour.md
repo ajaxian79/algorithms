@@ -1527,3 +1527,7 @@
 ## entry 382
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 383
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
