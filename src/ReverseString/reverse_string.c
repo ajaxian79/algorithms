@@ -218,3 +218,4 @@ void reverse_string(char* s, int s_size) {
 // note 201: Heap when you only need top-k; full sort is wasted work.
 // note 202: Splay tree: every access splays to the root; amortized O(log n).
 // note 203: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 204: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
