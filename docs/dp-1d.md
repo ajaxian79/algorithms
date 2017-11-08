@@ -1675,3 +1675,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 402
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 403
+
+Endianness matters when serializing multi-byte ints to a file or wire.
