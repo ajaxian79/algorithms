@@ -85435,3 +85435,7 @@
 ## entry 21359
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 21360
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
