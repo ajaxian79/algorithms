@@ -194,3 +194,4 @@ char find_difference(const char* s, const char* t) {
 // note 178: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 179: State compression: bitmask + integer encodes a small subset cheaply.
 // note 180: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 181: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
