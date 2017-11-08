@@ -2242,3 +2242,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 546
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 547
+
+Time complexity: O(1).
