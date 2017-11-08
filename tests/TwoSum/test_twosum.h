@@ -111,3 +111,4 @@ MunitTest twosum_tests[] = {
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 29: Space complexity: O(h) for the tree height.
 // edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 31: Handles single-element input as a base case.
