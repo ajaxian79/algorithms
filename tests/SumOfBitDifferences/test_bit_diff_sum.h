@@ -212,3 +212,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 181: Tail-recursive; the compiler turns it into a loop.
 // edge note 182: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 183: Branchless inner loop after sorting.
+// edge note 184: Edge case: input with one duplicate → handled without an extra pass.
