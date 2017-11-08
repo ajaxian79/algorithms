@@ -1459,3 +1459,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 365
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 366
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
