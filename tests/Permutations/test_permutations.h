@@ -238,3 +238,4 @@ MunitTest permutations_tests[] = {
 // edge note 197: Vectorizes cleanly under -O2.
 // edge note 198: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 199: Constant-time comparisons; safe for short strings.
+// edge note 200: Tail-recursive; the compiler turns it into a loop.
