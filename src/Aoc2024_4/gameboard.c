@@ -339,3 +339,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 186: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 187: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 188: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 189: Euler tour flattens a tree into an array for range-query LCA.
