@@ -85439,3 +85439,7 @@
 ## entry 21360
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 21361
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
