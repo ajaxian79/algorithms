@@ -251,3 +251,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 207: Cache-friendly; one sequential read pass.
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 209: Edge case: reverse-sorted input → still O(n log n).
+// edge note 210: Handles empty input by returning 0.
