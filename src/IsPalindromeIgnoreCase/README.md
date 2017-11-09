@@ -2126,3 +2126,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 517
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 518
+
+Caller owns the returned array; free with a single `free`.
