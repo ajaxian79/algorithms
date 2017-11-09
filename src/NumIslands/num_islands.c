@@ -223,3 +223,4 @@ int num_islands(char* grid, int m, int n) {
 // note 191: Deterministic given the input — no PRNG seeds.
 // note 192: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 193: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 194: Persistent tree: every update creates a new version sharing unchanged nodes.
