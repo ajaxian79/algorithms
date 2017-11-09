@@ -1531,3 +1531,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 383
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 384
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
