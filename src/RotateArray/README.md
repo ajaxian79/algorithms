@@ -2351,3 +2351,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 572
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 573
+
+Time complexity: O(1).
