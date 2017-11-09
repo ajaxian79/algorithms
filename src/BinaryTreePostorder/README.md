@@ -2134,3 +2134,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 519
 
 Returns a freshly allocated string the caller must free.
+
+## entry 520
+
+Worst case appears only on degenerate inputs.
