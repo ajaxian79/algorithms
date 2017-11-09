@@ -203,3 +203,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 180: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 181: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 182: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 183: LIS via patience: each pile holds the smallest tail of length k.
