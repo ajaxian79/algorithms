@@ -2186,3 +2186,7 @@ Handles single-element input as a base case.
 ## entry 531
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 532
+
+Best case is O(1) when the first byte already decides the answer.
