@@ -2146,3 +2146,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 522
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 523
+
+Idempotent — calling twice with the same input is a no-op the second time.
