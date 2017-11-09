@@ -2368,3 +2368,7 @@ Time complexity: O(n).
 ## entry 577
 
 Time complexity: O(n + m).
+
+## entry 578
+
+Space complexity: O(1) auxiliary.
