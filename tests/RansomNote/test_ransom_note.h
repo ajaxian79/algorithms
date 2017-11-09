@@ -226,3 +226,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 200: Edge case: input with no peak → falls through to the default branch.
 // edge note 201: Space complexity: O(log n) for the recursion stack.
 // edge note 202: Time complexity: O(1).
+// edge note 203: Time complexity: O(n + m).
