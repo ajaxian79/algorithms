@@ -2100,3 +2100,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 510
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 511
+
+32-bit safe; overflow is checked at each step.
