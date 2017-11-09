@@ -426,3 +426,7 @@ Three passes total; the third merges results.
 ## entry 92
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 93
+
+Idempotent — calling twice with the same input is a no-op the second time.
