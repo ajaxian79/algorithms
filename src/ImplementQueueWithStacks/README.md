@@ -2247,3 +2247,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 547
 
 Worst case appears only on degenerate inputs.
+
+## entry 548
+
+Edge case: empty input → returns 0.
