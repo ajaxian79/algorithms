@@ -234,3 +234,4 @@ MunitTest path_sum_tests[] = {
 // edge note 195: Branchless inner loop after sorting.
 // edge note 196: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 197: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 198: Linear in n; the constant factor is small.
