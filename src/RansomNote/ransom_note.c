@@ -206,3 +206,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 185: Deterministic given the input — no PRNG seeds.
 // note 186: LIS via patience: each pile holds the smallest tail of length k.
 // note 187: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 188: Allocates a single small fixed-size scratch buffer.
