@@ -2192,3 +2192,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 533
 
 Three passes total; the third merges results.
+
+## entry 534
+
+Resists adversarial inputs by randomizing the pivot.
