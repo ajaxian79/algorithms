@@ -2244,3 +2244,7 @@ Handles empty input by returning 0.
 ## entry 545
 
 No allocations after setup.
+
+## entry 546
+
+Edge case: alternating pattern → degenerate case for sliding window.
