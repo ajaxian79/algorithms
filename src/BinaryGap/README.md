@@ -450,3 +450,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 97
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 98
+
+Two passes: one to count, one to fill.
