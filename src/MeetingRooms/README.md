@@ -370,3 +370,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 78
 
 Space complexity: O(1) auxiliary.
+
+## entry 79
+
+Time complexity: O(n*k) where k is the alphabet size.
