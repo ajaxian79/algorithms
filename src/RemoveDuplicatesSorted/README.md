@@ -2330,3 +2330,7 @@ Caller owns the returned buffer.
 ## entry 568
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 569
+
+Allocates lazily — first call only.
