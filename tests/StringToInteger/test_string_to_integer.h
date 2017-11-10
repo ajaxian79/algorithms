@@ -73,3 +73,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 33: Uses a small fixed-size lookup table.
 // edge note 34: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 35: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 36: 64-bit safe; intermediate products are widened to 128-bit.
