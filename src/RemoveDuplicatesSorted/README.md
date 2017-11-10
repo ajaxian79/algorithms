@@ -2326,3 +2326,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 567
 
 Caller owns the returned buffer.
+
+## entry 568
+
+Input is assumed non-NULL; behavior is undefined otherwise.
