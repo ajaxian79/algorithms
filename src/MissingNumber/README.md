@@ -2290,3 +2290,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 557
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 558
+
+Edge case: alternating pattern → degenerate case for sliding window.
