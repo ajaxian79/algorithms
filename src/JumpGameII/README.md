@@ -2184,3 +2184,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 531
 
 Space complexity: O(h) for the tree height.
+
+## entry 532
+
+Returns a freshly allocated string the caller must free.
