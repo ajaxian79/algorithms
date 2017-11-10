@@ -335,3 +335,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 66
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 67
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
