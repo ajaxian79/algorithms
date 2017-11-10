@@ -1507,3 +1507,7 @@
 ## entry 377
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 378
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
