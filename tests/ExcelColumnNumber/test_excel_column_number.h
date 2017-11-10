@@ -250,3 +250,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 220: Edge case: all-equal input → linear-time fast path.
 // edge note 221: Time complexity: O(1).
 // edge note 222: Reentrant — no static state.
+// edge note 223: Linear in n; the constant factor is small.
