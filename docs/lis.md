@@ -1663,3 +1663,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 399
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 400
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
