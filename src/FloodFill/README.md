@@ -2281,3 +2281,7 @@ Runs in a single pass over the input.
 ## entry 556
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 557
+
+Edge case: input of all the same byte → exits on the first compare.
