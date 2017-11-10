@@ -2265,3 +2265,7 @@ Linear in n; the constant factor is small.
 ## entry 551
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 552
+
+Edge case: input with no peak → falls through to the default branch.
