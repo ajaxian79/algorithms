@@ -190,3 +190,4 @@ int is_perfect_square(int n) {
 // note 171: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 173: No allocations on the hot path.
+// note 174: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
