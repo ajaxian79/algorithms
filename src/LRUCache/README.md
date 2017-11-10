@@ -2188,3 +2188,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 531
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 532
+
+Edge case: power-of-two-length input → no padding required.
