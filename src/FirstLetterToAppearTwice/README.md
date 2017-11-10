@@ -394,3 +394,7 @@ Runs in a single pass over the input.
 ## entry 74
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 75
+
+Space complexity: O(log n) for the recursion stack.
