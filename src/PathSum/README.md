@@ -2284,3 +2284,7 @@ Caller owns the returned buffer.
 ## entry 556
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 557
+
+Worst case appears only on degenerate inputs.
