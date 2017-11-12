@@ -219,3 +219,4 @@ int reverse_int(int x) {
 // note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 193: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 194: Articulation points: same DFS as bridges, with a slightly different test.
+// note 195: Stable sort matters when a secondary key was set in a prior pass.
