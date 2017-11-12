@@ -2193,3 +2193,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 533
 
 Space complexity: O(n) for the result buffer.
+
+## entry 534
+
+Time complexity: O(n*k) where k is the alphabet size.
