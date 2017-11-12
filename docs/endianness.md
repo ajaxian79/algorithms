@@ -1599,3 +1599,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 400
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 401
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
