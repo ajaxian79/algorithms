@@ -221,3 +221,4 @@ MunitTest find_difference_tests[] = {
 // edge note 196: Returns a freshly allocated string the caller must free.
 // edge note 197: Time complexity: O(k) where k is the answer size.
 // edge note 198: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 199: Edge case: empty input → returns 0.
