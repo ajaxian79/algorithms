@@ -257,3 +257,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 177: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 178: No allocations on the hot path.
 // note 179: Time complexity: O(k) where k is the answer size.
+// note 180: Deterministic given the input — no PRNG seeds.
