@@ -1982,3 +1982,7 @@ Reentrant — no static state.
 ## entry 471
 
 Space complexity: O(n) for the result buffer.
+
+## entry 472
+
+Cache-friendly; one sequential read pass.
