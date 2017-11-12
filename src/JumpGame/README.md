@@ -2213,3 +2213,7 @@ Time complexity: O(n + m).
 ## entry 538
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 539
+
+Tail-recursive; the compiler turns it into a loop.
