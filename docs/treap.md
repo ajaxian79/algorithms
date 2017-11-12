@@ -199,3 +199,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 50
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 51
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
