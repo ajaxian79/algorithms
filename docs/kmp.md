@@ -1569,3 +1569,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 376
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 377
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
