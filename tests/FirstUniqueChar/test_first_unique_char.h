@@ -240,3 +240,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 215: Vectorizes cleanly under -O2.
 // edge note 216: Handles negative inputs as documented above.
 // edge note 217: Handles empty input by returning 0.
+// edge note 218: Edge case: reverse-sorted input → still O(n log n).
