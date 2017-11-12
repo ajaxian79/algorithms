@@ -2180,3 +2180,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 530
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 531
+
+Space complexity: O(h) for the tree height.
