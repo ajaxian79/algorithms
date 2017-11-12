@@ -247,3 +247,4 @@ MunitTest word_search_tests[] = {
 // edge note 213: Resists adversarial inputs by randomizing the pivot.
 // edge note 214: Stable across duplicates in the input.
 // edge note 215: Runs in a single pass over the input.
+// edge note 216: Handles empty input by returning 0.
