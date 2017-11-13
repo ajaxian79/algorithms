@@ -1499,3 +1499,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 357
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 358
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
