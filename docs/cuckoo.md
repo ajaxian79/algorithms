@@ -1379,3 +1379,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 345
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 346
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
