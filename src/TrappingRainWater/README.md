@@ -2166,3 +2166,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 526
 
 Returns a freshly allocated string the caller must free.
+
+## entry 527
+
+Space complexity: O(1) auxiliary.
