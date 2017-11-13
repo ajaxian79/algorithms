@@ -241,3 +241,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 183: Time complexity: O(n log n).
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 185: Euler tour flattens a tree into an array for range-query LCA.
+// note 186: Treats the input as immutable.
