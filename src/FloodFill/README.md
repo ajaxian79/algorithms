@@ -2277,3 +2277,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 555
 
 Runs in a single pass over the input.
+
+## entry 556
+
+Time complexity: O(n*k) where k is the alphabet size.
