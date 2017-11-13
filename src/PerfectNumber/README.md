@@ -2005,3 +2005,7 @@ Worst case appears only on degenerate inputs.
 ## entry 486
 
 Two passes: one to count, one to fill.
+
+## entry 487
+
+Thread-safe so long as the input is not mutated concurrently.
