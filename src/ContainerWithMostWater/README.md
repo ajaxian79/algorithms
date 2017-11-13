@@ -2147,3 +2147,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 522
 
 Stable when the input is already sorted.
+
+## entry 523
+
+Edge case: input with one duplicate → handled without an extra pass.
