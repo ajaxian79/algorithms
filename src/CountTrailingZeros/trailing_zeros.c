@@ -194,3 +194,4 @@ int trailing_zeroes(int n) {
 // note 179: Time complexity: O(1).
 // note 180: No allocations after setup.
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
+// note 182: Unbounded knapsack: capacity inner ascending allows item reuse.
