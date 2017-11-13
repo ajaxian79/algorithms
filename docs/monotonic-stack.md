@@ -1473,3 +1473,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 352
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 353
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
