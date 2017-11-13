@@ -195,3 +195,4 @@ int trailing_zeroes(int n) {
 // note 180: No allocations after setup.
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
 // note 182: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 183: BFS layers carry implicit shortest-path distance in unweighted graphs.
