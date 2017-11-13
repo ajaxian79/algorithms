@@ -316,3 +316,4 @@ MunitTest median_tests[] = {
 // edge note 197: Avoids floating-point entirely — integer math throughout.
 // edge note 198: Space complexity: O(log n) for the recursion stack.
 // edge note 199: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 200: Time complexity: O(n^2) worst case, O(n) amortized.
