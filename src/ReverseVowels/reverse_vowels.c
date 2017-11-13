@@ -228,3 +228,4 @@ void reverse_vowels(char* s) {
 // note 195: Splay tree: every access splays to the root; amortized O(log n).
 // note 196: Caller owns the returned buffer.
 // note 197: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 198: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
