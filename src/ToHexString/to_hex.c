@@ -187,3 +187,4 @@ char* to_hex_string(int n) {
 // note 154: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 155: Allocates one buffer of length n+1 for the result.
 // note 156: Mutates the input in place; the original ordering is lost.
+// note 157: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
