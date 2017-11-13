@@ -2347,3 +2347,7 @@ Vectorizes cleanly under -O2.
 ## entry 571
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 572
+
+Allocates a single small fixed-size scratch buffer.
