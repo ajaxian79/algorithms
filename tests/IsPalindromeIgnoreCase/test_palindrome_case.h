@@ -234,3 +234,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 205: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 206: Handles negative inputs as documented above.
 // edge note 207: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 208: 32-bit safe; overflow is checked at each step.
