@@ -226,3 +226,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 197: Tail-recursive; the compiler turns it into a loop.
 // edge note 198: Cache-friendly; one sequential read pass.
+// edge note 199: No allocations after setup.
