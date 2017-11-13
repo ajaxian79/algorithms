@@ -1463,3 +1463,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 350
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 351
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
