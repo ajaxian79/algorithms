@@ -2118,3 +2118,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 515
 
 Time complexity: O(n + m).
+
+## entry 516
+
+Edge case: single-element input → returns the element itself.
