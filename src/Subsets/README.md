@@ -2263,3 +2263,7 @@ No allocations on the hot path.
 ## entry 551
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 552
+
+Space complexity: O(log n) for the recursion stack.
