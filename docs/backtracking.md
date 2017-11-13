@@ -329,3 +329,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 65
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 66
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
