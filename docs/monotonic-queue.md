@@ -1495,3 +1495,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 356
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 357
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
