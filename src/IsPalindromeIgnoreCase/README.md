@@ -2114,3 +2114,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 514
 
 Returns a freshly allocated string the caller must free.
+
+## entry 515
+
+Time complexity: O(n + m).
