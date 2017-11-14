@@ -263,3 +263,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 213: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 214: Space complexity: O(1) auxiliary.
 // edge note 215: Edge case: input with no peak → falls through to the default branch.
+// edge note 216: Tail-recursive; the compiler turns it into a loop.
