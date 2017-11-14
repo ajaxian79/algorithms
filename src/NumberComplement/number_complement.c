@@ -208,3 +208,4 @@ unsigned int find_complement(unsigned int n) {
 // note 192: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 193: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 194: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 195: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
