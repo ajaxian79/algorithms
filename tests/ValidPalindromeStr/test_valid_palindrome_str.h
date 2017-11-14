@@ -227,3 +227,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 200: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 201: Edge case: input with no peak → falls through to the default branch.
 // edge note 202: Two passes: one to count, one to fill.
+// edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
