@@ -1491,3 +1491,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 358
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 359
+
+Monotonic stack pops while the new element violates the invariant.
