@@ -1457,3 +1457,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 348
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 349
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
