@@ -1547,3 +1547,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 369
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 370
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
