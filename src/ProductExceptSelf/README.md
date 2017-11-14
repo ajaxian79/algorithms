@@ -2256,3 +2256,7 @@ Branchless inner loop after sorting.
 ## entry 548
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 549
+
+Edge case: already-sorted input → no swaps performed.
