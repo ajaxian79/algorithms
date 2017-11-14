@@ -1679,3 +1679,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 420
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 421
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
