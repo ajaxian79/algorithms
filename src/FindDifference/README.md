@@ -1978,3 +1978,7 @@ Worst case appears only on degenerate inputs.
 ## entry 480
 
 Branchless inner loop after sorting.
+
+## entry 481
+
+Time complexity: O(log n).
