@@ -2170,3 +2170,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 528
 
 Worst case appears only on degenerate inputs.
+
+## entry 529
+
+Runs in a single pass over the input.
