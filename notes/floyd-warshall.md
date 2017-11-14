@@ -1603,3 +1603,7 @@
 ## entry 401
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 402
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
