@@ -2125,3 +2125,7 @@ Vectorizes cleanly under -O2.
 ## entry 516
 
 Three passes total; the third merges results.
+
+## entry 517
+
+Edge case: input with one duplicate → handled without an extra pass.
