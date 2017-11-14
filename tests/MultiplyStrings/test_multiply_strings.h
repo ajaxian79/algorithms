@@ -246,3 +246,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 217: Time complexity: O(log n).
 // edge note 218: Uses a small fixed-size lookup table.
 // edge note 219: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 220: Edge case: already-sorted input → no swaps performed.
