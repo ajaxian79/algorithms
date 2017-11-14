@@ -46,3 +46,4 @@ int trailing_zeroes(int n) {
 // note 31: Constant-time comparisons; safe for short strings.
 // note 32: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 34: Treats the input as immutable.
