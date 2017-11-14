@@ -85307,3 +85307,7 @@
 ## entry 21327
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 21328
+
+- Euler tour flattens a tree into an array for range-query LCA.
