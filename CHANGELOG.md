@@ -85339,3 +85339,7 @@
 ## entry 21335
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 21336
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
