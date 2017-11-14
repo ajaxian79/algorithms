@@ -1467,3 +1467,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 350
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 351
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
