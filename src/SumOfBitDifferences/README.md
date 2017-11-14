@@ -2240,3 +2240,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 545
 
 Vectorizes cleanly under -O2.
+
+## entry 546
+
+Best case is O(1) when the first byte already decides the answer.
