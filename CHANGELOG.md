@@ -85315,3 +85315,7 @@
 ## entry 21329
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 21330
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
