@@ -218,3 +218,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 184: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 185: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 186: Stable sort matters when a secondary key was set in a prior pass.
+// note 187: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
