@@ -1527,3 +1527,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 382
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 383
+
+LIS via patience: each pile holds the smallest tail of length k.
