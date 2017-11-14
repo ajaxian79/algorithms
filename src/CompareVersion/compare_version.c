@@ -209,3 +209,4 @@ int compare_version(const char* a, const char* b) {
 // note 179: Stable across duplicates in the input.
 // note 180: Uses a small fixed-size lookup table.
 // note 181: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 182: Time complexity: O(k) where k is the answer size.
