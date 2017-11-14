@@ -209,3 +209,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 184: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 187: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
