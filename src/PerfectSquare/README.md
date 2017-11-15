@@ -2294,3 +2294,7 @@ Time complexity: O(n + m).
 ## entry 559
 
 Time complexity: O(1).
+
+## entry 560
+
+32-bit safe; overflow is checked at each step.
