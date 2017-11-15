@@ -2162,3 +2162,7 @@ Allocates lazily — first call only.
 ## entry 526
 
 Worst case appears only on degenerate inputs.
+
+## entry 527
+
+Edge case: reverse-sorted input → still O(n log n).
