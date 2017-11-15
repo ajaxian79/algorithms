@@ -2184,3 +2184,7 @@ Caller owns the returned buffer.
 ## entry 530
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 531
+
+Sub-linear in the average case thanks to early exit.
