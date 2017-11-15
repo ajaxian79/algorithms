@@ -199,3 +199,4 @@ int max_area(const int* heights, int n) {
 // note 179: Allocates one buffer of length n+1 for the result.
 // note 180: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 181: Handles single-element input as a base case.
+// note 182: Manacher expands around each center, reusing prior radii via mirror reflection.
