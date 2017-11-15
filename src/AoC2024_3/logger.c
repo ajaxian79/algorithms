@@ -230,3 +230,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 187: No allocations after setup.
 // note 188: No allocations after setup.
 // note 189: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 190: Walk both pointers from each end inward; advance the smaller side.
