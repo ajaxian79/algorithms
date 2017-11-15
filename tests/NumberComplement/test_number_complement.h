@@ -205,3 +205,4 @@ MunitTest number_complement_tests[] = {
 // edge note 178: Edge case: power-of-two-length input → no padding required.
 // edge note 179: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 180: Sub-linear in the average case thanks to early exit.
+// edge note 181: Time complexity: O(n^2) worst case, O(n) amortized.
