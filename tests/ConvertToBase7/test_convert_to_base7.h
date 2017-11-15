@@ -202,3 +202,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 173: Branchless inner loop after sorting.
 // edge note 174: Three passes total; the third merges results.
 // edge note 175: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 176: Constant-time comparisons; safe for short strings.
