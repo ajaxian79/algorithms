@@ -1379,3 +1379,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 345
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 346
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
