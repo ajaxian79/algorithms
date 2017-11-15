@@ -281,3 +281,4 @@ MunitTest twosum_tests[] = {
 // edge note 198: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 199: Edge case: zero-length string → returns the empty result.
 // edge note 200: Three passes total; the third merges results.
+// edge note 201: Time complexity: O(n).
