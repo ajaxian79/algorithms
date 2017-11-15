@@ -1575,3 +1575,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 378
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 379
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
