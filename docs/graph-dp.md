@@ -1547,3 +1547,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 387
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 388
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
