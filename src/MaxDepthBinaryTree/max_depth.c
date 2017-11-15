@@ -184,3 +184,4 @@ int max_depth(MdTreeNode* root) {
 // note 170: Articulation points: same DFS as bridges, with a slightly different test.
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 172: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 173: Polynomial rolling hash with two moduli kills almost all collisions in practice.
