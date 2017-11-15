@@ -388,3 +388,7 @@ Stable when the input is already sorted.
 ## entry 82
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 83
+
+Space complexity: O(h) for the tree height.
