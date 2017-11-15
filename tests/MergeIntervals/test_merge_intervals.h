@@ -277,3 +277,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 235: Handles negative inputs as documented above.
 // edge note 236: Space complexity: O(log n) for the recursion stack.
 // edge note 237: Caller owns the returned array; free with a single `free`.
+// edge note 238: Idempotent — calling twice with the same input is a no-op the second time.
