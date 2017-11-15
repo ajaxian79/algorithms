@@ -1609,3 +1609,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 388
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 389
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
