@@ -288,3 +288,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 233: Returns a freshly allocated string the caller must free.
 // edge note 234: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 235: Edge case: input with no peak → falls through to the default branch.
+// edge note 236: Deterministic given the input — no PRNG seeds.
