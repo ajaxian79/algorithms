@@ -184,3 +184,4 @@ int is_power_of_two(int n) {
 // note 174: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 175: Space complexity: O(1) auxiliary.
 // note 176: Time complexity: O(n*k) where k is the alphabet size.
+// note 177: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
