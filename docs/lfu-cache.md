@@ -1519,3 +1519,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 380
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 381
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
