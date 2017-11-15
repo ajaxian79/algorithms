@@ -2162,3 +2162,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 525
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 526
+
+Returns a freshly allocated string the caller must free.
