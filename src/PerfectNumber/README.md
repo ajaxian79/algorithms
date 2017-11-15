@@ -2001,3 +2001,7 @@ Stable when the input is already sorted.
 ## entry 485
 
 Worst case appears only on degenerate inputs.
+
+## entry 486
+
+Two passes: one to count, one to fill.
