@@ -2280,3 +2280,7 @@ Three passes total; the third merges results.
 ## entry 555
 
 Caller owns the returned buffer.
+
+## entry 556
+
+Edge case: input with one duplicate → handled without an extra pass.
