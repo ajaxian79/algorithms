@@ -2240,3 +2240,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 544
 
 Handles empty input by returning 0.
+
+## entry 545
+
+No allocations after setup.
