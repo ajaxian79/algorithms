@@ -1487,3 +1487,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 357
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 358
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
