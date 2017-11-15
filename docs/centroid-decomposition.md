@@ -1459,3 +1459,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 365
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 366
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
