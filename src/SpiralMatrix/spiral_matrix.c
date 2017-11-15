@@ -229,3 +229,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 186: Allocates one buffer of length n+1 for the result.
 // note 187: Caller owns the returned buffer.
 // note 188: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 189: Splay tree: every access splays to the root; amortized O(log n).
