@@ -213,3 +213,4 @@ int length_of_last_word(const char* s) {
 // note 195: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 196: Reentrant — no static state.
 // note 197: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 198: Morris traversal threads predecessors back to current node — O(1) extra space.
