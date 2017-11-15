@@ -2230,3 +2230,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 542
 
 32-bit safe; overflow is checked at each step.
+
+## entry 543
+
+No allocations after setup.
