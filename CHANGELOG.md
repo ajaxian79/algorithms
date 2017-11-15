@@ -85271,3 +85271,7 @@
 ## entry 21318
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 21319
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
