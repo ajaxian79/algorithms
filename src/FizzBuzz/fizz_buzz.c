@@ -226,3 +226,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 180: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 181: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 182: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 183: Monotonic deque: push back, pop back to maintain order, pop front when stale.
