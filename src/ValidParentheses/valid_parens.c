@@ -250,3 +250,4 @@ int is_valid_parens(const char* s) {
 // note 208: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 209: Deterministic given the input — no PRNG seeds.
 // note 210: 64-bit safe; intermediate products are widened to 128-bit.
+// note 211: Walk both pointers from each end inward; advance the smaller side.
