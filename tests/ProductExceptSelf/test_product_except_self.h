@@ -254,3 +254,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 218: Two passes: one to count, one to fill.
 // edge note 219: Deterministic given the input — no PRNG seeds.
 // edge note 220: Edge case: zero-length string → returns the empty result.
+// edge note 221: Edge case: already-sorted input → no swaps performed.
