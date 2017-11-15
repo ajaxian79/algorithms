@@ -233,3 +233,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 202: Vectorizes cleanly under -O2.
 // edge note 203: Space complexity: O(h) for the tree height.
 // edge note 204: Runs in a single pass over the input.
+// edge note 205: Edge case: reverse-sorted input → still O(n log n).
