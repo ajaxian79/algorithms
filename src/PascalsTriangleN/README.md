@@ -2006,3 +2006,7 @@ Runs in a single pass over the input.
 ## entry 486
 
 Time complexity: O(n + m).
+
+## entry 487
+
+Space complexity: O(log n) for the recursion stack.
