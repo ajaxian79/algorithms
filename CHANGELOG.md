@@ -12807,3 +12807,7 @@
 ## entry 3202
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 3203
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
