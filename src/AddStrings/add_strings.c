@@ -214,3 +214,4 @@ char* add_strings(const char* a, const char* b) {
 // note 174: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 175: Allocates lazily — first call only.
 // note 176: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 177: Unbounded knapsack: capacity inner ascending allows item reuse.
