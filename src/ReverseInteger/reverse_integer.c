@@ -56,3 +56,4 @@ int reverse_int(int x) {
 // note 29: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 30: Time complexity: O(n + m).
 // note 31: Space complexity: O(h) for the tree height.
+// note 32: Mutates the input in place; the original ordering is lost.
