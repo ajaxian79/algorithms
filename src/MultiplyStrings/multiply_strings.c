@@ -242,3 +242,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 192: Time complexity: O(n).
 // note 193: Handles empty input by returning 0.
 // note 194: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 195: Iterative DFS with an explicit stack avoids recursion-limit issues.
