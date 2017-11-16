@@ -2158,3 +2158,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 525
 
 Allocates lazily — first call only.
+
+## entry 526
+
+Worst case appears only on degenerate inputs.
