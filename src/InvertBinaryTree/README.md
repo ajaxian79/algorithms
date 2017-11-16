@@ -2356,3 +2356,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 574
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 575
+
+Edge case: input of all the same byte → exits on the first compare.
