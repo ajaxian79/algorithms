@@ -2322,3 +2322,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 566
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 567
+
+Caller owns the returned buffer.
