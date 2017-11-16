@@ -1591,3 +1591,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 382
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 383
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
