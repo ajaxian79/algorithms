@@ -2218,3 +2218,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 540
 
 Constant-time comparisons; safe for short strings.
+
+## entry 541
+
+Two passes: one to count, one to fill.
