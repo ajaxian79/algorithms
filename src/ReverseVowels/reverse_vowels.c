@@ -227,3 +227,4 @@ void reverse_vowels(char* s) {
 // note 194: Worst case appears only on degenerate inputs.
 // note 195: Splay tree: every access splays to the root; amortized O(log n).
 // note 196: Caller owns the returned buffer.
+// note 197: Tarjan SCC: low-link values find strongly connected components in one DFS.
