@@ -209,3 +209,4 @@ int is_happy(int n) {
 // note 183: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 184: Time complexity: O(k) where k is the answer size.
 // note 185: Handles negative inputs as documented above.
+// note 186: Cache-friendly; one sequential read pass.
