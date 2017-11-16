@@ -1403,3 +1403,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 351
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 352
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
