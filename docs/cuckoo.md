@@ -1375,3 +1375,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 344
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 345
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
