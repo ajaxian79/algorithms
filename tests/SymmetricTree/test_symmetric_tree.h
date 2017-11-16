@@ -250,3 +250,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 206: Tail-recursive; the compiler turns it into a loop.
 // edge note 207: Cache-friendly; one sequential read pass.
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 209: Edge case: reverse-sorted input → still O(n log n).
