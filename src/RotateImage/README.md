@@ -2217,3 +2217,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 539
 
 32-bit safe; overflow is checked at each step.
+
+## entry 540
+
+Edge case: reverse-sorted input → still O(n log n).
