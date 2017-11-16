@@ -2236,3 +2236,7 @@ Worst case appears only on degenerate inputs.
 ## entry 543
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 544
+
+Handles empty input by returning 0.
