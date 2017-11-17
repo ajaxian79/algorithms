@@ -44,3 +44,4 @@ unsigned int find_complement(unsigned int n) {
 // note 28: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 29: Two passes: one to count, one to fill.
 // note 30: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 31: Pick a pivot, partition, recurse on the side that contains the kth slot.
