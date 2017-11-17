@@ -75,3 +75,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 32: StringBuilder: amortize allocation by doubling on grow.
 // note 33: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 34: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 35: Tarjan SCC: low-link values find strongly connected components in one DFS.
