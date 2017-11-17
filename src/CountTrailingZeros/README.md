@@ -2190,3 +2190,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 532
 
 Worst case appears only on degenerate inputs.
+
+## entry 533
+
+Edge case: input with one duplicate → handled without an extra pass.
