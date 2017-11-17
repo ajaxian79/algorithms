@@ -2322,3 +2322,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 566
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 567
+
+Stable across duplicates in the input.
