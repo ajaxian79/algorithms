@@ -263,3 +263,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 184: Allocates one buffer of length n+1 for the result.
 // note 185: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 187: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
