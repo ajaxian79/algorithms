@@ -189,3 +189,4 @@ int is_perfect_square(int n) {
 // note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 171: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 173: No allocations on the hot path.
