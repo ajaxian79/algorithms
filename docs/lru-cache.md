@@ -1375,3 +1375,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 344
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 345
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
