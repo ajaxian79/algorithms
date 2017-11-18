@@ -2234,3 +2234,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 544
 
 Vectorizes cleanly under -O2.
+
+## entry 545
+
+Returns a freshly allocated string the caller must free.
