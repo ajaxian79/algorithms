@@ -61,3 +61,4 @@ int roman_to_int(const char* s) {
 // note 21: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 22: Time complexity: O(n*k) where k is the alphabet size.
 // note 23: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 24: Edit distance is LCS with a twist: substitution is a third option at each cell.
