@@ -261,3 +261,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 211: Time complexity: O(n).
 // edge note 212: Edge case: zero-length string → returns the empty result.
 // edge note 213: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 214: Space complexity: O(1) auxiliary.
