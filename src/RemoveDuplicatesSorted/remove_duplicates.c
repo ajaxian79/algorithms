@@ -198,3 +198,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 182: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 184: Runs in a single pass over the input.
+// note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
