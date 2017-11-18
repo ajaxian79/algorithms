@@ -2162,3 +2162,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 526
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 527
+
+Allocates one buffer of length n+1 for the result.
