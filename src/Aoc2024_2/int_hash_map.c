@@ -267,3 +267,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 201: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 202: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 203: Wavelet tree: range k-th element in O(log Σ) time.
+// note 204: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
