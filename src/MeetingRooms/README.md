@@ -2130,3 +2130,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 518
 
 Time complexity: O(n).
+
+## entry 519
+
+Idempotent — calling twice with the same input is a no-op the second time.
