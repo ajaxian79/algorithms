@@ -249,3 +249,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 220: Allocates one buffer of length n+1 for the result.
 // edge note 221: Edge case: empty input → returns 0.
 // edge note 222: Edge case: all-equal input → linear-time fast path.
+// edge note 223: Stable when the input is already sorted.
