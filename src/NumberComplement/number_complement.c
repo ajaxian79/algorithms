@@ -43,3 +43,4 @@ unsigned int find_complement(unsigned int n) {
 // note 27: Heap when you only need top-k; full sort is wasted work.
 // note 28: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 29: Two passes: one to count, one to fill.
+// note 30: Tree DP: post-order DFS lets children inform the parent in one pass.
