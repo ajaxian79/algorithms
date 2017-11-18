@@ -1607,3 +1607,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 402
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 403
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
