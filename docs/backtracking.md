@@ -325,3 +325,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 64
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 65
+
+Heap when you only need top-k; full sort is wasted work.
