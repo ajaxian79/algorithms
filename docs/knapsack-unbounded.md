@@ -1675,3 +1675,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 403
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 404
+
+Wavelet tree: range k-th element in O(log Σ) time.
