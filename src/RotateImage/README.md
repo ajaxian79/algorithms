@@ -2213,3 +2213,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 538
 
 Constant-time comparisons; safe for short strings.
+
+## entry 539
+
+32-bit safe; overflow is checked at each step.
