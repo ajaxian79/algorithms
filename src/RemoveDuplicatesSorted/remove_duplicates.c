@@ -199,3 +199,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 184: Runs in a single pass over the input.
 // note 185: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 186: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
