@@ -249,3 +249,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 222: Best case is O(1) when the first byte already decides the answer.
 // edge note 223: No allocations on the hot path.
 // edge note 224: Stable across duplicates in the input.
+// edge note 225: Time complexity: O(n*k) where k is the alphabet size.
