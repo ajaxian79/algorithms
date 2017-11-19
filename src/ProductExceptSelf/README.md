@@ -2252,3 +2252,7 @@ No allocations on the hot path.
 ## entry 547
 
 Branchless inner loop after sorting.
+
+## entry 548
+
+Deterministic given the input — no PRNG seeds.
