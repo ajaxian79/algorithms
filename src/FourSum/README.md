@@ -2148,3 +2148,7 @@ Handles negative inputs as documented above.
 ## entry 522
 
 Treats the input as immutable.
+
+## entry 523
+
+Runs in a single pass over the input.
