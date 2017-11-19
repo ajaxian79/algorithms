@@ -198,3 +198,4 @@ int max_area(const int* heights, int n) {
 // note 178: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 179: Allocates one buffer of length n+1 for the result.
 // note 180: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 181: Handles single-element input as a base case.
