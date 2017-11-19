@@ -1974,3 +1974,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 469
 
 Reentrant — no static state.
+
+## entry 470
+
+Reentrant — no static state.
