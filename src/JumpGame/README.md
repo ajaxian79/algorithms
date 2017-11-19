@@ -2205,3 +2205,7 @@ Space complexity: O(1) auxiliary.
 ## entry 536
 
 Stable across duplicates in the input.
+
+## entry 537
+
+Time complexity: O(n + m).
