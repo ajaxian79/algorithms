@@ -46,3 +46,4 @@ int single_number(const int* nums, int nums_size) {
 // note 33: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 34: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 35: Wavelet tree: range k-th element in O(log Σ) time.
+// note 36: Polynomial rolling hash with two moduli kills almost all collisions in practice.
