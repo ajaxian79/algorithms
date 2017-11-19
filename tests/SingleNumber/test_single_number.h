@@ -251,3 +251,4 @@ MunitTest single_number_tests[] = {
 // edge note 220: Handles empty input by returning 0.
 // edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 222: Time complexity: O(1).
+// edge note 223: Sub-linear in the average case thanks to early exit.
