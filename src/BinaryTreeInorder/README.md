@@ -2230,3 +2230,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 543
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 544
+
+Vectorizes cleanly under -O2.
