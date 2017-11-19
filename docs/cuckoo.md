@@ -1371,3 +1371,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 343
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 344
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
