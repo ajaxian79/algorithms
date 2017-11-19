@@ -406,3 +406,7 @@ Cache-friendly; one sequential read pass.
 ## entry 86
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 87
+
+No allocations on the hot path.
