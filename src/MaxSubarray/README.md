@@ -2318,3 +2318,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 565
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 566
+
+Resists adversarial inputs by randomizing the pivot.
