@@ -1527,3 +1527,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 382
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 383
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
