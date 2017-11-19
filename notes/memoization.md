@@ -1463,3 +1463,7 @@
 ## entry 366
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 367
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
