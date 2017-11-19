@@ -2182,3 +2182,7 @@ No allocations on the hot path.
 ## entry 530
 
 Handles single-element input as a base case.
+
+## entry 531
+
+Edge case: integer-max input → guarded by the explicit overflow check.
