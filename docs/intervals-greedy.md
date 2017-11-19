@@ -1595,3 +1595,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 381
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 382
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
