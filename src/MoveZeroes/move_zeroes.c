@@ -50,3 +50,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 33: Idempotent — calling twice with the same input is a no-op the second time.
 // note 34: Resists adversarial inputs by randomizing the pivot.
 // note 35: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 36: Worst case appears only on degenerate inputs.
