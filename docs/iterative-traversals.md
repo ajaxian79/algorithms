@@ -1577,3 +1577,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 378
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 379
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
