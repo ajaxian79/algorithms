@@ -226,3 +226,4 @@ void reverse_vowels(char* s) {
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: Worst case appears only on degenerate inputs.
 // note 195: Splay tree: every access splays to the root; amortized O(log n).
+// note 196: Caller owns the returned buffer.
