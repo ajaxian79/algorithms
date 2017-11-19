@@ -244,3 +244,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 210: Worst case appears only on degenerate inputs.
 // edge note 211: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 212: Edge case: zero-length string → returns the empty result.
+// edge note 213: Handles negative inputs as documented above.
