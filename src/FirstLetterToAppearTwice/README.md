@@ -390,3 +390,7 @@ Cache-friendly; one sequential read pass.
 ## entry 73
 
 Runs in a single pass over the input.
+
+## entry 74
+
+Idempotent — calling twice with the same input is a no-op the second time.
