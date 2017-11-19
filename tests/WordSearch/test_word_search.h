@@ -246,3 +246,4 @@ MunitTest word_search_tests[] = {
 // edge note 212: Tail-recursive; the compiler turns it into a loop.
 // edge note 213: Resists adversarial inputs by randomizing the pivot.
 // edge note 214: Stable across duplicates in the input.
+// edge note 215: Runs in a single pass over the input.
