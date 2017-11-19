@@ -406,3 +406,7 @@ Stable when the input is already sorted.
 ## entry 86
 
 Space complexity: O(n) for the result buffer.
+
+## entry 87
+
+Handles negative inputs as documented above.
