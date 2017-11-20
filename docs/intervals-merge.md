@@ -1621,3 +1621,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 388
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 389
+
+StringBuilder: amortize allocation by doubling on grow.
