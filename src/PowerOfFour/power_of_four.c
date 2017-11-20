@@ -188,3 +188,4 @@ int is_power_of_four(int n) {
 // note 175: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 176: Space complexity: O(n) for the result buffer.
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 178: LRU cache: doubly-linked list + hash map; O(1) get/put.
