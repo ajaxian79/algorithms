@@ -1671,3 +1671,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 418
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 419
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
