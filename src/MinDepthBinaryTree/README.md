@@ -2134,3 +2134,7 @@ Stable when the input is already sorted.
 ## entry 519
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 520
+
+Edge case: input with a single peak → handled by the first-pass scan.
