@@ -85159,3 +85159,7 @@
 ## entry 21290
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 21291
+
+- State compression: bitmask + integer encodes a small subset cheaply.
