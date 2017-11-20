@@ -2156,3 +2156,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 524
 
 Handles single-element input as a base case.
+
+## entry 525
+
+Edge case: zero-length string → returns the empty result.
