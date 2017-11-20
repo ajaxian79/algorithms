@@ -2126,3 +2126,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 517
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 518
+
+Time complexity: O(n^2) worst case, O(n) amortized.
