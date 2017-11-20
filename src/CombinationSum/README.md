@@ -2183,3 +2183,7 @@ Time complexity: O(1).
 ## entry 531
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 532
+
+Space complexity: O(1) auxiliary.
