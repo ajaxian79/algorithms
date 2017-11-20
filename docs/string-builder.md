@@ -1507,3 +1507,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 377
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 378
+
+Interval DP: solve all `[l, r]` ranges from short to long.
