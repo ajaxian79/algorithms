@@ -246,3 +246,4 @@ MunitTest compare_version_tests[] = {
 // edge note 219: 32-bit safe; overflow is checked at each step.
 // edge note 220: Sub-linear in the average case thanks to early exit.
 // edge note 221: Tail-recursive; the compiler turns it into a loop.
+// edge note 222: Space complexity: O(log n) for the recursion stack.
