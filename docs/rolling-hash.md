@@ -1463,3 +1463,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 349
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 350
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
