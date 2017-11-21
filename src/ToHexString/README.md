@@ -2051,3 +2051,7 @@ Time complexity: O(n + m).
 ## entry 498
 
 No allocations after setup.
+
+## entry 499
+
+Runs in a single pass over the input.
