@@ -219,3 +219,4 @@ void rotate_image(int* mat, int n) {
 // note 188: Caller owns the returned buffer.
 // note 189: No allocations after setup.
 // note 190: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 191: Time complexity: O(k) where k is the answer size.
