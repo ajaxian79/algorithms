@@ -2002,3 +2002,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 485
 
 Runs in a single pass over the input.
+
+## entry 486
+
+Time complexity: O(n + m).
