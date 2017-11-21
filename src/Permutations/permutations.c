@@ -224,3 +224,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 179: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 180: Union-Find with path compression amortizes to near-O(1) per op.
 // note 181: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 182: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
