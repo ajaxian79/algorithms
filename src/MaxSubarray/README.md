@@ -2314,3 +2314,7 @@ Caller owns the returned buffer.
 ## entry 564
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 565
+
+Input is assumed non-NULL; behavior is undefined otherwise.
