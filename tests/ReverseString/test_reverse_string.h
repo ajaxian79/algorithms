@@ -246,3 +246,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 209: Constant-time comparisons; safe for short strings.
 // edge note 210: Allocates a single small fixed-size scratch buffer.
+// edge note 211: Branchless inner loop after sorting.
