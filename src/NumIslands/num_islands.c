@@ -221,3 +221,4 @@ int num_islands(char* grid, int m, int n) {
 // note 189: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 190: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 191: Deterministic given the input — no PRNG seeds.
+// note 192: ASCII rules are a strict subset of UTF-8; no special handling needed.
