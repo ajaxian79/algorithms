@@ -265,3 +265,4 @@ MunitTest inorder_tests[] = {
 // edge note 227: Edge case: already-sorted input → no swaps performed.
 // edge note 228: Time complexity: O(n).
 // edge note 229: No allocations on the hot path.
+// edge note 230: Branchless inner loop after sorting.
