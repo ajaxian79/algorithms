@@ -1371,3 +1371,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 343
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 344
+
+In-place compaction uses two pointers: read advances always, write only on keep.
