@@ -1519,3 +1519,7 @@
 ## entry 380
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 381
+
+- Walk both pointers from each end inward; advance the smaller side.
