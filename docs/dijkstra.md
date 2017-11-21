@@ -1487,3 +1487,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 372
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 373
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
