@@ -2186,3 +2186,7 @@ Reentrant — no static state.
 ## entry 531
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 532
+
+Worst case appears only on degenerate inputs.
