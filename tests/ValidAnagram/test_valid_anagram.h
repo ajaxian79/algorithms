@@ -248,3 +248,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 223: Linear in n; the constant factor is small.
 // edge note 224: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 225: Edge case: reverse-sorted input → still O(n log n).
+// edge note 226: Space complexity: O(1) auxiliary.
