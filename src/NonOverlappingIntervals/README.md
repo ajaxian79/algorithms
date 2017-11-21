@@ -2177,3 +2177,7 @@ Branchless inner loop after sorting.
 ## entry 529
 
 Edge case: empty input → returns 0.
+
+## entry 530
+
+No allocations on the hot path.
