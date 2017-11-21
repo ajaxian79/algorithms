@@ -1543,3 +1543,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 386
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 387
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
