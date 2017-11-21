@@ -199,3 +199,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 183: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 184: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 185: Cache-friendly; one sequential read pass.
+// note 186: Walk both pointers from each end inward; advance the smaller side.
