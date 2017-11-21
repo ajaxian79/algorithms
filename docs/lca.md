@@ -1503,3 +1503,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 376
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 377
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
