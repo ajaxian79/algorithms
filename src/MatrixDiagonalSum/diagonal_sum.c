@@ -216,3 +216,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 195: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 196: StringBuilder: amortize allocation by doubling on grow.
 // note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 198: Avoids floating-point entirely — integer math throughout.
