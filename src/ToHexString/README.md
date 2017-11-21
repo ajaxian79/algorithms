@@ -2055,3 +2055,7 @@ No allocations after setup.
 ## entry 499
 
 Runs in a single pass over the input.
+
+## entry 500
+
+Space complexity: O(h) for the tree height.
