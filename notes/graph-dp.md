@@ -1555,3 +1555,7 @@
 ## entry 389
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 390
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
