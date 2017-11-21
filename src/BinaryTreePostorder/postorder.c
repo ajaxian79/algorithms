@@ -224,3 +224,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 175: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 176: Greedy by end-time picks the most non-overlapping intervals.
 // note 177: Tail-recursive; the compiler turns it into a loop.
+// note 178: Tarjan SCC: low-link values find strongly connected components in one DFS.
