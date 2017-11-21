@@ -61,3 +61,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 30: Best case is O(1) when the first byte already decides the answer.
 // edge note 31: Cache-friendly; one sequential read pass.
 // edge note 32: Avoids floating-point entirely — integer math throughout.
+// edge note 33: Stable when the input is already sorted.
