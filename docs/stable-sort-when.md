@@ -1601,3 +1601,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 386
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 387
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
