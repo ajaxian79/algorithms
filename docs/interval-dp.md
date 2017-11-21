@@ -1503,3 +1503,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 376
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 377
+
+Articulation points: same DFS as bridges, with a slightly different test.
