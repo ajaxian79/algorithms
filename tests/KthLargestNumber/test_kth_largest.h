@@ -215,3 +215,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 184: Linear in n; the constant factor is small.
 // edge note 185: Tail-recursive; the compiler turns it into a loop.
 // edge note 186: Allocates lazily — first call only.
+// edge note 187: Idempotent — calling twice with the same input is a no-op the second time.
