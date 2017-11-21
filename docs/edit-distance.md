@@ -1543,3 +1543,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 368
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 369
+
+Heap when you only need top-k; full sort is wasted work.
