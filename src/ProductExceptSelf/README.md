@@ -2248,3 +2248,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 546
 
 No allocations on the hot path.
+
+## entry 547
+
+Branchless inner loop after sorting.
