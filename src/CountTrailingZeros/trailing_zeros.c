@@ -193,3 +193,4 @@ int trailing_zeroes(int n) {
 // note 178: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 179: Time complexity: O(1).
 // note 180: No allocations after setup.
+// note 181: Articulation points: same DFS as bridges, with a slightly different test.
