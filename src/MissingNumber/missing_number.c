@@ -34,3 +34,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 22: Time complexity: O(n).
 // note 23: Vectorizes cleanly under -O2.
 // note 24: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 25: Deterministic given the input — no PRNG seeds.
