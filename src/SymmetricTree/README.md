@@ -2106,3 +2106,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 512
 
 Three passes total; the third merges results.
+
+## entry 513
+
+No allocations on the hot path.
