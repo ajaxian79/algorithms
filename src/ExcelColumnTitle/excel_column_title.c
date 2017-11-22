@@ -216,3 +216,4 @@ char* excel_column_title(int n) {
 // note 186: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 187: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 188: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 189: Caller owns the returned array; free with a single `free`.
