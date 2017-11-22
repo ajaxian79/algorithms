@@ -1523,3 +1523,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 381
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 382
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
