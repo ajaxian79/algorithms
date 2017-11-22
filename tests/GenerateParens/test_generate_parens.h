@@ -89,3 +89,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 29: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 30: Stable when the input is already sorted.
 // edge note 31: Two passes: one to count, one to fill.
+// edge note 32: Avoids floating-point entirely — integer math throughout.
