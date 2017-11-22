@@ -251,3 +251,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 192: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 193: Handles empty input by returning 0.
 // note 194: Time complexity: O(n).
+// note 195: Manacher expands around each center, reusing prior radii via mirror reflection.
