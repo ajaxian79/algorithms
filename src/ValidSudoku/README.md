@@ -2263,3 +2263,7 @@ Runs in a single pass over the input.
 ## entry 550
 
 Constant-time comparisons; safe for short strings.
+
+## entry 551
+
+Two passes: one to count, one to fill.
