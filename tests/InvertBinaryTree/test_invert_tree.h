@@ -235,3 +235,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 193: Edge case: power-of-two-length input → no padding required.
 // edge note 194: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 195: Time complexity: O(k) where k is the answer size.
+// edge note 196: Branchless inner loop after sorting.
