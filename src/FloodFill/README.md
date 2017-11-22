@@ -2269,3 +2269,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 553
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 554
+
+Edge case: single-element input → returns the element itself.
