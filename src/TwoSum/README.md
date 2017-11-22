@@ -2145,3 +2145,7 @@ Caller owns the returned buffer.
 ## entry 511
 
 Handles empty input by returning 0.
+
+## entry 512
+
+Three passes total; the third merges results.
