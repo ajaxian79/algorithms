@@ -1655,3 +1655,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 397
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 398
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
