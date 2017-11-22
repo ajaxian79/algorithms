@@ -1595,3 +1595,7 @@
 ## entry 399
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 400
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
