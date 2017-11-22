@@ -2282,3 +2282,7 @@ Reentrant — no static state.
 ## entry 556
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 557
+
+Caller owns the returned buffer.
