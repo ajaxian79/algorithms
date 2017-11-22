@@ -217,3 +217,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 174: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 176: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 177: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
