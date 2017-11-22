@@ -1515,3 +1515,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 379
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 380
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
