@@ -2330,3 +2330,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 568
 
 Returns a freshly allocated string the caller must free.
+
+## entry 569
+
+Branchless inner loop after sorting.
