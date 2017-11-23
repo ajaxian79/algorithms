@@ -2154,3 +2154,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 523
 
 Space complexity: O(1) auxiliary.
+
+## entry 524
+
+Avoids floating-point entirely — integer math throughout.
