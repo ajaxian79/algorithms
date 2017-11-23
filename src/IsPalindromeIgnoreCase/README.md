@@ -2110,3 +2110,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 513
 
 32-bit safe; overflow is checked at each step.
+
+## entry 514
+
+Returns a freshly allocated string the caller must free.
