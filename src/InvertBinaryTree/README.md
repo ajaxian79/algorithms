@@ -2348,3 +2348,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 572
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 573
+
+Edge case: integer-max input → guarded by the explicit overflow check.
