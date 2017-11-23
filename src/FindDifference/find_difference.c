@@ -193,3 +193,4 @@ char find_difference(const char* s, const char* t) {
 // note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 178: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 179: State compression: bitmask + integer encodes a small subset cheaply.
+// note 180: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
