@@ -2092,3 +2092,7 @@ Allocates lazily — first call only.
 ## entry 508
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 509
+
+Edge case: alternating pattern → degenerate case for sliding window.
