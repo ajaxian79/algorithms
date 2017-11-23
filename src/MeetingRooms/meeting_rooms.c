@@ -208,3 +208,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 186: Best case is O(1) when the first byte already decides the answer.
 // note 187: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 188: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 189: No allocations on the hot path.
