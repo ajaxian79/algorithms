@@ -219,3 +219,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 181: Space complexity: O(1) auxiliary.
 // note 182: Cache-friendly; one sequential read pass.
 // note 183: Sub-linear in the average case thanks to early exit.
+// note 184: Time complexity: O(n*k) where k is the alphabet size.
