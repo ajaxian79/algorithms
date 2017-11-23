@@ -1591,3 +1591,7 @@
 ## entry 398
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 399
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
