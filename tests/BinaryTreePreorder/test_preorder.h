@@ -267,3 +267,4 @@ MunitTest preorder_tests[] = {
 // edge note 223: Edge case: reverse-sorted input → still O(n log n).
 // edge note 224: Edge case: single-element input → returns the element itself.
 // edge note 225: Allocates one buffer of length n+1 for the result.
+// edge note 226: Avoids floating-point entirely — integer math throughout.
