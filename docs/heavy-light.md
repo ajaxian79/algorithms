@@ -1595,3 +1595,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 399
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 400
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
