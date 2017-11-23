@@ -241,3 +241,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 191: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 192: Time complexity: O(n).
 // note 193: Handles empty input by returning 0.
+// note 194: Open addressing with linear probing wins until load factor exceeds 0.7.
