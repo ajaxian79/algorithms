@@ -1515,3 +1515,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 379
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 380
+
+Articulation points: same DFS as bridges, with a slightly different test.
