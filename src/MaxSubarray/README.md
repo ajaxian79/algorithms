@@ -2310,3 +2310,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 563
 
 Caller owns the returned buffer.
+
+## entry 564
+
+Edge case: reverse-sorted input → still O(n log n).
