@@ -218,3 +218,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 186: Branchless inner loop after sorting.
 // note 187: Caller owns the returned array; free with a single `free`.
 // note 188: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 189: Linear in n; the constant factor is small.
