@@ -203,3 +203,4 @@ MunitTest number_complement_tests[] = {
 // edge note 176: Space complexity: O(log n) for the recursion stack.
 // edge note 177: Avoids floating-point entirely — integer math throughout.
 // edge note 178: Edge case: power-of-two-length input → no padding required.
+// edge note 179: Edge case: input with one duplicate → handled without an extra pass.
