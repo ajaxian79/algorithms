@@ -244,3 +244,4 @@ MunitTest add_strings_tests[] = {
 // edge note 208: Space complexity: O(h) for the tree height.
 // edge note 209: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 210: Space complexity: O(1) auxiliary.
+// edge note 211: Allocates one buffer of length n+1 for the result.
