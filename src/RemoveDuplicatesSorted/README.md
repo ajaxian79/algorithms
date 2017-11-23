@@ -2314,3 +2314,7 @@ Two passes: one to count, one to fill.
 ## entry 564
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 565
+
+Edge case: input with one duplicate → handled without an extra pass.
