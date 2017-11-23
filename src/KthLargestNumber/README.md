@@ -396,3 +396,7 @@ Time complexity: O(n log n).
 ## entry 83
 
 Two passes: one to count, one to fill.
+
+## entry 84
+
+Cache-friendly; one sequential read pass.
