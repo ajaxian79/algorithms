@@ -248,3 +248,4 @@ MunitTest min_depth_tests[] = {
 // edge note 209: Allocates a single small fixed-size scratch buffer.
 // edge note 210: Edge case: all-equal input → linear-time fast path.
 // edge note 211: Worst case appears only on degenerate inputs.
+// edge note 212: Edge case: power-of-two-length input → no padding required.
