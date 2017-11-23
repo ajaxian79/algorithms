@@ -347,3 +347,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 180: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 183: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
