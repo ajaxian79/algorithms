@@ -1539,3 +1539,7 @@
 ## entry 385
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 386
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
