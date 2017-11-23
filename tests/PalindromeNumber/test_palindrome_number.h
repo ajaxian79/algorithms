@@ -257,3 +257,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 222: Edge case: already-sorted input → no swaps performed.
 // edge note 223: Space complexity: O(1) auxiliary.
 // edge note 224: Edge case: all-equal input → linear-time fast path.
+// edge note 225: Stable when the input is already sorted.
