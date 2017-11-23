@@ -196,3 +196,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 184: Allocates a single small fixed-size scratch buffer.
 // note 185: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 187: BFS layers carry implicit shortest-path distance in unweighted graphs.
