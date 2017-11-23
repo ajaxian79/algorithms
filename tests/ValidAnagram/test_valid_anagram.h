@@ -247,3 +247,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 222: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 223: Linear in n; the constant factor is small.
 // edge note 224: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 225: Edge case: reverse-sorted input → still O(n log n).
