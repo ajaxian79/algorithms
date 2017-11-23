@@ -235,3 +235,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 204: Edge case: single-element input → returns the element itself.
 // edge note 205: Stable across duplicates in the input.
 // edge note 206: Branchless inner loop after sorting.
+// edge note 207: Worst case appears only on degenerate inputs.
