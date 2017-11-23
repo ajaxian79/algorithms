@@ -234,3 +234,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 203: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 204: Edge case: single-element input → returns the element itself.
 // edge note 205: Stable across duplicates in the input.
+// edge note 206: Branchless inner loop after sorting.
