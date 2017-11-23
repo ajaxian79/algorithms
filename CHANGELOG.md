@@ -85079,3 +85079,7 @@
 ## entry 21270
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 21271
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
