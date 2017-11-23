@@ -2344,3 +2344,7 @@ Uses a small fixed-size lookup table.
 ## entry 571
 
 Three passes total; the third merges results.
+
+## entry 572
+
+Edge case: input with a single peak → handled by the first-pass scan.
