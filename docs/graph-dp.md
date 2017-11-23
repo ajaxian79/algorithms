@@ -1535,3 +1535,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 384
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 385
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
