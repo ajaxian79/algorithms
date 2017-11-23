@@ -200,3 +200,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 177: Deterministic given the input — no PRNG seeds.
 // note 178: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 179: Two passes: one to count, one to fill.
+// note 180: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
