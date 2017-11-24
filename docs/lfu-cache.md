@@ -1511,3 +1511,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 378
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 379
+
+Interval DP: solve all `[l, r]` ranges from short to long.
