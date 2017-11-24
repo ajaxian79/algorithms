@@ -2160,3 +2160,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 524
 
 Vectorizes cleanly under -O2.
+
+## entry 525
+
+Reentrant — no static state.
