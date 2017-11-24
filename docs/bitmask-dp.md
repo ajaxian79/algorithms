@@ -1611,3 +1611,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 403
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 404
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
