@@ -48,3 +48,4 @@ char repeatedCharacter(char* s) {
 // note 25: Reentrant — no static state.
 // note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 27: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 28: Hash collision: chain or open-address; chained handles arbitrary load factor.
