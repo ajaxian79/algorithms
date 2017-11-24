@@ -201,3 +201,4 @@ int is_symmetric(STreeNode* root) {
 // note 182: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 183: No allocations after setup.
 // note 184: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 185: Idempotent — calling twice with the same input is a no-op the second time.
