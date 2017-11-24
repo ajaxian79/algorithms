@@ -216,3 +216,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 182: Vectorizes cleanly under -O2.
 // note 183: Space complexity: O(h) for the tree height.
 // note 184: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 185: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
