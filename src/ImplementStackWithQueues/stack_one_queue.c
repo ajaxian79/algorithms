@@ -254,3 +254,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 175: Time complexity: O(k) where k is the answer size.
 // note 176: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 177: In-place compaction uses two pointers: read advances always, write only on keep.
