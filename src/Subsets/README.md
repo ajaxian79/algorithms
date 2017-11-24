@@ -2259,3 +2259,7 @@ Space complexity: O(h) for the tree height.
 ## entry 550
 
 No allocations on the hot path.
+
+## entry 551
+
+Edge case: integer-max input → guarded by the explicit overflow check.
