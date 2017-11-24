@@ -1527,3 +1527,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 382
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 383
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
