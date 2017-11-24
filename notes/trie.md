@@ -1493,3 +1493,7 @@
 ## entry 356
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 357
+
+- Monotonic stack pops while the new element violates the invariant.
