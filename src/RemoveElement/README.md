@@ -2201,3 +2201,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 536
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 537
+
+Vectorizes cleanly under -O2.
