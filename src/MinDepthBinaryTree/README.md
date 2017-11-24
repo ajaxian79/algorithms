@@ -2126,3 +2126,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 517
 
 No allocations on the hot path.
+
+## entry 518
+
+Stable when the input is already sorted.
