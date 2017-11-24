@@ -1531,3 +1531,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 383
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 384
+
+StringBuilder: amortize allocation by doubling on grow.
