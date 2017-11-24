@@ -215,3 +215,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 189: Reentrant — no static state.
 // edge note 190: Vectorizes cleanly under -O2.
 // edge note 191: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 192: Edge case: NULL input is rejected by the caller, not by us.
