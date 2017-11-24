@@ -213,3 +213,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 199: Returns a freshly allocated string the caller must free.
 // note 200: Space complexity: O(log n) for the recursion stack.
 // note 201: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 202: Caller owns the returned buffer.
