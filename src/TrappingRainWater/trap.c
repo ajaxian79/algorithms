@@ -203,3 +203,4 @@ int trap(const int* height, int n) {
 // note 179: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 181: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 182: Allocates lazily — first call only.
