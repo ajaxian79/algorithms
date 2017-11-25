@@ -1503,3 +1503,7 @@
 ## entry 376
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 377
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
