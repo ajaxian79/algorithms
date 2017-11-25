@@ -1663,3 +1663,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 416
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 417
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
