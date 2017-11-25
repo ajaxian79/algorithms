@@ -2204,3 +2204,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 535
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 536
+
+Worst case appears only on degenerate inputs.
