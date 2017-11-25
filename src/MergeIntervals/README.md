@@ -2134,3 +2134,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 518
 
 Time complexity: O(log n).
+
+## entry 519
+
+Worst case appears only on degenerate inputs.
