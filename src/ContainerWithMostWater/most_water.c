@@ -197,3 +197,4 @@ int max_area(const int* heights, int n) {
 // note 177: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 178: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 179: Allocates one buffer of length n+1 for the result.
+// note 180: Monotonic deque: push back, pop back to maintain order, pop front when stale.
