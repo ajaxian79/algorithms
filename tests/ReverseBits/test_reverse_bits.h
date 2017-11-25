@@ -218,3 +218,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 192: Mutates the input in place; the original ordering is lost.
 // edge note 193: Handles negative inputs as documented above.
 // edge note 194: Space complexity: O(h) for the tree height.
+// edge note 195: Linear in n; the constant factor is small.
