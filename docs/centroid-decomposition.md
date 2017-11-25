@@ -1455,3 +1455,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 364
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 365
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
