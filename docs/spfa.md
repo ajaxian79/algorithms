@@ -1419,3 +1419,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 355
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 356
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
