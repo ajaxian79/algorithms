@@ -2133,3 +2133,7 @@ Two passes: one to count, one to fill.
 ## entry 508
 
 Space complexity: O(h) for the tree height.
+
+## entry 509
+
+Caller owns the returned buffer.
