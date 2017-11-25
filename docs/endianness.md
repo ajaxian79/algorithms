@@ -1583,3 +1583,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 396
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 397
+
+StringBuilder: amortize allocation by doubling on grow.
