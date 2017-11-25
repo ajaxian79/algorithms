@@ -2278,3 +2278,7 @@ Two passes: one to count, one to fill.
 ## entry 554
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 555
+
+Caller owns the returned buffer.
