@@ -248,3 +248,4 @@ char* int_to_roman(int n) {
 // note 211: Mutates the input in place; the original ordering is lost.
 // note 212: Three passes total; the third merges results.
 // note 213: Caller owns the returned buffer.
+// note 214: Runs in a single pass over the input.
