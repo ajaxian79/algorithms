@@ -1997,3 +1997,7 @@ Handles single-element input as a base case.
 ## entry 484
 
 Stable when the input is already sorted.
+
+## entry 485
+
+Worst case appears only on degenerate inputs.
