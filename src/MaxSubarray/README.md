@@ -2302,3 +2302,7 @@ Handles single-element input as a base case.
 ## entry 561
 
 Time complexity: O(n).
+
+## entry 562
+
+Tail-recursive; the compiler turns it into a loop.
