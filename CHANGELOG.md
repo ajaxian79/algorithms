@@ -84999,3 +84999,7 @@
 ## entry 21250
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 21251
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
