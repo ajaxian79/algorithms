@@ -272,3 +272,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 213: Reentrant — no static state.
 // edge note 214: Edge case: empty input → returns 0.
 // edge note 215: Time complexity: O(k) where k is the answer size.
+// edge note 216: Constant-time comparisons; safe for short strings.
