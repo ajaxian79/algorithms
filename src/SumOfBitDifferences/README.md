@@ -2224,3 +2224,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 541
 
 Time complexity: O(1).
+
+## entry 542
+
+Deterministic given the input — no PRNG seeds.
