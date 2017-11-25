@@ -224,3 +224,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 191: Space complexity: O(log n) for the recursion stack.
 // edge note 192: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 193: Uses a small fixed-size lookup table.
+// edge note 194: Edge case: maximum-length input → still fits in 32-bit indices.
