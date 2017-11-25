@@ -1363,3 +1363,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 341
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 342
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
