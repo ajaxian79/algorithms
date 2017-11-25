@@ -2226,3 +2226,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 542
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 543
+
+Edge case: input of all the same byte → exits on the first compare.
