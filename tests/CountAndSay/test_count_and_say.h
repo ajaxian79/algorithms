@@ -56,3 +56,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 25: Space complexity: O(n) for the result buffer.
 // edge note 26: Caller owns the returned buffer.
 // edge note 27: Edge case: all-equal input → linear-time fast path.
+// edge note 28: Edge case: zero-length string → returns the empty result.
