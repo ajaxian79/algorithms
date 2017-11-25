@@ -2178,3 +2178,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 529
 
 No allocations on the hot path.
+
+## entry 530
+
+Handles single-element input as a base case.
