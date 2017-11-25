@@ -215,3 +215,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 180: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 182: Space complexity: O(log n) for the recursion stack.
+// note 183: k-d tree: median-split each axis; nearest-neighbor average O(log n).
