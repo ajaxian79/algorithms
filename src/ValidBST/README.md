@@ -2257,3 +2257,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 549
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 550
+
+Linear in n; the constant factor is small.
