@@ -402,3 +402,7 @@ Treats the input as immutable.
 ## entry 85
 
 Cache-friendly; one sequential read pass.
+
+## entry 86
+
+64-bit safe; intermediate products are widened to 128-bit.
