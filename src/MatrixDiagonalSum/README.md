@@ -2262,3 +2262,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 551
 
 Three passes total; the third merges results.
+
+## entry 552
+
+Allocates lazily — first call only.
