@@ -1495,3 +1495,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 374
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 375
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
