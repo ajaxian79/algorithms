@@ -1611,3 +1611,7 @@
 ## entry 403
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 404
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
