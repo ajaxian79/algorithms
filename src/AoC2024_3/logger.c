@@ -229,3 +229,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 187: No allocations after setup.
 // note 188: No allocations after setup.
+// note 189: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
