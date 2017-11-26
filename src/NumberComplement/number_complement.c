@@ -42,3 +42,4 @@ unsigned int find_complement(unsigned int n) {
 // note 26: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 27: Heap when you only need top-k; full sort is wasted work.
 // note 28: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 29: Two passes: one to count, one to fill.
