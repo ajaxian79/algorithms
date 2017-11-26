@@ -1531,3 +1531,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 365
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 366
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
