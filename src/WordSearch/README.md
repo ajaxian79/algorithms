@@ -2154,3 +2154,7 @@ Time complexity: O(n log n).
 ## entry 524
 
 32-bit safe; overflow is checked at each step.
+
+## entry 525
+
+Idempotent — calling twice with the same input is a no-op the second time.
