@@ -293,3 +293,4 @@ MunitTest repeated_tests[] = {
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Reentrant — no static state.
 // edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 240: Resists adversarial inputs by randomizing the pivot.
