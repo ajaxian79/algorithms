@@ -1511,3 +1511,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 378
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 379
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
