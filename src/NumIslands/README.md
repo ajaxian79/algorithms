@@ -2121,3 +2121,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 515
 
 Vectorizes cleanly under -O2.
+
+## entry 516
+
+Three passes total; the third merges results.
