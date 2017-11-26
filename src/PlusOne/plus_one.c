@@ -215,3 +215,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 178: Thread-safe so long as the input is not mutated concurrently.
 // note 179: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 181: Space complexity: O(n) for the result buffer.
