@@ -213,3 +213,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 172: Time complexity: O(log n).
 // note 173: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 174: Best case is O(1) when the first byte already decides the answer.
+// note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
