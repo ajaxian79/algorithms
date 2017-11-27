@@ -221,3 +221,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 177: Time complexity: O(n).
 // note 178: Avoids floating-point entirely — integer math throughout.
 // note 179: StringBuilder: amortize allocation by doubling on grow.
+// note 180: Union-Find with path compression amortizes to near-O(1) per op.
