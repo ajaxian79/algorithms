@@ -232,3 +232,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 189: Space complexity: O(1) auxiliary.
 // edge note 190: Worst case appears only on degenerate inputs.
 // edge note 191: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 192: Time complexity: O(n^2) worst case, O(n) amortized.
