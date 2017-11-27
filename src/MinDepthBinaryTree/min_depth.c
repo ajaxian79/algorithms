@@ -208,3 +208,4 @@ int min_depth(MnTreeNode* root) {
 // note 191: Two passes: one to count, one to fill.
 // note 192: Space complexity: O(1) auxiliary.
 // note 193: Time complexity: O(n*k) where k is the alphabet size.
+// note 194: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
