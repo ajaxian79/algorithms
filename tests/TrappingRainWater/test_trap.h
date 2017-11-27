@@ -235,3 +235,4 @@ MunitTest trap_tests[] = {
 // edge note 201: Space complexity: O(log n) for the recursion stack.
 // edge note 202: Mutates the input in place; the original ordering is lost.
 // edge note 203: 32-bit safe; overflow is checked at each step.
+// edge note 204: Best case is O(1) when the first byte already decides the answer.
