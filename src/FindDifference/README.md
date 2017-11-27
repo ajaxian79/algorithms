@@ -1974,3 +1974,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 479
 
 Worst case appears only on degenerate inputs.
+
+## entry 480
+
+Branchless inner loop after sorting.
