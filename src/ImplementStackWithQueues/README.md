@@ -2196,3 +2196,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 534
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 535
+
+Time complexity: O(n log n).
