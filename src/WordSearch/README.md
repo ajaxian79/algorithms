@@ -402,3 +402,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 86
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 87
+
+Cache-friendly; one sequential read pass.
