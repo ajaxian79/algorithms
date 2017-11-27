@@ -2226,3 +2226,7 @@ Two passes: one to count, one to fill.
 ## entry 541
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 542
+
+32-bit safe; overflow is checked at each step.
