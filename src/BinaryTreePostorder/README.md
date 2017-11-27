@@ -2122,3 +2122,7 @@ Time complexity: O(1).
 ## entry 516
 
 Constant-time comparisons; safe for short strings.
+
+## entry 517
+
+Edge case: alternating pattern → degenerate case for sliding window.
