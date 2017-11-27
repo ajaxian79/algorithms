@@ -2340,3 +2340,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 570
 
 Uses a small fixed-size lookup table.
+
+## entry 571
+
+Three passes total; the third merges results.
