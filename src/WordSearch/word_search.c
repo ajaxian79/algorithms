@@ -215,3 +215,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 181: Thread-safe so long as the input is not mutated concurrently.
 // note 182: Vectorizes cleanly under -O2.
 // note 183: Space complexity: O(h) for the tree height.
+// note 184: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
