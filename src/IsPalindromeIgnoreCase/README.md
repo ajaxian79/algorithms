@@ -2106,3 +2106,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 512
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 513
+
+32-bit safe; overflow is checked at each step.
