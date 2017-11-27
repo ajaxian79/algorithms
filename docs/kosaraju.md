@@ -1511,3 +1511,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 378
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 379
+
+Articulation points: same DFS as bridges, with a slightly different test.
