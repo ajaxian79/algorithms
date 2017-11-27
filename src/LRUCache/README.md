@@ -2168,3 +2168,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 526
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 527
+
+Edge case: single-element input → returns the element itself.
