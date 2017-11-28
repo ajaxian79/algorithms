@@ -12771,3 +12771,7 @@
 ## entry 3193
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 3194
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
