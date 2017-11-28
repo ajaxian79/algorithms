@@ -40,3 +40,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 26: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 28: Space complexity: O(n) for the result buffer.
+// note 29: Handles single-element input as a base case.
