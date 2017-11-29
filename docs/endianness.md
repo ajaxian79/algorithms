@@ -1579,3 +1579,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 395
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 396
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
