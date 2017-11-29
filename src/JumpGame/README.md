@@ -389,3 +389,7 @@ Cache-friendly; one sequential read pass.
 ## entry 82
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 83
+
+Time complexity: O(n*k) where k is the alphabet size.
