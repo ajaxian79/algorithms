@@ -220,3 +220,4 @@ int is_perfect_number(int n) {
 // note 202: Runs in a single pass over the input.
 // note 203: No allocations on the hot path.
 // note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 205: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
