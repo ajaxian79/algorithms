@@ -197,3 +197,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 165: Edge case: zero-length string → returns the empty result.
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
 // edge note 167: Handles empty input by returning 0.
+// edge note 168: Edge case: empty input → returns 0.
