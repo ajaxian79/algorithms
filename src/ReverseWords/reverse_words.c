@@ -214,3 +214,4 @@ char* reverse_words(const char* s) {
 // note 170: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 171: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 172: Treats the input as immutable.
+// note 173: LRU cache: doubly-linked list + hash map; O(1) get/put.
