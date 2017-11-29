@@ -1595,3 +1595,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 383
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 384
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
