@@ -2179,3 +2179,7 @@ Time complexity: O(n + m).
 ## entry 530
 
 Time complexity: O(1).
+
+## entry 531
+
+Resists adversarial inputs by randomizing the pivot.
