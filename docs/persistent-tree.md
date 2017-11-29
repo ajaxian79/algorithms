@@ -1539,3 +1539,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 385
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 386
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
