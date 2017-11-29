@@ -2173,3 +2173,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 528
 
 Branchless inner loop after sorting.
+
+## entry 529
+
+Edge case: empty input → returns 0.
