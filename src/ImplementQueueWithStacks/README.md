@@ -431,3 +431,7 @@ Edge case: empty input → returns 0.
 ## entry 93
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 94
+
+Uses a small fixed-size lookup table.
