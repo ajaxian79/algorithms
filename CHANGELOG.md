@@ -84935,3 +84935,7 @@
 ## entry 21234
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 21235
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
