@@ -1663,3 +1663,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 416
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 417
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
