@@ -1713,3 +1713,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 413
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 414
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
