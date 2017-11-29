@@ -243,3 +243,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 203: Linear in n; the constant factor is small.
 // edge note 204: Edge case: all-equal input → linear-time fast path.
 // edge note 205: Cache-friendly; one sequential read pass.
+// edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
