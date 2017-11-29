@@ -1527,3 +1527,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 364
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 365
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
