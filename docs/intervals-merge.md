@@ -1617,3 +1617,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 387
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 388
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
