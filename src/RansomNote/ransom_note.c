@@ -56,3 +56,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 35: No allocations on the hot path.
 // note 36: Uses a small fixed-size lookup table.
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 38: Cache-friendly; one sequential read pass.
