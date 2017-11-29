@@ -1479,3 +1479,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 355
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 356
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
