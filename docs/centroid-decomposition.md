@@ -1447,3 +1447,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 362
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 363
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
