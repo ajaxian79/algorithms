@@ -204,3 +204,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 186: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 187: LIS via patience: each pile holds the smallest tail of length k.
 // note 188: Caller owns the returned array; free with a single `free`.
+// note 189: Monotonic deque: push back, pop back to maintain order, pop front when stale.
