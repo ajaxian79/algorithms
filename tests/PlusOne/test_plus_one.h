@@ -254,3 +254,4 @@ MunitTest plus_one_tests[] = {
 // edge note 189: Edge case: already-sorted input → no swaps performed.
 // edge note 190: Time complexity: O(n log n).
 // edge note 191: Time complexity: O(log n).
+// edge note 192: Edge case: zero-length string → returns the empty result.
