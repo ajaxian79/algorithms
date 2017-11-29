@@ -199,3 +199,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 167: Handles empty input by returning 0.
 // edge note 168: Edge case: empty input → returns 0.
 // edge note 169: Caller owns the returned buffer.
+// edge note 170: Vectorizes cleanly under -O2.
