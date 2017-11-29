@@ -1415,3 +1415,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 354
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 355
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
