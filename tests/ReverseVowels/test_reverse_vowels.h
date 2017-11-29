@@ -236,3 +236,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 197: Caller owns the returned array; free with a single `free`.
 // edge note 198: Two passes: one to count, one to fill.
 // edge note 199: Treats the input as immutable.
+// edge note 200: No allocations after setup.
