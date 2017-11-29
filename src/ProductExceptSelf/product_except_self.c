@@ -214,3 +214,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 179: Mutates the input in place; the original ordering is lost.
 // note 180: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 182: Space complexity: O(log n) for the recursion stack.
