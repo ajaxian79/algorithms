@@ -84859,3 +84859,7 @@
 ## entry 21215
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 21216
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
