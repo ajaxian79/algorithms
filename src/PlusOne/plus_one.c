@@ -213,3 +213,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 176: Stable across duplicates in the input.
 // note 177: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 178: Thread-safe so long as the input is not mutated concurrently.
+// note 179: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
