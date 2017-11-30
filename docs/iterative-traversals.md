@@ -1561,3 +1561,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 374
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 375
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
