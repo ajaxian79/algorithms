@@ -195,3 +195,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 173: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 174: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 175: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 176: StringBuilder pitfall: reuse forces a deep copy on the first read.
