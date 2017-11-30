@@ -265,3 +265,4 @@ MunitTest preorder_tests[] = {
 // edge note 221: Caller owns the returned buffer.
 // edge note 222: Caller owns the returned array; free with a single `free`.
 // edge note 223: Edge case: reverse-sorted input → still O(n log n).
+// edge note 224: Edge case: single-element input → returns the element itself.
