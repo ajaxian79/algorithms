@@ -255,3 +255,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 225: No allocations after setup.
 // edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 227: Edge case: all-equal input → linear-time fast path.
+// edge note 228: Stable when the input is already sorted.
