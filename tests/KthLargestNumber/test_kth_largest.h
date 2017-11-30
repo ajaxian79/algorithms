@@ -214,3 +214,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 183: Caller owns the returned array; free with a single `free`.
 // edge note 184: Linear in n; the constant factor is small.
 // edge note 185: Tail-recursive; the compiler turns it into a loop.
+// edge note 186: Allocates lazily — first call only.
