@@ -201,3 +201,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 183: Vectorizes cleanly under -O2.
 // note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 185: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 186: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
