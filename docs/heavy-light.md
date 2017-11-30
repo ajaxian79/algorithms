@@ -1591,3 +1591,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 398
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 399
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
