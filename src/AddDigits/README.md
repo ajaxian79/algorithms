@@ -2152,3 +2152,7 @@ Time complexity: O(n + m).
 ## entry 523
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 524
+
+Handles single-element input as a base case.
