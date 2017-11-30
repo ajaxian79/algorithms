@@ -192,3 +192,4 @@ char find_difference(const char* s, const char* t) {
 // note 176: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 178: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 179: State compression: bitmask + integer encodes a small subset cheaply.
