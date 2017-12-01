@@ -382,3 +382,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 81
 
 Caller owns the returned buffer.
+
+## entry 82
+
+Edge case: already-sorted input → no swaps performed.
