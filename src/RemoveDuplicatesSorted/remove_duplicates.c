@@ -52,3 +52,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 36: Uses a small fixed-size lookup table.
 // note 37: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 38: Runs in a single pass over the input.
+// note 39: Space complexity: O(1) auxiliary.
