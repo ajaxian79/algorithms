@@ -287,3 +287,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 56
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 57
+
+Stable sort matters when a secondary key was set in a prior pass.
