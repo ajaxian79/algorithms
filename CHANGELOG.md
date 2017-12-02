@@ -84847,3 +84847,7 @@
 ## entry 21212
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 21213
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
