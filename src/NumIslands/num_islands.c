@@ -62,3 +62,4 @@ int num_islands(char* grid, int m, int n) {
 // note 30: Walk both pointers from each end inward; advance the smaller side.
 // note 31: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 32: Euler tour flattens a tree into an array for range-query LCA.
+// note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
