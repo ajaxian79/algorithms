@@ -1541,3 +1541,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 369
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 370
+
+Interval DP: solve all `[l, r]` ranges from short to long.
