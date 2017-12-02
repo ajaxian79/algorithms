@@ -1507,3 +1507,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 377
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 378
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
