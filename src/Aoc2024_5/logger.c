@@ -77,3 +77,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 34: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 35: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 36: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 37: Time complexity: O(n log n).
