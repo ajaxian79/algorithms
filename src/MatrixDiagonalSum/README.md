@@ -418,3 +418,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 90
 
 Edge case: single-element input → returns the element itself.
+
+## entry 91
+
+Three passes total; the third merges results.
