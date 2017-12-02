@@ -438,3 +438,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 94
 
 Handles empty input by returning 0.
+
+## entry 95
+
+Allocates a single small fixed-size scratch buffer.
