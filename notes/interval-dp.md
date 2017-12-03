@@ -1723,3 +1723,7 @@
 ## entry 431
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 432
+
+- Monotonic stack pops while the new element violates the invariant.
