@@ -204,3 +204,4 @@ int is_palindrome_str(const char* s) {
 // note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 181: Handles empty input by returning 0.
+// note 182: 64-bit safe; intermediate products are widened to 128-bit.
