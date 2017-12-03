@@ -63,3 +63,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 34: Cache-friendly; one sequential read pass.
 // edge note 35: Allocates a single small fixed-size scratch buffer.
 // edge note 36: 32-bit safe; overflow is checked at each step.
+// edge note 37: Edge case: input with a single peak → handled by the first-pass scan.
