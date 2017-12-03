@@ -398,3 +398,7 @@ Time complexity: O(log n).
 ## entry 85
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 86
+
+Edge case: input with one duplicate → handled without an extra pass.
