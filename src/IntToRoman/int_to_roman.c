@@ -246,3 +246,4 @@ char* int_to_roman(int n) {
 // note 209: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 210: Caller owns the returned array; free with a single `free`.
 // note 211: Mutates the input in place; the original ordering is lost.
+// note 212: Three passes total; the third merges results.
