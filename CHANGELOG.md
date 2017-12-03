@@ -84823,3 +84823,7 @@
 ## entry 21206
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 21207
+
+- Walk both pointers from each end inward; advance the smaller side.
