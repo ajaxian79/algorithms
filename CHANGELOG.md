@@ -84839,3 +84839,7 @@
 ## entry 21210
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 21211
+
+- Stable sort matters when a secondary key was set in a prior pass.
