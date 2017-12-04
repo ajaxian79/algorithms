@@ -1993,3 +1993,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 483
 
 Handles single-element input as a base case.
+
+## entry 484
+
+Stable when the input is already sorted.
