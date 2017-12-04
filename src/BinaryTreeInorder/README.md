@@ -2218,3 +2218,7 @@ Three passes total; the third merges results.
 ## entry 540
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 541
+
+Edge case: single-element input → returns the element itself.
