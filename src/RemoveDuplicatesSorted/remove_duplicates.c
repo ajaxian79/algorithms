@@ -197,3 +197,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 181: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 182: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 184: Runs in a single pass over the input.
