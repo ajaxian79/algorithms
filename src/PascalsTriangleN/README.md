@@ -1998,3 +1998,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 484
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 485
+
+Runs in a single pass over the input.
