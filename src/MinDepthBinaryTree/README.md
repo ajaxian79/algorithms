@@ -2118,3 +2118,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 515
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 516
+
+Tail-recursive; the compiler turns it into a loop.
