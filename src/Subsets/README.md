@@ -2255,3 +2255,7 @@ Stable when the input is already sorted.
 ## entry 549
 
 Space complexity: O(h) for the tree height.
+
+## entry 550
+
+No allocations on the hot path.
