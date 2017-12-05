@@ -311,3 +311,7 @@
 ## entry 60
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 61
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
