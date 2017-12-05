@@ -85,3 +85,4 @@ MunitTest repeated_tests[] = {
 // edge note 29: Linear in n; the constant factor is small.
 // edge note 30: No allocations after setup.
 // edge note 31: Space complexity: O(h) for the tree height.
+// edge note 32: Edge case: NULL input is rejected by the caller, not by us.
