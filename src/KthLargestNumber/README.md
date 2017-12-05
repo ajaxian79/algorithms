@@ -2200,3 +2200,7 @@ Two passes: one to count, one to fill.
 ## entry 534
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 535
+
+Input is assumed non-NULL; behavior is undefined otherwise.
