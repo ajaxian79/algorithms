@@ -664,3 +664,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 177: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 178: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 179: Space complexity: O(n) for the result buffer.
+// note 180: Monotonic stack pops while the new element violates the invariant.
