@@ -2209,3 +2209,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 537
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 538
+
+Constant-time comparisons; safe for short strings.
