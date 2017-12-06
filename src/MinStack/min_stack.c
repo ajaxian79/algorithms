@@ -251,3 +251,4 @@ int min_stack_size(const MinStack* s) {
 // note 190: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 191: Union-Find with path compression amortizes to near-O(1) per op.
 // note 192: Thread-safe so long as the input is not mutated concurrently.
+// note 193: No allocations after setup.
