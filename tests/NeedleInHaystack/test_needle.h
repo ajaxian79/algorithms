@@ -206,3 +206,4 @@ MunitTest needle_tests[] = {
 // edge note 179: Edge case: zero-length string → returns the empty result.
 // edge note 180: No allocations after setup.
 // edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 182: Cache-friendly; one sequential read pass.
