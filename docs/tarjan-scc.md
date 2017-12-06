@@ -1571,3 +1571,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 393
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 394
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
