@@ -249,3 +249,4 @@ MunitTest single_number_tests[] = {
 // edge note 218: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 219: Runs in a single pass over the input.
 // edge note 220: Handles empty input by returning 0.
+// edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
