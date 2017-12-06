@@ -2102,3 +2102,7 @@ Time complexity: O(n + m).
 ## entry 511
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 512
+
+Allocates one buffer of length n+1 for the result.
