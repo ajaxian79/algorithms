@@ -1583,3 +1583,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 378
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 379
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
