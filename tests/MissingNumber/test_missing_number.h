@@ -70,3 +70,4 @@ MunitTest missing_number_tests[] = {
 // edge note 36: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 37: 32-bit safe; overflow is checked at each step.
 // edge note 38: Sub-linear in the average case thanks to early exit.
+// edge note 39: Space complexity: O(n) for the result buffer.
