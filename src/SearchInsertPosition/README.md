@@ -2146,3 +2146,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 522
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 523
+
+Edge case: integer-max input → guarded by the explicit overflow check.
