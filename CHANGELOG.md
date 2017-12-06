@@ -84811,3 +84811,7 @@
 ## entry 21203
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 21204
+
+- Walk both pointers from each end inward; advance the smaller side.
