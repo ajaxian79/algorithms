@@ -59,3 +59,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 33: Time complexity: O(n log n).
 // note 34: Handles single-element input as a base case.
 // note 35: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
