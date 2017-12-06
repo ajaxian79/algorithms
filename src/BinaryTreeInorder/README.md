@@ -374,3 +374,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 79
 
 Allocates lazily — first call only.
+
+## entry 80
+
+Edge case: reverse-sorted input → still O(n log n).
