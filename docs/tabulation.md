@@ -1599,3 +1599,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 400
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 401
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
