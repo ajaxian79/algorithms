@@ -200,3 +200,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 182: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 183: Vectorizes cleanly under -O2.
 // note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 185: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
