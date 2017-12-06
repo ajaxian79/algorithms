@@ -2257,3 +2257,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 550
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 551
+
+Edge case: NULL input is rejected by the caller, not by us.
