@@ -2205,3 +2205,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 536
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 537
+
+Idempotent — calling twice with the same input is a no-op the second time.
