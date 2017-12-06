@@ -2150,3 +2150,7 @@ Worst case appears only on degenerate inputs.
 ## entry 523
 
 Time complexity: O(n log n).
+
+## entry 524
+
+32-bit safe; overflow is checked at each step.
