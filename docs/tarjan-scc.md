@@ -1575,3 +1575,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 394
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 395
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
