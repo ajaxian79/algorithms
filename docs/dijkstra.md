@@ -247,3 +247,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 62
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 63
+
+Endianness matters when serializing multi-byte ints to a file or wire.
