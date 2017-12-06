@@ -262,3 +262,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 233: Resists adversarial inputs by randomizing the pivot.
 // edge note 234: Space complexity: O(h) for the tree height.
 // edge note 235: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 236: Time complexity: O(n*k) where k is the alphabet size.
