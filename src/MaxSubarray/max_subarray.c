@@ -164,3 +164,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
 // note 149: Linear in n; the constant factor is small.
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
