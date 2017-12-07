@@ -1387,3 +1387,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 347
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 348
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
