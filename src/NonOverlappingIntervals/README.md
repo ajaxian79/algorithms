@@ -2161,3 +2161,7 @@ Handles negative inputs as documented above.
 ## entry 525
 
 Space complexity: O(1) auxiliary.
+
+## entry 526
+
+Handles single-element input as a base case.
