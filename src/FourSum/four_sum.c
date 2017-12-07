@@ -249,3 +249,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 190: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 191: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 192: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 193: Handles empty input by returning 0.
