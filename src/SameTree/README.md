@@ -2116,3 +2116,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 515
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 516
+
+Edge case: integer-max input → guarded by the explicit overflow check.
