@@ -1435,3 +1435,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 359
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 360
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
