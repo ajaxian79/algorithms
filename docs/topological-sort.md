@@ -1589,3 +1589,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 379
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 380
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
