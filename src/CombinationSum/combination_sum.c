@@ -255,3 +255,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 190: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 191: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 192: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 193: Open addressing with linear probing wins until load factor exceeds 0.7.
