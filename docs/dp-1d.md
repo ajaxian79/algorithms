@@ -1651,3 +1651,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 396
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 397
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
