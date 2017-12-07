@@ -1475,3 +1475,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 354
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 355
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
