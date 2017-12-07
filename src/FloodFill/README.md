@@ -2253,3 +2253,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 549
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 550
+
+Edge case: input with one duplicate → handled without an extra pass.
