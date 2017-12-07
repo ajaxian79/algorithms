@@ -217,3 +217,4 @@ int reverse_int(int x) {
 // note 190: 32-bit safe; overflow is checked at each step.
 // note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 193: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
