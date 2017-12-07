@@ -1539,3 +1539,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 367
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 368
+
+Merge intervals: sort by start; extend the running interval while overlapping.
