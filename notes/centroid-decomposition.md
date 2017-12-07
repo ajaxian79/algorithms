@@ -1455,3 +1455,7 @@
 ## entry 364
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 365
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
