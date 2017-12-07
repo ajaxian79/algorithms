@@ -12739,3 +12739,7 @@
 ## entry 3185
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 3186
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
