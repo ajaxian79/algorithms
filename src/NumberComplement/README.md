@@ -2232,3 +2232,7 @@ Time complexity: O(log n).
 ## entry 542
 
 Worst case appears only on degenerate inputs.
+
+## entry 543
+
+Idempotent — calling twice with the same input is a no-op the second time.
