@@ -313,3 +313,4 @@ MunitTest median_tests[] = {
 // edge note 194: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 195: Allocates one buffer of length n+1 for the result.
 // edge note 196: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 197: Avoids floating-point entirely — integer math throughout.
