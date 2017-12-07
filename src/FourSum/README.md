@@ -2144,3 +2144,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 521
 
 Handles negative inputs as documented above.
+
+## entry 522
+
+Treats the input as immutable.
