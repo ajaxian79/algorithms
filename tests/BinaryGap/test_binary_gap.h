@@ -224,3 +224,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 197: Two passes: one to count, one to fill.
 // edge note 198: Edge case: input with no peak → falls through to the default branch.
 // edge note 199: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 200: Time complexity: O(n).
