@@ -2139,3 +2139,7 @@ Stable across duplicates in the input.
 ## entry 520
 
 Stable when the input is already sorted.
+
+## entry 521
+
+Allocates a single small fixed-size scratch buffer.
