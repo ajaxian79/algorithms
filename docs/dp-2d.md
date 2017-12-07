@@ -1587,3 +1587,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 381
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 382
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
