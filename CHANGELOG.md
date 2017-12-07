@@ -84743,3 +84743,7 @@
 ## entry 21186
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 21187
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
