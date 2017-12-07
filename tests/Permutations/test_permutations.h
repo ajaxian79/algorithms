@@ -237,3 +237,4 @@ MunitTest permutations_tests[] = {
 // edge note 196: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 197: Vectorizes cleanly under -O2.
 // edge note 198: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 199: Constant-time comparisons; safe for short strings.
