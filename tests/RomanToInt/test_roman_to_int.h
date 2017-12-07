@@ -240,3 +240,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 206: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 207: Allocates one buffer of length n+1 for the result.
 // edge note 208: Edge case: power-of-two-length input → no padding required.
+// edge note 209: Time complexity: O(n*k) where k is the alphabet size.
