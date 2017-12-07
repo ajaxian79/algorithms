@@ -2142,3 +2142,7 @@ Stable when the input is already sorted.
 ## entry 521
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 522
+
+Edge case: maximum-length input → still fits in 32-bit indices.
