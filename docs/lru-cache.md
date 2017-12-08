@@ -207,3 +207,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 52
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 53
+
+StringBuilder: amortize allocation by doubling on grow.
