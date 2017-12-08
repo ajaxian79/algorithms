@@ -2251,3 +2251,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 548
 
 Stable when the input is already sorted.
+
+## entry 549
+
+Space complexity: O(h) for the tree height.
