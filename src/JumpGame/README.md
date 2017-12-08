@@ -2197,3 +2197,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 534
 
 Handles negative inputs as documented above.
+
+## entry 535
+
+Space complexity: O(1) auxiliary.
