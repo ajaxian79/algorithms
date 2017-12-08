@@ -2175,3 +2175,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 529
 
 Time complexity: O(n + m).
+
+## entry 530
+
+Time complexity: O(1).
