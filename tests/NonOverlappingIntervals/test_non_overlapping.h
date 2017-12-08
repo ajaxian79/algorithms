@@ -56,3 +56,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: Edge case: already-sorted input → no swaps performed.
 // edge note 27: Uses a 256-entry lookup for the inner step.
+// edge note 28: Space complexity: O(1) auxiliary.
