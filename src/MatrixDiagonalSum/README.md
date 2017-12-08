@@ -414,3 +414,7 @@ Worst case appears only on degenerate inputs.
 ## entry 89
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 90
+
+Edge case: single-element input → returns the element itself.
