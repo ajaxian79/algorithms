@@ -207,3 +207,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 176: Edge case: already-sorted input → no swaps performed.
 // edge note 177: Reentrant — no static state.
 // edge note 178: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 179: Time complexity: O(log n).
