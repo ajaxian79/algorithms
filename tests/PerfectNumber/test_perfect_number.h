@@ -253,3 +253,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 223: Time complexity: O(log n).
 // edge note 224: Edge case: input with no peak → falls through to the default branch.
 // edge note 225: No allocations after setup.
+// edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
