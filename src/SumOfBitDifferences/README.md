@@ -2220,3 +2220,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 540
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 541
+
+Time complexity: O(1).
