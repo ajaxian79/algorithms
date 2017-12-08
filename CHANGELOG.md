@@ -84727,3 +84727,7 @@
 ## entry 21182
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 21183
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
