@@ -84699,3 +84699,7 @@
 ## entry 21175
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 21176
+
+- Stable sort matters when a secondary key was set in a prior pass.
