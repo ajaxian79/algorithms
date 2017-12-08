@@ -219,3 +219,4 @@ int num_islands(char* grid, int m, int n) {
 // note 187: Three passes total; the third merges results.
 // note 188: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 189: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 190: In-place compaction uses two pointers: read advances always, write only on keep.
