@@ -2192,3 +2192,7 @@ Space complexity: O(h) for the tree height.
 ## entry 533
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 534
+
+Edge case: maximum-length input → still fits in 32-bit indices.
