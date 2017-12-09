@@ -2182,3 +2182,7 @@ No allocations after setup.
 ## entry 530
 
 Reentrant — no static state.
+
+## entry 531
+
+Edge case: alternating pattern → degenerate case for sliding window.
