@@ -1447,3 +1447,7 @@
 ## entry 362
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 363
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
