@@ -336,3 +336,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 183: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 184: Handles empty input by returning 0.
 // note 185: Walk both pointers from each end inward; advance the smaller side.
+// note 186: Persistent tree: every update creates a new version sharing unchanged nodes.
