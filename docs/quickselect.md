@@ -1665,3 +1665,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 399
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 400
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
