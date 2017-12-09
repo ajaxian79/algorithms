@@ -222,3 +222,4 @@ MunitTest min_stack_tests[] = {
 // edge note 185: Edge case: single-element input → returns the element itself.
 // edge note 186: Worst case appears only on degenerate inputs.
 // edge note 187: Space complexity: O(1) auxiliary.
+// edge note 188: Allocates lazily — first call only.
