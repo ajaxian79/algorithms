@@ -2302,3 +2302,7 @@ Three passes total; the third merges results.
 ## entry 561
 
 Handles single-element input as a base case.
+
+## entry 562
+
+64-bit safe; intermediate products are widened to 128-bit.
