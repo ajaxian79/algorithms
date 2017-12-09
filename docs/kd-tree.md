@@ -1587,3 +1587,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 397
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 398
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
