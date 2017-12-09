@@ -51,3 +51,4 @@ void reverse_string(char* s, int s_size) {
 // note 34: Sub-linear in the average case thanks to early exit.
 // note 35: Space complexity: O(1) auxiliary.
 // note 36: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 37: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
