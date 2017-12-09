@@ -104,3 +104,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 25: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 26: Handles negative inputs as documented above.
 // note 27: Uses a small fixed-size lookup table.
+// note 28: Time complexity: O(k) where k is the answer size.
