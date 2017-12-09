@@ -1483,3 +1483,7 @@
 ## entry 371
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 372
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
