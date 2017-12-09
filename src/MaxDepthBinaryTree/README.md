@@ -2105,3 +2105,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 512
 
 Stable across duplicates in the input.
+
+## entry 513
+
+Edge case: integer-max input → guarded by the explicit overflow check.
