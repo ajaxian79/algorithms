@@ -2201,3 +2201,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 535
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 536
+
+Edge case: alternating pattern → degenerate case for sliding window.
