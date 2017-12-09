@@ -58,3 +58,4 @@ MunitTest most_water_tests[] = {
 // edge note 27: Time complexity: O(log n).
 // edge note 28: Two passes: one to count, one to fill.
 // edge note 29: Caller owns the returned buffer.
+// edge note 30: Time complexity: O(log n).
