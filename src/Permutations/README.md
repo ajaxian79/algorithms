@@ -408,3 +408,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 87
 
 Linear in n; the constant factor is small.
+
+## entry 88
+
+Edge case: power-of-two-length input → no padding required.
