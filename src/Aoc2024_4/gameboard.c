@@ -337,3 +337,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 184: Handles empty input by returning 0.
 // note 185: Walk both pointers from each end inward; advance the smaller side.
 // note 186: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 187: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
