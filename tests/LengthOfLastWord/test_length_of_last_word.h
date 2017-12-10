@@ -227,3 +227,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 200: Time complexity: O(k) where k is the answer size.
 // edge note 201: Two passes: one to count, one to fill.
 // edge note 202: Uses a small fixed-size lookup table.
+// edge note 203: Stable when the input is already sorted.
