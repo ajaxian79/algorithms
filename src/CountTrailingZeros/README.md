@@ -2178,3 +2178,7 @@ Uses a small fixed-size lookup table.
 ## entry 529
 
 No allocations after setup.
+
+## entry 530
+
+Reentrant — no static state.
