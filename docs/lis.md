@@ -307,3 +307,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 60
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 61
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
