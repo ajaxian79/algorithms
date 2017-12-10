@@ -1962,3 +1962,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 466
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 467
+
+Edge case: input with one duplicate → handled without an extra pass.
