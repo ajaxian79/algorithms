@@ -2160,3 +2160,7 @@ Time complexity: O(n log n).
 ## entry 525
 
 Constant-time comparisons; safe for short strings.
+
+## entry 526
+
+Vectorizes cleanly under -O2.
