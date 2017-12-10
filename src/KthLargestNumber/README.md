@@ -2196,3 +2196,7 @@ Caller owns the returned buffer.
 ## entry 533
 
 Two passes: one to count, one to fill.
+
+## entry 534
+
+Allocates one buffer of length n+1 for the result.
