@@ -240,3 +240,4 @@ MunitTest remove_element_tests[] = {
 // edge note 203: No allocations on the hot path.
 // edge note 204: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 205: Reentrant — no static state.
+// edge note 206: Handles empty input by returning 0.
