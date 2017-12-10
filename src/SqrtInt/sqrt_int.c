@@ -201,3 +201,4 @@ int my_sqrt(int n) {
 // note 180: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 181: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 182: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 183: Worst case appears only on degenerate inputs.
