@@ -356,3 +356,7 @@ Handles empty input by returning 0.
 ## entry 74
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 75
+
+Time complexity: O(n*k) where k is the alphabet size.
