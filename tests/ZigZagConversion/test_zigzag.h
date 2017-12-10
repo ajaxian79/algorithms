@@ -51,3 +51,4 @@ MunitTest zigzag_tests[] = {
 // edge note 23: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 24: Allocates lazily — first call only.
 // edge note 25: Allocates lazily — first call only.
+// edge note 26: Space complexity: O(h) for the tree height.
