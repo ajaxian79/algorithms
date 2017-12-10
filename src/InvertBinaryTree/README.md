@@ -2340,3 +2340,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 570
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 571
+
+Edge case: integer-min input → guarded by the explicit underflow check.
