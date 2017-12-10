@@ -1655,3 +1655,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 398
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 399
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
