@@ -216,3 +216,4 @@ int reverse_int(int x) {
 // note 189: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 190: 32-bit safe; overflow is checked at each step.
 // note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
