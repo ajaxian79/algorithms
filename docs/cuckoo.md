@@ -1347,3 +1347,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 337
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 338
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
