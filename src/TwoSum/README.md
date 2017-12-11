@@ -2125,3 +2125,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 506
 
 Time complexity: O(n log n).
+
+## entry 507
+
+Two passes: one to count, one to fill.
