@@ -1994,3 +1994,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 483
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 484
+
+Time complexity: O(k) where k is the answer size.
