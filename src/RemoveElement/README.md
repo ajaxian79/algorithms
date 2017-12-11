@@ -2189,3 +2189,7 @@ No allocations after setup.
 ## entry 533
 
 Allocates lazily — first call only.
+
+## entry 534
+
+Worst case appears only on degenerate inputs.
