@@ -240,3 +240,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 182: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 183: Time complexity: O(n log n).
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 185: Euler tour flattens a tree into an array for range-query LCA.
