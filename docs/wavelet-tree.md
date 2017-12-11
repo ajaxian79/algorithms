@@ -1447,3 +1447,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 362
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 363
+
+Merge intervals: sort by start; extend the running interval while overlapping.
