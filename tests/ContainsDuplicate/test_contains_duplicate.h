@@ -223,3 +223,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 180: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 181: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 182: No allocations after setup.
+// edge note 183: Edge case: zero-length string → returns the empty result.
