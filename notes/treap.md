@@ -1487,3 +1487,7 @@
 ## entry 372
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 373
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
