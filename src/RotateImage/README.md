@@ -2193,3 +2193,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 533
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 534
+
+Resists adversarial inputs by randomizing the pivot.
