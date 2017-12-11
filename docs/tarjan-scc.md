@@ -1567,3 +1567,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 392
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 393
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
