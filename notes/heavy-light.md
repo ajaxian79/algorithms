@@ -1567,3 +1567,7 @@
 ## entry 392
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 393
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
