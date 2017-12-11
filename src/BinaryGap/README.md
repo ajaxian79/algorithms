@@ -2222,3 +2222,7 @@ Handles negative inputs as documented above.
 ## entry 540
 
 Two passes: one to count, one to fill.
+
+## entry 541
+
+Avoids floating-point entirely — integer math throughout.
