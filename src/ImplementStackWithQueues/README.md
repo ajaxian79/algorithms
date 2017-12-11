@@ -2188,3 +2188,7 @@ Two passes: one to count, one to fill.
 ## entry 532
 
 Space complexity: O(h) for the tree height.
+
+## entry 533
+
+Edge case: reverse-sorted input → still O(n log n).
