@@ -1383,3 +1383,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 346
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 347
+
+Interval DP: solve all `[l, r]` ranges from short to long.
