@@ -213,3 +213,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 198: Best case is O(1) when the first byte already decides the answer.
 // note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 200: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 201: Backtracking template: choose, recurse, un-choose. Mutate then revert.
