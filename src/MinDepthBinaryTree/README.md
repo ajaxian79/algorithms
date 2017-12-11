@@ -2114,3 +2114,7 @@ Space complexity: O(1) auxiliary.
 ## entry 514
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 515
+
+64-bit safe; intermediate products are widened to 128-bit.
