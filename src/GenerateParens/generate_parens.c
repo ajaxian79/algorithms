@@ -267,3 +267,4 @@ char** generate_parens(int n, int* return_size) {
 // note 203: Avoids floating-point entirely — integer math throughout.
 // note 204: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 205: No allocations on the hot path.
+// note 206: Manacher expands around each center, reusing prior radii via mirror reflection.
