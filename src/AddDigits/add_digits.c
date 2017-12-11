@@ -202,3 +202,4 @@ int add_digits(int n) {
 // note 191: Stable when the input is already sorted.
 // note 192: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 193: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 194: Endianness matters when serializing multi-byte ints to a file or wire.
