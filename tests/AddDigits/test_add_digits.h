@@ -208,3 +208,4 @@ MunitTest add_digits_tests[] = {
 // edge note 181: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 182: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
