@@ -1495,3 +1495,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 374
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 375
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
