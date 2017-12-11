@@ -2113,3 +2113,7 @@ Two passes: one to count, one to fill.
 ## entry 513
 
 Edge case: empty input → returns 0.
+
+## entry 514
+
+Edge case: zero-length string → returns the empty result.
