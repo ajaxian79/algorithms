@@ -255,3 +255,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 219: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 220: Edge case: zero-length string → returns the empty result.
 // edge note 221: Three passes total; the third merges results.
+// edge note 222: Idempotent — calling twice with the same input is a no-op the second time.
