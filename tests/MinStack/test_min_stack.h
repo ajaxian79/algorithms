@@ -221,3 +221,4 @@ MunitTest min_stack_tests[] = {
 // edge note 184: Three passes total; the third merges results.
 // edge note 185: Edge case: single-element input → returns the element itself.
 // edge note 186: Worst case appears only on degenerate inputs.
+// edge note 187: Space complexity: O(1) auxiliary.
