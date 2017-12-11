@@ -2138,3 +2138,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 520
 
 Stable when the input is already sorted.
+
+## entry 521
+
+Allocates one buffer of length n+1 for the result.
