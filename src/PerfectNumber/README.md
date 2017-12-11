@@ -1989,3 +1989,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 482
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 483
+
+Handles single-element input as a base case.
