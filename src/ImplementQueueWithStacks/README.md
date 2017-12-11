@@ -2235,3 +2235,7 @@ Handles single-element input as a base case.
 ## entry 544
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 545
+
+Space complexity: O(h) for the tree height.
