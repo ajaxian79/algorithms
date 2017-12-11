@@ -2270,3 +2270,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 553
 
 Time complexity: O(log n).
+
+## entry 554
+
+Vectorizes cleanly under -O2.
