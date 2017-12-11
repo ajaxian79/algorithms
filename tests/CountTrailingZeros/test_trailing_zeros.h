@@ -230,3 +230,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 202: Edge case: single-element input → returns the element itself.
 // edge note 203: Reentrant — no static state.
 // edge note 204: Space complexity: O(h) for the tree height.
+// edge note 205: Edge case: integer-max input → guarded by the explicit overflow check.
