@@ -238,3 +238,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 206: Edge case: single-element input → returns the element itself.
 // edge note 207: Avoids floating-point entirely — integer math throughout.
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 209: Edge case: power-of-two-length input → no padding required.
