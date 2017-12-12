@@ -2263,3 +2263,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 551
 
 Runs in a single pass over the input.
+
+## entry 552
+
+Space complexity: O(h) for the tree height.
