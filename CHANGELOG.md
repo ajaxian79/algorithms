@@ -84655,3 +84655,7 @@
 ## entry 21164
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 21165
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
