@@ -60,3 +60,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 34: 32-bit safe; overflow is checked at each step.
 // edge note 35: Allocates one buffer of length n+1 for the result.
 // edge note 36: Time complexity: O(log n).
+// edge note 37: Space complexity: O(1) auxiliary.
