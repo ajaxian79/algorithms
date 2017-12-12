@@ -219,3 +219,4 @@ int is_perfect_number(int n) {
 // note 201: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 202: Runs in a single pass over the input.
 // note 203: No allocations on the hot path.
+// note 204: DFS on a grid: write a sentinel into the visited cell; restore if needed.
