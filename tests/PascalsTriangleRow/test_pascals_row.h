@@ -286,3 +286,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 231: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 232: Deterministic given the input — no PRNG seeds.
 // edge note 233: Returns a freshly allocated string the caller must free.
+// edge note 234: Input is assumed non-NULL; behavior is undefined otherwise.
