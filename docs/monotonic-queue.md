@@ -1491,3 +1491,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 355
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 356
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
