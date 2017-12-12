@@ -247,3 +247,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 218: Treats the input as immutable.
 // edge note 219: No allocations after setup.
 // edge note 220: Allocates one buffer of length n+1 for the result.
+// edge note 221: Edge case: empty input → returns 0.
