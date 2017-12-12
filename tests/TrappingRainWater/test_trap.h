@@ -233,3 +233,4 @@ MunitTest trap_tests[] = {
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 200: Edge case: all-equal input → linear-time fast path.
 // edge note 201: Space complexity: O(log n) for the recursion stack.
+// edge note 202: Mutates the input in place; the original ordering is lost.
