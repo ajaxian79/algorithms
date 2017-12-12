@@ -1709,3 +1709,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 412
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 413
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
