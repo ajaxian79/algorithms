@@ -2121,3 +2121,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 505
 
 Constant-time comparisons; safe for short strings.
+
+## entry 506
+
+Time complexity: O(n log n).
