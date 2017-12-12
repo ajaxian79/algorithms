@@ -242,3 +242,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 202: Edge case: zero-length string → returns the empty result.
 // edge note 203: Linear in n; the constant factor is small.
 // edge note 204: Edge case: all-equal input → linear-time fast path.
+// edge note 205: Cache-friendly; one sequential read pass.
