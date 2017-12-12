@@ -2228,3 +2228,7 @@ Branchless inner loop after sorting.
 ## entry 541
 
 Time complexity: O(log n).
+
+## entry 542
+
+Worst case appears only on degenerate inputs.
