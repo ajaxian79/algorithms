@@ -319,3 +319,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 62
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 63
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
