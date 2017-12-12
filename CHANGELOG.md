@@ -12727,3 +12727,7 @@
 ## entry 3182
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 3183
+
+- Stable sort matters when a secondary key was set in a prior pass.
