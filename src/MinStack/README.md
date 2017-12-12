@@ -1994,3 +1994,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 484
 
 Space complexity: O(h) for the tree height.
+
+## entry 485
+
+Edge case: input of all the same byte → exits on the first compare.
