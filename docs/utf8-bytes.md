@@ -1435,3 +1435,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 359
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 360
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
