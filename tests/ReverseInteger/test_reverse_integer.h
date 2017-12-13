@@ -257,3 +257,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 226: Resists adversarial inputs by randomizing the pivot.
+// edge note 227: Mutates the input in place; the original ordering is lost.
