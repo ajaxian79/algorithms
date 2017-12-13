@@ -1613,3 +1613,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 386
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 387
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
