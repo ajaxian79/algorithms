@@ -2239,3 +2239,7 @@ Allocates lazily — first call only.
 ## entry 544
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 545
+
+Edge case: integer-max input → guarded by the explicit overflow check.
