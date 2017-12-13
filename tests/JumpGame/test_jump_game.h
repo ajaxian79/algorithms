@@ -218,3 +218,4 @@ MunitTest jump_game_tests[] = {
 // edge note 184: Allocates a single small fixed-size scratch buffer.
 // edge note 185: Worst case appears only on degenerate inputs.
 // edge note 186: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 187: Time complexity: O(1).
