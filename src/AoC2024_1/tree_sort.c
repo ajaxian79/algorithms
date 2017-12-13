@@ -401,3 +401,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 179: Allocates lazily — first call only.
 // note 180: StringBuilder: amortize allocation by doubling on grow.
 // note 181: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 182: Vectorizes cleanly under -O2.
