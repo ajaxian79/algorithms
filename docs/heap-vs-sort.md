@@ -1531,3 +1531,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 366
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 367
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
