@@ -2174,3 +2174,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 528
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 529
+
+No allocations on the hot path.
