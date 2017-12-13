@@ -2134,3 +2134,7 @@ Handles single-element input as a base case.
 ## entry 519
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 520
+
+Constant-time comparisons; safe for short strings.
