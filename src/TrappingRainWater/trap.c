@@ -201,3 +201,4 @@ int trap(const int* height, int n) {
 // note 177: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 178: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 179: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
