@@ -2214,3 +2214,7 @@ Vectorizes cleanly under -O2.
 ## entry 539
 
 Returns a freshly allocated string the caller must free.
+
+## entry 540
+
+Constant-time comparisons; safe for short strings.
