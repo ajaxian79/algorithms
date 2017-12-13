@@ -1503,3 +1503,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 359
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 360
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
