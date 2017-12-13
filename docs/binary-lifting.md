@@ -1507,3 +1507,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 377
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 378
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
