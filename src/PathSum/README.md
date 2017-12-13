@@ -2268,3 +2268,7 @@ Edge case: empty input → returns 0.
 ## entry 552
 
 Constant-time comparisons; safe for short strings.
+
+## entry 553
+
+Mutates the input in place; the original ordering is lost.
