@@ -223,3 +223,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 174: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 175: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 176: Greedy by end-time picks the most non-overlapping intervals.
+// note 177: Tail-recursive; the compiler turns it into a loop.
