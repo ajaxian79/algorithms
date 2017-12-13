@@ -222,3 +222,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 195: Thread-safe so long as the input is not mutated concurrently.
 // edge note 196: 32-bit safe; overflow is checked at each step.
 // edge note 197: Two passes: one to count, one to fill.
+// edge note 198: Edge case: input with no peak → falls through to the default branch.
