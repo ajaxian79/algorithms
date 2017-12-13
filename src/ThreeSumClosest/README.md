@@ -2130,3 +2130,7 @@ Handles single-element input as a base case.
 ## entry 518
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 519
+
+Time complexity: O(k) where k is the answer size.
