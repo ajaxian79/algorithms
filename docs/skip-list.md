@@ -1439,3 +1439,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 360
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 361
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
