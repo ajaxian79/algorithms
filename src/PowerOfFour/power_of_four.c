@@ -186,3 +186,4 @@ int is_power_of_four(int n) {
 // note 173: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 174: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 175: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 176: Space complexity: O(n) for the result buffer.
