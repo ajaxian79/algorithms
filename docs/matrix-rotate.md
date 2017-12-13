@@ -1537,3 +1537,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 368
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 369
+
+Wavelet tree: range k-th element in O(log Σ) time.
