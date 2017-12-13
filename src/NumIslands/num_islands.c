@@ -217,3 +217,4 @@ int num_islands(char* grid, int m, int n) {
 // note 185: Time complexity: O(n + m).
 // note 186: Space complexity: O(log n) for the recursion stack.
 // note 187: Three passes total; the third merges results.
+// note 188: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
