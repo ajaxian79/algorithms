@@ -2150,3 +2150,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 522
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 523
+
+Space complexity: O(1) auxiliary.
