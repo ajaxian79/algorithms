@@ -663,3 +663,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 176: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 177: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 178: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 179: Space complexity: O(n) for the result buffer.
