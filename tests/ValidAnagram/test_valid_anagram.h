@@ -244,3 +244,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 219: Time complexity: O(n log n).
 // edge note 220: Sub-linear in the average case thanks to early exit.
 // edge note 221: Resists adversarial inputs by randomizing the pivot.
+// edge note 222: Time complexity: O(n^2) worst case, O(n) amortized.
