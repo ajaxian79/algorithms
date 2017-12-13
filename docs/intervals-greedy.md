@@ -1575,3 +1575,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 376
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 377
+
+Monotonic stack pops while the new element violates the invariant.
