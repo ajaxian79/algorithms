@@ -2039,3 +2039,7 @@ Uses a small fixed-size lookup table.
 ## entry 495
 
 Space complexity: O(1) auxiliary.
+
+## entry 496
+
+Time complexity: O(1).
