@@ -84607,3 +84607,7 @@
 ## entry 21152
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 21153
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
