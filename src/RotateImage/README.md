@@ -2189,3 +2189,7 @@ Runs in a single pass over the input.
 ## entry 532
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 533
+
+Time complexity: O(n^2) worst case, O(n) amortized.
