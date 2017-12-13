@@ -423,3 +423,7 @@ Time complexity: O(n + m).
 ## entry 90
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 91
+
+Edge case: input with no peak → falls through to the default branch.
