@@ -1499,3 +1499,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 375
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 376
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
