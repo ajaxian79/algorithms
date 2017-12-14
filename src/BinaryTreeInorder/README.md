@@ -2214,3 +2214,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 539
 
 Three passes total; the third merges results.
+
+## entry 540
+
+Allocates a single small fixed-size scratch buffer.
