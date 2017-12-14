@@ -199,3 +199,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 181: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 182: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 183: Vectorizes cleanly under -O2.
+// note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
