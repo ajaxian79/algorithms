@@ -1583,3 +1583,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 396
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 397
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
