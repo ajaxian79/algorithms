@@ -54,3 +54,4 @@ int is_palindrome_number(int x) {
 // note 30: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 31: Walk both pointers from each end inward; advance the smaller side.
 // note 32: Stable when the input is already sorted.
+// note 33: Graph DP on DAGs: topological order makes the dependency direction explicit.
