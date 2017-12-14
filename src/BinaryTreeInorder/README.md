@@ -2210,3 +2210,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 538
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 539
+
+Three passes total; the third merges results.
