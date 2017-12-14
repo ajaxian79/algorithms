@@ -1559,3 +1559,7 @@
 ## entry 373
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 374
+
+- Stable sort matters when a secondary key was set in a prior pass.
