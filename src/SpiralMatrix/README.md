@@ -2170,3 +2170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 527
 
 Returns a freshly allocated string the caller must free.
+
+## entry 528
+
+Avoids floating-point entirely — integer math throughout.
