@@ -84567,3 +84567,7 @@
 ## entry 21142
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 21143
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
