@@ -1533,3 +1533,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 367
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 368
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
