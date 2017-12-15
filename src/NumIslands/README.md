@@ -2109,3 +2109,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 512
 
 Two passes: one to count, one to fill.
+
+## entry 513
+
+Edge case: empty input → returns 0.
