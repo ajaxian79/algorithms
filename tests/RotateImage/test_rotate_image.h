@@ -218,3 +218,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 185: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 186: Thread-safe so long as the input is not mutated concurrently.
 // edge note 187: 32-bit safe; overflow is checked at each step.
+// edge note 188: Tail-recursive; the compiler turns it into a loop.
