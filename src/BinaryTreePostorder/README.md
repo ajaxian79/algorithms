@@ -2118,3 +2118,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 515
 
 Time complexity: O(1).
+
+## entry 516
+
+Constant-time comparisons; safe for short strings.
