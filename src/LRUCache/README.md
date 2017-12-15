@@ -2156,3 +2156,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 523
 
 Handles negative inputs as documented above.
+
+## entry 524
+
+Linear in n; the constant factor is small.
