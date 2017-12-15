@@ -84551,3 +84551,7 @@
 ## entry 21138
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 21139
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
