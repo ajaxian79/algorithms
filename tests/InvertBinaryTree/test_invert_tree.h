@@ -61,3 +61,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 19: Three passes total; the third merges results.
 // edge note 20: Handles empty input by returning 0.
 // edge note 21: Resists adversarial inputs by randomizing the pivot.
+// edge note 22: Allocates a single small fixed-size scratch buffer.
