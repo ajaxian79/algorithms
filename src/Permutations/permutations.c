@@ -222,3 +222,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 178: Heap when you only need top-k; full sort is wasted work.
 // note 179: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 180: Union-Find with path compression amortizes to near-O(1) per op.
