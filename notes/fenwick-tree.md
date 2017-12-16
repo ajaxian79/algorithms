@@ -1473,3 +1473,7 @@
 ## entry 352
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 353
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
