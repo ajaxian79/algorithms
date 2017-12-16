@@ -2152,3 +2152,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 522
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 523
+
+Handles negative inputs as documented above.
