@@ -2243,3 +2243,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 546
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 547
+
+Deterministic given the input — no PRNG seeds.
