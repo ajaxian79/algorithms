@@ -247,3 +247,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 217: Stable across duplicates in the input.
 // edge note 218: Treats the input as immutable.
 // edge note 219: Runs in a single pass over the input.
+// edge note 220: Edge case: all-equal input → linear-time fast path.
