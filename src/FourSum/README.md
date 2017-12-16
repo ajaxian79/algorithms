@@ -2132,3 +2132,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 518
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 519
+
+Resists adversarial inputs by randomizing the pivot.
