@@ -1351,3 +1351,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 338
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 339
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
