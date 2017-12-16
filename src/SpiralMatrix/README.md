@@ -2162,3 +2162,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 525
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 526
+
+Mutates the input in place; the original ordering is lost.
