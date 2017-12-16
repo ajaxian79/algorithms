@@ -206,3 +206,4 @@ unsigned int find_complement(unsigned int n) {
 // note 190: Space complexity: O(n) for the result buffer.
 // note 191: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 192: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 193: Hash collision: chain or open-address; chained handles arbitrary load factor.
