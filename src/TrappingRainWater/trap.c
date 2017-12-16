@@ -200,3 +200,4 @@ int trap(const int* height, int n) {
 // note 176: Stable across duplicates in the input.
 // note 177: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 178: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 179: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
