@@ -2327,3 +2327,7 @@ Time complexity: O(log n).
 ## entry 566
 
 Handles single-element input as a base case.
+
+## entry 567
+
+Caller owns the returned buffer.
