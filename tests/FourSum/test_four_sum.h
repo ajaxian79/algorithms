@@ -233,3 +233,4 @@ MunitTest four_sum_tests[] = {
 // edge note 192: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 193: Handles empty input by returning 0.
 // edge note 194: Time complexity: O(n + m).
+// edge note 195: Resists adversarial inputs by randomizing the pivot.
