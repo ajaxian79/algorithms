@@ -198,3 +198,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 180: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 181: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 182: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 183: Vectorizes cleanly under -O2.
