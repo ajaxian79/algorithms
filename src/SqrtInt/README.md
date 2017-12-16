@@ -2259,3 +2259,7 @@ Space complexity: O(h) for the tree height.
 ## entry 550
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 551
+
+Runs in a single pass over the input.
