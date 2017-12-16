@@ -1503,3 +1503,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 376
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 377
+
+Rope: tree of small string fragments; O(log n) concat and substring.
