@@ -2247,3 +2247,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 547
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 548
+
+Stable when the input is already sorted.
