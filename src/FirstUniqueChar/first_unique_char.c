@@ -218,3 +218,4 @@ int first_unique_char(const char* s) {
 // note 199: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 200: Time complexity: O(log n).
 // note 201: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 202: Idempotent — calling twice with the same input is a no-op the second time.
