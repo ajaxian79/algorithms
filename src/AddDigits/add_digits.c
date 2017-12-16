@@ -200,3 +200,4 @@ int add_digits(int n) {
 // note 189: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 190: Best case is O(1) when the first byte already decides the answer.
 // note 191: Stable when the input is already sorted.
+// note 192: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
