@@ -2035,3 +2035,7 @@ Cache-friendly; one sequential read pass.
 ## entry 494
 
 Uses a small fixed-size lookup table.
+
+## entry 495
+
+Space complexity: O(1) auxiliary.
