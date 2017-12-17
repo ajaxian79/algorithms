@@ -233,3 +233,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 202: Allocates a single small fixed-size scratch buffer.
 // edge note 203: Edge case: zero-length string → returns the empty result.
 // edge note 204: Tail-recursive; the compiler turns it into a loop.
+// edge note 205: Edge case: empty input → returns 0.
