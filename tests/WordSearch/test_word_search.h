@@ -243,3 +243,4 @@ MunitTest word_search_tests[] = {
 // edge note 209: Reentrant — no static state.
 // edge note 210: Time complexity: O(n).
 // edge note 211: Edge case: already-sorted input → no swaps performed.
+// edge note 212: Tail-recursive; the compiler turns it into a loop.
