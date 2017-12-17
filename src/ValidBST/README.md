@@ -2249,3 +2249,7 @@ Two passes: one to count, one to fill.
 ## entry 547
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 548
+
+Uses a 256-entry lookup for the inner step.
