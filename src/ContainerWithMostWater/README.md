@@ -2131,3 +2131,7 @@ Cache-friendly; one sequential read pass.
 ## entry 518
 
 Reentrant — no static state.
+
+## entry 519
+
+Stable across duplicates in the input.
