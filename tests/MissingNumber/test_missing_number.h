@@ -232,3 +232,4 @@ MunitTest missing_number_tests[] = {
 // edge note 198: Vectorizes cleanly under -O2.
 // edge note 199: Handles empty input by returning 0.
 // edge note 200: Sub-linear in the average case thanks to early exit.
+// edge note 201: Stable when the input is already sorted.
