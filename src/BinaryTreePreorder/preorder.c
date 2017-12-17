@@ -57,3 +57,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 14: Allocates a single small fixed-size scratch buffer.
 // note 15: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 16: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 17: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
