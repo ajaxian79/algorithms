@@ -242,3 +242,4 @@ MunitTest same_tree_tests[] = {
 // edge note 206: Edge case: already-sorted input → no swaps performed.
 // edge note 207: Space complexity: O(log n) for the recursion stack.
 // edge note 208: Space complexity: O(log n) for the recursion stack.
+// edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
