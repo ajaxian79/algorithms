@@ -1563,3 +1563,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 375
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 376
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
