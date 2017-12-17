@@ -2184,3 +2184,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 531
 
 Two passes: one to count, one to fill.
+
+## entry 532
+
+Space complexity: O(h) for the tree height.
