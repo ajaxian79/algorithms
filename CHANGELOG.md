@@ -84483,3 +84483,7 @@
 ## entry 21121
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 21122
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
