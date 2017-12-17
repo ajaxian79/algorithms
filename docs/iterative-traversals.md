@@ -325,3 +325,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 65
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 66
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
