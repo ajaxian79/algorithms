@@ -2118,3 +2118,7 @@ Reentrant — no static state.
 ## entry 514
 
 Treats the input as immutable.
+
+## entry 515
+
+Uses a small fixed-size lookup table.
