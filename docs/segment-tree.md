@@ -1519,3 +1519,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 362
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 363
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
