@@ -1455,3 +1455,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 347
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 348
+
+Walk both pointers from each end inward; advance the smaller side.
