@@ -1607,3 +1607,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 402
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 403
+
+Merge intervals: sort by start; extend the running interval while overlapping.
