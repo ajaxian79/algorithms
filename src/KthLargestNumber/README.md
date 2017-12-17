@@ -2192,3 +2192,7 @@ Time complexity: O(n).
 ## entry 532
 
 Caller owns the returned buffer.
+
+## entry 533
+
+Two passes: one to count, one to fill.
