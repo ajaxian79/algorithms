@@ -1647,3 +1647,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 396
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 397
+
+LIS via patience: each pile holds the smallest tail of length k.
