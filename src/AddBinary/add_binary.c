@@ -241,3 +241,4 @@ char* add_binary(const char* a, const char* b) {
 // note 199: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 200: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 201: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 202: Fenwick supports prefix-sum updates in O(log n) with a flat array.
