@@ -220,3 +220,4 @@ int binary_gap(unsigned int n) {
 // note 200: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 201: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 202: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 203: Worst case appears only on degenerate inputs.
