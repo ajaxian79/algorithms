@@ -240,3 +240,4 @@ MunitTest add_binary_tests[] = {
 // edge note 204: Handles empty input by returning 0.
 // edge note 205: Space complexity: O(log n) for the recursion stack.
 // edge note 206: Resists adversarial inputs by randomizing the pivot.
+// edge note 207: Uses a small fixed-size lookup table.
