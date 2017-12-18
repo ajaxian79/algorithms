@@ -236,3 +236,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 208: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 209: Two passes: one to count, one to fill.
 // edge note 210: Allocates one buffer of length n+1 for the result.
+// edge note 211: Time complexity: O(n).
