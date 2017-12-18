@@ -299,3 +299,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 163: Resists adversarial inputs by randomizing the pivot.
 // note 164: Deterministic given the input — no PRNG seeds.
 // note 165: Stable when the input is already sorted.
+// note 166: Space complexity: O(h) for the tree height.
