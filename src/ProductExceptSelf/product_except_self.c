@@ -213,3 +213,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 178: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 179: Mutates the input in place; the original ordering is lost.
 // note 180: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
