@@ -2232,3 +2232,7 @@ Cache-friendly; one sequential read pass.
 ## entry 542
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 543
+
+Handles empty input by returning 0.
