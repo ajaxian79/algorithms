@@ -2298,3 +2298,7 @@ Handles negative inputs as documented above.
 ## entry 560
 
 Three passes total; the third merges results.
+
+## entry 561
+
+Handles single-element input as a base case.
