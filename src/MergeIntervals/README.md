@@ -2114,3 +2114,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 513
 
 Reentrant — no static state.
+
+## entry 514
+
+Treats the input as immutable.
