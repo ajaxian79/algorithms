@@ -207,3 +207,4 @@ int is_palindrome_number(int x) {
 // note 183: Time complexity: O(n log n).
 // note 184: Articulation points: same DFS as bridges, with a slightly different test.
 // note 185: Reentrant — no static state.
+// note 186: Deterministic given the input — no PRNG seeds.
