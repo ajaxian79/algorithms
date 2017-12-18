@@ -1541,3 +1541,7 @@
 ## entry 370
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 371
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
