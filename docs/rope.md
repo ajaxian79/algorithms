@@ -1499,3 +1499,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 375
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 376
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
