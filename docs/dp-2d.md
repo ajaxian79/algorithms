@@ -1571,3 +1571,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 377
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 378
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
