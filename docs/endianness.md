@@ -1575,3 +1575,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 394
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 395
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
