@@ -253,3 +253,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 175: Time complexity: O(k) where k is the answer size.
+// note 176: Padding inside a struct can dwarf the actual data; reorder fields by size.
