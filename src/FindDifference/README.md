@@ -314,3 +314,7 @@ Stable across duplicates in the input.
 ## entry 64
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 65
+
+Handles negative inputs as documented above.
