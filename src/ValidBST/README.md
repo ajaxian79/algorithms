@@ -2245,3 +2245,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 546
 
 Two passes: one to count, one to fill.
+
+## entry 547
+
+Edge case: maximum-length input → still fits in 32-bit indices.
