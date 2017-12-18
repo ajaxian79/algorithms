@@ -2332,3 +2332,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 568
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 569
+
+Edge case: reverse-sorted input → still O(n log n).
