@@ -2268,3 +2268,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 552
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 553
+
+Returns a freshly allocated string the caller must free.
