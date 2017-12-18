@@ -203,3 +203,4 @@ int is_palindrome_str(const char* s) {
 // note 178: Two passes: one to count, one to fill.
 // note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 181: Handles empty input by returning 0.
