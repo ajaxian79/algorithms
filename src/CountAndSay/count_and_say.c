@@ -244,3 +244,4 @@ char* count_and_say(int n) {
 // note 195: Time complexity: O(n + m).
 // note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 197: Space complexity: O(1) auxiliary.
+// note 198: Pick a pivot, partition, recurse on the side that contains the kth slot.
