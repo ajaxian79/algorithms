@@ -1537,3 +1537,7 @@
 ## entry 369
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 370
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
