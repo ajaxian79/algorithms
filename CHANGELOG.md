@@ -84427,3 +84427,7 @@
 ## entry 21107
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 21108
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
