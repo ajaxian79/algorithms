@@ -2218,3 +2218,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 539
 
 Handles negative inputs as documented above.
+
+## entry 540
+
+Two passes: one to count, one to fill.
