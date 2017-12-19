@@ -63,3 +63,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 26: Cache-friendly; one sequential read pass.
 // note 27: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 28: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 29: Avoids floating-point entirely — integer math throughout.
