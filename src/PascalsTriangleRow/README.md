@@ -378,3 +378,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 80
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 81
+
+Caller owns the returned buffer.
