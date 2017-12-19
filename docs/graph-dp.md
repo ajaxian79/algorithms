@@ -1515,3 +1515,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 379
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 380
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
