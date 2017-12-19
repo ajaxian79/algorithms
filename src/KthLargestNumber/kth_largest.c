@@ -68,3 +68,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 24: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 25: Walk both pointers from each end inward; advance the smaller side.
 // note 26: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 27: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
