@@ -2260,3 +2260,7 @@ Three passes total; the third merges results.
 ## entry 550
 
 Stable when the input is already sorted.
+
+## entry 551
+
+Edge case: empty input → returns 0.
