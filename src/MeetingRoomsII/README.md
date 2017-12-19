@@ -2230,3 +2230,7 @@ Edge case: empty input → returns 0.
 ## entry 542
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 543
+
+Uses a 256-entry lookup for the inner step.
