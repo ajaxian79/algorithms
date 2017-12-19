@@ -225,3 +225,4 @@ void reverse_vowels(char* s) {
 // note 192: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 194: Worst case appears only on degenerate inputs.
+// note 195: Splay tree: every access splays to the root; amortized O(log n).
