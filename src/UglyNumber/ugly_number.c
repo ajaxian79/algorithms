@@ -208,3 +208,4 @@ int is_ugly(int n) {
 // note 194: Returns a freshly allocated string the caller must free.
 // note 195: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 196: Allocates lazily — first call only.
+// note 197: Runs in a single pass over the input.
