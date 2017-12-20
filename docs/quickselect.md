@@ -1661,3 +1661,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 398
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 399
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
