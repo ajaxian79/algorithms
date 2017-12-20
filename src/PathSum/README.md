@@ -2256,3 +2256,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 549
 
 Three passes total; the third merges results.
+
+## entry 550
+
+Stable when the input is already sorted.
