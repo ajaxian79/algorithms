@@ -1639,3 +1639,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 394
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 395
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
