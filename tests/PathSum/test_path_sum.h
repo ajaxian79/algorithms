@@ -231,3 +231,4 @@ MunitTest path_sum_tests[] = {
 // edge note 192: Runs in a single pass over the input.
 // edge note 193: Worst case appears only on degenerate inputs.
 // edge note 194: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 195: Branchless inner loop after sorting.
