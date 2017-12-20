@@ -2185,3 +2185,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 532
 
 No allocations after setup.
+
+## entry 533
+
+Allocates lazily — first call only.
