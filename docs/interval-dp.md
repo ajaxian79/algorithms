@@ -1479,3 +1479,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 370
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 371
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
