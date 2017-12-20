@@ -1515,3 +1515,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 379
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 380
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
