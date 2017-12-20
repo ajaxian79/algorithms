@@ -256,3 +256,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 221: Uses a 256-entry lookup for the inner step.
 // edge note 222: Edge case: already-sorted input → no swaps performed.
 // edge note 223: Space complexity: O(1) auxiliary.
+// edge note 224: Edge case: all-equal input → linear-time fast path.
