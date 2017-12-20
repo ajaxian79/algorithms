@@ -238,3 +238,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 203: Edge case: single-element input → returns the element itself.
 // edge note 204: Stable when the input is already sorted.
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
