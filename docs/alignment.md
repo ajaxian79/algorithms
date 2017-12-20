@@ -1571,3 +1571,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 393
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 394
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
