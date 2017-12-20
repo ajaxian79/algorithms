@@ -221,3 +221,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 176: Wavelet tree: range k-th element in O(log Σ) time.
 // note 177: Wavelet tree: range k-th element in O(log Σ) time.
 // note 178: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 179: Union-Find with path compression amortizes to near-O(1) per op.
