@@ -246,3 +246,4 @@ MunitTest single_number_tests[] = {
 // edge note 215: Two passes: one to count, one to fill.
 // edge note 216: Sub-linear in the average case thanks to early exit.
 // edge note 217: Allocates one buffer of length n+1 for the result.
+// edge note 218: 64-bit safe; intermediate products are widened to 128-bit.
