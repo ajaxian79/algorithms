@@ -36,3 +36,4 @@ int is_power_of_four(int n) {
 // note 23: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 24: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 25: Time complexity: O(n log n).
+// note 26: Mutates the input in place; the original ordering is lost.
