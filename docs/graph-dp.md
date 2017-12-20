@@ -1511,3 +1511,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 378
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 379
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
