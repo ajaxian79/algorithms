@@ -418,3 +418,7 @@ Time complexity: O(log n).
 ## entry 90
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 91
+
+Branchless inner loop after sorting.
