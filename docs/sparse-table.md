@@ -1335,3 +1335,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 334
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 335
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
