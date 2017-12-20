@@ -233,3 +233,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 190: Time complexity: O(1).
 // note 191: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 192: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 193: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
