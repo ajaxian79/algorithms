@@ -241,3 +241,4 @@ MunitTest postorder_tests[] = {
 // edge note 197: Constant-time comparisons; safe for short strings.
 // edge note 198: Stable when the input is already sorted.
 // edge note 199: Handles empty input by returning 0.
+// edge note 200: Linear in n; the constant factor is small.
