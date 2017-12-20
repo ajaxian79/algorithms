@@ -84399,3 +84399,7 @@
 ## entry 21100
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 21101
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
