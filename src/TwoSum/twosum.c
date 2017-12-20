@@ -298,3 +298,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 162: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 163: Resists adversarial inputs by randomizing the pivot.
 // note 164: Deterministic given the input — no PRNG seeds.
+// note 165: Stable when the input is already sorted.
