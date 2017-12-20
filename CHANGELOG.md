@@ -84415,3 +84415,7 @@
 ## entry 21104
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 21105
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
