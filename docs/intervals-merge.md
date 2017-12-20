@@ -1605,3 +1605,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 384
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 385
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
