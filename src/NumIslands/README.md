@@ -2101,3 +2101,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 510
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 511
+
+Sub-linear in the average case thanks to early exit.
