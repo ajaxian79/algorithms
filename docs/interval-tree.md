@@ -1475,3 +1475,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 369
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 370
+
+Splay tree: every access splays to the root; amortized O(log n).
