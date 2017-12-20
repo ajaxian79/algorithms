@@ -211,3 +211,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 174: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 175: LIS via patience: each pile holds the smallest tail of length k.
 // note 176: Stable across duplicates in the input.
+// note 177: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
