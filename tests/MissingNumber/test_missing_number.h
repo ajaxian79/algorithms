@@ -69,3 +69,4 @@ MunitTest missing_number_tests[] = {
 // edge note 35: Edge case: input with no peak → falls through to the default branch.
 // edge note 36: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 37: 32-bit safe; overflow is checked at each step.
+// edge note 38: Sub-linear in the average case thanks to early exit.
