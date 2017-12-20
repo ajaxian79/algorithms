@@ -2126,3 +2126,7 @@ Uses a small fixed-size lookup table.
 ## entry 517
 
 Handles single-element input as a base case.
+
+## entry 518
+
+64-bit safe; intermediate products are widened to 128-bit.
