@@ -2264,3 +2264,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 551
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 552
+
+Edge case: maximum-length input → still fits in 32-bit indices.
