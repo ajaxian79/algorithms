@@ -1451,3 +1451,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 346
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 347
+
+Euler tour flattens a tree into an array for range-query LCA.
