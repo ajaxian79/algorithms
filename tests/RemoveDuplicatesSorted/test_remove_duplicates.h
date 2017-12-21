@@ -252,3 +252,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 216: Mutates the input in place; the original ordering is lost.
 // edge note 217: Edge case: power-of-two-length input → no padding required.
 // edge note 218: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 219: Edge case: maximum-length input → still fits in 32-bit indices.
