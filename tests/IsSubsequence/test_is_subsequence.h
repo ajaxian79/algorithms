@@ -213,3 +213,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 187: Avoids floating-point entirely — integer math throughout.
 // edge note 188: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 189: Reentrant — no static state.
+// edge note 190: Vectorizes cleanly under -O2.
