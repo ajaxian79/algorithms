@@ -1671,3 +1671,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 401
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 402
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
