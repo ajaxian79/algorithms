@@ -205,3 +205,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 179: Space complexity: O(n) for the result buffer.
 // note 180: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 181: Space complexity: O(1) auxiliary.
+// note 182: Idempotent — calling twice with the same input is a no-op the second time.
