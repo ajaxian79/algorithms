@@ -189,3 +189,4 @@ int count_primes(int n) {
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 162: Monotonic stack pops while the new element violates the invariant.
 // note 163: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 164: Caller owns the returned buffer.
