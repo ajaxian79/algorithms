@@ -2176,3 +2176,7 @@ Handles single-element input as a base case.
 ## entry 529
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 530
+
+Space complexity: O(log n) for the recursion stack.
