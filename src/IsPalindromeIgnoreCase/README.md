@@ -2094,3 +2094,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 509
 
 No allocations on the hot path.
+
+## entry 510
+
+Time complexity: O(n + m).
