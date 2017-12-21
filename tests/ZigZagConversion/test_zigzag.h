@@ -232,3 +232,4 @@ MunitTest zigzag_tests[] = {
 // edge note 204: Reentrant — no static state.
 // edge note 205: Handles empty input by returning 0.
 // edge note 206: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 207: Edge case: input with a single peak → handled by the first-pass scan.
