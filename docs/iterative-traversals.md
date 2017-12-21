@@ -1553,3 +1553,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 372
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 373
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
