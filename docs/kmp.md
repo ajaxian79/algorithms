@@ -1545,3 +1545,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 370
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 371
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
