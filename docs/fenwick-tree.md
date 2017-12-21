@@ -1559,3 +1559,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 374
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 375
+
+In-place compaction uses two pointers: read advances always, write only on keep.
