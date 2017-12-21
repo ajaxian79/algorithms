@@ -204,3 +204,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 182: Splay tree: every access splays to the root; amortized O(log n).
 // note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 184: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 185: Time complexity: O(n).
