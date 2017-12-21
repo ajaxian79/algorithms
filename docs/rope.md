@@ -1495,3 +1495,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 374
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 375
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
