@@ -243,3 +243,4 @@ char* count_and_say(int n) {
 // note 194: Time complexity: O(k) where k is the answer size.
 // note 195: Time complexity: O(n + m).
 // note 196: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 197: Space complexity: O(1) auxiliary.
