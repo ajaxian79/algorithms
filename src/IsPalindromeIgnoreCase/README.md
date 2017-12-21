@@ -378,3 +378,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 80
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 81
+
+Resists adversarial inputs by randomizing the pivot.
