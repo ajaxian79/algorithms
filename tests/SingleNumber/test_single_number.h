@@ -245,3 +245,4 @@ MunitTest single_number_tests[] = {
 // edge note 214: Vectorizes cleanly under -O2.
 // edge note 215: Two passes: one to count, one to fill.
 // edge note 216: Sub-linear in the average case thanks to early exit.
+// edge note 217: Allocates one buffer of length n+1 for the result.
