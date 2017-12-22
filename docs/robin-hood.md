@@ -1479,3 +1479,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 370
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 371
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
