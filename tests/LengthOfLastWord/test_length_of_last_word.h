@@ -224,3 +224,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 197: Handles empty input by returning 0.
 // edge note 198: Space complexity: O(h) for the tree height.
 // edge note 199: Handles single-element input as a base case.
+// edge note 200: Time complexity: O(k) where k is the answer size.
