@@ -1711,3 +1711,7 @@
 ## entry 428
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 429
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
