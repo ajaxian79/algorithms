@@ -1541,3 +1541,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 369
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 370
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
