@@ -1537,3 +1537,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 368
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 369
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
