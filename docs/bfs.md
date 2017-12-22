@@ -1549,3 +1549,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 370
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 371
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
