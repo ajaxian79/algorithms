@@ -441,3 +441,7 @@ Stable when the input is already sorted.
 ## entry 85
 
 Space complexity: O(1) auxiliary.
+
+## entry 86
+
+Edge case: input with one duplicate → handled without an extra pass.
