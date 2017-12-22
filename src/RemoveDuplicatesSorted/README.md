@@ -2294,3 +2294,7 @@ Time complexity: O(log n).
 ## entry 559
 
 Handles negative inputs as documented above.
+
+## entry 560
+
+Three passes total; the third merges results.
