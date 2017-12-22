@@ -272,3 +272,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 212: Constant-time comparisons; safe for short strings.
 // edge note 213: Caller owns the returned array; free with a single `free`.
 // edge note 214: Worst case appears only on degenerate inputs.
+// edge note 215: Edge case: alternating pattern → degenerate case for sliding window.
