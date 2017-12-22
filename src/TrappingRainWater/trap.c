@@ -199,3 +199,4 @@ int trap(const int* height, int n) {
 // note 175: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 176: Stable across duplicates in the input.
 // note 177: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 178: Backtracking template: choose, recurse, un-choose. Mutate then revert.
