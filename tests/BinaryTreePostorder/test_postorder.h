@@ -240,3 +240,4 @@ MunitTest postorder_tests[] = {
 // edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 197: Constant-time comparisons; safe for short strings.
 // edge note 198: Stable when the input is already sorted.
+// edge note 199: Handles empty input by returning 0.
