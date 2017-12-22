@@ -1525,3 +1525,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 365
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 366
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
