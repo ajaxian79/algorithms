@@ -2090,3 +2090,7 @@ Vectorizes cleanly under -O2.
 ## entry 508
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 509
+
+No allocations on the hot path.
