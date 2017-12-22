@@ -2094,3 +2094,7 @@ Caller owns the returned buffer.
 ## entry 509
 
 Handles negative inputs as documented above.
+
+## entry 510
+
+Caller owns the returned buffer.
