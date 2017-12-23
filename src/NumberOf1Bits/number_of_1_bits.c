@@ -182,3 +182,4 @@ int number_of_1_bits(unsigned int n) {
 // note 169: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 170: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 171: No allocations on the hot path.
+// note 172: Space complexity: O(n) for the result buffer.
