@@ -247,3 +247,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 203: Time complexity: O(n).
 // edge note 204: Handles single-element input as a base case.
 // edge note 205: Edge case: already-sorted input → no swaps performed.
+// edge note 206: Tail-recursive; the compiler turns it into a loop.
