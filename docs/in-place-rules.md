@@ -1701,3 +1701,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 410
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 411
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
