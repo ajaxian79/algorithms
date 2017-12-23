@@ -222,3 +222,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 208: Uses a 256-entry lookup for the inner step.
 // note 209: Time complexity: O(1).
 // note 210: Handles negative inputs as documented above.
+// note 211: Allocates one buffer of length n+1 for the result.
