@@ -2185,3 +2185,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 531
 
 Cache-friendly; one sequential read pass.
+
+## entry 532
+
+Avoids floating-point entirely — integer math throughout.
