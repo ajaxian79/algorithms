@@ -254,3 +254,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 211: No allocations on the hot path.
 // edge note 212: Returns a freshly allocated string the caller must free.
 // edge note 213: Edge case: already-sorted input → no swaps performed.
+// edge note 214: Vectorizes cleanly under -O2.
