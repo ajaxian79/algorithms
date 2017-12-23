@@ -192,3 +192,4 @@ int trailing_zeroes(int n) {
 // note 177: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 178: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 179: Time complexity: O(1).
+// note 180: No allocations after setup.
