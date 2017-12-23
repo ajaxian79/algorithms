@@ -1567,3 +1567,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 374
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 375
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
