@@ -1647,3 +1647,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 395
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 396
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
