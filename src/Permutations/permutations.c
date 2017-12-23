@@ -220,3 +220,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 175: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 176: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 178: Heap when you only need top-k; full sort is wasted work.
