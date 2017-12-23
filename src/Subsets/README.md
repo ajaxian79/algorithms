@@ -2235,3 +2235,7 @@ Linear in n; the constant factor is small.
 ## entry 544
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 545
+
+Time complexity: O(k) where k is the answer size.
