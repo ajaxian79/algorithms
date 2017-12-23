@@ -2266,3 +2266,7 @@ No allocations after setup.
 ## entry 551
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 552
+
+Three passes total; the third merges results.
