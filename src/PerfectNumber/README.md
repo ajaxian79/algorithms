@@ -1985,3 +1985,7 @@ Cache-friendly; one sequential read pass.
 ## entry 481
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 482
+
+Allocates one buffer of length n+1 for the result.
