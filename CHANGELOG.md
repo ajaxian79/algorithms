@@ -84271,3 +84271,7 @@
 ## entry 21068
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 21069
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
