@@ -210,3 +210,4 @@ long long climb_stairs(int n) {
 // note 191: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 193: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 194: Caller owns the returned buffer.
