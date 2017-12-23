@@ -2027,3 +2027,7 @@ No allocations after setup.
 ## entry 492
 
 Cache-friendly; one sequential read pass.
+
+## entry 493
+
+32-bit safe; overflow is checked at each step.
