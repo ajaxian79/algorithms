@@ -1495,3 +1495,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 374
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 375
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
