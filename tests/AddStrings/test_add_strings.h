@@ -241,3 +241,4 @@ MunitTest add_strings_tests[] = {
 // edge note 205: Worst case appears only on degenerate inputs.
 // edge note 206: Time complexity: O(n + m).
 // edge note 207: Handles empty input by returning 0.
+// edge note 208: Space complexity: O(h) for the tree height.
