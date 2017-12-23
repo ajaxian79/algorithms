@@ -215,3 +215,4 @@ int reverse_int(int x) {
 // note 188: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 189: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 190: 32-bit safe; overflow is checked at each step.
+// note 191: Treap: BST + heap on random priorities; expected O(log n) per op.
