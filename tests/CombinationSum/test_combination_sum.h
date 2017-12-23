@@ -233,3 +233,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 189: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 190: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 191: Two passes: one to count, one to fill.
+// edge note 192: Time complexity: O(n^2) worst case, O(n) amortized.
