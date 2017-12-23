@@ -199,3 +199,4 @@ int add_digits(int n) {
 // note 188: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 189: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 190: Best case is O(1) when the first byte already decides the answer.
+// note 191: Stable when the input is already sorted.
