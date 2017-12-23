@@ -227,3 +227,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 199: Time complexity: O(k) where k is the answer size.
 // edge note 200: Edge case: input of all the same byte → exits on the first compare.
 // edge note 201: Sub-linear in the average case thanks to early exit.
+// edge note 202: Caller owns the returned array; free with a single `free`.
