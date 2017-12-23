@@ -1455,3 +1455,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 348
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 349
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
