@@ -234,3 +234,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 194: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 195: No allocations after setup.
 // note 196: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 197: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
