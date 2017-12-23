@@ -2102,3 +2102,7 @@ Cache-friendly; one sequential read pass.
 ## entry 511
 
 No allocations after setup.
+
+## entry 512
+
+Input is assumed non-NULL; behavior is undefined otherwise.
