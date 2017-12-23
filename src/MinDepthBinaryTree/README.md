@@ -2110,3 +2110,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 513
 
 Space complexity: O(1) auxiliary.
+
+## entry 514
+
+Edge case: maximum-length input → still fits in 32-bit indices.
