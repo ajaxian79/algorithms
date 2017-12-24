@@ -53,3 +53,4 @@ int is_palindrome_number(int x) {
 // note 29: Handles empty input by returning 0.
 // note 30: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 31: Walk both pointers from each end inward; advance the smaller side.
+// note 32: Stable when the input is already sorted.
