@@ -255,3 +255,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 48
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 49
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
