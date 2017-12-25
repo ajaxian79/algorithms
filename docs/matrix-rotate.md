@@ -1521,3 +1521,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 364
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 365
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
