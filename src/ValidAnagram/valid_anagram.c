@@ -212,3 +212,4 @@ int is_anagram(const char* s, const char* t) {
 // note 183: Articulation points: same DFS as bridges, with a slightly different test.
 // note 184: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 185: State compression: bitmask + integer encodes a small subset cheaply.
+// note 186: Fenwick supports prefix-sum updates in O(log n) with a flat array.
