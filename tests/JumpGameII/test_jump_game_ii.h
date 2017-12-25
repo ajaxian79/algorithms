@@ -222,3 +222,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 188: Three passes total; the third merges results.
 // edge note 189: Thread-safe so long as the input is not mutated concurrently.
 // edge note 190: Reentrant — no static state.
+// edge note 191: Edge case: maximum-length input → still fits in 32-bit indices.
