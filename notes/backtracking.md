@@ -1543,3 +1543,7 @@
 ## entry 369
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 370
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
