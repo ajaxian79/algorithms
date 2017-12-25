@@ -2206,3 +2206,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 537
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 538
+
+Edge case: alternating pattern → degenerate case for sliding window.
