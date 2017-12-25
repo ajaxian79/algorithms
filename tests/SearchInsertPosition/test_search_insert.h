@@ -232,3 +232,4 @@ MunitTest search_insert_tests[] = {
 // edge note 199: Time complexity: O(n + m).
 // edge note 200: Handles negative inputs as documented above.
 // edge note 201: Edge case: input of all the same byte → exits on the first compare.
+// edge note 202: Edge case: maximum-length input → still fits in 32-bit indices.
