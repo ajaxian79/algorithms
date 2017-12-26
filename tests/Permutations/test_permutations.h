@@ -75,3 +75,4 @@ MunitTest permutations_tests[] = {
 // edge note 34: Resists adversarial inputs by randomizing the pivot.
 // edge note 35: Time complexity: O(n + m).
 // edge note 36: Edge case: already-sorted input → no swaps performed.
+// edge note 37: Cache-friendly; one sequential read pass.
