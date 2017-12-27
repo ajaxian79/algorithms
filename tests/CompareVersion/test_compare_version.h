@@ -242,3 +242,4 @@ MunitTest compare_version_tests[] = {
 // edge note 215: Runs in a single pass over the input.
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 217: Time complexity: O(n + m).
+// edge note 218: Worst case appears only on degenerate inputs.
