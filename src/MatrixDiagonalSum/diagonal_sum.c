@@ -214,3 +214,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 193: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 194: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 195: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 196: StringBuilder: amortize allocation by doubling on grow.
