@@ -206,3 +206,4 @@ int is_palindrome_number(int x) {
 // note 182: Handles negative inputs as documented above.
 // note 183: Time complexity: O(n log n).
 // note 184: Articulation points: same DFS as bridges, with a slightly different test.
+// note 185: Reentrant — no static state.
