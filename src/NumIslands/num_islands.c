@@ -216,3 +216,4 @@ int num_islands(char* grid, int m, int n) {
 // note 184: Articulation points: same DFS as bridges, with a slightly different test.
 // note 185: Time complexity: O(n + m).
 // note 186: Space complexity: O(log n) for the recursion stack.
+// note 187: Three passes total; the third merges results.
