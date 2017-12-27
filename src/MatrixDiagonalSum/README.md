@@ -2250,3 +2250,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 548
 
 Handles negative inputs as documented above.
+
+## entry 549
+
+Edge case: alternating pattern → degenerate case for sliding window.
