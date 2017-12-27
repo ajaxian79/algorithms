@@ -240,3 +240,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 208: Time complexity: O(log n).
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 210: Uses a small fixed-size lookup table.
+// edge note 211: Allocates one buffer of length n+1 for the result.
