@@ -1457,3 +1457,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 348
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 349
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
