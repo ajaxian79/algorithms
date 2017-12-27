@@ -2206,3 +2206,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 537
 
 Space complexity: O(h) for the tree height.
+
+## entry 538
+
+Vectorizes cleanly under -O2.
