@@ -2260,3 +2260,7 @@ Time complexity: O(n + m).
 ## entry 550
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 551
+
+Edge case: integer-max input → guarded by the explicit overflow check.
