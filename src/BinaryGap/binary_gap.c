@@ -219,3 +219,4 @@ int binary_gap(unsigned int n) {
 // note 199: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 200: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 201: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 202: BFS layers carry implicit shortest-path distance in unweighted graphs.
