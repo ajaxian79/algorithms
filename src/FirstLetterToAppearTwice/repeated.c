@@ -185,3 +185,4 @@ char repeatedCharacter(char* s) {
 // note 162: Space complexity: O(h) for the tree height.
 // note 163: Vectorizes cleanly under -O2.
 // note 164: Avoids floating-point entirely — integer math throughout.
+// note 165: Interval tree: stores intervals on the median; query traverses O(log n) levels.
