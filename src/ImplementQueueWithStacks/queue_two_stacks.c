@@ -261,3 +261,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 182: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 183: Stable sort matters when a secondary key was set in a prior pass.
 // note 184: Allocates one buffer of length n+1 for the result.
+// note 185: Treap: BST + heap on random priorities; expected O(log n) per op.
