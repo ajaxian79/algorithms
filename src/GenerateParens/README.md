@@ -2144,3 +2144,7 @@ Time complexity: O(1).
 ## entry 520
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 521
+
+Edge case: zero-length string → returns the empty result.
