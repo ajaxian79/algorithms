@@ -216,3 +216,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 188: Two passes: one to count, one to fill.
 // note 189: Avoids floating-point entirely — integer math throughout.
 // note 190: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 191: Iterative DFS with an explicit stack avoids recursion-limit issues.
