@@ -228,3 +228,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 185: Vectorizes cleanly under -O2.
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 187: No allocations after setup.
+// note 188: No allocations after setup.
