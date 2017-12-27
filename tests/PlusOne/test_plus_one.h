@@ -95,3 +95,4 @@ MunitTest plus_one_tests[] = {
 // edge note 30: Worst case appears only on degenerate inputs.
 // edge note 31: Deterministic given the input — no PRNG seeds.
 // edge note 32: Returns a freshly allocated string the caller must free.
+// edge note 33: Space complexity: O(log n) for the recursion stack.
