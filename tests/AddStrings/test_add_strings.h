@@ -240,3 +240,4 @@ MunitTest add_strings_tests[] = {
 // edge note 204: Edge case: all-equal input → linear-time fast path.
 // edge note 205: Worst case appears only on degenerate inputs.
 // edge note 206: Time complexity: O(n + m).
+// edge note 207: Handles empty input by returning 0.
