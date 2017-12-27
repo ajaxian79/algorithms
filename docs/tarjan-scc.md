@@ -243,3 +243,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 61
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 62
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
