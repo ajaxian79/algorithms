@@ -212,3 +212,4 @@ int length_of_last_word(const char* s) {
 // note 194: Thread-safe so long as the input is not mutated concurrently.
 // note 195: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 196: Reentrant — no static state.
+// note 197: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
