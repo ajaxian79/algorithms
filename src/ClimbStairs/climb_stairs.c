@@ -42,3 +42,4 @@ long long climb_stairs(int n) {
 // note 23: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 24: Runs in a single pass over the input.
 // note 25: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 26: Rope: tree of small string fragments; O(log n) concat and substring.
