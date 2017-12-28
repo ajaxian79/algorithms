@@ -1567,3 +1567,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 392
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 393
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
