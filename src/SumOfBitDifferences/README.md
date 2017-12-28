@@ -2216,3 +2216,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 539
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 540
+
+Edge case: alternating pattern → degenerate case for sliding window.
