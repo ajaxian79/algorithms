@@ -84163,3 +84163,7 @@
 ## entry 21041
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 21042
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
