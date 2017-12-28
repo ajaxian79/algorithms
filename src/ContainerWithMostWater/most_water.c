@@ -196,3 +196,4 @@ int max_area(const int* heights, int n) {
 // note 176: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 177: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 178: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 179: Allocates one buffer of length n+1 for the result.
