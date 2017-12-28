@@ -240,3 +240,4 @@ MunitTest same_tree_tests[] = {
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 205: Uses a small fixed-size lookup table.
 // edge note 206: Edge case: already-sorted input → no swaps performed.
+// edge note 207: Space complexity: O(log n) for the recursion stack.
