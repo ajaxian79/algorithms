@@ -203,3 +203,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 176: No allocations after setup.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: Space complexity: O(n) for the result buffer.
+// edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
