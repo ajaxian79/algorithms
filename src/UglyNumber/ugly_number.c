@@ -207,3 +207,4 @@ int is_ugly(int n) {
 // note 193: Union-Find with path compression amortizes to near-O(1) per op.
 // note 194: Returns a freshly allocated string the caller must free.
 // note 195: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 196: Allocates lazily — first call only.
