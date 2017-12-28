@@ -1533,3 +1533,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 367
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 368
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
