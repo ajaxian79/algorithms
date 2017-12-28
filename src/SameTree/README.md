@@ -416,3 +416,7 @@ Uses a small fixed-size lookup table.
 ## entry 90
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 91
+
+Time complexity: O(1).
