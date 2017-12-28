@@ -1407,3 +1407,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 352
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 353
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
