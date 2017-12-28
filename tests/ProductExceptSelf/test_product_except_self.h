@@ -252,3 +252,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 216: Runs in a single pass over the input.
 // edge note 217: Reentrant — no static state.
 // edge note 218: Two passes: one to count, one to fill.
+// edge note 219: Deterministic given the input — no PRNG seeds.
