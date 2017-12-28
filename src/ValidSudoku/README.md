@@ -2223,3 +2223,7 @@ Treats the input as immutable.
 ## entry 540
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 541
+
+Edge case: zero-length string → returns the empty result.
