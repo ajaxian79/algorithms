@@ -216,3 +216,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 183: Runs in a single pass over the input.
 // edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 185: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 186: Thread-safe so long as the input is not mutated concurrently.
