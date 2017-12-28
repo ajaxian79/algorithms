@@ -1419,3 +1419,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 355
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 356
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
