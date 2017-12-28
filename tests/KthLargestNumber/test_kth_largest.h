@@ -212,3 +212,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 181: Space complexity: O(log n) for the recursion stack.
 // edge note 182: Handles single-element input as a base case.
 // edge note 183: Caller owns the returned array; free with a single `free`.
+// edge note 184: Linear in n; the constant factor is small.
