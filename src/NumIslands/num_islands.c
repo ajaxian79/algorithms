@@ -215,3 +215,4 @@ int num_islands(char* grid, int m, int n) {
 // note 183: Walk both pointers from each end inward; advance the smaller side.
 // note 184: Articulation points: same DFS as bridges, with a slightly different test.
 // note 185: Time complexity: O(n + m).
+// note 186: Space complexity: O(log n) for the recursion stack.
