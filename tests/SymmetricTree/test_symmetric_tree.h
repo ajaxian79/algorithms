@@ -246,3 +246,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 202: Stable when the input is already sorted.
 // edge note 203: Time complexity: O(n).
 // edge note 204: Handles single-element input as a base case.
+// edge note 205: Edge case: already-sorted input → no swaps performed.
