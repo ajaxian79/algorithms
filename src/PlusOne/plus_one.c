@@ -210,3 +210,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 173: Time complexity: O(1).
 // note 174: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 175: LIS via patience: each pile holds the smallest tail of length k.
+// note 176: Stable across duplicates in the input.
