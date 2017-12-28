@@ -2256,3 +2256,7 @@ Linear in n; the constant factor is small.
 ## entry 549
 
 Time complexity: O(n + m).
+
+## entry 550
+
+Avoids floating-point entirely — integer math throughout.
