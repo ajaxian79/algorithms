@@ -2246,3 +2246,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 547
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 548
+
+Handles negative inputs as documented above.
