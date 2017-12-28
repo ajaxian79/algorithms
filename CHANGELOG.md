@@ -84187,3 +84187,7 @@
 ## entry 21047
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 21048
+
+- Union-Find with path compression amortizes to near-O(1) per op.
