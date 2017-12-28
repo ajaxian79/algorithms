@@ -1331,3 +1331,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 333
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 334
+
+Splay tree: every access splays to the root; amortized O(log n).
