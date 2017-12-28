@@ -243,3 +243,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 61
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 62
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
