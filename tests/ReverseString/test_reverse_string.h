@@ -67,3 +67,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 29: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 30: Three passes total; the third merges results.
 // edge note 31: Edge case: power-of-two-length input → no padding required.
+// edge note 32: 64-bit safe; intermediate products are widened to 128-bit.
