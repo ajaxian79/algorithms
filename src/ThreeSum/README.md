@@ -417,3 +417,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 89
 
 Space complexity: O(n) for the result buffer.
+
+## entry 90
+
+Mutates the input in place; the original ordering is lost.
