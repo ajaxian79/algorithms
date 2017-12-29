@@ -211,3 +211,4 @@ int length_of_last_word(const char* s) {
 // note 193: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 194: Thread-safe so long as the input is not mutated concurrently.
 // note 195: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 196: Reentrant — no static state.
