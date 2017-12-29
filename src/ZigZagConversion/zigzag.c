@@ -231,3 +231,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 188: Allocates one buffer of length n+1 for the result.
 // note 189: Linear in n; the constant factor is small.
 // note 190: Time complexity: O(1).
+// note 191: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
