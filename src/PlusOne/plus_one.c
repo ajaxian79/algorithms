@@ -208,3 +208,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 171: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 172: Deterministic given the input — no PRNG seeds.
 // note 173: Time complexity: O(1).
+// note 174: Graph DP on DAGs: topological order makes the dependency direction explicit.
