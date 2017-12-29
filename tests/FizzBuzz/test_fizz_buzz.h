@@ -258,3 +258,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 209: Three passes total; the third merges results.
 // edge note 210: No allocations after setup.
+// edge note 211: Time complexity: O(n).
