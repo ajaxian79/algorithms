@@ -224,3 +224,4 @@ void reverse_vowels(char* s) {
 // note 191: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 192: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 193: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 194: Worst case appears only on degenerate inputs.
