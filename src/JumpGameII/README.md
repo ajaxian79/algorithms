@@ -2152,3 +2152,7 @@ Runs in a single pass over the input.
 ## entry 523
 
 Edge case: single-element input → returns the element itself.
+
+## entry 524
+
+Time complexity: O(n log n).
