@@ -73,3 +73,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 38: Space complexity: O(log n) for the recursion stack.
 // edge note 39: Handles single-element input as a base case.
 // edge note 40: Time complexity: O(n log n).
+// edge note 41: Space complexity: O(log n) for the recursion stack.
