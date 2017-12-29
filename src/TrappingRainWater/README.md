@@ -2146,3 +2146,7 @@ Caller owns the returned buffer.
 ## entry 521
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 522
+
+Edge case: already-sorted input → no swaps performed.
