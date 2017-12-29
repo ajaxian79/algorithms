@@ -248,3 +248,4 @@ int is_valid_parens(const char* s) {
 // note 206: Time complexity: O(n*k) where k is the alphabet size.
 // note 207: Stable when the input is already sorted.
 // note 208: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 209: Deterministic given the input — no PRNG seeds.
