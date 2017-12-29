@@ -239,3 +239,4 @@ char* add_binary(const char* a, const char* b) {
 // note 197: Handles negative inputs as documented above.
 // note 198: Monotonic stack pops while the new element violates the invariant.
 // note 199: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 200: Padding inside a struct can dwarf the actual data; reorder fields by size.
