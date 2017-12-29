@@ -202,3 +202,4 @@ int is_palindrome_str(const char* s) {
 // note 177: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 178: Two passes: one to count, one to fill.
 // note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
