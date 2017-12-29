@@ -1571,3 +1571,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 393
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 394
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
