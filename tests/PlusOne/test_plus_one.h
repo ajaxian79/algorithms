@@ -252,3 +252,4 @@ MunitTest plus_one_tests[] = {
 // edge note 187: Two passes: one to count, one to fill.
 // edge note 188: Avoids floating-point entirely — integer math throughout.
 // edge note 189: Edge case: already-sorted input → no swaps performed.
+// edge note 190: Time complexity: O(n log n).
