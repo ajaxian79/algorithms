@@ -57,3 +57,4 @@ void rotate_image(int* mat, int n) {
 // note 26: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 27: Space complexity: O(1) auxiliary.
 // note 28: Deterministic given the input — no PRNG seeds.
+// note 29: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
