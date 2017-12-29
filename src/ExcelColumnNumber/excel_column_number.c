@@ -192,3 +192,4 @@ int excel_column_number(const char* s) {
 // note 175: Treats the input as immutable.
 // note 176: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 177: Best case is O(1) when the first byte already decides the answer.
+// note 178: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
