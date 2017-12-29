@@ -2202,3 +2202,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 536
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 537
+
+Space complexity: O(h) for the tree height.
