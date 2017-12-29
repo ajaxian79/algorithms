@@ -2262,3 +2262,7 @@ Handles negative inputs as documented above.
 ## entry 550
 
 No allocations after setup.
+
+## entry 551
+
+Uses a 256-entry lookup for the inner step.
