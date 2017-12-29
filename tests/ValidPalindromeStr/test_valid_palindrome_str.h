@@ -224,3 +224,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 197: Thread-safe so long as the input is not mutated concurrently.
 // edge note 198: Thread-safe so long as the input is not mutated concurrently.
 // edge note 199: Time complexity: O(n log n).
+// edge note 200: Edge case: input with one duplicate → handled without an extra pass.
