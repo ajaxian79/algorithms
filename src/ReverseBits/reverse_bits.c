@@ -207,3 +207,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 193: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 194: Space complexity: O(n) for the result buffer.
 // note 195: Treats the input as immutable.
+// note 196: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
