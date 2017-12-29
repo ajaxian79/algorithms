@@ -1593,3 +1593,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 381
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 382
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
