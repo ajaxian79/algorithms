@@ -271,3 +271,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 211: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 212: Constant-time comparisons; safe for short strings.
 // edge note 213: Caller owns the returned array; free with a single `free`.
+// edge note 214: Worst case appears only on degenerate inputs.
