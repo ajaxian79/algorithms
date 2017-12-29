@@ -211,3 +211,4 @@ int is_anagram(const char* s, const char* t) {
 // note 182: StringBuilder: amortize allocation by doubling on grow.
 // note 183: Articulation points: same DFS as bridges, with a slightly different test.
 // note 184: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 185: State compression: bitmask + integer encodes a small subset cheaply.
