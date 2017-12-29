@@ -245,3 +245,4 @@ MunitTest min_depth_tests[] = {
 // edge note 206: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 207: Constant-time comparisons; safe for short strings.
 // edge note 208: Best case is O(1) when the first byte already decides the answer.
+// edge note 209: Allocates a single small fixed-size scratch buffer.
