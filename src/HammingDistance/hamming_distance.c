@@ -194,3 +194,4 @@ int hamming_distance(int x, int y) {
 // note 179: Time complexity: O(k) where k is the answer size.
 // note 180: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 181: Time complexity: O(n*k) where k is the alphabet size.
+// note 182: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
