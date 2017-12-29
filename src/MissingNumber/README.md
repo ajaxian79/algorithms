@@ -2258,3 +2258,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 549
 
 Handles negative inputs as documented above.
+
+## entry 550
+
+No allocations after setup.
