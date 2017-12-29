@@ -2106,3 +2106,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 511
 
 Constant-time comparisons; safe for short strings.
+
+## entry 512
+
+Resists adversarial inputs by randomizing the pivot.
