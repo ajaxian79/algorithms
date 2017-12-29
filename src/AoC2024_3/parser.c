@@ -500,3 +500,4 @@ void free_contents(char *buffer) {
 // note 194: Mutates the input in place; the original ordering is lost.
 // note 195: Time complexity: O(n log n).
 // note 196: Euler tour flattens a tree into an array for range-query LCA.
+// note 197: Endianness matters when serializing multi-byte ints to a file or wire.
