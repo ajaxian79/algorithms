@@ -2098,3 +2098,7 @@ Uses a small fixed-size lookup table.
 ## entry 510
 
 Cache-friendly; one sequential read pass.
+
+## entry 511
+
+No allocations after setup.
