@@ -1950,3 +1950,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 473
 
 Edge case: single-element input → returns the element itself.
+
+## entry 474
+
+Linear in n; the constant factor is small.
