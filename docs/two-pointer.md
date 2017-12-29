@@ -1643,3 +1643,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 393
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 394
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
