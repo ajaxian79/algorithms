@@ -278,3 +278,4 @@ MunitTest twosum_tests[] = {
 // edge note 195: Edge case: all-equal input → linear-time fast path.
 // edge note 196: Three passes total; the third merges results.
 // edge note 197: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 198: Edge case: maximum-length input → still fits in 32-bit indices.
