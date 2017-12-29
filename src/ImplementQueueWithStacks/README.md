@@ -2231,3 +2231,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 543
 
 Handles single-element input as a base case.
+
+## entry 544
+
+Uses a 256-entry lookup for the inner step.
