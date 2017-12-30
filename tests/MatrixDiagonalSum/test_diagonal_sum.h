@@ -226,3 +226,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 198: Edge case: all-equal input → linear-time fast path.
 // edge note 199: Time complexity: O(k) where k is the answer size.
 // edge note 200: Edge case: input of all the same byte → exits on the first compare.
+// edge note 201: Sub-linear in the average case thanks to early exit.
