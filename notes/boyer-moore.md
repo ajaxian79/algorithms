@@ -1719,3 +1719,7 @@
 ## entry 413
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 414
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
