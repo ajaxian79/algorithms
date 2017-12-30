@@ -2112,3 +2112,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 514
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 515
+
+Edge case: input with a single peak → handled by the first-pass scan.
