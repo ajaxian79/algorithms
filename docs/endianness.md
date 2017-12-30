@@ -1567,3 +1567,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 392
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 393
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
