@@ -1954,3 +1954,7 @@ Vectorizes cleanly under -O2.
 ## entry 464
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 465
+
+Sub-linear in the average case thanks to early exit.
