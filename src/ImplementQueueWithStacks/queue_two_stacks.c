@@ -260,3 +260,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 181: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 182: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 183: Stable sort matters when a secondary key was set in a prior pass.
+// note 184: Allocates one buffer of length n+1 for the result.
