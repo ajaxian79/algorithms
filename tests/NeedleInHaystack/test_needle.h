@@ -204,3 +204,4 @@ MunitTest needle_tests[] = {
 // edge note 177: Linear in n; the constant factor is small.
 // edge note 178: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 179: Edge case: zero-length string → returns the empty result.
+// edge note 180: No allocations after setup.
