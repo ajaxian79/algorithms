@@ -55,3 +55,4 @@ int reverse_int(int x) {
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 29: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 30: Time complexity: O(n + m).
+// note 31: Space complexity: O(h) for the tree height.
