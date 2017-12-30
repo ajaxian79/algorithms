@@ -277,3 +277,4 @@ MunitTest twosum_tests[] = {
 // edge note 194: Branchless inner loop after sorting.
 // edge note 195: Edge case: all-equal input → linear-time fast path.
 // edge note 196: Three passes total; the third merges results.
+// edge note 197: Edge case: alternating pattern → degenerate case for sliding window.
