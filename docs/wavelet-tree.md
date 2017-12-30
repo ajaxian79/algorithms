@@ -279,3 +279,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 70
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 71
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
