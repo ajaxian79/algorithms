@@ -260,3 +260,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 225: Linear in n; the constant factor is small.
 // edge note 226: No allocations on the hot path.
 // edge note 227: Space complexity: O(n) for the result buffer.
+// edge note 228: Three passes total; the third merges results.
