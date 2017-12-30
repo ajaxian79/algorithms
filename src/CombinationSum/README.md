@@ -2171,3 +2171,7 @@ Handles negative inputs as documented above.
 ## entry 528
 
 Constant-time comparisons; safe for short strings.
+
+## entry 529
+
+Time complexity: O(n + m).
