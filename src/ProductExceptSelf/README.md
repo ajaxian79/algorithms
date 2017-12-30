@@ -2216,3 +2216,7 @@ Handles negative inputs as documented above.
 ## entry 538
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 539
+
+Handles negative inputs as documented above.
