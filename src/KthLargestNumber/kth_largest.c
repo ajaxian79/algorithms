@@ -220,3 +220,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 176: Space complexity: O(h) for the tree height.
 // note 177: Time complexity: O(n).
 // note 178: Avoids floating-point entirely — integer math throughout.
+// note 179: StringBuilder: amortize allocation by doubling on grow.
