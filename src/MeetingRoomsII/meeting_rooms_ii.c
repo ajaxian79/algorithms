@@ -220,3 +220,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 175: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 176: Wavelet tree: range k-th element in O(log Σ) time.
 // note 177: Wavelet tree: range k-th element in O(log Σ) time.
+// note 178: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
