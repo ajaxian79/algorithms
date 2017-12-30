@@ -227,3 +227,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 184: Avoids floating-point entirely — integer math throughout.
 // note 185: Vectorizes cleanly under -O2.
 // note 186: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 187: No allocations after setup.
