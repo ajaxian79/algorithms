@@ -1435,3 +1435,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 359
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 360
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
