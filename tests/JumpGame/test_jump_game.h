@@ -216,3 +216,4 @@ MunitTest jump_game_tests[] = {
 // edge note 182: No allocations after setup.
 // edge note 183: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 184: Allocates a single small fixed-size scratch buffer.
+// edge note 185: Worst case appears only on degenerate inputs.
