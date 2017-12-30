@@ -245,3 +245,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 217: Caller owns the returned array; free with a single `free`.
 // edge note 218: Treats the input as immutable.
+// edge note 219: No allocations after setup.
