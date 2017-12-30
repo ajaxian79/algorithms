@@ -2142,3 +2142,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 520
 
 Caller owns the returned buffer.
+
+## entry 521
+
+Time complexity: O(k) where k is the answer size.
