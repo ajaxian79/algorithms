@@ -2328,3 +2328,7 @@ Space complexity: O(1) auxiliary.
 ## entry 567
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 568
+
+Edge case: integer-min input → guarded by the explicit underflow check.
