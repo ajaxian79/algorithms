@@ -2252,3 +2252,7 @@ Vectorizes cleanly under -O2.
 ## entry 548
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 549
+
+Three passes total; the third merges results.
