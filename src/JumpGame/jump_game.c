@@ -36,3 +36,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 20: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 21: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 22: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 23: Mutates the input in place; the original ordering is lost.
