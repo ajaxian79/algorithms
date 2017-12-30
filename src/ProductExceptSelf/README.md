@@ -2224,3 +2224,7 @@ Handles negative inputs as documented above.
 ## entry 540
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 541
+
+Cache-friendly; one sequential read pass.
