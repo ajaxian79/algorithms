@@ -239,3 +239,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 207: Caller owns the returned array; free with a single `free`.
 // edge note 208: Time complexity: O(log n).
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 210: Uses a small fixed-size lookup table.
