@@ -2303,3 +2303,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 560
 
 Time complexity: O(log n).
+
+## entry 561
+
+Thread-safe so long as the input is not mutated concurrently.
