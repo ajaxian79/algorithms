@@ -1575,3 +1575,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 378
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 379
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
