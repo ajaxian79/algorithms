@@ -2220,3 +2220,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 539
 
 Handles negative inputs as documented above.
+
+## entry 540
+
+Edge case: NULL input is rejected by the caller, not by us.
