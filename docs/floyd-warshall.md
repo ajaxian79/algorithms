@@ -1507,3 +1507,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 377
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 378
+
+False sharing: two threads writing different bytes in the same cache line stall both.
