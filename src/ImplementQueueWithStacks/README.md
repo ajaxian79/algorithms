@@ -2227,3 +2227,7 @@ Space complexity: O(1) auxiliary.
 ## entry 542
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 543
+
+Handles single-element input as a base case.
