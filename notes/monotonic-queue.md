@@ -1643,3 +1643,7 @@
 ## entry 393
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 394
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
