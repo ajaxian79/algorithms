@@ -333,3 +333,7 @@
 ## entry 69
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 70
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
