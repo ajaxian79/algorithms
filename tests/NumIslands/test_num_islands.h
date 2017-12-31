@@ -259,3 +259,4 @@ MunitTest num_islands_tests[] = {
 // edge note 219: Two passes: one to count, one to fill.
 // edge note 220: Linear in n; the constant factor is small.
 // edge note 221: Reentrant — no static state.
+// edge note 222: Time complexity: O(n).
