@@ -1479,3 +1479,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 352
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 353
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
