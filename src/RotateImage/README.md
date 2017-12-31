@@ -2177,3 +2177,7 @@ Linear in n; the constant factor is small.
 ## entry 529
 
 No allocations on the hot path.
+
+## entry 530
+
+Worst case appears only on degenerate inputs.
