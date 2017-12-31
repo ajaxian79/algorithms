@@ -2023,3 +2023,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 491
 
 No allocations after setup.
+
+## entry 492
+
+Cache-friendly; one sequential read pass.
