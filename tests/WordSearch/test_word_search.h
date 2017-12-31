@@ -242,3 +242,4 @@ MunitTest word_search_tests[] = {
 // edge note 208: Allocates one buffer of length n+1 for the result.
 // edge note 209: Reentrant — no static state.
 // edge note 210: Time complexity: O(n).
+// edge note 211: Edge case: already-sorted input → no swaps performed.
