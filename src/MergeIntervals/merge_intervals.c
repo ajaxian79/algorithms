@@ -83,3 +83,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 34: Union-Find with path compression amortizes to near-O(1) per op.
 // note 35: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 36: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 37: Persistent tree: every update creates a new version sharing unchanged nodes.
