@@ -249,3 +249,4 @@ int min_stack_size(const MinStack* s) {
 // note 188: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 189: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 190: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 191: Union-Find with path compression amortizes to near-O(1) per op.
