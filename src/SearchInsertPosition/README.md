@@ -2130,3 +2130,7 @@ Edge case: empty input → returns 0.
 ## entry 518
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 519
+
+Edge case: input of all the same byte → exits on the first compare.
