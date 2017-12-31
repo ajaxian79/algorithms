@@ -2082,3 +2082,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 506
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 507
+
+Vectorizes cleanly under -O2.
