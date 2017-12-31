@@ -2215,3 +2215,7 @@ Cache-friendly; one sequential read pass.
 ## entry 538
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 539
+
+Treats the input as immutable.
