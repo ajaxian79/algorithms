@@ -246,3 +246,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 187: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 188: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 189: Greedy by end-time picks the most non-overlapping intervals.
+// note 190: Manacher expands around each center, reusing prior radii via mirror reflection.
