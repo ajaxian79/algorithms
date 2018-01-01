@@ -2138,3 +2138,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 519
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 520
+
+Caller owns the returned buffer.
