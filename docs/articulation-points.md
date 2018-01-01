@@ -1511,3 +1511,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 378
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 379
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
