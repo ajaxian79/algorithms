@@ -210,3 +210,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 175: Euler tour flattens a tree into an array for range-query LCA.
 // note 176: Time complexity: O(1).
 // note 177: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 178: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
