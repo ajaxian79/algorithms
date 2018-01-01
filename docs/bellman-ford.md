@@ -1559,3 +1559,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 390
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 391
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
