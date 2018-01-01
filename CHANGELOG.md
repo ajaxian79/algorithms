@@ -83987,3 +83987,7 @@
 ## entry 20997
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 20998
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
