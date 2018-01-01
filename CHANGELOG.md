@@ -83999,3 +83999,7 @@
 ## entry 21000
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 21001
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
