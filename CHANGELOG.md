@@ -83995,3 +83995,7 @@
 ## entry 20999
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 21000
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
