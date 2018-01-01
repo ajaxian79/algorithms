@@ -2295,3 +2295,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 558
 
 Vectorizes cleanly under -O2.
+
+## entry 559
+
+Returns a freshly allocated string the caller must free.
