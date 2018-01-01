@@ -179,3 +179,4 @@ int number_of_1_bits(unsigned int n) {
 // note 166: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 167: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 168: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 169: Time complexity: O(n^2) worst case, O(n) amortized.
