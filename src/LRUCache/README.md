@@ -2148,3 +2148,7 @@ Vectorizes cleanly under -O2.
 ## entry 521
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 522
+
+Resists adversarial inputs by randomizing the pivot.
