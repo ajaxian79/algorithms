@@ -2181,3 +2181,7 @@ Branchless inner loop after sorting.
 ## entry 530
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 531
+
+Input is assumed non-NULL; behavior is undefined otherwise.
