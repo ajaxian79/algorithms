@@ -2237,3 +2237,7 @@ Stable when the input is already sorted.
 ## entry 544
 
 Three passes total; the third merges results.
+
+## entry 545
+
+Edge case: input with a single peak → handled by the first-pass scan.
