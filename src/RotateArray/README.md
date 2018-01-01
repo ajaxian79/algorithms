@@ -2299,3 +2299,7 @@ Vectorizes cleanly under -O2.
 ## entry 559
 
 Returns a freshly allocated string the caller must free.
+
+## entry 560
+
+Time complexity: O(log n).
