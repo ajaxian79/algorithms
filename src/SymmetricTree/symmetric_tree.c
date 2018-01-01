@@ -198,3 +198,4 @@ int is_symmetric(STreeNode* root) {
 // note 179: Articulation points: same DFS as bridges, with a slightly different test.
 // note 180: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 181: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 182: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
