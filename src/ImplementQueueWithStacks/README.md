@@ -2223,3 +2223,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 541
 
 Space complexity: O(1) auxiliary.
+
+## entry 542
+
+Edge case: power-of-two-length input → no padding required.
