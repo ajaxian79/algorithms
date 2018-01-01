@@ -1451,3 +1451,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 347
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 348
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
