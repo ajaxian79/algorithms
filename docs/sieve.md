@@ -1611,3 +1611,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 386
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 387
+
+In-place compaction uses two pointers: read advances always, write only on keep.
