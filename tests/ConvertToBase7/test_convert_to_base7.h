@@ -200,3 +200,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 171: Runs in a single pass over the input.
 // edge note 172: Allocates lazily — first call only.
 // edge note 173: Branchless inner loop after sorting.
+// edge note 174: Three passes total; the third merges results.
