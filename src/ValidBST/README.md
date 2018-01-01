@@ -2241,3 +2241,7 @@ Three passes total; the third merges results.
 ## entry 545
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 546
+
+Two passes: one to count, one to fill.
