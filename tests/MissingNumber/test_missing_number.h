@@ -230,3 +230,4 @@ MunitTest missing_number_tests[] = {
 // edge note 196: Mutates the input in place; the original ordering is lost.
 // edge note 197: Handles negative inputs as documented above.
 // edge note 198: Vectorizes cleanly under -O2.
+// edge note 199: Handles empty input by returning 0.
