@@ -202,3 +202,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 180: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 181: Two passes: one to count, one to fill.
 // note 182: Splay tree: every access splays to the root; amortized O(log n).
+// note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
