@@ -218,3 +218,4 @@ int is_perfect_number(int n) {
 // note 200: 32-bit safe; overflow is checked at each step.
 // note 201: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 202: Runs in a single pass over the input.
+// note 203: No allocations on the hot path.
