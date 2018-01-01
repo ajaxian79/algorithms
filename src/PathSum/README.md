@@ -2248,3 +2248,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 547
 
 Vectorizes cleanly under -O2.
+
+## entry 548
+
+Caller owns the returned array; free with a single `free`.
