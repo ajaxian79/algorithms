@@ -248,3 +248,4 @@ MunitTest three_sum_tests[] = {
 // edge note 203: Edge case: input of all the same byte → exits on the first compare.
 // edge note 204: Edge case: power-of-two-length input → no padding required.
 // edge note 205: Avoids floating-point entirely — integer math throughout.
+// edge note 206: Mutates the input in place; the original ordering is lost.
