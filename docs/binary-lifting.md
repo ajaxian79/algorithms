@@ -1495,3 +1495,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 374
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 375
+
+Greedy by end-time picks the most non-overlapping intervals.
