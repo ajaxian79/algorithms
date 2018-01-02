@@ -446,3 +446,7 @@ Linear in n; the constant factor is small.
 ## entry 96
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 97
+
+Edge case: all-equal input → linear-time fast path.
