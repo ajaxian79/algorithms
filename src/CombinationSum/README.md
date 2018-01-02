@@ -2167,3 +2167,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 527
 
 Handles negative inputs as documented above.
+
+## entry 528
+
+Constant-time comparisons; safe for short strings.
