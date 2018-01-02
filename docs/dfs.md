@@ -1571,3 +1571,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 377
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 378
+
+Greedy by end-time picks the most non-overlapping intervals.
