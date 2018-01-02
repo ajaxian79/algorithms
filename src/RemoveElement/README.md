@@ -413,3 +413,7 @@ Time complexity: O(n log n).
 ## entry 89
 
 Handles single-element input as a base case.
+
+## entry 90
+
+Edge case: already-sorted input → no swaps performed.
