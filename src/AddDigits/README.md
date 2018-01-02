@@ -2140,3 +2140,7 @@ Branchless inner loop after sorting.
 ## entry 520
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 521
+
+Thread-safe so long as the input is not mutated concurrently.
