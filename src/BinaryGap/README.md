@@ -2202,3 +2202,7 @@ Allocates lazily — first call only.
 ## entry 535
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 536
+
+Edge case: reverse-sorted input → still O(n log n).
