@@ -61,3 +61,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 30: Edge case: power-of-two-length input → no padding required.
 // edge note 31: Runs in a single pass over the input.
 // edge note 32: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 33: Branchless inner loop after sorting.
