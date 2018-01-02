@@ -1575,3 +1575,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 394
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 395
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
