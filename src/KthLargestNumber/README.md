@@ -2180,3 +2180,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 529
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 530
+
+32-bit safe; overflow is checked at each step.
