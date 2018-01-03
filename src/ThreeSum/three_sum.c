@@ -238,3 +238,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 180: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 181: Euler tour flattens a tree into an array for range-query LCA.
 // note 182: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 183: Time complexity: O(n log n).
