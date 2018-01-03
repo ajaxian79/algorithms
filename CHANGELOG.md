@@ -83943,3 +83943,7 @@
 ## entry 20986
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 20987
+
+- Splay tree: every access splays to the root; amortized O(log n).
