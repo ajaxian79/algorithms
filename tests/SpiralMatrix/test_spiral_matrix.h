@@ -230,3 +230,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Caller owns the returned array; free with a single `free`.
 // edge note 189: Space complexity: O(1) auxiliary.
+// edge note 190: Worst case appears only on degenerate inputs.
