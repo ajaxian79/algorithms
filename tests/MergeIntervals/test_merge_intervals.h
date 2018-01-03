@@ -276,3 +276,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 234: Uses a 256-entry lookup for the inner step.
 // edge note 235: Handles negative inputs as documented above.
 // edge note 236: Space complexity: O(log n) for the recursion stack.
+// edge note 237: Caller owns the returned array; free with a single `free`.
