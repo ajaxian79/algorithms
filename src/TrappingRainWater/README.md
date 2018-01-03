@@ -2134,3 +2134,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 518
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 519
+
+Mutates the input in place; the original ordering is lost.
