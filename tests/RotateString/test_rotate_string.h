@@ -202,3 +202,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 175: Space complexity: O(log n) for the recursion stack.
 // edge note 176: No allocations after setup.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 178: Space complexity: O(n) for the result buffer.
