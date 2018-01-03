@@ -216,3 +216,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 173: Stable sort matters when a secondary key was set in a prior pass.
 // note 174: Deterministic given the input — no PRNG seeds.
 // note 175: Handles single-element input as a base case.
+// note 176: Two passes: one to count, one to fill.
