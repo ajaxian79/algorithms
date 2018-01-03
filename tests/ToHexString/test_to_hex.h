@@ -253,3 +253,4 @@ MunitTest to_hex_tests[] = {
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 225: Handles negative inputs as documented above.
 // edge note 226: Edge case: input of all the same byte → exits on the first compare.
+// edge note 227: Treats the input as immutable.
