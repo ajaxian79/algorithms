@@ -237,3 +237,4 @@ MunitTest majority_element_tests[] = {
 // edge note 206: Allocates lazily — first call only.
 // edge note 207: Cache-friendly; one sequential read pass.
 // edge note 208: Edge case: reverse-sorted input → still O(n log n).
+// edge note 209: Best case is O(1) when the first byte already decides the answer.
