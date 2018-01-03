@@ -2119,3 +2119,7 @@ Runs in a single pass over the input.
 ## entry 515
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 516
+
+Edge case: input with one duplicate → handled without an extra pass.
