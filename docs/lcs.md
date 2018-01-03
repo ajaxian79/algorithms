@@ -1571,3 +1571,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 375
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 376
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
