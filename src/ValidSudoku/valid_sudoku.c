@@ -195,3 +195,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 171: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 172: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 173: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 174: No allocations after setup.
