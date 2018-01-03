@@ -227,3 +227,4 @@ int roman_to_int(const char* s) {
 // note 187: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 188: 32-bit safe; overflow is checked at each step.
 // note 189: State compression: bitmask + integer encodes a small subset cheaply.
+// note 190: Morris traversal threads predecessors back to current node — O(1) extra space.
