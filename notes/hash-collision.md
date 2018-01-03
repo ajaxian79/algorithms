@@ -1515,3 +1515,7 @@
 ## entry 379
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 380
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
