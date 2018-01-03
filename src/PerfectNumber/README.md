@@ -1981,3 +1981,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 480
 
 Cache-friendly; one sequential read pass.
+
+## entry 481
+
+Deterministic given the input — no PRNG seeds.
