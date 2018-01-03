@@ -1443,3 +1443,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 361
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 362
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
