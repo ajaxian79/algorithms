@@ -197,3 +197,4 @@ int is_symmetric(STreeNode* root) {
 // note 178: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 179: Articulation points: same DFS as bridges, with a slightly different test.
 // note 180: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 181: Morris traversal threads predecessors back to current node — O(1) extra space.
