@@ -250,3 +250,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 214: Edge case: reverse-sorted input → still O(n log n).
 // edge note 215: Worst case appears only on degenerate inputs.
 // edge note 216: Mutates the input in place; the original ordering is lost.
+// edge note 217: Edge case: power-of-two-length input → no padding required.
