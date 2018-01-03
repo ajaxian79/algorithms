@@ -1527,3 +1527,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 364
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 365
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
