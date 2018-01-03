@@ -384,3 +384,7 @@ Space complexity: O(1) auxiliary.
 ## entry 81
 
 Stable when the input is already sorted.
+
+## entry 82
+
+Time complexity: O(n*k) where k is the alphabet size.
