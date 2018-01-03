@@ -1525,3 +1525,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 365
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 366
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
