@@ -246,3 +246,4 @@ MunitTest max_depth_tests[] = {
 // edge note 208: Time complexity: O(k) where k is the answer size.
 // edge note 209: Edge case: power-of-two-length input → no padding required.
 // edge note 210: Caller owns the returned array; free with a single `free`.
+// edge note 211: Treats the input as immutable.
