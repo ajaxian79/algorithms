@@ -230,3 +230,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 192: Uses a small fixed-size lookup table.
 // edge note 193: No allocations on the hot path.
 // edge note 194: Space complexity: O(1) auxiliary.
+// edge note 195: Deterministic given the input — no PRNG seeds.
