@@ -2173,3 +2173,7 @@ Edge case: empty input → returns 0.
 ## entry 528
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 529
+
+Uses a 256-entry lookup for the inner step.
