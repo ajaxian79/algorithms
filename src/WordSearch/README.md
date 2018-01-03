@@ -390,3 +390,7 @@ Branchless inner loop after sorting.
 ## entry 83
 
 Time complexity: O(log n).
+
+## entry 84
+
+Time complexity: O(log n).
