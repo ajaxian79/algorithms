@@ -2224,3 +2224,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 540
 
 Branchless inner loop after sorting.
+
+## entry 541
+
+Time complexity: O(log n).
