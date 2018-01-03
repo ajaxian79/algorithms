@@ -1591,3 +1591,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 398
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 399
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
