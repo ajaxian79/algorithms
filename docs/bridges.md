@@ -1551,3 +1551,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 388
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 389
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
