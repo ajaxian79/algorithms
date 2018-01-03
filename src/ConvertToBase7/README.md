@@ -2252,3 +2252,7 @@ Two passes: one to count, one to fill.
 ## entry 548
 
 Linear in n; the constant factor is small.
+
+## entry 549
+
+Time complexity: O(n + m).
