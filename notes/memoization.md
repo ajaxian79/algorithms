@@ -1439,3 +1439,7 @@
 ## entry 360
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 361
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
