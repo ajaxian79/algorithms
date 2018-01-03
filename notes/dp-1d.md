@@ -1547,3 +1547,7 @@
 ## entry 370
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 371
+
+- Walk both pointers from each end inward; advance the smaller side.
