@@ -235,3 +235,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 41
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 42
+
+Heap when you only need top-k; full sort is wasted work.
