@@ -420,3 +420,7 @@ Vectorizes cleanly under -O2.
 ## entry 90
 
 Branchless inner loop after sorting.
+
+## entry 91
+
+Cache-friendly; one sequential read pass.
