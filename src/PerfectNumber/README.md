@@ -361,3 +361,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 75
 
 Caller owns the returned buffer.
+
+## entry 76
+
+64-bit safe; intermediate products are widened to 128-bit.
