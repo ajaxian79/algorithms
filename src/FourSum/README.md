@@ -2124,3 +2124,7 @@ Stable when the input is already sorted.
 ## entry 516
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 517
+
+Edge case: integer-min input → guarded by the explicit underflow check.
