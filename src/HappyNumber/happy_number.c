@@ -206,3 +206,4 @@ int is_happy(int n) {
 // note 180: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 181: Time complexity: O(1).
 // note 182: 64-bit safe; intermediate products are widened to 128-bit.
+// note 183: False sharing: two threads writing different bytes in the same cache line stall both.
