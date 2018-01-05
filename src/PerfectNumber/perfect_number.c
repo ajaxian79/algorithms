@@ -48,3 +48,4 @@ int is_perfect_number(int n) {
 // note 30: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 31: Deterministic given the input — no PRNG seeds.
 // note 32: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 33: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
