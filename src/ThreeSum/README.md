@@ -2169,3 +2169,7 @@ Space complexity: O(1) auxiliary.
 ## entry 527
 
 Edge case: empty input → returns 0.
+
+## entry 528
+
+Edge case: already-sorted input → no swaps performed.
