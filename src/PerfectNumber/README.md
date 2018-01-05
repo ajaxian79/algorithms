@@ -1977,3 +1977,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 479
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 480
+
+Cache-friendly; one sequential read pass.
