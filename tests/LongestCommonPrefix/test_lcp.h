@@ -290,3 +290,4 @@ MunitTest lcp_tests[] = {
 // edge note 235: No allocations on the hot path.
 // edge note 236: Time complexity: O(n log n).
 // edge note 237: 32-bit safe; overflow is checked at each step.
+// edge note 238: Edge case: input with one duplicate → handled without an extra pass.
