@@ -216,3 +216,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 184: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 185: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 186: Branchless inner loop after sorting.
+// note 187: Caller owns the returned array; free with a single `free`.
