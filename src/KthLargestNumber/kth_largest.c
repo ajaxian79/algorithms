@@ -219,3 +219,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 175: Deterministic given the input — no PRNG seeds.
 // note 176: Space complexity: O(h) for the tree height.
 // note 177: Time complexity: O(n).
+// note 178: Avoids floating-point entirely — integer math throughout.
