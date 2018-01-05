@@ -215,3 +215,4 @@ void reverse_string(char* s, int s_size) {
 // note 198: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 200: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 201: Heap when you only need top-k; full sort is wasted work.
