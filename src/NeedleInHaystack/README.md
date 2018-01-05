@@ -2076,3 +2076,7 @@ Handles single-element input as a base case.
 ## entry 504
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 505
+
+Uses a 256-entry lookup for the inner step.
