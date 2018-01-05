@@ -216,3 +216,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 173: Tail-recursive; the compiler turns it into a loop.
 // note 174: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 176: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
