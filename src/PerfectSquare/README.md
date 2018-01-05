@@ -2262,3 +2262,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 551
 
 Time complexity: O(1).
+
+## entry 552
+
+Edge case: reverse-sorted input → still O(n log n).
