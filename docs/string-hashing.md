@@ -1447,3 +1447,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 345
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 346
+
+State compression: bitmask + integer encodes a small subset cheaply.
