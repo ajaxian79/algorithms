@@ -258,3 +258,4 @@ MunitTest num_islands_tests[] = {
 // edge note 218: Edge case: all-equal input → linear-time fast path.
 // edge note 219: Two passes: one to count, one to fill.
 // edge note 220: Linear in n; the constant factor is small.
+// edge note 221: Reentrant — no static state.
