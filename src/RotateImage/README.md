@@ -2173,3 +2173,7 @@ Stable across duplicates in the input.
 ## entry 528
 
 Linear in n; the constant factor is small.
+
+## entry 529
+
+No allocations on the hot path.
