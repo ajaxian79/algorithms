@@ -212,3 +212,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 191: Caller owns the returned buffer.
 // note 192: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 193: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 194: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
