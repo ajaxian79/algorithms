@@ -236,3 +236,4 @@ MunitTest majority_element_tests[] = {
 // edge note 205: No allocations on the hot path.
 // edge note 206: Allocates lazily — first call only.
 // edge note 207: Cache-friendly; one sequential read pass.
+// edge note 208: Edge case: reverse-sorted input → still O(n log n).
