@@ -1495,3 +1495,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 374
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 375
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
