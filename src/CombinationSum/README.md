@@ -2163,3 +2163,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 526
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 527
+
+Handles negative inputs as documented above.
