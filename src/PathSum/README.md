@@ -2244,3 +2244,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 546
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 547
+
+Vectorizes cleanly under -O2.
