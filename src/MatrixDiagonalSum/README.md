@@ -2242,3 +2242,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 546
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 547
+
+Caller owns the returned array; free with a single `free`.
