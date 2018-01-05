@@ -214,3 +214,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 181: Cache-friendly; one sequential read pass.
 // edge note 182: Allocates one buffer of length n+1 for the result.
 // edge note 183: Runs in a single pass over the input.
+// edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
