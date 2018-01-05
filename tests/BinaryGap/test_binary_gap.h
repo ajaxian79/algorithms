@@ -219,3 +219,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 192: Time complexity: O(1).
 // edge note 193: Time complexity: O(n log n).
 // edge note 194: Vectorizes cleanly under -O2.
+// edge note 195: Thread-safe so long as the input is not mutated concurrently.
