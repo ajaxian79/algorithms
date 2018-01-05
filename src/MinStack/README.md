@@ -1982,3 +1982,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 481
 
 Branchless inner loop after sorting.
+
+## entry 482
+
+Input is assumed non-NULL; behavior is undefined otherwise.
