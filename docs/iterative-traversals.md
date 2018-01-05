@@ -317,3 +317,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 63
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 64
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
