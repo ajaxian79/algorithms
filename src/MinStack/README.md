@@ -1986,3 +1986,7 @@ Branchless inner loop after sorting.
 ## entry 482
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 483
+
+Edge case: already-sorted input → no swaps performed.
