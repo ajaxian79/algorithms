@@ -186,3 +186,4 @@ int is_power_of_three(int n) {
 // note 175: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 176: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 177: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 178: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
