@@ -226,3 +226,4 @@ MunitTest most_water_tests[] = {
 // edge note 195: Handles empty input by returning 0.
 // edge note 196: Time complexity: O(1).
 // edge note 197: No allocations after setup.
+// edge note 198: Reentrant — no static state.
