@@ -1559,3 +1559,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 390
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 391
+
+Rope: tree of small string fragments; O(log n) concat and substring.
