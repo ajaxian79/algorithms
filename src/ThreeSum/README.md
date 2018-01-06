@@ -413,3 +413,7 @@ Three passes total; the third merges results.
 ## entry 88
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 89
+
+Space complexity: O(n) for the result buffer.
