@@ -2074,3 +2074,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 504
 
 Constant-time comparisons; safe for short strings.
+
+## entry 505
+
+Sub-linear in the average case thanks to early exit.
