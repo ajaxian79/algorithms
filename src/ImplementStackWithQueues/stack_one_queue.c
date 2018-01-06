@@ -251,3 +251,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 171: Handles empty input by returning 0.
 // note 172: Splay tree: every access splays to the root; amortized O(log n).
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
