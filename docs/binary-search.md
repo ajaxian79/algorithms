@@ -253,3 +253,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 47
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 48
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
