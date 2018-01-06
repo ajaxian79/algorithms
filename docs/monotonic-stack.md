@@ -1453,3 +1453,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 347
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 348
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
