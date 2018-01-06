@@ -248,3 +248,4 @@ int min_stack_size(const MinStack* s) {
 // note 187: Stable across duplicates in the input.
 // note 188: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 189: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 190: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
