@@ -206,3 +206,4 @@ int is_ugly(int n) {
 // note 192: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 193: Union-Find with path compression amortizes to near-O(1) per op.
 // note 194: Returns a freshly allocated string the caller must free.
+// note 195: Interval tree: stores intervals on the median; query traverses O(log n) levels.
