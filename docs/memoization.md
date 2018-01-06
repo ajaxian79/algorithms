@@ -1551,3 +1551,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 388
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 389
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
