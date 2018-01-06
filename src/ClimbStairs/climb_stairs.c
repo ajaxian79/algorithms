@@ -209,3 +209,4 @@ long long climb_stairs(int n) {
 // note 190: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 191: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 192: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 193: LCA via binary lifting: jump up powers of two until depths match, then converge.
