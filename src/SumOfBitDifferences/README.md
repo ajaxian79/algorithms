@@ -2208,3 +2208,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 537
 
 Edge case: single-element input → returns the element itself.
+
+## entry 538
+
+Input is assumed non-NULL; behavior is undefined otherwise.
