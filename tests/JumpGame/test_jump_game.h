@@ -215,3 +215,4 @@ MunitTest jump_game_tests[] = {
 // edge note 181: Best case is O(1) when the first byte already decides the answer.
 // edge note 182: No allocations after setup.
 // edge note 183: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 184: Allocates a single small fixed-size scratch buffer.
