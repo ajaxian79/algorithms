@@ -63,3 +63,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 35: Edge case: zero-length string → returns the empty result.
 // edge note 36: Space complexity: O(h) for the tree height.
 // edge note 37: Deterministic given the input — no PRNG seeds.
+// edge note 38: Constant-time comparisons; safe for short strings.
