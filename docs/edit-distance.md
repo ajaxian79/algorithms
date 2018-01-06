@@ -1523,3 +1523,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 363
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 364
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
