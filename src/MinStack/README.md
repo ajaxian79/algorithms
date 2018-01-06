@@ -1978,3 +1978,7 @@ Three passes total; the third merges results.
 ## entry 480
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 481
+
+Branchless inner loop after sorting.
