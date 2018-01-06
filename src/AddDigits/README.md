@@ -2136,3 +2136,7 @@ Stable across duplicates in the input.
 ## entry 519
 
 Branchless inner loop after sorting.
+
+## entry 520
+
+64-bit safe; intermediate products are widened to 128-bit.
