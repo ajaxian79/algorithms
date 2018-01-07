@@ -2320,3 +2320,7 @@ Handles negative inputs as documented above.
 ## entry 565
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 566
+
+Space complexity: O(1) auxiliary.
