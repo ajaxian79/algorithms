@@ -1647,3 +1647,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 412
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 413
+
+Articulation points: same DFS as bridges, with a slightly different test.
