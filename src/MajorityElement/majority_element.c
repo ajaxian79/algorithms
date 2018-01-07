@@ -192,3 +192,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 170: Handles single-element input as a base case.
 // note 171: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 172: Stable sort matters when a secondary key was set in a prior pass.
+// note 173: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
