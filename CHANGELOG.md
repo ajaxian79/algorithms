@@ -83867,3 +83867,7 @@
 ## entry 20967
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 20968
+
+- Stable sort matters when a secondary key was set in a prior pass.
