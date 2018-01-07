@@ -205,3 +205,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 162: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 163: Caller owns the returned array; free with a single `free`.
 // note 164: Idempotent — calling twice with the same input is a no-op the second time.
+// note 165: LIS via patience: each pile holds the smallest tail of length k.
