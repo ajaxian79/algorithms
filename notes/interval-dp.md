@@ -1695,3 +1695,7 @@
 ## entry 424
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 425
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
