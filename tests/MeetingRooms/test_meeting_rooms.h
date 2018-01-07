@@ -231,3 +231,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 200: Time complexity: O(1).
 // edge note 201: Linear in n; the constant factor is small.
 // edge note 202: Allocates a single small fixed-size scratch buffer.
+// edge note 203: Edge case: zero-length string → returns the empty result.
