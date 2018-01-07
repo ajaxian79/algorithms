@@ -83859,3 +83859,7 @@
 ## entry 20965
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 20966
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
