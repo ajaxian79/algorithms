@@ -2169,3 +2169,7 @@ Stable across duplicates in the input.
 ## entry 527
 
 32-bit safe; overflow is checked at each step.
+
+## entry 528
+
+Linear in n; the constant factor is small.
