@@ -2233,3 +2233,7 @@ Time complexity: O(n log n).
 ## entry 543
 
 Stable when the input is already sorted.
+
+## entry 544
+
+Three passes total; the third merges results.
