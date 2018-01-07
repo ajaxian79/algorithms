@@ -208,3 +208,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 188: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 189: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 190: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 191: Tabulation wins when iteration order is obvious and stack depth would blow up.
