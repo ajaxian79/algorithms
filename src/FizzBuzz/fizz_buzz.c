@@ -224,3 +224,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 178: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 179: State compression: bitmask + integer encodes a small subset cheaply.
 // note 180: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 181: Iterative DFS with an explicit stack avoids recursion-limit issues.
