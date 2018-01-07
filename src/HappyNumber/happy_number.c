@@ -205,3 +205,4 @@ int is_happy(int n) {
 // note 179: Space complexity: O(n) for the result buffer.
 // note 180: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 181: Time complexity: O(1).
+// note 182: 64-bit safe; intermediate products are widened to 128-bit.
