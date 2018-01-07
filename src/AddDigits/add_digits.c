@@ -197,3 +197,4 @@ int add_digits(int n) {
 // note 186: Uses a small fixed-size lookup table.
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 188: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 189: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
