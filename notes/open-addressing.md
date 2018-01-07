@@ -263,3 +263,7 @@
 ## entry 66
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 67
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
