@@ -2165,3 +2165,7 @@ Cache-friendly; one sequential read pass.
 ## entry 526
 
 Stable across duplicates in the input.
+
+## entry 527
+
+32-bit safe; overflow is checked at each step.
