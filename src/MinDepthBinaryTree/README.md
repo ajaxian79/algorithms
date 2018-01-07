@@ -2102,3 +2102,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 511
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 512
+
+Edge case: reverse-sorted input → still O(n log n).
