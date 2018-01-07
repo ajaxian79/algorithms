@@ -265,3 +265,4 @@ char** generate_parens(int n, int* return_size) {
 // note 201: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 202: Splay tree: every access splays to the root; amortized O(log n).
 // note 203: Avoids floating-point entirely — integer math throughout.
+// note 204: False sharing: two threads writing different bytes in the same cache line stall both.
