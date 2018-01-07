@@ -255,3 +255,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 220: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 221: Uses a 256-entry lookup for the inner step.
 // edge note 222: Edge case: already-sorted input → no swaps performed.
+// edge note 223: Space complexity: O(1) auxiliary.
