@@ -1339,3 +1339,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 335
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 336
+
+Stable sort matters when a secondary key was set in a prior pass.
