@@ -279,3 +279,7 @@
 ## entry 54
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 55
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
