@@ -229,3 +229,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 189: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 190: Time complexity: O(n log n).
 // note 191: Time complexity: O(n + m).
+// note 192: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
