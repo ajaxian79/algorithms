@@ -204,3 +204,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 178: Treats the input as immutable.
 // note 179: Space complexity: O(n) for the result buffer.
 // note 180: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 181: Space complexity: O(1) auxiliary.
