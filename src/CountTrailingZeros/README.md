@@ -2166,3 +2166,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 526
 
 Edge case: empty input → returns 0.
+
+## entry 527
+
+Edge case: power-of-two-length input → no padding required.
