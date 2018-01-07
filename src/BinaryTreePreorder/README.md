@@ -2194,3 +2194,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 534
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 535
+
+Deterministic given the input — no PRNG seeds.
