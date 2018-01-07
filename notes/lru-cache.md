@@ -1455,3 +1455,7 @@
 ## entry 364
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 365
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
