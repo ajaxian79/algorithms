@@ -1587,3 +1587,7 @@
 ## entry 381
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 382
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
