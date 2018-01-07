@@ -2011,3 +2011,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 488
 
 Worst case appears only on degenerate inputs.
+
+## entry 489
+
+Input is assumed non-NULL; behavior is undefined otherwise.
