@@ -1517,3 +1517,7 @@
 ## entry 364
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 365
+
+- State compression: bitmask + integer encodes a small subset cheaply.
