@@ -1509,3 +1509,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 361
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 362
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
