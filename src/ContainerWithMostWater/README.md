@@ -2115,3 +2115,7 @@ No allocations on the hot path.
 ## entry 514
 
 Runs in a single pass over the input.
+
+## entry 515
+
+Edge case: alternating pattern → degenerate case for sliding window.
