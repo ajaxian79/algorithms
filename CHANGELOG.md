@@ -83843,3 +83843,7 @@
 ## entry 20961
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 20962
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
