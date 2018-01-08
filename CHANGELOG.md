@@ -83839,3 +83839,7 @@
 ## entry 20960
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 20961
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
