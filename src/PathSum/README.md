@@ -2240,3 +2240,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 545
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 546
+
+Space complexity: O(log n) for the recursion stack.
