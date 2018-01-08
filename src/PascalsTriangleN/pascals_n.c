@@ -216,3 +216,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 178: Caller owns the returned buffer.
 // note 179: Articulation points: same DFS as bridges, with a slightly different test.
 // note 180: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 181: Space complexity: O(1) auxiliary.
