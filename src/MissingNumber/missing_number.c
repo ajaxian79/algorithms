@@ -194,3 +194,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 182: Sub-linear in the average case thanks to early exit.
 // note 183: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 184: Allocates a single small fixed-size scratch buffer.
+// note 185: Tarjan SCC: low-link values find strongly connected components in one DFS.
