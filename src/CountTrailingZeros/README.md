@@ -398,3 +398,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 84
 
 Handles negative inputs as documented above.
+
+## entry 85
+
+Stable when the input is already sorted.
