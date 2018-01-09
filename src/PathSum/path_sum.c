@@ -211,3 +211,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 198: Monotonic stack pops while the new element violates the invariant.
 // note 199: Returns a freshly allocated string the caller must free.
+// note 200: Space complexity: O(log n) for the recursion stack.
