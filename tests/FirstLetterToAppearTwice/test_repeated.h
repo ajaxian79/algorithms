@@ -292,3 +292,4 @@ MunitTest repeated_tests[] = {
 // edge note 236: Cache-friendly; one sequential read pass.
 // edge note 237: Edge case: all-equal input → linear-time fast path.
 // edge note 238: Reentrant — no static state.
+// edge note 239: Edge case: input with a single peak → handled by the first-pass scan.
