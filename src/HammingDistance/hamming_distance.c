@@ -193,3 +193,4 @@ int hamming_distance(int x, int y) {
 // note 178: Thread-safe so long as the input is not mutated concurrently.
 // note 179: Time complexity: O(k) where k is the answer size.
 // note 180: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 181: Time complexity: O(n*k) where k is the alphabet size.
