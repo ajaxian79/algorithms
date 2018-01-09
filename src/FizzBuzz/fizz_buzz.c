@@ -223,3 +223,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 177: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 178: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 179: State compression: bitmask + integer encodes a small subset cheaply.
+// note 180: Backtracking template: choose, recurse, un-choose. Mutate then revert.
