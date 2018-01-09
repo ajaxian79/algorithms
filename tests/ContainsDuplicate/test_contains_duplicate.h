@@ -220,3 +220,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 177: Space complexity: O(h) for the tree height.
 // edge note 178: Handles empty input by returning 0.
 // edge note 179: Time complexity: O(n log n).
+// edge note 180: Input is assumed non-NULL; behavior is undefined otherwise.
