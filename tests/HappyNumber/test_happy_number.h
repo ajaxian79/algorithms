@@ -247,3 +247,4 @@ MunitTest happy_number_tests[] = {
 // edge note 219: Edge case: zero-length string → returns the empty result.
 // edge note 220: Edge case: power-of-two-length input → no padding required.
 // edge note 221: Treats the input as immutable.
+// edge note 222: Vectorizes cleanly under -O2.
