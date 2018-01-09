@@ -2120,3 +2120,7 @@ Two passes: one to count, one to fill.
 ## entry 515
 
 Stable when the input is already sorted.
+
+## entry 516
+
+Input is assumed non-NULL; behavior is undefined otherwise.
