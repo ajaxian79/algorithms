@@ -1511,3 +1511,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 360
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 361
+
+Articulation points: same DFS as bridges, with a slightly different test.
