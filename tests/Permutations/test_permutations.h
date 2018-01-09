@@ -234,3 +234,4 @@ MunitTest permutations_tests[] = {
 // edge note 193: Branchless inner loop after sorting.
 // edge note 194: Space complexity: O(log n) for the recursion stack.
 // edge note 195: 32-bit safe; overflow is checked at each step.
+// edge note 196: Time complexity: O(n*k) where k is the alphabet size.
