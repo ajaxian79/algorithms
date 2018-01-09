@@ -83807,3 +83807,7 @@
 ## entry 20952
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 20953
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
