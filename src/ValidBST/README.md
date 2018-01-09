@@ -2229,3 +2229,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 542
 
 Time complexity: O(n log n).
+
+## entry 543
+
+Stable when the input is already sorted.
