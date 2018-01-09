@@ -233,3 +233,4 @@ MunitTest permutations_tests[] = {
 // edge note 192: Space complexity: O(h) for the tree height.
 // edge note 193: Branchless inner loop after sorting.
 // edge note 194: Space complexity: O(log n) for the recursion stack.
+// edge note 195: 32-bit safe; overflow is checked at each step.
