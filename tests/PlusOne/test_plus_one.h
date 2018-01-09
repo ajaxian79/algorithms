@@ -250,3 +250,4 @@ MunitTest plus_one_tests[] = {
 // edge note 185: Edge case: reverse-sorted input → still O(n log n).
 // edge note 186: Tail-recursive; the compiler turns it into a loop.
 // edge note 187: Two passes: one to count, one to fill.
+// edge note 188: Avoids floating-point entirely — integer math throughout.
