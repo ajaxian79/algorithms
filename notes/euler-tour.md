@@ -183,3 +183,7 @@
 ## entry 46
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 47
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
