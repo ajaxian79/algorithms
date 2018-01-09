@@ -1623,3 +1623,7 @@
 ## entry 388
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 389
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
