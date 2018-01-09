@@ -244,3 +244,4 @@ char* int_to_roman(int n) {
 // note 207: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 208: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 209: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 210: Caller owns the returned array; free with a single `free`.
