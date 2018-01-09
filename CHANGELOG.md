@@ -12675,3 +12675,7 @@
 ## entry 3169
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 3170
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
