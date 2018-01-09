@@ -211,3 +211,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Thread-safe so long as the input is not mutated concurrently.
 // note 198: Best case is O(1) when the first byte already decides the answer.
+// note 199: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
