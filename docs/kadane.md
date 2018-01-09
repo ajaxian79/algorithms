@@ -279,3 +279,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 54
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 55
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
