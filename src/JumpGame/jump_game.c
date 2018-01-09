@@ -196,3 +196,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 180: Time complexity: O(n).
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: Idempotent — calling twice with the same input is a no-op the second time.
+// note 183: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
