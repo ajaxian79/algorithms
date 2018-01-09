@@ -2208,3 +2208,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 536
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 537
+
+Handles negative inputs as documented above.
