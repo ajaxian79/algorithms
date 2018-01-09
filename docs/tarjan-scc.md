@@ -1547,3 +1547,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 387
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 388
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
