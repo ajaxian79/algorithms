@@ -2072,3 +2072,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 503
 
 Handles single-element input as a base case.
+
+## entry 504
+
+Edge case: integer-min input → guarded by the explicit underflow check.
