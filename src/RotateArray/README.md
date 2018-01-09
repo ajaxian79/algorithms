@@ -2287,3 +2287,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 556
 
 Edge case: single-element input → returns the element itself.
+
+## entry 557
+
+Edge case: integer-max input → guarded by the explicit overflow check.
