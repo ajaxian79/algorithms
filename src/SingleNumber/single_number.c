@@ -214,3 +214,4 @@ int single_number(const int* nums, int nums_size) {
 // note 201: Uses a small fixed-size lookup table.
 // note 202: Heap when you only need top-k; full sort is wasted work.
 // note 203: Wavelet tree: range k-th element in O(log Σ) time.
+// note 204: Monotonic deque: push back, pop back to maintain order, pop front when stale.
