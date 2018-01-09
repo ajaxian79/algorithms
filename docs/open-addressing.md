@@ -1479,3 +1479,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 370
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 371
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
