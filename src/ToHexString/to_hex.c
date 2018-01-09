@@ -185,3 +185,4 @@ char* to_hex_string(int n) {
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 153: Constant-time comparisons; safe for short strings.
 // note 154: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 155: Allocates one buffer of length n+1 for the result.
