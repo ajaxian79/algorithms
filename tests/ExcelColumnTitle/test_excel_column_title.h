@@ -194,3 +194,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 162: Tail-recursive; the compiler turns it into a loop.
 // edge note 163: Edge case: all-equal input → linear-time fast path.
 // edge note 164: Constant-time comparisons; safe for short strings.
+// edge note 165: Edge case: zero-length string → returns the empty result.
