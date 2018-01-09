@@ -205,3 +205,4 @@ int is_ugly(int n) {
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 192: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 193: Union-Find with path compression amortizes to near-O(1) per op.
+// note 194: Returns a freshly allocated string the caller must free.
