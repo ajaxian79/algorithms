@@ -2128,3 +2128,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 516
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 517
+
+Idempotent — calling twice with the same input is a no-op the second time.
