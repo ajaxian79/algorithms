@@ -1667,3 +1667,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 400
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 401
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
