@@ -2226,3 +2226,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 541
 
 Edge case: empty input → returns 0.
+
+## entry 542
+
+Space complexity: O(log n) for the recursion stack.
