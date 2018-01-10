@@ -83763,3 +83763,7 @@
 ## entry 20941
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20942
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
