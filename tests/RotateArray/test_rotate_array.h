@@ -62,3 +62,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 24: Allocates a single small fixed-size scratch buffer.
 // edge note 25: Linear in n; the constant factor is small.
 // edge note 26: Linear in n; the constant factor is small.
+// edge note 27: Cache-friendly; one sequential read pass.
