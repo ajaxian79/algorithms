@@ -207,3 +207,4 @@ int compare_version(const char* a, const char* b) {
 // note 177: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 178: Greedy by end-time picks the most non-overlapping intervals.
 // note 179: Stable across duplicates in the input.
+// note 180: Uses a small fixed-size lookup table.
