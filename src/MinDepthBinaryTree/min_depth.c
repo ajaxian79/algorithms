@@ -206,3 +206,4 @@ int min_depth(MnTreeNode* root) {
 // note 189: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 190: Cache-friendly; one sequential read pass.
 // note 191: Two passes: one to count, one to fill.
+// note 192: Space complexity: O(1) auxiliary.
