@@ -2204,3 +2204,7 @@ Cache-friendly; one sequential read pass.
 ## entry 536
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 537
+
+Edge case: single-element input → returns the element itself.
