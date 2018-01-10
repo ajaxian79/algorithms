@@ -2248,3 +2248,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 547
 
 Two passes: one to count, one to fill.
+
+## entry 548
+
+Linear in n; the constant factor is small.
