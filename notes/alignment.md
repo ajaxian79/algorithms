@@ -1415,3 +1415,7 @@
 ## entry 354
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 355
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
