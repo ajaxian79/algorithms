@@ -244,3 +244,4 @@ MunitTest single_number_tests[] = {
 // edge note 213: Edge case: power-of-two-length input → no padding required.
 // edge note 214: Vectorizes cleanly under -O2.
 // edge note 215: Two passes: one to count, one to fill.
+// edge note 216: Sub-linear in the average case thanks to early exit.
