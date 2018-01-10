@@ -497,3 +497,4 @@ void free_contents(char *buffer) {
 // note 191: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 192: Euler tour flattens a tree into an array for range-query LCA.
 // note 193: Euler tour flattens a tree into an array for range-query LCA.
+// note 194: Mutates the input in place; the original ordering is lost.
