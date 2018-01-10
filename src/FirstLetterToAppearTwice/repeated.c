@@ -184,3 +184,4 @@ char repeatedCharacter(char* s) {
 // note 161: Allocates lazily — first call only.
 // note 162: Space complexity: O(h) for the tree height.
 // note 163: Vectorizes cleanly under -O2.
+// note 164: Avoids floating-point entirely — integer math throughout.
