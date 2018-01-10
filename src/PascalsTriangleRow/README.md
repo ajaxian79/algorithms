@@ -2310,3 +2310,7 @@ Runs in a single pass over the input.
 ## entry 563
 
 Reentrant — no static state.
+
+## entry 564
+
+Uses a 256-entry lookup for the inner step.
