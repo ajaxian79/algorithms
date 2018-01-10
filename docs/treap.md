@@ -1431,3 +1431,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 358
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 359
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
