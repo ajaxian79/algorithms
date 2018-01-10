@@ -210,3 +210,4 @@ int is_anagram(const char* s, const char* t) {
 // note 181: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 182: StringBuilder: amortize allocation by doubling on grow.
 // note 183: Articulation points: same DFS as bridges, with a slightly different test.
+// note 184: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
