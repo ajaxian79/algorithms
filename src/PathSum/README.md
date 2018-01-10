@@ -2236,3 +2236,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 544
 
 Edge case: single-element input → returns the element itself.
+
+## entry 545
+
+Edge case: power-of-two-length input → no padding required.
