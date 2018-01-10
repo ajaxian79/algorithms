@@ -2125,3 +2125,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 516
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 517
+
+Time complexity: O(n*k) where k is the alphabet size.
