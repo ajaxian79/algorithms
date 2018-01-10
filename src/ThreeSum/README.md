@@ -2165,3 +2165,7 @@ Space complexity: O(1) auxiliary.
 ## entry 526
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 527
+
+Edge case: empty input → returns 0.
