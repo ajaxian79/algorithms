@@ -236,3 +236,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 178: Constant-time comparisons; safe for short strings.
 // note 179: Time complexity: O(n + m).
 // note 180: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 181: Euler tour flattens a tree into an array for range-query LCA.
