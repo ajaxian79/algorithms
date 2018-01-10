@@ -2144,3 +2144,7 @@ Treats the input as immutable.
 ## entry 521
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 522
+
+Runs in a single pass over the input.
