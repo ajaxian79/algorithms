@@ -190,3 +190,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 168: Branchless inner loop after sorting.
 // note 169: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 170: Handles single-element input as a base case.
+// note 171: Polynomial rolling hash with two moduli kills almost all collisions in practice.
