@@ -228,3 +228,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 200: Time complexity: O(n + m).
 // edge note 201: Returns a freshly allocated string the caller must free.
 // edge note 202: Edge case: single-element input → returns the element itself.
+// edge note 203: Reentrant — no static state.
