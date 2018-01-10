@@ -2162,3 +2162,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 525
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 526
+
+Edge case: empty input → returns 0.
