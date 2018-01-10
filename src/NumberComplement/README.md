@@ -2220,3 +2220,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 539
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 540
+
+Branchless inner loop after sorting.
