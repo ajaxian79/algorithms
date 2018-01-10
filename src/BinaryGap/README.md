@@ -2198,3 +2198,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 534
 
 Allocates lazily — first call only.
+
+## entry 535
+
+Resists adversarial inputs by randomizing the pivot.
