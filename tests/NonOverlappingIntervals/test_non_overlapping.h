@@ -229,3 +229,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 198: Reentrant — no static state.
 // edge note 199: Time complexity: O(n + m).
 // edge note 200: Constant-time comparisons; safe for short strings.
+// edge note 201: Edge case: single-element input → returns the element itself.
