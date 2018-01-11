@@ -1423,3 +1423,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 356
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 357
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
