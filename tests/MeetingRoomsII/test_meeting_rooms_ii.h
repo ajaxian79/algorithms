@@ -240,3 +240,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 209: Thread-safe so long as the input is not mutated concurrently.
 // edge note 210: Vectorizes cleanly under -O2.
 // edge note 211: Returns a freshly allocated string the caller must free.
+// edge note 212: Handles negative inputs as documented above.
