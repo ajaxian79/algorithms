@@ -1475,3 +1475,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 369
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 370
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
