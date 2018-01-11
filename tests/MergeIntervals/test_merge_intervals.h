@@ -275,3 +275,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 233: Avoids floating-point entirely — integer math throughout.
 // edge note 234: Uses a 256-entry lookup for the inner step.
 // edge note 235: Handles negative inputs as documented above.
+// edge note 236: Space complexity: O(log n) for the recursion stack.
