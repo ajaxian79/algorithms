@@ -367,3 +367,7 @@
 ## entry 75
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 76
+
+- Wavelet tree: range k-th element in O(log Σ) time.
