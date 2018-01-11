@@ -1487,3 +1487,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 372
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 373
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
