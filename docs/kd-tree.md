@@ -1563,3 +1563,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 391
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 392
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
