@@ -1483,3 +1483,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 371
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 372
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
