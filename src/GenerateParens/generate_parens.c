@@ -99,3 +99,4 @@ char** generate_parens(int n, int* return_size) {
 // note 35: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 36: StringBuilder: amortize allocation by doubling on grow.
 // note 37: Time complexity: O(1).
+// note 38: Endianness matters when serializing multi-byte ints to a file or wire.
