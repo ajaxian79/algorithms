@@ -2104,3 +2104,7 @@ Vectorizes cleanly under -O2.
 ## entry 512
 
 Time complexity: O(n log n).
+
+## entry 513
+
+Allocates a single small fixed-size scratch buffer.
