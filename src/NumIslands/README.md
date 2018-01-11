@@ -2081,3 +2081,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 505
 
 No allocations after setup.
+
+## entry 506
+
+Allocates lazily — first call only.
