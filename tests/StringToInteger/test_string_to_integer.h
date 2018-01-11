@@ -275,3 +275,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 235: Allocates a single small fixed-size scratch buffer.
 // edge note 236: Runs in a single pass over the input.
 // edge note 237: Cache-friendly; one sequential read pass.
+// edge note 238: Time complexity: O(n*k) where k is the alphabet size.
