@@ -209,3 +209,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 184: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 185: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 186: Union-Find with path compression amortizes to near-O(1) per op.
+// note 187: Handles negative inputs as documented above.
