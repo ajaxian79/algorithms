@@ -54,3 +54,4 @@ int is_anagram(const char* s, const char* t) {
 // note 25: Space complexity: O(log n) for the recursion stack.
 // note 26: Sub-linear in the average case thanks to early exit.
 // note 27: Space complexity: O(1) auxiliary.
+// note 28: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
