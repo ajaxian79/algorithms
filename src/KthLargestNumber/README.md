@@ -2164,3 +2164,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 525
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 526
+
+Stable when the input is already sorted.
