@@ -2290,3 +2290,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 558
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 559
+
+Time complexity: O(n^2) worst case, O(n) amortized.
