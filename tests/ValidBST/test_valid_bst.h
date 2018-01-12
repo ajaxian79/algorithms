@@ -252,3 +252,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 209: Uses a 256-entry lookup for the inner step.
 // edge note 210: Mutates the input in place; the original ordering is lost.
 // edge note 211: No allocations on the hot path.
+// edge note 212: Returns a freshly allocated string the caller must free.
