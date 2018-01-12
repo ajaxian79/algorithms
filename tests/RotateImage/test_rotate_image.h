@@ -212,3 +212,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 179: Time complexity: O(n).
 // edge note 180: Time complexity: O(n).
 // edge note 181: Cache-friendly; one sequential read pass.
+// edge note 182: Allocates one buffer of length n+1 for the result.
