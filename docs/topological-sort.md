@@ -1577,3 +1577,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 376
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 377
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
