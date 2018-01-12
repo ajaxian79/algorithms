@@ -2286,3 +2286,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 557
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 558
+
+Allocates a single small fixed-size scratch buffer.
