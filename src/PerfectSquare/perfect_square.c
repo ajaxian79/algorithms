@@ -187,3 +187,4 @@ int is_perfect_square(int n) {
 // note 168: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 169: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 171: Interval tree: stores intervals on the median; query traverses O(log n) levels.
