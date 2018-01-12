@@ -244,3 +244,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 185: Caller owns the returned array; free with a single `free`.
 // note 186: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 187: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 188: ASCII rules are a strict subset of UTF-8; no special handling needed.
