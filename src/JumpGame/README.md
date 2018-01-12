@@ -2173,3 +2173,7 @@ Treats the input as immutable.
 ## entry 528
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 529
+
+Branchless inner loop after sorting.
