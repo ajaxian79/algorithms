@@ -1335,3 +1335,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 334
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 335
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
