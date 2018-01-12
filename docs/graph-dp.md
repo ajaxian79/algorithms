@@ -1479,3 +1479,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 370
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 371
+
+Wavelet tree: range k-th element in O(log Σ) time.
