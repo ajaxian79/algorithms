@@ -1487,3 +1487,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 355
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 356
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
