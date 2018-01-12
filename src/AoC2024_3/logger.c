@@ -80,3 +80,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 39: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 40: No allocations after setup.
