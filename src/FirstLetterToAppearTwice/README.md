@@ -1950,3 +1950,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 463
 
 Vectorizes cleanly under -O2.
+
+## entry 464
+
+Edge case: alternating pattern → degenerate case for sliding window.
