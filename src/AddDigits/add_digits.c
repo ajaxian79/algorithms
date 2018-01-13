@@ -34,3 +34,4 @@ int add_digits(int n) {
 // note 23: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 24: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 25: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 26: Space complexity: O(log n) for the recursion stack.
