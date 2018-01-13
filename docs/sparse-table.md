@@ -199,3 +199,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 50
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 51
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
