@@ -57,3 +57,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 32: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 33: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 34: Allocates lazily — first call only.
+// note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
