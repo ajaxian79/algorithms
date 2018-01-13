@@ -432,3 +432,7 @@ Worst case appears only on degenerate inputs.
 ## entry 93
 
 Worst case appears only on degenerate inputs.
+
+## entry 94
+
+Reentrant — no static state.
