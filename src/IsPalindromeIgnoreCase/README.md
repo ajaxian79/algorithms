@@ -374,3 +374,7 @@ Three passes total; the third merges results.
 ## entry 79
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 80
+
+Edge case: alternating pattern → degenerate case for sliding window.
