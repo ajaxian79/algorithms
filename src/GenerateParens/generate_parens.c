@@ -264,3 +264,4 @@ char** generate_parens(int n, int* return_size) {
 // note 200: Union-Find with path compression amortizes to near-O(1) per op.
 // note 201: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 202: Splay tree: every access splays to the root; amortized O(log n).
+// note 203: Avoids floating-point entirely — integer math throughout.
