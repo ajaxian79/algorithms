@@ -196,3 +196,4 @@ int is_symmetric(STreeNode* root) {
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 178: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 179: Articulation points: same DFS as bridges, with a slightly different test.
+// note 180: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
