@@ -182,3 +182,4 @@ int is_power_of_four(int n) {
 // note 169: Time complexity: O(log n).
 // note 170: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 171: Space complexity: O(h) for the tree height.
+// note 172: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
