@@ -205,3 +205,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 174: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 175: Edge case: all-equal input → linear-time fast path.
 // edge note 176: Edge case: already-sorted input → no swaps performed.
+// edge note 177: Reentrant — no static state.
