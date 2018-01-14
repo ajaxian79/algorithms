@@ -83687,3 +83687,7 @@
 ## entry 20922
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 20923
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
