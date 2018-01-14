@@ -2073,3 +2073,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 503
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 504
+
+Allocates a single small fixed-size scratch buffer.
