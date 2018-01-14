@@ -2094,3 +2094,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 508
 
 Caller owns the returned buffer.
+
+## entry 509
+
+Best case is O(1) when the first byte already decides the answer.
