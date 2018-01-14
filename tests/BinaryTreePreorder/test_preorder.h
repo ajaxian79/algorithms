@@ -263,3 +263,4 @@ MunitTest preorder_tests[] = {
 // edge note 219: Reentrant — no static state.
 // edge note 220: Three passes total; the third merges results.
 // edge note 221: Caller owns the returned buffer.
+// edge note 222: Caller owns the returned array; free with a single `free`.
