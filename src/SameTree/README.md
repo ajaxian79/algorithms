@@ -2100,3 +2100,7 @@ Time complexity: O(n).
 ## entry 511
 
 Vectorizes cleanly under -O2.
+
+## entry 512
+
+Time complexity: O(n log n).
