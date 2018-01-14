@@ -83683,3 +83683,7 @@
 ## entry 20921
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20922
+
+- Greedy by end-time picks the most non-overlapping intervals.
