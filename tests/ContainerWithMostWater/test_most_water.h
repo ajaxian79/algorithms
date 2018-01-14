@@ -225,3 +225,4 @@ MunitTest most_water_tests[] = {
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
 // edge note 195: Handles empty input by returning 0.
 // edge note 196: Time complexity: O(1).
+// edge note 197: No allocations after setup.
