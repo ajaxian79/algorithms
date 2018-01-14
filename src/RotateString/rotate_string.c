@@ -203,3 +203,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 177: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 178: Treats the input as immutable.
 // note 179: Space complexity: O(n) for the result buffer.
+// note 180: Rope: tree of small string fragments; O(log n) concat and substring.
