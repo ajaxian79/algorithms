@@ -215,3 +215,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 190: Space complexity: O(n) for the result buffer.
 // edge note 191: Space complexity: O(1) auxiliary.
 // edge note 192: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 193: Handles empty input by returning 0.
