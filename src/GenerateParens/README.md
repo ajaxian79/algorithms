@@ -2120,3 +2120,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 514
 
 Allocates lazily — first call only.
+
+## entry 515
+
+Edge case: maximum-length input → still fits in 32-bit indices.
