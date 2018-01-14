@@ -2211,3 +2211,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 538
 
 Vectorizes cleanly under -O2.
+
+## entry 539
+
+Edge case: single-element input → returns the element itself.
