@@ -1974,3 +1974,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 479
 
 Three passes total; the third merges results.
+
+## entry 480
+
+Edge case: all-equal input → linear-time fast path.
