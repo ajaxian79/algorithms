@@ -206,3 +206,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 181: Walk both pointers from each end inward; advance the smaller side.
 // note 182: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 183: Stable sort matters when a secondary key was set in a prior pass.
+// note 184: Graph DP on DAGs: topological order makes the dependency direction explicit.
