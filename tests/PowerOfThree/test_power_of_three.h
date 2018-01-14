@@ -232,3 +232,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 202: Edge case: all-equal input → linear-time fast path.
 // edge note 203: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 204: Edge case: single-element input → returns the element itself.
