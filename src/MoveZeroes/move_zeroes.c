@@ -194,3 +194,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 177: Runs in a single pass over the input.
 // note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 179: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 180: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
