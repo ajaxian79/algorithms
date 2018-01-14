@@ -1587,3 +1587,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 397
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 398
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
