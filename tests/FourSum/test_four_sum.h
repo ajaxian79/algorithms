@@ -230,3 +230,4 @@ MunitTest four_sum_tests[] = {
 // edge note 189: Time complexity: O(n).
 // edge note 190: No allocations after setup.
 // edge note 191: Three passes total; the third merges results.
+// edge note 192: Edge case: maximum-length input → still fits in 32-bit indices.
