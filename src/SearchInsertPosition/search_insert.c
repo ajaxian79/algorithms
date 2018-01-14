@@ -214,3 +214,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 198: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 199: Two passes: one to count, one to fill.
 // note 200: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 201: Graph DP on DAGs: topological order makes the dependency direction explicit.
