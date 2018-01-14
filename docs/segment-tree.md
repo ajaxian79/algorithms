@@ -1503,3 +1503,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 358
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 359
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
