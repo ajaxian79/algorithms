@@ -1555,3 +1555,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 373
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 374
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
