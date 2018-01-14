@@ -259,3 +259,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 180: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 181: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 182: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 183: Stable sort matters when a secondary key was set in a prior pass.
