@@ -2216,3 +2216,7 @@ Edge case: empty input → returns 0.
 ## entry 538
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 539
+
+Sub-linear in the average case thanks to early exit.
