@@ -2111,3 +2111,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 513
 
 No allocations on the hot path.
+
+## entry 514
+
+Runs in a single pass over the input.
