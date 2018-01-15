@@ -2207,3 +2207,7 @@ Three passes total; the third merges results.
 ## entry 537
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 538
+
+Vectorizes cleanly under -O2.
