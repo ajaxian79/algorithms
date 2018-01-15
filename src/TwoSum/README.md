@@ -2109,3 +2109,7 @@ Branchless inner loop after sorting.
 ## entry 502
 
 Handles single-element input as a base case.
+
+## entry 503
+
+Input is assumed non-NULL; behavior is undefined otherwise.
