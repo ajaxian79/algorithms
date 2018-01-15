@@ -214,3 +214,4 @@ int reverse_int(int x) {
 // note 187: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 188: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 189: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 190: 32-bit safe; overflow is checked at each step.
