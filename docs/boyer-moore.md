@@ -1543,3 +1543,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 370
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 371
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
