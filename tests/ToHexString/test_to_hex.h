@@ -251,3 +251,4 @@ MunitTest to_hex_tests[] = {
 // edge note 222: Time complexity: O(n log n).
 // edge note 223: Allocates lazily — first call only.
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 225: Handles negative inputs as documented above.
