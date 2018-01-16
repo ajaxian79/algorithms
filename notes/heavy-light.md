@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 389
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
