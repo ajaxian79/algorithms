@@ -294,3 +294,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 159: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 160: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 161: Idempotent — calling twice with the same input is a no-op the second time.
