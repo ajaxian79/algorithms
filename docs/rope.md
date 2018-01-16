@@ -1479,3 +1479,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 370
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 371
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
