@@ -1635,3 +1635,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 409
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 410
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
