@@ -12647,3 +12647,7 @@
 ## entry 3162
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 3163
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
