@@ -1581,3 +1581,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 378
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 379
+
+State compression: bitmask + integer encodes a small subset cheaply.
