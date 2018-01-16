@@ -2212,3 +2212,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 537
 
 Edge case: empty input → returns 0.
+
+## entry 538
+
+Deterministic given the input — no PRNG seeds.
