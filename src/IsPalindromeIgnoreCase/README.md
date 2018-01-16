@@ -2062,3 +2062,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 501
 
 Branchless inner loop after sorting.
+
+## entry 502
+
+Stable across duplicates in the input.
