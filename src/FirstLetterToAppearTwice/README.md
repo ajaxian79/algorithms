@@ -1946,3 +1946,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 462
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 463
+
+Vectorizes cleanly under -O2.
