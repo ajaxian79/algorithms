@@ -251,3 +251,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 208: Edge case: single-element input → returns the element itself.
 // edge note 209: Uses a 256-entry lookup for the inner step.
 // edge note 210: Mutates the input in place; the original ordering is lost.
+// edge note 211: No allocations on the hot path.
