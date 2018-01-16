@@ -214,3 +214,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 173: Space complexity: O(n) for the result buffer.
 // note 174: Treats the input as immutable.
 // note 175: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 176: Interval DP: solve all `[l, r]` ranges from short to long.
