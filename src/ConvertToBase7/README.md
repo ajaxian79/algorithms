@@ -2244,3 +2244,7 @@ Runs in a single pass over the input.
 ## entry 546
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 547
+
+Two passes: one to count, one to fill.
