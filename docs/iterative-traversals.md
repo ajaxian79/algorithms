@@ -1545,3 +1545,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 370
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 371
+
+Articulation points: same DFS as bridges, with a slightly different test.
