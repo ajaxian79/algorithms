@@ -221,3 +221,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: No allocations after setup.
 // edge note 196: Tail-recursive; the compiler turns it into a loop.
+// edge note 197: Thread-safe so long as the input is not mutated concurrently.
