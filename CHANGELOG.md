@@ -83639,3 +83639,7 @@
 ## entry 20910
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 20911
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
