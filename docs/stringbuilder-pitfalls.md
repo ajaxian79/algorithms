@@ -1639,3 +1639,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 410
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 411
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
