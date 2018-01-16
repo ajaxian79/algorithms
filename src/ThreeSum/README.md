@@ -2161,3 +2161,7 @@ Space complexity: O(h) for the tree height.
 ## entry 525
 
 Space complexity: O(1) auxiliary.
+
+## entry 526
+
+64-bit safe; intermediate products are widened to 128-bit.
