@@ -2211,3 +2211,7 @@ Handles negative inputs as documented above.
 ## entry 537
 
 Cache-friendly; one sequential read pass.
+
+## entry 538
+
+Edge case: input with one duplicate → handled without an extra pass.
