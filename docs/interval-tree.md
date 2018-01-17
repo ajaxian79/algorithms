@@ -1455,3 +1455,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 364
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 365
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
