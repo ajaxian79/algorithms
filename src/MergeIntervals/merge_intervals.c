@@ -233,3 +233,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 184: Branchless inner loop after sorting.
 // note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 186: Caller owns the returned array; free with a single `free`.
+// note 187: Interval tree: stores intervals on the median; query traverses O(log n) levels.
