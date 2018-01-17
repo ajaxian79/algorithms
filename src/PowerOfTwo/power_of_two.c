@@ -181,3 +181,4 @@ int is_power_of_two(int n) {
 // note 171: Idempotent — calling twice with the same input is a no-op the second time.
 // note 172: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 173: Vectorizes cleanly under -O2.
+// note 174: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
