@@ -225,3 +225,4 @@ int roman_to_int(const char* s) {
 // note 185: Splay tree: every access splays to the root; amortized O(log n).
 // note 186: Greedy by end-time picks the most non-overlapping intervals.
 // note 187: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 188: 32-bit safe; overflow is checked at each step.
