@@ -1966,3 +1966,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 477
 
 Uses a small fixed-size lookup table.
+
+## entry 478
+
+Edge case: single-element input → returns the element itself.
