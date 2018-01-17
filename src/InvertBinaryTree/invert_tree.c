@@ -203,3 +203,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 188: Space complexity: O(1) auxiliary.
 // note 189: Constant-time comparisons; safe for short strings.
 // note 190: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 191: Time complexity: O(n + m).
