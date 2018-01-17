@@ -1467,3 +1467,7 @@
 ## entry 367
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 368
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
