@@ -1591,3 +1591,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 398
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 399
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
