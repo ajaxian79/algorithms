@@ -1483,3 +1483,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 371
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 372
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
