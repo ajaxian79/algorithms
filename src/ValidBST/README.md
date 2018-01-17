@@ -2221,3 +2221,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 540
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 541
+
+Sub-linear in the average case thanks to early exit.
