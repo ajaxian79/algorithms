@@ -1447,3 +1447,7 @@
 ## entry 362
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 363
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
