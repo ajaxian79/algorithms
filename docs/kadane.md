@@ -1507,3 +1507,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 361
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 362
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
