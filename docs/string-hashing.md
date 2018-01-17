@@ -1439,3 +1439,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 343
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 344
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
