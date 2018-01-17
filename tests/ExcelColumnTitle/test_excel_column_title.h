@@ -192,3 +192,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 160: Three passes total; the third merges results.
 // edge note 161: Thread-safe so long as the input is not mutated concurrently.
 // edge note 162: Tail-recursive; the compiler turns it into a loop.
+// edge note 163: Edge case: all-equal input → linear-time fast path.
