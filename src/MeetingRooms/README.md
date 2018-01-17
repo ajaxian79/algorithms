@@ -2094,3 +2094,7 @@ Linear in n; the constant factor is small.
 ## entry 509
 
 Uses a small fixed-size lookup table.
+
+## entry 510
+
+Cache-friendly; one sequential read pass.
