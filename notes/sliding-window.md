@@ -1633,3 +1633,7 @@
 ## entry 392
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 393
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
