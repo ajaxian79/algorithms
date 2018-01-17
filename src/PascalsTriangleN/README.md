@@ -1978,3 +1978,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 479
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 480
+
+Caller owns the returned array; free with a single `free`.
