@@ -1475,3 +1475,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 369
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 370
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
