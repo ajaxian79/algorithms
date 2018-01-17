@@ -2146,3 +2146,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 521
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 522
+
+Branchless inner loop after sorting.
