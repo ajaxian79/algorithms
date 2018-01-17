@@ -349,3 +349,7 @@
 ## entry 69
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 70
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
