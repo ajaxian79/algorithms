@@ -2207,3 +2207,7 @@ Space complexity: O(1) auxiliary.
 ## entry 536
 
 Handles negative inputs as documented above.
+
+## entry 537
+
+Cache-friendly; one sequential read pass.
