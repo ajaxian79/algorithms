@@ -218,3 +218,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 174: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 175: Deterministic given the input — no PRNG seeds.
 // note 176: Space complexity: O(h) for the tree height.
+// note 177: Time complexity: O(n).
