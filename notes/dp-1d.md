@@ -1543,3 +1543,7 @@
 ## entry 369
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 370
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
