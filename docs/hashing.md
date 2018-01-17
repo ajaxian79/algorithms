@@ -1659,3 +1659,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 398
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 399
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
