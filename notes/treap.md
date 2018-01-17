@@ -1451,3 +1451,7 @@
 ## entry 363
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 364
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
