@@ -2094,3 +2094,7 @@ Allocates lazily — first call only.
 ## entry 509
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 510
+
+Edge case: single-element input → returns the element itself.
