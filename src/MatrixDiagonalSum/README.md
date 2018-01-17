@@ -2234,3 +2234,7 @@ No allocations on the hot path.
 ## entry 544
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 545
+
+Edge case: input with one duplicate → handled without an extra pass.
