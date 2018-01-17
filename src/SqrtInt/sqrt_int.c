@@ -199,3 +199,4 @@ int my_sqrt(int n) {
 // note 178: State compression: bitmask + integer encodes a small subset cheaply.
 // note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 180: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 181: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
