@@ -2105,3 +2105,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 501
 
 Branchless inner loop after sorting.
+
+## entry 502
+
+Handles single-element input as a base case.
