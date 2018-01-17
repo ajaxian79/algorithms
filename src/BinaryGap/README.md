@@ -2194,3 +2194,7 @@ Three passes total; the third merges results.
 ## entry 533
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 534
+
+Allocates lazily — first call only.
