@@ -224,3 +224,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 181: Time complexity: O(log n).
 // note 182: Union-Find with path compression amortizes to near-O(1) per op.
 // note 183: State compression: bitmask + integer encodes a small subset cheaply.
+// note 184: Avoids floating-point entirely — integer math throughout.
