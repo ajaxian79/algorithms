@@ -2242,3 +2242,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 545
 
 Time complexity: O(n log n).
+
+## entry 546
+
+Allocates lazily — first call only.
