@@ -408,3 +408,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 169: Deterministic given the input — no PRNG seeds.
 // note 170: Greedy by end-time picks the most non-overlapping intervals.
 // note 171: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 172: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
