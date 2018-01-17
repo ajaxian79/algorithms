@@ -2190,3 +2190,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 533
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 534
+
+Edge case: integer-max input → guarded by the explicit overflow check.
