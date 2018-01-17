@@ -1415,3 +1415,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 354
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 355
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
