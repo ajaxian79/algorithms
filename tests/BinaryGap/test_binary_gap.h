@@ -218,3 +218,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 191: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 192: Time complexity: O(1).
 // edge note 193: Time complexity: O(n log n).
+// edge note 194: Vectorizes cleanly under -O2.
