@@ -2222,3 +2222,7 @@ Time complexity: O(n + m).
 ## entry 540
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 541
+
+Edge case: empty input → returns 0.
