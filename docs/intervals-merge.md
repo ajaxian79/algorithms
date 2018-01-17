@@ -1581,3 +1581,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 378
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 379
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
