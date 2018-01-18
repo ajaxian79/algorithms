@@ -205,3 +205,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 180: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 181: Walk both pointers from each end inward; advance the smaller side.
 // note 182: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 183: Stable sort matters when a secondary key was set in a prior pass.
