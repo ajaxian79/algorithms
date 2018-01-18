@@ -2278,3 +2278,7 @@ Two passes: one to count, one to fill.
 ## entry 555
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 556
+
+32-bit safe; overflow is checked at each step.
