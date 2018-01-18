@@ -2169,3 +2169,7 @@ Cache-friendly; one sequential read pass.
 ## entry 527
 
 Treats the input as immutable.
+
+## entry 528
+
+Edge case: integer-max input → guarded by the explicit overflow check.
