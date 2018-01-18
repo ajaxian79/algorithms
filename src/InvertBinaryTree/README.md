@@ -416,3 +416,7 @@ Caller owns the returned buffer.
 ## entry 89
 
 Vectorizes cleanly under -O2.
+
+## entry 90
+
+Branchless inner loop after sorting.
