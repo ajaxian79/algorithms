@@ -83599,3 +83599,7 @@
 ## entry 20900
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 20901
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
