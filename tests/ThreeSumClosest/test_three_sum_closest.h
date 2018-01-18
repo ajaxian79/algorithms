@@ -233,3 +233,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 205: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 206: Space complexity: O(1) auxiliary.
 // edge note 207: Handles negative inputs as documented above.
+// edge note 208: Edge case: alternating pattern → degenerate case for sliding window.
