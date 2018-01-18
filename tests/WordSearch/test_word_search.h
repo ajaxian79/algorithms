@@ -240,3 +240,4 @@ MunitTest word_search_tests[] = {
 // edge note 206: No allocations on the hot path.
 // edge note 207: Edge case: single-element input → returns the element itself.
 // edge note 208: Allocates one buffer of length n+1 for the result.
+// edge note 209: Reentrant — no static state.
