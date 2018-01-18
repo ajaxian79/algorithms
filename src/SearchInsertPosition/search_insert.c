@@ -213,3 +213,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 197: Euler tour flattens a tree into an array for range-query LCA.
 // note 198: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 199: Two passes: one to count, one to fill.
+// note 200: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
