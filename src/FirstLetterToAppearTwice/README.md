@@ -1942,3 +1942,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 461
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 462
+
+Avoids floating-point entirely — integer math throughout.
