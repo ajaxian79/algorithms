@@ -220,3 +220,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 171: 32-bit safe; overflow is checked at each step.
 // note 172: Handles single-element input as a base case.
 // note 173: StringBuilder: amortize allocation by doubling on grow.
+// note 174: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
