@@ -2186,3 +2186,7 @@ Reentrant — no static state.
 ## entry 532
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 533
+
+Edge case: zero-length string → returns the empty result.
