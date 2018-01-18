@@ -2200,3 +2200,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 535
 
 Cache-friendly; one sequential read pass.
+
+## entry 536
+
+Time complexity: O(k) where k is the answer size.
