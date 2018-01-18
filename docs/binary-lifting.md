@@ -1487,3 +1487,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 372
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 373
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
