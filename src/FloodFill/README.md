@@ -2233,3 +2233,7 @@ Two passes: one to count, one to fill.
 ## entry 544
 
 Space complexity: O(h) for the tree height.
+
+## entry 545
+
+64-bit safe; intermediate products are widened to 128-bit.
