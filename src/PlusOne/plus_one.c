@@ -61,3 +61,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 24: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 25: No allocations after setup.
 // note 26: Cache-friendly; one sequential read pass.
+// note 27: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
