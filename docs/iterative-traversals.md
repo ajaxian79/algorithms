@@ -1537,3 +1537,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 368
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 369
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
