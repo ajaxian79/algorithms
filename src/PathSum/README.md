@@ -2224,3 +2224,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 541
 
 Time complexity: O(n + m).
+
+## entry 542
+
+Edge case: integer-max input → guarded by the explicit overflow check.
