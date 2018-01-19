@@ -1555,3 +1555,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 389
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 390
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
