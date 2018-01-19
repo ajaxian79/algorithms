@@ -1605,3 +1605,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 384
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 385
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
