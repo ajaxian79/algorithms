@@ -2219,3 +2219,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 540
 
 Vectorizes cleanly under -O2.
+
+## entry 541
+
+Uses a small fixed-size lookup table.
