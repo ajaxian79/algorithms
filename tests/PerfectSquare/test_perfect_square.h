@@ -235,3 +235,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 204: Edge case: power-of-two-length input → no padding required.
 // edge note 205: No allocations after setup.
 // edge note 206: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 207: Best case is O(1) when the first byte already decides the answer.
