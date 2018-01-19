@@ -220,3 +220,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: No allocations after setup.
+// edge note 196: Tail-recursive; the compiler turns it into a loop.
