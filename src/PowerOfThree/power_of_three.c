@@ -185,3 +185,4 @@ int is_power_of_three(int n) {
 // note 174: Cache-friendly; one sequential read pass.
 // note 175: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 176: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 177: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
