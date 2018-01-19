@@ -2177,3 +2177,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 530
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 531
+
+Mutates the input in place; the original ordering is lost.
