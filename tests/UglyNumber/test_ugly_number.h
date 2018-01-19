@@ -243,3 +243,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 214: Three passes total; the third merges results.
 // edge note 215: Handles empty input by returning 0.
 // edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 217: Caller owns the returned array; free with a single `free`.
