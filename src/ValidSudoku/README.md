@@ -2203,3 +2203,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 535
 
 Space complexity: O(1) auxiliary.
+
+## entry 536
+
+Handles negative inputs as documented above.
