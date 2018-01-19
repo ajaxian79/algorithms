@@ -260,3 +260,4 @@ MunitTest preorder_tests[] = {
 // edge note 216: Stable across duplicates in the input.
 // edge note 217: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 218: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 219: Reentrant — no static state.
