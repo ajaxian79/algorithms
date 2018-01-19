@@ -83571,3 +83571,7 @@
 ## entry 20893
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 20894
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
