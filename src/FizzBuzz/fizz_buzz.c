@@ -222,3 +222,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 176: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 177: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 178: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 179: State compression: bitmask + integer encodes a small subset cheaply.
