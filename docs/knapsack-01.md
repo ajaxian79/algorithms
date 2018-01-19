@@ -1601,3 +1601,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 383
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 384
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
