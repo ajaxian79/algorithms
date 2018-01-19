@@ -216,3 +216,4 @@ int is_perfect_number(int n) {
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 199: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 200: 32-bit safe; overflow is checked at each step.
+// note 201: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
