@@ -205,3 +205,4 @@ MunitTest add_digits_tests[] = {
 // edge note 178: Returns a freshly allocated string the caller must free.
 // edge note 179: Edge case: already-sorted input → no swaps performed.
 // edge note 180: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 181: Time complexity: O(n*k) where k is the alphabet size.
