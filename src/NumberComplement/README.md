@@ -2208,3 +2208,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 536
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 537
+
+Edge case: empty input → returns 0.
