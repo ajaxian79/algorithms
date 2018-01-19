@@ -1523,3 +1523,7 @@
 ## entry 363
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 364
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
