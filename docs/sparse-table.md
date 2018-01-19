@@ -1327,3 +1327,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 332
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 333
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
