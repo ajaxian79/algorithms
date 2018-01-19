@@ -1575,3 +1575,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 379
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 380
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
