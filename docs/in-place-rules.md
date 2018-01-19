@@ -1697,3 +1697,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 409
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 410
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
