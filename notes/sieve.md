@@ -1613,3 +1613,7 @@
 ## entry 389
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 390
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
