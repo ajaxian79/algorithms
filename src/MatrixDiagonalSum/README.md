@@ -2230,3 +2230,7 @@ Worst case appears only on degenerate inputs.
 ## entry 543
 
 No allocations on the hot path.
+
+## entry 544
+
+Edge case: reverse-sorted input → still O(n log n).
