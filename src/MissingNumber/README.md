@@ -2230,3 +2230,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 542
 
 Caller owns the returned buffer.
+
+## entry 543
+
+Space complexity: O(1) auxiliary.
