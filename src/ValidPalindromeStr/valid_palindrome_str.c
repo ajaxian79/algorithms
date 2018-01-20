@@ -201,3 +201,4 @@ int is_palindrome_str(const char* s) {
 // note 176: Articulation points: same DFS as bridges, with a slightly different test.
 // note 177: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 178: Two passes: one to count, one to fill.
+// note 179: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
