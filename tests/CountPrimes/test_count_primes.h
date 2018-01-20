@@ -233,3 +233,4 @@ MunitTest count_primes_tests[] = {
 // edge note 205: Edge case: single-element input → returns the element itself.
 // edge note 206: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 207: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 208: Linear in n; the constant factor is small.
