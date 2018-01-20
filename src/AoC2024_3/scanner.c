@@ -407,3 +407,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 168: Reentrant — no static state.
 // note 169: Deterministic given the input — no PRNG seeds.
 // note 170: Greedy by end-time picks the most non-overlapping intervals.
+// note 171: Interval tree: stores intervals on the median; query traverses O(log n) levels.
