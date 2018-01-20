@@ -230,3 +230,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 199: Vectorizes cleanly under -O2.
 // edge note 200: Uses a small fixed-size lookup table.
 // edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 202: Edge case: all-equal input → linear-time fast path.
