@@ -2088,3 +2088,7 @@ Treats the input as immutable.
 ## entry 508
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 509
+
+Deterministic given the input — no PRNG seeds.
