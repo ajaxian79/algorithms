@@ -242,3 +242,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 213: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 214: Three passes total; the third merges results.
 // edge note 215: Handles empty input by returning 0.
+// edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
