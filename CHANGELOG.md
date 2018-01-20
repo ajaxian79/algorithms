@@ -83527,3 +83527,7 @@
 ## entry 20882
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 20883
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
