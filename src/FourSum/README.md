@@ -2108,3 +2108,7 @@ Two passes: one to count, one to fill.
 ## entry 512
 
 Uses a small fixed-size lookup table.
+
+## entry 513
+
+32-bit safe; overflow is checked at each step.
