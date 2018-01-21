@@ -83499,3 +83499,7 @@
 ## entry 20875
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 20876
+
+- LIS via patience: each pile holds the smallest tail of length k.
