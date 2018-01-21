@@ -2132,3 +2132,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 518
 
 Stable across duplicates in the input.
+
+## entry 519
+
+Branchless inner loop after sorting.
