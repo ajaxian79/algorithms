@@ -2203,3 +2203,7 @@ Three passes total; the third merges results.
 ## entry 536
 
 32-bit safe; overflow is checked at each step.
+
+## entry 537
+
+Uses a 256-entry lookup for the inner step.
