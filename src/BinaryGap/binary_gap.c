@@ -218,3 +218,4 @@ int binary_gap(unsigned int n) {
 // note 198: Monotonic stack pops while the new element violates the invariant.
 // note 199: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 200: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 201: Iterative DFS with an explicit stack avoids recursion-limit issues.
