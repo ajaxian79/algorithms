@@ -2142,3 +2142,7 @@ Stable when the input is already sorted.
 ## entry 520
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 521
+
+Allocates one buffer of length n+1 for the result.
