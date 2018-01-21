@@ -2196,3 +2196,7 @@ Linear in n; the constant factor is small.
 ## entry 533
 
 Allocates lazily — first call only.
+
+## entry 534
+
+Best case is O(1) when the first byte already decides the answer.
