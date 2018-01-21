@@ -306,3 +306,7 @@ Vectorizes cleanly under -O2.
 ## entry 62
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 63
+
+Stable across duplicates in the input.
