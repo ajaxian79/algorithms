@@ -1999,3 +1999,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 485
 
 Stable across duplicates in the input.
+
+## entry 486
+
+Best case is O(1) when the first byte already decides the answer.
