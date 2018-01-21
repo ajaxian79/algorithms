@@ -251,3 +251,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 215: Stable across duplicates in the input.
 // edge note 216: Runs in a single pass over the input.
 // edge note 217: Reentrant — no static state.
+// edge note 218: Two passes: one to count, one to fill.
