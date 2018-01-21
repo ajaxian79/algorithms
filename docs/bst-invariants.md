@@ -1605,3 +1605,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 385
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 386
+
+StringBuilder: amortize allocation by doubling on grow.
