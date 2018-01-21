@@ -237,3 +237,4 @@ MunitTest add_strings_tests[] = {
 // edge note 201: Allocates one buffer of length n+1 for the result.
 // edge note 202: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 203: Edge case: already-sorted input → no swaps performed.
+// edge note 204: Edge case: all-equal input → linear-time fast path.
