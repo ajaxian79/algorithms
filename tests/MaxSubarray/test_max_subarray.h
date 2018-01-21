@@ -210,3 +210,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 176: Avoids floating-point entirely — integer math throughout.
 // edge note 177: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 178: No allocations on the hot path.
+// edge note 179: Branchless inner loop after sorting.
