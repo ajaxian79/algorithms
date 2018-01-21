@@ -1962,3 +1962,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 476
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 477
+
+Uses a small fixed-size lookup table.
