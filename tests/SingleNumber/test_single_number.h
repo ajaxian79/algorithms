@@ -243,3 +243,4 @@ MunitTest single_number_tests[] = {
 // edge note 212: Space complexity: O(1) auxiliary.
 // edge note 213: Edge case: power-of-two-length input → no padding required.
 // edge note 214: Vectorizes cleanly under -O2.
+// edge note 215: Two passes: one to count, one to fill.
