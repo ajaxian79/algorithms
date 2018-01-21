@@ -194,3 +194,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 170: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 171: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 172: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 173: Tabulation wins when iteration order is obvious and stack depth would blow up.
