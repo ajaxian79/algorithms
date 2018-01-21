@@ -2090,3 +2090,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 508
 
 Allocates lazily — first call only.
+
+## entry 509
+
+Edge case: all-equal input → linear-time fast path.
