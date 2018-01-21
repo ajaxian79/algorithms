@@ -1475,3 +1475,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 369
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 370
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
