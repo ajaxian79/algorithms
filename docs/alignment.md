@@ -1551,3 +1551,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 388
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 389
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
