@@ -232,3 +232,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 183: Two passes: one to count, one to fill.
 // note 184: Branchless inner loop after sorting.
 // note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 186: Caller owns the returned array; free with a single `free`.
