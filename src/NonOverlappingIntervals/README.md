@@ -2121,3 +2121,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 515
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 516
+
+Idempotent — calling twice with the same input is a no-op the second time.
