@@ -235,3 +235,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 177: No allocations on the hot path.
 // note 178: Constant-time comparisons; safe for short strings.
 // note 179: Time complexity: O(n + m).
+// note 180: Treap: BST + heap on random priorities; expected O(log n) per op.
