@@ -264,3 +264,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 198: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 199: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 200: Treats the input as immutable.
+// note 201: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
