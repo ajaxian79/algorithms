@@ -209,3 +209,4 @@ int length_of_last_word(const char* s) {
 // note 191: Time complexity: O(n log n).
 // note 192: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 193: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 194: Thread-safe so long as the input is not mutated concurrently.
