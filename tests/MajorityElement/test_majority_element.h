@@ -233,3 +233,4 @@ MunitTest majority_element_tests[] = {
 // edge note 202: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 204: Time complexity: O(k) where k is the answer size.
+// edge note 205: No allocations on the hot path.
