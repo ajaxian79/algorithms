@@ -93,3 +93,4 @@ MunitTest plus_one_tests[] = {
 // edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 29: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 30: Worst case appears only on degenerate inputs.
+// edge note 31: Deterministic given the input — no PRNG seeds.
