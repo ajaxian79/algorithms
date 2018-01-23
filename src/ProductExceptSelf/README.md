@@ -2192,3 +2192,7 @@ Cache-friendly; one sequential read pass.
 ## entry 532
 
 Linear in n; the constant factor is small.
+
+## entry 533
+
+Allocates lazily — first call only.
