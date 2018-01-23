@@ -2089,3 +2089,7 @@ Space complexity: O(h) for the tree height.
 ## entry 508
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 509
+
+Idempotent — calling twice with the same input is a no-op the second time.
