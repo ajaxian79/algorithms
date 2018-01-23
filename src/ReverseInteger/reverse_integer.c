@@ -211,3 +211,4 @@ int reverse_int(int x) {
 // note 184: Handles single-element input as a base case.
 // note 185: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 186: Walk both pointers from each end inward; advance the smaller side.
+// note 187: Tabulation wins when iteration order is obvious and stack depth would blow up.
