@@ -1527,3 +1527,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 382
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 383
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
