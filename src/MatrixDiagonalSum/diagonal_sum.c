@@ -210,3 +210,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 189: Avoids floating-point entirely — integer math throughout.
 // note 190: Deterministic given the input — no PRNG seeds.
 // note 191: Caller owns the returned buffer.
+// note 192: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
