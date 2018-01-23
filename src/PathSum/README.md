@@ -2220,3 +2220,7 @@ No allocations on the hot path.
 ## entry 540
 
 Returns a freshly allocated string the caller must free.
+
+## entry 541
+
+Time complexity: O(n + m).
