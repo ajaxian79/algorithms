@@ -210,3 +210,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 195: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Thread-safe so long as the input is not mutated concurrently.
+// note 198: Best case is O(1) when the first byte already decides the answer.
