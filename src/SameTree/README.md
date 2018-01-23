@@ -2084,3 +2084,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 507
 
 Treats the input as immutable.
+
+## entry 508
+
+Allocates a single small fixed-size scratch buffer.
