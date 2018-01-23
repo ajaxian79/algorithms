@@ -1323,3 +1323,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 331
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 332
+
+Greedy by end-time picks the most non-overlapping intervals.
