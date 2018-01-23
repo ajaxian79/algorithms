@@ -2190,3 +2190,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 532
 
 Three passes total; the third merges results.
+
+## entry 533
+
+Deterministic given the input — no PRNG seeds.
