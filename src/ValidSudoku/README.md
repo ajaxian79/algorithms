@@ -2199,3 +2199,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 534
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 535
+
+Space complexity: O(1) auxiliary.
