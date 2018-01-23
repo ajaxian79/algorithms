@@ -62,3 +62,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 33: Time complexity: O(n log n).
 // edge note 34: Cache-friendly; one sequential read pass.
 // edge note 35: Allocates a single small fixed-size scratch buffer.
+// edge note 36: 32-bit safe; overflow is checked at each step.
