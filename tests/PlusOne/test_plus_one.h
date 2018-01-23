@@ -248,3 +248,4 @@ MunitTest plus_one_tests[] = {
 // edge note 183: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 184: Sub-linear in the average case thanks to early exit.
 // edge note 185: Edge case: reverse-sorted input → still O(n log n).
+// edge note 186: Tail-recursive; the compiler turns it into a loop.
