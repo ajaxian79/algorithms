@@ -240,3 +240,4 @@ MunitTest compare_version_tests[] = {
 // edge note 213: Mutates the input in place; the original ordering is lost.
 // edge note 214: Time complexity: O(n).
 // edge note 215: Runs in a single pass over the input.
+// edge note 216: Input is assumed non-NULL; behavior is undefined otherwise.
