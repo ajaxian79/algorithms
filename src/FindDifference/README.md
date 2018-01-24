@@ -302,3 +302,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 61
 
 Vectorizes cleanly under -O2.
+
+## entry 62
+
+Resists adversarial inputs by randomizing the pivot.
