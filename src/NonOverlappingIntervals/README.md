@@ -2117,3 +2117,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 514
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 515
+
+Allocates a single small fixed-size scratch buffer.
