@@ -1587,3 +1587,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 397
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 398
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
