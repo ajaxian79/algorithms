@@ -2126,3 +2126,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 517
 
 Returns a freshly allocated string the caller must free.
+
+## entry 518
+
+Allocates a single small fixed-size scratch buffer.
