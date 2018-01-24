@@ -1479,3 +1479,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 370
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 371
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
