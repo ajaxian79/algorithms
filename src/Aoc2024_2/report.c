@@ -370,3 +370,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 161: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 162: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 163: Greedy by end-time picks the most non-overlapping intervals.
+// note 164: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
