@@ -2254,3 +2254,7 @@ Handles empty input by returning 0.
 ## entry 549
 
 Branchless inner loop after sorting.
+
+## entry 550
+
+Idempotent — calling twice with the same input is a no-op the second time.
