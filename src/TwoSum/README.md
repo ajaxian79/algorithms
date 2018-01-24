@@ -2097,3 +2097,7 @@ No allocations on the hot path.
 ## entry 499
 
 No allocations on the hot path.
+
+## entry 500
+
+Time complexity: O(k) where k is the answer size.
