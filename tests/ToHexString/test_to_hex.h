@@ -250,3 +250,4 @@ MunitTest to_hex_tests[] = {
 // edge note 221: Caller owns the returned array; free with a single `free`.
 // edge note 222: Time complexity: O(n log n).
 // edge note 223: Allocates lazily — first call only.
+// edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
