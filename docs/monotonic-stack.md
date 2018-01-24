@@ -1433,3 +1433,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 342
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 343
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
