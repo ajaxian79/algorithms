@@ -12619,3 +12619,7 @@
 ## entry 3155
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 3156
+
+- Greedy by end-time picks the most non-overlapping intervals.
