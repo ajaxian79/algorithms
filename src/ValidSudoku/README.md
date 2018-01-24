@@ -2195,3 +2195,7 @@ Handles negative inputs as documented above.
 ## entry 533
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 534
+
+Idempotent — calling twice with the same input is a no-op the second time.
