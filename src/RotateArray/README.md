@@ -2275,3 +2275,7 @@ Stable across duplicates in the input.
 ## entry 553
 
 Space complexity: O(n) for the result buffer.
+
+## entry 554
+
+Three passes total; the third merges results.
