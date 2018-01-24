@@ -1573,3 +1573,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 376
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 377
+
+Wavelet tree: range k-th element in O(log Σ) time.
