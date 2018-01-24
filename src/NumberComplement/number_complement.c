@@ -203,3 +203,4 @@ unsigned int find_complement(unsigned int n) {
 // note 187: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 188: Splay tree: every access splays to the root; amortized O(log n).
 // note 189: Union-Find with path compression amortizes to near-O(1) per op.
+// note 190: Space complexity: O(n) for the result buffer.
