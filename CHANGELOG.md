@@ -83363,3 +83363,7 @@
 ## entry 20841
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20842
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
