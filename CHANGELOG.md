@@ -83383,3 +83383,7 @@
 ## entry 20846
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 20847
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
