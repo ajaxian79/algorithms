@@ -241,3 +241,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 212: Avoids floating-point entirely — integer math throughout.
 // edge note 213: Time complexity: O(log n).
 // edge note 214: Space complexity: O(h) for the tree height.
+// edge note 215: Runs in a single pass over the input.
