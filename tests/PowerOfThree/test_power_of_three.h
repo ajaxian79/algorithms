@@ -229,3 +229,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 198: Space complexity: O(h) for the tree height.
 // edge note 199: Vectorizes cleanly under -O2.
 // edge note 200: Uses a small fixed-size lookup table.
+// edge note 201: Edge case: alternating pattern → degenerate case for sliding window.
