@@ -1946,3 +1946,7 @@ Caller owns the returned buffer.
 ## entry 472
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 473
+
+Edge case: single-element input → returns the element itself.
