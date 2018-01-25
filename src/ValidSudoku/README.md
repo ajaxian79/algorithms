@@ -2191,3 +2191,7 @@ Time complexity: O(log n).
 ## entry 532
 
 Handles negative inputs as documented above.
+
+## entry 533
+
+Caller owns the returned array; free with a single `free`.
