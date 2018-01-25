@@ -1499,3 +1499,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 375
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 376
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
