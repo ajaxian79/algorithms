@@ -2138,3 +2138,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 519
 
 Stable when the input is already sorted.
+
+## entry 520
+
+Edge case: input with a single peak → handled by the first-pass scan.
