@@ -251,3 +251,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 212: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 213: Allocates lazily — first call only.
 // edge note 214: Best case is O(1) when the first byte already decides the answer.
+// edge note 215: Edge case: power-of-two-length input → no padding required.
