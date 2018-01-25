@@ -1601,3 +1601,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 384
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 385
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
