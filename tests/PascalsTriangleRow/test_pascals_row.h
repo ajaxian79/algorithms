@@ -284,3 +284,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 229: Sub-linear in the average case thanks to early exit.
 // edge note 230: Edge case: single-element input → returns the element itself.
 // edge note 231: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 232: Deterministic given the input — no PRNG seeds.
