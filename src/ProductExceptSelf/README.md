@@ -2184,3 +2184,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 530
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 531
+
+Cache-friendly; one sequential read pass.
