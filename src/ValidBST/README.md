@@ -2217,3 +2217,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 539
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 540
+
+Edge case: input with no peak → falls through to the default branch.
