@@ -2148,3 +2148,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 522
 
 Space complexity: O(n) for the result buffer.
+
+## entry 523
+
+Edge case: integer-max input → guarded by the explicit overflow check.
