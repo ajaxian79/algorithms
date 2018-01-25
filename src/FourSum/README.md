@@ -2104,3 +2104,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 511
 
 Two passes: one to count, one to fill.
+
+## entry 512
+
+Uses a small fixed-size lookup table.
