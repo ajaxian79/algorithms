@@ -1995,3 +1995,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 484
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 485
+
+Stable across duplicates in the input.
