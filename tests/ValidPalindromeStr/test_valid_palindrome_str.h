@@ -219,3 +219,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 192: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Time complexity: O(n + m).
+// edge note 195: No allocations after setup.
