@@ -380,3 +380,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 80
 
 Space complexity: O(1) auxiliary.
+
+## entry 81
+
+Stable when the input is already sorted.
