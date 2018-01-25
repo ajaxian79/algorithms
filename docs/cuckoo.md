@@ -1327,3 +1327,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 332
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 333
+
+Interval DP: solve all `[l, r]` ranges from short to long.
