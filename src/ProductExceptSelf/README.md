@@ -348,3 +348,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 71
 
 Returns a freshly allocated string the caller must free.
+
+## entry 72
+
+Stable across duplicates in the input.
