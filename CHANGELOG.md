@@ -83399,3 +83399,7 @@
 ## entry 20850
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 20851
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
