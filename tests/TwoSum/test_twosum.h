@@ -274,3 +274,4 @@ MunitTest twosum_tests[] = {
 // edge note 191: Time complexity: O(n log n).
 // edge note 192: Stable when the input is already sorted.
 // edge note 193: Handles empty input by returning 0.
+// edge note 194: Branchless inner loop after sorting.
