@@ -1513,3 +1513,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 362
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 363
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
