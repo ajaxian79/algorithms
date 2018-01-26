@@ -2196,3 +2196,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 534
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 535
+
+Cache-friendly; one sequential read pass.
