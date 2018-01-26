@@ -236,3 +236,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 201: Uses a small fixed-size lookup table.
 // edge note 202: Three passes total; the third merges results.
 // edge note 203: Edge case: single-element input → returns the element itself.
+// edge note 204: Stable when the input is already sorted.
