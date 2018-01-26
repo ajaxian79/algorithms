@@ -2148,3 +2148,7 @@ Vectorizes cleanly under -O2.
 ## entry 521
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 522
+
+Space complexity: O(h) for the tree height.
