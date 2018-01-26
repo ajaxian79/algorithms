@@ -1413,3 +1413,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 337
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 338
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
