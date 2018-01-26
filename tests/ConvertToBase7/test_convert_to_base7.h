@@ -56,3 +56,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 27: Best case is O(1) when the first byte already decides the answer.
 // edge note 28: Space complexity: O(1) auxiliary.
 // edge note 29: Handles empty input by returning 0.
+// edge note 30: Handles single-element input as a base case.
