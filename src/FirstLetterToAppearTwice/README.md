@@ -1934,3 +1934,7 @@ Allocates lazily — first call only.
 ## entry 459
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 460
+
+Time complexity: O(n*k) where k is the alphabet size.
