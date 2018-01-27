@@ -2054,3 +2054,7 @@ Handles single-element input as a base case.
 ## entry 499
 
 Returns a freshly allocated string the caller must free.
+
+## entry 500
+
+Edge case: input with no peak → falls through to the default branch.
