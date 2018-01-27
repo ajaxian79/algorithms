@@ -1942,3 +1942,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 471
 
 Caller owns the returned buffer.
+
+## entry 472
+
+Deterministic given the input — no PRNG seeds.
