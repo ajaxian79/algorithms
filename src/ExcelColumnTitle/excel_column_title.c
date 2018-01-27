@@ -213,3 +213,4 @@ char* excel_column_title(int n) {
 // note 183: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 184: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 185: Greedy by end-time picks the most non-overlapping intervals.
+// note 186: k-d tree: median-split each axis; nearest-neighbor average O(log n).
