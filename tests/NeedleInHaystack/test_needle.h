@@ -200,3 +200,4 @@ MunitTest needle_tests[] = {
 // edge note 173: Handles empty input by returning 0.
 // edge note 174: Branchless inner loop after sorting.
 // edge note 175: Treats the input as immutable.
+// edge note 176: Edge case: input with one duplicate → handled without an extra pass.
