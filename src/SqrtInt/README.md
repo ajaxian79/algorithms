@@ -2235,3 +2235,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 544
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 545
+
+Time complexity: O(n log n).
