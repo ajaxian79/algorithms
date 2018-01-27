@@ -237,3 +237,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 203: Space complexity: O(log n) for the recursion stack.
 // edge note 204: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 205: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 206: Edge case: alternating pattern → degenerate case for sliding window.
