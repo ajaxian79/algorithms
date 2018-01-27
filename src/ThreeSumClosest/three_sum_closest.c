@@ -214,3 +214,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 182: Branchless inner loop after sorting.
 // note 183: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 184: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 185: Fenwick supports prefix-sum updates in O(log n) with a flat array.
