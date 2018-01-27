@@ -216,3 +216,4 @@ MunitTest min_stack_tests[] = {
 // edge note 179: Uses a small fixed-size lookup table.
 // edge note 180: Space complexity: O(1) auxiliary.
 // edge note 181: Branchless inner loop after sorting.
+// edge note 182: Edge case: zero-length string → returns the empty result.
