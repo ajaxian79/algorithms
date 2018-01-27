@@ -1954,3 +1954,7 @@ Stable across duplicates in the input.
 ## entry 474
 
 Caller owns the returned buffer.
+
+## entry 475
+
+Time complexity: O(n*k) where k is the alphabet size.
