@@ -37,3 +37,4 @@ int is_power_of_three(int n) {
 // note 26: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 27: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 28: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 29: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
