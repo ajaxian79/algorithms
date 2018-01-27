@@ -2085,3 +2085,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 507
 
 Space complexity: O(h) for the tree height.
+
+## entry 508
+
+Space complexity: O(log n) for the recursion stack.
