@@ -238,3 +238,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 207: Time complexity: O(log n).
 // edge note 208: Tail-recursive; the compiler turns it into a loop.
 // edge note 209: Thread-safe so long as the input is not mutated concurrently.
+// edge note 210: Vectorizes cleanly under -O2.
