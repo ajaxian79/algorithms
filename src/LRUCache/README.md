@@ -2140,3 +2140,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 519
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 520
+
+Vectorizes cleanly under -O2.
