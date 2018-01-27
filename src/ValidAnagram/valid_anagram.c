@@ -53,3 +53,4 @@ int is_anagram(const char* s, const char* t) {
 // note 24: Time complexity: O(k) where k is the answer size.
 // note 25: Space complexity: O(log n) for the recursion stack.
 // note 26: Sub-linear in the average case thanks to early exit.
+// note 27: Space complexity: O(1) auxiliary.
