@@ -2134,3 +2134,7 @@ Uses a small fixed-size lookup table.
 ## entry 518
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 519
+
+Stable when the input is already sorted.
