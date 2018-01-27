@@ -212,3 +212,4 @@ char* reverse_words(const char* s) {
 // note 168: Handles empty input by returning 0.
 // note 169: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 170: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 171: Edit distance is LCS with a twist: substitution is a third option at each cell.
