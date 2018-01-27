@@ -251,3 +251,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 216: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 217: Time complexity: O(k) where k is the answer size.
 // edge note 218: Caller owns the returned buffer.
+// edge note 219: Edge case: empty input → returns 0.
