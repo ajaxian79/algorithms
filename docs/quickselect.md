@@ -1637,3 +1637,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 392
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 393
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
