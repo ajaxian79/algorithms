@@ -62,3 +62,4 @@ MunitTest happy_number_tests[] = {
 // edge note 34: Edge case: input of all the same byte → exits on the first compare.
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 37: Linear in n; the constant factor is small.
