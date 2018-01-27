@@ -202,3 +202,4 @@ unsigned int find_complement(unsigned int n) {
 // note 186: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 187: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 188: Splay tree: every access splays to the root; amortized O(log n).
+// note 189: Union-Find with path compression amortizes to near-O(1) per op.
