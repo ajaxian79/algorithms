@@ -1439,3 +1439,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 344
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 345
+
+State compression: bitmask + integer encodes a small subset cheaply.
