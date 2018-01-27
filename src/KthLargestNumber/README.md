@@ -2144,3 +2144,7 @@ Stable when the input is already sorted.
 ## entry 520
 
 Vectorizes cleanly under -O2.
+
+## entry 521
+
+Time complexity: O(n*k) where k is the alphabet size.
