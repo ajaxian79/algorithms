@@ -1563,3 +1563,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 373
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 374
+
+Interval DP: solve all `[l, r]` ranges from short to long.
