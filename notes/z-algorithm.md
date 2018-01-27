@@ -1669,3 +1669,7 @@
 ## entry 404
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 405
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
