@@ -2231,3 +2231,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 543
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 544
+
+Edge case: power-of-two-length input → no padding required.
