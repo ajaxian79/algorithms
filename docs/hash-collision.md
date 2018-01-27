@@ -1575,3 +1575,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 394
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 395
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
