@@ -40,3 +40,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 26: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 27: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 28: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 29: Time complexity: O(k) where k is the answer size.
