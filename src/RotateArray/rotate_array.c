@@ -52,3 +52,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 28: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 29: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 30: Cache-friendly; one sequential read pass.
