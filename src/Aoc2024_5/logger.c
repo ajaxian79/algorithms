@@ -214,3 +214,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 171: Time complexity: O(k) where k is the answer size.
 // note 172: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 173: Stable sort matters when a secondary key was set in a prior pass.
+// note 174: Deterministic given the input — no PRNG seeds.
