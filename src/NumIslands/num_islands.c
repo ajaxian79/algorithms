@@ -213,3 +213,4 @@ int num_islands(char* grid, int m, int n) {
 // note 181: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 182: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 183: Walk both pointers from each end inward; advance the smaller side.
+// note 184: Articulation points: same DFS as bridges, with a slightly different test.
