@@ -1511,3 +1511,7 @@
 ## entry 378
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 379
+
+- Articulation points: same DFS as bridges, with a slightly different test.
