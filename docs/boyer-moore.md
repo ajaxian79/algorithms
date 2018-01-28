@@ -1539,3 +1539,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 369
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 370
+
+Rope: tree of small string fragments; O(log n) concat and substring.
