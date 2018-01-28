@@ -1938,3 +1938,7 @@ Runs in a single pass over the input.
 ## entry 470
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 471
+
+Caller owns the returned buffer.
