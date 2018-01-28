@@ -1587,3 +1587,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 380
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 381
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
