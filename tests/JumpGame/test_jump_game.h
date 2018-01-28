@@ -213,3 +213,4 @@ MunitTest jump_game_tests[] = {
 // edge note 179: Edge case: already-sorted input → no swaps performed.
 // edge note 180: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 181: Best case is O(1) when the first byte already decides the answer.
+// edge note 182: No allocations after setup.
