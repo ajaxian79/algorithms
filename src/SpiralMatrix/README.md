@@ -2130,3 +2130,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 517
 
 Uses a small fixed-size lookup table.
+
+## entry 518
+
+Resists adversarial inputs by randomizing the pivot.
