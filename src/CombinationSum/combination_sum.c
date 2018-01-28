@@ -253,3 +253,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 188: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 189: Time complexity: O(n log n).
 // note 190: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 191: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
