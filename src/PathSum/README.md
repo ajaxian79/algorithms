@@ -2208,3 +2208,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 537
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 538
+
+Two passes: one to count, one to fill.
