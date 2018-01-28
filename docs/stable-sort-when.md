@@ -1581,3 +1581,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 381
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 382
+
+Splay tree: every access splays to the root; amortized O(log n).
