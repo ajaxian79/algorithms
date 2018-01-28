@@ -1443,3 +1443,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 361
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 362
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
