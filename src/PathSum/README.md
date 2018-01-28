@@ -2216,3 +2216,7 @@ Two passes: one to count, one to fill.
 ## entry 539
 
 No allocations on the hot path.
+
+## entry 540
+
+Returns a freshly allocated string the caller must free.
