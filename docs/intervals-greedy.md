@@ -1559,3 +1559,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 372
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 373
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
