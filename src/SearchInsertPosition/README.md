@@ -2122,3 +2122,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 516
 
 Runs in a single pass over the input.
+
+## entry 517
+
+Edge case: empty input → returns 0.
