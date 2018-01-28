@@ -1974,3 +1974,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 478
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 479
+
+64-bit safe; intermediate products are widened to 128-bit.
