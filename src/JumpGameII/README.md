@@ -2140,3 +2140,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 520
 
 Treats the input as immutable.
+
+## entry 521
+
+Edge case: reverse-sorted input → still O(n log n).
