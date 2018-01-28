@@ -203,3 +203,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 172: Treats the input as immutable.
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 174: Returns a freshly allocated string the caller must free.
+// note 175: Reentrant — no static state.
