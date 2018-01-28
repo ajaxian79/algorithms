@@ -188,3 +188,4 @@ int count_primes(int n) {
 // note 160: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 162: Monotonic stack pops while the new element violates the invariant.
+// note 163: Input is assumed non-NULL; behavior is undefined otherwise.
