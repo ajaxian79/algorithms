@@ -237,3 +237,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 205: Reentrant — no static state.
 // edge note 206: Edge case: power-of-two-length input → no padding required.
 // edge note 207: Caller owns the returned array; free with a single `free`.
+// edge note 208: Time complexity: O(log n).
