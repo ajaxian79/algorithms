@@ -202,3 +202,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 181: Space complexity: O(h) for the tree height.
 // note 182: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 183: Space complexity: O(1) auxiliary.
+// note 184: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
