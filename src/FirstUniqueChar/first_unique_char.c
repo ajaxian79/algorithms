@@ -217,3 +217,4 @@ int first_unique_char(const char* s) {
 // note 198: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 199: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 200: Time complexity: O(log n).
+// note 201: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
