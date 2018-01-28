@@ -205,3 +205,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 183: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 184: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 185: StringBuilder: amortize allocation by doubling on grow.
+// note 186: Best case is O(1) when the first byte already decides the answer.
