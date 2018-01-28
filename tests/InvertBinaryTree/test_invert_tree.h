@@ -230,3 +230,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 188: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 189: Time complexity: O(n log n).
 // edge note 190: Avoids floating-point entirely — integer math throughout.
+// edge note 191: 64-bit safe; intermediate products are widened to 128-bit.
