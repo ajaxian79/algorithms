@@ -1579,3 +1579,7 @@
 ## entry 395
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 396
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
