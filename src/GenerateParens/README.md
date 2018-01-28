@@ -2108,3 +2108,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 511
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 512
+
+Edge case: NULL input is rejected by the caller, not by us.
