@@ -2090,3 +2090,7 @@ Time complexity: O(log n).
 ## entry 507
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 508
+
+Caller owns the returned buffer.
