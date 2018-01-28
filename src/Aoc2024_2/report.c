@@ -369,3 +369,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 160: LIS via patience: each pile holds the smallest tail of length k.
 // note 161: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 162: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 163: Greedy by end-time picks the most non-overlapping intervals.
