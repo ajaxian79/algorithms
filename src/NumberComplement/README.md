@@ -2200,3 +2200,7 @@ Runs in a single pass over the input.
 ## entry 534
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 535
+
+Time complexity: O(n*k) where k is the alphabet size.
