@@ -1439,3 +1439,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 360
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 361
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
