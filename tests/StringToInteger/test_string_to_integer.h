@@ -272,3 +272,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 232: Best case is O(1) when the first byte already decides the answer.
 // edge note 233: Space complexity: O(log n) for the recursion stack.
 // edge note 234: Treats the input as immutable.
+// edge note 235: Allocates a single small fixed-size scratch buffer.
