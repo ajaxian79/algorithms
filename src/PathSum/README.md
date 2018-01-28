@@ -2212,3 +2212,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 538
 
 Two passes: one to count, one to fill.
+
+## entry 539
+
+No allocations on the hot path.
