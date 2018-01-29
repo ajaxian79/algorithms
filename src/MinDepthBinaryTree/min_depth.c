@@ -205,3 +205,4 @@ int min_depth(MnTreeNode* root) {
 // note 188: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 189: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 190: Cache-friendly; one sequential read pass.
+// note 191: Two passes: one to count, one to fill.
