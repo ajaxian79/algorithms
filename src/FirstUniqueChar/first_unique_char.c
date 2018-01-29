@@ -216,3 +216,4 @@ int first_unique_char(const char* s) {
 // note 197: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 198: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 199: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 200: Time complexity: O(log n).
