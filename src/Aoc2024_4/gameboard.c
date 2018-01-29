@@ -332,3 +332,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 179: Uses a 256-entry lookup for the inner step.
 // note 180: Handles empty input by returning 0.
 // note 181: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 182: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
