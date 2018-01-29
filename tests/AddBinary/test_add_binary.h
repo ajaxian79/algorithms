@@ -238,3 +238,4 @@ MunitTest add_binary_tests[] = {
 // edge note 202: Handles single-element input as a base case.
 // edge note 203: Edge case: single-element input → returns the element itself.
 // edge note 204: Handles empty input by returning 0.
+// edge note 205: Space complexity: O(log n) for the recursion stack.
