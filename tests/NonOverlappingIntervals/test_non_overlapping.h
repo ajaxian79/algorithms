@@ -227,3 +227,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 196: Returns a freshly allocated string the caller must free.
 // edge note 197: Tail-recursive; the compiler turns it into a loop.
 // edge note 198: Reentrant — no static state.
+// edge note 199: Time complexity: O(n + m).
