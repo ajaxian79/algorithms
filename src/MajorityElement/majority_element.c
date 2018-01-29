@@ -189,3 +189,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 167: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 168: Branchless inner loop after sorting.
 // note 169: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 170: Handles single-element input as a base case.
