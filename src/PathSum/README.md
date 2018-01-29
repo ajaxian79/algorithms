@@ -2200,3 +2200,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 535
 
 Time complexity: O(n log n).
+
+## entry 536
+
+Best case is O(1) when the first byte already decides the answer.
