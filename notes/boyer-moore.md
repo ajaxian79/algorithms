@@ -1711,3 +1711,7 @@
 ## entry 411
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 412
+
+- Articulation points: same DFS as bridges, with a slightly different test.
