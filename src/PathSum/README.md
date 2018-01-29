@@ -2204,3 +2204,7 @@ Time complexity: O(n log n).
 ## entry 536
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 537
+
+Time complexity: O(n^2) worst case, O(n) amortized.
