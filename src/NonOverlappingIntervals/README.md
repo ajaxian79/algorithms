@@ -2113,3 +2113,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 513
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 514
+
+Edge case: maximum-length input → still fits in 32-bit indices.
