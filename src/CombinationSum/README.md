@@ -2151,3 +2151,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 523
 
 Edge case: empty input → returns 0.
+
+## entry 524
+
+Edge case: zero-length string → returns the empty result.
