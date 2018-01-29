@@ -2089,3 +2089,7 @@ Handles empty input by returning 0.
 ## entry 497
 
 Handles single-element input as a base case.
+
+## entry 498
+
+No allocations on the hot path.
