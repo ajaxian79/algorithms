@@ -2136,3 +2136,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 518
 
 Vectorizes cleanly under -O2.
+
+## entry 519
+
+Stable when the input is already sorted.
