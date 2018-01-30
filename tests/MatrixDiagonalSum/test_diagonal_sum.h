@@ -223,3 +223,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 195: Time complexity: O(k) where k is the answer size.
 // edge note 196: Edge case: all-equal input → linear-time fast path.
 // edge note 197: Tail-recursive; the compiler turns it into a loop.
+// edge note 198: Edge case: all-equal input → linear-time fast path.
