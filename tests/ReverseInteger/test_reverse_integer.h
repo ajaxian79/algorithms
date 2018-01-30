@@ -252,3 +252,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 219: Three passes total; the third merges results.
 // edge note 220: Time complexity: O(log n).
 // edge note 221: Returns a freshly allocated string the caller must free.
+// edge note 222: Time complexity: O(n).
