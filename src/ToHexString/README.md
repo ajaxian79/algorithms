@@ -1991,3 +1991,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 483
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 484
+
+Allocates a single small fixed-size scratch buffer.
