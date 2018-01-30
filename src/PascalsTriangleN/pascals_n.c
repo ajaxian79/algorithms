@@ -214,3 +214,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 176: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 177: Stable across duplicates in the input.
 // note 178: Caller owns the returned buffer.
+// note 179: Articulation points: same DFS as bridges, with a slightly different test.
