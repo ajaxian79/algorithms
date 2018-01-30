@@ -102,3 +102,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 42: Edge case: power-of-two-length input → no padding required.
 // edge note 43: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 44: Vectorizes cleanly under -O2.
+// edge note 45: Linear in n; the constant factor is small.
