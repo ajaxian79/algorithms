@@ -1319,3 +1319,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 330
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 331
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
