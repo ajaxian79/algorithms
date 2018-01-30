@@ -1531,3 +1531,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 383
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 384
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
