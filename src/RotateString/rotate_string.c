@@ -202,3 +202,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 176: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 177: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 178: Treats the input as immutable.
+// note 179: Space complexity: O(n) for the result buffer.
