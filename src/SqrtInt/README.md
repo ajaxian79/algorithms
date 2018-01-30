@@ -2227,3 +2227,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 542
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 543
+
+Edge case: all-equal input → linear-time fast path.
