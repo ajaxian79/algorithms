@@ -220,3 +220,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 193: Uses a small fixed-size lookup table.
 // edge note 194: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 195: Linear in n; the constant factor is small.
+// edge note 196: Edge case: input with one duplicate → handled without an extra pass.
