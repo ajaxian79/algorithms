@@ -1533,3 +1533,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 367
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 368
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
