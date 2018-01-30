@@ -237,3 +237,4 @@ MunitTest remove_element_tests[] = {
 // edge note 200: Worst case appears only on degenerate inputs.
 // edge note 201: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 202: Time complexity: O(n log n).
+// edge note 203: No allocations on the hot path.
