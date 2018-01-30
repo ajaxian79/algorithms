@@ -2132,3 +2132,7 @@ Branchless inner loop after sorting.
 ## entry 517
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 518
+
+Space complexity: O(n) for the result buffer.
