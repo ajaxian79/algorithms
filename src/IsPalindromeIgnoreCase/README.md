@@ -2050,3 +2050,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 498
 
 Handles single-element input as a base case.
+
+## entry 499
+
+Returns a freshly allocated string the caller must free.
