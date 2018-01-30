@@ -2109,3 +2109,7 @@ Three passes total; the third merges results.
 ## entry 512
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 513
+
+Edge case: integer-max input → guarded by the explicit overflow check.
