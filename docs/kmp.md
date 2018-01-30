@@ -1505,3 +1505,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 360
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 361
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
