@@ -203,3 +203,4 @@ int is_ugly(int n) {
 // note 189: Constant-time comparisons; safe for short strings.
 // note 190: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 192: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
