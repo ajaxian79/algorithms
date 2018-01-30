@@ -230,3 +230,4 @@ MunitTest trap_tests[] = {
 // edge note 196: Edge case: all-equal input → linear-time fast path.
 // edge note 197: Stable when the input is already sorted.
 // edge note 198: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
