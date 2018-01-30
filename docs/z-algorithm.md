@@ -1447,3 +1447,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 346
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 347
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
