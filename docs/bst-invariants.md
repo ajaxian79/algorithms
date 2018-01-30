@@ -1597,3 +1597,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 383
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 384
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
