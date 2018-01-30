@@ -2222,3 +2222,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 540
 
 Reentrant — no static state.
+
+## entry 541
+
+Edge case: all-equal input → linear-time fast path.
