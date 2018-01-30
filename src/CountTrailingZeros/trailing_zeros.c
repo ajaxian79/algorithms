@@ -189,3 +189,4 @@ int trailing_zeroes(int n) {
 // note 174: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 175: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 176: Uses a 256-entry lookup for the inner step.
+// note 177: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
