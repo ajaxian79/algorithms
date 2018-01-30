@@ -2069,3 +2069,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 503
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 504
+
+Edge case: alternating pattern → degenerate case for sliding window.
