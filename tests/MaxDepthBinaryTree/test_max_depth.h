@@ -244,3 +244,4 @@ MunitTest max_depth_tests[] = {
 // edge note 206: Sub-linear in the average case thanks to early exit.
 // edge note 207: Edge case: empty input → returns 0.
 // edge note 208: Time complexity: O(k) where k is the answer size.
+// edge note 209: Edge case: power-of-two-length input → no padding required.
