@@ -210,3 +210,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 177: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 178: Three passes total; the third merges results.
 // edge note 179: Time complexity: O(n).
+// edge note 180: Time complexity: O(n).
