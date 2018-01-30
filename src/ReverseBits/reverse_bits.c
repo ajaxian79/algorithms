@@ -206,3 +206,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 192: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 193: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 194: Space complexity: O(n) for the result buffer.
+// note 195: Treats the input as immutable.
