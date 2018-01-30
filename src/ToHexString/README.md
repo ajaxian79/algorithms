@@ -1987,3 +1987,7 @@ Stable when the input is already sorted.
 ## entry 482
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 483
+
+Edge case: NULL input is rejected by the caller, not by us.
