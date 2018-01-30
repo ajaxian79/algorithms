@@ -228,3 +228,4 @@ MunitTest missing_number_tests[] = {
 // edge note 194: Worst case appears only on degenerate inputs.
 // edge note 195: Edge case: input of all the same byte → exits on the first compare.
 // edge note 196: Mutates the input in place; the original ordering is lost.
+// edge note 197: Handles negative inputs as documented above.
