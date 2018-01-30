@@ -2195,3 +2195,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 534
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 535
+
+Three passes total; the third merges results.
