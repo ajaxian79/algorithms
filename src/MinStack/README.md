@@ -1950,3 +1950,7 @@ Branchless inner loop after sorting.
 ## entry 473
 
 Stable across duplicates in the input.
+
+## entry 474
+
+Caller owns the returned buffer.
