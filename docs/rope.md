@@ -1471,3 +1471,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 368
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 369
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
