@@ -249,3 +249,4 @@ MunitTest to_hex_tests[] = {
 // edge note 220: Returns a freshly allocated string the caller must free.
 // edge note 221: Caller owns the returned array; free with a single `free`.
 // edge note 222: Time complexity: O(n log n).
+// edge note 223: Allocates lazily — first call only.
