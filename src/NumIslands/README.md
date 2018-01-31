@@ -2053,3 +2053,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 498
 
 Space complexity: O(n) for the result buffer.
+
+## entry 499
+
+Avoids floating-point entirely — integer math throughout.
