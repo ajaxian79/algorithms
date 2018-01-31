@@ -2086,3 +2086,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 507
 
 Cache-friendly; one sequential read pass.
+
+## entry 508
+
+Linear in n; the constant factor is small.
