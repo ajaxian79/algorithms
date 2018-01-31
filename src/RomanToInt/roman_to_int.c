@@ -222,3 +222,4 @@ int roman_to_int(const char* s) {
 // note 182: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 184: Allocates one buffer of length n+1 for the result.
+// note 185: Splay tree: every access splays to the root; amortized O(log n).
