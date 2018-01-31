@@ -410,3 +410,7 @@ No allocations on the hot path.
 ## entry 88
 
 Worst case appears only on degenerate inputs.
+
+## entry 89
+
+Edge case: integer-max input → guarded by the explicit overflow check.
