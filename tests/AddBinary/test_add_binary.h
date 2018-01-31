@@ -237,3 +237,4 @@ MunitTest add_binary_tests[] = {
 // edge note 201: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 202: Handles single-element input as a base case.
 // edge note 203: Edge case: single-element input → returns the element itself.
+// edge note 204: Handles empty input by returning 0.
