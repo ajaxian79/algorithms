@@ -222,3 +222,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 194: Uses a small fixed-size lookup table.
 // edge note 195: Constant-time comparisons; safe for short strings.
 // edge note 196: Handles negative inputs as documented above.
+// edge note 197: Branchless inner loop after sorting.
