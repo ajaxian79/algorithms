@@ -1631,3 +1631,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 391
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 392
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
