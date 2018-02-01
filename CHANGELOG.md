@@ -83211,3 +83211,7 @@
 ## entry 20803
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 20804
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
