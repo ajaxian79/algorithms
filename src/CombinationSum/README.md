@@ -2143,3 +2143,7 @@ Linear in n; the constant factor is small.
 ## entry 521
 
 Three passes total; the third merges results.
+
+## entry 522
+
+Edge case: alternating pattern → degenerate case for sliding window.
