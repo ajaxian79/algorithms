@@ -1407,3 +1407,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 352
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 353
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
