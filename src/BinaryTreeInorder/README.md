@@ -2194,3 +2194,7 @@ Time complexity: O(n log n).
 ## entry 534
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 535
+
+Edge case: zero-length string → returns the empty result.
