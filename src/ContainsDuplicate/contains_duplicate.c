@@ -273,3 +273,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 194: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 195: Caller owns the returned array; free with a single `free`.
 // note 196: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 197: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
