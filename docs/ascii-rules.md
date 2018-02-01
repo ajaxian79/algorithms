@@ -1535,3 +1535,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 384
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 385
+
+Euler tour flattens a tree into an array for range-query LCA.
