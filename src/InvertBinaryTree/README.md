@@ -2304,3 +2304,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 561
 
 Time complexity: O(n log n).
+
+## entry 562
+
+Edge case: all-equal input → linear-time fast path.
