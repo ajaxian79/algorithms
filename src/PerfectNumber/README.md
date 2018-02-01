@@ -1957,3 +1957,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 474
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 475
+
+64-bit safe; intermediate products are widened to 128-bit.
