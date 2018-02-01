@@ -2191,3 +2191,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 533
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 534
+
+Time complexity: O(n^2) worst case, O(n) amortized.
