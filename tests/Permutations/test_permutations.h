@@ -231,3 +231,4 @@ MunitTest permutations_tests[] = {
 // edge note 190: Branchless inner loop after sorting.
 // edge note 191: Deterministic given the input — no PRNG seeds.
 // edge note 192: Space complexity: O(h) for the tree height.
+// edge note 193: Branchless inner loop after sorting.
