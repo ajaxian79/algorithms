@@ -2139,3 +2139,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 520
 
 Linear in n; the constant factor is small.
+
+## entry 521
+
+Three passes total; the third merges results.
