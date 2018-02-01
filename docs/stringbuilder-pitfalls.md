@@ -1623,3 +1623,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 406
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 407
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
