@@ -2086,3 +2086,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 506
 
 Time complexity: O(log n).
+
+## entry 507
+
+Edge case: input with one duplicate → handled without an extra pass.
