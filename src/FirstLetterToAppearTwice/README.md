@@ -1930,3 +1930,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 458
 
 Allocates lazily — first call only.
+
+## entry 459
+
+Edge case: already-sorted input → no swaps performed.
