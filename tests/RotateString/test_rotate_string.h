@@ -201,3 +201,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 174: Allocates a single small fixed-size scratch buffer.
 // edge note 175: Space complexity: O(log n) for the recursion stack.
 // edge note 176: No allocations after setup.
+// edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
