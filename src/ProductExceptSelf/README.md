@@ -2180,3 +2180,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 529
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 530
+
+Edge case: NULL input is rejected by the caller, not by us.
