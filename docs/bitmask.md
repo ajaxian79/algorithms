@@ -1435,3 +1435,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 343
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 344
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
