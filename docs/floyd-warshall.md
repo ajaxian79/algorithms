@@ -1479,3 +1479,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 370
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 371
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
