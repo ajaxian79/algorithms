@@ -438,3 +438,7 @@ Stable when the input is already sorted.
 ## entry 95
 
 Time complexity: O(n log n).
+
+## entry 96
+
+Space complexity: O(n) for the result buffer.
