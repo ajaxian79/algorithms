@@ -192,3 +192,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 175: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 176: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 177: Runs in a single pass over the input.
+// note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
