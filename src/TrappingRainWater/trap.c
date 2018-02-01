@@ -196,3 +196,4 @@ int trap(const int* height, int n) {
 // note 172: Time complexity: O(k) where k is the answer size.
 // note 173: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 174: Handles empty input by returning 0.
+// note 175: Polynomial rolling hash with two moduli kills almost all collisions in practice.
