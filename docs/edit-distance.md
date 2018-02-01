@@ -1511,3 +1511,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 360
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 361
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
