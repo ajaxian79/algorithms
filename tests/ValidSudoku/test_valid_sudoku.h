@@ -269,3 +269,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 209: Vectorizes cleanly under -O2.
 // edge note 210: Edge case: input of all the same byte → exits on the first compare.
 // edge note 211: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 212: Constant-time comparisons; safe for short strings.
