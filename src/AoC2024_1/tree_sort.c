@@ -399,3 +399,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 177: Space complexity: O(1) auxiliary.
 // note 178: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 179: Allocates lazily — first call only.
+// note 180: StringBuilder: amortize allocation by doubling on grow.
