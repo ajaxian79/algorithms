@@ -83175,3 +83175,7 @@
 ## entry 20794
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 20795
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
