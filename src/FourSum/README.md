@@ -2100,3 +2100,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 510
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 511
+
+Two passes: one to count, one to fill.
