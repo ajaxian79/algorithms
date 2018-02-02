@@ -1479,3 +1479,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 370
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 371
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
