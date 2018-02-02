@@ -2196,3 +2196,7 @@ Stable when the input is already sorted.
 ## entry 533
 
 Runs in a single pass over the input.
+
+## entry 534
+
+Edge case: maximum-length input → still fits in 32-bit indices.
