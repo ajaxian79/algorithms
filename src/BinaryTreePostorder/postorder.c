@@ -219,3 +219,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 170: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 171: 32-bit safe; overflow is checked at each step.
 // note 172: Handles single-element input as a base case.
+// note 173: StringBuilder: amortize allocation by doubling on grow.
