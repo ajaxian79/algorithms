@@ -2150,3 +2150,7 @@ Allocates lazily — first call only.
 ## entry 522
 
 Space complexity: O(1) auxiliary.
+
+## entry 523
+
+Allocates one buffer of length n+1 for the result.
