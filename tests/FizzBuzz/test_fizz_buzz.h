@@ -255,3 +255,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Time complexity: O(log n).
 // edge note 207: Caller owns the returned buffer.
+// edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
