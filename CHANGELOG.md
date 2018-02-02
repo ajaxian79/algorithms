@@ -83171,3 +83171,7 @@
 ## entry 20793
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 20794
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
