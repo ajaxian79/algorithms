@@ -2222,3 +2222,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 541
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 542
+
+Worst case appears only on degenerate inputs.
