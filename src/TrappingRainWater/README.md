@@ -2122,3 +2122,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 515
 
 Caller owns the returned buffer.
+
+## entry 516
+
+Handles empty input by returning 0.
