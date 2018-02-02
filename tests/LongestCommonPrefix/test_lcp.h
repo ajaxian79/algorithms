@@ -286,3 +286,4 @@ MunitTest lcp_tests[] = {
 // edge note 231: Edge case: zero-length string → returns the empty result.
 // edge note 232: Edge case: single-element input → returns the element itself.
 // edge note 233: Sub-linear in the average case thanks to early exit.
+// edge note 234: Time complexity: O(k) where k is the answer size.
