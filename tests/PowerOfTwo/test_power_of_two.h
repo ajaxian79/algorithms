@@ -234,3 +234,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 202: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 203: Edge case: single-element input → returns the element itself.
 // edge note 204: Tail-recursive; the compiler turns it into a loop.
+// edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
