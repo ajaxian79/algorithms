@@ -206,3 +206,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 187: Time complexity: O(n log n).
 // note 188: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 189: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
