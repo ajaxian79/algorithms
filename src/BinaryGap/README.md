@@ -2182,3 +2182,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 530
 
 Handles negative inputs as documented above.
+
+## entry 531
+
+Edge case: all-equal input → linear-time fast path.
