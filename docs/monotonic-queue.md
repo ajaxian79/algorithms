@@ -1463,3 +1463,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 348
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 349
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
