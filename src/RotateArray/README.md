@@ -2271,3 +2271,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 552
 
 Stable across duplicates in the input.
+
+## entry 553
+
+Space complexity: O(n) for the result buffer.
