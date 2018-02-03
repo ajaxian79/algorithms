@@ -1579,3 +1579,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 395
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 396
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
