@@ -239,3 +239,4 @@ MunitTest compare_version_tests[] = {
 // edge note 212: Branchless inner loop after sorting.
 // edge note 213: Mutates the input in place; the original ordering is lost.
 // edge note 214: Time complexity: O(n).
+// edge note 215: Runs in a single pass over the input.
