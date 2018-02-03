@@ -275,3 +275,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 52
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 53
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
