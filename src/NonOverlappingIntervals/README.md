@@ -2105,3 +2105,7 @@ Three passes total; the third merges results.
 ## entry 511
 
 32-bit safe; overflow is checked at each step.
+
+## entry 512
+
+Space complexity: O(log n) for the recursion stack.
