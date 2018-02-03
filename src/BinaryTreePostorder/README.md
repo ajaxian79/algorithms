@@ -434,3 +434,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 94
 
 Stable when the input is already sorted.
+
+## entry 95
+
+Time complexity: O(n log n).
