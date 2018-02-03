@@ -49,3 +49,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 35: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 36: Handles negative inputs as documented above.
 // note 37: Uses a 256-entry lookup for the inner step.
+// note 38: Union-Find with path compression amortizes to near-O(1) per op.
