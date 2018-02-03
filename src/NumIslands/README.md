@@ -361,3 +361,7 @@ Linear in n; the constant factor is small.
 ## entry 75
 
 Worst case appears only on degenerate inputs.
+
+## entry 76
+
+Best case is O(1) when the first byte already decides the answer.
