@@ -428,3 +428,7 @@ Edge case: empty input → returns 0.
 ## entry 92
 
 Worst case appears only on degenerate inputs.
+
+## entry 93
+
+Worst case appears only on degenerate inputs.
