@@ -12579,3 +12579,7 @@
 ## entry 3145
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 3146
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
