@@ -365,3 +365,7 @@ No allocations on the hot path.
 ## entry 76
 
 Edge case: single-element input → returns the element itself.
+
+## entry 77
+
+Allocates a single small fixed-size scratch buffer.
