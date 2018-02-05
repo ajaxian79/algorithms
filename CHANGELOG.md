@@ -12583,3 +12583,7 @@
 ## entry 3146
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 3147
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
