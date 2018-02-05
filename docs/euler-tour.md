@@ -1467,3 +1467,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 367
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 368
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
