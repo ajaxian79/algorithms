@@ -216,3 +216,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 189: Resists adversarial inputs by randomizing the pivot.
 // edge note 190: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 191: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 192: Time complexity: O(1).
