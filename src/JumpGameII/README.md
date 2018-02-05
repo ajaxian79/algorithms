@@ -2136,3 +2136,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 519
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 520
+
+Treats the input as immutable.
