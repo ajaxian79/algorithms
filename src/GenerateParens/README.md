@@ -2104,3 +2104,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 510
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 511
+
+Resists adversarial inputs by randomizing the pivot.
