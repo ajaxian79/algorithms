@@ -2274,3 +2274,7 @@ Time complexity: O(n + m).
 ## entry 554
 
 Two passes: one to count, one to fill.
+
+## entry 555
+
+Uses a 256-entry lookup for the inner step.
