@@ -228,3 +228,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 185: Returns a freshly allocated string the caller must free.
 // edge note 186: Branchless inner loop after sorting.
 // edge note 187: Space complexity: O(h) for the tree height.
+// edge note 188: Caller owns the returned array; free with a single `free`.
