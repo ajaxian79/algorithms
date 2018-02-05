@@ -2135,3 +2135,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 519
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 520
+
+Linear in n; the constant factor is small.
