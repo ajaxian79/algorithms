@@ -250,3 +250,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 220: Stable across duplicates in the input.
 // edge note 221: Linear in n; the constant factor is small.
 // edge note 222: Stable across duplicates in the input.
+// edge note 223: Time complexity: O(log n).
