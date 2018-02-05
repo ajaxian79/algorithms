@@ -1539,3 +1539,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 385
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 386
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
