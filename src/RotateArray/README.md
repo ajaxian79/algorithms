@@ -2267,3 +2267,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 551
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 552
+
+Stable across duplicates in the input.
