@@ -2118,3 +2118,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 514
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 515
+
+Caller owns the returned buffer.
