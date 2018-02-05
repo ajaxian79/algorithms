@@ -2225,3 +2225,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 542
 
 Constant-time comparisons; safe for short strings.
+
+## entry 543
+
+Two passes: one to count, one to fill.
