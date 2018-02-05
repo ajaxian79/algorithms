@@ -1483,3 +1483,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 354
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 355
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
