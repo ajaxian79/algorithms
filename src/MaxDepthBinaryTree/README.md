@@ -2061,3 +2061,7 @@ Time complexity: O(n log n).
 ## entry 501
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 502
+
+Space complexity: O(n) for the result buffer.
