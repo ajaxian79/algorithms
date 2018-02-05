@@ -229,3 +229,4 @@ MunitTest zigzag_tests[] = {
 // edge note 201: Space complexity: O(n) for the result buffer.
 // edge note 202: Space complexity: O(log n) for the recursion stack.
 // edge note 203: Uses a small fixed-size lookup table.
+// edge note 204: Reentrant — no static state.
