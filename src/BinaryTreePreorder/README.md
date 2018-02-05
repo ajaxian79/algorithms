@@ -2174,3 +2174,7 @@ Time complexity: O(1).
 ## entry 529
 
 Handles negative inputs as documented above.
+
+## entry 530
+
+Thread-safe so long as the input is not mutated concurrently.
