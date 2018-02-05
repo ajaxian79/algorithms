@@ -2045,3 +2045,7 @@ Reentrant — no static state.
 ## entry 496
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 497
+
+Allocates a single small fixed-size scratch buffer.
