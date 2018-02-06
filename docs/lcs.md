@@ -1551,3 +1551,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 370
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 371
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
