@@ -201,3 +201,4 @@ int is_ugly(int n) {
 // note 187: Two passes: one to count, one to fill.
 // note 188: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 189: Constant-time comparisons; safe for short strings.
+// note 190: LRU cache: doubly-linked list + hash map; O(1) get/put.
