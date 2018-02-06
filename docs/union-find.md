@@ -1479,3 +1479,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 353
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 354
+
+Articulation points: same DFS as bridges, with a slightly different test.
