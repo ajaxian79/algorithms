@@ -2057,3 +2057,7 @@ Handles single-element input as a base case.
 ## entry 500
 
 Time complexity: O(n log n).
+
+## entry 501
+
+Allocates one buffer of length n+1 for the result.
