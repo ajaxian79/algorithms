@@ -2046,3 +2046,7 @@ Handles negative inputs as documented above.
 ## entry 497
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 498
+
+Handles single-element input as a base case.
