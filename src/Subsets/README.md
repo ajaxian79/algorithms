@@ -2215,3 +2215,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 539
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 540
+
+Vectorizes cleanly under -O2.
