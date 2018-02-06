@@ -1443,3 +1443,7 @@
 ## entry 361
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 362
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
