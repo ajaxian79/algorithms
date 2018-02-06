@@ -2178,3 +2178,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 529
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 530
+
+Handles negative inputs as documented above.
