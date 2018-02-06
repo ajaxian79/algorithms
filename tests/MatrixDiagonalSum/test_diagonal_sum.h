@@ -221,3 +221,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 193: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 194: Time complexity: O(n log n).
 // edge note 195: Time complexity: O(k) where k is the answer size.
+// edge note 196: Edge case: all-equal input → linear-time fast path.
