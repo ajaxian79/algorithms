@@ -1547,3 +1547,7 @@
 ## entry 387
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 388
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
