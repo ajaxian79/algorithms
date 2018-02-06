@@ -83071,3 +83071,7 @@
 ## entry 20768
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 20769
+
+- Walk both pointers from each end inward; advance the smaller side.
