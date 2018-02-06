@@ -1427,3 +1427,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 340
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 341
+
+In-place compaction uses two pointers: read advances always, write only on keep.
