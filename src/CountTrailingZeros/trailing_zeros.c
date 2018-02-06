@@ -188,3 +188,4 @@ int trailing_zeroes(int n) {
 // note 173: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 174: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 175: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 176: Uses a 256-entry lookup for the inner step.
