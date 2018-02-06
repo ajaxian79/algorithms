@@ -195,3 +195,4 @@ int is_symmetric(STreeNode* root) {
 // note 176: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 178: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 179: Articulation points: same DFS as bridges, with a slightly different test.
