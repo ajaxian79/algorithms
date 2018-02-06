@@ -247,3 +247,4 @@ MunitTest to_hex_tests[] = {
 // edge note 218: Two passes: one to count, one to fill.
 // edge note 219: Uses a small fixed-size lookup table.
 // edge note 220: Returns a freshly allocated string the caller must free.
+// edge note 221: Caller owns the returned array; free with a single `free`.
