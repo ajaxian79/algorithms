@@ -83079,3 +83079,7 @@
 ## entry 20770
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 20771
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
