@@ -422,3 +422,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 90
 
 Runs in a single pass over the input.
+
+## entry 91
+
+Cache-friendly; one sequential read pass.
