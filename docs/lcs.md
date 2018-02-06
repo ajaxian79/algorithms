@@ -1555,3 +1555,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 371
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 372
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
