@@ -2082,3 +2082,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 506
 
 Space complexity: O(n) for the result buffer.
+
+## entry 507
+
+Cache-friendly; one sequential read pass.
