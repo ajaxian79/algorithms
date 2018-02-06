@@ -2300,3 +2300,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 560
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 561
+
+Time complexity: O(n log n).
