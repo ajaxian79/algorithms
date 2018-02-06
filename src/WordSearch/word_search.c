@@ -213,3 +213,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 179: Time complexity: O(k) where k is the answer size.
 // note 180: Constant-time comparisons; safe for short strings.
 // note 181: Thread-safe so long as the input is not mutated concurrently.
+// note 182: Vectorizes cleanly under -O2.
