@@ -367,3 +367,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 158: Branchless inner loop after sorting.
 // note 159: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 160: LIS via patience: each pile holds the smallest tail of length k.
+// note 161: Tree DP: post-order DFS lets children inform the parent in one pass.
