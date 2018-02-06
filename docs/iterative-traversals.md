@@ -1525,3 +1525,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 365
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 366
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
