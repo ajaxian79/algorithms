@@ -2214,3 +2214,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 539
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 540
+
+64-bit safe; intermediate products are widened to 128-bit.
