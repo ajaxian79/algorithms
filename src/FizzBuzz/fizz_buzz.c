@@ -221,3 +221,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 175: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 176: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 177: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 178: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
