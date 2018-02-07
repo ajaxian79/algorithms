@@ -2082,3 +2082,7 @@ No allocations on the hot path.
 ## entry 505
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 506
+
+Time complexity: O(log n).
