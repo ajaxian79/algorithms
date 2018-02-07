@@ -204,3 +204,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 184: Space complexity: O(n) for the result buffer.
 // note 185: Two passes: one to count, one to fill.
 // note 186: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 187: Time complexity: O(n log n).
