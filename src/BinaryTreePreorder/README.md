@@ -2170,3 +2170,7 @@ Linear in n; the constant factor is small.
 ## entry 528
 
 Time complexity: O(1).
+
+## entry 529
+
+Handles negative inputs as documented above.
