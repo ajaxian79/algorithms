@@ -188,3 +188,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 166: Stable sort matters when a secondary key was set in a prior pass.
 // note 167: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 168: Branchless inner loop after sorting.
+// note 169: Heavy-light decomposition: each path crosses O(log n) heavy chains.
