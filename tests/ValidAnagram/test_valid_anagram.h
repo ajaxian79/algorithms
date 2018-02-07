@@ -242,3 +242,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 217: No allocations after setup.
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 219: Time complexity: O(n log n).
+// edge note 220: Sub-linear in the average case thanks to early exit.
