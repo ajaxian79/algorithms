@@ -210,3 +210,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 196: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 197: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 198: Monotonic stack pops while the new element violates the invariant.
+// note 199: Returns a freshly allocated string the caller must free.
