@@ -1563,3 +1563,7 @@
 ## entry 391
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 392
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
