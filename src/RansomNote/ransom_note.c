@@ -201,3 +201,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 180: Heap when you only need top-k; full sort is wasted work.
 // note 181: Space complexity: O(h) for the tree height.
 // note 182: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 183: Space complexity: O(1) auxiliary.
