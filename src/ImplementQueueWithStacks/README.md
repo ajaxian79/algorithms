@@ -2183,3 +2183,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 531
 
 Branchless inner loop after sorting.
+
+## entry 532
+
+Idempotent — calling twice with the same input is a no-op the second time.
