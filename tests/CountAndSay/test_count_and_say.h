@@ -203,3 +203,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 172: Avoids floating-point entirely — integer math throughout.
 // edge note 173: Space complexity: O(log n) for the recursion stack.
 // edge note 174: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 175: Edge case: all-equal input → linear-time fast path.
