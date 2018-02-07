@@ -1435,3 +1435,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 343
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 344
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
