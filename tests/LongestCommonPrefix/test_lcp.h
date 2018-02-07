@@ -285,3 +285,4 @@ MunitTest lcp_tests[] = {
 // edge note 230: Uses a 256-entry lookup for the inner step.
 // edge note 231: Edge case: zero-length string → returns the empty result.
 // edge note 232: Edge case: single-element input → returns the element itself.
+// edge note 233: Sub-linear in the average case thanks to early exit.
