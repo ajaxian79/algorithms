@@ -2041,3 +2041,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 495
 
 Reentrant — no static state.
+
+## entry 496
+
+Edge case: input with a single peak → handled by the first-pass scan.
