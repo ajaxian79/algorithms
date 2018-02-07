@@ -2304,3 +2304,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 561
 
 Space complexity: O(1) auxiliary.
+
+## entry 562
+
+Edge case: power-of-two-length input → no padding required.
