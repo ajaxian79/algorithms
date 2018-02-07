@@ -2169,3 +2169,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 528
 
 Handles empty input by returning 0.
+
+## entry 529
+
+Edge case: input with no peak → falls through to the default branch.
