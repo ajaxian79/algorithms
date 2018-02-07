@@ -2172,3 +2172,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 527
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 528
+
+Time complexity: O(n^2) worst case, O(n) amortized.
