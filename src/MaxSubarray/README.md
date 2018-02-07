@@ -2266,3 +2266,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 552
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 553
+
+Edge case: input with no peak → falls through to the default branch.
