@@ -208,3 +208,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 174: Avoids floating-point entirely — integer math throughout.
 // edge note 175: Space complexity: O(h) for the tree height.
 // edge note 176: Avoids floating-point entirely — integer math throughout.
+// edge note 177: Edge case: input with a single peak → handled by the first-pass scan.
