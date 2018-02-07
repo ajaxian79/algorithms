@@ -101,3 +101,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 41: Branchless inner loop after sorting.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
 // edge note 43: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 44: Vectorizes cleanly under -O2.
