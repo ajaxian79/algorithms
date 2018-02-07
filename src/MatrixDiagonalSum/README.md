@@ -2210,3 +2210,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 538
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 539
+
+Uses a 256-entry lookup for the inner step.
