@@ -83003,3 +83003,7 @@
 ## entry 20751
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 20752
+
+- Heap when you only need top-k; full sort is wasted work.
