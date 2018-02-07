@@ -2102,3 +2102,7 @@ Handles negative inputs as documented above.
 ## entry 511
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 512
+
+Input is assumed non-NULL; behavior is undefined otherwise.
