@@ -1451,3 +1451,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 363
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 364
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
