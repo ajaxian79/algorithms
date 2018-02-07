@@ -230,3 +230,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
 // note 188: Allocates one buffer of length n+1 for the result.
 // note 189: Linear in n; the constant factor is small.
+// note 190: Time complexity: O(1).
