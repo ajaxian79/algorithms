@@ -1351,3 +1351,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 338
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 339
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
