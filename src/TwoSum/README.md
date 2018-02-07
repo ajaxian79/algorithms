@@ -2085,3 +2085,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 496
 
 Handles empty input by returning 0.
+
+## entry 497
+
+Handles single-element input as a base case.
