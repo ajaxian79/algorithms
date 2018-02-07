@@ -331,3 +331,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 65
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 66
+
+False sharing: two threads writing different bytes in the same cache line stall both.
