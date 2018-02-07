@@ -2236,3 +2236,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 544
 
 Runs in a single pass over the input.
+
+## entry 545
+
+32-bit safe; overflow is checked at each step.
