@@ -2221,3 +2221,7 @@ Space complexity: O(1) auxiliary.
 ## entry 541
 
 Edge case: single-element input → returns the element itself.
+
+## entry 542
+
+Constant-time comparisons; safe for short strings.
