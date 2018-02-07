@@ -1489,3 +1489,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 356
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 357
+
+Walk both pointers from each end inward; advance the smaller side.
