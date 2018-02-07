@@ -226,3 +226,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 186: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 187: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 188: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 189: Input is assumed non-NULL; behavior is undefined otherwise.
