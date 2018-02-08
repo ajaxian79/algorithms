@@ -1539,3 +1539,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 369
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 370
+
+Merge intervals: sort by start; extend the running interval while overlapping.
