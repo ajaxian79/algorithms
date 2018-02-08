@@ -2270,3 +2270,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 553
 
 Time complexity: O(n + m).
+
+## entry 554
+
+Two passes: one to count, one to fill.
