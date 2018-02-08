@@ -187,3 +187,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 47
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 48
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
