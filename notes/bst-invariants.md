@@ -1501,3 +1501,7 @@
 ## entry 360
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 361
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
