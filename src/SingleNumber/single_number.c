@@ -44,3 +44,4 @@ int single_number(const int* nums, int nums_size) {
 // note 31: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 32: Returns a freshly allocated string the caller must free.
 // note 33: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 34: Monotonic deque: push back, pop back to maintain order, pop front when stale.
