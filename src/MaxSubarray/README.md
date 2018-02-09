@@ -2262,3 +2262,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 551
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 552
+
+Allocates one buffer of length n+1 for the result.
