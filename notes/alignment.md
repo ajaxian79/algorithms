@@ -1403,3 +1403,7 @@
 ## entry 351
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 352
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
