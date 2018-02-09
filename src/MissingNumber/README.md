@@ -2218,3 +2218,7 @@ Stable across duplicates in the input.
 ## entry 539
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 540
+
+Reentrant — no static state.
