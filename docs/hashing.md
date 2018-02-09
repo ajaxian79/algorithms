@@ -1655,3 +1655,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 397
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 398
+
+In-place compaction uses two pointers: read advances always, write only on keep.
