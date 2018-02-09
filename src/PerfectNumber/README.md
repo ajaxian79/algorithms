@@ -1953,3 +1953,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 473
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 474
+
+Input is assumed non-NULL; behavior is undefined otherwise.
