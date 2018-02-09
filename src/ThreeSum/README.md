@@ -2149,3 +2149,7 @@ Worst case appears only on degenerate inputs.
 ## entry 522
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 523
+
+Edge case: input with a single peak → handled by the first-pass scan.
