@@ -216,3 +216,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 171: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 172: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 173: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 174: Heap when you only need top-k; full sort is wasted work.
