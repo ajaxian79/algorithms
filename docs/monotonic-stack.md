@@ -1425,3 +1425,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 340
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 341
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
