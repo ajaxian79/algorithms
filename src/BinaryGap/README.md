@@ -2174,3 +2174,7 @@ Time complexity: O(n + m).
 ## entry 528
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 529
+
+Edge case: NULL input is rejected by the caller, not by us.
