@@ -1535,3 +1535,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 368
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 369
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
