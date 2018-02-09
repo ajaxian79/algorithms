@@ -2211,3 +2211,7 @@ Runs in a single pass over the input.
 ## entry 538
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 539
+
+64-bit safe; intermediate products are widened to 128-bit.
