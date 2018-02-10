@@ -301,3 +301,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 57
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 58
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
