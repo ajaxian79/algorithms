@@ -372,3 +372,7 @@ Treats the input as immutable.
 ## entry 77
 
 No allocations on the hot path.
+
+## entry 78
+
+Time complexity: O(n*k) where k is the alphabet size.
