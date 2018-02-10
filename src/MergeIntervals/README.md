@@ -410,3 +410,7 @@ Three passes total; the third merges results.
 ## entry 87
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 88
+
+Handles single-element input as a base case.
