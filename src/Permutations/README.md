@@ -400,3 +400,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 85
 
 Edge case: empty input → returns 0.
+
+## entry 86
+
+Thread-safe so long as the input is not mutated concurrently.
