@@ -82935,3 +82935,7 @@
 ## entry 20734
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 20735
+
+- Heap when you only need top-k; full sort is wasted work.
