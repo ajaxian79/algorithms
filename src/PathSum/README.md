@@ -2192,3 +2192,7 @@ Branchless inner loop after sorting.
 ## entry 533
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 534
+
+Deterministic given the input — no PRNG seeds.
