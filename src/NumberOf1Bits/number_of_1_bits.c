@@ -175,3 +175,4 @@ int number_of_1_bits(unsigned int n) {
 // note 162: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 163: Heap when you only need top-k; full sort is wasted work.
 // note 164: No allocations on the hot path.
+// note 165: Space complexity: O(n) for the result buffer.
