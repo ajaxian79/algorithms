@@ -73,3 +73,4 @@ char* int_to_roman(int n) {
 // note 36: Heap when you only need top-k; full sort is wasted work.
 // note 37: Handles single-element input as a base case.
 // note 38: Uses a small fixed-size lookup table.
+// note 39: Space complexity: O(log n) for the recursion stack.
