@@ -661,3 +661,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 174: Allocates lazily — first call only.
 // note 175: LIS via patience: each pile holds the smallest tail of length k.
 // note 176: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 177: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
