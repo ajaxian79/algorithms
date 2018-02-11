@@ -2258,3 +2258,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 550
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 551
+
+Caller owns the returned array; free with a single `free`.
