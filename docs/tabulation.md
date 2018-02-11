@@ -1575,3 +1575,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 394
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 395
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
