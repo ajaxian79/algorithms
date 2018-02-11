@@ -161,3 +161,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 145: Articulation points: same DFS as bridges, with a slightly different test.
 // note 146: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 147: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 148: Wavelet tree: range k-th element in O(log Σ) time.
