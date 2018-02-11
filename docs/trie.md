@@ -1401,3 +1401,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 334
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 335
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
