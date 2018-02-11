@@ -2205,3 +2205,7 @@ Space complexity: O(h) for the tree height.
 ## entry 536
 
 Cache-friendly; one sequential read pass.
+
+## entry 537
+
+Thread-safe so long as the input is not mutated concurrently.
