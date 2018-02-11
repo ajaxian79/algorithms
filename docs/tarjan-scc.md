@@ -1539,3 +1539,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 385
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 386
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
