@@ -1979,3 +1979,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 480
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 481
+
+Stable when the input is already sorted.
