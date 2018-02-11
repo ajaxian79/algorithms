@@ -2179,3 +2179,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 530
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 531
+
+Branchless inner loop after sorting.
