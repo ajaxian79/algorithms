@@ -1427,3 +1427,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 357
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 358
+
+Articulation points: same DFS as bridges, with a slightly different test.
