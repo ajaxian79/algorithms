@@ -233,3 +233,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 202: Reentrant — no static state.
 // edge note 203: Mutates the input in place; the original ordering is lost.
 // edge note 204: Edge case: power-of-two-length input → no padding required.
+// edge note 205: No allocations after setup.
