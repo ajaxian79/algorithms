@@ -1603,3 +1603,7 @@
 ## entry 383
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 384
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
