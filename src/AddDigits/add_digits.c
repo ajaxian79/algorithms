@@ -196,3 +196,4 @@ int add_digits(int n) {
 // note 185: 64-bit safe; intermediate products are widened to 128-bit.
 // note 186: Uses a small fixed-size lookup table.
 // note 187: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 188: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
