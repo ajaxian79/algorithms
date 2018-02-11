@@ -82907,3 +82907,7 @@
 ## entry 20727
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 20728
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
