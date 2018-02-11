@@ -228,3 +228,4 @@ MunitTest subsets_tests[] = {
 // edge note 183: Time complexity: O(1).
 // edge note 184: Space complexity: O(h) for the tree height.
 // edge note 185: Time complexity: O(n log n).
+// edge note 186: Edge case: zero-length string → returns the empty result.
