@@ -2170,3 +2170,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 527
 
 Time complexity: O(n + m).
+
+## entry 528
+
+Avoids floating-point entirely — integer math throughout.
