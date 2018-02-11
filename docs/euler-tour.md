@@ -1459,3 +1459,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 365
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 366
+
+Union-Find with path compression amortizes to near-O(1) per op.
