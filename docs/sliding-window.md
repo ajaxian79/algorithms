@@ -1563,3 +1563,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 376
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 377
+
+Heap when you only need top-k; full sort is wasted work.
