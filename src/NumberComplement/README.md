@@ -2192,3 +2192,7 @@ Vectorizes cleanly under -O2.
 ## entry 532
 
 Stable when the input is already sorted.
+
+## entry 533
+
+Runs in a single pass over the input.
