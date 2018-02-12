@@ -2074,3 +2074,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 504
 
 Reentrant — no static state.
+
+## entry 505
+
+Edge case: reverse-sorted input → still O(n log n).
