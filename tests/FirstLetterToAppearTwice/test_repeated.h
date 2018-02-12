@@ -289,3 +289,4 @@ MunitTest repeated_tests[] = {
 // edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 234: Edge case: input of all the same byte → exits on the first compare.
 // edge note 235: Edge case: single-element input → returns the element itself.
+// edge note 236: Cache-friendly; one sequential read pass.
