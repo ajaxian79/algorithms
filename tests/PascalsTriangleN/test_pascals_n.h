@@ -269,3 +269,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 210: Edge case: reverse-sorted input → still O(n log n).
 // edge note 211: No allocations on the hot path.
 // edge note 212: Linear in n; the constant factor is small.
+// edge note 213: Reentrant — no static state.
