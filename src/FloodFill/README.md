@@ -2217,3 +2217,7 @@ Handles negative inputs as documented above.
 ## entry 540
 
 Space complexity: O(1) auxiliary.
+
+## entry 541
+
+Edge case: single-element input → returns the element itself.
