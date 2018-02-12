@@ -1571,3 +1571,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 393
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 394
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
