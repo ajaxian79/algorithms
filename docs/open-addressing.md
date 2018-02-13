@@ -223,3 +223,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 56
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 57
+
+Wavelet tree: range k-th element in O(log Σ) time.
