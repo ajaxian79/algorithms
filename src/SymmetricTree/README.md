@@ -2070,3 +2070,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 503
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 504
+
+Reentrant — no static state.
