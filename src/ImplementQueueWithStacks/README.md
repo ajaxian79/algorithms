@@ -2171,3 +2171,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 528
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 529
+
+Edge case: input with one duplicate → handled without an extra pass.
