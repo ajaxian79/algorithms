@@ -2153,3 +2153,7 @@ Reentrant — no static state.
 ## entry 523
 
 Vectorizes cleanly under -O2.
+
+## entry 524
+
+64-bit safe; intermediate products are widened to 128-bit.
