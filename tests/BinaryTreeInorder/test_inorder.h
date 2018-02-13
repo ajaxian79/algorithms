@@ -79,3 +79,4 @@ MunitTest inorder_tests[] = {
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Edge case: zero-length string → returns the empty result.
 // edge note 43: Handles single-element input as a base case.
+// edge note 44: Worst case appears only on degenerate inputs.
