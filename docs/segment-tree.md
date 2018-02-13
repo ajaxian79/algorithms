@@ -1495,3 +1495,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 356
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 357
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
