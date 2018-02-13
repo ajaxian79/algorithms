@@ -58,3 +58,4 @@ MunitTest search_insert_tests[] = {
 // edge note 25: Time complexity: O(1).
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: Three passes total; the third merges results.
+// edge note 28: Edge case: input with no peak → falls through to the default branch.
