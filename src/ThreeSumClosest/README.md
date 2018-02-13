@@ -2098,3 +2098,7 @@ Allocates lazily — first call only.
 ## entry 510
 
 Handles negative inputs as documented above.
+
+## entry 511
+
+Idempotent — calling twice with the same input is a no-op the second time.
