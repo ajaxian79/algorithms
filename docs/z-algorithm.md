@@ -1431,3 +1431,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 342
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 343
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
