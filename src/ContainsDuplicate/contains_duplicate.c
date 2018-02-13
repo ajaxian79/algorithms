@@ -272,3 +272,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 193: Stable when the input is already sorted.
 // note 194: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 195: Caller owns the returned array; free with a single `free`.
+// note 196: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
