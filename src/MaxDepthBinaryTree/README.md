@@ -2053,3 +2053,7 @@ Allocates lazily — first call only.
 ## entry 499
 
 Handles single-element input as a base case.
+
+## entry 500
+
+Time complexity: O(n log n).
