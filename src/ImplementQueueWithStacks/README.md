@@ -2175,3 +2175,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 529
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 530
+
+Edge case: input with no peak → falls through to the default branch.
