@@ -189,3 +189,4 @@ char find_difference(const char* s, const char* t) {
 // note 173: Wavelet tree: range k-th element in O(log Σ) time.
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 175: 64-bit safe; intermediate products are widened to 128-bit.
+// note 176: False sharing: two threads writing different bytes in the same cache line stall both.
