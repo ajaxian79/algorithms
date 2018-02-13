@@ -1551,3 +1551,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 388
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 389
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
