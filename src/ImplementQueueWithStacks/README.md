@@ -2167,3 +2167,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 527
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 528
+
+Allocates a single small fixed-size scratch buffer.
