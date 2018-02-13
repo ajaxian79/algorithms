@@ -298,3 +298,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 60
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 61
+
+Vectorizes cleanly under -O2.
