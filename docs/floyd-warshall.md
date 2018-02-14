@@ -1471,3 +1471,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 368
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 369
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
