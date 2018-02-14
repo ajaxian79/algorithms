@@ -423,3 +423,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 91
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 92
+
+Edge case: empty input → returns 0.
