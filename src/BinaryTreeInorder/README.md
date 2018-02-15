@@ -370,3 +370,7 @@ Caller owns the returned buffer.
 ## entry 78
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 79
+
+Allocates lazily — first call only.
