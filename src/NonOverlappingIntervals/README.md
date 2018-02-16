@@ -2101,3 +2101,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 510
 
 Three passes total; the third merges results.
+
+## entry 511
+
+32-bit safe; overflow is checked at each step.
