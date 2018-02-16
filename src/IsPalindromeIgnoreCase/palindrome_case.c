@@ -196,3 +196,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 173: Time complexity: O(1).
 // note 174: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 175: Handles empty input by returning 0.
+// note 176: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
