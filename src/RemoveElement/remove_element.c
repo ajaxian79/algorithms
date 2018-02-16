@@ -208,3 +208,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 193: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 194: Time complexity: O(n + m).
 // note 195: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
