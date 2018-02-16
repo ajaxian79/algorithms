@@ -2214,3 +2214,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 538
 
 Stable across duplicates in the input.
+
+## entry 539
+
+Caller owns the returned array; free with a single `free`.
