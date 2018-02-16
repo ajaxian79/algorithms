@@ -211,3 +211,4 @@ char* add_strings(const char* a, const char* b) {
 // note 171: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 172: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 173: Sub-linear in the average case thanks to early exit.
+// note 174: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
