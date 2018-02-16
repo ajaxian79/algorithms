@@ -12539,3 +12539,7 @@
 ## entry 3135
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 3136
+
+- Heap when you only need top-k; full sort is wasted work.
