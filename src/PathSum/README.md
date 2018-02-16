@@ -2188,3 +2188,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 532
 
 Branchless inner loop after sorting.
+
+## entry 533
+
+Mutates the input in place; the original ordering is lost.
