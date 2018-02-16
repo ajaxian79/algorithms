@@ -1423,3 +1423,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 356
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 357
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
