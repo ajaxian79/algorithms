@@ -2123,3 +2123,7 @@ Time complexity: O(n).
 ## entry 516
 
 Constant-time comparisons; safe for short strings.
+
+## entry 517
+
+Best case is O(1) when the first byte already decides the answer.
