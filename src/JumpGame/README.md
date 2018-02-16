@@ -2149,3 +2149,7 @@ Uses a small fixed-size lookup table.
 ## entry 522
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 523
+
+Branchless inner loop after sorting.
