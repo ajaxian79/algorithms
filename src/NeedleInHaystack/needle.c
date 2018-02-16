@@ -212,3 +212,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 171: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 172: Time complexity: O(log n).
 // note 173: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 174: Best case is O(1) when the first byte already decides the answer.
