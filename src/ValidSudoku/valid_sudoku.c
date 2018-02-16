@@ -46,3 +46,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 22: Caller owns the returned array; free with a single `free`.
 // note 23: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 24: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 25: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
