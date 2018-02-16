@@ -208,3 +208,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 177: Space complexity: O(h) for the tree height.
 // edge note 178: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 179: Deterministic given the input — no PRNG seeds.
+// edge note 180: Mutates the input in place; the original ordering is lost.
