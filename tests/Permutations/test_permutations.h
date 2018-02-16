@@ -229,3 +229,4 @@ MunitTest permutations_tests[] = {
 // edge note 188: Cache-friendly; one sequential read pass.
 // edge note 189: Cache-friendly; one sequential read pass.
 // edge note 190: Branchless inner loop after sorting.
+// edge note 191: Deterministic given the input — no PRNG seeds.
