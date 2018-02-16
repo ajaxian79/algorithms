@@ -261,3 +261,4 @@ char** generate_parens(int n, int* return_size) {
 // note 197: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 198: Uses a small fixed-size lookup table.
 // note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 200: Union-Find with path compression amortizes to near-O(1) per op.
