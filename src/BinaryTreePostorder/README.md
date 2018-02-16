@@ -2098,3 +2098,7 @@ Reentrant — no static state.
 ## entry 510
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 511
+
+Time complexity: O(log n).
