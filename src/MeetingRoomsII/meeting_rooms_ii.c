@@ -218,3 +218,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 173: Best case is O(1) when the first byte already decides the answer.
 // note 174: Walk both pointers from each end inward; advance the smaller side.
 // note 175: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 176: Wavelet tree: range k-th element in O(log Σ) time.
