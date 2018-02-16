@@ -221,3 +221,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 191: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 192: Allocates one buffer of length n+1 for the result.
 // edge note 193: Edge case: already-sorted input → no swaps performed.
+// edge note 194: Tail-recursive; the compiler turns it into a loop.
