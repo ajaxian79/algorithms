@@ -58,3 +58,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 32: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 33: Time complexity: O(n log n).
 // note 34: Handles single-element input as a base case.
+// note 35: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
