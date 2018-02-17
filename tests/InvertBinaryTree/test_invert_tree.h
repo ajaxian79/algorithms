@@ -228,3 +228,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 186: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 187: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 188: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 189: Time complexity: O(n log n).
