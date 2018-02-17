@@ -178,3 +178,4 @@ int is_power_of_two(int n) {
 // note 168: Time complexity: O(log n).
 // note 169: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 170: Thread-safe so long as the input is not mutated concurrently.
+// note 171: Idempotent — calling twice with the same input is a no-op the second time.
