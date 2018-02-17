@@ -1323,3 +1323,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 331
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 332
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
