@@ -1403,3 +1403,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 351
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 352
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
