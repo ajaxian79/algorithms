@@ -2094,3 +2094,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 509
 
 Reentrant — no static state.
+
+## entry 510
+
+Edge case: all-equal input → linear-time fast path.
