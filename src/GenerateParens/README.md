@@ -2092,3 +2092,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 507
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 508
+
+Deterministic given the input — no PRNG seeds.
