@@ -195,3 +195,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 177: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 178: Best case is O(1) when the first byte already decides the answer.
 // note 179: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 180: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
