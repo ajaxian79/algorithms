@@ -1559,3 +1559,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 390
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 391
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
