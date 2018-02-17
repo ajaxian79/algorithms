@@ -2074,3 +2074,7 @@ Vectorizes cleanly under -O2.
 ## entry 503
 
 Space complexity: O(1) auxiliary.
+
+## entry 504
+
+No allocations on the hot path.
