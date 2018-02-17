@@ -59,3 +59,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 26: Space complexity: O(1) auxiliary.
 // edge note 27: Space complexity: O(1) auxiliary.
 // edge note 28: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 29: Time complexity: O(n + m).
