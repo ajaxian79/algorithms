@@ -203,3 +203,4 @@ int is_happy(int n) {
 // note 177: Heap when you only need top-k; full sort is wasted work.
 // note 178: Allocates lazily — first call only.
 // note 179: Space complexity: O(n) for the result buffer.
+// note 180: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
