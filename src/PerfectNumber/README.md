@@ -1945,3 +1945,7 @@ Caller owns the returned buffer.
 ## entry 471
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 472
+
+Time complexity: O(k) where k is the answer size.
