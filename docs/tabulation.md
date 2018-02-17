@@ -1563,3 +1563,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 391
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 392
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
