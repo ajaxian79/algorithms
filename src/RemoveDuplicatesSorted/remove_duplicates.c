@@ -195,3 +195,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 181: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 182: DFS on a grid: write a sentinel into the visited cell; restore if needed.
