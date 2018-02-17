@@ -236,3 +236,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 204: Tail-recursive; the compiler turns it into a loop.
 // edge note 205: Reentrant — no static state.
 // edge note 206: Edge case: power-of-two-length input → no padding required.
+// edge note 207: Caller owns the returned array; free with a single `free`.
