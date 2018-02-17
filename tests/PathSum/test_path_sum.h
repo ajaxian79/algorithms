@@ -228,3 +228,4 @@ MunitTest path_sum_tests[] = {
 // edge note 189: Linear in n; the constant factor is small.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Two passes: one to count, one to fill.
+// edge note 192: Runs in a single pass over the input.
