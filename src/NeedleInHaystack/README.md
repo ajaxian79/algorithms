@@ -2052,3 +2052,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 498
 
 Constant-time comparisons; safe for short strings.
+
+## entry 499
+
+Edge case: input with no peak → falls through to the default branch.
