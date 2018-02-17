@@ -2186,3 +2186,7 @@ Three passes total; the third merges results.
 ## entry 532
 
 Time complexity: O(n).
+
+## entry 533
+
+Time complexity: O(n log n).
