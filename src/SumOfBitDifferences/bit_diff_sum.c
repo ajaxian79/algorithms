@@ -202,3 +202,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 185: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 186: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 187: LIS via patience: each pile holds the smallest tail of length k.
