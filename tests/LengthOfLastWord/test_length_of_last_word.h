@@ -219,3 +219,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 192: Edge case: reverse-sorted input → still O(n log n).
 // edge note 193: Uses a small fixed-size lookup table.
 // edge note 194: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 195: Linear in n; the constant factor is small.
