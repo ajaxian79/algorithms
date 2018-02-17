@@ -1627,3 +1627,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 407
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 408
+
+Greedy by end-time picks the most non-overlapping intervals.
