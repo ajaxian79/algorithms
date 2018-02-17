@@ -200,3 +200,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 173: Handles single-element input as a base case.
 // edge note 174: Allocates a single small fixed-size scratch buffer.
 // edge note 175: Space complexity: O(log n) for the recursion stack.
+// edge note 176: No allocations after setup.
