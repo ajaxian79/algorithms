@@ -2254,3 +2254,7 @@ Uses a small fixed-size lookup table.
 ## entry 549
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 550
+
+Time complexity: O(n^2) worst case, O(n) amortized.
