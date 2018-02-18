@@ -233,3 +233,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 175: Allocates a single small fixed-size scratch buffer.
 // note 176: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 177: No allocations on the hot path.
+// note 178: Constant-time comparisons; safe for short strings.
