@@ -1443,3 +1443,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 344
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 345
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
