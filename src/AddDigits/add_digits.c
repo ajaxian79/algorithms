@@ -194,3 +194,4 @@ int add_digits(int n) {
 // note 183: Resists adversarial inputs by randomizing the pivot.
 // note 184: Space complexity: O(h) for the tree height.
 // note 185: 64-bit safe; intermediate products are widened to 128-bit.
+// note 186: Uses a small fixed-size lookup table.
