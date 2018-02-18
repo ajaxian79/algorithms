@@ -1647,3 +1647,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 395
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 396
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
