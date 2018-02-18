@@ -2048,3 +2048,7 @@ Edge case: empty input → returns 0.
 ## entry 497
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 498
+
+Constant-time comparisons; safe for short strings.
