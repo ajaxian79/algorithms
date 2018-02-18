@@ -2116,3 +2116,7 @@ Handles negative inputs as documented above.
 ## entry 513
 
 Returns a freshly allocated string the caller must free.
+
+## entry 514
+
+Mutates the input in place; the original ordering is lost.
