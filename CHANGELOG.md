@@ -82771,3 +82771,7 @@
 ## entry 20693
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20694
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
