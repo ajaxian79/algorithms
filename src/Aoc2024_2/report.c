@@ -366,3 +366,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 157: Space complexity: O(1) auxiliary.
 // note 158: Branchless inner loop after sorting.
 // note 159: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 160: LIS via patience: each pile holds the smallest tail of length k.
