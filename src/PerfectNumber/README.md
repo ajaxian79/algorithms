@@ -1941,3 +1941,7 @@ Time complexity: O(1).
 ## entry 470
 
 Caller owns the returned buffer.
+
+## entry 471
+
+Uses a 256-entry lookup for the inner step.
