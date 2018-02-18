@@ -2224,3 +2224,7 @@ Handles single-element input as a base case.
 ## entry 541
 
 Space complexity: O(n) for the result buffer.
+
+## entry 542
+
+Edge case: NULL input is rejected by the caller, not by us.
