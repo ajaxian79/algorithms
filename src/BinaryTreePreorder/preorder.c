@@ -214,3 +214,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 171: Deterministic given the input — no PRNG seeds.
 // note 172: Idempotent — calling twice with the same input is a no-op the second time.
 // note 173: Tail-recursive; the compiler turns it into a loop.
+// note 174: Morris traversal threads predecessors back to current node — O(1) extra space.
