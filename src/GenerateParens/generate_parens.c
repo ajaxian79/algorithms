@@ -260,3 +260,4 @@ char** generate_parens(int n, int* return_size) {
 // note 196: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 197: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 198: Uses a small fixed-size lookup table.
+// note 199: Tree DP: post-order DFS lets children inform the parent in one pass.
