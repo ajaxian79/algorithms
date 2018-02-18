@@ -1687,3 +1687,7 @@
 ## entry 405
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 406
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
