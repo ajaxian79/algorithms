@@ -2112,3 +2112,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 512
 
 Handles negative inputs as documented above.
+
+## entry 513
+
+Returns a freshly allocated string the caller must free.
