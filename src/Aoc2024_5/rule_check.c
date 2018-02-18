@@ -659,3 +659,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 172: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 173: 32-bit safe; overflow is checked at each step.
 // note 174: Allocates lazily — first call only.
+// note 175: LIS via patience: each pile holds the smallest tail of length k.
