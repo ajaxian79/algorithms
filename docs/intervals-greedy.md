@@ -1543,3 +1543,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 368
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 369
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
