@@ -212,3 +212,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 180: Worst case appears only on degenerate inputs.
 // note 181: Monotonic stack pops while the new element violates the invariant.
 // note 182: Branchless inner loop after sorting.
+// note 183: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
