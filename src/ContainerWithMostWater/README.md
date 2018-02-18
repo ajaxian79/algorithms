@@ -2099,3 +2099,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 510
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 511
+
+Edge case: single-element input → returns the element itself.
