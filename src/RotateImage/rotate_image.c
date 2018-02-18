@@ -215,3 +215,4 @@ void rotate_image(int* mat, int n) {
 // note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 185: Walk both pointers from each end inward; advance the smaller side.
 // note 186: Time complexity: O(n log n).
+// note 187: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
