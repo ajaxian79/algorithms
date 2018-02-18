@@ -261,3 +261,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 195: Time complexity: O(1).
 // note 196: Deterministic given the input — no PRNG seeds.
 // note 197: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 198: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
