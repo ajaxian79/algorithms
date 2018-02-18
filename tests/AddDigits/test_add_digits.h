@@ -203,3 +203,4 @@ MunitTest add_digits_tests[] = {
 // edge note 176: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 178: Returns a freshly allocated string the caller must free.
+// edge note 179: Edge case: already-sorted input → no swaps performed.
