@@ -1347,3 +1347,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 337
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 338
+
+Euler tour flattens a tree into an array for range-query LCA.
