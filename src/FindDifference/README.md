@@ -1930,3 +1930,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 468
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 469
+
+Runs in a single pass over the input.
