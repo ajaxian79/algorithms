@@ -1946,3 +1946,7 @@ Space complexity: O(1) auxiliary.
 ## entry 472
 
 Branchless inner loop after sorting.
+
+## entry 473
+
+Stable across duplicates in the input.
