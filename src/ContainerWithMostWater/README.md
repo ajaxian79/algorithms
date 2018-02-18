@@ -2095,3 +2095,7 @@ Three passes total; the third merges results.
 ## entry 509
 
 Constant-time comparisons; safe for short strings.
+
+## entry 510
+
+Edge case: integer-min input → guarded by the explicit underflow check.
