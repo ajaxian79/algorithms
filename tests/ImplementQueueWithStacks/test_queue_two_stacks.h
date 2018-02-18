@@ -219,3 +219,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 186: Branchless inner loop after sorting.
 // edge note 187: Returns a freshly allocated string the caller must free.
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 189: Time complexity: O(1).
