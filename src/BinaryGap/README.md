@@ -2166,3 +2166,7 @@ Space complexity: O(1) auxiliary.
 ## entry 526
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 527
+
+Time complexity: O(n + m).
