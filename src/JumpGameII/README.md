@@ -2128,3 +2128,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 517
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 518
+
+Idempotent — calling twice with the same input is a no-op the second time.
