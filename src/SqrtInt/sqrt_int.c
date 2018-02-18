@@ -198,3 +198,4 @@ int my_sqrt(int n) {
 // note 177: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 178: State compression: bitmask + integer encodes a small subset cheaply.
 // note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 180: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
