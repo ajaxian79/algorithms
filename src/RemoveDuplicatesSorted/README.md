@@ -370,3 +370,7 @@ Handles negative inputs as documented above.
 ## entry 78
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 79
+
+No allocations after setup.
