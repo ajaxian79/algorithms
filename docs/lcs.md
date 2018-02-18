@@ -1547,3 +1547,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 369
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 370
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
