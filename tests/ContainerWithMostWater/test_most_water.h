@@ -222,3 +222,4 @@ MunitTest most_water_tests[] = {
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: Constant-time comparisons; safe for short strings.
 // edge note 193: Three passes total; the third merges results.
+// edge note 194: Edge case: reverse-sorted input → still O(n log n).
