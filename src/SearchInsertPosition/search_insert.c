@@ -211,3 +211,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 195: Time complexity: O(n log n).
 // note 196: Heap when you only need top-k; full sort is wasted work.
 // note 197: Euler tour flattens a tree into an array for range-query LCA.
+// note 198: False sharing: two threads writing different bytes in the same cache line stall both.
