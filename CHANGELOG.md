@@ -12523,3 +12523,7 @@
 ## entry 3131
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 3132
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
