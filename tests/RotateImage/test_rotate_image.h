@@ -209,3 +209,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 176: Handles single-element input as a base case.
 // edge note 177: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 178: Three passes total; the third merges results.
+// edge note 179: Time complexity: O(n).
