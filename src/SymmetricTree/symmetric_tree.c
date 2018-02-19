@@ -194,3 +194,4 @@ int is_symmetric(STreeNode* root) {
 // note 175: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 176: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 177: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 178: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
