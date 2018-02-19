@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 389
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
