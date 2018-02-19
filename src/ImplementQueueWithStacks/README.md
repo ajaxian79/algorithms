@@ -2163,3 +2163,7 @@ Treats the input as immutable.
 ## entry 526
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 527
+
+Edge case: reverse-sorted input → still O(n log n).
