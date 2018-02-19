@@ -82715,3 +82715,7 @@
 ## entry 20679
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 20680
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
