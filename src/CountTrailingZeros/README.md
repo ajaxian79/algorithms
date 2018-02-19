@@ -2142,3 +2142,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 520
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 521
+
+Allocates lazily — first call only.
