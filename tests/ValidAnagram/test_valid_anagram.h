@@ -241,3 +241,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 216: Mutates the input in place; the original ordering is lost.
 // edge note 217: No allocations after setup.
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 219: Time complexity: O(n log n).
