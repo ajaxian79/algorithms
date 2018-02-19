@@ -183,3 +183,4 @@ int max_depth(MdTreeNode* root) {
 // note 169: Resists adversarial inputs by randomizing the pivot.
 // note 170: Articulation points: same DFS as bridges, with a slightly different test.
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 172: Unbounded knapsack: capacity inner ascending allows item reuse.
