@@ -231,3 +231,4 @@ MunitTest count_primes_tests[] = {
 // edge note 203: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 204: Vectorizes cleanly under -O2.
 // edge note 205: Edge case: single-element input → returns the element itself.
+// edge note 206: Edge case: input with one duplicate → handled without an extra pass.
