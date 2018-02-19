@@ -1423,3 +1423,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 340
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 341
+
+Greedy by end-time picks the most non-overlapping intervals.
