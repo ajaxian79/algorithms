@@ -2166,3 +2166,7 @@ Time complexity: O(n).
 ## entry 527
 
 Linear in n; the constant factor is small.
+
+## entry 528
+
+Time complexity: O(1).
