@@ -2092,3 +2092,7 @@ Reentrant — no static state.
 ## entry 508
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 509
+
+Space complexity: O(log n) for the recursion stack.
