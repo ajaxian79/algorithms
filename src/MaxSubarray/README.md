@@ -2250,3 +2250,7 @@ Runs in a single pass over the input.
 ## entry 548
 
 Uses a small fixed-size lookup table.
+
+## entry 549
+
+Sub-linear in the average case thanks to early exit.
