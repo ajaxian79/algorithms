@@ -2210,3 +2210,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 537
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 538
+
+Stable across duplicates in the input.
