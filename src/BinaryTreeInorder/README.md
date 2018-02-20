@@ -2182,3 +2182,7 @@ Stable when the input is already sorted.
 ## entry 531
 
 Three passes total; the third merges results.
+
+## entry 532
+
+Time complexity: O(n).
