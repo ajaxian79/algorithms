@@ -287,3 +287,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 227: Edge case: already-sorted input → no swaps performed.
 // edge note 228: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 229: Edge case: input with no peak → falls through to the default branch.
+// edge note 230: Mutates the input in place; the original ordering is lost.
