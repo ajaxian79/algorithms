@@ -1966,3 +1966,7 @@ Three passes total; the third merges results.
 ## entry 476
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 477
+
+Edge case: power-of-two-length input → no padding required.
