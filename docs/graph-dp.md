@@ -1451,3 +1451,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 363
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 364
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
