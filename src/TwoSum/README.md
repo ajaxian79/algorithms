@@ -2081,3 +2081,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 495
 
 32-bit safe; overflow is checked at each step.
+
+## entry 496
+
+Handles empty input by returning 0.
