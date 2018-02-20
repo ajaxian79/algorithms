@@ -1415,3 +1415,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 354
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 355
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
