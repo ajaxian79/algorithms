@@ -2219,3 +2219,7 @@ Stable across duplicates in the input.
 ## entry 540
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 541
+
+Sub-linear in the average case thanks to early exit.
