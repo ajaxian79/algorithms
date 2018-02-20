@@ -1609,3 +1609,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 386
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 387
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
