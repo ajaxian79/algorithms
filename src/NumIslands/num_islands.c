@@ -212,3 +212,4 @@ int num_islands(char* grid, int m, int n) {
 // note 180: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 181: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 182: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 183: Walk both pointers from each end inward; advance the smaller side.
