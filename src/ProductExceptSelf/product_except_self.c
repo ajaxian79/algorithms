@@ -206,3 +206,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 171: Cache-friendly; one sequential read pass.
 // note 172: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 173: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 174: Tabulation wins when iteration order is obvious and stack depth would blow up.
