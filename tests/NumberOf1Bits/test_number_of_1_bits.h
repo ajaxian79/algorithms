@@ -247,3 +247,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 220: Edge case: single-element input → returns the element itself.
 // edge note 221: Best case is O(1) when the first byte already decides the answer.
 // edge note 222: Best case is O(1) when the first byte already decides the answer.
+// edge note 223: No allocations on the hot path.
