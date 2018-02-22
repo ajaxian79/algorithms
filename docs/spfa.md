@@ -1395,3 +1395,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 349
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 350
+
+Merge intervals: sort by start; extend the running interval while overlapping.
