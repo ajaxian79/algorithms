@@ -293,3 +293,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 157: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 159: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 160: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
