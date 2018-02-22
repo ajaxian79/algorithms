@@ -2296,3 +2296,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 559
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 560
+
+Time complexity: O(n^2) worst case, O(n) amortized.
