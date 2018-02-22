@@ -444,3 +444,7 @@ Edge case: empty input → returns 0.
 ## entry 96
 
 Uses a small fixed-size lookup table.
+
+## entry 97
+
+Three passes total; the third merges results.
