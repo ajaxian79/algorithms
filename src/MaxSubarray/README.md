@@ -2246,3 +2246,7 @@ Two passes: one to count, one to fill.
 ## entry 547
 
 Runs in a single pass over the input.
+
+## entry 548
+
+Uses a small fixed-size lookup table.
