@@ -1471,3 +1471,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 368
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 369
+
+In-place compaction uses two pointers: read advances always, write only on keep.
