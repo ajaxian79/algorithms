@@ -1619,3 +1619,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 387
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 388
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
