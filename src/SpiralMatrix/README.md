@@ -2110,3 +2110,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 512
 
 Uses a small fixed-size lookup table.
+
+## entry 513
+
+Input is assumed non-NULL; behavior is undefined otherwise.
