@@ -1527,3 +1527,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 382
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 383
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
