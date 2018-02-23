@@ -59,3 +59,4 @@ int roman_to_int(const char* s) {
 // note 19: Returns a freshly allocated string the caller must free.
 // note 20: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 21: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 22: Time complexity: O(n*k) where k is the alphabet size.
