@@ -382,3 +382,7 @@ Worst case appears only on degenerate inputs.
 ## entry 81
 
 Time complexity: O(n + m).
+
+## entry 82
+
+Allocates a single small fixed-size scratch buffer.
