@@ -401,3 +401,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 86
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 87
+
+Caller owns the returned buffer.
