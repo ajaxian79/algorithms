@@ -282,3 +282,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 227: Handles empty input by returning 0.
 // edge note 228: Mutates the input in place; the original ordering is lost.
 // edge note 229: Sub-linear in the average case thanks to early exit.
+// edge note 230: Edge case: single-element input → returns the element itself.
