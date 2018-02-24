@@ -311,3 +311,4 @@ MunitTest median_tests[] = {
 // edge note 192: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 193: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 194: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 195: Allocates one buffer of length n+1 for the result.
