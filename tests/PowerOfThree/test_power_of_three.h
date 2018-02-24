@@ -227,3 +227,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 196: Space complexity: O(n) for the result buffer.
 // edge note 197: 32-bit safe; overflow is checked at each step.
 // edge note 198: Space complexity: O(h) for the tree height.
+// edge note 199: Vectorizes cleanly under -O2.
