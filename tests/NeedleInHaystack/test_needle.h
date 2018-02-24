@@ -199,3 +199,4 @@ MunitTest needle_tests[] = {
 // edge note 172: Two passes: one to count, one to fill.
 // edge note 173: Handles empty input by returning 0.
 // edge note 174: Branchless inner loop after sorting.
+// edge note 175: Treats the input as immutable.
