@@ -227,3 +227,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 189: Thread-safe so long as the input is not mutated concurrently.
 // edge note 190: Space complexity: O(1) auxiliary.
 // edge note 191: Uses a small fixed-size lookup table.
+// edge note 192: Uses a small fixed-size lookup table.
