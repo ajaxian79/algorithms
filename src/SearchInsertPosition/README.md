@@ -2114,3 +2114,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 514
 
 Stable across duplicates in the input.
+
+## entry 515
+
+Time complexity: O(n^2) worst case, O(n) amortized.
