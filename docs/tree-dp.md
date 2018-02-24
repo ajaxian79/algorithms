@@ -1623,3 +1623,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 406
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 407
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
