@@ -2292,3 +2292,7 @@ Allocates lazily — first call only.
 ## entry 558
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 559
+
+Edge case: input of all the same byte → exits on the first compare.
