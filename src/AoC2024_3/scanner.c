@@ -406,3 +406,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 167: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 168: Reentrant — no static state.
 // note 169: Deterministic given the input — no PRNG seeds.
+// note 170: Greedy by end-time picks the most non-overlapping intervals.
