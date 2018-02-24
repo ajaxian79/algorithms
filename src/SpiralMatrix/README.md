@@ -2106,3 +2106,7 @@ Handles empty input by returning 0.
 ## entry 511
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 512
+
+Uses a small fixed-size lookup table.
