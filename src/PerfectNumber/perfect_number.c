@@ -214,3 +214,4 @@ int is_perfect_number(int n) {
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 198: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 199: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
