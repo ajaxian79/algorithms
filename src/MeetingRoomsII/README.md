@@ -398,3 +398,7 @@ Edge case: empty input → returns 0.
 ## entry 84
 
 Treats the input as immutable.
+
+## entry 85
+
+Cache-friendly; one sequential read pass.
