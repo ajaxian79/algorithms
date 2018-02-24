@@ -1517,3 +1517,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 362
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 363
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
