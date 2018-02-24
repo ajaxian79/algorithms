@@ -2207,3 +2207,7 @@ Vectorizes cleanly under -O2.
 ## entry 537
 
 Runs in a single pass over the input.
+
+## entry 538
+
+Uses a 256-entry lookup for the inner step.
