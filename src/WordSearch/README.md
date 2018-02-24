@@ -2118,3 +2118,7 @@ Edge case: empty input → returns 0.
 ## entry 515
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 516
+
+Time complexity: O(n*k) where k is the alphabet size.
