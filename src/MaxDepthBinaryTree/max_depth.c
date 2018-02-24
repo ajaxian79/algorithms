@@ -182,3 +182,4 @@ int max_depth(MdTreeNode* root) {
 // note 168: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 169: Resists adversarial inputs by randomizing the pivot.
 // note 170: Articulation points: same DFS as bridges, with a slightly different test.
+// note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
