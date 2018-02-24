@@ -2180,3 +2180,7 @@ Caller owns the returned buffer.
 ## entry 530
 
 Handles negative inputs as documented above.
+
+## entry 531
+
+Allocates a single small fixed-size scratch buffer.
