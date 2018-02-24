@@ -210,3 +210,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 185: Tail-recursive; the compiler turns it into a loop.
 // edge note 186: Vectorizes cleanly under -O2.
+// edge note 187: Avoids floating-point entirely — integer math throughout.
