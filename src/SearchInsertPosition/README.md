@@ -2118,3 +2118,7 @@ Stable across duplicates in the input.
 ## entry 515
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 516
+
+Runs in a single pass over the input.
