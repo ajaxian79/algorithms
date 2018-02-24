@@ -1551,3 +1551,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 388
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 389
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
