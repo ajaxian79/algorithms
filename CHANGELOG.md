@@ -82583,3 +82583,7 @@
 ## entry 20646
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 20647
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
