@@ -1515,3 +1515,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 379
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 380
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
