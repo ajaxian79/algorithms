@@ -271,3 +271,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 192: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 193: Stable when the input is already sorted.
 // note 194: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 195: Caller owns the returned array; free with a single `free`.
