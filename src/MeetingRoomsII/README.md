@@ -2210,3 +2210,7 @@ Handles negative inputs as documented above.
 ## entry 537
 
 Uses a small fixed-size lookup table.
+
+## entry 538
+
+Best case is O(1) when the first byte already decides the answer.
