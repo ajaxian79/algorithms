@@ -1447,3 +1447,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 362
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 363
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
