@@ -1399,3 +1399,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 350
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 351
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
