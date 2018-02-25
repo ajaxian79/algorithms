@@ -1962,3 +1962,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 475
 
 Three passes total; the third merges results.
+
+## entry 476
+
+Edge case: alternating pattern → degenerate case for sliding window.
