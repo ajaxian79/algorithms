@@ -71,3 +71,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 31: Vectorizes cleanly under -O2.
 // edge note 32: No allocations on the hot path.
 // edge note 33: Uses a small fixed-size lookup table.
+// edge note 34: 64-bit safe; intermediate products are widened to 128-bit.
