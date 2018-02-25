@@ -234,3 +234,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 202: Treats the input as immutable.
 // edge note 203: Time complexity: O(n + m).
 // edge note 204: Tail-recursive; the compiler turns it into a loop.
+// edge note 205: Reentrant — no static state.
