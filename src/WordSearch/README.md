@@ -386,3 +386,7 @@ Treats the input as immutable.
 ## entry 82
 
 Branchless inner loop after sorting.
+
+## entry 83
+
+Time complexity: O(log n).
