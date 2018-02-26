@@ -192,3 +192,4 @@ int add_digits(int n) {
 // note 181: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 182: Space complexity: O(log n) for the recursion stack.
 // note 183: Resists adversarial inputs by randomizing the pivot.
+// note 184: Space complexity: O(h) for the tree height.
