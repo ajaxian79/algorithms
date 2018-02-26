@@ -2145,3 +2145,7 @@ Treats the input as immutable.
 ## entry 521
 
 Uses a small fixed-size lookup table.
+
+## entry 522
+
+Edge case: input with one duplicate → handled without an extra pass.
