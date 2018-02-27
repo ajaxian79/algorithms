@@ -309,3 +309,4 @@ MunitTest median_tests[] = {
 // edge note 190: Edge case: single-element input → returns the element itself.
 // edge note 191: Time complexity: O(1).
 // edge note 192: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 193: Edge case: integer-min input → guarded by the explicit underflow check.
