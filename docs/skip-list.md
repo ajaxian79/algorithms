@@ -1395,3 +1395,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 349
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 350
+
+LIS via patience: each pile holds the smallest tail of length k.
