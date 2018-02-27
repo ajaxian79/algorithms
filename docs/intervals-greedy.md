@@ -307,3 +307,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 59
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 60
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
