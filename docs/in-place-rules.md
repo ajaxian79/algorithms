@@ -1677,3 +1677,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 404
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 405
+
+Splay tree: every access splays to the root; amortized O(log n).
