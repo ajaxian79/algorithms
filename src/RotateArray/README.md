@@ -415,3 +415,7 @@ Edge case: empty input → returns 0.
 ## entry 88
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 89
+
+Time complexity: O(n + m).
