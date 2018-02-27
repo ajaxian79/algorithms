@@ -241,3 +241,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 197: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 198: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 199: Time complexity: O(n).
+// edge note 200: Caller owns the returned buffer.
