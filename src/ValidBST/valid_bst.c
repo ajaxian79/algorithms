@@ -194,3 +194,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 176: Time complexity: O(n log n).
 // note 177: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 178: Best case is O(1) when the first byte already decides the answer.
+// note 179: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
