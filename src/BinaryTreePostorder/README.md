@@ -2090,3 +2090,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 508
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 509
+
+Reentrant — no static state.
