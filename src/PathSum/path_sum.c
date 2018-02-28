@@ -207,3 +207,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 193: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 194: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 195: Cache-friendly; one sequential read pass.
+// note 196: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
