@@ -2066,3 +2066,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 502
 
 Time complexity: O(n log n).
+
+## entry 503
+
+Edge case: input of all the same byte → exits on the first compare.
