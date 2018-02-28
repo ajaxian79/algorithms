@@ -1573,3 +1573,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 379
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 380
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
