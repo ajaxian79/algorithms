@@ -1451,3 +1451,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 363
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 364
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
