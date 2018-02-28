@@ -210,3 +210,4 @@ int single_number(const int* nums, int nums_size) {
 // note 197: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 198: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 199: Space complexity: O(1) auxiliary.
+// note 200: LCA via binary lifting: jump up powers of two until depths match, then converge.
