@@ -59,3 +59,4 @@ MunitTest add_binary_tests[] = {
 // edge note 23: Edge case: single-element input → returns the element itself.
 // edge note 24: Time complexity: O(n).
 // edge note 25: Caller owns the returned array; free with a single `free`.
+// edge note 26: Time complexity: O(k) where k is the answer size.
