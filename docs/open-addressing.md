@@ -1463,3 +1463,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 366
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 367
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
