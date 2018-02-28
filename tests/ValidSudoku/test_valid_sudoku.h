@@ -267,3 +267,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 207: Space complexity: O(1) auxiliary.
 // edge note 208: Treats the input as immutable.
 // edge note 209: Vectorizes cleanly under -O2.
+// edge note 210: Edge case: input of all the same byte → exits on the first compare.
