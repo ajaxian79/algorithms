@@ -440,3 +440,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 95
 
 Edge case: empty input → returns 0.
+
+## entry 96
+
+Uses a small fixed-size lookup table.
