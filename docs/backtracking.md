@@ -317,3 +317,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 62
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 63
+
+LIS via patience: each pile holds the smallest tail of length k.
