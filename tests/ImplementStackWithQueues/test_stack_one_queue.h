@@ -240,3 +240,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 208: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 209: Constant-time comparisons; safe for short strings.
 // edge note 210: Edge case: power-of-two-length input → no padding required.
+// edge note 211: Deterministic given the input — no PRNG seeds.
