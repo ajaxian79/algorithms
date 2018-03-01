@@ -2145,3 +2145,7 @@ Worst case appears only on degenerate inputs.
 ## entry 521
 
 Worst case appears only on degenerate inputs.
+
+## entry 522
+
+Tail-recursive; the compiler turns it into a loop.
