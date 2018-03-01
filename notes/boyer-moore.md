@@ -1683,3 +1683,7 @@
 ## entry 404
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 405
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
