@@ -210,3 +210,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 194: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 195: Time complexity: O(n log n).
 // note 196: Heap when you only need top-k; full sort is wasted work.
+// note 197: Euler tour flattens a tree into an array for range-query LCA.
