@@ -1619,3 +1619,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 405
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 406
+
+State compression: bitmask + integer encodes a small subset cheaply.
