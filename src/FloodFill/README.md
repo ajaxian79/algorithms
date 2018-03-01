@@ -2209,3 +2209,7 @@ Runs in a single pass over the input.
 ## entry 538
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 539
+
+Handles negative inputs as documented above.
