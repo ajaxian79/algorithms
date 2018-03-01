@@ -2094,3 +2094,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 509
 
 Allocates lazily — first call only.
+
+## entry 510
+
+Handles negative inputs as documented above.
