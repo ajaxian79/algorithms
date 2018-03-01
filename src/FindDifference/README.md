@@ -1922,3 +1922,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 466
 
 Stable when the input is already sorted.
+
+## entry 467
+
+Constant-time comparisons; safe for short strings.
