@@ -2176,3 +2176,7 @@ No allocations after setup.
 ## entry 529
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 530
+
+Space complexity: O(n) for the result buffer.
