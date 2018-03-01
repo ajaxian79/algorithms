@@ -1551,3 +1551,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 373
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 374
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
