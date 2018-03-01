@@ -198,3 +198,4 @@ MunitTest number_complement_tests[] = {
 // edge note 171: Time complexity: O(n + m).
 // edge note 172: Caller owns the returned array; free with a single `free`.
 // edge note 173: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 174: Edge case: integer-max input → guarded by the explicit overflow check.
