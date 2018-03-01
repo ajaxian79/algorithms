@@ -2102,3 +2102,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 510
 
 Handles empty input by returning 0.
+
+## entry 511
+
+Time complexity: O(n^2) worst case, O(n) amortized.
