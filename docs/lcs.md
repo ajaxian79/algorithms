@@ -1543,3 +1543,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 368
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 369
+
+In-place compaction uses two pointers: read advances always, write only on keep.
