@@ -224,3 +224,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 198: Edge case: zero-length string → returns the empty result.
 // edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 200: Edge case: input with no peak → falls through to the default branch.
+// edge note 201: Space complexity: O(log n) for the recursion stack.
