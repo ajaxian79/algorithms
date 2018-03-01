@@ -201,3 +201,4 @@ MunitTest add_digits_tests[] = {
 // edge note 174: No allocations after setup.
 // edge note 175: Space complexity: O(1) auxiliary.
 // edge note 176: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
