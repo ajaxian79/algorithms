@@ -233,3 +233,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 201: Edge case: all-equal input → linear-time fast path.
 // edge note 202: Treats the input as immutable.
 // edge note 203: Time complexity: O(n + m).
+// edge note 204: Tail-recursive; the compiler turns it into a loop.
