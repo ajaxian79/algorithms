@@ -2058,3 +2058,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 500
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 501
+
+Edge case: input with one duplicate → handled without an extra pass.
