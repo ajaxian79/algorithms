@@ -82499,3 +82499,7 @@
 ## entry 20625
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 20626
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
