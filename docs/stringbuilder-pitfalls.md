@@ -1611,3 +1611,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 403
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 404
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
