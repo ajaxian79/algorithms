@@ -1491,3 +1491,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 373
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 374
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
