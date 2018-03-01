@@ -2141,3 +2141,7 @@ Cache-friendly; one sequential read pass.
 ## entry 520
 
 Worst case appears only on degenerate inputs.
+
+## entry 521
+
+Worst case appears only on degenerate inputs.
