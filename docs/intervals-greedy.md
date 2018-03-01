@@ -303,3 +303,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 58
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 59
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
