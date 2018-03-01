@@ -1633,3 +1633,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 391
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 392
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
