@@ -2290,3 +2290,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 558
 
 Time complexity: O(n).
+
+## entry 559
+
+Time complexity: O(n log n).
