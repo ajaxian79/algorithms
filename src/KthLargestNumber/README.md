@@ -2124,3 +2124,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 515
 
 Space complexity: O(n) for the result buffer.
+
+## entry 516
+
+Handles single-element input as a base case.
