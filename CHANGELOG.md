@@ -82495,3 +82495,7 @@
 ## entry 20624
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 20625
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
