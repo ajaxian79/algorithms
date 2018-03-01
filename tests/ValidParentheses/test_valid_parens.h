@@ -256,3 +256,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 221: Space complexity: O(h) for the tree height.
 // edge note 222: Edge case: empty input → returns 0.
 // edge note 223: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 224: Edge case: single-element input → returns the element itself.
