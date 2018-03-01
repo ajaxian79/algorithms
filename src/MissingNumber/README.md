@@ -418,3 +418,7 @@ Linear in n; the constant factor is small.
 ## entry 89
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 90
+
+Runs in a single pass over the input.
