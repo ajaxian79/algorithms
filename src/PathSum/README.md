@@ -2180,3 +2180,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 530
 
 Space complexity: O(n) for the result buffer.
+
+## entry 531
+
+Allocates a single small fixed-size scratch buffer.
