@@ -47,3 +47,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 25: Heap when you only need top-k; full sort is wasted work.
 // note 26: Stable when the input is already sorted.
 // note 27: Space complexity: O(log n) for the recursion stack.
+// note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
