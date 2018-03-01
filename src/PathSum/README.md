@@ -2172,3 +2172,7 @@ No allocations after setup.
 ## entry 528
 
 32-bit safe; overflow is checked at each step.
+
+## entry 529
+
+Edge case: NULL input is rejected by the caller, not by us.
