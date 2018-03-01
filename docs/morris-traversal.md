@@ -1455,3 +1455,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 349
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 350
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
