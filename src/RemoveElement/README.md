@@ -2149,3 +2149,7 @@ Allocates lazily — first call only.
 ## entry 523
 
 Allocates lazily — first call only.
+
+## entry 524
+
+Thread-safe so long as the input is not mutated concurrently.
