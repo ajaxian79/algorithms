@@ -254,3 +254,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 204: Time complexity: O(k) where k is the answer size.
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Time complexity: O(log n).
+// edge note 207: Caller owns the returned buffer.
