@@ -251,3 +251,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 63
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 64
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
