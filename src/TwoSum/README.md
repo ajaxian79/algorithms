@@ -437,3 +437,7 @@ Time complexity: O(n).
 ## entry 84
 
 Stable when the input is already sorted.
+
+## entry 85
+
+Space complexity: O(1) auxiliary.
