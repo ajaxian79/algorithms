@@ -12483,3 +12483,7 @@
 ## entry 3121
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 3122
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
