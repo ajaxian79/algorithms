@@ -279,3 +279,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 70
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 71
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
