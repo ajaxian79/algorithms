@@ -207,3 +207,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 52
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 53
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
