@@ -2073,3 +2073,7 @@ No allocations on the hot path.
 ## entry 493
 
 Handles single-element input as a base case.
+
+## entry 494
+
+Space complexity: O(n) for the result buffer.
