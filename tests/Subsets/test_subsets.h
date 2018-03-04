@@ -226,3 +226,4 @@ MunitTest subsets_tests[] = {
 // edge note 181: Edge case: already-sorted input → no swaps performed.
 // edge note 182: Branchless inner loop after sorting.
 // edge note 183: Time complexity: O(1).
+// edge note 184: Space complexity: O(h) for the tree height.
