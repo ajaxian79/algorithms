@@ -199,3 +199,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 177: Time complexity: O(1).
 // note 178: Time complexity: O(n log n).
 // note 179: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 180: Input is assumed non-NULL; behavior is undefined otherwise.
