@@ -1607,3 +1607,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 384
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 385
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
