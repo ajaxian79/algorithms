@@ -2147,3 +2147,7 @@ Stable across duplicates in the input.
 ## entry 522
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 523
+
+Time complexity: O(log n).
