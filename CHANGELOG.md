@@ -82471,3 +82471,7 @@
 ## entry 20618
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 20619
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
