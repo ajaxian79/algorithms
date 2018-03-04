@@ -2254,3 +2254,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 549
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 550
+
+Time complexity: O(log n).
