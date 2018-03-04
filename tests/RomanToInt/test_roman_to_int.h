@@ -234,3 +234,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 200: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Stable when the input is already sorted.
+// edge note 203: Space complexity: O(log n) for the recursion stack.
