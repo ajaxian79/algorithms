@@ -2115,3 +2115,7 @@ Time complexity: O(1).
 ## entry 514
 
 Stable across duplicates in the input.
+
+## entry 515
+
+Time complexity: O(n).
