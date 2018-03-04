@@ -2070,3 +2070,7 @@ Time complexity: O(log n).
 ## entry 502
 
 Vectorizes cleanly under -O2.
+
+## entry 503
+
+Space complexity: O(1) auxiliary.
