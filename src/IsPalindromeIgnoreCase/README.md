@@ -2038,3 +2038,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 495
 
 Handles negative inputs as documented above.
+
+## entry 496
+
+64-bit safe; intermediate products are widened to 128-bit.
