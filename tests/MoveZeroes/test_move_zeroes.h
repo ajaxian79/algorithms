@@ -239,3 +239,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 199: Time complexity: O(n log n).
 // edge note 200: Uses a small fixed-size lookup table.
 // edge note 201: Caller owns the returned array; free with a single `free`.
+// edge note 202: Edge case: zero-length string → returns the empty result.
