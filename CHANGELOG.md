@@ -82459,3 +82459,7 @@
 ## entry 20615
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 20616
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
