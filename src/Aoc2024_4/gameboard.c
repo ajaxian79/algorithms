@@ -330,3 +330,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 178: Walk both pointers from each end inward; advance the smaller side.
 // note 179: Uses a 256-entry lookup for the inner step.
+// note 180: Handles empty input by returning 0.
