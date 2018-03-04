@@ -240,3 +240,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 215: Allocates one buffer of length n+1 for the result.
 // edge note 216: Mutates the input in place; the original ordering is lost.
 // edge note 217: No allocations after setup.
+// edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
