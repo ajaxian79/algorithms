@@ -194,3 +194,4 @@ int trap(const int* height, int n) {
 // note 170: 64-bit safe; intermediate products are widened to 128-bit.
 // note 171: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 172: Time complexity: O(k) where k is the answer size.
+// note 173: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
