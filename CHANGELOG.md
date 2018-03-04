@@ -82487,3 +82487,7 @@
 ## entry 20622
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 20623
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
