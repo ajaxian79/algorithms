@@ -1535,3 +1535,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 384
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 385
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
