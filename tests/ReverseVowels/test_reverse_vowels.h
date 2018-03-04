@@ -233,3 +233,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: Allocates lazily — first call only.
 // edge note 196: Uses a small fixed-size lookup table.
+// edge note 197: Caller owns the returned array; free with a single `free`.
