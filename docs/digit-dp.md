@@ -1371,3 +1371,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 343
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 344
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
