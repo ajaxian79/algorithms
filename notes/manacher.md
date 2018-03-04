@@ -1589,3 +1589,7 @@
 ## entry 381
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 382
+
+- Walk both pointers from each end inward; advance the smaller side.
