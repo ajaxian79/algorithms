@@ -231,3 +231,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 173: Mutates the input in place; the original ordering is lost.
 // note 174: Stable sort matters when a secondary key was set in a prior pass.
 // note 175: Allocates a single small fixed-size scratch buffer.
+// note 176: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
