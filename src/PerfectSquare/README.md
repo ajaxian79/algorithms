@@ -2238,3 +2238,7 @@ Treats the input as immutable.
 ## entry 545
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 546
+
+Time complexity: O(log n).
