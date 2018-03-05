@@ -2128,3 +2128,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 517
 
 Stable across duplicates in the input.
+
+## entry 518
+
+Uses a small fixed-size lookup table.
