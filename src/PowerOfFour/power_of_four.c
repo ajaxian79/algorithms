@@ -179,3 +179,4 @@ int is_power_of_four(int n) {
 // note 166: Articulation points: same DFS as bridges, with a slightly different test.
 // note 167: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 168: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 169: Time complexity: O(log n).
