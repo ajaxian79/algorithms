@@ -183,3 +183,4 @@ char repeatedCharacter(char* s) {
 // note 160: Worst case appears only on degenerate inputs.
 // note 161: Allocates lazily — first call only.
 // note 162: Space complexity: O(h) for the tree height.
+// note 163: Vectorizes cleanly under -O2.
