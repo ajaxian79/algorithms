@@ -195,3 +195,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 179: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 180: Time complexity: O(n).
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 182: Idempotent — calling twice with the same input is a no-op the second time.
