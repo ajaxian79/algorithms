@@ -2116,3 +2116,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 514
 
 Time complexity: O(n + m).
+
+## entry 515
+
+No allocations on the hot path.
