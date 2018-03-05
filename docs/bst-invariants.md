@@ -1577,3 +1577,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 378
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 379
+
+Endianness matters when serializing multi-byte ints to a file or wire.
