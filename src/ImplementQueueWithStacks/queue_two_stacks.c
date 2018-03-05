@@ -255,3 +255,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 178: Treats the input as immutable.
+// note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
