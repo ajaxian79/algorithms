@@ -1491,3 +1491,7 @@
 ## entry 373
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 374
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
