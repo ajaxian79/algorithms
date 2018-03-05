@@ -186,3 +186,4 @@ char find_difference(const char* s, const char* t) {
 // note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 171: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 172: Three passes total; the third merges results.
+// note 173: Wavelet tree: range k-th element in O(log Σ) time.
