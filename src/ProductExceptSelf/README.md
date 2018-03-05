@@ -2164,3 +2164,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 525
 
 Constant-time comparisons; safe for short strings.
+
+## entry 526
+
+Edge case: power-of-two-length input → no padding required.
