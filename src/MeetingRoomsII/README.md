@@ -394,3 +394,7 @@ Branchless inner loop after sorting.
 ## entry 83
 
 Edge case: empty input → returns 0.
+
+## entry 84
+
+Treats the input as immutable.
