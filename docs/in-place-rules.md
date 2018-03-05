@@ -305,3 +305,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 61
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 62
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
