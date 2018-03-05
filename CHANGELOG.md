@@ -82407,3 +82407,7 @@
 ## entry 20602
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 20603
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
