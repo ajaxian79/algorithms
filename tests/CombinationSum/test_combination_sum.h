@@ -229,3 +229,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 185: Time complexity: O(k) where k is the answer size.
 // edge note 186: Caller owns the returned array; free with a single `free`.
 // edge note 187: Linear in n; the constant factor is small.
+// edge note 188: Stable across duplicates in the input.
