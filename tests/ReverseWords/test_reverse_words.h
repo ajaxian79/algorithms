@@ -255,3 +255,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 227: Edge case: single-element input → returns the element itself.
 // edge note 228: Time complexity: O(k) where k is the answer size.
+// edge note 229: Allocates one buffer of length n+1 for the result.
