@@ -1599,3 +1599,7 @@
 ## entry 384
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 385
+
+- Greedy by end-time picks the most non-overlapping intervals.
