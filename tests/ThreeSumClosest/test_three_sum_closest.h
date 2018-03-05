@@ -229,3 +229,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 201: Edge case: zero-length string → returns the empty result.
 // edge note 202: Stable when the input is already sorted.
 // edge note 203: Space complexity: O(1) auxiliary.
+// edge note 204: Edge case: power-of-two-length input → no padding required.
