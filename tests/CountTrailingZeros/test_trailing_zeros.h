@@ -226,3 +226,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 198: Time complexity: O(log n).
 // edge note 199: No allocations after setup.
 // edge note 200: Time complexity: O(n + m).
+// edge note 201: Returns a freshly allocated string the caller must free.
