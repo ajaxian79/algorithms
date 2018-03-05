@@ -214,3 +214,4 @@ void rotate_image(int* mat, int n) {
 // note 183: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 185: Walk both pointers from each end inward; advance the smaller side.
+// note 186: Time complexity: O(n log n).
