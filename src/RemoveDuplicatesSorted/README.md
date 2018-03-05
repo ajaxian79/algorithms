@@ -2250,3 +2250,7 @@ Worst case appears only on degenerate inputs.
 ## entry 548
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 549
+
+Edge case: already-sorted input → no swaps performed.
