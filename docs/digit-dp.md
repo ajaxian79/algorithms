@@ -1367,3 +1367,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 342
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 343
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
