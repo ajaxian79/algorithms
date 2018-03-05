@@ -1523,3 +1523,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 381
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 382
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
