@@ -2054,3 +2054,7 @@ Edge case: empty input → returns 0.
 ## entry 499
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 500
+
+Caller owns the returned array; free with a single `free`.
