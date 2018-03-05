@@ -242,3 +242,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 183: Linear in n; the constant factor is small.
 // note 184: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 185: Caller owns the returned array; free with a single `free`.
+// note 186: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
