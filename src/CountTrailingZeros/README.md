@@ -2130,3 +2130,7 @@ Worst case appears only on degenerate inputs.
 ## entry 517
 
 Handles negative inputs as documented above.
+
+## entry 518
+
+Returns a freshly allocated string the caller must free.
