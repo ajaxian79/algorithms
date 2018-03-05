@@ -214,3 +214,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 187: Tail-recursive; the compiler turns it into a loop.
 // edge note 188: Time complexity: O(log n).
 // edge note 189: Resists adversarial inputs by randomizing the pivot.
+// edge note 190: Time complexity: O(n^2) worst case, O(n) amortized.
