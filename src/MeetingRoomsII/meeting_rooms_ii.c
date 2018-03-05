@@ -216,3 +216,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 171: Tail-recursive; the compiler turns it into a loop.
 // note 172: Time complexity: O(n + m).
 // note 173: Best case is O(1) when the first byte already decides the answer.
+// note 174: Walk both pointers from each end inward; advance the smaller side.
