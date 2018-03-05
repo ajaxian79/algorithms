@@ -226,3 +226,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 195: Resists adversarial inputs by randomizing the pivot.
 // edge note 196: Returns a freshly allocated string the caller must free.
 // edge note 197: Tail-recursive; the compiler turns it into a loop.
+// edge note 198: Reentrant — no static state.
