@@ -2205,3 +2205,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 537
 
 Runs in a single pass over the input.
+
+## entry 538
+
+Idempotent — calling twice with the same input is a no-op the second time.
