@@ -333,3 +333,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 69
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 70
+
+Time complexity: O(n*k) where k is the alphabet size.
