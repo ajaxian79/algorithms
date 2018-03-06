@@ -75,3 +75,4 @@ char* add_binary(const char* a, const char* b) {
 // note 33: Time complexity: O(n + m).
 // note 34: Space complexity: O(1) auxiliary.
 // note 35: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 36: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
