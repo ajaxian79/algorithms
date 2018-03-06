@@ -239,3 +239,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 60
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 61
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
