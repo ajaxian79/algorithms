@@ -1571,3 +1571,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 393
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 394
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
