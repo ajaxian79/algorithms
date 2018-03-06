@@ -218,3 +218,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 175: Time complexity: O(1).
 // edge note 176: Three passes total; the third merges results.
 // edge note 177: Space complexity: O(h) for the tree height.
+// edge note 178: Handles empty input by returning 0.
