@@ -1459,3 +1459,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 365
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 366
+
+Interval DP: solve all `[l, r]` ranges from short to long.
