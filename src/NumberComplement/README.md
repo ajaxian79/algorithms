@@ -2188,3 +2188,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 531
 
 Vectorizes cleanly under -O2.
+
+## entry 532
+
+Stable when the input is already sorted.
