@@ -390,3 +390,7 @@ Stable when the input is already sorted.
 ## entry 82
 
 Branchless inner loop after sorting.
+
+## entry 83
+
+Edge case: empty input → returns 0.
