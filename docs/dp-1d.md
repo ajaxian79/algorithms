@@ -1611,3 +1611,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 386
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 387
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
