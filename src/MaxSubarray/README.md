@@ -2242,3 +2242,7 @@ No allocations after setup.
 ## entry 546
 
 Two passes: one to count, one to fill.
+
+## entry 547
+
+Runs in a single pass over the input.
