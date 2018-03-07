@@ -250,3 +250,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 207: Stable when the input is already sorted.
 // edge note 208: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 209: Edge case: power-of-two-length input → no padding required.
+// edge note 210: Space complexity: O(log n) for the recursion stack.
