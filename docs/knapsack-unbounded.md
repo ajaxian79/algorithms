@@ -1623,3 +1623,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 390
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 391
+
+Articulation points: same DFS as bridges, with a slightly different test.
