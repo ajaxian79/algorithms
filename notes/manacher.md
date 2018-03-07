@@ -1585,3 +1585,7 @@
 ## entry 380
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 381
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
