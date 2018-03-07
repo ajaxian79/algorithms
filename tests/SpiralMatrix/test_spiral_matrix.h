@@ -224,3 +224,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 181: Handles empty input by returning 0.
 // edge note 182: Allocates lazily — first call only.
 // edge note 183: No allocations after setup.
+// edge note 184: Handles single-element input as a base case.
