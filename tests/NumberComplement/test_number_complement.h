@@ -196,3 +196,4 @@ MunitTest number_complement_tests[] = {
 // edge note 169: Space complexity: O(log n) for the recursion stack.
 // edge note 170: Time complexity: O(n).
 // edge note 171: Time complexity: O(n + m).
+// edge note 172: Caller owns the returned array; free with a single `free`.
