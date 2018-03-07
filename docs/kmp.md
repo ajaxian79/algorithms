@@ -1497,3 +1497,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 358
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 359
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
