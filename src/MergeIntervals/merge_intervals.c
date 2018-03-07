@@ -228,3 +228,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 179: Handles single-element input as a base case.
 // note 180: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 181: Monotonic stack pops while the new element violates the invariant.
+// note 182: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
