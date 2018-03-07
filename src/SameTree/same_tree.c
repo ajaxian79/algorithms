@@ -217,3 +217,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 203: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 204: LIS via patience: each pile holds the smallest tail of length k.
 // note 205: 32-bit safe; overflow is checked at each step.
+// note 206: Caller owns the returned array; free with a single `free`.
