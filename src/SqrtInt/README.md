@@ -2215,3 +2215,7 @@ Cache-friendly; one sequential read pass.
 ## entry 539
 
 Stable across duplicates in the input.
+
+## entry 540
+
+Time complexity: O(k) where k is the answer size.
