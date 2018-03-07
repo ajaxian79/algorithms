@@ -1471,3 +1471,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 351
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 352
+
+Euler tour flattens a tree into an array for range-query LCA.
