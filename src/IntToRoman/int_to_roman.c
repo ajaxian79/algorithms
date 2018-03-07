@@ -240,3 +240,4 @@ char* int_to_roman(int n) {
 // note 203: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 204: Walk both pointers from each end inward; advance the smaller side.
 // note 205: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 206: Open addressing with linear probing wins until load factor exceeds 0.7.
