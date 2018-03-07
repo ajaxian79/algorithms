@@ -370,3 +370,7 @@ Edge case: empty input → returns 0.
 ## entry 78
 
 Three passes total; the third merges results.
+
+## entry 79
+
+Time complexity: O(n*k) where k is the alphabet size.
