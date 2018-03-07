@@ -227,3 +227,4 @@ MunitTest permutations_tests[] = {
 // edge note 186: Reentrant — no static state.
 // edge note 187: Handles empty input by returning 0.
 // edge note 188: Cache-friendly; one sequential read pass.
+// edge note 189: Cache-friendly; one sequential read pass.
