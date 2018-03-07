@@ -1415,3 +1415,7 @@
 ## entry 354
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 355
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
