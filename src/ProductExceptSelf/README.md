@@ -2160,3 +2160,7 @@ Caller owns the returned buffer.
 ## entry 524
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 525
+
+Constant-time comparisons; safe for short strings.
