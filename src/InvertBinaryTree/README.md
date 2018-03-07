@@ -2288,3 +2288,7 @@ Treats the input as immutable.
 ## entry 557
 
 Allocates lazily — first call only.
+
+## entry 558
+
+Avoids floating-point entirely — integer math throughout.
