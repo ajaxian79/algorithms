@@ -1673,3 +1673,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 403
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 404
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
