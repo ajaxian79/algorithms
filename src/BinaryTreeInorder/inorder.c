@@ -224,3 +224,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 184: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 185: Thread-safe so long as the input is not mutated concurrently.
 // note 186: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 187: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
