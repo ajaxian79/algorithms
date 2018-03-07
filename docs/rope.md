@@ -1455,3 +1455,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 364
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 365
+
+Interval DP: solve all `[l, r]` ranges from short to long.
