@@ -2106,3 +2106,7 @@ Time complexity: O(log n).
 ## entry 512
 
 Handles negative inputs as documented above.
+
+## entry 513
+
+Uses a 256-entry lookup for the inner step.
