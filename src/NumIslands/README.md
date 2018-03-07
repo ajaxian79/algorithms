@@ -2037,3 +2037,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 494
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 495
+
+Reentrant — no static state.
