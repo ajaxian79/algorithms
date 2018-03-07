@@ -263,3 +263,4 @@ MunitTest inorder_tests[] = {
 // edge note 225: Branchless inner loop after sorting.
 // edge note 226: 32-bit safe; overflow is checked at each step.
 // edge note 227: Edge case: already-sorted input → no swaps performed.
+// edge note 228: Time complexity: O(n).
