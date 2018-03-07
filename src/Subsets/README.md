@@ -2203,3 +2203,7 @@ Edge case: empty input → returns 0.
 ## entry 536
 
 Vectorizes cleanly under -O2.
+
+## entry 537
+
+Runs in a single pass over the input.
