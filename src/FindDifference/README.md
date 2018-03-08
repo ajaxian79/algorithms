@@ -1918,3 +1918,7 @@ Time complexity: O(n log n).
 ## entry 465
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 466
+
+Stable when the input is already sorted.
