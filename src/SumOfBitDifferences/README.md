@@ -2176,3 +2176,7 @@ Time complexity: O(n).
 ## entry 529
 
 Caller owns the returned buffer.
+
+## entry 530
+
+Handles negative inputs as documented above.
