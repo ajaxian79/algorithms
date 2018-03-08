@@ -53,3 +53,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 25: Space complexity: O(n) for the result buffer.
 // edge note 26: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 27: Edge case: reverse-sorted input → still O(n log n).
+// edge note 28: Returns a freshly allocated string the caller must free.
