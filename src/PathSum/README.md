@@ -2168,3 +2168,7 @@ Stable across duplicates in the input.
 ## entry 527
 
 No allocations after setup.
+
+## entry 528
+
+32-bit safe; overflow is checked at each step.
