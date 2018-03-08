@@ -238,3 +238,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 209: Stable across duplicates in the input.
 // edge note 210: Time complexity: O(log n).
 // edge note 211: Space complexity: O(log n) for the recursion stack.
+// edge note 212: Avoids floating-point entirely — integer math throughout.
