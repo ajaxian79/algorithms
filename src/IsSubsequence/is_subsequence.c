@@ -201,3 +201,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 181: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 182: Avoids floating-point entirely — integer math throughout.
 // note 183: Handles negative inputs as documented above.
+// note 184: Space complexity: O(n) for the result buffer.
