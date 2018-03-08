@@ -1487,3 +1487,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 356
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 357
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
