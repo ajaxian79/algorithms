@@ -2206,3 +2206,7 @@ No allocations on the hot path.
 ## entry 536
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 537
+
+Edge case: integer-max input → guarded by the explicit overflow check.
