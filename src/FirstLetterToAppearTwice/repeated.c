@@ -182,3 +182,4 @@ char repeatedCharacter(char* s) {
 // note 159: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 160: Worst case appears only on degenerate inputs.
 // note 161: Allocates lazily — first call only.
+// note 162: Space complexity: O(h) for the tree height.
