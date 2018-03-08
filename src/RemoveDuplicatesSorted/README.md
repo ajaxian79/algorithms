@@ -2242,3 +2242,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 546
 
 Stable across duplicates in the input.
+
+## entry 547
+
+Worst case appears only on degenerate inputs.
