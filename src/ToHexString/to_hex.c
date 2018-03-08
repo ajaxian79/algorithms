@@ -183,3 +183,4 @@ char* to_hex_string(int n) {
 // note 150: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 151: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 153: Constant-time comparisons; safe for short strings.
