@@ -82343,3 +82343,7 @@
 ## entry 20586
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 20587
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
