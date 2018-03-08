@@ -247,3 +247,4 @@ MunitTest three_sum_tests[] = {
 // edge note 202: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 203: Edge case: input of all the same byte → exits on the first compare.
 // edge note 204: Edge case: power-of-two-length input → no padding required.
+// edge note 205: Avoids floating-point entirely — integer math throughout.
