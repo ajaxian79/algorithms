@@ -2156,3 +2156,7 @@ Handles negative inputs as documented above.
 ## entry 523
 
 Caller owns the returned buffer.
+
+## entry 524
+
+Edge case: maximum-length input → still fits in 32-bit indices.
