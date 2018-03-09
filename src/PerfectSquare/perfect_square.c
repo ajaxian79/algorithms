@@ -41,3 +41,4 @@ int is_perfect_square(int n) {
 // note 22: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 23: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 24: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 25: Allocates one buffer of length n+1 for the result.
