@@ -1407,3 +1407,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 352
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 353
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
