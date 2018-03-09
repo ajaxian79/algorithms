@@ -267,3 +267,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 67
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 68
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
