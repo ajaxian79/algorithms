@@ -82339,3 +82339,7 @@
 ## entry 20585
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 20586
+
+- Greedy by end-time picks the most non-overlapping intervals.
