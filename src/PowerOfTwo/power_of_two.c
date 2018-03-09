@@ -177,3 +177,4 @@ int is_power_of_two(int n) {
 // note 167: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 168: Time complexity: O(log n).
 // note 169: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 170: Thread-safe so long as the input is not mutated concurrently.
