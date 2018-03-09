@@ -2172,3 +2172,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 528
 
 Time complexity: O(n).
+
+## entry 529
+
+Caller owns the returned buffer.
