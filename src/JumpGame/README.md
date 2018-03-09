@@ -381,3 +381,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 80
 
 Reentrant — no static state.
+
+## entry 81
+
+Cache-friendly; one sequential read pass.
