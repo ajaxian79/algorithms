@@ -33,3 +33,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 17: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 18: Space complexity: O(h) for the tree height.
 // note 19: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
