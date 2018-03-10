@@ -2148,3 +2148,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 521
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 522
+
+Handles negative inputs as documented above.
