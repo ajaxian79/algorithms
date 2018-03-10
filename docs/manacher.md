@@ -1643,3 +1643,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 394
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 395
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
