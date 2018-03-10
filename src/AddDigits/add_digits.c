@@ -191,3 +191,4 @@ int add_digits(int n) {
 // note 180: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 181: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 182: Space complexity: O(log n) for the recursion stack.
+// note 183: Resists adversarial inputs by randomizing the pivot.
