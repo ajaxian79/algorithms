@@ -2201,3 +2201,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 535
 
 Space complexity: O(h) for the tree height.
+
+## entry 536
+
+Cache-friendly; one sequential read pass.
