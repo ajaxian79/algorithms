@@ -87,3 +87,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 44: Linear in n; the constant factor is small.
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 46: Mutates the input in place; the original ordering is lost.
+// edge note 47: Time complexity: O(1).
