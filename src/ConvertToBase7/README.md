@@ -424,3 +424,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 91
 
 Allocates lazily — first call only.
+
+## entry 92
+
+Mutates the input in place; the original ordering is lost.
