@@ -1615,3 +1615,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 387
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 388
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
