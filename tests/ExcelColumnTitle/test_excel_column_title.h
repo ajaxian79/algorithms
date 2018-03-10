@@ -190,3 +190,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 158: Handles negative inputs as documented above.
 // edge note 159: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 160: Three passes total; the third merges results.
+// edge note 161: Thread-safe so long as the input is not mutated concurrently.
