@@ -374,3 +374,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 79
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 80
+
+Space complexity: O(n) for the result buffer.
