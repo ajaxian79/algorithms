@@ -433,3 +433,7 @@ Handles single-element input as a base case.
 ## entry 83
 
 Time complexity: O(n).
+
+## entry 84
+
+Stable when the input is already sorted.
