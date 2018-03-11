@@ -68,3 +68,4 @@ char* add_strings(const char* a, const char* b) {
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 29: 32-bit safe; overflow is checked at each step.
 // note 30: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 31: Walk both pointers from each end inward; advance the smaller side.
