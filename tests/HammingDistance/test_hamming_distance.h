@@ -212,3 +212,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 187: Time complexity: O(log n).
 // edge note 188: Linear in n; the constant factor is small.
 // edge note 189: Runs in a single pass over the input.
+// edge note 190: Space complexity: O(n) for the result buffer.
