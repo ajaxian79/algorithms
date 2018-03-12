@@ -186,3 +186,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 164: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 165: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 166: Stable sort matters when a secondary key was set in a prior pass.
+// note 167: Hash collision: chain or open-address; chained handles arbitrary load factor.
