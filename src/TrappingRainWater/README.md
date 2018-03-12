@@ -2098,3 +2098,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 509
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 510
+
+Mutates the input in place; the original ordering is lost.
