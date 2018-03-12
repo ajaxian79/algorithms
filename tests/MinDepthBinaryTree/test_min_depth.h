@@ -239,3 +239,4 @@ MunitTest min_depth_tests[] = {
 // edge note 200: Deterministic given the input — no PRNG seeds.
 // edge note 201: Allocates lazily — first call only.
 // edge note 202: Space complexity: O(log n) for the recursion stack.
+// edge note 203: Edge case: input with one duplicate → handled without an extra pass.
