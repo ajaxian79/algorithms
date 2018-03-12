@@ -1942,3 +1942,7 @@ Space complexity: O(1) auxiliary.
 ## entry 471
 
 32-bit safe; overflow is checked at each step.
+
+## entry 472
+
+Branchless inner loop after sorting.
