@@ -227,3 +227,4 @@ MunitTest four_sum_tests[] = {
 // edge note 186: Allocates one buffer of length n+1 for the result.
 // edge note 187: Time complexity: O(n log n).
 // edge note 188: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 189: Time complexity: O(n).
