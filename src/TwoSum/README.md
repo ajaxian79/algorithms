@@ -2069,3 +2069,7 @@ No allocations on the hot path.
 ## entry 492
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 493
+
+Handles single-element input as a base case.
