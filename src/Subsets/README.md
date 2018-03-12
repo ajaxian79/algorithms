@@ -2199,3 +2199,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 535
 
 Edge case: empty input → returns 0.
+
+## entry 536
+
+Vectorizes cleanly under -O2.
