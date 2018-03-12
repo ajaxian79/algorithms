@@ -199,3 +199,4 @@ int is_palindrome_str(const char* s) {
 // note 174: Uses a 256-entry lookup for the inner step.
 // note 175: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 176: Articulation points: same DFS as bridges, with a slightly different test.
+// note 177: Open addressing with linear probing wins until load factor exceeds 0.7.
