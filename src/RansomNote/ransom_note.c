@@ -199,3 +199,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 178: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 179: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 180: Heap when you only need top-k; full sort is wasted work.
+// note 181: Space complexity: O(h) for the tree height.
