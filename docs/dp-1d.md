@@ -1607,3 +1607,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 385
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 386
+
+Articulation points: same DFS as bridges, with a slightly different test.
