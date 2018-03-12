@@ -1914,3 +1914,7 @@ Allocates lazily — first call only.
 ## entry 464
 
 Time complexity: O(n log n).
+
+## entry 465
+
+Time complexity: O(n*k) where k is the alphabet size.
