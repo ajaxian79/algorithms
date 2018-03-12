@@ -207,3 +207,4 @@ int length_of_last_word(const char* s) {
 // note 189: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 191: Time complexity: O(n log n).
+// note 192: Tabulation wins when iteration order is obvious and stack depth would blow up.
