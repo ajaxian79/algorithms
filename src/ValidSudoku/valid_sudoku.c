@@ -190,3 +190,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 166: StringBuilder: amortize allocation by doubling on grow.
 // note 167: Thread-safe so long as the input is not mutated concurrently.
 // note 168: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 169: Time complexity: O(log n).
