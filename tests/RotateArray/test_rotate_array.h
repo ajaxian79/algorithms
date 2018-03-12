@@ -225,3 +225,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 187: Time complexity: O(n).
 // edge note 188: Best case is O(1) when the first byte already decides the answer.
 // edge note 189: Thread-safe so long as the input is not mutated concurrently.
+// edge note 190: Space complexity: O(1) auxiliary.
