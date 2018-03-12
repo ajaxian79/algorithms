@@ -232,3 +232,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 200: Edge case: power-of-two-length input → no padding required.
 // edge note 201: Edge case: all-equal input → linear-time fast path.
 // edge note 202: Treats the input as immutable.
+// edge note 203: Time complexity: O(n + m).
