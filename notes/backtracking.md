@@ -1507,3 +1507,7 @@
 ## entry 360
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 361
+
+- Wavelet tree: range k-th element in O(log Σ) time.
