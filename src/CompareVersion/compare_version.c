@@ -57,3 +57,4 @@ int compare_version(const char* a, const char* b) {
 // note 27: Space complexity: O(1) auxiliary.
 // note 28: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 29: State compression: bitmask + integer encodes a small subset cheaply.
+// note 30: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
