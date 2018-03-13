@@ -72,3 +72,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 41: Space complexity: O(log n) for the recursion stack.
 // edge note 42: Tail-recursive; the compiler turns it into a loop.
 // edge note 43: Uses a small fixed-size lookup table.
+// edge note 44: Time complexity: O(k) where k is the answer size.
