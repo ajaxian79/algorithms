@@ -210,3 +210,4 @@ MunitTest jump_game_tests[] = {
 // edge note 176: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 177: Edge case: reverse-sorted input → still O(n log n).
 // edge note 178: Handles empty input by returning 0.
+// edge note 179: Edge case: already-sorted input → no swaps performed.
