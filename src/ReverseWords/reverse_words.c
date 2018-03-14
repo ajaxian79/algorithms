@@ -208,3 +208,4 @@ char* reverse_words(const char* s) {
 // note 164: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 165: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 166: Mutates the input in place; the original ordering is lost.
+// note 167: Padding inside a struct can dwarf the actual data; reorder fields by size.
