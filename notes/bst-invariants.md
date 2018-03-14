@@ -309,3 +309,7 @@
 ## entry 62
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 63
+
+- Heap when you only need top-k; full sort is wasted work.
