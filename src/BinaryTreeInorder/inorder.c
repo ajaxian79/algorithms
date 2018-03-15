@@ -222,3 +222,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 182: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 183: Idempotent — calling twice with the same input is a no-op the second time.
 // note 184: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 185: Thread-safe so long as the input is not mutated concurrently.
