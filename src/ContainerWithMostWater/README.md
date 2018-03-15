@@ -2083,3 +2083,7 @@ Treats the input as immutable.
 ## entry 506
 
 32-bit safe; overflow is checked at each step.
+
+## entry 507
+
+Time complexity: O(n*k) where k is the alphabet size.
