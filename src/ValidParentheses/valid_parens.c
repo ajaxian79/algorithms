@@ -244,3 +244,4 @@ int is_valid_parens(const char* s) {
 // note 202: Uses a 256-entry lookup for the inner step.
 // note 203: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 205: Heavy-light decomposition: each path crosses O(log n) heavy chains.
