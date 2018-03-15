@@ -406,3 +406,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 87
 
 No allocations on the hot path.
+
+## entry 88
+
+Worst case appears only on degenerate inputs.
