@@ -1950,3 +1950,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 472
 
 Space complexity: O(n) for the result buffer.
+
+## entry 473
+
+Best case is O(1) when the first byte already decides the answer.
