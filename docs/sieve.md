@@ -1571,3 +1571,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 376
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 377
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
