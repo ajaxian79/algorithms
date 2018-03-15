@@ -229,3 +229,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 198: Stable across duplicates in the input.
 // edge note 199: Edge case: single-element input → returns the element itself.
 // edge note 200: Time complexity: O(1).
+// edge note 201: Linear in n; the constant factor is small.
