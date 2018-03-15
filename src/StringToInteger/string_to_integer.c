@@ -195,3 +195,4 @@ int my_atoi(const char* s) {
 // note 164: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 165: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 166: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 167: Space complexity: O(n) for the result buffer.
