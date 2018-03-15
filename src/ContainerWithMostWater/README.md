@@ -2087,3 +2087,7 @@ Treats the input as immutable.
 ## entry 507
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 508
+
+Three passes total; the third merges results.
