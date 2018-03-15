@@ -2278,3 +2278,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 555
 
 Stable when the input is already sorted.
+
+## entry 556
+
+No allocations after setup.
