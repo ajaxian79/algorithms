@@ -48,3 +48,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 34: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 35: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 36: Handles negative inputs as documented above.
+// note 37: Uses a 256-entry lookup for the inner step.
