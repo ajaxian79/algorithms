@@ -1559,3 +1559,7 @@
 ## entry 390
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 391
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
