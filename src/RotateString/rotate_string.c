@@ -200,3 +200,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 175: Space complexity: O(n) for the result buffer.
 // note 176: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 177: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
