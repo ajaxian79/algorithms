@@ -251,3 +251,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 218: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 219: Three passes total; the third merges results.
 // edge note 220: Time complexity: O(log n).
+// edge note 221: Returns a freshly allocated string the caller must free.
