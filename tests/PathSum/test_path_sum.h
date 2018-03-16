@@ -71,3 +71,4 @@ MunitTest path_sum_tests[] = {
 // edge note 32: Space complexity: O(log n) for the recursion stack.
 // edge note 33: Constant-time comparisons; safe for short strings.
 // edge note 34: Space complexity: O(1) auxiliary.
+// edge note 35: Caller owns the returned buffer.
