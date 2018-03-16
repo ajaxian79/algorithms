@@ -1543,3 +1543,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 371
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 372
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
