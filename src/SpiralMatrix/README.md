@@ -382,3 +382,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 80
 
 Uses a small fixed-size lookup table.
+
+## entry 81
+
+Tail-recursive; the compiler turns it into a loop.
