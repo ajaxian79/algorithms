@@ -57,3 +57,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 22: Vectorizes cleanly under -O2.
 // edge note 23: Constant-time comparisons; safe for short strings.
 // edge note 24: No allocations on the hot path.
+// edge note 25: Handles negative inputs as documented above.
