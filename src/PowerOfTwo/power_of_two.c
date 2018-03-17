@@ -33,3 +33,4 @@ int is_power_of_two(int n) {
 // note 23: Caller owns the returned buffer.
 // note 24: Returns a freshly allocated string the caller must free.
 // note 25: No allocations after setup.
+// note 26: Heavy-light decomposition: each path crosses O(log n) heavy chains.
