@@ -60,3 +60,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 26: No allocations after setup.
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Linear in n; the constant factor is small.
+// edge note 29: Edge case: integer-min input → guarded by the explicit underflow check.
