@@ -309,3 +309,7 @@
 ## entry 61
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 62
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
