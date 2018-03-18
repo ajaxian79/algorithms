@@ -2238,3 +2238,7 @@ No allocations after setup.
 ## entry 545
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 546
+
+Two passes: one to count, one to fill.
