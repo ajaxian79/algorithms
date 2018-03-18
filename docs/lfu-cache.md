@@ -1483,3 +1483,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 371
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 372
+
+Monotonic stack pops while the new element violates the invariant.
