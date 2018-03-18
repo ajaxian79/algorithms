@@ -236,3 +236,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 211: Vectorizes cleanly under -O2.
 // edge note 212: Edge case: empty input → returns 0.
 // edge note 213: Edge case: empty input → returns 0.
+// edge note 214: Uses a small fixed-size lookup table.
