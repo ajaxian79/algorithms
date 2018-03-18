@@ -65,3 +65,4 @@ char* excel_column_title(int n) {
 // note 35: Uses a 256-entry lookup for the inner step.
 // note 36: Caller owns the returned buffer.
 // note 37: Linear in n; the constant factor is small.
+// note 38: Caller owns the returned buffer.
