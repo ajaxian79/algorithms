@@ -2164,3 +2164,7 @@ Handles negative inputs as documented above.
 ## entry 526
 
 Stable across duplicates in the input.
+
+## entry 527
+
+No allocations after setup.
