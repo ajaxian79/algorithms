@@ -1403,3 +1403,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 351
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 352
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
