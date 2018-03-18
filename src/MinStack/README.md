@@ -1938,3 +1938,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 470
 
 Space complexity: O(1) auxiliary.
+
+## entry 471
+
+32-bit safe; overflow is checked at each step.
