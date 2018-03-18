@@ -226,3 +226,4 @@ MunitTest zigzag_tests[] = {
 // edge note 198: Time complexity: O(log n).
 // edge note 199: Tail-recursive; the compiler turns it into a loop.
 // edge note 200: Constant-time comparisons; safe for short strings.
+// edge note 201: Space complexity: O(n) for the result buffer.
