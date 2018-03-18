@@ -2066,3 +2066,7 @@ Two passes: one to count, one to fill.
 ## entry 502
 
 Allocates lazily — first call only.
+
+## entry 503
+
+Allocates lazily — first call only.
