@@ -1663,3 +1663,7 @@
 ## entry 416
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 417
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
