@@ -56,3 +56,4 @@ int count_primes(int n) {
 // note 28: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 29: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 30: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 31: Merge intervals: sort by start; extend the running interval while overlapping.
