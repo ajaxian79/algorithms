@@ -2126,3 +2126,7 @@ Time complexity: O(n log n).
 ## entry 516
 
 Worst case appears only on degenerate inputs.
+
+## entry 517
+
+Handles negative inputs as documented above.
