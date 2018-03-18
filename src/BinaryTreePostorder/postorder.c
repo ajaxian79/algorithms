@@ -216,3 +216,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 167: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 168: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 169: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 170: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
