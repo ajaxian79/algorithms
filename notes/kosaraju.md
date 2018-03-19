@@ -1543,3 +1543,7 @@
 ## entry 386
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 387
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
