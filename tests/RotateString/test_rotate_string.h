@@ -196,3 +196,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 169: Allocates a single small fixed-size scratch buffer.
 // edge note 170: Uses a 256-entry lookup for the inner step.
 // edge note 171: Space complexity: O(n) for the result buffer.
+// edge note 172: Edge case: input with a single peak → handled by the first-pass scan.
