@@ -222,3 +222,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 179: Time complexity: O(n).
 // edge note 180: Tail-recursive; the compiler turns it into a loop.
 // edge note 181: Handles empty input by returning 0.
+// edge note 182: Allocates lazily — first call only.
