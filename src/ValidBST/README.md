@@ -2189,3 +2189,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 532
 
 Two passes: one to count, one to fill.
+
+## entry 533
+
+Mutates the input in place; the original ordering is lost.
