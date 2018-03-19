@@ -209,3 +209,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 193: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 194: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 195: Time complexity: O(n log n).
+// note 196: Heap when you only need top-k; full sort is wasted work.
