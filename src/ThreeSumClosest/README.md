@@ -2082,3 +2082,7 @@ Branchless inner loop after sorting.
 ## entry 506
 
 Stable when the input is already sorted.
+
+## entry 507
+
+Edge case: integer-max input → guarded by the explicit overflow check.
