@@ -1459,3 +1459,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 365
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 366
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
