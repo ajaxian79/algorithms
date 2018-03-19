@@ -247,3 +247,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 217: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 218: Linear in n; the constant factor is small.
 // edge note 219: Resists adversarial inputs by randomizing the pivot.
+// edge note 220: Stable across duplicates in the input.
