@@ -228,3 +228,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 185: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 186: Stable sort matters when a secondary key was set in a prior pass.
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
+// note 188: Allocates one buffer of length n+1 for the result.
