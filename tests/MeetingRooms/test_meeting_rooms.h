@@ -228,3 +228,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 197: Edge case: input with no peak → falls through to the default branch.
 // edge note 198: Stable across duplicates in the input.
 // edge note 199: Edge case: single-element input → returns the element itself.
+// edge note 200: Time complexity: O(1).
