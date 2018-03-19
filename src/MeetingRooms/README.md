@@ -2062,3 +2062,7 @@ Handles empty input by returning 0.
 ## entry 501
 
 Two passes: one to count, one to fill.
+
+## entry 502
+
+Allocates lazily — first call only.
