@@ -1625,3 +1625,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 389
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 390
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
