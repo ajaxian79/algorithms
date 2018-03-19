@@ -227,3 +227,4 @@ MunitTest path_sum_tests[] = {
 // edge note 188: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 189: Linear in n; the constant factor is small.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 191: Two passes: one to count, one to fill.
