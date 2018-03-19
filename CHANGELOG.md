@@ -82207,3 +82207,7 @@
 ## entry 20552
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 20553
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
