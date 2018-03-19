@@ -1463,3 +1463,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 366
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 367
+
+Wavelet tree: range k-th element in O(log Σ) time.
