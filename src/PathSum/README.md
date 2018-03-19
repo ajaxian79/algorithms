@@ -2160,3 +2160,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 525
 
 Handles negative inputs as documented above.
+
+## entry 526
+
+Stable across duplicates in the input.
