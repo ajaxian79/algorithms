@@ -2094,3 +2094,7 @@ Handles empty input by returning 0.
 ## entry 509
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 510
+
+Edge case: empty input → returns 0.
