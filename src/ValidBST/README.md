@@ -2193,3 +2193,7 @@ Two passes: one to count, one to fill.
 ## entry 533
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 534
+
+Resists adversarial inputs by randomizing the pivot.
