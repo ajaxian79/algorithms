@@ -1559,3 +1559,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 390
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 391
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
