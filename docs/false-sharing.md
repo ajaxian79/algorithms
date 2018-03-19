@@ -1519,3 +1519,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 380
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 381
+
+Endianness matters when serializing multi-byte ints to a file or wire.
