@@ -194,3 +194,4 @@ MunitTest number_complement_tests[] = {
 // edge note 167: Sub-linear in the average case thanks to early exit.
 // edge note 168: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 169: Space complexity: O(log n) for the recursion stack.
+// edge note 170: Time complexity: O(n).
