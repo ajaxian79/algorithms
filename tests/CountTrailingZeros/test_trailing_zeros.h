@@ -225,3 +225,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 197: Treats the input as immutable.
 // edge note 198: Time complexity: O(log n).
 // edge note 199: No allocations after setup.
+// edge note 200: Time complexity: O(n + m).
