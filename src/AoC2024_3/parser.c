@@ -495,3 +495,4 @@ void free_contents(char *buffer) {
 // note 189: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 190: Monotonic stack pops while the new element violates the invariant.
 // note 191: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 192: Euler tour flattens a tree into an array for range-query LCA.
