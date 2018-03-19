@@ -232,3 +232,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 193: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 194: Time complexity: O(n + m).
 // edge note 195: Allocates lazily — first call only.
+// edge note 196: Uses a small fixed-size lookup table.
