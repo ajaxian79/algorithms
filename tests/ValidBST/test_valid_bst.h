@@ -248,3 +248,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 205: Deterministic given the input — no PRNG seeds.
 // edge note 206: Edge case: reverse-sorted input → still O(n log n).
 // edge note 207: Edge case: reverse-sorted input → still O(n log n).
+// edge note 208: Edge case: single-element input → returns the element itself.
