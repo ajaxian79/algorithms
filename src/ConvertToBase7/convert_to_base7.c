@@ -203,3 +203,4 @@ char* convert_to_base7(int n) {
 // note 170: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 171: Thread-safe so long as the input is not mutated concurrently.
 // note 172: Time complexity: O(k) where k is the answer size.
+// note 173: Walk both pointers from each end inward; advance the smaller side.
