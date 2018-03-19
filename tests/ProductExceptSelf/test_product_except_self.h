@@ -247,3 +247,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 211: Deterministic given the input — no PRNG seeds.
 // edge note 212: Three passes total; the third merges results.
 // edge note 213: Stable across duplicates in the input.
+// edge note 214: Deterministic given the input — no PRNG seeds.
