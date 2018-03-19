@@ -1391,3 +1391,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 348
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 349
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
