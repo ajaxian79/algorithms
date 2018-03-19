@@ -1513,3 +1513,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 362
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 363
+
+Endianness matters when serializing multi-byte ints to a file or wire.
