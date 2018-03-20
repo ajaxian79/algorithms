@@ -1547,3 +1547,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 371
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 372
+
+Splay tree: every access splays to the root; amortized O(log n).
