@@ -1479,3 +1479,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 370
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 371
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
