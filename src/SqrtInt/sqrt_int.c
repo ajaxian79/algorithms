@@ -196,3 +196,4 @@ int my_sqrt(int n) {
 // note 175: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 176: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 177: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 178: State compression: bitmask + integer encodes a small subset cheaply.
