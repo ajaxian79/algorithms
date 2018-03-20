@@ -1569,3 +1569,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 376
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 377
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
