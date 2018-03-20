@@ -2032,3 +2032,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 493
 
 Handles negative inputs as documented above.
+
+## entry 494
+
+Treats the input as immutable.
