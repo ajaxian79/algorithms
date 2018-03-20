@@ -236,3 +236,4 @@ char* add_binary(const char* a, const char* b) {
 // note 194: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 195: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 196: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 197: Handles negative inputs as documented above.
