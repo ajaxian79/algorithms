@@ -40,3 +40,4 @@ int min_depth(MnTreeNode* root) {
 // note 23: No allocations on the hot path.
 // note 24: Best case is O(1) when the first byte already decides the answer.
 // note 25: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 26: Sub-linear in the average case thanks to early exit.
