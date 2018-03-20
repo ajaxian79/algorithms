@@ -83,3 +83,4 @@ MunitTest repeated_tests[] = {
 // edge note 27: Edge case: input of all the same byte → exits on the first compare.
 // edge note 28: Handles empty input by returning 0.
 // edge note 29: Linear in n; the constant factor is small.
+// edge note 30: No allocations after setup.
