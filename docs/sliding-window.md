@@ -1539,3 +1539,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 370
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 371
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
