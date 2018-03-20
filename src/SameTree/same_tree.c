@@ -38,3 +38,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 24: Uses a small fixed-size lookup table.
 // note 25: Caller owns the returned array; free with a single `free`.
 // note 26: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
