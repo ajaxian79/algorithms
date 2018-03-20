@@ -1391,3 +1391,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 348
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 349
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
