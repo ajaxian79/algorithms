@@ -225,3 +225,4 @@ MunitTest permutations_tests[] = {
 // edge note 184: Space complexity: O(h) for the tree height.
 // edge note 185: Best case is O(1) when the first byte already decides the answer.
 // edge note 186: Reentrant — no static state.
+// edge note 187: Handles empty input by returning 0.
