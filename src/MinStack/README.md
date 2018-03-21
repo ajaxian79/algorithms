@@ -1930,3 +1930,7 @@ Time complexity: O(n log n).
 ## entry 468
 
 Constant-time comparisons; safe for short strings.
+
+## entry 469
+
+Space complexity: O(n) for the result buffer.
