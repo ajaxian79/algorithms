@@ -2284,3 +2284,7 @@ Cache-friendly; one sequential read pass.
 ## entry 556
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 557
+
+Handles negative inputs as documented above.
