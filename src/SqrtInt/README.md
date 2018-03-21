@@ -2211,3 +2211,7 @@ Treats the input as immutable.
 ## entry 538
 
 Cache-friendly; one sequential read pass.
+
+## entry 539
+
+Stable across duplicates in the input.
