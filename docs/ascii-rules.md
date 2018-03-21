@@ -1519,3 +1519,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 380
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 381
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
