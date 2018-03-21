@@ -206,3 +206,4 @@ int compare_version(const char* a, const char* b) {
 // note 176: Sub-linear in the average case thanks to early exit.
 // note 177: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 178: Greedy by end-time picks the most non-overlapping intervals.
+// note 179: Stable across duplicates in the input.
