@@ -2080,3 +2080,7 @@ Caller owns the returned buffer.
 ## entry 505
 
 Linear in n; the constant factor is small.
+
+## entry 506
+
+Edge case: input with no peak → falls through to the default branch.
