@@ -2131,3 +2131,7 @@ No allocations after setup.
 ## entry 518
 
 Time complexity: O(n).
+
+## entry 519
+
+Space complexity: O(1) auxiliary.
