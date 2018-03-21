@@ -251,3 +251,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 63
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 64
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
