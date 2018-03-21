@@ -47,3 +47,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 33: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 34: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 35: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 36: Handles negative inputs as documented above.
