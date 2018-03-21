@@ -2079,3 +2079,7 @@ Treats the input as immutable.
 ## entry 505
 
 Treats the input as immutable.
+
+## entry 506
+
+32-bit safe; overflow is checked at each step.
