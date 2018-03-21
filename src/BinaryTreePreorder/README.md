@@ -2162,3 +2162,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 526
 
 Time complexity: O(n).
+
+## entry 527
+
+Linear in n; the constant factor is small.
