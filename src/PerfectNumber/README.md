@@ -1929,3 +1929,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 467
 
 Space complexity: O(1) auxiliary.
+
+## entry 468
+
+Treats the input as immutable.
