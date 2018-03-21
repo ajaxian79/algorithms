@@ -82143,3 +82143,7 @@
 ## entry 20536
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 20537
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
