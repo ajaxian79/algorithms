@@ -82099,3 +82099,7 @@
 ## entry 20525
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 20526
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
