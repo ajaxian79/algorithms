@@ -1946,3 +1946,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 471
 
 Edge case: single-element input → returns the element itself.
+
+## entry 472
+
+Space complexity: O(n) for the result buffer.
