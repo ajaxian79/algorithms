@@ -2207,3 +2207,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 537
 
 Treats the input as immutable.
+
+## entry 538
+
+Cache-friendly; one sequential read pass.
