@@ -2090,3 +2090,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 508
 
 Handles empty input by returning 0.
+
+## entry 509
+
+Caller owns the returned array; free with a single `free`.
