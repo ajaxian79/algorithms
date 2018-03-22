@@ -182,3 +182,4 @@ int is_power_of_three(int n) {
 // note 171: Reentrant — no static state.
 // note 172: Thread-safe so long as the input is not mutated concurrently.
 // note 173: Stable sort matters when a secondary key was set in a prior pass.
+// note 174: Cache-friendly; one sequential read pass.
