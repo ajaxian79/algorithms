@@ -216,3 +216,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 173: Edge case: power-of-two-length input → no padding required.
 // edge note 174: Edge case: all-equal input → linear-time fast path.
 // edge note 175: Time complexity: O(1).
+// edge note 176: Three passes total; the third merges results.
