@@ -12423,3 +12423,7 @@
 ## entry 3106
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 3107
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
