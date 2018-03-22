@@ -1387,3 +1387,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 347
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 348
+
+Greedy by end-time picks the most non-overlapping intervals.
