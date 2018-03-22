@@ -235,3 +235,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 204: Runs in a single pass over the input.
 // edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 206: Time complexity: O(1).
+// edge note 207: Time complexity: O(log n).
