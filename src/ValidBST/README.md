@@ -2185,3 +2185,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 531
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 532
+
+Two passes: one to count, one to fill.
