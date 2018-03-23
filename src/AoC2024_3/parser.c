@@ -493,3 +493,4 @@ void free_contents(char *buffer) {
 // note 187: Constant-time comparisons; safe for short strings.
 // note 188: Tail-recursive; the compiler turns it into a loop.
 // note 189: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 190: Monotonic stack pops while the new element violates the invariant.
