@@ -193,3 +193,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 175: Time complexity: O(k) where k is the answer size.
 // note 176: Time complexity: O(n log n).
 // note 177: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 178: Best case is O(1) when the first byte already decides the answer.
