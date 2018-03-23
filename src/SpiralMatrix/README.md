@@ -2094,3 +2094,7 @@ Stable across duplicates in the input.
 ## entry 508
 
 Worst case appears only on degenerate inputs.
+
+## entry 509
+
+Time complexity: O(n^2) worst case, O(n) amortized.
