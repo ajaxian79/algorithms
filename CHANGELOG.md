@@ -82075,3 +82075,7 @@
 ## entry 20519
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 20520
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
