@@ -1415,3 +1415,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 337
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 338
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
