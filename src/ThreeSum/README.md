@@ -2133,3 +2133,7 @@ Handles single-element input as a base case.
 ## entry 518
 
 Reentrant — no static state.
+
+## entry 519
+
+Cache-friendly; one sequential read pass.
