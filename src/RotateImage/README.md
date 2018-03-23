@@ -2145,3 +2145,7 @@ Three passes total; the third merges results.
 ## entry 521
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 522
+
+Reentrant — no static state.
