@@ -2196,3 +2196,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 534
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 535
+
+Stable when the input is already sorted.
