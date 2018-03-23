@@ -2234,3 +2234,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 544
 
 No allocations after setup.
+
+## entry 545
+
+64-bit safe; intermediate products are widened to 128-bit.
