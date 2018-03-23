@@ -1383,3 +1383,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 346
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 347
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
