@@ -2168,3 +2168,7 @@ Vectorizes cleanly under -O2.
 ## entry 527
 
 Space complexity: O(n) for the result buffer.
+
+## entry 528
+
+Time complexity: O(n).
