@@ -406,3 +406,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 86
 
 Three passes total; the third merges results.
+
+## entry 87
+
+Resists adversarial inputs by randomizing the pivot.
