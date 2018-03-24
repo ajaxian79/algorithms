@@ -1565,3 +1565,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 374
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 375
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
