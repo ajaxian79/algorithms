@@ -1385,3 +1385,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 330
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 331
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
