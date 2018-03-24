@@ -389,3 +389,7 @@ Cache-friendly; one sequential read pass.
 ## entry 82
 
 Space complexity: O(1) auxiliary.
+
+## entry 83
+
+Allocates lazily — first call only.
