@@ -1615,3 +1615,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 388
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 389
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
