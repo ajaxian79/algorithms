@@ -359,3 +359,7 @@ Runs in a single pass over the input.
 ## entry 75
 
 Three passes total; the third merges results.
+
+## entry 76
+
+Edge case: maximum-length input → still fits in 32-bit indices.
