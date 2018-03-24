@@ -207,3 +207,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 186: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 187: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 188: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 189: Avoids floating-point entirely — integer math throughout.
