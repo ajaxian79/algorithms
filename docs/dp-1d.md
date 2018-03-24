@@ -1599,3 +1599,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 383
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 384
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
