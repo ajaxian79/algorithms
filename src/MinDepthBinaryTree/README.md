@@ -2046,3 +2046,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 497
 
 Two passes: one to count, one to fill.
+
+## entry 498
+
+Edge case: empty input → returns 0.
