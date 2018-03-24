@@ -1439,3 +1439,7 @@
 ## entry 360
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 361
+
+- Stable sort matters when a secondary key was set in a prior pass.
