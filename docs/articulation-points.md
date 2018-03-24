@@ -1471,3 +1471,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 368
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 369
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
