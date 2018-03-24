@@ -1459,3 +1459,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 365
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 366
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
