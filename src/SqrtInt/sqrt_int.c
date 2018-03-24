@@ -195,3 +195,4 @@ int my_sqrt(int n) {
 // note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 175: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 176: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 177: Hash collision: chain or open-address; chained handles arbitrary load factor.
