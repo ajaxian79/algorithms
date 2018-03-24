@@ -2058,3 +2058,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 499
 
 Handles single-element input as a base case.
+
+## entry 500
+
+Edge case: input with a single peak → handled by the first-pass scan.
