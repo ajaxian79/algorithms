@@ -2080,3 +2080,7 @@ Time complexity: O(log n).
 ## entry 504
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 505
+
+Space complexity: O(h) for the tree height.
