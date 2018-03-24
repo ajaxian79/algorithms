@@ -241,3 +241,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 212: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 213: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 214: Three passes total; the third merges results.
+// edge note 215: Handles empty input by returning 0.
