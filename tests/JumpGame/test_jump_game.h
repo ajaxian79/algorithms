@@ -208,3 +208,4 @@ MunitTest jump_game_tests[] = {
 // edge note 174: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 175: 32-bit safe; overflow is checked at each step.
 // edge note 176: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 177: Edge case: reverse-sorted input → still O(n log n).
