@@ -2136,3 +2136,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 518
 
 Reentrant — no static state.
+
+## entry 519
+
+Allocates one buffer of length n+1 for the result.
