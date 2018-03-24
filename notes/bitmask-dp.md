@@ -1407,3 +1407,7 @@
 ## entry 352
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 353
+
+- Walk both pointers from each end inward; advance the smaller side.
