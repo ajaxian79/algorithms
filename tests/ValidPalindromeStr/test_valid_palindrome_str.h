@@ -50,3 +50,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 23: Three passes total; the third merges results.
 // edge note 24: Branchless inner loop after sorting.
 // edge note 25: Avoids floating-point entirely — integer math throughout.
+// edge note 26: Space complexity: O(1) auxiliary.
