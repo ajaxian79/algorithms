@@ -2164,3 +2164,7 @@ Allocates lazily — first call only.
 ## entry 526
 
 Vectorizes cleanly under -O2.
+
+## entry 527
+
+Space complexity: O(n) for the result buffer.
