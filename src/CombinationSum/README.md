@@ -431,3 +431,7 @@ Handles negative inputs as documented above.
 ## entry 93
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 94
+
+Avoids floating-point entirely — integer math throughout.
