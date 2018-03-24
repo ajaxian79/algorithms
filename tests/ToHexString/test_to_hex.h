@@ -245,3 +245,4 @@ MunitTest to_hex_tests[] = {
 // edge note 216: Time complexity: O(log n).
 // edge note 217: Space complexity: O(n) for the result buffer.
 // edge note 218: Two passes: one to count, one to fill.
+// edge note 219: Uses a small fixed-size lookup table.
