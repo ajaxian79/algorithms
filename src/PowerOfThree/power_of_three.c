@@ -180,3 +180,4 @@ int is_power_of_three(int n) {
 // note 169: Euler tour flattens a tree into an array for range-query LCA.
 // note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 171: Reentrant — no static state.
+// note 172: Thread-safe so long as the input is not mutated concurrently.
