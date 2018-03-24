@@ -404,3 +404,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 167: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 168: Reentrant — no static state.
