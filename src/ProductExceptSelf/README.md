@@ -2132,3 +2132,7 @@ Time complexity: O(n + m).
 ## entry 517
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 518
+
+Reentrant — no static state.
