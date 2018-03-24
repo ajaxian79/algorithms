@@ -492,3 +492,4 @@ void free_contents(char *buffer) {
 // note 186: Cache-friendly; one sequential read pass.
 // note 187: Constant-time comparisons; safe for short strings.
 // note 188: Tail-recursive; the compiler turns it into a loop.
+// note 189: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
