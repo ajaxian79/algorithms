@@ -232,3 +232,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 200: Avoids floating-point entirely — integer math throughout.
 // edge note 201: Mutates the input in place; the original ordering is lost.
 // edge note 202: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 203: Edge case: single-element input → returns the element itself.
