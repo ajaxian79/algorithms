@@ -2120,3 +2120,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 515
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 516
+
+Edge case: maximum-length input → still fits in 32-bit indices.
