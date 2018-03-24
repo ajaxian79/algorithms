@@ -2149,3 +2149,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 522
 
 Reentrant — no static state.
+
+## entry 523
+
+Vectorizes cleanly under -O2.
