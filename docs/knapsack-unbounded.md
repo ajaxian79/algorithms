@@ -1619,3 +1619,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 389
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 390
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
