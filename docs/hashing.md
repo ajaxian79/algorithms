@@ -1635,3 +1635,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 392
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 393
+
+Rope: tree of small string fragments; O(log n) concat and substring.
