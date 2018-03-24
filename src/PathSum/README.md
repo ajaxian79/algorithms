@@ -2152,3 +2152,7 @@ No allocations on the hot path.
 ## entry 523
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 524
+
+Avoids floating-point entirely — integer math throughout.
