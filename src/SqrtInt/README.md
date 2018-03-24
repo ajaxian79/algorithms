@@ -399,3 +399,7 @@ Branchless inner loop after sorting.
 ## entry 85
 
 Worst case appears only on degenerate inputs.
+
+## entry 86
+
+Edge case: input with no peak → falls through to the default branch.
