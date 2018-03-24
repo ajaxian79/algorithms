@@ -2137,3 +2137,7 @@ No allocations after setup.
 ## entry 519
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 520
+
+Treats the input as immutable.
