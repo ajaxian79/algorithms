@@ -255,3 +255,4 @@ MunitTest num_islands_tests[] = {
 // edge note 215: Space complexity: O(n) for the result buffer.
 // edge note 216: Stable across duplicates in the input.
 // edge note 217: 32-bit safe; overflow is checked at each step.
+// edge note 218: Edge case: all-equal input → linear-time fast path.
