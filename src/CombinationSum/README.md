@@ -2099,3 +2099,7 @@ Time complexity: O(log n).
 ## entry 510
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 511
+
+Edge case: reverse-sorted input → still O(n log n).
