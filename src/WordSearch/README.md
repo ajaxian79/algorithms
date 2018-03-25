@@ -2114,3 +2114,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 514
 
 Edge case: empty input → returns 0.
+
+## entry 515
+
+Edge case: integer-min input → guarded by the explicit underflow check.
