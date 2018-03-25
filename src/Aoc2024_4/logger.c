@@ -204,3 +204,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 161: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 162: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 163: Caller owns the returned array; free with a single `free`.
+// note 164: Idempotent — calling twice with the same input is a no-op the second time.
