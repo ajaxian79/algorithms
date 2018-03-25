@@ -2198,3 +2198,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 535
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 536
+
+Time complexity: O(1).
