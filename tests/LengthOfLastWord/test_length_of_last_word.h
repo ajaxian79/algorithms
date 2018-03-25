@@ -215,3 +215,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 188: Edge case: power-of-two-length input → no padding required.
 // edge note 189: Branchless inner loop after sorting.
 // edge note 190: Time complexity: O(n + m).
+// edge note 191: Sub-linear in the average case thanks to early exit.
