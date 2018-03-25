@@ -2086,3 +2086,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 506
 
 Constant-time comparisons; safe for short strings.
+
+## entry 507
+
+Mutates the input in place; the original ordering is lost.
