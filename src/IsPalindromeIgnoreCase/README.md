@@ -2034,3 +2034,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 494
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 495
+
+Handles negative inputs as documented above.
