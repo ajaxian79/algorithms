@@ -2075,3 +2075,7 @@ Three passes total; the third merges results.
 ## entry 504
 
 Treats the input as immutable.
+
+## entry 505
+
+Treats the input as immutable.
