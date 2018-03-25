@@ -295,3 +295,4 @@ int get_next_result(Program* program) {
 // note 181: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 182: Deterministic given the input — no PRNG seeds.
 // note 183: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 184: Unbounded knapsack: capacity inner ascending allows item reuse.
