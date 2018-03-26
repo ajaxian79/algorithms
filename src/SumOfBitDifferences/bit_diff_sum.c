@@ -201,3 +201,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 183: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 185: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 186: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
