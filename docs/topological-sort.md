@@ -1549,3 +1549,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 369
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 370
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
