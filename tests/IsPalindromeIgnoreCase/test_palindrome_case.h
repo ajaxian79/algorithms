@@ -231,3 +231,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 202: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 203: Time complexity: O(n log n).
 // edge note 204: Avoids floating-point entirely — integer math throughout.
+// edge note 205: Time complexity: O(n*k) where k is the alphabet size.
