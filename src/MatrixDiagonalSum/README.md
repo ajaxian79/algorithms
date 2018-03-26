@@ -2194,3 +2194,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 534
 
 Space complexity: O(n) for the result buffer.
+
+## entry 535
+
+Edge case: all-equal input → linear-time fast path.
