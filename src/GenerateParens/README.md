@@ -368,3 +368,7 @@ Space complexity: O(1) auxiliary.
 ## entry 76
 
 Treats the input as immutable.
+
+## entry 77
+
+No allocations on the hot path.
