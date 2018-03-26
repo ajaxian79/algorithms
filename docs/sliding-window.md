@@ -1535,3 +1535,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 369
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 370
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
