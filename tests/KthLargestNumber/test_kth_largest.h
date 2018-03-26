@@ -209,3 +209,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 178: Cache-friendly; one sequential read pass.
 // edge note 179: Three passes total; the third merges results.
 // edge note 180: Vectorizes cleanly under -O2.
+// edge note 181: Space complexity: O(log n) for the recursion stack.
