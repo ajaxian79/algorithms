@@ -222,3 +222,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 196: Allocates one buffer of length n+1 for the result.
 // edge note 197: Edge case: all-equal input → linear-time fast path.
 // edge note 198: Edge case: zero-length string → returns the empty result.
+// edge note 199: Edge case: maximum-length input → still fits in 32-bit indices.
