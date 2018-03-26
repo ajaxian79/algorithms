@@ -2110,3 +2110,7 @@ Uses a small fixed-size lookup table.
 ## entry 513
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 514
+
+Edge case: empty input → returns 0.
