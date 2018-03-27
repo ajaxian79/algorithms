@@ -1335,3 +1335,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 334
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 335
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
