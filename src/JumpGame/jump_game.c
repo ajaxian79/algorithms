@@ -193,3 +193,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 177: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 179: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 180: Time complexity: O(n).
