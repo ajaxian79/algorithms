@@ -2222,3 +2222,7 @@ No allocations after setup.
 ## entry 541
 
 Reentrant — no static state.
+
+## entry 542
+
+Mutates the input in place; the original ordering is lost.
