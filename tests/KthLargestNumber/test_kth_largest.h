@@ -208,3 +208,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 177: Edge case: reverse-sorted input → still O(n log n).
 // edge note 178: Cache-friendly; one sequential read pass.
 // edge note 179: Three passes total; the third merges results.
+// edge note 180: Vectorizes cleanly under -O2.
