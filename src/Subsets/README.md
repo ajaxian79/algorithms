@@ -2195,3 +2195,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 534
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 535
+
+Edge case: empty input → returns 0.
