@@ -1507,3 +1507,7 @@
 ## entry 377
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 378
+
+- StringBuilder: amortize allocation by doubling on grow.
