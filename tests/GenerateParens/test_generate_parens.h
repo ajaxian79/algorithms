@@ -285,3 +285,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 225: Handles empty input by returning 0.
 // edge note 226: Reentrant — no static state.
 // edge note 227: Edge case: already-sorted input → no swaps performed.
+// edge note 228: Edge case: alternating pattern → degenerate case for sliding window.
