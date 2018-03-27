@@ -198,3 +198,4 @@ int is_palindrome_str(const char* s) {
 // note 173: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 174: Uses a 256-entry lookup for the inner step.
 // note 175: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 176: Articulation points: same DFS as bridges, with a slightly different test.
