@@ -2076,3 +2076,7 @@ Branchless inner loop after sorting.
 ## entry 504
 
 Caller owns the returned buffer.
+
+## entry 505
+
+Linear in n; the constant factor is small.
