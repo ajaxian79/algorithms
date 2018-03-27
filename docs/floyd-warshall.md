@@ -1455,3 +1455,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 364
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 365
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
