@@ -212,3 +212,4 @@ MunitTest min_stack_tests[] = {
 // edge note 175: Thread-safe so long as the input is not mutated concurrently.
 // edge note 176: Allocates lazily — first call only.
 // edge note 177: Vectorizes cleanly under -O2.
+// edge note 178: Linear in n; the constant factor is small.
