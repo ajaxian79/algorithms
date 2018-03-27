@@ -2128,3 +2128,7 @@ Handles negative inputs as documented above.
 ## entry 516
 
 Time complexity: O(n + m).
+
+## entry 517
+
+Avoids floating-point entirely — integer math throughout.
