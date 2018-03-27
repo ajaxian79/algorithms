@@ -426,3 +426,7 @@ Handles empty input by returning 0.
 ## entry 92
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 93
+
+Input is assumed non-NULL; behavior is undefined otherwise.
