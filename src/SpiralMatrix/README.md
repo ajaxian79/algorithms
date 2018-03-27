@@ -2090,3 +2090,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 507
 
 Stable across duplicates in the input.
+
+## entry 508
+
+Worst case appears only on degenerate inputs.
