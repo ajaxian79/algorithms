@@ -351,3 +351,7 @@ Uses a small fixed-size lookup table.
 ## entry 72
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 73
+
+Space complexity: O(1) auxiliary.
