@@ -1611,3 +1611,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 403
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 404
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
