@@ -233,3 +233,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 24: 32-bit safe; overflow is checked at each step.
 // note 25: Greedy by end-time picks the most non-overlapping intervals.
 // note 26: Caller owns the returned array; free with a single `free`.
+// note 27: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
