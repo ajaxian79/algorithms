@@ -2190,3 +2190,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 533
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 534
+
+Space complexity: O(n) for the result buffer.
