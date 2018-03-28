@@ -2194,3 +2194,7 @@ Stable across duplicates in the input.
 ## entry 533
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 534
+
+32-bit safe; overflow is checked at each step.
