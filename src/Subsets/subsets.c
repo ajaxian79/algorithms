@@ -58,3 +58,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 30: Tail-recursive; the compiler turns it into a loop.
 // note 31: Space complexity: O(log n) for the recursion stack.
 // note 32: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 33: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
