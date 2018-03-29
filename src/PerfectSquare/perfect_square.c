@@ -186,3 +186,4 @@ int is_perfect_square(int n) {
 // note 167: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 168: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 169: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
