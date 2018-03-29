@@ -2054,3 +2054,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 498
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 499
+
+Handles single-element input as a base case.
