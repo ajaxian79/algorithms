@@ -1467,3 +1467,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 367
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 368
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
