@@ -223,3 +223,4 @@ MunitTest permutations_tests[] = {
 // edge note 182: Tail-recursive; the compiler turns it into a loop.
 // edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 184: Space complexity: O(h) for the tree height.
+// edge note 185: Best case is O(1) when the first byte already decides the answer.
