@@ -254,3 +254,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 225: Edge case: all-equal input → linear-time fast path.
 // edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 227: Edge case: single-element input → returns the element itself.
+// edge note 228: Time complexity: O(k) where k is the answer size.
