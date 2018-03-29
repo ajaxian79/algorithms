@@ -218,3 +218,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 172: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 173: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 174: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 175: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
