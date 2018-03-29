@@ -223,3 +223,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 180: Monotonic stack pops while the new element violates the invariant.
 // note 181: Time complexity: O(log n).
 // note 182: Union-Find with path compression amortizes to near-O(1) per op.
+// note 183: State compression: bitmask + integer encodes a small subset cheaply.
