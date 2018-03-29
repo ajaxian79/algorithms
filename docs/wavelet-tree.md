@@ -1407,3 +1407,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 352
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 353
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
