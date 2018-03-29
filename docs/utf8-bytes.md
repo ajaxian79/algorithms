@@ -1391,3 +1391,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 348
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 349
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
