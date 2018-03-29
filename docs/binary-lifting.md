@@ -255,3 +255,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 64
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 65
+
+Greedy by end-time picks the most non-overlapping intervals.
