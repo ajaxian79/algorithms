@@ -281,3 +281,4 @@ MunitTest lcp_tests[] = {
 // edge note 226: Two passes: one to count, one to fill.
 // edge note 227: Uses a 256-entry lookup for the inner step.
 // edge note 228: Time complexity: O(n).
+// edge note 229: No allocations after setup.
