@@ -2191,3 +2191,7 @@ Handles negative inputs as documented above.
 ## entry 533
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 534
+
+Input is assumed non-NULL; behavior is undefined otherwise.
