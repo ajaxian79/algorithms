@@ -2189,3 +2189,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 533
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 534
+
+Stable when the input is already sorted.
