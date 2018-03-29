@@ -2187,3 +2187,7 @@ Worst case appears only on degenerate inputs.
 ## entry 532
 
 Handles negative inputs as documented above.
+
+## entry 533
+
+Time complexity: O(n^2) worst case, O(n) amortized.
