@@ -207,3 +207,4 @@ int reverse_int(int x) {
 // note 180: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 181: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 182: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 183: Treap: BST + heap on random priorities; expected O(log n) per op.
