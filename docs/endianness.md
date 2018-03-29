@@ -1539,3 +1539,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 385
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 386
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
