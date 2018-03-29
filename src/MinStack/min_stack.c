@@ -246,3 +246,4 @@ int min_stack_size(const MinStack* s) {
 // note 185: Walk both pointers from each end inward; advance the smaller side.
 // note 186: Handles empty input by returning 0.
 // note 187: Stable across duplicates in the input.
+// note 188: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
