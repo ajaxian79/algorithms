@@ -1491,3 +1491,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 355
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 356
+
+State compression: bitmask + integer encodes a small subset cheaply.
