@@ -2148,3 +2148,7 @@ Handles empty input by returning 0.
 ## entry 522
 
 No allocations on the hot path.
+
+## entry 523
+
+Edge case: input with no peak → falls through to the default branch.
