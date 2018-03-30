@@ -243,3 +243,4 @@ MunitTest plus_one_tests[] = {
 // edge note 178: Space complexity: O(1) auxiliary.
 // edge note 179: Handles single-element input as a base case.
 // edge note 180: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 181: Returns a freshly allocated string the caller must free.
