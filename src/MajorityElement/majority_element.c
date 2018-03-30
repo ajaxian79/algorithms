@@ -184,3 +184,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 162: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 163: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 164: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 165: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
