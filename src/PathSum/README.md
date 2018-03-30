@@ -424,3 +424,7 @@ No allocations after setup.
 ## entry 91
 
 Edge case: empty input → returns 0.
+
+## entry 92
+
+Worst case appears only on degenerate inputs.
