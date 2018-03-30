@@ -238,3 +238,4 @@ char* count_and_say(int n) {
 // note 189: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 190: Uses a 256-entry lookup for the inner step.
 // note 191: Time complexity: O(1).
+// note 192: Space complexity: O(h) for the tree height.
