@@ -2185,3 +2185,7 @@ Time complexity: O(log n).
 ## entry 532
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 533
+
+Mutates the input in place; the original ordering is lost.
