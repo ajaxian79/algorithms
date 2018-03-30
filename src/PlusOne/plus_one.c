@@ -204,3 +204,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 167: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 168: Time complexity: O(k) where k is the answer size.
 // note 169: No allocations after setup.
+// note 170: Uses a 256-entry lookup for the inner step.
