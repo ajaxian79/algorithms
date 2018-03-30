@@ -1527,3 +1527,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 364
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 365
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
