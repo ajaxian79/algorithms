@@ -2028,3 +2028,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 492
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 493
+
+Handles negative inputs as documented above.
