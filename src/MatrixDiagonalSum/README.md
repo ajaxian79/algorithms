@@ -2186,3 +2186,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 532
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 533
+
+Edge case: NULL input is rejected by the caller, not by us.
