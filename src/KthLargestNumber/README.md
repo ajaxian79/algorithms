@@ -2104,3 +2104,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 510
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 511
+
+Runs in a single pass over the input.
