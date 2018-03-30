@@ -1411,3 +1411,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 353
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 354
+
+Splay tree: every access splays to the root; amortized O(log n).
