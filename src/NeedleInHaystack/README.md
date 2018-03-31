@@ -2024,3 +2024,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 491
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 492
+
+Deterministic given the input — no PRNG seeds.
