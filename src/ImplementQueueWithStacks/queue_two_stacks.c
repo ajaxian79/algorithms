@@ -254,3 +254,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 175: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 178: Treats the input as immutable.
