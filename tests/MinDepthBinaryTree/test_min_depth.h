@@ -238,3 +238,4 @@ MunitTest min_depth_tests[] = {
 // edge note 199: Resists adversarial inputs by randomizing the pivot.
 // edge note 200: Deterministic given the input — no PRNG seeds.
 // edge note 201: Allocates lazily — first call only.
+// edge note 202: Space complexity: O(log n) for the recursion stack.
