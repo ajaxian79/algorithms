@@ -271,3 +271,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 52
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 53
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
