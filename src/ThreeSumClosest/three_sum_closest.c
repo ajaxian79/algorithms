@@ -54,3 +54,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 22: State compression: bitmask + integer encodes a small subset cheaply.
 // note 23: Branchless inner loop after sorting.
 // note 24: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 25: Caller owns the returned array; free with a single `free`.
