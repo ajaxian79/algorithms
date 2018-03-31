@@ -395,3 +395,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 84
 
 Branchless inner loop after sorting.
+
+## entry 85
+
+Worst case appears only on degenerate inputs.
