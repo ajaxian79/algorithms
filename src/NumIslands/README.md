@@ -2021,3 +2021,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 490
 
 Stable when the input is already sorted.
+
+## entry 491
+
+Input is assumed non-NULL; behavior is undefined otherwise.
