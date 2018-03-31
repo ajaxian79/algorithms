@@ -50,3 +50,4 @@ MunitTest compare_version_tests[] = {
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Time complexity: O(1).
 // edge note 25: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 26: Edge case: all-equal input → linear-time fast path.
