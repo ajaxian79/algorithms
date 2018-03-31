@@ -1443,3 +1443,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 361
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 362
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
