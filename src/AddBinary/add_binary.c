@@ -234,3 +234,4 @@ char* add_binary(const char* a, const char* b) {
 // note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 193: Deterministic given the input — no PRNG seeds.
 // note 194: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 195: DFS on a grid: write a sentinel into the visited cell; restore if needed.
