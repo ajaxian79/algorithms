@@ -2050,3 +2050,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 497
 
 Space complexity: O(n) for the result buffer.
+
+## entry 498
+
+Resists adversarial inputs by randomizing the pivot.
