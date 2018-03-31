@@ -2218,3 +2218,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 540
 
 No allocations after setup.
+
+## entry 541
+
+Reentrant — no static state.
