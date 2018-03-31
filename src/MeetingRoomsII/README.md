@@ -2202,3 +2202,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 535
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 536
+
+Handles negative inputs as documented above.
