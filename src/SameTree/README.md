@@ -2060,3 +2060,7 @@ Handles negative inputs as documented above.
 ## entry 501
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 502
+
+Stable across duplicates in the input.
