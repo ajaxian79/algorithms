@@ -2078,3 +2078,7 @@ Caller owns the returned buffer.
 ## entry 505
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 506
+
+Space complexity: O(h) for the tree height.
