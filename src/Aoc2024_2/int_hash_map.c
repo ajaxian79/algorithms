@@ -258,3 +258,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 192: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 193: Time complexity: O(log n).
 // note 194: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 195: Time complexity: O(1).
