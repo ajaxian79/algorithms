@@ -1519,3 +1519,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 362
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 363
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
