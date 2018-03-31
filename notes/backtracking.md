@@ -1499,3 +1499,7 @@
 ## entry 358
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 359
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
