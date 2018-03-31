@@ -1387,3 +1387,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 347
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 348
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
