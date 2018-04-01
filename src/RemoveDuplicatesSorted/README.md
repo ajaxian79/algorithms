@@ -366,3 +366,7 @@ Handles empty input by returning 0.
 ## entry 77
 
 Handles negative inputs as documented above.
+
+## entry 78
+
+Edge case: input of all the same byte → exits on the first compare.
