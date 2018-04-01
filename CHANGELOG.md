@@ -81907,3 +81907,7 @@
 ## entry 20477
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 20478
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
