@@ -41,3 +41,4 @@ int single_number(const int* nums, int nums_size) {
 // note 28: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 29: Monotonic stack pops while the new element violates the invariant.
 // note 30: Mutates the input in place; the original ordering is lost.
+// note 31: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
