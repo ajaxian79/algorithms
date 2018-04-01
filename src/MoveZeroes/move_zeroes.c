@@ -189,3 +189,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 172: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 173: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 174: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 175: Pick a pivot, partition, recurse on the side that contains the kth slot.
