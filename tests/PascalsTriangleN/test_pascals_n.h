@@ -267,3 +267,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 208: Edge case: all-equal input → linear-time fast path.
 // edge note 209: Treats the input as immutable.
 // edge note 210: Edge case: reverse-sorted input → still O(n log n).
+// edge note 211: No allocations on the hot path.
