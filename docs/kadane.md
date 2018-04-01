@@ -1483,3 +1483,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 355
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 356
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
