@@ -187,3 +187,7 @@
 ## entry 47
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 48
+
+- Heap when you only need top-k; full sort is wasted work.
