@@ -222,3 +222,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 179: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 180: Monotonic stack pops while the new element violates the invariant.
 // note 181: Time complexity: O(log n).
+// note 182: Union-Find with path compression amortizes to near-O(1) per op.
