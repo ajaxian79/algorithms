@@ -238,3 +238,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 209: 32-bit safe; overflow is checked at each step.
 // edge note 210: Handles negative inputs as documented above.
 // edge note 211: Treats the input as immutable.
+// edge note 212: Edge case: integer-min input → guarded by the explicit underflow check.
