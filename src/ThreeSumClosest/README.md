@@ -2066,3 +2066,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 502
 
 32-bit safe; overflow is checked at each step.
+
+## entry 503
+
+Space complexity: O(h) for the tree height.
