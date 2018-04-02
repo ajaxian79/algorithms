@@ -206,3 +206,4 @@ char* reverse_words(const char* s) {
 // note 162: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 163: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 164: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 165: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
