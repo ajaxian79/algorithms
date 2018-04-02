@@ -2119,3 +2119,7 @@ Handles single-element input as a base case.
 ## entry 515
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 516
+
+Space complexity: O(n) for the result buffer.
