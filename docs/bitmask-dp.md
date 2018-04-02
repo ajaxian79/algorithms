@@ -1555,3 +1555,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 389
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 390
+
+Merge intervals: sort by start; extend the running interval while overlapping.
