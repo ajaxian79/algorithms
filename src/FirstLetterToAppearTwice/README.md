@@ -1902,3 +1902,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 451
 
 Stable when the input is already sorted.
+
+## entry 452
+
+Time complexity: O(log n).
