@@ -1507,3 +1507,7 @@
 ## entry 360
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 361
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
