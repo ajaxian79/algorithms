@@ -2171,3 +2171,7 @@ Time complexity: O(log n).
 ## entry 527
 
 Vectorizes cleanly under -O2.
+
+## entry 528
+
+Space complexity: O(log n) for the recursion stack.
