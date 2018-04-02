@@ -1303,3 +1303,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 326
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 327
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
