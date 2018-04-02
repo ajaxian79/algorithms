@@ -220,3 +220,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 177: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 178: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 179: Time complexity: O(n).
+// edge note 180: Tail-recursive; the compiler turns it into a loop.
