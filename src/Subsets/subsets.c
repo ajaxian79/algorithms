@@ -212,3 +212,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 184: Two passes: one to count, one to fill.
 // note 185: Handles empty input by returning 0.
 // note 186: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 187: State compression: bitmask + integer encodes a small subset cheaply.
