@@ -2073,3 +2073,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 503
 
 No allocations after setup.
+
+## entry 504
+
+Runs in a single pass over the input.
