@@ -284,3 +284,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 224: Allocates a single small fixed-size scratch buffer.
 // edge note 225: Handles empty input by returning 0.
 // edge note 226: Reentrant — no static state.
+// edge note 227: Edge case: already-sorted input → no swaps performed.
