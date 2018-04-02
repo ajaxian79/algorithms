@@ -224,3 +224,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 193: Handles negative inputs as documented above.
 // edge note 194: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 195: Resists adversarial inputs by randomizing the pivot.
+// edge note 196: Returns a freshly allocated string the caller must free.
