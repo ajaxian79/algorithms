@@ -2123,3 +2123,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 516
 
 Space complexity: O(n) for the result buffer.
+
+## entry 517
+
+No allocations after setup.
