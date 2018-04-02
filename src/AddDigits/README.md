@@ -2104,3 +2104,7 @@ Two passes: one to count, one to fill.
 ## entry 511
 
 Handles negative inputs as documented above.
+
+## entry 512
+
+Time complexity: O(n + m).
