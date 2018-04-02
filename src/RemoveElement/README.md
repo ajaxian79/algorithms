@@ -2137,3 +2137,7 @@ Runs in a single pass over the input.
 ## entry 520
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 521
+
+Edge case: maximum-length input → still fits in 32-bit indices.
