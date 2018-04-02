@@ -2168,3 +2168,7 @@ Worst case appears only on degenerate inputs.
 ## entry 526
 
 Time complexity: O(n).
+
+## entry 527
+
+Caller owns the returned array; free with a single `free`.
