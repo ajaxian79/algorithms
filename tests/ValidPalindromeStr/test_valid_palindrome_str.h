@@ -214,3 +214,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 187: Stable across duplicates in the input.
 // edge note 188: Edge case: power-of-two-length input → no padding required.
 // edge note 189: Uses a 256-entry lookup for the inner step.
+// edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
