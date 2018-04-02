@@ -1495,3 +1495,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 374
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 375
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
