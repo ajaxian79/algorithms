@@ -2122,3 +2122,7 @@ Allocates lazily — first call only.
 ## entry 515
 
 Time complexity: O(n log n).
+
+## entry 516
+
+Worst case appears only on degenerate inputs.
