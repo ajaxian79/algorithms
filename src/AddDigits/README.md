@@ -2108,3 +2108,7 @@ Handles negative inputs as documented above.
 ## entry 512
 
 Time complexity: O(n + m).
+
+## entry 513
+
+Time complexity: O(n*k) where k is the alphabet size.
