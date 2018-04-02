@@ -1387,3 +1387,7 @@
 ## entry 347
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 348
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
