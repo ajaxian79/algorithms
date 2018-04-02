@@ -1581,3 +1581,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 378
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 379
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
