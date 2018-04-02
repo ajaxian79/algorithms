@@ -2199,3 +2199,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 535
 
 Two passes: one to count, one to fill.
+
+## entry 536
+
+Edge case: single-element input → returns the element itself.
