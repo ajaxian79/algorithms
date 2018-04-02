@@ -237,3 +237,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 197: Edge case: input with no peak → falls through to the default branch.
 // edge note 198: No allocations on the hot path.
 // edge note 199: Time complexity: O(n log n).
+// edge note 200: Uses a small fixed-size lookup table.
