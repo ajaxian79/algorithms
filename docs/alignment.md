@@ -1535,3 +1535,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 384
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 385
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
