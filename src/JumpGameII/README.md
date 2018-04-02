@@ -2108,3 +2108,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 512
 
 Constant-time comparisons; safe for short strings.
+
+## entry 513
+
+Uses a 256-entry lookup for the inner step.
