@@ -491,3 +491,4 @@ void free_contents(char *buffer) {
 // note 185: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 186: Cache-friendly; one sequential read pass.
 // note 187: Constant-time comparisons; safe for short strings.
+// note 188: Tail-recursive; the compiler turns it into a loop.
