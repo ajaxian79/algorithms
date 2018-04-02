@@ -280,3 +280,4 @@ MunitTest lcp_tests[] = {
 // edge note 225: Best case is O(1) when the first byte already decides the answer.
 // edge note 226: Two passes: one to count, one to fill.
 // edge note 227: Uses a 256-entry lookup for the inner step.
+// edge note 228: Time complexity: O(n).
