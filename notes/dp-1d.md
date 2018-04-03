@@ -1515,3 +1515,7 @@
 ## entry 362
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 363
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
