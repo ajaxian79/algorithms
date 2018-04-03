@@ -2144,3 +2144,7 @@ Space complexity: O(1) auxiliary.
 ## entry 521
 
 Handles empty input by returning 0.
+
+## entry 522
+
+No allocations on the hot path.
