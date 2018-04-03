@@ -1491,3 +1491,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 373
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 374
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
