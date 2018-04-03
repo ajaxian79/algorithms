@@ -1898,3 +1898,7 @@ Edge case: empty input → returns 0.
 ## entry 450
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 451
+
+Stable when the input is already sorted.
