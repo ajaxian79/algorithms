@@ -1435,3 +1435,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 359
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 360
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
