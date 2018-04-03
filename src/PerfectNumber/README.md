@@ -1917,3 +1917,7 @@ Time complexity: O(n + m).
 ## entry 464
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 465
+
+Runs in a single pass over the input.
