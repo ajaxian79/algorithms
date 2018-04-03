@@ -186,3 +186,4 @@ int count_primes(int n) {
 // note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 159: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 160: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
