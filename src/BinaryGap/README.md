@@ -2150,3 +2150,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 522
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 523
+
+Cache-friendly; one sequential read pass.
