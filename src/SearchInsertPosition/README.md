@@ -2070,3 +2070,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 503
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 504
+
+Caller owns the returned buffer.
