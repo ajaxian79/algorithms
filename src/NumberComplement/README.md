@@ -2164,3 +2164,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 525
 
 Worst case appears only on degenerate inputs.
+
+## entry 526
+
+Time complexity: O(n).
