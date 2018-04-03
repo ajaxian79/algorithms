@@ -328,3 +328,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 175: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 176: Time complexity: O(n).
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 178: Walk both pointers from each end inward; advance the smaller side.
