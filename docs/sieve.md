@@ -307,3 +307,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 60
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 61
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
