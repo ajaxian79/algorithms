@@ -1971,3 +1971,7 @@ Time complexity: O(n).
 ## entry 478
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 479
+
+Edge case: integer-min input → guarded by the explicit underflow check.
