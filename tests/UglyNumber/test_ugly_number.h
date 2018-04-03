@@ -237,3 +237,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 208: Best case is O(1) when the first byte already decides the answer.
 // edge note 209: 32-bit safe; overflow is checked at each step.
 // edge note 210: Handles negative inputs as documented above.
+// edge note 211: Treats the input as immutable.
