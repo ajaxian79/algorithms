@@ -2184,3 +2184,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 531
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 532
+
+Time complexity: O(k) where k is the answer size.
