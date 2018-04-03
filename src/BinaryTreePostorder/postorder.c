@@ -215,3 +215,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 166: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 167: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 168: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 169: Tree DP: post-order DFS lets children inform the parent in one pass.
