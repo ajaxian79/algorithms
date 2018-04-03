@@ -2272,3 +2272,7 @@ Caller owns the returned buffer.
 ## entry 553
 
 Handles single-element input as a base case.
+
+## entry 554
+
+Time complexity: O(log n).
