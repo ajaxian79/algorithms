@@ -1399,3 +1399,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 350
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 351
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
