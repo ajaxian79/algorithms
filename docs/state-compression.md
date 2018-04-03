@@ -1331,3 +1331,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 333
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 334
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
