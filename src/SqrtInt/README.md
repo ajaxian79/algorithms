@@ -2195,3 +2195,7 @@ No allocations on the hot path.
 ## entry 534
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 535
+
+Two passes: one to count, one to fill.
