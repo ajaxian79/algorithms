@@ -200,3 +200,4 @@ unsigned int find_complement(unsigned int n) {
 // note 184: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 185: Uses a 256-entry lookup for the inner step.
 // note 186: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 187: Morris traversal threads predecessors back to current node — O(1) extra space.
