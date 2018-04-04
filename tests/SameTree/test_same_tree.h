@@ -238,3 +238,4 @@ MunitTest same_tree_tests[] = {
 // edge note 202: Handles empty input by returning 0.
 // edge note 203: Stable across duplicates in the input.
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 205: Uses a small fixed-size lookup table.
