@@ -2133,3 +2133,7 @@ Vectorizes cleanly under -O2.
 ## entry 519
 
 Runs in a single pass over the input.
+
+## entry 520
+
+64-bit safe; intermediate products are widened to 128-bit.
