@@ -1547,3 +1547,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 387
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 388
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
