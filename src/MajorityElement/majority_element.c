@@ -183,3 +183,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 161: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 162: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 163: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 164: Padding inside a struct can dwarf the actual data; reorder fields by size.
