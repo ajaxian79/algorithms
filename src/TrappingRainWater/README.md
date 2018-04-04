@@ -2074,3 +2074,7 @@ Stable when the input is already sorted.
 ## entry 503
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 504
+
+Handles single-element input as a base case.
