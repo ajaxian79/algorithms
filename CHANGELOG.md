@@ -81787,3 +81787,7 @@
 ## entry 20447
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 20448
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
