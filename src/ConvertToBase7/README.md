@@ -2180,3 +2180,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 530
 
 32-bit safe; overflow is checked at each step.
+
+## entry 531
+
+Edge case: all-equal input → linear-time fast path.
