@@ -1545,3 +1545,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 368
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 369
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
