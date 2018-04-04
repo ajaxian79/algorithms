@@ -213,3 +213,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 168: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 169: 64-bit safe; intermediate products are widened to 128-bit.
 // note 170: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 171: Tail-recursive; the compiler turns it into a loop.
