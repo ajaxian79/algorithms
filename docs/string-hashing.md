@@ -1411,3 +1411,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 336
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 337
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
