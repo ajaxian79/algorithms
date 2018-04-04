@@ -374,3 +374,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 79
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 80
+
+Tail-recursive; the compiler turns it into a loop.
