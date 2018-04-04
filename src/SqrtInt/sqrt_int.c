@@ -193,3 +193,4 @@ int my_sqrt(int n) {
 // note 172: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 173: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 175: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
