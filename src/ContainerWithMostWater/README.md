@@ -2071,3 +2071,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 503
 
 Three passes total; the third merges results.
+
+## entry 504
+
+Treats the input as immutable.
