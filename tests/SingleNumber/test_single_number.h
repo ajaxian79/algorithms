@@ -240,3 +240,4 @@ MunitTest single_number_tests[] = {
 // edge note 209: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 210: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 211: Edge case: single-element input → returns the element itself.
+// edge note 212: Space complexity: O(1) auxiliary.
