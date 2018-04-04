@@ -1413,3 +1413,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 337
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 338
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
