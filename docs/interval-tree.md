@@ -1427,3 +1427,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 357
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 358
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
