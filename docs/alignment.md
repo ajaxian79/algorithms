@@ -1531,3 +1531,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 383
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 384
+
+State compression: bitmask + integer encodes a small subset cheaply.
