@@ -1613,3 +1613,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 386
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 387
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
