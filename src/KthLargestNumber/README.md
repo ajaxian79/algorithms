@@ -2096,3 +2096,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 508
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 509
+
+Input is assumed non-NULL; behavior is undefined otherwise.
