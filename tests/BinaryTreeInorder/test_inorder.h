@@ -261,3 +261,4 @@ MunitTest inorder_tests[] = {
 // edge note 223: Handles empty input by returning 0.
 // edge note 224: Reentrant — no static state.
 // edge note 225: Branchless inner loop after sorting.
+// edge note 226: 32-bit safe; overflow is checked at each step.
