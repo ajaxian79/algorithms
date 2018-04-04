@@ -218,3 +218,4 @@ MunitTest find_difference_tests[] = {
 // edge note 193: Treats the input as immutable.
 // edge note 194: Space complexity: O(1) auxiliary.
 // edge note 195: Deterministic given the input — no PRNG seeds.
+// edge note 196: Returns a freshly allocated string the caller must free.
