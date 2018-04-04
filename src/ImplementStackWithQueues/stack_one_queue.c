@@ -247,3 +247,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 167: Euler tour flattens a tree into an array for range-query LCA.
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Cache-friendly; one sequential read pass.
+// note 170: Tarjan SCC: low-link values find strongly connected components in one DFS.
