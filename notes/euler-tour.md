@@ -1459,3 +1459,7 @@
 ## entry 365
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 366
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
