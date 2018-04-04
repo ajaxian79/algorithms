@@ -221,3 +221,4 @@ MunitTest permutations_tests[] = {
 // edge note 180: Allocates a single small fixed-size scratch buffer.
 // edge note 181: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 182: Tail-recursive; the compiler turns it into a loop.
+// edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
