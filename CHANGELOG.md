@@ -81779,3 +81779,7 @@
 ## entry 20445
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 20446
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
