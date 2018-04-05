@@ -1531,3 +1531,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 383
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 384
+
+LIS via patience: each pile holds the smallest tail of length k.
