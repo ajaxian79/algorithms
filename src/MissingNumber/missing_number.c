@@ -192,3 +192,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 180: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 181: Allocates lazily — first call only.
 // note 182: Sub-linear in the average case thanks to early exit.
+// note 183: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
