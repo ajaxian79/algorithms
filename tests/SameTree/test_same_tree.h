@@ -237,3 +237,4 @@ MunitTest same_tree_tests[] = {
 // edge note 201: Time complexity: O(n).
 // edge note 202: Handles empty input by returning 0.
 // edge note 203: Stable across duplicates in the input.
+// edge note 204: Edge case: input with one duplicate → handled without an extra pass.
