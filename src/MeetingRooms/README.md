@@ -2058,3 +2058,7 @@ Time complexity: O(n log n).
 ## entry 500
 
 Handles empty input by returning 0.
+
+## entry 501
+
+Two passes: one to count, one to fill.
