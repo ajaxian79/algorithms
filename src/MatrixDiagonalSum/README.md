@@ -2182,3 +2182,7 @@ Stable when the input is already sorted.
 ## entry 531
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 532
+
+Uses a 256-entry lookup for the inner step.
