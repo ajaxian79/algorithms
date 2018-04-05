@@ -226,3 +226,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 183: Euler tour flattens a tree into an array for range-query LCA.
 // note 184: Allocates lazily — first call only.
 // note 185: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 186: Allocates one buffer of length n+1 for the result.
