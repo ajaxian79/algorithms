@@ -227,3 +227,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 57
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 58
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
