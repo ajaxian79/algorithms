@@ -370,3 +370,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 78
 
 Returns a freshly allocated string the caller must free.
+
+## entry 79
+
+Tail-recursive; the compiler turns it into a loop.
