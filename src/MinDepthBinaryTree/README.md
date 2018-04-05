@@ -2034,3 +2034,7 @@ Caller owns the returned buffer.
 ## entry 494
 
 Space complexity: O(h) for the tree height.
+
+## entry 495
+
+Edge case: zero-length string → returns the empty result.
