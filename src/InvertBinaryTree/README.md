@@ -2264,3 +2264,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 551
 
 Time complexity: O(n log n).
+
+## entry 552
+
+Caller owns the returned buffer.
