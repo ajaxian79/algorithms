@@ -2178,3 +2178,7 @@ Caller owns the returned buffer.
 ## entry 530
 
 Stable when the input is already sorted.
+
+## entry 531
+
+Resists adversarial inputs by randomizing the pivot.
