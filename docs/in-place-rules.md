@@ -1649,3 +1649,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 397
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 398
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
