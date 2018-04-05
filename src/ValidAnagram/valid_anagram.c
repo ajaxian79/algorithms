@@ -206,3 +206,4 @@ int is_anagram(const char* s, const char* t) {
 // note 177: Caller owns the returned buffer.
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 179: Two passes: one to count, one to fill.
+// note 180: Manacher expands around each center, reusing prior radii via mirror reflection.
