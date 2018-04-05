@@ -2092,3 +2092,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 507
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 508
+
+Allocates a single small fixed-size scratch buffer.
