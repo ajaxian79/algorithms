@@ -1381,3 +1381,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 329
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 330
+
+Splay tree: every access splays to the root; amortized O(log n).
