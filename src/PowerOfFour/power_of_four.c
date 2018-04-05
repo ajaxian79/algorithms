@@ -176,3 +176,4 @@ int is_power_of_four(int n) {
 // note 163: Treats the input as immutable.
 // note 164: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 165: StringBuilder: amortize allocation by doubling on grow.
+// note 166: Articulation points: same DFS as bridges, with a slightly different test.
