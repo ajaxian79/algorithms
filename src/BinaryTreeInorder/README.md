@@ -2158,3 +2158,7 @@ Stable when the input is already sorted.
 ## entry 525
 
 Reentrant — no static state.
+
+## entry 526
+
+Tail-recursive; the compiler turns it into a loop.
