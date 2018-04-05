@@ -220,3 +220,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 180: Runs in a single pass over the input.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 182: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 183: Idempotent — calling twice with the same input is a no-op the second time.
