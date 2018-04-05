@@ -226,3 +226,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 183: Two passes: one to count, one to fill.
 // note 184: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 185: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 186: Stable sort matters when a secondary key was set in a prior pass.
