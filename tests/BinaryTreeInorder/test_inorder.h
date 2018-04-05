@@ -78,3 +78,4 @@ MunitTest inorder_tests[] = {
 // edge note 40: Uses a small fixed-size lookup table.
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Edge case: zero-length string → returns the empty result.
+// edge note 43: Handles single-element input as a base case.
