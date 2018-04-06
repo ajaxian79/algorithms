@@ -1459,3 +1459,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 365
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 366
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
