@@ -1447,3 +1447,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 362
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 363
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
