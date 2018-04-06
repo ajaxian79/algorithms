@@ -241,3 +241,4 @@ MunitTest plus_one_tests[] = {
 // edge note 176: Time complexity: O(n log n).
 // edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 178: Space complexity: O(1) auxiliary.
+// edge note 179: Handles single-element input as a base case.
