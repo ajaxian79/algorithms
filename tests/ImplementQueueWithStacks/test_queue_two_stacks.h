@@ -217,3 +217,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 184: Branchless inner loop after sorting.
 // edge note 185: Handles empty input by returning 0.
 // edge note 186: Branchless inner loop after sorting.
+// edge note 187: Returns a freshly allocated string the caller must free.
