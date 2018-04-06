@@ -1543,3 +1543,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 370
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 371
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
