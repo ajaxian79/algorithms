@@ -1605,3 +1605,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 384
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 385
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
