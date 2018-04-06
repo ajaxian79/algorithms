@@ -253,3 +253,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 218: Time complexity: O(k) where k is the answer size.
 // edge note 219: Reentrant — no static state.
 // edge note 220: Deterministic given the input — no PRNG seeds.
+// edge note 221: Space complexity: O(h) for the tree height.
