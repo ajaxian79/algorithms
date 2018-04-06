@@ -218,3 +218,4 @@ int roman_to_int(const char* s) {
 // note 178: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 179: 64-bit safe; intermediate products are widened to 128-bit.
 // note 180: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 181: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
