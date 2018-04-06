@@ -1327,3 +1327,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 332
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 333
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
