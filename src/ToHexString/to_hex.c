@@ -57,3 +57,4 @@ char* to_hex_string(int n) {
 // note 24: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 25: Caller owns the returned array; free with a single `free`.
 // note 26: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 27: Deterministic given the input — no PRNG seeds.
