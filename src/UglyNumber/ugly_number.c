@@ -199,3 +199,4 @@ int is_ugly(int n) {
 // note 185: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 186: Walk both pointers from each end inward; advance the smaller side.
 // note 187: Two passes: one to count, one to fill.
+// note 188: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
