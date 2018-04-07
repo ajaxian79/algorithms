@@ -2191,3 +2191,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 533
 
 No allocations on the hot path.
+
+## entry 534
+
+Deterministic given the input — no PRNG seeds.
