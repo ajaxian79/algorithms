@@ -40,3 +40,4 @@ int is_perfect_square(int n) {
 // note 21: Time complexity: O(n*k) where k is the alphabet size.
 // note 22: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 23: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 24: Open addressing with linear probing wins until load factor exceeds 0.7.
