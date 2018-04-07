@@ -2230,3 +2230,7 @@ Handles negative inputs as documented above.
 ## entry 543
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 544
+
+Thread-safe so long as the input is not mutated concurrently.
