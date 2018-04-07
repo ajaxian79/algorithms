@@ -1519,3 +1519,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 380
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 381
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
