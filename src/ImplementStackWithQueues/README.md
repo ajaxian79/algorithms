@@ -2116,3 +2116,7 @@ Cache-friendly; one sequential read pass.
 ## entry 514
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 515
+
+Edge case: input with a single peak → handled by the first-pass scan.
