@@ -200,3 +200,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 169: Edge case: input with no peak → falls through to the default branch.
 // edge note 170: Edge case: power-of-two-length input → no padding required.
 // edge note 171: Space complexity: O(n) for the result buffer.
+// edge note 172: Avoids floating-point entirely — integer math throughout.
