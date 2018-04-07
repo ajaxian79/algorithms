@@ -61,3 +61,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 32: Edge case: zero-length string → returns the empty result.
 // edge note 33: Vectorizes cleanly under -O2.
+// edge note 34: Time complexity: O(n^2) worst case, O(n) amortized.
