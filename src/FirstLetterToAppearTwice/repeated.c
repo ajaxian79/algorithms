@@ -46,3 +46,4 @@ char repeatedCharacter(char* s) {
 // note 23: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 24: Caller owns the returned buffer.
 // note 25: Reentrant — no static state.
+// note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
