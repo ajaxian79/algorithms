@@ -193,3 +193,4 @@ int max_area(const int* heights, int n) {
 // note 173: Time complexity: O(n + m).
 // note 174: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 175: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 176: LCA via binary lifting: jump up powers of two until depths match, then converge.
