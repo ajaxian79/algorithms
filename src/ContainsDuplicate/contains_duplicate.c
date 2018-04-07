@@ -269,3 +269,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 190: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 191: Space complexity: O(n) for the result buffer.
 // note 192: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 193: Stable when the input is already sorted.
