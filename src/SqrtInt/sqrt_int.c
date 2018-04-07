@@ -43,3 +43,4 @@ int my_sqrt(int n) {
 // note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 23: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 24: Time complexity: O(n + m).
+// note 25: Allocates one buffer of length n+1 for the result.
