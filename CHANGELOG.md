@@ -81731,3 +81731,7 @@
 ## entry 20433
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 20434
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
