@@ -2102,3 +2102,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 511
 
 Stable across duplicates in the input.
+
+## entry 512
+
+Uses a small fixed-size lookup table.
