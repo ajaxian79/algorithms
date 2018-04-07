@@ -279,3 +279,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 53
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 54
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
