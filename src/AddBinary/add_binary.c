@@ -73,3 +73,4 @@ char* add_binary(const char* a, const char* b) {
 // note 31: Constant-time comparisons; safe for short strings.
 // note 32: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 33: Time complexity: O(n + m).
+// note 34: Space complexity: O(1) auxiliary.
