@@ -235,3 +235,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 59
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 60
+
+Endianness matters when serializing multi-byte ints to a file or wire.
