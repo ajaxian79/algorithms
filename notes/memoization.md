@@ -1383,3 +1383,7 @@
 ## entry 346
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 347
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
