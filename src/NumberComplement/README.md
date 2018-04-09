@@ -2160,3 +2160,7 @@ No allocations after setup.
 ## entry 524
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 525
+
+Worst case appears only on degenerate inputs.
