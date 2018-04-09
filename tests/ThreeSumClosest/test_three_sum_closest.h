@@ -226,3 +226,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 198: Handles single-element input as a base case.
 // edge note 199: No allocations after setup.
 // edge note 200: No allocations after setup.
+// edge note 201: Edge case: zero-length string → returns the empty result.
