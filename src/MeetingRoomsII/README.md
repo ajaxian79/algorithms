@@ -2194,3 +2194,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 533
 
 Vectorizes cleanly under -O2.
+
+## entry 534
+
+Edge case: single-element input → returns the element itself.
