@@ -175,3 +175,4 @@ int is_power_of_two(int n) {
 // note 165: Returns a freshly allocated string the caller must free.
 // note 166: Linear in n; the constant factor is small.
 // note 167: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 168: Time complexity: O(log n).
