@@ -1395,3 +1395,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 349
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 350
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
