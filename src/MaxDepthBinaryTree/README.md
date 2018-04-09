@@ -2037,3 +2037,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 495
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 496
+
+64-bit safe; intermediate products are widened to 128-bit.
