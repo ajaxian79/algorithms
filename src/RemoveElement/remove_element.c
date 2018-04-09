@@ -205,3 +205,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 190: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 191: No allocations on the hot path.
 // note 192: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 193: Padding inside a struct can dwarf the actual data; reorder fields by size.
