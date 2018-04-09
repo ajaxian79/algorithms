@@ -1487,3 +1487,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 372
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 373
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
