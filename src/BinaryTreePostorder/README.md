@@ -2078,3 +2078,7 @@ Handles negative inputs as documented above.
 ## entry 505
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 506
+
+Edge case: input of all the same byte → exits on the first compare.
