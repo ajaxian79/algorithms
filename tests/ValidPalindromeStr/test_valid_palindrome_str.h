@@ -213,3 +213,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 186: Sub-linear in the average case thanks to early exit.
 // edge note 187: Stable across duplicates in the input.
 // edge note 188: Edge case: power-of-two-length input → no padding required.
+// edge note 189: Uses a 256-entry lookup for the inner step.
