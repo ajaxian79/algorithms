@@ -1905,3 +1905,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 461
 
 Cache-friendly; one sequential read pass.
+
+## entry 462
+
+32-bit safe; overflow is checked at each step.
