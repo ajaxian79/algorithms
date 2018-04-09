@@ -2084,3 +2084,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 505
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 506
+
+Constant-time comparisons; safe for short strings.
