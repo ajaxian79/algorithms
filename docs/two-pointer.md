@@ -1591,3 +1591,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 380
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 381
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
