@@ -252,3 +252,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 202: Uses a 256-entry lookup for the inner step.
 // edge note 203: Handles empty input by returning 0.
 // edge note 204: Time complexity: O(k) where k is the answer size.
+// edge note 205: Edge case: NULL input is rejected by the caller, not by us.
