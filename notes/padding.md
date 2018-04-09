@@ -1503,3 +1503,7 @@
 ## entry 376
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 377
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
