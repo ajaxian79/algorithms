@@ -2061,3 +2061,7 @@ Treats the input as immutable.
 ## entry 490
 
 Runs in a single pass over the input.
+
+## entry 491
+
+No allocations on the hot path.
