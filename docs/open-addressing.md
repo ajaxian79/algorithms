@@ -1443,3 +1443,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 361
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 362
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
