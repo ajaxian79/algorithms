@@ -1463,3 +1463,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 366
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 367
+
+Interval DP: solve all `[l, r]` ranges from short to long.
