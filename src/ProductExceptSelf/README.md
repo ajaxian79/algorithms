@@ -2116,3 +2116,7 @@ No allocations after setup.
 ## entry 513
 
 Branchless inner loop after sorting.
+
+## entry 514
+
+Edge case: input of all the same byte → exits on the first compare.
