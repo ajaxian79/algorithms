@@ -342,3 +342,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 175: Tail-recursive; the compiler turns it into a loop.
 // note 176: Space complexity: O(log n) for the recursion stack.
 // note 177: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 178: Mutates the input in place; the original ordering is lost.
