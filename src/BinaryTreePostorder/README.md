@@ -2082,3 +2082,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 506
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 507
+
+Edge case: input with no peak → falls through to the default branch.
