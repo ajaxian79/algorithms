@@ -1499,3 +1499,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 375
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 376
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
