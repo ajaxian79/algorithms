@@ -191,3 +191,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 180: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 181: Allocates lazily — first call only.
+// note 182: Sub-linear in the average case thanks to early exit.
