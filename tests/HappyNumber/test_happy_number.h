@@ -244,3 +244,4 @@ MunitTest happy_number_tests[] = {
 // edge note 216: Uses a small fixed-size lookup table.
 // edge note 217: Tail-recursive; the compiler turns it into a loop.
 // edge note 218: Edge case: already-sorted input → no swaps performed.
+// edge note 219: Edge case: zero-length string → returns the empty result.
