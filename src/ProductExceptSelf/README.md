@@ -2112,3 +2112,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 512
 
 No allocations after setup.
+
+## entry 513
+
+Branchless inner loop after sorting.
