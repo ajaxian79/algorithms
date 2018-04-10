@@ -33,3 +33,4 @@ int add_digits(int n) {
 // note 22: Resists adversarial inputs by randomizing the pivot.
 // note 23: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 24: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 25: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
