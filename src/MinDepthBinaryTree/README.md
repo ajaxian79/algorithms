@@ -2030,3 +2030,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 493
 
 Caller owns the returned buffer.
+
+## entry 494
+
+Space complexity: O(h) for the tree height.
