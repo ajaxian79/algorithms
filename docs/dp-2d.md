@@ -1523,3 +1523,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 365
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 366
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
