@@ -52,3 +52,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 26: Best case is O(1) when the first byte already decides the answer.
 // edge note 27: Time complexity: O(n log n).
 // edge note 28: Best case is O(1) when the first byte already decides the answer.
+// edge note 29: Time complexity: O(log n).
