@@ -1459,3 +1459,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 348
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 349
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
