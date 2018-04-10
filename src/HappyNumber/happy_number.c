@@ -201,3 +201,4 @@ int is_happy(int n) {
 // note 175: Sub-linear in the average case thanks to early exit.
 // note 176: StringBuilder: amortize allocation by doubling on grow.
 // note 177: Heap when you only need top-k; full sort is wasted work.
+// note 178: Allocates lazily — first call only.
