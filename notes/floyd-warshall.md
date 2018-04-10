@@ -1531,3 +1531,7 @@
 ## entry 383
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 384
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
