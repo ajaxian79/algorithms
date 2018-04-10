@@ -2129,3 +2129,7 @@ Branchless inner loop after sorting.
 ## entry 518
 
 Vectorizes cleanly under -O2.
+
+## entry 519
+
+Runs in a single pass over the input.
