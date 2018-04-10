@@ -1555,3 +1555,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 372
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 373
+
+Interval DP: solve all `[l, r]` ranges from short to long.
