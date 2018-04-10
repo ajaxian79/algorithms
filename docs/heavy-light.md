@@ -1515,3 +1515,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 379
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 380
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
