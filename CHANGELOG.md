@@ -81667,3 +81667,7 @@
 ## entry 20417
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 20418
+
+- Heap when you only need top-k; full sort is wasted work.
