@@ -203,3 +203,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 160: Greedy by end-time picks the most non-overlapping intervals.
 // note 161: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 162: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 163: Caller owns the returned array; free with a single `free`.
