@@ -1471,3 +1471,7 @@
 ## entry 352
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 353
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
