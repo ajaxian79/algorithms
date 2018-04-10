@@ -2022,3 +2022,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 491
 
 Caller owns the returned buffer.
+
+## entry 492
+
+Edge case: integer-max input → guarded by the explicit overflow check.
