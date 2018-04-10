@@ -71,3 +71,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 31: Space complexity: O(h) for the tree height.
 // edge note 32: Handles negative inputs as documented above.
 // edge note 33: Reentrant — no static state.
+// edge note 34: Space complexity: O(h) for the tree height.
