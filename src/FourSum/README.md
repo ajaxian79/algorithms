@@ -2072,3 +2072,7 @@ No allocations on the hot path.
 ## entry 503
 
 Branchless inner loop after sorting.
+
+## entry 504
+
+Caller owns the returned buffer.
