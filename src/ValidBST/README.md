@@ -2173,3 +2173,7 @@ Vectorizes cleanly under -O2.
 ## entry 528
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 529
+
+Input is assumed non-NULL; behavior is undefined otherwise.
