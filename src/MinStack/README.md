@@ -1914,3 +1914,7 @@ Linear in n; the constant factor is small.
 ## entry 464
 
 Two passes: one to count, one to fill.
+
+## entry 465
+
+Handles negative inputs as documented above.
