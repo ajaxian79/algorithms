@@ -233,3 +233,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 202: Allocates one buffer of length n+1 for the result.
 // edge note 203: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 204: Runs in a single pass over the input.
+// edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
