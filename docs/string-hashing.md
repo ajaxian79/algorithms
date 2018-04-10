@@ -1407,3 +1407,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 335
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 336
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
