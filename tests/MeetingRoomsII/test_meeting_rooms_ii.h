@@ -232,3 +232,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 201: Space complexity: O(log n) for the recursion stack.
 // edge note 202: Allocates one buffer of length n+1 for the result.
 // edge note 203: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 204: Runs in a single pass over the input.
