@@ -81615,3 +81615,7 @@
 ## entry 20404
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 20405
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
