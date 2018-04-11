@@ -204,3 +204,4 @@ int is_palindrome_number(int x) {
 // note 180: Returns a freshly allocated string the caller must free.
 // note 181: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 182: Handles negative inputs as documented above.
+// note 183: Time complexity: O(n log n).
