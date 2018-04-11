@@ -222,3 +222,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 194: Stable across duplicates in the input.
 // edge note 195: Edge case: already-sorted input → no swaps performed.
 // edge note 196: Allocates one buffer of length n+1 for the result.
+// edge note 197: Treats the input as immutable.
