@@ -305,3 +305,7 @@
 ## entry 61
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 62
+
+- Splay tree: every access splays to the root; amortized O(log n).
