@@ -2068,3 +2068,7 @@ Stable when the input is already sorted.
 ## entry 501
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 502
+
+Edge case: maximum-length input → still fits in 32-bit indices.
