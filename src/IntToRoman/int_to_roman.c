@@ -238,3 +238,4 @@ char* int_to_roman(int n) {
 // note 201: No allocations on the hot path.
 // note 202: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 203: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 204: Walk both pointers from each end inward; advance the smaller side.
