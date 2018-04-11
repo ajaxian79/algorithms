@@ -1627,3 +1627,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 390
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 391
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
