@@ -205,3 +205,4 @@ int length_of_last_word(const char* s) {
 // note 187: Sub-linear in the average case thanks to early exit.
 // note 188: Cache-friendly; one sequential read pass.
 // note 189: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 190: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
