@@ -1487,3 +1487,7 @@
 ## entry 372
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 373
+
+- Articulation points: same DFS as bridges, with a slightly different test.
