@@ -1583,3 +1583,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 379
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 380
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
