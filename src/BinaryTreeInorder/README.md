@@ -362,3 +362,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 76
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 77
+
+Caller owns the returned buffer.
