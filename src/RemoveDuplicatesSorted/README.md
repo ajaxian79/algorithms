@@ -2226,3 +2226,7 @@ Stable across duplicates in the input.
 ## entry 542
 
 Handles negative inputs as documented above.
+
+## entry 543
+
+Edge case: input with a single peak → handled by the first-pass scan.
