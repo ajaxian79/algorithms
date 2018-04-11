@@ -1455,3 +1455,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 364
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 365
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
