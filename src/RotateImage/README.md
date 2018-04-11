@@ -2141,3 +2141,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 520
 
 Three passes total; the third merges results.
+
+## entry 521
+
+Edge case: integer-max input → guarded by the explicit overflow check.
