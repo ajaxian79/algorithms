@@ -239,3 +239,4 @@ MunitTest single_number_tests[] = {
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 209: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 210: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 211: Edge case: single-element input → returns the element itself.
