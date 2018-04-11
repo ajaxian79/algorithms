@@ -1603,3 +1603,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 384
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 385
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
