@@ -1395,3 +1395,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 349
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 350
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
