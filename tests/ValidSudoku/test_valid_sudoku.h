@@ -265,3 +265,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 205: Sub-linear in the average case thanks to early exit.
 // edge note 206: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 207: Space complexity: O(1) auxiliary.
+// edge note 208: Treats the input as immutable.
