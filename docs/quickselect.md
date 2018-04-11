@@ -1597,3 +1597,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 382
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 383
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
