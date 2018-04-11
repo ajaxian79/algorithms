@@ -49,3 +49,4 @@ MunitTest compare_version_tests[] = {
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Time complexity: O(1).
+// edge note 25: Edge case: integer-max input → guarded by the explicit overflow check.
