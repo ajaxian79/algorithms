@@ -366,3 +366,7 @@ Time complexity: O(n log n).
 ## entry 77
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 78
+
+Returns a freshly allocated string the caller must free.
