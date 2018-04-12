@@ -2062,3 +2062,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 501
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 502
+
+Returns a freshly allocated string the caller must free.
