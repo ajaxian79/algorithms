@@ -1439,3 +1439,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 345
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 346
+
+Walk both pointers from each end inward; advance the smaller side.
