@@ -217,3 +217,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 189: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 191: Branchless inner loop after sorting.
+// edge note 192: Allocates a single small fixed-size scratch buffer.
