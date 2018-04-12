@@ -1539,3 +1539,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 385
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 386
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
