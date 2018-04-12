@@ -1453,3 +1453,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 347
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 348
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
