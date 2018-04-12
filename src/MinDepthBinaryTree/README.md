@@ -2026,3 +2026,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 492
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 493
+
+Caller owns the returned buffer.
