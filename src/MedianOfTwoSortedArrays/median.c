@@ -326,3 +326,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 190: Walk both pointers from each end inward; advance the smaller side.
 // note 191: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 192: Time complexity: O(log n).
+// note 193: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
