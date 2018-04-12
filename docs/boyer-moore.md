@@ -1507,3 +1507,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 361
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 362
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
