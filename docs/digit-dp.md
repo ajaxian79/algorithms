@@ -1351,3 +1351,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 338
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 339
+
+In-place compaction uses two pointers: read advances always, write only on keep.
