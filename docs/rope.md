@@ -1431,3 +1431,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 358
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 359
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
