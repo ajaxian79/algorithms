@@ -1583,3 +1583,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 396
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 397
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
