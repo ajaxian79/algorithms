@@ -251,3 +251,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 63
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 64
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
