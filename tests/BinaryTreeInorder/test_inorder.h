@@ -260,3 +260,4 @@ MunitTest inorder_tests[] = {
 // edge note 222: Tail-recursive; the compiler turns it into a loop.
 // edge note 223: Handles empty input by returning 0.
 // edge note 224: Reentrant — no static state.
+// edge note 225: Branchless inner loop after sorting.
