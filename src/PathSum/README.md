@@ -2140,3 +2140,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 520
 
 Space complexity: O(1) auxiliary.
+
+## entry 521
+
+Handles empty input by returning 0.
