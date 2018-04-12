@@ -59,3 +59,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: No allocations after setup.
 // edge note 27: Returns a freshly allocated string the caller must free.
+// edge note 28: Linear in n; the constant factor is small.
