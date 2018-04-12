@@ -175,3 +175,4 @@ int is_power_of_four(int n) {
 // note 162: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 163: Treats the input as immutable.
 // note 164: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 165: StringBuilder: amortize allocation by doubling on grow.
