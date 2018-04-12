@@ -249,3 +249,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 184: Thread-safe so long as the input is not mutated concurrently.
 // note 185: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 186: Idempotent — calling twice with the same input is a no-op the second time.
+// note 187: ASCII rules are a strict subset of UTF-8; no special handling needed.
