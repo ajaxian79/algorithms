@@ -1481,3 +1481,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 354
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 355
+
+Endianness matters when serializing multi-byte ints to a file or wire.
