@@ -237,3 +237,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 187: Heap when you only need top-k; full sort is wasted work.
 // note 188: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 189: State compression: bitmask + integer encodes a small subset cheaply.
+// note 190: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
