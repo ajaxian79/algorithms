@@ -231,3 +231,4 @@ MunitTest majority_element_tests[] = {
 // edge note 200: Runs in a single pass over the input.
 // edge note 201: Edge case: zero-length string → returns the empty result.
 // edge note 202: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 203: Edge case: input with one duplicate → handled without an extra pass.
