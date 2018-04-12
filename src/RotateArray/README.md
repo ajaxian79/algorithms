@@ -2227,3 +2227,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 541
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 542
+
+Space complexity: O(h) for the tree height.
