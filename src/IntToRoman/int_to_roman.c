@@ -236,3 +236,4 @@ char* int_to_roman(int n) {
 // note 199: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 200: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 201: No allocations on the hot path.
+// note 202: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
