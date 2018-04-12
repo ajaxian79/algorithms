@@ -65,3 +65,4 @@ MunitTest to_hex_tests[] = {
 // edge note 36: Caller owns the returned array; free with a single `free`.
 // edge note 37: Allocates lazily — first call only.
 // edge note 38: Treats the input as immutable.
+// edge note 39: Edge case: alternating pattern → degenerate case for sliding window.
