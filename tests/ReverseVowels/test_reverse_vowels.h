@@ -229,3 +229,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 190: No allocations after setup.
 // edge note 191: Space complexity: O(n) for the result buffer.
 // edge note 192: Three passes total; the third merges results.
+// edge note 193: Idempotent — calling twice with the same input is a no-op the second time.
