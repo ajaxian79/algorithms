@@ -1535,3 +1535,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 384
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 385
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
