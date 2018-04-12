@@ -293,3 +293,4 @@ int get_next_result(Program* program) {
 // note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 180: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 181: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 182: Deterministic given the input — no PRNG seeds.
