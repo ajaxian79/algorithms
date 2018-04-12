@@ -237,3 +237,4 @@ char* int_to_roman(int n) {
 // note 200: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 201: No allocations on the hot path.
 // note 202: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 203: False sharing: two threads writing different bytes in the same cache line stall both.
