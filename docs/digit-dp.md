@@ -1347,3 +1347,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 337
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 338
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
