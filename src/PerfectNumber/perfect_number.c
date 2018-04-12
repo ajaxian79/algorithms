@@ -212,3 +212,4 @@ int is_perfect_number(int n) {
 // note 194: Space complexity: O(1) auxiliary.
 // note 195: Worst case appears only on degenerate inputs.
 // note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 197: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
