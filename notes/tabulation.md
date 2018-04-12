@@ -1427,3 +1427,7 @@
 ## entry 357
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 358
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
