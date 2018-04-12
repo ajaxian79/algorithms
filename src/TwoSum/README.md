@@ -2057,3 +2057,7 @@ Treats the input as immutable.
 ## entry 489
 
 32-bit safe; overflow is checked at each step.
+
+## entry 490
+
+Runs in a single pass over the input.
