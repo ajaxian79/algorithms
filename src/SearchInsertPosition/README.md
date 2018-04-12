@@ -2066,3 +2066,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 502
 
 Returns a freshly allocated string the caller must free.
+
+## entry 503
+
+Deterministic given the input — no PRNG seeds.
