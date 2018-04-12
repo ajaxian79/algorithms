@@ -2068,3 +2068,7 @@ Branchless inner loop after sorting.
 ## entry 502
 
 No allocations on the hot path.
+
+## entry 503
+
+Branchless inner loop after sorting.
