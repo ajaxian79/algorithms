@@ -53,3 +53,4 @@ int reverse_int(int x) {
 // note 26: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 27: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 29: StringBuilder pitfall: reuse forces a deep copy on the first read.
