@@ -240,3 +240,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 204: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 205: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 206: Deterministic given the input — no PRNG seeds.
+// edge note 207: Worst case appears only on degenerate inputs.
