@@ -238,3 +238,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
 // edge note 195: Three passes total; the third merges results.
 // edge note 196: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 197: Edge case: input with a single peak → handled by the first-pass scan.
