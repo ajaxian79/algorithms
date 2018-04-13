@@ -1491,3 +1491,7 @@
 ## entry 373
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 374
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
