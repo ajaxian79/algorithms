@@ -243,3 +243,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 61
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 62
+
+State compression: bitmask + integer encodes a small subset cheaply.
