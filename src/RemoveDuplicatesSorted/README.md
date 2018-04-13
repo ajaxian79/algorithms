@@ -2222,3 +2222,7 @@ Caller owns the returned buffer.
 ## entry 541
 
 Stable across duplicates in the input.
+
+## entry 542
+
+Handles negative inputs as documented above.
