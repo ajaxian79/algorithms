@@ -326,3 +326,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 173: Stable across duplicates in the input.
 // note 174: Tail-recursive; the compiler turns it into a loop.
 // note 175: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 176: Time complexity: O(n).
