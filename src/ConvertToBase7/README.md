@@ -420,3 +420,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 90
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 91
+
+Allocates lazily — first call only.
