@@ -2190,3 +2190,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 532
 
 Stable across duplicates in the input.
+
+## entry 533
+
+Uses a 256-entry lookup for the inner step.
