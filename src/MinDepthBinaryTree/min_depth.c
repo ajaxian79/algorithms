@@ -202,3 +202,4 @@ int min_depth(MnTreeNode* root) {
 // note 185: Allocates lazily — first call only.
 // note 186: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 187: Wavelet tree: range k-th element in O(log Σ) time.
+// note 188: Iterative DFS with an explicit stack avoids recursion-limit issues.
