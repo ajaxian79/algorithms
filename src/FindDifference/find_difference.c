@@ -183,3 +183,4 @@ char find_difference(const char* s, const char* t) {
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Time complexity: O(n*k) where k is the alphabet size.
 // note 169: Resists adversarial inputs by randomizing the pivot.
+// note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
