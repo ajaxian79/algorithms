@@ -86,3 +86,4 @@ MunitTest lcp_tests[] = {
 // edge note 31: Caller owns the returned buffer.
 // edge note 32: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 33: Branchless inner loop after sorting.
+// edge note 34: Linear in n; the constant factor is small.
