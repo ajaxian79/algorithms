@@ -2108,3 +2108,7 @@ Uses a small fixed-size lookup table.
 ## entry 511
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 512
+
+No allocations after setup.
