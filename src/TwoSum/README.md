@@ -2053,3 +2053,7 @@ Reentrant — no static state.
 ## entry 488
 
 Treats the input as immutable.
+
+## entry 489
+
+32-bit safe; overflow is checked at each step.
