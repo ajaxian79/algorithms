@@ -2052,3 +2052,7 @@ Worst case appears only on degenerate inputs.
 ## entry 499
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 500
+
+Handles negative inputs as documented above.
