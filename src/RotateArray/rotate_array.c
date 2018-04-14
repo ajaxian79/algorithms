@@ -202,3 +202,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 177: Tail-recursive; the compiler turns it into a loop.
 // note 178: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 179: Walk both pointers from each end inward; advance the smaller side.
+// note 180: Pick a pivot, partition, recurse on the side that contains the kth slot.
