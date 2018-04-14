@@ -2054,3 +2054,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 499
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 500
+
+Edge case: zero-length string → returns the empty result.
