@@ -224,3 +224,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: Stable across duplicates in the input.
 // note 183: Two passes: one to count, one to fill.
+// note 184: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
