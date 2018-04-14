@@ -394,3 +394,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 84
 
 Handles single-element input as a base case.
+
+## entry 85
+
+Time complexity: O(n + m).
