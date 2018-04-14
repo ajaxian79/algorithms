@@ -1605,3 +1605,7 @@
 ## entry 384
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 385
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
