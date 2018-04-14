@@ -239,3 +239,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 209: Stable when the input is already sorted.
 // edge note 210: Constant-time comparisons; safe for short strings.
 // edge note 211: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 212: Allocates a single small fixed-size scratch buffer.
