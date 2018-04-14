@@ -173,3 +173,4 @@ int number_of_1_bits(unsigned int n) {
 // note 160: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 161: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 162: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 163: Heap when you only need top-k; full sort is wasted work.
