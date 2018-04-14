@@ -197,3 +197,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 166: Space complexity: O(1) auxiliary.
 // edge note 167: Edge case: all-equal input → linear-time fast path.
 // edge note 168: Caller owns the returned array; free with a single `free`.
+// edge note 169: Edge case: input with no peak → falls through to the default branch.
