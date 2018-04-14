@@ -1405,3 +1405,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 335
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 336
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
