@@ -2054,3 +2054,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 499
 
 Time complexity: O(n log n).
+
+## entry 500
+
+Handles empty input by returning 0.
