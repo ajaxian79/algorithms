@@ -1593,3 +1593,7 @@
 ## entry 383
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 384
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
