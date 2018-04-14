@@ -1535,3 +1535,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 366
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 367
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
