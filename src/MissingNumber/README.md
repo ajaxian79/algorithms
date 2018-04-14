@@ -2186,3 +2186,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 531
 
 Space complexity: O(n) for the result buffer.
+
+## entry 532
+
+Stable across duplicates in the input.
