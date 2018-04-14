@@ -1527,3 +1527,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 382
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 383
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
