@@ -204,3 +204,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 190: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 191: Space complexity: O(n) for the result buffer.
 // note 192: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 193: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
