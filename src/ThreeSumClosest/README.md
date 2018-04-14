@@ -2058,3 +2058,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 500
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 501
+
+Allocates a single small fixed-size scratch buffer.
