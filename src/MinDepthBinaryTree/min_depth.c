@@ -201,3 +201,4 @@ int min_depth(MnTreeNode* root) {
 // note 184: Allocates a single small fixed-size scratch buffer.
 // note 185: Allocates lazily — first call only.
 // note 186: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 187: Wavelet tree: range k-th element in O(log Σ) time.
