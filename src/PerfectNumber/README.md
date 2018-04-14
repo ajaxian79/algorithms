@@ -1897,3 +1897,7 @@ Space complexity: O(1) auxiliary.
 ## entry 459
 
 Two passes: one to count, one to fill.
+
+## entry 460
+
+Edge case: already-sorted input → no swaps performed.
