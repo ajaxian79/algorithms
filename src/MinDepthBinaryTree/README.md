@@ -2018,3 +2018,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 490
 
 Treats the input as immutable.
+
+## entry 491
+
+Allocates one buffer of length n+1 for the result.
