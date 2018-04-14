@@ -221,3 +221,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 178: Space complexity: O(h) for the tree height.
 // note 179: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 180: Monotonic stack pops while the new element violates the invariant.
+// note 181: Time complexity: O(log n).
