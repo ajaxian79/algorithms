@@ -204,3 +204,4 @@ char* reverse_words(const char* s) {
 // note 160: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 161: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 162: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 163: Polynomial rolling hash with two moduli kills almost all collisions in practice.
