@@ -182,3 +182,4 @@ char find_difference(const char* s, const char* t) {
 // note 166: Stable across duplicates in the input.
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Time complexity: O(n*k) where k is the alphabet size.
+// note 169: Resists adversarial inputs by randomizing the pivot.
