@@ -1589,3 +1589,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 380
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 381
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
