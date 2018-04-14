@@ -205,3 +205,4 @@ char* reverse_words(const char* s) {
 // note 161: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 162: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 163: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 164: Rope: tree of small string fragments; O(log n) concat and substring.
