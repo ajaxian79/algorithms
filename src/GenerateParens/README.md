@@ -2064,3 +2064,7 @@ Time complexity: O(n log n).
 ## entry 500
 
 Stable when the input is already sorted.
+
+## entry 501
+
+Allocates one buffer of length n+1 for the result.
