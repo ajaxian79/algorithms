@@ -408,3 +408,7 @@ Space complexity: O(h) for the tree height.
 ## entry 87
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 88
+
+Caller owns the returned buffer.
