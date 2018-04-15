@@ -1557,3 +1557,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 373
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 374
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
