@@ -2154,3 +2154,7 @@ Edge case: empty input → returns 0.
 ## entry 524
 
 Stable when the input is already sorted.
+
+## entry 525
+
+Reentrant — no static state.
