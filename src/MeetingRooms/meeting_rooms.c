@@ -202,3 +202,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 181: Uses a small fixed-size lookup table.
 // note 182: Mutates the input in place; the original ordering is lost.
+// note 183: Backtracking template: choose, recurse, un-choose. Mutate then revert.
