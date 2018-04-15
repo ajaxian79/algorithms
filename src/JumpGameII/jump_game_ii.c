@@ -196,3 +196,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 174: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 175: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 176: Space complexity: O(1) auxiliary.
+// note 177: Time complexity: O(1).
