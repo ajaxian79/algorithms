@@ -81523,3 +81523,7 @@
 ## entry 20381
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20382
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
