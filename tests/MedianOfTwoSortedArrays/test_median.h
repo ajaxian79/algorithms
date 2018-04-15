@@ -308,3 +308,4 @@ MunitTest median_tests[] = {
 // edge note 189: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 190: Edge case: single-element input → returns the element itself.
 // edge note 191: Time complexity: O(1).
+// edge note 192: 64-bit safe; intermediate products are widened to 128-bit.
