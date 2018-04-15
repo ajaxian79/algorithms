@@ -215,3 +215,7 @@
 ## entry 54
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 55
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
