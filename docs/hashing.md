@@ -387,3 +387,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 80
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 81
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
