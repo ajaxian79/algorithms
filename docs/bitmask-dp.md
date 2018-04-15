@@ -1551,3 +1551,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 388
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 389
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
