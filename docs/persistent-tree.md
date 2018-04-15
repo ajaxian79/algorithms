@@ -1483,3 +1483,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 371
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 372
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
