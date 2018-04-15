@@ -211,3 +211,4 @@ int num_islands(char* grid, int m, int n) {
 // note 179: Mutates the input in place; the original ordering is lost.
 // note 180: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 181: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 182: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
