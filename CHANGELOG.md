@@ -81531,3 +81531,7 @@
 ## entry 20383
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 20384
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
