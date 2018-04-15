@@ -209,3 +209,4 @@ char* add_strings(const char* a, const char* b) {
 // note 169: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 171: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 172: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
