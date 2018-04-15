@@ -1427,3 +1427,7 @@
 ## entry 357
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 358
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
