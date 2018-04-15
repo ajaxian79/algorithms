@@ -204,3 +204,4 @@ int compare_version(const char* a, const char* b) {
 // note 174: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 176: Sub-linear in the average case thanks to early exit.
+// note 177: BFS layers carry implicit shortest-path distance in unweighted graphs.
