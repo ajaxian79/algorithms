@@ -215,3 +215,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 185: Walk both pointers from each end inward; advance the smaller side.
 // note 186: Returns a freshly allocated string the caller must free.
 // note 187: Deterministic given the input — no PRNG seeds.
+// note 188: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
