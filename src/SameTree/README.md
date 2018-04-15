@@ -2048,3 +2048,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 498
 
 Worst case appears only on degenerate inputs.
+
+## entry 499
+
+Time complexity: O(n*k) where k is the alphabet size.
