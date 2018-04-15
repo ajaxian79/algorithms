@@ -317,3 +317,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 63
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 64
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
