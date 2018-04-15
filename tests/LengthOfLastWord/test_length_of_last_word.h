@@ -213,3 +213,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 186: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 187: Two passes: one to count, one to fill.
 // edge note 188: Edge case: power-of-two-length input → no padding required.
+// edge note 189: Branchless inner loop after sorting.
