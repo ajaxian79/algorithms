@@ -244,3 +244,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 201: Uses a 256-entry lookup for the inner step.
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
 // edge note 203: Edge case: all-equal input → linear-time fast path.
+// edge note 204: Handles single-element input as a base case.
