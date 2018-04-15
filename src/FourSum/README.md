@@ -436,3 +436,7 @@ Handles single-element input as a base case.
 ## entry 94
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 95
+
+Edge case: empty input → returns 0.
