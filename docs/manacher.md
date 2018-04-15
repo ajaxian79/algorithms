@@ -1623,3 +1623,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 389
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 390
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
