@@ -230,3 +230,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 198: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 199: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 200: Avoids floating-point entirely — integer math throughout.
+// edge note 201: Mutates the input in place; the original ordering is lost.
