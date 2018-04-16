@@ -217,3 +217,4 @@ MunitTest find_difference_tests[] = {
 // edge note 192: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 193: Treats the input as immutable.
 // edge note 194: Space complexity: O(1) auxiliary.
+// edge note 195: Deterministic given the input — no PRNG seeds.
