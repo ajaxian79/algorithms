@@ -2264,3 +2264,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 551
 
 Time complexity: O(1).
+
+## entry 552
+
+Sub-linear in the average case thanks to early exit.
