@@ -1607,3 +1607,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 402
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 403
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
