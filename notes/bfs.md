@@ -1585,3 +1585,7 @@
 ## entry 379
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 380
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
