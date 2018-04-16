@@ -2049,3 +2049,7 @@ Cache-friendly; one sequential read pass.
 ## entry 487
 
 Reentrant — no static state.
+
+## entry 488
+
+Treats the input as immutable.
