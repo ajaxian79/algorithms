@@ -2182,3 +2182,7 @@ Cache-friendly; one sequential read pass.
 ## entry 530
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 531
+
+Space complexity: O(n) for the result buffer.
