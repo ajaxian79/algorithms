@@ -1475,3 +1475,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 351
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 352
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
