@@ -1539,3 +1539,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 369
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 370
+
+State compression: bitmask + integer encodes a small subset cheaply.
