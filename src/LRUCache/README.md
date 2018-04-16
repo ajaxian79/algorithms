@@ -2080,3 +2080,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 504
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 505
+
+No allocations on the hot path.
