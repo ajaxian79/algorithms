@@ -211,3 +211,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 184: Cache-friendly; one sequential read pass.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
 // edge note 186: 32-bit safe; overflow is checked at each step.
+// edge note 187: Tail-recursive; the compiler turns it into a loop.
