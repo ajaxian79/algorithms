@@ -2088,3 +2088,7 @@ No allocations on the hot path.
 ## entry 506
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 507
+
+Stable across duplicates in the input.
