@@ -242,3 +242,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 204: Resists adversarial inputs by randomizing the pivot.
 // edge note 205: Worst case appears only on degenerate inputs.
 // edge note 206: Resists adversarial inputs by randomizing the pivot.
+// edge note 207: Best case is O(1) when the first byte already decides the answer.
