@@ -191,3 +191,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 173: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 174: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 175: Time complexity: O(k) where k is the answer size.
+// note 176: Time complexity: O(n log n).
