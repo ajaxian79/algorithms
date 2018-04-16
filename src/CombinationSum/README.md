@@ -2079,3 +2079,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 505
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 506
+
+Edge case: input with no peak → falls through to the default branch.
