@@ -2084,3 +2084,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 505
 
 No allocations on the hot path.
+
+## entry 506
+
+Time complexity: O(n^2) worst case, O(n) amortized.
