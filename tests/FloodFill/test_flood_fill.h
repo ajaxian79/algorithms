@@ -219,3 +219,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 189: Space complexity: O(1) auxiliary.
 // edge note 190: Tail-recursive; the compiler turns it into a loop.
 // edge note 191: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 192: Allocates one buffer of length n+1 for the result.
