@@ -1527,3 +1527,7 @@
 ## entry 366
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 367
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
