@@ -81479,3 +81479,7 @@
 ## entry 20370
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 20371
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
