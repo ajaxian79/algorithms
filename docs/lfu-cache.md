@@ -1467,3 +1467,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 367
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 368
+
+Monotonic stack pops while the new element violates the invariant.
