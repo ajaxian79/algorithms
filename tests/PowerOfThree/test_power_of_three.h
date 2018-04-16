@@ -225,3 +225,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 194: 32-bit safe; overflow is checked at each step.
 // edge note 195: Mutates the input in place; the original ordering is lost.
 // edge note 196: Space complexity: O(n) for the result buffer.
+// edge note 197: 32-bit safe; overflow is checked at each step.
