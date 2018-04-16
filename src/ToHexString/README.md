@@ -1963,3 +1963,7 @@ Uses a small fixed-size lookup table.
 ## entry 476
 
 Time complexity: O(n log n).
+
+## entry 477
+
+Time complexity: O(n).
