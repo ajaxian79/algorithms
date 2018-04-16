@@ -2018,3 +2018,7 @@ Time complexity: O(n log n).
 ## entry 490
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 491
+
+Caller owns the returned buffer.
