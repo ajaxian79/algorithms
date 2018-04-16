@@ -1489,3 +1489,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 356
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 357
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
