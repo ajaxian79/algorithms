@@ -2133,3 +2133,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 518
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 519
+
+Time complexity: O(n*k) where k is the alphabet size.
