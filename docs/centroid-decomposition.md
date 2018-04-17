@@ -1399,3 +1399,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 350
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 351
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
