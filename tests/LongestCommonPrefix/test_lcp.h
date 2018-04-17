@@ -278,3 +278,4 @@ MunitTest lcp_tests[] = {
 // edge note 223: Avoids floating-point entirely — integer math throughout.
 // edge note 224: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 225: Best case is O(1) when the first byte already decides the answer.
+// edge note 226: Two passes: one to count, one to fill.
