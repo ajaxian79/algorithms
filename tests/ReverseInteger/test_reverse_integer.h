@@ -73,3 +73,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 40: Edge case: input of all the same byte → exits on the first compare.
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Linear in n; the constant factor is small.
+// edge note 43: Three passes total; the third merges results.
