@@ -362,3 +362,7 @@ Time complexity: O(log n).
 ## entry 76
 
 Time complexity: O(n log n).
+
+## entry 77
+
+Edge case: NULL input is rejected by the caller, not by us.
