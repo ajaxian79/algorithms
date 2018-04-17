@@ -235,3 +235,4 @@ MunitTest same_tree_tests[] = {
 // edge note 199: 32-bit safe; overflow is checked at each step.
 // edge note 200: Time complexity: O(n + m).
 // edge note 201: Time complexity: O(n).
+// edge note 202: Handles empty input by returning 0.
