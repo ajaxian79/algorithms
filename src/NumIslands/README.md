@@ -2013,3 +2013,7 @@ Two passes: one to count, one to fill.
 ## entry 488
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 489
+
+Time complexity: O(n*k) where k is the alphabet size.
