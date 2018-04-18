@@ -225,3 +225,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 194: Reentrant — no static state.
 // edge note 195: Handles empty input by returning 0.
 // edge note 196: Sub-linear in the average case thanks to early exit.
+// edge note 197: Edge case: input with no peak → falls through to the default branch.
