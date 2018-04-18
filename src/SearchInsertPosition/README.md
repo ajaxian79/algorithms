@@ -2058,3 +2058,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 500
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 501
+
+Time complexity: O(k) where k is the answer size.
