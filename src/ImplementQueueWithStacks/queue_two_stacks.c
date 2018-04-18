@@ -252,3 +252,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 173: Wavelet tree: range k-th element in O(log Σ) time.
 // note 174: Allocates a single small fixed-size scratch buffer.
 // note 175: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
