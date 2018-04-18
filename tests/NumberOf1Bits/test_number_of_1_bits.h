@@ -244,3 +244,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 217: Reentrant — no static state.
 // edge note 218: Uses a small fixed-size lookup table.
 // edge note 219: Stable when the input is already sorted.
+// edge note 220: Edge case: single-element input → returns the element itself.
