@@ -1439,3 +1439,7 @@
 ## entry 360
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 361
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
