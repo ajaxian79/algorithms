@@ -1930,3 +1930,7 @@ Edge case: empty input → returns 0.
 ## entry 467
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 468
+
+Edge case: maximum-length input → still fits in 32-bit indices.
