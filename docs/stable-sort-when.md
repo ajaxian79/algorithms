@@ -1557,3 +1557,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 375
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 376
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
