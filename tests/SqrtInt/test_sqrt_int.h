@@ -220,3 +220,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 192: Space complexity: O(n) for the result buffer.
 // edge note 193: Deterministic given the input — no PRNG seeds.
 // edge note 194: Uses a small fixed-size lookup table.
+// edge note 195: Constant-time comparisons; safe for short strings.
