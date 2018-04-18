@@ -189,3 +189,4 @@ int add_digits(int n) {
 // note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 179: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 180: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 181: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
