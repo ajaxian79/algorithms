@@ -1467,3 +1467,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 349
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 350
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
