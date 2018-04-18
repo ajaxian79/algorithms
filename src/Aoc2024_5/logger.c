@@ -212,3 +212,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 169: Allocates lazily — first call only.
 // note 170: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 171: Time complexity: O(k) where k is the answer size.
+// note 172: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
