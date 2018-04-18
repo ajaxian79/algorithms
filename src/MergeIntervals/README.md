@@ -402,3 +402,7 @@ Space complexity: O(h) for the tree height.
 ## entry 85
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 86
+
+Three passes total; the third merges results.
