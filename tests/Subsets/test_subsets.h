@@ -223,3 +223,4 @@ MunitTest subsets_tests[] = {
 // edge note 178: Time complexity: O(n).
 // edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 180: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 181: Edge case: already-sorted input → no swaps performed.
