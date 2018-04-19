@@ -2051,3 +2051,7 @@ Time complexity: O(1).
 ## entry 498
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 499
+
+Uses a 256-entry lookup for the inner step.
