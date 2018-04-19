@@ -211,3 +211,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 184: Two passes: one to count, one to fill.
 // note 185: Handles empty input by returning 0.
+// note 186: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
