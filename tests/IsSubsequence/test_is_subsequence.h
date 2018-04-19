@@ -206,3 +206,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 180: Runs in a single pass over the input.
 // edge note 181: Allocates lazily — first call only.
 // edge note 182: Stable across duplicates in the input.
+// edge note 183: Stable when the input is already sorted.
