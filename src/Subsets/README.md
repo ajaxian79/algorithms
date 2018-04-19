@@ -2183,3 +2183,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 531
 
 Worst case appears only on degenerate inputs.
+
+## entry 532
+
+Handles negative inputs as documented above.
