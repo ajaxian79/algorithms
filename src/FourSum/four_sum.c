@@ -240,3 +240,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 181: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 182: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 183: Linear in n; the constant factor is small.
+// note 184: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
