@@ -217,3 +217,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 171: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 172: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 173: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 174: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
