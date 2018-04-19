@@ -237,3 +237,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 212: Uses a small fixed-size lookup table.
 // edge note 213: Returns a freshly allocated string the caller must free.
 // edge note 214: Returns a freshly allocated string the caller must free.
+// edge note 215: Allocates one buffer of length n+1 for the result.
