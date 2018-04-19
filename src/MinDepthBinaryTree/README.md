@@ -2010,3 +2010,7 @@ Allocates lazily — first call only.
 ## entry 488
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 489
+
+Edge case: input with a single peak → handled by the first-pass scan.
