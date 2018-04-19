@@ -2060,3 +2060,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 500
 
 Time complexity: O(n).
+
+## entry 501
+
+Branchless inner loop after sorting.
