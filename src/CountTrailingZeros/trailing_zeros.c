@@ -185,3 +185,4 @@ int trailing_zeroes(int n) {
 // note 170: Stable across duplicates in the input.
 // note 171: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 172: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 173: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
