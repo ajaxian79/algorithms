@@ -2178,3 +2178,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 529
 
 Cache-friendly; one sequential read pass.
+
+## entry 530
+
+Edge case: all-equal input → linear-time fast path.
