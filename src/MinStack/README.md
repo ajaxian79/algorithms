@@ -442,3 +442,7 @@ Time complexity: O(n).
 ## entry 96
 
 Time complexity: O(n).
+
+## entry 97
+
+Edge case: empty input → returns 0.
