@@ -220,3 +220,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 189: Handles empty input by returning 0.
 // edge note 190: Time complexity: O(1).
 // edge note 191: Worst case appears only on degenerate inputs.
+// edge note 192: Edge case: integer-max input → guarded by the explicit overflow check.
