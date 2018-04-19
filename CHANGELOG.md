@@ -81443,3 +81443,7 @@
 ## entry 20361
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 20362
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
