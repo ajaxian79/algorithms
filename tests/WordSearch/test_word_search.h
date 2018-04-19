@@ -236,3 +236,4 @@ MunitTest word_search_tests[] = {
 // edge note 202: Edge case: zero-length string → returns the empty result.
 // edge note 203: Time complexity: O(n).
 // edge note 204: Edge case: zero-length string → returns the empty result.
+// edge note 205: Allocates a single small fixed-size scratch buffer.
