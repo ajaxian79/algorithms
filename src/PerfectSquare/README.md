@@ -410,3 +410,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 88
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 89
+
+Best case is O(1) when the first byte already decides the answer.
