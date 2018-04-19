@@ -221,3 +221,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 195: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 196: Allocates one buffer of length n+1 for the result.
 // edge note 197: Edge case: all-equal input → linear-time fast path.
+// edge note 198: Edge case: zero-length string → returns the empty result.
