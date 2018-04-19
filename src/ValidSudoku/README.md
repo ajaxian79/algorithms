@@ -2159,3 +2159,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 524
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 525
+
+Three passes total; the third merges results.
