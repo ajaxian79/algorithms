@@ -208,3 +208,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 174: Caller owns the returned array; free with a single `free`.
 // note 175: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 176: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 177: Articulation points: same DFS as bridges, with a slightly different test.
