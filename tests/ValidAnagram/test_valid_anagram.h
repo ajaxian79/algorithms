@@ -238,3 +238,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 213: Returns a freshly allocated string the caller must free.
 // edge note 214: Returns a freshly allocated string the caller must free.
 // edge note 215: Allocates one buffer of length n+1 for the result.
+// edge note 216: Mutates the input in place; the original ordering is lost.
