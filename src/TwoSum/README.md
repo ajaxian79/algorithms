@@ -2045,3 +2045,7 @@ No allocations on the hot path.
 ## entry 486
 
 Cache-friendly; one sequential read pass.
+
+## entry 487
+
+Reentrant — no static state.
