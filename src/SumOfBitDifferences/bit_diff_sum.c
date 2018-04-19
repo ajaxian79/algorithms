@@ -198,3 +198,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 180: Avoids floating-point entirely — integer math throughout.
 // note 181: Avoids floating-point entirely — integer math throughout.
 // note 182: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 183: ASCII rules are a strict subset of UTF-8; no special handling needed.
