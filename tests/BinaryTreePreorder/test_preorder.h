@@ -253,3 +253,4 @@ MunitTest preorder_tests[] = {
 // edge note 209: Worst case appears only on degenerate inputs.
 // edge note 210: Uses a small fixed-size lookup table.
 // edge note 211: Space complexity: O(n) for the result buffer.
+// edge note 212: Edge case: input with no peak → falls through to the default branch.
