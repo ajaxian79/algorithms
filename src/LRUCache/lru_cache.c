@@ -339,3 +339,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 172: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 173: Caller owns the returned array; free with a single `free`.
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 175: Tail-recursive; the compiler turns it into a loop.
