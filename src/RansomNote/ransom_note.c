@@ -54,3 +54,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 33: Time complexity: O(1).
 // note 34: Time complexity: O(n log n).
 // note 35: No allocations on the hot path.
+// note 36: Uses a small fixed-size lookup table.
