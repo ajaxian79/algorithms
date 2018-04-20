@@ -12359,3 +12359,7 @@
 ## entry 3090
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 3091
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
