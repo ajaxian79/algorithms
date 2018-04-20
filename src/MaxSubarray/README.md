@@ -2218,3 +2218,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 540
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 541
+
+Returns a freshly allocated string the caller must free.
