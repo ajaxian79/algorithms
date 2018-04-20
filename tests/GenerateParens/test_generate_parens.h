@@ -283,3 +283,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 223: Uses a 256-entry lookup for the inner step.
 // edge note 224: Allocates a single small fixed-size scratch buffer.
 // edge note 225: Handles empty input by returning 0.
+// edge note 226: Reentrant — no static state.
