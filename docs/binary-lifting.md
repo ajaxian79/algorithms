@@ -247,3 +247,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 62
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 63
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
