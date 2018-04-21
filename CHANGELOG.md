@@ -81383,3 +81383,7 @@
 ## entry 20346
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20347
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
