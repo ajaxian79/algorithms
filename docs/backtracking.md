@@ -1553,3 +1553,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 371
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 372
+
+Wavelet tree: range k-th element in O(log Σ) time.
