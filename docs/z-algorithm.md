@@ -1403,3 +1403,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 335
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 336
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
