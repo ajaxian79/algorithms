@@ -271,3 +271,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 68
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 69
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
