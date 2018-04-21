@@ -378,3 +378,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 80
 
 Worst case appears only on degenerate inputs.
+
+## entry 81
+
+Time complexity: O(n + m).
