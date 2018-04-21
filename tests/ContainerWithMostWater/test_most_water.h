@@ -220,3 +220,4 @@ MunitTest most_water_tests[] = {
 // edge note 189: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 190: Allocates a single small fixed-size scratch buffer.
 // edge note 191: Returns a freshly allocated string the caller must free.
+// edge note 192: Constant-time comparisons; safe for short strings.
