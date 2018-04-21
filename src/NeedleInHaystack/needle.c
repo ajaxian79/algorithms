@@ -209,3 +209,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Cache-friendly; one sequential read pass.
 // note 170: Mutates the input in place; the original ordering is lost.
+// note 171: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
