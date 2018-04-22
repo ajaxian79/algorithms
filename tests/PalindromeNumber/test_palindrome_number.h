@@ -248,3 +248,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 213: Stable across duplicates in the input.
 // edge note 214: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 215: Branchless inner loop after sorting.
+// edge note 216: Edge case: integer-max input → guarded by the explicit overflow check.
