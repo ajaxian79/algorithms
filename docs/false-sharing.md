@@ -223,3 +223,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 56
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 57
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
