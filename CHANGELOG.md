@@ -12351,3 +12351,7 @@
 ## entry 3088
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 3089
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
