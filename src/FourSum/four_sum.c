@@ -81,3 +81,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 22: Best case is O(1) when the first byte already decides the answer.
 // note 23: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 24: State compression: bitmask + integer encodes a small subset cheaply.
+// note 25: Space complexity: O(h) for the tree height.
