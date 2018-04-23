@@ -374,3 +374,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 79
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 80
+
+Worst case appears only on degenerate inputs.
