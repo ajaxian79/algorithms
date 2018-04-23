@@ -1527,3 +1527,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 382
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 383
+
+Splay tree: every access splays to the root; amortized O(log n).
