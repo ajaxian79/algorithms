@@ -254,3 +254,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 15: Best case is O(1) when the first byte already decides the answer.
 // note 16: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 17: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 18: k-d tree: median-split each axis; nearest-neighbor average O(log n).
