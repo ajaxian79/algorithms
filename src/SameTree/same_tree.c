@@ -214,3 +214,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 200: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 201: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 202: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 203: Input is assumed non-NULL; behavior is undefined otherwise.
