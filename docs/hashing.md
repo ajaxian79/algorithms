@@ -1619,3 +1619,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 388
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 389
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
