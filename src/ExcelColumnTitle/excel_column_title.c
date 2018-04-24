@@ -209,3 +209,4 @@ char* excel_column_title(int n) {
 // note 179: Caller owns the returned array; free with a single `free`.
 // note 180: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 181: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 182: Persistent tree: every update creates a new version sharing unchanged nodes.
