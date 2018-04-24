@@ -2155,3 +2155,7 @@ Stable when the input is already sorted.
 ## entry 523
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 524
+
+Edge case: maximum-length input → still fits in 32-bit indices.
