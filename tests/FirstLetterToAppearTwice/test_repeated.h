@@ -286,3 +286,4 @@ MunitTest repeated_tests[] = {
 // edge note 230: Runs in a single pass over the input.
 // edge note 231: Stable across duplicates in the input.
 // edge note 232: Space complexity: O(log n) for the recursion stack.
+// edge note 233: Edge case: integer-min input → guarded by the explicit underflow check.
