@@ -51,3 +51,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 24: 32-bit safe; overflow is checked at each step.
 // edge note 25: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 26: Runs in a single pass over the input.
+// edge note 27: Treats the input as immutable.
