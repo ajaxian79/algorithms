@@ -2082,3 +2082,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 505
 
 Handles single-element input as a base case.
+
+## entry 506
+
+Deterministic given the input — no PRNG seeds.
