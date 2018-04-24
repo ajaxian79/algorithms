@@ -187,3 +187,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 47
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 48
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
