@@ -1599,3 +1599,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 383
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 384
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
