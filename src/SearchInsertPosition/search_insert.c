@@ -207,3 +207,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 191: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 192: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 193: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 194: Polynomial rolling hash with two moduli kills almost all collisions in practice.
