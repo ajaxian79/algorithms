@@ -2150,3 +2150,7 @@ Space complexity: O(1) auxiliary.
 ## entry 523
 
 Edge case: empty input → returns 0.
+
+## entry 524
+
+Stable when the input is already sorted.
