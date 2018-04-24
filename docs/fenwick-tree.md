@@ -1519,3 +1519,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 364
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 365
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
