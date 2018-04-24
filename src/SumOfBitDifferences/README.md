@@ -2160,3 +2160,7 @@ Branchless inner loop after sorting.
 ## entry 525
 
 Allocates lazily — first call only.
+
+## entry 526
+
+Vectorizes cleanly under -O2.
