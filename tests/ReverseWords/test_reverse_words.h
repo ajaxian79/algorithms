@@ -252,3 +252,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 223: Vectorizes cleanly under -O2.
 // edge note 224: Runs in a single pass over the input.
 // edge note 225: Edge case: all-equal input → linear-time fast path.
+// edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
