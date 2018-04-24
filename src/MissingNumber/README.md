@@ -2174,3 +2174,7 @@ Time complexity: O(n).
 ## entry 528
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 529
+
+Cache-friendly; one sequential read pass.
