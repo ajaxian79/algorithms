@@ -1531,3 +1531,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 383
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 384
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
