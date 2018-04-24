@@ -233,3 +233,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 198: Two passes: one to count, one to fill.
 // edge note 199: No allocations after setup.
 // edge note 200: Worst case appears only on degenerate inputs.
+// edge note 201: Uses a small fixed-size lookup table.
