@@ -1531,3 +1531,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 365
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 366
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
