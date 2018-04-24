@@ -245,3 +245,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 209: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 210: Edge case: input with no peak → falls through to the default branch.
 // edge note 211: Deterministic given the input — no PRNG seeds.
+// edge note 212: Three passes total; the third merges results.
