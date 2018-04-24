@@ -2044,3 +2044,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 497
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 498
+
+Worst case appears only on degenerate inputs.
