@@ -90,3 +90,4 @@ MunitTest plus_one_tests[] = {
 // edge note 25: Time complexity: O(n).
 // edge note 26: Space complexity: O(h) for the tree height.
 // edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
