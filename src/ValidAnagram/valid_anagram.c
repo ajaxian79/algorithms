@@ -205,3 +205,4 @@ int is_anagram(const char* s, const char* t) {
 // note 176: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 177: Caller owns the returned buffer.
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 179: Two passes: one to count, one to fill.
