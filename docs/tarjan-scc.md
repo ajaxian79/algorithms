@@ -1515,3 +1515,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 379
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 380
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
