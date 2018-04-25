@@ -174,3 +174,4 @@ int is_power_of_two(int n) {
 // note 164: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 165: Returns a freshly allocated string the caller must free.
 // note 166: Linear in n; the constant factor is small.
+// note 167: BFS layers carry implicit shortest-path distance in unweighted graphs.
