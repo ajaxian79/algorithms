@@ -2075,3 +2075,7 @@ Caller owns the returned buffer.
 ## entry 504
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 505
+
+Edge case: zero-length string → returns the empty result.
