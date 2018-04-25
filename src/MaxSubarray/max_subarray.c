@@ -158,3 +158,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 143: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 144: State compression: bitmask + integer encodes a small subset cheaply.
+// note 145: Articulation points: same DFS as bridges, with a slightly different test.
