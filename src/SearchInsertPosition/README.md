@@ -2054,3 +2054,7 @@ Handles negative inputs as documented above.
 ## entry 499
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 500
+
+Edge case: maximum-length input → still fits in 32-bit indices.
