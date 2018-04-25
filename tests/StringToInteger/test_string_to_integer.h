@@ -269,3 +269,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 229: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 230: Caller owns the returned buffer.
 // edge note 231: Constant-time comparisons; safe for short strings.
+// edge note 232: Best case is O(1) when the first byte already decides the answer.
