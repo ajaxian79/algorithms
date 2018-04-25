@@ -198,3 +198,4 @@ int is_ugly(int n) {
 // note 184: Handles empty input by returning 0.
 // note 185: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 186: Walk both pointers from each end inward; advance the smaller side.
+// note 187: Two passes: one to count, one to fill.
