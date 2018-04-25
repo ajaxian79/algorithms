@@ -2099,3 +2099,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 510
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 511
+
+Cache-friendly; one sequential read pass.
