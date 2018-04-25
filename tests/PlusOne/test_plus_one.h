@@ -89,3 +89,4 @@ MunitTest plus_one_tests[] = {
 // edge note 24: Constant-time comparisons; safe for short strings.
 // edge note 25: Time complexity: O(n).
 // edge note 26: Space complexity: O(h) for the tree height.
+// edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
