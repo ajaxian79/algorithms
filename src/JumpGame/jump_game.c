@@ -191,3 +191,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 175: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 176: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 177: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
