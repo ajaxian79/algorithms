@@ -2058,3 +2058,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 500
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 501
+
+Thread-safe so long as the input is not mutated concurrently.
