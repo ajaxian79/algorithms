@@ -61,3 +61,4 @@ MunitTest single_number_tests[] = {
 // edge note 30: Two passes: one to count, one to fill.
 // edge note 31: Time complexity: O(n log n).
 // edge note 32: Allocates lazily — first call only.
+// edge note 33: Constant-time comparisons; safe for short strings.
