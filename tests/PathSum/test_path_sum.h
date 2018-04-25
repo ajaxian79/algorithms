@@ -70,3 +70,4 @@ MunitTest path_sum_tests[] = {
 // edge note 31: No allocations after setup.
 // edge note 32: Space complexity: O(log n) for the recursion stack.
 // edge note 33: Constant-time comparisons; safe for short strings.
+// edge note 34: Space complexity: O(1) auxiliary.
