@@ -1527,3 +1527,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 382
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 383
+
+In-place compaction uses two pointers: read advances always, write only on keep.
