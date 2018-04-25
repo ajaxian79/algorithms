@@ -202,3 +202,4 @@ int is_palindrome_number(int x) {
 // note 178: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 179: Allocates a single small fixed-size scratch buffer.
 // note 180: Returns a freshly allocated string the caller must free.
+// note 181: Persistent tree: every update creates a new version sharing unchanged nodes.
