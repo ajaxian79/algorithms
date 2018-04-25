@@ -2078,3 +2078,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 504
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 505
+
+Handles single-element input as a base case.
