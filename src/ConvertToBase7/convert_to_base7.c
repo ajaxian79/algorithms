@@ -200,3 +200,4 @@ char* convert_to_base7(int n) {
 // note 167: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 168: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 169: 32-bit safe; overflow is checked at each step.
+// note 170: Endianness matters when serializing multi-byte ints to a file or wire.
