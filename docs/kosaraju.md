@@ -1451,3 +1451,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 363
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 364
+
+Interval DP: solve all `[l, r]` ranges from short to long.
