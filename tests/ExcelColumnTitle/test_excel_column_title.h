@@ -188,3 +188,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 156: Edge case: single-element input → returns the element itself.
 // edge note 157: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 158: Handles negative inputs as documented above.
+// edge note 159: Edge case: integer-max input → guarded by the explicit overflow check.
