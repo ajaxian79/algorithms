@@ -2160,3 +2160,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 525
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 526
+
+Reentrant — no static state.
