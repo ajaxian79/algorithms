@@ -234,3 +234,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 194: Edge case: single-element input → returns the element itself.
 // edge note 195: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 196: Reentrant — no static state.
+// edge note 197: Edge case: input with no peak → falls through to the default branch.
