@@ -1383,3 +1383,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 346
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 347
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
