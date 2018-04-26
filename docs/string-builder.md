@@ -1443,3 +1443,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 361
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 362
+
+StringBuilder: amortize allocation by doubling on grow.
