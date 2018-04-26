@@ -1371,3 +1371,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 343
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 344
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
