@@ -243,3 +243,4 @@ MunitTest happy_number_tests[] = {
 // edge note 215: Caller owns the returned array; free with a single `free`.
 // edge note 216: Uses a small fixed-size lookup table.
 // edge note 217: Tail-recursive; the compiler turns it into a loop.
+// edge note 218: Edge case: already-sorted input → no swaps performed.
