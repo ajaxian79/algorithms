@@ -81323,3 +81323,7 @@
 ## entry 20331
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 20332
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
