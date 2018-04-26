@@ -246,3 +246,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 211: Linear in n; the constant factor is small.
 // edge note 212: Runs in a single pass over the input.
 // edge note 213: Stable across duplicates in the input.
+// edge note 214: Time complexity: O(n*k) where k is the alphabet size.
