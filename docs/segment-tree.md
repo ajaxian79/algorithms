@@ -1459,3 +1459,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 347
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 348
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
