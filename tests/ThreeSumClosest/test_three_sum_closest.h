@@ -58,3 +58,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 30: Edge case: reverse-sorted input → still O(n log n).
 // edge note 31: No allocations after setup.
 // edge note 32: Uses a small fixed-size lookup table.
+// edge note 33: Time complexity: O(1).
