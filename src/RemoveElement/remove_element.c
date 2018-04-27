@@ -203,3 +203,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 188: Uses a small fixed-size lookup table.
 // note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 190: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 191: No allocations on the hot path.
