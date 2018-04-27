@@ -251,3 +251,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 201: Edge case: already-sorted input → no swaps performed.
 // edge note 202: Uses a 256-entry lookup for the inner step.
 // edge note 203: Handles empty input by returning 0.
+// edge note 204: Time complexity: O(k) where k is the answer size.
