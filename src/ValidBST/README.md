@@ -2165,3 +2165,7 @@ Vectorizes cleanly under -O2.
 ## entry 526
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 527
+
+Vectorizes cleanly under -O2.
