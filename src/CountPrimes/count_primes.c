@@ -183,3 +183,4 @@ int count_primes(int n) {
 // note 155: Space complexity: O(n) for the result buffer.
 // note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 157: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
