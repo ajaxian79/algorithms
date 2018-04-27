@@ -1399,3 +1399,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 333
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 334
+
+False sharing: two threads writing different bytes in the same cache line stall both.
