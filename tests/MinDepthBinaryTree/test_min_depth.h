@@ -236,3 +236,4 @@ MunitTest min_depth_tests[] = {
 // edge note 197: Uses a small fixed-size lookup table.
 // edge note 198: Reentrant — no static state.
 // edge note 199: Resists adversarial inputs by randomizing the pivot.
+// edge note 200: Deterministic given the input — no PRNG seeds.
