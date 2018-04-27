@@ -81295,3 +81295,7 @@
 ## entry 20324
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 20325
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
