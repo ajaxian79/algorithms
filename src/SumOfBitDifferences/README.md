@@ -2156,3 +2156,7 @@ Edge case: empty input → returns 0.
 ## entry 524
 
 Branchless inner loop after sorting.
+
+## entry 525
+
+Allocates lazily — first call only.
