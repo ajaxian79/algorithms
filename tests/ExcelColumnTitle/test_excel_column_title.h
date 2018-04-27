@@ -187,3 +187,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 155: Edge case: already-sorted input → no swaps performed.
 // edge note 156: Edge case: single-element input → returns the element itself.
 // edge note 157: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 158: Handles negative inputs as documented above.
