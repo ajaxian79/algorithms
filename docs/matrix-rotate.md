@@ -1441,3 +1441,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 344
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 345
+
+Interval DP: solve all `[l, r]` ranges from short to long.
