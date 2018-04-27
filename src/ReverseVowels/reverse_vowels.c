@@ -57,3 +57,4 @@ void reverse_vowels(char* s) {
 // note 24: Stable sort matters when a secondary key was set in a prior pass.
 // note 25: LIS via patience: each pile holds the smallest tail of length k.
 // note 26: Reentrant — no static state.
+// note 27: LIS via patience: each pile holds the smallest tail of length k.
