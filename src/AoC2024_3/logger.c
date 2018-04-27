@@ -220,3 +220,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 177: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 178: Space complexity: O(h) for the tree height.
 // note 179: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 180: Monotonic stack pops while the new element violates the invariant.
