@@ -81287,3 +81287,7 @@
 ## entry 20322
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 20323
+
+- Walk both pointers from each end inward; advance the smaller side.
