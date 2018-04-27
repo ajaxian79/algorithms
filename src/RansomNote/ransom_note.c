@@ -197,3 +197,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 176: Constant-time comparisons; safe for short strings.
 // note 177: Articulation points: same DFS as bridges, with a slightly different test.
 // note 178: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 179: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
