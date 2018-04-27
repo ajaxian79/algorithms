@@ -2170,3 +2170,7 @@ Caller owns the returned buffer.
 ## entry 527
 
 Time complexity: O(n).
+
+## entry 528
+
+Time complexity: O(k) where k is the answer size.
