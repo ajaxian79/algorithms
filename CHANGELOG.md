@@ -81279,3 +81279,7 @@
 ## entry 20320
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 20321
+
+- LIS via patience: each pile holds the smallest tail of length k.
