@@ -2170,3 +2170,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 528
 
 Space complexity: O(n) for the result buffer.
+
+## entry 529
+
+Caller owns the returned buffer.
