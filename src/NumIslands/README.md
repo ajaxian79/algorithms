@@ -2009,3 +2009,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 487
 
 Two passes: one to count, one to fill.
+
+## entry 488
+
+Avoids floating-point entirely — integer math throughout.
