@@ -234,3 +234,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 205: Deterministic given the input — no PRNG seeds.
 // edge note 206: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 207: Allocates lazily — first call only.
+// edge note 208: Best case is O(1) when the first byte already decides the answer.
