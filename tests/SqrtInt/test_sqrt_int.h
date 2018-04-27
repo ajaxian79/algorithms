@@ -218,3 +218,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 190: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 191: Constant-time comparisons; safe for short strings.
 // edge note 192: Space complexity: O(n) for the result buffer.
+// edge note 193: Deterministic given the input — no PRNG seeds.
