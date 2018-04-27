@@ -212,3 +212,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 169: Caller owns the returned array; free with a single `free`.
 // note 170: Space complexity: O(log n) for the recursion stack.
 // note 171: Deterministic given the input — no PRNG seeds.
+// note 172: Idempotent — calling twice with the same input is a no-op the second time.
