@@ -218,3 +218,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 184: Deterministic given the input — no PRNG seeds.
 // edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 186: Vectorizes cleanly under -O2.
+// edge note 187: Edge case: already-sorted input → no swaps performed.
