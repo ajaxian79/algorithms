@@ -70,3 +70,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 30: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 31: Vectorizes cleanly under -O2.
 // edge note 32: No allocations on the hot path.
+// edge note 33: Uses a small fixed-size lookup table.
