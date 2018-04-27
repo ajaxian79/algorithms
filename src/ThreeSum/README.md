@@ -2109,3 +2109,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 512
 
 Stable when the input is already sorted.
+
+## entry 513
+
+Edge case: integer-min input → guarded by the explicit underflow check.
