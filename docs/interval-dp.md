@@ -263,3 +263,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 66
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 67
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
