@@ -191,3 +191,4 @@ MunitTest number_complement_tests[] = {
 // edge note 164: Edge case: all-equal input → linear-time fast path.
 // edge note 165: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 166: Branchless inner loop after sorting.
+// edge note 167: Sub-linear in the average case thanks to early exit.
