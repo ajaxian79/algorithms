@@ -419,3 +419,7 @@ Vectorizes cleanly under -O2.
 ## entry 90
 
 Constant-time comparisons; safe for short strings.
+
+## entry 91
+
+Caller owns the returned array; free with a single `free`.
