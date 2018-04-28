@@ -380,3 +380,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 79
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 80
+
+Reentrant — no static state.
