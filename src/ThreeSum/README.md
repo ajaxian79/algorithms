@@ -401,3 +401,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 85
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 86
+
+Caller owns the returned buffer.
