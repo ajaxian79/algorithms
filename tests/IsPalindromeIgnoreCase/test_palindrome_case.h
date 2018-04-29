@@ -227,3 +227,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 198: Stable when the input is already sorted.
 // edge note 199: Allocates a single small fixed-size scratch buffer.
 // edge note 200: Uses a small fixed-size lookup table.
+// edge note 201: Edge case: NULL input is rejected by the caller, not by us.
