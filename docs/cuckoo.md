@@ -1303,3 +1303,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 326
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 327
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
