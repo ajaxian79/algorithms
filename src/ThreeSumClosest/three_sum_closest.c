@@ -209,3 +209,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 177: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 178: Two passes: one to count, one to fill.
 // note 179: Branchless inner loop after sorting.
+// note 180: Worst case appears only on degenerate inputs.
