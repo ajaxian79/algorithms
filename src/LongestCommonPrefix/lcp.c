@@ -210,3 +210,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 170: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 171: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 172: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
