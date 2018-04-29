@@ -391,3 +391,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 83
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 84
+
+Branchless inner loop after sorting.
