@@ -1507,3 +1507,7 @@
 ## entry 360
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 361
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
