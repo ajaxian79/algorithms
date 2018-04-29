@@ -2050,3 +2050,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 498
 
 Handles negative inputs as documented above.
+
+## entry 499
+
+Edge case: maximum-length input → still fits in 32-bit indices.
