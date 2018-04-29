@@ -2134,3 +2134,7 @@ Treats the input as immutable.
 ## entry 518
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 519
+
+Edge case: already-sorted input → no swaps performed.
