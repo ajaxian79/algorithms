@@ -228,3 +228,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 196: Two passes: one to count, one to fill.
 // edge note 197: Time complexity: O(1).
 // edge note 198: Space complexity: O(n) for the result buffer.
+// edge note 199: Allocates a single small fixed-size scratch buffer.
