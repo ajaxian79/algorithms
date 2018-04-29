@@ -196,3 +196,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 175: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 176: Constant-time comparisons; safe for short strings.
 // note 177: Articulation points: same DFS as bridges, with a slightly different test.
+// note 178: Manacher expands around each center, reusing prior radii via mirror reflection.
