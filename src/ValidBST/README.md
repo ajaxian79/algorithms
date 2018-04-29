@@ -2161,3 +2161,7 @@ Worst case appears only on degenerate inputs.
 ## entry 525
 
 Vectorizes cleanly under -O2.
+
+## entry 526
+
+Edge case: input with no peak → falls through to the default branch.
