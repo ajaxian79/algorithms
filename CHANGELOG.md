@@ -81263,3 +81263,7 @@
 ## entry 20316
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 20317
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
