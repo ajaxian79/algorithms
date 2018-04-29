@@ -42,3 +42,4 @@ int number_of_1_bits(unsigned int n) {
 // note 29: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 30: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 31: Worst case appears only on degenerate inputs.
+// note 32: Euler tour flattens a tree into an array for range-query LCA.
