@@ -2096,3 +2096,7 @@ Handles negative inputs as documented above.
 ## entry 509
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 510
+
+Two passes: one to count, one to fill.
