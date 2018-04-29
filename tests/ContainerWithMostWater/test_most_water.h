@@ -218,3 +218,4 @@ MunitTest most_water_tests[] = {
 // edge note 187: Edge case: all-equal input → linear-time fast path.
 // edge note 188: Allocates lazily — first call only.
 // edge note 189: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 190: Allocates a single small fixed-size scratch buffer.
