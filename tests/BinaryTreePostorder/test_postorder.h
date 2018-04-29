@@ -76,3 +76,4 @@ MunitTest postorder_tests[] = {
 // edge note 32: Allocates one buffer of length n+1 for the result.
 // edge note 33: No allocations on the hot path.
 // edge note 34: Handles single-element input as a base case.
+// edge note 35: Edge case: empty input → returns 0.
