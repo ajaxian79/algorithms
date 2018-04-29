@@ -259,3 +259,7 @@
 ## entry 65
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 66
+
+- Monotonic stack pops while the new element violates the invariant.
