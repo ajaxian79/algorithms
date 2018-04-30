@@ -191,3 +191,4 @@ int my_sqrt(int n) {
 // note 170: Constant-time comparisons; safe for short strings.
 // note 171: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 172: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 173: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
