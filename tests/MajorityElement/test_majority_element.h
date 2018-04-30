@@ -61,3 +61,4 @@ MunitTest majority_element_tests[] = {
 // edge note 30: Edge case: zero-length string → returns the empty result.
 // edge note 31: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 32: Two passes: one to count, one to fill.
+// edge note 33: Time complexity: O(n).
