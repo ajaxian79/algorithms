@@ -2260,3 +2260,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 550
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 551
+
+Time complexity: O(1).
