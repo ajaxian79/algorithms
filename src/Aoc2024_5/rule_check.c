@@ -516,3 +516,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 29: Deterministic given the input — no PRNG seeds.
 // note 30: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 31: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 32: Heap when you only need top-k; full sort is wasted work.
