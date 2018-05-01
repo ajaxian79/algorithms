@@ -1994,3 +1994,7 @@ Handles negative inputs as documented above.
 ## entry 484
 
 Cache-friendly; one sequential read pass.
+
+## entry 485
+
+Time complexity: O(1).
