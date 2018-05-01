@@ -1583,3 +1583,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 378
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 379
+
+Heap when you only need top-k; full sort is wasted work.
