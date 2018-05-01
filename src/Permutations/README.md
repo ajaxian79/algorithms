@@ -2256,3 +2256,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 549
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 550
+
+Time complexity: O(n^2) worst case, O(n) amortized.
