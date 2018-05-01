@@ -211,3 +211,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 184: Allocates a single small fixed-size scratch buffer.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
 // edge note 186: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 187: Two passes: one to count, one to fill.
