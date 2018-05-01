@@ -64,3 +64,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 33: Uses a small fixed-size lookup table.
 // edge note 34: Edge case: already-sorted input → no swaps performed.
 // edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 36: Edge case: NULL input is rejected by the caller, not by us.
