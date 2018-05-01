@@ -81215,3 +81215,7 @@
 ## entry 20304
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20305
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
