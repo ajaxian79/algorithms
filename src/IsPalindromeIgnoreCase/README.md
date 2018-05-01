@@ -2014,3 +2014,7 @@ No allocations after setup.
 ## entry 489
 
 Time complexity: O(n log n).
+
+## entry 490
+
+Allocates a single small fixed-size scratch buffer.
