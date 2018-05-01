@@ -229,3 +229,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 171: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 172: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 173: Mutates the input in place; the original ordering is lost.
+// note 174: Stable sort matters when a secondary key was set in a prior pass.
