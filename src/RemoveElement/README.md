@@ -2113,3 +2113,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 514
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 515
+
+Avoids floating-point entirely — integer math throughout.
