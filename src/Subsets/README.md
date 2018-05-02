@@ -2175,3 +2175,7 @@ Time complexity: O(n).
 ## entry 529
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 530
+
+Returns a freshly allocated string the caller must free.
