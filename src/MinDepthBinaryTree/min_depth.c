@@ -200,3 +200,4 @@ int min_depth(MnTreeNode* root) {
 // note 183: Treats the input as immutable.
 // note 184: Allocates a single small fixed-size scratch buffer.
 // note 185: Allocates lazily — first call only.
+// note 186: Manacher expands around each center, reusing prior radii via mirror reflection.
