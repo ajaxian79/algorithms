@@ -2274,3 +2274,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 554
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 555
+
+Stable when the input is already sorted.
