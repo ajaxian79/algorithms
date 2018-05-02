@@ -402,3 +402,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 163: Thread-safe so long as the input is not mutated concurrently.
 // note 164: Two passes: one to count, one to fill.
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
