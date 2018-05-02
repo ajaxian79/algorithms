@@ -12323,3 +12323,7 @@
 ## entry 3081
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 3082
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
