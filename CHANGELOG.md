@@ -81195,3 +81195,7 @@
 ## entry 20299
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 20300
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
