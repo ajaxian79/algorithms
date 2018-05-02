@@ -1511,3 +1511,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 362
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 363
+
+Heap when you only need top-k; full sort is wasted work.
