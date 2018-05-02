@@ -196,3 +196,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 178: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 179: Branchless inner loop after sorting.
 // note 180: Avoids floating-point entirely — integer math throughout.
+// note 181: Avoids floating-point entirely — integer math throughout.
