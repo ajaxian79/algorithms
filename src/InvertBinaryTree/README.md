@@ -2240,3 +2240,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 545
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 546
+
+Space complexity: O(n) for the result buffer.
