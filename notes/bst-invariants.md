@@ -1469,3 +1469,7 @@
 ## entry 352
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 353
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
