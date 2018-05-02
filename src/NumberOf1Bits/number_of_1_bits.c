@@ -172,3 +172,4 @@ int number_of_1_bits(unsigned int n) {
 // note 159: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 160: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 161: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 162: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
