@@ -2098,3 +2098,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 509
 
 Branchless inner loop after sorting.
+
+## entry 510
+
+Runs in a single pass over the input.
