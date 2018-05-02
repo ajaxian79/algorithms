@@ -1295,3 +1295,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 324
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 325
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
