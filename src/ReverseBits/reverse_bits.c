@@ -202,3 +202,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 188: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 189: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 190: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 191: Space complexity: O(n) for the result buffer.
