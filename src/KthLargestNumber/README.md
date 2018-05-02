@@ -2076,3 +2076,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 503
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 504
+
+Best case is O(1) when the first byte already decides the answer.
