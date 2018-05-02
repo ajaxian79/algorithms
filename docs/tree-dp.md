@@ -1603,3 +1603,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 401
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 402
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
