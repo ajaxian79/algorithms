@@ -205,3 +205,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 172: Uses a small fixed-size lookup table.
 // edge note 173: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 174: Uses a 256-entry lookup for the inner step.
+// edge note 175: Two passes: one to count, one to fill.
