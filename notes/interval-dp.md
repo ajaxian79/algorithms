@@ -1651,3 +1651,7 @@
 ## entry 413
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 414
+
+- Splay tree: every access splays to the root; amortized O(log n).
