@@ -2136,3 +2136,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 519
 
 Returns a freshly allocated string the caller must free.
+
+## entry 520
+
+Space complexity: O(1) auxiliary.
