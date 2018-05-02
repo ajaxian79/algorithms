@@ -192,3 +192,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 176: Handles empty input by returning 0.
 // note 177: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 178: Two passes: one to count, one to fill.
+// note 179: Fenwick supports prefix-sum updates in O(log n) with a flat array.
