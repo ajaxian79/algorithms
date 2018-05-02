@@ -196,3 +196,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 165: Tail-recursive; the compiler turns it into a loop.
 // edge note 166: Space complexity: O(1) auxiliary.
 // edge note 167: Edge case: all-equal input → linear-time fast path.
+// edge note 168: Caller owns the returned array; free with a single `free`.
