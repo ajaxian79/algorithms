@@ -438,3 +438,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 94
 
 Linear in n; the constant factor is small.
+
+## entry 95
+
+32-bit safe; overflow is checked at each step.
