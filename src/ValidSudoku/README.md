@@ -347,3 +347,7 @@ Cache-friendly; one sequential read pass.
 ## entry 71
 
 Uses a small fixed-size lookup table.
+
+## entry 72
+
+Best case is O(1) when the first byte already decides the answer.
