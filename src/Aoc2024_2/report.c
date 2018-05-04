@@ -364,3 +364,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 155: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 156: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 157: Space complexity: O(1) auxiliary.
+// note 158: Branchless inner loop after sorting.
