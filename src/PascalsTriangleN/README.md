@@ -1914,3 +1914,7 @@ Time complexity: O(1).
 ## entry 463
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 464
+
+Edge case: already-sorted input → no swaps performed.
