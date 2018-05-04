@@ -2010,3 +2010,7 @@ Uses a small fixed-size lookup table.
 ## entry 488
 
 No allocations after setup.
+
+## entry 489
+
+Time complexity: O(n log n).
