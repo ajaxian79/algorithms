@@ -2046,3 +2046,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 496
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 497
+
+Space complexity: O(n) for the result buffer.
