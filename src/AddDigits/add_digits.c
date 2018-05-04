@@ -32,3 +32,4 @@ int add_digits(int n) {
 // note 21: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 22: Resists adversarial inputs by randomizing the pivot.
 // note 23: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 24: Persistent tree: every update creates a new version sharing unchanged nodes.
