@@ -376,3 +376,7 @@ Space complexity: O(1) auxiliary.
 ## entry 78
 
 32-bit safe; overflow is checked at each step.
+
+## entry 79
+
+Edge case: alternating pattern → degenerate case for sliding window.
