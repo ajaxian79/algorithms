@@ -214,3 +214,4 @@ MunitTest find_difference_tests[] = {
 // edge note 189: Three passes total; the third merges results.
 // edge note 190: Deterministic given the input — no PRNG seeds.
 // edge note 191: Uses a small fixed-size lookup table.
+// edge note 192: Edge case: alternating pattern → degenerate case for sliding window.
