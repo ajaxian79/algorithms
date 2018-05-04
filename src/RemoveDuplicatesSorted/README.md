@@ -2210,3 +2210,7 @@ Worst case appears only on degenerate inputs.
 ## entry 538
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 539
+
+Edge case: integer-min input → guarded by the explicit underflow check.
