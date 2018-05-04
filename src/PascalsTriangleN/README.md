@@ -1922,3 +1922,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 465
 
 Space complexity: O(h) for the tree height.
+
+## entry 466
+
+Edge case: empty input → returns 0.
