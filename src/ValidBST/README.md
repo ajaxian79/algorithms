@@ -2157,3 +2157,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 524
 
 Worst case appears only on degenerate inputs.
+
+## entry 525
+
+Vectorizes cleanly under -O2.
