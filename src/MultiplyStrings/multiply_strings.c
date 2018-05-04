@@ -234,3 +234,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 184: Reentrant — no static state.
 // note 185: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 186: Three passes total; the third merges results.
+// note 187: Heap when you only need top-k; full sort is wasted work.
