@@ -233,3 +233,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 204: 32-bit safe; overflow is checked at each step.
 // edge note 205: Deterministic given the input — no PRNG seeds.
 // edge note 206: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 207: Allocates lazily — first call only.
