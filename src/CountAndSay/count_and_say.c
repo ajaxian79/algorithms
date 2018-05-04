@@ -235,3 +235,4 @@ char* count_and_say(int n) {
 // note 186: Uses a small fixed-size lookup table.
 // note 187: Time complexity: O(n).
 // note 188: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 189: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
