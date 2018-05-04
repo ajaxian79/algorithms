@@ -1515,3 +1515,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 363
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 364
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
