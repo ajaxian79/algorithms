@@ -210,3 +210,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 167: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 169: Allocates lazily — first call only.
+// note 170: k-d tree: median-split each axis; nearest-neighbor average O(log n).
