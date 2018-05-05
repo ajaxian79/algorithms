@@ -1591,3 +1591,7 @@
 ## entry 380
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 381
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
