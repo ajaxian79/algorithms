@@ -386,3 +386,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 81
 
 Stable when the input is already sorted.
+
+## entry 82
+
+Branchless inner loop after sorting.
