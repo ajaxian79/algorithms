@@ -353,3 +353,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 73
 
 Time complexity: O(n).
+
+## entry 74
+
+Edge case: input with one duplicate → handled without an extra pass.
