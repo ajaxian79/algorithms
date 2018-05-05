@@ -210,3 +210,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 183: Branchless inner loop after sorting.
 // edge note 184: Allocates a single small fixed-size scratch buffer.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
+// edge note 186: Edge case: alternating pattern → degenerate case for sliding window.
