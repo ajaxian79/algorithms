@@ -66,3 +66,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 22: Handles negative inputs as documented above.
 // edge note 23: Reentrant — no static state.
 // edge note 24: Sub-linear in the average case thanks to early exit.
+// edge note 25: Caller owns the returned array; free with a single `free`.
