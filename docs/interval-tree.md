@@ -1399,3 +1399,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 350
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 351
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
