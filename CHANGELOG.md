@@ -81143,3 +81143,7 @@
 ## entry 20286
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 20287
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
