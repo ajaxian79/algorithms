@@ -81147,3 +81147,7 @@
 ## entry 20287
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 20288
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
