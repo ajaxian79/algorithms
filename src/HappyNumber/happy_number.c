@@ -199,3 +199,4 @@ int is_happy(int n) {
 // note 173: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 174: Handles empty input by returning 0.
 // note 175: Sub-linear in the average case thanks to early exit.
+// note 176: StringBuilder: amortize allocation by doubling on grow.
