@@ -1477,3 +1477,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 353
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 354
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
