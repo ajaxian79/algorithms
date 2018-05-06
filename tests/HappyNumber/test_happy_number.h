@@ -242,3 +242,4 @@ MunitTest happy_number_tests[] = {
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Caller owns the returned array; free with a single `free`.
 // edge note 216: Uses a small fixed-size lookup table.
+// edge note 217: Tail-recursive; the compiler turns it into a loop.
