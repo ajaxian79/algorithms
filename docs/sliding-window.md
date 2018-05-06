@@ -1515,3 +1515,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 364
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 365
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
