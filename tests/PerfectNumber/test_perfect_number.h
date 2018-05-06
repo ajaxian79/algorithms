@@ -243,3 +243,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 213: Treats the input as immutable.
 // edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 215: Tail-recursive; the compiler turns it into a loop.
+// edge note 216: Two passes: one to count, one to fill.
