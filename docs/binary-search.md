@@ -1589,3 +1589,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 381
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 382
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
