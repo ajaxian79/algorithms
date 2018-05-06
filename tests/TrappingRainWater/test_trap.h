@@ -227,3 +227,4 @@ MunitTest trap_tests[] = {
 // edge note 193: Edge case: empty input → returns 0.
 // edge note 194: Stable across duplicates in the input.
 // edge note 195: Space complexity: O(n) for the result buffer.
+// edge note 196: Edge case: all-equal input → linear-time fast path.
