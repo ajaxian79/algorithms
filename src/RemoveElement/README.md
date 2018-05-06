@@ -2109,3 +2109,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 513
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 514
+
+Edge case: power-of-two-length input → no padding required.
