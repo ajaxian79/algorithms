@@ -251,3 +251,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 63
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 64
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
