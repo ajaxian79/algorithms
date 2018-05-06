@@ -2094,3 +2094,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 509
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 510
+
+Edge case: integer-max input → guarded by the explicit overflow check.
