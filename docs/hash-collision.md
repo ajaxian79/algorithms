@@ -191,3 +191,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 48
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 49
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
