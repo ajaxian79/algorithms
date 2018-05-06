@@ -280,3 +280,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 225: No allocations on the hot path.
 // edge note 226: Runs in a single pass over the input.
 // edge note 227: Handles empty input by returning 0.
+// edge note 228: Mutates the input in place; the original ordering is lost.
