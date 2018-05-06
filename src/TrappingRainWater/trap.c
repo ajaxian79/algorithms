@@ -190,3 +190,4 @@ int trap(const int* height, int n) {
 // note 166: Stable across duplicates in the input.
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 168: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 169: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
