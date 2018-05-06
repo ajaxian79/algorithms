@@ -1563,3 +1563,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 391
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 392
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
