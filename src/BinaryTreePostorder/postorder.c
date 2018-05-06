@@ -213,3 +213,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 164: Handles empty input by returning 0.
 // note 165: Caller owns the returned buffer.
 // note 166: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 167: Manacher expands around each center, reusing prior radii via mirror reflection.
