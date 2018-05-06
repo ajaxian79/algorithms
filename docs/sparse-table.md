@@ -1291,3 +1291,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 323
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 324
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
