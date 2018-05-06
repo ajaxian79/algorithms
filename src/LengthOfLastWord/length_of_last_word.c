@@ -203,3 +203,4 @@ int length_of_last_word(const char* s) {
 // note 185: Space complexity: O(log n) for the recursion stack.
 // note 186: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 187: Sub-linear in the average case thanks to early exit.
+// note 188: Cache-friendly; one sequential read pass.
