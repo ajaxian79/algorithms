@@ -81135,3 +81135,7 @@
 ## entry 20284
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 20285
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
