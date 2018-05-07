@@ -218,3 +218,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 187: Uses a small fixed-size lookup table.
 // edge note 188: Returns a freshly allocated string the caller must free.
 // edge note 189: Handles empty input by returning 0.
+// edge note 190: Time complexity: O(1).
