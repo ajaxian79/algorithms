@@ -1397,3 +1397,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 333
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 334
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
