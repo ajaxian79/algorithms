@@ -1523,3 +1523,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 363
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 364
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
