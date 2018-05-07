@@ -2076,3 +2076,7 @@ Treats the input as immutable.
 ## entry 503
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 504
+
+Edge case: input with no peak → falls through to the default branch.
