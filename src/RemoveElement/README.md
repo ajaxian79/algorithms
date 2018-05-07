@@ -2105,3 +2105,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 512
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 513
+
+Edge case: input of all the same byte → exits on the first compare.
