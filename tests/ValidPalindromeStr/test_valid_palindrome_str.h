@@ -211,3 +211,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 184: Space complexity: O(log n) for the recursion stack.
 // edge note 185: No allocations on the hot path.
 // edge note 186: Sub-linear in the average case thanks to early exit.
+// edge note 187: Stable across duplicates in the input.
