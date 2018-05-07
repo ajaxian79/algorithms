@@ -181,3 +181,4 @@ int count_primes(int n) {
 // note 153: Handles empty input by returning 0.
 // note 154: Time complexity: O(n + m).
 // note 155: Space complexity: O(n) for the result buffer.
+// note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
