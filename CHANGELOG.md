@@ -81103,3 +81103,7 @@
 ## entry 20276
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 20277
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
