@@ -1557,3 +1557,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 372
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 373
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
