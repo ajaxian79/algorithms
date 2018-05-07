@@ -1990,3 +1990,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 483
 
 Handles negative inputs as documented above.
+
+## entry 484
+
+Cache-friendly; one sequential read pass.
