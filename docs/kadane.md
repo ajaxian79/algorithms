@@ -1463,3 +1463,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 350
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 351
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
