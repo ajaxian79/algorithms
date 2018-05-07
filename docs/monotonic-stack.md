@@ -1401,3 +1401,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 334
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 335
+
+Merge intervals: sort by start; extend the running interval while overlapping.
