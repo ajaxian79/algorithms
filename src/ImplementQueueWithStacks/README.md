@@ -2095,3 +2095,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 509
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 510
+
+Edge case: integer-max input → guarded by the explicit overflow check.
