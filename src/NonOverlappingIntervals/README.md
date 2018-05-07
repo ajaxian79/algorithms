@@ -2065,3 +2065,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 501
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 502
+
+Tail-recursive; the compiler turns it into a loop.
