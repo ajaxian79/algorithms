@@ -2094,3 +2094,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 508
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 509
+
+Branchless inner loop after sorting.
