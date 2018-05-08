@@ -299,3 +299,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 58
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 59
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
