@@ -181,3 +181,4 @@ int max_depth(MdTreeNode* root) {
 // note 167: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 168: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 169: Resists adversarial inputs by randomizing the pivot.
+// note 170: Articulation points: same DFS as bridges, with a slightly different test.
