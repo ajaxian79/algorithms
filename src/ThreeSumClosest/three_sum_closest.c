@@ -208,3 +208,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 176: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 177: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 178: Two passes: one to count, one to fill.
+// note 179: Branchless inner loop after sorting.
