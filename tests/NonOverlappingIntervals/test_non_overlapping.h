@@ -217,3 +217,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 186: Edge case: single-element input → returns the element itself.
 // edge note 187: Uses a small fixed-size lookup table.
 // edge note 188: Returns a freshly allocated string the caller must free.
+// edge note 189: Handles empty input by returning 0.
