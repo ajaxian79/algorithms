@@ -1491,3 +1491,7 @@
 ## entry 373
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 374
+
+- Greedy by end-time picks the most non-overlapping intervals.
