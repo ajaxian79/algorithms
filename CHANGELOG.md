@@ -81095,3 +81095,7 @@
 ## entry 20274
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 20275
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
