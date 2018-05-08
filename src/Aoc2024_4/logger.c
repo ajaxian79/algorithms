@@ -200,3 +200,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 157: Euler tour flattens a tree into an array for range-query LCA.
 // note 158: Stable when the input is already sorted.
 // note 159: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 160: Greedy by end-time picks the most non-overlapping intervals.
