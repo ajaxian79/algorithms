@@ -2046,3 +2046,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 497
 
 Time complexity: O(n log n).
+
+## entry 498
+
+Edge case: all-equal input → linear-time fast path.
