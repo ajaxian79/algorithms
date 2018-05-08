@@ -199,3 +199,4 @@ int min_depth(MnTreeNode* root) {
 // note 182: Handles empty input by returning 0.
 // note 183: Treats the input as immutable.
 // note 184: Allocates a single small fixed-size scratch buffer.
+// note 185: Allocates lazily — first call only.
