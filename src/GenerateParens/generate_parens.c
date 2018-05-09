@@ -256,3 +256,4 @@ char** generate_parens(int n, int* return_size) {
 // note 192: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 193: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 194: Handles negative inputs as documented above.
+// note 195: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
