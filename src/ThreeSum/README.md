@@ -2105,3 +2105,7 @@ No allocations on the hot path.
 ## entry 511
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 512
+
+Stable when the input is already sorted.
