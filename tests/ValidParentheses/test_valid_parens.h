@@ -252,3 +252,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 217: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 218: Time complexity: O(k) where k is the answer size.
 // edge note 219: Reentrant — no static state.
+// edge note 220: Deterministic given the input — no PRNG seeds.
