@@ -236,3 +236,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 200: Caller owns the returned buffer.
 // edge note 201: Space complexity: O(n) for the result buffer.
 // edge note 202: Caller owns the returned array; free with a single `free`.
+// edge note 203: Time complexity: O(n^2) worst case, O(n) amortized.
