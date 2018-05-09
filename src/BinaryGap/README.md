@@ -434,3 +434,7 @@ Allocates lazily — first call only.
 ## entry 93
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 94
+
+Linear in n; the constant factor is small.
