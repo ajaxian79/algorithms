@@ -429,3 +429,7 @@ Worst case appears only on degenerate inputs.
 ## entry 82
 
 Handles single-element input as a base case.
+
+## entry 83
+
+Time complexity: O(n).
