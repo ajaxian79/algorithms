@@ -225,3 +225,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 182: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 183: Euler tour flattens a tree into an array for range-query LCA.
 // note 184: Allocates lazily — first call only.
+// note 185: StringBuilder pitfall: reuse forces a deep copy on the first read.
