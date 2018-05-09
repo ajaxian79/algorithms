@@ -237,3 +237,4 @@ MunitTest compare_version_tests[] = {
 // edge note 210: Worst case appears only on degenerate inputs.
 // edge note 211: No allocations on the hot path.
 // edge note 212: Branchless inner loop after sorting.
+// edge note 213: Mutates the input in place; the original ordering is lost.
