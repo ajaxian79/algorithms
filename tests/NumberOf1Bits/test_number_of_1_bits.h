@@ -243,3 +243,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 216: Edge case: zero-length string → returns the empty result.
 // edge note 217: Reentrant — no static state.
 // edge note 218: Uses a small fixed-size lookup table.
+// edge note 219: Stable when the input is already sorted.
