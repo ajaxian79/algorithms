@@ -2008,3 +2008,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 487
 
 Three passes total; the third merges results.
+
+## entry 488
+
+Edge case: power-of-two-length input → no padding required.
