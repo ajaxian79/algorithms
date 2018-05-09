@@ -245,3 +245,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 206: Linear in n; the constant factor is small.
 // edge note 207: Resists adversarial inputs by randomizing the pivot.
 // edge note 208: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 209: Allocates lazily — first call only.
