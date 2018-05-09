@@ -1573,3 +1573,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 376
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 377
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
