@@ -12291,3 +12291,7 @@
 ## entry 3073
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 3074
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
