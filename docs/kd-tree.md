@@ -1519,3 +1519,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 380
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 381
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
