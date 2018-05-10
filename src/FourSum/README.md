@@ -2052,3 +2052,7 @@ Stable when the input is already sorted.
 ## entry 498
 
 Time complexity: O(n).
+
+## entry 499
+
+Sub-linear in the average case thanks to early exit.
