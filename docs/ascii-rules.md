@@ -1499,3 +1499,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 375
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 376
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
