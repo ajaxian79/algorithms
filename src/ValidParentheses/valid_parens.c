@@ -243,3 +243,4 @@ int is_valid_parens(const char* s) {
 // note 201: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 202: Uses a 256-entry lookup for the inner step.
 // note 203: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 204: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
