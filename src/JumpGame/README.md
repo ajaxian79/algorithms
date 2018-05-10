@@ -2133,3 +2133,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 518
 
 No allocations after setup.
+
+## entry 519
+
+Avoids floating-point entirely — integer math throughout.
