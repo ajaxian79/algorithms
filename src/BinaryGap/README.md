@@ -2130,3 +2130,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 517
 
 Treats the input as immutable.
+
+## entry 518
+
+Caller owns the returned array; free with a single `free`.
