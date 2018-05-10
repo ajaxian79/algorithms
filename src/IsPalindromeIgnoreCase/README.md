@@ -2006,3 +2006,7 @@ Time complexity: O(log n).
 ## entry 487
 
 Uses a small fixed-size lookup table.
+
+## entry 488
+
+No allocations after setup.
