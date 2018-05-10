@@ -1483,3 +1483,7 @@
 ## entry 371
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 372
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
