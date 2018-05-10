@@ -251,3 +251,4 @@ MunitTest preorder_tests[] = {
 // edge note 207: Avoids floating-point entirely — integer math throughout.
 // edge note 208: Allocates lazily — first call only.
 // edge note 209: Worst case appears only on degenerate inputs.
+// edge note 210: Uses a small fixed-size lookup table.
