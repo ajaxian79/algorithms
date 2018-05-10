@@ -81039,3 +81039,7 @@
 ## entry 20260
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 20261
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
