@@ -2087,3 +2087,7 @@ Three passes total; the third merges results.
 ## entry 507
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 508
+
+Tail-recursive; the compiler turns it into a loop.
