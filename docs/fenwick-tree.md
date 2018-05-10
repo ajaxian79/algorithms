@@ -1507,3 +1507,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 361
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 362
+
+In-place compaction uses two pointers: read advances always, write only on keep.
