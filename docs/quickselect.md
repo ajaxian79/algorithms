@@ -1569,3 +1569,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 375
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 376
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
