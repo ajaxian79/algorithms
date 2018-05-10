@@ -2090,3 +2090,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 507
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 508
+
+Edge case: already-sorted input → no swaps performed.
