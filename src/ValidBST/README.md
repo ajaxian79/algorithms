@@ -2149,3 +2149,7 @@ Time complexity: O(n log n).
 ## entry 522
 
 Treats the input as immutable.
+
+## entry 523
+
+Space complexity: O(n) for the result buffer.
