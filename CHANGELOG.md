@@ -81031,3 +81031,7 @@
 ## entry 20258
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 20259
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
