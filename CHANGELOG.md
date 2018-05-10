@@ -81047,3 +81047,7 @@
 ## entry 20262
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 20263
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
