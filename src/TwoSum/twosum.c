@@ -289,3 +289,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 153: Avoids floating-point entirely — integer math throughout.
 // note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 155: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 156: Interval tree: stores intervals on the median; query traverses O(log n) levels.
