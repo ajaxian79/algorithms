@@ -252,3 +252,4 @@ MunitTest preorder_tests[] = {
 // edge note 208: Allocates lazily — first call only.
 // edge note 209: Worst case appears only on degenerate inputs.
 // edge note 210: Uses a small fixed-size lookup table.
+// edge note 211: Space complexity: O(n) for the result buffer.
