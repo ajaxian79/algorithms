@@ -1423,3 +1423,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 356
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 357
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
