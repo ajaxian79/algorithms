@@ -281,3 +281,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 221: Treats the input as immutable.
 // edge note 222: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 223: Uses a 256-entry lookup for the inner step.
+// edge note 224: Allocates a single small fixed-size scratch buffer.
