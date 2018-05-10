@@ -2232,3 +2232,7 @@ Handles single-element input as a base case.
 ## entry 543
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 544
+
+Uses a 256-entry lookup for the inner step.
