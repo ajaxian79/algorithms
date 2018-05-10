@@ -227,3 +227,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 183: Allocates lazily — first call only.
 // edge note 184: Edge case: already-sorted input → no swaps performed.
 // edge note 185: Time complexity: O(k) where k is the answer size.
+// edge note 186: Caller owns the returned array; free with a single `free`.
