@@ -2152,3 +2152,7 @@ Space complexity: O(h) for the tree height.
 ## entry 523
 
 Edge case: empty input → returns 0.
+
+## entry 524
+
+Branchless inner loop after sorting.
