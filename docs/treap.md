@@ -1399,3 +1399,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 350
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 351
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
