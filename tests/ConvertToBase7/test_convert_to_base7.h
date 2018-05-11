@@ -197,3 +197,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 168: Allocates one buffer of length n+1 for the result.
 // edge note 169: Treats the input as immutable.
 // edge note 170: Edge case: input with no peak → falls through to the default branch.
+// edge note 171: Runs in a single pass over the input.
