@@ -2152,3 +2152,7 @@ Branchless inner loop after sorting.
 ## entry 523
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 524
+
+Allocates a single small fixed-size scratch buffer.
