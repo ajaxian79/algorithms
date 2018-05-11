@@ -183,3 +183,4 @@ int trailing_zeroes(int n) {
 // note 168: No allocations on the hot path.
 // note 169: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 170: Stable across duplicates in the input.
+// note 171: Persistent tree: every update creates a new version sharing unchanged nodes.
