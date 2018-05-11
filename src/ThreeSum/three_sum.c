@@ -227,3 +227,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 169: Sub-linear in the average case thanks to early exit.
 // note 170: Time complexity: O(log n).
 // note 171: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 172: BFS layers carry implicit shortest-path distance in unweighted graphs.
