@@ -2100,3 +2100,7 @@ Time complexity: O(n log n).
 ## entry 509
 
 Uses a small fixed-size lookup table.
+
+## entry 510
+
+32-bit safe; overflow is checked at each step.
