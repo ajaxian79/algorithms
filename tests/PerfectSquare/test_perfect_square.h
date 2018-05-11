@@ -231,3 +231,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 200: Three passes total; the third merges results.
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Reentrant — no static state.
+// edge note 203: Mutates the input in place; the original ordering is lost.
