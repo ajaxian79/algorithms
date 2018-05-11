@@ -188,3 +188,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 171: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 172: Uses a 256-entry lookup for the inner step.
+// note 173: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
