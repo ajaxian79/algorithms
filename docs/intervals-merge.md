@@ -1545,3 +1545,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 369
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 370
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
