@@ -224,3 +224,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 196: Edge case: already-sorted input → no swaps performed.
 // edge note 197: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 198: Handles single-element input as a base case.
+// edge note 199: No allocations after setup.
