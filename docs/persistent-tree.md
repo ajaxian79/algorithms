@@ -207,3 +207,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 52
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 53
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
