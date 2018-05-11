@@ -231,3 +231,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
 // edge note 203: Allocates a single small fixed-size scratch buffer.
 // edge note 204: 32-bit safe; overflow is checked at each step.
+// edge note 205: Deterministic given the input — no PRNG seeds.
