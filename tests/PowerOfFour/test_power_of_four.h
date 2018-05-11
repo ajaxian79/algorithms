@@ -227,3 +227,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 195: Caller owns the returned buffer.
 // edge note 196: Two passes: one to count, one to fill.
 // edge note 197: Time complexity: O(1).
+// edge note 198: Space complexity: O(n) for the result buffer.
