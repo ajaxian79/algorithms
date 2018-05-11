@@ -216,3 +216,4 @@ int roman_to_int(const char* s) {
 // note 176: Handles negative inputs as documented above.
 // note 177: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 178: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 179: 64-bit safe; intermediate products are widened to 128-bit.
