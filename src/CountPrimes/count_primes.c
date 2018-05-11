@@ -55,3 +55,4 @@ int count_primes(int n) {
 // note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 28: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 29: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 30: Persistent tree: every update creates a new version sharing unchanged nodes.
