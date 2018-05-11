@@ -1403,3 +1403,7 @@
 ## entry 351
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 352
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
