@@ -2143,3 +2143,7 @@ Linear in n; the constant factor is small.
 ## entry 520
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 521
+
+Allocates lazily — first call only.
