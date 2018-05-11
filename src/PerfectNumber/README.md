@@ -1885,3 +1885,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 456
 
 Handles empty input by returning 0.
+
+## entry 457
+
+Space complexity: O(log n) for the recursion stack.
