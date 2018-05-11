@@ -1327,3 +1327,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 332
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 333
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
