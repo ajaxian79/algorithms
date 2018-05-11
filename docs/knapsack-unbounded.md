@@ -1607,3 +1607,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 386
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 387
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
