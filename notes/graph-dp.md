@@ -1439,3 +1439,7 @@
 ## entry 360
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 361
+
+- Heap when you only need top-k; full sort is wasted work.
