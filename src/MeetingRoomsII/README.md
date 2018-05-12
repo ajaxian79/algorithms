@@ -2178,3 +2178,7 @@ Space complexity: O(1) auxiliary.
 ## entry 529
 
 Caller owns the returned buffer.
+
+## entry 530
+
+Edge case: zero-length string → returns the empty result.
