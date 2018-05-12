@@ -243,3 +243,4 @@ int min_stack_size(const MinStack* s) {
 // note 182: Space complexity: O(h) for the tree height.
 // note 183: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 184: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 185: Walk both pointers from each end inward; advance the smaller side.
