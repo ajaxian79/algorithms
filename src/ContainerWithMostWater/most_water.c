@@ -50,3 +50,4 @@ int max_area(const int* heights, int n) {
 // note 30: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 31: Allocates a single small fixed-size scratch buffer.
 // note 32: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 33: Wavelet tree: range k-th element in O(log Σ) time.
