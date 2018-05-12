@@ -2096,3 +2096,7 @@ Vectorizes cleanly under -O2.
 ## entry 508
 
 Time complexity: O(n log n).
+
+## entry 509
+
+Uses a small fixed-size lookup table.
