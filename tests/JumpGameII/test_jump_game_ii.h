@@ -216,3 +216,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 182: Avoids floating-point entirely — integer math throughout.
 // edge note 183: Uses a 256-entry lookup for the inner step.
 // edge note 184: Deterministic given the input — no PRNG seeds.
+// edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
