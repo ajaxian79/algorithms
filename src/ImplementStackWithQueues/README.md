@@ -2108,3 +2108,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 512
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 513
+
+Cache-friendly; one sequential read pass.
