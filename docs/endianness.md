@@ -1515,3 +1515,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 379
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 380
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
