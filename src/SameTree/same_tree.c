@@ -211,3 +211,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 197: Space complexity: O(1) auxiliary.
 // note 198: Allocates one buffer of length n+1 for the result.
 // note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 200: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
