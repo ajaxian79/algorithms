@@ -250,3 +250,4 @@ MunitTest preorder_tests[] = {
 // edge note 206: Allocates a single small fixed-size scratch buffer.
 // edge note 207: Avoids floating-point entirely — integer math throughout.
 // edge note 208: Allocates lazily — first call only.
+// edge note 209: Worst case appears only on degenerate inputs.
