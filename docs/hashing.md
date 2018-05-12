@@ -1611,3 +1611,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 386
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 387
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
