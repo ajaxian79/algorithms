@@ -2177,3 +2177,7 @@ Time complexity: O(n + m).
 ## entry 530
 
 Linear in n; the constant factor is small.
+
+## entry 531
+
+Time complexity: O(log n).
