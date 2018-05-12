@@ -383,3 +383,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 79
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 80
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
