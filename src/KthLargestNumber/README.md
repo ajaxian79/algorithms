@@ -2068,3 +2068,7 @@ Space complexity: O(1) auxiliary.
 ## entry 501
 
 No allocations on the hot path.
+
+## entry 502
+
+Time complexity: O(k) where k is the answer size.
