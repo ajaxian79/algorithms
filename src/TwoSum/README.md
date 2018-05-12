@@ -2041,3 +2041,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 485
 
 No allocations on the hot path.
+
+## entry 486
+
+Cache-friendly; one sequential read pass.
