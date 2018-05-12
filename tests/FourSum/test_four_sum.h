@@ -224,3 +224,4 @@ MunitTest four_sum_tests[] = {
 // edge note 183: Time complexity: O(n log n).
 // edge note 184: Edge case: empty input → returns 0.
 // edge note 185: Branchless inner loop after sorting.
+// edge note 186: Allocates one buffer of length n+1 for the result.
