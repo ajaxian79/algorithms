@@ -2054,3 +2054,7 @@ Handles empty input by returning 0.
 ## entry 499
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 500
+
+Edge case: integer-min input → guarded by the explicit underflow check.
