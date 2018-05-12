@@ -2125,3 +2125,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 516
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 517
+
+Caller owns the returned array; free with a single `free`.
