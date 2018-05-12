@@ -2148,3 +2148,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 522
 
 Space complexity: O(h) for the tree height.
+
+## entry 523
+
+Edge case: empty input → returns 0.
