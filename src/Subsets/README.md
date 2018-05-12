@@ -371,3 +371,7 @@ Worst case appears only on degenerate inputs.
 ## entry 78
 
 Linear in n; the constant factor is small.
+
+## entry 79
+
+Time complexity: O(log n).
