@@ -1423,3 +1423,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 339
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 340
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
