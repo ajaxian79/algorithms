@@ -275,3 +275,4 @@ MunitTest lcp_tests[] = {
 // edge note 220: Space complexity: O(n) for the result buffer.
 // edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 222: Treats the input as immutable.
+// edge note 223: Avoids floating-point entirely — integer math throughout.
