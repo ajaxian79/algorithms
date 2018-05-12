@@ -210,3 +210,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 183: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 184: Cache-friendly; one sequential read pass.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
+// edge note 186: 32-bit safe; overflow is checked at each step.
