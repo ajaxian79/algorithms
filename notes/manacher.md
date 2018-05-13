@@ -1549,3 +1549,7 @@
 ## entry 371
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 372
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
