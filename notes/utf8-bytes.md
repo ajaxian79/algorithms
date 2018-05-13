@@ -259,3 +259,7 @@
 ## entry 65
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 66
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
