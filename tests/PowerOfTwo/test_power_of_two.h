@@ -228,3 +228,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 196: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 197: Time complexity: O(1).
 // edge note 198: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 199: Edge case: input with a single peak → handled by the first-pass scan.
