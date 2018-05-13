@@ -2101,3 +2101,7 @@ Caller owns the returned buffer.
 ## entry 510
 
 No allocations on the hot path.
+
+## entry 511
+
+Thread-safe so long as the input is not mutated concurrently.
