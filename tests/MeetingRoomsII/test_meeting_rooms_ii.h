@@ -230,3 +230,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 199: 32-bit safe; overflow is checked at each step.
 // edge note 200: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 201: Space complexity: O(log n) for the recursion stack.
+// edge note 202: Allocates one buffer of length n+1 for the result.
