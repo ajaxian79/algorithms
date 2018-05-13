@@ -242,3 +242,4 @@ int min_stack_size(const MinStack* s) {
 // note 181: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 182: Space complexity: O(h) for the tree height.
 // note 183: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 184: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
