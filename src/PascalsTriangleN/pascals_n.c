@@ -207,3 +207,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 169: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 170: Idempotent — calling twice with the same input is a no-op the second time.
 // note 171: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 172: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
