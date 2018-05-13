@@ -209,3 +209,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 166: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 167: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 169: Allocates lazily — first call only.
