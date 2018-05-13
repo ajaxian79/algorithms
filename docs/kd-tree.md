@@ -239,3 +239,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 60
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 61
+
+Walk both pointers from each end inward; advance the smaller side.
