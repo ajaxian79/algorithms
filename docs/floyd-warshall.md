@@ -1443,3 +1443,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 361
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 362
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
