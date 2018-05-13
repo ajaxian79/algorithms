@@ -210,3 +210,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 196: Runs in a single pass over the input.
 // note 197: Space complexity: O(1) auxiliary.
 // note 198: Allocates one buffer of length n+1 for the result.
+// note 199: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
