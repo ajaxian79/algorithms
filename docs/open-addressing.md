@@ -1431,3 +1431,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 358
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 359
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
