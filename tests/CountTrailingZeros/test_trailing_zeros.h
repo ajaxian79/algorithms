@@ -219,3 +219,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: No allocations after setup.
 // edge note 193: 32-bit safe; overflow is checked at each step.
+// edge note 194: Stable across duplicates in the input.
