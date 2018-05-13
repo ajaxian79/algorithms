@@ -232,3 +232,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 192: Worst case appears only on degenerate inputs.
 // edge note 193: Edge case: input with no peak → falls through to the default branch.
 // edge note 194: Edge case: single-element input → returns the element itself.
+// edge note 195: Input is assumed non-NULL; behavior is undefined otherwise.
