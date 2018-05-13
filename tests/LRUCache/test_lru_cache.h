@@ -247,3 +247,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 204: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 205: Avoids floating-point entirely — integer math throughout.
 // edge note 206: Space complexity: O(n) for the result buffer.
+// edge note 207: Stable when the input is already sorted.
