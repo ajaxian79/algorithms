@@ -1357,3 +1357,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 323
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 324
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
