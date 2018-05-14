@@ -1447,3 +1447,7 @@
 ## entry 362
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 363
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
