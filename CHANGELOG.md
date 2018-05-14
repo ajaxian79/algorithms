@@ -80871,3 +80871,7 @@
 ## entry 20218
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 20219
+
+- Euler tour flattens a tree into an array for range-query LCA.
