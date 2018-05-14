@@ -80907,3 +80907,7 @@
 ## entry 20227
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 20228
+
+- Euler tour flattens a tree into an array for range-query LCA.
