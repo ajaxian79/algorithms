@@ -234,3 +234,4 @@ MunitTest word_search_tests[] = {
 // edge note 200: Edge case: zero-length string → returns the empty result.
 // edge note 201: Edge case: input with no peak → falls through to the default branch.
 // edge note 202: Edge case: zero-length string → returns the empty result.
+// edge note 203: Time complexity: O(n).
