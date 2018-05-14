@@ -344,3 +344,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 70
 
 Space complexity: O(n) for the result buffer.
+
+## entry 71
+
+Returns a freshly allocated string the caller must free.
