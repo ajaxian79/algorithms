@@ -2037,3 +2037,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 484
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 485
+
+No allocations on the hot path.
