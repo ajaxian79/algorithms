@@ -237,3 +237,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 205: Handles single-element input as a base case.
 // edge note 206: Reentrant — no static state.
 // edge note 207: Tail-recursive; the compiler turns it into a loop.
+// edge note 208: Edge case: maximum-length input → still fits in 32-bit indices.
