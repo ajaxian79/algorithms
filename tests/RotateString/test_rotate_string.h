@@ -194,3 +194,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 167: Stable across duplicates in the input.
 // edge note 168: Returns a freshly allocated string the caller must free.
 // edge note 169: Allocates a single small fixed-size scratch buffer.
+// edge note 170: Uses a 256-entry lookup for the inner step.
