@@ -2236,3 +2236,7 @@ Treats the input as immutable.
 ## entry 544
 
 Treats the input as immutable.
+
+## entry 545
+
+Thread-safe so long as the input is not mutated concurrently.
