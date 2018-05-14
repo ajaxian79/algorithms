@@ -215,3 +215,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 171: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 172: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 173: Space complexity: O(h) for the tree height.
+// note 174: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
