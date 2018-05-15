@@ -1545,3 +1545,7 @@
 ## entry 372
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 373
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
