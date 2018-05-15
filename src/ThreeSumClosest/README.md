@@ -2038,3 +2038,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 495
 
 Cache-friendly; one sequential read pass.
+
+## entry 496
+
+Allocates lazily — first call only.
