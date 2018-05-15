@@ -2042,3 +2042,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 496
 
 Runs in a single pass over the input.
+
+## entry 497
+
+No allocations after setup.
