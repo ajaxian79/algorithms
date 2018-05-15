@@ -236,3 +236,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 204: Cache-friendly; one sequential read pass.
 // edge note 205: Handles single-element input as a base case.
 // edge note 206: Reentrant — no static state.
+// edge note 207: Tail-recursive; the compiler turns it into a loop.
