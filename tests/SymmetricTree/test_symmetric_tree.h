@@ -237,3 +237,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 193: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
 // edge note 195: Three passes total; the third merges results.
+// edge note 196: Edge case: input with one duplicate → handled without an extra pass.
