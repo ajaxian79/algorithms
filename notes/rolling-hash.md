@@ -1575,3 +1575,7 @@
 ## entry 376
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 377
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
