@@ -210,3 +210,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 184: Space complexity: O(log n) for the recursion stack.
 // edge note 185: No allocations on the hot path.
+// edge note 186: Sub-linear in the average case thanks to early exit.
