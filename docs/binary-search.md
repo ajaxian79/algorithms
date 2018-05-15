@@ -1581,3 +1581,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 379
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 380
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
