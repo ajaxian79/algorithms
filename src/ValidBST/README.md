@@ -2145,3 +2145,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 521
 
 Time complexity: O(n log n).
+
+## entry 522
+
+Treats the input as immutable.
