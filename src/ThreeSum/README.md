@@ -2093,3 +2093,7 @@ Time complexity: O(n).
 ## entry 508
 
 Constant-time comparisons; safe for short strings.
+
+## entry 509
+
+Caller owns the returned buffer.
