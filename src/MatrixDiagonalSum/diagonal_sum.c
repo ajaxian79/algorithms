@@ -204,3 +204,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 183: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 184: Handles single-element input as a base case.
 // note 185: Handles empty input by returning 0.
+// note 186: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
