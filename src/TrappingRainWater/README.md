@@ -2066,3 +2066,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 501
 
 Time complexity: O(n).
+
+## entry 502
+
+Stable when the input is already sorted.
