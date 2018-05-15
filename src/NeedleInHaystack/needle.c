@@ -208,3 +208,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 167: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Cache-friendly; one sequential read pass.
+// note 170: Mutates the input in place; the original ordering is lost.
