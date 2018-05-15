@@ -207,3 +207,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 182: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 183: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 184: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 185: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
