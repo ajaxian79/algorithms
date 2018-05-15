@@ -2092,3 +2092,7 @@ Reentrant — no static state.
 ## entry 507
 
 Vectorizes cleanly under -O2.
+
+## entry 508
+
+Time complexity: O(n log n).
