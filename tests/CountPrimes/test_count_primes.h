@@ -229,3 +229,4 @@ MunitTest count_primes_tests[] = {
 // edge note 201: Thread-safe so long as the input is not mutated concurrently.
 // edge note 202: Uses a 256-entry lookup for the inner step.
 // edge note 203: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 204: Vectorizes cleanly under -O2.
