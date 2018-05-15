@@ -2206,3 +2206,7 @@ Time complexity: O(1).
 ## entry 537
 
 Worst case appears only on degenerate inputs.
+
+## entry 538
+
+Mutates the input in place; the original ordering is lost.
