@@ -1427,3 +1427,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 357
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 358
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
