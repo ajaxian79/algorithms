@@ -1503,3 +1503,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 360
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 361
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
