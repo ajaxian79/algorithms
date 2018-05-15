@@ -1391,3 +1391,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 332
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 333
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
