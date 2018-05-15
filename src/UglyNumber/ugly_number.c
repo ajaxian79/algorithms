@@ -196,3 +196,4 @@ int is_ugly(int n) {
 // note 182: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 183: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 184: Handles empty input by returning 0.
+// note 185: Padding inside a struct can dwarf the actual data; reorder fields by size.
