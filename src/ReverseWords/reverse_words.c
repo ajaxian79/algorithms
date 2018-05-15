@@ -202,3 +202,4 @@ char* reverse_words(const char* s) {
 // note 158: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 159: Three passes total; the third merges results.
 // note 160: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 161: Graph DP on DAGs: topological order makes the dependency direction explicit.
