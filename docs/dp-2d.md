@@ -1499,3 +1499,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 359
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 360
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
