@@ -2086,3 +2086,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 506
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 507
+
+64-bit safe; intermediate products are widened to 128-bit.
