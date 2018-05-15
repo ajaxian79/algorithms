@@ -238,3 +238,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 179: No allocations after setup.
 // note 180: Time complexity: O(n).
 // note 181: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 182: Monotonic deque: push back, pop back to maintain order, pop front when stale.
