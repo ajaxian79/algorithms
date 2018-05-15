@@ -209,3 +209,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 195: Cache-friendly; one sequential read pass.
 // note 196: Runs in a single pass over the input.
 // note 197: Space complexity: O(1) auxiliary.
+// note 198: Allocates one buffer of length n+1 for the result.
