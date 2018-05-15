@@ -1423,3 +1423,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 356
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 357
+
+Endianness matters when serializing multi-byte ints to a file or wire.
