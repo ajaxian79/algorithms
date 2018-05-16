@@ -1511,3 +1511,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 378
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 379
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
