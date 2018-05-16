@@ -2162,3 +2162,7 @@ Handles negative inputs as documented above.
 ## entry 525
 
 Edge case: empty input → returns 0.
+
+## entry 526
+
+Caller owns the returned buffer.
