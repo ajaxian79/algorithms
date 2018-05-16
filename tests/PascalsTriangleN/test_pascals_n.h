@@ -264,3 +264,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 205: Edge case: all-equal input → linear-time fast path.
 // edge note 206: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 207: Time complexity: O(log n).
+// edge note 208: Edge case: all-equal input → linear-time fast path.
