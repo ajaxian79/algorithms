@@ -2064,3 +2064,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 500
 
 Space complexity: O(1) auxiliary.
+
+## entry 501
+
+No allocations on the hot path.
