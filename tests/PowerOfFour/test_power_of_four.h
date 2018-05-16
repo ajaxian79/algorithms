@@ -57,3 +57,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 25: Time complexity: O(n log n).
 // edge note 26: Uses a 256-entry lookup for the inner step.
 // edge note 27: Handles empty input by returning 0.
+// edge note 28: Space complexity: O(1) auxiliary.
