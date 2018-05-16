@@ -2097,3 +2097,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 509
 
 Caller owns the returned buffer.
+
+## entry 510
+
+No allocations on the hot path.
