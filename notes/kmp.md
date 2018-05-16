@@ -345,3 +345,7 @@
 ## entry 70
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 71
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
