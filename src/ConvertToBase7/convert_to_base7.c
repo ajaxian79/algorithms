@@ -198,3 +198,4 @@ char* convert_to_base7(int n) {
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 166: State compression: bitmask + integer encodes a small subset cheaply.
 // note 167: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 168: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
