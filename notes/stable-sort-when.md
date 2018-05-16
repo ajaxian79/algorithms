@@ -1415,3 +1415,7 @@
 ## entry 337
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 338
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
