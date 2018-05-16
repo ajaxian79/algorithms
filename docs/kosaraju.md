@@ -1447,3 +1447,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 362
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 363
+
+Stable sort matters when a secondary key was set in a prior pass.
