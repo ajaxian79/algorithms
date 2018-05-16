@@ -1877,3 +1877,7 @@ Handles single-element input as a base case.
 ## entry 454
 
 Handles empty input by returning 0.
+
+## entry 455
+
+Input is assumed non-NULL; behavior is undefined otherwise.
