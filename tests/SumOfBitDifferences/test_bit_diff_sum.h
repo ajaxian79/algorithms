@@ -204,3 +204,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 173: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 174: Space complexity: O(n) for the result buffer.
 // edge note 175: No allocations after setup.
+// edge note 176: Constant-time comparisons; safe for short strings.
