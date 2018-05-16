@@ -2118,3 +2118,7 @@ Branchless inner loop after sorting.
 ## entry 514
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 515
+
+Edge case: single-element input → returns the element itself.
