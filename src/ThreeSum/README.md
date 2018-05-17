@@ -2089,3 +2089,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 507
 
 Time complexity: O(n).
+
+## entry 508
+
+Constant-time comparisons; safe for short strings.
