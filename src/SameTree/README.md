@@ -2032,3 +2032,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 494
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 495
+
+Handles single-element input as a base case.
