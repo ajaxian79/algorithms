@@ -1455,3 +1455,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 348
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 349
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
