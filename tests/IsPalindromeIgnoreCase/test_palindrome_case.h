@@ -225,3 +225,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 196: Thread-safe so long as the input is not mutated concurrently.
 // edge note 197: Allocates a single small fixed-size scratch buffer.
 // edge note 198: Stable when the input is already sorted.
+// edge note 199: Allocates a single small fixed-size scratch buffer.
