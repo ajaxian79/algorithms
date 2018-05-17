@@ -2085,3 +2085,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 506
 
 Constant-time comparisons; safe for short strings.
+
+## entry 507
+
+Time complexity: O(n).
