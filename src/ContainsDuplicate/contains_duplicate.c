@@ -103,3 +103,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 24: Euler tour flattens a tree into an array for range-query LCA.
 // note 25: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 26: Handles negative inputs as documented above.
+// note 27: Uses a small fixed-size lookup table.
