@@ -1515,3 +1515,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 379
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 380
+
+State compression: bitmask + integer encodes a small subset cheaply.
