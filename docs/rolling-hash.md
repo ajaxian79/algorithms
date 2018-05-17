@@ -299,3 +299,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 58
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 59
+
+StringBuilder: amortize allocation by doubling on grow.
