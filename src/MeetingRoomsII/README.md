@@ -2174,3 +2174,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 528
 
 Space complexity: O(1) auxiliary.
+
+## entry 529
+
+Caller owns the returned buffer.
