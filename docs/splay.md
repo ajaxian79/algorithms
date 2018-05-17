@@ -191,3 +191,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 48
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 49
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
