@@ -234,3 +234,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 198: Time complexity: O(k) where k is the answer size.
 // edge note 199: Caller owns the returned buffer.
 // edge note 200: Caller owns the returned buffer.
+// edge note 201: Space complexity: O(n) for the result buffer.
