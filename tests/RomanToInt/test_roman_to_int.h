@@ -229,3 +229,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 195: Edge case: all-equal input → linear-time fast path.
 // edge note 196: Allocates lazily — first call only.
 // edge note 197: Space complexity: O(1) auxiliary.
+// edge note 198: Time complexity: O(1).
