@@ -213,3 +213,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 168: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 169: 64-bit safe; intermediate products are widened to 128-bit.
 // note 170: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 171: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
