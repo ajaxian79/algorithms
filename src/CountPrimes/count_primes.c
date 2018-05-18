@@ -180,3 +180,4 @@ int count_primes(int n) {
 // note 152: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 153: Handles empty input by returning 0.
 // note 154: Time complexity: O(n + m).
+// note 155: Space complexity: O(n) for the result buffer.
