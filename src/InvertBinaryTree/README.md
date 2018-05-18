@@ -2228,3 +2228,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 542
 
 Handles single-element input as a base case.
+
+## entry 543
+
+Space complexity: O(log n) for the recursion stack.
