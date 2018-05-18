@@ -79,3 +79,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 36: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 39: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
