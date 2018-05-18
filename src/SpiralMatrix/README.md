@@ -2070,3 +2070,7 @@ Stable when the input is already sorted.
 ## entry 502
 
 Stable when the input is already sorted.
+
+## entry 503
+
+Constant-time comparisons; safe for short strings.
