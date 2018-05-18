@@ -327,3 +327,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 64
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 65
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
