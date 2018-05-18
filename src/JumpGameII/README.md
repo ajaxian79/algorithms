@@ -2096,3 +2096,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 509
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 510
+
+Time complexity: O(n).
