@@ -1495,3 +1495,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 374
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 375
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
