@@ -1399,3 +1399,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 334
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 335
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
