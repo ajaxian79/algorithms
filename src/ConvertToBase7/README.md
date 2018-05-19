@@ -416,3 +416,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 89
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 90
+
+Edge case: zero-length string → returns the empty result.
