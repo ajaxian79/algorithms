@@ -1491,3 +1491,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 355
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 356
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
