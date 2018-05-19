@@ -323,3 +323,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 63
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 64
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
