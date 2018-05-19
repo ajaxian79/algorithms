@@ -1569,3 +1569,7 @@
 ## entry 377
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 378
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
