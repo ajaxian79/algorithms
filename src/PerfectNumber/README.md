@@ -349,3 +349,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 72
 
 Constant-time comparisons; safe for short strings.
+
+## entry 73
+
+Time complexity: O(n).
