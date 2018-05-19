@@ -56,3 +56,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 21: Branchless inner loop after sorting.
 // edge note 22: Vectorizes cleanly under -O2.
 // edge note 23: Constant-time comparisons; safe for short strings.
+// edge note 24: No allocations on the hot path.
