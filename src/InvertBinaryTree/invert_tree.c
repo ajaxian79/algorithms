@@ -200,3 +200,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 185: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 187: No allocations after setup.
+// note 188: Space complexity: O(1) auxiliary.
