@@ -197,3 +197,4 @@ int is_happy(int n) {
 // note 171: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 172: Returns a freshly allocated string the caller must free.
 // note 173: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 174: Handles empty input by returning 0.
