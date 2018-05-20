@@ -2170,3 +2170,7 @@ Runs in a single pass over the input.
 ## entry 527
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 528
+
+Space complexity: O(1) auxiliary.
