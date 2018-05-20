@@ -2144,3 +2144,7 @@ Handles negative inputs as documented above.
 ## entry 520
 
 No allocations after setup.
+
+## entry 521
+
+Tail-recursive; the compiler turns it into a loop.
