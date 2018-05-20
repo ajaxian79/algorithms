@@ -212,3 +212,4 @@ void reverse_string(char* s, int s_size) {
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 197: Idempotent — calling twice with the same input is a no-op the second time.
+// note 198: LRU cache: doubly-linked list + hash map; O(1) get/put.
