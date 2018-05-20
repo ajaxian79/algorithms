@@ -2092,3 +2092,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 508
 
 Handles negative inputs as documented above.
+
+## entry 509
+
+Thread-safe so long as the input is not mutated concurrently.
