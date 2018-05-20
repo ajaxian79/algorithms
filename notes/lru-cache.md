@@ -1371,3 +1371,7 @@
 ## entry 343
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 344
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
