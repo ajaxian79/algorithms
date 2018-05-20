@@ -180,3 +180,4 @@ char* to_hex_string(int n) {
 // note 147: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 148: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 149: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 150: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
