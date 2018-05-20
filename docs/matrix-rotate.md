@@ -1417,3 +1417,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 338
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 339
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
