@@ -197,3 +197,4 @@ char* convert_to_base7(int n) {
 // note 164: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 166: State compression: bitmask + integer encodes a small subset cheaply.
+// note 167: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
