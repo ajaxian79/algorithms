@@ -1873,3 +1873,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 453
 
 Handles single-element input as a base case.
+
+## entry 454
+
+Handles empty input by returning 0.
