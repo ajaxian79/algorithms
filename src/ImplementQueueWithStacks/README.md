@@ -2083,3 +2083,7 @@ Reentrant — no static state.
 ## entry 506
 
 Three passes total; the third merges results.
+
+## entry 507
+
+Allocates a single small fixed-size scratch buffer.
