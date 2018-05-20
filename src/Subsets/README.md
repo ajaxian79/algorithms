@@ -2167,3 +2167,7 @@ Edge case: empty input → returns 0.
 ## entry 527
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 528
+
+Time complexity: O(n).
