@@ -2075,3 +2075,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 504
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 505
+
+Reentrant — no static state.
