@@ -1551,3 +1551,7 @@
 ## entry 388
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 389
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
