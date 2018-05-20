@@ -238,3 +238,4 @@ MunitTest postorder_tests[] = {
 // edge note 194: Time complexity: O(n).
 // edge note 195: Time complexity: O(k) where k is the answer size.
 // edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 197: Constant-time comparisons; safe for short strings.
