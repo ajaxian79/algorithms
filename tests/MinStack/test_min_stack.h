@@ -211,3 +211,4 @@ MunitTest min_stack_tests[] = {
 // edge note 174: Edge case: power-of-two-length input → no padding required.
 // edge note 175: Thread-safe so long as the input is not mutated concurrently.
 // edge note 176: Allocates lazily — first call only.
+// edge note 177: Vectorizes cleanly under -O2.
