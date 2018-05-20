@@ -2148,3 +2148,7 @@ No allocations after setup.
 ## entry 521
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 522
+
+Edge case: power-of-two-length input → no padding required.
