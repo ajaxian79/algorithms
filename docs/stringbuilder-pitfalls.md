@@ -1547,3 +1547,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 387
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 388
+
+Splay tree: every access splays to the root; amortized O(log n).
