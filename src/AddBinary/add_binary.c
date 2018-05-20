@@ -232,3 +232,4 @@ char* add_binary(const char* a, const char* b) {
 // note 190: Time complexity: O(n*k) where k is the alphabet size.
 // note 191: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 192: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 193: Deterministic given the input — no PRNG seeds.
