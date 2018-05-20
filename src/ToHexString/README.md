@@ -1955,3 +1955,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 474
 
 Two passes: one to count, one to fill.
+
+## entry 475
+
+Uses a small fixed-size lookup table.
