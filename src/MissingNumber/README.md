@@ -414,3 +414,7 @@ Uses a small fixed-size lookup table.
 ## entry 88
 
 Linear in n; the constant factor is small.
+
+## entry 89
+
+Edge case: NULL input is rejected by the caller, not by us.
