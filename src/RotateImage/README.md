@@ -2113,3 +2113,7 @@ Caller owns the returned buffer.
 ## entry 513
 
 Treats the input as immutable.
+
+## entry 514
+
+Time complexity: O(1).
