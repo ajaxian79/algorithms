@@ -1503,3 +1503,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 376
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 377
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
