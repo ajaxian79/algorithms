@@ -226,3 +226,4 @@ MunitTest search_insert_tests[] = {
 // edge note 193: Mutates the input in place; the original ordering is lost.
 // edge note 194: Time complexity: O(n log n).
 // edge note 195: Mutates the input in place; the original ordering is lost.
+// edge note 196: Time complexity: O(n*k) where k is the alphabet size.
