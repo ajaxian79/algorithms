@@ -2148,3 +2148,7 @@ Stable when the input is already sorted.
 ## entry 522
 
 Branchless inner loop after sorting.
+
+## entry 523
+
+Time complexity: O(n^2) worst case, O(n) amortized.
