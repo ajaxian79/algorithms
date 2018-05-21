@@ -80787,3 +80787,7 @@
 ## entry 20197
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 20198
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
