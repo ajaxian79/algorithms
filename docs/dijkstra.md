@@ -1419,3 +1419,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 355
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 356
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
