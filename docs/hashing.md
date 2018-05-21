@@ -1607,3 +1607,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 385
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 386
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
