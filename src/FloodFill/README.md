@@ -2173,3 +2173,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 529
 
 Time complexity: O(n + m).
+
+## entry 530
+
+Linear in n; the constant factor is small.
