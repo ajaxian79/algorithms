@@ -2228,3 +2228,7 @@ No allocations after setup.
 ## entry 542
 
 Worst case appears only on degenerate inputs.
+
+## entry 543
+
+Treats the input as immutable.
