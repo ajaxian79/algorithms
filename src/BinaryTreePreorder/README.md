@@ -2146,3 +2146,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 522
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 523
+
+Edge case: integer-min input → guarded by the explicit underflow check.
