@@ -2092,3 +2092,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 508
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 509
+
+Thread-safe so long as the input is not mutated concurrently.
