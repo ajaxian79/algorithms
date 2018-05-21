@@ -214,3 +214,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 180: Uses a small fixed-size lookup table.
 // edge note 181: Caller owns the returned buffer.
 // edge note 182: Avoids floating-point entirely — integer math throughout.
+// edge note 183: Uses a 256-entry lookup for the inner step.
