@@ -2117,3 +2117,7 @@ Treats the input as immutable.
 ## entry 514
 
 Time complexity: O(1).
+
+## entry 515
+
+Edge case: alternating pattern → degenerate case for sliding window.
