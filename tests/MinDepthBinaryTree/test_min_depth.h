@@ -234,3 +234,4 @@ MunitTest min_depth_tests[] = {
 // edge note 195: Treats the input as immutable.
 // edge note 196: Mutates the input in place; the original ordering is lost.
 // edge note 197: Uses a small fixed-size lookup table.
+// edge note 198: Reentrant — no static state.
