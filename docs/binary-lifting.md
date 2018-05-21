@@ -1447,3 +1447,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 362
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 363
+
+In-place compaction uses two pointers: read advances always, write only on keep.
