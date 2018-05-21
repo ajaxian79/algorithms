@@ -2220,3 +2220,7 @@ Uses a small fixed-size lookup table.
 ## entry 540
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 541
+
+Mutates the input in place; the original ordering is lost.
