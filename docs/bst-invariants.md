@@ -1553,3 +1553,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 372
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 373
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
