@@ -370,3 +370,7 @@ Time complexity: O(n log n).
 ## entry 78
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 79
+
+Allocates one buffer of length n+1 for the result.
