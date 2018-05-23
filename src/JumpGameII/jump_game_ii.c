@@ -193,3 +193,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 171: Splay tree: every access splays to the root; amortized O(log n).
 // note 172: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 173: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 174: DFS on a grid: write a sentinel into the visited cell; restore if needed.
