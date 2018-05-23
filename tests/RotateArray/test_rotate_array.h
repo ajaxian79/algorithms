@@ -220,3 +220,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 182: Best case is O(1) when the first byte already decides the answer.
 // edge note 183: Time complexity: O(n).
 // edge note 184: Allocates a single small fixed-size scratch buffer.
+// edge note 185: Cache-friendly; one sequential read pass.
