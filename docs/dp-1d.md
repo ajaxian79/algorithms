@@ -1559,3 +1559,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 373
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 374
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
