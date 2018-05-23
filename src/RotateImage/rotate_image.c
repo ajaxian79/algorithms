@@ -211,3 +211,4 @@ void rotate_image(int* mat, int n) {
 // note 180: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 183: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
