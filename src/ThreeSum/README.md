@@ -2081,3 +2081,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 505
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 506
+
+Constant-time comparisons; safe for short strings.
