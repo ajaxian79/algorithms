@@ -200,3 +200,4 @@ int is_palindrome_number(int x) {
 // note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 177: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 178: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 179: Allocates a single small fixed-size scratch buffer.
