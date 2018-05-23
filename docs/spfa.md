@@ -1355,3 +1355,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 339
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 340
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
