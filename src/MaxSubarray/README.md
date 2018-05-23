@@ -2206,3 +2206,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 537
 
 Stable when the input is already sorted.
+
+## entry 538
+
+Allocates a single small fixed-size scratch buffer.
