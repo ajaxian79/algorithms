@@ -210,3 +210,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 167: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 168: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 169: Caller owns the returned array; free with a single `free`.
+// note 170: Space complexity: O(log n) for the recursion stack.
