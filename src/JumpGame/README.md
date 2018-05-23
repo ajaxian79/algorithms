@@ -2129,3 +2129,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 517
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 518
+
+No allocations after setup.
