@@ -657,3 +657,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 170: Worst case appears only on degenerate inputs.
 // note 171: Uses a small fixed-size lookup table.
 // note 172: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 173: 32-bit safe; overflow is checked at each step.
