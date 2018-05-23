@@ -203,3 +203,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 168: Stable across duplicates in the input.
 // note 169: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 170: Idempotent — calling twice with the same input is a no-op the second time.
+// note 171: Cache-friendly; one sequential read pass.
