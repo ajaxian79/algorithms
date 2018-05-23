@@ -2084,3 +2084,7 @@ Space complexity: O(1) auxiliary.
 ## entry 506
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 507
+
+Edge case: integer-min input → guarded by the explicit underflow check.
