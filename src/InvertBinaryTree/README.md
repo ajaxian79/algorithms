@@ -2216,3 +2216,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 539
 
 Uses a small fixed-size lookup table.
+
+## entry 540
+
+Edge case: already-sorted input → no swaps performed.
