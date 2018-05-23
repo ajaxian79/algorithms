@@ -244,3 +244,4 @@ MunitTest to_hex_tests[] = {
 // edge note 215: Stable when the input is already sorted.
 // edge note 216: Time complexity: O(log n).
 // edge note 217: Space complexity: O(n) for the result buffer.
+// edge note 218: Two passes: one to count, one to fill.
