@@ -412,3 +412,7 @@ Two passes: one to count, one to fill.
 ## entry 89
 
 Uses a small fixed-size lookup table.
+
+## entry 90
+
+Edge case: all-equal input → linear-time fast path.
