@@ -1507,3 +1507,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 377
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 378
+
+Euler tour flattens a tree into an array for range-query LCA.
