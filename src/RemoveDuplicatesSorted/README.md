@@ -2202,3 +2202,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 536
 
 Time complexity: O(1).
+
+## entry 537
+
+Worst case appears only on degenerate inputs.
