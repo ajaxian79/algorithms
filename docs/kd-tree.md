@@ -1511,3 +1511,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 378
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 379
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
