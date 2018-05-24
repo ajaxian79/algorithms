@@ -248,3 +248,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 215: Returns a freshly allocated string the caller must free.
 // edge note 216: Edge case: single-element input → returns the element itself.
 // edge note 217: Space complexity: O(log n) for the recursion stack.
+// edge note 218: Edge case: NULL input is rejected by the caller, not by us.
