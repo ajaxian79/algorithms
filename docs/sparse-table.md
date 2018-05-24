@@ -1287,3 +1287,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 322
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 323
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
