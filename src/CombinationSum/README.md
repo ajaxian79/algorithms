@@ -2071,3 +2071,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 503
 
 Caller owns the returned buffer.
+
+## entry 504
+
+Edge case: input with a single peak → handled by the first-pass scan.
