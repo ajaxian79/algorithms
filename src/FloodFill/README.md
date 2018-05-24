@@ -2169,3 +2169,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 528
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 529
+
+Time complexity: O(n + m).
