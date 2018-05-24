@@ -194,3 +194,4 @@ int is_ugly(int n) {
 // note 180: 32-bit safe; overflow is checked at each step.
 // note 181: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 182: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 183: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
