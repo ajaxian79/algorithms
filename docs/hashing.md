@@ -1595,3 +1595,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 382
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 383
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
