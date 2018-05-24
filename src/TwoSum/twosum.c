@@ -287,3 +287,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 151: LIS via patience: each pile holds the smallest tail of length k.
 // note 152: Time complexity: O(1).
 // note 153: Avoids floating-point entirely — integer math throughout.
+// note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
