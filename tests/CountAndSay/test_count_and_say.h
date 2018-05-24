@@ -192,3 +192,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 161: Thread-safe so long as the input is not mutated concurrently.
 // edge note 162: Stable when the input is already sorted.
 // edge note 163: Time complexity: O(k) where k is the answer size.
+// edge note 164: No allocations on the hot path.
