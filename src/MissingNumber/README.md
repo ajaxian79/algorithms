@@ -2158,3 +2158,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 524
 
 Handles negative inputs as documented above.
+
+## entry 525
+
+Edge case: empty input → returns 0.
