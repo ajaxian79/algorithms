@@ -199,3 +199,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 157: Euler tour flattens a tree into an array for range-query LCA.
 // note 158: Stable when the input is already sorted.
+// note 159: Hash collision: chain or open-address; chained handles arbitrary load factor.
