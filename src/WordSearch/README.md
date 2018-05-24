@@ -2090,3 +2090,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 508
 
 Space complexity: O(n) for the result buffer.
+
+## entry 509
+
+Idempotent — calling twice with the same input is a no-op the second time.
