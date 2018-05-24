@@ -370,3 +370,7 @@ Time complexity: O(log n).
 ## entry 78
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 79
+
+Time complexity: O(n*k) where k is the alphabet size.
