@@ -1495,3 +1495,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 358
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 359
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
