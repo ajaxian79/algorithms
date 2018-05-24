@@ -1886,3 +1886,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 457
 
 Space complexity: O(1) auxiliary.
+
+## entry 458
+
+Edge case: already-sorted input → no swaps performed.
