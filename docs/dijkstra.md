@@ -1415,3 +1415,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 354
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 355
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
