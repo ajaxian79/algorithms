@@ -1996,3 +1996,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 484
 
 Time complexity: O(n log n).
+
+## entry 485
+
+Time complexity: O(k) where k is the answer size.
