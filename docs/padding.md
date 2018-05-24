@@ -235,3 +235,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 59
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 60
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
