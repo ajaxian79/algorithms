@@ -2066,3 +2066,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 501
 
 Stable when the input is already sorted.
+
+## entry 502
+
+Stable when the input is already sorted.
