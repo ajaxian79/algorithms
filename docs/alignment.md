@@ -1515,3 +1515,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 379
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 380
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
