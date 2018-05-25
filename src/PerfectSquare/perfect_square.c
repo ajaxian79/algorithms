@@ -184,3 +184,4 @@ int is_perfect_square(int n) {
 // note 165: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 166: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 167: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 168: Endianness matters when serializing multi-byte ints to a file or wire.
