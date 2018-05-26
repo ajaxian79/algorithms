@@ -1495,3 +1495,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 374
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 375
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
