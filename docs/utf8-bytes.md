@@ -1359,3 +1359,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 340
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 341
+
+Articulation points: same DFS as bridges, with a slightly different test.
