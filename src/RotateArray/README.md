@@ -2215,3 +2215,7 @@ Reentrant — no static state.
 ## entry 538
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 539
+
+Time complexity: O(n log n).
