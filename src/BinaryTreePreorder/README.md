@@ -2142,3 +2142,7 @@ Handles single-element input as a base case.
 ## entry 521
 
 Space complexity: O(n) for the result buffer.
+
+## entry 522
+
+Edge case: already-sorted input → no swaps performed.
