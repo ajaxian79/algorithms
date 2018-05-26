@@ -2165,3 +2165,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 527
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 528
+
+Caller owns the returned array; free with a single `free`.
