@@ -2084,3 +2084,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 506
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 507
+
+Best case is O(1) when the first byte already decides the answer.
