@@ -235,3 +235,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 205: Edge case: single-element input → returns the element itself.
 // edge note 206: Handles empty input by returning 0.
 // edge note 207: Uses a 256-entry lookup for the inner step.
+// edge note 208: Time complexity: O(n^2) worst case, O(n) amortized.
