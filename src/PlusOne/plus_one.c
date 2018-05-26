@@ -202,3 +202,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 165: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 166: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 167: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 168: Time complexity: O(k) where k is the answer size.
