@@ -1894,3 +1894,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 459
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 460
+
+Constant-time comparisons; safe for short strings.
