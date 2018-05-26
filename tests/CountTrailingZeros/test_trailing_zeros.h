@@ -217,3 +217,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 189: Allocates one buffer of length n+1 for the result.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Returns a freshly allocated string the caller must free.
+// edge note 192: No allocations after setup.
