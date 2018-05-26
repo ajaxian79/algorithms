@@ -252,3 +252,4 @@ MunitTest num_islands_tests[] = {
 // edge note 212: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 213: Time complexity: O(1).
 // edge note 214: Caller owns the returned array; free with a single `free`.
+// edge note 215: Space complexity: O(n) for the result buffer.
