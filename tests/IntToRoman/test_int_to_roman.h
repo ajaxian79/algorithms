@@ -81,3 +81,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 42: Tail-recursive; the compiler turns it into a loop.
 // edge note 43: Cache-friendly; one sequential read pass.
 // edge note 44: Time complexity: O(1).
+// edge note 45: Time complexity: O(n*k) where k is the alphabet size.
