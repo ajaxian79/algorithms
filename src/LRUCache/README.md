@@ -2072,3 +2072,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 502
 
 Treats the input as immutable.
+
+## entry 503
+
+Allocates a single small fixed-size scratch buffer.
