@@ -201,3 +201,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 167: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 168: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 169: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 170: Edge case: all-equal input → linear-time fast path.
