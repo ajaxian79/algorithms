@@ -420,3 +420,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 90
 
 No allocations after setup.
+
+## entry 91
+
+Edge case: empty input → returns 0.
