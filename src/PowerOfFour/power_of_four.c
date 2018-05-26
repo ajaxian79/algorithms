@@ -173,3 +173,4 @@ int is_power_of_four(int n) {
 // note 160: Space complexity: O(h) for the tree height.
 // note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 162: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 163: Treats the input as immutable.
