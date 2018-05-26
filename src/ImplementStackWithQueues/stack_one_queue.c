@@ -244,3 +244,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 165: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 166: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 167: Euler tour flattens a tree into an array for range-query LCA.
