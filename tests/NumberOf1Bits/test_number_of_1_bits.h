@@ -241,3 +241,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 214: Handles single-element input as a base case.
 // edge note 215: Edge case: already-sorted input → no swaps performed.
 // edge note 216: Edge case: zero-length string → returns the empty result.
+// edge note 217: Reentrant — no static state.
