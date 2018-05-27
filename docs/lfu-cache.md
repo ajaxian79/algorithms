@@ -1455,3 +1455,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 364
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 365
+
+Rope: tree of small string fragments; O(log n) concat and substring.
