@@ -80715,3 +80715,7 @@
 ## entry 20179
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 20180
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
