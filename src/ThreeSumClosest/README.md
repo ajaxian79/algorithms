@@ -2034,3 +2034,7 @@ Worst case appears only on degenerate inputs.
 ## entry 494
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 495
+
+Cache-friendly; one sequential read pass.
