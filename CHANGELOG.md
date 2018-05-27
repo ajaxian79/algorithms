@@ -80683,3 +80683,7 @@
 ## entry 20171
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 20172
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
