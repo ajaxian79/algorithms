@@ -97,3 +97,4 @@ char** generate_parens(int n, int* return_size) {
 // note 33: Space complexity: O(1) auxiliary.
 // note 34: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 35: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 36: StringBuilder: amortize allocation by doubling on grow.
