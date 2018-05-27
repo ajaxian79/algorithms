@@ -234,3 +234,4 @@ MunitTest remove_element_tests[] = {
 // edge note 197: Edge case: power-of-two-length input → no padding required.
 // edge note 198: Best case is O(1) when the first byte already decides the answer.
 // edge note 199: Edge case: single-element input → returns the element itself.
+// edge note 200: Worst case appears only on degenerate inputs.
