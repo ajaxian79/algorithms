@@ -1529,3 +1529,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 364
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 365
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
