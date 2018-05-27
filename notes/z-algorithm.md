@@ -293,3 +293,7 @@
 ## entry 60
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 61
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
