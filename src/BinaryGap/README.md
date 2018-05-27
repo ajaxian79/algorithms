@@ -2110,3 +2110,7 @@ No allocations after setup.
 ## entry 512
 
 No allocations on the hot path.
+
+## entry 513
+
+Branchless inner loop after sorting.
