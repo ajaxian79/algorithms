@@ -1395,3 +1395,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 349
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 350
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
