@@ -2058,3 +2058,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 499
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 500
+
+Returns a freshly allocated string the caller must free.
