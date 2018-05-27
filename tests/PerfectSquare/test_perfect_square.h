@@ -230,3 +230,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 199: No allocations on the hot path.
 // edge note 200: Three passes total; the third merges results.
 // edge note 201: Handles negative inputs as documented above.
+// edge note 202: Reentrant — no static state.
