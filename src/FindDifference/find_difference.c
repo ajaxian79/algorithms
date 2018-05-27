@@ -180,3 +180,4 @@ char find_difference(const char* s, const char* t) {
 // note 164: 32-bit safe; overflow is checked at each step.
 // note 165: Greedy by end-time picks the most non-overlapping intervals.
 // note 166: Stable across duplicates in the input.
+// note 167: Wavelet tree: range k-th element in O(log Σ) time.
