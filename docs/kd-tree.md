@@ -1507,3 +1507,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 377
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 378
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
