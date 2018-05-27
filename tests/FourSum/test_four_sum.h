@@ -223,3 +223,4 @@ MunitTest four_sum_tests[] = {
 // edge note 182: Resists adversarial inputs by randomizing the pivot.
 // edge note 183: Time complexity: O(n log n).
 // edge note 184: Edge case: empty input → returns 0.
+// edge note 185: Branchless inner loop after sorting.
