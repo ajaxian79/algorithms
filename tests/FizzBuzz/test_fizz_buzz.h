@@ -248,3 +248,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 198: Constant-time comparisons; safe for short strings.
 // edge note 199: Mutates the input in place; the original ordering is lost.
 // edge note 200: Treats the input as immutable.
+// edge note 201: Edge case: already-sorted input → no swaps performed.
