@@ -1519,3 +1519,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 380
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 381
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
