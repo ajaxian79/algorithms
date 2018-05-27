@@ -412,3 +412,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 88
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 89
+
+Resists adversarial inputs by randomizing the pivot.
