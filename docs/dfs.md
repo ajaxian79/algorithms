@@ -1527,3 +1527,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 366
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 367
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
