@@ -1411,3 +1411,7 @@
 ## entry 353
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 354
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
