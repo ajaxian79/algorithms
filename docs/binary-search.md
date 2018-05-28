@@ -1577,3 +1577,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 378
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 379
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
