@@ -1499,3 +1499,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 375
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 376
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
