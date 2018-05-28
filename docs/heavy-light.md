@@ -1491,3 +1491,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 373
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 374
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
