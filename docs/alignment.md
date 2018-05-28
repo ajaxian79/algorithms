@@ -1511,3 +1511,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 378
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 379
+
+Greedy by end-time picks the most non-overlapping intervals.
