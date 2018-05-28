@@ -80651,3 +80651,7 @@
 ## entry 20163
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 20164
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
