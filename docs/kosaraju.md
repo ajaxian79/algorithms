@@ -1439,3 +1439,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 360
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 361
+
+False sharing: two threads writing different bytes in the same cache line stall both.
