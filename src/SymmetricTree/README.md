@@ -402,3 +402,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 86
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 87
+
+Edge case: integer-min input → guarded by the explicit underflow check.
