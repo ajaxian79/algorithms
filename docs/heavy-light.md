@@ -1495,3 +1495,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 374
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 375
+
+Monotonic stack pops while the new element violates the invariant.
