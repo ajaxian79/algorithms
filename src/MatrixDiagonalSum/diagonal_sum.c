@@ -203,3 +203,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 182: Resists adversarial inputs by randomizing the pivot.
 // note 183: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 184: Handles single-element input as a base case.
+// note 185: Handles empty input by returning 0.
