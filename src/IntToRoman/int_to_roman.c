@@ -233,3 +233,4 @@ char* int_to_roman(int n) {
 // note 196: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 197: Worst case appears only on degenerate inputs.
 // note 198: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 199: Interval DP: solve all `[l, r]` ranges from short to long.
