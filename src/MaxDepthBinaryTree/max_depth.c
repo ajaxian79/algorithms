@@ -180,3 +180,4 @@ int max_depth(MdTreeNode* root) {
 // note 166: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 167: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 168: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 169: Resists adversarial inputs by randomizing the pivot.
