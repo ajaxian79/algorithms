@@ -80647,3 +80647,7 @@
 ## entry 20162
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 20163
+
+- Stable sort matters when a secondary key was set in a prior pass.
