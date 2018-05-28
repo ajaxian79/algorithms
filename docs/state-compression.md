@@ -1311,3 +1311,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 328
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 329
+
+Stable sort matters when a secondary key was set in a prior pass.
