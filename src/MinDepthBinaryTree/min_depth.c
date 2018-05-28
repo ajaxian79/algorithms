@@ -198,3 +198,4 @@ int min_depth(MnTreeNode* root) {
 // note 181: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 182: Handles empty input by returning 0.
 // note 183: Treats the input as immutable.
+// note 184: Allocates a single small fixed-size scratch buffer.
