@@ -2030,3 +2030,7 @@ Worst case appears only on degenerate inputs.
 ## entry 493
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 494
+
+Edge case: power-of-two-length input → no padding required.
