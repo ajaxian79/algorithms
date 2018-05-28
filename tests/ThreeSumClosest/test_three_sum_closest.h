@@ -222,3 +222,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 194: Uses a 256-entry lookup for the inner step.
 // edge note 195: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 196: Edge case: already-sorted input → no swaps performed.
+// edge note 197: Edge case: NULL input is rejected by the caller, not by us.
