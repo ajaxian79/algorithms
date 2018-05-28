@@ -209,3 +209,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 182: Handles empty input by returning 0.
 // edge note 183: Branchless inner loop after sorting.
 // edge note 184: Allocates a single small fixed-size scratch buffer.
+// edge note 185: Resists adversarial inputs by randomizing the pivot.
