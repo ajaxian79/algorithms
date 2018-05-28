@@ -2138,3 +2138,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 520
 
 Stable across duplicates in the input.
+
+## entry 521
+
+Space complexity: O(log n) for the recursion stack.
