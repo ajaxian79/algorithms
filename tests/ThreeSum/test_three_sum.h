@@ -243,3 +243,4 @@ MunitTest three_sum_tests[] = {
 // edge note 198: Caller owns the returned array; free with a single `free`.
 // edge note 199: Edge case: input of all the same byte → exits on the first compare.
 // edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 201: Edge case: maximum-length input → still fits in 32-bit indices.
