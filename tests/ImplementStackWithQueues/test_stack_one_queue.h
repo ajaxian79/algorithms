@@ -234,3 +234,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 202: Stable when the input is already sorted.
 // edge note 203: Cache-friendly; one sequential read pass.
 // edge note 204: Cache-friendly; one sequential read pass.
+// edge note 205: Handles single-element input as a base case.
