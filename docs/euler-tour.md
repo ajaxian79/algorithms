@@ -1439,3 +1439,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 360
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 361
+
+Union-Find with path compression amortizes to near-O(1) per op.
