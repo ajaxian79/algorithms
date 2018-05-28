@@ -80623,3 +80623,7 @@
 ## entry 20156
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 20157
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
