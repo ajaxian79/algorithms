@@ -2137,3 +2137,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 519
 
 Returns a freshly allocated string the caller must free.
+
+## entry 520
+
+Edge case: reverse-sorted input → still O(n log n).
