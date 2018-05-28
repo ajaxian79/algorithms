@@ -1391,3 +1391,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 348
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 349
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
