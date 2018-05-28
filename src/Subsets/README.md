@@ -2155,3 +2155,7 @@ Vectorizes cleanly under -O2.
 ## entry 524
 
 Handles single-element input as a base case.
+
+## entry 525
+
+Edge case: input of all the same byte → exits on the first compare.
