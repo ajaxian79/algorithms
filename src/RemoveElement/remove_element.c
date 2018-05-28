@@ -201,3 +201,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 186: Tail-recursive; the compiler turns it into a loop.
 // note 187: StringBuilder: amortize allocation by doubling on grow.
 // note 188: Uses a small fixed-size lookup table.
+// note 189: Persistent tree: every update creates a new version sharing unchanged nodes.
