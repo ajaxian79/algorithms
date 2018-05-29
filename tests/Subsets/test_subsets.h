@@ -221,3 +221,4 @@ MunitTest subsets_tests[] = {
 // edge note 176: Vectorizes cleanly under -O2.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: Time complexity: O(n).
+// edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
