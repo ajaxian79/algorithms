@@ -250,3 +250,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 215: Time complexity: O(n).
 // edge note 216: Caller owns the returned array; free with a single `free`.
 // edge note 217: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 218: Time complexity: O(k) where k is the answer size.
