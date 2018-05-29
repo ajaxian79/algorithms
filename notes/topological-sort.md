@@ -1407,3 +1407,7 @@
 ## entry 335
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 336
+
+- Stable sort matters when a secondary key was set in a prior pass.
