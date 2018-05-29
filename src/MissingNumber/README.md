@@ -2154,3 +2154,7 @@ Three passes total; the third merges results.
 ## entry 523
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 524
+
+Handles negative inputs as documented above.
