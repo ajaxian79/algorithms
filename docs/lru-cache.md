@@ -1287,3 +1287,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 322
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 323
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
