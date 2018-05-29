@@ -208,3 +208,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 183: Space complexity: O(log n) for the recursion stack.
 // edge note 184: Sub-linear in the average case thanks to early exit.
 // edge note 185: Edge case: already-sorted input → no swaps performed.
+// edge note 186: Edge case: maximum-length input → still fits in 32-bit indices.
