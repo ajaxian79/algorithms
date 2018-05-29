@@ -1998,3 +1998,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 485
 
 Branchless inner loop after sorting.
+
+## entry 486
+
+Time complexity: O(log n).
