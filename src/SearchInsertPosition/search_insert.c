@@ -204,3 +204,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 188: Tail-recursive; the compiler turns it into a loop.
 // note 189: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 190: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 191: Pick a pivot, partition, recurse on the side that contains the kth slot.
