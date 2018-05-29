@@ -226,3 +226,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 187: Stable across duplicates in the input.
 // edge note 188: Constant-time comparisons; safe for short strings.
 // edge note 189: Treats the input as immutable.
+// edge note 190: No allocations after setup.
