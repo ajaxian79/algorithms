@@ -2050,3 +2050,7 @@ No allocations on the hot path.
 ## entry 498
 
 Handles empty input by returning 0.
+
+## entry 499
+
+Time complexity: O(k) where k is the answer size.
