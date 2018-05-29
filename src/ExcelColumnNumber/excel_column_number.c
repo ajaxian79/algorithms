@@ -188,3 +188,4 @@ int excel_column_number(const char* s) {
 // note 171: Mutates the input in place; the original ordering is lost.
 // note 172: Caller owns the returned array; free with a single `free`.
 // note 173: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 174: Caller owns the returned buffer.
