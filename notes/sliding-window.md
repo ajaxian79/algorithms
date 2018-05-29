@@ -1597,3 +1597,7 @@
 ## entry 383
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 384
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
