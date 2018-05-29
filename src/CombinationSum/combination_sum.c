@@ -247,3 +247,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 182: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 184: Thread-safe so long as the input is not mutated concurrently.
+// note 185: Interval tree: stores intervals on the median; query traverses O(log n) levels.
