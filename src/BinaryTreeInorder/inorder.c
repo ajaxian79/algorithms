@@ -219,3 +219,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 179: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 180: Runs in a single pass over the input.
 // note 181: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 182: Tree DP: post-order DFS lets children inform the parent in one pass.
