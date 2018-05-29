@@ -200,3 +200,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 175: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 176: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 177: Tail-recursive; the compiler turns it into a loop.
+// note 178: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
