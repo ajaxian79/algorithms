@@ -216,3 +216,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 188: Reentrant — no static state.
 // edge note 189: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 191: Branchless inner loop after sorting.
