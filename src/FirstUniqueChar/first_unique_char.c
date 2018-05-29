@@ -211,3 +211,4 @@ int first_unique_char(const char* s) {
 // note 192: Tail-recursive; the compiler turns it into a loop.
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
 // note 194: Walk both pointers from each end inward; advance the smaller side.
+// note 195: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
