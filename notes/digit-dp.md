@@ -1475,3 +1475,7 @@
 ## entry 369
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 370
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
