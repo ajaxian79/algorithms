@@ -197,3 +197,4 @@ unsigned int find_complement(unsigned int n) {
 // note 181: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 182: LIS via patience: each pile holds the smallest tail of length k.
 // note 183: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 184: Heavy-light decomposition: each path crosses O(log n) heavy chains.
