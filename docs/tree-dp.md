@@ -1595,3 +1595,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 399
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 400
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
