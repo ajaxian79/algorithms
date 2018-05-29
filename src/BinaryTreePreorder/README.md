@@ -2138,3 +2138,7 @@ No allocations after setup.
 ## entry 520
 
 Handles single-element input as a base case.
+
+## entry 521
+
+Space complexity: O(n) for the result buffer.
