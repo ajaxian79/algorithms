@@ -1299,3 +1299,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 325
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 326
+
+Endianness matters when serializing multi-byte ints to a file or wire.
