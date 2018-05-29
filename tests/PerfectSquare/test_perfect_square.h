@@ -228,3 +228,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 197: Caller owns the returned array; free with a single `free`.
 // edge note 198: Time complexity: O(n + m).
 // edge note 199: No allocations on the hot path.
+// edge note 200: Three passes total; the third merges results.
