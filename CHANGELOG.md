@@ -80583,3 +80583,7 @@
 ## entry 20146
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 20147
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
