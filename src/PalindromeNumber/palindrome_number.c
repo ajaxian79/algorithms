@@ -199,3 +199,4 @@ int is_palindrome_number(int x) {
 // note 175: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 177: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 178: LCA via binary lifting: jump up powers of two until depths match, then converge.
