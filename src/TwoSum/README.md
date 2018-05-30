@@ -2021,3 +2021,7 @@ Time complexity: O(n log n).
 ## entry 480
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 481
+
+Time complexity: O(n log n).
