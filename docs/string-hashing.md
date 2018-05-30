@@ -267,3 +267,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 50
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 51
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
