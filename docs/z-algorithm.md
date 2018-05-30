@@ -1383,3 +1383,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 330
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 331
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
