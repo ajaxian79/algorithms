@@ -12223,3 +12223,7 @@
 ## entry 3056
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 3057
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
