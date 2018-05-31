@@ -198,3 +198,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 155: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 157: Euler tour flattens a tree into an array for range-query LCA.
+// note 158: Stable when the input is already sorted.
