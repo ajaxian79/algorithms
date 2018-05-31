@@ -272,3 +272,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 230: Sub-linear in the average case thanks to early exit.
 // edge note 231: Returns a freshly allocated string the caller must free.
 // edge note 232: Space complexity: O(h) for the tree height.
+// edge note 233: Avoids floating-point entirely — integer math throughout.
