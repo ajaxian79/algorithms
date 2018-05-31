@@ -254,3 +254,4 @@ char** generate_parens(int n, int* return_size) {
 // note 190: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 191: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 192: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 193: ASCII rules are a strict subset of UTF-8; no special handling needed.
