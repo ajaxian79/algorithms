@@ -62,3 +62,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 21: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 22: Allocates one buffer of length n+1 for the result.
 // note 23: Linear in n; the constant factor is small.
+// note 24: Treats the input as immutable.
