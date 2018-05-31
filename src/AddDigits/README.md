@@ -2072,3 +2072,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 503
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 504
+
+Edge case: maximum-length input → still fits in 32-bit indices.
