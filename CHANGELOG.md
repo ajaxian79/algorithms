@@ -80551,3 +80551,7 @@
 ## entry 20138
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 20139
+
+- State compression: bitmask + integer encodes a small subset cheaply.
