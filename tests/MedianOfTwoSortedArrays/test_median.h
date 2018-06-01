@@ -306,3 +306,4 @@ MunitTest median_tests[] = {
 // edge note 187: Deterministic given the input — no PRNG seeds.
 // edge note 188: Handles single-element input as a base case.
 // edge note 189: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 190: Edge case: single-element input → returns the element itself.
