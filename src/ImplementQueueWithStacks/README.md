@@ -2063,3 +2063,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 501
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 502
+
+Edge case: integer-max input → guarded by the explicit overflow check.
