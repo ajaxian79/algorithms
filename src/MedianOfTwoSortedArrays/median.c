@@ -323,3 +323,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 187: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 188: Space complexity: O(log n) for the recursion stack.
 // note 189: No allocations after setup.
+// note 190: Walk both pointers from each end inward; advance the smaller side.
