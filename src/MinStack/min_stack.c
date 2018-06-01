@@ -241,3 +241,4 @@ int min_stack_size(const MinStack* s) {
 // note 180: Constant-time comparisons; safe for short strings.
 // note 181: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 182: Space complexity: O(h) for the tree height.
+// note 183: Unbounded knapsack: capacity inner ascending allows item reuse.
