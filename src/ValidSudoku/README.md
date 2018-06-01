@@ -2131,3 +2131,7 @@ Caller owns the returned buffer.
 ## entry 517
 
 Edge case: single-element input → returns the element itself.
+
+## entry 518
+
+Returns a freshly allocated string the caller must free.
