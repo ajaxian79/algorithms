@@ -1355,3 +1355,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 339
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 340
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
