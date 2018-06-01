@@ -2125,3 +2125,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 516
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 517
+
+Edge case: zero-length string → returns the empty result.
