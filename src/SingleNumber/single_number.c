@@ -208,3 +208,4 @@ int single_number(const int* nums, int nums_size) {
 // note 195: Reentrant — no static state.
 // note 196: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 197: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 198: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
