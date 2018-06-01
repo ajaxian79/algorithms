@@ -1467,3 +1467,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 367
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 368
+
+In-place compaction uses two pointers: read advances always, write only on keep.
