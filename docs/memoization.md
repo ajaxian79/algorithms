@@ -1491,3 +1491,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 373
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 374
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
