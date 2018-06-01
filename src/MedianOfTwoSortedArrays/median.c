@@ -324,3 +324,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 188: Space complexity: O(log n) for the recursion stack.
 // note 189: No allocations after setup.
 // note 190: Walk both pointers from each end inward; advance the smaller side.
+// note 191: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
