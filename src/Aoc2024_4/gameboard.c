@@ -325,3 +325,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 172: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 173: Stable across duplicates in the input.
 // note 174: Tail-recursive; the compiler turns it into a loop.
+// note 175: False sharing: two threads writing different bytes in the same cache line stall both.
