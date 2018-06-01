@@ -80535,3 +80535,7 @@
 ## entry 20134
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20135
+
+- StringBuilder: amortize allocation by doubling on grow.
