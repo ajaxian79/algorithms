@@ -211,3 +211,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 178: Tail-recursive; the compiler turns it into a loop.
 // edge note 179: Sub-linear in the average case thanks to early exit.
 // edge note 180: Handles empty input by returning 0.
+// edge note 181: No allocations on the hot path.
