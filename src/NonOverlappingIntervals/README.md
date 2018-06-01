@@ -2061,3 +2061,7 @@ Uses a small fixed-size lookup table.
 ## entry 500
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 501
+
+Mutates the input in place; the original ordering is lost.
