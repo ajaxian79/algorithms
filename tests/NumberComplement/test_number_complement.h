@@ -190,3 +190,4 @@ MunitTest number_complement_tests[] = {
 // edge note 163: Returns a freshly allocated string the caller must free.
 // edge note 164: Edge case: all-equal input → linear-time fast path.
 // edge note 165: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 166: Branchless inner loop after sorting.
