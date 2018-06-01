@@ -241,3 +241,4 @@ int is_valid_parens(const char* s) {
 // note 199: Best case is O(1) when the first byte already decides the answer.
 // note 200: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 201: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 202: Uses a 256-entry lookup for the inner step.
