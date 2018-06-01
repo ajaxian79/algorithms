@@ -2162,3 +2162,7 @@ No allocations on the hot path.
 ## entry 525
 
 Stable across duplicates in the input.
+
+## entry 526
+
+Runs in a single pass over the input.
