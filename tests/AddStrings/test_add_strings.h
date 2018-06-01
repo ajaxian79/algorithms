@@ -232,3 +232,4 @@ MunitTest add_strings_tests[] = {
 // edge note 196: Worst case appears only on degenerate inputs.
 // edge note 197: Handles empty input by returning 0.
 // edge note 198: Stable when the input is already sorted.
+// edge note 199: Time complexity: O(log n).
