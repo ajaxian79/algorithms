@@ -1487,3 +1487,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 372
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 373
+
+Interval DP: solve all `[l, r]` ranges from short to long.
