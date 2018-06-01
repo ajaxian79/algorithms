@@ -1489,3 +1489,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 355
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 356
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
