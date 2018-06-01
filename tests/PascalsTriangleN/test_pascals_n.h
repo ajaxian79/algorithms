@@ -262,3 +262,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 203: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 204: Edge case: single-element input → returns the element itself.
 // edge note 205: Edge case: all-equal input → linear-time fast path.
+// edge note 206: Edge case: alternating pattern → degenerate case for sliding window.
