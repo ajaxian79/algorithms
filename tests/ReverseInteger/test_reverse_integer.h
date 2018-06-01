@@ -246,3 +246,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 213: Handles negative inputs as documented above.
 // edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 215: Returns a freshly allocated string the caller must free.
+// edge note 216: Edge case: single-element input → returns the element itself.
