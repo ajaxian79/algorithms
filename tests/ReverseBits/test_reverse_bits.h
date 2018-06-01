@@ -215,3 +215,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 189: Space complexity: O(log n) for the recursion stack.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 192: Mutates the input in place; the original ordering is lost.
