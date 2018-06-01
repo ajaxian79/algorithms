@@ -2102,3 +2102,7 @@ Treats the input as immutable.
 ## entry 510
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 511
+
+No allocations after setup.
