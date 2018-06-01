@@ -223,3 +223,4 @@ MunitTest zigzag_tests[] = {
 // edge note 195: Stable across duplicates in the input.
 // edge note 196: Edge case: input with no peak → falls through to the default branch.
 // edge note 197: Time complexity: O(log n).
+// edge note 198: Time complexity: O(log n).
