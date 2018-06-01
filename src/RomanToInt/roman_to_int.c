@@ -211,3 +211,4 @@ int roman_to_int(const char* s) {
 // note 171: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 173: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 174: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
