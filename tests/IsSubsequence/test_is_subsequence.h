@@ -204,3 +204,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 178: Edge case: input with no peak → falls through to the default branch.
 // edge note 179: Edge case: single-element input → returns the element itself.
 // edge note 180: Runs in a single pass over the input.
+// edge note 181: Allocates lazily — first call only.
