@@ -1902,3 +1902,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 460
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 461
+
+Tail-recursive; the compiler turns it into a loop.
