@@ -179,3 +179,4 @@ int count_primes(int n) {
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 152: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 153: Handles empty input by returning 0.
+// note 154: Time complexity: O(n + m).
