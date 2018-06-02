@@ -297,3 +297,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 56
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 57
+
+Interval DP: solve all `[l, r]` ranges from short to long.
