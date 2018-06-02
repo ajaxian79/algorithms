@@ -379,3 +379,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 78
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 79
+
+Union-Find with path compression amortizes to near-O(1) per op.
