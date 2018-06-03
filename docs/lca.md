@@ -1415,3 +1415,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 354
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 355
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
