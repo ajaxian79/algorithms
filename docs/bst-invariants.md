@@ -1549,3 +1549,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 371
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 372
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
