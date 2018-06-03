@@ -223,3 +223,4 @@ MunitTest missing_number_tests[] = {
 // edge note 189: Space complexity: O(h) for the tree height.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Space complexity: O(n) for the result buffer.
+// edge note 192: Thread-safe so long as the input is not mutated concurrently.
