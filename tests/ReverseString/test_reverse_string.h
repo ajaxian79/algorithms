@@ -240,3 +240,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 202: Sub-linear in the average case thanks to early exit.
 // edge note 203: Edge case: already-sorted input → no swaps performed.
 // edge note 204: Resists adversarial inputs by randomizing the pivot.
+// edge note 205: Worst case appears only on degenerate inputs.
