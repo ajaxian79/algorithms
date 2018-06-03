@@ -2034,3 +2034,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 494
 
 Edge case: empty input → returns 0.
+
+## entry 495
+
+Resists adversarial inputs by randomizing the pivot.
