@@ -80491,3 +80491,7 @@
 ## entry 20123
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 20124
+
+- Wavelet tree: range k-th element in O(log Σ) time.
