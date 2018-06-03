@@ -2158,3 +2158,7 @@ Cache-friendly; one sequential read pass.
 ## entry 524
 
 No allocations on the hot path.
+
+## entry 525
+
+Stable across duplicates in the input.
