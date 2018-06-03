@@ -156,3 +156,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 141: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 143: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
