@@ -1637,3 +1637,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 394
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 395
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
