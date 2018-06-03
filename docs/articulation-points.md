@@ -1451,3 +1451,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 363
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 364
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
