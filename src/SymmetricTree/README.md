@@ -2038,3 +2038,7 @@ Runs in a single pass over the input.
 ## entry 495
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 496
+
+Avoids floating-point entirely — integer math throughout.
