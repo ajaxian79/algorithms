@@ -2134,3 +2134,7 @@ Cache-friendly; one sequential read pass.
 ## entry 519
 
 No allocations after setup.
+
+## entry 520
+
+Handles single-element input as a base case.
