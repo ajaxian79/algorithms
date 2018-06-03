@@ -2121,3 +2121,7 @@ Three passes total; the third merges results.
 ## entry 515
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 516
+
+Edge case: reverse-sorted input → still O(n log n).
