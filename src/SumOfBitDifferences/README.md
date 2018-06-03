@@ -376,3 +376,7 @@ Allocates lazily — first call only.
 ## entry 79
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 80
+
+Space complexity: O(1) auxiliary.
