@@ -1431,3 +1431,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 358
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 359
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
