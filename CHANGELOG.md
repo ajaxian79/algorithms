@@ -80523,3 +80523,7 @@
 ## entry 20131
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20132
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
