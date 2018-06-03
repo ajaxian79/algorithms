@@ -188,3 +188,4 @@ int add_digits(int n) {
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 179: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 180: Graph DP on DAGs: topological order makes the dependency direction explicit.
