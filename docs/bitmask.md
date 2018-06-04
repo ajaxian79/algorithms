@@ -1395,3 +1395,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 333
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 334
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
