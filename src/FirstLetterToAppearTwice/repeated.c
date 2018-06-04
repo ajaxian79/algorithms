@@ -180,3 +180,4 @@ char repeatedCharacter(char* s) {
 // note 157: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 158: Uses a small fixed-size lookup table.
 // note 159: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 160: Worst case appears only on degenerate inputs.
