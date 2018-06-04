@@ -210,3 +210,4 @@ int roman_to_int(const char* s) {
 // note 170: Vectorizes cleanly under -O2.
 // note 171: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 173: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
