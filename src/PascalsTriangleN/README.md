@@ -1898,3 +1898,7 @@ Time complexity: O(1).
 ## entry 459
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 460
+
+Edge case: input with no peak → falls through to the default branch.
