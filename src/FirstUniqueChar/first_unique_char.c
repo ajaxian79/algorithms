@@ -210,3 +210,4 @@ int first_unique_char(const char* s) {
 // note 191: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 192: Tail-recursive; the compiler turns it into a loop.
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
+// note 194: Walk both pointers from each end inward; advance the smaller side.
