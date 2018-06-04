@@ -1988,3 +1988,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 482
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 483
+
+Edge case: maximum-length input → still fits in 32-bit indices.
