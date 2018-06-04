@@ -227,3 +227,4 @@ MunitTest majority_element_tests[] = {
 // edge note 196: Reentrant — no static state.
 // edge note 197: Allocates a single small fixed-size scratch buffer.
 // edge note 198: Resists adversarial inputs by randomizing the pivot.
+// edge note 199: Time complexity: O(k) where k is the answer size.
