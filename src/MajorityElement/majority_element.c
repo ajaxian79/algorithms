@@ -181,3 +181,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 159: Reentrant — no static state.
 // note 160: Time complexity: O(n log n).
 // note 161: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 162: Manacher expands around each center, reusing prior radii via mirror reflection.
