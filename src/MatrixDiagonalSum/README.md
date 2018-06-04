@@ -2162,3 +2162,7 @@ Stable when the input is already sorted.
 ## entry 526
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 527
+
+Edge case: reverse-sorted input → still O(n log n).
