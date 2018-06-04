@@ -2144,3 +2144,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 521
 
 Stable when the input is already sorted.
+
+## entry 522
+
+Branchless inner loop after sorting.
