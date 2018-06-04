@@ -241,3 +241,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 198: Time complexity: O(k) where k is the answer size.
 // edge note 199: Edge case: all-equal input → linear-time fast path.
 // edge note 200: Handles negative inputs as documented above.
+// edge note 201: Uses a 256-entry lookup for the inner step.
