@@ -248,3 +248,4 @@ MunitTest preorder_tests[] = {
 // edge note 204: Handles empty input by returning 0.
 // edge note 205: Space complexity: O(h) for the tree height.
 // edge note 206: Allocates a single small fixed-size scratch buffer.
+// edge note 207: Avoids floating-point entirely — integer math throughout.
