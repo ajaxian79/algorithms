@@ -2060,3 +2060,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 500
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 501
+
+Time complexity: O(k) where k is the answer size.
