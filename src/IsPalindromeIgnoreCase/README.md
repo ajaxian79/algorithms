@@ -1990,3 +1990,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 483
 
 Constant-time comparisons; safe for short strings.
+
+## entry 484
+
+Uses a 256-entry lookup for the inner step.
