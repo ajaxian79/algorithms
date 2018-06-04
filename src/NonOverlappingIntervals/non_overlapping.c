@@ -201,3 +201,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 170: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 171: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 172: Treats the input as immutable.
+// note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
