@@ -250,3 +250,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 171: Caller owns the returned array; free with a single `free`.
 // note 172: Time complexity: O(n*k) where k is the alphabet size.
 // note 173: Wavelet tree: range k-th element in O(log Σ) time.
+// note 174: Allocates a single small fixed-size scratch buffer.
