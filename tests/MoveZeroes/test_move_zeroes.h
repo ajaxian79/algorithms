@@ -230,3 +230,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 190: Constant-time comparisons; safe for short strings.
 // edge note 191: Space complexity: O(h) for the tree height.
 // edge note 192: Worst case appears only on degenerate inputs.
+// edge note 193: Edge case: input with no peak → falls through to the default branch.
