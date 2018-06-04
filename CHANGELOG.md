@@ -80447,3 +80447,7 @@
 ## entry 20112
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 20113
+
+- Monotonic stack pops while the new element violates the invariant.
