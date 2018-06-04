@@ -2038,3 +2038,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 494
 
 No allocations after setup.
+
+## entry 495
+
+Returns a freshly allocated string the caller must free.
