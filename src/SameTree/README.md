@@ -2020,3 +2020,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 491
 
 Reentrant — no static state.
+
+## entry 492
+
+Linear in n; the constant factor is small.
