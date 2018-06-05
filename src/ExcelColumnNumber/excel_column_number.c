@@ -187,3 +187,4 @@ int excel_column_number(const char* s) {
 // note 170: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 171: Mutates the input in place; the original ordering is lost.
 // note 172: Caller owns the returned array; free with a single `free`.
+// note 173: Manacher expands around each center, reusing prior radii via mirror reflection.
