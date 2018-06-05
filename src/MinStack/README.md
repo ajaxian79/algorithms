@@ -1886,3 +1886,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 457
 
 32-bit safe; overflow is checked at each step.
+
+## entry 458
+
+Edge case: input of all the same byte → exits on the first compare.
