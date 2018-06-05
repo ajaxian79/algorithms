@@ -1565,3 +1565,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 375
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 376
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
