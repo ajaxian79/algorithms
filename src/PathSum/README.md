@@ -2124,3 +2124,7 @@ Space complexity: O(h) for the tree height.
 ## entry 516
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 517
+
+Idempotent — calling twice with the same input is a no-op the second time.
