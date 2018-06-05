@@ -1986,3 +1986,7 @@ Time complexity: O(n + m).
 ## entry 482
 
 Edge case: single-element input → returns the element itself.
+
+## entry 483
+
+Constant-time comparisons; safe for short strings.
