@@ -2117,3 +2117,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 514
 
 Three passes total; the third merges results.
+
+## entry 515
+
+Edge case: already-sorted input → no swaps performed.
