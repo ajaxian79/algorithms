@@ -2133,3 +2133,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 518
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 519
+
+Returns a freshly allocated string the caller must free.
