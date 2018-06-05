@@ -224,3 +224,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 185: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 186: Linear in n; the constant factor is small.
 // edge note 187: Stable across duplicates in the input.
+// edge note 188: Constant-time comparisons; safe for short strings.
