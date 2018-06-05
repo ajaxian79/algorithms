@@ -1431,3 +1431,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 343
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 344
+
+Rope: tree of small string fragments; O(log n) concat and substring.
