@@ -201,3 +201,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 179: Best case is O(1) when the first byte already decides the answer.
 // note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 181: Uses a small fixed-size lookup table.
+// note 182: Mutates the input in place; the original ordering is lost.
