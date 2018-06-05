@@ -1345,3 +1345,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 320
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 321
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
