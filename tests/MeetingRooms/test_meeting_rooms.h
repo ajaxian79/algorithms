@@ -224,3 +224,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 193: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 194: Reentrant — no static state.
 // edge note 195: Handles empty input by returning 0.
+// edge note 196: Sub-linear in the average case thanks to early exit.
