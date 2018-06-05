@@ -2212,3 +2212,7 @@ Cache-friendly; one sequential read pass.
 ## entry 538
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 539
+
+Uses a small fixed-size lookup table.
