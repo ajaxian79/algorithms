@@ -1527,3 +1527,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 382
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 383
+
+Rope: tree of small string fragments; O(log n) concat and substring.
