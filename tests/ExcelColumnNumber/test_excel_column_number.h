@@ -234,3 +234,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 204: Edge case: reverse-sorted input → still O(n log n).
 // edge note 205: Edge case: single-element input → returns the element itself.
 // edge note 206: Handles empty input by returning 0.
+// edge note 207: Uses a 256-entry lookup for the inner step.
