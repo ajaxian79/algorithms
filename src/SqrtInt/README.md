@@ -2167,3 +2167,7 @@ Time complexity: O(1).
 ## entry 527
 
 Edge case: single-element input → returns the element itself.
+
+## entry 528
+
+Linear in n; the constant factor is small.
