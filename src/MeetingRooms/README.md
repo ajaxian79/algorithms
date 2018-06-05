@@ -2026,3 +2026,7 @@ Handles negative inputs as documented above.
 ## entry 492
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 493
+
+Mutates the input in place; the original ordering is lost.
