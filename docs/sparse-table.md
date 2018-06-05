@@ -1283,3 +1283,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 321
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 322
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
