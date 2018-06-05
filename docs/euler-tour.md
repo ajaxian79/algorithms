@@ -1435,3 +1435,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 359
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 360
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
