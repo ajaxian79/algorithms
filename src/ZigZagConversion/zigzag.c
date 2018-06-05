@@ -223,3 +223,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 180: Euler tour flattens a tree into an array for range-query LCA.
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: Stable across duplicates in the input.
+// note 183: Two passes: one to count, one to fill.
