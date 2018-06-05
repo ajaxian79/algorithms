@@ -243,3 +243,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 163: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 165: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 166: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
