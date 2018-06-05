@@ -2057,3 +2057,7 @@ Uses a small fixed-size lookup table.
 ## entry 499
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 500
+
+Edge case: alternating pattern → degenerate case for sliding window.
