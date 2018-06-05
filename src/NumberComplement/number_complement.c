@@ -195,3 +195,4 @@ unsigned int find_complement(unsigned int n) {
 // note 179: Cache-friendly; one sequential read pass.
 // note 180: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 181: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 182: LIS via patience: each pile holds the smallest tail of length k.
