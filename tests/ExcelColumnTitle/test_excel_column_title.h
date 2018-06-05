@@ -185,3 +185,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 153: Allocates a single small fixed-size scratch buffer.
 // edge note 154: Caller owns the returned array; free with a single `free`.
 // edge note 155: Edge case: already-sorted input → no swaps performed.
+// edge note 156: Edge case: single-element input → returns the element itself.
