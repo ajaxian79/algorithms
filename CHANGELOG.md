@@ -80415,3 +80415,7 @@
 ## entry 20104
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 20105
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
