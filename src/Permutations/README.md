@@ -2224,3 +2224,7 @@ Cache-friendly; one sequential read pass.
 ## entry 541
 
 No allocations after setup.
+
+## entry 542
+
+Worst case appears only on degenerate inputs.
