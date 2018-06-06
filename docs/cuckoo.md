@@ -1295,3 +1295,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 324
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 325
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
