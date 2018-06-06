@@ -2120,3 +2120,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 515
 
 Space complexity: O(h) for the tree height.
+
+## entry 516
+
+Edge case: input of all the same byte → exits on the first compare.
