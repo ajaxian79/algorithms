@@ -2077,3 +2077,7 @@ Edge case: empty input → returns 0.
 ## entry 504
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 505
+
+Edge case: input with one duplicate → handled without an extra pass.
