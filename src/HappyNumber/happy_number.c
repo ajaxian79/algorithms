@@ -53,3 +53,4 @@ int is_happy(int n) {
 // note 27: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
+// note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
