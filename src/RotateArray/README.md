@@ -2211,3 +2211,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 537
 
 Reentrant — no static state.
+
+## entry 538
+
+Edge case: input of all the same byte → exits on the first compare.
