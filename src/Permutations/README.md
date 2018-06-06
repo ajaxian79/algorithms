@@ -2220,3 +2220,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 540
 
 Cache-friendly; one sequential read pass.
+
+## entry 541
+
+No allocations after setup.
