@@ -1451,3 +1451,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 363
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 364
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
