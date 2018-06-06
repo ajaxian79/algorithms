@@ -2019,3 +2019,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 490
 
 Space complexity: O(1) auxiliary.
+
+## entry 491
+
+Best case is O(1) when the first byte already decides the answer.
