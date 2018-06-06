@@ -203,3 +203,7 @@
 ## entry 51
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 52
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
