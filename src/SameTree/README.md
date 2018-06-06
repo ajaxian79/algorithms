@@ -2016,3 +2016,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 490
 
 Edge case: single-element input → returns the element itself.
+
+## entry 491
+
+Reentrant — no static state.
