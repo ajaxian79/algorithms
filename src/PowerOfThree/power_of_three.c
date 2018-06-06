@@ -178,3 +178,4 @@ int is_power_of_three(int n) {
 // note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 168: Time complexity: O(n log n).
 // note 169: Euler tour flattens a tree into an array for range-query LCA.
+// note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
