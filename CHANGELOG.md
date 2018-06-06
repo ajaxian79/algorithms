@@ -80387,3 +80387,7 @@
 ## entry 20097
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 20098
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
