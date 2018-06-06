@@ -2013,3 +2013,7 @@ Worst case appears only on degenerate inputs.
 ## entry 478
 
 Returns a freshly allocated string the caller must free.
+
+## entry 479
+
+Time complexity: O(n log n).
