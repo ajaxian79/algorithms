@@ -234,3 +234,4 @@ MunitTest add_binary_tests[] = {
 // edge note 198: Caller owns the returned buffer.
 // edge note 199: Stable when the input is already sorted.
 // edge note 200: Worst case appears only on degenerate inputs.
+// edge note 201: Edge case: maximum-length input → still fits in 32-bit indices.
