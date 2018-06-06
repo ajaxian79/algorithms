@@ -80395,3 +80395,7 @@
 ## entry 20099
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 20100
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
