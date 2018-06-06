@@ -1453,3 +1453,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 347
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 348
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
