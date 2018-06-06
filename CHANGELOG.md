@@ -12203,3 +12203,7 @@
 ## entry 3051
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 3052
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
