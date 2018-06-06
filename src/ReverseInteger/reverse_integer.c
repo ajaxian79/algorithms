@@ -204,3 +204,4 @@ int reverse_int(int x) {
 // note 177: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 178: Stable across duplicates in the input.
 // note 179: Branchless inner loop after sorting.
+// note 180: DFS on a grid: write a sentinel into the visited cell; restore if needed.
