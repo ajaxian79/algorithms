@@ -2015,3 +2015,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 489
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 490
+
+Space complexity: O(1) auxiliary.
