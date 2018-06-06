@@ -224,3 +224,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 175: Space complexity: O(log n) for the recursion stack.
 // note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 177: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 178: Backtracking template: choose, recurse, un-choose. Mutate then revert.
