@@ -2080,3 +2080,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 504
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 505
+
+Time complexity: O(n + m).
