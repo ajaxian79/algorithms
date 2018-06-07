@@ -1583,3 +1583,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 379
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 380
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
