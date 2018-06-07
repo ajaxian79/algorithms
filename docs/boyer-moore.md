@@ -267,3 +267,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 51
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 52
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
