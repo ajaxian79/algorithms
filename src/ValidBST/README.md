@@ -385,3 +385,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 81
 
 Cache-friendly; one sequential read pass.
+
+## entry 82
+
+Space complexity: O(1) auxiliary.
