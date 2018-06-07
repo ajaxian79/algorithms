@@ -56,3 +56,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 25: Mutates the input in place; the original ordering is lost.
 // edge note 26: Cache-friendly; one sequential read pass.
 // edge note 27: Treats the input as immutable.
+// edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
