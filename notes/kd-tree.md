@@ -239,3 +239,7 @@
 ## entry 60
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 61
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
