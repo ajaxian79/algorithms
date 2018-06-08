@@ -1882,3 +1882,7 @@ Handles single-element input as a base case.
 ## entry 456
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 457
+
+Space complexity: O(1) auxiliary.
