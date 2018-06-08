@@ -2140,3 +2140,7 @@ No allocations on the hot path.
 ## entry 520
 
 32-bit safe; overflow is checked at each step.
+
+## entry 521
+
+Edge case: all-equal input → linear-time fast path.
