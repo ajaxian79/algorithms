@@ -334,3 +334,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 68
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 69
+
+Input is assumed non-NULL; behavior is undefined otherwise.
