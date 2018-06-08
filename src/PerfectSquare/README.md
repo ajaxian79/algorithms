@@ -2186,3 +2186,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 532
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 533
+
+Sub-linear in the average case thanks to early exit.
