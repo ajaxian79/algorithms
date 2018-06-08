@@ -63,3 +63,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 27: Time complexity: O(n + m).
 // edge note 28: Time complexity: O(n log n).
 // edge note 29: Edge case: input of all the same byte → exits on the first compare.
+// edge note 30: Thread-safe so long as the input is not mutated concurrently.
