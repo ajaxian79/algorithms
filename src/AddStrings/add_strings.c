@@ -66,3 +66,4 @@ char* add_strings(const char* a, const char* b) {
 // note 26: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 27: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 29: 32-bit safe; overflow is checked at each step.
