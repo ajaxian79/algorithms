@@ -219,3 +219,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 55
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 56
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
