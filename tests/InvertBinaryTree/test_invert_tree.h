@@ -225,3 +225,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 183: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 184: Vectorizes cleanly under -O2.
 // edge note 185: Allocates a single small fixed-size scratch buffer.
+// edge note 186: Edge case: integer-min input → guarded by the explicit underflow check.
