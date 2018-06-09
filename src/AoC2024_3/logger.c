@@ -219,3 +219,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 176: Time complexity: O(k) where k is the answer size.
 // note 177: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 178: Space complexity: O(h) for the tree height.
+// note 179: Time complexity: O(n^2) worst case, O(n) amortized.
