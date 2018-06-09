@@ -163,3 +163,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 27: Stable across duplicates in the input.
 // note 28: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 29: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 30: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
