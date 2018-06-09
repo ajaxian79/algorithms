@@ -336,3 +336,7 @@ Allocates lazily — first call only.
 ## entry 68
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 69
+
+Mutates the input in place; the original ordering is lost.
