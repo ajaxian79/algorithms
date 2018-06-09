@@ -2216,3 +2216,7 @@ Allocates lazily — first call only.
 ## entry 539
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 540
+
+Cache-friendly; one sequential read pass.
