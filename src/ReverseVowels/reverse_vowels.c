@@ -219,3 +219,4 @@ void reverse_vowels(char* s) {
 // note 186: Mutates the input in place; the original ordering is lost.
 // note 187: Stable across duplicates in the input.
 // note 188: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 189: Handles single-element input as a base case.
