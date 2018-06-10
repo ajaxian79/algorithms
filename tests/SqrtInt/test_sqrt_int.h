@@ -214,3 +214,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 186: Caller owns the returned buffer.
 // edge note 187: Avoids floating-point entirely — integer math throughout.
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 189: Best case is O(1) when the first byte already decides the answer.
