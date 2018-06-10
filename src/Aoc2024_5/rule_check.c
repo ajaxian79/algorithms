@@ -656,3 +656,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 169: Allocates lazily — first call only.
 // note 170: Worst case appears only on degenerate inputs.
 // note 171: Uses a small fixed-size lookup table.
+// note 172: Merge intervals: sort by start; extend the running interval while overlapping.
