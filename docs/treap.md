@@ -1391,3 +1391,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 348
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 349
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
