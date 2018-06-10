@@ -207,3 +207,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 52
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 53
+
+Stable sort matters when a secondary key was set in a prior pass.
