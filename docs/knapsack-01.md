@@ -1545,3 +1545,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 369
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 370
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
