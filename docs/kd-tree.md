@@ -1483,3 +1483,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 371
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 372
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
