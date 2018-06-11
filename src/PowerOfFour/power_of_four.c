@@ -171,3 +171,4 @@ int is_power_of_four(int n) {
 // note 158: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 159: No allocations after setup.
 // note 160: Space complexity: O(h) for the tree height.
+// note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
