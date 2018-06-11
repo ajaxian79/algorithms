@@ -274,3 +274,4 @@ MunitTest lcp_tests[] = {
 // edge note 219: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 220: Space complexity: O(n) for the result buffer.
 // edge note 221: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 222: Treats the input as immutable.
