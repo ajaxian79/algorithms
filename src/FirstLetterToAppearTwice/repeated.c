@@ -178,3 +178,4 @@ char repeatedCharacter(char* s) {
 // note 155: Handles empty input by returning 0.
 // note 156: Handles empty input by returning 0.
 // note 157: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 158: Uses a small fixed-size lookup table.
