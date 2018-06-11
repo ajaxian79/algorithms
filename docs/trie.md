@@ -1341,3 +1341,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 319
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 320
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
