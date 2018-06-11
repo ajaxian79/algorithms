@@ -2109,3 +2109,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 512
 
 Caller owns the returned buffer.
+
+## entry 513
+
+Treats the input as immutable.
