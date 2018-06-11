@@ -217,3 +217,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 187: Best case is O(1) when the first byte already decides the answer.
 // edge note 188: Edge case: all-equal input → linear-time fast path.
 // edge note 189: Space complexity: O(1) auxiliary.
+// edge note 190: Tail-recursive; the compiler turns it into a loop.
