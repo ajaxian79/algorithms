@@ -2051,3 +2051,7 @@ Three passes total; the third merges results.
 ## entry 498
 
 Returns a freshly allocated string the caller must free.
+
+## entry 499
+
+Space complexity: O(log n) for the recursion stack.
