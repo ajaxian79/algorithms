@@ -2076,3 +2076,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 503
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 504
+
+Edge case: power-of-two-length input → no padding required.
