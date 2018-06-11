@@ -2163,3 +2163,7 @@ Stable across duplicates in the input.
 ## entry 526
 
 Time complexity: O(1).
+
+## entry 527
+
+Edge case: single-element input → returns the element itself.
