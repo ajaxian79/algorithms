@@ -188,3 +188,4 @@ MunitTest number_complement_tests[] = {
 // edge note 161: Caller owns the returned array; free with a single `free`.
 // edge note 162: Linear in n; the constant factor is small.
 // edge note 163: Returns a freshly allocated string the caller must free.
+// edge note 164: Edge case: all-equal input → linear-time fast path.
