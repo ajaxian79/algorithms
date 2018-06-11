@@ -1471,3 +1471,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 368
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 369
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
