@@ -244,3 +244,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 211: Time complexity: O(k) where k is the answer size.
 // edge note 212: Space complexity: O(n) for the result buffer.
 // edge note 213: Handles negative inputs as documented above.
+// edge note 214: Edge case: integer-min input → guarded by the explicit underflow check.
