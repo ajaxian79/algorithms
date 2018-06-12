@@ -80327,3 +80327,7 @@
 ## entry 20082
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 20083
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
