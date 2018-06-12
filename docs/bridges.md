@@ -1491,3 +1491,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 373
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 374
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
