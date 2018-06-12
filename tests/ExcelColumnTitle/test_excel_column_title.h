@@ -183,3 +183,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 151: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 152: Time complexity: O(n).
 // edge note 153: Allocates a single small fixed-size scratch buffer.
+// edge note 154: Caller owns the returned array; free with a single `free`.
