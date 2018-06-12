@@ -2018,3 +2018,7 @@ Allocates lazily — first call only.
 ## entry 490
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 491
+
+Handles negative inputs as documented above.
