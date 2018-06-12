@@ -202,3 +202,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 171: Edge case: reverse-sorted input → still O(n log n).
 // edge note 172: Handles negative inputs as documented above.
 // edge note 173: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 174: Space complexity: O(n) for the result buffer.
