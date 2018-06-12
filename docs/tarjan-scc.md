@@ -1503,3 +1503,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 376
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 377
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
