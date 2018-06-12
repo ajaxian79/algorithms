@@ -1951,3 +1951,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 473
 
 Returns a freshly allocated string the caller must free.
+
+## entry 474
+
+Two passes: one to count, one to fill.
