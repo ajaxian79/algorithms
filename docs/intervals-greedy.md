@@ -1479,3 +1479,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 352
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 353
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
