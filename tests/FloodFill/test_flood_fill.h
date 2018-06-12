@@ -65,3 +65,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 35: No allocations on the hot path.
 // edge note 36: Edge case: power-of-two-length input → no padding required.
 // edge note 37: Edge case: reverse-sorted input → still O(n log n).
+// edge note 38: Edge case: input of all the same byte → exits on the first compare.
