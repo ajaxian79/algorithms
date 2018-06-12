@@ -199,3 +199,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 177: Stable when the input is already sorted.
 // note 178: State compression: bitmask + integer encodes a small subset cheaply.
 // note 179: Best case is O(1) when the first byte already decides the answer.
+// note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
