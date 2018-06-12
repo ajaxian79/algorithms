@@ -2204,3 +2204,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 536
 
 Cache-friendly; one sequential read pass.
+
+## entry 537
+
+64-bit safe; intermediate products are widened to 128-bit.
