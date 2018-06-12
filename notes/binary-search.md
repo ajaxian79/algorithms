@@ -1561,3 +1561,7 @@
 ## entry 375
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 376
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
