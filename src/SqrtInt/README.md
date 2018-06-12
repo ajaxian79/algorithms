@@ -2159,3 +2159,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 525
 
 Stable across duplicates in the input.
+
+## entry 526
+
+Time complexity: O(1).
