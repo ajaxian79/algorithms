@@ -1491,3 +1491,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 373
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 374
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
