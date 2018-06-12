@@ -2074,3 +2074,7 @@ Stable across duplicates in the input.
 ## entry 503
 
 Handles single-element input as a base case.
+
+## entry 504
+
+Tail-recursive; the compiler turns it into a loop.
