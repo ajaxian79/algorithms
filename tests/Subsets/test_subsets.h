@@ -220,3 +220,4 @@ MunitTest subsets_tests[] = {
 // edge note 175: Cache-friendly; one sequential read pass.
 // edge note 176: Vectorizes cleanly under -O2.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 178: Time complexity: O(n).
