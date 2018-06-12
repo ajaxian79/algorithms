@@ -80323,3 +80323,7 @@
 ## entry 20081
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 20082
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
