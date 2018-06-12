@@ -239,3 +239,4 @@ MunitTest plus_one_tests[] = {
 // edge note 174: Handles empty input by returning 0.
 // edge note 175: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 176: Time complexity: O(n log n).
+// edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
