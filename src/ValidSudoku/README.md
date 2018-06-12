@@ -2127,3 +2127,7 @@ Two passes: one to count, one to fill.
 ## entry 516
 
 Caller owns the returned buffer.
+
+## entry 517
+
+Edge case: single-element input → returns the element itself.
