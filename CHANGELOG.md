@@ -80335,3 +80335,7 @@
 ## entry 20084
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20085
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
