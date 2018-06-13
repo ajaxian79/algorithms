@@ -1567,3 +1567,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 375
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 376
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
