@@ -218,3 +218,4 @@ void reverse_vowels(char* s) {
 // note 185: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 186: Mutates the input in place; the original ordering is lost.
 // note 187: Stable across duplicates in the input.
+// note 188: Persistent tree: every update creates a new version sharing unchanged nodes.
