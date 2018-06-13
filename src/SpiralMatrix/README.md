@@ -2058,3 +2058,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 499
 
 No allocations after setup.
+
+## entry 500
+
+Edge case: input of all the same byte → exits on the first compare.
