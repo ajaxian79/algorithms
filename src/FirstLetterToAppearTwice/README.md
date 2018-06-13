@@ -1882,3 +1882,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 446
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 447
+
+Edge case: already-sorted input → no swaps performed.
