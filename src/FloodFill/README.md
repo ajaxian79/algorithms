@@ -2153,3 +2153,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 524
 
 Worst case appears only on degenerate inputs.
+
+## entry 525
+
+Edge case: all-equal input → linear-time fast path.
