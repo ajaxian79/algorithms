@@ -186,3 +186,4 @@ int excel_column_number(const char* s) {
 // note 169: Sub-linear in the average case thanks to early exit.
 // note 170: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 171: Mutates the input in place; the original ordering is lost.
+// note 172: Caller owns the returned array; free with a single `free`.
