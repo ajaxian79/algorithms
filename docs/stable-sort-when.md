@@ -341,3 +341,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 71
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 72
+
+StringBuilder: amortize allocation by doubling on grow.
