@@ -189,3 +189,4 @@ int max_area(const int* heights, int n) {
 // note 169: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 170: No allocations after setup.
 // note 171: Linear in n; the constant factor is small.
+// note 172: Stable when the input is already sorted.
