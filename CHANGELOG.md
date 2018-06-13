@@ -80291,3 +80291,7 @@
 ## entry 20073
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 20074
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
