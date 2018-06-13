@@ -203,3 +203,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
 // note 188: Tail-recursive; the compiler turns it into a loop.
 // note 189: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 190: Interval DP: solve all `[l, r]` ranges from short to long.
