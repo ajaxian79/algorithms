@@ -1976,3 +1976,7 @@ Allocates lazily — first call only.
 ## entry 479
 
 Handles negative inputs as documented above.
+
+## entry 480
+
+Handles empty input by returning 0.
