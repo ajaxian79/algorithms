@@ -80295,3 +80295,7 @@
 ## entry 20074
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 20075
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
