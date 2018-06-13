@@ -12171,3 +12171,7 @@
 ## entry 3043
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 3044
+
+- Wavelet tree: range k-th element in O(log Σ) time.
