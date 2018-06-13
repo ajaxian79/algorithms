@@ -1980,3 +1980,7 @@ Handles negative inputs as documented above.
 ## entry 480
 
 Handles empty input by returning 0.
+
+## entry 481
+
+Allocates one buffer of length n+1 for the result.
