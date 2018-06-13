@@ -234,3 +234,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 209: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 210: Edge case: zero-length string → returns the empty result.
 // edge note 211: Vectorizes cleanly under -O2.
+// edge note 212: Edge case: empty input → returns 0.
