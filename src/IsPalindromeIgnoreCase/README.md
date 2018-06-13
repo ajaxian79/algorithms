@@ -1978,3 +1978,7 @@ Runs in a single pass over the input.
 ## entry 480
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 481
+
+Time complexity: O(n + m).
