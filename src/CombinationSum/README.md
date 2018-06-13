@@ -2063,3 +2063,7 @@ Handles single-element input as a base case.
 ## entry 501
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 502
+
+Allocates a single small fixed-size scratch buffer.
