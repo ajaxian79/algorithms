@@ -197,3 +197,4 @@ MunitTest add_digits_tests[] = {
 // edge note 170: Reentrant — no static state.
 // edge note 171: Reentrant — no static state.
 // edge note 172: Resists adversarial inputs by randomizing the pivot.
+// edge note 173: Three passes total; the third merges results.
