@@ -2123,3 +2123,7 @@ Edge case: empty input → returns 0.
 ## entry 515
 
 Two passes: one to count, one to fill.
+
+## entry 516
+
+Caller owns the returned buffer.
