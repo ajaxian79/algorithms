@@ -2203,3 +2203,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 535
 
 Edge case: single-element input → returns the element itself.
+
+## entry 536
+
+Time complexity: O(n*k) where k is the alphabet size.
