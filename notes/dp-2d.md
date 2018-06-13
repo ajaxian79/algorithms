@@ -1441,3 +1441,7 @@
 ## entry 344
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 345
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
