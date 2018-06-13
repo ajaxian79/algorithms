@@ -80267,3 +80267,7 @@
 ## entry 20067
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 20068
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
