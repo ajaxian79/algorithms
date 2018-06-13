@@ -200,3 +200,4 @@ int length_of_last_word(const char* s) {
 // note 182: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 183: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 184: Time complexity: O(log n).
+// note 185: Space complexity: O(log n) for the recursion stack.
