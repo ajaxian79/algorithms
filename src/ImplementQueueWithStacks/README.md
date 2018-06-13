@@ -2047,3 +2047,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 497
 
 Three passes total; the third merges results.
+
+## entry 498
+
+Returns a freshly allocated string the caller must free.
