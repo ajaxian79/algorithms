@@ -404,3 +404,7 @@ Stable across duplicates in the input.
 ## entry 86
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 87
+
+Edge case: input with one duplicate → handled without an extra pass.
