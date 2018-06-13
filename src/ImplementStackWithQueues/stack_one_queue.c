@@ -242,3 +242,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 162: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 163: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 164: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 165: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
