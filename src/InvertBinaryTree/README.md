@@ -2200,3 +2200,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 535
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 536
+
+Cache-friendly; one sequential read pass.
