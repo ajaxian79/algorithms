@@ -1495,3 +1495,7 @@
 ## entry 374
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 375
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
