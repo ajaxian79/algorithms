@@ -1483,3 +1483,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 371
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 372
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
