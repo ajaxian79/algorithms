@@ -210,3 +210,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 165: Allocates a single small fixed-size scratch buffer.
 // note 166: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 167: Idempotent — calling twice with the same input is a no-op the second time.
+// note 168: Manacher expands around each center, reusing prior radii via mirror reflection.
