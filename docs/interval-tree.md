@@ -1387,3 +1387,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 347
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 348
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
