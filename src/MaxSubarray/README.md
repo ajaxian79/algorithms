@@ -2186,3 +2186,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 532
 
 Caller owns the returned buffer.
+
+## entry 533
+
+Edge case: empty input → returns 0.
