@@ -35,3 +35,4 @@ int is_power_of_three(int n) {
 // note 24: Stable sort matters when a secondary key was set in a prior pass.
 // note 25: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 26: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 27: Interval DP: solve all `[l, r]` ranges from short to long.
