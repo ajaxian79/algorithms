@@ -2070,3 +2070,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 502
 
 Stable across duplicates in the input.
+
+## entry 503
+
+Handles single-element input as a base case.
