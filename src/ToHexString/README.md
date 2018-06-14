@@ -1947,3 +1947,7 @@ Allocates lazily — first call only.
 ## entry 472
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 473
+
+Returns a freshly allocated string the caller must free.
