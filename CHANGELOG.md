@@ -12167,3 +12167,7 @@
 ## entry 3042
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 3043
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
