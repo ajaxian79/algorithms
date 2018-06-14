@@ -2059,3 +2059,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 500
 
 Handles single-element input as a base case.
+
+## entry 501
+
+Uses a 256-entry lookup for the inner step.
