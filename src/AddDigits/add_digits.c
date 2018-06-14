@@ -187,3 +187,4 @@ int add_digits(int n) {
 // note 176: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 179: ASCII rules are a strict subset of UTF-8; no special handling needed.
