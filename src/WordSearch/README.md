@@ -2078,3 +2078,7 @@ Handles negative inputs as documented above.
 ## entry 505
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 506
+
+Allocates lazily — first call only.
