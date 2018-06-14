@@ -2119,3 +2119,7 @@ Edge case: empty input → returns 0.
 ## entry 514
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 515
+
+Two passes: one to count, one to fill.
