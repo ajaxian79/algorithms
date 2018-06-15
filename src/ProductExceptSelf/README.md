@@ -2072,3 +2072,7 @@ Two passes: one to count, one to fill.
 ## entry 502
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 503
+
+Edge case: input with one duplicate → handled without an extra pass.
