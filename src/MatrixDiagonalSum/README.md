@@ -2150,3 +2150,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 523
 
 Reentrant — no static state.
+
+## entry 524
+
+Linear in n; the constant factor is small.
