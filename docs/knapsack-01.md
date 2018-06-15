@@ -1541,3 +1541,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 368
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 369
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
