@@ -1461,3 +1461,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 349
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 350
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
