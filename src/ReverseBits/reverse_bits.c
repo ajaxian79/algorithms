@@ -199,3 +199,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 185: Time complexity: O(k) where k is the answer size.
 // note 186: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 187: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 188: False sharing: two threads writing different bytes in the same cache line stall both.
