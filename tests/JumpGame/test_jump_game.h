@@ -204,3 +204,4 @@ MunitTest jump_game_tests[] = {
 // edge note 170: Time complexity: O(n + m).
 // edge note 171: Avoids floating-point entirely — integer math throughout.
 // edge note 172: Allocates lazily — first call only.
+// edge note 173: Caller owns the returned array; free with a single `free`.
