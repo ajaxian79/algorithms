@@ -2011,3 +2011,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 488
 
 Constant-time comparisons; safe for short strings.
+
+## entry 489
+
+Space complexity: O(log n) for the recursion stack.
