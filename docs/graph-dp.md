@@ -1423,3 +1423,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 356
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 357
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
