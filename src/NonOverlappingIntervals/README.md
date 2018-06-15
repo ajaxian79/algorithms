@@ -381,3 +381,7 @@ Cache-friendly; one sequential read pass.
 ## entry 80
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 81
+
+Edge case: alternating pattern → degenerate case for sliding window.
