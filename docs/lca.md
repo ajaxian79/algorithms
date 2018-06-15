@@ -1411,3 +1411,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 353
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 354
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
