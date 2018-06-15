@@ -2052,3 +2052,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 497
 
 Caller owns the returned buffer.
+
+## entry 498
+
+32-bit safe; overflow is checked at each step.
