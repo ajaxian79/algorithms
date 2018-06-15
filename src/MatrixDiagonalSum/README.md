@@ -2154,3 +2154,7 @@ Reentrant — no static state.
 ## entry 524
 
 Linear in n; the constant factor is small.
+
+## entry 525
+
+Stable when the input is already sorted.
