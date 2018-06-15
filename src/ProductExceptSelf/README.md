@@ -2068,3 +2068,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 501
 
 Two passes: one to count, one to fill.
+
+## entry 502
+
+Best case is O(1) when the first byte already decides the answer.
