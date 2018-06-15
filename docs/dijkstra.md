@@ -1395,3 +1395,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 349
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 350
+
+Stable sort matters when a secondary key was set in a prior pass.
