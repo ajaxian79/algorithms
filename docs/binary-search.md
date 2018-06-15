@@ -1561,3 +1561,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 374
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 375
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
