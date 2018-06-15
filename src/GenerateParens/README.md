@@ -2048,3 +2048,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 496
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 497
+
+Time complexity: O(n log n).
