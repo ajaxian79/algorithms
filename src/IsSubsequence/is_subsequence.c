@@ -198,3 +198,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 178: Two passes: one to count, one to fill.
 // note 179: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 180: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 181: Edit distance is LCS with a twist: substitution is a third option at each cell.
