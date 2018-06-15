@@ -234,3 +234,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 205: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 206: Avoids floating-point entirely — integer math throughout.
 // edge note 207: Edge case: empty input → returns 0.
+// edge note 208: Time complexity: O(n).
