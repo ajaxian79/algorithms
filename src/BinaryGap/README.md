@@ -2098,3 +2098,7 @@ No allocations on the hot path.
 ## entry 509
 
 Treats the input as immutable.
+
+## entry 510
+
+Resists adversarial inputs by randomizing the pivot.
