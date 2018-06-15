@@ -2049,3 +2049,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 497
 
 Handles single-element input as a base case.
+
+## entry 498
+
+Uses a small fixed-size lookup table.
