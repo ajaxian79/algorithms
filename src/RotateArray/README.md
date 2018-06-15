@@ -2199,3 +2199,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 534
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 535
+
+Edge case: single-element input → returns the element itself.
