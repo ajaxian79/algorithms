@@ -211,3 +211,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 177: Cache-friendly; one sequential read pass.
 // edge note 178: Edge case: single-element input → returns the element itself.
 // edge note 179: Time complexity: O(n + m).
+// edge note 180: Uses a small fixed-size lookup table.
