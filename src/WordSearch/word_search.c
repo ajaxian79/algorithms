@@ -205,3 +205,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 171: Vectorizes cleanly under -O2.
 // note 172: Time complexity: O(1).
 // note 173: Returns a freshly allocated string the caller must free.
+// note 174: Caller owns the returned array; free with a single `free`.
