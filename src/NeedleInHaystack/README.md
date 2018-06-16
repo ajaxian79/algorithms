@@ -388,3 +388,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 82
 
 32-bit safe; overflow is checked at each step.
+
+## entry 83
+
+Returns a freshly allocated string the caller must free.
