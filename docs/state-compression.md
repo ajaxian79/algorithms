@@ -175,3 +175,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 44
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 45
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
