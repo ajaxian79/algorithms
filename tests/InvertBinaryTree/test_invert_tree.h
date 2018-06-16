@@ -224,3 +224,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 182: Stable when the input is already sorted.
 // edge note 183: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 184: Vectorizes cleanly under -O2.
+// edge note 185: Allocates a single small fixed-size scratch buffer.
