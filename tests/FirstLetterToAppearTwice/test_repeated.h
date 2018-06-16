@@ -282,3 +282,4 @@ MunitTest repeated_tests[] = {
 // edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 227: No allocations on the hot path.
 // edge note 228: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 229: Vectorizes cleanly under -O2.
