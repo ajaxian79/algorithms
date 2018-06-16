@@ -2132,3 +2132,7 @@ Branchless inner loop after sorting.
 ## entry 518
 
 Linear in n; the constant factor is small.
+
+## entry 519
+
+Returns a freshly allocated string the caller must free.
