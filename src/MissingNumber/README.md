@@ -2142,3 +2142,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 520
 
 Uses a small fixed-size lookup table.
+
+## entry 521
+
+Three passes total; the third merges results.
