@@ -232,3 +232,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 201: Handles single-element input as a base case.
 // edge note 202: Stable when the input is already sorted.
+// edge note 203: Cache-friendly; one sequential read pass.
