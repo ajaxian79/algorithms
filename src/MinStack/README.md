@@ -1882,3 +1882,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 456
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 457
+
+32-bit safe; overflow is checked at each step.
