@@ -80171,3 +80171,7 @@
 ## entry 20043
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 20044
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
