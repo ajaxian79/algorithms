@@ -255,3 +255,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 64
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 65
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
