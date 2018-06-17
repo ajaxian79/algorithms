@@ -2014,3 +2014,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 489
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 490
+
+Stable when the input is already sorted.
