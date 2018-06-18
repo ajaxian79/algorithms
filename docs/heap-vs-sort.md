@@ -295,3 +295,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 57
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 58
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
