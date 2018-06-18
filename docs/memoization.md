@@ -1487,3 +1487,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 372
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 373
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
