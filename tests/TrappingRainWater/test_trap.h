@@ -224,3 +224,4 @@ MunitTest trap_tests[] = {
 // edge note 190: Time complexity: O(log n).
 // edge note 191: Runs in a single pass over the input.
 // edge note 192: Tail-recursive; the compiler turns it into a loop.
+// edge note 193: Edge case: empty input → returns 0.
