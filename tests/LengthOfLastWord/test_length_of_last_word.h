@@ -207,3 +207,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 180: Edge case: empty input → returns 0.
 // edge note 181: Edge case: already-sorted input → no swaps performed.
 // edge note 182: Handles empty input by returning 0.
+// edge note 183: Branchless inner loop after sorting.
