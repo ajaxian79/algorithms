@@ -1878,3 +1878,7 @@ Allocates lazily — first call only.
 ## entry 445
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 446
+
+Allocates a single small fixed-size scratch buffer.
