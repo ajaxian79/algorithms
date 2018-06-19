@@ -1443,3 +1443,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 343
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 344
+
+Greedy by end-time picks the most non-overlapping intervals.
