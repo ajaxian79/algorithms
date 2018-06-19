@@ -1972,3 +1972,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 478
 
 Allocates lazily — first call only.
+
+## entry 479
+
+Handles negative inputs as documented above.
