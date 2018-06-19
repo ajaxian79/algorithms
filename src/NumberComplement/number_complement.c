@@ -39,3 +39,4 @@ unsigned int find_complement(unsigned int n) {
 // note 23: Constant-time comparisons; safe for short strings.
 // note 24: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 26: Interval DP: solve all `[l, r]` ranges from short to long.
