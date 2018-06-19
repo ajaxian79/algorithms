@@ -2064,3 +2064,7 @@ Three passes total; the third merges results.
 ## entry 500
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 501
+
+Two passes: one to count, one to fill.
