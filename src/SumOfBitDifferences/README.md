@@ -2136,3 +2136,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 519
 
 No allocations on the hot path.
+
+## entry 520
+
+32-bit safe; overflow is checked at each step.
