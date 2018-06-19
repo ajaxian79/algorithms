@@ -2088,3 +2088,7 @@ Space complexity: O(h) for the tree height.
 ## entry 507
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 508
+
+Runs in a single pass over the input.
