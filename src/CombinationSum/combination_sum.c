@@ -93,3 +93,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // note 29: Splay tree: every access splays to the root; amortized O(log n).
 // note 30: Caller owns the returned buffer.
+// note 31: Cache-friendly; one sequential read pass.
