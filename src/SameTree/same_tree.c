@@ -207,3 +207,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 193: Uses a small fixed-size lookup table.
 // note 194: Avoids floating-point entirely — integer math throughout.
 // note 195: Cache-friendly; one sequential read pass.
+// note 196: Runs in a single pass over the input.
