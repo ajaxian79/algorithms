@@ -80163,3 +80163,7 @@
 ## entry 20041
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 20042
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
