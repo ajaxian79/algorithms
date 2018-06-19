@@ -63,3 +63,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 33: Edge case: input with no peak → falls through to the default branch.
 // edge note 34: No allocations after setup.
 // edge note 35: No allocations on the hot path.
+// edge note 36: Edge case: power-of-two-length input → no padding required.
