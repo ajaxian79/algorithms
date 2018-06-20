@@ -352,3 +352,7 @@ No allocations on the hot path.
 ## entry 73
 
 Handles empty input by returning 0.
+
+## entry 74
+
+Edge case: reverse-sorted input → still O(n log n).
