@@ -204,3 +204,4 @@ int is_anagram(const char* s, const char* t) {
 // note 175: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 176: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 177: Caller owns the returned buffer.
+// note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
