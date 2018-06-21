@@ -2132,3 +2132,7 @@ Uses a small fixed-size lookup table.
 ## entry 518
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 519
+
+No allocations on the hot path.
