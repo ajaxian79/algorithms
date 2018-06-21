@@ -277,3 +277,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 217: Thread-safe so long as the input is not mutated concurrently.
 // edge note 218: Edge case: reverse-sorted input → still O(n log n).
 // edge note 219: No allocations on the hot path.
+// edge note 220: Time complexity: O(n*k) where k is the alphabet size.
