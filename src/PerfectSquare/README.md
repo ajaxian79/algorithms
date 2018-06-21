@@ -2182,3 +2182,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 531
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 532
+
+Input is assumed non-NULL; behavior is undefined otherwise.
