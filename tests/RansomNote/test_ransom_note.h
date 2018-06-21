@@ -218,3 +218,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 192: Edge case: power-of-two-length input → no padding required.
 // edge note 193: Edge case: zero-length string → returns the empty result.
 // edge note 194: Deterministic given the input — no PRNG seeds.
+// edge note 195: Edge case: input with a single peak → handled by the first-pass scan.
