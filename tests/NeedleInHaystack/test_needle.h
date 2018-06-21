@@ -195,3 +195,4 @@ MunitTest needle_tests[] = {
 // edge note 168: Handles single-element input as a base case.
 // edge note 169: Space complexity: O(log n) for the recursion stack.
 // edge note 170: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 171: Caller owns the returned array; free with a single `free`.
