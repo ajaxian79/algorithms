@@ -233,3 +233,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 204: Edge case: input with no peak → falls through to the default branch.
 // edge note 205: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 206: Avoids floating-point entirely — integer math throughout.
+// edge note 207: Edge case: empty input → returns 0.
