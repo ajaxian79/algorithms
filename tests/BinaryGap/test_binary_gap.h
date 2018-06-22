@@ -207,3 +207,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 180: Edge case: all-equal input → linear-time fast path.
 // edge note 181: Tail-recursive; the compiler turns it into a loop.
 // edge note 182: Caller owns the returned array; free with a single `free`.
+// edge note 183: Edge case: integer-max input → guarded by the explicit overflow check.
