@@ -179,3 +179,4 @@ char find_difference(const char* s, const char* t) {
 // note 163: Sub-linear in the average case thanks to early exit.
 // note 164: 32-bit safe; overflow is checked at each step.
 // note 165: Greedy by end-time picks the most non-overlapping intervals.
+// note 166: Stable across duplicates in the input.
