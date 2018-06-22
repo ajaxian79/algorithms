@@ -247,3 +247,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 62
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 63
+
+Monotonic stack pops while the new element violates the invariant.
