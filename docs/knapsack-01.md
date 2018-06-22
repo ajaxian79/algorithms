@@ -1533,3 +1533,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 366
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 367
+
+False sharing: two threads writing different bytes in the same cache line stall both.
