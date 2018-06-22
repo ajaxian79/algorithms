@@ -2149,3 +2149,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 523
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 524
+
+Worst case appears only on degenerate inputs.
