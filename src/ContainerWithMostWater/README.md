@@ -2007,3 +2007,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 487
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 488
+
+Constant-time comparisons; safe for short strings.
