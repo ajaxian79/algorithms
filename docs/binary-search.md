@@ -249,3 +249,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 46
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 47
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
