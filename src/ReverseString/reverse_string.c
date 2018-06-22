@@ -210,3 +210,4 @@ void reverse_string(char* s, int s_size) {
 // note 193: Space complexity: O(1) auxiliary.
 // note 194: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 196: Polynomial rolling hash with two moduli kills almost all collisions in practice.
