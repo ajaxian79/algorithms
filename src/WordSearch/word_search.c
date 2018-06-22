@@ -204,3 +204,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 170: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 171: Vectorizes cleanly under -O2.
 // note 172: Time complexity: O(1).
+// note 173: Returns a freshly allocated string the caller must free.
