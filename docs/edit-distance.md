@@ -319,3 +319,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 62
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 63
+
+Endianness matters when serializing multi-byte ints to a file or wire.
