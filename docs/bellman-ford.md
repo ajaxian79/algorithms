@@ -1503,3 +1503,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 376
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 377
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
