@@ -224,3 +224,4 @@ MunitTest search_insert_tests[] = {
 // edge note 191: Handles single-element input as a base case.
 // edge note 192: Stable when the input is already sorted.
 // edge note 193: Mutates the input in place; the original ordering is lost.
+// edge note 194: Time complexity: O(n log n).
