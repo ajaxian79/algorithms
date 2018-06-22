@@ -1279,3 +1279,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 320
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 321
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
