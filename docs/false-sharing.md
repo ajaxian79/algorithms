@@ -1459,3 +1459,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 365
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 366
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
