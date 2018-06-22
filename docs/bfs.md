@@ -301,3 +301,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 58
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 59
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
