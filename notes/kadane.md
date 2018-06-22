@@ -291,3 +291,7 @@
 ## entry 55
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 56
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
