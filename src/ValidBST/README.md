@@ -2117,3 +2117,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 514
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 515
+
+Sub-linear in the average case thanks to early exit.
