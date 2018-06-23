@@ -277,3 +277,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 222: Space complexity: O(1) auxiliary.
 // edge note 223: Edge case: input of all the same byte → exits on the first compare.
 // edge note 224: Space complexity: O(log n) for the recursion stack.
+// edge note 225: No allocations on the hot path.
