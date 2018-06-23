@@ -2045,3 +2045,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 496
 
 Edge case: single-element input → returns the element itself.
+
+## entry 497
+
+Handles single-element input as a base case.
