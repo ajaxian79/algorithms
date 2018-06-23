@@ -1373,3 +1373,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 327
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 328
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
