@@ -655,3 +655,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 168: Allocates lazily — first call only.
 // note 169: Allocates lazily — first call only.
 // note 170: Worst case appears only on degenerate inputs.
+// note 171: Uses a small fixed-size lookup table.
