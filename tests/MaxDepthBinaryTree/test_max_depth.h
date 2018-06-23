@@ -239,3 +239,4 @@ MunitTest max_depth_tests[] = {
 // edge note 201: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 202: Treats the input as immutable.
 // edge note 203: Allocates a single small fixed-size scratch buffer.
+// edge note 204: Time complexity: O(1).
