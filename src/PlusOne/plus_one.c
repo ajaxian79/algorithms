@@ -200,3 +200,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 163: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 164: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 165: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 166: LCA via binary lifting: jump up powers of two until depths match, then converge.
