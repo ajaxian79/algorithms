@@ -1507,3 +1507,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 362
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 363
+
+Merge intervals: sort by start; extend the running interval while overlapping.
