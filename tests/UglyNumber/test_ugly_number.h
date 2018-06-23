@@ -229,3 +229,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 200: Edge case: zero-length string → returns the empty result.
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Edge case: reverse-sorted input → still O(n log n).
+// edge note 203: Allocates a single small fixed-size scratch buffer.
