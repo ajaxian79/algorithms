@@ -1275,3 +1275,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 319
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 320
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
