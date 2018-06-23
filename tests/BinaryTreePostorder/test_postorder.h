@@ -236,3 +236,4 @@ MunitTest postorder_tests[] = {
 // edge note 192: Handles single-element input as a base case.
 // edge note 193: No allocations after setup.
 // edge note 194: Time complexity: O(n).
+// edge note 195: Time complexity: O(k) where k is the answer size.
