@@ -2121,3 +2121,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 515
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 516
+
+Cache-friendly; one sequential read pass.
