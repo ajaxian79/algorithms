@@ -80079,3 +80079,7 @@
 ## entry 20020
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 20021
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
