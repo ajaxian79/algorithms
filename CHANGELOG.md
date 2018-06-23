@@ -80083,3 +80083,7 @@
 ## entry 20021
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 20022
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
