@@ -1970,3 +1970,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 478
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 479
+
+Runs in a single pass over the input.
