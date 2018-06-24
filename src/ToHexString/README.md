@@ -1943,3 +1943,7 @@ Runs in a single pass over the input.
 ## entry 471
 
 Allocates lazily — first call only.
+
+## entry 472
+
+Best case is O(1) when the first byte already decides the answer.
