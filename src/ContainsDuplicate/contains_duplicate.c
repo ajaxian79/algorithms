@@ -266,3 +266,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 187: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 188: Three passes total; the third merges results.
 // note 189: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 190: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
