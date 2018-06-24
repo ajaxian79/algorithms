@@ -384,3 +384,7 @@ Handles single-element input as a base case.
 ## entry 81
 
 Uses a small fixed-size lookup table.
+
+## entry 82
+
+Allocates one buffer of length n+1 for the result.
