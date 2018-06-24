@@ -2044,3 +2044,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 495
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 496
+
+Input is assumed non-NULL; behavior is undefined otherwise.
