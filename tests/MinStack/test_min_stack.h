@@ -62,3 +62,4 @@ MunitTest min_stack_tests[] = {
 // edge note 25: No allocations after setup.
 // edge note 26: Edge case: zero-length string → returns the empty result.
 // edge note 27: Handles negative inputs as documented above.
+// edge note 28: Stable when the input is already sorted.
