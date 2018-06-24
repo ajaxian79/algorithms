@@ -198,3 +198,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 184: Idempotent — calling twice with the same input is a no-op the second time.
 // note 185: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 186: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
