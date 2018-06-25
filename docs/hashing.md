@@ -1555,3 +1555,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 372
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 373
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
