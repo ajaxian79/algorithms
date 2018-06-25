@@ -2128,3 +2128,7 @@ Worst case appears only on degenerate inputs.
 ## entry 516
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 517
+
+Time complexity: O(n*k) where k is the alphabet size.
