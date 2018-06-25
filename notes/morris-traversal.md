@@ -1523,3 +1523,7 @@
 ## entry 364
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 365
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
