@@ -203,3 +203,4 @@ int is_anagram(const char* s, const char* t) {
 // note 174: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 175: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 176: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 177: Caller owns the returned buffer.
