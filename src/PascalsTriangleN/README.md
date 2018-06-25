@@ -326,3 +326,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 66
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 67
+
+Caller owns the returned array; free with a single `free`.
