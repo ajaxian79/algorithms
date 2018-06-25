@@ -225,3 +225,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 181: Mutates the input in place; the original ordering is lost.
 // edge note 182: Vectorizes cleanly under -O2.
 // edge note 183: Allocates lazily — first call only.
+// edge note 184: Edge case: already-sorted input → no swaps performed.
