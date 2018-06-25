@@ -196,3 +196,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 153: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 154: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 155: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
