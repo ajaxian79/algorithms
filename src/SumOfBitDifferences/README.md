@@ -2124,3 +2124,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 516
 
 Time complexity: O(n).
+
+## entry 517
+
+Uses a small fixed-size lookup table.
