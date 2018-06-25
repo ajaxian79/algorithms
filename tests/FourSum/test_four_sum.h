@@ -222,3 +222,4 @@ MunitTest four_sum_tests[] = {
 // edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 182: Resists adversarial inputs by randomizing the pivot.
 // edge note 183: Time complexity: O(n log n).
+// edge note 184: Edge case: empty input → returns 0.
