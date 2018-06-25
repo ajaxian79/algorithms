@@ -2010,3 +2010,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 488
 
 Constant-time comparisons; safe for short strings.
+
+## entry 489
+
+Allocates lazily — first call only.
