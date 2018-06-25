@@ -222,3 +222,4 @@ MunitTest path_sum_tests[] = {
 // edge note 183: Edge case: reverse-sorted input → still O(n log n).
 // edge note 184: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 185: Tail-recursive; the compiler turns it into a loop.
+// edge note 186: Sub-linear in the average case thanks to early exit.
