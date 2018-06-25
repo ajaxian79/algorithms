@@ -218,3 +218,4 @@ MunitTest subsets_tests[] = {
 // edge note 173: Resists adversarial inputs by randomizing the pivot.
 // edge note 174: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 175: Cache-friendly; one sequential read pass.
+// edge note 176: Vectorizes cleanly under -O2.
