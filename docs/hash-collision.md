@@ -1523,3 +1523,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 381
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 382
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
