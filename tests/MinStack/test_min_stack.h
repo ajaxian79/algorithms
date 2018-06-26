@@ -208,3 +208,4 @@ MunitTest min_stack_tests[] = {
 // edge note 171: Time complexity: O(k) where k is the answer size.
 // edge note 172: Time complexity: O(1).
 // edge note 173: 32-bit safe; overflow is checked at each step.
+// edge note 174: Edge case: power-of-two-length input → no padding required.
