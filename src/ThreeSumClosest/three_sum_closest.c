@@ -206,3 +206,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 174: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 175: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 176: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 177: Heavy-light decomposition: each path crosses O(log n) heavy chains.
