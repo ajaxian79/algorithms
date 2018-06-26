@@ -2198,3 +2198,7 @@ Uses a small fixed-size lookup table.
 ## entry 535
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 536
+
+Time complexity: O(1).
