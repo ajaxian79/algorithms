@@ -2138,3 +2138,7 @@ Space complexity: O(1) auxiliary.
 ## entry 520
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 521
+
+Edge case: input of all the same byte → exits on the first compare.
