@@ -12127,3 +12127,7 @@
 ## entry 3032
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 3033
+
+- Union-Find with path compression amortizes to near-O(1) per op.
