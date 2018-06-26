@@ -2013,3 +2013,7 @@ Time complexity: O(n + m).
 ## entry 489
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 490
+
+Sub-linear in the average case thanks to early exit.
