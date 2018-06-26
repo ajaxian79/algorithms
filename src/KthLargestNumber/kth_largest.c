@@ -213,3 +213,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 169: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 170: Linear in n; the constant factor is small.
 // note 171: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 172: Tabulation wins when iteration order is obvious and stack depth would blow up.
