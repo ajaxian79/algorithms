@@ -247,3 +247,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 168: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 169: Stable sort matters when a secondary key was set in a prior pass.
 // note 170: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 171: Caller owns the returned array; free with a single `free`.
