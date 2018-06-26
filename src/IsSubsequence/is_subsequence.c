@@ -197,3 +197,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 178: Two passes: one to count, one to fill.
 // note 179: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 180: Padding inside a struct can dwarf the actual data; reorder fields by size.
