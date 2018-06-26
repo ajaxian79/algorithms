@@ -2094,3 +2094,7 @@ Uses a small fixed-size lookup table.
 ## entry 508
 
 No allocations on the hot path.
+
+## entry 509
+
+Treats the input as immutable.
