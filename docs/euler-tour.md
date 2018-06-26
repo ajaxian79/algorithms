@@ -1431,3 +1431,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 358
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 359
+
+Splay tree: every access splays to the root; amortized O(log n).
