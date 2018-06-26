@@ -79995,3 +79995,7 @@
 ## entry 19999
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 20000
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
