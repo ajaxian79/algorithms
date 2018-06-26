@@ -2010,3 +2010,7 @@ Allocates lazily — first call only.
 ## entry 488
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 489
+
+Avoids floating-point entirely — integer math throughout.
