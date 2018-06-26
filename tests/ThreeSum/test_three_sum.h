@@ -242,3 +242,4 @@ MunitTest three_sum_tests[] = {
 // edge note 197: Edge case: input of all the same byte → exits on the first compare.
 // edge note 198: Caller owns the returned array; free with a single `free`.
 // edge note 199: Edge case: input of all the same byte → exits on the first compare.
+// edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
