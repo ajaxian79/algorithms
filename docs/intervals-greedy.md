@@ -1467,3 +1467,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 349
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 350
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
