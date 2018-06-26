@@ -1535,3 +1535,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 367
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 368
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
