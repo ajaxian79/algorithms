@@ -211,3 +211,4 @@ int is_perfect_number(int n) {
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
 // note 194: Space complexity: O(1) auxiliary.
 // note 195: Worst case appears only on degenerate inputs.
+// note 196: Padding inside a struct can dwarf the actual data; reorder fields by size.
