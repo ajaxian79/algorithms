@@ -189,3 +189,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 173: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 174: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 175: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 176: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
