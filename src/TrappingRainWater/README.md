@@ -350,3 +350,7 @@ Uses a small fixed-size lookup table.
 ## entry 72
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 73
+
+Edge case: input with one duplicate → handled without an extra pass.
