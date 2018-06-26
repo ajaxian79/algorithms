@@ -1878,3 +1878,7 @@ Handles single-element input as a base case.
 ## entry 455
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 456
+
+Edge case: integer-min input → guarded by the explicit underflow check.
