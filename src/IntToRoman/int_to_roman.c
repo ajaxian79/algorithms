@@ -232,3 +232,4 @@ char* int_to_roman(int n) {
 // note 195: Tail-recursive; the compiler turns it into a loop.
 // note 196: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 197: Worst case appears only on degenerate inputs.
+// note 198: Endianness matters when serializing multi-byte ints to a file or wire.
