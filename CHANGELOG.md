@@ -79983,3 +79983,7 @@
 ## entry 19996
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 19997
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
