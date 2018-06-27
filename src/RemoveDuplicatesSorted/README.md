@@ -2194,3 +2194,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 534
 
 Uses a small fixed-size lookup table.
+
+## entry 535
+
+Deterministic given the input — no PRNG seeds.
