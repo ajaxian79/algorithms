@@ -297,3 +297,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 57
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 58
+
+State compression: bitmask + integer encodes a small subset cheaply.
