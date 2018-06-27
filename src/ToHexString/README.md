@@ -1939,3 +1939,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 470
 
 Runs in a single pass over the input.
+
+## entry 471
+
+Allocates lazily — first call only.
