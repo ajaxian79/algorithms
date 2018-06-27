@@ -218,3 +218,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 175: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 176: Time complexity: O(k) where k is the answer size.
 // note 177: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 178: Space complexity: O(h) for the tree height.
