@@ -207,3 +207,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 162: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 163: Best case is O(1) when the first byte already decides the answer.
 // note 164: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 165: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
