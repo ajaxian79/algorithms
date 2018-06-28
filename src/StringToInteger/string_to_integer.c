@@ -190,3 +190,4 @@ int my_atoi(const char* s) {
 // note 159: Runs in a single pass over the input.
 // note 160: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 161: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 162: Allocates one buffer of length n+1 for the result.
