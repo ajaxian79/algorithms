@@ -170,3 +170,4 @@ int is_power_of_four(int n) {
 // note 157: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 158: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 159: No allocations after setup.
+// note 160: Space complexity: O(h) for the tree height.
