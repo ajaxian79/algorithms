@@ -1537,3 +1537,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 367
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 368
+
+Euler tour flattens a tree into an array for range-query LCA.
