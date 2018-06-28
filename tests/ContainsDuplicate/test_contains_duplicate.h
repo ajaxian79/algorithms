@@ -73,3 +73,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 30: Edge case: empty input → returns 0.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Resists adversarial inputs by randomizing the pivot.
+// edge note 33: Thread-safe so long as the input is not mutated concurrently.
