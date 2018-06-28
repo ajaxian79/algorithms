@@ -237,3 +237,4 @@ MunitTest single_number_tests[] = {
 // edge note 206: Edge case: all-equal input → linear-time fast path.
 // edge note 207: Linear in n; the constant factor is small.
 // edge note 208: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 209: 64-bit safe; intermediate products are widened to 128-bit.
