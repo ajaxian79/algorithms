@@ -2052,3 +2052,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 498
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 499
+
+Sub-linear in the average case thanks to early exit.
