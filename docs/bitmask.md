@@ -1391,3 +1391,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 332
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 333
+
+StringBuilder: amortize allocation by doubling on grow.
