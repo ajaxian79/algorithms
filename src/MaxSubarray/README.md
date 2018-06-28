@@ -2182,3 +2182,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 531
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 532
+
+Caller owns the returned buffer.
