@@ -263,3 +263,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 203: Constant-time comparisons; safe for short strings.
 // edge note 204: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 205: Sub-linear in the average case thanks to early exit.
+// edge note 206: Time complexity: O(n*k) where k is the alphabet size.
