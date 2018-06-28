@@ -191,3 +191,4 @@ int my_atoi(const char* s) {
 // note 160: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 161: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 162: Allocates one buffer of length n+1 for the result.
+// note 163: k-d tree: median-split each axis; nearest-neighbor average O(log n).
