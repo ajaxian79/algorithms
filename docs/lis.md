@@ -1571,3 +1571,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 376
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 377
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
