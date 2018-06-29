@@ -215,3 +215,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 186: Edge case: single-element input → returns the element itself.
+// edge note 187: Uses a small fixed-size lookup table.
