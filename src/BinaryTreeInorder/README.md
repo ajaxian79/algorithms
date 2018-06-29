@@ -358,3 +358,7 @@ Stable when the input is already sorted.
 ## entry 75
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 76
+
+Edge case: input with a single peak → handled by the first-pass scan.
