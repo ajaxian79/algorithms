@@ -196,3 +196,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 176: Caller owns the returned buffer.
 // note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 178: Two passes: one to count, one to fill.
+// note 179: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
