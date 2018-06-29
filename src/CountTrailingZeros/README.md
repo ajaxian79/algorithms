@@ -382,3 +382,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 80
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 81
+
+Stable across duplicates in the input.
