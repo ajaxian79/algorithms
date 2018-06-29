@@ -2040,3 +2040,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 494
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 495
+
+Mutates the input in place; the original ordering is lost.
