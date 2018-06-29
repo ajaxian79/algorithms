@@ -2111,3 +2111,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 512
 
 No allocations on the hot path.
+
+## entry 513
+
+Edge case: empty input → returns 0.
