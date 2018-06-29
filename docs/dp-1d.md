@@ -1547,3 +1547,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 370
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 371
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
