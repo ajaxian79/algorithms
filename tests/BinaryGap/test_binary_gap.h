@@ -205,3 +205,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 178: Vectorizes cleanly under -O2.
 // edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 180: Edge case: all-equal input → linear-time fast path.
+// edge note 181: Tail-recursive; the compiler turns it into a loop.
