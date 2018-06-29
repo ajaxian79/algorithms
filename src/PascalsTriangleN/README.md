@@ -322,3 +322,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 65
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 66
+
+Edge case: input with no peak → falls through to the default branch.
