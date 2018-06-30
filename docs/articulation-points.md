@@ -1443,3 +1443,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 361
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 362
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
