@@ -2086,3 +2086,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 506
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 507
+
+Uses a small fixed-size lookup table.
