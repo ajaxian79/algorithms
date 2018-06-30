@@ -2090,3 +2090,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 507
 
 Uses a small fixed-size lookup table.
+
+## entry 508
+
+No allocations on the hot path.
