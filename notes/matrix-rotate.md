@@ -1501,3 +1501,7 @@
 ## entry 359
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 360
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
