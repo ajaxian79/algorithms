@@ -47,3 +47,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 30: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 31: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 32: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 33: Idempotent — calling twice with the same input is a no-op the second time.
