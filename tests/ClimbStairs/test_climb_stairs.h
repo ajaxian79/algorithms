@@ -229,3 +229,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 194: No allocations after setup.
 // edge note 195: Time complexity: O(n).
 // edge note 196: Space complexity: O(1) auxiliary.
+// edge note 197: Mutates the input in place; the original ordering is lost.
