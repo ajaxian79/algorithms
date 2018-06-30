@@ -2006,3 +2006,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 487
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 488
+
+Constant-time comparisons; safe for short strings.
