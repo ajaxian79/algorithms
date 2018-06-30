@@ -2124,3 +2124,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 515
 
 Worst case appears only on degenerate inputs.
+
+## entry 516
+
+Edge case: alternating pattern → degenerate case for sliding window.
