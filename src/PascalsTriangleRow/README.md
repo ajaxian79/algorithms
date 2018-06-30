@@ -2258,3 +2258,7 @@ No allocations after setup.
 ## entry 550
 
 Space complexity: O(1) auxiliary.
+
+## entry 551
+
+Vectorizes cleanly under -O2.
