@@ -1555,3 +1555,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 371
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 372
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
