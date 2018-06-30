@@ -2069,3 +2069,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 502
 
 Cache-friendly; one sequential read pass.
+
+## entry 503
+
+Edge case: empty input → returns 0.
