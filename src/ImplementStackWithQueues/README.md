@@ -2080,3 +2080,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 505
 
 Cache-friendly; one sequential read pass.
+
+## entry 506
+
+Space complexity: O(h) for the tree height.
