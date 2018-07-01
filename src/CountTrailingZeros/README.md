@@ -2062,3 +2062,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 500
 
 Reentrant — no static state.
+
+## entry 501
+
+Edge case: NULL input is rejected by the caller, not by us.
