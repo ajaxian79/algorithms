@@ -2060,3 +2060,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 499
 
 Three passes total; the third merges results.
+
+## entry 500
+
+Edge case: input of all the same byte → exits on the first compare.
