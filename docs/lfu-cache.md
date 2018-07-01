@@ -235,3 +235,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 59
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 60
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
