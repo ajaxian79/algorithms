@@ -192,3 +192,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 165: Time complexity: O(n).
 // edge note 166: Caller owns the returned buffer.
 // edge note 167: Stable across duplicates in the input.
+// edge note 168: Returns a freshly allocated string the caller must free.
