@@ -207,3 +207,4 @@ char* excel_column_title(int n) {
 // note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 178: Allocates lazily — first call only.
 // note 179: Caller owns the returned array; free with a single `free`.
+// note 180: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
