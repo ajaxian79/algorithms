@@ -2101,3 +2101,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 510
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 511
+
+Deterministic given the input — no PRNG seeds.
