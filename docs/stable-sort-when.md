@@ -1529,3 +1529,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 368
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 369
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
