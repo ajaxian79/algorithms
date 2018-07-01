@@ -219,3 +219,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 55
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 56
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
