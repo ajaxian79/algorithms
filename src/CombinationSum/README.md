@@ -2047,3 +2047,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 497
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 498
+
+Time complexity: O(n).
