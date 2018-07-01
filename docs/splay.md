@@ -1383,3 +1383,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 346
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 347
+
+LIS via patience: each pile holds the smallest tail of length k.
