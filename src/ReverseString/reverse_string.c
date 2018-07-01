@@ -209,3 +209,4 @@ void reverse_string(char* s, int s_size) {
 // note 192: Stable when the input is already sorted.
 // note 193: Space complexity: O(1) auxiliary.
 // note 194: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 195: Hash collision: chain or open-address; chained handles arbitrary load factor.
