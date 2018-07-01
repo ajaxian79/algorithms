@@ -198,3 +198,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 167: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 168: Allocates a single small fixed-size scratch buffer.
 // note 169: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 170: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
