@@ -1587,3 +1587,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 397
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 398
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
