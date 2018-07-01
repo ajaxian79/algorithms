@@ -193,3 +193,4 @@ int is_ugly(int n) {
 // note 179: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 180: 32-bit safe; overflow is checked at each step.
 // note 181: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 182: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
