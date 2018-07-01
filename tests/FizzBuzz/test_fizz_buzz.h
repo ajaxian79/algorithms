@@ -246,3 +246,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 196: Allocates a single small fixed-size scratch buffer.
 // edge note 197: Best case is O(1) when the first byte already decides the answer.
 // edge note 198: Constant-time comparisons; safe for short strings.
+// edge note 199: Mutates the input in place; the original ordering is lost.
