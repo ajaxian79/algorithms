@@ -2254,3 +2254,7 @@ Linear in n; the constant factor is small.
 ## entry 549
 
 No allocations after setup.
+
+## entry 550
+
+Space complexity: O(1) auxiliary.
