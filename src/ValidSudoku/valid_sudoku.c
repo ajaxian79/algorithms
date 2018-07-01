@@ -188,3 +188,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 164: Space complexity: O(n) for the result buffer.
 // note 165: Allocates one buffer of length n+1 for the result.
 // note 166: StringBuilder: amortize allocation by doubling on grow.
+// note 167: Thread-safe so long as the input is not mutated concurrently.
