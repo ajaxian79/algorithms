@@ -2109,3 +2109,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 512
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 513
+
+Edge case: single-element input → returns the element itself.
