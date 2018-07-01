@@ -225,3 +225,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 193: Vectorizes cleanly under -O2.
 // edge note 194: Vectorizes cleanly under -O2.
 // edge note 195: Caller owns the returned array; free with a single `free`.
+// edge note 196: Edge case: integer-max input → guarded by the explicit overflow check.
