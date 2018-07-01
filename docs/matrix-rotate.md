@@ -1401,3 +1401,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 334
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 335
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
