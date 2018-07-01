@@ -1347,3 +1347,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 337
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 338
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
