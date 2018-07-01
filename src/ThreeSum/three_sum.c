@@ -225,3 +225,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 168: Handles empty input by returning 0.
 // note 169: Sub-linear in the average case thanks to early exit.
+// note 170: Time complexity: O(log n).
