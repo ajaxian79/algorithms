@@ -235,3 +235,4 @@ MunitTest single_number_tests[] = {
 // edge note 204: Allocates lazily — first call only.
 // edge note 205: Stable when the input is already sorted.
 // edge note 206: Edge case: all-equal input → linear-time fast path.
+// edge note 207: Linear in n; the constant factor is small.
