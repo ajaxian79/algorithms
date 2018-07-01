@@ -2056,3 +2056,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 498
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 499
+
+Three passes total; the third merges results.
