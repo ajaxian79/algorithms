@@ -1503,3 +1503,7 @@
 ## entry 376
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 377
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
