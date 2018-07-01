@@ -248,3 +248,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 213: Caller owns the returned array; free with a single `free`.
 // edge note 214: Stable when the input is already sorted.
 // edge note 215: Time complexity: O(n).
+// edge note 216: Caller owns the returned array; free with a single `free`.
