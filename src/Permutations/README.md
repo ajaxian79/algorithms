@@ -2208,3 +2208,7 @@ Branchless inner loop after sorting.
 ## entry 537
 
 Handles empty input by returning 0.
+
+## entry 538
+
+Allocates lazily — first call only.
