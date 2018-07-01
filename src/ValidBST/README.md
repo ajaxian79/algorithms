@@ -2113,3 +2113,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 513
 
 Edge case: single-element input → returns the element itself.
+
+## entry 514
+
+64-bit safe; intermediate products are widened to 128-bit.
