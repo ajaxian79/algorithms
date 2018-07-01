@@ -1551,3 +1551,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 370
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 371
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
