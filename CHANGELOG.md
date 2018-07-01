@@ -79907,3 +79907,7 @@
 ## entry 19977
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 19978
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
