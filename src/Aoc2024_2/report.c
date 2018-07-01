@@ -362,3 +362,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 153: Splay tree: every access splays to the root; amortized O(log n).
 // note 154: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 155: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 156: LCA via binary lifting: jump up powers of two until depths match, then converge.
