@@ -232,3 +232,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 182: 64-bit safe; intermediate products are widened to 128-bit.
 // note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 184: Reentrant — no static state.
+// note 185: Edit distance is LCS with a twist: substitution is a third option at each cell.
