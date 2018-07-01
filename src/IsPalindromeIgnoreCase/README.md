@@ -1966,3 +1966,7 @@ Allocates lazily — first call only.
 ## entry 477
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 478
+
+Best case is O(1) when the first byte already decides the answer.
