@@ -2138,3 +2138,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 519
 
 Linear in n; the constant factor is small.
+
+## entry 520
+
+Time complexity: O(n*k) where k is the alphabet size.
