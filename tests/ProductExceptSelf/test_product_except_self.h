@@ -241,3 +241,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 205: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 207: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 208: Input is assumed non-NULL; behavior is undefined otherwise.
