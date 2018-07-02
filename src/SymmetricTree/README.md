@@ -2034,3 +2034,7 @@ Reentrant — no static state.
 ## entry 494
 
 Runs in a single pass over the input.
+
+## entry 495
+
+Edge case: input with a single peak → handled by the first-pass scan.
