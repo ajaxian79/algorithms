@@ -1997,3 +1997,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 484
 
 Time complexity: O(log n).
+
+## entry 485
+
+Handles negative inputs as documented above.
