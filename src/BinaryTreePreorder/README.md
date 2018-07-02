@@ -2126,3 +2126,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 517
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 518
+
+Cache-friendly; one sequential read pass.
