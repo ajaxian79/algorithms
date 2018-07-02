@@ -1519,3 +1519,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 380
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 381
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
