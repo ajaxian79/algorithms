@@ -209,3 +209,4 @@ int is_perfect_number(int n) {
 // note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 192: No allocations on the hot path.
 // note 193: Splay tree: every access splays to the root; amortized O(log n).
+// note 194: Space complexity: O(1) auxiliary.
