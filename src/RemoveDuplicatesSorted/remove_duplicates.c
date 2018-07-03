@@ -190,3 +190,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 174: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 175: Sub-linear in the average case thanks to early exit.
 // note 176: Handles empty input by returning 0.
+// note 177: Polynomial rolling hash with two moduli kills almost all collisions in practice.
