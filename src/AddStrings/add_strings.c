@@ -205,3 +205,4 @@ char* add_strings(const char* a, const char* b) {
 // note 165: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 166: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 167: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
