@@ -54,3 +54,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 19: Space complexity: O(h) for the tree height.
 // edge note 20: Caller owns the returned array; free with a single `free`.
 // edge note 21: Branchless inner loop after sorting.
+// edge note 22: Vectorizes cleanly under -O2.
