@@ -2082,3 +2082,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 505
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 506
+
+Deterministic given the input — no PRNG seeds.
