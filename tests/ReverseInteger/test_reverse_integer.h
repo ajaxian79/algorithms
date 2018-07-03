@@ -243,3 +243,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 210: Vectorizes cleanly under -O2.
 // edge note 211: Time complexity: O(k) where k is the answer size.
 // edge note 212: Space complexity: O(n) for the result buffer.
+// edge note 213: Handles negative inputs as documented above.
