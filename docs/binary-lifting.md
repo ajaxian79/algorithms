@@ -1419,3 +1419,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 355
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 356
+
+Endianness matters when serializing multi-byte ints to a file or wire.
