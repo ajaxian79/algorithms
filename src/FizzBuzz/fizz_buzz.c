@@ -214,3 +214,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 168: 64-bit safe; intermediate products are widened to 128-bit.
 // note 169: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 170: Mutates the input in place; the original ordering is lost.
+// note 171: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
