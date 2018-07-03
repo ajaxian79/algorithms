@@ -2192,3 +2192,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 533
 
 Edge case: single-element input → returns the element itself.
+
+## entry 534
+
+Edge case: input with one duplicate → handled without an extra pass.
