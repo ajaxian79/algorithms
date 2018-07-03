@@ -1395,3 +1395,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 349
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 350
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
