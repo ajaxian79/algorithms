@@ -220,3 +220,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 192: Edge case: all-equal input → linear-time fast path.
 // edge note 193: No allocations after setup.
 // edge note 194: Uses a 256-entry lookup for the inner step.
+// edge note 195: Edge case: integer-max input → guarded by the explicit overflow check.
