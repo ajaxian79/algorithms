@@ -396,3 +396,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 84
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 85
+
+Edge case: input with no peak → falls through to the default branch.
