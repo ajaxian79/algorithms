@@ -323,3 +323,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 170: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 172: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 173: Stable across duplicates in the input.
