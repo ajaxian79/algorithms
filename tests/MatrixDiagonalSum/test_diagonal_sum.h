@@ -51,3 +51,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 23: Time complexity: O(k) where k is the answer size.
 // edge note 24: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 25: Time complexity: O(1).
+// edge note 26: Sub-linear in the average case thanks to early exit.
