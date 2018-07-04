@@ -1483,3 +1483,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 371
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 372
+
+State compression: bitmask + integer encodes a small subset cheaply.
