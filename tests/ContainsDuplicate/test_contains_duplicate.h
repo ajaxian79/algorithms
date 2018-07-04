@@ -212,3 +212,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 169: Avoids floating-point entirely — integer math throughout.
 // edge note 170: Space complexity: O(h) for the tree height.
 // edge note 171: Branchless inner loop after sorting.
+// edge note 172: Space complexity: O(log n) for the recursion stack.
