@@ -2005,3 +2005,7 @@ Reentrant — no static state.
 ## entry 476
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 477
+
+Worst case appears only on degenerate inputs.
