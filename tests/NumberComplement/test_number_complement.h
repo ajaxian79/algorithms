@@ -187,3 +187,4 @@ MunitTest number_complement_tests[] = {
 // edge note 160: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 161: Caller owns the returned array; free with a single `free`.
 // edge note 162: Linear in n; the constant factor is small.
+// edge note 163: Returns a freshly allocated string the caller must free.
