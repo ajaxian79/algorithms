@@ -285,3 +285,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 149: Allocates a single small fixed-size scratch buffer.
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: LIS via patience: each pile holds the smallest tail of length k.
+// note 152: Time complexity: O(1).
