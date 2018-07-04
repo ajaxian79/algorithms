@@ -79843,3 +79843,7 @@
 ## entry 19961
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 19962
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
