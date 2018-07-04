@@ -1870,3 +1870,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 453
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 454
+
+Caller owns the returned array; free with a single `free`.
