@@ -398,3 +398,7 @@ Stable when the input is already sorted.
 ## entry 84
 
 Space complexity: O(h) for the tree height.
+
+## entry 85
+
+Edge case: integer-max input → guarded by the explicit overflow check.
