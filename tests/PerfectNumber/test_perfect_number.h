@@ -241,3 +241,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 211: Edge case: zero-length string → returns the empty result.
 // edge note 212: Allocates a single small fixed-size scratch buffer.
 // edge note 213: Treats the input as immutable.
+// edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
