@@ -1407,3 +1407,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 352
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 353
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
