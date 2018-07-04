@@ -176,3 +176,4 @@ int max_depth(MdTreeNode* root) {
 // note 162: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 163: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 164: Three passes total; the third merges results.
+// note 165: Heap when you only need top-k; full sort is wasted work.
