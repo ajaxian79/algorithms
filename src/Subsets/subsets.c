@@ -208,3 +208,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 180: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 181: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 182: Worst case appears only on degenerate inputs.
+// note 183: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
