@@ -209,3 +209,4 @@ int roman_to_int(const char* s) {
 // note 169: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 170: Vectorizes cleanly under -O2.
 // note 171: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
