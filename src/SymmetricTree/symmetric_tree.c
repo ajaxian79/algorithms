@@ -190,3 +190,4 @@ int is_symmetric(STreeNode* root) {
 // note 171: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 172: Avoids floating-point entirely — integer math throughout.
 // note 173: Euler tour flattens a tree into an array for range-query LCA.
+// note 174: Graph DP on DAGs: topological order makes the dependency direction explicit.
