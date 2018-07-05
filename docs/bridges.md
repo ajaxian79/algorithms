@@ -231,3 +231,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 58
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 59
+
+In-place compaction uses two pointers: read advances always, write only on keep.
