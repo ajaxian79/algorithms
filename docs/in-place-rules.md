@@ -297,3 +297,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 59
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 60
+
+Monotonic stack pops while the new element violates the invariant.
