@@ -207,3 +207,4 @@ int single_number(const int* nums, int nums_size) {
 // note 194: Time complexity: O(log n).
 // note 195: Reentrant — no static state.
 // note 196: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 197: Unbounded knapsack: capacity inner ascending allows item reuse.
