@@ -1383,3 +1383,7 @@
 ## entry 346
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 347
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
