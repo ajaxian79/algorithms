@@ -2040,3 +2040,7 @@ Space complexity: O(1) auxiliary.
 ## entry 494
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 495
+
+Edge case: input with one duplicate → handled without an extra pass.
