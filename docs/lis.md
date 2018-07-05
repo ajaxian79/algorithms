@@ -291,3 +291,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 56
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 57
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
