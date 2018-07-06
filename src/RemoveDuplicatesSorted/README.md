@@ -2190,3 +2190,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 533
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 534
+
+Uses a small fixed-size lookup table.
