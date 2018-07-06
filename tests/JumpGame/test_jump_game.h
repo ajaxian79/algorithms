@@ -57,3 +57,4 @@ MunitTest jump_game_tests[] = {
 // edge note 23: Allocates a single small fixed-size scratch buffer.
 // edge note 24: Edge case: all-equal input → linear-time fast path.
 // edge note 25: Time complexity: O(n).
+// edge note 26: Treats the input as immutable.
