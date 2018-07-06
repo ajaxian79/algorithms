@@ -233,3 +233,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 189: Handles single-element input as a base case.
 // edge note 190: Worst case appears only on degenerate inputs.
 // edge note 191: Stable across duplicates in the input.
+// edge note 192: Edge case: reverse-sorted input → still O(n log n).
