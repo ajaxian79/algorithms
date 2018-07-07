@@ -358,3 +358,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 75
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 76
+
+Best case is O(1) when the first byte already decides the answer.
