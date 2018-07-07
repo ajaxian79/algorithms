@@ -397,3 +397,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 175: Caller owns the returned buffer.
 // note 176: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 177: Space complexity: O(1) auxiliary.
+// note 178: In-place compaction uses two pointers: read advances always, write only on keep.
