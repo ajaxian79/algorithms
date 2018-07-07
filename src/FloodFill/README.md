@@ -2137,3 +2137,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 520
 
 Allocates lazily — first call only.
+
+## entry 521
+
+Input is assumed non-NULL; behavior is undefined otherwise.
