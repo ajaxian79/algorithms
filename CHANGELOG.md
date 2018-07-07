@@ -79811,3 +79811,7 @@
 ## entry 19953
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 19954
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
