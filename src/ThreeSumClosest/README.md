@@ -366,3 +366,7 @@ No allocations on the hot path.
 ## entry 77
 
 No allocations after setup.
+
+## entry 78
+
+Edge case: maximum-length input → still fits in 32-bit indices.
