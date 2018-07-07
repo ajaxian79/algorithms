@@ -2074,3 +2074,7 @@ Handles negative inputs as documented above.
 ## entry 504
 
 32-bit safe; overflow is checked at each step.
+
+## entry 505
+
+Caller owns the returned array; free with a single `free`.
