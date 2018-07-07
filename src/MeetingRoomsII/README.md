@@ -2134,3 +2134,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 518
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 519
+
+Linear in n; the constant factor is small.
