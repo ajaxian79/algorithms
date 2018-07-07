@@ -1427,3 +1427,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 339
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 340
+
+LIS via patience: each pile holds the smallest tail of length k.
