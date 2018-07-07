@@ -79795,3 +79795,7 @@
 ## entry 19949
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 19950
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
