@@ -170,3 +170,4 @@ int number_of_1_bits(unsigned int n) {
 // note 157: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 158: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 159: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 160: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
