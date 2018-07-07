@@ -240,3 +240,4 @@ int min_stack_size(const MinStack* s) {
 // note 179: Time complexity: O(n*k) where k is the alphabet size.
 // note 180: Constant-time comparisons; safe for short strings.
 // note 181: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 182: Space complexity: O(h) for the tree height.
