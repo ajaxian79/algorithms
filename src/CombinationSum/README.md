@@ -2043,3 +2043,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 496
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 497
+
+Deterministic given the input — no PRNG seeds.
