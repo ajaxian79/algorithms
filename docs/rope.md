@@ -1415,3 +1415,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 354
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 355
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
