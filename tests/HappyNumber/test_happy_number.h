@@ -238,3 +238,4 @@ MunitTest happy_number_tests[] = {
 // edge note 210: Worst case appears only on degenerate inputs.
 // edge note 211: Avoids floating-point entirely — integer math throughout.
 // edge note 212: Reentrant — no static state.
+// edge note 213: Edge case: alternating pattern → degenerate case for sliding window.
