@@ -227,3 +227,4 @@ MunitTest count_primes_tests[] = {
 // edge note 199: Two passes: one to count, one to fill.
 // edge note 200: No allocations after setup.
 // edge note 201: Thread-safe so long as the input is not mutated concurrently.
+// edge note 202: Uses a 256-entry lookup for the inner step.
