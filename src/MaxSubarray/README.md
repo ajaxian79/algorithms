@@ -2174,3 +2174,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 529
 
 Time complexity: O(log n).
+
+## entry 530
+
+Time complexity: O(n^2) worst case, O(n) amortized.
