@@ -1495,3 +1495,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 374
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 375
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
