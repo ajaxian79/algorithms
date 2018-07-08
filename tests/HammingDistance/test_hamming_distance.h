@@ -53,3 +53,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 28: Space complexity: O(log n) for the recursion stack.
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 30: Space complexity: O(1) auxiliary.
+// edge note 31: Linear in n; the constant factor is small.
