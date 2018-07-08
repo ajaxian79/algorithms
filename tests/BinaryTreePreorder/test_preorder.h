@@ -246,3 +246,4 @@ MunitTest preorder_tests[] = {
 // edge note 202: Time complexity: O(n + m).
 // edge note 203: Resists adversarial inputs by randomizing the pivot.
 // edge note 204: Handles empty input by returning 0.
+// edge note 205: Space complexity: O(h) for the tree height.
