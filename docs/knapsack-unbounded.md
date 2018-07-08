@@ -1563,3 +1563,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 375
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 376
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
