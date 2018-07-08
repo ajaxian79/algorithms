@@ -227,3 +227,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 198: Thread-safe so long as the input is not mutated concurrently.
 // edge note 199: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 200: Edge case: zero-length string → returns the empty result.
+// edge note 201: Handles negative inputs as documented above.
