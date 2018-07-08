@@ -2130,3 +2130,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 518
 
 No allocations after setup.
+
+## entry 519
+
+Space complexity: O(1) auxiliary.
