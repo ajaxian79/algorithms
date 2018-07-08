@@ -372,3 +372,7 @@ No allocations after setup.
 ## entry 77
 
 Space complexity: O(1) auxiliary.
+
+## entry 78
+
+32-bit safe; overflow is checked at each step.
