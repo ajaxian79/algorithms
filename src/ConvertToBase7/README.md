@@ -2128,3 +2128,7 @@ Time complexity: O(log n).
 ## entry 517
 
 Branchless inner loop after sorting.
+
+## entry 518
+
+Linear in n; the constant factor is small.
