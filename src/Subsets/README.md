@@ -2147,3 +2147,7 @@ Handles negative inputs as documented above.
 ## entry 522
 
 Edge case: empty input → returns 0.
+
+## entry 523
+
+Vectorizes cleanly under -O2.
