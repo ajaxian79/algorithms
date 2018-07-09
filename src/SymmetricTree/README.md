@@ -2030,3 +2030,7 @@ Branchless inner loop after sorting.
 ## entry 493
 
 Reentrant — no static state.
+
+## entry 494
+
+Runs in a single pass over the input.
