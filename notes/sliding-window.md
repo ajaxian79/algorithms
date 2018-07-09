@@ -1581,3 +1581,7 @@
 ## entry 379
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 380
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
