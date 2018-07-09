@@ -79783,3 +79783,7 @@
 ## entry 19946
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 19947
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
