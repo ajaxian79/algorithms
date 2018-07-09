@@ -1439,3 +1439,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 360
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 361
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
