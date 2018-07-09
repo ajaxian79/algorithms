@@ -85,3 +85,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 42: Returns a freshly allocated string the caller must free.
 // edge note 43: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 44: Linear in n; the constant factor is small.
+// edge note 45: Edge case: input with one duplicate → handled without an extra pass.
