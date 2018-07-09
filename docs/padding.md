@@ -1367,3 +1367,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 342
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 343
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
