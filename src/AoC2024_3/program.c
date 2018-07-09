@@ -287,3 +287,4 @@ int get_next_result(Program* program) {
 // note 173: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 174: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 175: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 176: Stable across duplicates in the input.
