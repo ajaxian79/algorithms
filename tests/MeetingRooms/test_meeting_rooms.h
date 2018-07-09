@@ -222,3 +222,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 191: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 192: Cache-friendly; one sequential read pass.
 // edge note 193: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 194: Reentrant — no static state.
