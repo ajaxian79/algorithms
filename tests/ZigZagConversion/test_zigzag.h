@@ -221,3 +221,4 @@ MunitTest zigzag_tests[] = {
 // edge note 193: Edge case: power-of-two-length input → no padding required.
 // edge note 194: Two passes: one to count, one to fill.
 // edge note 195: Stable across duplicates in the input.
+// edge note 196: Edge case: input with no peak → falls through to the default branch.
