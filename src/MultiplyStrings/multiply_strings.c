@@ -231,3 +231,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 181: State compression: bitmask + integer encodes a small subset cheaply.
 // note 182: 64-bit safe; intermediate products are widened to 128-bit.
 // note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 184: Reentrant — no static state.
