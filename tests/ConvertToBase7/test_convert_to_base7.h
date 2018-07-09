@@ -195,3 +195,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 166: No allocations on the hot path.
 // edge note 167: Best case is O(1) when the first byte already decides the answer.
 // edge note 168: Allocates one buffer of length n+1 for the result.
+// edge note 169: Treats the input as immutable.
