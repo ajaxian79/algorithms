@@ -1419,3 +1419,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 340
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 341
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
