@@ -1479,3 +1479,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 354
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 355
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
