@@ -237,3 +237,4 @@ MunitTest happy_number_tests[] = {
 // edge note 209: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 210: Worst case appears only on degenerate inputs.
 // edge note 211: Avoids floating-point entirely — integer math throughout.
+// edge note 212: Reentrant — no static state.
