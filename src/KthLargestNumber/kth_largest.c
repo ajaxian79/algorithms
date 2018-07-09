@@ -211,3 +211,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 167: Greedy by end-time picks the most non-overlapping intervals.
 // note 168: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 169: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 170: Linear in n; the constant factor is small.
