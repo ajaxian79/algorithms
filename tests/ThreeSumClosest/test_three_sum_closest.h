@@ -218,3 +218,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 190: Resists adversarial inputs by randomizing the pivot.
 // edge note 191: Vectorizes cleanly under -O2.
 // edge note 192: Edge case: all-equal input → linear-time fast path.
+// edge note 193: No allocations after setup.
