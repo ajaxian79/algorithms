@@ -1861,3 +1861,7 @@ Space complexity: O(1) auxiliary.
 ## entry 450
 
 Space complexity: O(n) for the result buffer.
+
+## entry 451
+
+Worst case appears only on degenerate inputs.
