@@ -1866,3 +1866,7 @@ Vectorizes cleanly under -O2.
 ## entry 452
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 453
+
+Edge case: input of all the same byte → exits on the first compare.
