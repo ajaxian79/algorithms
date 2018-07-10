@@ -2070,3 +2070,7 @@ Cache-friendly; one sequential read pass.
 ## entry 503
 
 Handles negative inputs as documented above.
+
+## entry 504
+
+32-bit safe; overflow is checked at each step.
