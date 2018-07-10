@@ -1962,3 +1962,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 476
 
 Allocates lazily — first call only.
+
+## entry 477
+
+Resists adversarial inputs by randomizing the pivot.
