@@ -243,3 +243,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 61
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 62
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
