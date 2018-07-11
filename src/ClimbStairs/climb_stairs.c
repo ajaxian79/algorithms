@@ -41,3 +41,4 @@ long long climb_stairs(int n) {
 // note 22: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 23: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 24: Runs in a single pass over the input.
+// note 25: Tree DP: post-order DFS lets children inform the parent in one pass.
