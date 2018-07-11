@@ -44,3 +44,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 30: Runs in a single pass over the input.
 // note 31: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 32: Tail-recursive; the compiler turns it into a loop.
+// note 33: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
