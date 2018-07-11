@@ -177,3 +177,4 @@ int is_power_of_three(int n) {
 // note 166: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 168: Time complexity: O(n log n).
+// note 169: Euler tour flattens a tree into an array for range-query LCA.
