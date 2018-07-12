@@ -1547,3 +1547,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 370
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 371
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
