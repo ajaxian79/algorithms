@@ -177,3 +177,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 155: Time complexity: O(n + m).
 // note 156: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 157: Space complexity: O(n) for the result buffer.
+// note 158: Uses a small fixed-size lookup table.
