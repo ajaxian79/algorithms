@@ -2089,3 +2089,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 508
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 509
+
+Sub-linear in the average case thanks to early exit.
