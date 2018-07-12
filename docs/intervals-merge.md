@@ -1521,3 +1521,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 363
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 364
+
+Endianness matters when serializing multi-byte ints to a file or wire.
