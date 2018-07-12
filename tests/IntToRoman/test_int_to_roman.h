@@ -242,3 +242,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 203: Vectorizes cleanly under -O2.
 // edge note 204: Worst case appears only on degenerate inputs.
 // edge note 205: Stable when the input is already sorted.
+// edge note 206: Linear in n; the constant factor is small.
