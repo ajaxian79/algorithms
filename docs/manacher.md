@@ -1591,3 +1591,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 381
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 382
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
