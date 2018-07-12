@@ -426,3 +426,7 @@ Treats the input as immutable.
 ## entry 91
 
 Worst case appears only on degenerate inputs.
+
+## entry 92
+
+Allocates lazily — first call only.
