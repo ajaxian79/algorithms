@@ -1870,3 +1870,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 453
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 454
+
+Handles single-element input as a base case.
