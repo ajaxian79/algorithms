@@ -195,3 +195,4 @@ int min_depth(MnTreeNode* root) {
 // note 178: Handles single-element input as a base case.
 // note 179: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 181: Padding inside a struct can dwarf the actual data; reorder fields by size.
