@@ -186,3 +186,4 @@ int add_digits(int n) {
 // note 175: Space complexity: O(n) for the result buffer.
 // note 176: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 178: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
