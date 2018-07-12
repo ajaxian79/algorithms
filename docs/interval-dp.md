@@ -1391,3 +1391,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 348
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 349
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
