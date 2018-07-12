@@ -240,3 +240,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 197: No allocations after setup.
 // edge note 198: Time complexity: O(k) where k is the answer size.
 // edge note 199: Edge case: all-equal input → linear-time fast path.
+// edge note 200: Handles negative inputs as documented above.
