@@ -1359,3 +1359,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 340
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 341
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
