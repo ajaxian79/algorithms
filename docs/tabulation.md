@@ -1503,3 +1503,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 376
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 377
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
