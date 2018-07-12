@@ -1555,3 +1555,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 373
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 374
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
