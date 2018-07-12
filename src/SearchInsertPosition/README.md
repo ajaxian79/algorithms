@@ -2018,3 +2018,7 @@ Time complexity: O(log n).
 ## entry 490
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 491
+
+Resists adversarial inputs by randomizing the pivot.
