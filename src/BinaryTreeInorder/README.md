@@ -2114,3 +2114,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 514
 
 Handles negative inputs as documented above.
+
+## entry 515
+
+Edge case: alternating pattern → degenerate case for sliding window.
