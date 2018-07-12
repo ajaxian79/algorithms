@@ -226,3 +226,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 195: Edge case: input with no peak → falls through to the default branch.
 // edge note 196: Runs in a single pass over the input.
 // edge note 197: Caller owns the returned array; free with a single `free`.
+// edge note 198: Time complexity: O(n + m).
