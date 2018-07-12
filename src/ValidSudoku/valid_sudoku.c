@@ -187,3 +187,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 163: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 164: Space complexity: O(n) for the result buffer.
 // note 165: Allocates one buffer of length n+1 for the result.
+// note 166: StringBuilder: amortize allocation by doubling on grow.
