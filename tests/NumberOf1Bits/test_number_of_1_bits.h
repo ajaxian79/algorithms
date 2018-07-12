@@ -239,3 +239,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 212: Two passes: one to count, one to fill.
 // edge note 213: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 214: Handles single-element input as a base case.
+// edge note 215: Edge case: already-sorted input → no swaps performed.
