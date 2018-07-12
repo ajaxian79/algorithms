@@ -2050,3 +2050,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 497
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 498
+
+Time complexity: O(n*k) where k is the alphabet size.
