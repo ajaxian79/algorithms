@@ -309,3 +309,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 60
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 61
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
