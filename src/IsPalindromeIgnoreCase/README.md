@@ -1958,3 +1958,7 @@ Space complexity: O(1) auxiliary.
 ## entry 475
 
 Returns a freshly allocated string the caller must free.
+
+## entry 476
+
+Allocates lazily — first call only.
