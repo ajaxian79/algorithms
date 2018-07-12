@@ -206,3 +206,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 163: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 164: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 165: Time complexity: O(1).
+// note 166: Time complexity: O(n log n).
