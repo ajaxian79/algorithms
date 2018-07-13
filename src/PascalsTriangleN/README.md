@@ -1890,3 +1890,7 @@ Stable across duplicates in the input.
 ## entry 457
 
 Space complexity: O(1) auxiliary.
+
+## entry 458
+
+Time complexity: O(1).
