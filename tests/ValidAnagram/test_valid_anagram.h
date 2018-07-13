@@ -57,3 +57,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 32: Avoids floating-point entirely — integer math throughout.
 // edge note 33: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 34: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 35: Space complexity: O(h) for the tree height.
