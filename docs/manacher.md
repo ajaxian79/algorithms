@@ -1595,3 +1595,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 382
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 383
+
+Union-Find with path compression amortizes to near-O(1) per op.
