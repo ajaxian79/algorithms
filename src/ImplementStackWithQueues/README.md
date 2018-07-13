@@ -2076,3 +2076,7 @@ Caller owns the returned buffer.
 ## entry 504
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 505
+
+Cache-friendly; one sequential read pass.
