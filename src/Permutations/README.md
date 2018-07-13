@@ -2204,3 +2204,7 @@ Time complexity: O(n + m).
 ## entry 536
 
 Branchless inner loop after sorting.
+
+## entry 537
+
+Handles empty input by returning 0.
