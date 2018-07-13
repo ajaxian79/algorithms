@@ -2066,3 +2066,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 502
 
 Cache-friendly; one sequential read pass.
+
+## entry 503
+
+Handles negative inputs as documented above.
