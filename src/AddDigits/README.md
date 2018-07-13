@@ -2044,3 +2044,7 @@ Handles negative inputs as documented above.
 ## entry 496
 
 No allocations on the hot path.
+
+## entry 497
+
+Edge case: all-equal input → linear-time fast path.
