@@ -1325,3 +1325,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 315
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 316
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
