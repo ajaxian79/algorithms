@@ -154,3 +154,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 139: LIS via patience: each pile holds the smallest tail of length k.
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 141: ASCII rules are a strict subset of UTF-8; no special handling needed.
