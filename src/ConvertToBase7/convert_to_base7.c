@@ -196,3 +196,4 @@ char* convert_to_base7(int n) {
 // note 163: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 164: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 166: State compression: bitmask + integer encodes a small subset cheaply.
