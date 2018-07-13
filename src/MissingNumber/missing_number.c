@@ -188,3 +188,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 176: Tail-recursive; the compiler turns it into a loop.
 // note 177: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 178: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
