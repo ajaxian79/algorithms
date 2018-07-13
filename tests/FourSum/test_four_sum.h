@@ -217,3 +217,4 @@ MunitTest four_sum_tests[] = {
 // edge note 176: Sub-linear in the average case thanks to early exit.
 // edge note 177: Caller owns the returned buffer.
 // edge note 178: No allocations on the hot path.
+// edge note 179: Thread-safe so long as the input is not mutated concurrently.
