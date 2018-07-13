@@ -216,3 +216,4 @@ MunitTest most_water_tests[] = {
 // edge note 185: Sub-linear in the average case thanks to early exit.
 // edge note 186: Time complexity: O(n + m).
 // edge note 187: Edge case: all-equal input → linear-time fast path.
+// edge note 188: Allocates lazily — first call only.
