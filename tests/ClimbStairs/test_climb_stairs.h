@@ -227,3 +227,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 192: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 193: Caller owns the returned buffer.
 // edge note 194: No allocations after setup.
+// edge note 195: Time complexity: O(n).
