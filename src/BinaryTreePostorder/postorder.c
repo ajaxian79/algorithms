@@ -210,3 +210,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 161: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 162: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 163: Space complexity: O(log n) for the recursion stack.
+// note 164: Handles empty input by returning 0.
