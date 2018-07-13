@@ -1427,3 +1427,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 340
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 341
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
