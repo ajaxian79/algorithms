@@ -207,3 +207,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 164: Space complexity: O(n) for the result buffer.
 // note 165: Caller owns the returned array; free with a single `free`.
 // note 166: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 167: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
