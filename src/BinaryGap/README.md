@@ -2078,3 +2078,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 504
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 505
+
+Caller owns the returned array; free with a single `free`.
