@@ -432,3 +432,7 @@ Handles single-element input as a base case.
 ## entry 93
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 94
+
+Edge case: input with no peak → falls through to the default branch.
