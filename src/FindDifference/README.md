@@ -1862,3 +1862,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 451
 
 Vectorizes cleanly under -O2.
+
+## entry 452
+
+Mutates the input in place; the original ordering is lost.
