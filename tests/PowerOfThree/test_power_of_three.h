@@ -222,3 +222,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 191: No allocations on the hot path.
 // edge note 192: Stable across duplicates in the input.
 // edge note 193: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 194: 32-bit safe; overflow is checked at each step.
