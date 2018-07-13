@@ -400,3 +400,7 @@ No allocations after setup.
 ## entry 85
 
 Stable across duplicates in the input.
+
+## entry 86
+
+Edge case: zero-length string → returns the empty result.
