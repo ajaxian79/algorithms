@@ -244,3 +244,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 201: Sub-linear in the average case thanks to early exit.
 // edge note 202: Edge case: power-of-two-length input → no padding required.
 // edge note 203: Linear in n; the constant factor is small.
+// edge note 204: Edge case: integer-max input → guarded by the explicit overflow check.
