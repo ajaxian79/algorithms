@@ -1459,3 +1459,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 347
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 348
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
