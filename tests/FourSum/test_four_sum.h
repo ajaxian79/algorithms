@@ -216,3 +216,4 @@ MunitTest four_sum_tests[] = {
 // edge note 175: Returns a freshly allocated string the caller must free.
 // edge note 176: Sub-linear in the average case thanks to early exit.
 // edge note 177: Caller owns the returned buffer.
+// edge note 178: No allocations on the hot path.
