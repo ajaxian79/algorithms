@@ -2040,3 +2040,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 495
 
 Handles negative inputs as documented above.
+
+## entry 496
+
+No allocations on the hot path.
