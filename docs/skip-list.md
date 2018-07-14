@@ -1339,3 +1339,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 335
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 336
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
