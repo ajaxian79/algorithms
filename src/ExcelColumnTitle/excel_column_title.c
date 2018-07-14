@@ -206,3 +206,4 @@ char* excel_column_title(int n) {
 // note 176: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 178: Allocates lazily — first call only.
+// note 179: Caller owns the returned array; free with a single `free`.
