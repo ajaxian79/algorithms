@@ -197,3 +197,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 182: Constant-time comparisons; safe for short strings.
 // note 183: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 184: Union-Find with path compression amortizes to near-O(1) per op.
+// note 185: LCA via binary lifting: jump up powers of two until depths match, then converge.
