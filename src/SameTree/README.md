@@ -2000,3 +2000,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 486
 
 Time complexity: O(n).
+
+## entry 487
+
+Edge case: reverse-sorted input → still O(n log n).
