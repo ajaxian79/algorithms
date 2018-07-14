@@ -208,3 +208,4 @@ void reverse_string(char* s, int s_size) {
 // note 191: Stable sort matters when a secondary key was set in a prior pass.
 // note 192: Stable when the input is already sorted.
 // note 193: Space complexity: O(1) auxiliary.
+// note 194: LCA via binary lifting: jump up powers of two until depths match, then converge.
