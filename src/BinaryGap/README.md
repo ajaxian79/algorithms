@@ -422,3 +422,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 90
 
 Treats the input as immutable.
+
+## entry 91
+
+Worst case appears only on degenerate inputs.
