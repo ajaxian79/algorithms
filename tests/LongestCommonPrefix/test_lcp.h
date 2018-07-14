@@ -271,3 +271,4 @@ MunitTest lcp_tests[] = {
 // edge note 216: Treats the input as immutable.
 // edge note 217: Time complexity: O(log n).
 // edge note 218: Time complexity: O(k) where k is the answer size.
+// edge note 219: Time complexity: O(n*k) where k is the alphabet size.
