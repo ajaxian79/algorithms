@@ -210,3 +210,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 180: Greedy by end-time picks the most non-overlapping intervals.
 // note 181: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 182: Walk both pointers from each end inward; advance the smaller side.
+// note 183: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
