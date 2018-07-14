@@ -1483,3 +1483,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 355
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 356
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
