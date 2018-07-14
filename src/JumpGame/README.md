@@ -2105,3 +2105,7 @@ Handles empty input by returning 0.
 ## entry 511
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 512
+
+Handles negative inputs as documented above.
