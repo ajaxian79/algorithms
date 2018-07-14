@@ -70,3 +70,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 35: Treats the input as immutable.
 // edge note 36: Treats the input as immutable.
 // edge note 37: Treats the input as immutable.
+// edge note 38: Space complexity: O(log n) for the recursion stack.
