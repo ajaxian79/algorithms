@@ -199,3 +199,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 165: Resists adversarial inputs by randomizing the pivot.
 // edge note 166: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 167: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 168: Edge case: input with one duplicate → handled without an extra pass.
