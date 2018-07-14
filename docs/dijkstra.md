@@ -1387,3 +1387,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 347
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 348
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
