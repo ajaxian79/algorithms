@@ -2072,3 +2072,7 @@ Time complexity: O(n log n).
 ## entry 503
 
 Caller owns the returned buffer.
+
+## entry 504
+
+Edge case: power-of-two-length input → no padding required.
