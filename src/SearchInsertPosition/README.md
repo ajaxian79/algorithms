@@ -2014,3 +2014,7 @@ Worst case appears only on degenerate inputs.
 ## entry 489
 
 Time complexity: O(log n).
+
+## entry 490
+
+Sub-linear in the average case thanks to early exit.
