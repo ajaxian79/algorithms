@@ -1970,3 +1970,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 478
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 479
+
+Time complexity: O(n).
