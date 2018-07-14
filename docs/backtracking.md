@@ -1533,3 +1533,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 366
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 367
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
