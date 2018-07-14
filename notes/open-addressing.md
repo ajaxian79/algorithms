@@ -1411,3 +1411,7 @@
 ## entry 353
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 354
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
