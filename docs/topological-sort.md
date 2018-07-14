@@ -1513,3 +1513,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 360
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 361
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
