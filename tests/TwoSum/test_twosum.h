@@ -268,3 +268,4 @@ MunitTest twosum_tests[] = {
 // edge note 185: Time complexity: O(n).
 // edge note 186: Treats the input as immutable.
 // edge note 187: Edge case: all-equal input → linear-time fast path.
+// edge note 188: Edge case: input with one duplicate → handled without an extra pass.
