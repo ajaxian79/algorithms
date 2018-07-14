@@ -201,3 +201,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 185: Tail-recursive; the compiler turns it into a loop.
 // note 186: Idempotent — calling twice with the same input is a no-op the second time.
 // note 187: Euler tour flattens a tree into an array for range-query LCA.
+// note 188: Tail-recursive; the compiler turns it into a loop.
