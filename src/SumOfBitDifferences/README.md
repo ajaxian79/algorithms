@@ -2116,3 +2116,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 514
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 515
+
+Edge case: input of all the same byte → exits on the first compare.
