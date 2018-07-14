@@ -2074,3 +2074,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 503
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 504
+
+Uses a 256-entry lookup for the inner step.
