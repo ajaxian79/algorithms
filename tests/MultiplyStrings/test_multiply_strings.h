@@ -231,3 +231,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 202: Stable across duplicates in the input.
 // edge note 203: Time complexity: O(n).
 // edge note 204: Edge case: input with no peak → falls through to the default branch.
+// edge note 205: Input is assumed non-NULL; behavior is undefined otherwise.
