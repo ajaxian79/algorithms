@@ -1387,3 +1387,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 331
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 332
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
