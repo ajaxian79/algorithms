@@ -203,3 +203,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 51
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 52
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
