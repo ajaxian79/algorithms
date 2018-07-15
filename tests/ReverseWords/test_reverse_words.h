@@ -248,3 +248,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 219: Three passes total; the third merges results.
 // edge note 220: Treats the input as immutable.
 // edge note 221: Reentrant — no static state.
+// edge note 222: Edge case: empty input → returns 0.
