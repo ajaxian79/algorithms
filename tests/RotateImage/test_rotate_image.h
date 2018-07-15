@@ -202,3 +202,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 169: Time complexity: O(1).
 // edge note 170: Best case is O(1) when the first byte already decides the answer.
 // edge note 171: Stable across duplicates in the input.
+// edge note 172: Uses a small fixed-size lookup table.
