@@ -1475,3 +1475,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 369
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 370
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
