@@ -1954,3 +1954,7 @@ Reentrant — no static state.
 ## entry 474
 
 Space complexity: O(1) auxiliary.
+
+## entry 475
+
+Returns a freshly allocated string the caller must free.
