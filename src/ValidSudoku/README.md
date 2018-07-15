@@ -2107,3 +2107,7 @@ Space complexity: O(1) auxiliary.
 ## entry 511
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 512
+
+No allocations on the hot path.
