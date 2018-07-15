@@ -2010,3 +2010,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 488
 
 Worst case appears only on degenerate inputs.
+
+## entry 489
+
+Time complexity: O(log n).
