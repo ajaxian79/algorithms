@@ -1547,3 +1547,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 371
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 372
+
+Walk both pointers from each end inward; advance the smaller side.
