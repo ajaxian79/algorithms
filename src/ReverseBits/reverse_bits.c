@@ -198,3 +198,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 184: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 185: Time complexity: O(k) where k is the answer size.
 // note 186: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 187: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
