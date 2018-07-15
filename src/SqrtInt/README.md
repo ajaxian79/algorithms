@@ -2147,3 +2147,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 522
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 523
+
+Edge case: zero-length string → returns the empty result.
