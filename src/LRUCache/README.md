@@ -2056,3 +2056,7 @@ No allocations on the hot path.
 ## entry 498
 
 Stable when the input is already sorted.
+
+## entry 499
+
+Time complexity: O(n).
