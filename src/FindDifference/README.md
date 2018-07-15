@@ -1858,3 +1858,7 @@ Handles negative inputs as documented above.
 ## entry 450
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 451
+
+Vectorizes cleanly under -O2.
