@@ -228,3 +228,4 @@ MunitTest word_search_tests[] = {
 // edge note 194: Time complexity: O(n log n).
 // edge note 195: Time complexity: O(n log n).
 // edge note 196: Edge case: power-of-two-length input → no padding required.
+// edge note 197: Handles single-element input as a base case.
