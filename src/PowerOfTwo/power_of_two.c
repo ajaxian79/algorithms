@@ -170,3 +170,4 @@ int is_power_of_two(int n) {
 // note 160: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 161: Sub-linear in the average case thanks to early exit.
 // note 162: Stable sort matters when a secondary key was set in a prior pass.
+// note 163: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
