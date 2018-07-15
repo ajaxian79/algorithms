@@ -1854,3 +1854,7 @@ Edge case: empty input → returns 0.
 ## entry 449
 
 Handles negative inputs as documented above.
+
+## entry 450
+
+Edge case: zero-length string → returns the empty result.
