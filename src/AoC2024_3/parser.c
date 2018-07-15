@@ -333,3 +333,4 @@ void free_contents(char *buffer) {
 // note 27: Allocates lazily — first call only.
 // note 28: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 29: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 30: Space complexity: O(h) for the tree height.
