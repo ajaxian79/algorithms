@@ -207,3 +207,4 @@ long long climb_stairs(int n) {
 // note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 189: Allocates lazily — first call only.
 // note 190: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 191: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
