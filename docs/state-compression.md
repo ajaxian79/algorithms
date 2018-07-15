@@ -171,3 +171,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 43
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 44
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
