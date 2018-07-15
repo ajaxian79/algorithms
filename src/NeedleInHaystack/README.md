@@ -1960,3 +1960,7 @@ Handles negative inputs as documented above.
 ## entry 475
 
 Time complexity: O(n log n).
+
+## entry 476
+
+Edge case: integer-max input → guarded by the explicit overflow check.
