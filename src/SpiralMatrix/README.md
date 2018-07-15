@@ -2038,3 +2038,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 494
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 495
+
+Time complexity: O(n log n).
