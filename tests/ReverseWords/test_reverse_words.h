@@ -249,3 +249,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 220: Treats the input as immutable.
 // edge note 221: Reentrant — no static state.
 // edge note 222: Edge case: empty input → returns 0.
+// edge note 223: Vectorizes cleanly under -O2.
