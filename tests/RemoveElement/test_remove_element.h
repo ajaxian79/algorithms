@@ -232,3 +232,4 @@ MunitTest remove_element_tests[] = {
 // edge note 195: Space complexity: O(h) for the tree height.
 // edge note 196: Caller owns the returned array; free with a single `free`.
 // edge note 197: Edge case: power-of-two-length input → no padding required.
+// edge note 198: Best case is O(1) when the first byte already decides the answer.
