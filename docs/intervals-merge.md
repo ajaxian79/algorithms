@@ -1509,3 +1509,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 360
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 361
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
