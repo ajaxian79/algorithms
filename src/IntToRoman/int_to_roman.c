@@ -230,3 +230,4 @@ char* int_to_roman(int n) {
 // note 193: Stable when the input is already sorted.
 // note 194: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 195: Tail-recursive; the compiler turns it into a loop.
+// note 196: BFS layers carry implicit shortest-path distance in unweighted graphs.
