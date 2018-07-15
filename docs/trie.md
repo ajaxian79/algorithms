@@ -1321,3 +1321,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 314
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 315
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
