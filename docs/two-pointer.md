@@ -1543,3 +1543,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 368
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 369
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
