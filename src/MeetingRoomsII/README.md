@@ -382,3 +382,7 @@ Linear in n; the constant factor is small.
 ## entry 80
 
 Returns a freshly allocated string the caller must free.
+
+## entry 81
+
+Stable when the input is already sorted.
