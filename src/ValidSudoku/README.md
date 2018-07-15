@@ -2103,3 +2103,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 510
 
 Space complexity: O(1) auxiliary.
+
+## entry 511
+
+Idempotent — calling twice with the same input is a no-op the second time.
