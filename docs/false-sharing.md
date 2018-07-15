@@ -1455,3 +1455,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 364
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 365
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
