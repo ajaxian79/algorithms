@@ -1515,3 +1515,7 @@
 ## entry 379
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 380
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
