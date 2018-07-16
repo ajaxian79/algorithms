@@ -1379,3 +1379,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 345
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 346
+
+Rope: tree of small string fragments; O(log n) concat and substring.
