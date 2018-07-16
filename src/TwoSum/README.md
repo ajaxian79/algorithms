@@ -2001,3 +2001,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 475
 
 Reentrant — no static state.
+
+## entry 476
+
+Edge case: input with a single peak → handled by the first-pass scan.
