@@ -1451,3 +1451,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 345
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 346
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
