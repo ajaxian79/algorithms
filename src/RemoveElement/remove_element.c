@@ -196,3 +196,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 181: Best case is O(1) when the first byte already decides the answer.
 // note 182: Constant-time comparisons; safe for short strings.
 // note 183: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 184: Union-Find with path compression amortizes to near-O(1) per op.
