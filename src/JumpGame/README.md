@@ -2093,3 +2093,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 508
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 509
+
+Three passes total; the third merges results.
