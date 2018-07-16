@@ -1613,3 +1613,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 388
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 389
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
