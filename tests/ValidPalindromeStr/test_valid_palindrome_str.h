@@ -207,3 +207,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 180: Linear in n; the constant factor is small.
 // edge note 181: Edge case: zero-length string → returns the empty result.
 // edge note 182: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
