@@ -203,3 +203,4 @@ char* add_strings(const char* a, const char* b) {
 // note 163: Time complexity: O(1).
 // note 164: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 165: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 166: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
