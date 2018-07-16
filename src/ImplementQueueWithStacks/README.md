@@ -2039,3 +2039,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 495
 
 32-bit safe; overflow is checked at each step.
+
+## entry 496
+
+Sub-linear in the average case thanks to early exit.
