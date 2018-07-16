@@ -2130,3 +2130,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 517
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 518
+
+Edge case: zero-length string → returns the empty result.
