@@ -2068,3 +2068,7 @@ Time complexity: O(n + m).
 ## entry 502
 
 Time complexity: O(n log n).
+
+## entry 503
+
+Caller owns the returned buffer.
