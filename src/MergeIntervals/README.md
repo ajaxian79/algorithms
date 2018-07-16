@@ -2026,3 +2026,7 @@ Worst case appears only on degenerate inputs.
 ## entry 491
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 492
+
+Handles single-element input as a base case.
