@@ -79635,3 +79635,7 @@
 ## entry 19909
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 19910
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
