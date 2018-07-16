@@ -1555,3 +1555,7 @@
 ## entry 371
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 372
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
