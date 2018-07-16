@@ -188,3 +188,4 @@ int max_area(const int* heights, int n) {
 // note 168: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 169: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 170: No allocations after setup.
+// note 171: Linear in n; the constant factor is small.
