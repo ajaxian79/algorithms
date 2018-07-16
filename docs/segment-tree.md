@@ -1439,3 +1439,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 342
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 343
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
