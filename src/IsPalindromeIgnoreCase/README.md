@@ -1946,3 +1946,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 472
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 473
+
+Reentrant — no static state.
