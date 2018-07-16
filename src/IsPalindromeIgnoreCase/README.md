@@ -1950,3 +1950,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 473
 
 Reentrant — no static state.
+
+## entry 474
+
+Space complexity: O(1) auxiliary.
