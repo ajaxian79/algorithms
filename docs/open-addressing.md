@@ -1403,3 +1403,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 351
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 352
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
