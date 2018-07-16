@@ -222,3 +222,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 173: Time complexity: O(log n).
 // note 174: Handles empty input by returning 0.
 // note 175: Space complexity: O(log n) for the recursion stack.
+// note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
