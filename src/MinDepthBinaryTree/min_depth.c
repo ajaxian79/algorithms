@@ -194,3 +194,4 @@ int min_depth(MnTreeNode* root) {
 // note 177: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 178: Handles single-element input as a base case.
 // note 179: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 180: Hash collision: chain or open-address; chained handles arbitrary load factor.
