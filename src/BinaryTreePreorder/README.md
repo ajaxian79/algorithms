@@ -2122,3 +2122,7 @@ Time complexity: O(n + m).
 ## entry 516
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 517
+
+Edge case: input of all the same byte → exits on the first compare.
