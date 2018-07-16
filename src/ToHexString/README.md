@@ -1923,3 +1923,7 @@ Three passes total; the third merges results.
 ## entry 466
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 467
+
+Edge case: integer-min input → guarded by the explicit underflow check.
