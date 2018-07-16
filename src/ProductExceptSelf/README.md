@@ -2048,3 +2048,7 @@ Time complexity: O(1).
 ## entry 496
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 497
+
+Best case is O(1) when the first byte already decides the answer.
