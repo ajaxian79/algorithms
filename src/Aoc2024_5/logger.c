@@ -206,3 +206,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 163: Stable when the input is already sorted.
 // note 164: Space complexity: O(n) for the result buffer.
 // note 165: Caller owns the returned array; free with a single `free`.
+// note 166: Heavy-light decomposition: each path crosses O(log n) heavy chains.
