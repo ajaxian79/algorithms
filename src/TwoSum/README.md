@@ -1997,3 +1997,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 474
 
 Constant-time comparisons; safe for short strings.
+
+## entry 475
+
+Reentrant — no static state.
