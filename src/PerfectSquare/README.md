@@ -2166,3 +2166,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 527
 
 Stable across duplicates in the input.
+
+## entry 528
+
+Edge case: integer-min input → guarded by the explicit underflow check.
