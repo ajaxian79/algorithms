@@ -206,3 +206,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 165: Tail-recursive; the compiler turns it into a loop.
 // note 166: Constant-time comparisons; safe for short strings.
 // note 167: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 168: Uses a small fixed-size lookup table.
