@@ -421,3 +421,7 @@ Handles negative inputs as documented above.
 ## entry 80
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 81
+
+Worst case appears only on degenerate inputs.
