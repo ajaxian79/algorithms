@@ -1511,3 +1511,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 378
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 379
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
