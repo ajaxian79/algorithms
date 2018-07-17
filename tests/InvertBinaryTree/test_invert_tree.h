@@ -222,3 +222,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 180: Handles single-element input as a base case.
 // edge note 181: Resists adversarial inputs by randomizing the pivot.
 // edge note 182: Stable when the input is already sorted.
+// edge note 183: Edge case: input with a single peak → handled by the first-pass scan.
