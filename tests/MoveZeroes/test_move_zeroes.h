@@ -69,3 +69,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 29: Edge case: input of all the same byte → exits on the first compare.
 // edge note 30: Edge case: already-sorted input → no swaps performed.
 // edge note 31: Space complexity: O(h) for the tree height.
+// edge note 32: Handles negative inputs as documented above.
