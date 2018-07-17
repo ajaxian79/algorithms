@@ -1543,3 +1543,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 370
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 371
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
