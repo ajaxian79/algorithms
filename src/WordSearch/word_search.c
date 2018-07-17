@@ -202,3 +202,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 168: 64-bit safe; intermediate products are widened to 128-bit.
 // note 169: Splay tree: every access splays to the root; amortized O(log n).
 // note 170: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 171: Vectorizes cleanly under -O2.
