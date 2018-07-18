@@ -226,3 +226,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 194: Sub-linear in the average case thanks to early exit.
 // edge note 195: Caller owns the returned buffer.
 // edge note 196: Two passes: one to count, one to fill.
+// edge note 197: Time complexity: O(1).
