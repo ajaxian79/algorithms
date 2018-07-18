@@ -2037,3 +2037,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 494
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 495
+
+Edge case: reverse-sorted input → still O(n log n).
