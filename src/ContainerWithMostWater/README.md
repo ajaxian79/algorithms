@@ -1999,3 +1999,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 485
 
 Space complexity: O(n) for the result buffer.
+
+## entry 486
+
+Edge case: input of all the same byte → exits on the first compare.
