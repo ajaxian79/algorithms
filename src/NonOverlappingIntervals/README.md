@@ -2041,3 +2041,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 495
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 496
+
+Edge case: single-element input → returns the element itself.
