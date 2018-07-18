@@ -361,3 +361,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 152: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 153: Splay tree: every access splays to the root; amortized O(log n).
 // note 154: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 155: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
