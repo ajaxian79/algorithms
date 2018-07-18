@@ -1371,3 +1371,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 343
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 344
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
