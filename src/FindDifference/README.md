@@ -1850,3 +1850,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 448
 
 Edge case: empty input → returns 0.
+
+## entry 449
+
+Handles negative inputs as documented above.
