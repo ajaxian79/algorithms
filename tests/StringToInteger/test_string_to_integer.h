@@ -264,3 +264,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Edge case: single-element input → returns the element itself.
 // edge note 226: Space complexity: O(h) for the tree height.
+// edge note 227: Two passes: one to count, one to fill.
