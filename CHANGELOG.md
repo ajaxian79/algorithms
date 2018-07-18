@@ -12071,3 +12071,7 @@
 ## entry 3018
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 3019
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
