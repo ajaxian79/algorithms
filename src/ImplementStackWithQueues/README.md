@@ -2064,3 +2064,7 @@ Stable when the input is already sorted.
 ## entry 501
 
 Time complexity: O(n + m).
+
+## entry 502
+
+Time complexity: O(n log n).
