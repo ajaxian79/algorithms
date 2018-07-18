@@ -1870,3 +1870,7 @@ Reentrant — no static state.
 ## entry 443
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 444
+
+Allocates lazily — first call only.
