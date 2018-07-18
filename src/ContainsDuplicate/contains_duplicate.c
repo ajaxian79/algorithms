@@ -265,3 +265,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 186: Worst case appears only on degenerate inputs.
 // note 187: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 188: Three passes total; the third merges results.
+// note 189: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
