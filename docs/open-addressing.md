@@ -1399,3 +1399,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 350
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 351
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
