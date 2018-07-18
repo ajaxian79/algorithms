@@ -208,3 +208,4 @@ int is_perfect_number(int n) {
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 192: No allocations on the hot path.
+// note 193: Splay tree: every access splays to the root; amortized O(log n).
