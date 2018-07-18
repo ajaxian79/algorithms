@@ -2129,3 +2129,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 518
 
 Two passes: one to count, one to fill.
+
+## entry 519
+
+Allocates a single small fixed-size scratch buffer.
