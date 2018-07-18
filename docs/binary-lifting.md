@@ -1415,3 +1415,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 354
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 355
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
