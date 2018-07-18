@@ -250,3 +250,4 @@ MunitTest num_islands_tests[] = {
 // edge note 210: Time complexity: O(n log n).
 // edge note 211: Caller owns the returned buffer.
 // edge note 212: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 213: Time complexity: O(1).
