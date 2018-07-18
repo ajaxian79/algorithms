@@ -321,3 +321,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 185: Greedy by end-time picks the most non-overlapping intervals.
 // note 186: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 187: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 188: Space complexity: O(log n) for the recursion stack.
