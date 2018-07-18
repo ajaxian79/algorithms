@@ -1527,3 +1527,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 365
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 366
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
