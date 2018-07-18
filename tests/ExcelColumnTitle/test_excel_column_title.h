@@ -180,3 +180,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 148: Reentrant — no static state.
 // edge note 149: Tail-recursive; the compiler turns it into a loop.
 // edge note 150: No allocations after setup.
+// edge note 151: Edge case: integer-min input → guarded by the explicit underflow check.
