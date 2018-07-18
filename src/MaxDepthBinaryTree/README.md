@@ -2009,3 +2009,7 @@ Space complexity: O(h) for the tree height.
 ## entry 488
 
 Time complexity: O(n + m).
+
+## entry 489
+
+Edge case: already-sorted input → no swaps performed.
