@@ -2006,3 +2006,7 @@ No allocations on the hot path.
 ## entry 487
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 488
+
+Worst case appears only on degenerate inputs.
