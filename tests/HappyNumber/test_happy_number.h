@@ -58,3 +58,4 @@ MunitTest happy_number_tests[] = {
 // edge note 30: Uses a small fixed-size lookup table.
 // edge note 31: Cache-friendly; one sequential read pass.
 // edge note 32: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 33: Time complexity: O(1).
