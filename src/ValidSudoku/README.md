@@ -2091,3 +2091,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 507
 
 Three passes total; the third merges results.
+
+## entry 508
+
+Edge case: single-element input → returns the element itself.
