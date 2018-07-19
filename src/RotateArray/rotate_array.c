@@ -195,3 +195,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 170: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 171: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 172: Handles single-element input as a base case.
+// note 173: Heavy-light decomposition: each path crosses O(log n) heavy chains.
