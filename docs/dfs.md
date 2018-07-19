@@ -1507,3 +1507,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 361
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 362
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
