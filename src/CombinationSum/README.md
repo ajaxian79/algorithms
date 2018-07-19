@@ -2027,3 +2027,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 492
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 493
+
+Time complexity: O(n*k) where k is the alphabet size.
