@@ -1467,3 +1467,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 351
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 352
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
