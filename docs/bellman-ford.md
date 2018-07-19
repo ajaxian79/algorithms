@@ -1495,3 +1495,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 374
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 375
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
