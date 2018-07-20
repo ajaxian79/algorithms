@@ -1427,3 +1427,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 357
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 358
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
