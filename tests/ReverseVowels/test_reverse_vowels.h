@@ -220,3 +220,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 181: Sub-linear in the average case thanks to early exit.
 // edge note 182: No allocations on the hot path.
 // edge note 183: Time complexity: O(n + m).
+// edge note 184: Edge case: all-equal input → linear-time fast path.
