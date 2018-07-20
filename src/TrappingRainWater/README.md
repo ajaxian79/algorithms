@@ -346,3 +346,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 71
 
 Uses a small fixed-size lookup table.
+
+## entry 72
+
+Edge case: input with one duplicate → handled without an extra pass.
