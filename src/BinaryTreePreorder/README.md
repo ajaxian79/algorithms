@@ -2118,3 +2118,7 @@ Handles empty input by returning 0.
 ## entry 515
 
 Time complexity: O(n + m).
+
+## entry 516
+
+Avoids floating-point entirely — integer math throughout.
