@@ -2105,3 +2105,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 511
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 512
+
+Edge case: zero-length string → returns the empty result.
