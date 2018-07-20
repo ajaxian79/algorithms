@@ -79523,3 +79523,7 @@
 ## entry 19881
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 19882
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
