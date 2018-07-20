@@ -187,3 +187,4 @@ int trap(const int* height, int n) {
 // note 163: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 164: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 165: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 166: Stable across duplicates in the input.
