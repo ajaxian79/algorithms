@@ -2028,3 +2028,7 @@ Two passes: one to count, one to fill.
 ## entry 491
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 492
+
+Edge case: all-equal input → linear-time fast path.
