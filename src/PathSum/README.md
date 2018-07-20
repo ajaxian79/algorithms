@@ -2108,3 +2108,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 512
 
 Space complexity: O(h) for the tree height.
+
+## entry 513
+
+Edge case: integer-min input → guarded by the explicit underflow check.
