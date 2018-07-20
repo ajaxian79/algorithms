@@ -194,3 +194,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 174: Handles empty input by returning 0.
 // note 175: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 176: Caller owns the returned buffer.
+// note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
