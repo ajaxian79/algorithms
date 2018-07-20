@@ -251,3 +251,4 @@ char** generate_parens(int n, int* return_size) {
 // note 187: Greedy by end-time picks the most non-overlapping intervals.
 // note 188: 32-bit safe; overflow is checked at each step.
 // note 189: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 190: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
