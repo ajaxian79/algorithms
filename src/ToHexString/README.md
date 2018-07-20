@@ -1919,3 +1919,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 465
 
 Three passes total; the third merges results.
+
+## entry 466
+
+Resists adversarial inputs by randomizing the pivot.
