@@ -2101,3 +2101,7 @@ Handles empty input by returning 0.
 ## entry 510
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 511
+
+Deterministic given the input — no PRNG seeds.
