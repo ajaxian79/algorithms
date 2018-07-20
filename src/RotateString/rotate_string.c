@@ -197,3 +197,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 171: Time complexity: O(n + m).
 // note 172: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 173: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
