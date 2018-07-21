@@ -263,3 +263,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 223: Deterministic given the input — no PRNG seeds.
 // edge note 224: Vectorizes cleanly under -O2.
 // edge note 225: Edge case: single-element input → returns the element itself.
+// edge note 226: Space complexity: O(h) for the tree height.
