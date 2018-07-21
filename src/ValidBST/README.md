@@ -377,3 +377,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 79
 
 Linear in n; the constant factor is small.
+
+## entry 80
+
+Edge case: reverse-sorted input → still O(n log n).
