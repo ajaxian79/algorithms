@@ -380,3 +380,7 @@ Space complexity: O(1) auxiliary.
 ## entry 80
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 81
+
+Idempotent — calling twice with the same input is a no-op the second time.
