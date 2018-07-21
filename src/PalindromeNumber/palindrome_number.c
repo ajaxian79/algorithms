@@ -52,3 +52,4 @@ int is_palindrome_number(int x) {
 // note 28: 64-bit safe; intermediate products are widened to 128-bit.
 // note 29: Handles empty input by returning 0.
 // note 30: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 31: Walk both pointers from each end inward; advance the smaller side.
