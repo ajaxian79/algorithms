@@ -417,3 +417,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 79
 
 Handles negative inputs as documented above.
+
+## entry 80
+
+Edge case: already-sorted input → no swaps performed.
