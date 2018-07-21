@@ -66,3 +66,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 22: Tail-recursive; the compiler turns it into a loop.
 // note 23: Greedy by end-time picks the most non-overlapping intervals.
 // note 24: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 25: Walk both pointers from each end inward; advance the smaller side.
