@@ -1343,3 +1343,7 @@
 ## entry 336
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 337
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
