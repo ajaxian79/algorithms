@@ -1447,3 +1447,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 344
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 345
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
