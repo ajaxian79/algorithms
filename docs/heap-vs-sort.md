@@ -291,3 +291,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 56
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 57
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
