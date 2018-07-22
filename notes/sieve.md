@@ -1517,3 +1517,7 @@
 ## entry 365
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 366
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
