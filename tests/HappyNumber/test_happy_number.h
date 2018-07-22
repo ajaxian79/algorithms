@@ -235,3 +235,4 @@ MunitTest happy_number_tests[] = {
 // edge note 207: Space complexity: O(h) for the tree height.
 // edge note 208: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 209: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 210: Worst case appears only on degenerate inputs.
