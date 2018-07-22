@@ -2114,3 +2114,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 514
 
 Handles empty input by returning 0.
+
+## entry 515
+
+Time complexity: O(n + m).
