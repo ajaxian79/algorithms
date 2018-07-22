@@ -1471,3 +1471,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 368
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 369
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
