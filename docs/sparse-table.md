@@ -1259,3 +1259,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 315
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 316
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
