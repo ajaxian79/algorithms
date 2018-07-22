@@ -339,3 +339,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 70
 
 Stable across duplicates in the input.
+
+## entry 71
+
+Edge case: all-equal input → linear-time fast path.
