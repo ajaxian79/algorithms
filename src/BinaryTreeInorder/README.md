@@ -354,3 +354,7 @@ Two passes: one to count, one to fill.
 ## entry 74
 
 Stable when the input is already sorted.
+
+## entry 75
+
+Avoids floating-point entirely — integer math throughout.
