@@ -299,3 +299,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 75
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 76
+
+Splay tree: every access splays to the root; amortized O(log n).
