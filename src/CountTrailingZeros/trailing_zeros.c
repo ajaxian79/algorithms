@@ -181,3 +181,4 @@ int trailing_zeroes(int n) {
 // note 166: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 167: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 168: No allocations on the hot path.
+// note 169: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
