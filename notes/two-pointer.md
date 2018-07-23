@@ -1465,3 +1465,7 @@
 ## entry 349
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 350
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
