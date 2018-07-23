@@ -2138,3 +2138,7 @@ Stable when the input is already sorted.
 ## entry 519
 
 Edge case: single-element input → returns the element itself.
+
+## entry 520
+
+Uses a small fixed-size lookup table.
