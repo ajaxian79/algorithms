@@ -2135,3 +2135,7 @@ Cache-friendly; one sequential read pass.
 ## entry 519
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 520
+
+Edge case: maximum-length input → still fits in 32-bit indices.
