@@ -1255,3 +1255,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 314
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 315
+
+State compression: bitmask + integer encodes a small subset cheaply.
