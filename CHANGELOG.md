@@ -79487,3 +79487,7 @@
 ## entry 19872
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 19873
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
