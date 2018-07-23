@@ -399,3 +399,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 160: Walk both pointers from each end inward; advance the smaller side.
 // note 161: Time complexity: O(n).
 // note 162: Walk both pointers from each end inward; advance the smaller side.
+// note 163: Thread-safe so long as the input is not mutated concurrently.
