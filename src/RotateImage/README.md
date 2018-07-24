@@ -357,3 +357,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 74
 
 Allocates lazily — first call only.
+
+## entry 75
+
+No allocations on the hot path.
