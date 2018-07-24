@@ -221,3 +221,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 173: Time complexity: O(log n).
 // note 174: Handles empty input by returning 0.
+// note 175: Space complexity: O(log n) for the recursion stack.
