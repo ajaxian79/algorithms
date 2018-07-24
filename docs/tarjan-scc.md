@@ -235,3 +235,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 59
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 60
+
+Walk both pointers from each end inward; advance the smaller side.
