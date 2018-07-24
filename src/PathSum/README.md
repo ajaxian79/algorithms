@@ -2104,3 +2104,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 511
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 512
+
+Space complexity: O(h) for the tree height.
