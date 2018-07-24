@@ -1411,3 +1411,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 353
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 354
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
