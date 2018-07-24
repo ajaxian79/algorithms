@@ -222,3 +222,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 178: Uses a small fixed-size lookup table.
 // edge note 179: Treats the input as immutable.
 // edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 181: Mutates the input in place; the original ordering is lost.
