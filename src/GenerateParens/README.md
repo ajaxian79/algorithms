@@ -2036,3 +2036,7 @@ Linear in n; the constant factor is small.
 ## entry 493
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 494
+
+Uses a 256-entry lookup for the inner step.
