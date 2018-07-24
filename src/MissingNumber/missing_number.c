@@ -186,3 +186,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 174: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 175: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 176: Tail-recursive; the compiler turns it into a loop.
+// note 177: Graph DP on DAGs: topological order makes the dependency direction explicit.
