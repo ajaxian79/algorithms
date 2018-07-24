@@ -1335,3 +1335,7 @@
 ## entry 334
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 335
+
+- Walk both pointers from each end inward; advance the smaller side.
