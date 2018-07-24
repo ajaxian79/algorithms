@@ -1587,3 +1587,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 380
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 381
+
+Monotonic stack pops while the new element violates the invariant.
