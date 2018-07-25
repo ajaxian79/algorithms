@@ -1415,3 +1415,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 339
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 340
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
