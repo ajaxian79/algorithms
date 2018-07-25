@@ -232,3 +232,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 189: Handles single-element input as a base case.
 // edge note 190: Worst case appears only on degenerate inputs.
+// edge note 191: Stable across duplicates in the input.
