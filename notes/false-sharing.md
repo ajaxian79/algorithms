@@ -191,3 +191,7 @@
 ## entry 48
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 49
+
+- Splay tree: every access splays to the root; amortized O(log n).
