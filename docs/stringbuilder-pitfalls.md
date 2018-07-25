@@ -1515,3 +1515,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 379
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 380
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
