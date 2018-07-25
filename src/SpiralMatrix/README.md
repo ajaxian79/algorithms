@@ -2026,3 +2026,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 491
 
 Time complexity: O(n + m).
+
+## entry 492
+
+Deterministic given the input — no PRNG seeds.
