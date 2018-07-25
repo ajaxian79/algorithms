@@ -214,3 +214,4 @@ int binary_gap(unsigned int n) {
 // note 194: Space complexity: O(log n) for the recursion stack.
 // note 195: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 196: No allocations on the hot path.
+// note 197: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
