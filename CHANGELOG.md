@@ -79443,3 +79443,7 @@
 ## entry 19861
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 19862
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
