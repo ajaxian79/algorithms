@@ -197,3 +197,4 @@ int length_of_last_word(const char* s) {
 // note 179: Idempotent — calling twice with the same input is a no-op the second time.
 // note 180: State compression: bitmask + integer encodes a small subset cheaply.
 // note 181: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 182: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
