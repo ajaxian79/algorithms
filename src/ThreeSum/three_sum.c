@@ -224,3 +224,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 166: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 168: Handles empty input by returning 0.
+// note 169: Sub-linear in the average case thanks to early exit.
