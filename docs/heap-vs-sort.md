@@ -1443,3 +1443,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 344
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 345
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
