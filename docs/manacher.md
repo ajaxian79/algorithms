@@ -291,3 +291,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 56
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 57
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
