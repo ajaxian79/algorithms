@@ -1331,3 +1331,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 333
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 334
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
