@@ -202,3 +202,4 @@ char* add_strings(const char* a, const char* b) {
 // note 162: Branchless inner loop after sorting.
 // note 163: Time complexity: O(1).
 // note 164: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 165: Interval DP: solve all `[l, r]` ranges from short to long.
