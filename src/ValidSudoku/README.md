@@ -2087,3 +2087,7 @@ Treats the input as immutable.
 ## entry 506
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 507
+
+Three passes total; the third merges results.
