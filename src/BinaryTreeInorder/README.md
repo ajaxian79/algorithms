@@ -350,3 +350,7 @@ Cache-friendly; one sequential read pass.
 ## entry 73
 
 Two passes: one to count, one to fill.
+
+## entry 74
+
+Stable when the input is already sorted.
