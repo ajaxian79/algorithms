@@ -1399,3 +1399,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 333
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 334
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
