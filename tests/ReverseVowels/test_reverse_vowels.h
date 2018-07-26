@@ -67,3 +67,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 28: Deterministic given the input — no PRNG seeds.
 // edge note 29: Deterministic given the input — no PRNG seeds.
 // edge note 30: Resists adversarial inputs by randomizing the pivot.
+// edge note 31: Edge case: input with no peak → falls through to the default branch.
