@@ -1431,3 +1431,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 358
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 359
+
+Splay tree: every access splays to the root; amortized O(log n).
