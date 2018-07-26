@@ -2131,3 +2131,7 @@ Space complexity: O(h) for the tree height.
 ## entry 518
 
 Cache-friendly; one sequential read pass.
+
+## entry 519
+
+Allocates a single small fixed-size scratch buffer.
