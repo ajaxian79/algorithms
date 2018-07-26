@@ -1299,3 +1299,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 325
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 326
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
