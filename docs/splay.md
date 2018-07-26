@@ -187,3 +187,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 47
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 48
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
