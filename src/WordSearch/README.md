@@ -2058,3 +2058,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 500
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 501
+
+Edge case: already-sorted input → no swaps performed.
