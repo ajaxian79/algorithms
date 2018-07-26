@@ -367,3 +367,7 @@ Cache-friendly; one sequential read pass.
 ## entry 77
 
 Worst case appears only on degenerate inputs.
+
+## entry 78
+
+Linear in n; the constant factor is small.
