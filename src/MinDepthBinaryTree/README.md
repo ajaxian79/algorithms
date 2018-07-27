@@ -1962,3 +1962,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 476
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 477
+
+Edge case: single-element input → returns the element itself.
