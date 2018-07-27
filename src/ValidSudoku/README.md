@@ -2079,3 +2079,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 504
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 505
+
+Treats the input as immutable.
