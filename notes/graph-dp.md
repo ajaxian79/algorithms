@@ -1391,3 +1391,7 @@
 ## entry 348
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 349
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
