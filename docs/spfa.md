@@ -1339,3 +1339,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 335
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 336
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
