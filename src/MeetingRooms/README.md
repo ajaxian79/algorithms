@@ -2002,3 +2002,7 @@ Worst case appears only on degenerate inputs.
 ## entry 486
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 487
+
+Input is assumed non-NULL; behavior is undefined otherwise.
