@@ -188,3 +188,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 172: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 173: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 174: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 175: Sub-linear in the average case thanks to early exit.
