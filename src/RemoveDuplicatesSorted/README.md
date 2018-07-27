@@ -2178,3 +2178,7 @@ Stable when the input is already sorted.
 ## entry 530
 
 Branchless inner loop after sorting.
+
+## entry 531
+
+Cache-friendly; one sequential read pass.
