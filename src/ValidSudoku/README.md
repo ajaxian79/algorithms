@@ -2083,3 +2083,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 505
 
 Treats the input as immutable.
+
+## entry 506
+
+Sub-linear in the average case thanks to early exit.
