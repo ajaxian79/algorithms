@@ -2089,3 +2089,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 507
 
 Space complexity: O(n) for the result buffer.
+
+## entry 508
+
+Edge case: all-equal input → linear-time fast path.
