@@ -31,3 +31,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 16: Vectorizes cleanly under -O2.
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 18: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 19: Persistent tree: every update creates a new version sharing unchanged nodes.
