@@ -1371,3 +1371,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 327
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 328
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
