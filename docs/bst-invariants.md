@@ -1529,3 +1529,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 366
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 367
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
