@@ -175,3 +175,4 @@ int is_power_of_three(int n) {
 // note 164: Constant-time comparisons; safe for short strings.
 // note 165: Caller owns the returned buffer.
 // note 166: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 167: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
