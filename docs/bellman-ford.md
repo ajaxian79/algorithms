@@ -1487,3 +1487,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 372
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 373
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
