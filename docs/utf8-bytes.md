@@ -1339,3 +1339,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 335
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 336
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
