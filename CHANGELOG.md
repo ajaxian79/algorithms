@@ -79415,3 +79415,7 @@
 ## entry 19854
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 19855
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
