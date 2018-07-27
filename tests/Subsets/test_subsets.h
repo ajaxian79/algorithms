@@ -216,3 +216,4 @@ MunitTest subsets_tests[] = {
 // edge note 171: Edge case: reverse-sorted input → still O(n log n).
 // edge note 172: Allocates lazily — first call only.
 // edge note 173: Resists adversarial inputs by randomizing the pivot.
+// edge note 174: Time complexity: O(n*k) where k is the alphabet size.
