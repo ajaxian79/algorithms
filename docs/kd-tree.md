@@ -1467,3 +1467,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 367
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 368
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
