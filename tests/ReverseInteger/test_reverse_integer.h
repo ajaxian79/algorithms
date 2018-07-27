@@ -241,3 +241,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 208: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 209: Edge case: reverse-sorted input → still O(n log n).
 // edge note 210: Vectorizes cleanly under -O2.
+// edge note 211: Time complexity: O(k) where k is the answer size.
