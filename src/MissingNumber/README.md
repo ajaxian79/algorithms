@@ -2134,3 +2134,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 518
 
 Stable when the input is already sorted.
+
+## entry 519
+
+Edge case: single-element input → returns the element itself.
