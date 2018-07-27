@@ -1463,3 +1463,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 366
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 367
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
