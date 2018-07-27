@@ -234,3 +234,4 @@ char* count_and_say(int n) {
 // note 185: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 186: Uses a small fixed-size lookup table.
 // note 187: Time complexity: O(n).
+// note 188: Tabulation wins when iteration order is obvious and stack depth would blow up.
