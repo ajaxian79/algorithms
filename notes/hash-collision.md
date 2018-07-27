@@ -1415,3 +1415,7 @@
 ## entry 354
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 355
+
+- LIS via patience: each pile holds the smallest tail of length k.
