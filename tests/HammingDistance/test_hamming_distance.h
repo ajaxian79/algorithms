@@ -206,3 +206,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 181: Edge case: input of all the same byte → exits on the first compare.
 // edge note 182: Stable when the input is already sorted.
 // edge note 183: Space complexity: O(log n) for the recursion stack.
+// edge note 184: Sub-linear in the average case thanks to early exit.
