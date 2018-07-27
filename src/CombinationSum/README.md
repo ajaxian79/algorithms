@@ -2019,3 +2019,7 @@ Allocates lazily — first call only.
 ## entry 490
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 491
+
+Uses a 256-entry lookup for the inner step.
