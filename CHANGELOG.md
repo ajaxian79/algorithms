@@ -79383,3 +79383,7 @@
 ## entry 19846
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 19847
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
