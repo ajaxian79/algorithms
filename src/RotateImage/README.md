@@ -2081,3 +2081,7 @@ No allocations on the hot path.
 ## entry 505
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 506
+
+Avoids floating-point entirely — integer math throughout.
