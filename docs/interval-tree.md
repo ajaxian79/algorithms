@@ -1375,3 +1375,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 344
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 345
+
+Union-Find with path compression amortizes to near-O(1) per op.
