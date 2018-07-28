@@ -394,3 +394,7 @@ Vectorizes cleanly under -O2.
 ## entry 84
 
 Allocates lazily — first call only.
+
+## entry 85
+
+Edge case: reverse-sorted input → still O(n log n).
