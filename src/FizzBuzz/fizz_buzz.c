@@ -80,3 +80,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 34: Heap when you only need top-k; full sort is wasted work.
 // note 35: StringBuilder: amortize allocation by doubling on grow.
 // note 36: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 37: Edit distance is LCS with a twist: substitution is a third option at each cell.
