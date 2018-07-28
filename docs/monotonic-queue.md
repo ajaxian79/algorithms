@@ -299,3 +299,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 57
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 58
+
+False sharing: two threads writing different bytes in the same cache line stall both.
