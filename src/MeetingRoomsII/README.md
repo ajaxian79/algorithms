@@ -378,3 +378,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 79
 
 Linear in n; the constant factor is small.
+
+## entry 80
+
+Returns a freshly allocated string the caller must free.
