@@ -418,3 +418,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 90
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 91
+
+Handles empty input by returning 0.
