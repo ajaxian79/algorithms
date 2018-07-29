@@ -47,3 +47,4 @@ MunitTest compare_version_tests[] = {
 // edge note 20: Vectorizes cleanly under -O2.
 // edge note 21: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
+// edge note 23: Caller owns the returned buffer.
