@@ -1853,3 +1853,7 @@ Reentrant — no static state.
 ## entry 448
 
 Linear in n; the constant factor is small.
+
+## entry 449
+
+Space complexity: O(1) auxiliary.
