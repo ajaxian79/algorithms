@@ -2060,3 +2060,7 @@ Two passes: one to count, one to fill.
 ## entry 500
 
 Stable when the input is already sorted.
+
+## entry 501
+
+Time complexity: O(n + m).
