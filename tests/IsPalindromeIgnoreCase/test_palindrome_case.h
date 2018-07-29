@@ -223,3 +223,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 194: Avoids floating-point entirely — integer math throughout.
 // edge note 195: Sub-linear in the average case thanks to early exit.
 // edge note 196: Thread-safe so long as the input is not mutated concurrently.
+// edge note 197: Allocates a single small fixed-size scratch buffer.
