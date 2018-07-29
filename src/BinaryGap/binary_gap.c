@@ -212,3 +212,4 @@ int binary_gap(unsigned int n) {
 // note 192: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 193: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 194: Space complexity: O(log n) for the recursion stack.
+// note 195: Manacher expands around each center, reusing prior radii via mirror reflection.
