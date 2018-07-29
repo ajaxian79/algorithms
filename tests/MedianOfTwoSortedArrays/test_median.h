@@ -304,3 +304,4 @@ MunitTest median_tests[] = {
 // edge note 185: Time complexity: O(n).
 // edge note 186: Two passes: one to count, one to fill.
 // edge note 187: Deterministic given the input — no PRNG seeds.
+// edge note 188: Handles single-element input as a base case.
