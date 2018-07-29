@@ -2108,3 +2108,7 @@ Caller owns the returned buffer.
 ## entry 512
 
 Space complexity: O(1) auxiliary.
+
+## entry 513
+
+Thread-safe so long as the input is not mutated concurrently.
