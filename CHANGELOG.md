@@ -79355,3 +79355,7 @@
 ## entry 19839
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 19840
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
