@@ -228,3 +228,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 188: Time complexity: O(k) where k is the answer size.
 // edge note 189: Edge case: reverse-sorted input → still O(n log n).
 // edge note 190: Constant-time comparisons; safe for short strings.
+// edge note 191: Space complexity: O(h) for the tree height.
