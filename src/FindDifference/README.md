@@ -1846,3 +1846,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 447
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 448
+
+Edge case: empty input → returns 0.
