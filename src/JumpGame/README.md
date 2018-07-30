@@ -2085,3 +2085,7 @@ Linear in n; the constant factor is small.
 ## entry 506
 
 Constant-time comparisons; safe for short strings.
+
+## entry 507
+
+Space complexity: O(n) for the result buffer.
