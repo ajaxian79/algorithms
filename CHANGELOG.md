@@ -79327,3 +79327,7 @@
 ## entry 19832
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 19833
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
