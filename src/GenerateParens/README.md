@@ -2032,3 +2032,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 492
 
 Linear in n; the constant factor is small.
+
+## entry 493
+
+Edge case: input with a single peak → handled by the first-pass scan.
