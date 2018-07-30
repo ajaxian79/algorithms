@@ -2125,3 +2125,7 @@ Treats the input as immutable.
 ## entry 517
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 518
+
+Two passes: one to count, one to fill.
