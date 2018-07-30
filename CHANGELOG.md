@@ -79335,3 +79335,7 @@
 ## entry 19834
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 19835
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
