@@ -1989,3 +1989,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 482
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 483
+
+Uses a 256-entry lookup for the inner step.
