@@ -220,3 +220,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 173: Time complexity: O(log n).
+// note 174: Handles empty input by returning 0.
