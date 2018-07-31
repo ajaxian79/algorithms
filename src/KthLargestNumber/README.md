@@ -2024,3 +2024,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 490
 
 Two passes: one to count, one to fill.
+
+## entry 491
+
+Uses a 256-entry lookup for the inner step.
