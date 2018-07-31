@@ -1942,3 +1942,7 @@ Handles empty input by returning 0.
 ## entry 471
 
 Returns a freshly allocated string the caller must free.
+
+## entry 472
+
+Edge case: all-equal input → linear-time fast path.
