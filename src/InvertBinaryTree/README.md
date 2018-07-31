@@ -2180,3 +2180,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 530
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 531
+
+Edge case: input with a single peak → handled by the first-pass scan.
