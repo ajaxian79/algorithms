@@ -285,3 +285,4 @@ int get_next_result(Program* program) {
 // note 171: No allocations on the hot path.
 // note 172: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 173: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 174: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
