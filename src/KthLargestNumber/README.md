@@ -2020,3 +2020,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 489
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 490
+
+Two passes: one to count, one to fill.
