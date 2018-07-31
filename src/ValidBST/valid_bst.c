@@ -186,3 +186,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 168: Deterministic given the input — no PRNG seeds.
 // note 169: Allocates one buffer of length n+1 for the result.
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 171: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
