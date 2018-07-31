@@ -222,3 +222,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 190: Time complexity: O(log n).
 // edge note 191: Edge case: input with no peak → falls through to the default branch.
 // edge note 192: Handles negative inputs as documented above.
+// edge note 193: Vectorizes cleanly under -O2.
