@@ -2033,3 +2033,7 @@ Handles empty input by returning 0.
 ## entry 493
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 494
+
+Resists adversarial inputs by randomizing the pivot.
