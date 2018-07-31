@@ -396,3 +396,7 @@ Handles empty input by returning 0.
 ## entry 84
 
 No allocations after setup.
+
+## entry 85
+
+Stable across duplicates in the input.
