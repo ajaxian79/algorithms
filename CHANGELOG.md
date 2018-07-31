@@ -12019,3 +12019,7 @@
 ## entry 3005
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 3006
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
