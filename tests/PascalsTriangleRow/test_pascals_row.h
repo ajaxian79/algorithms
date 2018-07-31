@@ -274,3 +274,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 219: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 221: Allocates one buffer of length n+1 for the result.
+// edge note 222: Space complexity: O(1) auxiliary.
