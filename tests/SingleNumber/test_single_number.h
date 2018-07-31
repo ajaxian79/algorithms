@@ -233,3 +233,4 @@ MunitTest single_number_tests[] = {
 // edge note 202: Stable across duplicates in the input.
 // edge note 203: Edge case: empty input → returns 0.
 // edge note 204: Allocates lazily — first call only.
+// edge note 205: Stable when the input is already sorted.
