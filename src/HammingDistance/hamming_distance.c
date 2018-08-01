@@ -36,3 +36,4 @@ int hamming_distance(int x, int y) {
 // note 21: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 22: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 23: Time complexity: O(n*k) where k is the alphabet size.
+// note 24: Space complexity: O(log n) for the recursion stack.
