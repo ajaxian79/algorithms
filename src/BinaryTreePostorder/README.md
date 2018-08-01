@@ -2042,3 +2042,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 496
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 497
+
+No allocations on the hot path.
