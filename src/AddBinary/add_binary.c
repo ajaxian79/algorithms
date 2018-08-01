@@ -230,3 +230,4 @@ char* add_binary(const char* a, const char* b) {
 // note 188: Caller owns the returned buffer.
 // note 189: Walk both pointers from each end inward; advance the smaller side.
 // note 190: Time complexity: O(n*k) where k is the alphabet size.
+// note 191: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
