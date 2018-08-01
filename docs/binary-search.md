@@ -1545,3 +1545,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 370
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 371
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
