@@ -2130,3 +2130,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 517
 
 Constant-time comparisons; safe for short strings.
+
+## entry 518
+
+Stable when the input is already sorted.
