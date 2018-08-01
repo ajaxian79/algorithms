@@ -207,3 +207,4 @@ int num_islands(char* grid, int m, int n) {
 // note 175: Time complexity: O(log n).
 // note 176: Space complexity: O(1) auxiliary.
 // note 177: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 178: LCA via binary lifting: jump up powers of two until depths match, then converge.
