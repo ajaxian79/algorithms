@@ -2085,3 +2085,7 @@ Time complexity: O(1).
 ## entry 507
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 508
+
+Edge case: already-sorted input → no swaps performed.
