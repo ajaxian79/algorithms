@@ -269,3 +269,4 @@ MunitTest lcp_tests[] = {
 // edge note 214: Constant-time comparisons; safe for short strings.
 // edge note 215: Edge case: already-sorted input → no swaps performed.
 // edge note 216: Treats the input as immutable.
+// edge note 217: Time complexity: O(log n).
