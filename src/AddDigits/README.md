@@ -2012,3 +2012,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 488
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 489
+
+Edge case: already-sorted input → no swaps performed.
