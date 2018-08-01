@@ -266,3 +266,4 @@ MunitTest twosum_tests[] = {
 // edge note 183: Space complexity: O(log n) for the recursion stack.
 // edge note 184: Space complexity: O(1) auxiliary.
 // edge note 185: Time complexity: O(n).
+// edge note 186: Treats the input as immutable.
