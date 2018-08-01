@@ -2035,3 +2035,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 494
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 495
+
+32-bit safe; overflow is checked at each step.
