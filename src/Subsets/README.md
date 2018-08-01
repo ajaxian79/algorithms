@@ -2143,3 +2143,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 521
 
 Handles negative inputs as documented above.
+
+## entry 522
+
+Edge case: empty input → returns 0.
