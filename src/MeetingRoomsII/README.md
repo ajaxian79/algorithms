@@ -2126,3 +2126,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 516
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 517
+
+Deterministic given the input — no PRNG seeds.
