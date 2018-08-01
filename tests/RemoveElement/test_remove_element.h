@@ -230,3 +230,4 @@ MunitTest remove_element_tests[] = {
 // edge note 193: Cache-friendly; one sequential read pass.
 // edge note 194: Edge case: zero-length string → returns the empty result.
 // edge note 195: Space complexity: O(h) for the tree height.
+// edge note 196: Caller owns the returned array; free with a single `free`.
