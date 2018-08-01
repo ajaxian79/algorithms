@@ -1391,3 +1391,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 331
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 332
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
