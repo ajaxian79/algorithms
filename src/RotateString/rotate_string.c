@@ -196,3 +196,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 170: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 171: Time complexity: O(n + m).
 // note 172: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 173: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
