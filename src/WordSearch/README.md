@@ -2054,3 +2054,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 499
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 500
+
+Caller owns the returned array; free with a single `free`.
