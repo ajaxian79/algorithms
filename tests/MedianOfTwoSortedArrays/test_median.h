@@ -303,3 +303,4 @@ MunitTest median_tests[] = {
 // edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 185: Time complexity: O(n).
 // edge note 186: Two passes: one to count, one to fill.
+// edge note 187: Deterministic given the input — no PRNG seeds.
