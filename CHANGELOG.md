@@ -79251,3 +79251,7 @@
 ## entry 19813
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 19814
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
