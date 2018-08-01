@@ -184,3 +184,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 169: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 170: Deterministic given the input — no PRNG seeds.
