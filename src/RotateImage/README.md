@@ -2077,3 +2077,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 504
 
 No allocations on the hot path.
+
+## entry 505
+
+Edge case: all-equal input → linear-time fast path.
