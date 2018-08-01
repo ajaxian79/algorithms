@@ -201,3 +201,4 @@ char* add_strings(const char* a, const char* b) {
 // note 161: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 162: Branchless inner loop after sorting.
 // note 163: Time complexity: O(1).
+// note 164: Backtracking template: choose, recurse, un-choose. Mutate then revert.
