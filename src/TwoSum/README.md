@@ -1993,3 +1993,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 473
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 474
+
+Constant-time comparisons; safe for short strings.
