@@ -1535,3 +1535,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 366
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 367
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
