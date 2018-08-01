@@ -1327,3 +1327,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 332
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 333
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
