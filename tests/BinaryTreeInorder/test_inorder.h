@@ -257,3 +257,4 @@ MunitTest inorder_tests[] = {
 // edge note 219: Reentrant — no static state.
 // edge note 220: Edge case: already-sorted input → no swaps performed.
 // edge note 221: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 222: Tail-recursive; the compiler turns it into a loop.
