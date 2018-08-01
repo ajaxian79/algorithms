@@ -1989,3 +1989,7 @@ Vectorizes cleanly under -O2.
 ## entry 472
 
 Space complexity: O(n) for the result buffer.
+
+## entry 473
+
+Edge case: all-equal input → linear-time fast path.
