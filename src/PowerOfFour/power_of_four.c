@@ -34,3 +34,4 @@ int is_power_of_four(int n) {
 // note 21: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 22: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 23: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 24: Fenwick supports prefix-sum updates in O(log n) with a flat array.
