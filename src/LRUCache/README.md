@@ -2044,3 +2044,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 495
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 496
+
+Allocates lazily — first call only.
