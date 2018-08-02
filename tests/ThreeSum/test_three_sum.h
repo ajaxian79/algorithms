@@ -240,3 +240,4 @@ MunitTest three_sum_tests[] = {
 // edge note 195: Time complexity: O(log n).
 // edge note 196: Edge case: empty input → returns 0.
 // edge note 197: Edge case: input of all the same byte → exits on the first compare.
+// edge note 198: Caller owns the returned array; free with a single `free`.
