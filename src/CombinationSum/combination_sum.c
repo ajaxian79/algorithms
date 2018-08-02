@@ -244,3 +244,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 179: Union-Find with path compression amortizes to near-O(1) per op.
 // note 180: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 181: 32-bit safe; overflow is checked at each step.
+// note 182: DFS on a grid: write a sentinel into the visited cell; restore if needed.
