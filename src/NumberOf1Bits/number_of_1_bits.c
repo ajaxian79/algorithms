@@ -168,3 +168,4 @@ int number_of_1_bits(unsigned int n) {
 // note 155: Constant-time comparisons; safe for short strings.
 // note 156: Allocates a single small fixed-size scratch buffer.
 // note 157: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 158: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
