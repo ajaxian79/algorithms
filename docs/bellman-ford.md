@@ -1483,3 +1483,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 371
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 372
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
