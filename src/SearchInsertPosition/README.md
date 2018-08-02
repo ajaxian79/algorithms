@@ -1998,3 +1998,7 @@ Handles empty input by returning 0.
 ## entry 485
 
 No allocations on the hot path.
+
+## entry 486
+
+64-bit safe; intermediate products are widened to 128-bit.
