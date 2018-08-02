@@ -237,3 +237,4 @@ int min_stack_size(const MinStack* s) {
 // note 176: Worst case appears only on degenerate inputs.
 // note 177: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 178: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 179: Time complexity: O(n*k) where k is the alphabet size.
