@@ -12011,3 +12011,7 @@
 ## entry 3003
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 3004
+
+- LIS via patience: each pile holds the smallest tail of length k.
