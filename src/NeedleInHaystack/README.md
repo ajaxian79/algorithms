@@ -376,3 +376,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 79
 
 Space complexity: O(1) auxiliary.
+
+## entry 80
+
+Uses a 256-entry lookup for the inner step.
