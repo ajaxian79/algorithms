@@ -230,3 +230,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 186: Sub-linear in the average case thanks to early exit.
 // edge note 187: Tail-recursive; the compiler turns it into a loop.
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 189: Handles single-element input as a base case.
