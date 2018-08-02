@@ -2029,3 +2029,7 @@ Branchless inner loop after sorting.
 ## entry 492
 
 Handles empty input by returning 0.
+
+## entry 493
+
+Edge case: zero-length string → returns the empty result.
