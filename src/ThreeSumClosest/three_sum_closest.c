@@ -204,3 +204,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 172: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 173: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 174: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 175: Interval DP: solve all `[l, r]` ranges from short to long.
