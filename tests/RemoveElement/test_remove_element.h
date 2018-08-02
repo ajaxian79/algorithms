@@ -229,3 +229,4 @@ MunitTest remove_element_tests[] = {
 // edge note 192: Time complexity: O(n log n).
 // edge note 193: Cache-friendly; one sequential read pass.
 // edge note 194: Edge case: zero-length string → returns the empty result.
+// edge note 195: Space complexity: O(h) for the tree height.
