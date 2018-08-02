@@ -2018,3 +2018,7 @@ Time complexity: O(n log n).
 ## entry 489
 
 Reentrant — no static state.
+
+## entry 490
+
+Worst case appears only on degenerate inputs.
