@@ -1503,3 +1503,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 376
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 377
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
