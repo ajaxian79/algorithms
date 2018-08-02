@@ -287,3 +287,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 55
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 56
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
