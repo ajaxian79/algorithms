@@ -256,3 +256,4 @@ MunitTest inorder_tests[] = {
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 219: Reentrant — no static state.
 // edge note 220: Edge case: already-sorted input → no swaps performed.
+// edge note 221: Edge case: integer-max input → guarded by the explicit overflow check.
