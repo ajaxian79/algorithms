@@ -219,3 +219,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 176: Allocates lazily — first call only.
 // note 177: Euler tour flattens a tree into an array for range-query LCA.
 // note 178: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 179: Sub-linear in the average case thanks to early exit.
