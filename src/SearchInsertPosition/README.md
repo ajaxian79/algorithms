@@ -2002,3 +2002,7 @@ No allocations on the hot path.
 ## entry 486
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 487
+
+Allocates a single small fixed-size scratch buffer.
