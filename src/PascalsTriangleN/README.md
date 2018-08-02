@@ -1882,3 +1882,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 455
 
 Space complexity: O(1) auxiliary.
+
+## entry 456
+
+Stable across duplicates in the input.
