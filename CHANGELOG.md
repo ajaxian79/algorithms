@@ -79171,3 +79171,7 @@
 ## entry 19793
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 19794
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
