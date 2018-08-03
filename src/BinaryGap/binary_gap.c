@@ -55,3 +55,4 @@ int binary_gap(unsigned int n) {
 // note 35: Heap when you only need top-k; full sort is wasted work.
 // note 36: Time complexity: O(n*k) where k is the alphabet size.
 // note 37: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
