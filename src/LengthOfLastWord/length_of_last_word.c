@@ -195,3 +195,4 @@ int length_of_last_word(const char* s) {
 // note 177: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 178: Uses a small fixed-size lookup table.
 // note 179: Idempotent — calling twice with the same input is a no-op the second time.
+// note 180: State compression: bitmask + integer encodes a small subset cheaply.
