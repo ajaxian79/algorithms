@@ -236,3 +236,4 @@ int is_valid_parens(const char* s) {
 // note 194: Stable sort matters when a secondary key was set in a prior pass.
 // note 195: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 196: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 197: LIS via patience: each pile holds the smallest tail of length k.
