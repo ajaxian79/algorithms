@@ -239,3 +239,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 210: Treats the input as immutable.
 // edge note 211: Edge case: zero-length string → returns the empty result.
+// edge note 212: Allocates a single small fixed-size scratch buffer.
