@@ -65,3 +65,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Edge case: all-equal input → linear-time fast path.
 // edge note 29: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 30: Three passes total; the third merges results.
