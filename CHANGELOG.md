@@ -79199,3 +79199,7 @@
 ## entry 19800
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 19801
+
+- Stable sort matters when a secondary key was set in a prior pass.
