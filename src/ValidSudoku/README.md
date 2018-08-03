@@ -2075,3 +2075,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 503
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 504
+
+Edge case: reverse-sorted input → still O(n log n).
