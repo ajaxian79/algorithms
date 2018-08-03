@@ -1605,3 +1605,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 386
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 387
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
