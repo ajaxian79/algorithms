@@ -62,3 +62,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 33: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 34: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 35: Linear in n; the constant factor is small.
+// edge note 36: Space complexity: O(1) auxiliary.
