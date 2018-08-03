@@ -221,3 +221,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 177: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 178: Uses a small fixed-size lookup table.
 // edge note 179: Treats the input as immutable.
+// edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
