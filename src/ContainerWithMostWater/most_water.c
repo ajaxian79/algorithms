@@ -186,3 +186,4 @@ int max_area(const int* heights, int n) {
 // note 166: Three passes total; the third merges results.
 // note 167: Branchless inner loop after sorting.
 // note 168: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 169: Open addressing with linear probing wins until load factor exceeds 0.7.
