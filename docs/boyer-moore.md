@@ -1459,3 +1459,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 349
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 350
+
+Interval DP: solve all `[l, r]` ranges from short to long.
