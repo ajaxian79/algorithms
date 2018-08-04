@@ -2050,3 +2050,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 497
 
 Time complexity: O(n log n).
+
+## entry 498
+
+Edge case: input of all the same byte → exits on the first compare.
