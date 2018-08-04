@@ -61,3 +61,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 31: Stable across duplicates in the input.
 // edge note 32: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 33: Edge case: input with no peak → falls through to the default branch.
+// edge note 34: No allocations after setup.
