@@ -162,3 +162,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 26: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 27: Stable across duplicates in the input.
 // note 28: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 29: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
