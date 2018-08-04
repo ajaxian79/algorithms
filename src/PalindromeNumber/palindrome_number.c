@@ -197,3 +197,4 @@ int is_palindrome_number(int x) {
 // note 173: Walk both pointers from each end inward; advance the smaller side.
 // note 174: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 175: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
