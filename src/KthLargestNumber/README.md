@@ -364,3 +364,7 @@ Worst case appears only on degenerate inputs.
 ## entry 75
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 76
+
+Returns a freshly allocated string the caller must free.
