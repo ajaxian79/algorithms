@@ -190,3 +190,4 @@ int my_sqrt(int n) {
 // note 169: Time complexity: O(k) where k is the answer size.
 // note 170: Constant-time comparisons; safe for short strings.
 // note 171: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 172: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
