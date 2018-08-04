@@ -1411,3 +1411,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 353
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 354
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
