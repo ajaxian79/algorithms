@@ -2031,3 +2031,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 493
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 494
+
+Deterministic given the input — no PRNG seeds.
