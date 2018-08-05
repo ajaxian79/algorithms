@@ -1513,3 +1513,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 364
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 365
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
