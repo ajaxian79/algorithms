@@ -1837,3 +1837,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 444
 
 No allocations after setup.
+
+## entry 445
+
+Linear in n; the constant factor is small.
