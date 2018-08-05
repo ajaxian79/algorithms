@@ -192,3 +192,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 169: Linear in n; the constant factor is small.
 // note 170: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 171: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 172: Handles single-element input as a base case.
