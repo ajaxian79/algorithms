@@ -1475,3 +1475,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 353
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 354
+
+Walk both pointers from each end inward; advance the smaller side.
