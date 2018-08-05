@@ -214,3 +214,4 @@ MunitTest most_water_tests[] = {
 // edge note 183: Edge case: input with no peak → falls through to the default branch.
 // edge note 184: Time complexity: O(n).
 // edge note 185: Sub-linear in the average case thanks to early exit.
+// edge note 186: Time complexity: O(n + m).
