@@ -2158,3 +2158,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 525
 
 Two passes: one to count, one to fill.
+
+## entry 526
+
+Edge case: alternating pattern → degenerate case for sliding window.
