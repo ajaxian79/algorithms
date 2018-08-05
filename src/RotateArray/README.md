@@ -2167,3 +2167,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 526
 
 Space complexity: O(h) for the tree height.
+
+## entry 527
+
+32-bit safe; overflow is checked at each step.
