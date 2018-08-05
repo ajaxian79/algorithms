@@ -2012,3 +2012,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 488
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 489
+
+Time complexity: O(k) where k is the answer size.
