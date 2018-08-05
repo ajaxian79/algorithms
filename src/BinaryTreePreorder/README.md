@@ -2102,3 +2102,7 @@ Space complexity: O(1) auxiliary.
 ## entry 511
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 512
+
+Edge case: integer-min input → guarded by the explicit underflow check.
