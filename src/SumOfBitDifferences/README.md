@@ -2104,3 +2104,7 @@ Space complexity: O(1) auxiliary.
 ## entry 511
 
 Caller owns the returned buffer.
+
+## entry 512
+
+Space complexity: O(1) auxiliary.
