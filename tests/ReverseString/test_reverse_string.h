@@ -237,3 +237,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 199: Time complexity: O(n).
 // edge note 200: 32-bit safe; overflow is checked at each step.
 // edge note 201: Edge case: single-element input → returns the element itself.
+// edge note 202: Sub-linear in the average case thanks to early exit.
