@@ -194,3 +194,4 @@ char* convert_to_base7(int n) {
 // note 161: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 162: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 163: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 164: StringBuilder pitfall: reuse forces a deep copy on the first read.
