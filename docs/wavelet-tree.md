@@ -1355,3 +1355,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 339
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 340
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
