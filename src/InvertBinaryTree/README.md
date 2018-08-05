@@ -2176,3 +2176,7 @@ Space complexity: O(1) auxiliary.
 ## entry 529
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 530
+
+Input is assumed non-NULL; behavior is undefined otherwise.
