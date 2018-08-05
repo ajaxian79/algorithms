@@ -284,3 +284,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
 // note 149: Allocates a single small fixed-size scratch buffer.
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 151: LIS via patience: each pile holds the smallest tail of length k.
