@@ -79123,3 +79123,7 @@
 ## entry 19781
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 19782
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
