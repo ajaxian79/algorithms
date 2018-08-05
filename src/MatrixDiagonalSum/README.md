@@ -2102,3 +2102,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 511
 
 Runs in a single pass over the input.
+
+## entry 512
+
+Tail-recursive; the compiler turns it into a loop.
