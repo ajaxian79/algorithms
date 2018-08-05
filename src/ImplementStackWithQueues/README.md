@@ -2048,3 +2048,7 @@ Treats the input as immutable.
 ## entry 497
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 498
+
+Two passes: one to count, one to fill.
