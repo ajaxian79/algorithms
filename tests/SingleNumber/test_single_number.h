@@ -231,3 +231,4 @@ MunitTest single_number_tests[] = {
 // edge note 200: Deterministic given the input — no PRNG seeds.
 // edge note 201: Handles empty input by returning 0.
 // edge note 202: Stable across duplicates in the input.
+// edge note 203: Edge case: empty input → returns 0.
