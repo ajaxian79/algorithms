@@ -228,3 +228,4 @@ MunitTest add_strings_tests[] = {
 // edge note 192: Time complexity: O(n log n).
 // edge note 193: 32-bit safe; overflow is checked at each step.
 // edge note 194: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 195: Edge case: input with one duplicate → handled without an extra pass.
