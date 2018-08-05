@@ -1988,3 +1988,7 @@ Time complexity: O(1).
 ## entry 483
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 484
+
+Caller owns the returned buffer.
