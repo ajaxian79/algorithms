@@ -211,3 +211,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 53
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 54
+
+Euler tour flattens a tree into an array for range-query LCA.
