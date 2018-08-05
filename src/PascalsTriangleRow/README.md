@@ -2222,3 +2222,7 @@ Time complexity: O(n).
 ## entry 541
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 542
+
+Time complexity: O(n^2) worst case, O(n) amortized.
