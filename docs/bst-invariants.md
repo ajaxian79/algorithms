@@ -1525,3 +1525,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 365
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 366
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
