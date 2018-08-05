@@ -1423,3 +1423,7 @@
 ## entry 339
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 340
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
