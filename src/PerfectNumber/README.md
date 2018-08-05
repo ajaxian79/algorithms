@@ -1841,3 +1841,7 @@ No allocations after setup.
 ## entry 445
 
 Linear in n; the constant factor is small.
+
+## entry 446
+
+Edge case: power-of-two-length input → no padding required.
