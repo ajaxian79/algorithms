@@ -1395,3 +1395,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 349
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 350
+
+Union-Find with path compression amortizes to near-O(1) per op.
