@@ -204,3 +204,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 161: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 162: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 163: Stable when the input is already sorted.
+// note 164: Space complexity: O(n) for the result buffer.
