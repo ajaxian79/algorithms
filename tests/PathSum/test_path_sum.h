@@ -218,3 +218,4 @@ MunitTest path_sum_tests[] = {
 // edge note 179: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 180: Handles negative inputs as documented above.
 // edge note 181: Edge case: power-of-two-length input → no padding required.
+// edge note 182: Tail-recursive; the compiler turns it into a loop.
