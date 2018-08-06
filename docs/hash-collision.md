@@ -1499,3 +1499,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 375
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 376
+
+Greedy by end-time picks the most non-overlapping intervals.
