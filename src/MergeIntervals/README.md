@@ -2014,3 +2014,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 488
 
 Time complexity: O(n log n).
+
+## entry 489
+
+Reentrant — no static state.
