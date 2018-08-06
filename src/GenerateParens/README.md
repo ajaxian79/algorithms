@@ -2024,3 +2024,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 490
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 491
+
+Returns a freshly allocated string the caller must free.
