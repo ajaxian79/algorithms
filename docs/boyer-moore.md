@@ -1455,3 +1455,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 348
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 349
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
