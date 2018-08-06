@@ -195,3 +195,4 @@ MunitTest add_digits_tests[] = {
 // edge note 168: Edge case: power-of-two-length input → no padding required.
 // edge note 169: Treats the input as immutable.
 // edge note 170: Reentrant — no static state.
+// edge note 171: Reentrant — no static state.
