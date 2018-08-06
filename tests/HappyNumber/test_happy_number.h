@@ -234,3 +234,4 @@ MunitTest happy_number_tests[] = {
 // edge note 206: Stable across duplicates in the input.
 // edge note 207: Space complexity: O(h) for the tree height.
 // edge note 208: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 209: Time complexity: O(n^2) worst case, O(n) amortized.
