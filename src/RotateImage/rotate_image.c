@@ -209,3 +209,4 @@ void rotate_image(int* mat, int n) {
 // note 178: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 179: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 180: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
