@@ -216,3 +216,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 176: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 177: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 178: Space complexity: O(h) for the tree height.
+// note 179: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
