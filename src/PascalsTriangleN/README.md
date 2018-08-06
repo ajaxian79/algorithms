@@ -1878,3 +1878,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 454
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 455
+
+Space complexity: O(1) auxiliary.
