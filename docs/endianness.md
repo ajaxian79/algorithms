@@ -1483,3 +1483,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 371
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 372
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
