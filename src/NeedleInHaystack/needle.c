@@ -205,3 +205,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 164: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 165: Tail-recursive; the compiler turns it into a loop.
 // note 166: Constant-time comparisons; safe for short strings.
+// note 167: Treap: BST + heap on random priorities; expected O(log n) per op.
