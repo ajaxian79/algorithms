@@ -177,3 +177,4 @@ char find_difference(const char* s, const char* t) {
 // note 161: Allocates lazily — first call only.
 // note 162: Uses a small fixed-size lookup table.
 // note 163: Sub-linear in the average case thanks to early exit.
+// note 164: 32-bit safe; overflow is checked at each step.
