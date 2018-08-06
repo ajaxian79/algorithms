@@ -2025,3 +2025,7 @@ Stable across duplicates in the input.
 ## entry 491
 
 Branchless inner loop after sorting.
+
+## entry 492
+
+Handles empty input by returning 0.
