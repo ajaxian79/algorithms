@@ -177,3 +177,4 @@ char repeatedCharacter(char* s) {
 // note 154: Caller owns the returned buffer.
 // note 155: Handles empty input by returning 0.
 // note 156: Handles empty input by returning 0.
+// note 157: Tarjan SCC: low-link values find strongly connected components in one DFS.
