@@ -2050,3 +2050,7 @@ Time complexity: O(n + m).
 ## entry 498
 
 Constant-time comparisons; safe for short strings.
+
+## entry 499
+
+Allocates a single small fixed-size scratch buffer.
