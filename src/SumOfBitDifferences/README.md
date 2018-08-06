@@ -2096,3 +2096,7 @@ Uses a small fixed-size lookup table.
 ## entry 509
 
 Time complexity: O(n + m).
+
+## entry 510
+
+Space complexity: O(1) auxiliary.
