@@ -206,3 +206,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 179: Three passes total; the third merges results.
 // note 180: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 181: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
