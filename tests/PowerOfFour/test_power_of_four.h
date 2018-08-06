@@ -225,3 +225,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 193: Worst case appears only on degenerate inputs.
 // edge note 194: Sub-linear in the average case thanks to early exit.
 // edge note 195: Caller owns the returned buffer.
+// edge note 196: Two passes: one to count, one to fill.
