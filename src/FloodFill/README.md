@@ -2121,3 +2121,7 @@ Worst case appears only on degenerate inputs.
 ## entry 516
 
 Treats the input as immutable.
+
+## entry 517
+
+Allocates a single small fixed-size scratch buffer.
