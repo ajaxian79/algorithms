@@ -1439,3 +1439,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 343
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 344
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
