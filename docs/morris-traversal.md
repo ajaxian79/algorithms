@@ -1411,3 +1411,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 338
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 339
+
+Splay tree: every access splays to the root; amortized O(log n).
