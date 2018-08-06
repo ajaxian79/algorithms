@@ -208,3 +208,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 178: Time complexity: O(k) where k is the answer size.
 // note 179: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 180: Greedy by end-time picks the most non-overlapping intervals.
+// note 181: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
