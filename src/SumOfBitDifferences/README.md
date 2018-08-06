@@ -2100,3 +2100,7 @@ Time complexity: O(n + m).
 ## entry 510
 
 Space complexity: O(1) auxiliary.
+
+## entry 511
+
+Caller owns the returned buffer.
