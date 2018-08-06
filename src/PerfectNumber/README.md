@@ -1833,3 +1833,7 @@ Treats the input as immutable.
 ## entry 443
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 444
+
+No allocations after setup.
