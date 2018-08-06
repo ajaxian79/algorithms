@@ -2081,3 +2081,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 506
 
 Time complexity: O(1).
+
+## entry 507
+
+Thread-safe so long as the input is not mutated concurrently.
