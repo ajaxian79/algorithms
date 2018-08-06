@@ -1291,3 +1291,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 323
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 324
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
