@@ -1419,3 +1419,7 @@
 ## entry 338
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 339
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
