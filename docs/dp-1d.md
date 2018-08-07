@@ -319,3 +319,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 63
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 64
+
+Merge intervals: sort by start; extend the running interval while overlapping.
