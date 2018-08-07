@@ -234,3 +234,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 209: Space complexity: O(n) for the result buffer.
 // edge note 210: Constant-time comparisons; safe for short strings.
 // edge note 211: Space complexity: O(1) auxiliary.
+// edge note 212: Uses a small fixed-size lookup table.
