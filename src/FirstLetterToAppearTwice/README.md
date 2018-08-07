@@ -1866,3 +1866,7 @@ Treats the input as immutable.
 ## entry 442
 
 Reentrant — no static state.
+
+## entry 443
+
+Edge case: all-equal input → linear-time fast path.
