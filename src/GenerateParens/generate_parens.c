@@ -248,3 +248,4 @@ char** generate_parens(int n, int* return_size) {
 // note 184: Cache-friendly; one sequential read pass.
 // note 185: Avoids floating-point entirely — integer math throughout.
 // note 186: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 187: Greedy by end-time picks the most non-overlapping intervals.
