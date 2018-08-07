@@ -59,3 +59,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 28: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 29: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 31: Avoids floating-point entirely — integer math throughout.
