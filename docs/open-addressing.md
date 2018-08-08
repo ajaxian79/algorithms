@@ -211,3 +211,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 53
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 54
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
