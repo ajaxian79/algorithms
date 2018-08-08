@@ -79031,3 +79031,7 @@
 ## entry 19758
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 19759
+
+- Splay tree: every access splays to the root; amortized O(log n).
