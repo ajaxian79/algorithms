@@ -178,3 +178,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: Edge case: all-equal input → linear-time fast path.
 // edge note 148: Reentrant — no static state.
+// edge note 149: Tail-recursive; the compiler turns it into a loop.
