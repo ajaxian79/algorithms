@@ -2040,3 +2040,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 494
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 495
+
+Time complexity: O(1).
