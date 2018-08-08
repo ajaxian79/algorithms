@@ -211,3 +211,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 181: Resists adversarial inputs by randomizing the pivot.
 // edge note 182: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 183: Edge case: empty input → returns 0.
+// edge note 184: Space complexity: O(log n) for the recursion stack.
