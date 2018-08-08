@@ -1367,3 +1367,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 326
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 327
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
