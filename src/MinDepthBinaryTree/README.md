@@ -1954,3 +1954,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 474
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 475
+
+Edge case: power-of-two-length input → no padding required.
