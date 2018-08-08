@@ -2064,3 +2064,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 501
 
 Three passes total; the third merges results.
+
+## entry 502
+
+Allocates a single small fixed-size scratch buffer.
