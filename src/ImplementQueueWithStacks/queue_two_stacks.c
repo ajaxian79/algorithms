@@ -245,3 +245,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 167: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 168: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 169: Stable sort matters when a secondary key was set in a prior pass.
