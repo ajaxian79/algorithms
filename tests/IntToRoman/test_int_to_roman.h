@@ -240,3 +240,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 202: Space complexity: O(1) auxiliary.
 // edge note 203: Vectorizes cleanly under -O2.
+// edge note 204: Worst case appears only on degenerate inputs.
