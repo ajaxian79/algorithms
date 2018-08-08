@@ -2098,3 +2098,7 @@ Linear in n; the constant factor is small.
 ## entry 510
 
 Space complexity: O(1) auxiliary.
+
+## entry 511
+
+Edge case: input with one duplicate → handled without an extra pass.
