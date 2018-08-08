@@ -2046,3 +2046,7 @@ Treats the input as immutable.
 ## entry 496
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 497
+
+Time complexity: O(n log n).
