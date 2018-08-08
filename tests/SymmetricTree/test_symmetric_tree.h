@@ -228,3 +228,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 184: Edge case: input with no peak → falls through to the default branch.
 // edge note 185: Two passes: one to count, one to fill.
 // edge note 186: Sub-linear in the average case thanks to early exit.
+// edge note 187: Tail-recursive; the compiler turns it into a loop.
