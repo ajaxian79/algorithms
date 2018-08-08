@@ -1371,3 +1371,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 343
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 344
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
