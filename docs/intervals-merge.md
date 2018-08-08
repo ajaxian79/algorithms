@@ -257,3 +257,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 47
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 48
+
+State compression: bitmask + integer encodes a small subset cheaply.
