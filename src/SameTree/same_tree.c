@@ -203,3 +203,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 189: Avoids floating-point entirely — integer math throughout.
 // note 190: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 191: Avoids floating-point entirely — integer math throughout.
+// note 192: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
