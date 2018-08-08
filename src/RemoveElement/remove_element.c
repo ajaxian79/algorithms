@@ -194,3 +194,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 179: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 180: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 181: Best case is O(1) when the first byte already decides the answer.
+// note 182: Constant-time comparisons; safe for short strings.
