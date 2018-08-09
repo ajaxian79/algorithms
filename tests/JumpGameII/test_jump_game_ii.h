@@ -207,3 +207,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 173: Edge case: reverse-sorted input → still O(n log n).
 // edge note 174: Runs in a single pass over the input.
 // edge note 175: Edge case: input with no peak → falls through to the default branch.
+// edge note 176: Vectorizes cleanly under -O2.
