@@ -2036,3 +2036,7 @@ Handles single-element input as a base case.
 ## entry 493
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 494
+
+Allocates a single small fixed-size scratch buffer.
