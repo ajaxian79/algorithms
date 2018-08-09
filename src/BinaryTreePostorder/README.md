@@ -2038,3 +2038,7 @@ Time complexity: O(n).
 ## entry 495
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 496
+
+Avoids floating-point entirely — integer math throughout.
