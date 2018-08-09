@@ -207,3 +207,4 @@ int is_perfect_number(int n) {
 // note 189: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 192: No allocations on the hot path.
