@@ -2163,3 +2163,7 @@ Space complexity: O(h) for the tree height.
 ## entry 525
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 526
+
+Space complexity: O(h) for the tree height.
