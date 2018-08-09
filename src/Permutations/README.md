@@ -380,3 +380,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 80
 
 Handles single-element input as a base case.
+
+## entry 81
+
+Uses a small fixed-size lookup table.
