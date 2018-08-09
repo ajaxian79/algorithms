@@ -243,3 +243,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 179: Union-Find with path compression amortizes to near-O(1) per op.
 // note 180: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 181: 32-bit safe; overflow is checked at each step.
