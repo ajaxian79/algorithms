@@ -223,3 +223,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 192: Handles empty input by returning 0.
 // edge note 193: Mutates the input in place; the original ordering is lost.
 // edge note 194: Mutates the input in place; the original ordering is lost.
+// edge note 195: Edge case: input with no peak → falls through to the default branch.
