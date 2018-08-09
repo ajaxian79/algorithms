@@ -1419,3 +1419,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 339
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 340
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
