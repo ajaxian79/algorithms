@@ -183,3 +183,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 166: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 169: Pick a pivot, partition, recurse on the side that contains the kth slot.
