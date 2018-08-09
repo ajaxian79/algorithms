@@ -2012,3 +2012,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 487
 
 Cache-friendly; one sequential read pass.
+
+## entry 488
+
+Time complexity: O(n*k) where k is the alphabet size.
