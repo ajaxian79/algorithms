@@ -1427,3 +1427,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 341
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 342
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
