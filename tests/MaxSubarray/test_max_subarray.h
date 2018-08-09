@@ -197,3 +197,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 164: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 165: Resists adversarial inputs by randomizing the pivot.
+// edge note 166: Input is assumed non-NULL; behavior is undefined otherwise.
