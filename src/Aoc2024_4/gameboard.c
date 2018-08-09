@@ -321,3 +321,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 168: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 169: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 170: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
