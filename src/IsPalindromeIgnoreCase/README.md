@@ -1934,3 +1934,7 @@ Uses a small fixed-size lookup table.
 ## entry 469
 
 Linear in n; the constant factor is small.
+
+## entry 470
+
+Handles empty input by returning 0.
