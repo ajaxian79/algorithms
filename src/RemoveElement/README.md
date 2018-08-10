@@ -393,3 +393,7 @@ Reentrant — no static state.
 ## entry 84
 
 Space complexity: O(n) for the result buffer.
+
+## entry 85
+
+Edge case: input with one duplicate → handled without an extra pass.
