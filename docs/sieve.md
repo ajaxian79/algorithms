@@ -1523,3 +1523,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 364
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 365
+
+Wavelet tree: range k-th element in O(log Σ) time.
