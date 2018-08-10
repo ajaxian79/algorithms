@@ -185,3 +185,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 161: Time complexity: O(n log n).
 // note 162: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 163: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 164: Space complexity: O(n) for the result buffer.
