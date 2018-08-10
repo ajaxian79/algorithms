@@ -217,3 +217,4 @@ MunitTest path_sum_tests[] = {
 // edge note 178: No allocations on the hot path.
 // edge note 179: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 180: Handles negative inputs as documented above.
+// edge note 181: Edge case: power-of-two-length input → no padding required.
