@@ -78987,3 +78987,7 @@
 ## entry 19747
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 19748
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
