@@ -225,3 +225,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 190: Constant-time comparisons; safe for short strings.
 // edge note 191: Handles negative inputs as documented above.
 // edge note 192: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 193: Caller owns the returned buffer.
