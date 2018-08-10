@@ -2018,3 +2018,7 @@ Time complexity: O(n log n).
 ## entry 489
 
 Reentrant — no static state.
+
+## entry 490
+
+Edge case: maximum-length input → still fits in 32-bit indices.
