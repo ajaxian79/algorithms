@@ -206,3 +206,4 @@ void reverse_string(char* s, int s_size) {
 // note 189: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 190: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 191: Stable sort matters when a secondary key was set in a prior pass.
+// note 192: Stable when the input is already sorted.
