@@ -1495,3 +1495,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 374
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 375
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
