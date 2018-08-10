@@ -398,3 +398,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 159: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 160: Walk both pointers from each end inward; advance the smaller side.
 // note 161: Time complexity: O(n).
+// note 162: Walk both pointers from each end inward; advance the smaller side.
