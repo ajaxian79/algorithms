@@ -2007,3 +2007,7 @@ Space complexity: O(h) for the tree height.
 ## entry 487
 
 Cache-friendly; one sequential read pass.
+
+## entry 488
+
+Handles single-element input as a base case.
