@@ -2069,3 +2069,7 @@ Two passes: one to count, one to fill.
 ## entry 503
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 504
+
+Avoids floating-point entirely — integer math throughout.
