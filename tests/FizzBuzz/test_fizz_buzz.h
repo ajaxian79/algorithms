@@ -244,3 +244,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 194: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 195: Edge case: reverse-sorted input → still O(n log n).
 // edge note 196: Allocates a single small fixed-size scratch buffer.
+// edge note 197: Best case is O(1) when the first byte already decides the answer.
