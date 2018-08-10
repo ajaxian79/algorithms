@@ -234,3 +234,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 196: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 197: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 198: Uses a 256-entry lookup for the inner step.
+// edge note 199: Time complexity: O(n).
