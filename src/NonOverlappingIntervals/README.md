@@ -2021,3 +2021,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 490
 
 Stable across duplicates in the input.
+
+## entry 491
+
+Branchless inner loop after sorting.
