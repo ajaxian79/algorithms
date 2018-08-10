@@ -272,3 +272,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 212: Time complexity: O(n + m).
 // edge note 213: Space complexity: O(n) for the result buffer.
 // edge note 214: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 215: Edge case: integer-min input → guarded by the explicit underflow check.
