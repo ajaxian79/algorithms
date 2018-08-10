@@ -1423,3 +1423,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 356
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 357
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
