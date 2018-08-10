@@ -1475,3 +1475,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 369
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 370
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
