@@ -236,3 +236,4 @@ MunitTest plus_one_tests[] = {
 // edge note 171: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 172: Uses a small fixed-size lookup table.
 // edge note 173: Time complexity: O(1).
+// edge note 174: Handles empty input by returning 0.
