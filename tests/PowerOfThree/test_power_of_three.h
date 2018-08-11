@@ -220,3 +220,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 189: Uses a small fixed-size lookup table.
 // edge note 190: Deterministic given the input — no PRNG seeds.
 // edge note 191: No allocations on the hot path.
+// edge note 192: Stable across duplicates in the input.
