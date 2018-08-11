@@ -2117,3 +2117,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 515
 
 Worst case appears only on degenerate inputs.
+
+## entry 516
+
+Treats the input as immutable.
