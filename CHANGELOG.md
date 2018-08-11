@@ -78919,3 +78919,7 @@
 ## entry 19730
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 19731
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
