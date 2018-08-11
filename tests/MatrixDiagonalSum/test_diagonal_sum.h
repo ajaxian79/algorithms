@@ -213,3 +213,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 186: Edge case: empty input → returns 0.
 // edge note 187: Edge case: power-of-two-length input → no padding required.
+// edge note 188: Reentrant — no static state.
