@@ -58,3 +58,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 24: Deterministic given the input — no PRNG seeds.
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: No allocations after setup.
+// edge note 27: Returns a freshly allocated string the caller must free.
