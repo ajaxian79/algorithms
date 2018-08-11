@@ -220,3 +220,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 189: Best case is O(1) when the first byte already decides the answer.
 // edge note 190: Vectorizes cleanly under -O2.
 // edge note 191: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 192: Cache-friendly; one sequential read pass.
