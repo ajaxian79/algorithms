@@ -201,3 +201,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 163: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 164: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 165: Time complexity: O(k) where k is the answer size.
+// note 166: Union-Find with path compression amortizes to near-O(1) per op.
