@@ -2022,3 +2022,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 491
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 492
+
+Branchless inner loop after sorting.
