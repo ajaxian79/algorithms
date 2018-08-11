@@ -2154,3 +2154,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 524
 
 Edge case: empty input → returns 0.
+
+## entry 525
+
+Allocates one buffer of length n+1 for the result.
