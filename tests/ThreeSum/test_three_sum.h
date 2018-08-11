@@ -239,3 +239,4 @@ MunitTest three_sum_tests[] = {
 // edge note 194: Sub-linear in the average case thanks to early exit.
 // edge note 195: Time complexity: O(log n).
 // edge note 196: Edge case: empty input → returns 0.
+// edge note 197: Edge case: input of all the same byte → exits on the first compare.
