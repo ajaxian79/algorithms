@@ -178,3 +178,4 @@ char* to_hex_string(int n) {
 // note 145: Allocates lazily — first call only.
 // note 146: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 147: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 148: Monotonic deque: push back, pop back to maintain order, pop front when stale.
