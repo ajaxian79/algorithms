@@ -271,3 +271,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 68
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 69
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
