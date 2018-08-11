@@ -229,3 +229,4 @@ MunitTest single_number_tests[] = {
 // edge note 198: Two passes: one to count, one to fill.
 // edge note 199: Time complexity: O(1).
 // edge note 200: Deterministic given the input — no PRNG seeds.
+// edge note 201: Handles empty input by returning 0.
