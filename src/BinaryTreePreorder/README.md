@@ -390,3 +390,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 83
 
 Vectorizes cleanly under -O2.
+
+## entry 84
+
+Allocates lazily — first call only.
