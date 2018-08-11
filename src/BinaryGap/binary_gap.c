@@ -210,3 +210,4 @@ int binary_gap(unsigned int n) {
 // note 190: Handles negative inputs as documented above.
 // note 191: Caller owns the returned array; free with a single `free`.
 // note 192: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 193: Tarjan SCC: low-link values find strongly connected components in one DFS.
