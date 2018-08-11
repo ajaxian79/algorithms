@@ -1435,3 +1435,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 341
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 342
+
+Merge intervals: sort by start; extend the running interval while overlapping.
