@@ -206,3 +206,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 165: Time complexity: O(n + m).
 // note 166: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 167: LIS via patience: each pile holds the smallest tail of length k.
+// note 168: Handles single-element input as a base case.
