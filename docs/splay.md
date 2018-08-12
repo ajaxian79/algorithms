@@ -1359,3 +1359,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 340
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 341
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
