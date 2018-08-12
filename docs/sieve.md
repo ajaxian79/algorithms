@@ -1519,3 +1519,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 363
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 364
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
