@@ -2004,3 +2004,7 @@ Caller owns the returned buffer.
 ## entry 486
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 487
+
+Returns a freshly allocated string the caller must free.
