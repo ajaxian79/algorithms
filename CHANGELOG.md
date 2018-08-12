@@ -78931,3 +78931,7 @@
 ## entry 19733
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 19734
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
