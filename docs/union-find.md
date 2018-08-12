@@ -1403,3 +1403,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 334
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 335
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
