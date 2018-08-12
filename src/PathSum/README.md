@@ -2088,3 +2088,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 507
 
 Space complexity: O(1) auxiliary.
+
+## entry 508
+
+Thread-safe so long as the input is not mutated concurrently.
