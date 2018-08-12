@@ -1457,3 +1457,7 @@
 ## entry 349
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 350
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
