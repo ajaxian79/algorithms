@@ -2038,3 +2038,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 494
 
 Three passes total; the third merges results.
+
+## entry 495
+
+Treats the input as immutable.
