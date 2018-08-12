@@ -243,3 +243,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 164: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 167: k-d tree: median-split each axis; nearest-neighbor average O(log n).
