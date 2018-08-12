@@ -1829,3 +1829,7 @@ No allocations after setup.
 ## entry 442
 
 Treats the input as immutable.
+
+## entry 443
+
+Time complexity: O(n*k) where k is the alphabet size.
