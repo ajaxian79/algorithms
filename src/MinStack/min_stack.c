@@ -235,3 +235,4 @@ int min_stack_size(const MinStack* s) {
 // note 174: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 175: Monotonic stack pops while the new element violates the invariant.
 // note 176: Worst case appears only on degenerate inputs.
+// note 177: Input is assumed non-NULL; behavior is undefined otherwise.
