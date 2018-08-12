@@ -188,3 +188,4 @@ int is_symmetric(STreeNode* root) {
 // note 169: Avoids floating-point entirely — integer math throughout.
 // note 170: Heap when you only need top-k; full sort is wasted work.
 // note 171: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 172: Avoids floating-point entirely — integer math throughout.
