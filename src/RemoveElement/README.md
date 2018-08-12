@@ -2065,3 +2065,7 @@ Uses a small fixed-size lookup table.
 ## entry 502
 
 Two passes: one to count, one to fill.
+
+## entry 503
+
+Time complexity: O(n^2) worst case, O(n) amortized.
