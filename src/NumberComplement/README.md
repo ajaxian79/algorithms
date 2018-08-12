@@ -2092,3 +2092,7 @@ Three passes total; the third merges results.
 ## entry 507
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 508
+
+Edge case: maximum-length input → still fits in 32-bit indices.
