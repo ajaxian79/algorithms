@@ -1985,3 +1985,7 @@ Vectorizes cleanly under -O2.
 ## entry 471
 
 Vectorizes cleanly under -O2.
+
+## entry 472
+
+Space complexity: O(n) for the result buffer.
