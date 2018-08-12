@@ -1541,3 +1541,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 368
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 369
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
