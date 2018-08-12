@@ -1985,3 +1985,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 481
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 482
+
+Edge case: power-of-two-length input → no padding required.
