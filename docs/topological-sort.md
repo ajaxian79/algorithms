@@ -1497,3 +1497,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 356
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 357
+
+Articulation points: same DFS as bridges, with a slightly different test.
