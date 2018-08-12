@@ -212,3 +212,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 184: Constant-time comparisons; safe for short strings.
 // edge note 185: Space complexity: O(1) auxiliary.
 // edge note 186: Caller owns the returned buffer.
+// edge note 187: Avoids floating-point entirely — integer math throughout.
