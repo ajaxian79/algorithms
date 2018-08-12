@@ -1415,3 +1415,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 338
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 339
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
