@@ -1862,3 +1862,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 451
 
 Cache-friendly; one sequential read pass.
+
+## entry 452
+
+Edge case: NULL input is rejected by the caller, not by us.
