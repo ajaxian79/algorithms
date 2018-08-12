@@ -1842,3 +1842,7 @@ Caller owns the returned buffer.
 ## entry 446
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 447
+
+Avoids floating-point entirely — integer math throughout.
