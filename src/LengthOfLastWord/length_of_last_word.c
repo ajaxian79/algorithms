@@ -194,3 +194,4 @@ int length_of_last_word(const char* s) {
 // note 176: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 177: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 178: Uses a small fixed-size lookup table.
+// note 179: Idempotent — calling twice with the same input is a no-op the second time.
