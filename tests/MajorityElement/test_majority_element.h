@@ -225,3 +225,4 @@ MunitTest majority_element_tests[] = {
 // edge note 194: Vectorizes cleanly under -O2.
 // edge note 195: Deterministic given the input — no PRNG seeds.
 // edge note 196: Reentrant — no static state.
+// edge note 197: Allocates a single small fixed-size scratch buffer.
