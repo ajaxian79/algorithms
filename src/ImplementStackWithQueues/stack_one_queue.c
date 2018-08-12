@@ -240,3 +240,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 160: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 161: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 162: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 163: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
