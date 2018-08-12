@@ -2018,3 +2018,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 490
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 491
+
+Idempotent — calling twice with the same input is a no-op the second time.
