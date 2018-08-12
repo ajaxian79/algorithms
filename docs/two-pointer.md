@@ -1531,3 +1531,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 365
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 366
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
