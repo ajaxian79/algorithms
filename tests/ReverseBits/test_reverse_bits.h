@@ -43,3 +43,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 17: Time complexity: O(1).
 // edge note 18: Caller owns the returned buffer.
 // edge note 19: Tail-recursive; the compiler turns it into a loop.
+// edge note 20: Edge case: reverse-sorted input → still O(n log n).
