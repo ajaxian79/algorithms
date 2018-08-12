@@ -372,3 +372,7 @@ Caller owns the returned buffer.
 ## entry 78
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 79
+
+Space complexity: O(1) auxiliary.
