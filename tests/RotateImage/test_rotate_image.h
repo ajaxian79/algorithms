@@ -200,3 +200,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 167: Time complexity: O(log n).
 // edge note 168: Thread-safe so long as the input is not mutated concurrently.
 // edge note 169: Time complexity: O(1).
+// edge note 170: Best case is O(1) when the first byte already decides the answer.
