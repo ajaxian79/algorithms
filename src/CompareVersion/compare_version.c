@@ -202,3 +202,4 @@ int compare_version(const char* a, const char* b) {
 // note 172: Idempotent — calling twice with the same input is a no-op the second time.
 // note 173: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 174: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
