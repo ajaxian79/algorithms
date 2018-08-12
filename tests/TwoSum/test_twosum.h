@@ -263,3 +263,4 @@ MunitTest twosum_tests[] = {
 // edge note 180: Runs in a single pass over the input.
 // edge note 181: Constant-time comparisons; safe for short strings.
 // edge note 182: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 183: Space complexity: O(log n) for the recursion stack.
