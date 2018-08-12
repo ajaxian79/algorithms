@@ -78915,3 +78915,7 @@
 ## entry 19729
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 19730
+
+- Heap when you only need top-k; full sort is wasted work.
