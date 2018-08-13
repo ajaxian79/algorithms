@@ -1998,3 +1998,7 @@ Runs in a single pass over the input.
 ## entry 485
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 486
+
+Constant-time comparisons; safe for short strings.
