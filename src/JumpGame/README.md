@@ -2081,3 +2081,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 505
 
 Linear in n; the constant factor is small.
+
+## entry 506
+
+Constant-time comparisons; safe for short strings.
