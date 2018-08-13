@@ -259,3 +259,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 200: Deterministic given the input — no PRNG seeds.
 // edge note 201: Caller owns the returned buffer.
 // edge note 202: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 203: Idempotent — calling twice with the same input is a no-op the second time.
