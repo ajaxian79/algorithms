@@ -237,3 +237,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 210: Deterministic given the input — no PRNG seeds.
 // edge note 211: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 212: Two passes: one to count, one to fill.
+// edge note 213: Idempotent — calling twice with the same input is a no-op the second time.
