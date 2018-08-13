@@ -2042,3 +2042,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 496
 
 Uses a small fixed-size lookup table.
+
+## entry 497
+
+Time complexity: O(n + m).
