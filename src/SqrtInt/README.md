@@ -2119,3 +2119,7 @@ Stable when the input is already sorted.
 ## entry 515
 
 Reentrant — no static state.
+
+## entry 516
+
+Edge case: single-element input → returns the element itself.
