@@ -177,3 +177,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 145: Allocates one buffer of length n+1 for the result.
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: Edge case: all-equal input → linear-time fast path.
+// edge note 148: Reentrant — no static state.
