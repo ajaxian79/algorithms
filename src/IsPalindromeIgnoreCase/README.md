@@ -1930,3 +1930,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 468
 
 Uses a small fixed-size lookup table.
+
+## entry 469
+
+Linear in n; the constant factor is small.
