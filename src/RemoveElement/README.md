@@ -2053,3 +2053,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 499
 
 Returns a freshly allocated string the caller must free.
+
+## entry 500
+
+Uses a small fixed-size lookup table.
