@@ -1926,3 +1926,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 467
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 468
+
+Uses a small fixed-size lookup table.
