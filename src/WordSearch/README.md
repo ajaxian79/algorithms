@@ -2038,3 +2038,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 495
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 496
+
+Uses a small fixed-size lookup table.
