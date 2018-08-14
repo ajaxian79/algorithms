@@ -215,3 +215,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 189: Time complexity: O(n log n).
 // edge note 190: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 191: Edge case: single-element input → returns the element itself.
+// edge note 192: Edge case: power-of-two-length input → no padding required.
