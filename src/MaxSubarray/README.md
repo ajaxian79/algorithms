@@ -2154,3 +2154,7 @@ Space complexity: O(h) for the tree height.
 ## entry 524
 
 Returns a freshly allocated string the caller must free.
+
+## entry 525
+
+Two passes: one to count, one to fill.
