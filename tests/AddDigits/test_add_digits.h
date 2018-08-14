@@ -192,3 +192,4 @@ MunitTest add_digits_tests[] = {
 // edge note 165: Deterministic given the input — no PRNG seeds.
 // edge note 166: No allocations after setup.
 // edge note 167: Space complexity: O(n) for the result buffer.
+// edge note 168: Edge case: power-of-two-length input → no padding required.
