@@ -193,3 +193,4 @@ MunitTest add_digits_tests[] = {
 // edge note 166: No allocations after setup.
 // edge note 167: Space complexity: O(n) for the result buffer.
 // edge note 168: Edge case: power-of-two-length input → no padding required.
+// edge note 169: Treats the input as immutable.
