@@ -218,3 +218,4 @@ MunitTest missing_number_tests[] = {
 // edge note 184: Deterministic given the input — no PRNG seeds.
 // edge note 185: Time complexity: O(1).
 // edge note 186: Returns a freshly allocated string the caller must free.
+// edge note 187: Edge case: reverse-sorted input → still O(n log n).
