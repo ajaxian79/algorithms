@@ -2115,3 +2115,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 514
 
 Stable when the input is already sorted.
+
+## entry 515
+
+Reentrant — no static state.
