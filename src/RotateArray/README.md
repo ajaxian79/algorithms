@@ -2159,3 +2159,7 @@ Caller owns the returned buffer.
 ## entry 524
 
 Space complexity: O(h) for the tree height.
+
+## entry 525
+
+Mutates the input in place; the original ordering is lost.
