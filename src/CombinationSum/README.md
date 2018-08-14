@@ -1999,3 +1999,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 485
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 486
+
+Space complexity: O(h) for the tree height.
