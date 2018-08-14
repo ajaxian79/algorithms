@@ -1862,3 +1862,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 441
 
 Treats the input as immutable.
+
+## entry 442
+
+Reentrant — no static state.
