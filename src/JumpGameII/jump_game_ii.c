@@ -190,3 +190,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Avoids floating-point entirely — integer math throughout.
 // note 170: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 171: Splay tree: every access splays to the root; amortized O(log n).
