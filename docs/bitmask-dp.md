@@ -1507,3 +1507,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 377
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 378
+
+Splay tree: every access splays to the root; amortized O(log n).
