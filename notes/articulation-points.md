@@ -1423,3 +1423,7 @@
 ## entry 356
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 357
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
