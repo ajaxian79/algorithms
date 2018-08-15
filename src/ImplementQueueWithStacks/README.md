@@ -2027,3 +2027,7 @@ Runs in a single pass over the input.
 ## entry 492
 
 Returns a freshly allocated string the caller must free.
+
+## entry 493
+
+Edge case: input with no peak → falls through to the default branch.
