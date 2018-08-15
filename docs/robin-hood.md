@@ -1391,3 +1391,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 348
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 349
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
