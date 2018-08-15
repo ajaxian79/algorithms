@@ -1995,3 +1995,7 @@ Edge case: empty input → returns 0.
 ## entry 484
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 485
+
+Idempotent — calling twice with the same input is a no-op the second time.
