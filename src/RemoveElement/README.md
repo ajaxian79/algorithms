@@ -2049,3 +2049,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 498
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 499
+
+Returns a freshly allocated string the caller must free.
