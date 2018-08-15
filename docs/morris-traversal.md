@@ -1407,3 +1407,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 337
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 338
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
