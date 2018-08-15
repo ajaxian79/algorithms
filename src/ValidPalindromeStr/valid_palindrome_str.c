@@ -193,3 +193,4 @@ int is_palindrome_str(const char* s) {
 // note 168: Caller owns the returned buffer.
 // note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 170: Handles single-element input as a base case.
+// note 171: Best case is O(1) when the first byte already decides the answer.
