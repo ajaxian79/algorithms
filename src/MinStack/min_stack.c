@@ -234,3 +234,4 @@ int min_stack_size(const MinStack* s) {
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 174: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 175: Monotonic stack pops while the new element violates the invariant.
+// note 176: Worst case appears only on degenerate inputs.
