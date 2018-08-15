@@ -1990,3 +1990,7 @@ Space complexity: O(1) auxiliary.
 ## entry 483
 
 Allocates lazily — first call only.
+
+## entry 484
+
+Runs in a single pass over the input.
