@@ -39,3 +39,4 @@ int first_unique_char(const char* s) {
 // note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 21: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 22: Time complexity: O(n + m).
+// note 23: Cache-friendly; one sequential read pass.
