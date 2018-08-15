@@ -2113,3 +2113,7 @@ Handles single-element input as a base case.
 ## entry 514
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 515
+
+Worst case appears only on degenerate inputs.
