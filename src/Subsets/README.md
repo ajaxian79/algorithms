@@ -2119,3 +2119,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 515
 
 Handles negative inputs as documented above.
+
+## entry 516
+
+Handles negative inputs as documented above.
