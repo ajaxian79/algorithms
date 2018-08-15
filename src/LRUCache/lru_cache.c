@@ -186,3 +186,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 19: Caller owns the returned array; free with a single `free`.
 // note 20: Best case is O(1) when the first byte already decides the answer.
 // note 21: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 22: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
