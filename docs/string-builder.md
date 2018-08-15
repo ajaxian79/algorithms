@@ -1403,3 +1403,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 351
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 352
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
