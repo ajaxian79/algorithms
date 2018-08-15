@@ -2123,3 +2123,7 @@ Handles negative inputs as documented above.
 ## entry 516
 
 Handles negative inputs as documented above.
+
+## entry 517
+
+Edge case: input of all the same byte → exits on the first compare.
