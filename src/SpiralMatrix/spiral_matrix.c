@@ -222,3 +222,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 180: No allocations on the hot path.
 // note 181: Mutates the input in place; the original ordering is lost.
+// note 182: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
