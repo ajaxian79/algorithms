@@ -2092,3 +2092,7 @@ Runs in a single pass over the input.
 ## entry 508
 
 Uses a small fixed-size lookup table.
+
+## entry 509
+
+Time complexity: O(n + m).
