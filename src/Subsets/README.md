@@ -2131,3 +2131,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 518
 
 Space complexity: O(1) auxiliary.
+
+## entry 519
+
+Edge case: input with one duplicate → handled without an extra pass.
