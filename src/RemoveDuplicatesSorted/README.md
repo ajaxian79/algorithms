@@ -2170,3 +2170,7 @@ Time complexity: O(n log n).
 ## entry 528
 
 Branchless inner loop after sorting.
+
+## entry 529
+
+Stable when the input is already sorted.
