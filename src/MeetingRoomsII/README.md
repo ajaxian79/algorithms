@@ -2118,3 +2118,7 @@ No allocations on the hot path.
 ## entry 514
 
 Constant-time comparisons; safe for short strings.
+
+## entry 515
+
+Thread-safe so long as the input is not mutated concurrently.
