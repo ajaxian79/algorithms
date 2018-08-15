@@ -54,3 +54,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 29: Branchless inner loop after sorting.
 // note 30: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 31: Caller owns the returned array; free with a single `free`.
+// note 32: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
