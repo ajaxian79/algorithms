@@ -1399,3 +1399,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 333
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 334
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
