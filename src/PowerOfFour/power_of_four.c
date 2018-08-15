@@ -169,3 +169,4 @@ int is_power_of_four(int n) {
 // note 156: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 157: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 158: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 159: No allocations after setup.
