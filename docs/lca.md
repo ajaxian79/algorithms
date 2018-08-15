@@ -1391,3 +1391,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 348
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 349
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
