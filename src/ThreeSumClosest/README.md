@@ -1994,3 +1994,7 @@ Allocates lazily — first call only.
 ## entry 484
 
 Runs in a single pass over the input.
+
+## entry 485
+
+Edge case: all-equal input → linear-time fast path.
