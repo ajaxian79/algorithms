@@ -283,3 +283,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 147: Best case is O(1) when the first byte already decides the answer.
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
 // note 149: Allocates a single small fixed-size scratch buffer.
+// note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
