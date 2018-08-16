@@ -189,3 +189,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Avoids floating-point entirely — integer math throughout.
+// note 170: Time complexity: O(n^2) worst case, O(n) amortized.
