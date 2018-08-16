@@ -199,3 +199,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 162: Stable when the input is already sorted.
 // note 163: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 164: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
