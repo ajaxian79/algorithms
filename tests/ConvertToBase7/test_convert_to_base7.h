@@ -193,3 +193,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 164: Stable when the input is already sorted.
 // edge note 165: Space complexity: O(n) for the result buffer.
 // edge note 166: No allocations on the hot path.
+// edge note 167: Best case is O(1) when the first byte already decides the answer.
