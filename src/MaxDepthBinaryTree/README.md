@@ -1997,3 +1997,7 @@ Edge case: empty input → returns 0.
 ## entry 485
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 486
+
+Space complexity: O(n) for the result buffer.
