@@ -366,3 +366,7 @@ Caller owns the returned buffer.
 ## entry 76
 
 Space complexity: O(n) for the result buffer.
+
+## entry 77
+
+Edge case: input of all the same byte → exits on the first compare.
