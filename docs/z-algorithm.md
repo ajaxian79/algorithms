@@ -1359,3 +1359,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 324
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 325
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
