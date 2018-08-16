@@ -272,3 +272,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 217: Edge case: input with no peak → falls through to the default branch.
 // edge note 218: Cache-friendly; one sequential read pass.
 // edge note 219: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
