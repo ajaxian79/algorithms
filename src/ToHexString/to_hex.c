@@ -176,3 +176,4 @@ char* to_hex_string(int n) {
 // note 143: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 144: Treats the input as immutable.
 // note 145: Allocates lazily — first call only.
+// note 146: Time complexity: O(n^2) worst case, O(n) amortized.
