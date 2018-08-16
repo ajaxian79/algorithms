@@ -1403,3 +1403,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 351
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 352
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
