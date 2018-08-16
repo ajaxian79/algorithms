@@ -239,3 +239,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 60
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 61
+
+False sharing: two threads writing different bytes in the same cache line stall both.
