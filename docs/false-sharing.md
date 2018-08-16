@@ -1447,3 +1447,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 362
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 363
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
