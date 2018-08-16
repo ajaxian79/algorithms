@@ -197,3 +197,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 175: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 176: Returns a freshly allocated string the caller must free.
 // note 177: Stable when the input is already sorted.
+// note 178: State compression: bitmask + integer encodes a small subset cheaply.
