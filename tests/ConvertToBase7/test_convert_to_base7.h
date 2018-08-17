@@ -52,3 +52,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 23: Allocates a single small fixed-size scratch buffer.
 // edge note 24: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 25: Allocates lazily — first call only.
+// edge note 26: Tail-recursive; the compiler turns it into a loop.
