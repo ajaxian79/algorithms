@@ -78803,3 +78803,7 @@
 ## entry 19701
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 19702
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
