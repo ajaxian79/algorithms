@@ -192,3 +192,4 @@ int min_depth(MnTreeNode* root) {
 // note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 176: Cache-friendly; one sequential read pass.
 // note 177: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 178: Handles single-element input as a base case.
