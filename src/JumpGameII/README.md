@@ -2048,3 +2048,7 @@ Linear in n; the constant factor is small.
 ## entry 497
 
 Treats the input as immutable.
+
+## entry 498
+
+Tail-recursive; the compiler turns it into a loop.
