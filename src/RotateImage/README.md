@@ -2065,3 +2065,7 @@ Branchless inner loop after sorting.
 ## entry 501
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 502
+
+Caller owns the returned buffer.
