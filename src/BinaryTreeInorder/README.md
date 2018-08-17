@@ -2078,3 +2078,7 @@ Uses a small fixed-size lookup table.
 ## entry 505
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 506
+
+Deterministic given the input — no PRNG seeds.
