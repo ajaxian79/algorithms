@@ -1351,3 +1351,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 338
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 339
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
