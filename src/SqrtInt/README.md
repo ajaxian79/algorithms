@@ -2111,3 +2111,7 @@ Allocates lazily — first call only.
 ## entry 513
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 514
+
+Stable when the input is already sorted.
