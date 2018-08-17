@@ -2172,3 +2172,7 @@ Treats the input as immutable.
 ## entry 528
 
 Handles negative inputs as documented above.
+
+## entry 529
+
+Best case is O(1) when the first byte already decides the answer.
