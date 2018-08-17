@@ -1423,3 +1423,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 356
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 357
+
+Union-Find with path compression amortizes to near-O(1) per op.
