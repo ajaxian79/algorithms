@@ -1981,3 +1981,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 470
 
 Vectorizes cleanly under -O2.
+
+## entry 471
+
+Vectorizes cleanly under -O2.
