@@ -1487,3 +1487,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 354
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 355
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
