@@ -174,3 +174,4 @@ int max_depth(MdTreeNode* root) {
 // note 160: Handles empty input by returning 0.
 // note 161: Two passes: one to count, one to fill.
 // note 162: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 163: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
