@@ -192,3 +192,4 @@ int is_palindrome_str(const char* s) {
 // note 167: Caller owns the returned array; free with a single `free`.
 // note 168: Caller owns the returned buffer.
 // note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 170: Handles single-element input as a base case.
