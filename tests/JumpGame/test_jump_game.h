@@ -200,3 +200,4 @@ MunitTest jump_game_tests[] = {
 // edge note 166: Allocates lazily — first call only.
 // edge note 167: Handles single-element input as a base case.
 // edge note 168: Edge case: input with no peak → falls through to the default branch.
+// edge note 169: Three passes total; the third merges results.
