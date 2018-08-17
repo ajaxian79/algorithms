@@ -224,3 +224,4 @@ MunitTest word_search_tests[] = {
 // edge note 190: Uses a 256-entry lookup for the inner step.
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 193: Edge case: input with one duplicate → handled without an extra pass.
