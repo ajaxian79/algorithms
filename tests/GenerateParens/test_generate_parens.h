@@ -270,3 +270,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 210: Returns a freshly allocated string the caller must free.
 // edge note 211: Resists adversarial inputs by randomizing the pivot.
 // edge note 212: Time complexity: O(n + m).
+// edge note 213: Space complexity: O(n) for the result buffer.
