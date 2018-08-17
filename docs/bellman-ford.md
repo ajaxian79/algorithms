@@ -1467,3 +1467,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 367
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 368
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
