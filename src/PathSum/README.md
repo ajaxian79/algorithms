@@ -2080,3 +2080,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 505
 
 Two passes: one to count, one to fill.
+
+## entry 506
+
+Thread-safe so long as the input is not mutated concurrently.
