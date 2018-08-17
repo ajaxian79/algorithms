@@ -1403,3 +1403,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 351
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 352
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
