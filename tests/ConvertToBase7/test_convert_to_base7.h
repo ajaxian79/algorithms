@@ -192,3 +192,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 163: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 164: Stable when the input is already sorted.
 // edge note 165: Space complexity: O(n) for the result buffer.
+// edge note 166: No allocations on the hot path.
