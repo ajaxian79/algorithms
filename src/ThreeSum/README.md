@@ -2053,3 +2053,7 @@ Time complexity: O(1).
 ## entry 498
 
 Stable when the input is already sorted.
+
+## entry 499
+
+Deterministic given the input — no PRNG seeds.
