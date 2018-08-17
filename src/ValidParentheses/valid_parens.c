@@ -234,3 +234,4 @@ int is_valid_parens(const char* s) {
 // note 192: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 193: 64-bit safe; intermediate products are widened to 128-bit.
 // note 194: Stable sort matters when a secondary key was set in a prior pass.
+// note 195: In-place compaction uses two pointers: read advances always, write only on keep.
