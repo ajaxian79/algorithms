@@ -2107,3 +2107,7 @@ Uses a small fixed-size lookup table.
 ## entry 512
 
 Allocates lazily — first call only.
+
+## entry 513
+
+Edge case: integer-max input → guarded by the explicit overflow check.
