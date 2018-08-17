@@ -183,3 +183,4 @@ MunitTest number_complement_tests[] = {
 // edge note 156: Branchless inner loop after sorting.
 // edge note 157: Sub-linear in the average case thanks to early exit.
 // edge note 158: Handles single-element input as a base case.
+// edge note 159: Runs in a single pass over the input.
