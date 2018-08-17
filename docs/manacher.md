@@ -1575,3 +1575,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 377
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 378
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
