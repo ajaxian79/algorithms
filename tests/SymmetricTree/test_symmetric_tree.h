@@ -226,3 +226,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 182: Edge case: already-sorted input → no swaps performed.
 // edge note 183: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 184: Edge case: input with no peak → falls through to the default branch.
+// edge note 185: Two passes: one to count, one to fill.
