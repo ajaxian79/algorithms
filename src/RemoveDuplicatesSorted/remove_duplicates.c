@@ -186,3 +186,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 170: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 171: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 172: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 173: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
