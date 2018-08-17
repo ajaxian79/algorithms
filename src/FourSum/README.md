@@ -2000,3 +2000,7 @@ No allocations on the hot path.
 ## entry 485
 
 Caller owns the returned buffer.
+
+## entry 486
+
+Uses a 256-entry lookup for the inner step.
