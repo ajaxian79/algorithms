@@ -215,3 +215,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 173: Branchless inner loop after sorting.
 // note 174: Idempotent — calling twice with the same input is a no-op the second time.
+// note 175: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
