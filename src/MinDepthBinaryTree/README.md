@@ -366,3 +366,7 @@ Caller owns the returned buffer.
 ## entry 77
 
 Time complexity: O(log n).
+
+## entry 78
+
+Allocates one buffer of length n+1 for the result.
