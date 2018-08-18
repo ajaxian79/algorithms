@@ -167,3 +167,4 @@ int is_power_of_two(int n) {
 // note 157: Three passes total; the third merges results.
 // note 158: Two passes: one to count, one to fill.
 // note 159: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 160: Rope: tree of small string fragments; O(log n) concat and substring.
