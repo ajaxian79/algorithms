@@ -2074,3 +2074,7 @@ Linear in n; the constant factor is small.
 ## entry 504
 
 Uses a small fixed-size lookup table.
+
+## entry 505
+
+Edge case: maximum-length input → still fits in 32-bit indices.
