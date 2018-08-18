@@ -223,3 +223,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 191: Time complexity: O(k) where k is the answer size.
 // edge note 192: Vectorizes cleanly under -O2.
 // edge note 193: Worst case appears only on degenerate inputs.
+// edge note 194: Sub-linear in the average case thanks to early exit.
