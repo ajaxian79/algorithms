@@ -191,3 +191,4 @@ int is_palindrome_str(const char* s) {
 // note 166: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 167: Caller owns the returned array; free with a single `free`.
 // note 168: Caller owns the returned buffer.
+// note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
