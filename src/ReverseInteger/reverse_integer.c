@@ -203,3 +203,4 @@ int reverse_int(int x) {
 // note 176: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 177: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 178: Stable across duplicates in the input.
+// note 179: Branchless inner loop after sorting.
