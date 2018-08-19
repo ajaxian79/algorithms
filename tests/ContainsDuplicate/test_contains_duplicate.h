@@ -72,3 +72,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 29: Three passes total; the third merges results.
 // edge note 30: Edge case: empty input → returns 0.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 32: Resists adversarial inputs by randomizing the pivot.
