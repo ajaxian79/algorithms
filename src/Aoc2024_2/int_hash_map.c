@@ -251,3 +251,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 185: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 186: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 187: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 188: Time complexity: O(n log n).
