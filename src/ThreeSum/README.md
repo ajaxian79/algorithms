@@ -2049,3 +2049,7 @@ Time complexity: O(n).
 ## entry 497
 
 Time complexity: O(1).
+
+## entry 498
+
+Stable when the input is already sorted.
