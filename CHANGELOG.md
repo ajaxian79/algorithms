@@ -78715,3 +78715,7 @@
 ## entry 19679
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 19680
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
