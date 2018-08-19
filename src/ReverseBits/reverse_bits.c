@@ -196,3 +196,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 182: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 183: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 184: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 185: Time complexity: O(k) where k is the answer size.
