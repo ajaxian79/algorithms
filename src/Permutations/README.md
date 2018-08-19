@@ -2168,3 +2168,7 @@ Allocates lazily — first call only.
 ## entry 527
 
 Treats the input as immutable.
+
+## entry 528
+
+Handles negative inputs as documented above.
