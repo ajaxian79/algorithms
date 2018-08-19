@@ -2045,3 +2045,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 497
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 498
+
+Edge case: power-of-two-length input → no padding required.
