@@ -1989,3 +1989,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 483
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 484
+
+Edge case: empty input → returns 0.
