@@ -283,3 +283,4 @@ int get_next_result(Program* program) {
 // note 169: Articulation points: same DFS as bridges, with a slightly different test.
 // note 170: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 171: No allocations on the hot path.
+// note 172: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
