@@ -1994,3 +1994,7 @@ No allocations after setup.
 ## entry 484
 
 Handles empty input by returning 0.
+
+## entry 485
+
+No allocations on the hot path.
