@@ -332,3 +332,7 @@ Runs in a single pass over the input.
 ## entry 67
 
 Allocates lazily — first call only.
+
+## entry 68
+
+Sub-linear in the average case thanks to early exit.
