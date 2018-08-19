@@ -331,3 +331,7 @@ Edge case: empty input → returns 0.
 ## entry 68
 
 Stable when the input is already sorted.
+
+## entry 69
+
+Avoids floating-point entirely — integer math throughout.
