@@ -204,3 +204,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 173: Stable across duplicates in the input.
 // edge note 174: 32-bit safe; overflow is checked at each step.
 // edge note 175: Avoids floating-point entirely — integer math throughout.
+// edge note 176: Idempotent — calling twice with the same input is a no-op the second time.
