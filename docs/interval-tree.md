@@ -1367,3 +1367,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 342
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 343
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
