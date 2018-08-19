@@ -2086,3 +2086,7 @@ Handles negative inputs as documented above.
 ## entry 507
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 508
+
+Idempotent — calling twice with the same input is a no-op the second time.
