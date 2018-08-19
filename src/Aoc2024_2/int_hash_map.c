@@ -252,3 +252,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 186: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 187: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 188: Time complexity: O(n log n).
+// note 189: Time complexity: O(n).
