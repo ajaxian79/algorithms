@@ -1395,3 +1395,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 349
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 350
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
