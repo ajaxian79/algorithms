@@ -1981,3 +1981,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 480
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 481
+
+Idempotent — calling twice with the same input is a no-op the second time.
