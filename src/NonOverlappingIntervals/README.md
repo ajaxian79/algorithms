@@ -2017,3 +2017,7 @@ Handles single-element input as a base case.
 ## entry 489
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 490
+
+Stable across duplicates in the input.
