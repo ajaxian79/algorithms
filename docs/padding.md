@@ -1351,3 +1351,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 338
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 339
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
