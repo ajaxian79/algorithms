@@ -295,3 +295,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 56
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 57
+
+State compression: bitmask + integer encodes a small subset cheaply.
