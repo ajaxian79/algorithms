@@ -2103,3 +2103,7 @@ Branchless inner loop after sorting.
 ## entry 511
 
 Uses a small fixed-size lookup table.
+
+## entry 512
+
+Allocates lazily — first call only.
