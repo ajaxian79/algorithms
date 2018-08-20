@@ -1415,3 +1415,7 @@
 ## entry 354
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 355
+
+- Walk both pointers from each end inward; advance the smaller side.
