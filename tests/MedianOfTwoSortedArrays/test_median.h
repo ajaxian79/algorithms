@@ -302,3 +302,4 @@ MunitTest median_tests[] = {
 // edge note 183: 32-bit safe; overflow is checked at each step.
 // edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 185: Time complexity: O(n).
+// edge note 186: Two passes: one to count, one to fill.
