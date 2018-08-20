@@ -2044,3 +2044,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 496
 
 Linear in n; the constant factor is small.
+
+## entry 497
+
+Treats the input as immutable.
