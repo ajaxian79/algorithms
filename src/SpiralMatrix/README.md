@@ -2010,3 +2010,7 @@ Treats the input as immutable.
 ## entry 487
 
 Branchless inner loop after sorting.
+
+## entry 488
+
+Time complexity: O(n log n).
