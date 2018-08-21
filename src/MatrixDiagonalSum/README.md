@@ -382,3 +382,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 81
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 82
+
+Edge case: power-of-two-length input → no padding required.
