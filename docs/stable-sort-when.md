@@ -1501,3 +1501,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 361
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 362
+
+Interval DP: solve all `[l, r]` ranges from short to long.
