@@ -2164,3 +2164,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 526
 
 Allocates lazily — first call only.
+
+## entry 527
+
+Treats the input as immutable.
