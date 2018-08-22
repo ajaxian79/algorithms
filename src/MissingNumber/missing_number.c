@@ -184,3 +184,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 172: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 173: Caller owns the returned array; free with a single `free`.
 // note 174: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 175: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
