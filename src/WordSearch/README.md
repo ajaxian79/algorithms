@@ -382,3 +382,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 81
 
 Treats the input as immutable.
+
+## entry 82
+
+Branchless inner loop after sorting.
