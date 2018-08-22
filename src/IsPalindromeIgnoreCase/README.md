@@ -1922,3 +1922,7 @@ Stable when the input is already sorted.
 ## entry 466
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 467
+
+Input is assumed non-NULL; behavior is undefined otherwise.
