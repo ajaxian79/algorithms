@@ -2061,3 +2061,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 500
 
 Branchless inner loop after sorting.
+
+## entry 501
+
+Avoids floating-point entirely — integer math throughout.
