@@ -192,3 +192,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 171: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 172: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 173: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 174: Two passes: one to count, one to fill.
