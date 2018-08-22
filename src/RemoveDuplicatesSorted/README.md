@@ -2166,3 +2166,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 527
 
 Time complexity: O(n log n).
+
+## entry 528
+
+Branchless inner loop after sorting.
