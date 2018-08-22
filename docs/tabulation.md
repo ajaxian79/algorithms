@@ -1483,3 +1483,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 371
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 372
+
+Endianness matters when serializing multi-byte ints to a file or wire.
