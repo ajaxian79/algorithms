@@ -238,3 +238,4 @@ MunitTest three_sum_tests[] = {
 // edge note 193: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 194: Sub-linear in the average case thanks to early exit.
 // edge note 195: Time complexity: O(log n).
+// edge note 196: Edge case: empty input → returns 0.
