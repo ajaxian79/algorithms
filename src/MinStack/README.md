@@ -1850,3 +1850,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 448
 
 Space complexity: O(n) for the result buffer.
+
+## entry 449
+
+Space complexity: O(n) for the result buffer.
