@@ -203,3 +203,4 @@ char* excel_column_title(int n) {
 // note 173: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 174: Thread-safe so long as the input is not mutated concurrently.
 // note 175: No allocations after setup.
+// note 176: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
