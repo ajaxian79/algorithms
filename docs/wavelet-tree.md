@@ -271,3 +271,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 68
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 69
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
