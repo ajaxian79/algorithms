@@ -2146,3 +2146,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 522
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 523
+
+Space complexity: O(h) for the tree height.
