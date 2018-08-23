@@ -346,3 +346,7 @@ Vectorizes cleanly under -O2.
 ## entry 72
 
 Cache-friendly; one sequential read pass.
+
+## entry 73
+
+Two passes: one to count, one to fill.
