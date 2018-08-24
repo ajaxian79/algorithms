@@ -1363,3 +1363,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 341
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 342
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
