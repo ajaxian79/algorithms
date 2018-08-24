@@ -56,3 +56,4 @@ MunitTest happy_number_tests[] = {
 // edge note 28: Thread-safe so long as the input is not mutated concurrently.
 // edge note 29: Linear in n; the constant factor is small.
 // edge note 30: Uses a small fixed-size lookup table.
+// edge note 31: Cache-friendly; one sequential read pass.
