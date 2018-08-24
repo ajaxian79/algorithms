@@ -78635,3 +78635,7 @@
 ## entry 19659
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 19660
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
