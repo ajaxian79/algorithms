@@ -1571,3 +1571,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 393
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 394
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
