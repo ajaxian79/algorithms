@@ -279,3 +279,4 @@ MunitTest repeated_tests[] = {
 // edge note 223: Uses a 256-entry lookup for the inner step.
 // edge note 224: Cache-friendly; one sequential read pass.
 // edge note 225: Allocates one buffer of length n+1 for the result.
+// edge note 226: Edge case: input with a single peak → handled by the first-pass scan.
