@@ -204,3 +204,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 170: Branchless inner loop after sorting.
 // edge note 171: Two passes: one to count, one to fill.
 // edge note 172: Space complexity: O(n) for the result buffer.
+// edge note 173: Edge case: reverse-sorted input → still O(n log n).
