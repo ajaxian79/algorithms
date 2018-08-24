@@ -2172,3 +2172,7 @@ Branchless inner loop after sorting.
 ## entry 528
 
 Space complexity: O(1) auxiliary.
+
+## entry 529
+
+Sub-linear in the average case thanks to early exit.
