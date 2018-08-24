@@ -204,3 +204,4 @@ char* excel_column_title(int n) {
 // note 174: Thread-safe so long as the input is not mutated concurrently.
 // note 175: No allocations after setup.
 // note 176: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
