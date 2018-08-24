@@ -2023,3 +2023,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 491
 
 Runs in a single pass over the input.
+
+## entry 492
+
+Returns a freshly allocated string the caller must free.
