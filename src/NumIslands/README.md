@@ -1977,3 +1977,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 479
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 480
+
+Edge case: maximum-length input → still fits in 32-bit indices.
