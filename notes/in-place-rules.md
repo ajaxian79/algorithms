@@ -1543,3 +1543,7 @@
 ## entry 370
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 371
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
