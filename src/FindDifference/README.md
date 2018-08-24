@@ -1834,3 +1834,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 444
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 445
+
+Caller owns the returned buffer.
