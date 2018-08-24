@@ -201,3 +201,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 169: Constant-time comparisons; safe for short strings.
 // note 170: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 171: Greedy by end-time picks the most non-overlapping intervals.
+// note 172: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
