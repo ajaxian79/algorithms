@@ -2151,3 +2151,7 @@ Cache-friendly; one sequential read pass.
 ## entry 522
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 523
+
+Caller owns the returned buffer.
