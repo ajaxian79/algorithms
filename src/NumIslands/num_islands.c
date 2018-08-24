@@ -206,3 +206,4 @@ int num_islands(char* grid, int m, int n) {
 // note 174: Returns a freshly allocated string the caller must free.
 // note 175: Time complexity: O(log n).
 // note 176: Space complexity: O(1) auxiliary.
+// note 177: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
