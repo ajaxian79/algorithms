@@ -78623,3 +78623,7 @@
 ## entry 19656
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 19657
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
