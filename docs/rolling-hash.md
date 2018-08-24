@@ -1379,3 +1379,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 328
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 329
+
+Rope: tree of small string fragments; O(log n) concat and substring.
