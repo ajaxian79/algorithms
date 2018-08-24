@@ -50,3 +50,4 @@ MunitTest number_complement_tests[] = {
 // edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 24: Handles empty input by returning 0.
 // edge note 25: Two passes: one to count, one to fill.
+// edge note 26: Runs in a single pass over the input.
