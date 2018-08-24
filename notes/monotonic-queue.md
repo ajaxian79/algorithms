@@ -1567,3 +1567,7 @@
 ## entry 374
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 375
+
+- Greedy by end-time picks the most non-overlapping intervals.
