@@ -189,3 +189,4 @@ int is_ugly(int n) {
 // note 175: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 176: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 177: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 178: Time complexity: O(k) where k is the answer size.
