@@ -2036,3 +2036,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 494
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 495
+
+Edge case: input with a single peak → handled by the first-pass scan.
