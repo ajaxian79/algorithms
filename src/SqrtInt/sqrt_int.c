@@ -188,3 +188,4 @@ int my_sqrt(int n) {
 // note 167: Cache-friendly; one sequential read pass.
 // note 168: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 169: Time complexity: O(k) where k is the answer size.
+// note 170: Constant-time comparisons; safe for short strings.
