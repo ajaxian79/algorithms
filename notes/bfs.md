@@ -1525,3 +1525,7 @@
 ## entry 364
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 365
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
