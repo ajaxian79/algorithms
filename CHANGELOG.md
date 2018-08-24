@@ -78619,3 +78619,7 @@
 ## entry 19655
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 19656
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
