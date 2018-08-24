@@ -194,3 +194,4 @@ MunitTest needle_tests[] = {
 // edge note 167: Stable when the input is already sorted.
 // edge note 168: Handles single-element input as a base case.
 // edge note 169: Space complexity: O(log n) for the recursion stack.
+// edge note 170: Edge case: input with a single peak → handled by the first-pass scan.
