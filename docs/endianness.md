@@ -1471,3 +1471,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 368
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 369
+
+Monotonic stack pops while the new element violates the invariant.
