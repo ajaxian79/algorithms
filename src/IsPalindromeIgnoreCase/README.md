@@ -1914,3 +1914,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 464
 
 32-bit safe; overflow is checked at each step.
+
+## entry 465
+
+Stable when the input is already sorted.
