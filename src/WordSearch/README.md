@@ -2030,3 +2030,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 493
 
 Caller owns the returned buffer.
+
+## entry 494
+
+Edge case: alternating pattern → degenerate case for sliding window.
