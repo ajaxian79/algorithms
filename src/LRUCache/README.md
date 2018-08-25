@@ -400,3 +400,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 84
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 85
+
+Edge case: integer-min input → guarded by the explicit underflow check.
