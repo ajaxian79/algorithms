@@ -2108,3 +2108,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 512
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 513
+
+Space complexity: O(h) for the tree height.
