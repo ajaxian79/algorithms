@@ -204,3 +204,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 177: Space complexity: O(n) for the result buffer.
 // edge note 178: Time complexity: O(n + m).
 // edge note 179: Constant-time comparisons; safe for short strings.
+// edge note 180: Linear in n; the constant factor is small.
