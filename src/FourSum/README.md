@@ -1996,3 +1996,7 @@ Space complexity: O(1) auxiliary.
 ## entry 484
 
 No allocations on the hot path.
+
+## entry 485
+
+Caller owns the returned buffer.
