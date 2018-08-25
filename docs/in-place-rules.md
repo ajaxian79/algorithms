@@ -1589,3 +1589,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 382
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 383
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
