@@ -204,3 +204,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 179: Linear in n; the constant factor is small.
 // edge note 180: Constant-time comparisons; safe for short strings.
 // edge note 181: Edge case: input of all the same byte → exits on the first compare.
+// edge note 182: Stable when the input is already sorted.
