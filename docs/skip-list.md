@@ -1315,3 +1315,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 329
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 330
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
