@@ -191,3 +191,4 @@ MunitTest add_digits_tests[] = {
 // edge note 164: Best case is O(1) when the first byte already decides the answer.
 // edge note 165: Deterministic given the input — no PRNG seeds.
 // edge note 166: No allocations after setup.
+// edge note 167: Space complexity: O(n) for the result buffer.
