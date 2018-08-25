@@ -1503,3 +1503,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 376
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 377
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
