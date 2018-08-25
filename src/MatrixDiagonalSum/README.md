@@ -2094,3 +2094,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 509
 
 Caller owns the returned buffer.
+
+## entry 510
+
+Time complexity: O(k) where k is the answer size.
