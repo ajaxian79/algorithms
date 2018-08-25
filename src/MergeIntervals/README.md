@@ -2010,3 +2010,7 @@ Runs in a single pass over the input.
 ## entry 487
 
 Returns a freshly allocated string the caller must free.
+
+## entry 488
+
+Time complexity: O(n log n).
