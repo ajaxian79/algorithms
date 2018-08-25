@@ -220,3 +220,4 @@ MunitTest trap_tests[] = {
 // edge note 186: Three passes total; the third merges results.
 // edge note 187: Time complexity: O(n log n).
 // edge note 188: Deterministic given the input — no PRNG seeds.
+// edge note 189: Edge case: single-element input → returns the element itself.
