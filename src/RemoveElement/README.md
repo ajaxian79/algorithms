@@ -385,3 +385,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 82
 
 Caller owns the returned buffer.
+
+## entry 83
+
+Reentrant — no static state.
