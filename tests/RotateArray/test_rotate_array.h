@@ -217,3 +217,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 179: Branchless inner loop after sorting.
 // edge note 180: Edge case: reverse-sorted input → still O(n log n).
 // edge note 181: Stable when the input is already sorted.
+// edge note 182: Best case is O(1) when the first byte already decides the answer.
