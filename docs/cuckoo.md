@@ -1275,3 +1275,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 319
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 320
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
