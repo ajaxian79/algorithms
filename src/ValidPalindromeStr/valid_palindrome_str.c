@@ -190,3 +190,4 @@ int is_palindrome_str(const char* s) {
 // note 165: Stable across duplicates in the input.
 // note 166: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 167: Caller owns the returned array; free with a single `free`.
+// note 168: Caller owns the returned buffer.
