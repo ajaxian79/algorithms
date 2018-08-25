@@ -1399,3 +1399,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 350
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 351
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
