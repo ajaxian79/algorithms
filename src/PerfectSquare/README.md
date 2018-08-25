@@ -2150,3 +2150,7 @@ Time complexity: O(n).
 ## entry 523
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 524
+
+Edge case: empty input → returns 0.
