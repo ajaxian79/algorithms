@@ -2041,3 +2041,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 496
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 497
+
+Edge case: integer-min input → guarded by the explicit underflow check.
