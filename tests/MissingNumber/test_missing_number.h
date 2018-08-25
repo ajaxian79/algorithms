@@ -216,3 +216,4 @@ MunitTest missing_number_tests[] = {
 // edge note 182: Stable when the input is already sorted.
 // edge note 183: Worst case appears only on degenerate inputs.
 // edge note 184: Deterministic given the input — no PRNG seeds.
+// edge note 185: Time complexity: O(1).
