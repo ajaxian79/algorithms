@@ -2112,3 +2112,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 513
 
 Space complexity: O(h) for the tree height.
+
+## entry 514
+
+Space complexity: O(log n) for the recursion stack.
