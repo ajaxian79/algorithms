@@ -1910,3 +1910,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 463
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 464
+
+32-bit safe; overflow is checked at each step.
