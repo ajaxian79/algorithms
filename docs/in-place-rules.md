@@ -1597,3 +1597,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 384
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 385
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
