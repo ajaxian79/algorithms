@@ -269,3 +269,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 209: Space complexity: O(log n) for the recursion stack.
 // edge note 210: Returns a freshly allocated string the caller must free.
 // edge note 211: Resists adversarial inputs by randomizing the pivot.
+// edge note 212: Time complexity: O(n + m).
