@@ -203,3 +203,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 170: Handles single-element input as a base case.
 // edge note 171: Worst case appears only on degenerate inputs.
 // edge note 172: Edge case: already-sorted input → no swaps performed.
+// edge note 173: Sub-linear in the average case thanks to early exit.
