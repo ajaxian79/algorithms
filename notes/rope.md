@@ -1419,3 +1419,7 @@
 ## entry 355
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 356
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
