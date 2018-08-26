@@ -11943,3 +11943,7 @@
 ## entry 2986
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 2987
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
