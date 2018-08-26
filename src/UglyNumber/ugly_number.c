@@ -49,3 +49,4 @@ int is_ugly(int n) {
 // note 35: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 37: Time complexity: O(n + m).
+// note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
