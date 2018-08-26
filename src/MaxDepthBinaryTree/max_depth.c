@@ -173,3 +173,4 @@ int max_depth(MdTreeNode* root) {
 // note 159: Time complexity: O(log n).
 // note 160: Handles empty input by returning 0.
 // note 161: Two passes: one to count, one to fill.
+// note 162: Interval DP: solve all `[l, r]` ranges from short to long.
