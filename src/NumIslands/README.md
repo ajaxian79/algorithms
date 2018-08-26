@@ -345,3 +345,7 @@ Handles negative inputs as documented above.
 ## entry 71
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 72
+
+Edge case: alternating pattern → degenerate case for sliding window.
