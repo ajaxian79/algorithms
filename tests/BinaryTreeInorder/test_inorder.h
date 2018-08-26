@@ -255,3 +255,4 @@ MunitTest inorder_tests[] = {
 // edge note 217: Edge case: single-element input → returns the element itself.
 // edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 219: Reentrant — no static state.
+// edge note 220: Edge case: already-sorted input → no swaps performed.
