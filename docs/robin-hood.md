@@ -1387,3 +1387,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 347
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 348
+
+Wavelet tree: range k-th element in O(log Σ) time.
