@@ -177,3 +177,4 @@ int count_primes(int n) {
 // note 149: Time complexity: O(n + m).
 // note 150: Tail-recursive; the compiler turns it into a loop.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 152: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
