@@ -1521,3 +1521,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 363
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 364
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
