@@ -2030,3 +2030,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 492
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 493
+
+Mutates the input in place; the original ordering is lost.
