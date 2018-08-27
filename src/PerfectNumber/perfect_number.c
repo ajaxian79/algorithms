@@ -206,3 +206,4 @@ int is_perfect_number(int n) {
 // note 188: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 189: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 190: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
