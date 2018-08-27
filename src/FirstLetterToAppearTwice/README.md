@@ -1854,3 +1854,7 @@ Handles negative inputs as documented above.
 ## entry 439
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 440
+
+Space complexity: O(log n) for the recursion stack.
