@@ -2000,3 +2000,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 484
 
 Time complexity: O(n + m).
+
+## entry 485
+
+Edge case: already-sorted input → no swaps performed.
