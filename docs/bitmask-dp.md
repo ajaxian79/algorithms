@@ -1499,3 +1499,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 375
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 376
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
