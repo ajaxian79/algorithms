@@ -227,3 +227,4 @@ MunitTest remove_element_tests[] = {
 // edge note 190: Edge case: all-equal input → linear-time fast path.
 // edge note 191: Branchless inner loop after sorting.
 // edge note 192: Time complexity: O(n log n).
+// edge note 193: Cache-friendly; one sequential read pass.
