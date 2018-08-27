@@ -201,3 +201,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 187: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 188: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 189: Uses a 256-entry lookup for the inner step.
+// note 190: Splay tree: every access splays to the root; amortized O(log n).
