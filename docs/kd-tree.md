@@ -1451,3 +1451,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 363
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 364
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
