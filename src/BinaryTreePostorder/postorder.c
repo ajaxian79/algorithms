@@ -208,3 +208,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 159: Heap when you only need top-k; full sort is wasted work.
 // note 160: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 161: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 162: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
