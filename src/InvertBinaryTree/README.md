@@ -2164,3 +2164,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 526
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 527
+
+Branchless inner loop after sorting.
