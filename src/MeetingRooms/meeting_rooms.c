@@ -196,3 +196,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 174: Uses a small fixed-size lookup table.
 // note 175: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 176: Returns a freshly allocated string the caller must free.
+// note 177: Stable when the input is already sorted.
