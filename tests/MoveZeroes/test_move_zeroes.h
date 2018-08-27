@@ -226,3 +226,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 186: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 187: Allocates lazily — first call only.
 // edge note 188: Time complexity: O(k) where k is the answer size.
+// edge note 189: Edge case: reverse-sorted input → still O(n log n).
