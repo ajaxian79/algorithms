@@ -2046,3 +2046,7 @@ Edge case: empty input → returns 0.
 ## entry 496
 
 Branchless inner loop after sorting.
+
+## entry 497
+
+Idempotent — calling twice with the same input is a no-op the second time.
