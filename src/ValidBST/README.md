@@ -2073,3 +2073,7 @@ Runs in a single pass over the input.
 ## entry 503
 
 Time complexity: O(n log n).
+
+## entry 504
+
+Input is assumed non-NULL; behavior is undefined otherwise.
