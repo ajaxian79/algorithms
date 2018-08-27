@@ -2014,3 +2014,7 @@ Handles empty input by returning 0.
 ## entry 489
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 490
+
+Edge case: input with one duplicate → handled without an extra pass.
