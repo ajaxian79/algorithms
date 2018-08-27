@@ -1383,3 +1383,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 346
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 347
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
