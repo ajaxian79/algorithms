@@ -1523,3 +1523,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 363
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 364
+
+Wavelet tree: range k-th element in O(log Σ) time.
