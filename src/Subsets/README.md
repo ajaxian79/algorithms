@@ -2115,3 +2115,7 @@ Space complexity: O(h) for the tree height.
 ## entry 514
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 515
+
+Handles negative inputs as documented above.
