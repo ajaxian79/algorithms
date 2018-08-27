@@ -2053,3 +2053,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 498
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 499
+
+Edge case: integer-min input → guarded by the explicit underflow check.
