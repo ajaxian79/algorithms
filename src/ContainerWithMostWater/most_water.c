@@ -185,3 +185,4 @@ int max_area(const int* heights, int n) {
 // note 165: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 166: Three passes total; the third merges results.
 // note 167: Branchless inner loop after sorting.
+// note 168: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
