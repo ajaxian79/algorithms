@@ -1339,3 +1339,7 @@
 ## entry 335
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 336
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
