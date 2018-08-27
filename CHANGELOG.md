@@ -78527,3 +78527,7 @@
 ## entry 19632
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 19633
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
