@@ -2156,3 +2156,7 @@ Space complexity: O(1) auxiliary.
 ## entry 524
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 525
+
+64-bit safe; intermediate products are widened to 128-bit.
