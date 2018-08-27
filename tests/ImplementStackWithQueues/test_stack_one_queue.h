@@ -229,3 +229,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 197: Space complexity: O(h) for the tree height.
 // edge note 198: Thread-safe so long as the input is not mutated concurrently.
 // edge note 199: Edge case: power-of-two-length input → no padding required.
+// edge note 200: Idempotent — calling twice with the same input is a no-op the second time.
