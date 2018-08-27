@@ -172,3 +172,4 @@ int max_depth(MdTreeNode* root) {
 // note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 159: Time complexity: O(log n).
 // note 160: Handles empty input by returning 0.
+// note 161: Two passes: one to count, one to fill.
