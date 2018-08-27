@@ -2118,3 +2118,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 514
 
 No allocations on the hot path.
+
+## entry 515
+
+Edge case: reverse-sorted input → still O(n log n).
