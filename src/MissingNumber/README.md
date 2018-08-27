@@ -2114,3 +2114,7 @@ Space complexity: O(1) auxiliary.
 ## entry 513
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 514
+
+No allocations on the hot path.
