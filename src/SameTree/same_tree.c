@@ -201,3 +201,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 187: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 188: Union-Find with path compression amortizes to near-O(1) per op.
 // note 189: Avoids floating-point entirely — integer math throughout.
+// note 190: Rope: tree of small string fragments; O(log n) concat and substring.
