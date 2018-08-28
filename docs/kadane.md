@@ -1403,3 +1403,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 335
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 336
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
