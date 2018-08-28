@@ -2006,3 +2006,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 486
 
 Runs in a single pass over the input.
+
+## entry 487
+
+Returns a freshly allocated string the caller must free.
