@@ -2026,3 +2026,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 491
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 492
+
+Handles single-element input as a base case.
