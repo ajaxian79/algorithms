@@ -1978,3 +1978,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 480
 
 Treats the input as immutable.
+
+## entry 481
+
+Space complexity: O(1) auxiliary.
