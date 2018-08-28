@@ -398,3 +398,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 85
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 86
+
+Best case is O(1) when the first byte already decides the answer.
