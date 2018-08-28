@@ -313,3 +313,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 62
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 63
+
+StringBuilder: amortize allocation by doubling on grow.
