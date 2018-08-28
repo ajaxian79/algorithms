@@ -1459,3 +1459,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 347
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 348
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
