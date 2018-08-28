@@ -183,3 +183,4 @@ int excel_column_number(const char* s) {
 // note 166: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 167: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 168: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 169: Sub-linear in the average case thanks to early exit.
