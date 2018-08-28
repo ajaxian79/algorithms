@@ -1363,3 +1363,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 325
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 326
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
