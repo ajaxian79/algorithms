@@ -2152,3 +2152,7 @@ Worst case appears only on degenerate inputs.
 ## entry 523
 
 Space complexity: O(1) auxiliary.
+
+## entry 524
+
+Edge case: all-equal input → linear-time fast path.
