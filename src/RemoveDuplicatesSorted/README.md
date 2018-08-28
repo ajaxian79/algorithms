@@ -362,3 +362,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 76
 
 Handles empty input by returning 0.
+
+## entry 77
+
+Handles negative inputs as documented above.
