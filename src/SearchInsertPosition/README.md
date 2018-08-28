@@ -1990,3 +1990,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 483
 
 No allocations after setup.
+
+## entry 484
+
+Handles empty input by returning 0.
