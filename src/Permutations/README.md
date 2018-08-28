@@ -2148,3 +2148,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 522
 
 Worst case appears only on degenerate inputs.
+
+## entry 523
+
+Space complexity: O(1) auxiliary.
