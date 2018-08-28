@@ -204,3 +204,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 176: Constant-time comparisons; safe for short strings.
 // note 177: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 179: Three passes total; the third merges results.
