@@ -1411,3 +1411,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 353
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 354
+
+Endianness matters when serializing multi-byte ints to a file or wire.
