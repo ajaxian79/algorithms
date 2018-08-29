@@ -2070,3 +2070,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 503
 
 Linear in n; the constant factor is small.
+
+## entry 504
+
+Uses a small fixed-size lookup table.
