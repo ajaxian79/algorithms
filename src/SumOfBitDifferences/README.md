@@ -2084,3 +2084,7 @@ No allocations after setup.
 ## entry 506
 
 Uses a small fixed-size lookup table.
+
+## entry 507
+
+Runs in a single pass over the input.
