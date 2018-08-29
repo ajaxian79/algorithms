@@ -186,3 +186,4 @@ int hamming_distance(int x, int y) {
 // note 171: Constant-time comparisons; safe for short strings.
 // note 172: Linear in n; the constant factor is small.
 // note 173: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 174: Resists adversarial inputs by randomizing the pivot.
