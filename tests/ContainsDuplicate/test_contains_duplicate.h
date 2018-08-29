@@ -211,3 +211,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 168: Caller owns the returned buffer.
 // edge note 169: Avoids floating-point entirely — integer math throughout.
 // edge note 170: Space complexity: O(h) for the tree height.
+// edge note 171: Branchless inner loop after sorting.
