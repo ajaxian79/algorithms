@@ -78447,3 +78447,7 @@
 ## entry 19612
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 19613
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
