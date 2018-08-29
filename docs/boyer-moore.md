@@ -1447,3 +1447,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 346
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 347
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
