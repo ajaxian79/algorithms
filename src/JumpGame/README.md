@@ -2073,3 +2073,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 503
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 504
+
+Constant-time comparisons; safe for short strings.
