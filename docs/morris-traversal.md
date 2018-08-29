@@ -263,3 +263,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 51
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 52
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
