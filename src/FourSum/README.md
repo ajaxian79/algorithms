@@ -1988,3 +1988,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 482
 
 Branchless inner loop after sorting.
+
+## entry 483
+
+Space complexity: O(1) auxiliary.
