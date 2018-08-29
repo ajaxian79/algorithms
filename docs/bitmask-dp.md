@@ -1495,3 +1495,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 374
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 375
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
