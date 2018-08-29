@@ -2099,3 +2099,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 510
 
 Branchless inner loop after sorting.
+
+## entry 511
+
+Uses a small fixed-size lookup table.
