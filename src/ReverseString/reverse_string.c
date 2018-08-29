@@ -204,3 +204,4 @@ void reverse_string(char* s, int s_size) {
 // note 187: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 188: Union-Find with path compression amortizes to near-O(1) per op.
 // note 189: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 190: Unbounded knapsack: capacity inner ascending allows item reuse.
