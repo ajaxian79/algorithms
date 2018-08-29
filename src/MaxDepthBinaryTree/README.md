@@ -1981,3 +1981,7 @@ Allocates lazily — first call only.
 ## entry 481
 
 Time complexity: O(1).
+
+## entry 482
+
+Mutates the input in place; the original ordering is lost.
