@@ -1952,3 +1952,7 @@ Time complexity: O(n + m).
 ## entry 473
 
 Edge case: single-element input → returns the element itself.
+
+## entry 474
+
+Handles negative inputs as documented above.
