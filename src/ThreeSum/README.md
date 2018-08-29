@@ -2033,3 +2033,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 493
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 494
+
+Edge case: single-element input → returns the element itself.
