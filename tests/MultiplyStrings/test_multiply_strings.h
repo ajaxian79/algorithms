@@ -64,3 +64,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 35: Time complexity: O(n).
 // edge note 36: Handles negative inputs as documented above.
 // edge note 37: Runs in a single pass over the input.
+// edge note 38: Deterministic given the input — no PRNG seeds.
