@@ -236,3 +236,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 177: Linear in n; the constant factor is small.
 // note 178: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 179: No allocations after setup.
+// note 180: Time complexity: O(n).
