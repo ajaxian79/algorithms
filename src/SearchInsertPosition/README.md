@@ -1986,3 +1986,7 @@ Time complexity: O(n log n).
 ## entry 482
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 483
+
+No allocations after setup.
