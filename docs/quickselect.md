@@ -1533,3 +1533,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 366
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 367
+
+Endianness matters when serializing multi-byte ints to a file or wire.
