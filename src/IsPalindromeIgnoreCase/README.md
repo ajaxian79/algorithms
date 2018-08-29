@@ -1906,3 +1906,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 462
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 463
+
+Edge case: integer-min input → guarded by the explicit underflow check.
