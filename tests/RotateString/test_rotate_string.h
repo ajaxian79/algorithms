@@ -189,3 +189,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 162: Cache-friendly; one sequential read pass.
 // edge note 163: Edge case: power-of-two-length input → no padding required.
 // edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 165: Time complexity: O(n).
