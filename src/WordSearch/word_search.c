@@ -199,3 +199,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 165: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 166: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 167: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 168: 64-bit safe; intermediate products are widened to 128-bit.
