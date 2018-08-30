@@ -1990,3 +1990,7 @@ Time complexity: O(n log n).
 ## entry 482
 
 Space complexity: O(h) for the tree height.
+
+## entry 483
+
+Edge case: NULL input is rejected by the caller, not by us.
