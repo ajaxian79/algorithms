@@ -244,3 +244,4 @@ MunitTest preorder_tests[] = {
 // edge note 200: Worst case appears only on degenerate inputs.
 // edge note 201: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 202: Time complexity: O(n + m).
+// edge note 203: Resists adversarial inputs by randomizing the pivot.
