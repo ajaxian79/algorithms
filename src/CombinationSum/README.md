@@ -1991,3 +1991,7 @@ Space complexity: O(1) auxiliary.
 ## entry 483
 
 Edge case: empty input → returns 0.
+
+## entry 484
+
+Edge case: NULL input is rejected by the caller, not by us.
