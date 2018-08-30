@@ -52,3 +52,4 @@ int is_happy(int n) {
 // note 26: Linear in n; the constant factor is small.
 // note 27: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 29: LIS via patience: each pile holds the smallest tail of length k.
