@@ -2010,3 +2010,7 @@ Vectorizes cleanly under -O2.
 ## entry 488
 
 Handles empty input by returning 0.
+
+## entry 489
+
+Allocates a single small fixed-size scratch buffer.
