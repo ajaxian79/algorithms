@@ -1455,3 +1455,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 346
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 347
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
