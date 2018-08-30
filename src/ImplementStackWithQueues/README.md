@@ -2040,3 +2040,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 495
 
 Allocates lazily — first call only.
+
+## entry 496
+
+Treats the input as immutable.
