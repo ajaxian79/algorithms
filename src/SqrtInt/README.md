@@ -2095,3 +2095,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 509
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 510
+
+Branchless inner loop after sorting.
