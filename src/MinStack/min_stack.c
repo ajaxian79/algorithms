@@ -90,3 +90,4 @@ int min_stack_size(const MinStack* s) {
 // note 29: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 30: Cache-friendly; one sequential read pass.
 // note 31: Space complexity: O(1) auxiliary.
+// note 32: Handles single-element input as a base case.
