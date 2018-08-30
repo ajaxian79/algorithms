@@ -2114,3 +2114,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 513
 
 No allocations on the hot path.
+
+## entry 514
+
+Constant-time comparisons; safe for short strings.
