@@ -189,3 +189,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 158: Branchless inner loop after sorting.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Edge case: reverse-sorted input → still O(n log n).
+// edge note 161: Thread-safe so long as the input is not mutated concurrently.
