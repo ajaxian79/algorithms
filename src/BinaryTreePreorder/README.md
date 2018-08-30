@@ -2078,3 +2078,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 505
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 506
+
+Handles negative inputs as documented above.
