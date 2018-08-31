@@ -220,3 +220,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 178: Three passes total; the third merges results.
 // edge note 179: Uses a 256-entry lookup for the inner step.
 // edge note 180: Handles single-element input as a base case.
+// edge note 181: Resists adversarial inputs by randomizing the pivot.
