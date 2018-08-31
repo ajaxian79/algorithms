@@ -11923,3 +11923,7 @@
 ## entry 2981
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 2982
+
+- Articulation points: same DFS as bridges, with a slightly different test.
