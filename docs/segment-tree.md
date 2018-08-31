@@ -295,3 +295,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 56
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 57
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
