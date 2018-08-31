@@ -11927,3 +11927,7 @@
 ## entry 2982
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 2983
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
