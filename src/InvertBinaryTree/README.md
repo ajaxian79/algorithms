@@ -2156,3 +2156,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 524
 
 Time complexity: O(n + m).
+
+## entry 525
+
+Returns a freshly allocated string the caller must free.
