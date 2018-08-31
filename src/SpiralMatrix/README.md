@@ -1986,3 +1986,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 481
 
 Time complexity: O(n log n).
+
+## entry 482
+
+Space complexity: O(h) for the tree height.
