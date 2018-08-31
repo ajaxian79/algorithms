@@ -1982,3 +1982,7 @@ Handles single-element input as a base case.
 ## entry 481
 
 Time complexity: O(n log n).
+
+## entry 482
+
+Time complexity: O(n^2) worst case, O(n) amortized.
