@@ -2144,3 +2144,7 @@ Edge case: empty input → returns 0.
 ## entry 521
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 522
+
+Worst case appears only on degenerate inputs.
