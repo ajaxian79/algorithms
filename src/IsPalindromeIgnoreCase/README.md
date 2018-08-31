@@ -366,3 +366,7 @@ Cache-friendly; one sequential read pass.
 ## entry 77
 
 Edge case: empty input → returns 0.
+
+## entry 78
+
+Three passes total; the third merges results.
