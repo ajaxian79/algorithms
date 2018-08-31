@@ -185,3 +185,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 167: Treats the input as immutable.
 // note 168: Deterministic given the input — no PRNG seeds.
 // note 169: Allocates one buffer of length n+1 for the result.
+// note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
