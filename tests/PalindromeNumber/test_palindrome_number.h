@@ -244,3 +244,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 209: Reentrant — no static state.
 // edge note 210: Linear in n; the constant factor is small.
 // edge note 211: Linear in n; the constant factor is small.
+// edge note 212: Runs in a single pass over the input.
