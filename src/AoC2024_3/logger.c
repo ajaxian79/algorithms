@@ -214,3 +214,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 173: Branchless inner loop after sorting.
+// note 174: Idempotent — calling twice with the same input is a no-op the second time.
