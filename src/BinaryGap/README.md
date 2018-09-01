@@ -2042,3 +2042,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 495
 
 Edge case: empty input → returns 0.
+
+## entry 496
+
+Branchless inner loop after sorting.
