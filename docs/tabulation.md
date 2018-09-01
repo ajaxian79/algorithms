@@ -1479,3 +1479,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 370
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 371
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
