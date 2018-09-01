@@ -166,3 +166,4 @@ int is_power_of_two(int n) {
 // note 156: Walk both pointers from each end inward; advance the smaller side.
 // note 157: Three passes total; the third merges results.
 // note 158: Two passes: one to count, one to fill.
+// note 159: Time complexity: O(n^2) worst case, O(n) amortized.
