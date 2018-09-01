@@ -413,3 +413,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 78
 
 32-bit safe; overflow is checked at each step.
+
+## entry 79
+
+Handles negative inputs as documented above.
