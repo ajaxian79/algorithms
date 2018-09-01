@@ -217,3 +217,4 @@ MunitTest zigzag_tests[] = {
 // edge note 189: Edge case: already-sorted input → no swaps performed.
 // edge note 190: Edge case: reverse-sorted input → still O(n log n).
 // edge note 191: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 192: Best case is O(1) when the first byte already decides the answer.
