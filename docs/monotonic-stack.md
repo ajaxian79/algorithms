@@ -1349,3 +1349,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 321
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 322
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
