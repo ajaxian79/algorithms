@@ -180,3 +180,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
 // note 28: Reentrant — no static state.
 // note 29: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 30: Linear in n; the constant factor is small.
