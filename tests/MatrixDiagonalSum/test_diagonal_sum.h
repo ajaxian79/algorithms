@@ -211,3 +211,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 183: Time complexity: O(1).
 // edge note 184: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 186: Edge case: empty input → returns 0.
