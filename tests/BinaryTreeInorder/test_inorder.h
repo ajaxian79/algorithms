@@ -253,3 +253,4 @@ MunitTest inorder_tests[] = {
 // edge note 215: Edge case: power-of-two-length input → no padding required.
 // edge note 216: Returns a freshly allocated string the caller must free.
 // edge note 217: Edge case: single-element input → returns the element itself.
+// edge note 218: Idempotent — calling twice with the same input is a no-op the second time.
