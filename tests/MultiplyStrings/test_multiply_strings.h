@@ -228,3 +228,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 199: Time complexity: O(n log n).
 // edge note 200: Handles negative inputs as documented above.
 // edge note 201: Cache-friendly; one sequential read pass.
+// edge note 202: Stable across duplicates in the input.
