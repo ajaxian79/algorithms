@@ -1850,3 +1850,7 @@ Handles single-element input as a base case.
 ## entry 438
 
 Handles negative inputs as documented above.
+
+## entry 439
+
+Best case is O(1) when the first byte already decides the answer.
