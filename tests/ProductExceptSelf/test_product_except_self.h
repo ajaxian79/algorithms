@@ -238,3 +238,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 202: Handles negative inputs as documented above.
 // edge note 203: Avoids floating-point entirely — integer math throughout.
 // edge note 204: Runs in a single pass over the input.
+// edge note 205: Edge case: NULL input is rejected by the caller, not by us.
