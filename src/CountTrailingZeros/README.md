@@ -2018,3 +2018,7 @@ Space complexity: O(h) for the tree height.
 ## entry 489
 
 Handles negative inputs as documented above.
+
+## entry 490
+
+Avoids floating-point entirely — integer math throughout.
