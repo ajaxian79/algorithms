@@ -1427,3 +1427,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 339
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 340
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
