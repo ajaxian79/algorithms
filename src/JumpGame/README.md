@@ -2065,3 +2065,7 @@ Time complexity: O(n).
 ## entry 501
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 502
+
+Edge case: single-element input → returns the element itself.
