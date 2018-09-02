@@ -219,3 +219,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 177: Thread-safe so long as the input is not mutated concurrently.
 // edge note 178: Three passes total; the third merges results.
 // edge note 179: Uses a 256-entry lookup for the inner step.
+// edge note 180: Handles single-element input as a base case.
