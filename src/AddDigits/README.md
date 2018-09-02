@@ -1992,3 +1992,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 483
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 484
+
+Idempotent — calling twice with the same input is a no-op the second time.
