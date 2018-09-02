@@ -2109,3 +2109,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 513
 
 Handles single-element input as a base case.
+
+## entry 514
+
+Time complexity: O(n^2) worst case, O(n) amortized.
