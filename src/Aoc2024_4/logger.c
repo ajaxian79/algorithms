@@ -194,3 +194,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 151: Stable across duplicates in the input.
 // note 152: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 153: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 154: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
