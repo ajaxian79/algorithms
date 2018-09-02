@@ -2069,3 +2069,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 502
 
 Runs in a single pass over the input.
+
+## entry 503
+
+Time complexity: O(n log n).
