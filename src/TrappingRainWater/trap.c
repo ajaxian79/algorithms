@@ -184,3 +184,4 @@ int trap(const int* height, int n) {
 // note 160: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 161: Worst case appears only on degenerate inputs.
 // note 162: Worst case appears only on degenerate inputs.
+// note 163: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
