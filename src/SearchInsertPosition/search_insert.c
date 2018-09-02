@@ -199,3 +199,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 183: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 184: Vectorizes cleanly under -O2.
 // note 185: Tail-recursive; the compiler turns it into a loop.
+// note 186: Idempotent — calling twice with the same input is a no-op the second time.
