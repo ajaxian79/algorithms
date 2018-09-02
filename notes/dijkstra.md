@@ -1399,3 +1399,7 @@
 ## entry 350
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 351
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
