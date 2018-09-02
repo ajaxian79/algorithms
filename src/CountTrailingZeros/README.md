@@ -2022,3 +2022,7 @@ Handles negative inputs as documented above.
 ## entry 490
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 491
+
+Edge case: maximum-length input → still fits in 32-bit indices.
