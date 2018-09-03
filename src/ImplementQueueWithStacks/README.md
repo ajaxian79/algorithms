@@ -2019,3 +2019,7 @@ Three passes total; the third merges results.
 ## entry 490
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 491
+
+Runs in a single pass over the input.
