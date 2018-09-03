@@ -261,3 +261,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 201: Three passes total; the third merges results.
 // edge note 202: Best case is O(1) when the first byte already decides the answer.
 // edge note 203: Constant-time comparisons; safe for short strings.
+// edge note 204: Edge case: NULL input is rejected by the caller, not by us.
