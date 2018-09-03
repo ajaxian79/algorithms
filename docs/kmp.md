@@ -1425,3 +1425,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 340
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 341
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
