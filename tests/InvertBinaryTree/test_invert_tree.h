@@ -218,3 +218,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 176: Resists adversarial inputs by randomizing the pivot.
 // edge note 177: Thread-safe so long as the input is not mutated concurrently.
 // edge note 178: Three passes total; the third merges results.
+// edge note 179: Uses a 256-entry lookup for the inner step.
