@@ -1447,3 +1447,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 362
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 363
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
