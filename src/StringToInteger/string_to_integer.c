@@ -188,3 +188,4 @@ int my_atoi(const char* s) {
 // note 157: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 158: Sub-linear in the average case thanks to early exit.
 // note 159: Runs in a single pass over the input.
+// note 160: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
