@@ -1391,3 +1391,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 348
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 349
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
