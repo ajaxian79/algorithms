@@ -78347,3 +78347,7 @@
 ## entry 19587
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 19588
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
