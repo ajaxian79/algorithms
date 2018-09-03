@@ -78323,3 +78323,7 @@
 ## entry 19581
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 19582
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
