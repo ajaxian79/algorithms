@@ -180,3 +180,4 @@ int is_perfect_square(int n) {
 // note 161: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 162: Stable when the input is already sorted.
 // note 163: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 164: Tree DP: post-order DFS lets children inform the parent in one pass.
