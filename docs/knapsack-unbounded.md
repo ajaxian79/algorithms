@@ -1523,3 +1523,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 365
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 366
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
