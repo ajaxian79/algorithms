@@ -489,3 +489,4 @@ void free_contents(char *buffer) {
 // note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 184: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 185: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 186: Cache-friendly; one sequential read pass.
