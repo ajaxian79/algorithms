@@ -2036,3 +2036,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 493
 
 Constant-time comparisons; safe for short strings.
+
+## entry 494
+
+Caller owns the returned array; free with a single `free`.
