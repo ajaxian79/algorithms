@@ -2080,3 +2080,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 505
 
 No allocations after setup.
+
+## entry 506
+
+Uses a small fixed-size lookup table.
