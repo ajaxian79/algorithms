@@ -1305,3 +1305,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 310
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 311
+
+Wavelet tree: range k-th element in O(log Σ) time.
