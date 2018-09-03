@@ -1992,3 +1992,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 482
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 483
+
+Two passes: one to count, one to fill.
