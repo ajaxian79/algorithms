@@ -231,3 +231,4 @@ MunitTest min_depth_tests[] = {
 // edge note 192: Reentrant — no static state.
 // edge note 193: Space complexity: O(log n) for the recursion stack.
 // edge note 194: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 195: Treats the input as immutable.
