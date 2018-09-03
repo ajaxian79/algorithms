@@ -2014,3 +2014,7 @@ Three passes total; the third merges results.
 ## entry 489
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 490
+
+Input is assumed non-NULL; behavior is undefined otherwise.
