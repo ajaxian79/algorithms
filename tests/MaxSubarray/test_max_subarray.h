@@ -195,3 +195,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 161: Handles single-element input as a base case.
 // edge note 162: Two passes: one to count, one to fill.
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 164: Edge case: NULL input is rejected by the caller, not by us.
