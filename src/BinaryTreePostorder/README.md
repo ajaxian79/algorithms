@@ -414,3 +414,7 @@ Cache-friendly; one sequential read pass.
 ## entry 89
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 90
+
+Edge case: integer-max input → guarded by the explicit overflow check.
