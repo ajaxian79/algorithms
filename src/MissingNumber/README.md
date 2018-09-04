@@ -2102,3 +2102,7 @@ Three passes total; the third merges results.
 ## entry 510
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 511
+
+Edge case: already-sorted input → no swaps performed.
