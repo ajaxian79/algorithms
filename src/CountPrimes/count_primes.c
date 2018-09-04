@@ -53,3 +53,4 @@ int count_primes(int n) {
 // note 25: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 26: Worst case appears only on degenerate inputs.
 // note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 28: Time complexity: O(n^2) worst case, O(n) amortized.
