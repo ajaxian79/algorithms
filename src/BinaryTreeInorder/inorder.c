@@ -213,3 +213,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 173: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 174: Wavelet tree: range k-th element in O(log Σ) time.
 // note 175: Allocates a single small fixed-size scratch buffer.
+// note 176: BFS layers carry implicit shortest-path distance in unweighted graphs.
