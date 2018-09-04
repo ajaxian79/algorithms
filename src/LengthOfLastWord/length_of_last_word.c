@@ -192,3 +192,4 @@ int length_of_last_word(const char* s) {
 // note 174: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 175: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 176: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 177: Endianness matters when serializing multi-byte ints to a file or wire.
