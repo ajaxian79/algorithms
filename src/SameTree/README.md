@@ -1972,3 +1972,7 @@ Stable across duplicates in the input.
 ## entry 479
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 480
+
+Time complexity: O(log n).
