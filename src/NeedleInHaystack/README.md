@@ -1944,3 +1944,7 @@ Caller owns the returned buffer.
 ## entry 471
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 472
+
+Time complexity: O(n + m).
