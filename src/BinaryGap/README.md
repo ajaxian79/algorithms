@@ -2038,3 +2038,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 494
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 495
+
+Edge case: empty input → returns 0.
