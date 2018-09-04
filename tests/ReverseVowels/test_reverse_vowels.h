@@ -218,3 +218,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 179: Linear in n; the constant factor is small.
 // edge note 180: Tail-recursive; the compiler turns it into a loop.
 // edge note 181: Sub-linear in the average case thanks to early exit.
+// edge note 182: No allocations on the hot path.
