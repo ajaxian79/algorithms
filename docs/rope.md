@@ -1391,3 +1391,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 348
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 349
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
