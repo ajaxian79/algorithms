@@ -191,3 +191,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 48
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 49
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
