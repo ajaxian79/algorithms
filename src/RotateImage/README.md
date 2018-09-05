@@ -2045,3 +2045,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 496
 
 Branchless inner loop after sorting.
+
+## entry 497
+
+Returns a freshly allocated string the caller must free.
