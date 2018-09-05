@@ -1443,3 +1443,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 361
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 362
+
+Splay tree: every access splays to the root; amortized O(log n).
