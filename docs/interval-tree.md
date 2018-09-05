@@ -163,3 +163,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 41
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 42
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
