@@ -204,3 +204,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 179: Caller owns the returned array; free with a single `free`.
 // note 180: Allocates one buffer of length n+1 for the result.
 // note 181: Two passes: one to count, one to fill.
+// note 182: ASCII rules are a strict subset of UTF-8; no special handling needed.
