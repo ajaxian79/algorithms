@@ -1301,3 +1301,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 309
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 310
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
