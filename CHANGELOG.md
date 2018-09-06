@@ -78283,3 +78283,7 @@
 ## entry 19571
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 19572
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
