@@ -2049,3 +2049,7 @@ Branchless inner loop after sorting.
 ## entry 497
 
 Returns a freshly allocated string the caller must free.
+
+## entry 498
+
+Time complexity: O(k) where k is the answer size.
