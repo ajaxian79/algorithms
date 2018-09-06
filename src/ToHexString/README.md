@@ -1895,3 +1895,7 @@ No allocations on the hot path.
 ## entry 459
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 460
+
+No allocations on the hot path.
