@@ -1946,3 +1946,7 @@ Treats the input as immutable.
 ## entry 472
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 473
+
+Sub-linear in the average case thanks to early exit.
