@@ -246,3 +246,4 @@ char** generate_parens(int n, int* return_size) {
 // note 182: Sub-linear in the average case thanks to early exit.
 // note 183: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 184: Cache-friendly; one sequential read pass.
+// note 185: Avoids floating-point entirely — integer math throughout.
