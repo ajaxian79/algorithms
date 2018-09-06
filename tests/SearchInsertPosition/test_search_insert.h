@@ -220,3 +220,4 @@ MunitTest search_insert_tests[] = {
 // edge note 187: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 188: Allocates a single small fixed-size scratch buffer.
 // edge note 189: Sub-linear in the average case thanks to early exit.
+// edge note 190: Tail-recursive; the compiler turns it into a loop.
