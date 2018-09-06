@@ -2033,3 +2033,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 494
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 495
+
+Edge case: reverse-sorted input → still O(n log n).
