@@ -218,3 +218,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 187: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 188: Uses a small fixed-size lookup table.
 // edge note 189: Uses a small fixed-size lookup table.
+// edge note 190: Deterministic given the input — no PRNG seeds.
