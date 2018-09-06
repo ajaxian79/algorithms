@@ -204,3 +204,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 163: StringBuilder: amortize allocation by doubling on grow.
 // note 164: Stable sort matters when a secondary key was set in a prior pass.
 // note 165: Time complexity: O(n + m).
+// note 166: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
