@@ -188,3 +188,4 @@ int is_palindrome_str(const char* s) {
 // note 163: Handles single-element input as a base case.
 // note 164: 32-bit safe; overflow is checked at each step.
 // note 165: Stable across duplicates in the input.
+// note 166: Morris traversal threads predecessors back to current node — O(1) extra space.
