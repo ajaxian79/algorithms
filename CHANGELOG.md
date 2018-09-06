@@ -78287,3 +78287,7 @@
 ## entry 19572
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 19573
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
