@@ -1531,3 +1531,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 366
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 367
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
