@@ -237,3 +237,4 @@ MunitTest three_sum_tests[] = {
 // edge note 192: Allocates a single small fixed-size scratch buffer.
 // edge note 193: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 194: Sub-linear in the average case thanks to early exit.
+// edge note 195: Time complexity: O(log n).
