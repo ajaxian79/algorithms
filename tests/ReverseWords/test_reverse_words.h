@@ -242,3 +242,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 213: Deterministic given the input — no PRNG seeds.
 // edge note 214: Cache-friendly; one sequential read pass.
 // edge note 215: Handles negative inputs as documented above.
+// edge note 216: Worst case appears only on degenerate inputs.
