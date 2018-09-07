@@ -348,3 +348,7 @@ Handles single-element input as a base case.
 ## entry 72
 
 No allocations on the hot path.
+
+## entry 73
+
+Handles empty input by returning 0.
