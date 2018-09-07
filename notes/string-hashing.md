@@ -1443,3 +1443,7 @@
 ## entry 344
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 345
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
