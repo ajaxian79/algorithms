@@ -200,3 +200,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 157: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 158: Space complexity: O(1) auxiliary.
 // note 159: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 160: Persistent tree: every update creates a new version sharing unchanged nodes.
