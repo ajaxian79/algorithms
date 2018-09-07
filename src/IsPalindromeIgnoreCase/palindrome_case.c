@@ -42,3 +42,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 19: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 20: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 21: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 22: Interval DP: solve all `[l, r]` ranges from short to long.
