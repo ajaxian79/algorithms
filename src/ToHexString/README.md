@@ -327,3 +327,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 67
 
 Edge case: empty input → returns 0.
+
+## entry 68
+
+Stable when the input is already sorted.
