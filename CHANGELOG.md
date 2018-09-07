@@ -78251,3 +78251,7 @@
 ## entry 19563
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 19564
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
