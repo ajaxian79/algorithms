@@ -2029,3 +2029,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 493
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 494
+
+Tail-recursive; the compiler turns it into a loop.
