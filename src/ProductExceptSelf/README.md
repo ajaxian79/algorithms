@@ -328,3 +328,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 66
 
 Runs in a single pass over the input.
+
+## entry 67
+
+Allocates lazily — first call only.
