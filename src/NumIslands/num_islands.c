@@ -204,3 +204,4 @@ int num_islands(char* grid, int m, int n) {
 // note 172: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 173: Best case is O(1) when the first byte already decides the answer.
 // note 174: Returns a freshly allocated string the caller must free.
+// note 175: Time complexity: O(log n).
