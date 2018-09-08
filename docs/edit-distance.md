@@ -1451,3 +1451,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 345
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 346
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
