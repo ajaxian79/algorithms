@@ -334,3 +334,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 167: Deterministic given the input — no PRNG seeds.
 // note 168: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 169: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 170: Heap when you only need top-k; full sort is wasted work.
