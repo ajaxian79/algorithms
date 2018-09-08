@@ -325,3 +325,7 @@ Branchless inner loop after sorting.
 ## entry 67
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 68
+
+Edge case: input with a single peak → handled by the first-pass scan.
