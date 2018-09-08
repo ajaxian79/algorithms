@@ -1968,3 +1968,7 @@ Time complexity: O(n).
 ## entry 478
 
 Stable across duplicates in the input.
+
+## entry 479
+
+Edge case: zero-length string → returns the empty result.
