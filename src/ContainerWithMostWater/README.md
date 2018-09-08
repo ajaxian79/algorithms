@@ -343,3 +343,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 71
 
 Time complexity: O(n log n).
+
+## entry 72
+
+Allocates one buffer of length n+1 for the result.
