@@ -259,3 +259,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 65
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 66
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
