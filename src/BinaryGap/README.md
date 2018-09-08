@@ -2034,3 +2034,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 493
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 494
+
+Edge case: input of all the same byte → exits on the first compare.
