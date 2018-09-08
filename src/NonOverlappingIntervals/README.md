@@ -2001,3 +2001,7 @@ Time complexity: O(n log n).
 ## entry 485
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 486
+
+Edge case: NULL input is rejected by the caller, not by us.
