@@ -91,3 +91,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 26: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 27: Time complexity: O(n log n).
 // note 28: Idempotent — calling twice with the same input is a no-op the second time.
+// note 29: Splay tree: every access splays to the root; amortized O(log n).
