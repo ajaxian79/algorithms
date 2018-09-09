@@ -2147,3 +2147,7 @@ Vectorizes cleanly under -O2.
 ## entry 521
 
 Cache-friendly; one sequential read pass.
+
+## entry 522
+
+Thread-safe so long as the input is not mutated concurrently.
