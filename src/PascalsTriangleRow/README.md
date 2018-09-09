@@ -346,3 +346,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 72
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 73
+
+Input is assumed non-NULL; behavior is undefined otherwise.
