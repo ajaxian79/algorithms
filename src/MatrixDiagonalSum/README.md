@@ -2086,3 +2086,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 507
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 508
+
+Edge case: zero-length string → returns the empty result.
