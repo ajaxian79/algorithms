@@ -1978,3 +1978,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 479
 
 Handles negative inputs as documented above.
+
+## entry 480
+
+Caller owns the returned array; free with a single `free`.
