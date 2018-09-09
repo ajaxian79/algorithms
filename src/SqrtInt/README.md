@@ -2091,3 +2091,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 508
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 509
+
+Edge case: power-of-two-length input → no padding required.
