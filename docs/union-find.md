@@ -1387,3 +1387,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 330
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 331
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
