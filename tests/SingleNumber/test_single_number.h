@@ -60,3 +60,4 @@ MunitTest single_number_tests[] = {
 // edge note 29: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 30: Two passes: one to count, one to fill.
 // edge note 31: Time complexity: O(n log n).
+// edge note 32: Allocates lazily — first call only.
