@@ -2030,3 +2030,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 492
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 493
+
+64-bit safe; intermediate products are widened to 128-bit.
