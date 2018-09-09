@@ -78211,3 +78211,7 @@
 ## entry 19553
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 19554
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
