@@ -2041,3 +2041,7 @@ Handles negative inputs as documented above.
 ## entry 495
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 496
+
+Branchless inner loop after sorting.
