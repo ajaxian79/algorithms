@@ -2057,3 +2057,7 @@ Time complexity: O(n log n).
 ## entry 499
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 500
+
+Time complexity: O(n).
