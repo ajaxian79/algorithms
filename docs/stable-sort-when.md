@@ -1497,3 +1497,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 360
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 361
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
