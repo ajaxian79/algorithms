@@ -221,3 +221,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 192: Uses a small fixed-size lookup table.
 // edge note 193: Stable across duplicates in the input.
 // edge note 194: Avoids floating-point entirely — integer math throughout.
+// edge note 195: Sub-linear in the average case thanks to early exit.
