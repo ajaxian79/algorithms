@@ -2140,3 +2140,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 520
 
 Edge case: empty input → returns 0.
+
+## entry 521
+
+Edge case: zero-length string → returns the empty result.
