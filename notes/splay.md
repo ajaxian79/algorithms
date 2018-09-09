@@ -219,3 +219,7 @@
 ## entry 55
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 56
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
