@@ -203,3 +203,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 176: Space complexity: O(n) for the result buffer.
 // edge note 177: Returns a freshly allocated string the caller must free.
 // edge note 178: Edge case: all-equal input → linear-time fast path.
+// edge note 179: Caller owns the returned array; free with a single `free`.
