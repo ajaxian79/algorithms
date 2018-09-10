@@ -2025,3 +2025,7 @@ No allocations after setup.
 ## entry 492
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 493
+
+Edge case: input with one duplicate → handled without an extra pass.
