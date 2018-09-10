@@ -1505,3 +1505,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 359
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 360
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
