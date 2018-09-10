@@ -1988,3 +1988,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 481
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 482
+
+Tail-recursive; the compiler turns it into a loop.
