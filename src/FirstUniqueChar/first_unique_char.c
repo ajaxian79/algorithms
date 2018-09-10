@@ -205,3 +205,4 @@ int first_unique_char(const char* s) {
 // note 186: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 187: Vectorizes cleanly under -O2.
 // note 188: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 189: Interval DP: solve all `[l, r]` ranges from short to long.
