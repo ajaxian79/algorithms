@@ -1838,3 +1838,7 @@ Reentrant — no static state.
 ## entry 445
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 446
+
+Deterministic given the input — no PRNG seeds.
