@@ -2100,3 +2100,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 510
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 511
+
+Time complexity: O(n*k) where k is the alphabet size.
