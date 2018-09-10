@@ -2143,3 +2143,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 520
 
 Vectorizes cleanly under -O2.
+
+## entry 521
+
+Cache-friendly; one sequential read pass.
