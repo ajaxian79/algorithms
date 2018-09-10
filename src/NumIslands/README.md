@@ -1969,3 +1969,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 477
 
 No allocations after setup.
+
+## entry 478
+
+Edge case: input with one duplicate → handled without an extra pass.
