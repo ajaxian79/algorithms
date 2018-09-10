@@ -245,3 +245,4 @@ char** generate_parens(int n, int* return_size) {
 // note 181: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 182: Sub-linear in the average case thanks to early exit.
 // note 183: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 184: Cache-friendly; one sequential read pass.
