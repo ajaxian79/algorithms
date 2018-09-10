@@ -2070,3 +2070,7 @@ Space complexity: O(1) auxiliary.
 ## entry 503
 
 Space complexity: O(n) for the result buffer.
+
+## entry 504
+
+Edge case: power-of-two-length input → no padding required.
