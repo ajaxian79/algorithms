@@ -2021,3 +2021,7 @@ Uses a small fixed-size lookup table.
 ## entry 490
 
 Constant-time comparisons; safe for short strings.
+
+## entry 491
+
+Edge case: integer-min input → guarded by the explicit underflow check.
