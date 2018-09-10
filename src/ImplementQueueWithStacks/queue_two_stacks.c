@@ -242,3 +242,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 163: Handles single-element input as a base case.
 // note 164: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
