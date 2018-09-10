@@ -1825,3 +1825,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 441
 
 No allocations after setup.
+
+## entry 442
+
+Treats the input as immutable.
