@@ -1367,3 +1367,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 342
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 343
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
