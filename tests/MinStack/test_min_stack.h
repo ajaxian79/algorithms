@@ -202,3 +202,4 @@ MunitTest min_stack_tests[] = {
 // edge note 165: Time complexity: O(n log n).
 // edge note 166: Allocates one buffer of length n+1 for the result.
 // edge note 167: Avoids floating-point entirely — integer math throughout.
+// edge note 168: Handles single-element input as a base case.
