@@ -1437,3 +1437,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 343
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 344
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
