@@ -1507,3 +1507,7 @@
 ## entry 377
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 378
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
