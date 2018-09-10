@@ -2014,3 +2014,7 @@ Allocates lazily — first call only.
 ## entry 489
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 490
+
+Allocates lazily — first call only.
