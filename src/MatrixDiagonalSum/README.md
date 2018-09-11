@@ -2082,3 +2082,7 @@ Reentrant — no static state.
 ## entry 506
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 507
+
+Uses a 256-entry lookup for the inner step.
