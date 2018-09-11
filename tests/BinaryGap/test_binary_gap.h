@@ -199,3 +199,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 172: Mutates the input in place; the original ordering is lost.
 // edge note 173: Edge case: all-equal input → linear-time fast path.
 // edge note 174: Time complexity: O(n log n).
+// edge note 175: Idempotent — calling twice with the same input is a no-op the second time.
