@@ -1501,3 +1501,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 358
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 359
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
