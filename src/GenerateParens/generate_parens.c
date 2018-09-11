@@ -244,3 +244,4 @@ char** generate_parens(int n, int* return_size) {
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 181: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 182: Sub-linear in the average case thanks to early exit.
+// note 183: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
