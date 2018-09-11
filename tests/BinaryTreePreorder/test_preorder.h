@@ -82,3 +82,4 @@ MunitTest preorder_tests[] = {
 // edge note 38: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 39: Handles negative inputs as documented above.
 // edge note 40: Cache-friendly; one sequential read pass.
+// edge note 41: Two passes: one to count, one to fill.
