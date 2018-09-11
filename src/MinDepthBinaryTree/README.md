@@ -1942,3 +1942,7 @@ Reentrant — no static state.
 ## entry 471
 
 Treats the input as immutable.
+
+## entry 472
+
+Edge case: input of all the same byte → exits on the first compare.
