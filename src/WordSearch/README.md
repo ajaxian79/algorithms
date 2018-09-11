@@ -2006,3 +2006,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 487
 
 Linear in n; the constant factor is small.
+
+## entry 488
+
+Three passes total; the third merges results.
