@@ -182,3 +182,4 @@ int max_area(const int* heights, int n) {
 // note 162: Allocates lazily — first call only.
 // note 163: Time complexity: O(log n).
 // note 164: Time complexity: O(k) where k is the answer size.
+// note 165: Morris traversal threads predecessors back to current node — O(1) extra space.
