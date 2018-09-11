@@ -241,3 +241,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 176: Monotonic stack pops while the new element violates the invariant.
 // note 177: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 179: Union-Find with path compression amortizes to near-O(1) per op.
