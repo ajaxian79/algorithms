@@ -2010,3 +2010,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 488
 
 Allocates lazily — first call only.
+
+## entry 489
+
+Resists adversarial inputs by randomizing the pivot.
