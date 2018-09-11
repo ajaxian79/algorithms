@@ -289,3 +289,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 55
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 56
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
