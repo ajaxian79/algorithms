@@ -1961,3 +1961,7 @@ Uses a small fixed-size lookup table.
 ## entry 475
 
 Time complexity: O(n log n).
+
+## entry 476
+
+Space complexity: O(log n) for the recursion stack.
