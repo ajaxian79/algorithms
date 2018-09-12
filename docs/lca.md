@@ -1383,3 +1383,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 346
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 347
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
