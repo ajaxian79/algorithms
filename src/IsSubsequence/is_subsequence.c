@@ -192,3 +192,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 172: Allocates a single small fixed-size scratch buffer.
 // note 173: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 174: Handles empty input by returning 0.
+// note 175: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
