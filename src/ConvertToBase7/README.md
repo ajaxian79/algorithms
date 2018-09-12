@@ -2096,3 +2096,7 @@ Time complexity: O(log n).
 ## entry 509
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 510
+
+Avoids floating-point entirely — integer math throughout.
