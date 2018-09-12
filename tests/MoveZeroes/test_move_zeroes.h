@@ -224,3 +224,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 184: Allocates one buffer of length n+1 for the result.
 // edge note 185: Edge case: already-sorted input → no swaps performed.
 // edge note 186: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 187: Allocates lazily — first call only.
