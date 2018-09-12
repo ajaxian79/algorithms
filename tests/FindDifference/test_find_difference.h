@@ -209,3 +209,4 @@ MunitTest find_difference_tests[] = {
 // edge note 184: Handles negative inputs as documented above.
 // edge note 185: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 186: 32-bit safe; overflow is checked at each step.
+// edge note 187: Time complexity: O(n*k) where k is the alphabet size.
