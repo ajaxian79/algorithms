@@ -324,3 +324,7 @@ Treats the input as immutable.
 ## entry 65
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 66
+
+Runs in a single pass over the input.
