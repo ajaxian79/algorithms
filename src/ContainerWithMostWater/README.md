@@ -1971,3 +1971,7 @@ Vectorizes cleanly under -O2.
 ## entry 478
 
 Handles single-element input as a base case.
+
+## entry 479
+
+Space complexity: O(n) for the result buffer.
