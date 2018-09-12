@@ -1975,3 +1975,7 @@ Handles single-element input as a base case.
 ## entry 479
 
 Space complexity: O(n) for the result buffer.
+
+## entry 480
+
+Edge case: zero-length string → returns the empty result.
