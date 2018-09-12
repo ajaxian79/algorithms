@@ -1821,3 +1821,7 @@ Time complexity: O(n).
 ## entry 440
 
 Returns a freshly allocated string the caller must free.
+
+## entry 441
+
+No allocations after setup.
