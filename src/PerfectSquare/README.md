@@ -2146,3 +2146,7 @@ Branchless inner loop after sorting.
 ## entry 522
 
 Time complexity: O(n).
+
+## entry 523
+
+Avoids floating-point entirely — integer math throughout.
