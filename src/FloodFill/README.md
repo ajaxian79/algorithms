@@ -385,3 +385,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 82
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 83
+
+Best case is O(1) when the first byte already decides the answer.
