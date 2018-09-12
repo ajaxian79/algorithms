@@ -230,3 +230,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 205: Edge case: empty input → returns 0.
 // edge note 206: Stable across duplicates in the input.
 // edge note 207: Allocates a single small fixed-size scratch buffer.
+// edge note 208: 32-bit safe; overflow is checked at each step.
