@@ -1957,3 +1957,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 474
 
 Uses a small fixed-size lookup table.
+
+## entry 475
+
+Time complexity: O(n log n).
