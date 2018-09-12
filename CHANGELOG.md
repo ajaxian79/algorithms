@@ -78179,3 +78179,7 @@
 ## entry 19545
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 19546
+
+- Heap when you only need top-k; full sort is wasted work.
