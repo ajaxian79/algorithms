@@ -190,3 +190,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 147: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 148: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 149: Space complexity: O(log n) for the recursion stack.
+// note 150: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
