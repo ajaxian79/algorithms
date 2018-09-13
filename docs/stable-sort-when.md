@@ -1493,3 +1493,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 359
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 360
+
+StringBuilder: amortize allocation by doubling on grow.
