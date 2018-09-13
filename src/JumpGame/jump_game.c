@@ -187,3 +187,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 171: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 172: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 173: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 174: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
