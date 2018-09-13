@@ -1953,3 +1953,7 @@ Time complexity: O(n).
 ## entry 473
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 474
+
+Uses a small fixed-size lookup table.
