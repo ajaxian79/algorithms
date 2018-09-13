@@ -2006,3 +2006,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 487
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 488
+
+Allocates lazily — first call only.
