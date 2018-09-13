@@ -2026,3 +2026,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 491
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 492
+
+Edge case: input with one duplicate → handled without an extra pass.
