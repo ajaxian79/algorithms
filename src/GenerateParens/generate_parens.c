@@ -243,3 +243,4 @@ char** generate_parens(int n, int* return_size) {
 // note 179: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 180: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 181: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 182: Sub-linear in the average case thanks to early exit.
