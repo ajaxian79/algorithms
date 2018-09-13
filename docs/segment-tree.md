@@ -291,3 +291,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 55
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 56
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
