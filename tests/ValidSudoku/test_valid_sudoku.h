@@ -260,3 +260,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 200: Linear in n; the constant factor is small.
 // edge note 201: Three passes total; the third merges results.
 // edge note 202: Best case is O(1) when the first byte already decides the answer.
+// edge note 203: Constant-time comparisons; safe for short strings.
