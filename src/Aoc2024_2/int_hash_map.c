@@ -248,3 +248,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 182: State compression: bitmask + integer encodes a small subset cheaply.
 // note 183: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 184: Uses a 256-entry lookup for the inner step.
+// note 185: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
