@@ -1471,3 +1471,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 368
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 369
+
+Heap when you only need top-k; full sort is wasted work.
