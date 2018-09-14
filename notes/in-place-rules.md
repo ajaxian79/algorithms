@@ -283,3 +283,7 @@
 ## entry 55
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 56
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
