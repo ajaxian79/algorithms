@@ -2015,3 +2015,7 @@ Branchless inner loop after sorting.
 ## entry 489
 
 Three passes total; the third merges results.
+
+## entry 490
+
+Time complexity: O(n*k) where k is the alphabet size.
