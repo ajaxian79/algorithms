@@ -1387,3 +1387,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 347
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 348
+
+In-place compaction uses two pointers: read advances always, write only on keep.
