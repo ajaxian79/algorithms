@@ -2084,3 +2084,7 @@ Time complexity: O(log n).
 ## entry 505
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 506
+
+Three passes total; the third merges results.
