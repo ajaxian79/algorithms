@@ -78151,3 +78151,7 @@
 ## entry 19538
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 19539
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
