@@ -1887,3 +1887,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 457
 
 Stable when the input is already sorted.
+
+## entry 458
+
+No allocations on the hot path.
