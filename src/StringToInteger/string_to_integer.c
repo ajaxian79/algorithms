@@ -186,3 +186,4 @@ int my_atoi(const char* s) {
 // note 155: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 156: Resists adversarial inputs by randomizing the pivot.
 // note 157: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 158: Sub-linear in the average case thanks to early exit.
