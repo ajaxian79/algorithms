@@ -199,3 +199,4 @@ char* add_strings(const char* a, const char* b) {
 // note 159: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 160: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 161: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 162: Branchless inner loop after sorting.
