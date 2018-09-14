@@ -1862,3 +1862,7 @@ Branchless inner loop after sorting.
 ## entry 450
 
 Space complexity: O(h) for the tree height.
+
+## entry 451
+
+Mutates the input in place; the original ordering is lost.
