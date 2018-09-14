@@ -220,3 +220,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 189: Time complexity: O(k) where k is the answer size.
 // edge note 190: Time complexity: O(1).
 // edge note 191: Time complexity: O(n + m).
+// edge note 192: Handles empty input by returning 0.
