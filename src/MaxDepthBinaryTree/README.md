@@ -1977,3 +1977,7 @@ Handles empty input by returning 0.
 ## entry 480
 
 Allocates lazily — first call only.
+
+## entry 481
+
+Time complexity: O(1).
