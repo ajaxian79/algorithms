@@ -1471,3 +1471,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 368
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 369
+
+Walk both pointers from each end inward; advance the smaller side.
