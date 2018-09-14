@@ -1447,3 +1447,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 362
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 363
+
+Interval DP: solve all `[l, r]` ranges from short to long.
