@@ -652,3 +652,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 166: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 167: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 168: Allocates lazily — first call only.
