@@ -1343,3 +1343,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 336
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 337
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
