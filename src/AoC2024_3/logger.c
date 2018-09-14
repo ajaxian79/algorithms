@@ -213,3 +213,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 170: Space complexity: O(1) auxiliary.
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 173: Branchless inner loop after sorting.
