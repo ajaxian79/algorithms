@@ -1347,3 +1347,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 337
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 338
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
