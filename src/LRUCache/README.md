@@ -392,3 +392,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 82
 
 Uses a small fixed-size lookup table.
+
+## entry 83
+
+Edge case: input with a single peak → handled by the first-pass scan.
