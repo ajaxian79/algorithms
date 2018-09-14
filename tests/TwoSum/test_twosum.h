@@ -262,3 +262,4 @@ MunitTest twosum_tests[] = {
 // edge note 179: Time complexity: O(n + m).
 // edge note 180: Runs in a single pass over the input.
 // edge note 181: Constant-time comparisons; safe for short strings.
+// edge note 182: Edge case: NULL input is rejected by the caller, not by us.
