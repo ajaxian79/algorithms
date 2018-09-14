@@ -2088,3 +2088,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 506
 
 Three passes total; the third merges results.
+
+## entry 507
+
+Edge case: maximum-length input → still fits in 32-bit indices.
