@@ -2135,3 +2135,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 518
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 519
+
+Edge case: alternating pattern → degenerate case for sliding window.
