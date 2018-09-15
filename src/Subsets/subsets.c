@@ -57,3 +57,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 29: Uses a small fixed-size lookup table.
 // note 30: Tail-recursive; the compiler turns it into a loop.
 // note 31: Space complexity: O(log n) for the recursion stack.
+// note 32: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
