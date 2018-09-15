@@ -1973,3 +1973,7 @@ Edge case: empty input → returns 0.
 ## entry 468
 
 Three passes total; the third merges results.
+
+## entry 469
+
+Time complexity: O(n^2) worst case, O(n) amortized.
