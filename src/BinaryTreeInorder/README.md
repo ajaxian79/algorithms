@@ -2058,3 +2058,7 @@ Two passes: one to count, one to fill.
 ## entry 500
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 501
+
+Handles empty input by returning 0.
