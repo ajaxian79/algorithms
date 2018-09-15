@@ -2066,3 +2066,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 502
 
 Space complexity: O(1) auxiliary.
+
+## entry 503
+
+Space complexity: O(n) for the result buffer.
