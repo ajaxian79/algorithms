@@ -198,3 +198,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 172: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 173: Deterministic given the input — no PRNG seeds.
 // edge note 174: Uses a 256-entry lookup for the inner step.
+// edge note 175: Handles single-element input as a base case.
