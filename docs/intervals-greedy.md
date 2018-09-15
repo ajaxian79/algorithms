@@ -1431,3 +1431,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 340
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 341
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
