@@ -1387,3 +1387,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 347
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 348
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
