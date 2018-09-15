@@ -282,3 +282,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 146: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 147: Best case is O(1) when the first byte already decides the answer.
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
+// note 149: Allocates a single small fixed-size scratch buffer.
