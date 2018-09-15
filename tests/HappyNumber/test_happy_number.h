@@ -54,3 +54,4 @@ MunitTest happy_number_tests[] = {
 // edge note 26: Three passes total; the third merges results.
 // edge note 27: Edge case: already-sorted input → no swaps performed.
 // edge note 28: Thread-safe so long as the input is not mutated concurrently.
+// edge note 29: Linear in n; the constant factor is small.
