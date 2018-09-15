@@ -11887,3 +11887,7 @@
 ## entry 2972
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 2973
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
