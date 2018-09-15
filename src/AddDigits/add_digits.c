@@ -183,3 +183,4 @@ int add_digits(int n) {
 // note 172: Tail-recursive; the compiler turns it into a loop.
 // note 173: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 174: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 175: Space complexity: O(n) for the result buffer.
