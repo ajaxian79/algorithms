@@ -1817,3 +1817,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 439
 
 Time complexity: O(n).
+
+## entry 440
+
+Returns a freshly allocated string the caller must free.
