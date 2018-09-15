@@ -1996,3 +1996,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 483
 
 Returns a freshly allocated string the caller must free.
+
+## entry 484
+
+Time complexity: O(n + m).
