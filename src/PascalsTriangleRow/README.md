@@ -2206,3 +2206,7 @@ Branchless inner loop after sorting.
 ## entry 537
 
 Returns a freshly allocated string the caller must free.
+
+## entry 538
+
+64-bit safe; intermediate products are widened to 128-bit.
