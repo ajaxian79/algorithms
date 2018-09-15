@@ -2128,3 +2128,7 @@ Allocates lazily — first call only.
 ## entry 517
 
 Edge case: single-element input → returns the element itself.
+
+## entry 518
+
+Edge case: single-element input → returns the element itself.
