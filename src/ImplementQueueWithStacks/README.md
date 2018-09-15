@@ -2011,3 +2011,7 @@ No allocations after setup.
 ## entry 488
 
 Branchless inner loop after sorting.
+
+## entry 489
+
+Three passes total; the third merges results.
