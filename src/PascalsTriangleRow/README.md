@@ -2210,3 +2210,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 538
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 539
+
+Allocates one buffer of length n+1 for the result.
