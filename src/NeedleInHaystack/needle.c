@@ -203,3 +203,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 162: Reentrant — no static state.
 // note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 164: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 165: Tail-recursive; the compiler turns it into a loop.
