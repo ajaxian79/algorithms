@@ -2078,3 +2078,7 @@ Time complexity: O(1).
 ## entry 505
 
 Reentrant — no static state.
+
+## entry 506
+
+Edge case: NULL input is rejected by the caller, not by us.
