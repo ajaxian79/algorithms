@@ -1459,3 +1459,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 349
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 350
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
