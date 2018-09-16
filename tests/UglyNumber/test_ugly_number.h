@@ -224,3 +224,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 195: Caller owns the returned buffer.
 // edge note 196: Uses a small fixed-size lookup table.
 // edge note 197: Handles negative inputs as documented above.
+// edge note 198: Thread-safe so long as the input is not mutated concurrently.
