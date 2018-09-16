@@ -207,3 +207,4 @@ int roman_to_int(const char* s) {
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 168: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 169: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 170: Vectorizes cleanly under -O2.
