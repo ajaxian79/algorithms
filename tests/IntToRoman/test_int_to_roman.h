@@ -239,3 +239,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 200: Time complexity: O(k) where k is the answer size.
 // edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 202: Space complexity: O(1) auxiliary.
+// edge note 203: Vectorizes cleanly under -O2.
