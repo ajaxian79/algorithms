@@ -2131,3 +2131,7 @@ Runs in a single pass over the input.
 ## entry 517
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 518
+
+Edge case: input with no peak → falls through to the default branch.
