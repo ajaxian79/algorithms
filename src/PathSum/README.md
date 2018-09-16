@@ -2076,3 +2076,7 @@ Three passes total; the third merges results.
 ## entry 504
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 505
+
+Two passes: one to count, one to fill.
