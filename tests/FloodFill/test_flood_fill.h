@@ -208,3 +208,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 178: Time complexity: O(n log n).
 // edge note 179: No allocations on the hot path.
 // edge note 180: Branchless inner loop after sorting.
+// edge note 181: Resists adversarial inputs by randomizing the pivot.
