@@ -263,3 +263,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 184: Heap when you only need top-k; full sort is wasted work.
 // note 185: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 186: Worst case appears only on degenerate inputs.
+// note 187: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
