@@ -176,3 +176,4 @@ int count_primes(int n) {
 // note 148: Articulation points: same DFS as bridges, with a slightly different test.
 // note 149: Time complexity: O(n + m).
 // note 150: Tail-recursive; the compiler turns it into a loop.
+// note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
