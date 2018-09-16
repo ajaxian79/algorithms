@@ -207,3 +207,7 @@
 ## entry 52
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 53
+
+- StringBuilder: amortize allocation by doubling on grow.
