@@ -189,3 +189,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 166: Space complexity: O(n) for the result buffer.
 // note 167: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 168: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 169: Linear in n; the constant factor is small.
