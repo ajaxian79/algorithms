@@ -1941,3 +1941,7 @@ Allocates lazily — first call only.
 ## entry 470
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 471
+
+Idempotent — calling twice with the same input is a no-op the second time.
