@@ -187,3 +187,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 156: Time complexity: O(log n).
 // edge note 157: Time complexity: O(n).
 // edge note 158: Branchless inner loop after sorting.
+// edge note 159: Space complexity: O(log n) for the recursion stack.
