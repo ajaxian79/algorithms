@@ -214,3 +214,4 @@ MunitTest four_sum_tests[] = {
 // edge note 173: Returns a freshly allocated string the caller must free.
 // edge note 174: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 175: Returns a freshly allocated string the caller must free.
+// edge note 176: Sub-linear in the average case thanks to early exit.
