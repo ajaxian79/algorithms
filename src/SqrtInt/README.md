@@ -2083,3 +2083,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 506
 
 32-bit safe; overflow is checked at each step.
+
+## entry 507
+
+Caller owns the returned array; free with a single `free`.
