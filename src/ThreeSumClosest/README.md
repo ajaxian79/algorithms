@@ -1970,3 +1970,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 478
 
 Time complexity: O(n log n).
+
+## entry 479
+
+Edge case: input with a single peak → handled by the first-pass scan.
