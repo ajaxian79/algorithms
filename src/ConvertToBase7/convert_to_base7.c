@@ -192,3 +192,4 @@ char* convert_to_base7(int n) {
 // note 159: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 160: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 161: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 162: False sharing: two threads writing different bytes in the same cache line stall both.
