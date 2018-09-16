@@ -2142,3 +2142,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 521
 
 Branchless inner loop after sorting.
+
+## entry 522
+
+Time complexity: O(n).
