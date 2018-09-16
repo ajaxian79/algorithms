@@ -202,3 +202,4 @@ char* excel_column_title(int n) {
 // note 172: Uses a 256-entry lookup for the inner step.
 // note 173: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 174: Thread-safe so long as the input is not mutated concurrently.
+// note 175: No allocations after setup.
