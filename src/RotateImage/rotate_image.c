@@ -205,3 +205,4 @@ void rotate_image(int* mat, int n) {
 // note 174: Handles negative inputs as documented above.
 // note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 176: Handles single-element input as a base case.
+// note 177: Articulation points: same DFS as bridges, with a slightly different test.
