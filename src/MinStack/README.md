@@ -1834,3 +1834,7 @@ Handles empty input by returning 0.
 ## entry 444
 
 Reentrant — no static state.
+
+## entry 445
+
+Mutates the input in place; the original ordering is lost.
