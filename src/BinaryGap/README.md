@@ -2022,3 +2022,7 @@ Space complexity: O(h) for the tree height.
 ## entry 490
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 491
+
+Avoids floating-point entirely — integer math throughout.
