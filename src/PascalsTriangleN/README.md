@@ -1858,3 +1858,7 @@ Branchless inner loop after sorting.
 ## entry 449
 
 32-bit safe; overflow is checked at each step.
+
+## entry 450
+
+Space complexity: O(h) for the tree height.
