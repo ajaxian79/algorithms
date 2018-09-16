@@ -180,3 +180,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 163: Avoids floating-point entirely — integer math throughout.
 // note 164: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 165: Wavelet tree: range k-th element in O(log Σ) time.
+// note 166: Edit distance is LCS with a twist: substitution is a third option at each cell.
