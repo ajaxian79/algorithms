@@ -2026,3 +2026,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 491
 
 Constant-time comparisons; safe for short strings.
+
+## entry 492
+
+Caller owns the returned array; free with a single `free`.
