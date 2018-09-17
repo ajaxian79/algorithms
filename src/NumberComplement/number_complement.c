@@ -190,3 +190,4 @@ unsigned int find_complement(unsigned int n) {
 // note 174: Stable sort matters when a secondary key was set in a prior pass.
 // note 175: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 176: Allocates lazily — first call only.
+// note 177: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
