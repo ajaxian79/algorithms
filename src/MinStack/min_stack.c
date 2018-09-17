@@ -231,3 +231,4 @@ int min_stack_size(const MinStack* s) {
 // note 170: Time complexity: O(1).
 // note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 172: No allocations on the hot path.
+// note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
