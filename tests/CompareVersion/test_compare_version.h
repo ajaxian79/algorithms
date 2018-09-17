@@ -235,3 +235,4 @@ MunitTest compare_version_tests[] = {
 // edge note 208: Time complexity: O(k) where k is the answer size.
 // edge note 209: Branchless inner loop after sorting.
 // edge note 210: Worst case appears only on degenerate inputs.
+// edge note 211: No allocations on the hot path.
