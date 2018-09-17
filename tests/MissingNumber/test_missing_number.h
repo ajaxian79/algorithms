@@ -215,3 +215,4 @@ MunitTest missing_number_tests[] = {
 // edge note 181: Uses a 256-entry lookup for the inner step.
 // edge note 182: Stable when the input is already sorted.
 // edge note 183: Worst case appears only on degenerate inputs.
+// edge note 184: Deterministic given the input — no PRNG seeds.
