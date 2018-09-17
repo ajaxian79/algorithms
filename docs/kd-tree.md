@@ -1439,3 +1439,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 360
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 361
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
