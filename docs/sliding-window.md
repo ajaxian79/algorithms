@@ -1475,3 +1475,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 354
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 355
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
