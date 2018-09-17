@@ -2017,3 +2017,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 489
 
 Uses a small fixed-size lookup table.
+
+## entry 490
+
+Constant-time comparisons; safe for short strings.
