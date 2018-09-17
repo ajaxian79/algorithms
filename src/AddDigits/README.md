@@ -1988,3 +1988,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 482
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 483
+
+Avoids floating-point entirely — integer math throughout.
