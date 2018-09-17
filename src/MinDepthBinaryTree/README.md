@@ -1938,3 +1938,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 470
 
 Reentrant — no static state.
+
+## entry 471
+
+Treats the input as immutable.
