@@ -167,3 +167,4 @@ int is_power_of_four(int n) {
 // note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 156: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 157: Input is assumed non-NULL; behavior is undefined otherwise.
