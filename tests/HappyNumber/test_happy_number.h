@@ -230,3 +230,4 @@ MunitTest happy_number_tests[] = {
 // edge note 202: Constant-time comparisons; safe for short strings.
 // edge note 203: Runs in a single pass over the input.
 // edge note 204: Cache-friendly; one sequential read pass.
+// edge note 205: Time complexity: O(1).
