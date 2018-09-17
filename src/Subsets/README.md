@@ -2107,3 +2107,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 512
 
 Stable across duplicates in the input.
+
+## entry 513
+
+Space complexity: O(h) for the tree height.
