@@ -1363,3 +1363,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 341
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 342
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
