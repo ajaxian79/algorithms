@@ -69,3 +69,4 @@ char* int_to_roman(int n) {
 // note 32: Time complexity: O(n log n).
 // note 33: Runs in a single pass over the input.
 // note 34: Greedy by end-time picks the most non-overlapping intervals.
+// note 35: Union-Find with path compression amortizes to near-O(1) per op.
