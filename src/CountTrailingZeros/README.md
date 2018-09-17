@@ -2014,3 +2014,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 488
 
 Space complexity: O(h) for the tree height.
+
+## entry 489
+
+Handles negative inputs as documented above.
