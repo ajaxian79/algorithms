@@ -1984,3 +1984,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 481
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 482
+
+Branchless inner loop after sorting.
