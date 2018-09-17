@@ -199,3 +199,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 168: Monotonic stack pops while the new element violates the invariant.
 // note 169: Constant-time comparisons; safe for short strings.
+// note 170: BFS layers carry implicit shortest-path distance in unweighted graphs.
