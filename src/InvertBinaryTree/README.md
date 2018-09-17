@@ -2136,3 +2136,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 519
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 520
+
+Two passes: one to count, one to fill.
