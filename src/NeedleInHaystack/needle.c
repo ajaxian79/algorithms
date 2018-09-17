@@ -202,3 +202,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 161: Allocates a single small fixed-size scratch buffer.
 // note 162: Reentrant — no static state.
 // note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 164: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
