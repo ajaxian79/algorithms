@@ -1937,3 +1937,7 @@ Reentrant — no static state.
 ## entry 469
 
 Allocates lazily — first call only.
+
+## entry 470
+
+Edge case: reverse-sorted input → still O(n log n).
