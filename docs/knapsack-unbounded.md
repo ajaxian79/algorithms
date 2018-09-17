@@ -1519,3 +1519,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 364
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 365
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
