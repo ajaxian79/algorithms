@@ -1235,3 +1235,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 309
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 310
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
