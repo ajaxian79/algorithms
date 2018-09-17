@@ -1519,3 +1519,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 362
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 363
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
