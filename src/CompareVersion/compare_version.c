@@ -200,3 +200,4 @@ int compare_version(const char* a, const char* b) {
 // note 170: Time complexity: O(1).
 // note 171: Euler tour flattens a tree into an array for range-query LCA.
 // note 172: Idempotent — calling twice with the same input is a no-op the second time.
+// note 173: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
