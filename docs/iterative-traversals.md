@@ -309,3 +309,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 61
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 62
+
+Endianness matters when serializing multi-byte ints to a file or wire.
