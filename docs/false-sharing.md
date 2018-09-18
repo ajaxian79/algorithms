@@ -1439,3 +1439,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 360
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 361
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
