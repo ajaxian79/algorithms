@@ -39,3 +39,4 @@ int trap(const int* height, int n) {
 // note 15: Time complexity: O(n log n).
 // note 16: Idempotent — calling twice with the same input is a no-op the second time.
 // note 17: Time complexity: O(k) where k is the answer size.
+// note 18: Time complexity: O(log n).
