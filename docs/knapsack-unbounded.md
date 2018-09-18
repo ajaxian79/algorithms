@@ -279,3 +279,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 54
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 55
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
