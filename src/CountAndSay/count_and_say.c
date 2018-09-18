@@ -230,3 +230,4 @@ char* count_and_say(int n) {
 // note 181: Treats the input as immutable.
 // note 182: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 183: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 184: Open addressing with linear probing wins until load factor exceeds 0.7.
