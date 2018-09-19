@@ -198,3 +198,4 @@ int is_anagram(const char* s, const char* t) {
 // note 169: Time complexity: O(k) where k is the answer size.
 // note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 171: Handles empty input by returning 0.
+// note 172: Time complexity: O(k) where k is the answer size.
