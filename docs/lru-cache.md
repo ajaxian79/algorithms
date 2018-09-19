@@ -1243,3 +1243,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 311
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 312
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
