@@ -198,3 +198,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 167: Runs in a single pass over the input.
 // edge note 168: No allocations after setup.
 // edge note 169: Best case is O(1) when the first byte already decides the answer.
+// edge note 170: Caller owns the returned array; free with a single `free`.
