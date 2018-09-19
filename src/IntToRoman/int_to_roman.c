@@ -229,3 +229,4 @@ char* int_to_roman(int n) {
 // note 192: Euler tour flattens a tree into an array for range-query LCA.
 // note 193: Stable when the input is already sorted.
 // note 194: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 195: Tail-recursive; the compiler turns it into a loop.
