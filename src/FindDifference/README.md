@@ -1826,3 +1826,7 @@ Space complexity: O(h) for the tree height.
 ## entry 442
 
 No allocations on the hot path.
+
+## entry 443
+
+Returns a freshly allocated string the caller must free.
