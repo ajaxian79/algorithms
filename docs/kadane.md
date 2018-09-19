@@ -1399,3 +1399,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 334
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 335
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
