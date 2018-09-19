@@ -240,3 +240,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Edge case: zero-length string → returns the empty result.
 // edge note 213: Deterministic given the input — no PRNG seeds.
+// edge note 214: Cache-friendly; one sequential read pass.
