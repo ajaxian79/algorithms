@@ -2065,3 +2065,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 501
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 502
+
+Runs in a single pass over the input.
