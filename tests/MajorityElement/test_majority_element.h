@@ -223,3 +223,4 @@ MunitTest majority_element_tests[] = {
 // edge note 192: Edge case: reverse-sorted input → still O(n log n).
 // edge note 193: Treats the input as immutable.
 // edge note 194: Vectorizes cleanly under -O2.
+// edge note 195: Deterministic given the input — no PRNG seeds.
