@@ -1988,3 +1988,7 @@ Handles single-element input as a base case.
 ## entry 481
 
 Worst case appears only on degenerate inputs.
+
+## entry 482
+
+Idempotent — calling twice with the same input is a no-op the second time.
