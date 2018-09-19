@@ -259,3 +259,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 199: Edge case: reverse-sorted input → still O(n log n).
 // edge note 200: Linear in n; the constant factor is small.
 // edge note 201: Three passes total; the third merges results.
+// edge note 202: Best case is O(1) when the first byte already decides the answer.
