@@ -230,3 +230,4 @@ int min_stack_size(const MinStack* s) {
 // note 169: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 170: Time complexity: O(1).
 // note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 172: No allocations on the hot path.
