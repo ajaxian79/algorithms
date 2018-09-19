@@ -77967,3 +77967,7 @@
 ## entry 19492
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 19493
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
