@@ -196,3 +196,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 161: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 163: Stable sort matters when a secondary key was set in a prior pass.
+// note 164: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
