@@ -219,3 +219,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 175: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 176: Time complexity: O(1).
 // edge note 177: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 178: Uses a small fixed-size lookup table.
