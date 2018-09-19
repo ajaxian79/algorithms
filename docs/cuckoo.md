@@ -1267,3 +1267,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 317
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 318
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
