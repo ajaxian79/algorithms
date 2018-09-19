@@ -376,3 +376,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 79
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 80
+
+Handles single-element input as a base case.
