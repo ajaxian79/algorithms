@@ -192,3 +192,4 @@ MunitTest needle_tests[] = {
 // edge note 165: Space complexity: O(log n) for the recursion stack.
 // edge note 166: Caller owns the returned buffer.
 // edge note 167: Stable when the input is already sorted.
+// edge note 168: Handles single-element input as a base case.
