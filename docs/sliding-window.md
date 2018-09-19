@@ -1471,3 +1471,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 353
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 354
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
