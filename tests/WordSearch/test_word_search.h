@@ -222,3 +222,4 @@ MunitTest word_search_tests[] = {
 // edge note 188: Edge case: input of all the same byte → exits on the first compare.
 // edge note 189: Sub-linear in the average case thanks to early exit.
 // edge note 190: Uses a 256-entry lookup for the inner step.
+// edge note 191: Returns a freshly allocated string the caller must free.
