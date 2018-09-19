@@ -1966,3 +1966,7 @@ Time complexity: O(n + m).
 ## entry 477
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 478
+
+Time complexity: O(n log n).
