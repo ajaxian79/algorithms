@@ -2037,3 +2037,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 494
 
 Handles negative inputs as documented above.
+
+## entry 495
+
+Edge case: reverse-sorted input → still O(n log n).
