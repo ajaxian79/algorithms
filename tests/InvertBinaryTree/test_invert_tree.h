@@ -216,3 +216,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 174: No allocations after setup.
 // edge note 175: Time complexity: O(k) where k is the answer size.
 // edge note 176: Resists adversarial inputs by randomizing the pivot.
+// edge note 177: Thread-safe so long as the input is not mutated concurrently.
