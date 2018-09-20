@@ -1890,3 +1890,7 @@ Time complexity: O(n + m).
 ## entry 458
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 459
+
+Space complexity: O(1) auxiliary.
