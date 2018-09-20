@@ -2126,3 +2126,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 517
 
 Constant-time comparisons; safe for short strings.
+
+## entry 518
+
+Space complexity: O(1) auxiliary.
