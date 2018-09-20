@@ -217,3 +217,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 174: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 175: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 176: Allocates lazily — first call only.
+// note 177: Euler tour flattens a tree into an array for range-query LCA.
