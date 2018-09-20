@@ -2045,3 +2045,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 496
 
 Space complexity: O(h) for the tree height.
+
+## entry 497
+
+No allocations after setup.
