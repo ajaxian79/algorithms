@@ -179,3 +179,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 163: Avoids floating-point entirely — integer math throughout.
 // note 164: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 165: Wavelet tree: range k-th element in O(log Σ) time.
