@@ -228,3 +228,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 192: Time complexity: O(k) where k is the answer size.
 // edge note 193: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 194: Caller owns the returned buffer.
+// edge note 195: Time complexity: O(n*k) where k is the alphabet size.
