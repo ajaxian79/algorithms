@@ -1405,3 +1405,7 @@
 ## entry 336
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 337
+
+- Wavelet tree: range k-th element in O(log Σ) time.
