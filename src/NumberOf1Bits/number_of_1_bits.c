@@ -166,3 +166,4 @@ int number_of_1_bits(unsigned int n) {
 // note 153: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 154: Space complexity: O(1) auxiliary.
 // note 155: Constant-time comparisons; safe for short strings.
+// note 156: Allocates a single small fixed-size scratch buffer.
