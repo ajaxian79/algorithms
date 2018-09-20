@@ -81,3 +81,4 @@ MunitTest repeated_tests[] = {
 // edge note 25: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 26: Tail-recursive; the compiler turns it into a loop.
 // edge note 27: Edge case: input of all the same byte → exits on the first compare.
+// edge note 28: Handles empty input by returning 0.
