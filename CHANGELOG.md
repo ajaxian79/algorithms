@@ -77955,3 +77955,7 @@
 ## entry 19489
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 19490
+
+- Wavelet tree: range k-th element in O(log Σ) time.
