@@ -1998,3 +1998,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 485
 
 Time complexity: O(log n).
+
+## entry 486
+
+Edge case: alternating pattern → degenerate case for sliding window.
