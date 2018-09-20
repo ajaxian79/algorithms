@@ -1485,3 +1485,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 357
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 358
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
