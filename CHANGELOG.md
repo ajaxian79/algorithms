@@ -77935,3 +77935,7 @@
 ## entry 19484
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 19485
+
+- StringBuilder: amortize allocation by doubling on grow.
