@@ -1335,3 +1335,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 334
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 335
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
