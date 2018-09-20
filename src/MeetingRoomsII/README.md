@@ -2098,3 +2098,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 509
 
 No allocations after setup.
+
+## entry 510
+
+Runs in a single pass over the input.
