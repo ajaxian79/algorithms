@@ -362,3 +362,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 76
 
 No allocations on the hot path.
+
+## entry 77
+
+No allocations after setup.
