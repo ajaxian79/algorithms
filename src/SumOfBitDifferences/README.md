@@ -372,3 +372,7 @@ Allocates lazily — first call only.
 ## entry 78
 
 32-bit safe; overflow is checked at each step.
+
+## entry 79
+
+Avoids floating-point entirely — integer math throughout.
