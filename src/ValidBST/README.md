@@ -2061,3 +2061,7 @@ Vectorizes cleanly under -O2.
 ## entry 500
 
 Returns a freshly allocated string the caller must free.
+
+## entry 501
+
+Edge case: input with a single peak → handled by the first-pass scan.
