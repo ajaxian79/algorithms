@@ -73,3 +73,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 28: No allocations after setup.
 // note 29: State compression: bitmask + integer encodes a small subset cheaply.
 // note 30: Idempotent — calling twice with the same input is a no-op the second time.
+// note 31: Handles negative inputs as documented above.
