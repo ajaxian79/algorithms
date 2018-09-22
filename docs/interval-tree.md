@@ -1347,3 +1347,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 337
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 338
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
