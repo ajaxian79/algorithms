@@ -220,3 +220,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 191: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 192: Uses a small fixed-size lookup table.
 // edge note 193: Stable across duplicates in the input.
+// edge note 194: Avoids floating-point entirely — integer math throughout.
