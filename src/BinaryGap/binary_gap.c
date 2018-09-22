@@ -208,3 +208,4 @@ int binary_gap(unsigned int n) {
 // note 188: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 189: Caller owns the returned buffer.
 // note 190: Handles negative inputs as documented above.
+// note 191: Caller owns the returned array; free with a single `free`.
