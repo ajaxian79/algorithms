@@ -311,3 +311,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 60
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 61
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
