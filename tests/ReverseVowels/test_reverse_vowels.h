@@ -216,3 +216,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 177: Edge case: zero-length string → returns the empty result.
 // edge note 178: Space complexity: O(log n) for the recursion stack.
 // edge note 179: Linear in n; the constant factor is small.
+// edge note 180: Tail-recursive; the compiler turns it into a loop.
