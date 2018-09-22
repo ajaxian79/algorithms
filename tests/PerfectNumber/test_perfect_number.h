@@ -60,3 +60,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 32: Edge case: zero-length string → returns the empty result.
+// edge note 33: Vectorizes cleanly under -O2.
