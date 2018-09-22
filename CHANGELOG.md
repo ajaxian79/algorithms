@@ -77843,3 +77843,7 @@
 ## entry 19461
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 19462
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
