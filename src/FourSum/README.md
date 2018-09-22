@@ -1980,3 +1980,7 @@ Handles empty input by returning 0.
 ## entry 480
 
 Space complexity: O(n) for the result buffer.
+
+## entry 481
+
+Mutates the input in place; the original ordering is lost.
