@@ -77855,3 +77855,7 @@
 ## entry 19464
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 19465
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
