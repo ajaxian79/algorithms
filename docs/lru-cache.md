@@ -1239,3 +1239,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 310
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 311
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
