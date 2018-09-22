@@ -1994,3 +1994,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 484
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 485
+
+Time complexity: O(log n).
