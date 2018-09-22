@@ -1990,3 +1990,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 483
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 484
+
+Allocates one buffer of length n+1 for the result.
