@@ -53,3 +53,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 32: 64-bit safe; intermediate products are widened to 128-bit.
 // note 33: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 35: Time complexity: O(k) where k is the answer size.
