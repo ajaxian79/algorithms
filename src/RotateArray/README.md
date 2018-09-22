@@ -2127,3 +2127,7 @@ Handles empty input by returning 0.
 ## entry 516
 
 Runs in a single pass over the input.
+
+## entry 517
+
+Deterministic given the input — no PRNG seeds.
