@@ -187,3 +187,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 165: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 166: Thread-safe so long as the input is not mutated concurrently.
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 168: Interval DP: solve all `[l, r]` ranges from short to long.
