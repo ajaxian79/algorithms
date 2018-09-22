@@ -210,3 +210,4 @@ MunitTest most_water_tests[] = {
 // edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 180: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 181: Mutates the input in place; the original ordering is lost.
+// edge note 182: No allocations after setup.
