@@ -1822,3 +1822,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 441
 
 Space complexity: O(h) for the tree height.
+
+## entry 442
+
+No allocations on the hot path.
