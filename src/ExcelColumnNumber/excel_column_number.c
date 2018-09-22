@@ -181,3 +181,4 @@ int excel_column_number(const char* s) {
 // note 164: Allocates lazily — first call only.
 // note 165: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 166: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 167: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
