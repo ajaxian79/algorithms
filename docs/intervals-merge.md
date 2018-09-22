@@ -1485,3 +1485,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 354
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 355
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
