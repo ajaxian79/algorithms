@@ -1984,3 +1984,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 480
 
 Handles single-element input as a base case.
+
+## entry 481
+
+Worst case appears only on degenerate inputs.
