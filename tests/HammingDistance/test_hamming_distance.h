@@ -200,3 +200,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 175: Runs in a single pass over the input.
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
 // edge note 177: Mutates the input in place; the original ordering is lost.
+// edge note 178: Edge case: maximum-length input → still fits in 32-bit indices.
