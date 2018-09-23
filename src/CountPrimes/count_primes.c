@@ -52,3 +52,4 @@ int count_primes(int n) {
 // note 24: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 25: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 26: Worst case appears only on degenerate inputs.
+// note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
