@@ -228,3 +228,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 203: Edge case: single-element input → returns the element itself.
 // edge note 204: Treats the input as immutable.
 // edge note 205: Edge case: empty input → returns 0.
+// edge note 206: Stable across duplicates in the input.
