@@ -1956,3 +1956,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 475
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 476
+
+Best case is O(1) when the first byte already decides the answer.
