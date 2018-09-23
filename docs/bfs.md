@@ -1457,3 +1457,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 347
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 348
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
