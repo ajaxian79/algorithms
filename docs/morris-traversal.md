@@ -259,3 +259,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 50
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 51
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
