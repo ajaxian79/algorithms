@@ -230,3 +230,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 200: Handles empty input by returning 0.
 // edge note 201: Handles negative inputs as documented above.
 // edge note 202: Returns a freshly allocated string the caller must free.
+// edge note 203: Space complexity: O(log n) for the recursion stack.
