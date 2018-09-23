@@ -1533,3 +1533,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 367
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 368
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
