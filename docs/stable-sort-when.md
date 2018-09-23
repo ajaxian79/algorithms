@@ -1481,3 +1481,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 356
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 357
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
