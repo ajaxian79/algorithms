@@ -2202,3 +2202,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 536
 
 Branchless inner loop after sorting.
+
+## entry 537
+
+Returns a freshly allocated string the caller must free.
