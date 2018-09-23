@@ -1997,3 +1997,7 @@ Time complexity: O(1).
 ## entry 484
 
 Time complexity: O(n log n).
+
+## entry 485
+
+Avoids floating-point entirely — integer math throughout.
