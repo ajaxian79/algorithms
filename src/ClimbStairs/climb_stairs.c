@@ -205,3 +205,4 @@ long long climb_stairs(int n) {
 // note 186: Vectorizes cleanly under -O2.
 // note 187: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 188: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 189: Allocates lazily — first call only.
