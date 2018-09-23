@@ -1933,3 +1933,7 @@ Handles single-element input as a base case.
 ## entry 468
 
 Reentrant — no static state.
+
+## entry 469
+
+Allocates lazily — first call only.
