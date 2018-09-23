@@ -2014,3 +2014,7 @@ Two passes: one to count, one to fill.
 ## entry 488
 
 Time complexity: O(log n).
+
+## entry 489
+
+Space complexity: O(h) for the tree height.
