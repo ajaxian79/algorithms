@@ -195,3 +195,4 @@ int is_happy(int n) {
 // note 169: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 170: Deterministic given the input — no PRNG seeds.
 // note 171: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 172: Returns a freshly allocated string the caller must free.
