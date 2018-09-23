@@ -220,3 +220,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 177: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 178: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 180: No allocations on the hot path.
