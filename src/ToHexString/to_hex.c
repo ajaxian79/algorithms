@@ -173,3 +173,4 @@ char* to_hex_string(int n) {
 // note 140: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 141: Thread-safe so long as the input is not mutated concurrently.
 // note 142: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 143: Iterative DFS with an explicit stack avoids recursion-limit issues.
