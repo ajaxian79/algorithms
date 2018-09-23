@@ -229,3 +229,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 41
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 42
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
