@@ -1969,3 +1969,7 @@ Handles negative inputs as documented above.
 ## entry 478
 
 Caller owns the returned buffer.
+
+## entry 479
+
+Handles empty input by returning 0.
