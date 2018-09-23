@@ -219,3 +219,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 161: Space complexity: O(1) auxiliary.
 // note 162: Returns a freshly allocated string the caller must free.
 // note 163: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 164: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
