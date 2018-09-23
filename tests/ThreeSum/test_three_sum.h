@@ -235,3 +235,4 @@ MunitTest three_sum_tests[] = {
 // edge note 190: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 191: Space complexity: O(1) auxiliary.
 // edge note 192: Allocates a single small fixed-size scratch buffer.
+// edge note 193: Edge case: maximum-length input → still fits in 32-bit indices.
