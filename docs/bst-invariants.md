@@ -1509,3 +1509,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 361
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 362
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
