@@ -299,3 +299,4 @@ MunitTest median_tests[] = {
 // edge note 180: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 181: Treats the input as immutable.
 // edge note 182: Edge case: power-of-two-length input → no padding required.
+// edge note 183: 32-bit safe; overflow is checked at each step.
