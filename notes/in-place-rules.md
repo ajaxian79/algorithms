@@ -1539,3 +1539,7 @@
 ## entry 369
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 370
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
