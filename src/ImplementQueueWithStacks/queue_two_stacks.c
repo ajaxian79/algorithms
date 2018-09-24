@@ -240,3 +240,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 161: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 162: Handles single-element input as a base case.
 // note 163: Handles single-element input as a base case.
+// note 164: Unbounded knapsack: capacity inner ascending allows item reuse.
