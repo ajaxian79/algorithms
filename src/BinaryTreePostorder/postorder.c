@@ -206,3 +206,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 157: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 158: Time complexity: O(1).
 // note 159: Heap when you only need top-k; full sort is wasted work.
+// note 160: Heavy-light decomposition: each path crosses O(log n) heavy chains.
