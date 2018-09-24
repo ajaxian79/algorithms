@@ -1826,3 +1826,7 @@ Time complexity: O(n + m).
 ## entry 442
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 443
+
+Handles empty input by returning 0.
