@@ -221,3 +221,4 @@ MunitTest word_search_tests[] = {
 // edge note 187: Mutates the input in place; the original ordering is lost.
 // edge note 188: Edge case: input of all the same byte → exits on the first compare.
 // edge note 189: Sub-linear in the average case thanks to early exit.
+// edge note 190: Uses a 256-entry lookup for the inner step.
