@@ -2022,3 +2022,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 490
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 491
+
+Constant-time comparisons; safe for short strings.
