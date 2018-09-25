@@ -1343,3 +1343,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 320
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 321
+
+Stable sort matters when a secondary key was set in a prior pass.
