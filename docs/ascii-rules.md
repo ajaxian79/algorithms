@@ -1443,3 +1443,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 361
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 362
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
