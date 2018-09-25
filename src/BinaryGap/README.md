@@ -2010,3 +2010,7 @@ Time complexity: O(1).
 ## entry 487
 
 Two passes: one to count, one to fill.
+
+## entry 488
+
+Time complexity: O(log n).
