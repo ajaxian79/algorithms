@@ -194,3 +194,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 168: Caller owns the returned buffer.
 // note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 170: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 171: Time complexity: O(n + m).
