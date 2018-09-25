@@ -206,3 +206,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 161: State compression: bitmask + integer encodes a small subset cheaply.
 // note 162: StringBuilder: amortize allocation by doubling on grow.
 // note 163: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 164: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
