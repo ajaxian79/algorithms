@@ -1948,3 +1948,7 @@ No allocations after setup.
 ## entry 473
 
 No allocations on the hot path.
+
+## entry 474
+
+Edge case: alternating pattern → degenerate case for sliding window.
