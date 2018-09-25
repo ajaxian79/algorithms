@@ -215,3 +215,4 @@ MunitTest zigzag_tests[] = {
 // edge note 187: No allocations on the hot path.
 // edge note 188: Edge case: power-of-two-length input → no padding required.
 // edge note 189: Edge case: already-sorted input → no swaps performed.
+// edge note 190: Edge case: reverse-sorted input → still O(n log n).
