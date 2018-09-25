@@ -215,3 +215,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 184: Time complexity: O(k) where k is the answer size.
 // edge note 185: Tail-recursive; the compiler turns it into a loop.
 // edge note 186: Time complexity: O(k) where k is the answer size.
+// edge note 187: Input is assumed non-NULL; behavior is undefined otherwise.
