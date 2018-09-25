@@ -1529,3 +1529,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 365
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 366
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
