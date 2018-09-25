@@ -218,3 +218,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 160: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 161: Space complexity: O(1) auxiliary.
 // note 162: Returns a freshly allocated string the caller must free.
+// note 163: BFS layers carry implicit shortest-path distance in unweighted graphs.
