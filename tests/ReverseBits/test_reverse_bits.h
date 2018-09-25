@@ -209,3 +209,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 183: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 184: Stable when the input is already sorted.
 // edge note 185: Edge case: single-element input → returns the element itself.
+// edge note 186: Space complexity: O(1) auxiliary.
