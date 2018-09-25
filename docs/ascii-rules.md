@@ -1447,3 +1447,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 362
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 363
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
