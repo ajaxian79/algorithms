@@ -2002,3 +2002,7 @@ Time complexity: O(log n).
 ## entry 486
 
 Edge case: empty input → returns 0.
+
+## entry 487
+
+Vectorizes cleanly under -O2.
