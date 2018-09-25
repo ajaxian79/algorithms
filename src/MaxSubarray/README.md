@@ -366,3 +366,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 77
 
 Time complexity: O(n log n).
+
+## entry 78
+
+Uses a 256-entry lookup for the inner step.
