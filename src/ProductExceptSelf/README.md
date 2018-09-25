@@ -2012,3 +2012,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 487
 
 Space complexity: O(1) auxiliary.
+
+## entry 488
+
+Edge case: input of all the same byte → exits on the first compare.
