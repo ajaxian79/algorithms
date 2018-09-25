@@ -2028,3 +2028,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 492
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 493
+
+Space complexity: O(log n) for the recursion stack.
