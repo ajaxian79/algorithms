@@ -2024,3 +2024,7 @@ Treats the input as immutable.
 ## entry 491
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 492
+
+Tail-recursive; the compiler turns it into a loop.
