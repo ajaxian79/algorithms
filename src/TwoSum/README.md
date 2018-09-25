@@ -1961,3 +1961,7 @@ Time complexity: O(n + m).
 ## entry 465
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 466
+
+Thread-safe so long as the input is not mutated concurrently.
