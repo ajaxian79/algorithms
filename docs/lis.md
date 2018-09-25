@@ -1531,3 +1531,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 366
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 367
+
+Union-Find with path compression amortizes to near-O(1) per op.
