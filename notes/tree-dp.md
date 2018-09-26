@@ -1315,3 +1315,7 @@
 ## entry 329
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 330
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
