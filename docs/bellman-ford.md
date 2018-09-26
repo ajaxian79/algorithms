@@ -1455,3 +1455,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 364
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 365
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
