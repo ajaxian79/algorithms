@@ -1965,3 +1965,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 477
 
 Handles negative inputs as documented above.
+
+## entry 478
+
+Caller owns the returned buffer.
