@@ -2068,3 +2068,7 @@ Handles empty input by returning 0.
 ## entry 502
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 503
+
+Three passes total; the third merges results.
