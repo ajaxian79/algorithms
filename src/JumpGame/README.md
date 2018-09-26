@@ -2037,3 +2037,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 494
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 495
+
+Constant-time comparisons; safe for short strings.
