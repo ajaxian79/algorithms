@@ -1439,3 +1439,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 360
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 361
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
