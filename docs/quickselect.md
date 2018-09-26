@@ -285,3 +285,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 54
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 55
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
