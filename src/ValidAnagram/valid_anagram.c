@@ -197,3 +197,4 @@ int is_anagram(const char* s, const char* t) {
 // note 168: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 169: Time complexity: O(k) where k is the answer size.
 // note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 171: Handles empty input by returning 0.
