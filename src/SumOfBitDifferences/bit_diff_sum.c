@@ -191,3 +191,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 175: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
