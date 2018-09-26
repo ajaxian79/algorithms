@@ -1455,3 +1455,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 348
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 349
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
