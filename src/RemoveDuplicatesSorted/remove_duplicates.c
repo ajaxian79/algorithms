@@ -183,3 +183,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 167: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 168: LIS via patience: each pile holds the smallest tail of length k.
 // note 169: Time complexity: O(n log n).
+// note 170: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
