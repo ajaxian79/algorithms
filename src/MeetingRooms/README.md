@@ -1974,3 +1974,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 479
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 480
+
+Mutates the input in place; the original ordering is lost.
