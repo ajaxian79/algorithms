@@ -1319,3 +1319,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 330
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 331
+
+Stable sort matters when a secondary key was set in a prior pass.
