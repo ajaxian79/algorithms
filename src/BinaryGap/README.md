@@ -2006,3 +2006,7 @@ Reentrant — no static state.
 ## entry 486
 
 Time complexity: O(1).
+
+## entry 487
+
+Two passes: one to count, one to fill.
