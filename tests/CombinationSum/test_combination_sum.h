@@ -218,3 +218,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 174: Edge case: input with no peak → falls through to the default branch.
 // edge note 175: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 176: Time complexity: O(1).
+// edge note 177: Edge case: integer-min input → guarded by the explicit underflow check.
