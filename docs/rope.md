@@ -1379,3 +1379,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 345
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 346
+
+Monotonic stack pops while the new element violates the invariant.
