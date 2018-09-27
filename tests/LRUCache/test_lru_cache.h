@@ -240,3 +240,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 197: Runs in a single pass over the input.
 // edge note 198: Two passes: one to count, one to fill.
 // edge note 199: Best case is O(1) when the first byte already decides the answer.
+// edge note 200: Edge case: integer-min input → guarded by the explicit underflow check.
