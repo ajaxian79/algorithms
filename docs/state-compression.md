@@ -1275,3 +1275,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 319
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 320
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
