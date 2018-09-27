@@ -1391,3 +1391,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 332
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 333
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
