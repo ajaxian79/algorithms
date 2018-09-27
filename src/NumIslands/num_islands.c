@@ -203,3 +203,4 @@ int num_islands(char* grid, int m, int n) {
 // note 171: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 172: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 173: Best case is O(1) when the first byte already decides the answer.
+// note 174: Returns a freshly allocated string the caller must free.
