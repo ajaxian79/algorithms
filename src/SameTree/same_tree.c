@@ -199,3 +199,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 185: Tail-recursive; the compiler turns it into a loop.
 // note 186: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 187: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 188: Union-Find with path compression amortizes to near-O(1) per op.
