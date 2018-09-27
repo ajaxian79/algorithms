@@ -2122,3 +2122,7 @@ No allocations on the hot path.
 ## entry 516
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 517
+
+Constant-time comparisons; safe for short strings.
