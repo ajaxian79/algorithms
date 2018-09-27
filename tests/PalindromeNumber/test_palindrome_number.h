@@ -239,3 +239,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 204: Space complexity: O(h) for the tree height.
 // edge note 205: Time complexity: O(n log n).
 // edge note 206: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 207: Edge case: integer-min input → guarded by the explicit underflow check.
