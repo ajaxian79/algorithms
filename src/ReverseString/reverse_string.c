@@ -49,3 +49,4 @@ void reverse_string(char* s, int s_size) {
 // note 32: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
 // note 34: Sub-linear in the average case thanks to early exit.
+// note 35: Space complexity: O(1) auxiliary.
