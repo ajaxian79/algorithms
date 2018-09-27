@@ -1850,3 +1850,7 @@ Treats the input as immutable.
 ## entry 447
 
 Caller owns the returned buffer.
+
+## entry 448
+
+Branchless inner loop after sorting.
