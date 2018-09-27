@@ -228,3 +228,4 @@ MunitTest min_depth_tests[] = {
 // edge note 189: Thread-safe so long as the input is not mutated concurrently.
 // edge note 190: Edge case: reverse-sorted input → still O(n log n).
 // edge note 191: Uses a 256-entry lookup for the inner step.
+// edge note 192: Reentrant — no static state.
