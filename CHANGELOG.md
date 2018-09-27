@@ -77675,3 +77675,7 @@
 ## entry 19419
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 19420
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
