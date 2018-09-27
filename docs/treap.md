@@ -1359,3 +1359,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 340
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 341
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
