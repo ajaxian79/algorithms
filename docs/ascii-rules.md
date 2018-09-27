@@ -1435,3 +1435,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 359
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 360
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
