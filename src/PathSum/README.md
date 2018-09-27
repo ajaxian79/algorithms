@@ -2064,3 +2064,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 501
 
 Handles empty input by returning 0.
+
+## entry 502
+
+Avoids floating-point entirely — integer math throughout.
