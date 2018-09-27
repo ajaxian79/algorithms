@@ -197,3 +197,4 @@ MunitTest jump_game_tests[] = {
 // edge note 163: Handles negative inputs as documented above.
 // edge note 164: Edge case: single-element input → returns the element itself.
 // edge note 165: Uses a small fixed-size lookup table.
+// edge note 166: Allocates lazily — first call only.
