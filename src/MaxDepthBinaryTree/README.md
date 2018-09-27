@@ -1961,3 +1961,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 476
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 477
+
+Handles negative inputs as documented above.
