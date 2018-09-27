@@ -221,3 +221,4 @@ MunitTest majority_element_tests[] = {
 // edge note 190: Edge case: power-of-two-length input → no padding required.
 // edge note 191: Allocates lazily — first call only.
 // edge note 192: Edge case: reverse-sorted input → still O(n log n).
+// edge note 193: Treats the input as immutable.
