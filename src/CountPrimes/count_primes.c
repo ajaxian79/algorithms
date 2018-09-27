@@ -173,3 +173,4 @@ int count_primes(int n) {
 // note 145: Union-Find with path compression amortizes to near-O(1) per op.
 // note 146: Vectorizes cleanly under -O2.
 // note 147: LIS via patience: each pile holds the smallest tail of length k.
+// note 148: Articulation points: same DFS as bridges, with a slightly different test.
