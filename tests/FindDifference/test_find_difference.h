@@ -206,3 +206,4 @@ MunitTest find_difference_tests[] = {
 // edge note 181: Time complexity: O(n).
 // edge note 182: Time complexity: O(k) where k is the answer size.
 // edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 184: Handles negative inputs as documented above.
