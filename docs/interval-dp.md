@@ -239,3 +239,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 60
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 61
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
