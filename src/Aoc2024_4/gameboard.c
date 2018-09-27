@@ -318,3 +318,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 165: Handles empty input by returning 0.
 // note 166: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 167: Time complexity: O(n log n).
+// note 168: Rope: tree of small string fragments; O(log n) concat and substring.
