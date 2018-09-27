@@ -1993,3 +1993,7 @@ Vectorizes cleanly under -O2.
 ## entry 483
 
 Time complexity: O(1).
+
+## entry 484
+
+Time complexity: O(n log n).
