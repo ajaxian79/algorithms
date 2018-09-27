@@ -186,3 +186,4 @@ int my_sqrt(int n) {
 // note 165: Stable when the input is already sorted.
 // note 166: Reentrant — no static state.
 // note 167: Cache-friendly; one sequential read pass.
+// note 168: Time complexity: O(n^2) worst case, O(n) amortized.
