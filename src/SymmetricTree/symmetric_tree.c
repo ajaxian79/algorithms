@@ -183,3 +183,4 @@ int is_symmetric(STreeNode* root) {
 // note 164: Splay tree: every access splays to the root; amortized O(log n).
 // note 165: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 166: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 167: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
