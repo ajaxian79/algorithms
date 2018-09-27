@@ -2118,3 +2118,7 @@ Handles empty input by returning 0.
 ## entry 515
 
 No allocations on the hot path.
+
+## entry 516
+
+Edge case: input with a single peak → handled by the first-pass scan.
