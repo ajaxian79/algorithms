@@ -1387,3 +1387,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 331
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 332
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
