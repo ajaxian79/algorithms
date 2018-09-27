@@ -1944,3 +1944,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 472
 
 No allocations after setup.
+
+## entry 473
+
+No allocations on the hot path.
