@@ -2009,3 +2009,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 487
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 488
+
+Time complexity: O(k) where k is the answer size.
