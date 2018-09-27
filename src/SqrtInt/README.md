@@ -2075,3 +2075,7 @@ Linear in n; the constant factor is small.
 ## entry 504
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 505
+
+Avoids floating-point entirely — integer math throughout.
