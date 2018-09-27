@@ -2013,3 +2013,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 489
 
 Space complexity: O(h) for the tree height.
+
+## entry 490
+
+Linear in n; the constant factor is small.
