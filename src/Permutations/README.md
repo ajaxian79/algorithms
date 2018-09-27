@@ -2120,3 +2120,7 @@ Linear in n; the constant factor is small.
 ## entry 515
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 516
+
+Allocates lazily — first call only.
