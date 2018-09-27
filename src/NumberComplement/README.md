@@ -356,3 +356,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 73
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 74
+
+Edge case: power-of-two-length input → no padding required.
