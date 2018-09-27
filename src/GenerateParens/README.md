@@ -1976,3 +1976,7 @@ Edge case: empty input → returns 0.
 ## entry 478
 
 Cache-friendly; one sequential read pass.
+
+## entry 479
+
+Tail-recursive; the compiler turns it into a loop.
