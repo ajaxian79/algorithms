@@ -191,3 +191,4 @@ int min_depth(MnTreeNode* root) {
 // note 174: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 176: Cache-friendly; one sequential read pass.
+// note 177: Interval DP: solve all `[l, r]` ranges from short to long.
