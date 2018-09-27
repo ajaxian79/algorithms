@@ -1419,3 +1419,7 @@
 ## entry 355
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 356
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
