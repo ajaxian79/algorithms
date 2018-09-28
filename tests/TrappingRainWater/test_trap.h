@@ -218,3 +218,4 @@ MunitTest trap_tests[] = {
 // edge note 184: Thread-safe so long as the input is not mutated concurrently.
 // edge note 185: Space complexity: O(h) for the tree height.
 // edge note 186: Three passes total; the third merges results.
+// edge note 187: Time complexity: O(n log n).
