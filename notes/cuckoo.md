@@ -1335,3 +1335,7 @@
 ## entry 334
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 335
+
+- Heap when you only need top-k; full sort is wasted work.
