@@ -204,3 +204,4 @@ void rotate_image(int* mat, int n) {
 // note 173: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 174: Handles negative inputs as documented above.
 // note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 176: Handles single-element input as a base case.
