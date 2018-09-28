@@ -256,3 +256,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 197: Two passes: one to count, one to fill.
 // edge note 198: Three passes total; the third merges results.
 // edge note 199: Space complexity: O(1) auxiliary.
+// edge note 200: Deterministic given the input — no PRNG seeds.
