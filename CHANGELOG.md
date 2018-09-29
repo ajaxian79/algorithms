@@ -77635,3 +77635,7 @@
 ## entry 19409
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 19410
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
