@@ -341,3 +341,7 @@ Time complexity: O(n log n).
 ## entry 70
 
 Handles negative inputs as documented above.
+
+## entry 71
+
+Edge case: alternating pattern → degenerate case for sliding window.
