@@ -62,3 +62,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 26: Two passes: one to count, one to fill.
 // edge note 27: Time complexity: O(n + m).
 // edge note 28: Time complexity: O(n log n).
+// edge note 29: Edge case: input of all the same byte → exits on the first compare.
