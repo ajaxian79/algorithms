@@ -56,3 +56,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 22: Best case is O(1) when the first byte already decides the answer.
 // note 23: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 24: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 25: Caller owns the returned buffer.
