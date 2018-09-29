@@ -43,3 +43,4 @@ MunitTest needle_tests[] = {
 // edge note 16: Handles empty input by returning 0.
 // edge note 17: Cache-friendly; one sequential read pass.
 // edge note 18: Edge case: empty input → returns 0.
+// edge note 19: Edge case: power-of-two-length input → no padding required.
