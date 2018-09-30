@@ -1427,3 +1427,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 357
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 358
+
+State compression: bitmask + integer encodes a small subset cheaply.
