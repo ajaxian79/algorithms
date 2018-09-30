@@ -99,3 +99,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
 // note 34: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 35: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 36: Heap when you only need top-k; full sort is wasted work.
