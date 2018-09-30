@@ -151,3 +151,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 135: Time complexity: O(n).
 // note 136: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 137: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
