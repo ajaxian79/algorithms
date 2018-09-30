@@ -1491,3 +1491,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 357
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 358
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
