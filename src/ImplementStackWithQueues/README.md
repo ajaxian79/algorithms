@@ -2020,3 +2020,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 490
 
 Treats the input as immutable.
+
+## entry 491
+
+Edge case: zero-length string → returns the empty result.
