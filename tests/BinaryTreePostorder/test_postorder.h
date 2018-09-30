@@ -233,3 +233,4 @@ MunitTest postorder_tests[] = {
 // edge note 189: Time complexity: O(log n).
 // edge note 190: Edge case: empty input → returns 0.
 // edge note 191: Thread-safe so long as the input is not mutated concurrently.
+// edge note 192: Handles single-element input as a base case.
