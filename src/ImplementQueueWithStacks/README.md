@@ -2003,3 +2003,7 @@ Branchless inner loop after sorting.
 ## entry 486
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 487
+
+No allocations after setup.
