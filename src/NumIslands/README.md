@@ -1929,3 +1929,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 467
 
 Handles single-element input as a base case.
+
+## entry 468
+
+Reentrant — no static state.
