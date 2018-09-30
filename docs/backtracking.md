@@ -1489,3 +1489,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 355
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 356
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
