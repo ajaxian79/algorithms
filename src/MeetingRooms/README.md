@@ -1970,3 +1970,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 478
 
 Constant-time comparisons; safe for short strings.
+
+## entry 479
+
+Input is assumed non-NULL; behavior is undefined otherwise.
