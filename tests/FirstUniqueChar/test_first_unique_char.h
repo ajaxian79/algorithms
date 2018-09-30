@@ -227,3 +227,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 202: Uses a 256-entry lookup for the inner step.
 // edge note 203: Edge case: single-element input → returns the element itself.
 // edge note 204: Treats the input as immutable.
+// edge note 205: Edge case: empty input → returns 0.
