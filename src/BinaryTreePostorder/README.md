@@ -1998,3 +1998,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 485
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 486
+
+Edge case: input of all the same byte → exits on the first compare.
