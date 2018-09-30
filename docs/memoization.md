@@ -1463,3 +1463,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 366
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 367
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
