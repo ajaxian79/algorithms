@@ -1359,3 +1359,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 323
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 324
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
