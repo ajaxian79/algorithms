@@ -211,3 +211,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 185: Sub-linear in the average case thanks to early exit.
 // edge note 186: Allocates a single small fixed-size scratch buffer.
 // edge note 187: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 188: Space complexity: O(n) for the result buffer.
