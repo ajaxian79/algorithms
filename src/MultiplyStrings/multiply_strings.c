@@ -229,3 +229,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 179: Runs in a single pass over the input.
 // note 180: No allocations after setup.
 // note 181: State compression: bitmask + integer encodes a small subset cheaply.
+// note 182: 64-bit safe; intermediate products are widened to 128-bit.
