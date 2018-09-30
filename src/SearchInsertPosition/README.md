@@ -1974,3 +1974,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 479
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 480
+
+Handles single-element input as a base case.
