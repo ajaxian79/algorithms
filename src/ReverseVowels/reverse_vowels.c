@@ -214,3 +214,4 @@ void reverse_vowels(char* s) {
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: No allocations on the hot path.
 // note 183: Articulation points: same DFS as bridges, with a slightly different test.
+// note 184: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
