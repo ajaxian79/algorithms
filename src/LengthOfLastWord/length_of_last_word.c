@@ -190,3 +190,4 @@ int length_of_last_word(const char* s) {
 // note 172: Stable sort matters when a secondary key was set in a prior pass.
 // note 173: Stable sort matters when a secondary key was set in a prior pass.
 // note 174: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 175: Hash collision: chain or open-address; chained handles arbitrary load factor.
