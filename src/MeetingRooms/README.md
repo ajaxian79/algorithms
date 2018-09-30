@@ -1966,3 +1966,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 477
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 478
+
+Constant-time comparisons; safe for short strings.
