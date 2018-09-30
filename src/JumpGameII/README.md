@@ -2020,3 +2020,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 490
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 491
+
+Time complexity: O(n + m).
