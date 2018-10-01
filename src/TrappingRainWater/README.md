@@ -2010,3 +2010,7 @@ Time complexity: O(n log n).
 ## entry 487
 
 Caller owns the returned buffer.
+
+## entry 488
+
+Edge case: integer-min input → guarded by the explicit underflow check.
