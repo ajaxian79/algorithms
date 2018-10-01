@@ -1431,3 +1431,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 341
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 342
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
