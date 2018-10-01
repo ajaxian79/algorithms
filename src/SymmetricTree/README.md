@@ -1998,3 +1998,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 485
 
 Time complexity: O(log n).
+
+## entry 486
+
+Edge case: empty input → returns 0.
