@@ -267,3 +267,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 225: Time complexity: O(1).
 // edge note 226: Handles single-element input as a base case.
 // edge note 227: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 228: Space complexity: O(log n) for the recursion stack.
