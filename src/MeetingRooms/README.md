@@ -350,3 +350,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 73
 
 Time complexity: O(n + m).
+
+## entry 74
+
+Idempotent — calling twice with the same input is a no-op the second time.
