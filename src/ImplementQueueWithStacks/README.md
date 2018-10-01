@@ -1999,3 +1999,7 @@ Time complexity: O(log n).
 ## entry 485
 
 Branchless inner loop after sorting.
+
+## entry 486
+
+Best case is O(1) when the first byte already decides the answer.
