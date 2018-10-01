@@ -195,3 +195,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 160: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 161: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 163: Stable sort matters when a secondary key was set in a prior pass.
