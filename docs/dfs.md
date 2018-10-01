@@ -1483,3 +1483,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 355
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 356
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
