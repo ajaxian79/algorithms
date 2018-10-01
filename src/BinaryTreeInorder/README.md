@@ -2046,3 +2046,7 @@ Caller owns the returned buffer.
 ## entry 497
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 498
+
+Three passes total; the third merges results.
