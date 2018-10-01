@@ -1271,3 +1271,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 318
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 319
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
