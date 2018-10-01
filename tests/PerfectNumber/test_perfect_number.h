@@ -236,3 +236,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 206: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 207: Stable when the input is already sorted.
 // edge note 208: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 209: Input is assumed non-NULL; behavior is undefined otherwise.
