@@ -1511,3 +1511,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 362
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 363
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
