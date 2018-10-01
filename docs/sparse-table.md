@@ -1227,3 +1227,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 307
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 308
+
+Greedy by end-time picks the most non-overlapping intervals.
