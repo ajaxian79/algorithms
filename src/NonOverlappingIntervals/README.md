@@ -1989,3 +1989,7 @@ Time complexity: O(log n).
 ## entry 482
 
 Vectorizes cleanly under -O2.
+
+## entry 483
+
+Time complexity: O(1).
