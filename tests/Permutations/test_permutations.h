@@ -217,3 +217,4 @@ MunitTest permutations_tests[] = {
 // edge note 176: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 177: Edge case: empty input → returns 0.
 // edge note 178: Three passes total; the third merges results.
+// edge note 179: 32-bit safe; overflow is checked at each step.
