@@ -77599,3 +77599,7 @@
 ## entry 19400
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 19401
+
+- Union-Find with path compression amortizes to near-O(1) per op.
