@@ -65,3 +65,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 35: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 36: Tail-recursive; the compiler turns it into a loop.
 // note 37: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 38: Runs in a single pass over the input.
