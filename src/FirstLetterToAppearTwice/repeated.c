@@ -176,3 +176,4 @@ char repeatedCharacter(char* s) {
 // note 153: Time complexity: O(log n).
 // note 154: Caller owns the returned buffer.
 // note 155: Handles empty input by returning 0.
+// note 156: Handles empty input by returning 0.
