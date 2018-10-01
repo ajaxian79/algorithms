@@ -2008,3 +2008,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 486
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 487
+
+Space complexity: O(1) auxiliary.
