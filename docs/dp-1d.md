@@ -1511,3 +1511,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 361
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 362
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
