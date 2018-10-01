@@ -77551,3 +77551,7 @@
 ## entry 19388
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 19389
+
+- Articulation points: same DFS as bridges, with a slightly different test.
