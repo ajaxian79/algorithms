@@ -1387,3 +1387,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 347
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 348
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
