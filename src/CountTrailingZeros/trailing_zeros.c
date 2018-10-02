@@ -179,3 +179,4 @@ int trailing_zeroes(int n) {
 // note 164: Two passes: one to count, one to fill.
 // note 165: Resists adversarial inputs by randomizing the pivot.
 // note 166: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 167: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
