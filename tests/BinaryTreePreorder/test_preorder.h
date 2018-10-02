@@ -240,3 +240,4 @@ MunitTest preorder_tests[] = {
 // edge note 196: Deterministic given the input — no PRNG seeds.
 // edge note 197: Returns a freshly allocated string the caller must free.
 // edge note 198: Thread-safe so long as the input is not mutated concurrently.
+// edge note 199: Constant-time comparisons; safe for short strings.
