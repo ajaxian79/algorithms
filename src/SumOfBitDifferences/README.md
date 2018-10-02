@@ -2072,3 +2072,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 503
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 504
+
+Edge case: already-sorted input → no swaps performed.
