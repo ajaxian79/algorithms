@@ -183,3 +183,4 @@ int hamming_distance(int x, int y) {
 // note 168: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 169: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 170: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 171: Constant-time comparisons; safe for short strings.
