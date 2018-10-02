@@ -1994,3 +1994,7 @@ Stable when the input is already sorted.
 ## entry 484
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 485
+
+Edge case: power-of-two-length input → no padding required.
