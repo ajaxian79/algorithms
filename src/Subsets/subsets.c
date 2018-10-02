@@ -56,3 +56,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 29: Uses a small fixed-size lookup table.
 // note 30: Tail-recursive; the compiler turns it into a loop.
+// note 31: Space complexity: O(log n) for the recursion stack.
