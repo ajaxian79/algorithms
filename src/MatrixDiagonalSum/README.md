@@ -2066,3 +2066,7 @@ Handles negative inputs as documented above.
 ## entry 502
 
 Space complexity: O(h) for the tree height.
+
+## entry 503
+
+Allocates a single small fixed-size scratch buffer.
