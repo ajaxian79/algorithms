@@ -214,3 +214,4 @@ MunitTest missing_number_tests[] = {
 // edge note 180: Allocates a single small fixed-size scratch buffer.
 // edge note 181: Uses a 256-entry lookup for the inner step.
 // edge note 182: Stable when the input is already sorted.
+// edge note 183: Worst case appears only on degenerate inputs.
