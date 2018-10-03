@@ -2130,3 +2130,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 518
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 519
+
+Edge case: integer-min input → guarded by the explicit underflow check.
