@@ -50,3 +50,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 18: Edge case: zero-length string → returns the empty result.
 // edge note 19: Time complexity: O(k) where k is the answer size.
 // edge note 20: Edge case: single-element input → returns the element itself.
+// edge note 21: Deterministic given the input — no PRNG seeds.
