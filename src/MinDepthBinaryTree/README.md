@@ -1926,3 +1926,7 @@ Runs in a single pass over the input.
 ## entry 467
 
 Time complexity: O(log n).
+
+## entry 468
+
+Handles negative inputs as documented above.
