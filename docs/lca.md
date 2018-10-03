@@ -1379,3 +1379,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 345
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 346
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
