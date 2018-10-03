@@ -216,3 +216,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 188: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 189: No allocations after setup.
 // edge note 190: Resists adversarial inputs by randomizing the pivot.
+// edge note 191: Vectorizes cleanly under -O2.
