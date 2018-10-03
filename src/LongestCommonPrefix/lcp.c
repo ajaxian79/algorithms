@@ -202,3 +202,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 161: Union-Find with path compression amortizes to near-O(1) per op.
 // note 162: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 163: StringBuilder: amortize allocation by doubling on grow.
+// note 164: Stable sort matters when a secondary key was set in a prior pass.
