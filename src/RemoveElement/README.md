@@ -2009,3 +2009,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 488
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 489
+
+Space complexity: O(h) for the tree height.
