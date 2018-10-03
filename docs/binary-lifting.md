@@ -1383,3 +1383,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 346
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 347
+
+Articulation points: same DFS as bridges, with a slightly different test.
