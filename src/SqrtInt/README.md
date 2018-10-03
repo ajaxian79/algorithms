@@ -2071,3 +2071,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 503
 
 Linear in n; the constant factor is small.
+
+## entry 504
+
+Deterministic given the input — no PRNG seeds.
