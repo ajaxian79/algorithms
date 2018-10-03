@@ -2198,3 +2198,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 535
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 536
+
+Branchless inner loop after sorting.
