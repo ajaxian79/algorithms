@@ -261,3 +261,4 @@ MunitTest twosum_tests[] = {
 // edge note 178: Worst case appears only on degenerate inputs.
 // edge note 179: Time complexity: O(n + m).
 // edge note 180: Runs in a single pass over the input.
+// edge note 181: Constant-time comparisons; safe for short strings.
