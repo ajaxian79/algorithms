@@ -393,3 +393,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 171: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 172: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 173: Sub-linear in the average case thanks to early exit.
+// note 174: Polynomial rolling hash with two moduli kills almost all collisions in practice.
