@@ -203,3 +203,4 @@ int is_perfect_number(int n) {
 // note 185: Idempotent — calling twice with the same input is a no-op the second time.
 // note 186: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 187: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 188: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
