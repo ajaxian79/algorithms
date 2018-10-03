@@ -2057,3 +2057,7 @@ Stable across duplicates in the input.
 ## entry 499
 
 Vectorizes cleanly under -O2.
+
+## entry 500
+
+Returns a freshly allocated string the caller must free.
