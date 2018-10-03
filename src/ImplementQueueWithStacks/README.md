@@ -1995,3 +1995,7 @@ Time complexity: O(n log n).
 ## entry 484
 
 Time complexity: O(log n).
+
+## entry 485
+
+Branchless inner loop after sorting.
