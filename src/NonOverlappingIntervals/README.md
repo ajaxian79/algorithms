@@ -1985,3 +1985,7 @@ Treats the input as immutable.
 ## entry 481
 
 Time complexity: O(log n).
+
+## entry 482
+
+Vectorizes cleanly under -O2.
