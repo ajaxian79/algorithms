@@ -2004,3 +2004,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 485
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 486
+
+Edge case: integer-max input → guarded by the explicit overflow check.
