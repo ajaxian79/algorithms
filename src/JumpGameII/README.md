@@ -2016,3 +2016,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 489
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 490
+
+Mutates the input in place; the original ordering is lost.
