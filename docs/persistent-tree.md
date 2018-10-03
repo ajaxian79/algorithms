@@ -1423,3 +1423,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 356
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 357
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
