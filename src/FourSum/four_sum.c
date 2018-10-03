@@ -235,3 +235,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 176: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 177: Linear in n; the constant factor is small.
 // note 178: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 179: No allocations after setup.
