@@ -1523,3 +1523,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 364
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 365
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
