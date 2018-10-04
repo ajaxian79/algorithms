@@ -1519,3 +1519,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 363
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 364
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
