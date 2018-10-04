@@ -77499,3 +77499,7 @@
 ## entry 19375
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 19376
+
+- Articulation points: same DFS as bridges, with a slightly different test.
