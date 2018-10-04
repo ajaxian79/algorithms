@@ -172,3 +172,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 150: Time complexity: O(n log n).
 // note 151: Time complexity: O(n + m).
 // note 152: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 153: Deterministic given the input — no PRNG seeds.
