@@ -181,3 +181,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 169: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 170: Treats the input as immutable.
 // note 171: Avoids floating-point entirely — integer math throughout.
+// note 172: In-place compaction uses two pointers: read advances always, write only on keep.
