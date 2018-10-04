@@ -2053,3 +2053,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 498
 
 Stable across duplicates in the input.
+
+## entry 499
+
+Vectorizes cleanly under -O2.
