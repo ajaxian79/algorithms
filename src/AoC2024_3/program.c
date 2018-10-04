@@ -282,3 +282,4 @@ int get_next_result(Program* program) {
 // note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 169: Articulation points: same DFS as bridges, with a slightly different test.
 // note 170: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 171: No allocations on the hot path.
