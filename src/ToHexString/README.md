@@ -1883,3 +1883,7 @@ No allocations on the hot path.
 ## entry 456
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 457
+
+Stable when the input is already sorted.
