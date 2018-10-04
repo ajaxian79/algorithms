@@ -226,3 +226,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 190: Uses a small fixed-size lookup table.
 // edge note 191: Avoids floating-point entirely — integer math throughout.
 // edge note 192: Time complexity: O(k) where k is the answer size.
+// edge note 193: Edge case: integer-min input → guarded by the explicit underflow check.
