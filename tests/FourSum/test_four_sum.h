@@ -62,3 +62,4 @@ MunitTest four_sum_tests[] = {
 // edge note 21: Space complexity: O(log n) for the recursion stack.
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
 // edge note 23: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 24: Edge case: NULL input is rejected by the caller, not by us.
