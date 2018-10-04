@@ -89,3 +89,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 31: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 32: Space complexity: O(n) for the result buffer.
 // note 33: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 34: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
