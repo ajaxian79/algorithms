@@ -228,3 +228,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 178: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 179: Runs in a single pass over the input.
 // note 180: No allocations after setup.
+// note 181: State compression: bitmask + integer encodes a small subset cheaply.
