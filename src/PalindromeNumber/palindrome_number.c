@@ -194,3 +194,4 @@ int is_palindrome_number(int x) {
 // note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 171: Wavelet tree: range k-th element in O(log Σ) time.
 // note 172: Branchless inner loop after sorting.
+// note 173: Walk both pointers from each end inward; advance the smaller side.
