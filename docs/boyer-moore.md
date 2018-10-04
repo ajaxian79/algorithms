@@ -1443,3 +1443,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 345
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 346
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
