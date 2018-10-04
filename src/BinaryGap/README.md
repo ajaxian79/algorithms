@@ -2002,3 +2002,7 @@ Reentrant — no static state.
 ## entry 485
 
 Reentrant — no static state.
+
+## entry 486
+
+Time complexity: O(1).
