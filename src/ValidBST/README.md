@@ -2049,3 +2049,7 @@ Handles empty input by returning 0.
 ## entry 497
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 498
+
+Stable across duplicates in the input.
