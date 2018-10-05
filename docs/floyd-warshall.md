@@ -1367,3 +1367,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 342
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 343
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
