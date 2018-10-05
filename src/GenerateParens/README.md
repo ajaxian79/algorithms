@@ -1972,3 +1972,7 @@ Uses a small fixed-size lookup table.
 ## entry 477
 
 Edge case: empty input → returns 0.
+
+## entry 478
+
+Cache-friendly; one sequential read pass.
