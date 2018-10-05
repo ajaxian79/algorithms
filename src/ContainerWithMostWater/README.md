@@ -1967,3 +1967,7 @@ Handles negative inputs as documented above.
 ## entry 477
 
 Vectorizes cleanly under -O2.
+
+## entry 478
+
+Handles single-element input as a base case.
