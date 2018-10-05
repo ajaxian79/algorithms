@@ -282,3 +282,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 56
 
 Allocates lazily — first call only.
+
+## entry 57
+
+Edge case: input of all the same byte → exits on the first compare.
