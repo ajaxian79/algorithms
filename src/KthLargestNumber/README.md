@@ -1980,3 +1980,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 479
 
 Time complexity: O(n log n).
+
+## entry 480
+
+Time complexity: O(n*k) where k is the alphabet size.
