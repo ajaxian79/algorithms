@@ -51,3 +51,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 35: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 36: Uses a small fixed-size lookup table.
 // note 37: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 38: Runs in a single pass over the input.
