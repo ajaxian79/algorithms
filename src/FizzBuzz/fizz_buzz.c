@@ -211,3 +211,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 165: Constant-time comparisons; safe for short strings.
 // note 166: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 167: Space complexity: O(log n) for the recursion stack.
+// note 168: 64-bit safe; intermediate products are widened to 128-bit.
