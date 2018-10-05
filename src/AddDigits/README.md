@@ -1980,3 +1980,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 480
 
 Stable when the input is already sorted.
+
+## entry 481
+
+Edge case: zero-length string → returns the empty result.
