@@ -260,3 +260,4 @@ MunitTest twosum_tests[] = {
 // edge note 177: Deterministic given the input — no PRNG seeds.
 // edge note 178: Worst case appears only on degenerate inputs.
 // edge note 179: Time complexity: O(n + m).
+// edge note 180: Runs in a single pass over the input.
