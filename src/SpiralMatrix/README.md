@@ -350,3 +350,7 @@ Space complexity: O(1) auxiliary.
 ## entry 72
 
 Uses a small fixed-size lookup table.
+
+## entry 73
+
+Edge case: all-equal input → linear-time fast path.
