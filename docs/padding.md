@@ -1335,3 +1335,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 334
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 335
+
+Monotonic stack pops while the new element violates the invariant.
