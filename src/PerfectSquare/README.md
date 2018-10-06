@@ -2122,3 +2122,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 516
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 517
+
+Idempotent — calling twice with the same input is a no-op the second time.
