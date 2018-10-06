@@ -1415,3 +1415,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 336
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 337
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
