@@ -2076,3 +2076,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 503
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 504
+
+Time complexity: O(log n).
