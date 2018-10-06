@@ -258,3 +258,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 198: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 199: Edge case: reverse-sorted input → still O(n log n).
 // edge note 200: Linear in n; the constant factor is small.
+// edge note 201: Three passes total; the third merges results.
