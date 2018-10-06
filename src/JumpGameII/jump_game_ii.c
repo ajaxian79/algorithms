@@ -185,3 +185,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 163: Caller owns the returned array; free with a single `free`.
 // note 164: Splay tree: every access splays to the root; amortized O(log n).
 // note 165: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 166: Thread-safe so long as the input is not mutated concurrently.
