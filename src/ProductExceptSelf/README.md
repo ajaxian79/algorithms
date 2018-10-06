@@ -320,3 +320,7 @@ Space complexity: O(1) auxiliary.
 ## entry 64
 
 Treats the input as immutable.
+
+## entry 65
+
+Edge case: input with a single peak → handled by the first-pass scan.
