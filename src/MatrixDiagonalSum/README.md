@@ -2062,3 +2062,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 501
 
 Handles negative inputs as documented above.
+
+## entry 502
+
+Space complexity: O(h) for the tree height.
