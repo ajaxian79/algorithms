@@ -1953,3 +1953,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 463
 
 32-bit safe; overflow is checked at each step.
+
+## entry 464
+
+Time complexity: O(n + m).
