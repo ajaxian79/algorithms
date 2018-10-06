@@ -1994,3 +1994,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 483
 
 Caller owns the returned buffer.
+
+## entry 484
+
+Edge case: single-element input → returns the element itself.
