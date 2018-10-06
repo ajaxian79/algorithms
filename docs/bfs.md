@@ -1441,3 +1441,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 343
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 344
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
