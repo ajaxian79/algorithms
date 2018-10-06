@@ -1515,3 +1515,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 362
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 363
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
