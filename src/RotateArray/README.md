@@ -2123,3 +2123,7 @@ Handles empty input by returning 0.
 ## entry 515
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 516
+
+Runs in a single pass over the input.
