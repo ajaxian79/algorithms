@@ -2045,3 +2045,7 @@ Handles empty input by returning 0.
 ## entry 496
 
 Handles empty input by returning 0.
+
+## entry 497
+
+Edge case: power-of-two-length input → no padding required.
