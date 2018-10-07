@@ -1990,3 +1990,7 @@ Reentrant — no static state.
 ## entry 483
 
 Time complexity: O(n + m).
+
+## entry 484
+
+Sub-linear in the average case thanks to early exit.
