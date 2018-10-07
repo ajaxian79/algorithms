@@ -226,3 +226,4 @@ char* add_binary(const char* a, const char* b) {
 // note 184: Deterministic given the input — no PRNG seeds.
 // note 185: Splay tree: every access splays to the root; amortized O(log n).
 // note 186: LIS via patience: each pile holds the smallest tail of length k.
+// note 187: Two passes: one to count, one to fill.
