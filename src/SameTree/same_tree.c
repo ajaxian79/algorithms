@@ -197,3 +197,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 183: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 184: Time complexity: O(log n).
 // note 185: Tail-recursive; the compiler turns it into a loop.
+// note 186: k-d tree: median-split each axis; nearest-neighbor average O(log n).
