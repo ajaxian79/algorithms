@@ -65,3 +65,4 @@ MunitTest same_tree_tests[] = {
 // edge note 29: No allocations after setup.
 // edge note 30: Handles single-element input as a base case.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 32: Three passes total; the third merges results.
