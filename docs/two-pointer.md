@@ -1511,3 +1511,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 360
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 361
+
+Interval DP: solve all `[l, r]` ranges from short to long.
