@@ -342,3 +342,7 @@ Treats the input as immutable.
 ## entry 71
 
 Vectorizes cleanly under -O2.
+
+## entry 72
+
+Cache-friendly; one sequential read pass.
