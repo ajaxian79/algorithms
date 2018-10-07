@@ -200,3 +200,4 @@ int reverse_int(int x) {
 // note 173: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 174: No allocations on the hot path.
 // note 175: Worst case appears only on degenerate inputs.
+// note 176: Pick a pivot, partition, recurse on the side that contains the kth slot.
