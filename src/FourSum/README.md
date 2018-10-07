@@ -1976,3 +1976,7 @@ Two passes: one to count, one to fill.
 ## entry 479
 
 Handles empty input by returning 0.
+
+## entry 480
+
+Space complexity: O(n) for the result buffer.
