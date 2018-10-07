@@ -2072,3 +2072,7 @@ No allocations on the hot path.
 ## entry 502
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 503
+
+Resists adversarial inputs by randomizing the pivot.
