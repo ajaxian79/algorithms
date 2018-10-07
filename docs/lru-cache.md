@@ -187,3 +187,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 47
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 48
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
