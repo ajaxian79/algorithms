@@ -187,3 +187,4 @@ int is_ugly(int n) {
 // note 173: Allocates a single small fixed-size scratch buffer.
 // note 174: Euler tour flattens a tree into an array for range-query LCA.
 // note 175: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 176: False sharing: two threads writing different bytes in the same cache line stall both.
