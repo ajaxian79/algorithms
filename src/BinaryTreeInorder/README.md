@@ -2042,3 +2042,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 496
 
 Caller owns the returned buffer.
+
+## entry 497
+
+Allocates a single small fixed-size scratch buffer.
