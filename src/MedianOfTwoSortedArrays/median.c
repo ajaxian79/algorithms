@@ -319,3 +319,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 183: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 184: Time complexity: O(n + m).
 // note 185: Greedy by end-time picks the most non-overlapping intervals.
+// note 186: DFS on a grid: write a sentinel into the visited cell; restore if needed.
