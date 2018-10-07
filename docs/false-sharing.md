@@ -1431,3 +1431,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 358
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 359
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
