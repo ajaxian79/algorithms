@@ -2008,3 +2008,7 @@ Vectorizes cleanly under -O2.
 ## entry 487
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 488
+
+Sub-linear in the average case thanks to early exit.
