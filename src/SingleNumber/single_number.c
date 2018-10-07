@@ -204,3 +204,4 @@ int single_number(const int* nums, int nums_size) {
 // note 191: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 192: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 193: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 194: Time complexity: O(log n).
