@@ -208,3 +208,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 180: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 181: Time complexity: O(log n).
 // edge note 182: Space complexity: O(n) for the result buffer.
+// edge note 183: Time complexity: O(1).
