@@ -1327,3 +1327,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 332
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 333
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
