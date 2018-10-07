@@ -1527,3 +1527,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 365
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 366
+
+Stable sort matters when a secondary key was set in a prior pass.
