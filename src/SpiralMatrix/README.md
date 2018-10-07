@@ -1962,3 +1962,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 475
 
 Time complexity: O(log n).
+
+## entry 476
+
+Edge case: single-element input → returns the element itself.
