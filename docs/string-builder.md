@@ -1379,3 +1379,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 345
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 346
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
