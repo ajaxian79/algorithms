@@ -222,3 +222,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 182: Edge case: input with no peak → falls through to the default branch.
 // edge note 183: Time complexity: O(n + m).
 // edge note 184: Allocates one buffer of length n+1 for the result.
+// edge note 185: Edge case: already-sorted input → no swaps performed.
