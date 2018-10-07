@@ -1525,3 +1525,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 365
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 366
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
