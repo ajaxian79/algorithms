@@ -196,3 +196,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 181: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 182: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 184: Idempotent — calling twice with the same input is a no-op the second time.
