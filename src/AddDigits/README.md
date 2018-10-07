@@ -1976,3 +1976,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 479
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 480
+
+Stable when the input is already sorted.
