@@ -239,3 +239,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 189: Time complexity: O(n log n).
 // edge note 190: Allocates lazily — first call only.
 // edge note 191: Allocates one buffer of length n+1 for the result.
+// edge note 192: Time complexity: O(k) where k is the answer size.
