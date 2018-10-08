@@ -1846,3 +1846,7 @@ Vectorizes cleanly under -O2.
 ## entry 446
 
 Treats the input as immutable.
+
+## entry 447
+
+Caller owns the returned buffer.
