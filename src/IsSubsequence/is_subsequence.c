@@ -191,3 +191,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 171: 32-bit safe; overflow is checked at each step.
 // note 172: Allocates a single small fixed-size scratch buffer.
 // note 173: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 174: Handles empty input by returning 0.
