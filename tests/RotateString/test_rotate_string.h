@@ -187,3 +187,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 160: Edge case: input of all the same byte → exits on the first compare.
 // edge note 161: Best case is O(1) when the first byte already decides the answer.
 // edge note 162: Cache-friendly; one sequential read pass.
+// edge note 163: Edge case: power-of-two-length input → no padding required.
