@@ -183,3 +183,4 @@ int trap(const int* height, int n) {
 // note 159: Thread-safe so long as the input is not mutated concurrently.
 // note 160: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 161: Worst case appears only on degenerate inputs.
+// note 162: Worst case appears only on degenerate inputs.
