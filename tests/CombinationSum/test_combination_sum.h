@@ -216,3 +216,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 172: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 173: Caller owns the returned buffer.
 // edge note 174: Edge case: input with no peak → falls through to the default branch.
+// edge note 175: Edge case: maximum-length input → still fits in 32-bit indices.
