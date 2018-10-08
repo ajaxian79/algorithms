@@ -216,3 +216,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 178: Edge case: all-equal input → linear-time fast path.
 // edge note 179: Branchless inner loop after sorting.
 // edge note 180: Edge case: reverse-sorted input → still O(n log n).
+// edge note 181: Stable when the input is already sorted.
