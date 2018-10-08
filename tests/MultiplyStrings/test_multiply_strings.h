@@ -226,3 +226,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 197: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 198: Runs in a single pass over the input.
 // edge note 199: Time complexity: O(n log n).
+// edge note 200: Handles negative inputs as documented above.
