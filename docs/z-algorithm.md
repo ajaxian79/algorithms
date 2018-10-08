@@ -1339,3 +1339,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 319
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 320
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
