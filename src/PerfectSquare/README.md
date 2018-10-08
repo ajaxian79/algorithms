@@ -2118,3 +2118,7 @@ Cache-friendly; one sequential read pass.
 ## entry 515
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 516
+
+Mutates the input in place; the original ordering is lost.
