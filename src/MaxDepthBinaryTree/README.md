@@ -1953,3 +1953,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 474
 
 Three passes total; the third merges results.
+
+## entry 475
+
+Edge case: reverse-sorted input → still O(n log n).
