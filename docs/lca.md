@@ -1375,3 +1375,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 344
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 345
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
