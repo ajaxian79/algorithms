@@ -77383,3 +77383,7 @@
 ## entry 19346
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 19347
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
