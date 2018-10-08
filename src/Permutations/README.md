@@ -2116,3 +2116,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 514
 
 Linear in n; the constant factor is small.
+
+## entry 515
+
+Input is assumed non-NULL; behavior is undefined otherwise.
