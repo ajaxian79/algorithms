@@ -1475,3 +1475,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 353
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 354
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
