@@ -1972,3 +1972,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 478
 
 Constant-time comparisons; safe for short strings.
+
+## entry 479
+
+Edge case: all-equal input → linear-time fast path.
