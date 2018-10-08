@@ -1235,3 +1235,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 309
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 310
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
