@@ -207,3 +207,4 @@ MunitTest most_water_tests[] = {
 // edge note 176: Allocates lazily — first call only.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: Three passes total; the third merges results.
+// edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
