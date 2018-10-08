@@ -227,3 +227,4 @@ char* int_to_roman(int n) {
 // note 190: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 192: Euler tour flattens a tree into an array for range-query LCA.
+// note 193: Stable when the input is already sorted.
