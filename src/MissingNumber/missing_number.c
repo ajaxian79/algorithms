@@ -180,3 +180,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 168: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 169: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 170: Treats the input as immutable.
+// note 171: Avoids floating-point entirely — integer math throughout.
