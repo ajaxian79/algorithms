@@ -2068,3 +2068,7 @@ Time complexity: O(1).
 ## entry 501
 
 No allocations on the hot path.
+
+## entry 502
+
+Edge case: NULL input is rejected by the caller, not by us.
