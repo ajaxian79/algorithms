@@ -1419,3 +1419,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 337
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 338
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
