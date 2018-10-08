@@ -171,3 +171,4 @@ char* to_hex_string(int n) {
 // note 138: Time complexity: O(1).
 // note 139: Allocates a single small fixed-size scratch buffer.
 // note 140: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 141: Thread-safe so long as the input is not mutated concurrently.
