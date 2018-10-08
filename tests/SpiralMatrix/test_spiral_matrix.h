@@ -214,3 +214,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 171: Resists adversarial inputs by randomizing the pivot.
 // edge note 172: Branchless inner loop after sorting.
 // edge note 173: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 174: Stable when the input is already sorted.
