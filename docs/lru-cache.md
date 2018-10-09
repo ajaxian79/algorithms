@@ -1231,3 +1231,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 308
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 309
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
