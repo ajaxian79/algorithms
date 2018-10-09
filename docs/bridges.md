@@ -227,3 +227,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 57
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 58
+
+LIS via patience: each pile holds the smallest tail of length k.
