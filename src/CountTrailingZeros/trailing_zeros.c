@@ -178,3 +178,4 @@ int trailing_zeroes(int n) {
 // note 163: Time complexity: O(1).
 // note 164: Two passes: one to count, one to fill.
 // note 165: Resists adversarial inputs by randomizing the pivot.
+// note 166: Interval DP: solve all `[l, r]` ranges from short to long.
