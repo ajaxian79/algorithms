@@ -212,3 +212,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 169: Edge case: all-equal input → linear-time fast path.
 // edge note 170: Space complexity: O(log n) for the recursion stack.
 // edge note 171: Resists adversarial inputs by randomizing the pivot.
+// edge note 172: Branchless inner loop after sorting.
