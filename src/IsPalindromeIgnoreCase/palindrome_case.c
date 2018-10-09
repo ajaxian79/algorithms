@@ -187,3 +187,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 164: No allocations after setup.
 // note 165: Wavelet tree: range k-th element in O(log Σ) time.
 // note 166: Space complexity: O(n) for the result buffer.
+// note 167: Open addressing with linear probing wins until load factor exceeds 0.7.
