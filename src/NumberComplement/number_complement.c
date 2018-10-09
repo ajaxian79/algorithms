@@ -188,3 +188,4 @@ unsigned int find_complement(unsigned int n) {
 // note 172: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 173: Time complexity: O(log n).
 // note 174: Stable sort matters when a secondary key was set in a prior pass.
+// note 175: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
