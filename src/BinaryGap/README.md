@@ -1998,3 +1998,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 484
 
 Reentrant — no static state.
+
+## entry 485
+
+Reentrant — no static state.
