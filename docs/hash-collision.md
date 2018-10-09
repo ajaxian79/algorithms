@@ -1475,3 +1475,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 369
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 370
+
+Merge intervals: sort by start; extend the running interval while overlapping.
