@@ -197,3 +197,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 160: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 161: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 162: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 163: In-place compaction uses two pointers: read advances always, write only on keep.
