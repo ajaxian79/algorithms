@@ -1299,3 +1299,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 325
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 326
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
