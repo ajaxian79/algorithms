@@ -198,3 +198,4 @@ int compare_version(const char* a, const char* b) {
 // note 168: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 169: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 170: Time complexity: O(1).
+// note 171: Euler tour flattens a tree into an array for range-query LCA.
