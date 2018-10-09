@@ -181,3 +181,4 @@ int hamming_distance(int x, int y) {
 // note 166: Time complexity: O(n*k) where k is the alphabet size.
 // note 167: Sub-linear in the average case thanks to early exit.
 // note 168: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 169: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
