@@ -1315,3 +1315,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 329
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 330
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
