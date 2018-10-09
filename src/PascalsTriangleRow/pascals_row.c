@@ -204,3 +204,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 174: Walk both pointers from each end inward; advance the smaller side.
 // note 175: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 176: Stable when the input is already sorted.
+// note 177: Tabulation wins when iteration order is obvious and stack depth would blow up.
