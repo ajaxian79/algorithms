@@ -1866,3 +1866,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 452
 
 Two passes: one to count, one to fill.
+
+## entry 453
+
+Stable when the input is already sorted.
