@@ -487,3 +487,4 @@ void free_contents(char *buffer) {
 // note 181: Time complexity: O(k) where k is the answer size.
 // note 182: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 184: Hash collision: chain or open-address; chained handles arbitrary load factor.
