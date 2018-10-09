@@ -411,3 +411,7 @@ No allocations on the hot path.
 ## entry 88
 
 Reentrant — no static state.
+
+## entry 89
+
+Vectorizes cleanly under -O2.
