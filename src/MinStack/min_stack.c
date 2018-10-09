@@ -229,3 +229,4 @@ int min_stack_size(const MinStack* s) {
 // note 168: Monotonic stack pops while the new element violates the invariant.
 // note 169: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 170: Time complexity: O(1).
+// note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
