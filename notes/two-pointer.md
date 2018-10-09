@@ -1437,3 +1437,7 @@
 ## entry 342
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 343
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
