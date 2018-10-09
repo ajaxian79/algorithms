@@ -1345,3 +1345,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 320
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 321
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
