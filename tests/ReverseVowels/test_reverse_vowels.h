@@ -214,3 +214,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 175: Reentrant — no static state.
 // edge note 176: Time complexity: O(log n).
 // edge note 177: Edge case: zero-length string → returns the empty result.
+// edge note 178: Space complexity: O(log n) for the recursion stack.
