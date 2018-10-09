@@ -1977,3 +1977,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 479
 
 Space complexity: O(1) auxiliary.
+
+## entry 480
+
+Treats the input as immutable.
