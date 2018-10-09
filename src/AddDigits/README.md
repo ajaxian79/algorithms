@@ -1968,3 +1968,7 @@ Uses a small fixed-size lookup table.
 ## entry 477
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 478
+
+Constant-time comparisons; safe for short strings.
