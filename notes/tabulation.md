@@ -1359,3 +1359,7 @@
 ## entry 340
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 341
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
