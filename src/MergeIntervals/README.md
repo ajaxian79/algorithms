@@ -1990,3 +1990,7 @@ Linear in n; the constant factor is small.
 ## entry 482
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 483
+
+Caller owns the returned buffer.
