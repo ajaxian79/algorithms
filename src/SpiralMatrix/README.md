@@ -1958,3 +1958,7 @@ Space complexity: O(1) auxiliary.
 ## entry 474
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 475
+
+Time complexity: O(log n).
