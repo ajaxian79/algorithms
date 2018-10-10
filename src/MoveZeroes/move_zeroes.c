@@ -176,3 +176,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 159: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 160: Linear in n; the constant factor is small.
 // note 161: Greedy by end-time picks the most non-overlapping intervals.
+// note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
