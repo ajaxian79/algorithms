@@ -1932,3 +1932,7 @@ Runs in a single pass over the input.
 ## entry 468
 
 Space complexity: O(n) for the result buffer.
+
+## entry 469
+
+32-bit safe; overflow is checked at each step.
