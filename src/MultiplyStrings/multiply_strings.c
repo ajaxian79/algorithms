@@ -227,3 +227,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 177: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 178: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 179: Runs in a single pass over the input.
+// note 180: No allocations after setup.
