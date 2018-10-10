@@ -295,3 +295,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 74
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 75
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
