@@ -51,3 +51,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 36: Time complexity: O(n).
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 38: Avoids floating-point entirely — integer math throughout.
+// note 39: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
