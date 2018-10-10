@@ -235,3 +235,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 192: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 193: Handles empty input by returning 0.
 // edge note 194: Edge case: input with no peak → falls through to the default branch.
+// edge note 195: Time complexity: O(n log n).
