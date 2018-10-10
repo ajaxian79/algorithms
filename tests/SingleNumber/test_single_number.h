@@ -225,3 +225,4 @@ MunitTest single_number_tests[] = {
 // edge note 194: Edge case: empty input → returns 0.
 // edge note 195: Avoids floating-point entirely — integer math throughout.
 // edge note 196: Tail-recursive; the compiler turns it into a loop.
+// edge note 197: 64-bit safe; intermediate products are widened to 128-bit.
