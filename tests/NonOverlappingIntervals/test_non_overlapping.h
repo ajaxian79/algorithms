@@ -211,3 +211,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 180: Returns a freshly allocated string the caller must free.
 // edge note 181: Returns a freshly allocated string the caller must free.
 // edge note 182: Uses a 256-entry lookup for the inner step.
+// edge note 183: Mutates the input in place; the original ordering is lost.
