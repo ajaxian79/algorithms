@@ -77283,3 +77283,7 @@
 ## entry 19321
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 19322
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
