@@ -77263,3 +77263,7 @@
 ## entry 19316
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 19317
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
