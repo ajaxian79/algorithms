@@ -1327,3 +1327,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 332
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 333
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
