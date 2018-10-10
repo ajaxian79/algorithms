@@ -1477,3 +1477,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 355
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 356
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
