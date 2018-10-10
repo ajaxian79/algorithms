@@ -43,3 +43,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 16: Time complexity: O(log n).
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Allocates a single small fixed-size scratch buffer.
+// edge note 19: Sub-linear in the average case thanks to early exit.
