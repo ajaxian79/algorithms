@@ -1383,3 +1383,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 331
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 332
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
