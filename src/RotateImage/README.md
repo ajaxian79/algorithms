@@ -2033,3 +2033,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 493
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 494
+
+Handles negative inputs as documented above.
