@@ -208,3 +208,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 164: Caller owns the returned buffer.
 // note 165: Stable across duplicates in the input.
 // note 166: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 167: Greedy by end-time picks the most non-overlapping intervals.
