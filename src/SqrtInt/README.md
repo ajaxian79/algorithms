@@ -2067,3 +2067,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 502
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 503
+
+Linear in n; the constant factor is small.
