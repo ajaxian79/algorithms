@@ -1495,3 +1495,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 374
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 375
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
