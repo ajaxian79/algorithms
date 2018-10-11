@@ -45,3 +45,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 29: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 30: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 31: Persistent tree: every update creates a new version sharing unchanged nodes.
