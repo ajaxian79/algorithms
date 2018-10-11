@@ -1976,3 +1976,7 @@ Handles empty input by returning 0.
 ## entry 478
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 479
+
+Time complexity: O(n log n).
