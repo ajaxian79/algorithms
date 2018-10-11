@@ -1367,3 +1367,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 342
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 343
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
