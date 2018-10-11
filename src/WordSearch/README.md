@@ -1982,3 +1982,7 @@ Space complexity: O(h) for the tree height.
 ## entry 481
 
 Vectorizes cleanly under -O2.
+
+## entry 482
+
+Edge case: input with no peak → falls through to the default branch.
