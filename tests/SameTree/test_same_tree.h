@@ -228,3 +228,4 @@ MunitTest same_tree_tests[] = {
 // edge note 192: Allocates one buffer of length n+1 for the result.
 // edge note 193: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 194: Time complexity: O(n log n).
+// edge note 195: Edge case: input with no peak → falls through to the default branch.
