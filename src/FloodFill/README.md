@@ -2105,3 +2105,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 512
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 513
+
+Handles single-element input as a base case.
