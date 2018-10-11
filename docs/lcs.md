@@ -1447,3 +1447,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 344
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 345
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
