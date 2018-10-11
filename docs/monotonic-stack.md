@@ -1341,3 +1341,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 319
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 320
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
