@@ -1411,3 +1411,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 335
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 336
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
