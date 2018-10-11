@@ -296,3 +296,4 @@ MunitTest median_tests[] = {
 // edge note 177: Time complexity: O(1).
 // edge note 178: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 179: Edge case: already-sorted input → no swaps performed.
+// edge note 180: Time complexity: O(n*k) where k is the alphabet size.
