@@ -1479,3 +1479,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 370
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 371
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
