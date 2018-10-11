@@ -1805,3 +1805,7 @@ Time complexity: O(n log n).
 ## entry 436
 
 Handles empty input by returning 0.
+
+## entry 437
+
+Linear in n; the constant factor is small.
