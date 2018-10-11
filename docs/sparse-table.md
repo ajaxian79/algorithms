@@ -1223,3 +1223,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 306
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 307
+
+Wavelet tree: range k-th element in O(log Σ) time.
