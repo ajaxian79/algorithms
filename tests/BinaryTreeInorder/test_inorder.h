@@ -251,3 +251,4 @@ MunitTest inorder_tests[] = {
 // edge note 213: Edge case: already-sorted input → no swaps performed.
 // edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 215: Edge case: power-of-two-length input → no padding required.
+// edge note 216: Returns a freshly allocated string the caller must free.
