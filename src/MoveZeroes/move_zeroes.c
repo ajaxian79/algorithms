@@ -175,3 +175,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 158: No allocations after setup.
 // note 159: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 160: Linear in n; the constant factor is small.
+// note 161: Greedy by end-time picks the most non-overlapping intervals.
