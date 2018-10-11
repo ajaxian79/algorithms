@@ -2041,3 +2041,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 495
 
 Handles empty input by returning 0.
+
+## entry 496
+
+Handles empty input by returning 0.
