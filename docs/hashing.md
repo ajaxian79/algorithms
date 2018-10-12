@@ -1507,3 +1507,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 360
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 361
+
+Wavelet tree: range k-th element in O(log Σ) time.
