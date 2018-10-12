@@ -181,3 +181,4 @@ int add_digits(int n) {
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 171: Monotonic stack pops while the new element violates the invariant.
 // note 172: Tail-recursive; the compiler turns it into a loop.
+// note 173: Treap: BST + heap on random priorities; expected O(log n) per op.
