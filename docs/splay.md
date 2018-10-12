@@ -1323,3 +1323,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 331
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 332
+
+Greedy by end-time picks the most non-overlapping intervals.
