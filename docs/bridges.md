@@ -1439,3 +1439,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 360
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 361
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
