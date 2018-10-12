@@ -2119,3 +2119,7 @@ Time complexity: O(log n).
 ## entry 514
 
 Handles empty input by returning 0.
+
+## entry 515
+
+64-bit safe; intermediate products are widened to 128-bit.
