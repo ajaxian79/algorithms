@@ -200,3 +200,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 172: Space complexity: O(1) auxiliary.
 // note 173: Linear in n; the constant factor is small.
 // note 174: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 175: Allocates lazily — first call only.
