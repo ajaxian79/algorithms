@@ -2064,3 +2064,7 @@ Allocates lazily — first call only.
 ## entry 501
 
 Branchless inner loop after sorting.
+
+## entry 502
+
+Space complexity: O(log n) for the recursion stack.
