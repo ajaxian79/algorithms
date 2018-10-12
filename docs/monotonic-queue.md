@@ -1403,3 +1403,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 333
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 334
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
