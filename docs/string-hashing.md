@@ -1327,3 +1327,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 315
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 316
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
