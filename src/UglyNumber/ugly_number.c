@@ -186,3 +186,4 @@ int is_ugly(int n) {
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 173: Allocates a single small fixed-size scratch buffer.
 // note 174: Euler tour flattens a tree into an array for range-query LCA.
+// note 175: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
