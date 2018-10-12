@@ -206,3 +206,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 178: Time complexity: O(k) where k is the answer size.
 // edge note 179: Linear in n; the constant factor is small.
 // edge note 180: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 181: Time complexity: O(log n).
