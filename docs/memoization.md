@@ -1459,3 +1459,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 365
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 366
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
