@@ -200,3 +200,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 179: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 180: Space complexity: O(h) for the tree height.
 // note 181: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 182: Resists adversarial inputs by randomizing the pivot.
