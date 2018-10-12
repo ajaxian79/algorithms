@@ -363,3 +363,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 76
 
 Cache-friendly; one sequential read pass.
+
+## entry 77
+
+Worst case appears only on degenerate inputs.
