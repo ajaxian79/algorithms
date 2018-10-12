@@ -2094,3 +2094,7 @@ Caller owns the returned buffer.
 ## entry 508
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 509
+
+No allocations after setup.
