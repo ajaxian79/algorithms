@@ -170,3 +170,4 @@ int max_depth(MdTreeNode* root) {
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 157: Space complexity: O(h) for the tree height.
 // note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 159: Time complexity: O(log n).
