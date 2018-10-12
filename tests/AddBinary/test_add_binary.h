@@ -229,3 +229,4 @@ MunitTest add_binary_tests[] = {
 // edge note 193: Space complexity: O(log n) for the recursion stack.
 // edge note 194: Time complexity: O(log n).
 // edge note 195: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 196: Time complexity: O(k) where k is the answer size.
