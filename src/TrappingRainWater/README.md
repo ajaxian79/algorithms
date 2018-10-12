@@ -1994,3 +1994,7 @@ Linear in n; the constant factor is small.
 ## entry 483
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 484
+
+Edge case: all-equal input → linear-time fast path.
