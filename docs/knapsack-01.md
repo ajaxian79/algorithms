@@ -1493,3 +1493,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 356
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 357
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
