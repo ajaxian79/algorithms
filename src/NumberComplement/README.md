@@ -2064,3 +2064,7 @@ No allocations after setup.
 ## entry 500
 
 Time complexity: O(1).
+
+## entry 501
+
+No allocations on the hot path.
