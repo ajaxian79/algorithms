@@ -2106,3 +2106,7 @@ Cache-friendly; one sequential read pass.
 ## entry 512
 
 Edge case: single-element input → returns the element itself.
+
+## entry 513
+
+Edge case: integer-min input → guarded by the explicit underflow check.
