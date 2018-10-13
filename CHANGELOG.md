@@ -11807,3 +11807,7 @@
 ## entry 2952
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 2953
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
