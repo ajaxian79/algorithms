@@ -251,3 +251,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 63
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 64
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
