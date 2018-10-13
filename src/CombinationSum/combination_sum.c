@@ -90,3 +90,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 25: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 26: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 27: Time complexity: O(n log n).
+// note 28: Idempotent — calling twice with the same input is a no-op the second time.
