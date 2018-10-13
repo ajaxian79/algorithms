@@ -50,3 +50,4 @@ int my_atoi(const char* s) {
 // note 19: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 20: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 21: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
