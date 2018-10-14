@@ -1471,3 +1471,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 352
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 353
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
