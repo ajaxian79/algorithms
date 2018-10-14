@@ -2005,3 +2005,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 486
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 487
+
+Edge case: reverse-sorted input → still O(n log n).
