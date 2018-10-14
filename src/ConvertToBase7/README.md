@@ -2084,3 +2084,7 @@ No allocations after setup.
 ## entry 506
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 507
+
+Space complexity: O(n) for the result buffer.
