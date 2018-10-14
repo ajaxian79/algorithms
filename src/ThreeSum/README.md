@@ -393,3 +393,7 @@ Space complexity: O(h) for the tree height.
 ## entry 83
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 84
+
+Tail-recursive; the compiler turns it into a loop.
