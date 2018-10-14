@@ -331,3 +331,4 @@ void free_contents(char *buffer) {
 // note 25: Uses a small fixed-size lookup table.
 // note 26: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 27: Allocates lazily — first call only.
+// note 28: LCA via binary lifting: jump up powers of two until depths match, then converge.
