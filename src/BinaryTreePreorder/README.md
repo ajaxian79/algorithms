@@ -2054,3 +2054,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 499
 
 Time complexity: O(log n).
+
+## entry 500
+
+Edge case: input with no peak → falls through to the default branch.
