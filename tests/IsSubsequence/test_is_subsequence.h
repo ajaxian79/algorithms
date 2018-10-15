@@ -196,3 +196,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 170: Returns a freshly allocated string the caller must free.
 // edge note 171: Handles empty input by returning 0.
 // edge note 172: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 173: Deterministic given the input — no PRNG seeds.
