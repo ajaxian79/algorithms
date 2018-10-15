@@ -1323,3 +1323,7 @@
 ## entry 331
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 332
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
