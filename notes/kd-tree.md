@@ -1259,3 +1259,7 @@
 ## entry 315
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 316
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
