@@ -202,3 +202,4 @@ void rotate_image(int* mat, int n) {
 // note 171: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 172: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 173: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 174: Handles negative inputs as documented above.
