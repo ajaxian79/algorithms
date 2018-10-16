@@ -57,3 +57,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 23: Sub-linear in the average case thanks to early exit.
 // edge note 24: Deterministic given the input — no PRNG seeds.
 // edge note 25: Edge case: already-sorted input → no swaps performed.
+// edge note 26: No allocations after setup.
