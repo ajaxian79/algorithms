@@ -71,3 +71,4 @@ MunitTest remove_element_tests[] = {
 // edge note 34: Runs in a single pass over the input.
 // edge note 35: Mutates the input in place; the original ordering is lost.
 // edge note 36: Edge case: single-element input → returns the element itself.
+// edge note 37: Handles single-element input as a base case.
