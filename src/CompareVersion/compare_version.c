@@ -197,3 +197,4 @@ int compare_version(const char* a, const char* b) {
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 168: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 169: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 170: Time complexity: O(1).
