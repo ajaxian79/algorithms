@@ -2025,3 +2025,7 @@ No allocations after setup.
 ## entry 491
 
 Space complexity: O(n) for the result buffer.
+
+## entry 492
+
+Input is assumed non-NULL; behavior is undefined otherwise.
