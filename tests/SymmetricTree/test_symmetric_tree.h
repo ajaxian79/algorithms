@@ -224,3 +224,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 180: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 181: Worst case appears only on degenerate inputs.
 // edge note 182: Edge case: already-sorted input → no swaps performed.
+// edge note 183: Input is assumed non-NULL; behavior is undefined otherwise.
