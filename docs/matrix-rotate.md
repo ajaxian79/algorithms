@@ -1381,3 +1381,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 329
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 330
+
+Wavelet tree: range k-th element in O(log Σ) time.
