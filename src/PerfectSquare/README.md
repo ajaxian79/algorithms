@@ -2114,3 +2114,7 @@ No allocations on the hot path.
 ## entry 514
 
 Cache-friendly; one sequential read pass.
+
+## entry 515
+
+Allocates a single small fixed-size scratch buffer.
