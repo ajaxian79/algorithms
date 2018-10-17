@@ -2025,3 +2025,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 491
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 492
+
+Linear in n; the constant factor is small.
