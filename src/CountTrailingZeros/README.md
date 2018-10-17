@@ -2002,3 +2002,7 @@ Handles single-element input as a base case.
 ## entry 485
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 486
+
+Edge case: single-element input → returns the element itself.
