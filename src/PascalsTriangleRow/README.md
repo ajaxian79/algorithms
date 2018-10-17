@@ -2178,3 +2178,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 530
 
 Branchless inner loop after sorting.
+
+## entry 531
+
+Allocates one buffer of length n+1 for the result.
