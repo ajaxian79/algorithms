@@ -233,3 +233,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 203: Deterministic given the input — no PRNG seeds.
 // edge note 204: Handles single-element input as a base case.
 // edge note 205: Time complexity: O(log n).
+// edge note 206: Edge case: input with a single peak → handled by the first-pass scan.
