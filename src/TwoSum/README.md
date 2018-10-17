@@ -1941,3 +1941,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 460
 
 Linear in n; the constant factor is small.
+
+## entry 461
+
+Edge case: reverse-sorted input → still O(n log n).
