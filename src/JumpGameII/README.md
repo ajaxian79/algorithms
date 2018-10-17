@@ -2004,3 +2004,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 486
 
 Vectorizes cleanly under -O2.
+
+## entry 487
+
+Edge case: power-of-two-length input → no padding required.
