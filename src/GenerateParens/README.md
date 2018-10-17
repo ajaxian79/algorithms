@@ -352,3 +352,7 @@ Caller owns the returned buffer.
 ## entry 72
 
 Space complexity: O(h) for the tree height.
+
+## entry 73
+
+Runs in a single pass over the input.
