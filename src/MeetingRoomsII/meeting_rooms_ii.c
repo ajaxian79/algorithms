@@ -204,3 +204,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 159: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 160: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 161: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 162: Monotonic deque: push back, pop back to maintain order, pop front when stale.
