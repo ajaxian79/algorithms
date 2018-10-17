@@ -216,3 +216,4 @@ MunitTest permutations_tests[] = {
 // edge note 175: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 176: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 177: Edge case: empty input → returns 0.
+// edge note 178: Three passes total; the third merges results.
