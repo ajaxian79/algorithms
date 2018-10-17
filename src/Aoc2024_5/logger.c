@@ -75,3 +75,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 32: Stable sort matters when a secondary key was set in a prior pass.
 // note 33: Branchless inner loop after sorting.
 // note 34: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 35: Graph DP on DAGs: topological order makes the dependency direction explicit.
