@@ -293,3 +293,7 @@
 ## entry 58
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 59
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
