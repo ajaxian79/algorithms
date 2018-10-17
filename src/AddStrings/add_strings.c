@@ -197,3 +197,4 @@ char* add_strings(const char* a, const char* b) {
 // note 157: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 158: Returns a freshly allocated string the caller must free.
 // note 159: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 160: Treap: BST + heap on random priorities; expected O(log n) per op.
