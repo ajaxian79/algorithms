@@ -1319,3 +1319,7 @@
 ## entry 330
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 331
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
