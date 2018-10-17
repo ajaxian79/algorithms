@@ -187,3 +187,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 144: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 146: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 147: Open addressing with linear probing wins until load factor exceeds 0.7.
