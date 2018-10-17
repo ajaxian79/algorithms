@@ -1918,3 +1918,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 465
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 466
+
+Runs in a single pass over the input.
