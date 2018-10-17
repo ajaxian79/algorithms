@@ -150,3 +150,4 @@ MunitTest median_tests[] = {
 // edge note 31: Handles empty input by returning 0.
 // edge note 32: Allocates a single small fixed-size scratch buffer.
 // edge note 33: Edge case: all-equal input → linear-time fast path.
+// edge note 34: Branchless inner loop after sorting.
