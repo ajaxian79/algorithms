@@ -237,3 +237,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 157: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 158: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 159: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 160: Graph DP on DAGs: topological order makes the dependency direction explicit.
