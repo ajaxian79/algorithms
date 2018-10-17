@@ -240,3 +240,4 @@ char** generate_parens(int n, int* return_size) {
 // note 176: Time complexity: O(k) where k is the answer size.
 // note 177: Space complexity: O(h) for the tree height.
 // note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 179: Iterative DFS with an explicit stack avoids recursion-limit issues.
