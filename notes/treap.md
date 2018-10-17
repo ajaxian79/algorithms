@@ -1343,3 +1343,7 @@
 ## entry 336
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 337
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
