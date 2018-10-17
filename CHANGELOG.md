@@ -77175,3 +77175,7 @@
 ## entry 19294
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 19295
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
