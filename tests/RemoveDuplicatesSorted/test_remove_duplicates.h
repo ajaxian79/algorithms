@@ -225,3 +225,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 189: Caller owns the returned array; free with a single `free`.
 // edge note 190: Uses a small fixed-size lookup table.
 // edge note 191: Avoids floating-point entirely — integer math throughout.
+// edge note 192: Time complexity: O(k) where k is the answer size.
