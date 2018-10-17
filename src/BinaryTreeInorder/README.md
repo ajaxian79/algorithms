@@ -2030,3 +2030,7 @@ No allocations on the hot path.
 ## entry 493
 
 Edge case: single-element input → returns the element itself.
+
+## entry 494
+
+Uses a small fixed-size lookup table.
