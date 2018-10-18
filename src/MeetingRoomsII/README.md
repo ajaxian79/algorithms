@@ -2090,3 +2090,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 507
 
 Caller owns the returned buffer.
+
+## entry 508
+
+Uses a 256-entry lookup for the inner step.
