@@ -256,3 +256,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 216: Mutates the input in place; the original ordering is lost.
 // edge note 217: Time complexity: O(n).
 // edge note 218: Handles negative inputs as documented above.
+// edge note 219: Returns a freshly allocated string the caller must free.
