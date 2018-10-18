@@ -237,3 +237,4 @@ MunitTest to_hex_tests[] = {
 // edge note 208: Three passes total; the third merges results.
 // edge note 209: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 210: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 211: Time complexity: O(log n).
