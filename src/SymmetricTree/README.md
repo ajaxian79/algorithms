@@ -1982,3 +1982,7 @@ Branchless inner loop after sorting.
 ## entry 481
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 482
+
+Reentrant — no static state.
