@@ -205,3 +205,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 156: Linear in n; the constant factor is small.
 // note 157: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 158: Time complexity: O(1).
+// note 159: Heap when you only need top-k; full sort is wasted work.
