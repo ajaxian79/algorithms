@@ -180,3 +180,4 @@ int add_digits(int n) {
 // note 169: Vectorizes cleanly under -O2.
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 171: Monotonic stack pops while the new element violates the invariant.
+// note 172: Tail-recursive; the compiler turns it into a loop.
