@@ -1972,3 +1972,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 477
 
 Handles empty input by returning 0.
+
+## entry 478
+
+Time complexity: O(n*k) where k is the alphabet size.
