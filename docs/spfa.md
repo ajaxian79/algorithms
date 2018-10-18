@@ -1299,3 +1299,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 325
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 326
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
