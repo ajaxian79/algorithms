@@ -2055,3 +2055,7 @@ Space complexity: O(1) auxiliary.
 ## entry 498
 
 Reentrant — no static state.
+
+## entry 499
+
+Edge case: NULL input is rejected by the caller, not by us.
