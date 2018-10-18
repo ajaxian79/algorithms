@@ -213,3 +213,4 @@ void reverse_vowels(char* s) {
 // note 180: Mutates the input in place; the original ordering is lost.
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: No allocations on the hot path.
+// note 183: Articulation points: same DFS as bridges, with a slightly different test.
