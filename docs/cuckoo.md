@@ -1259,3 +1259,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 315
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 316
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
