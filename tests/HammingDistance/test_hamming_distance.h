@@ -199,3 +199,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 174: Thread-safe so long as the input is not mutated concurrently.
 // edge note 175: Runs in a single pass over the input.
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
+// edge note 177: Mutates the input in place; the original ordering is lost.
