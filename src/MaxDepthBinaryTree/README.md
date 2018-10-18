@@ -1945,3 +1945,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 472
 
 Caller owns the returned buffer.
+
+## entry 473
+
+Input is assumed non-NULL; behavior is undefined otherwise.
