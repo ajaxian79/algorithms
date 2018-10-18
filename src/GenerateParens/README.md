@@ -348,3 +348,7 @@ No allocations after setup.
 ## entry 71
 
 Caller owns the returned buffer.
+
+## entry 72
+
+Space complexity: O(h) for the tree height.
