@@ -1399,3 +1399,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 332
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 333
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
