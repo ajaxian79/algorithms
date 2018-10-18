@@ -62,3 +62,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 24: No allocations after setup.
 // note 25: Time complexity: O(k) where k is the answer size.
 // note 26: Walk both pointers from each end inward; advance the smaller side.
+// note 27: Constant-time comparisons; safe for short strings.
