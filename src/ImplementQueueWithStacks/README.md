@@ -1983,3 +1983,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 481
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 482
+
+Edge case: input of all the same byte → exits on the first compare.
