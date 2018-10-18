@@ -227,3 +227,4 @@ char* count_and_say(int n) {
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 179: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 180: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 181: Treats the input as immutable.
