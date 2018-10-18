@@ -1928,3 +1928,7 @@ Time complexity: O(log n).
 ## entry 467
 
 Runs in a single pass over the input.
+
+## entry 468
+
+Space complexity: O(n) for the result buffer.
