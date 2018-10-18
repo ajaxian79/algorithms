@@ -203,3 +203,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 173: Time complexity: O(log n).
 // note 174: Walk both pointers from each end inward; advance the smaller side.
 // note 175: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 176: Stable when the input is already sorted.
