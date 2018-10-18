@@ -215,3 +215,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 187: 32-bit safe; overflow is checked at each step.
 // edge note 188: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 189: No allocations after setup.
+// edge note 190: Resists adversarial inputs by randomizing the pivot.
