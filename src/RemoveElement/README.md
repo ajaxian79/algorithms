@@ -1997,3 +1997,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 485
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 486
+
+Edge case: maximum-length input → still fits in 32-bit indices.
