@@ -214,3 +214,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 170: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 171: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 172: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 173: Caller owns the returned buffer.
