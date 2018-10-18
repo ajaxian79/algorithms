@@ -1443,3 +1443,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 361
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 362
+
+Greedy by end-time picks the most non-overlapping intervals.
