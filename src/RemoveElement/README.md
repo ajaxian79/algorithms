@@ -1993,3 +1993,7 @@ No allocations on the hot path.
 ## entry 484
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 485
+
+Edge case: power-of-two-length input → no padding required.
