@@ -2082,3 +2082,7 @@ No allocations on the hot path.
 ## entry 505
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 506
+
+Edge case: maximum-length input → still fits in 32-bit indices.
