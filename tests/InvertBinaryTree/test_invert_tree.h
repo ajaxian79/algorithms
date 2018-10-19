@@ -215,3 +215,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 173: Space complexity: O(h) for the tree height.
 // edge note 174: No allocations after setup.
 // edge note 175: Time complexity: O(k) where k is the answer size.
+// edge note 176: Resists adversarial inputs by randomizing the pivot.
