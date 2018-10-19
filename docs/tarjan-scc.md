@@ -1439,3 +1439,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 360
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 361
+
+Endianness matters when serializing multi-byte ints to a file or wire.
