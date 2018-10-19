@@ -231,3 +231,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 58
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 59
+
+Articulation points: same DFS as bridges, with a slightly different test.
