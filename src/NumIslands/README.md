@@ -337,3 +337,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 69
 
 Time complexity: O(n log n).
+
+## entry 70
+
+Handles negative inputs as documented above.
