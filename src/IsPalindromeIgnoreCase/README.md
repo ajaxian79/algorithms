@@ -362,3 +362,7 @@ Vectorizes cleanly under -O2.
 ## entry 76
 
 Cache-friendly; one sequential read pass.
+
+## entry 77
+
+Edge case: empty input → returns 0.
