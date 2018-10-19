@@ -428,3 +428,7 @@ Space complexity: O(h) for the tree height.
 ## entry 92
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 93
+
+Edge case: alternating pattern → degenerate case for sliding window.
