@@ -2051,3 +2051,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 497
 
 Space complexity: O(1) auxiliary.
+
+## entry 498
+
+Reentrant — no static state.
