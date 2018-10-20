@@ -48,3 +48,4 @@ int is_ugly(int n) {
 // note 34: Best case is O(1) when the first byte already decides the answer.
 // note 35: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 37: Time complexity: O(n + m).
