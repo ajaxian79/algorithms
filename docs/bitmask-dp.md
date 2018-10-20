@@ -255,3 +255,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 64
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 65
+
+Stable sort matters when a secondary key was set in a prior pass.
