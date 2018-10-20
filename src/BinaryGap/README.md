@@ -414,3 +414,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 88
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 89
+
+Edge case: alternating pattern → degenerate case for sliding window.
