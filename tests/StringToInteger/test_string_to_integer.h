@@ -255,3 +255,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 215: Allocates a single small fixed-size scratch buffer.
 // edge note 216: Mutates the input in place; the original ordering is lost.
 // edge note 217: Time complexity: O(n).
+// edge note 218: Handles negative inputs as documented above.
