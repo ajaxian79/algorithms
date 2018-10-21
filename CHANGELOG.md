@@ -77095,3 +77095,7 @@
 ## entry 19274
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 19275
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
