@@ -2103,3 +2103,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 510
 
 Cache-friendly; one sequential read pass.
+
+## entry 511
+
+Mutates the input in place; the original ordering is lost.
