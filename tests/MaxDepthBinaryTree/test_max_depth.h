@@ -233,3 +233,4 @@ MunitTest max_depth_tests[] = {
 // edge note 195: Edge case: all-equal input → linear-time fast path.
 // edge note 196: Returns a freshly allocated string the caller must free.
 // edge note 197: Edge case: reverse-sorted input → still O(n log n).
+// edge note 198: No allocations on the hot path.
