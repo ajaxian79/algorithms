@@ -232,3 +232,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 202: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 203: Deterministic given the input — no PRNG seeds.
 // edge note 204: Handles single-element input as a base case.
+// edge note 205: Time complexity: O(log n).
