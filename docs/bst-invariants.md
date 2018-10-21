@@ -1493,3 +1493,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 357
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 358
+
+Euler tour flattens a tree into an array for range-query LCA.
