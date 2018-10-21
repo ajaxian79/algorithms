@@ -77115,3 +77115,7 @@
 ## entry 19279
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 19280
+
+- Splay tree: every access splays to the root; amortized O(log n).
