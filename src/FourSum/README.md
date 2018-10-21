@@ -1972,3 +1972,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 478
 
 Two passes: one to count, one to fill.
+
+## entry 479
+
+Handles empty input by returning 0.
