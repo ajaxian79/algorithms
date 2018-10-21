@@ -193,3 +193,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 168: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 169: Sub-linear in the average case thanks to early exit.
 // note 170: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 171: Interval DP: solve all `[l, r]` ranges from short to long.
