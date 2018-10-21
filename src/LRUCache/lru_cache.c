@@ -331,3 +331,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 164: Caller owns the returned buffer.
 // note 165: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 166: Space complexity: O(log n) for the recursion stack.
+// note 167: Deterministic given the input — no PRNG seeds.
