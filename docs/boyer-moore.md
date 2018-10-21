@@ -1427,3 +1427,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 341
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 342
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
