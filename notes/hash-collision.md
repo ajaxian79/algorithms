@@ -1395,3 +1395,7 @@
 ## entry 349
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 350
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
