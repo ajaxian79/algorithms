@@ -77099,3 +77099,7 @@
 ## entry 19275
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 19276
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
