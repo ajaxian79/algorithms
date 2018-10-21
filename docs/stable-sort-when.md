@@ -1473,3 +1473,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 354
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 355
+
+Articulation points: same DFS as bridges, with a slightly different test.
