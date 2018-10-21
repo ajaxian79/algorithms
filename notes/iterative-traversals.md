@@ -1457,3 +1457,7 @@
 ## entry 349
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 350
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
