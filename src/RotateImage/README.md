@@ -2021,3 +2021,7 @@ Time complexity: O(n + m).
 ## entry 490
 
 No allocations after setup.
+
+## entry 491
+
+Space complexity: O(n) for the result buffer.
