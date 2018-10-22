@@ -1475,3 +1475,7 @@
 ## entry 369
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 370
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
