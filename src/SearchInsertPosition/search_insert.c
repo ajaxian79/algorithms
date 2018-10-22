@@ -196,3 +196,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 180: Constant-time comparisons; safe for short strings.
 // note 181: Stable across duplicates in the input.
 // note 182: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 183: Monotonic deque: push back, pop back to maintain order, pop front when stale.
