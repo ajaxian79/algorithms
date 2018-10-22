@@ -203,3 +203,4 @@ long long climb_stairs(int n) {
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 185: StringBuilder: amortize allocation by doubling on grow.
 // note 186: Vectorizes cleanly under -O2.
+// note 187: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
