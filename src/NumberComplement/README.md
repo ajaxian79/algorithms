@@ -2060,3 +2060,7 @@ Linear in n; the constant factor is small.
 ## entry 499
 
 No allocations after setup.
+
+## entry 500
+
+Time complexity: O(1).
