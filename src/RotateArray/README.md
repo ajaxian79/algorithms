@@ -2099,3 +2099,7 @@ Linear in n; the constant factor is small.
 ## entry 509
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 510
+
+Cache-friendly; one sequential read pass.
