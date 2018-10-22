@@ -1986,3 +1986,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 481
 
 Linear in n; the constant factor is small.
+
+## entry 482
+
+Edge case: all-equal input → linear-time fast path.
