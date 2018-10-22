@@ -2060,3 +2060,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 500
 
 Allocates lazily — first call only.
+
+## entry 501
+
+Branchless inner loop after sorting.
