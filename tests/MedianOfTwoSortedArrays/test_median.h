@@ -295,3 +295,4 @@ MunitTest median_tests[] = {
 // edge note 176: Caller owns the returned array; free with a single `free`.
 // edge note 177: Time complexity: O(1).
 // edge note 178: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 179: Edge case: already-sorted input → no swaps performed.
