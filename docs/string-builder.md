@@ -1359,3 +1359,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 340
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 341
+
+Heap when you only need top-k; full sort is wasted work.
