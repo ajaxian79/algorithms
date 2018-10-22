@@ -1407,3 +1407,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 352
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 353
+
+Euler tour flattens a tree into an array for range-query LCA.
