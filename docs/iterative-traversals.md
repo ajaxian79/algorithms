@@ -1425,3 +1425,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 340
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 341
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
