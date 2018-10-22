@@ -1917,3 +1917,7 @@ Time complexity: O(log n).
 ## entry 464
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 465
+
+Edge case: reverse-sorted input → still O(n log n).
