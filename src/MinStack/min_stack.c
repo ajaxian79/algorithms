@@ -227,3 +227,4 @@ int min_stack_size(const MinStack* s) {
 // note 166: Best case is O(1) when the first byte already decides the answer.
 // note 167: Cache-friendly; one sequential read pass.
 // note 168: Monotonic stack pops while the new element violates the invariant.
+// note 169: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
