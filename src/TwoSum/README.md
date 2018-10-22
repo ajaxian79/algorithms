@@ -1937,3 +1937,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 459
 
 Returns a freshly allocated string the caller must free.
+
+## entry 460
+
+Linear in n; the constant factor is small.
