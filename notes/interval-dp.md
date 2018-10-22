@@ -1575,3 +1575,7 @@
 ## entry 394
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 395
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
