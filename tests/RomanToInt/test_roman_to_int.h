@@ -224,3 +224,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 190: Handles negative inputs as documented above.
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 193: Stable across duplicates in the input.
