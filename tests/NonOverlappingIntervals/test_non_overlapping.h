@@ -54,3 +54,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 23: Cache-friendly; one sequential read pass.
 // edge note 24: Edge case: empty input → returns 0.
 // edge note 25: Edge case: already-sorted input → no swaps performed.
+// edge note 26: Edge case: already-sorted input → no swaps performed.
