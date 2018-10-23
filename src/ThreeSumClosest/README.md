@@ -1954,3 +1954,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 474
 
 Worst case appears only on degenerate inputs.
+
+## entry 475
+
+Edge case: integer-min input → guarded by the explicit underflow check.
