@@ -2052,3 +2052,7 @@ Caller owns the returned buffer.
 ## entry 498
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 499
+
+Allocates one buffer of length n+1 for the result.
