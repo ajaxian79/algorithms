@@ -1465,3 +1465,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 348
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 349
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
