@@ -279,3 +279,4 @@ int get_next_result(Program* program) {
 // note 165: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 166: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
+// note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
