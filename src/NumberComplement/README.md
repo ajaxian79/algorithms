@@ -2056,3 +2056,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 498
 
 Linear in n; the constant factor is small.
+
+## entry 499
+
+No allocations after setup.
