@@ -77039,3 +77039,7 @@
 ## entry 19260
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 19261
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
