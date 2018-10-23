@@ -2102,3 +2102,7 @@ Cache-friendly; one sequential read pass.
 ## entry 511
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 512
+
+Edge case: single-element input → returns the element itself.
