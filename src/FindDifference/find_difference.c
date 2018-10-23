@@ -175,3 +175,4 @@ char find_difference(const char* s, const char* t) {
 // note 159: Time complexity: O(n + m).
 // note 160: Two passes: one to count, one to fill.
 // note 161: Allocates lazily — first call only.
+// note 162: Uses a small fixed-size lookup table.
