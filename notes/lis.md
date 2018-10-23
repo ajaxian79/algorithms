@@ -1307,3 +1307,7 @@
 ## entry 309
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 310
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
