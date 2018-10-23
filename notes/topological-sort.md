@@ -1347,3 +1347,7 @@
 ## entry 320
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 321
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
