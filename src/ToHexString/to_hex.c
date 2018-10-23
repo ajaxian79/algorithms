@@ -170,3 +170,4 @@ char* to_hex_string(int n) {
 // note 137: Euler tour flattens a tree into an array for range-query LCA.
 // note 138: Time complexity: O(1).
 // note 139: Allocates a single small fixed-size scratch buffer.
+// note 140: Interval DP: solve all `[l, r]` ranges from short to long.
