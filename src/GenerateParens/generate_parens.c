@@ -95,3 +95,4 @@ char** generate_parens(int n, int* return_size) {
 // note 31: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 32: Euler tour flattens a tree into an array for range-query LCA.
 // note 33: Space complexity: O(1) auxiliary.
+// note 34: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
