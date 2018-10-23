@@ -1455,3 +1455,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 364
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 365
+
+StringBuilder: amortize allocation by doubling on grow.
