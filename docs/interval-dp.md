@@ -1355,3 +1355,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 339
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 340
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
