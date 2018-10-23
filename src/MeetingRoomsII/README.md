@@ -2086,3 +2086,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 506
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 507
+
+Caller owns the returned buffer.
