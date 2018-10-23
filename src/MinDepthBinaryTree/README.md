@@ -1910,3 +1910,7 @@ Time complexity: O(n).
 ## entry 463
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 464
+
+Edge case: power-of-two-length input → no padding required.
