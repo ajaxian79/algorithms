@@ -1982,3 +1982,7 @@ No allocations on the hot path.
 ## entry 480
 
 Time complexity: O(n log n).
+
+## entry 481
+
+Tail-recursive; the compiler turns it into a loop.
