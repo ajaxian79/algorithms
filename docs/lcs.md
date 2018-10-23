@@ -1443,3 +1443,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 343
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 344
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
