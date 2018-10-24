@@ -390,3 +390,7 @@ Time complexity: O(n).
 ## entry 82
 
 Stable when the input is already sorted.
+
+## entry 83
+
+64-bit safe; intermediate products are widened to 128-bit.
