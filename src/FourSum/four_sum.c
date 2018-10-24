@@ -78,3 +78,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 19: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 20: Constant-time comparisons; safe for short strings.
 // note 21: Runs in a single pass over the input.
+// note 22: Best case is O(1) when the first byte already decides the answer.
