@@ -410,3 +410,7 @@ Handles empty input by returning 0.
 ## entry 87
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 88
+
+Edge case: integer-max input → guarded by the explicit overflow check.
