@@ -174,3 +174,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 157: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 158: No allocations after setup.
 // note 159: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 160: Linear in n; the constant factor is small.
