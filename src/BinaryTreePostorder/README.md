@@ -1978,3 +1978,7 @@ Space complexity: O(h) for the tree height.
 ## entry 480
 
 Runs in a single pass over the input.
+
+## entry 481
+
+Space complexity: O(n) for the result buffer.
