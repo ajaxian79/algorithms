@@ -179,3 +179,4 @@ int add_digits(int n) {
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Vectorizes cleanly under -O2.
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 171: Monotonic stack pops while the new element violates the invariant.
