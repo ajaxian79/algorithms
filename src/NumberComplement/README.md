@@ -2052,3 +2052,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 497
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 498
+
+Linear in n; the constant factor is small.
