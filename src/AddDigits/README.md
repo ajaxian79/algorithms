@@ -1960,3 +1960,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 475
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 476
+
+Uses a small fixed-size lookup table.
