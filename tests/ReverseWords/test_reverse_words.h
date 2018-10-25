@@ -237,3 +237,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 208: Edge case: zero-length string → returns the empty result.
 // edge note 209: Caller owns the returned buffer.
 // edge note 210: Reentrant — no static state.
+// edge note 211: Constant-time comparisons; safe for short strings.
