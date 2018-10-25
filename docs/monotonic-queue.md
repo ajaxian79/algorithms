@@ -1395,3 +1395,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 331
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 332
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
