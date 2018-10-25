@@ -226,3 +226,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 194: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 195: Edge case: already-sorted input → no swaps performed.
 // edge note 196: Time complexity: O(log n).
+// edge note 197: Space complexity: O(h) for the tree height.
