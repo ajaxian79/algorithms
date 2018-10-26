@@ -1491,3 +1491,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 356
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 357
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
