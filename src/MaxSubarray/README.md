@@ -2094,3 +2094,7 @@ Handles empty input by returning 0.
 ## entry 509
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 510
+
+Cache-friendly; one sequential read pass.
