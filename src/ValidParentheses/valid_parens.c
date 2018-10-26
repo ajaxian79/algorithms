@@ -231,3 +231,4 @@ int is_valid_parens(const char* s) {
 // note 189: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 190: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 191: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 192: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
