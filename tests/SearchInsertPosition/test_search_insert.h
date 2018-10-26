@@ -54,3 +54,4 @@ MunitTest search_insert_tests[] = {
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Handles single-element input as a base case.
 // edge note 23: Allocates lazily — first call only.
+// edge note 24: Edge case: input with one duplicate → handled without an extra pass.
