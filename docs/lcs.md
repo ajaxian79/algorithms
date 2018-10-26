@@ -1439,3 +1439,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 342
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 343
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
