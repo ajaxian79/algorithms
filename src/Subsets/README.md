@@ -2083,3 +2083,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 506
 
 Handles negative inputs as documented above.
+
+## entry 507
+
+Edge case: input of all the same byte → exits on the first compare.
