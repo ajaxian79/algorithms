@@ -2047,3 +2047,7 @@ Handles single-element input as a base case.
 ## entry 496
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 497
+
+Space complexity: O(1) auxiliary.
