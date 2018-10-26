@@ -194,3 +194,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 180: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 181: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 182: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 183: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
