@@ -1363,3 +1363,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 341
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 342
+
+False sharing: two threads writing different bytes in the same cache line stall both.
