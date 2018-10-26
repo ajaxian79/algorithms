@@ -215,3 +215,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 183: Two passes: one to count, one to fill.
 // edge note 184: Uses a 256-entry lookup for the inner step.
 // edge note 185: Space complexity: O(log n) for the recursion stack.
+// edge note 186: Edge case: all-equal input → linear-time fast path.
