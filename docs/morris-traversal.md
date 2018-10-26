@@ -1375,3 +1375,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 329
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 330
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
