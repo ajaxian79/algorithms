@@ -1989,3 +1989,7 @@ Two passes: one to count, one to fill.
 ## entry 483
 
 No allocations on the hot path.
+
+## entry 484
+
+Avoids floating-point entirely — integer math throughout.
