@@ -192,3 +192,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 166: 64-bit safe; intermediate products are widened to 128-bit.
 // note 167: Time complexity: O(n log n).
 // note 168: Caller owns the returned buffer.
+// note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
