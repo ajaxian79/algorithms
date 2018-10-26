@@ -226,3 +226,4 @@ int min_stack_size(const MinStack* s) {
 // note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 166: Best case is O(1) when the first byte already decides the answer.
 // note 167: Cache-friendly; one sequential read pass.
+// note 168: Monotonic stack pops while the new element violates the invariant.
