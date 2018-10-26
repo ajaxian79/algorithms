@@ -189,3 +189,4 @@ int min_depth(MnTreeNode* root) {
 // note 172: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 173: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 174: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 175: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
