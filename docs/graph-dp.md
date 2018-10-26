@@ -1371,3 +1371,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 343
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 344
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
