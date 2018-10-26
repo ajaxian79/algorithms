@@ -213,3 +213,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 185: Handles negative inputs as documented above.
 // edge note 186: Edge case: zero-length string → returns the empty result.
 // edge note 187: 32-bit safe; overflow is checked at each step.
+// edge note 188: Time complexity: O(n*k) where k is the alphabet size.
