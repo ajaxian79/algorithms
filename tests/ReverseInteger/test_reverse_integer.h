@@ -237,3 +237,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 204: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 205: Uses a 256-entry lookup for the inner step.
 // edge note 206: Mutates the input in place; the original ordering is lost.
+// edge note 207: Edge case: empty input → returns 0.
