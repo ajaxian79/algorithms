@@ -1950,3 +1950,7 @@ Stable across duplicates in the input.
 ## entry 473
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 474
+
+Worst case appears only on degenerate inputs.
