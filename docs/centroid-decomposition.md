@@ -1315,3 +1315,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 329
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 330
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
