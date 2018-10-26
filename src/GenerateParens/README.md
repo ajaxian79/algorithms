@@ -1968,3 +1968,7 @@ Edge case: empty input → returns 0.
 ## entry 476
 
 Uses a small fixed-size lookup table.
+
+## entry 477
+
+Edge case: empty input → returns 0.
