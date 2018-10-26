@@ -234,3 +234,4 @@ MunitTest plus_one_tests[] = {
 // edge note 169: Cache-friendly; one sequential read pass.
 // edge note 170: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 171: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 172: Uses a small fixed-size lookup table.
