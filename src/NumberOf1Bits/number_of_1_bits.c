@@ -165,3 +165,4 @@ int number_of_1_bits(unsigned int n) {
 // note 152: Stable sort matters when a secondary key was set in a prior pass.
 // note 153: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 154: Space complexity: O(1) auxiliary.
+// note 155: Constant-time comparisons; safe for short strings.
