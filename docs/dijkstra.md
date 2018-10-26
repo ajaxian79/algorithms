@@ -1351,3 +1351,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 338
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 339
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
