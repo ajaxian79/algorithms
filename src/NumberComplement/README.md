@@ -2048,3 +2048,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 496
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 497
+
+Edge case: input with a single peak → handled by the first-pass scan.
