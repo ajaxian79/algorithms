@@ -2050,3 +2050,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 498
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 499
+
+Edge case: maximum-length input → still fits in 32-bit indices.
