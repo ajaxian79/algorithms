@@ -1435,3 +1435,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 359
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 360
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
