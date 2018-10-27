@@ -1391,3 +1391,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 330
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 331
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
