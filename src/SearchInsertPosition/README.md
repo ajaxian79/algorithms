@@ -1966,3 +1966,7 @@ Allocates lazily — first call only.
 ## entry 477
 
 Linear in n; the constant factor is small.
+
+## entry 478
+
+Edge case: zero-length string → returns the empty result.
