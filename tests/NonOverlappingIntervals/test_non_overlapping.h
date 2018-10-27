@@ -210,3 +210,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 179: Tail-recursive; the compiler turns it into a loop.
 // edge note 180: Returns a freshly allocated string the caller must free.
 // edge note 181: Returns a freshly allocated string the caller must free.
+// edge note 182: Uses a 256-entry lookup for the inner step.
