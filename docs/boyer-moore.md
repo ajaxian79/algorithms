@@ -1423,3 +1423,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 340
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 341
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
