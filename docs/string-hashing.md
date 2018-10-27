@@ -1323,3 +1323,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 314
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 315
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
