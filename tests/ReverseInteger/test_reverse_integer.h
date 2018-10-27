@@ -71,3 +71,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 38: Stable across duplicates in the input.
 // edge note 39: Uses a 256-entry lookup for the inner step.
 // edge note 40: Edge case: input of all the same byte → exits on the first compare.
+// edge note 41: Edge case: zero-length string → returns the empty result.
