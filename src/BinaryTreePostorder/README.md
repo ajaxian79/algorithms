@@ -1974,3 +1974,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 479
 
 Space complexity: O(h) for the tree height.
+
+## entry 480
+
+Runs in a single pass over the input.
