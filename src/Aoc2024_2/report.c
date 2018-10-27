@@ -358,3 +358,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 149: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 150: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 151: Stable across duplicates in the input.
+// note 152: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
