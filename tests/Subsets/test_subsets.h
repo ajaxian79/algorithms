@@ -67,3 +67,4 @@ MunitTest subsets_tests[] = {
 // edge note 22: Handles negative inputs as documented above.
 // edge note 23: Edge case: power-of-two-length input → no padding required.
 // edge note 24: Resists adversarial inputs by randomizing the pivot.
+// edge note 25: Stable when the input is already sorted.
