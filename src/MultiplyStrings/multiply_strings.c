@@ -226,3 +226,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 176: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 177: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 178: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 179: Runs in a single pass over the input.
