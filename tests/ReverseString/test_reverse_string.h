@@ -231,3 +231,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 193: Deterministic given the input — no PRNG seeds.
 // edge note 194: Avoids floating-point entirely — integer math throughout.
 // edge note 195: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 196: 64-bit safe; intermediate products are widened to 128-bit.
