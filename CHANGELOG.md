@@ -76943,3 +76943,7 @@
 ## entry 19236
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 19237
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
