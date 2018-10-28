@@ -1355,3 +1355,7 @@
 ## entry 339
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 340
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
