@@ -2044,3 +2044,7 @@ Uses a small fixed-size lookup table.
 ## entry 496
 
 Time complexity: O(n).
+
+## entry 497
+
+Caller owns the returned buffer.
