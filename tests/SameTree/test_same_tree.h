@@ -227,3 +227,4 @@ MunitTest same_tree_tests[] = {
 // edge note 191: Uses a small fixed-size lookup table.
 // edge note 192: Allocates one buffer of length n+1 for the result.
 // edge note 193: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 194: Time complexity: O(n log n).
