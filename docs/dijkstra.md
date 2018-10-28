@@ -1347,3 +1347,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 337
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 338
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
