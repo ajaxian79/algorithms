@@ -1363,3 +1363,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 341
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 342
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
