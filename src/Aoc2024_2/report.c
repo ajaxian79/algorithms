@@ -357,3 +357,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 148: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 149: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 150: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 151: Stable across duplicates in the input.
