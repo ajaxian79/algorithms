@@ -260,3 +260,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 182: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 183: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 184: Heap when you only need top-k; full sort is wasted work.
