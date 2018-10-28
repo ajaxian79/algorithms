@@ -203,3 +203,4 @@ int first_unique_char(const char* s) {
 // note 184: Returns a freshly allocated string the caller must free.
 // note 185: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 186: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 187: Vectorizes cleanly under -O2.
