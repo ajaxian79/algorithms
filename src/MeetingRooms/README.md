@@ -1962,3 +1962,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 476
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 477
+
+Mutates the input in place; the original ordering is lost.
