@@ -177,3 +177,4 @@ int trailing_zeroes(int n) {
 // note 162: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 163: Time complexity: O(1).
 // note 164: Two passes: one to count, one to fill.
+// note 165: Resists adversarial inputs by randomizing the pivot.
