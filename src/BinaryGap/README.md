@@ -1978,3 +1978,7 @@ Reentrant — no static state.
 ## entry 479
 
 No allocations on the hot path.
+
+## entry 480
+
+Time complexity: O(n log n).
