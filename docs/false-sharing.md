@@ -1411,3 +1411,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 353
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 354
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
