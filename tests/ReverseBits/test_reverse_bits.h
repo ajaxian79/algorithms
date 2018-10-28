@@ -207,3 +207,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 181: Time complexity: O(1).
 // edge note 182: Deterministic given the input — no PRNG seeds.
 // edge note 183: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 184: Stable when the input is already sorted.
