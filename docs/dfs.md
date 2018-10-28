@@ -1459,3 +1459,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 349
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 350
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
