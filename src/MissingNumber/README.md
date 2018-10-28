@@ -2078,3 +2078,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 504
 
 No allocations on the hot path.
+
+## entry 505
+
+Edge case: alternating pattern → degenerate case for sliding window.
