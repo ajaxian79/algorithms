@@ -364,3 +364,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 76
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 77
+
+Caller owns the returned buffer.
