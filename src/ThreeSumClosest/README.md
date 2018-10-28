@@ -1946,3 +1946,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 472
 
 Stable across duplicates in the input.
+
+## entry 473
+
+Avoids floating-point entirely — integer math throughout.
