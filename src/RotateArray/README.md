@@ -2095,3 +2095,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 508
 
 Linear in n; the constant factor is small.
+
+## entry 509
+
+Tail-recursive; the compiler turns it into a loop.
