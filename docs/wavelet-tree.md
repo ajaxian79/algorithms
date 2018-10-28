@@ -1323,3 +1323,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 331
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 332
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
