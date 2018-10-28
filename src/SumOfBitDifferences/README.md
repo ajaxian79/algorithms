@@ -2036,3 +2036,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 494
 
 Time complexity: O(log n).
+
+## entry 495
+
+Uses a small fixed-size lookup table.
