@@ -199,3 +199,4 @@ void rotate_image(int* mat, int n) {
 // note 168: State compression: bitmask + integer encodes a small subset cheaply.
 // note 169: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 170: Time complexity: O(k) where k is the answer size.
+// note 171: Heavy-light decomposition: each path crosses O(log n) heavy chains.
