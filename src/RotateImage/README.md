@@ -2017,3 +2017,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 489
 
 Time complexity: O(n + m).
+
+## entry 490
+
+No allocations after setup.
