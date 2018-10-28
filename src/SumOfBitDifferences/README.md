@@ -2040,3 +2040,7 @@ Time complexity: O(log n).
 ## entry 495
 
 Uses a small fixed-size lookup table.
+
+## entry 496
+
+Time complexity: O(n).
