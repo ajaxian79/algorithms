@@ -1333,3 +1333,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 317
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 318
+
+Merge intervals: sort by start; extend the running interval while overlapping.
