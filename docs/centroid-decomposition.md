@@ -1311,3 +1311,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 328
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 329
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
