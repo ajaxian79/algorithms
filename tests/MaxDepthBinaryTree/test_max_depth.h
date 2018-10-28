@@ -231,3 +231,4 @@ MunitTest max_depth_tests[] = {
 // edge note 193: Three passes total; the third merges results.
 // edge note 194: Allocates a single small fixed-size scratch buffer.
 // edge note 195: Edge case: all-equal input → linear-time fast path.
+// edge note 196: Returns a freshly allocated string the caller must free.
