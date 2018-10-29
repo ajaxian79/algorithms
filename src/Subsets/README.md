@@ -2079,3 +2079,7 @@ Allocates lazily — first call only.
 ## entry 505
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 506
+
+Handles negative inputs as documented above.
