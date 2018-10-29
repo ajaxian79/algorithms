@@ -259,3 +259,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 65
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 66
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
