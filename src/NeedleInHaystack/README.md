@@ -368,3 +368,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 77
 
 Caller owns the returned buffer.
+
+## entry 78
+
+Resists adversarial inputs by randomizing the pivot.
