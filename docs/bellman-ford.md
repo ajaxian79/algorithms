@@ -1451,3 +1451,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 363
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 364
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
