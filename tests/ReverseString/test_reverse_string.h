@@ -230,3 +230,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 192: Edge case: all-equal input → linear-time fast path.
 // edge note 193: Deterministic given the input — no PRNG seeds.
 // edge note 194: Avoids floating-point entirely — integer math throughout.
+// edge note 195: Edge case: NULL input is rejected by the caller, not by us.
