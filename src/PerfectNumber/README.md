@@ -1789,3 +1789,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 432
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 433
+
+Edge case: alternating pattern → degenerate case for sliding window.
