@@ -236,3 +236,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 201: Caller owns the returned array; free with a single `free`.
 // edge note 202: Handles negative inputs as documented above.
+// edge note 203: Avoids floating-point entirely — integer math throughout.
