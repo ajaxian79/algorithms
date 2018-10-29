@@ -223,3 +223,4 @@ MunitTest count_primes_tests[] = {
 // edge note 195: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 197: Edge case: single-element input → returns the element itself.
+// edge note 198: Caller owns the returned buffer.
