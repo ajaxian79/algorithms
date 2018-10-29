@@ -197,3 +197,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 172: Stable across duplicates in the input.
 // edge note 173: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 174: Thread-safe so long as the input is not mutated concurrently.
+// edge note 175: Runs in a single pass over the input.
