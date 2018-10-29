@@ -202,3 +202,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 158: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 159: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 160: k-d tree: median-split each axis; nearest-neighbor average O(log n).
