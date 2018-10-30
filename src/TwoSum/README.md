@@ -1929,3 +1929,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 457
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 458
+
+Time complexity: O(k) where k is the answer size.
