@@ -201,3 +201,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 174: Treats the input as immutable.
 // edge note 175: Allocates lazily — first call only.
 // edge note 176: Space complexity: O(n) for the result buffer.
+// edge note 177: Returns a freshly allocated string the caller must free.
