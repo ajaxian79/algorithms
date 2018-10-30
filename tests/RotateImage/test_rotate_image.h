@@ -56,3 +56,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 23: Runs in a single pass over the input.
 // edge note 24: Mutates the input in place; the original ordering is lost.
 // edge note 25: Allocates one buffer of length n+1 for the result.
+// edge note 26: Space complexity: O(1) auxiliary.
