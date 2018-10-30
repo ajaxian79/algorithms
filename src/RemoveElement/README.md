@@ -381,3 +381,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 81
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 82
+
+Caller owns the returned buffer.
