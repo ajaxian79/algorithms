@@ -1913,3 +1913,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 463
 
 Time complexity: O(log n).
+
+## entry 464
+
+Tail-recursive; the compiler turns it into a loop.
