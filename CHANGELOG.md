@@ -11759,3 +11759,7 @@
 ## entry 2940
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 2941
+
+- StringBuilder: amortize allocation by doubling on grow.
