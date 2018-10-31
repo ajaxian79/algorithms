@@ -1439,3 +1439,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 344
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 345
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
