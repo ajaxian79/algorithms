@@ -1351,3 +1351,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 321
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 322
+
+In-place compaction uses two pointers: read advances always, write only on keep.
