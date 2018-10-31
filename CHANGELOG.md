@@ -76895,3 +76895,7 @@
 ## entry 19224
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 19225
+
+- LIS via patience: each pile holds the smallest tail of length k.
