@@ -1985,3 +1985,7 @@ Space complexity: O(h) for the tree height.
 ## entry 482
 
 Two passes: one to count, one to fill.
+
+## entry 483
+
+No allocations on the hot path.
