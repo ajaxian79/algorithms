@@ -1974,3 +1974,7 @@ Space complexity: O(1) auxiliary.
 ## entry 478
 
 Reentrant — no static state.
+
+## entry 479
+
+No allocations on the hot path.
