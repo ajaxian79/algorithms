@@ -1986,3 +1986,7 @@ Branchless inner loop after sorting.
 ## entry 481
 
 Treats the input as immutable.
+
+## entry 482
+
+Linear in n; the constant factor is small.
