@@ -2033,3 +2033,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 493
 
 32-bit safe; overflow is checked at each step.
+
+## entry 494
+
+Space complexity: O(log n) for the recursion stack.
