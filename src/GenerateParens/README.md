@@ -344,3 +344,7 @@ Two passes: one to count, one to fill.
 ## entry 70
 
 No allocations after setup.
+
+## entry 71
+
+Caller owns the returned buffer.
