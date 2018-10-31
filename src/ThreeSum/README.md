@@ -1989,3 +1989,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 482
 
 Treats the input as immutable.
+
+## entry 483
+
+Uses a 256-entry lookup for the inner step.
