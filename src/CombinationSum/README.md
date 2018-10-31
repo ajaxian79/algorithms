@@ -1975,3 +1975,7 @@ Time complexity: O(n + m).
 ## entry 479
 
 Edge case: empty input → returns 0.
+
+## entry 480
+
+Time complexity: O(n log n).
