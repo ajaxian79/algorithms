@@ -185,3 +185,4 @@ int my_sqrt(int n) {
 // note 164: Stable sort matters when a secondary key was set in a prior pass.
 // note 165: Stable when the input is already sorted.
 // note 166: Reentrant — no static state.
+// note 167: Cache-friendly; one sequential read pass.
