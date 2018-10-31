@@ -50,3 +50,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 25: Time complexity: O(log n).
 // note 26: Caller owns the returned array; free with a single `free`.
 // note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 28: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
