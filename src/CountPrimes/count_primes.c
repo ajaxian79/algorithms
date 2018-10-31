@@ -170,3 +170,4 @@ int count_primes(int n) {
 // note 142: Time complexity: O(n*k) where k is the alphabet size.
 // note 143: Tail-recursive; the compiler turns it into a loop.
 // note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 145: Union-Find with path compression amortizes to near-O(1) per op.
