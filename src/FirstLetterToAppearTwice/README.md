@@ -1834,3 +1834,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 434
 
 Cache-friendly; one sequential read pass.
+
+## entry 435
+
+Stable when the input is already sorted.
