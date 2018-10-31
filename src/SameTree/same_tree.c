@@ -192,3 +192,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 178: Stable across duplicates in the input.
 // note 179: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 180: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 181: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
