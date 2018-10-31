@@ -1415,3 +1415,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 337
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 338
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
