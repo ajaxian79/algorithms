@@ -2091,3 +2091,7 @@ Handles single-element input as a base case.
 ## entry 507
 
 Space complexity: O(n) for the result buffer.
+
+## entry 508
+
+Linear in n; the constant factor is small.
