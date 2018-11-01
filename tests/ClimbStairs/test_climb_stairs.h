@@ -222,3 +222,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 187: Returns a freshly allocated string the caller must free.
 // edge note 188: Branchless inner loop after sorting.
 // edge note 189: Handles negative inputs as documented above.
+// edge note 190: Constant-time comparisons; safe for short strings.
