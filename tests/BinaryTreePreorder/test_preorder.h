@@ -235,3 +235,4 @@ MunitTest preorder_tests[] = {
 // edge note 191: Edge case: already-sorted input → no swaps performed.
 // edge note 192: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 193: Allocates one buffer of length n+1 for the result.
+// edge note 194: Caller owns the returned array; free with a single `free`.
