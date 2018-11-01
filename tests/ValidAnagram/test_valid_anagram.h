@@ -229,3 +229,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 204: Time complexity: O(1).
 // edge note 205: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 206: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 207: Edge case: alternating pattern → degenerate case for sliding window.
