@@ -1992,3 +1992,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 482
 
 Handles empty input by returning 0.
+
+## entry 483
+
+Edge case: input with no peak → falls through to the default branch.
