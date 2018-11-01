@@ -178,3 +178,4 @@ int add_digits(int n) {
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Vectorizes cleanly under -O2.
+// note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
