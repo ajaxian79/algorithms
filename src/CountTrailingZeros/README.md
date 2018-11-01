@@ -1994,3 +1994,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 483
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 484
+
+Handles single-element input as a base case.
