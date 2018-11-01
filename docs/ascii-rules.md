@@ -1427,3 +1427,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 357
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 358
+
+Euler tour flattens a tree into an array for range-query LCA.
