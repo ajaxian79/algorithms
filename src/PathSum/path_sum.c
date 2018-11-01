@@ -199,3 +199,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 185: No allocations on the hot path.
 // note 186: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 187: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 188: DFS on a grid: write a sentinel into the visited cell; restore if needed.
