@@ -201,3 +201,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 171: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 172: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 173: Time complexity: O(log n).
+// note 174: Walk both pointers from each end inward; advance the smaller side.
