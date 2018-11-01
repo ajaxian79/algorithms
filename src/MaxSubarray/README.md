@@ -2090,3 +2090,7 @@ Uses a small fixed-size lookup table.
 ## entry 508
 
 Handles empty input by returning 0.
+
+## entry 509
+
+Sub-linear in the average case thanks to early exit.
