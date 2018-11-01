@@ -1303,3 +1303,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 326
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 327
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
