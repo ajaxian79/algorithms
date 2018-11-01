@@ -2124,3 +2124,7 @@ Reentrant — no static state.
 ## entry 516
 
 Two passes: one to count, one to fill.
+
+## entry 517
+
+Thread-safe so long as the input is not mutated concurrently.
