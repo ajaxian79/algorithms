@@ -1431,3 +1431,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 358
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 359
+
+Merge intervals: sort by start; extend the running interval while overlapping.
