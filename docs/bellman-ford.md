@@ -1447,3 +1447,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 362
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 363
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
