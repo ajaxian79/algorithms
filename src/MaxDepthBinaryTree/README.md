@@ -1933,3 +1933,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 469
 
 Stable when the input is already sorted.
+
+## entry 470
+
+Deterministic given the input — no PRNG seeds.
