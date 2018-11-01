@@ -1435,3 +1435,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 343
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 344
+
+Heap when you only need top-k; full sort is wasted work.
