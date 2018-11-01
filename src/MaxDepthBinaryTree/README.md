@@ -1937,3 +1937,7 @@ Stable when the input is already sorted.
 ## entry 470
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 471
+
+Time complexity: O(n^2) worst case, O(n) amortized.
