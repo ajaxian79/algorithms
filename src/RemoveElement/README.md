@@ -377,3 +377,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 80
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 81
+
+Time complexity: O(n^2) worst case, O(n) amortized.
