@@ -1339,3 +1339,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 335
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 336
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
