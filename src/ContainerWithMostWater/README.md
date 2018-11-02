@@ -1955,3 +1955,7 @@ Space complexity: O(h) for the tree height.
 ## entry 474
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 475
+
+Edge case: power-of-two-length input → no padding required.
