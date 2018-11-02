@@ -200,3 +200,4 @@ int num_islands(char* grid, int m, int n) {
 // note 168: Two passes: one to count, one to fill.
 // note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 170: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 171: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
