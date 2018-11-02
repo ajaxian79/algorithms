@@ -2026,3 +2026,7 @@ No allocations on the hot path.
 ## entry 492
 
 No allocations on the hot path.
+
+## entry 493
+
+Edge case: single-element input → returns the element itself.
