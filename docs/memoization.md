@@ -1455,3 +1455,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 364
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 365
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
