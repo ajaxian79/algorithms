@@ -1421,3 +1421,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 339
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 340
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
