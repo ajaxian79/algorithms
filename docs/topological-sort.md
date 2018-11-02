@@ -1461,3 +1461,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 347
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 348
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
