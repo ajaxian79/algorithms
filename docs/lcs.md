@@ -1431,3 +1431,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 340
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 341
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
