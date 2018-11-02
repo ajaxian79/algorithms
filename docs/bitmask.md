@@ -1331,3 +1331,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 317
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 318
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
