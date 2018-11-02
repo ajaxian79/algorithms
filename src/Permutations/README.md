@@ -2096,3 +2096,7 @@ Time complexity: O(n).
 ## entry 509
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 510
+
+Edge case: reverse-sorted input → still O(n log n).
