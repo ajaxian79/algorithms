@@ -1485,3 +1485,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 355
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 356
+
+Greedy by end-time picks the most non-overlapping intervals.
