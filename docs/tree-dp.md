@@ -1539,3 +1539,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 385
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 386
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
