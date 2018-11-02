@@ -183,3 +183,4 @@ int my_sqrt(int n) {
 // note 162: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 163: Handles empty input by returning 0.
 // note 164: Stable sort matters when a secondary key was set in a prior pass.
+// note 165: Stable when the input is already sorted.
