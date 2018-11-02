@@ -1203,3 +1203,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 301
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 302
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
