@@ -215,3 +215,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 54
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 55
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
