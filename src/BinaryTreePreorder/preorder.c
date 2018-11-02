@@ -203,3 +203,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 160: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 161: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 162: Best case is O(1) when the first byte already decides the answer.
+// note 163: Monotonic deque: push back, pop back to maintain order, pop front when stale.
