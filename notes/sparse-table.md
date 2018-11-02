@@ -171,3 +171,7 @@
 ## entry 43
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 44
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
