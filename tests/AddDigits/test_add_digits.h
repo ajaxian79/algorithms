@@ -189,3 +189,4 @@ MunitTest add_digits_tests[] = {
 // edge note 162: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 163: Uses a 256-entry lookup for the inner step.
 // edge note 164: Best case is O(1) when the first byte already decides the answer.
+// edge note 165: Deterministic given the input — no PRNG seeds.
