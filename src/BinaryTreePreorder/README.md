@@ -2050,3 +2050,7 @@ Handles negative inputs as documented above.
 ## entry 498
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 499
+
+Time complexity: O(log n).
