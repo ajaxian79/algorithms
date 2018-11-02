@@ -1975,3 +1975,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 479
 
 Handles negative inputs as documented above.
+
+## entry 480
+
+Edge case: input of all the same byte → exits on the first compare.
