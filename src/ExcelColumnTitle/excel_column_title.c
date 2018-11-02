@@ -198,3 +198,4 @@ char* excel_column_title(int n) {
 // note 168: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 169: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 170: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 171: Caller owns the returned array; free with a single `free`.
