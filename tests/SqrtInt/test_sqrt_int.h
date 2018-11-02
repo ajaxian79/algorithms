@@ -208,3 +208,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 180: Space complexity: O(1) auxiliary.
 // edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 182: Cache-friendly; one sequential read pass.
+// edge note 183: Allocates lazily — first call only.
