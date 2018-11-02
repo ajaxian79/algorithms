@@ -217,3 +217,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 186: Resists adversarial inputs by randomizing the pivot.
 // edge note 187: Time complexity: O(log n).
 // edge note 188: Worst case appears only on degenerate inputs.
+// edge note 189: Time complexity: O(k) where k is the answer size.
