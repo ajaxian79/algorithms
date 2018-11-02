@@ -236,3 +236,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 207: Tail-recursive; the compiler turns it into a loop.
 // edge note 208: Edge case: zero-length string → returns the empty result.
 // edge note 209: Caller owns the returned buffer.
+// edge note 210: Reentrant — no static state.
