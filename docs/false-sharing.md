@@ -1407,3 +1407,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 352
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 353
+
+State compression: bitmask + integer encodes a small subset cheaply.
