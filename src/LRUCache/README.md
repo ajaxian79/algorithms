@@ -384,3 +384,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 80
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 81
+
+Mutates the input in place; the original ordering is lost.
