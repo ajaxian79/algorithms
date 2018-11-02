@@ -1481,3 +1481,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 354
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 355
+
+In-place compaction uses two pointers: read advances always, write only on keep.
