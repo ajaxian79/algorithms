@@ -76811,3 +76811,7 @@
 ## entry 19203
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 19204
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
