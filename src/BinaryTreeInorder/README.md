@@ -338,3 +338,7 @@ Space complexity: O(1) auxiliary.
 ## entry 70
 
 Treats the input as immutable.
+
+## entry 71
+
+Vectorizes cleanly under -O2.
