@@ -1239,3 +1239,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 310
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 311
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
