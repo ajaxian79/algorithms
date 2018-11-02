@@ -76819,3 +76819,7 @@
 ## entry 19205
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 19206
+
+- Greedy by end-time picks the most non-overlapping intervals.
