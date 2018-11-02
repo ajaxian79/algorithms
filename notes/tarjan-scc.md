@@ -1351,3 +1351,7 @@
 ## entry 338
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 339
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
