@@ -2074,3 +2074,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 503
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 504
+
+No allocations on the hot path.
