@@ -43,3 +43,4 @@ int is_palindrome_str(const char* s) {
 // note 18: Space complexity: O(h) for the tree height.
 // note 19: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 20: Three passes total; the third merges results.
+// note 21: No allocations on the hot path.
