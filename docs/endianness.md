@@ -267,3 +267,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 67
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 68
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
