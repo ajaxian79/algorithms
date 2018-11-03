@@ -87,3 +87,4 @@ MunitTest plus_one_tests[] = {
 // edge note 22: Deterministic given the input — no PRNG seeds.
 // edge note 23: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 24: Constant-time comparisons; safe for short strings.
+// edge note 25: Time complexity: O(n).
