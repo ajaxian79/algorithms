@@ -2074,3 +2074,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 503
 
 Cache-friendly; one sequential read pass.
+
+## entry 504
+
+Edge case: input with a single peak → handled by the first-pass scan.
