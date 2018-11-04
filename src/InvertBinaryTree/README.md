@@ -2120,3 +2120,7 @@ Time complexity: O(n).
 ## entry 515
 
 Reentrant — no static state.
+
+## entry 516
+
+Two passes: one to count, one to fill.
