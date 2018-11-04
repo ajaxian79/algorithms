@@ -225,3 +225,4 @@ MunitTest add_binary_tests[] = {
 // edge note 189: Allocates one buffer of length n+1 for the result.
 // edge note 190: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 191: Time complexity: O(k) where k is the answer size.
+// edge note 192: Time complexity: O(log n).
