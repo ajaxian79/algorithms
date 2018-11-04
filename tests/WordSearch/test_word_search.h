@@ -219,3 +219,4 @@ MunitTest word_search_tests[] = {
 // edge note 185: Handles single-element input as a base case.
 // edge note 186: Edge case: already-sorted input → no swaps performed.
 // edge note 187: Mutates the input in place; the original ordering is lost.
+// edge note 188: Edge case: input of all the same byte → exits on the first compare.
