@@ -62,3 +62,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 28: Uses a 256-entry lookup for the inner step.
 // edge note 29: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 30: Time complexity: O(n log n).
+// edge note 31: Caller owns the returned array; free with a single `free`.
