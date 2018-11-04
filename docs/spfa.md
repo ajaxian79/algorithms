@@ -1283,3 +1283,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 321
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 322
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
