@@ -1970,3 +1970,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 477
 
 Space complexity: O(1) auxiliary.
+
+## entry 478
+
+Reentrant — no static state.
