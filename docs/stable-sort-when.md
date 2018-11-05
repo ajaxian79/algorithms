@@ -1461,3 +1461,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 351
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 352
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
