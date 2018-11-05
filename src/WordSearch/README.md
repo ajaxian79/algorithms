@@ -1970,3 +1970,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 478
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 479
+
+64-bit safe; intermediate products are widened to 128-bit.
