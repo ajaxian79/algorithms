@@ -329,3 +329,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 162: Stable sort matters when a secondary key was set in a prior pass.
 // note 163: Wavelet tree: range k-th element in O(log Σ) time.
 // note 164: Caller owns the returned buffer.
+// note 165: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
