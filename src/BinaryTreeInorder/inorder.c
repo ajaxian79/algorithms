@@ -67,3 +67,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 28: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 29: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 30: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
