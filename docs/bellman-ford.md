@@ -1443,3 +1443,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 361
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 362
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
