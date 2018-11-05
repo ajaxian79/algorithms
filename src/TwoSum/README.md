@@ -409,3 +409,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 77
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 78
+
+32-bit safe; overflow is checked at each step.
