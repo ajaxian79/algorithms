@@ -186,3 +186,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 143: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 144: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 146: LRU cache: doubly-linked list + hash map; O(1) get/put.
