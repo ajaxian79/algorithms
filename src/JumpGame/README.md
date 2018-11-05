@@ -2021,3 +2021,7 @@ Stable across duplicates in the input.
 ## entry 490
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 491
+
+Caller owns the returned array; free with a single `free`.
