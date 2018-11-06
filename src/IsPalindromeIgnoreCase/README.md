@@ -1862,3 +1862,7 @@ Three passes total; the third merges results.
 ## entry 451
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 452
+
+Two passes: one to count, one to fill.
