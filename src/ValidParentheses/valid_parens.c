@@ -229,3 +229,4 @@ int is_valid_parens(const char* s) {
 // note 187: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 188: Mutates the input in place; the original ordering is lost.
 // note 189: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 190: Open addressing with linear probing wins until load factor exceeds 0.7.
