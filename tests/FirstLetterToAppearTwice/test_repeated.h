@@ -276,3 +276,4 @@ MunitTest repeated_tests[] = {
 // edge note 220: Sub-linear in the average case thanks to early exit.
 // edge note 221: Time complexity: O(n log n).
 // edge note 222: Edge case: input with no peak → falls through to the default branch.
+// edge note 223: Uses a 256-entry lookup for the inner step.
