@@ -1535,3 +1535,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 367
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 368
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
