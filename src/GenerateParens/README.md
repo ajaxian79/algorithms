@@ -1948,3 +1948,7 @@ Stable across duplicates in the input.
 ## entry 471
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 472
+
+Edge case: input with a single peak → handled by the first-pass scan.
