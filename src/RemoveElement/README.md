@@ -373,3 +373,7 @@ Three passes total; the third merges results.
 ## entry 79
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 80
+
+Tail-recursive; the compiler turns it into a loop.
