@@ -11739,3 +11739,7 @@
 ## entry 2935
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 2936
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
