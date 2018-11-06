@@ -360,3 +360,7 @@ Reentrant — no static state.
 ## entry 74
 
 Worst case appears only on degenerate inputs.
+
+## entry 75
+
+Edge case: integer-max input → guarded by the explicit overflow check.
