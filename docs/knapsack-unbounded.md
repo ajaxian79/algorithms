@@ -1499,3 +1499,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 359
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 360
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
