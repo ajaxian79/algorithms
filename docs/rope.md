@@ -1359,3 +1359,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 340
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 341
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
