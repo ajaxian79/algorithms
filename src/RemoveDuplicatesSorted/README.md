@@ -2134,3 +2134,7 @@ Worst case appears only on degenerate inputs.
 ## entry 519
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 520
+
+Edge case: alternating pattern → degenerate case for sliding window.
