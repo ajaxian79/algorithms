@@ -1403,3 +1403,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 351
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 352
+
+Monotonic stack pops while the new element violates the invariant.
