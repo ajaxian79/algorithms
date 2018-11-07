@@ -2080,3 +2080,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 505
 
 No allocations after setup.
+
+## entry 506
+
+Edge case: integer-min input → guarded by the explicit underflow check.
