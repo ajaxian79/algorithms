@@ -316,3 +316,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 163: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 164: Time complexity: O(n + m).
 // note 165: Handles empty input by returning 0.
+// note 166: Pick a pivot, partition, recurse on the side that contains the kth slot.
