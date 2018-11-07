@@ -211,3 +211,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 53
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 54
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
