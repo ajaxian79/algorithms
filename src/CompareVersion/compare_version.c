@@ -195,3 +195,4 @@ int compare_version(const char* a, const char* b) {
 // note 165: Handles empty input by returning 0.
 // note 166: Handles empty input by returning 0.
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 168: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
