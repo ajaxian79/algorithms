@@ -223,3 +223,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 187: Treats the input as immutable.
 // edge note 188: No allocations after setup.
 // edge note 189: Caller owns the returned array; free with a single `free`.
+// edge note 190: Uses a small fixed-size lookup table.
