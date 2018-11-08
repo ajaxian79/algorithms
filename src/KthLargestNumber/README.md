@@ -1960,3 +1960,7 @@ Handles negative inputs as documented above.
 ## entry 474
 
 No allocations after setup.
+
+## entry 475
+
+Space complexity: O(1) auxiliary.
