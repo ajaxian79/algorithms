@@ -2040,3 +2040,7 @@ Runs in a single pass over the input.
 ## entry 494
 
 Two passes: one to count, one to fill.
+
+## entry 495
+
+Allocates one buffer of length n+1 for the result.
