@@ -1863,3 +1863,7 @@ Reentrant — no static state.
 ## entry 451
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 452
+
+Returns a freshly allocated string the caller must free.
