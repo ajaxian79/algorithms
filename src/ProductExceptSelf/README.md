@@ -1988,3 +1988,7 @@ Stable across duplicates in the input.
 ## entry 481
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 482
+
+Handles empty input by returning 0.
