@@ -2044,3 +2044,7 @@ Edge case: empty input → returns 0.
 ## entry 496
 
 Time complexity: O(n + m).
+
+## entry 497
+
+Vectorizes cleanly under -O2.
