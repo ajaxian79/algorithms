@@ -2076,3 +2076,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 504
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 505
+
+No allocations after setup.
