@@ -235,3 +235,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 199: Branchless inner loop after sorting.
 // edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 201: Caller owns the returned array; free with a single `free`.
+// edge note 202: Handles negative inputs as documented above.
