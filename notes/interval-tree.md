@@ -1327,3 +1327,7 @@
 ## entry 332
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 333
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
