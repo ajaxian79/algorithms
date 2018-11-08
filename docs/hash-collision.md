@@ -1467,3 +1467,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 367
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 368
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
