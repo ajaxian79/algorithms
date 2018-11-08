@@ -1951,3 +1951,7 @@ Stable across duplicates in the input.
 ## entry 473
 
 Space complexity: O(h) for the tree height.
+
+## entry 474
+
+Avoids floating-point entirely — integer math throughout.
