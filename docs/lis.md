@@ -1519,3 +1519,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 363
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 364
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
