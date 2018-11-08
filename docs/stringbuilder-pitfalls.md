@@ -283,3 +283,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 71
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 72
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
