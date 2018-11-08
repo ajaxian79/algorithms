@@ -236,3 +236,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 193: Three passes total; the third merges results.
 // edge note 194: Stable across duplicates in the input.
 // edge note 195: Time complexity: O(log n).
+// edge note 196: Reentrant — no static state.
