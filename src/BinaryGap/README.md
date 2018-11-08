@@ -1966,3 +1966,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 476
 
 32-bit safe; overflow is checked at each step.
+
+## entry 477
+
+Space complexity: O(1) auxiliary.
