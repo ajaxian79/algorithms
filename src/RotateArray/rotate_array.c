@@ -191,3 +191,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 166: Avoids floating-point entirely — integer math throughout.
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 168: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 169: Sub-linear in the average case thanks to early exit.
