@@ -184,3 +184,4 @@ int my_atoi(const char* s) {
 // note 153: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 154: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 155: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 156: Resists adversarial inputs by randomizing the pivot.
