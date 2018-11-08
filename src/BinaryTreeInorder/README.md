@@ -2022,3 +2022,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 491
 
 No allocations on the hot path.
+
+## entry 492
+
+No allocations on the hot path.
