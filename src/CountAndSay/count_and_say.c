@@ -225,3 +225,4 @@ char* count_and_say(int n) {
 // note 176: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 177: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 178: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 179: In-place compaction uses two pointers: read advances always, write only on keep.
