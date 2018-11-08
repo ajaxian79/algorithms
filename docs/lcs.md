@@ -1427,3 +1427,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 339
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 340
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
