@@ -199,3 +199,4 @@ int num_islands(char* grid, int m, int n) {
 // note 167: No allocations after setup.
 // note 168: Two passes: one to count, one to fill.
 // note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 170: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
