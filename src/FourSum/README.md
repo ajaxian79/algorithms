@@ -1968,3 +1968,7 @@ Caller owns the returned buffer.
 ## entry 477
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 478
+
+Two passes: one to count, one to fill.
