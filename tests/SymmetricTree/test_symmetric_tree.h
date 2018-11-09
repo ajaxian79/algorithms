@@ -222,3 +222,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 178: Space complexity: O(log n) for the recursion stack.
 // edge note 179: Edge case: already-sorted input → no swaps performed.
 // edge note 180: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 181: Worst case appears only on degenerate inputs.
