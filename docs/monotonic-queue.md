@@ -291,3 +291,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 55
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 56
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
