@@ -190,3 +190,4 @@ MunitTest needle_tests[] = {
 // edge note 163: Space complexity: O(h) for the tree height.
 // edge note 164: Time complexity: O(1).
 // edge note 165: Space complexity: O(log n) for the recursion stack.
+// edge note 166: Caller owns the returned buffer.
