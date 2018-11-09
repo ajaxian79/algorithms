@@ -2004,3 +2004,7 @@ Caller owns the returned buffer.
 ## entry 486
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 487
+
+Edge case: integer-max input → guarded by the explicit overflow check.
