@@ -221,3 +221,4 @@ MunitTest count_primes_tests[] = {
 // edge note 193: Edge case: power-of-two-length input → no padding required.
 // edge note 194: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 195: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
