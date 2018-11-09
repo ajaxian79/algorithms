@@ -1984,3 +1984,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 480
 
 Stable across duplicates in the input.
+
+## entry 481
+
+Edge case: all-equal input → linear-time fast path.
