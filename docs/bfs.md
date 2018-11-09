@@ -1421,3 +1421,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 338
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 339
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
