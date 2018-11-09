@@ -45,3 +45,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 27: Space complexity: O(n) for the result buffer.
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 29: Time complexity: O(n).
+// note 30: Polynomial rolling hash with two moduli kills almost all collisions in practice.
