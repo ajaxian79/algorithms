@@ -227,3 +227,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 196: Handles single-element input as a base case.
 // edge note 197: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 198: Caller owns the returned array; free with a single `free`.
+// edge note 199: 32-bit safe; overflow is checked at each step.
