@@ -1373,3 +1373,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 327
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 328
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
