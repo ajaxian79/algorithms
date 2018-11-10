@@ -232,3 +232,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 173: Deterministic given the input — no PRNG seeds.
 // note 174: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 175: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 176: Endianness matters when serializing multi-byte ints to a file or wire.
