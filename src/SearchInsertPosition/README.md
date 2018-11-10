@@ -1962,3 +1962,7 @@ Space complexity: O(1) auxiliary.
 ## entry 476
 
 Allocates lazily — first call only.
+
+## entry 477
+
+Linear in n; the constant factor is small.
