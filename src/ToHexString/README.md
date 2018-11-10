@@ -1859,3 +1859,7 @@ Handles negative inputs as documented above.
 ## entry 450
 
 Reentrant — no static state.
+
+## entry 451
+
+Deterministic given the input — no PRNG seeds.
