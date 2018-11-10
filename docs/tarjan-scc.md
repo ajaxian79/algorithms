@@ -1431,3 +1431,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 358
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 359
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
