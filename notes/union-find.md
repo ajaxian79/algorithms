@@ -251,3 +251,7 @@
 ## entry 47
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 48
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
