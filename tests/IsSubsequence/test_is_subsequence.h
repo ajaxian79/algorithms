@@ -49,3 +49,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 23: Allocates lazily — first call only.
 // edge note 24: Edge case: input with no peak → falls through to the default branch.
 // edge note 25: 32-bit safe; overflow is checked at each step.
+// edge note 26: Best case is O(1) when the first byte already decides the answer.
