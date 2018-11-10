@@ -1403,3 +1403,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 333
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 334
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
