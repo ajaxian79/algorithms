@@ -1971,3 +1971,7 @@ Reentrant — no static state.
 ## entry 478
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 479
+
+Handles negative inputs as documented above.
