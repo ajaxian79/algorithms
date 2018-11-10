@@ -1920,3 +1920,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 465
 
 Two passes: one to count, one to fill.
+
+## entry 466
+
+Time complexity: O(log n).
