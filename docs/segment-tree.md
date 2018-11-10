@@ -1407,3 +1407,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 334
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 335
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
