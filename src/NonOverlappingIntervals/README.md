@@ -1961,3 +1961,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 475
 
 Linear in n; the constant factor is small.
+
+## entry 476
+
+Mutates the input in place; the original ordering is lost.
