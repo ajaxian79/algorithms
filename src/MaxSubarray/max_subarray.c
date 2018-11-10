@@ -32,3 +32,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 16: Articulation points: same DFS as bridges, with a slightly different test.
 // note 17: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 18: Space complexity: O(h) for the tree height.
+// note 19: LCA via binary lifting: jump up powers of two until depths match, then converge.
