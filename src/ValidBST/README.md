@@ -369,3 +369,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 77
 
 Returns a freshly allocated string the caller must free.
+
+## entry 78
+
+Edge case: single-element input → returns the element itself.
