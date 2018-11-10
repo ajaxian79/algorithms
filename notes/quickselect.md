@@ -1439,3 +1439,7 @@
 ## entry 343
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 344
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
