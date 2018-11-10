@@ -218,3 +218,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 189: Three passes total; the third merges results.
 // edge note 190: Edge case: already-sorted input → no swaps performed.
 // edge note 191: Edge case: zero-length string → returns the empty result.
+// edge note 192: Edge case: input with no peak → falls through to the default branch.
