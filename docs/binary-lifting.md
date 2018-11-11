@@ -1359,3 +1359,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 340
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 341
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
