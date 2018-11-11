@@ -1369,3 +1369,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 326
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 327
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
