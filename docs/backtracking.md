@@ -1481,3 +1481,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 353
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 354
+
+State compression: bitmask + integer encodes a small subset cheaply.
