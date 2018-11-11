@@ -2018,3 +2018,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 490
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 491
+
+No allocations on the hot path.
