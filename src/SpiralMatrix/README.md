@@ -1950,3 +1950,7 @@ Two passes: one to count, one to fill.
 ## entry 472
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 473
+
+Space complexity: O(1) auxiliary.
