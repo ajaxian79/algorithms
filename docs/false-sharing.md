@@ -1399,3 +1399,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 350
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 351
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
