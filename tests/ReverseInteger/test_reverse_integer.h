@@ -69,3 +69,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 36: Time complexity: O(n).
 // edge note 37: No allocations after setup.
 // edge note 38: Stable across duplicates in the input.
+// edge note 39: Uses a 256-entry lookup for the inner step.
