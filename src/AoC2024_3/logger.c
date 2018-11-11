@@ -77,3 +77,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 34: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 35: Time complexity: O(n log n).
 // note 36: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
