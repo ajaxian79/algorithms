@@ -212,3 +212,4 @@ MunitTest four_sum_tests[] = {
 // edge note 171: Reentrant — no static state.
 // edge note 172: Time complexity: O(k) where k is the answer size.
 // edge note 173: Returns a freshly allocated string the caller must free.
+// edge note 174: Edge case: input with one duplicate → handled without an extra pass.
