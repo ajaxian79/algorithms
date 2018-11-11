@@ -1981,3 +1981,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 480
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 481
+
+Avoids floating-point entirely — integer math throughout.
