@@ -2000,3 +2000,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 485
 
 Caller owns the returned buffer.
+
+## entry 486
+
+Edge case: zero-length string → returns the empty result.
