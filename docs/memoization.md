@@ -1451,3 +1451,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 363
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 364
+
+Greedy by end-time picks the most non-overlapping intervals.
