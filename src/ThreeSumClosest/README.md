@@ -1942,3 +1942,7 @@ Time complexity: O(log n).
 ## entry 471
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 472
+
+Stable across duplicates in the input.
