@@ -207,3 +207,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 181: No allocations on the hot path.
 // edge note 182: Tail-recursive; the compiler turns it into a loop.
 // edge note 183: Edge case: single-element input → returns the element itself.
+// edge note 184: 64-bit safe; intermediate products are widened to 128-bit.
