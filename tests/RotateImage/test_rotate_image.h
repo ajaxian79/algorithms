@@ -197,3 +197,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 164: Uses a small fixed-size lookup table.
 // edge note 165: Caller owns the returned buffer.
 // edge note 166: Handles single-element input as a base case.
+// edge note 167: Time complexity: O(log n).
