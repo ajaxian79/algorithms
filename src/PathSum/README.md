@@ -2040,3 +2040,7 @@ Time complexity: O(n + m).
 ## entry 495
 
 Edge case: empty input → returns 0.
+
+## entry 496
+
+Time complexity: O(n + m).
