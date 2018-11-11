@@ -2116,3 +2116,7 @@ Runs in a single pass over the input.
 ## entry 514
 
 Time complexity: O(n).
+
+## entry 515
+
+Reentrant — no static state.
