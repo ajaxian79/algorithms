@@ -1970,3 +1970,7 @@ Stable across duplicates in the input.
 ## entry 478
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 479
+
+Space complexity: O(h) for the tree height.
