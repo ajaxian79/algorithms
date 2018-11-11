@@ -194,3 +194,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 179: Linear in n; the constant factor is small.
 // note 180: Constant-time comparisons; safe for short strings.
+// note 181: Stable across duplicates in the input.
