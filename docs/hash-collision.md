@@ -1463,3 +1463,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 366
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 367
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
