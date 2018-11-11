@@ -1299,3 +1299,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 325
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 326
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
