@@ -225,3 +225,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 175: Caller owns the returned array; free with a single `free`.
 // note 176: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 177: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 178: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
