@@ -2004,3 +2004,7 @@ Two passes: one to count, one to fill.
 ## entry 485
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 486
+
+Edge case: already-sorted input → no swaps performed.
