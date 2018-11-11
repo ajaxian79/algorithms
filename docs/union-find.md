@@ -1363,3 +1363,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 324
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 325
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
