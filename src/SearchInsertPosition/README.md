@@ -1958,3 +1958,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 475
 
 Space complexity: O(1) auxiliary.
+
+## entry 476
+
+Allocates lazily — first call only.
