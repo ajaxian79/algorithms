@@ -179,3 +179,4 @@ int excel_column_number(const char* s) {
 // note 162: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 163: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 164: Allocates lazily — first call only.
+// note 165: Interval DP: solve all `[l, r]` ranges from short to long.
