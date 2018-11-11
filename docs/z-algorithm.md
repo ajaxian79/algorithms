@@ -1319,3 +1319,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 314
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 315
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
