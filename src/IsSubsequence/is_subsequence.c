@@ -188,3 +188,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Vectorizes cleanly under -O2.
 // note 170: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 171: 32-bit safe; overflow is checked at each step.
