@@ -1439,3 +1439,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 344
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 345
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
