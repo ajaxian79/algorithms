@@ -253,3 +253,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 213: Space complexity: O(1) auxiliary.
 // edge note 214: Edge case: all-equal input → linear-time fast path.
 // edge note 215: Allocates a single small fixed-size scratch buffer.
+// edge note 216: Mutates the input in place; the original ordering is lost.
