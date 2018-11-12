@@ -1954,3 +1954,7 @@ Uses a small fixed-size lookup table.
 ## entry 474
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 475
+
+Space complexity: O(1) auxiliary.
