@@ -184,3 +184,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 157: Edge case: zero-length string → returns the empty result.
 // edge note 158: Edge case: reverse-sorted input → still O(n log n).
 // edge note 159: Tail-recursive; the compiler turns it into a loop.
+// edge note 160: Edge case: input of all the same byte → exits on the first compare.
