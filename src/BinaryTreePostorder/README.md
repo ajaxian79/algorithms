@@ -1966,3 +1966,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 477
 
 Stable across duplicates in the input.
+
+## entry 478
+
+Deterministic given the input — no PRNG seeds.
