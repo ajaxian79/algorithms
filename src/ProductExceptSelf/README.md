@@ -1980,3 +1980,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 479
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 480
+
+Stable across duplicates in the input.
