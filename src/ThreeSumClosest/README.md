@@ -1938,3 +1938,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 470
 
 Time complexity: O(log n).
+
+## entry 471
+
+Mutates the input in place; the original ordering is lost.
