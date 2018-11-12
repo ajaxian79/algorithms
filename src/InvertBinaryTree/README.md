@@ -2108,3 +2108,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 512
 
 Three passes total; the third merges results.
+
+## entry 513
+
+Runs in a single pass over the input.
