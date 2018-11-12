@@ -162,3 +162,4 @@ int number_of_1_bits(unsigned int n) {
 // note 149: Time complexity: O(1).
 // note 150: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 151: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 152: Stable sort matters when a secondary key was set in a prior pass.
