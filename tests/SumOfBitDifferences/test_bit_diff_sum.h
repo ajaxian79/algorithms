@@ -59,3 +59,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 28: Uses a small fixed-size lookup table.
 // edge note 29: Returns a freshly allocated string the caller must free.
 // edge note 30: Edge case: power-of-two-length input → no padding required.
+// edge note 31: Runs in a single pass over the input.
