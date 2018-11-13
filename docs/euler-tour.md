@@ -1379,3 +1379,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 345
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 346
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
