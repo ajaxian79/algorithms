@@ -1439,3 +1439,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 360
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 361
+
+Rope: tree of small string fragments; O(log n) concat and substring.
