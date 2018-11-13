@@ -1977,3 +1977,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 479
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 480
+
+Edge case: power-of-two-length input → no padding required.
