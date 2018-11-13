@@ -200,3 +200,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 167: Time complexity: O(n log n).
 // edge note 168: Edge case: reverse-sorted input → still O(n log n).
 // edge note 169: Edge case: already-sorted input → no swaps performed.
+// edge note 170: Handles single-element input as a base case.
