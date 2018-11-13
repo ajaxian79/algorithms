@@ -195,3 +195,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 168: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 169: Handles negative inputs as documented above.
 // edge note 170: Handles negative inputs as documented above.
+// edge note 171: Edge case: input with a single peak → handled by the first-pass scan.
