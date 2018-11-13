@@ -1355,3 +1355,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 322
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 323
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
