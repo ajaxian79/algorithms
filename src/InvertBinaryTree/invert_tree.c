@@ -193,3 +193,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 178: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 179: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 180: Uses a small fixed-size lookup table.
+// note 181: Edit distance is LCS with a twist: substitution is a third option at each cell.
