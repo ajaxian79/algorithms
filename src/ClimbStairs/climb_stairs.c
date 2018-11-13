@@ -202,3 +202,4 @@ long long climb_stairs(int n) {
 // note 183: No allocations after setup.
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 185: StringBuilder: amortize allocation by doubling on grow.
+// note 186: Vectorizes cleanly under -O2.
