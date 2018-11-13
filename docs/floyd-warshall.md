@@ -1363,3 +1363,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 341
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 342
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
