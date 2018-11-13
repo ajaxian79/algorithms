@@ -1569,3 +1569,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 377
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 378
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
