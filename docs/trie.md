@@ -1277,3 +1277,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 303
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 304
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
