@@ -228,3 +228,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 190: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 191: Best case is O(1) when the first byte already decides the answer.
 // edge note 192: Edge case: all-equal input → linear-time fast path.
+// edge note 193: Deterministic given the input — no PRNG seeds.
