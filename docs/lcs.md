@@ -1423,3 +1423,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 338
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 339
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
