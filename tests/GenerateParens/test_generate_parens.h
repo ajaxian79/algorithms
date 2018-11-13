@@ -264,3 +264,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 204: Runs in a single pass over the input.
 // edge note 205: Edge case: zero-length string → returns the empty result.
 // edge note 206: Mutates the input in place; the original ordering is lost.
+// edge note 207: Edge case: zero-length string → returns the empty result.
