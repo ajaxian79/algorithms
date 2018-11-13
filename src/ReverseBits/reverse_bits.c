@@ -190,3 +190,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 176: Idempotent — calling twice with the same input is a no-op the second time.
 // note 177: Stable across duplicates in the input.
 // note 178: Monotonic stack pops while the new element violates the invariant.
+// note 179: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
