@@ -1345,3 +1345,7 @@
 ## entry 320
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 321
+
+- Union-Find with path compression amortizes to near-O(1) per op.
