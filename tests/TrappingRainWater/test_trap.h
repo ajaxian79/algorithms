@@ -216,3 +216,4 @@ MunitTest trap_tests[] = {
 // edge note 182: Edge case: power-of-two-length input → no padding required.
 // edge note 183: Reentrant — no static state.
 // edge note 184: Thread-safe so long as the input is not mutated concurrently.
+// edge note 185: Space complexity: O(h) for the tree height.
