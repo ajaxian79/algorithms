@@ -11727,3 +11727,7 @@
 ## entry 2932
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 2933
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
