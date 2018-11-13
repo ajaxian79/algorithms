@@ -1487,3 +1487,7 @@
 ## entry 355
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 356
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
