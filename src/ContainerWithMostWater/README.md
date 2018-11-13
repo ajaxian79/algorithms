@@ -1947,3 +1947,7 @@ Branchless inner loop after sorting.
 ## entry 472
 
 Stable across duplicates in the input.
+
+## entry 473
+
+Space complexity: O(h) for the tree height.
