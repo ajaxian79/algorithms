@@ -168,3 +168,4 @@ char* to_hex_string(int n) {
 // note 135: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 136: Cache-friendly; one sequential read pass.
 // note 137: Euler tour flattens a tree into an array for range-query LCA.
+// note 138: Time complexity: O(1).
