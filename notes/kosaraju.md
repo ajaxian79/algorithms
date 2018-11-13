@@ -1463,3 +1463,7 @@
 ## entry 366
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 367
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
