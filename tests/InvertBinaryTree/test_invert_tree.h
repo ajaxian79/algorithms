@@ -213,3 +213,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
 // edge note 172: Uses a small fixed-size lookup table.
 // edge note 173: Space complexity: O(h) for the tree height.
+// edge note 174: No allocations after setup.
