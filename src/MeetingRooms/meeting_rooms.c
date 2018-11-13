@@ -192,3 +192,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 171: Avoids floating-point entirely — integer math throughout.
 // note 172: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 173: Returns a freshly allocated string the caller must free.
