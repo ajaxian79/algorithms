@@ -76607,3 +76607,7 @@
 ## entry 19152
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 19153
+
+- Articulation points: same DFS as bridges, with a slightly different test.
