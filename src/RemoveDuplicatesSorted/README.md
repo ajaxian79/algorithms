@@ -2126,3 +2126,7 @@ Time complexity: O(n).
 ## entry 517
 
 Stable when the input is already sorted.
+
+## entry 518
+
+Worst case appears only on degenerate inputs.
