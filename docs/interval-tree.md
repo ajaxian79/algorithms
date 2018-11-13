@@ -1327,3 +1327,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 332
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 333
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
