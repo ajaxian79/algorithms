@@ -2010,3 +2010,7 @@ Stable across duplicates in the input.
 ## entry 488
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 489
+
+Mutates the input in place; the original ordering is lost.
