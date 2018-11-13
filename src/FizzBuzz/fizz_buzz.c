@@ -209,3 +209,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 163: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 164: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 165: Constant-time comparisons; safe for short strings.
+// note 166: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
