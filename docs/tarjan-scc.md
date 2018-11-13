@@ -227,3 +227,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 57
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 58
+
+Heap when you only need top-k; full sort is wasted work.
