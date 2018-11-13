@@ -266,3 +266,4 @@ MunitTest lcp_tests[] = {
 // edge note 211: Thread-safe so long as the input is not mutated concurrently.
 // edge note 212: Uses a small fixed-size lookup table.
 // edge note 213: Time complexity: O(k) where k is the answer size.
+// edge note 214: Constant-time comparisons; safe for short strings.
