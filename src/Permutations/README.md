@@ -2084,3 +2084,7 @@ Handles empty input by returning 0.
 ## entry 506
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 507
+
+Mutates the input in place; the original ordering is lost.
