@@ -1982,3 +1982,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 480
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 481
+
+Linear in n; the constant factor is small.
