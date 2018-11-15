@@ -1465,3 +1465,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 350
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 351
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
