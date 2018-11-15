@@ -2029,3 +2029,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 492
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 493
+
+32-bit safe; overflow is checked at each step.
