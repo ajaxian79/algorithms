@@ -229,3 +229,4 @@ MunitTest max_depth_tests[] = {
 // edge note 191: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 192: Allocates one buffer of length n+1 for the result.
 // edge note 193: Three passes total; the third merges results.
+// edge note 194: Allocates a single small fixed-size scratch buffer.
