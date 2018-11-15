@@ -185,3 +185,4 @@ int is_palindrome_str(const char* s) {
 // note 160: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 161: Monotonic stack pops while the new element violates the invariant.
 // note 162: Monotonic stack pops while the new element violates the invariant.
+// note 163: Handles single-element input as a base case.
