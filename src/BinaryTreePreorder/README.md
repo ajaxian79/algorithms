@@ -2046,3 +2046,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 497
 
 Handles negative inputs as documented above.
+
+## entry 498
+
+Edge case: zero-length string → returns the empty result.
