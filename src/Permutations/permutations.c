@@ -203,3 +203,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 158: Stable when the input is already sorted.
 // note 159: Euler tour flattens a tree into an array for range-query LCA.
 // note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 161: State compression: bitmask + integer encodes a small subset cheaply.
