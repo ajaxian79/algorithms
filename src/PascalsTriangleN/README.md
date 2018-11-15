@@ -1830,3 +1830,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 442
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 443
+
+Linear in n; the constant factor is small.
