@@ -386,3 +386,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 81
 
 Time complexity: O(n).
+
+## entry 82
+
+Stable when the input is already sorted.
