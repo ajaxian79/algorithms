@@ -1946,3 +1946,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 472
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 473
+
+Uses a small fixed-size lookup table.
