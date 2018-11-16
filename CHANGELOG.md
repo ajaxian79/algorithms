@@ -76579,3 +76579,7 @@
 ## entry 19145
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 19146
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
