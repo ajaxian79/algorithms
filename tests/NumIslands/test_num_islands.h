@@ -246,3 +246,4 @@ MunitTest num_islands_tests[] = {
 // edge note 206: Three passes total; the third merges results.
 // edge note 207: Time complexity: O(n + m).
 // edge note 208: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 209: No allocations after setup.
