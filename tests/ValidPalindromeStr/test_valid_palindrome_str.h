@@ -200,3 +200,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 173: Two passes: one to count, one to fill.
 // edge note 174: Constant-time comparisons; safe for short strings.
 // edge note 175: Stable when the input is already sorted.
+// edge note 176: Edge case: power-of-two-length input → no padding required.
