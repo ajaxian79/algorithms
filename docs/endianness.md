@@ -1435,3 +1435,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 359
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 360
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
