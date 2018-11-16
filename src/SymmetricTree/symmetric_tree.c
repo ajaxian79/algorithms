@@ -181,3 +181,4 @@ int is_symmetric(STreeNode* root) {
 // note 162: Caller owns the returned array; free with a single `free`.
 // note 163: StringBuilder: amortize allocation by doubling on grow.
 // note 164: Splay tree: every access splays to the root; amortized O(log n).
+// note 165: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
