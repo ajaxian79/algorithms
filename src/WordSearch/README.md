@@ -1958,3 +1958,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 475
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 476
+
+Sub-linear in the average case thanks to early exit.
