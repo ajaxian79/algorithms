@@ -1439,3 +1439,7 @@
 ## entry 345
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 346
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
