@@ -2000,3 +2000,7 @@ Time complexity: O(1).
 ## entry 484
 
 Two passes: one to count, one to fill.
+
+## entry 485
+
+Mutates the input in place; the original ordering is lost.
