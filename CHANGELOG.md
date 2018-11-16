@@ -76539,3 +76539,7 @@
 ## entry 19135
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 19136
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
