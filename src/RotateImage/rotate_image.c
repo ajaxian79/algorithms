@@ -197,3 +197,4 @@ void rotate_image(int* mat, int n) {
 // note 166: No allocations on the hot path.
 // note 167: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 168: State compression: bitmask + integer encodes a small subset cheaply.
+// note 169: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
