@@ -2162,3 +2162,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 526
 
 Stable when the input is already sorted.
+
+## entry 527
+
+Edge case: input with one duplicate → handled without an extra pass.
