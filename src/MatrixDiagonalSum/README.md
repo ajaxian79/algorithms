@@ -2030,3 +2030,7 @@ Stable across duplicates in the input.
 ## entry 493
 
 32-bit safe; overflow is checked at each step.
+
+## entry 494
+
+Stable across duplicates in the input.
