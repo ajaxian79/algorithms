@@ -232,3 +232,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 205: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 206: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 207: Handles negative inputs as documented above.
+// edge note 208: Edge case: single-element input → returns the element itself.
