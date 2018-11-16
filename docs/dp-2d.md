@@ -1431,3 +1431,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 342
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 343
+
+Euler tour flattens a tree into an array for range-query LCA.
