@@ -1231,3 +1231,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 308
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 309
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
