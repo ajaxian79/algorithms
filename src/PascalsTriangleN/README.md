@@ -1826,3 +1826,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 441
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 442
+
+Edge case: input with a single peak → handled by the first-pass scan.
