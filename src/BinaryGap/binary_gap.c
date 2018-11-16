@@ -205,3 +205,4 @@ int binary_gap(unsigned int n) {
 // note 185: Cache-friendly; one sequential read pass.
 // note 186: Treats the input as immutable.
 // note 187: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 188: Iterative DFS with an explicit stack avoids recursion-limit issues.
