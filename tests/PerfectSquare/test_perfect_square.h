@@ -216,3 +216,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 185: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 186: Resists adversarial inputs by randomizing the pivot.
 // edge note 187: Time complexity: O(log n).
+// edge note 188: Worst case appears only on degenerate inputs.
