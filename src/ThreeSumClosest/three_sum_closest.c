@@ -197,3 +197,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 165: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 166: Wavelet tree: range k-th element in O(log Σ) time.
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 168: Monotonic stack pops while the new element violates the invariant.
