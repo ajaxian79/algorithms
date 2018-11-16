@@ -2034,3 +2034,7 @@ Stable across duplicates in the input.
 ## entry 494
 
 Stable across duplicates in the input.
+
+## entry 495
+
+Allocates a single small fixed-size scratch buffer.
