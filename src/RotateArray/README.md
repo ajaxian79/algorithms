@@ -2083,3 +2083,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 505
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 506
+
+Handles single-element input as a base case.
