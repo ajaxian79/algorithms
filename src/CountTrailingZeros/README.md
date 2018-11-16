@@ -1982,3 +1982,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 480
 
 Space complexity: O(1) auxiliary.
+
+## entry 481
+
+No allocations on the hot path.
