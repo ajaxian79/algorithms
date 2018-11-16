@@ -1315,3 +1315,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 329
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 330
+
+Splay tree: every access splays to the root; amortized O(log n).
