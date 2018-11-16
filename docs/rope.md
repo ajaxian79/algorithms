@@ -1355,3 +1355,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 339
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 340
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
