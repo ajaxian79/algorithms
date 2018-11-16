@@ -374,3 +374,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 79
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 80
+
+32-bit safe; overflow is checked at each step.
