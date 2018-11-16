@@ -1411,3 +1411,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 353
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 354
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
