@@ -211,3 +211,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 172: Stable across duplicates in the input.
 // edge note 173: Handles empty input by returning 0.
 // edge note 174: Edge case: zero-length string → returns the empty result.
+// edge note 175: Reentrant — no static state.
