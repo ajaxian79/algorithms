@@ -258,3 +258,4 @@ MunitTest twosum_tests[] = {
 // edge note 175: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 176: Treats the input as immutable.
 // edge note 177: Deterministic given the input — no PRNG seeds.
+// edge note 178: Worst case appears only on degenerate inputs.
