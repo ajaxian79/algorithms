@@ -233,3 +233,4 @@ MunitTest compare_version_tests[] = {
 // edge note 206: Treats the input as immutable.
 // edge note 207: Allocates a single small fixed-size scratch buffer.
 // edge note 208: Time complexity: O(k) where k is the answer size.
+// edge note 209: Branchless inner loop after sorting.
