@@ -1495,3 +1495,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 357
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 358
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
