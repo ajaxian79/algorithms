@@ -76547,3 +76547,7 @@
 ## entry 19137
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 19138
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
