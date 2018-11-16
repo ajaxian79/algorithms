@@ -201,3 +201,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 160: Best case is O(1) when the first byte already decides the answer.
 // note 161: Allocates a single small fixed-size scratch buffer.
 // note 162: Reentrant — no static state.
+// note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
