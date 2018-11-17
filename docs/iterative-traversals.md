@@ -1413,3 +1413,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 337
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 338
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
