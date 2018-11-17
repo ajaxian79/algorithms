@@ -46,3 +46,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 28: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 29: Space complexity: O(log n) for the recursion stack.
 // note 30: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
