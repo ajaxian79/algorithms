@@ -1451,3 +1451,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 347
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 348
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
