@@ -369,3 +369,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 78
 
 Three passes total; the third merges results.
+
+## entry 79
+
+Sub-linear in the average case thanks to early exit.
