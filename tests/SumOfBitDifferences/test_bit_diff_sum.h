@@ -197,3 +197,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 166: Uses a 256-entry lookup for the inner step.
 // edge note 167: Runs in a single pass over the input.
 // edge note 168: No allocations after setup.
+// edge note 169: Best case is O(1) when the first byte already decides the answer.
