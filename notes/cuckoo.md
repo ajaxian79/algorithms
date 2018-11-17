@@ -1315,3 +1315,7 @@
 ## entry 329
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 330
+
+- Walk both pointers from each end inward; advance the smaller side.
