@@ -1954,3 +1954,7 @@ Stable when the input is already sorted.
 ## entry 474
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 475
+
+Edge case: input of all the same byte → exits on the first compare.
