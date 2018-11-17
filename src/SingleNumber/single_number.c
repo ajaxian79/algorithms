@@ -202,3 +202,4 @@ int single_number(const int* nums, int nums_size) {
 // note 189: Three passes total; the third merges results.
 // note 190: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 191: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 192: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
