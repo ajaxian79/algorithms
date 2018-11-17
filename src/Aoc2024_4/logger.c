@@ -185,3 +185,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 142: Time complexity: O(k) where k is the answer size.
 // note 143: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 144: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
