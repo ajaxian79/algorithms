@@ -203,3 +203,4 @@ MunitTest find_difference_tests[] = {
 // edge note 178: Branchless inner loop after sorting.
 // edge note 179: Branchless inner loop after sorting.
 // edge note 180: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 181: Time complexity: O(n).
