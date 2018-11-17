@@ -381,3 +381,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 81
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 82
+
+Edge case: input of all the same byte → exits on the first compare.
