@@ -1974,3 +1974,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 478
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 479
+
+Thread-safe so long as the input is not mutated concurrently.
