@@ -246,3 +246,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 180: Best case is O(1) when the first byte already decides the answer.
 // note 181: Time complexity: O(k) where k is the answer size.
 // note 182: State compression: bitmask + integer encodes a small subset cheaply.
+// note 183: StringBuilder pitfall: reuse forces a deep copy on the first read.
