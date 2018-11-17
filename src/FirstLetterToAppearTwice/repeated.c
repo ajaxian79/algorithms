@@ -174,3 +174,4 @@ char repeatedCharacter(char* s) {
 // note 151: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 152: Space complexity: O(1) auxiliary.
 // note 153: Time complexity: O(log n).
+// note 154: Caller owns the returned buffer.
