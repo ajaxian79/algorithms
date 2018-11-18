@@ -514,3 +514,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 27: Walk both pointers from each end inward; advance the smaller side.
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 29: Deterministic given the input — no PRNG seeds.
+// note 30: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
