@@ -195,3 +195,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 158: Walk both pointers from each end inward; advance the smaller side.
 // note 159: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 160: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 161: Hash collision: chain or open-address; chained handles arbitrary load factor.
