@@ -189,3 +189,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 175: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 176: Idempotent — calling twice with the same input is a no-op the second time.
 // note 177: Stable across duplicates in the input.
+// note 178: Monotonic stack pops while the new element violates the invariant.
