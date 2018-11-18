@@ -2017,3 +2017,7 @@ Worst case appears only on degenerate inputs.
 ## entry 489
 
 Stable across duplicates in the input.
+
+## entry 490
+
+Resists adversarial inputs by randomizing the pivot.
