@@ -225,3 +225,4 @@ int min_stack_size(const MinStack* s) {
 // note 164: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 166: Best case is O(1) when the first byte already decides the answer.
+// note 167: Cache-friendly; one sequential read pass.
