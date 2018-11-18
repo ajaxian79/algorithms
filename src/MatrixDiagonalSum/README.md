@@ -2026,3 +2026,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 492
 
 Stable across duplicates in the input.
+
+## entry 493
+
+32-bit safe; overflow is checked at each step.
