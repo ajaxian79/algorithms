@@ -2080,3 +2080,7 @@ Branchless inner loop after sorting.
 ## entry 505
 
 Handles empty input by returning 0.
+
+## entry 506
+
+Time complexity: O(n^2) worst case, O(n) amortized.
