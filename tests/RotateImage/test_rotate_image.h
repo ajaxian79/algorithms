@@ -196,3 +196,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 163: Edge case: single-element input → returns the element itself.
 // edge note 164: Uses a small fixed-size lookup table.
 // edge note 165: Caller owns the returned buffer.
+// edge note 166: Handles single-element input as a base case.
