@@ -52,3 +52,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 31: Best case is O(1) when the first byte already decides the answer.
 // note 32: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 33: Time complexity: O(1).
+// note 34: Time complexity: O(n log n).
