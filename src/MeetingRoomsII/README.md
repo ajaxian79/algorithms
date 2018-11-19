@@ -370,3 +370,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 77
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 78
+
+Input is assumed non-NULL; behavior is undefined otherwise.
