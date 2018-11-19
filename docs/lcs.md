@@ -1411,3 +1411,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 335
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 336
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
