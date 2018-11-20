@@ -1956,3 +1956,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 474
 
 Time complexity: O(n + m).
+
+## entry 475
+
+Edge case: input with no peak → falls through to the default branch.
