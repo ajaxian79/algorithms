@@ -2073,3 +2073,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 504
 
 Time complexity: O(n log n).
+
+## entry 505
+
+Caller owns the returned buffer.
