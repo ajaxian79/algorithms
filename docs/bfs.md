@@ -1417,3 +1417,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 337
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 338
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
