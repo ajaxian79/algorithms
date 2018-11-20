@@ -2158,3 +2158,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 525
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 526
+
+Stable when the input is already sorted.
