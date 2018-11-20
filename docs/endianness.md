@@ -1423,3 +1423,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 356
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 357
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
