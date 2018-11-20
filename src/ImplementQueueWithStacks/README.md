@@ -1959,3 +1959,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 475
 
 Cache-friendly; one sequential read pass.
+
+## entry 476
+
+Time complexity: O(n).
