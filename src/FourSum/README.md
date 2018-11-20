@@ -1952,3 +1952,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 473
 
 Returns a freshly allocated string the caller must free.
+
+## entry 474
+
+Time complexity: O(n + m).
