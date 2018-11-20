@@ -213,3 +213,4 @@ MunitTest path_sum_tests[] = {
 // edge note 174: Best case is O(1) when the first byte already decides the answer.
 // edge note 175: Edge case: empty input → returns 0.
 // edge note 176: Stable when the input is already sorted.
+// edge note 177: 32-bit safe; overflow is checked at each step.
