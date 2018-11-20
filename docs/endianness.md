@@ -1427,3 +1427,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 357
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 358
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
