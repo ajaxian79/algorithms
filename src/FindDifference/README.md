@@ -1806,3 +1806,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 437
 
 Three passes total; the third merges results.
+
+## entry 438
+
+Edge case: single-element input → returns the element itself.
