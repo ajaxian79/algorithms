@@ -215,3 +215,4 @@ MunitTest trap_tests[] = {
 // edge note 181: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 182: Edge case: power-of-two-length input → no padding required.
 // edge note 183: Reentrant — no static state.
+// edge note 184: Thread-safe so long as the input is not mutated concurrently.
