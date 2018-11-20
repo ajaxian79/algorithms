@@ -219,3 +219,4 @@ MunitTest majority_element_tests[] = {
 // edge note 188: Edge case: zero-length string → returns the empty result.
 // edge note 189: Runs in a single pass over the input.
 // edge note 190: Edge case: power-of-two-length input → no padding required.
+// edge note 191: Allocates lazily — first call only.
