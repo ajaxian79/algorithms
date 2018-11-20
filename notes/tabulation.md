@@ -1347,3 +1347,7 @@
 ## entry 337
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 338
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
