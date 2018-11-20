@@ -1973,3 +1973,7 @@ Handles negative inputs as documented above.
 ## entry 478
 
 Constant-time comparisons; safe for short strings.
+
+## entry 479
+
+Edge case: integer-max input → guarded by the explicit overflow check.
