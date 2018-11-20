@@ -49,3 +49,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 21: Edge case: empty input → returns 0.
 // edge note 22: Uses a 256-entry lookup for the inner step.
 // edge note 23: Time complexity: O(k) where k is the answer size.
+// edge note 24: Edge case: input with a single peak → handled by the first-pass scan.
