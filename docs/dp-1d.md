@@ -1467,3 +1467,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 350
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 351
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
