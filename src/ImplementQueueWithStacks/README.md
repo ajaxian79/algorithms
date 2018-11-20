@@ -1963,3 +1963,7 @@ Cache-friendly; one sequential read pass.
 ## entry 476
 
 Time complexity: O(n).
+
+## entry 477
+
+Reentrant — no static state.
