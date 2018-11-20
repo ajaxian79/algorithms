@@ -1391,3 +1391,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 348
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 349
+
+Greedy by end-time picks the most non-overlapping intervals.
