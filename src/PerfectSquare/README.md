@@ -2094,3 +2094,7 @@ Uses a small fixed-size lookup table.
 ## entry 509
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 510
+
+Constant-time comparisons; safe for short strings.
