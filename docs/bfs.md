@@ -1413,3 +1413,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 336
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 337
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
