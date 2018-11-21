@@ -199,3 +199,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 169: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 170: Handles single-element input as a base case.
 // note 171: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 172: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
