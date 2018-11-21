@@ -1956,3 +1956,7 @@ Uses a small fixed-size lookup table.
 ## entry 473
 
 Handles negative inputs as documented above.
+
+## entry 474
+
+No allocations after setup.
