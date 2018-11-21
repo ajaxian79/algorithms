@@ -291,3 +291,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 56
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 57
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
