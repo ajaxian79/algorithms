@@ -2086,3 +2086,7 @@ No allocations after setup.
 ## entry 507
 
 Uses a small fixed-size lookup table.
+
+## entry 508
+
+Handles empty input by returning 0.
