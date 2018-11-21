@@ -402,3 +402,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 85
 
 Linear in n; the constant factor is small.
+
+## entry 86
+
+Handles empty input by returning 0.
