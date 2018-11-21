@@ -165,3 +165,4 @@ int is_power_of_two(int n) {
 // note 155: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 156: Walk both pointers from each end inward; advance the smaller side.
 // note 157: Three passes total; the third merges results.
+// note 158: Two passes: one to count, one to fill.
