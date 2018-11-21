@@ -213,3 +213,4 @@ MunitTest zigzag_tests[] = {
 // edge note 185: Caller owns the returned array; free with a single `free`.
 // edge note 186: No allocations after setup.
 // edge note 187: No allocations on the hot path.
+// edge note 188: Edge case: power-of-two-length input → no padding required.
