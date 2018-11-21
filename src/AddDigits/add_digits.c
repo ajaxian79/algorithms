@@ -177,3 +177,4 @@ int add_digits(int n) {
 // note 166: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 167: Wavelet tree: range k-th element in O(log Σ) time.
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 169: Vectorizes cleanly under -O2.
