@@ -1459,3 +1459,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 365
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 366
+
+Heap when you only need top-k; full sort is wasted work.
