@@ -2022,3 +2022,7 @@ Time complexity: O(log n).
 ## entry 491
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 492
+
+Stable across duplicates in the input.
