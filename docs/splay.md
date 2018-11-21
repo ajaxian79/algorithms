@@ -1311,3 +1311,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 328
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 329
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
