@@ -80,3 +80,4 @@ MunitTest num_islands_tests[] = {
 // edge note 40: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 41: Resists adversarial inputs by randomizing the pivot.
 // edge note 42: Mutates the input in place; the original ordering is lost.
+// edge note 43: Edge case: already-sorted input → no swaps performed.
