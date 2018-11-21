@@ -221,3 +221,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 186: Vectorizes cleanly under -O2.
 // edge note 187: Returns a freshly allocated string the caller must free.
 // edge note 188: Branchless inner loop after sorting.
+// edge note 189: Handles negative inputs as documented above.
