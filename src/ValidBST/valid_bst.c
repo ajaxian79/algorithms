@@ -182,3 +182,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 164: No allocations after setup.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 166: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 167: Treats the input as immutable.
