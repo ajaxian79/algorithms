@@ -255,3 +255,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 195: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 196: Handles empty input by returning 0.
 // edge note 197: Thread-safe so long as the input is not mutated concurrently.
+// edge note 198: 64-bit safe; intermediate products are widened to 128-bit.
