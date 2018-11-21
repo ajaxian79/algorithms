@@ -1455,3 +1455,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 364
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 365
+
+Monotonic stack pops while the new element violates the invariant.
