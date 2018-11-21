@@ -1950,3 +1950,7 @@ Edge case: empty input → returns 0.
 ## entry 473
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 474
+
+Idempotent — calling twice with the same input is a no-op the second time.
