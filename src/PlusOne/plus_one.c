@@ -194,3 +194,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 157: Avoids floating-point entirely — integer math throughout.
 // note 158: Walk both pointers from each end inward; advance the smaller side.
 // note 159: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 160: Manacher expands around each center, reusing prior radii via mirror reflection.
