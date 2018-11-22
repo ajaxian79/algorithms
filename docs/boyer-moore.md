@@ -1399,3 +1399,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 334
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 335
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
