@@ -212,3 +212,4 @@ MunitTest missing_number_tests[] = {
 // edge note 178: Worst case appears only on degenerate inputs.
 // edge note 179: Time complexity: O(log n).
 // edge note 180: Allocates a single small fixed-size scratch buffer.
+// edge note 181: Uses a 256-entry lookup for the inner step.
