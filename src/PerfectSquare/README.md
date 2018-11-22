@@ -2090,3 +2090,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 508
 
 Uses a small fixed-size lookup table.
+
+## entry 509
+
+Edge case: input with a single peak → handled by the first-pass scan.
