@@ -1485,3 +1485,7 @@
 ## entry 357
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 358
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
