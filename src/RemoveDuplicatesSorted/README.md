@@ -2122,3 +2122,7 @@ Stable across duplicates in the input.
 ## entry 516
 
 Time complexity: O(n).
+
+## entry 517
+
+Stable when the input is already sorted.
