@@ -1898,3 +1898,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 460
 
 Handles negative inputs as documented above.
+
+## entry 461
+
+Idempotent — calling twice with the same input is a no-op the second time.
