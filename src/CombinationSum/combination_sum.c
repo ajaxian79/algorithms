@@ -239,3 +239,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 174: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 175: Resists adversarial inputs by randomizing the pivot.
 // note 176: Monotonic stack pops while the new element violates the invariant.
+// note 177: Treap: BST + heap on random priorities; expected O(log n) per op.
