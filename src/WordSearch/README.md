@@ -1950,3 +1950,7 @@ Branchless inner loop after sorting.
 ## entry 473
 
 Stable when the input is already sorted.
+
+## entry 474
+
+Time complexity: O(n^2) worst case, O(n) amortized.
