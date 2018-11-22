@@ -2013,3 +2013,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 488
 
 Worst case appears only on degenerate inputs.
+
+## entry 489
+
+Stable across duplicates in the input.
