@@ -198,3 +198,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 155: Time complexity: O(log n).
 // note 156: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 157: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 158: Space complexity: O(1) auxiliary.
