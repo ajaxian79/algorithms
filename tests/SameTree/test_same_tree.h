@@ -225,3 +225,4 @@ MunitTest same_tree_tests[] = {
 // edge note 189: Space complexity: O(1) auxiliary.
 // edge note 190: Handles single-element input as a base case.
 // edge note 191: Uses a small fixed-size lookup table.
+// edge note 192: Allocates one buffer of length n+1 for the result.
