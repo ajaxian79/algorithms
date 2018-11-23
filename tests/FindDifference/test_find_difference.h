@@ -201,3 +201,4 @@ MunitTest find_difference_tests[] = {
 // edge note 176: Branchless inner loop after sorting.
 // edge note 177: Best case is O(1) when the first byte already decides the answer.
 // edge note 178: Branchless inner loop after sorting.
+// edge note 179: Branchless inner loop after sorting.
