@@ -1461,3 +1461,7 @@
 ## entry 349
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 350
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
