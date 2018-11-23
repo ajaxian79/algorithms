@@ -1223,3 +1223,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 306
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 307
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
