@@ -1954,3 +1954,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 474
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 475
+
+Edge case: input with a single peak → handled by the first-pass scan.
