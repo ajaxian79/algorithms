@@ -1415,3 +1415,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 354
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 355
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
