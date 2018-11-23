@@ -171,3 +171,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 139: Space complexity: O(log n) for the recursion stack.
 // edge note 140: Allocates a single small fixed-size scratch buffer.
 // edge note 141: Handles empty input by returning 0.
+// edge note 142: Stable when the input is already sorted.
