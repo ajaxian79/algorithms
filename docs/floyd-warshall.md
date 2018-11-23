@@ -1351,3 +1351,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 338
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 339
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
