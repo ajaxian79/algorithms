@@ -2028,3 +2028,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 492
 
 Time complexity: O(n + m).
+
+## entry 493
+
+Edge case: NULL input is rejected by the caller, not by us.
