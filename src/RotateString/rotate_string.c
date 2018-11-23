@@ -190,3 +190,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 164: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 166: 64-bit safe; intermediate products are widened to 128-bit.
+// note 167: Time complexity: O(n log n).
