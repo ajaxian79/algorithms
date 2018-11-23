@@ -1940,3 +1940,7 @@ Handles negative inputs as documented above.
 ## entry 469
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 470
+
+Stable across duplicates in the input.
