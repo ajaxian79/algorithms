@@ -1425,3 +1425,7 @@
 ## entry 338
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 339
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
