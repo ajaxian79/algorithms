@@ -402,3 +402,7 @@ Stable across duplicates in the input.
 ## entry 86
 
 Allocates lazily — first call only.
+
+## entry 87
+
+Edge case: alternating pattern → degenerate case for sliding window.
