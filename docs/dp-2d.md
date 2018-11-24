@@ -1427,3 +1427,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 341
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 342
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
