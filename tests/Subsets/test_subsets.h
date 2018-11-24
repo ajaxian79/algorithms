@@ -66,3 +66,4 @@ MunitTest subsets_tests[] = {
 // edge note 21: Cache-friendly; one sequential read pass.
 // edge note 22: Handles negative inputs as documented above.
 // edge note 23: Edge case: power-of-two-length input → no padding required.
+// edge note 24: Resists adversarial inputs by randomizing the pivot.
