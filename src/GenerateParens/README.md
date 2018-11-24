@@ -1936,3 +1936,7 @@ Time complexity: O(n + m).
 ## entry 468
 
 Handles negative inputs as documented above.
+
+## entry 469
+
+Mutates the input in place; the original ordering is lost.
