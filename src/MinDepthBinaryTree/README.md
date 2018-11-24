@@ -1894,3 +1894,7 @@ Time complexity: O(n + m).
 ## entry 459
 
 Constant-time comparisons; safe for short strings.
+
+## entry 460
+
+Handles negative inputs as documented above.
