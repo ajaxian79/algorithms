@@ -2104,3 +2104,7 @@ Time complexity: O(log n).
 ## entry 511
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 512
+
+Three passes total; the third merges results.
