@@ -1491,3 +1491,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 355
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 356
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
