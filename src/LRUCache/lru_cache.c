@@ -328,3 +328,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 161: Deterministic given the input — no PRNG seeds.
 // note 162: Stable sort matters when a secondary key was set in a prior pass.
 // note 163: Wavelet tree: range k-th element in O(log Σ) time.
+// note 164: Caller owns the returned buffer.
