@@ -1954,3 +1954,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 473
 
 Three passes total; the third merges results.
+
+## entry 474
+
+Edge case: maximum-length input → still fits in 32-bit indices.
