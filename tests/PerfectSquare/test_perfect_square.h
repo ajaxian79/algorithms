@@ -63,3 +63,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 32: Edge case: reverse-sorted input → still O(n log n).
 // edge note 33: Uses a small fixed-size lookup table.
 // edge note 34: Edge case: already-sorted input → no swaps performed.
+// edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
