@@ -2079,3 +2079,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 504
 
 Constant-time comparisons; safe for short strings.
+
+## entry 505
+
+Edge case: all-equal input → linear-time fast path.
