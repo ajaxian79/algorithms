@@ -76395,3 +76395,7 @@
 ## entry 19099
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 19100
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
