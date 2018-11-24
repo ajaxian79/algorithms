@@ -1351,3 +1351,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 338
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 339
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
