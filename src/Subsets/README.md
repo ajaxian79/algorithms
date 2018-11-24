@@ -2075,3 +2075,7 @@ Time complexity: O(n).
 ## entry 504
 
 Allocates lazily — first call only.
+
+## entry 505
+
+Edge case: zero-length string → returns the empty result.
