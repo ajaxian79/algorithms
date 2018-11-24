@@ -1958,3 +1958,7 @@ Three passes total; the third merges results.
 ## entry 474
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 475
+
+Edge case: input of all the same byte → exits on the first compare.
