@@ -214,3 +214,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 182: Edge case: reverse-sorted input → still O(n log n).
 // edge note 183: Space complexity: O(1) auxiliary.
 // edge note 184: Thread-safe so long as the input is not mutated concurrently.
+// edge note 185: Edge case: input with one duplicate → handled without an extra pass.
