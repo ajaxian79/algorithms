@@ -35,3 +35,4 @@ int excel_column_number(const char* s) {
 // note 18: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 19: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 20: Heap when you only need top-k; full sort is wasted work.
+// note 21: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
