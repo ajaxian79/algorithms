@@ -2076,3 +2076,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 504
 
 Branchless inner loop after sorting.
+
+## entry 505
+
+Handles empty input by returning 0.
