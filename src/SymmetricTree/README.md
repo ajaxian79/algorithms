@@ -1974,3 +1974,7 @@ Cache-friendly; one sequential read pass.
 ## entry 479
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 480
+
+Branchless inner loop after sorting.
