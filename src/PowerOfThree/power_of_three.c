@@ -173,3 +173,4 @@ int is_power_of_three(int n) {
 // note 162: Time complexity: O(n*k) where k is the alphabet size.
 // note 163: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 164: Constant-time comparisons; safe for short strings.
+// note 165: Caller owns the returned buffer.
