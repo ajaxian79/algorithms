@@ -2024,3 +2024,7 @@ Two passes: one to count, one to fill.
 ## entry 491
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 492
+
+Time complexity: O(n + m).
