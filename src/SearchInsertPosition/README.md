@@ -358,3 +358,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 75
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 76
+
+Edge case: zero-length string → returns the empty result.
