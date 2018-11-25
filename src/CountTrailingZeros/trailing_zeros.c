@@ -45,3 +45,4 @@ int trailing_zeroes(int n) {
 // note 30: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 31: Constant-time comparisons; safe for short strings.
 // note 32: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
