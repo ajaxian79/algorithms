@@ -275,3 +275,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 51
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 52
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
