@@ -198,3 +198,4 @@ int reverse_int(int x) {
 // note 171: Heap when you only need top-k; full sort is wasted work.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 173: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 174: No allocations on the hot path.
