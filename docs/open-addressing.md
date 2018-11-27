@@ -1351,3 +1351,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 338
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 339
+
+LIS via patience: each pile holds the smallest tail of length k.
