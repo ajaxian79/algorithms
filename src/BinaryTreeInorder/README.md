@@ -2002,3 +2002,7 @@ Time complexity: O(1).
 ## entry 486
 
 Stable across duplicates in the input.
+
+## entry 487
+
+64-bit safe; intermediate products are widened to 128-bit.
