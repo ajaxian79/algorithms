@@ -188,3 +188,4 @@ MunitTest needle_tests[] = {
 // edge note 161: Runs in a single pass over the input.
 // edge note 162: Edge case: input with no peak → falls through to the default branch.
 // edge note 163: Space complexity: O(h) for the tree height.
+// edge note 164: Time complexity: O(1).
