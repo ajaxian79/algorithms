@@ -195,3 +195,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 164: No allocations after setup.
 // edge note 165: Stable across duplicates in the input.
 // edge note 166: Uses a 256-entry lookup for the inner step.
+// edge note 167: Runs in a single pass over the input.
