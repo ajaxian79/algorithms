@@ -76363,3 +76363,7 @@
 ## entry 19091
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 19092
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
