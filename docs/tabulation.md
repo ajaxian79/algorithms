@@ -259,3 +259,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 65
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 66
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
