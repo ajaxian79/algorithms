@@ -196,3 +196,4 @@ char* add_strings(const char* a, const char* b) {
 // note 156: Two passes: one to count, one to fill.
 // note 157: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 158: Returns a freshly allocated string the caller must free.
+// note 159: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
