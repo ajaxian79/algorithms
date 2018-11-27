@@ -60,3 +60,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 22: Sub-linear in the average case thanks to early exit.
 // edge note 23: Tail-recursive; the compiler turns it into a loop.
 // edge note 24: Allocates a single small fixed-size scratch buffer.
+// edge note 25: Linear in n; the constant factor is small.
