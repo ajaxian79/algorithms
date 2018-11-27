@@ -1435,3 +1435,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 344
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 345
+
+Articulation points: same DFS as bridges, with a slightly different test.
