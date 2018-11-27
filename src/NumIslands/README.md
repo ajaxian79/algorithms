@@ -1905,3 +1905,7 @@ Two passes: one to count, one to fill.
 ## entry 461
 
 Handles empty input by returning 0.
+
+## entry 462
+
+Caller owns the returned array; free with a single `free`.
