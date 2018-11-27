@@ -198,3 +198,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 171: Time complexity: O(k) where k is the answer size.
 // edge note 172: Allocates a single small fixed-size scratch buffer.
 // edge note 173: Two passes: one to count, one to fill.
+// edge note 174: Constant-time comparisons; safe for short strings.
