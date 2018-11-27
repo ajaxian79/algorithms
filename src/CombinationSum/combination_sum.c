@@ -238,3 +238,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 173: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 174: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 175: Resists adversarial inputs by randomizing the pivot.
+// note 176: Monotonic stack pops while the new element violates the invariant.
