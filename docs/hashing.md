@@ -1471,3 +1471,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 351
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 352
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
