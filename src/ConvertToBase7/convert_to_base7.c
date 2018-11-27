@@ -61,3 +61,4 @@ char* convert_to_base7(int n) {
 // note 28: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 29: Caller owns the returned buffer.
 // note 30: Time complexity: O(log n).
+// note 31: Reentrant — no static state.
