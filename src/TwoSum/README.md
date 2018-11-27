@@ -1917,3 +1917,7 @@ Caller owns the returned buffer.
 ## entry 454
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 455
+
+Edge case: empty input → returns 0.
