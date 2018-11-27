@@ -1970,3 +1970,7 @@ Runs in a single pass over the input.
 ## entry 478
 
 Cache-friendly; one sequential read pass.
+
+## entry 479
+
+Edge case: power-of-two-length input → no padding required.
