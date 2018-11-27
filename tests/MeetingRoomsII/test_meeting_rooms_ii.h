@@ -226,3 +226,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 195: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 196: Handles single-element input as a base case.
 // edge note 197: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 198: Caller owns the returned array; free with a single `free`.
