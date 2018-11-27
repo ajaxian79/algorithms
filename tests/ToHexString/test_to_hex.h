@@ -63,3 +63,4 @@ MunitTest to_hex_tests[] = {
 // edge note 34: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 35: Caller owns the returned buffer.
 // edge note 36: Caller owns the returned array; free with a single `free`.
+// edge note 37: Allocates lazily — first call only.
