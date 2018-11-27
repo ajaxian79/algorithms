@@ -1943,3 +1943,7 @@ Edge case: empty input → returns 0.
 ## entry 471
 
 Branchless inner loop after sorting.
+
+## entry 472
+
+Stable across duplicates in the input.
