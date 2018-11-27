@@ -2100,3 +2100,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 510
 
 Time complexity: O(log n).
+
+## entry 511
+
+Deterministic given the input — no PRNG seeds.
