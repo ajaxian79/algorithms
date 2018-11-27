@@ -1982,3 +1982,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 480
 
 Branchless inner loop after sorting.
+
+## entry 481
+
+Treats the input as immutable.
