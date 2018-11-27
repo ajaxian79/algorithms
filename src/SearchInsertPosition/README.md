@@ -1942,3 +1942,7 @@ Cache-friendly; one sequential read pass.
 ## entry 471
 
 Space complexity: O(n) for the result buffer.
+
+## entry 472
+
+Edge case: reverse-sorted input → still O(n log n).
