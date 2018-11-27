@@ -1785,3 +1785,7 @@ Handles single-element input as a base case.
 ## entry 431
 
 Returns a freshly allocated string the caller must free.
+
+## entry 432
+
+Edge case: power-of-two-length input → no padding required.
