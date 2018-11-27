@@ -230,3 +230,4 @@ MunitTest three_sum_tests[] = {
 // edge note 185: Space complexity: O(1) auxiliary.
 // edge note 186: No allocations after setup.
 // edge note 187: Caller owns the returned buffer.
+// edge note 188: Tail-recursive; the compiler turns it into a loop.
