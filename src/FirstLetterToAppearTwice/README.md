@@ -366,3 +366,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 67
 
 32-bit safe; overflow is checked at each step.
+
+## entry 68
+
+Edge case: zero-length string → returns the empty result.
