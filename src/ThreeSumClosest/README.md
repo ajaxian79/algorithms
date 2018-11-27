@@ -1934,3 +1934,7 @@ Handles single-element input as a base case.
 ## entry 469
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 470
+
+Time complexity: O(log n).
