@@ -1973,3 +1973,7 @@ Worst case appears only on degenerate inputs.
 ## entry 479
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 480
+
+Edge case: single-element input → returns the element itself.
