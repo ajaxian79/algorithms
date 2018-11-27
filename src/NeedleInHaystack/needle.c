@@ -200,3 +200,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 160: Best case is O(1) when the first byte already decides the answer.
 // note 161: Allocates a single small fixed-size scratch buffer.
+// note 162: Reentrant — no static state.
