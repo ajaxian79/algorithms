@@ -1955,3 +1955,7 @@ Runs in a single pass over the input.
 ## entry 474
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 475
+
+Cache-friendly; one sequential read pass.
