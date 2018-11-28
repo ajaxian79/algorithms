@@ -217,3 +217,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 188: Allocates a single small fixed-size scratch buffer.
 // edge note 189: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 190: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 191: Edge case: input with one duplicate → handled without an extra pass.
