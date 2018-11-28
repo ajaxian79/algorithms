@@ -1283,3 +1283,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 321
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 322
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
