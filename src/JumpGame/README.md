@@ -2005,3 +2005,7 @@ Caller owns the returned buffer.
 ## entry 486
 
 Edge case: single-element input → returns the element itself.
+
+## entry 487
+
+Edge case: reverse-sorted input → still O(n log n).
