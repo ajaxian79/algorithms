@@ -1946,3 +1946,7 @@ Cache-friendly; one sequential read pass.
 ## entry 472
 
 Branchless inner loop after sorting.
+
+## entry 473
+
+Stable when the input is already sorted.
