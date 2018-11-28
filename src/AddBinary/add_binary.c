@@ -223,3 +223,4 @@ char* add_binary(const char* a, const char* b) {
 // note 181: Euler tour flattens a tree into an array for range-query LCA.
 // note 182: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 183: Uses a 256-entry lookup for the inner step.
+// note 184: Deterministic given the input — no PRNG seeds.
