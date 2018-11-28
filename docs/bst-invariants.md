@@ -1453,3 +1453,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 347
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 348
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
