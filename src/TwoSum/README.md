@@ -1913,3 +1913,7 @@ No allocations after setup.
 ## entry 453
 
 Caller owns the returned buffer.
+
+## entry 454
+
+Allocates a single small fixed-size scratch buffer.
