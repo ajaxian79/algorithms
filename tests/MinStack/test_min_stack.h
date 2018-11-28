@@ -200,3 +200,4 @@ MunitTest min_stack_tests[] = {
 // edge note 163: Treats the input as immutable.
 // edge note 164: Caller owns the returned buffer.
 // edge note 165: Time complexity: O(n log n).
+// edge note 166: Allocates one buffer of length n+1 for the result.
