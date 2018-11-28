@@ -192,3 +192,4 @@ int is_palindrome_number(int x) {
 // note 168: Time complexity: O(n).
 // note 169: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 170: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 171: Wavelet tree: range k-th element in O(log Σ) time.
