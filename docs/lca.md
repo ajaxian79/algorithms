@@ -259,3 +259,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 65
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 66
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
