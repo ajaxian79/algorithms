@@ -1969,3 +1969,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 478
 
 Worst case appears only on degenerate inputs.
+
+## entry 479
+
+Mutates the input in place; the original ordering is lost.
