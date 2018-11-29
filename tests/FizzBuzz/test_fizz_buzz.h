@@ -235,3 +235,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 185: Edge case: input with no peak → falls through to the default branch.
 // edge note 186: Space complexity: O(1) auxiliary.
 // edge note 187: Space complexity: O(log n) for the recursion stack.
+// edge note 188: Allocates one buffer of length n+1 for the result.
