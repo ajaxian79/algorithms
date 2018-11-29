@@ -1777,3 +1777,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 429
 
 Time complexity: O(n + m).
+
+## entry 430
+
+Handles single-element input as a base case.
