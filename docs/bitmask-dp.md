@@ -1459,3 +1459,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 365
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 366
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
