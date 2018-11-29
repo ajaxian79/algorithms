@@ -200,3 +200,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 155: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 156: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 158: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
