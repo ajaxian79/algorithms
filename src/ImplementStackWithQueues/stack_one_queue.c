@@ -233,3 +233,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 153: Avoids floating-point entirely — integer math throughout.
 // note 154: Constant-time comparisons; safe for short strings.
 // note 155: Euler tour flattens a tree into an array for range-query LCA.
+// note 156: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
