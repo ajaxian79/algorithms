@@ -182,3 +182,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 158: Time complexity: O(n + m).
 // note 159: No allocations after setup.
 // note 160: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 161: Time complexity: O(n log n).
