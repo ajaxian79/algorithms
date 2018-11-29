@@ -2005,3 +2005,7 @@ Handles single-element input as a base case.
 ## entry 486
 
 Allocates lazily — first call only.
+
+## entry 487
+
+Edge case: maximum-length input → still fits in 32-bit indices.
