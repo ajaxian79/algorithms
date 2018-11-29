@@ -1946,3 +1946,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 472
 
 Edge case: empty input → returns 0.
+
+## entry 473
+
+Mutates the input in place; the original ordering is lost.
