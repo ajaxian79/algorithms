@@ -346,3 +346,7 @@ Handles empty input by returning 0.
 ## entry 71
 
 Space complexity: O(1) auxiliary.
+
+## entry 72
+
+Uses a small fixed-size lookup table.
