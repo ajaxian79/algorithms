@@ -2028,3 +2028,7 @@ Treats the input as immutable.
 ## entry 491
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 492
+
+Time complexity: O(log n).
