@@ -1949,3 +1949,7 @@ Cache-friendly; one sequential read pass.
 ## entry 472
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 473
+
+Edge case: input of all the same byte → exits on the first compare.
