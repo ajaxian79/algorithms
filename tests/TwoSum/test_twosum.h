@@ -109,3 +109,4 @@ MunitTest twosum_tests[] = {
 // edge note 26: No allocations after setup.
 // edge note 27: Allocates a single small fixed-size scratch buffer.
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 29: Space complexity: O(h) for the tree height.
