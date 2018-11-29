@@ -1978,3 +1978,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 479
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 480
+
+Branchless inner loop after sorting.
