@@ -1273,3 +1273,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 302
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 303
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
