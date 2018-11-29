@@ -1219,3 +1219,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 305
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 306
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
