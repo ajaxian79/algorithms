@@ -205,3 +205,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 179: Edge case: power-of-two-length input → no padding required.
 // edge note 180: Avoids floating-point entirely — integer math throughout.
 // edge note 181: Time complexity: O(1).
+// edge note 182: Deterministic given the input — no PRNG seeds.
