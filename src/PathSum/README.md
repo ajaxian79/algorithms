@@ -2036,3 +2036,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 494
 
 Time complexity: O(n + m).
+
+## entry 495
+
+Edge case: empty input → returns 0.
