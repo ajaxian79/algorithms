@@ -76279,3 +76279,7 @@
 ## entry 19070
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 19071
+
+- Walk both pointers from each end inward; advance the smaller side.
