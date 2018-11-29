@@ -181,3 +181,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 165: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 166: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 167: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 168: LIS via patience: each pile holds the smallest tail of length k.
