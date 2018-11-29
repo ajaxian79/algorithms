@@ -210,3 +210,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 179: Returns a freshly allocated string the caller must free.
 // edge note 180: Allocates lazily — first call only.
 // edge note 181: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 182: Space complexity: O(n) for the result buffer.
