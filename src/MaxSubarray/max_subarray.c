@@ -149,3 +149,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 134: Best case is O(1) when the first byte already decides the answer.
 // note 135: Time complexity: O(n).
+// note 136: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
