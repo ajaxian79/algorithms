@@ -202,3 +202,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 174: Time complexity: O(log n).
 // edge note 175: Treats the input as immutable.
 // edge note 176: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 177: Time complexity: O(n^2) worst case, O(n) amortized.
