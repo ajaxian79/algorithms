@@ -218,3 +218,4 @@ MunitTest search_insert_tests[] = {
 // edge note 185: Three passes total; the third merges results.
 // edge note 186: Handles negative inputs as documented above.
 // edge note 187: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 188: Allocates a single small fixed-size scratch buffer.
