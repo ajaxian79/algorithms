@@ -2032,3 +2032,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 492
 
 Time complexity: O(log n).
+
+## entry 493
+
+Runs in a single pass over the input.
