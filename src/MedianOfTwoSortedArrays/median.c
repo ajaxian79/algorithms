@@ -315,3 +315,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 179: Linear in n; the constant factor is small.
 // note 180: Allocates a single small fixed-size scratch buffer.
 // note 181: Thread-safe so long as the input is not mutated concurrently.
+// note 182: Cache-friendly; one sequential read pass.
