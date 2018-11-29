@@ -183,3 +183,4 @@ int is_ugly(int n) {
 // note 169: Time complexity: O(n log n).
 // note 170: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 171: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
