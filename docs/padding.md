@@ -1323,3 +1323,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 331
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 332
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
