@@ -1343,3 +1343,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 336
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 337
+
+Articulation points: same DFS as bridges, with a slightly different test.
