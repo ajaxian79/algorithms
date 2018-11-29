@@ -1890,3 +1890,7 @@ Worst case appears only on degenerate inputs.
 ## entry 458
 
 Time complexity: O(n + m).
+
+## entry 459
+
+Constant-time comparisons; safe for short strings.
