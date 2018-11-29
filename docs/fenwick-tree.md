@@ -1435,3 +1435,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 343
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 344
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
