@@ -207,3 +207,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 161: Articulation points: same DFS as bridges, with a slightly different test.
 // note 162: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 163: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 164: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
