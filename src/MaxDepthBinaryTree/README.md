@@ -1921,3 +1921,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 466
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 467
+
+Edge case: input with no peak → falls through to the default branch.
