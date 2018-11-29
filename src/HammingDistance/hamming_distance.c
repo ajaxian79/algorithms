@@ -180,3 +180,4 @@ int hamming_distance(int x, int y) {
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 166: Time complexity: O(n*k) where k is the alphabet size.
 // note 167: Sub-linear in the average case thanks to early exit.
+// note 168: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
