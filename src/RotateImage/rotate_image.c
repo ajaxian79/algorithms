@@ -195,3 +195,4 @@ void rotate_image(int* mat, int n) {
 // note 164: Time complexity: O(1).
 // note 165: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 166: No allocations on the hot path.
+// note 167: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
