@@ -1407,3 +1407,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 352
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 353
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
