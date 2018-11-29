@@ -1938,3 +1938,7 @@ Cache-friendly; one sequential read pass.
 ## entry 470
 
 Cache-friendly; one sequential read pass.
+
+## entry 471
+
+Space complexity: O(n) for the result buffer.
