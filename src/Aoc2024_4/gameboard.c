@@ -314,3 +314,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 161: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 162: Caller owns the returned array; free with a single `free`.
 // note 163: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 164: Time complexity: O(n + m).
