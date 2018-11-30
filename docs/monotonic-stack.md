@@ -1321,3 +1321,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 314
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 315
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
