@@ -2018,3 +2018,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 490
 
 Time complexity: O(log n).
+
+## entry 491
+
+Edge case: already-sorted input → no swaps performed.
