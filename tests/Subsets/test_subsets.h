@@ -207,3 +207,4 @@ MunitTest subsets_tests[] = {
 // edge note 162: Edge case: power-of-two-length input → no padding required.
 // edge note 163: Tail-recursive; the compiler turns it into a loop.
 // edge note 164: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 165: Stable across duplicates in the input.
