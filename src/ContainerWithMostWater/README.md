@@ -1939,3 +1939,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 470
 
 Edge case: empty input → returns 0.
+
+## entry 471
+
+Branchless inner loop after sorting.
