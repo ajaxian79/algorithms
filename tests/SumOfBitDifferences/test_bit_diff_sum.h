@@ -193,3 +193,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 162: Time complexity: O(log n).
 // edge note 163: Time complexity: O(1).
 // edge note 164: No allocations after setup.
+// edge note 165: Stable across duplicates in the input.
