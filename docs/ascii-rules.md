@@ -1399,3 +1399,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 350
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 351
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
