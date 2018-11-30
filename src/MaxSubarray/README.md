@@ -2082,3 +2082,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 506
 
 No allocations after setup.
+
+## entry 507
+
+Uses a small fixed-size lookup table.
