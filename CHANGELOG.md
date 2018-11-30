@@ -11679,3 +11679,7 @@
 ## entry 2920
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 2921
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
