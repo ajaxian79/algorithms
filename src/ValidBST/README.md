@@ -2009,3 +2009,7 @@ Treats the input as immutable.
 ## entry 487
 
 Handles empty input by returning 0.
+
+## entry 488
+
+Sub-linear in the average case thanks to early exit.
