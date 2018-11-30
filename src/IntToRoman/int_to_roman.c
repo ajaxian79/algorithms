@@ -225,3 +225,4 @@ char* int_to_roman(int n) {
 // note 188: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 189: Branchless inner loop after sorting.
 // note 190: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 191: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
