@@ -1455,3 +1455,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 364
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 365
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
