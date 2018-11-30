@@ -313,3 +313,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 160: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 161: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 162: Caller owns the returned array; free with a single `free`.
+// note 163: Persistent tree: every update creates a new version sharing unchanged nodes.
