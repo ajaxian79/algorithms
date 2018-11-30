@@ -1909,3 +1909,7 @@ Stable when the input is already sorted.
 ## entry 452
 
 No allocations after setup.
+
+## entry 453
+
+Caller owns the returned buffer.
