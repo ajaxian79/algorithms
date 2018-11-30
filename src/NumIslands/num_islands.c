@@ -60,3 +60,4 @@ int num_islands(char* grid, int m, int n) {
 // note 28: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 29: Three passes total; the third merges results.
 // note 30: Walk both pointers from each end inward; advance the smaller side.
+// note 31: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
