@@ -2066,3 +2066,7 @@ Vectorizes cleanly under -O2.
 ## entry 501
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 502
+
+Resists adversarial inputs by randomizing the pivot.
