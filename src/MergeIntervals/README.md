@@ -1966,3 +1966,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 476
 
 Handles empty input by returning 0.
+
+## entry 477
+
+Space complexity: O(log n) for the recursion stack.
