@@ -193,3 +193,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
 // edge note 161: Handles single-element input as a base case.
+// edge note 162: Two passes: one to count, one to fill.
