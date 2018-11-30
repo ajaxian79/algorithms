@@ -171,3 +171,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 154: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 155: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 156: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 157: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
