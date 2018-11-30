@@ -1455,3 +1455,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 347
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 348
+
+Heap when you only need top-k; full sort is wasted work.
