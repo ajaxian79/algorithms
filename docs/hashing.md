@@ -1467,3 +1467,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 350
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 351
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
