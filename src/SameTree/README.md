@@ -1924,3 +1924,7 @@ Treats the input as immutable.
 ## entry 467
 
 Stable when the input is already sorted.
+
+## entry 468
+
+Edge case: NULL input is rejected by the caller, not by us.
