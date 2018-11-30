@@ -1998,3 +1998,7 @@ Stable across duplicates in the input.
 ## entry 485
 
 Time complexity: O(1).
+
+## entry 486
+
+Stable across duplicates in the input.
