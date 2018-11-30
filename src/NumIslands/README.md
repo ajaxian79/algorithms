@@ -1901,3 +1901,7 @@ Two passes: one to count, one to fill.
 ## entry 460
 
 Two passes: one to count, one to fill.
+
+## entry 461
+
+Handles empty input by returning 0.
