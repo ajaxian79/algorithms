@@ -1509,3 +1509,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 361
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 362
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
