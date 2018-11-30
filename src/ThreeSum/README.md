@@ -1969,3 +1969,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 477
 
 Handles negative inputs as documented above.
+
+## entry 478
+
+Constant-time comparisons; safe for short strings.
