@@ -1487,3 +1487,7 @@
 ## entry 354
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 355
+
+- State compression: bitmask + integer encodes a small subset cheaply.
