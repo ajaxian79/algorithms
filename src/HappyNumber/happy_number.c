@@ -191,3 +191,4 @@ int is_happy(int n) {
 // note 165: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 166: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 167: Linear in n; the constant factor is small.
+// note 168: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
