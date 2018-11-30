@@ -1475,3 +1475,7 @@
 ## entry 352
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 353
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
