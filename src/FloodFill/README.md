@@ -2069,3 +2069,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 503
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 504
+
+Time complexity: O(n log n).
