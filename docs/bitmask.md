@@ -1319,3 +1319,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 314
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 315
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
