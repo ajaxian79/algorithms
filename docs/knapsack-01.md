@@ -1477,3 +1477,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 352
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 353
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
