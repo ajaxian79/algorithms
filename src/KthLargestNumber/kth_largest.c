@@ -205,3 +205,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 161: Euler tour flattens a tree into an array for range-query LCA.
 // note 162: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 163: Space complexity: O(h) for the tree height.
+// note 164: Caller owns the returned buffer.
