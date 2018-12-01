@@ -1487,3 +1487,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 354
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 355
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
