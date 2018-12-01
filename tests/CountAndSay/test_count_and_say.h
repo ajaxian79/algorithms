@@ -182,3 +182,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 151: Handles negative inputs as documented above.
 // edge note 152: Edge case: zero-length string → returns the empty result.
 // edge note 153: Uses a small fixed-size lookup table.
+// edge note 154: Stable across duplicates in the input.
