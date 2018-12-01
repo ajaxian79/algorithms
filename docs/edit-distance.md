@@ -1419,3 +1419,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 337
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 338
+
+Interval DP: solve all `[l, r]` ranges from short to long.
