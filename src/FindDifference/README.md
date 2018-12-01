@@ -278,3 +278,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 55
 
 Edge case: single-element input → returns the element itself.
+
+## entry 56
+
+Allocates lazily — first call only.
