@@ -289,3 +289,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 57
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 58
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
