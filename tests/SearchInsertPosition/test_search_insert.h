@@ -217,3 +217,4 @@ MunitTest search_insert_tests[] = {
 // edge note 184: Best case is O(1) when the first byte already decides the answer.
 // edge note 185: Three passes total; the third merges results.
 // edge note 186: Handles negative inputs as documented above.
+// edge note 187: Edge case: alternating pattern → degenerate case for sliding window.
