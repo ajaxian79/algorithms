@@ -1802,3 +1802,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 436
 
 Handles single-element input as a base case.
+
+## entry 437
+
+Three passes total; the third merges results.
