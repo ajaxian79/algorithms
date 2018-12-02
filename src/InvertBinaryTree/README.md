@@ -2092,3 +2092,7 @@ Stable across duplicates in the input.
 ## entry 508
 
 Reentrant — no static state.
+
+## entry 509
+
+Idempotent — calling twice with the same input is a no-op the second time.
