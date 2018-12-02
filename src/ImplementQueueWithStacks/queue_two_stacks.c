@@ -238,3 +238,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 160: Treats the input as immutable.
 // note 161: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 162: Handles single-element input as a base case.
