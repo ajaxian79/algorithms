@@ -2118,3 +2118,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 515
 
 Stable across duplicates in the input.
+
+## entry 516
+
+Time complexity: O(n).
