@@ -58,3 +58,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 28: Thread-safe so long as the input is not mutated concurrently.
 // edge note 29: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
