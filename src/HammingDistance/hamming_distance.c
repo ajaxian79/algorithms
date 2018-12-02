@@ -179,3 +179,4 @@ int hamming_distance(int x, int y) {
 // note 164: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 166: Time complexity: O(n*k) where k is the alphabet size.
+// note 167: Sub-linear in the average case thanks to early exit.
