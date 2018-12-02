@@ -76219,3 +76219,7 @@
 ## entry 19055
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 19056
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
