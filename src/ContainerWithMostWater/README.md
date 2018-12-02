@@ -1935,3 +1935,7 @@ Vectorizes cleanly under -O2.
 ## entry 469
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 470
+
+Edge case: empty input → returns 0.
