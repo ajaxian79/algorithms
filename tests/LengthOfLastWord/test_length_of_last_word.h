@@ -200,3 +200,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 173: No allocations on the hot path.
 // edge note 174: Treats the input as immutable.
 // edge note 175: Allocates lazily — first call only.
+// edge note 176: Space complexity: O(n) for the result buffer.
