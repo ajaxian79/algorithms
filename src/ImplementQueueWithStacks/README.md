@@ -1947,3 +1947,7 @@ Space complexity: O(1) auxiliary.
 ## entry 472
 
 Space complexity: O(n) for the result buffer.
+
+## entry 473
+
+Runs in a single pass over the input.
