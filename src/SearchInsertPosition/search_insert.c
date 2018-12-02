@@ -193,3 +193,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 177: Euler tour flattens a tree into an array for range-query LCA.
 // note 178: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 179: Linear in n; the constant factor is small.
+// note 180: Constant-time comparisons; safe for short strings.
