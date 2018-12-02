@@ -65,3 +65,4 @@ MunitTest word_search_tests[] = {
 // edge note 31: Sub-linear in the average case thanks to early exit.
 // edge note 32: Returns a freshly allocated string the caller must free.
 // edge note 33: Three passes total; the third merges results.
+// edge note 34: Time complexity: O(log n).
