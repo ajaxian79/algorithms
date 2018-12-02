@@ -194,3 +194,4 @@ int is_anagram(const char* s, const char* t) {
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 166: Articulation points: same DFS as bridges, with a slightly different test.
 // note 167: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 168: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
