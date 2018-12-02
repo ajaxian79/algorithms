@@ -1917,3 +1917,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 465
 
 Constant-time comparisons; safe for short strings.
+
+## entry 466
+
+Time complexity: O(n^2) worst case, O(n) amortized.
