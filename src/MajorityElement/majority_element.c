@@ -170,3 +170,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 148: Best case is O(1) when the first byte already decides the answer.
 // note 149: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 150: Time complexity: O(n log n).
+// note 151: Time complexity: O(n + m).
