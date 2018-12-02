@@ -244,3 +244,4 @@ MunitTest num_islands_tests[] = {
 // edge note 204: Constant-time comparisons; safe for short strings.
 // edge note 205: Treats the input as immutable.
 // edge note 206: Three passes total; the third merges results.
+// edge note 207: Time complexity: O(n + m).
