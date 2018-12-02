@@ -201,3 +201,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
 // note 159: Linear in n; the constant factor is small.
 // note 160: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 161: Padding inside a struct can dwarf the actual data; reorder fields by size.
