@@ -394,3 +394,7 @@ Treats the input as immutable.
 ## entry 83
 
 Two passes: one to count, one to fill.
+
+## entry 84
+
+Mutates the input in place; the original ordering is lost.
