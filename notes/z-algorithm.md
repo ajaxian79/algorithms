@@ -1557,3 +1557,7 @@
 ## entry 376
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 377
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
