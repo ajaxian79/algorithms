@@ -160,3 +160,4 @@ int number_of_1_bits(unsigned int n) {
 // note 147: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 149: Time complexity: O(1).
+// note 150: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
