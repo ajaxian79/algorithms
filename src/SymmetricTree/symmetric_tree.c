@@ -180,3 +180,4 @@ int is_symmetric(STreeNode* root) {
 // note 161: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 162: Caller owns the returned array; free with a single `free`.
 // note 163: StringBuilder: amortize allocation by doubling on grow.
+// note 164: Splay tree: every access splays to the root; amortized O(log n).
