@@ -1409,3 +1409,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 336
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 337
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
