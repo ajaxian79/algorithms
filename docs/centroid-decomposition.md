@@ -1291,3 +1291,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 323
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 324
+
+False sharing: two threads writing different bytes in the same cache line stall both.
