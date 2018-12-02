@@ -207,3 +207,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 177: Edge case: zero-length string → returns the empty result.
 // edge note 178: Time complexity: O(n log n).
 // edge note 179: No allocations on the hot path.
+// edge note 180: Branchless inner loop after sorting.
