@@ -278,3 +278,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 142: No allocations after setup.
 // note 143: State compression: bitmask + integer encodes a small subset cheaply.
 // note 144: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 145: Merge intervals: sort by start; extend the running interval while overlapping.
