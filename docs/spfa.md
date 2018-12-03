@@ -1263,3 +1263,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 316
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 317
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
