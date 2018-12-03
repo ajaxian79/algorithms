@@ -70,3 +70,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 39: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 40: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 41: Space complexity: O(log n) for the recursion stack.
+// edge note 42: Tail-recursive; the compiler turns it into a loop.
