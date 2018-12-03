@@ -2031,3 +2031,7 @@ Three passes total; the third merges results.
 ## entry 492
 
 No allocations after setup.
+
+## entry 493
+
+Sub-linear in the average case thanks to early exit.
