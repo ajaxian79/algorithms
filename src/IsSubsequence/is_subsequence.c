@@ -186,3 +186,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 166: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 167: Uses a 256-entry lookup for the inner step.
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 169: Vectorizes cleanly under -O2.
