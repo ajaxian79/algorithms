@@ -1944,3 +1944,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 471
 
 Runs in a single pass over the input.
+
+## entry 472
+
+Time complexity: O(1).
