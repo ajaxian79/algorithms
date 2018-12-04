@@ -1315,3 +1315,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 313
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 314
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
