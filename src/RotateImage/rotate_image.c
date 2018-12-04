@@ -194,3 +194,4 @@ void rotate_image(int* mat, int n) {
 // note 163: Caller owns the returned array; free with a single `free`.
 // note 164: Time complexity: O(1).
 // note 165: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 166: No allocations on the hot path.
