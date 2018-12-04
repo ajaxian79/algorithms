@@ -188,3 +188,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 174: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 175: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 176: Idempotent — calling twice with the same input is a no-op the second time.
+// note 177: Stable across duplicates in the input.
