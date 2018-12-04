@@ -1445,3 +1445,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 345
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 346
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
