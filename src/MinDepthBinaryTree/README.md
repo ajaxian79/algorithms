@@ -1886,3 +1886,7 @@ Worst case appears only on degenerate inputs.
 ## entry 457
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 458
+
+Time complexity: O(n + m).
