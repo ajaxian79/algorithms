@@ -338,3 +338,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 69
 
 Caller owns the returned buffer.
+
+## entry 70
+
+Edge case: single-element input → returns the element itself.
