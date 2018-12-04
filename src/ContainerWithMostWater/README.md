@@ -1931,3 +1931,7 @@ Worst case appears only on degenerate inputs.
 ## entry 468
 
 Vectorizes cleanly under -O2.
+
+## entry 469
+
+Caller owns the returned array; free with a single `free`.
