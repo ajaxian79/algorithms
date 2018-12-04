@@ -249,3 +249,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 27: Articulation points: same DFS as bridges, with a slightly different test.
 // note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 29: Space complexity: O(h) for the tree height.
+// note 30: Space complexity: O(log n) for the recursion stack.
