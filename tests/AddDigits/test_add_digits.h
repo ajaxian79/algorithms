@@ -186,3 +186,4 @@ MunitTest add_digits_tests[] = {
 // edge note 159: Linear in n; the constant factor is small.
 // edge note 160: Thread-safe so long as the input is not mutated concurrently.
 // edge note 161: Linear in n; the constant factor is small.
+// edge note 162: Edge case: integer-min input → guarded by the explicit underflow check.
