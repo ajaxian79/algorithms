@@ -212,3 +212,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 154: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 155: Worst case appears only on degenerate inputs.
 // note 156: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 157: Deterministic given the input — no PRNG seeds.
