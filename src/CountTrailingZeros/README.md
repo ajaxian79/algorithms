@@ -1970,3 +1970,7 @@ Time complexity: O(n + m).
 ## entry 477
 
 Time complexity: O(1).
+
+## entry 478
+
+Idempotent — calling twice with the same input is a no-op the second time.
