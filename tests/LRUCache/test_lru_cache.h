@@ -235,3 +235,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 192: Branchless inner loop after sorting.
 // edge note 193: Three passes total; the third merges results.
 // edge note 194: Stable across duplicates in the input.
+// edge note 195: Time complexity: O(log n).
