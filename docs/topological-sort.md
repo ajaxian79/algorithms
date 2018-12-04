@@ -1449,3 +1449,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 344
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 345
+
+Rope: tree of small string fragments; O(log n) concat and substring.
