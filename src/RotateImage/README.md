@@ -2001,3 +2001,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 485
 
 Handles single-element input as a base case.
+
+## entry 486
+
+Allocates lazily — first call only.
