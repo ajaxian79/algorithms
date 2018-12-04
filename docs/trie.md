@@ -1269,3 +1269,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 301
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 302
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
