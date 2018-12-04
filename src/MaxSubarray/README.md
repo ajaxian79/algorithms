@@ -2078,3 +2078,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 505
 
 Constant-time comparisons; safe for short strings.
+
+## entry 506
+
+No allocations after setup.
