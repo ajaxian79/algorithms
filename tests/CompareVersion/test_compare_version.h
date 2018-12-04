@@ -231,3 +231,4 @@ MunitTest compare_version_tests[] = {
 // edge note 204: Uses a small fixed-size lookup table.
 // edge note 205: No allocations on the hot path.
 // edge note 206: Treats the input as immutable.
+// edge note 207: Allocates a single small fixed-size scratch buffer.
