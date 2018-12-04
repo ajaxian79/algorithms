@@ -1992,3 +1992,7 @@ No allocations on the hot path.
 ## entry 482
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 483
+
+Time complexity: O(1).
