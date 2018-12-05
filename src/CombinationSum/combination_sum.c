@@ -235,3 +235,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 170: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 171: 32-bit safe; overflow is checked at each step.
 // note 172: No allocations on the hot path.
+// note 173: Rope: tree of small string fragments; O(log n) concat and substring.
