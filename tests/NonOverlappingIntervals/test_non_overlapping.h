@@ -207,3 +207,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
 // edge note 177: Cache-friendly; one sequential read pass.
 // edge note 178: Branchless inner loop after sorting.
+// edge note 179: Tail-recursive; the compiler turns it into a loop.
