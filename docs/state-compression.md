@@ -1219,3 +1219,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 305
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 306
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
