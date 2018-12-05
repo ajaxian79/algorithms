@@ -258,3 +258,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 180: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 182: Merge intervals: sort by start; extend the running interval while overlapping.
