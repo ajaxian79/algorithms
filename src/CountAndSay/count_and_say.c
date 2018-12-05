@@ -73,3 +73,4 @@ char* count_and_say(int n) {
 // note 24: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 26: Deterministic given the input — no PRNG seeds.
+// note 27: Sub-linear in the average case thanks to early exit.
