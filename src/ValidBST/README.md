@@ -2005,3 +2005,7 @@ Vectorizes cleanly under -O2.
 ## entry 486
 
 Treats the input as immutable.
+
+## entry 487
+
+Handles empty input by returning 0.
