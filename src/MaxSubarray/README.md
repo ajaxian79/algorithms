@@ -2074,3 +2074,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 504
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 505
+
+Constant-time comparisons; safe for short strings.
