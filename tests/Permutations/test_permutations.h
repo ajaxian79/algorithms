@@ -71,3 +71,4 @@ MunitTest permutations_tests[] = {
 // edge note 30: Handles negative inputs as documented above.
 // edge note 31: Edge case: single-element input → returns the element itself.
 // edge note 32: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 33: Branchless inner loop after sorting.
