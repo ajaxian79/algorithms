@@ -342,3 +342,7 @@ Treats the input as immutable.
 ## entry 70
 
 Handles empty input by returning 0.
+
+## entry 71
+
+Space complexity: O(1) auxiliary.
