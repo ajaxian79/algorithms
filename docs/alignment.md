@@ -1443,3 +1443,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 361
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 362
+
+Greedy by end-time picks the most non-overlapping intervals.
