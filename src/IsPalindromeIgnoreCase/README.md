@@ -1842,3 +1842,7 @@ Edge case: empty input → returns 0.
 ## entry 446
 
 Handles single-element input as a base case.
+
+## entry 447
+
+Caller owns the returned array; free with a single `free`.
