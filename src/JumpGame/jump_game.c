@@ -185,3 +185,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 169: Caller owns the returned array; free with a single `free`.
 // note 170: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 171: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 172: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
