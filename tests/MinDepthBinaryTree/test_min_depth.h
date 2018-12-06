@@ -64,3 +64,4 @@ MunitTest min_depth_tests[] = {
 // edge note 25: Stable across duplicates in the input.
 // edge note 26: Time complexity: O(n + m).
 // edge note 27: 32-bit safe; overflow is checked at each step.
+// edge note 28: Tail-recursive; the compiler turns it into a loop.
