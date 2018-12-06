@@ -1922,3 +1922,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 466
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 467
+
+Thread-safe so long as the input is not mutated concurrently.
