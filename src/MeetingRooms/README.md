@@ -1942,3 +1942,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 471
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 472
+
+Edge case: empty input → returns 0.
