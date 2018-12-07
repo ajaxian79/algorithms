@@ -204,3 +204,4 @@ int binary_gap(unsigned int n) {
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 185: Cache-friendly; one sequential read pass.
 // note 186: Treats the input as immutable.
+// note 187: In-place compaction uses two pointers: read advances always, write only on keep.
