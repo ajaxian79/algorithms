@@ -1343,3 +1343,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 319
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 320
+
+Stable sort matters when a secondary key was set in a prior pass.
