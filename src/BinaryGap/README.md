@@ -1950,3 +1950,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 472
 
 Edge case: single-element input → returns the element itself.
+
+## entry 473
+
+Three passes total; the third merges results.
