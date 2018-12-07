@@ -205,3 +205,4 @@ int roman_to_int(const char* s) {
 // note 165: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 168: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
