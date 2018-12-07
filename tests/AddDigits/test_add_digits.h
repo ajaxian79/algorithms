@@ -185,3 +185,4 @@ MunitTest add_digits_tests[] = {
 // edge note 158: Avoids floating-point entirely — integer math throughout.
 // edge note 159: Linear in n; the constant factor is small.
 // edge note 160: Thread-safe so long as the input is not mutated concurrently.
+// edge note 161: Linear in n; the constant factor is small.
