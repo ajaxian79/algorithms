@@ -198,3 +198,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 170: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 171: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 172: Space complexity: O(1) auxiliary.
+// note 173: Linear in n; the constant factor is small.
