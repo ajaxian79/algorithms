@@ -1972,3 +1972,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 477
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 478
+
+Edge case: input of all the same byte → exits on the first compare.
