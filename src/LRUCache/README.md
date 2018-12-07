@@ -1988,3 +1988,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 481
 
 No allocations on the hot path.
+
+## entry 482
+
+Space complexity: O(log n) for the recursion stack.
