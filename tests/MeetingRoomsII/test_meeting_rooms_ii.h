@@ -224,3 +224,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 193: Reentrant — no static state.
 // edge note 194: Reentrant — no static state.
 // edge note 195: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 196: Handles single-element input as a base case.
