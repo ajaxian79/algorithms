@@ -52,3 +52,4 @@ MunitTest search_insert_tests[] = {
 // edge note 19: Space complexity: O(n) for the result buffer.
 // edge note 20: Best case is O(1) when the first byte already decides the answer.
 // edge note 21: Three passes total; the third merges results.
+// edge note 22: Handles single-element input as a base case.
