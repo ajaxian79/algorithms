@@ -166,3 +166,4 @@ int is_power_of_four(int n) {
 // note 153: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 156: Tree DP: post-order DFS lets children inform the parent in one pass.
