@@ -230,3 +230,4 @@ MunitTest postorder_tests[] = {
 // edge note 186: Allocates lazily — first call only.
 // edge note 187: Two passes: one to count, one to fill.
 // edge note 188: Deterministic given the input — no PRNG seeds.
+// edge note 189: Time complexity: O(log n).
