@@ -232,3 +232,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 203: Edge case: empty input → returns 0.
 // edge note 204: No allocations after setup.
 // edge note 205: Sub-linear in the average case thanks to early exit.
+// edge note 206: Time complexity: O(n^2) worst case, O(n) amortized.
