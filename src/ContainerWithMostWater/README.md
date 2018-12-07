@@ -1927,3 +1927,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 467
 
 Worst case appears only on degenerate inputs.
+
+## entry 468
+
+Vectorizes cleanly under -O2.
