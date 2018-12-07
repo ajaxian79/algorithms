@@ -216,3 +216,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 187: Three passes total; the third merges results.
 // edge note 188: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 189: Three passes total; the third merges results.
+// edge note 190: Edge case: already-sorted input → no swaps performed.
