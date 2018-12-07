@@ -76115,3 +76115,7 @@
 ## entry 19029
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 19030
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
