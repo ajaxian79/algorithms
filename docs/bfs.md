@@ -1409,3 +1409,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 335
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 336
+
+Stable sort matters when a secondary key was set in a prior pass.
