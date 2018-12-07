@@ -1183,3 +1183,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 296
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 297
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
