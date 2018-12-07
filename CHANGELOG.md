@@ -76131,3 +76131,7 @@
 ## entry 19033
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 19034
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
