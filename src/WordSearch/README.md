@@ -1938,3 +1938,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 470
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 471
+
+Cache-friendly; one sequential read pass.
