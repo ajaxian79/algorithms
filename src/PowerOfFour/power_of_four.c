@@ -165,3 +165,4 @@ int is_power_of_four(int n) {
 // note 152: Caller owns the returned array; free with a single `free`.
 // note 153: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
