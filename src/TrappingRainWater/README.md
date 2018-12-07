@@ -1974,3 +1974,7 @@ Cache-friendly; one sequential read pass.
 ## entry 478
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 479
+
+Edge case: input of all the same byte → exits on the first compare.
