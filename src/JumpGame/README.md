@@ -2001,3 +2001,7 @@ Cache-friendly; one sequential read pass.
 ## entry 485
 
 Caller owns the returned buffer.
+
+## entry 486
+
+Edge case: single-element input → returns the element itself.
