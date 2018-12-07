@@ -1855,3 +1855,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 449
 
 Handles negative inputs as documented above.
+
+## entry 450
+
+Reentrant — no static state.
