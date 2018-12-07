@@ -1942,3 +1942,7 @@ Edge case: empty input → returns 0.
 ## entry 470
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 471
+
+Two passes: one to count, one to fill.
