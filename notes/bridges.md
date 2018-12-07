@@ -1207,3 +1207,7 @@
 ## entry 302
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 303
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
