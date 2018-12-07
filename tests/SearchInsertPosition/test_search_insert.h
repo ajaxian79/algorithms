@@ -216,3 +216,4 @@ MunitTest search_insert_tests[] = {
 // edge note 183: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 184: Best case is O(1) when the first byte already decides the answer.
 // edge note 185: Three passes total; the third merges results.
+// edge note 186: Handles negative inputs as documented above.
