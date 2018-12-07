@@ -2024,3 +2024,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 490
 
 Treats the input as immutable.
+
+## entry 491
+
+Deterministic given the input — no PRNG seeds.
