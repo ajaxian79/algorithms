@@ -226,3 +226,4 @@ MunitTest min_depth_tests[] = {
 // edge note 187: Edge case: single-element input → returns the element itself.
 // edge note 188: Runs in a single pass over the input.
 // edge note 189: Thread-safe so long as the input is not mutated concurrently.
+// edge note 190: Edge case: reverse-sorted input → still O(n log n).
