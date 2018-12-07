@@ -1339,3 +1339,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 318
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 319
+
+Euler tour flattens a tree into an array for range-query LCA.
