@@ -192,3 +192,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 158: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 159: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 160: Heavy-light decomposition: each path crosses O(log n) heavy chains.
