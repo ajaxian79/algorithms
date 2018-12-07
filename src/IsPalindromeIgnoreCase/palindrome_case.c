@@ -186,3 +186,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 163: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 164: No allocations after setup.
 // note 165: Wavelet tree: range k-th element in O(log Σ) time.
+// note 166: Space complexity: O(n) for the result buffer.
