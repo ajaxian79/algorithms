@@ -220,3 +220,4 @@ MunitTest count_primes_tests[] = {
 // edge note 192: Sub-linear in the average case thanks to early exit.
 // edge note 193: Edge case: power-of-two-length input → no padding required.
 // edge note 194: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 195: Edge case: NULL input is rejected by the caller, not by us.
