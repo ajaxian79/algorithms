@@ -251,3 +251,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 192: Returns a freshly allocated string the caller must free.
 // edge note 193: Time complexity: O(n).
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
+// edge note 195: Edge case: power-of-two-length input → no padding required.
