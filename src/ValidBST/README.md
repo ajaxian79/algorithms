@@ -2001,3 +2001,7 @@ Space complexity: O(h) for the tree height.
 ## entry 485
 
 Vectorizes cleanly under -O2.
+
+## entry 486
+
+Treats the input as immutable.
