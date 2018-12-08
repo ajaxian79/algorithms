@@ -349,3 +349,7 @@ Handles empty input by returning 0.
 ## entry 72
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 73
+
+Allocates one buffer of length n+1 for the result.
