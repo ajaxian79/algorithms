@@ -1970,3 +1970,7 @@ Worst case appears only on degenerate inputs.
 ## entry 477
 
 Cache-friendly; one sequential read pass.
+
+## entry 478
+
+Edge case: all-equal input → linear-time fast path.
