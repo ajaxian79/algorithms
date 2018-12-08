@@ -1283,3 +1283,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 321
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 322
+
+Euler tour flattens a tree into an array for range-query LCA.
