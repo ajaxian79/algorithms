@@ -1419,3 +1419,7 @@
 ## entry 338
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 339
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
