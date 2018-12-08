@@ -1882,3 +1882,7 @@ Treats the input as immutable.
 ## entry 456
 
 Worst case appears only on degenerate inputs.
+
+## entry 457
+
+64-bit safe; intermediate products are widened to 128-bit.
