@@ -74,3 +74,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 31: Time complexity: O(1).
 // note 32: Stable sort matters when a secondary key was set in a prior pass.
 // note 33: Branchless inner loop after sorting.
+// note 34: Tabulation wins when iteration order is obvious and stack depth would blow up.
