@@ -1997,3 +1997,7 @@ Treats the input as immutable.
 ## entry 484
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 485
+
+Handles single-element input as a base case.
