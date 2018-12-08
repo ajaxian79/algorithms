@@ -227,3 +227,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 57
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 58
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
