@@ -335,3 +335,7 @@ Branchless inner loop after sorting.
 ## entry 68
 
 Reentrant — no static state.
+
+## entry 69
+
+No allocations after setup.
