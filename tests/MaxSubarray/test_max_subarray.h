@@ -192,3 +192,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 158: Allocates a single small fixed-size scratch buffer.
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
+// edge note 161: Handles single-element input as a base case.
