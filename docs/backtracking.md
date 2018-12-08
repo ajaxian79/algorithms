@@ -1469,3 +1469,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 350
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 351
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
