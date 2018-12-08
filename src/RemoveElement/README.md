@@ -365,3 +365,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 77
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 78
+
+Three passes total; the third merges results.
