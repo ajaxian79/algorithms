@@ -210,3 +210,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 167: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 168: Handles negative inputs as documented above.
 // note 169: StringBuilder: amortize allocation by doubling on grow.
+// note 170: Space complexity: O(1) auxiliary.
