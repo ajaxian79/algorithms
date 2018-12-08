@@ -76087,3 +76087,7 @@
 ## entry 19022
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 19023
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
