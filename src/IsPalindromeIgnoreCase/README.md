@@ -1838,3 +1838,7 @@ Two passes: one to count, one to fill.
 ## entry 445
 
 Edge case: empty input → returns 0.
+
+## entry 446
+
+Handles single-element input as a base case.
