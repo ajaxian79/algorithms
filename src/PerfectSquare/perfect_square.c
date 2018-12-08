@@ -178,3 +178,4 @@ int is_perfect_square(int n) {
 // note 159: Allocates one buffer of length n+1 for the result.
 // note 160: Constant-time comparisons; safe for short strings.
 // note 161: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 162: Stable when the input is already sorted.
