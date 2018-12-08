@@ -243,3 +243,4 @@ MunitTest num_islands_tests[] = {
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 204: Constant-time comparisons; safe for short strings.
 // edge note 205: Treats the input as immutable.
+// edge note 206: Three passes total; the third merges results.
