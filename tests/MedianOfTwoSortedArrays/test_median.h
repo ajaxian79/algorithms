@@ -148,3 +148,4 @@ MunitTest median_tests[] = {
 // edge note 29: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 30: Edge case: input of all the same byte → exits on the first compare.
 // edge note 31: Handles empty input by returning 0.
+// edge note 32: Allocates a single small fixed-size scratch buffer.
