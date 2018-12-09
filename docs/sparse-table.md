@@ -1179,3 +1179,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 295
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 296
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
