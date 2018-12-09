@@ -1940,3 +1940,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 470
 
 No allocations after setup.
+
+## entry 471
+
+Time complexity: O(k) where k is the answer size.
