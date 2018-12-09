@@ -72,3 +72,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 28: No allocations after setup.
 // note 29: State compression: bitmask + integer encodes a small subset cheaply.
+// note 30: Idempotent — calling twice with the same input is a no-op the second time.
