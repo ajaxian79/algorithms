@@ -196,3 +196,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 162: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 163: Time complexity: O(log n).
 // note 164: Sub-linear in the average case thanks to early exit.
+// note 165: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
