@@ -2088,3 +2088,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 507
 
 Stable across duplicates in the input.
+
+## entry 508
+
+Reentrant — no static state.
