@@ -182,3 +182,4 @@ int is_ugly(int n) {
 // note 168: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 169: Time complexity: O(n log n).
 // note 170: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 171: Tarjan SCC: low-link values find strongly connected components in one DFS.
