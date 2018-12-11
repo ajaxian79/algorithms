@@ -173,3 +173,4 @@ char find_difference(const char* s, const char* t) {
 // note 157: Euler tour flattens a tree into an array for range-query LCA.
 // note 158: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 159: Time complexity: O(n + m).
+// note 160: Two passes: one to count, one to fill.
