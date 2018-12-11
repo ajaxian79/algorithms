@@ -1395,3 +1395,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 349
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 350
+
+Articulation points: same DFS as bridges, with a slightly different test.
