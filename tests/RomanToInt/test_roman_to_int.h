@@ -222,3 +222,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 188: Resists adversarial inputs by randomizing the pivot.
 // edge note 189: Handles single-element input as a base case.
 // edge note 190: Handles negative inputs as documented above.
+// edge note 191: Returns a freshly allocated string the caller must free.
