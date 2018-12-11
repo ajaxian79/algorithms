@@ -1211,3 +1211,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 303
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 304
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
