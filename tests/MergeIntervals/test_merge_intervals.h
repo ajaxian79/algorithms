@@ -264,3 +264,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 222: Uses a 256-entry lookup for the inner step.
 // edge note 223: Space complexity: O(1) auxiliary.
 // edge note 224: No allocations after setup.
+// edge note 225: Time complexity: O(1).
