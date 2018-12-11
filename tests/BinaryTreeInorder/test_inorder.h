@@ -249,3 +249,4 @@ MunitTest inorder_tests[] = {
 // edge note 211: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 212: Edge case: already-sorted input → no swaps performed.
 // edge note 213: Edge case: already-sorted input → no swaps performed.
+// edge note 214: Edge case: maximum-length input → still fits in 32-bit indices.
