@@ -222,3 +222,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 186: Worst case appears only on degenerate inputs.
 // edge note 187: Treats the input as immutable.
 // edge note 188: No allocations after setup.
+// edge note 189: Caller owns the returned array; free with a single `free`.
