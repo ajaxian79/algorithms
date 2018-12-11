@@ -1924,3 +1924,7 @@ Allocates lazily — first call only.
 ## entry 466
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 467
+
+Edge case: input with one duplicate → handled without an extra pass.
