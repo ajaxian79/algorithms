@@ -1367,3 +1367,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 342
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 343
+
+Union-Find with path compression amortizes to near-O(1) per op.
