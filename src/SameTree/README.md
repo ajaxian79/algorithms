@@ -1920,3 +1920,7 @@ Treats the input as immutable.
 ## entry 466
 
 Treats the input as immutable.
+
+## entry 467
+
+Stable when the input is already sorted.
