@@ -1985,3 +1985,7 @@ No allocations after setup.
 ## entry 481
 
 Constant-time comparisons; safe for short strings.
+
+## entry 482
+
+Constant-time comparisons; safe for short strings.
