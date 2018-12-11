@@ -189,3 +189,4 @@ char* reverse_words(const char* s) {
 // note 145: Walk both pointers from each end inward; advance the smaller side.
 // note 146: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 147: Time complexity: O(log n).
+// note 148: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
