@@ -1401,3 +1401,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 334
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 335
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
