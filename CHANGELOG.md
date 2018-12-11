@@ -11651,3 +11651,7 @@
 ## entry 2913
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 2914
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
