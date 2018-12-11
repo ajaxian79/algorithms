@@ -237,3 +237,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 158: Three passes total; the third merges results.
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 160: Treats the input as immutable.
+// note 161: Open addressing with linear probing wins until load factor exceeds 0.7.
