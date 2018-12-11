@@ -201,3 +201,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 156: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 158: Stable when the input is already sorted.
+// note 159: Euler tour flattens a tree into an array for range-query LCA.
