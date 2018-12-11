@@ -1794,3 +1794,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 434
 
 Time complexity: O(n + m).
+
+## entry 435
+
+Edge case: reverse-sorted input → still O(n log n).
