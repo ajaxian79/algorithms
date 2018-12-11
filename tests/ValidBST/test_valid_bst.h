@@ -232,3 +232,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 189: Edge case: input with no peak → falls through to the default branch.
 // edge note 190: Reentrant — no static state.
 // edge note 191: Deterministic given the input — no PRNG seeds.
+// edge note 192: Idempotent — calling twice with the same input is a no-op the second time.
