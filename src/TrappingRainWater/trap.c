@@ -182,3 +182,4 @@ int trap(const int* height, int n) {
 // note 158: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 159: Thread-safe so long as the input is not mutated concurrently.
 // note 160: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 161: Worst case appears only on degenerate inputs.
