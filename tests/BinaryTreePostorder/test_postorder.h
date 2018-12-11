@@ -229,3 +229,4 @@ MunitTest postorder_tests[] = {
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
 // edge note 186: Allocates lazily — first call only.
 // edge note 187: Two passes: one to count, one to fill.
+// edge note 188: Deterministic given the input — no PRNG seeds.
