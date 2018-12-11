@@ -1953,3 +1953,7 @@ Space complexity: O(h) for the tree height.
 ## entry 474
 
 Time complexity: O(n log n).
+
+## entry 475
+
+Thread-safe so long as the input is not mutated concurrently.
