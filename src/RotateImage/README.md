@@ -1989,3 +1989,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 482
 
 Constant-time comparisons; safe for short strings.
+
+## entry 483
+
+Treats the input as immutable.
