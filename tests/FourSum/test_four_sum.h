@@ -210,3 +210,4 @@ MunitTest four_sum_tests[] = {
 // edge note 169: Stable when the input is already sorted.
 // edge note 170: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 171: Reentrant — no static state.
+// edge note 172: Time complexity: O(k) where k is the answer size.
