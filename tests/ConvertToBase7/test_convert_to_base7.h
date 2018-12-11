@@ -189,3 +189,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 160: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 161: Branchless inner loop after sorting.
 // edge note 162: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 163: Time complexity: O(n*k) where k is the alphabet size.
