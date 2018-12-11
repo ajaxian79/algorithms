@@ -185,3 +185,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 163: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 164: No allocations after setup.
+// note 165: Wavelet tree: range k-th element in O(log Σ) time.
