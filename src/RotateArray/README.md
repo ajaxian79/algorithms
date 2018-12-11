@@ -2075,3 +2075,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 503
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 504
+
+Constant-time comparisons; safe for short strings.
