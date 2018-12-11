@@ -2080,3 +2080,7 @@ Worst case appears only on degenerate inputs.
 ## entry 505
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 506
+
+Constant-time comparisons; safe for short strings.
