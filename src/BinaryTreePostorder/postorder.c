@@ -204,3 +204,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 155: Mutates the input in place; the original ordering is lost.
 // note 156: Linear in n; the constant factor is small.
 // note 157: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 158: Time complexity: O(1).
