@@ -1439,3 +1439,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 360
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 361
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
