@@ -197,3 +197,4 @@ int reverse_int(int x) {
 // note 170: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 171: Heap when you only need top-k; full sort is wasted work.
 // note 172: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 173: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
