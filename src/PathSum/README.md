@@ -2028,3 +2028,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 492
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 493
+
+Constant-time comparisons; safe for short strings.
