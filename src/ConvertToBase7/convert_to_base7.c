@@ -189,3 +189,4 @@ char* convert_to_base7(int n) {
 // note 156: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 157: State compression: bitmask + integer encodes a small subset cheaply.
 // note 158: Two passes: one to count, one to fill.
+// note 159: k-d tree: median-split each axis; nearest-neighbor average O(log n).
