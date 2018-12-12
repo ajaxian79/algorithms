@@ -2064,3 +2064,7 @@ Time complexity: O(n + m).
 ## entry 501
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 502
+
+Constant-time comparisons; safe for short strings.
