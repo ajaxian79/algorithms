@@ -1931,3 +1931,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 468
 
 Uses a small fixed-size lookup table.
+
+## entry 469
+
+Caller owns the returned buffer.
