@@ -390,3 +390,7 @@ Branchless inner loop after sorting.
 ## entry 82
 
 Treats the input as immutable.
+
+## entry 83
+
+Two passes: one to count, one to fill.
