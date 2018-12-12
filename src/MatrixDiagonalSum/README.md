@@ -2014,3 +2014,7 @@ Caller owns the returned buffer.
 ## entry 489
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 490
+
+Time complexity: O(log n).
