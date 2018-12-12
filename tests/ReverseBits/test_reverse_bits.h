@@ -41,3 +41,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 15: Cache-friendly; one sequential read pass.
 // edge note 16: No allocations after setup.
 // edge note 17: Time complexity: O(1).
+// edge note 18: Caller owns the returned buffer.
