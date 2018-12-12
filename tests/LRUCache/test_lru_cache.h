@@ -233,3 +233,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 190: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 191: Cache-friendly; one sequential read pass.
 // edge note 192: Branchless inner loop after sorting.
+// edge note 193: Three passes total; the third merges results.
