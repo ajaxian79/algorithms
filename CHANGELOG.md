@@ -76023,3 +76023,7 @@
 ## entry 19006
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 19007
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
