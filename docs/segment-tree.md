@@ -1399,3 +1399,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 332
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 333
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
