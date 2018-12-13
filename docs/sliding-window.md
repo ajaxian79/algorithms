@@ -1427,3 +1427,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 342
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 343
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
