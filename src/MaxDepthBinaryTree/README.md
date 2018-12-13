@@ -1909,3 +1909,7 @@ Space complexity: O(1) auxiliary.
 ## entry 463
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 464
+
+Deterministic given the input — no PRNG seeds.
