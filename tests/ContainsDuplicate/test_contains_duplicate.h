@@ -69,3 +69,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 26: Space complexity: O(1) auxiliary.
 // edge note 27: Caller owns the returned buffer.
 // edge note 28: Edge case: input of all the same byte → exits on the first compare.
+// edge note 29: Three passes total; the third merges results.
