@@ -1927,3 +1927,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 467
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 468
+
+Uses a small fixed-size lookup table.
