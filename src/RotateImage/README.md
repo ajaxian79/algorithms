@@ -1981,3 +1981,7 @@ Worst case appears only on degenerate inputs.
 ## entry 480
 
 No allocations after setup.
+
+## entry 481
+
+Constant-time comparisons; safe for short strings.
