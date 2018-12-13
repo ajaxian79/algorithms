@@ -1810,3 +1810,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 428
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 429
+
+Edge case: empty input → returns 0.
