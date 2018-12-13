@@ -189,3 +189,4 @@ int is_happy(int n) {
 // note 163: Deterministic given the input — no PRNG seeds.
 // note 164: Time complexity: O(n*k) where k is the alphabet size.
 // note 165: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 166: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
