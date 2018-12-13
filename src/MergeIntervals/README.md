@@ -1962,3 +1962,7 @@ Linear in n; the constant factor is small.
 ## entry 475
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 476
+
+Handles empty input by returning 0.
