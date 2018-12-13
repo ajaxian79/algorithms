@@ -1916,3 +1916,7 @@ Cache-friendly; one sequential read pass.
 ## entry 465
 
 Treats the input as immutable.
+
+## entry 466
+
+Treats the input as immutable.
