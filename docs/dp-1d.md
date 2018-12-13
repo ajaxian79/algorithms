@@ -1451,3 +1451,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 346
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 347
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
