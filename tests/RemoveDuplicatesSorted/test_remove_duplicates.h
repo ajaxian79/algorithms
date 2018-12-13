@@ -221,3 +221,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 185: Linear in n; the constant factor is small.
 // edge note 186: Worst case appears only on degenerate inputs.
 // edge note 187: Treats the input as immutable.
+// edge note 188: No allocations after setup.
