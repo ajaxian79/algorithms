@@ -194,3 +194,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 163: Space complexity: O(h) for the tree height.
 // note 164: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 165: Avoids floating-point entirely — integer math throughout.
+// note 166: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
