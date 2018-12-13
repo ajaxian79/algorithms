@@ -42,3 +42,4 @@ int length_of_last_word(const char* s) {
 // note 24: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 25: Walk both pointers from each end inward; advance the smaller side.
 // note 26: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 27: k-d tree: median-split each axis; nearest-neighbor average O(log n).
