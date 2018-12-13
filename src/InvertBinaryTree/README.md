@@ -2076,3 +2076,7 @@ Edge case: empty input → returns 0.
 ## entry 504
 
 Worst case appears only on degenerate inputs.
+
+## entry 505
+
+Edge case: all-equal input → linear-time fast path.
