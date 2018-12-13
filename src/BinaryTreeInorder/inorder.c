@@ -211,3 +211,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 171: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 172: Thread-safe so long as the input is not mutated concurrently.
 // note 173: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 174: Wavelet tree: range k-th element in O(log Σ) time.
