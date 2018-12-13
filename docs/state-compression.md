@@ -1203,3 +1203,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 301
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 302
+
+StringBuilder: amortize allocation by doubling on grow.
