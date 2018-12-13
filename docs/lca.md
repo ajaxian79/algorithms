@@ -1351,3 +1351,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 338
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 339
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
