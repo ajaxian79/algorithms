@@ -2042,3 +2042,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 495
 
 Reentrant — no static state.
+
+## entry 496
+
+Idempotent — calling twice with the same input is a no-op the second time.
