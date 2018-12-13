@@ -1211,3 +1211,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 303
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 304
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
