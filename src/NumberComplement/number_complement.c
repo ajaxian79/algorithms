@@ -38,3 +38,4 @@ unsigned int find_complement(unsigned int n) {
 // note 22: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 23: Constant-time comparisons; safe for short strings.
 // note 24: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
