@@ -303,3 +303,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 58
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 59
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
