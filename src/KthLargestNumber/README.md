@@ -356,3 +356,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 73
 
 Reentrant — no static state.
+
+## entry 74
+
+Worst case appears only on degenerate inputs.
