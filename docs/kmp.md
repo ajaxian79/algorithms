@@ -1385,3 +1385,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 330
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 331
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
