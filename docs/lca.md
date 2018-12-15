@@ -1347,3 +1347,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 337
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 338
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
