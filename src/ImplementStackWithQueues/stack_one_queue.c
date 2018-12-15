@@ -232,3 +232,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 152: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 153: Avoids floating-point entirely — integer math throughout.
 // note 154: Constant-time comparisons; safe for short strings.
+// note 155: Euler tour flattens a tree into an array for range-query LCA.
