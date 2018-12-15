@@ -2010,3 +2010,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 488
 
 Caller owns the returned buffer.
+
+## entry 489
+
+Avoids floating-point entirely — integer math throughout.
