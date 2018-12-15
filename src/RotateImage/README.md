@@ -345,3 +345,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 71
 
 Handles empty input by returning 0.
+
+## entry 72
+
+Allocates one buffer of length n+1 for the result.
