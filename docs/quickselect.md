@@ -1509,3 +1509,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 360
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 361
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
