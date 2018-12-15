@@ -1265,3 +1265,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 300
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 301
+
+Euler tour flattens a tree into an array for range-query LCA.
