@@ -62,3 +62,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 30: No allocations on the hot path.
 // edge note 31: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 32: Two passes: one to count, one to fill.
+// edge note 33: Avoids floating-point entirely — integer math throughout.
