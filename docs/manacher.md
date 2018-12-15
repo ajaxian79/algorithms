@@ -1523,3 +1523,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 364
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 365
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
