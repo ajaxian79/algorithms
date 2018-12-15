@@ -1977,3 +1977,7 @@ Allocates lazily — first call only.
 ## entry 479
 
 Worst case appears only on degenerate inputs.
+
+## entry 480
+
+No allocations after setup.
