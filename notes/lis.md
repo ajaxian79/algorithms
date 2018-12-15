@@ -267,3 +267,7 @@
 ## entry 49
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 50
+
+- Monotonic stack pops while the new element violates the invariant.
