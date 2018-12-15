@@ -1395,3 +1395,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 349
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 350
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
