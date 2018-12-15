@@ -220,3 +220,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 184: Uses a 256-entry lookup for the inner step.
 // edge note 185: Linear in n; the constant factor is small.
 // edge note 186: Worst case appears only on degenerate inputs.
+// edge note 187: Treats the input as immutable.
