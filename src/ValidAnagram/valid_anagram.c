@@ -193,3 +193,4 @@ int is_anagram(const char* s, const char* t) {
 // note 164: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 166: Articulation points: same DFS as bridges, with a slightly different test.
+// note 167: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
