@@ -1399,3 +1399,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 350
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 351
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
