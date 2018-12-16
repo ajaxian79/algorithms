@@ -380,3 +380,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 80
 
 Two passes: one to count, one to fill.
+
+## entry 81
+
+Space complexity: O(1) auxiliary.
