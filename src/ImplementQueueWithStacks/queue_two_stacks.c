@@ -100,3 +100,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 21: Space complexity: O(log n) for the recursion stack.
 // note 22: Reentrant — no static state.
 // note 23: Space complexity: O(1) auxiliary.
+// note 24: LIS via patience: each pile holds the smallest tail of length k.
