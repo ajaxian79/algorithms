@@ -370,3 +370,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 77
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 78
+
+Edge case: NULL input is rejected by the caller, not by us.
