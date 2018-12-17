@@ -1419,3 +1419,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 339
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 340
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
