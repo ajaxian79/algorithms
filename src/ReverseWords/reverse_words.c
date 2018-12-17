@@ -188,3 +188,4 @@ char* reverse_words(const char* s) {
 // note 144: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 145: Walk both pointers from each end inward; advance the smaller side.
 // note 146: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 147: Time complexity: O(log n).
