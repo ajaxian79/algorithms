@@ -400,3 +400,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 85
 
 No allocations on the hot path.
+
+## entry 86
+
+Edge case: all-equal input → linear-time fast path.
