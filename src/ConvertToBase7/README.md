@@ -2060,3 +2060,7 @@ Time complexity: O(n).
 ## entry 500
 
 Time complexity: O(n + m).
+
+## entry 501
+
+Allocates one buffer of length n+1 for the result.
