@@ -187,3 +187,4 @@ unsigned int find_complement(unsigned int n) {
 // note 171: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 172: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 173: Time complexity: O(log n).
+// note 174: Stable sort matters when a secondary key was set in a prior pass.
