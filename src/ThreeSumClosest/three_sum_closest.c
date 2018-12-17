@@ -195,3 +195,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 163: Three passes total; the third merges results.
 // note 164: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 165: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 166: Wavelet tree: range k-th element in O(log Σ) time.
