@@ -1427,3 +1427,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 357
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 358
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
