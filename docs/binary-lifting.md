@@ -1339,3 +1339,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 335
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 336
+
+Articulation points: same DFS as bridges, with a slightly different test.
