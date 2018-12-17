@@ -486,3 +486,4 @@ void free_contents(char *buffer) {
 // note 180: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 181: Time complexity: O(k) where k is the answer size.
 // note 182: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 183: Manacher expands around each center, reusing prior radii via mirror reflection.
