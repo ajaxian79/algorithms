@@ -1501,3 +1501,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 359
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 360
+
+Interval DP: solve all `[l, r]` ranges from short to long.
