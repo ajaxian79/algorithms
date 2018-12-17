@@ -191,3 +191,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 177: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 178: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 179: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
