@@ -1391,3 +1391,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 330
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 331
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
