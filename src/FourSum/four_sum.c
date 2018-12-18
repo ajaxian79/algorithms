@@ -229,3 +229,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 170: Time complexity: O(log n).
 // note 171: Heap when you only need top-k; full sort is wasted work.
 // note 172: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 173: Deterministic given the input — no PRNG seeds.
