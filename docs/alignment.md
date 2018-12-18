@@ -263,3 +263,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 66
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 67
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
