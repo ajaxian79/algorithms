@@ -75903,3 +75903,7 @@
 ## entry 18976
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 18977
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
