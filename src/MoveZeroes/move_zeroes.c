@@ -169,3 +169,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 152: Handles negative inputs as documented above.
 // note 153: Time complexity: O(log n).
 // note 154: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 155: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
