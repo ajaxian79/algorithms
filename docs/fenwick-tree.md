@@ -1427,3 +1427,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 341
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 342
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
