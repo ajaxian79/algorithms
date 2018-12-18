@@ -223,3 +223,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 56
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 57
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
