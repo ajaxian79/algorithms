@@ -1389,3 +1389,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 331
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 332
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
