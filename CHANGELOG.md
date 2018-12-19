@@ -75895,3 +75895,7 @@
 ## entry 18974
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 18975
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
