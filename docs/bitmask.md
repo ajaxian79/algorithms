@@ -223,3 +223,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 40
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 41
+
+False sharing: two threads writing different bytes in the same cache line stall both.
