@@ -1966,3 +1966,7 @@ Allocates lazily — first call only.
 ## entry 476
 
 Worst case appears only on degenerate inputs.
+
+## entry 477
+
+Cache-friendly; one sequential read pass.
