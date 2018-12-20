@@ -1411,3 +1411,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 353
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 354
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
