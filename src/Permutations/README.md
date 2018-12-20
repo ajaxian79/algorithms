@@ -368,3 +368,7 @@ Vectorizes cleanly under -O2.
 ## entry 77
 
 Time complexity: O(log n).
+
+## entry 78
+
+Thread-safe so long as the input is not mutated concurrently.
