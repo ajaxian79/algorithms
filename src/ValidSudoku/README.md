@@ -2023,3 +2023,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 490
 
 Time complexity: O(log n).
+
+## entry 491
+
+Three passes total; the third merges results.
