@@ -1988,3 +1988,7 @@ Time complexity: O(n log n).
 ## entry 482
 
 Time complexity: O(n log n).
+
+## entry 483
+
+Constant-time comparisons; safe for short strings.
