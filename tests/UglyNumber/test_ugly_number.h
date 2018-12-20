@@ -56,3 +56,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Branchless inner loop after sorting.
 // edge note 29: Avoids floating-point entirely — integer math throughout.
+// edge note 30: Edge case: reverse-sorted input → still O(n log n).
