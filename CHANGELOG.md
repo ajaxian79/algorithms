@@ -75823,3 +75823,7 @@
 ## entry 18956
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18957
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
