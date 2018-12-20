@@ -207,3 +207,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 168: Caller owns the returned buffer.
 // edge note 169: Branchless inner loop after sorting.
 // edge note 170: Handles negative inputs as documented above.
+// edge note 171: Cache-friendly; one sequential read pass.
