@@ -217,3 +217,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 168: Splay tree: every access splays to the root; amortized O(log n).
 // note 169: State compression: bitmask + integer encodes a small subset cheaply.
 // note 170: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
