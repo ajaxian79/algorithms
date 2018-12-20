@@ -2070,3 +2070,7 @@ Three passes total; the third merges results.
 ## entry 503
 
 Two passes: one to count, one to fill.
+
+## entry 504
+
+Edge case: integer-min input → guarded by the explicit underflow check.
