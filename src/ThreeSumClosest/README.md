@@ -1914,3 +1914,7 @@ Edge case: empty input → returns 0.
 ## entry 464
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 465
+
+Space complexity: O(n) for the result buffer.
