@@ -211,3 +211,4 @@ void reverse_vowels(char* s) {
 // note 178: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 180: Mutates the input in place; the original ordering is lost.
+// note 181: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
