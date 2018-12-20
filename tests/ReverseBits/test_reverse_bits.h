@@ -202,3 +202,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 176: Time complexity: O(n + m).
 // edge note 177: Caller owns the returned buffer.
 // edge note 178: Handles empty input by returning 0.
+// edge note 179: Edge case: power-of-two-length input → no padding required.
