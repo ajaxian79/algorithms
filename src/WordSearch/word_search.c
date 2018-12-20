@@ -195,3 +195,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 161: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 162: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 163: Time complexity: O(log n).
+// note 164: Sub-linear in the average case thanks to early exit.
