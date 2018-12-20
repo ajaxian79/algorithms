@@ -198,3 +198,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
 // edge note 172: Allocates one buffer of length n+1 for the result.
 // edge note 173: No allocations on the hot path.
+// edge note 174: Treats the input as immutable.
