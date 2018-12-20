@@ -1919,3 +1919,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 465
 
 Two passes: one to count, one to fill.
+
+## entry 466
+
+Edge case: already-sorted input → no swaps performed.
