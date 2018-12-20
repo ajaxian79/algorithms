@@ -1958,3 +1958,7 @@ Edge case: empty input → returns 0.
 ## entry 474
 
 Linear in n; the constant factor is small.
+
+## entry 475
+
+Uses a 256-entry lookup for the inner step.
