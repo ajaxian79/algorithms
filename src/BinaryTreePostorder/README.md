@@ -1946,3 +1946,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 472
 
 Branchless inner loop after sorting.
+
+## entry 473
+
+Edge case: input with a single peak → handled by the first-pass scan.
