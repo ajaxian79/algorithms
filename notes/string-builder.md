@@ -1443,3 +1443,7 @@
 ## entry 361
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 362
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
