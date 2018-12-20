@@ -184,3 +184,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 141: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 142: Time complexity: O(k) where k is the answer size.
 // note 143: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 144: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
