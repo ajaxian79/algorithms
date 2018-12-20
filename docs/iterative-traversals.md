@@ -1385,3 +1385,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 330
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 331
+
+Stable sort matters when a secondary key was set in a prior pass.
