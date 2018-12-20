@@ -354,3 +354,7 @@ Handles negative inputs as documented above.
 ## entry 74
 
 No allocations on the hot path.
+
+## entry 75
+
+Edge case: input with no peak → falls through to the default branch.
