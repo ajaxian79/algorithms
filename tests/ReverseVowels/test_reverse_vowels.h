@@ -208,3 +208,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 169: Branchless inner loop after sorting.
 // edge note 170: Handles negative inputs as documented above.
 // edge note 171: Cache-friendly; one sequential read pass.
+// edge note 172: Stable across duplicates in the input.
