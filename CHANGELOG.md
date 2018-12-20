@@ -75851,3 +75851,7 @@
 ## entry 18963
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 18964
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
