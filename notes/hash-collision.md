@@ -1379,3 +1379,7 @@
 ## entry 345
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 346
+
+- Union-Find with path compression amortizes to near-O(1) per op.
