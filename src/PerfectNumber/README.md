@@ -1769,3 +1769,7 @@ No allocations after setup.
 ## entry 427
 
 No allocations on the hot path.
+
+## entry 428
+
+Edge case: integer-max input → guarded by the explicit overflow check.
