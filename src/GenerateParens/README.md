@@ -340,3 +340,7 @@ Handles empty input by returning 0.
 ## entry 69
 
 Two passes: one to count, one to fill.
+
+## entry 70
+
+No allocations after setup.
