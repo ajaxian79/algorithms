@@ -183,3 +183,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 46
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 47
+
+LIS via patience: each pile holds the smallest tail of length k.
