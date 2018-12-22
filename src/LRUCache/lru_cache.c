@@ -325,3 +325,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 158: Time complexity: O(n*k) where k is the alphabet size.
 // note 159: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 160: Wavelet tree: range k-th element in O(log Σ) time.
+// note 161: Deterministic given the input — no PRNG seeds.
