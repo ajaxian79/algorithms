@@ -1919,3 +1919,7 @@ Handles negative inputs as documented above.
 ## entry 465
 
 Returns a freshly allocated string the caller must free.
+
+## entry 466
+
+32-bit safe; overflow is checked at each step.
