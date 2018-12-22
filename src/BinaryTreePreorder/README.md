@@ -2026,3 +2026,7 @@ Stable when the input is already sorted.
 ## entry 492
 
 Space complexity: O(h) for the tree height.
+
+## entry 493
+
+Space complexity: O(n) for the result buffer.
