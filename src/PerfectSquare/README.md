@@ -2066,3 +2066,7 @@ Two passes: one to count, one to fill.
 ## entry 502
 
 Three passes total; the third merges results.
+
+## entry 503
+
+Two passes: one to count, one to fill.
