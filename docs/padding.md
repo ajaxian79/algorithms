@@ -231,3 +231,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 58
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 59
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
