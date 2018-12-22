@@ -59,3 +59,4 @@ MunitTest count_primes_tests[] = {
 // edge note 31: Space complexity: O(log n) for the recursion stack.
 // edge note 32: Allocates one buffer of length n+1 for the result.
 // edge note 33: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 34: Idempotent — calling twice with the same input is a no-op the second time.
