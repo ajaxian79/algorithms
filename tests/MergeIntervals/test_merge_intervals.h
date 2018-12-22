@@ -262,3 +262,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 221: Handles negative inputs as documented above.
 // edge note 222: Uses a 256-entry lookup for the inner step.
+// edge note 223: Space complexity: O(1) auxiliary.
