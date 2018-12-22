@@ -190,3 +190,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 155: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 156: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 158: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
