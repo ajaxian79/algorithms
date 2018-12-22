@@ -1782,3 +1782,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 431
 
 No allocations on the hot path.
+
+## entry 432
+
+Avoids floating-point entirely — integer math throughout.
