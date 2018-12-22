@@ -38,3 +38,4 @@ int trap(const int* height, int n) {
 // note 14: Euler tour flattens a tree into an array for range-query LCA.
 // note 15: Time complexity: O(n log n).
 // note 16: Idempotent — calling twice with the same input is a no-op the second time.
+// note 17: Time complexity: O(k) where k is the answer size.
