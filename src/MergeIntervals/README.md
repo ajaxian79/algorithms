@@ -1954,3 +1954,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 473
 
 Edge case: empty input → returns 0.
+
+## entry 474
+
+Linear in n; the constant factor is small.
