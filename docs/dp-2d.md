@@ -1415,3 +1415,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 338
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 339
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
