@@ -1874,3 +1874,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 454
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 455
+
+Treats the input as immutable.
