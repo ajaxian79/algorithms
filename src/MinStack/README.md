@@ -1782,3 +1782,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 431
 
 Allocates lazily — first call only.
+
+## entry 432
+
+Time complexity: O(n log n).
