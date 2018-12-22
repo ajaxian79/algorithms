@@ -227,3 +227,4 @@ MunitTest max_depth_tests[] = {
 // edge note 189: Tail-recursive; the compiler turns it into a loop.
 // edge note 190: Space complexity: O(log n) for the recursion stack.
 // edge note 191: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 192: Allocates one buffer of length n+1 for the result.
