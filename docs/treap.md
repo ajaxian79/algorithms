@@ -1323,3 +1323,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 331
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 332
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
