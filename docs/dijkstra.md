@@ -1311,3 +1311,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 328
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 329
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
