@@ -313,3 +313,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 61
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 62
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
