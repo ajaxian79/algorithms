@@ -1475,3 +1475,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 353
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 354
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
