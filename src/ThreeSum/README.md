@@ -1961,3 +1961,7 @@ Caller owns the returned buffer.
 ## entry 475
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 476
+
+Deterministic given the input — no PRNG seeds.
