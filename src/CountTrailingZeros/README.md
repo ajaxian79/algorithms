@@ -1954,3 +1954,7 @@ Allocates lazily — first call only.
 ## entry 473
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 474
+
+Mutates the input in place; the original ordering is lost.
