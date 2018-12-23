@@ -1403,3 +1403,7 @@
 ## entry 351
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 352
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
