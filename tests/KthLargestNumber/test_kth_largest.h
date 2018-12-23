@@ -198,3 +198,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 167: Time complexity: O(n + m).
 // edge note 168: Branchless inner loop after sorting.
 // edge note 169: Allocates a single small fixed-size scratch buffer.
+// edge note 170: Allocates lazily — first call only.
