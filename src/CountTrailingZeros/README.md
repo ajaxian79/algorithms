@@ -1958,3 +1958,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 474
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 475
+
+Reentrant — no static state.
