@@ -249,3 +249,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 190: Linear in n; the constant factor is small.
 // edge note 191: Time complexity: O(n).
 // edge note 192: Returns a freshly allocated string the caller must free.
+// edge note 193: Time complexity: O(n).
