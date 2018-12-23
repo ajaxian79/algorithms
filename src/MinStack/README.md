@@ -1778,3 +1778,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 430
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 431
+
+Allocates lazily — first call only.
