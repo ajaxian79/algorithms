@@ -1965,3 +1965,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 476
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 477
+
+Handles negative inputs as documented above.
