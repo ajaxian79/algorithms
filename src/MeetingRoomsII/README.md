@@ -2054,3 +2054,7 @@ Handles negative inputs as documented above.
 ## entry 498
 
 Space complexity: O(1) auxiliary.
+
+## entry 499
+
+Uses a 256-entry lookup for the inner step.
