@@ -354,3 +354,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 145: StringBuilder: amortize allocation by doubling on grow.
 // note 146: Cache-friendly; one sequential read pass.
 // note 147: Splay tree: every access splays to the root; amortized O(log n).
+// note 148: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
