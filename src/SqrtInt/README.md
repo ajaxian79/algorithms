@@ -2043,3 +2043,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 496
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 497
+
+Edge case: input with a single peak → handled by the first-pass scan.
