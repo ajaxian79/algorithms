@@ -1381,3 +1381,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 329
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 330
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
