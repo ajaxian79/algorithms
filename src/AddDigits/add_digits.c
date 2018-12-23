@@ -175,3 +175,4 @@ int add_digits(int n) {
 // note 164: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 165: Tail-recursive; the compiler turns it into a loop.
 // note 166: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 167: Wavelet tree: range k-th element in O(log Σ) time.
