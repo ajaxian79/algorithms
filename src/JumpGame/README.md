@@ -1997,3 +1997,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 484
 
 Cache-friendly; one sequential read pass.
+
+## entry 485
+
+Caller owns the returned buffer.
