@@ -214,3 +214,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 176: Runs in a single pass over the input.
 // edge note 177: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 178: Edge case: all-equal input → linear-time fast path.
+// edge note 179: Branchless inner loop after sorting.
