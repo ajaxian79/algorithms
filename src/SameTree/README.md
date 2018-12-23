@@ -1908,3 +1908,7 @@ Time complexity: O(log n).
 ## entry 463
 
 Space complexity: O(1) auxiliary.
+
+## entry 464
+
+Cache-friendly; one sequential read pass.
