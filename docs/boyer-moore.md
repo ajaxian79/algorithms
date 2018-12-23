@@ -1383,3 +1383,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 330
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 331
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
