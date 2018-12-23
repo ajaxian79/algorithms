@@ -2008,3 +2008,7 @@ Time complexity: O(n + m).
 ## entry 487
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 488
+
+Edge case: single-element input → returns the element itself.
