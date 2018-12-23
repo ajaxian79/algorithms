@@ -1847,3 +1847,7 @@ Branchless inner loop after sorting.
 ## entry 447
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 448
+
+Resists adversarial inputs by randomizing the pivot.
