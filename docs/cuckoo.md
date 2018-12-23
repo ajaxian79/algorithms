@@ -1235,3 +1235,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 309
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 310
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
