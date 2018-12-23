@@ -1915,3 +1915,7 @@ Cache-friendly; one sequential read pass.
 ## entry 464
 
 Handles negative inputs as documented above.
+
+## entry 465
+
+Returns a freshly allocated string the caller must free.
