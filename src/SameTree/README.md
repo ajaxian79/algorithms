@@ -1904,3 +1904,7 @@ Handles empty input by returning 0.
 ## entry 462
 
 Time complexity: O(log n).
+
+## entry 463
+
+Space complexity: O(1) auxiliary.
