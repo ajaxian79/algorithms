@@ -224,3 +224,4 @@ MunitTest remove_element_tests[] = {
 // edge note 187: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 188: Worst case appears only on degenerate inputs.
 // edge note 189: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 190: Edge case: all-equal input → linear-time fast path.
