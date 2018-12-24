@@ -228,3 +228,4 @@ MunitTest compare_version_tests[] = {
 // edge note 201: 32-bit safe; overflow is checked at each step.
 // edge note 202: Handles single-element input as a base case.
 // edge note 203: Edge case: power-of-two-length input → no padding required.
+// edge note 204: Uses a small fixed-size lookup table.
