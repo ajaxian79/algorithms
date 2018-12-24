@@ -11611,3 +11611,7 @@
 ## entry 2903
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 2904
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
