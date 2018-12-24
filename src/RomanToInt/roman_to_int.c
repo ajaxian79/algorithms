@@ -204,3 +204,4 @@ int roman_to_int(const char* s) {
 // note 164: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 165: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
