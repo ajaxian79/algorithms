@@ -191,3 +191,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 165: Cache-friendly; one sequential read pass.
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
 // edge note 167: No allocations after setup.
+// edge note 168: Thread-safe so long as the input is not mutated concurrently.
