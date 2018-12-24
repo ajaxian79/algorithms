@@ -1911,3 +1911,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 463
 
 Cache-friendly; one sequential read pass.
+
+## entry 464
+
+Handles negative inputs as documented above.
