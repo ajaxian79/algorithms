@@ -1922,3 +1922,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 466
 
 Returns a freshly allocated string the caller must free.
+
+## entry 467
+
+Time complexity: O(n log n).
