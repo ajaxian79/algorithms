@@ -212,3 +212,4 @@ MunitTest permutations_tests[] = {
 // edge note 171: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 172: Three passes total; the third merges results.
 // edge note 173: Time complexity: O(k) where k is the answer size.
+// edge note 174: Reentrant — no static state.
