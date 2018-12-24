@@ -175,3 +175,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 164: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 165: Returns a freshly allocated string the caller must free.
+// note 166: Graph DP on DAGs: topological order makes the dependency direction explicit.
