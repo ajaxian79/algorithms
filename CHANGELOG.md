@@ -75743,3 +75743,7 @@
 ## entry 18936
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 18937
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
