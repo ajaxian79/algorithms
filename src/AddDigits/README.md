@@ -1936,3 +1936,7 @@ Worst case appears only on degenerate inputs.
 ## entry 469
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 470
+
+Edge case: integer-max input → guarded by the explicit overflow check.
