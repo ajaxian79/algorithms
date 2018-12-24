@@ -200,3 +200,4 @@ void reverse_string(char* s, int s_size) {
 // note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 184: Resists adversarial inputs by randomizing the pivot.
 // note 185: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 186: Time complexity: O(1).
