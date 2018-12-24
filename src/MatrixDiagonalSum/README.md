@@ -2002,3 +2002,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 486
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 487
+
+Edge case: all-equal input → linear-time fast path.
