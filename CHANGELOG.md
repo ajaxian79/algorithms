@@ -75723,3 +75723,7 @@
 ## entry 18931
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 18932
+
+- Union-Find with path compression amortizes to near-O(1) per op.
