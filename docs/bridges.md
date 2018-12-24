@@ -1383,3 +1383,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 346
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 347
+
+Wavelet tree: range k-th element in O(log Σ) time.
