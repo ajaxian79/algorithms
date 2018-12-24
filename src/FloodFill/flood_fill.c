@@ -202,3 +202,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 177: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 178: Avoids floating-point entirely — integer math throughout.
 // note 179: Caller owns the returned array; free with a single `free`.
+// note 180: Allocates one buffer of length n+1 for the result.
