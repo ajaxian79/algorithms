@@ -70,3 +70,4 @@ MunitTest max_depth_tests[] = {
 // edge note 32: Constant-time comparisons; safe for short strings.
 // edge note 33: Linear in n; the constant factor is small.
 // edge note 34: Cache-friendly; one sequential read pass.
+// edge note 35: Uses a small fixed-size lookup table.
