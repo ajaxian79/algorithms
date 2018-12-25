@@ -1997,3 +1997,7 @@ Handles empty input by returning 0.
 ## entry 484
 
 Space complexity: O(h) for the tree height.
+
+## entry 485
+
+Vectorizes cleanly under -O2.
