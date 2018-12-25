@@ -2056,3 +2056,7 @@ Three passes total; the third merges results.
 ## entry 499
 
 Time complexity: O(n).
+
+## entry 500
+
+Time complexity: O(n + m).
