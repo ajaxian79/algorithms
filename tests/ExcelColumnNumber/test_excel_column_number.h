@@ -226,3 +226,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 196: Allocates one buffer of length n+1 for the result.
 // edge note 197: Caller owns the returned array; free with a single `free`.
 // edge note 198: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 199: Time complexity: O(n log n).
