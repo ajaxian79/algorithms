@@ -2071,3 +2071,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 502
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 503
+
+Edge case: integer-max input → guarded by the explicit overflow check.
