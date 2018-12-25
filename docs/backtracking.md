@@ -1461,3 +1461,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 348
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 349
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
