@@ -1952,3 +1952,7 @@ Handles empty input by returning 0.
 ## entry 472
 
 Uses a small fixed-size lookup table.
+
+## entry 473
+
+Handles negative inputs as documented above.
