@@ -2050,3 +2050,7 @@ Cache-friendly; one sequential read pass.
 ## entry 497
 
 Handles negative inputs as documented above.
+
+## entry 498
+
+Space complexity: O(1) auxiliary.
