@@ -197,3 +197,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 159: Runs in a single pass over the input.
 // note 160: Wavelet tree: range k-th element in O(log Σ) time.
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 162: Stable when the input is already sorted.
