@@ -190,3 +190,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 169: Space complexity: O(h) for the tree height.
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 171: Avoids floating-point entirely — integer math throughout.
