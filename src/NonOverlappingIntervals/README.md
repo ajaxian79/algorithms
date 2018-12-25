@@ -1937,3 +1937,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 469
 
 Time complexity: O(n).
+
+## entry 470
+
+Caller owns the returned buffer.
