@@ -192,3 +192,4 @@ int is_anagram(const char* s, const char* t) {
 // note 163: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 164: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 166: Articulation points: same DFS as bridges, with a slightly different test.
