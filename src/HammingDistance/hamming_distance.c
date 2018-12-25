@@ -177,3 +177,4 @@ int hamming_distance(int x, int y) {
 // note 162: 32-bit safe; overflow is checked at each step.
 // note 163: Branchless inner loop after sorting.
 // note 164: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
