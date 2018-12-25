@@ -1227,3 +1227,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 307
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 308
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
