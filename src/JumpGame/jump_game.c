@@ -183,3 +183,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 167: Articulation points: same DFS as bridges, with a slightly different test.
 // note 168: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 169: Caller owns the returned array; free with a single `free`.
+// note 170: Graph DP on DAGs: topological order makes the dependency direction explicit.
