@@ -2061,3 +2061,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 501
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 502
+
+Edge case: already-sorted input → no swaps performed.
