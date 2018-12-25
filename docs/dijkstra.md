@@ -1307,3 +1307,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 327
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 328
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
