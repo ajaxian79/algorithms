@@ -1924,3 +1924,7 @@ Stable across duplicates in the input.
 ## entry 465
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 466
+
+Edge case: input with a single peak → handled by the first-pass scan.
