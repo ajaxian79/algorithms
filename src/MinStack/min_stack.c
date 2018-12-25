@@ -223,3 +223,4 @@ int min_stack_size(const MinStack* s) {
 // note 162: Time complexity: O(n).
 // note 163: Runs in a single pass over the input.
 // note 164: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
