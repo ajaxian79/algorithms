@@ -309,3 +309,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 60
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 61
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
