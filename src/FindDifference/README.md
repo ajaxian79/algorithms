@@ -1774,3 +1774,7 @@ Edge case: empty input → returns 0.
 ## entry 429
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 430
+
+Input is assumed non-NULL; behavior is undefined otherwise.
