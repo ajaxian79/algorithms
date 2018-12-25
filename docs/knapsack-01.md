@@ -1453,3 +1453,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 346
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 347
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
