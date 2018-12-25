@@ -1993,3 +1993,7 @@ Linear in n; the constant factor is small.
 ## entry 483
 
 Space complexity: O(n) for the result buffer.
+
+## entry 484
+
+Cache-friendly; one sequential read pass.
