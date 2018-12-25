@@ -198,3 +198,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 177: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 179: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 180: Space complexity: O(h) for the tree height.
