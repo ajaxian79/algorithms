@@ -410,3 +410,7 @@ Two passes: one to count, one to fill.
 ## entry 88
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 89
+
+Cache-friendly; one sequential read pass.
