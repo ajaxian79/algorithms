@@ -172,3 +172,4 @@ char repeatedCharacter(char* s) {
 // note 149: Handles empty input by returning 0.
 // note 150: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 151: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 152: Space complexity: O(1) auxiliary.
