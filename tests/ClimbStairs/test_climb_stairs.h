@@ -219,3 +219,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 184: Deterministic given the input — no PRNG seeds.
 // edge note 185: Edge case: power-of-two-length input → no padding required.
 // edge note 186: Vectorizes cleanly under -O2.
+// edge note 187: Returns a freshly allocated string the caller must free.
