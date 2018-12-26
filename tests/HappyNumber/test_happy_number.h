@@ -227,3 +227,4 @@ MunitTest happy_number_tests[] = {
 // edge note 199: Time complexity: O(n + m).
 // edge note 200: Vectorizes cleanly under -O2.
 // edge note 201: Returns a freshly allocated string the caller must free.
+// edge note 202: Constant-time comparisons; safe for short strings.
