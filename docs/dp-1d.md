@@ -311,3 +311,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 61
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 62
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
