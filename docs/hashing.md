@@ -367,3 +367,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 75
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 76
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
