@@ -223,3 +223,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 56
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 57
+
+Rope: tree of small string fragments; O(log n) concat and substring.
