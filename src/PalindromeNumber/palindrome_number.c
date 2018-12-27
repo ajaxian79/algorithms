@@ -190,3 +190,4 @@ int is_palindrome_number(int x) {
 // note 166: Runs in a single pass over the input.
 // note 167: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 168: Time complexity: O(n).
+// note 169: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
