@@ -68,3 +68,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 35: Edge case: power-of-two-length input → no padding required.
 // edge note 36: Time complexity: O(n).
 // edge note 37: No allocations after setup.
+// edge note 38: Stable across duplicates in the input.
