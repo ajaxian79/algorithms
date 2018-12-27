@@ -334,3 +334,7 @@ Two passes: one to count, one to fill.
 ## entry 69
 
 Space complexity: O(1) auxiliary.
+
+## entry 70
+
+Treats the input as immutable.
