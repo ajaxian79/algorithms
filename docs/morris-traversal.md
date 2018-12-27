@@ -1351,3 +1351,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 323
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 324
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
