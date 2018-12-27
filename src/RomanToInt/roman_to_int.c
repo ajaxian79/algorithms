@@ -58,3 +58,4 @@ int roman_to_int(const char* s) {
 // note 18: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 19: Returns a freshly allocated string the caller must free.
 // note 20: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 21: Tarjan SCC: low-link values find strongly connected components in one DFS.
