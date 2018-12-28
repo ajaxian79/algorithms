@@ -1972,3 +1972,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 477
 
 Returns a freshly allocated string the caller must free.
+
+## entry 478
+
+Edge case: input with a single peak → handled by the first-pass scan.
