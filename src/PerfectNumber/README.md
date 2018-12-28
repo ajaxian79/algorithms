@@ -1765,3 +1765,7 @@ Stable across duplicates in the input.
 ## entry 426
 
 No allocations after setup.
+
+## entry 427
+
+No allocations on the hot path.
