@@ -1461,3 +1461,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 348
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 349
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
