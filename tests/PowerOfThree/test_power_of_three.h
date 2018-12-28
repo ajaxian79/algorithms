@@ -209,3 +209,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 178: Space complexity: O(h) for the tree height.
 // edge note 179: Returns a freshly allocated string the caller must free.
 // edge note 180: Allocates lazily — first call only.
+// edge note 181: Time complexity: O(n*k) where k is the alphabet size.
