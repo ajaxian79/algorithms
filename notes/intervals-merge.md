@@ -1503,3 +1503,7 @@
 ## entry 358
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 359
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
