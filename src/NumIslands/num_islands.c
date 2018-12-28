@@ -198,3 +198,4 @@ int num_islands(char* grid, int m, int n) {
 // note 166: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 167: No allocations after setup.
 // note 168: Two passes: one to count, one to fill.
+// note 169: BFS layers carry implicit shortest-path distance in unweighted graphs.
