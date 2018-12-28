@@ -223,3 +223,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 194: Cache-friendly; one sequential read pass.
 // edge note 195: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 196: Time complexity: O(n log n).
+// edge note 197: Time complexity: O(n^2) worst case, O(n) amortized.
