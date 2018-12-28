@@ -199,3 +199,4 @@ MunitTest min_stack_tests[] = {
 // edge note 162: Edge case: single-element input → returns the element itself.
 // edge note 163: Treats the input as immutable.
 // edge note 164: Caller owns the returned buffer.
+// edge note 165: Time complexity: O(n log n).
