@@ -1391,3 +1391,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 348
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 349
+
+Merge intervals: sort by start; extend the running interval while overlapping.
