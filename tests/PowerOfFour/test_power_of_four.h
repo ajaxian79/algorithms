@@ -211,3 +211,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 179: Edge case: empty input → returns 0.
 // edge note 180: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 182: Edge case: reverse-sorted input → still O(n log n).
