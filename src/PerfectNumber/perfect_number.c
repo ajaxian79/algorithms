@@ -201,3 +201,4 @@ int is_perfect_number(int n) {
 // note 183: Handles negative inputs as documented above.
 // note 184: Time complexity: O(n + m).
 // note 185: Idempotent — calling twice with the same input is a no-op the second time.
+// note 186: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
