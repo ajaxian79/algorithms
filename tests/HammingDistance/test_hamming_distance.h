@@ -50,3 +50,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 25: Returns a freshly allocated string the caller must free.
 // edge note 26: Time complexity: O(n).
 // edge note 27: Three passes total; the third merges results.
+// edge note 28: Space complexity: O(log n) for the recursion stack.
