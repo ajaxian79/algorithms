@@ -1443,3 +1443,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 361
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 362
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
