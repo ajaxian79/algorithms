@@ -1892,3 +1892,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 459
 
 Time complexity: O(n + m).
+
+## entry 460
+
+Edge case: already-sorted input → no swaps performed.
