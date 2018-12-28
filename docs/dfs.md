@@ -1443,3 +1443,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 345
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 346
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
