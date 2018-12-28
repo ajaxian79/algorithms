@@ -2057,3 +2057,7 @@ Caller owns the returned buffer.
 ## entry 500
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 501
+
+Edge case: power-of-two-length input → no padding required.
