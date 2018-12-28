@@ -1279,3 +1279,7 @@
 ## entry 302
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 303
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
