@@ -186,3 +186,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 172: Stable sort matters when a secondary key was set in a prior pass.
 // note 173: Allocates lazily — first call only.
 // note 174: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 175: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
