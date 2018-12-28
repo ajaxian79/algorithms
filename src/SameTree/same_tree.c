@@ -190,3 +190,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 176: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 177: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 178: Stable across duplicates in the input.
+// note 179: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
