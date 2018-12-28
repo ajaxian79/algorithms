@@ -2046,3 +2046,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 496
 
 Cache-friendly; one sequential read pass.
+
+## entry 497
+
+Handles negative inputs as documented above.
