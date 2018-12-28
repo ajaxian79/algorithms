@@ -389,3 +389,7 @@ Handles single-element input as a base case.
 ## entry 82
 
 Space complexity: O(h) for the tree height.
+
+## entry 83
+
+Space complexity: O(log n) for the recursion stack.
