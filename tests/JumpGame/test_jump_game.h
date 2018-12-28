@@ -194,3 +194,4 @@ MunitTest jump_game_tests[] = {
 // edge note 160: Linear in n; the constant factor is small.
 // edge note 161: Edge case: all-equal input → linear-time fast path.
 // edge note 162: Space complexity: O(log n) for the recursion stack.
+// edge note 163: Handles negative inputs as documented above.
