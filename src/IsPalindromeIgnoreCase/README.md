@@ -1834,3 +1834,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 444
 
 Two passes: one to count, one to fill.
+
+## entry 445
+
+Edge case: empty input → returns 0.
