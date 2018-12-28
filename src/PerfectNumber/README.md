@@ -1761,3 +1761,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 425
 
 Stable across duplicates in the input.
+
+## entry 426
+
+No allocations after setup.
