@@ -1916,3 +1916,7 @@ Reentrant — no static state.
 ## entry 464
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 465
+
+Allocates lazily — first call only.
