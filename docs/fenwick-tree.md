@@ -1423,3 +1423,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 340
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 341
+
+State compression: bitmask + integer encodes a small subset cheaply.
