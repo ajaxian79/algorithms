@@ -1379,3 +1379,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 345
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 346
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
