@@ -1373,3 +1373,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 327
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 328
+
+LIS via patience: each pile holds the smallest tail of length k.
