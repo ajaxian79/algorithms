@@ -378,3 +378,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 80
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 81
+
+Edge case: integer-max input → guarded by the explicit overflow check.
