@@ -273,3 +273,7 @@
 ## entry 53
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 54
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
