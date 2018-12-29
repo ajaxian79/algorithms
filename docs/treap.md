@@ -179,3 +179,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 45
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 46
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
