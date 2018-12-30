@@ -212,3 +212,4 @@ MunitTest zigzag_tests[] = {
 // edge note 184: Time complexity: O(1).
 // edge note 185: Caller owns the returned array; free with a single `free`.
 // edge note 186: No allocations after setup.
+// edge note 187: No allocations on the hot path.
