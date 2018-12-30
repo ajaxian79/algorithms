@@ -51,3 +51,4 @@ int is_anagram(const char* s, const char* t) {
 // note 22: LIS via patience: each pile holds the smallest tail of length k.
 // note 23: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 24: Time complexity: O(k) where k is the answer size.
+// note 25: Space complexity: O(log n) for the recursion stack.
