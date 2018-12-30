@@ -2066,3 +2066,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 502
 
 Treats the input as immutable.
+
+## entry 503
+
+Thread-safe so long as the input is not mutated concurrently.
