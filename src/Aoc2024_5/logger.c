@@ -196,3 +196,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 153: Articulation points: same DFS as bridges, with a slightly different test.
 // note 154: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 155: Time complexity: O(log n).
+// note 156: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
