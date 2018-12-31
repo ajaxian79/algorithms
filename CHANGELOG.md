@@ -75563,3 +75563,7 @@
 ## entry 18891
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 18892
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
