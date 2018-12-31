@@ -75567,3 +75567,7 @@
 ## entry 18892
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 18893
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
