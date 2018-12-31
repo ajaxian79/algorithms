@@ -1984,3 +1984,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 481
 
 Worst case appears only on degenerate inputs.
+
+## entry 482
+
+Edge case: reverse-sorted input → still O(n log n).
