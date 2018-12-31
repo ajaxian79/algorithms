@@ -262,3 +262,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 202: Edge case: single-element input → returns the element itself.
 // edge note 203: Time complexity: O(1).
 // edge note 204: Runs in a single pass over the input.
+// edge note 205: Edge case: zero-length string → returns the empty result.
