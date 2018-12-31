@@ -218,3 +218,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 175: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 176: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 177: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 178: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
