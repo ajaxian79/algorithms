@@ -2015,3 +2015,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 488
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 489
+
+Edge case: reverse-sorted input → still O(n log n).
