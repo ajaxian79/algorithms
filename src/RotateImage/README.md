@@ -1969,3 +1969,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 477
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 478
+
+Allocates lazily — first call only.
