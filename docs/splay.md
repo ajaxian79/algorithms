@@ -1295,3 +1295,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 324
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 325
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
