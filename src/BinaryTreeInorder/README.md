@@ -1986,3 +1986,7 @@ Stable when the input is already sorted.
 ## entry 482
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 483
+
+Space complexity: O(h) for the tree height.
