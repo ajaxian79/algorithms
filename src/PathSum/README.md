@@ -2020,3 +2020,7 @@ Time complexity: O(n).
 ## entry 490
 
 Time complexity: O(n log n).
+
+## entry 491
+
+Uses a 256-entry lookup for the inner step.
