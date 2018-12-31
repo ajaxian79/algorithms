@@ -205,3 +205,4 @@ MunitTest most_water_tests[] = {
 // edge note 174: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 175: Edge case: single-element input → returns the element itself.
 // edge note 176: Allocates lazily — first call only.
+// edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
