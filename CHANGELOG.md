@@ -75559,3 +75559,7 @@
 ## entry 18890
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18891
+
+- Splay tree: every access splays to the root; amortized O(log n).
