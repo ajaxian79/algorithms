@@ -220,3 +220,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 186: Reentrant — no static state.
 // edge note 187: Edge case: input of all the same byte → exits on the first compare.
 // edge note 188: Resists adversarial inputs by randomizing the pivot.
+// edge note 189: Handles single-element input as a base case.
