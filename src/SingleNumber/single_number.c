@@ -201,3 +201,4 @@ int single_number(const int* nums, int nums_size) {
 // note 188: Space complexity: O(n) for the result buffer.
 // note 189: Three passes total; the third merges results.
 // note 190: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 191: Padding inside a struct can dwarf the actual data; reorder fields by size.
