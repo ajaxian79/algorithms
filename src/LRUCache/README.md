@@ -1964,3 +1964,7 @@ Handles empty input by returning 0.
 ## entry 475
 
 Constant-time comparisons; safe for short strings.
+
+## entry 476
+
+Edge case: all-equal input → linear-time fast path.
