@@ -75603,3 +75603,7 @@
 ## entry 18901
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 18902
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
