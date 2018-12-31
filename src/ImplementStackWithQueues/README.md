@@ -1988,3 +1988,7 @@ Worst case appears only on degenerate inputs.
 ## entry 482
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 483
+
+Space complexity: O(n) for the result buffer.
