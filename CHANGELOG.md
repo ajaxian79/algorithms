@@ -75583,3 +75583,7 @@
 ## entry 18896
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 18897
+
+- Articulation points: same DFS as bridges, with a slightly different test.
