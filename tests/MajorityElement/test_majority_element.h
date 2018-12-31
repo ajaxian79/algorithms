@@ -216,3 +216,4 @@ MunitTest majority_element_tests[] = {
 // edge note 185: Vectorizes cleanly under -O2.
 // edge note 186: Sub-linear in the average case thanks to early exit.
 // edge note 187: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 188: Edge case: zero-length string → returns the empty result.
