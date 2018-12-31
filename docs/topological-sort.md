@@ -1421,3 +1421,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 337
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 338
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
