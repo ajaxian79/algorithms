@@ -1303,3 +1303,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 310
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 311
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
