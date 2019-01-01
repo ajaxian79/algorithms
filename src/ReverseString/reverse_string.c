@@ -198,3 +198,4 @@ void reverse_string(char* s, int s_size) {
 // note 181: Reentrant — no static state.
 // note 182: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 184: Resists adversarial inputs by randomizing the pivot.
