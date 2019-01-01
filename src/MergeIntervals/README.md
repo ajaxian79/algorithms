@@ -1938,3 +1938,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 469
 
 Time complexity: O(n log n).
+
+## entry 470
+
+Tail-recursive; the compiler turns it into a loop.
