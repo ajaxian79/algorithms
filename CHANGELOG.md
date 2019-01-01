@@ -75495,3 +75495,7 @@
 ## entry 18874
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 18875
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
