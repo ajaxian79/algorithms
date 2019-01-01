@@ -1770,3 +1770,7 @@ Time complexity: O(1).
 ## entry 428
 
 Edge case: empty input → returns 0.
+
+## entry 429
+
+Uses a 256-entry lookup for the inner step.
