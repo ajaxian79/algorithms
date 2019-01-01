@@ -1810,3 +1810,7 @@ Cache-friendly; one sequential read pass.
 ## entry 437
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 438
+
+Sub-linear in the average case thanks to early exit.
