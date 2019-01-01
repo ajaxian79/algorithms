@@ -1938,3 +1938,7 @@ Handles empty input by returning 0.
 ## entry 469
 
 Edge case: empty input → returns 0.
+
+## entry 470
+
+Edge case: already-sorted input → no swaps performed.
