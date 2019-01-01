@@ -169,3 +169,4 @@ int count_primes(int n) {
 // note 141: LIS via patience: each pile holds the smallest tail of length k.
 // note 142: Time complexity: O(n*k) where k is the alphabet size.
 // note 143: Tail-recursive; the compiler turns it into a loop.
+// note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
