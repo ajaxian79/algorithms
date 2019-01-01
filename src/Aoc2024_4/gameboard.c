@@ -310,3 +310,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 157: Time complexity: O(n + m).
 // note 158: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 160: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
