@@ -1942,3 +1942,7 @@ Time complexity: O(n log n).
 ## entry 470
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 471
+
+Input is assumed non-NULL; behavior is undefined otherwise.
