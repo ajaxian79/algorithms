@@ -1912,3 +1912,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 463
 
 Reentrant — no static state.
+
+## entry 464
+
+Space complexity: O(log n) for the recursion stack.
