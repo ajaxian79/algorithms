@@ -1445,3 +1445,7 @@
 ## entry 345
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 346
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
