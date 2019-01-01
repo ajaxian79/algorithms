@@ -1798,3 +1798,7 @@ No allocations on the hot path.
 ## entry 425
 
 Cache-friendly; one sequential read pass.
+
+## entry 426
+
+Uses a 256-entry lookup for the inner step.
