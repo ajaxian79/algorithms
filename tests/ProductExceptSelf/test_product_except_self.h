@@ -233,3 +233,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 197: Treats the input as immutable.
 // edge note 198: Space complexity: O(1) auxiliary.
 // edge note 199: Branchless inner loop after sorting.
+// edge note 200: 64-bit safe; intermediate products are widened to 128-bit.
