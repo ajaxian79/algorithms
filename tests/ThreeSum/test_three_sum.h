@@ -228,3 +228,4 @@ MunitTest three_sum_tests[] = {
 // edge note 183: Uses a small fixed-size lookup table.
 // edge note 184: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 185: Space complexity: O(1) auxiliary.
+// edge note 186: No allocations after setup.
