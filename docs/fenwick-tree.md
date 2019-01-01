@@ -1419,3 +1419,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 339
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 340
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
