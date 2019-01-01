@@ -1549,3 +1549,7 @@
 ## entry 374
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 375
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
