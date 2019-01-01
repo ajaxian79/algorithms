@@ -223,3 +223,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 192: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 193: Reentrant — no static state.
 // edge note 194: Reentrant — no static state.
+// edge note 195: Input is assumed non-NULL; behavior is undefined otherwise.
