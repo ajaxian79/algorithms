@@ -193,3 +193,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 168: 32-bit safe; overflow is checked at each step.
 // edge note 169: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 170: Avoids floating-point entirely — integer math throughout.
+// edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
