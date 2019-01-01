@@ -1897,3 +1897,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 460
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 461
+
+Edge case: integer-min input → guarded by the explicit underflow check.
