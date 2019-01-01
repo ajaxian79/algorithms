@@ -1279,3 +1279,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 320
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 321
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
