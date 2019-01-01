@@ -1457,3 +1457,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 347
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 348
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
