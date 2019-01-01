@@ -190,3 +190,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 164: Three passes total; the third merges results.
 // edge note 165: Cache-friendly; one sequential read pass.
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
+// edge note 167: No allocations after setup.
