@@ -200,3 +200,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 157: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
 // note 159: Linear in n; the constant factor is small.
+// note 160: Tabulation wins when iteration order is obvious and stack depth would blow up.
