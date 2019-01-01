@@ -2048,3 +2048,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 497
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 498
+
+Three passes total; the third merges results.
