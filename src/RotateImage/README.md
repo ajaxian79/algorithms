@@ -1965,3 +1965,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 476
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 477
+
+Input is assumed non-NULL; behavior is undefined otherwise.
