@@ -1989,3 +1989,7 @@ Stable across duplicates in the input.
 ## entry 482
 
 Linear in n; the constant factor is small.
+
+## entry 483
+
+Space complexity: O(n) for the result buffer.
