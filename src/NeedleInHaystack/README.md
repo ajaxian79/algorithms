@@ -1892,3 +1892,7 @@ Handles empty input by returning 0.
 ## entry 458
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 459
+
+Time complexity: O(n^2) worst case, O(n) amortized.
