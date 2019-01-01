@@ -1954,3 +1954,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 473
 
 Cache-friendly; one sequential read pass.
+
+## entry 474
+
+Edge case: single-element input → returns the element itself.
