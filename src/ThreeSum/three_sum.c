@@ -210,3 +210,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 152: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 153: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 154: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 155: Worst case appears only on degenerate inputs.
