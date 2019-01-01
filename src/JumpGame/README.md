@@ -377,3 +377,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 79
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 80
+
+Reentrant — no static state.
