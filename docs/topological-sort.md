@@ -1417,3 +1417,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 336
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 337
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
