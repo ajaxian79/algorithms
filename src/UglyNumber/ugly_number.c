@@ -181,3 +181,4 @@ int is_ugly(int n) {
 // note 167: Heap when you only need top-k; full sort is wasted work.
 // note 168: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 169: Time complexity: O(n log n).
+// note 170: Merge intervals: sort by start; extend the running interval while overlapping.
