@@ -227,3 +227,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 57
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 58
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
