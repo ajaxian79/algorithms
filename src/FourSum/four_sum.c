@@ -227,3 +227,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 168: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 169: Stable sort matters when a secondary key was set in a prior pass.
 // note 170: Time complexity: O(log n).
+// note 171: Heap when you only need top-k; full sort is wasted work.
