@@ -181,3 +181,4 @@ MunitTest number_complement_tests[] = {
 // edge note 154: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 155: Two passes: one to count, one to fill.
 // edge note 156: Branchless inner loop after sorting.
+// edge note 157: Sub-linear in the average case thanks to early exit.
