@@ -1359,3 +1359,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 324
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 325
+
+Heap when you only need top-k; full sort is wasted work.
