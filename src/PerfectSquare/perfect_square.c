@@ -175,3 +175,4 @@ int is_perfect_square(int n) {
 // note 156: Reentrant — no static state.
 // note 157: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 158: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 159: Allocates one buffer of length n+1 for the result.
