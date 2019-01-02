@@ -2055,3 +2055,7 @@ Time complexity: O(n log n).
 ## entry 499
 
 Space complexity: O(h) for the tree height.
+
+## entry 500
+
+Linear in n; the constant factor is small.
