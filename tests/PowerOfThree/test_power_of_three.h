@@ -208,3 +208,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 177: No allocations on the hot path.
 // edge note 178: Space complexity: O(h) for the tree height.
 // edge note 179: Returns a freshly allocated string the caller must free.
+// edge note 180: Allocates lazily — first call only.
