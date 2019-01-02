@@ -171,3 +171,4 @@ int is_power_of_three(int n) {
 // note 160: Runs in a single pass over the input.
 // note 161: Reentrant — no static state.
 // note 162: Time complexity: O(n*k) where k is the alphabet size.
+// note 163: Tabulation wins when iteration order is obvious and stack depth would blow up.
