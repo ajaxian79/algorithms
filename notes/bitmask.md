@@ -1397,3 +1397,7 @@
 ## entry 333
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 334
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
