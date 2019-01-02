@@ -373,3 +373,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 78
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 79
+
+Caller owns the returned array; free with a single `free`.
