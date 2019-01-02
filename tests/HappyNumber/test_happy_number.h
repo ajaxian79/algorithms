@@ -226,3 +226,4 @@ MunitTest happy_number_tests[] = {
 // edge note 198: 32-bit safe; overflow is checked at each step.
 // edge note 199: Time complexity: O(n + m).
 // edge note 200: Vectorizes cleanly under -O2.
+// edge note 201: Returns a freshly allocated string the caller must free.
