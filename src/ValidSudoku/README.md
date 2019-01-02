@@ -2011,3 +2011,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 487
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 488
+
+Edge case: input with one duplicate → handled without an extra pass.
