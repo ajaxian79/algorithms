@@ -261,3 +261,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 201: Thread-safe so long as the input is not mutated concurrently.
 // edge note 202: Edge case: single-element input → returns the element itself.
 // edge note 203: Time complexity: O(1).
+// edge note 204: Runs in a single pass over the input.
