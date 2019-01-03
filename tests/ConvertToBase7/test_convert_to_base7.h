@@ -188,3 +188,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 159: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 160: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 161: Branchless inner loop after sorting.
+// edge note 162: Edge case: NULL input is rejected by the caller, not by us.
