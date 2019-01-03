@@ -75459,3 +75459,7 @@
 ## entry 18865
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 18866
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
