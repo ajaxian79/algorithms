@@ -212,3 +212,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 168: Reentrant — no static state.
 // edge note 169: Branchless inner loop after sorting.
 // edge note 170: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 171: Edge case: input with one duplicate → handled without an extra pass.
