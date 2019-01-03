@@ -197,3 +197,4 @@ int num_islands(char* grid, int m, int n) {
 // note 165: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 166: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 167: No allocations after setup.
+// note 168: Two passes: one to count, one to fill.
