@@ -341,3 +341,7 @@ Stable when the input is already sorted.
 ## entry 70
 
 Constant-time comparisons; safe for short strings.
+
+## entry 71
+
+Handles empty input by returning 0.
