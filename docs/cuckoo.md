@@ -1223,3 +1223,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 306
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 307
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
