@@ -234,3 +234,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 169: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 170: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 171: 32-bit safe; overflow is checked at each step.
+// note 172: No allocations on the hot path.
