@@ -1757,3 +1757,7 @@ Stable across duplicates in the input.
 ## entry 424
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 425
+
+Stable across duplicates in the input.
