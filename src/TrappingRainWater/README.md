@@ -1950,3 +1950,7 @@ Handles negative inputs as documented above.
 ## entry 472
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 473
+
+Cache-friendly; one sequential read pass.
