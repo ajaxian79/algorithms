@@ -275,3 +275,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 139: Avoids floating-point entirely — integer math throughout.
 // note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 141: Uses a 256-entry lookup for the inner step.
+// note 142: No allocations after setup.
