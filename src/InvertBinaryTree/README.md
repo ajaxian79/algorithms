@@ -2060,3 +2060,7 @@ Space complexity: O(h) for the tree height.
 ## entry 500
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 501
+
+Uses a 256-entry lookup for the inner step.
