@@ -1903,3 +1903,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 461
 
 Space complexity: O(n) for the result buffer.
+
+## entry 462
+
+Sub-linear in the average case thanks to early exit.
