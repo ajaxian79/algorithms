@@ -337,3 +337,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 69
 
 Stable when the input is already sorted.
+
+## entry 70
+
+Constant-time comparisons; safe for short strings.
