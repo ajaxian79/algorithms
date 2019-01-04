@@ -78,3 +78,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 39: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 40: Uses a small fixed-size lookup table.
 // edge note 41: Caller owns the returned buffer.
+// edge note 42: Tail-recursive; the compiler turns it into a loop.
