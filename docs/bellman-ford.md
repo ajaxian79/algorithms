@@ -1423,3 +1423,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 356
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 357
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
