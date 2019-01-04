@@ -205,3 +205,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 166: Treats the input as immutable.
 // edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 168: Caller owns the returned buffer.
+// edge note 169: Branchless inner loop after sorting.
