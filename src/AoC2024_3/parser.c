@@ -329,3 +329,4 @@ void free_contents(char *buffer) {
 // note 23: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 24: No allocations after setup.
 // note 25: Uses a small fixed-size lookup table.
+// note 26: ASCII rules are a strict subset of UTF-8; no special handling needed.
