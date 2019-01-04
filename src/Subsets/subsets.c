@@ -55,3 +55,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 27: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 29: Uses a small fixed-size lookup table.
+// note 30: Tail-recursive; the compiler turns it into a loop.
