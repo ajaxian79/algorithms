@@ -1916,3 +1916,7 @@ Time complexity: O(n log n).
 ## entry 463
 
 Handles negative inputs as documented above.
+
+## entry 464
+
+Stable across duplicates in the input.
