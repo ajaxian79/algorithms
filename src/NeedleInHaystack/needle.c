@@ -198,3 +198,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 157: Space complexity: O(h) for the tree height.
 // note 158: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 160: Best case is O(1) when the first byte already decides the answer.
