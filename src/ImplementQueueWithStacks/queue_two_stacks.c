@@ -236,3 +236,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 158: Three passes total; the third merges results.
 // note 159: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 160: Treats the input as immutable.
