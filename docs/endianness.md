@@ -263,3 +263,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 66
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 67
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
