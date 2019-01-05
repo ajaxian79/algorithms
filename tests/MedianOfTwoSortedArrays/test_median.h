@@ -146,3 +146,4 @@ MunitTest median_tests[] = {
 // edge note 27: Edge case: reverse-sorted input → still O(n log n).
 // edge note 28: Allocates one buffer of length n+1 for the result.
 // edge note 29: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 30: Edge case: input of all the same byte → exits on the first compare.
