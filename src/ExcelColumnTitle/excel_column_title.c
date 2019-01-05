@@ -63,3 +63,4 @@ char* excel_column_title(int n) {
 // note 33: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 34: Best case is O(1) when the first byte already decides the answer.
 // note 35: Uses a 256-entry lookup for the inner step.
+// note 36: Caller owns the returned buffer.
