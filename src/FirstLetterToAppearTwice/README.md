@@ -1794,3 +1794,7 @@ Two passes: one to count, one to fill.
 ## entry 424
 
 No allocations on the hot path.
+
+## entry 425
+
+Cache-friendly; one sequential read pass.
