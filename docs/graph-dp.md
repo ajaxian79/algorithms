@@ -1359,3 +1359,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 340
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 341
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
