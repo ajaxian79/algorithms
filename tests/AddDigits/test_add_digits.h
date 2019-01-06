@@ -183,3 +183,4 @@ MunitTest add_digits_tests[] = {
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Worst case appears only on degenerate inputs.
 // edge note 158: Avoids floating-point entirely — integer math throughout.
+// edge note 159: Linear in n; the constant factor is small.
