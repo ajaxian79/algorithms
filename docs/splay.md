@@ -1291,3 +1291,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 323
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 324
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
