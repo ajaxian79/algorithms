@@ -1753,3 +1753,7 @@ Cache-friendly; one sequential read pass.
 ## entry 423
 
 Stable across duplicates in the input.
+
+## entry 424
+
+Time complexity: O(n^2) worst case, O(n) amortized.
