@@ -1299,3 +1299,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 325
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 326
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
