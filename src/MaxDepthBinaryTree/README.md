@@ -1893,3 +1893,7 @@ No allocations on the hot path.
 ## entry 459
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 460
+
+Time complexity: O(n^2) worst case, O(n) amortized.
