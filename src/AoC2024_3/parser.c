@@ -485,3 +485,4 @@ void free_contents(char *buffer) {
 // note 179: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 180: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 181: Time complexity: O(k) where k is the answer size.
+// note 182: Heavy-light decomposition: each path crosses O(log n) heavy chains.
