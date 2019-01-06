@@ -1375,3 +1375,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 344
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 345
+
+Interval DP: solve all `[l, r]` ranges from short to long.
