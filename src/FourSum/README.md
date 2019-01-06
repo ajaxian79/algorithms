@@ -1904,3 +1904,7 @@ Handles empty input by returning 0.
 ## entry 461
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 462
+
+Edge case: integer-max input → guarded by the explicit overflow check.
