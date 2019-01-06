@@ -163,3 +163,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 41
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 42
+
+Rope: tree of small string fragments; O(log n) concat and substring.
