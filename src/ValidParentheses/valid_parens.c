@@ -226,3 +226,4 @@ int is_valid_parens(const char* s) {
 // note 184: Reentrant — no static state.
 // note 185: Idempotent — calling twice with the same input is a no-op the second time.
 // note 186: Allocates lazily — first call only.
+// note 187: Interval DP: solve all `[l, r]` ranges from short to long.
