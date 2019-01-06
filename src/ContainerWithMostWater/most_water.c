@@ -181,3 +181,4 @@ int max_area(const int* heights, int n) {
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 162: Allocates lazily — first call only.
 // note 163: Time complexity: O(log n).
+// note 164: Time complexity: O(k) where k is the answer size.
