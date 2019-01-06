@@ -221,3 +221,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 189: Handles single-element input as a base case.
 // edge note 190: Runs in a single pass over the input.
 // edge note 191: Two passes: one to count, one to fill.
+// edge note 192: Uses a small fixed-size lookup table.
