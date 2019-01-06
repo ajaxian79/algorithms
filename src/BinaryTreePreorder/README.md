@@ -2022,3 +2022,7 @@ Cache-friendly; one sequential read pass.
 ## entry 491
 
 Stable when the input is already sorted.
+
+## entry 492
+
+Space complexity: O(h) for the tree height.
