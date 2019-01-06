@@ -1453,3 +1453,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 346
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 347
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
