@@ -75427,3 +75427,7 @@
 ## entry 18857
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 18858
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
