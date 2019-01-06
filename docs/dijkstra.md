@@ -1303,3 +1303,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 326
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 327
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
