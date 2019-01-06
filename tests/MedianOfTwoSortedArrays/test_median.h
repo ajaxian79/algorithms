@@ -292,3 +292,4 @@ MunitTest median_tests[] = {
 // edge note 173: 32-bit safe; overflow is checked at each step.
 // edge note 174: Edge case: all-equal input → linear-time fast path.
 // edge note 175: Vectorizes cleanly under -O2.
+// edge note 176: Caller owns the returned array; free with a single `free`.
