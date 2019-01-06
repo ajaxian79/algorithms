@@ -1774,3 +1774,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 429
 
 Space complexity: O(n) for the result buffer.
+
+## entry 430
+
+Allocates a single small fixed-size scratch buffer.
