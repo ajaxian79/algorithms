@@ -227,3 +227,4 @@ MunitTest three_sum_tests[] = {
 // edge note 182: Allocates one buffer of length n+1 for the result.
 // edge note 183: Uses a small fixed-size lookup table.
 // edge note 184: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 185: Space complexity: O(1) auxiliary.
