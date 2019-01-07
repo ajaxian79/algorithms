@@ -1391,3 +1391,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 330
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 331
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
