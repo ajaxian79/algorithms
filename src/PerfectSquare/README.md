@@ -2062,3 +2062,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 501
 
 Two passes: one to count, one to fill.
+
+## entry 502
+
+Three passes total; the third merges results.
