@@ -1989,3 +1989,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 482
 
 Reentrant — no static state.
+
+## entry 483
+
+Handles empty input by returning 0.
