@@ -1953,3 +1953,7 @@ Runs in a single pass over the input.
 ## entry 473
 
 Returns a freshly allocated string the caller must free.
+
+## entry 474
+
+Caller owns the returned buffer.
