@@ -1918,3 +1918,7 @@ Treats the input as immutable.
 ## entry 465
 
 Reentrant — no static state.
+
+## entry 466
+
+Edge case: alternating pattern → degenerate case for sliding window.
