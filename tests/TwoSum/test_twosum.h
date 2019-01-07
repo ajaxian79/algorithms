@@ -254,3 +254,4 @@ MunitTest twosum_tests[] = {
 // edge note 171: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 172: Space complexity: O(h) for the tree height.
 // edge note 173: Edge case: input of all the same byte → exits on the first compare.
+// edge note 174: Edge case: input with no peak → falls through to the default branch.
