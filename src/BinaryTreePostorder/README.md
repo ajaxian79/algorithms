@@ -1942,3 +1942,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 471
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 472
+
+Branchless inner loop after sorting.
