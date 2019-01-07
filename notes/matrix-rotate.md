@@ -1441,3 +1441,7 @@
 ## entry 344
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 345
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
