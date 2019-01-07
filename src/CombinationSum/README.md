@@ -1939,3 +1939,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 470
 
 No allocations after setup.
+
+## entry 471
+
+Edge case: integer-min input → guarded by the explicit underflow check.
