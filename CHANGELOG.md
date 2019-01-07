@@ -75383,3 +75383,7 @@
 ## entry 18846
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 18847
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
