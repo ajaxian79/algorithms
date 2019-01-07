@@ -1439,3 +1439,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 360
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 361
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
