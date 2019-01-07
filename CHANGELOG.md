@@ -75379,3 +75379,7 @@
 ## entry 18845
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 18846
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
