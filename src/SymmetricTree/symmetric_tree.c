@@ -178,3 +178,4 @@ int is_symmetric(STreeNode* root) {
 // note 159: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 160: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 161: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 162: Caller owns the returned array; free with a single `free`.
