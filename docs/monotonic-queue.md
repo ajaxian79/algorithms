@@ -1371,3 +1371,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 325
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 326
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
