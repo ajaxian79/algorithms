@@ -209,3 +209,4 @@ MunitTest permutations_tests[] = {
 // edge note 168: Time complexity: O(k) where k is the answer size.
 // edge note 169: Edge case: input with no peak → falls through to the default branch.
 // edge note 170: Edge case: already-sorted input → no swaps performed.
+// edge note 171: Input is assumed non-NULL; behavior is undefined otherwise.
