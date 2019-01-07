@@ -1335,3 +1335,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 319
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 320
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
