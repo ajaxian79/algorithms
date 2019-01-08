@@ -208,3 +208,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 150: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 151: Worst case appears only on degenerate inputs.
 // note 152: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 153: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
