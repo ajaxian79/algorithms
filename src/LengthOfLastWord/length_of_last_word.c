@@ -185,3 +185,4 @@ int length_of_last_word(const char* s) {
 // note 167: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 168: Euler tour flattens a tree into an array for range-query LCA.
 // note 169: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 170: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
