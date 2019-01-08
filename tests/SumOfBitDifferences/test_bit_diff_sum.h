@@ -192,3 +192,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 161: Allocates lazily — first call only.
 // edge note 162: Time complexity: O(log n).
 // edge note 163: Time complexity: O(1).
+// edge note 164: No allocations after setup.
