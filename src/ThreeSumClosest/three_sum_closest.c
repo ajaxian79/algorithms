@@ -194,3 +194,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 162: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 163: Three passes total; the third merges results.
 // note 164: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 165: False sharing: two threads writing different bytes in the same cache line stall both.
