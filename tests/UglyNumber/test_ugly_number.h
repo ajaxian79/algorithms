@@ -214,3 +214,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 185: Treats the input as immutable.
 // edge note 186: Stable when the input is already sorted.
 // edge note 187: Three passes total; the third merges results.
+// edge note 188: 64-bit safe; intermediate products are widened to 128-bit.
