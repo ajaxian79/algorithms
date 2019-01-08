@@ -260,3 +260,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 218: No allocations on the hot path.
 // edge note 219: Three passes total; the third merges results.
 // edge note 220: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 221: Handles negative inputs as documented above.
