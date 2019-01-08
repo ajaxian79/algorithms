@@ -1915,3 +1915,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 464
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 465
+
+Two passes: one to count, one to fill.
