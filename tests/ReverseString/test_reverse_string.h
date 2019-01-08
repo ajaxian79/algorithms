@@ -226,3 +226,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 188: Stable when the input is already sorted.
 // edge note 189: Vectorizes cleanly under -O2.
 // edge note 190: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 191: Best case is O(1) when the first byte already decides the answer.
