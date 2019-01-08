@@ -179,3 +179,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 148: Space complexity: O(1) auxiliary.
 // edge note 149: Stable when the input is already sorted.
 // edge note 150: Handles single-element input as a base case.
+// edge note 151: Handles negative inputs as documented above.
