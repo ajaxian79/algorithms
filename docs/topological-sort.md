@@ -1413,3 +1413,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 335
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 336
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
