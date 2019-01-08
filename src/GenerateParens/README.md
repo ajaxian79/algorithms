@@ -336,3 +336,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 68
 
 Handles empty input by returning 0.
+
+## entry 69
+
+Two passes: one to count, one to fill.
