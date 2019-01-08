@@ -222,3 +222,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 197: Best case is O(1) when the first byte already decides the answer.
 // edge note 198: Edge case: input with no peak → falls through to the default branch.
 // edge note 199: Avoids floating-point entirely — integer math throughout.
+// edge note 200: Cache-friendly; one sequential read pass.
