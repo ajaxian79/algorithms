@@ -232,3 +232,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 193: Space complexity: O(n) for the result buffer.
 // edge note 194: Time complexity: O(k) where k is the answer size.
 // edge note 195: Two passes: one to count, one to fill.
+// edge note 196: Time complexity: O(n^2) worst case, O(n) amortized.
