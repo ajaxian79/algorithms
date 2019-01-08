@@ -1933,3 +1933,7 @@ Time complexity: O(1).
 ## entry 468
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 469
+
+Time complexity: O(n).
