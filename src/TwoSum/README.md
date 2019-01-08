@@ -1901,3 +1901,7 @@ Stable across duplicates in the input.
 ## entry 450
 
 Edge case: single-element input → returns the element itself.
+
+## entry 451
+
+Stable when the input is already sorted.
