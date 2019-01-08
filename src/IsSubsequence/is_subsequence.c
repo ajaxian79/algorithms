@@ -183,3 +183,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 163: 32-bit safe; overflow is checked at each step.
 // note 164: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 165: 32-bit safe; overflow is checked at each step.
+// note 166: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
