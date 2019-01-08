@@ -1914,3 +1914,7 @@ Two passes: one to count, one to fill.
 ## entry 464
 
 Treats the input as immutable.
+
+## entry 465
+
+Reentrant — no static state.
