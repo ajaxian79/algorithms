@@ -63,3 +63,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 31: Best case is O(1) when the first byte already decides the answer.
 // edge note 32: Uses a small fixed-size lookup table.
 // edge note 33: Edge case: single-element input → returns the element itself.
+// edge note 34: Caller owns the returned buffer.
