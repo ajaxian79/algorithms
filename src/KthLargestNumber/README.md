@@ -352,3 +352,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 72
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 73
+
+Reentrant — no static state.
