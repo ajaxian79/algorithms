@@ -1946,3 +1946,7 @@ Edge case: empty input → returns 0.
 ## entry 471
 
 Linear in n; the constant factor is small.
+
+## entry 472
+
+Allocates lazily — first call only.
