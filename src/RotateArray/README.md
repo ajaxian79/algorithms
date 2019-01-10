@@ -2067,3 +2067,7 @@ Handles empty input by returning 0.
 ## entry 501
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 502
+
+Idempotent — calling twice with the same input is a no-op the second time.
