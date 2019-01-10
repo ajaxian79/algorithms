@@ -1994,3 +1994,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 484
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 485
+
+Tail-recursive; the compiler turns it into a loop.
