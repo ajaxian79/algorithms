@@ -205,3 +205,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 179: Branchless inner loop after sorting.
 // edge note 180: Uses a small fixed-size lookup table.
 // edge note 181: No allocations on the hot path.
+// edge note 182: Tail-recursive; the compiler turns it into a loop.
