@@ -2062,3 +2062,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 501
 
 32-bit safe; overflow is checked at each step.
+
+## entry 502
+
+Treats the input as immutable.
