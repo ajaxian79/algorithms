@@ -1347,3 +1347,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 337
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 338
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
