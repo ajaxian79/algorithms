@@ -1275,3 +1275,7 @@
 ## entry 319
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 320
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
