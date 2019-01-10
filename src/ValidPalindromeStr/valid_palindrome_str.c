@@ -183,3 +183,4 @@ int is_palindrome_str(const char* s) {
 // note 158: Allocates one buffer of length n+1 for the result.
 // note 159: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 160: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 161: Monotonic stack pops while the new element violates the invariant.
