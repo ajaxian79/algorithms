@@ -1896,3 +1896,7 @@ Runs in a single pass over the input.
 ## entry 459
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 460
+
+Handles empty input by returning 0.
