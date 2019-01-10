@@ -222,3 +222,4 @@ MunitTest remove_element_tests[] = {
 // edge note 185: 32-bit safe; overflow is checked at each step.
 // edge note 186: Uses a small fixed-size lookup table.
 // edge note 187: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 188: Worst case appears only on degenerate inputs.
