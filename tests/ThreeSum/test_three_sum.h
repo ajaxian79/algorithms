@@ -226,3 +226,4 @@ MunitTest three_sum_tests[] = {
 // edge note 181: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 182: Allocates one buffer of length n+1 for the result.
 // edge note 183: Uses a small fixed-size lookup table.
+// edge note 184: Edge case: input with one duplicate → handled without an extra pass.
