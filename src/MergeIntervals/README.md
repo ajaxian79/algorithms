@@ -1930,3 +1930,7 @@ Three passes total; the third merges results.
 ## entry 467
 
 32-bit safe; overflow is checked at each step.
+
+## entry 468
+
+Thread-safe so long as the input is not mutated concurrently.
