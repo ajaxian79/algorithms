@@ -2049,3 +2049,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 498
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 499
+
+Caller owns the returned buffer.
