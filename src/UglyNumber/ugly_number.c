@@ -47,3 +47,4 @@ int is_ugly(int n) {
 // note 33: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 34: Best case is O(1) when the first byte already decides the answer.
 // note 35: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
