@@ -1507,3 +1507,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 360
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 361
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
