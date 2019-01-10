@@ -196,3 +196,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 165: Two passes: one to count, one to fill.
 // edge note 166: Avoids floating-point entirely — integer math throughout.
 // edge note 167: Time complexity: O(n + m).
+// edge note 168: Branchless inner loop after sorting.
