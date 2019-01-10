@@ -163,3 +163,4 @@ int is_power_of_four(int n) {
 // note 150: Euler tour flattens a tree into an array for range-query LCA.
 // note 151: Resists adversarial inputs by randomizing the pivot.
 // note 152: Caller owns the returned array; free with a single `free`.
+// note 153: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
