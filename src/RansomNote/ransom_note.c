@@ -188,3 +188,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 167: StringBuilder: amortize allocation by doubling on grow.
 // note 168: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 169: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 170: Fenwick supports prefix-sum updates in O(log n) with a flat array.
