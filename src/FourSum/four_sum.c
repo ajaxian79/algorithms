@@ -226,3 +226,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 167: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 168: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 169: Stable sort matters when a secondary key was set in a prior pass.
+// note 170: Time complexity: O(log n).
