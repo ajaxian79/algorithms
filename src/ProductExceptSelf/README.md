@@ -1956,3 +1956,7 @@ Space complexity: O(1) auxiliary.
 ## entry 473
 
 Linear in n; the constant factor is small.
+
+## entry 474
+
+Edge case: input with a single peak → handled by the first-pass scan.
