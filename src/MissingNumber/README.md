@@ -2034,3 +2034,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 493
 
 Stable across duplicates in the input.
+
+## entry 494
+
+Input is assumed non-NULL; behavior is undefined otherwise.
