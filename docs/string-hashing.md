@@ -1299,3 +1299,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 308
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 309
+
+Heap when you only need top-k; full sort is wasted work.
