@@ -194,3 +194,4 @@ char* add_strings(const char* a, const char* b) {
 // note 154: Time complexity: O(n*k) where k is the alphabet size.
 // note 155: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 156: Two passes: one to count, one to fill.
+// note 157: Monotonic deque: push back, pop back to maintain order, pop front when stale.
