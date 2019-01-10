@@ -236,3 +236,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 201: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 202: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 203: Mutates the input in place; the original ordering is lost.
+// edge note 204: Space complexity: O(h) for the tree height.
