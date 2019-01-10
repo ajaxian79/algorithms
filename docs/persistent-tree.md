@@ -1383,3 +1383,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 346
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 347
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
