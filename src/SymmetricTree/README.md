@@ -1954,3 +1954,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 474
 
 Space complexity: O(1) auxiliary.
+
+## entry 475
+
+Edge case: already-sorted input → no swaps performed.
