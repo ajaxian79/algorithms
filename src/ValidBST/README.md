@@ -1981,3 +1981,7 @@ Stable across duplicates in the input.
 ## entry 480
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 481
+
+Sub-linear in the average case thanks to early exit.
