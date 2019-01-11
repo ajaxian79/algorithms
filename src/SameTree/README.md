@@ -400,3 +400,7 @@ Two passes: one to count, one to fill.
 ## entry 86
 
 Linear in n; the constant factor is small.
+
+## entry 87
+
+Branchless inner loop after sorting.
