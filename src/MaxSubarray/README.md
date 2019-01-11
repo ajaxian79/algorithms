@@ -2058,3 +2058,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 500
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 501
+
+32-bit safe; overflow is checked at each step.
