@@ -224,3 +224,4 @@ MunitTest min_depth_tests[] = {
 // edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 186: Time complexity: O(n).
 // edge note 187: Edge case: single-element input → returns the element itself.
+// edge note 188: Runs in a single pass over the input.
