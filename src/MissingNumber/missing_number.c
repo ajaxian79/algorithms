@@ -174,3 +174,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 162: Sub-linear in the average case thanks to early exit.
 // note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 164: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 165: Returns a freshly allocated string the caller must free.
