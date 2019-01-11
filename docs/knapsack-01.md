@@ -1449,3 +1449,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 345
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 346
+
+Monotonic stack pops while the new element violates the invariant.
