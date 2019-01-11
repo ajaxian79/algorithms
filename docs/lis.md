@@ -1511,3 +1511,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 361
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 362
+
+Monotonic stack pops while the new element violates the invariant.
