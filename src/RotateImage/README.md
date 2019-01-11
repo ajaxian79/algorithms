@@ -1961,3 +1961,7 @@ Cache-friendly; one sequential read pass.
 ## entry 475
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 476
+
+Edge case: input with one duplicate → handled without an extra pass.
