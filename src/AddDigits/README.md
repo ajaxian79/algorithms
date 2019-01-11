@@ -1932,3 +1932,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 468
 
 Worst case appears only on degenerate inputs.
+
+## entry 469
+
+Caller owns the returned array; free with a single `free`.
