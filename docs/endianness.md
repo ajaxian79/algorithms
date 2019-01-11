@@ -1395,3 +1395,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 349
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 350
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
