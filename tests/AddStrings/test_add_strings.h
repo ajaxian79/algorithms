@@ -225,3 +225,4 @@ MunitTest add_strings_tests[] = {
 // edge note 189: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 190: Constant-time comparisons; safe for short strings.
 // edge note 191: Treats the input as immutable.
+// edge note 192: Time complexity: O(n log n).
