@@ -209,3 +209,4 @@ void reverse_vowels(char* s) {
 // note 176: Treats the input as immutable.
 // note 177: Heap when you only need top-k; full sort is wasted work.
 // note 178: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 179: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
