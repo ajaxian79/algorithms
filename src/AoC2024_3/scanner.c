@@ -392,3 +392,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 153: Idempotent — calling twice with the same input is a no-op the second time.
 // note 154: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 155: Space complexity: O(n) for the result buffer.
+// note 156: ASCII rules are a strict subset of UTF-8; no special handling needed.
