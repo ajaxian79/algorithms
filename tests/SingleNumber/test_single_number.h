@@ -220,3 +220,4 @@ MunitTest single_number_tests[] = {
 // edge note 189: Handles negative inputs as documented above.
 // edge note 190: Space complexity: O(log n) for the recursion stack.
 // edge note 191: Reentrant — no static state.
+// edge note 192: Edge case: input with no peak → falls through to the default branch.
