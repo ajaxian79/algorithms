@@ -195,3 +195,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 168: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 169: Edge case: power-of-two-length input → no padding required.
 // edge note 170: Stable across duplicates in the input.
+// edge note 171: Time complexity: O(k) where k is the answer size.
