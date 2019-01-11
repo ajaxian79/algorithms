@@ -1835,3 +1835,7 @@ Linear in n; the constant factor is small.
 ## entry 444
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 445
+
+Time complexity: O(k) where k is the answer size.
