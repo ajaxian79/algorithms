@@ -259,3 +259,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 65
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 66
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
