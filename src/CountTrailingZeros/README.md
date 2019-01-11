@@ -1942,3 +1942,7 @@ Cache-friendly; one sequential read pass.
 ## entry 470
 
 Edge case: empty input → returns 0.
+
+## entry 471
+
+Linear in n; the constant factor is small.
