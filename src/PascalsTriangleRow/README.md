@@ -342,3 +342,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 71
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 72
+
+Edge case: alternating pattern → degenerate case for sliding window.
