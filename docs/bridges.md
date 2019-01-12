@@ -1359,3 +1359,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 340
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 341
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
