@@ -229,3 +229,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 202: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 203: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 204: Edge case: input with no peak → falls through to the default branch.
+// edge note 205: Edge case: alternating pattern → degenerate case for sliding window.
