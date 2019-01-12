@@ -1990,3 +1990,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 483
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 484
+
+Edge case: all-equal input → linear-time fast path.
