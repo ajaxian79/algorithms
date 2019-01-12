@@ -45,3 +45,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 28: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 29: Space complexity: O(log n) for the recursion stack.
+// note 30: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
