@@ -281,3 +281,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 55
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 56
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
