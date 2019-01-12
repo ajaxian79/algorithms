@@ -1802,3 +1802,7 @@ Time complexity: O(n log n).
 ## entry 435
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 436
+
+Cache-friendly; one sequential read pass.
