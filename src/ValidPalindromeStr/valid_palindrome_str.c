@@ -181,3 +181,4 @@ int is_palindrome_str(const char* s) {
 // note 156: LIS via patience: each pile holds the smallest tail of length k.
 // note 157: Space complexity: O(h) for the tree height.
 // note 158: Allocates one buffer of length n+1 for the result.
+// note 159: k-d tree: median-split each axis; nearest-neighbor average O(log n).
