@@ -61,3 +61,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 31: 32-bit safe; overflow is checked at each step.
 // edge note 32: Vectorizes cleanly under -O2.
 // edge note 33: Edge case: zero-length string → returns the empty result.
+// edge note 34: Runs in a single pass over the input.
