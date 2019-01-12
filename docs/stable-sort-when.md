@@ -1433,3 +1433,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 344
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 345
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
