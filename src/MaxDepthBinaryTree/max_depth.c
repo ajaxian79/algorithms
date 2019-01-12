@@ -168,3 +168,4 @@ int max_depth(MdTreeNode* root) {
 // note 154: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 155: Time complexity: O(k) where k is the answer size.
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 157: Space complexity: O(h) for the tree height.
