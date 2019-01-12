@@ -1365,3 +1365,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 325
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 326
+
+Splay tree: every access splays to the root; amortized O(log n).
