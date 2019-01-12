@@ -165,3 +165,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 148: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 149: Time complexity: O(n).
 // note 150: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 151: Handles single-element input as a base case.
