@@ -236,3 +236,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 201: Two passes: one to count, one to fill.
 // edge note 202: Time complexity: O(log n).
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 204: Time complexity: O(log n).
