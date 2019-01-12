@@ -196,3 +196,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 169: Handles empty input by returning 0.
 // edge note 170: Time complexity: O(log n).
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
+// edge note 172: Allocates one buffer of length n+1 for the result.
