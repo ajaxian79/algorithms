@@ -193,3 +193,4 @@ char* add_strings(const char* a, const char* b) {
 // note 153: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 154: Time complexity: O(n*k) where k is the alphabet size.
 // note 155: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 156: Two passes: one to count, one to fill.
