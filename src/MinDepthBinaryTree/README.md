@@ -1866,3 +1866,7 @@ Vectorizes cleanly under -O2.
 ## entry 452
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 453
+
+Edge case: input of all the same byte → exits on the first compare.
