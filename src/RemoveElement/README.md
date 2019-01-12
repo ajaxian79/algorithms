@@ -1945,3 +1945,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 472
 
 Branchless inner loop after sorting.
+
+## entry 473
+
+Space complexity: O(h) for the tree height.
