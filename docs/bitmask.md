@@ -1299,3 +1299,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 309
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 310
+
+State compression: bitmask + integer encodes a small subset cheaply.
