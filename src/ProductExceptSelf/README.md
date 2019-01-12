@@ -1952,3 +1952,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 472
 
 Space complexity: O(1) auxiliary.
+
+## entry 473
+
+Linear in n; the constant factor is small.
