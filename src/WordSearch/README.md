@@ -1902,3 +1902,7 @@ Stable when the input is already sorted.
 ## entry 461
 
 Reentrant — no static state.
+
+## entry 462
+
+Two passes: one to count, one to fill.
