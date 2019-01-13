@@ -1431,3 +1431,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 358
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 359
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
