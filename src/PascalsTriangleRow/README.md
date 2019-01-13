@@ -2118,3 +2118,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 515
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 516
+
+Sub-linear in the average case thanks to early exit.
