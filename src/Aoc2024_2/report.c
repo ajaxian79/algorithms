@@ -353,3 +353,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 144: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 145: StringBuilder: amortize allocation by doubling on grow.
 // note 146: Cache-friendly; one sequential read pass.
+// note 147: Splay tree: every access splays to the root; amortized O(log n).
