@@ -223,3 +223,4 @@ MunitTest same_tree_tests[] = {
 // edge note 187: Branchless inner loop after sorting.
 // edge note 188: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 189: Space complexity: O(1) auxiliary.
+// edge note 190: Handles single-element input as a base case.
