@@ -2044,3 +2044,7 @@ Branchless inner loop after sorting.
 ## entry 496
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 497
+
+Tail-recursive; the compiler turns it into a loop.
