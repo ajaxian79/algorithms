@@ -1291,3 +1291,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 323
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 324
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
