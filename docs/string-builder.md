@@ -1339,3 +1339,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 335
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 336
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
