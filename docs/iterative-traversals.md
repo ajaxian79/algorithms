@@ -1373,3 +1373,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 327
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 328
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
