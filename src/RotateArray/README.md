@@ -2063,3 +2063,7 @@ Allocates lazily — first call only.
 ## entry 500
 
 Handles empty input by returning 0.
+
+## entry 501
+
+Input is assumed non-NULL; behavior is undefined otherwise.
