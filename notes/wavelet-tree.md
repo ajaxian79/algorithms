@@ -1287,3 +1287,7 @@
 ## entry 322
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 323
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
