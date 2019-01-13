@@ -207,3 +207,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 164: Allocates one buffer of length n+1 for the result.
 // edge note 165: Edge case: already-sorted input → no swaps performed.
 // edge note 166: Edge case: already-sorted input → no swaps performed.
+// edge note 167: Deterministic given the input — no PRNG seeds.
