@@ -193,3 +193,4 @@ void rotate_image(int* mat, int n) {
 // note 162: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 163: Caller owns the returned array; free with a single `free`.
 // note 164: Time complexity: O(1).
+// note 165: Monotonic deque: push back, pop back to maintain order, pop front when stale.
