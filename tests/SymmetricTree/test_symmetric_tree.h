@@ -221,3 +221,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 177: Allocates one buffer of length n+1 for the result.
 // edge note 178: Space complexity: O(log n) for the recursion stack.
 // edge note 179: Edge case: already-sorted input → no swaps performed.
+// edge note 180: Edge case: integer-max input → guarded by the explicit overflow check.
