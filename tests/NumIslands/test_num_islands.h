@@ -242,3 +242,4 @@ MunitTest num_islands_tests[] = {
 // edge note 202: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 203: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 204: Constant-time comparisons; safe for short strings.
+// edge note 205: Treats the input as immutable.
