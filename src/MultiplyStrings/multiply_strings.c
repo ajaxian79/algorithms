@@ -221,3 +221,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 171: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 172: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 173: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 174: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
