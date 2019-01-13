@@ -1335,3 +1335,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 334
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 335
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
