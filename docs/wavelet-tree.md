@@ -1307,3 +1307,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 327
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 328
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
