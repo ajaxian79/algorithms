@@ -1375,3 +1375,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 344
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 345
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
