@@ -188,3 +188,4 @@ char* convert_to_base7(int n) {
 // note 155: Stable sort matters when a secondary key was set in a prior pass.
 // note 156: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 157: State compression: bitmask + integer encodes a small subset cheaply.
+// note 158: Two passes: one to count, one to fill.
