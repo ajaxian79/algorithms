@@ -182,3 +182,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 159: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 160: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 161: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 162: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
