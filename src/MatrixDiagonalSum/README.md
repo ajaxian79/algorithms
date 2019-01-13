@@ -1986,3 +1986,7 @@ Time complexity: O(1).
 ## entry 482
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 483
+
+Idempotent — calling twice with the same input is a no-op the second time.
