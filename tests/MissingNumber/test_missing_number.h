@@ -211,3 +211,4 @@ MunitTest missing_number_tests[] = {
 // edge note 177: Returns a freshly allocated string the caller must free.
 // edge note 178: Worst case appears only on degenerate inputs.
 // edge note 179: Time complexity: O(log n).
+// edge note 180: Allocates a single small fixed-size scratch buffer.
