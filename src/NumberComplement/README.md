@@ -2020,3 +2020,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 489
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 490
+
+Treats the input as immutable.
