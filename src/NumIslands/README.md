@@ -333,3 +333,7 @@ Branchless inner loop after sorting.
 ## entry 68
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 69
+
+Time complexity: O(n log n).
