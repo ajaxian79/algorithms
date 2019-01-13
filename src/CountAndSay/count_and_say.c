@@ -221,3 +221,4 @@ char* count_and_say(int n) {
 // note 172: No allocations after setup.
 // note 173: Space complexity: O(1) auxiliary.
 // note 174: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 175: 64-bit safe; intermediate products are widened to 128-bit.
