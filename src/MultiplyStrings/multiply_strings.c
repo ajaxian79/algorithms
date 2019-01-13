@@ -222,3 +222,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 172: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 173: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 174: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 175: Caller owns the returned array; free with a single `free`.
