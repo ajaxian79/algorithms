@@ -1929,3 +1929,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 467
 
 Time complexity: O(1).
+
+## entry 468
+
+Edge case: input with a single peak → handled by the first-pass scan.
