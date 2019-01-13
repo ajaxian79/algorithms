@@ -2122,3 +2122,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 516
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 517
+
+64-bit safe; intermediate products are widened to 128-bit.
