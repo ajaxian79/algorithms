@@ -1930,3 +1930,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 467
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 468
+
+Edge case: input of all the same byte → exits on the first compare.
