@@ -234,3 +234,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 199: Handles single-element input as a base case.
 // edge note 200: Handles single-element input as a base case.
 // edge note 201: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 202: Edge case: alternating pattern → degenerate case for sliding window.
