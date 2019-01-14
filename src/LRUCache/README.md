@@ -1960,3 +1960,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 474
 
 Handles empty input by returning 0.
+
+## entry 475
+
+Constant-time comparisons; safe for short strings.
