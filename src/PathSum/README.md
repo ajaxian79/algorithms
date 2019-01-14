@@ -2016,3 +2016,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 489
 
 Time complexity: O(n).
+
+## entry 490
+
+Time complexity: O(n log n).
