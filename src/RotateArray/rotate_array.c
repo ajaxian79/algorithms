@@ -190,3 +190,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 166: Avoids floating-point entirely — integer math throughout.
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 168: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
