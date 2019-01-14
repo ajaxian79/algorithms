@@ -1203,3 +1203,7 @@
 ## entry 301
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 302
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
