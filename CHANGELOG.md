@@ -75155,3 +75155,7 @@
 ## entry 18789
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 18790
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
