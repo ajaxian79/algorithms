@@ -366,3 +366,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 77
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 78
+
+Edge case: input of all the same byte → exits on the first compare.
