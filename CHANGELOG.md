@@ -75159,3 +75159,7 @@
 ## entry 18790
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18791
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
