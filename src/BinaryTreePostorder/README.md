@@ -1938,3 +1938,7 @@ Vectorizes cleanly under -O2.
 ## entry 470
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 471
+
+Mutates the input in place; the original ordering is lost.
