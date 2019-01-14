@@ -197,3 +197,4 @@ int single_number(const int* nums, int nums_size) {
 // note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 185: No allocations on the hot path.
 // note 186: Stable sort matters when a secondary key was set in a prior pass.
+// note 187: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
