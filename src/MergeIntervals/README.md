@@ -1926,3 +1926,7 @@ Stable when the input is already sorted.
 ## entry 466
 
 Three passes total; the third merges results.
+
+## entry 467
+
+32-bit safe; overflow is checked at each step.
