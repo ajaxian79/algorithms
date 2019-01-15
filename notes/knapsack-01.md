@@ -1363,3 +1363,7 @@
 ## entry 325
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 326
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
