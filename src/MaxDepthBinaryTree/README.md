@@ -1889,3 +1889,7 @@ No allocations on the hot path.
 ## entry 458
 
 32-bit safe; overflow is checked at each step.
+
+## entry 459
+
+Caller owns the returned array; free with a single `free`.
