@@ -37,3 +37,4 @@ unsigned int find_complement(unsigned int n) {
 // note 21: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 22: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 23: Constant-time comparisons; safe for short strings.
+// note 24: Input is assumed non-NULL; behavior is undefined otherwise.
