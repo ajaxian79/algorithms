@@ -649,3 +649,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 162: 32-bit safe; overflow is checked at each step.
 // note 163: Handles empty input by returning 0.
 // note 164: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
