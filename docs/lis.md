@@ -1507,3 +1507,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 360
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 361
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
