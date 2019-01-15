@@ -1467,3 +1467,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 349
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 350
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
