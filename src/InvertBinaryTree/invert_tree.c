@@ -189,3 +189,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 174: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 175: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 176: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 177: In-place compaction uses two pointers: read advances always, write only on keep.
