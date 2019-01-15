@@ -195,3 +195,4 @@ int reverse_int(int x) {
 // note 168: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 169: Best case is O(1) when the first byte already decides the answer.
 // note 170: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 171: Heap when you only need top-k; full sort is wasted work.
