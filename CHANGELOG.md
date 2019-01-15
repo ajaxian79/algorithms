@@ -11551,3 +11551,7 @@
 ## entry 2888
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2889
+
+- State compression: bitmask + integer encodes a small subset cheaply.
