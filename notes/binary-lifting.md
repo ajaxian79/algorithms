@@ -1259,3 +1259,7 @@
 ## entry 315
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 316
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
