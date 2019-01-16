@@ -266,3 +266,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 52
 
 Handles single-element input as a base case.
+
+## entry 53
+
+Time complexity: O(k) where k is the answer size.
