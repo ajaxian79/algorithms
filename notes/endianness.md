@@ -251,3 +251,7 @@
 ## entry 63
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 64
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
