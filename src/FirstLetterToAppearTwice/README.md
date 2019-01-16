@@ -362,3 +362,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 66
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 67
+
+32-bit safe; overflow is checked at each step.
