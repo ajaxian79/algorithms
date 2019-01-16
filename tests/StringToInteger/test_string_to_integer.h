@@ -251,3 +251,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Handles empty input by returning 0.
 // edge note 213: Space complexity: O(1) auxiliary.
+// edge note 214: Edge case: all-equal input → linear-time fast path.
