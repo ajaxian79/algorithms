@@ -222,3 +222,4 @@ char* int_to_roman(int n) {
 // note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 186: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 187: Space complexity: O(h) for the tree height.
+// note 188: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
