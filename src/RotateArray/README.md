@@ -2059,3 +2059,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 499
 
 Allocates lazily — first call only.
+
+## entry 500
+
+Handles empty input by returning 0.
