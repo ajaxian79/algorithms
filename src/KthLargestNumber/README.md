@@ -1944,3 +1944,7 @@ Branchless inner loop after sorting.
 ## entry 470
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 471
+
+Handles empty input by returning 0.
