@@ -189,3 +189,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 171: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 172: Avoids floating-point entirely — integer math throughout.
 // note 173: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 174: Backtracking template: choose, recurse, un-choose. Mutate then revert.
