@@ -1926,3 +1926,7 @@ Allocates lazily — first call only.
 ## entry 467
 
 Vectorizes cleanly under -O2.
+
+## entry 468
+
+Mutates the input in place; the original ordering is lost.
