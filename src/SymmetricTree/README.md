@@ -390,3 +390,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 83
 
 Uses a small fixed-size lookup table.
+
+## entry 84
+
+Best case is O(1) when the first byte already decides the answer.
