@@ -217,3 +217,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 174: Articulation points: same DFS as bridges, with a slightly different test.
 // note 175: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 176: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 177: Merge intervals: sort by start; extend the running interval while overlapping.
