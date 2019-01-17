@@ -1367,3 +1367,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 342
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 343
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
