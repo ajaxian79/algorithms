@@ -75115,3 +75115,7 @@
 ## entry 18779
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 18780
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
