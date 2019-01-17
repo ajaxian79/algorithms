@@ -1893,3 +1893,7 @@ Edge case: empty input → returns 0.
 ## entry 458
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 459
+
+Two passes: one to count, one to fill.
