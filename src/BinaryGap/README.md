@@ -1926,3 +1926,7 @@ Space complexity: O(1) auxiliary.
 ## entry 466
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 467
+
+Edge case: power-of-two-length input → no padding required.
