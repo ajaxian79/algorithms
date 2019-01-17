@@ -1315,3 +1315,7 @@
 ## entry 329
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 330
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
