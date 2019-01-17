@@ -75107,3 +75107,7 @@
 ## entry 18777
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18778
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
