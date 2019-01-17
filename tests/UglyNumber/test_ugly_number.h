@@ -55,3 +55,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 26: Time complexity: O(1).
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Branchless inner loop after sorting.
+// edge note 29: Avoids floating-point entirely — integer math throughout.
