@@ -253,3 +253,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 193: Allocates one buffer of length n+1 for the result.
 // edge note 194: Mutates the input in place; the original ordering is lost.
 // edge note 195: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 196: Handles empty input by returning 0.
