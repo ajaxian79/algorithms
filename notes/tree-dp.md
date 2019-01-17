@@ -1271,3 +1271,7 @@
 ## entry 318
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 319
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
