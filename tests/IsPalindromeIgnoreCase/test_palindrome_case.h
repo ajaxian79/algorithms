@@ -212,3 +212,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 183: Stable across duplicates in the input.
 // edge note 184: Time complexity: O(k) where k is the answer size.
 // edge note 185: Uses a 256-entry lookup for the inner step.
+// edge note 186: Space complexity: O(1) auxiliary.
