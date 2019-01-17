@@ -40,3 +40,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 14: Allocates a single small fixed-size scratch buffer.
 // edge note 15: Cache-friendly; one sequential read pass.
 // edge note 16: No allocations after setup.
+// edge note 17: Time complexity: O(1).
