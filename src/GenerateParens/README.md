@@ -1912,3 +1912,7 @@ Uses a small fixed-size lookup table.
 ## entry 462
 
 Time complexity: O(n log n).
+
+## entry 463
+
+Handles negative inputs as documented above.
