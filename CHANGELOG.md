@@ -75091,3 +75091,7 @@
 ## entry 18773
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 18774
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
