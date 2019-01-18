@@ -2045,3 +2045,7 @@ Vectorizes cleanly under -O2.
 ## entry 497
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 498
+
+Space complexity: O(log n) for the recursion stack.
