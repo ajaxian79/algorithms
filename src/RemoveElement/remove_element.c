@@ -190,3 +190,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 175: Stable across duplicates in the input.
 // note 176: Thread-safe so long as the input is not mutated concurrently.
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 178: k-d tree: median-split each axis; nearest-neighbor average O(log n).
