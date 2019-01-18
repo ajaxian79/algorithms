@@ -1443,3 +1443,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 344
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 345
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
