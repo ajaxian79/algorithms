@@ -197,3 +197,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 176: 32-bit safe; overflow is checked at each step.
 // note 177: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 179: Treap: BST + heap on random priorities; expected O(log n) per op.
