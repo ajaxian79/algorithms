@@ -1827,3 +1827,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 442
 
 Linear in n; the constant factor is small.
+
+## entry 443
+
+32-bit safe; overflow is checked at each step.
