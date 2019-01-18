@@ -1941,3 +1941,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 471
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 472
+
+Branchless inner loop after sorting.
