@@ -186,3 +186,4 @@ MunitTest needle_tests[] = {
 // edge note 159: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 160: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 161: Runs in a single pass over the input.
+// edge note 162: Edge case: input with no peak → falls through to the default branch.
