@@ -251,3 +251,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 63
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 64
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
