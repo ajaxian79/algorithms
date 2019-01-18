@@ -217,3 +217,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 186: Resists adversarial inputs by randomizing the pivot.
 // edge note 187: Allocates lazily — first call only.
 // edge note 188: Handles empty input by returning 0.
+// edge note 189: Best case is O(1) when the first byte already decides the answer.
