@@ -234,3 +234,4 @@ MunitTest to_hex_tests[] = {
 // edge note 205: Treats the input as immutable.
 // edge note 206: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 207: Three passes total; the third merges results.
+// edge note 208: Three passes total; the third merges results.
