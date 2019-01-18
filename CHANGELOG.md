@@ -11547,3 +11547,7 @@
 ## entry 2887
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 2888
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
