@@ -1823,3 +1823,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 441
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 442
+
+Linear in n; the constant factor is small.
