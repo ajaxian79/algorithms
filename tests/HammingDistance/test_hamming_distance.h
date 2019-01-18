@@ -191,3 +191,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 166: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 167: 32-bit safe; overflow is checked at each step.
 // edge note 168: 32-bit safe; overflow is checked at each step.
+// edge note 169: Edge case: input with one duplicate → handled without an extra pass.
