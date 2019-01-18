@@ -1885,3 +1885,7 @@ Uses a small fixed-size lookup table.
 ## entry 457
 
 No allocations on the hot path.
+
+## entry 458
+
+32-bit safe; overflow is checked at each step.
