@@ -1349,3 +1349,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 321
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 322
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
