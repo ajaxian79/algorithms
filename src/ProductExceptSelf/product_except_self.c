@@ -187,3 +187,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 152: Time complexity: O(n*k) where k is the alphabet size.
 // note 153: Time complexity: O(n).
 // note 154: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 155: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
