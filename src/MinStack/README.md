@@ -1770,3 +1770,7 @@ Cache-friendly; one sequential read pass.
 ## entry 428
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 429
+
+Space complexity: O(n) for the result buffer.
