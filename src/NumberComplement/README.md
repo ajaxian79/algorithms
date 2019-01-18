@@ -2016,3 +2016,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 488
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 489
+
+Edge case: reverse-sorted input → still O(n log n).
