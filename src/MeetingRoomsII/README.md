@@ -2042,3 +2042,7 @@ Vectorizes cleanly under -O2.
 ## entry 495
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 496
+
+Cache-friendly; one sequential read pass.
