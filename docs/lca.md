@@ -1327,3 +1327,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 332
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 333
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
