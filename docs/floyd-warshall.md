@@ -1343,3 +1343,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 336
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 337
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
