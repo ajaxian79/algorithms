@@ -232,3 +232,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 196: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 197: Treats the input as immutable.
 // edge note 198: Space complexity: O(1) auxiliary.
+// edge note 199: Branchless inner loop after sorting.
