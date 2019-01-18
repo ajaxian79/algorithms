@@ -1459,3 +1459,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 365
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 366
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
