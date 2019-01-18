@@ -175,3 +175,4 @@ int hamming_distance(int x, int y) {
 // note 160: 32-bit safe; overflow is checked at each step.
 // note 161: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 162: 32-bit safe; overflow is checked at each step.
+// note 163: Branchless inner loop after sorting.
