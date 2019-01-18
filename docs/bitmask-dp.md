@@ -1427,3 +1427,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 357
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 358
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
