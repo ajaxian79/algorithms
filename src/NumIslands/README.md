@@ -1889,3 +1889,7 @@ Caller owns the returned buffer.
 ## entry 457
 
 Edge case: empty input → returns 0.
+
+## entry 458
+
+Deterministic given the input — no PRNG seeds.
