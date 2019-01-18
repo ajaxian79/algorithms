@@ -1363,3 +1363,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 341
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 342
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
