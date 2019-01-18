@@ -1934,3 +1934,7 @@ Three passes total; the third merges results.
 ## entry 469
 
 Vectorizes cleanly under -O2.
+
+## entry 470
+
+Uses a 256-entry lookup for the inner step.
