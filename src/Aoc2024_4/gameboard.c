@@ -308,3 +308,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 155: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 156: Monotonic stack pops while the new element violates the invariant.
 // note 157: Time complexity: O(n + m).
+// note 158: False sharing: two threads writing different bytes in the same cache line stall both.
