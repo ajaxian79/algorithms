@@ -357,3 +357,7 @@ Space complexity: O(1) auxiliary.
 ## entry 75
 
 Treats the input as immutable.
+
+## entry 76
+
+Edge case: single-element input → returns the element itself.
