@@ -1433,3 +1433,7 @@
 ## entry 342
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 343
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
