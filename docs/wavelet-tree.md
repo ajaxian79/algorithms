@@ -1303,3 +1303,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 326
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 327
+
+Euler tour flattens a tree into an array for range-query LCA.
