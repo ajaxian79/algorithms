@@ -57,3 +57,4 @@ MunitTest single_number_tests[] = {
 // edge note 26: 32-bit safe; overflow is checked at each step.
 // edge note 27: Three passes total; the third merges results.
 // edge note 28: Edge case: power-of-two-length input → no padding required.
+// edge note 29: Idempotent — calling twice with the same input is a no-op the second time.
