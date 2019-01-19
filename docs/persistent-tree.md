@@ -1375,3 +1375,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 344
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 345
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
