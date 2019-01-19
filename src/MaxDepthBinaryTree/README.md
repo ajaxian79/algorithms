@@ -1881,3 +1881,7 @@ Caller owns the returned buffer.
 ## entry 456
 
 Uses a small fixed-size lookup table.
+
+## entry 457
+
+No allocations on the hot path.
