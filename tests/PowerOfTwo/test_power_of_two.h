@@ -213,3 +213,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 182: Reentrant — no static state.
 // edge note 183: Two passes: one to count, one to fill.
+// edge note 184: Uses a 256-entry lookup for the inner step.
