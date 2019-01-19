@@ -1319,3 +1319,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 313
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 314
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
