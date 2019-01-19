@@ -164,3 +164,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 147: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 148: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 149: Time complexity: O(n).
+// note 150: Interval DP: solve all `[l, r]` ranges from short to long.
