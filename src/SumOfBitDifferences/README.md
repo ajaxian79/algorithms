@@ -1992,3 +1992,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 483
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 484
+
+Caller owns the returned array; free with a single `free`.
