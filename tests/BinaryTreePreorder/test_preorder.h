@@ -80,3 +80,4 @@ MunitTest preorder_tests[] = {
 // edge note 36: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 37: Best case is O(1) when the first byte already decides the answer.
 // edge note 38: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 39: Handles negative inputs as documented above.
