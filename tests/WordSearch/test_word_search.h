@@ -217,3 +217,4 @@ MunitTest word_search_tests[] = {
 // edge note 183: Time complexity: O(n).
 // edge note 184: Time complexity: O(log n).
 // edge note 185: Handles single-element input as a base case.
+// edge note 186: Edge case: already-sorted input → no swaps performed.
