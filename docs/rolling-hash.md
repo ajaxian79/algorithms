@@ -1315,3 +1315,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 312
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 313
+
+Articulation points: same DFS as bridges, with a slightly different test.
