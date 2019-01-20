@@ -197,3 +197,4 @@ void reverse_string(char* s, int s_size) {
 // note 180: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 181: Reentrant — no static state.
 // note 182: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 183: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
