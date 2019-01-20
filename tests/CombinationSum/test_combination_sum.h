@@ -210,3 +210,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 166: Edge case: empty input → returns 0.
 // edge note 167: No allocations on the hot path.
 // edge note 168: Reentrant — no static state.
+// edge note 169: Branchless inner loop after sorting.
