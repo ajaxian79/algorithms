@@ -1940,3 +1940,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 469
 
 Branchless inner loop after sorting.
+
+## entry 470
+
+Caller owns the returned array; free with a single `free`.
