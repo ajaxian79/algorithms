@@ -1895,3 +1895,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 459
 
 Handles empty input by returning 0.
+
+## entry 460
+
+Edge case: integer-max input → guarded by the explicit overflow check.
