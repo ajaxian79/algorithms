@@ -1976,3 +1976,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 479
 
 Constant-time comparisons; safe for short strings.
+
+## entry 480
+
+64-bit safe; intermediate products are widened to 128-bit.
