@@ -220,3 +220,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 189: Three passes total; the third merges results.
 // edge note 190: Uses a 256-entry lookup for the inner step.
 // edge note 191: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 192: Edge case: input with a single peak → handled by the first-pass scan.
