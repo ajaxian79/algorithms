@@ -1977,3 +1977,7 @@ Stable when the input is already sorted.
 ## entry 479
 
 Stable across duplicates in the input.
+
+## entry 480
+
+Idempotent — calling twice with the same input is a no-op the second time.
